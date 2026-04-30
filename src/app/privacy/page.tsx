@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 export default function PrivacyPage() {
-  const lastUpdated = 'April 22, 2026';
+  const lastUpdated = 'April 29, 2026';
 
   return (
     <>
@@ -63,15 +63,48 @@ export default function PrivacyPage() {
                     data is collected in aggregate and is used to improve app performance and user
                     experience.
                   </p>
+                  <p className="mt-2">
+                    This may include device identifiers and advertising identifiers used for
+                    analytics, app functionality, and ad personalization.
+                  </p>
                   <h3 className="mb-2 mt-4 text-base font-semibold text-surface-200/90">
                     Third-Party Services
                   </h3>
                   <p>
-                    Some of our apps may use third-party services (such as Google Play Services,
-                    analytics providers, or ad networks) that may collect information. These
-                    third-party services have their own privacy policies, which we encourage you to
-                    review.
+                    Some of our apps use third-party services such as Google AdMob for
+                    advertisements, Google Play Services, Google Play Billing for in-app purchases,
+                    and RevenueCat for managing purchases and subscriptions. These services may
+                    collect information such as device identifiers, usage data, advertising
+                    identifiers, and purchase information.
                   </p>
+                  <p className="mt-2">
+                    These third-party services operate under their own privacy policies, and we
+                    encourage you to review them:
+                  </p>
+                  <ul className="ml-4 mt-2 list-disc space-y-1">
+                    <li>
+                      Google Privacy Policy:{' '}
+                      <a
+                        href="https://policies.google.com/privacy"
+                        className="text-brand-400 hover:text-brand-300"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        https://policies.google.com/privacy
+                      </a>
+                    </li>
+                    <li>
+                      RevenueCat Privacy Policy:{' '}
+                      <a
+                        href="https://www.revenuecat.com/privacy"
+                        className="text-brand-400 hover:text-brand-300"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        https://www.revenuecat.com/privacy
+                      </a>
+                    </li>
+                  </ul>
                 </div>
 
                 <div>
@@ -105,6 +138,11 @@ export default function PrivacyPage() {
                     may share anonymized, aggregate data for analytics purposes. We may disclose
                     your information if required by law or to protect our rights, safety, or
                     property.
+                  </p>
+                  <p className="mt-2">
+                    We may share limited data with trusted third-party partners such as Google
+                    AdMob for advertising, Google Play Billing for payment processing, and
+                    RevenueCat for purchase verification and subscription management.
                   </p>
                 </div>
 

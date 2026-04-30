@@ -2,6 +2,15 @@
 
 All notable changes to the Reign Creative LLC website are documented here.
 
+## [1.1.1] — 2026-04-29
+
+### Privacy Policy — Google Play Compliance
+
+- **Automatically Collected Information**: Disclosed collection of device identifiers and advertising identifiers used for analytics, app functionality, and ad personalization
+- **Third-Party Services**: Replaced generic third-party language with explicit disclosures for Google AdMob, Google Play Services, Google Play Billing, and RevenueCat, including links to the Google and RevenueCat privacy policies
+- **Data Sharing**: Added disclosure that limited data may be shared with Google AdMob (advertising), Google Play Billing (payment processing), and RevenueCat (purchase verification and subscription management)
+- **Last Updated**: Bumped to April 29, 2026
+
 ## [1.1.0] — 2026-04-22
 
 ### Security Hardening
