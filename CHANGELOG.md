@@ -2,6 +2,12 @@
 
 All notable changes to the Reign Creative LLC website are documented here.
 
+## [1.1.2] — 2026-05-19
+
+### AdMob — app-ads.txt Verification
+
+- **app-ads.txt**: Added `public/app-ads.txt` so AdMob can verify Protein Diet Tracker's publisher relationship. Served from the site root at `https://reigncreativellc.com/app-ads.txt` as plain text with the single line `google.com, pub-4872012511804466, DIRECT, f08c47fec0942fa0`. Required because the Google Play Console developer website for Protein Diet Tracker points to `https://reigncreativellc.com` and AdMob was reporting "could not find app-ads.txt" for that publisher ID.
+
 ## [1.1.1] — 2026-04-29
 
 ### Privacy Policy — Google Play Compliance

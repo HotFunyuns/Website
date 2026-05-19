@@ -7,6 +7,7 @@
 - [Layout](src/app/layout.tsx) — Root layout with global metadata and SEO
 - [Globals CSS](src/app/globals.css) — Design system tokens, glass card styles, gradients
 - [Deploy Workflow](.github/workflows/deploy.yml) — GitHub Actions auto-deploy to Pages
+- [app-ads.txt](public/app-ads.txt) — AdMob publisher verification for Protein Diet Tracker (must serve as plain text at `https://reigncreativellc.com/app-ads.txt`, single line: `google.com, pub-4872012511804466, DIRECT, f08c47fec0942fa0`). Do not wrap in HTML, do not move out of `/public`.
 
 ## Architecture
 
