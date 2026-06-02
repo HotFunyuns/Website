@@ -2,6 +2,20 @@
 
 All notable changes to the Reign Creative LLC website are documented here.
 
+## [1.1.3] — 2026-06-02
+
+### Privacy Policy — Data Retention Compliance Fix (Keto Tracker rejection)
+
+Google Play rejected Keto Tracker because the hosted privacy policy did not state how user data is retained. Updated `src/app/privacy/page.tsx`:
+
+- **Data Retention (new section 5)**: Added immediately after "Data Storage & Security" with specific retention periods, including up to **24 months** for support records. Renumbered later sections (Data Sharing → 6, Children's Privacy → 9, Your Rights → 10, Changes → 11, Contact Us → 12)
+- **Data Deletion Requests (new section 7)**: Email `ReignCreativeSupport@gmail.com` to request deletion; local data removed by deleting entries, clearing app storage, or uninstalling; clarified apps require no account creation
+- **Health & Wellness Disclaimer (new section 8)**: Apps are for general wellness/educational use only, not medical advice; advises consulting a healthcare professional before keto/fasting/major diet changes
+- **Advertising Identifier (Ad ID)**: New subsection describing AdMob use of the advertising identifier (ads, personalization where enabled, frequency capping, fraud prevention, performance measurement)
+- **On-Device App Data (Local Only)**: New subsection clarifying diet/keto entries, macros, weight/progress, reminders, streaks, and settings are stored locally and not transmitted to our servers — no cloud sync, no server-side accounts
+- **RevenueCat/subscriptions**: Removed standalone RevenueCat references and the RevenueCat privacy-policy link, and removed affirmative subscription claims (not used by current apps); billing/subscription language is now conditional
+- **Last Updated**: Bumped to June 2, 2026
+
 ## [1.1.2] — 2026-05-19
 
 ### AdMob — app-ads.txt Verification

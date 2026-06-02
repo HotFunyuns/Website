@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 export default function PrivacyPage() {
-  const lastUpdated = 'April 29, 2026';
+  const lastUpdated = 'June 2, 2026';
 
   return (
     <>
@@ -55,27 +55,43 @@ export default function PrivacyPage() {
                     respond to your inquiry.
                   </p>
                   <h3 className="mb-2 mt-4 text-base font-semibold text-surface-200/90">
+                    On-Device App Data (Local Only)
+                  </h3>
+                  <p>
+                    Diet and keto tracking entries, macro logs, weight and progress data,
+                    reminders, streaks, preferences, and settings are stored locally on your
+                    device. This data is not transmitted to or stored on our servers, and we do
+                    not provide cloud sync or server-side accounts for this information. It remains
+                    on your device until you delete entries, clear the app&apos;s storage, or
+                    uninstall the app.
+                  </p>
+                  <h3 className="mb-2 mt-4 text-base font-semibold text-surface-200/90">
                     Automatically Collected Information
                   </h3>
                   <p>
                     Our applications may collect certain information automatically, including device
-                    type, operating system version, app version, and general usage analytics. This
-                    data is collected in aggregate and is used to improve app performance and user
-                    experience.
+                    type, operating system version, app version, diagnostics, and general usage
+                    analytics. This data is used to improve app performance and user experience.
                   </p>
-                  <p className="mt-2">
-                    This may include device identifiers and advertising identifiers used for
-                    analytics, app functionality, and ad personalization.
+                  <h3 className="mb-2 mt-4 text-base font-semibold text-surface-200/90">
+                    Advertising Identifier (Ad ID)
+                  </h3>
+                  <p>
+                    Apps that display advertisements through Google AdMob may use your device&apos;s
+                    advertising identifier. This identifier may be used for showing ads, ad
+                    personalization where enabled, frequency capping, fraud prevention, and
+                    measuring ad performance. You can reset or limit your advertising identifier in
+                    your device settings.
                   </p>
                   <h3 className="mb-2 mt-4 text-base font-semibold text-surface-200/90">
                     Third-Party Services
                   </h3>
                   <p>
                     Some of our apps use third-party services such as Google AdMob for
-                    advertisements, Google Play Services, Google Play Billing for in-app purchases,
-                    and RevenueCat for managing purchases and subscriptions. These services may
-                    collect information such as device identifiers, usage data, advertising
-                    identifiers, and purchase information.
+                    advertisements, Google Play Services, and Google Play Billing for in-app
+                    purchases where an app offers them. These services may collect information such
+                    as device identifiers, usage data, advertising identifiers, and purchase
+                    information.
                   </p>
                   <p className="mt-2">
                     These third-party services operate under their own privacy policies, and we
@@ -91,17 +107,6 @@ export default function PrivacyPage() {
                         rel="noopener noreferrer"
                       >
                         https://policies.google.com/privacy
-                      </a>
-                    </li>
-                    <li>
-                      RevenueCat Privacy Policy:{' '}
-                      <a
-                        href="https://www.revenuecat.com/privacy"
-                        className="text-brand-400 hover:text-brand-300"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        https://www.revenuecat.com/privacy
                       </a>
                     </li>
                   </ul>
@@ -132,7 +137,73 @@ export default function PrivacyPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">5. Data Sharing</h2>
+                  <h2 className="mb-3 text-xl font-semibold text-white">5. Data Retention</h2>
+                  <p>
+                    We retain personal information only for as long as necessary to provide our
+                    Services, comply with legal obligations, resolve disputes, prevent abuse, and
+                    enforce our agreements.
+                  </p>
+                  <p className="mt-2">
+                    <strong className="font-semibold text-surface-200/90">Local app data:</strong>{' '}
+                    Diet tracking entries, keto progress, macro logs, preferences, reminders,
+                    streaks, and settings are stored locally on the user&apos;s device unless a
+                    feature clearly states that cloud storage is being used. Local app data remains
+                    on the device until the user deletes entries, clears app storage, or uninstalls
+                    the app.
+                  </p>
+                  <p className="mt-2">
+                    <strong className="font-semibold text-surface-200/90">Support data:</strong>{' '}
+                    If a user contacts us for support, we may retain the user&apos;s name, email
+                    address, message content, and related support records for up to 24 months after
+                    the last interaction, unless a longer period is required for legal, security, or
+                    dispute-resolution purposes.
+                  </p>
+                  <p className="mt-2">
+                    <strong className="font-semibold text-surface-200/90">
+                      Purchase/subscription data:
+                    </strong>{' '}
+                    If the app uses Google Play Billing or another purchase provider, purchase status
+                    and transaction-related information may be retained for as long as necessary to
+                    provide access to purchased features, comply with tax/accounting/legal
+                    obligations, prevent fraud, and resolve billing disputes.
+                  </p>
+                  <p className="mt-2">
+                    <strong className="font-semibold text-surface-200/90">
+                      Advertising and analytics data:
+                    </strong>{' '}
+                    Advertising identifiers, device information, diagnostics, app version, usage
+                    data, and analytics data may be collected and retained by third-party providers
+                    such as Google AdMob, Google Play Services, Google Play Billing, and RevenueCat
+                    if used. These providers retain data according to their own privacy policies.
+                  </p>
+                  <p className="mt-2">
+                    <strong className="font-semibold text-surface-200/90">
+                      Legal/security records:
+                    </strong>{' '}
+                    We may retain limited information for longer where necessary to comply with legal
+                    obligations, enforce our terms, prevent fraud or abuse, maintain security, or
+                    resolve disputes.
+                  </p>
+                  <p className="mt-2">
+                    When information is no longer needed, we delete it, anonymize it, or securely
+                    retain it only as required by law.
+                  </p>
+                  <p className="mt-2">
+                    Users may contact us at{' '}
+                    <a
+                      href="mailto:ReignCreativeSupport@gmail.com"
+                      className="text-brand-400 hover:text-brand-300"
+                      rel="noopener noreferrer"
+                    >
+                      ReignCreativeSupport@gmail.com
+                    </a>{' '}
+                    to request access, correction, or deletion of personal information associated
+                    with their use of our Services.
+                  </p>
+                </div>
+
+                <div>
+                  <h2 className="mb-3 text-xl font-semibold text-white">6. Data Sharing</h2>
                   <p>
                     We do not sell, trade, or rent your personal information to third parties. We
                     may share anonymized, aggregate data for analytics purposes. We may disclose
@@ -141,13 +212,63 @@ export default function PrivacyPage() {
                   </p>
                   <p className="mt-2">
                     We may share limited data with trusted third-party partners such as Google
-                    AdMob for advertising, Google Play Billing for payment processing, and
-                    RevenueCat for purchase verification and subscription management.
+                    AdMob for advertising and Google Play Billing for payment processing where an
+                    app offers in-app purchases.
                   </p>
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">6. Children&apos;s Privacy</h2>
+                  <h2 className="mb-3 text-xl font-semibold text-white">
+                    7. Data Deletion Requests
+                  </h2>
+                  <p>
+                    Our apps do not require you to create an account, and we do not maintain online
+                    user profiles for them. Because your tracking data is stored locally, you remain
+                    in control of it at all times.
+                  </p>
+                  <ul className="ml-4 mt-2 list-disc space-y-2">
+                    <li>
+                      You can delete your local app data at any time by deleting individual entries,
+                      clearing the app&apos;s storage in your device settings, or uninstalling the
+                      app.
+                    </li>
+                    <li>
+                      To request deletion of any personal information we may hold (such as support
+                      correspondence), email{' '}
+                      <a
+                        href="mailto:ReignCreativeSupport@gmail.com"
+                        className="text-brand-400 hover:text-brand-300"
+                        rel="noopener noreferrer"
+                      >
+                        ReignCreativeSupport@gmail.com
+                      </a>{' '}
+                      and we will respond within a reasonable timeframe.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h2 className="mb-3 text-xl font-semibold text-white">
+                    8. Health &amp; Wellness Disclaimer
+                  </h2>
+                  <p>
+                    Our health and wellness applications, including Keto Tracker, are provided for
+                    general wellness and educational purposes only. They are not medical advice,
+                    diagnosis, or treatment, and they are not a substitute for professional medical
+                    guidance.
+                  </p>
+                  <p className="mt-2">
+                    You should consult a qualified healthcare professional before starting a keto
+                    diet, fasting, or any major dietary change, or before relying on the app for any
+                    medical condition. This is especially important if you have or have had
+                    diabetes, are pregnant, have a history of an eating disorder, have kidney
+                    disease, take medication, or have any other health condition. Use of the app is
+                    at your own discretion and risk.
+                  </p>
+                </div>
+
+                <div>
+                  <h2 className="mb-3 text-xl font-semibold text-white">9. Children&apos;s Privacy</h2>
                   <p>
                     Our Services are not directed to children under 13. We do not knowingly collect
                     personal information from children under 13. If you believe we have collected
@@ -157,7 +278,7 @@ export default function PrivacyPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">7. Your Rights</h2>
+                  <h2 className="mb-3 text-xl font-semibold text-white">10. Your Rights</h2>
                   <p>
                     Depending on your jurisdiction, you may have the right to access, correct,
                     delete, or restrict the processing of your personal information. To exercise
@@ -167,7 +288,7 @@ export default function PrivacyPage() {
 
                 <div>
                   <h2 className="mb-3 text-xl font-semibold text-white">
-                    8. Changes to This Policy
+                    11. Changes to This Policy
                   </h2>
                   <p>
                     We may update this Privacy Policy from time to time. We will notify users of
@@ -177,7 +298,7 @@ export default function PrivacyPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">9. Contact Us</h2>
+                  <h2 className="mb-3 text-xl font-semibold text-white">12. Contact Us</h2>
                   <p>
                     If you have questions or concerns about this Privacy Policy, please contact us
                     at:
