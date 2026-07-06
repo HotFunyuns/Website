@@ -1,45 +1,30 @@
-'use client';
-
-import { motion } from 'framer-motion';
-
 interface PageHeaderProps {
-  title: string;
+  eyebrow: string;
+  title: React.ReactNode;
   description?: string;
+  children?: React.ReactNode;
 }
 
-export default function PageHeader({ title, description }: PageHeaderProps) {
+export default function PageHeader({ eyebrow, title, description, children }: PageHeaderProps) {
   return (
-    <section className="hero-gradient relative overflow-hidden pb-16 pt-36 sm:pb-20 sm:pt-40">
-      <div className="glow-orb left-1/3 top-1/3 h-64 w-64 bg-brand-500/15 animate-pulse-glow" />
-
+    <section className="relative overflow-hidden bg-white pb-14 pt-32 sm:pt-40">
+      <div className="hero-streaks opacity-60" aria-hidden="true" />
       <div
-        className="absolute inset-0 opacity-[0.02]"
-        style={{
-          backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)`,
-          backgroundSize: '64px 64px',
-        }}
+        aria-hidden="true"
+        className="bg-dot-grid absolute inset-0 [mask-image:radial-gradient(ellipse_60%_80%_at_30%_20%,black,transparent)]"
       />
 
-      <div className="container-narrow relative z-10 mx-auto px-4 text-center sm:px-6 lg:px-8">
-        <motion.h1
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          className="text-balance text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl"
-        >
-          {title}
-        </motion.h1>
-        {description && (
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="mx-auto mt-4 max-w-2xl text-balance text-lg text-surface-200/60"
-          >
-            {description}
-          </motion.p>
-        )}
+      <div className="container-wide relative mx-auto px-5 sm:px-8 lg:px-10">
+        <div className="hero-stagger max-w-3xl">
+          <p className="eyebrow">{eyebrow}</p>
+          <h1 className="display-title mt-5 text-balance text-4xl leading-[1.1] sm:text-5xl">
+            {title}
+          </h1>
+          {description && (
+            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink-500">{description}</p>
+          )}
+          {children && <div className="mt-8">{children}</div>}
+        </div>
       </div>
     </section>
   );

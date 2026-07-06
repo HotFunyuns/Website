@@ -1,81 +1,111 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import PageHeader from '@/components/PageHeader';
-import AnimatedSection from '@/components/AnimatedSection';
+import Reveal from '@/components/Reveal';
 import { apps, companyInfo } from '@/data/apps';
 
 export const metadata: Metadata = {
-  title: 'Developer Information',
+  title: 'Developer Information — Reign Creative LLC',
   description:
     'Official developer and app support information for Reign Creative LLC. Company details, app portfolio, and support resources.',
+  alternates: { canonical: '/app-support/' },
+  openGraph: {
+    title: 'Developer Information — Reign Creative LLC',
+    description:
+      'Official developer and app support information for Reign Creative LLC. Company details, app portfolio, and support resources.',
+    url: `${companyInfo.siteUrl}/app-support/`,
+    images: [
+      {
+        url: `${companyInfo.siteUrl}/opengraph-image.png`,
+        width: 1200,
+        height: 630,
+        alt: 'Reign Creative LLC — Premium Mobile Apps for Android',
+      },
+    ],
+  },
 };
 
 export default function AppSupportPage() {
   return (
     <>
       <PageHeader
-        title="Developer Information"
+        eyebrow="Official Details"
+        title={
+          <>
+            Developer <em className="gold-text not-italic">Information</em>
+          </>
+        }
         description="Official company and app support details for Reign Creative LLC."
       />
 
-      <section className="section-padding">
+      <section className="section-padding !pt-8">
         <div className="container-narrow mx-auto space-y-8">
           {/* Company Details */}
-          <AnimatedSection>
-            <div className="glass-card p-8 sm:p-10">
-              <h2 className="mb-6 text-2xl font-bold text-white">Company Information</h2>
+          <Reveal>
+            <div className="card-premium p-8 sm:p-10">
+              <h2 className="mb-7 font-display text-2xl font-semibold text-ink-950">
+                Company Information
+              </h2>
               <div className="grid gap-6 sm:grid-cols-2">
                 <div>
-                  <h3 className="mb-1 text-xs font-semibold uppercase tracking-wider text-surface-200/40">
+                  <h3 className="mb-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-ink-400">
                     Company Name
                   </h3>
-                  <p className="text-lg font-medium text-white">{companyInfo.name}</p>
+                  <p className="font-medium text-ink-950">{companyInfo.name}</p>
                 </div>
                 <div>
-                  <h3 className="mb-1 text-xs font-semibold uppercase tracking-wider text-surface-200/40">
+                  <h3 className="mb-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-ink-400">
                     Official Website
                   </h3>
-                  <p className="text-lg font-medium text-white">{companyInfo.domain}</p>
+                  <p className="font-medium text-ink-950">{companyInfo.domain}</p>
                 </div>
                 <div>
-                  <h3 className="mb-1 text-xs font-semibold uppercase tracking-wider text-surface-200/40">
+                  <h3 className="mb-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-ink-400">
                     Support Email
                   </h3>
                   <a
                     href={`mailto:${companyInfo.supportEmail}`}
-                    className="text-lg font-medium text-brand-400 transition-colors hover:text-brand-300"
+                    className="link-accent break-all font-medium"
                     rel="noopener noreferrer"
                   >
                     {companyInfo.supportEmail}
                   </a>
                 </div>
                 <div>
-                  <h3 className="mb-1 text-xs font-semibold uppercase tracking-wider text-surface-200/40">
-                    Type
+                  <h3 className="mb-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-ink-400">
+                    Google Play Developer
                   </h3>
-                  <p className="text-lg font-medium text-white">
-                    Mobile App Development Company
-                  </p>
+                  <a
+                    href={companyInfo.developerPageUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-accent font-medium"
+                  >
+                    {companyInfo.developerName}
+                  </a>
                 </div>
               </div>
             </div>
-          </AnimatedSection>
+          </Reveal>
 
           {/* Support Statement */}
-          <AnimatedSection delay={0.1}>
-            <div className="glass-card p-8 sm:p-10">
-              <h2 className="mb-4 text-2xl font-bold text-white">User Support</h2>
-              <div className="space-y-3 text-surface-200/70 leading-relaxed">
+          <Reveal delay={100}>
+            <div className="card-premium p-8 sm:p-10">
+              <h2 className="mb-4 font-display text-2xl font-semibold text-ink-950">
+                User Support
+              </h2>
+              <div className="space-y-3 leading-relaxed text-ink-600">
                 <p>
                   {companyInfo.name} is committed to providing responsive support for all of our
-                  published applications. Users can contact us for assistance with app functionality,
-                  bug reports, feature requests, account issues, or any other concerns.
+                  published applications. Users can contact us for assistance with app
+                  functionality, bug reports, feature requests, account issues, or any other
+                  concerns.
                 </p>
                 <p>
                   All support inquiries can be directed to{' '}
                   <a
                     href={`mailto:${companyInfo.supportEmail}`}
-                    className="text-brand-400 hover:text-brand-300"
+                    className="link-accent"
                     rel="noopener noreferrer"
                   >
                     {companyInfo.supportEmail}
@@ -84,69 +114,79 @@ export default function AppSupportPage() {
                 </p>
               </div>
             </div>
-          </AnimatedSection>
+          </Reveal>
 
           {/* Apps List */}
-          <AnimatedSection delay={0.15}>
-            <div className="glass-card p-8 sm:p-10">
-              <h2 className="mb-6 text-2xl font-bold text-white">
-                Applications & Products
+          <Reveal delay={150}>
+            <div className="card-premium p-8 sm:p-10">
+              <h2 className="mb-7 font-display text-2xl font-semibold text-ink-950">
+                Applications &amp; Products
               </h2>
-              <div className="space-y-3">
+              <ul className="space-y-3">
                 {apps.map((app) => (
-                  <div
-                    key={app.id}
-                    className="flex items-center justify-between rounded-xl border border-white/5 bg-white/[0.02] px-4 py-3 transition-colors hover:bg-white/[0.04]"
+                  <li
+                    key={app.slug}
+                    className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-ink-100 bg-cream-50 px-4 py-3 transition-colors hover:border-gold-300"
                   >
-                    <div className="flex items-center gap-3">
-                      <span
-                        className={`flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br ${app.gradient} text-sm`}
-                      >
-                        {app.icon}
-                      </span>
-                      <div>
-                        <p className="text-sm font-medium text-white">{app.name}</p>
-                        <p className="text-xs text-surface-200/40">{app.category}</p>
+                    <div className="flex min-w-0 items-center gap-3.5">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={app.iconSmall}
+                        alt=""
+                        width={40}
+                        height={40}
+                        loading="lazy"
+                        decoding="async"
+                        className="h-10 w-10 shrink-0 rounded-lg shadow-icon-tile ring-1 ring-ink-950/10"
+                      />
+                      <div className="min-w-0">
+                        <Link
+                          href={`/apps/${app.slug}/`}
+                          className="block truncate text-sm font-semibold text-ink-950 transition-colors hover:text-crimson-600"
+                        >
+                          {app.name}
+                        </Link>
+                        <p className="text-xs text-ink-400">{app.category}</p>
                       </div>
                     </div>
-                    <span
-                      className={`rounded-full border px-2.5 py-0.5 text-xs font-medium ${
-                        app.status === 'Published'
-                          ? 'border-green-400/30 bg-green-400/10 text-green-300'
-                          : app.status === 'In Development'
-                          ? 'border-amber-400/30 bg-amber-400/10 text-amber-300'
-                          : 'border-blue-400/30 bg-blue-400/10 text-blue-300'
-                      }`}
+                    <a
+                      href={app.playStoreUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="pill transition-colors hover:border-gold-500"
                     >
-                      {app.status}
-                    </span>
-                  </div>
+                      Google Play
+                      <span className="sr-only"> — {app.name} (opens in a new tab)</span>
+                    </a>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </div>
-          </AnimatedSection>
+          </Reveal>
 
           {/* Policies */}
-          <AnimatedSection delay={0.2}>
-            <div className="glass-card p-8 sm:p-10">
-              <h2 className="mb-4 text-2xl font-bold text-white">Policies & Legal</h2>
-              <p className="mb-6 text-surface-200/70">
+          <Reveal delay={200}>
+            <div className="card-premium p-8 sm:p-10">
+              <h2 className="mb-4 font-display text-2xl font-semibold text-ink-950">
+                Policies &amp; Legal
+              </h2>
+              <p className="mb-7 leading-relaxed text-ink-600">
                 Our policies are publicly available and apply to all users of our applications and
                 website. We encourage all users to review them.
               </p>
-              <div className="flex flex-wrap gap-4">
-                <Link href="/privacy/" className="btn-secondary px-6 py-2.5 text-sm">
+              <div className="flex flex-wrap gap-3">
+                <Link href="/privacy/" className="btn-outline btn-sm">
                   Privacy Policy
                 </Link>
-                <Link href="/terms/" className="btn-secondary px-6 py-2.5 text-sm">
+                <Link href="/terms/" className="btn-outline btn-sm">
                   Terms of Service
                 </Link>
-                <Link href="/support/" className="btn-secondary px-6 py-2.5 text-sm">
+                <Link href="/support/" className="btn-outline btn-sm">
                   Contact Support
                 </Link>
               </div>
             </div>
-          </AnimatedSection>
+          </Reveal>
         </div>
       </section>
     </>

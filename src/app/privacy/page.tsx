@@ -1,13 +1,31 @@
 import type { Metadata } from 'next';
 import PageHeader from '@/components/PageHeader';
-import AnimatedSection from '@/components/AnimatedSection';
+import Reveal from '@/components/Reveal';
 import { companyInfo } from '@/data/apps';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy',
+  title: 'Privacy Policy — Reign Creative LLC',
   description:
     'Privacy Policy for Reign Creative LLC and its mobile applications. Learn how we collect, use, and protect your information.',
+  alternates: { canonical: '/privacy/' },
+  openGraph: {
+    title: 'Privacy Policy — Reign Creative LLC',
+    description:
+      'Privacy Policy for Reign Creative LLC and its mobile applications. Learn how we collect, use, and protect your information.',
+    url: `${companyInfo.siteUrl}/privacy/`,
+    images: [
+      {
+        url: `${companyInfo.siteUrl}/opengraph-image.png`,
+        width: 1200,
+        height: 630,
+        alt: 'Reign Creative LLC — Premium Mobile Apps for Android',
+      },
+    ],
+  },
 };
+
+const h2Classes = 'mb-3 font-display text-xl font-semibold text-ink-950';
+const h3Classes = 'mb-2 mt-4 text-base font-semibold text-ink-800';
 
 export default function PrivacyPage() {
   const lastUpdated = 'June 2, 2026';
@@ -15,19 +33,24 @@ export default function PrivacyPage() {
   return (
     <>
       <PageHeader
-        title="Privacy Policy"
+        eyebrow="Legal"
+        title={
+          <>
+            Privacy <em className="gold-text not-italic">Policy</em>
+          </>
+        }
         description="Your privacy matters to us. This policy explains how we handle your information."
       />
 
-      <section className="section-padding">
+      <section className="section-padding !pt-8">
         <div className="container-narrow mx-auto">
-          <AnimatedSection>
-            <div className="glass-card p-8 sm:p-10">
-              <p className="mb-8 text-sm text-surface-200/40">Last Updated: {lastUpdated}</p>
+          <Reveal>
+            <div className="card-premium p-8 sm:p-12">
+              <p className="mb-8 text-sm font-medium text-ink-400">Last Updated: {lastUpdated}</p>
 
-              <div className="prose-invert space-y-8 text-surface-200/70 leading-relaxed">
+              <div className="space-y-10 leading-relaxed text-ink-600">
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">1. Introduction</h2>
+                  <h2 className={h2Classes}>1. Introduction</h2>
                   <p>
                     {companyInfo.name} (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) is committed to
                     protecting your privacy. This Privacy Policy explains how we collect, use,
@@ -43,20 +66,14 @@ export default function PrivacyPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">
-                    2. Information We Collect
-                  </h2>
-                  <h3 className="mb-2 mt-4 text-base font-semibold text-surface-200/90">
-                    Information You Provide
-                  </h3>
+                  <h2 className={h2Classes}>2. Information We Collect</h2>
+                  <h3 className={h3Classes}>Information You Provide</h3>
                   <p>
                     When you contact us for support or send us a message, you may provide personal
                     information such as your name and email address. We only use this information to
                     respond to your inquiry.
                   </p>
-                  <h3 className="mb-2 mt-4 text-base font-semibold text-surface-200/90">
-                    On-Device App Data (Local Only)
-                  </h3>
+                  <h3 className={h3Classes}>On-Device App Data (Local Only)</h3>
                   <p>
                     Diet and keto tracking entries, macro logs, weight and progress data,
                     reminders, streaks, preferences, and settings are stored locally on your
@@ -65,17 +82,13 @@ export default function PrivacyPage() {
                     on your device until you delete entries, clear the app&apos;s storage, or
                     uninstall the app.
                   </p>
-                  <h3 className="mb-2 mt-4 text-base font-semibold text-surface-200/90">
-                    Automatically Collected Information
-                  </h3>
+                  <h3 className={h3Classes}>Automatically Collected Information</h3>
                   <p>
                     Our applications may collect certain information automatically, including device
                     type, operating system version, app version, diagnostics, and general usage
                     analytics. This data is used to improve app performance and user experience.
                   </p>
-                  <h3 className="mb-2 mt-4 text-base font-semibold text-surface-200/90">
-                    Advertising Identifier (Ad ID)
-                  </h3>
+                  <h3 className={h3Classes}>Advertising Identifier (Ad ID)</h3>
                   <p>
                     Apps that display advertisements through Google AdMob may use your device&apos;s
                     advertising identifier. This identifier may be used for showing ads, ad
@@ -83,9 +96,7 @@ export default function PrivacyPage() {
                     measuring ad performance. You can reset or limit your advertising identifier in
                     your device settings.
                   </p>
-                  <h3 className="mb-2 mt-4 text-base font-semibold text-surface-200/90">
-                    Third-Party Services
-                  </h3>
+                  <h3 className={h3Classes}>Third-Party Services</h3>
                   <p>
                     Some of our apps use third-party services such as Google AdMob for
                     advertisements, Google Play Services, and Google Play Billing for in-app
@@ -102,7 +113,7 @@ export default function PrivacyPage() {
                       Google Privacy Policy:{' '}
                       <a
                         href="https://policies.google.com/privacy"
-                        className="text-brand-400 hover:text-brand-300"
+                        className="link-accent"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -113,9 +124,7 @@ export default function PrivacyPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">
-                    3. How We Use Your Information
-                  </h2>
+                  <h2 className={h2Classes}>3. How We Use Your Information</h2>
                   <ul className="ml-4 list-disc space-y-2">
                     <li>To provide, maintain, and improve our Services</li>
                     <li>To respond to your support requests and inquiries</li>
@@ -126,7 +135,7 @@ export default function PrivacyPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">4. Data Storage & Security</h2>
+                  <h2 className={h2Classes}>4. Data Storage &amp; Security</h2>
                   <p>
                     We take the security of your data seriously. We implement industry-standard
                     security measures to protect your information from unauthorized access,
@@ -137,14 +146,14 @@ export default function PrivacyPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">5. Data Retention</h2>
+                  <h2 className={h2Classes}>5. Data Retention</h2>
                   <p>
                     We retain personal information only for as long as necessary to provide our
                     Services, comply with legal obligations, resolve disputes, prevent abuse, and
                     enforce our agreements.
                   </p>
                   <p className="mt-2">
-                    <strong className="font-semibold text-surface-200/90">Local app data:</strong>{' '}
+                    <strong className="font-semibold text-ink-800">Local app data:</strong>{' '}
                     Diet tracking entries, keto progress, macro logs, preferences, reminders,
                     streaks, and settings are stored locally on the user&apos;s device unless a
                     feature clearly states that cloud storage is being used. Local app data remains
@@ -152,14 +161,14 @@ export default function PrivacyPage() {
                     the app.
                   </p>
                   <p className="mt-2">
-                    <strong className="font-semibold text-surface-200/90">Support data:</strong>{' '}
+                    <strong className="font-semibold text-ink-800">Support data:</strong>{' '}
                     If a user contacts us for support, we may retain the user&apos;s name, email
                     address, message content, and related support records for up to 24 months after
                     the last interaction, unless a longer period is required for legal, security, or
                     dispute-resolution purposes.
                   </p>
                   <p className="mt-2">
-                    <strong className="font-semibold text-surface-200/90">
+                    <strong className="font-semibold text-ink-800">
                       Purchase/subscription data:
                     </strong>{' '}
                     If the app uses Google Play Billing or another purchase provider, purchase status
@@ -168,7 +177,7 @@ export default function PrivacyPage() {
                     obligations, prevent fraud, and resolve billing disputes.
                   </p>
                   <p className="mt-2">
-                    <strong className="font-semibold text-surface-200/90">
+                    <strong className="font-semibold text-ink-800">
                       Advertising and analytics data:
                     </strong>{' '}
                     Advertising identifiers, device information, diagnostics, app version, usage
@@ -177,7 +186,7 @@ export default function PrivacyPage() {
                     if used. These providers retain data according to their own privacy policies.
                   </p>
                   <p className="mt-2">
-                    <strong className="font-semibold text-surface-200/90">
+                    <strong className="font-semibold text-ink-800">
                       Legal/security records:
                     </strong>{' '}
                     We may retain limited information for longer where necessary to comply with legal
@@ -192,7 +201,7 @@ export default function PrivacyPage() {
                     Users may contact us at{' '}
                     <a
                       href="mailto:ReignCreativeSupport@gmail.com"
-                      className="text-brand-400 hover:text-brand-300"
+                      className="link-accent"
                       rel="noopener noreferrer"
                     >
                       ReignCreativeSupport@gmail.com
@@ -203,7 +212,7 @@ export default function PrivacyPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">6. Data Sharing</h2>
+                  <h2 className={h2Classes}>6. Data Sharing</h2>
                   <p>
                     We do not sell, trade, or rent your personal information to third parties. We
                     may share anonymized, aggregate data for analytics purposes. We may disclose
@@ -218,9 +227,7 @@ export default function PrivacyPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">
-                    7. Data Deletion Requests
-                  </h2>
+                  <h2 className={h2Classes}>7. Data Deletion Requests</h2>
                   <p>
                     Our apps do not require you to create an account, and we do not maintain online
                     user profiles for them. Because your tracking data is stored locally, you remain
@@ -237,7 +244,7 @@ export default function PrivacyPage() {
                       correspondence), email{' '}
                       <a
                         href="mailto:ReignCreativeSupport@gmail.com"
-                        className="text-brand-400 hover:text-brand-300"
+                        className="link-accent"
                         rel="noopener noreferrer"
                       >
                         ReignCreativeSupport@gmail.com
@@ -248,9 +255,7 @@ export default function PrivacyPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">
-                    8. Health &amp; Wellness Disclaimer
-                  </h2>
+                  <h2 className={h2Classes}>8. Health &amp; Wellness Disclaimer</h2>
                   <p>
                     Our health and wellness applications, including Keto Tracker, are provided for
                     general wellness and educational purposes only. They are not medical advice,
@@ -268,7 +273,7 @@ export default function PrivacyPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">9. Children&apos;s Privacy</h2>
+                  <h2 className={h2Classes}>9. Children&apos;s Privacy</h2>
                   <p>
                     Our Services are not directed to children under 13. We do not knowingly collect
                     personal information from children under 13. If you believe we have collected
@@ -278,7 +283,7 @@ export default function PrivacyPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">10. Your Rights</h2>
+                  <h2 className={h2Classes}>10. Your Rights</h2>
                   <p>
                     Depending on your jurisdiction, you may have the right to access, correct,
                     delete, or restrict the processing of your personal information. To exercise
@@ -287,9 +292,7 @@ export default function PrivacyPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">
-                    11. Changes to This Policy
-                  </h2>
+                  <h2 className={h2Classes}>11. Changes to This Policy</h2>
                   <p>
                     We may update this Privacy Policy from time to time. We will notify users of
                     any material changes by posting the new policy on this page and updating the
@@ -298,18 +301,18 @@ export default function PrivacyPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">12. Contact Us</h2>
+                  <h2 className={h2Classes}>12. Contact Us</h2>
                   <p>
                     If you have questions or concerns about this Privacy Policy, please contact us
                     at:
                   </p>
-                  <div className="mt-3 rounded-xl border border-white/10 bg-white/5 p-4">
-                    <p className="font-medium text-white">{companyInfo.name}</p>
+                  <div className="mt-4 rounded-xl border border-ink-100 bg-cream-50 p-5">
+                    <p className="font-semibold text-ink-950">{companyInfo.name}</p>
                     <p className="mt-1">
                       Email:{' '}
                       <a
                         href={`mailto:${companyInfo.supportEmail}`}
-                        className="text-brand-400 hover:text-brand-300"
+                        className="link-accent"
                         rel="noopener noreferrer"
                       >
                         {companyInfo.supportEmail}
@@ -320,7 +323,7 @@ export default function PrivacyPage() {
                 </div>
               </div>
             </div>
-          </AnimatedSection>
+          </Reveal>
         </div>
       </section>
     </>

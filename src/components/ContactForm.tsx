@@ -1,13 +1,13 @@
 'use client';
 
-import { useState, useCallback, useRef, type FormEvent } from 'react';
-import { companyInfo } from '@/data/apps';
+import { useRef, useState, type FormEvent } from 'react';
+import { apps, companyInfo } from '@/data/apps';
 
 const MAX_NAME_LENGTH = 100;
-const MAX_EMAIL_LENGTH = 254;
-const MAX_SUBJECT_LENGTH = 200;
 const MAX_MESSAGE_LENGTH = 5000;
 const SUBMIT_COOLDOWN_MS = 3000;
+
+const topics = ['General Support', 'App Feedback', 'Technical Issue', 'Privacy Question'] as const;
 
 function sanitizeText(input: string): string {
   return input
@@ -18,215 +18,181 @@ function sanitizeText(input: string): string {
     .trim();
 }
 
-function isValidEmail(email: string): boolean {
-  if (email.length > MAX_EMAIL_LENGTH) return false;
-  return /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/.test(email);
-}
+const fieldClasses =
+  'w-full rounded-xl border border-ink-300 bg-white px-4 py-3 text-sm text-ink-900 placeholder-ink-400 transition-colors focus:border-gold-500 focus:outline-none focus:ring-2 focus:ring-gold-300/60';
 
-interface ContactFormData {
-  name: string;
-  email: string;
-  subject: string;
-  message: string;
-}
+const labelClasses = 'mb-2 block text-xs font-semibold uppercase tracking-[0.14em] text-ink-600';
 
 export default function ContactForm() {
-  const [form, setForm] = useState<ContactFormData>({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
-  });
+  const [name, setName] = useState('');
+  const [appName, setAppName] = useState('General / Website');
+  const [topic, setTopic] = useState<(typeof topics)[number]>('General Support');
+  const [message, setMessage] = useState('');
   const [honeypot, setHoneypot] = useState('');
-  const [errors, setErrors] = useState<Partial<ContactFormData>>({});
+  const [error, setError] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const lastSubmitTime = useRef(0);
 
-  const validate = useCallback((): boolean => {
-    const newErrors: Partial<ContactFormData> = {};
-
-    const name = sanitizeText(form.name);
-    if (!name) newErrors.name = 'Name is required.';
-    else if (name.length > MAX_NAME_LENGTH)
-      newErrors.name = `Name must be under ${MAX_NAME_LENGTH} characters.`;
-
-    const email = sanitizeText(form.email);
-    if (!email) newErrors.email = 'Email is required.';
-    else if (!isValidEmail(email)) newErrors.email = 'Please enter a valid email address.';
-
-    const subject = sanitizeText(form.subject);
-    if (!subject) newErrors.subject = 'Subject is required.';
-    else if (subject.length > MAX_SUBJECT_LENGTH)
-      newErrors.subject = `Subject must be under ${MAX_SUBJECT_LENGTH} characters.`;
-
-    const message = sanitizeText(form.message);
-    if (!message) newErrors.message = 'Message is required.';
-    else if (message.length > MAX_MESSAGE_LENGTH)
-      newErrors.message = `Message must be under ${MAX_MESSAGE_LENGTH} characters.`;
-
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
-  }, [form]);
-
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-
-    // Honeypot: if filled, silently reject (bots fill hidden fields)
     if (honeypot) return;
 
-    // Rate limit: prevent rapid re-submission
     const now = Date.now();
     if (now - lastSubmitTime.current < SUBMIT_COOLDOWN_MS) return;
 
-    if (!validate()) return;
+    const cleanMessage = sanitizeText(message);
+    if (!cleanMessage) {
+      setError('Please write a short message so we can help.');
+      return;
+    }
+    if (cleanMessage.length > MAX_MESSAGE_LENGTH) {
+      setError(`Message must be under ${MAX_MESSAGE_LENGTH} characters.`);
+      return;
+    }
 
+    setError('');
     lastSubmitTime.current = now;
 
-    const sanitizedSubject = encodeURIComponent(sanitizeText(form.subject));
-    const sanitizedBody = encodeURIComponent(
-      `Name: ${sanitizeText(form.name)}\nEmail: ${sanitizeText(form.email)}\n\n${sanitizeText(form.message)}`
+    const cleanName = sanitizeText(name).slice(0, MAX_NAME_LENGTH);
+    const subject = encodeURIComponent(`${topic} — ${appName}`);
+    const body = encodeURIComponent(
+      `Hi Reign Creative team,\n\n${cleanMessage}\n\n—\nName: ${cleanName || 'Not provided'}\nApp: ${appName}\nTopic: ${topic}\n(For technical issues, it helps to include your device model, Android version, and app version.)`
     );
 
-    window.location.href = `mailto:${companyInfo.supportEmail}?subject=${sanitizedSubject}&body=${sanitizedBody}`;
+    window.location.href = `mailto:${companyInfo.supportEmail}?subject=${subject}&body=${body}`;
     setSubmitted(true);
-  };
-
-  const updateField = (field: keyof ContactFormData, value: string) => {
-    setForm((prev) => ({ ...prev, [field]: value }));
-    if (errors[field]) {
-      setErrors((prev) => ({ ...prev, [field]: undefined }));
-    }
   };
 
   if (submitted) {
     return (
-      <div className="glass-card p-8 text-center">
-        <div className="mb-4 text-4xl">✉️</div>
-        <h3 className="mb-2 text-xl font-semibold text-white">Opening Your Email Client</h3>
-        <p className="text-surface-200/60">
-          Your email app should open with a pre-filled message. If it doesn&apos;t, please email us
+      <div className="card-premium p-8 text-center sm:p-10">
+        <span
+          aria-hidden="true"
+          className="mx-auto flex h-14 w-14 items-center justify-center rounded-full border border-gold-300 bg-gold-50 text-2xl"
+        >
+          ✉
+        </span>
+        <h3 className="mt-5 font-display text-2xl font-semibold text-ink-950">
+          Opening your email app
+        </h3>
+        <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-ink-500">
+          Your email client should open with a pre-filled message. If it doesn&apos;t, email us
           directly at{' '}
-          <a
-            href={`mailto:${companyInfo.supportEmail}`}
-            className="text-brand-400 underline transition-colors hover:text-brand-300"
-            rel="noopener noreferrer"
-          >
+          <a href={`mailto:${companyInfo.supportEmail}`} className="link-accent">
             {companyInfo.supportEmail}
           </a>
+          .
         </p>
-        <button
-          type="button"
-          onClick={() => setSubmitted(false)}
-          className="btn-secondary mt-6"
-        >
-          Send Another Message
+        <button type="button" onClick={() => setSubmitted(false)} className="btn-outline btn-sm mt-7">
+          Send another message
         </button>
       </div>
     );
   }
 
-  const fieldClasses = (field: keyof ContactFormData) =>
-    `w-full rounded-xl border bg-white/5 px-4 py-3 text-sm text-white placeholder-surface-200/30 backdrop-blur-sm transition-colors focus:outline-none focus:ring-2 focus:ring-brand-500/50 ${
-      errors[field]
-        ? 'border-red-400/50 focus:border-red-400'
-        : 'border-white/10 focus:border-brand-400/50'
-    }`;
-
   return (
-    <form onSubmit={handleSubmit} className="glass-card space-y-5 p-6 sm:p-8" noValidate>
+    <form onSubmit={handleSubmit} className="card-premium space-y-6 p-6 sm:p-9" noValidate>
       {/* Honeypot field — hidden from users, catches automated bots */}
       <div aria-hidden="true" className="absolute -left-[9999px] -top-[9999px] h-0 w-0 overflow-hidden">
         <label htmlFor="contact-website">Website</label>
         <input
           id="contact-website"
           type="text"
-          name="website"
-          value={honeypot}
-          onChange={(e) => setHoneypot(e.target.value)}
           tabIndex={-1}
           autoComplete="off"
+          value={honeypot}
+          onChange={(e) => setHoneypot(e.target.value)}
         />
       </div>
 
-      <div className="grid gap-5 sm:grid-cols-2">
+      <div className="grid gap-6 sm:grid-cols-2">
         <div>
-          <label htmlFor="contact-name" className="mb-1.5 block text-sm font-medium text-surface-200/80">
-            Name
+          <label htmlFor="contact-name" className={labelClasses}>
+            Your name <span className="normal-case text-ink-400">(optional)</span>
           </label>
           <input
             id="contact-name"
             type="text"
-            value={form.name}
-            onChange={(e) => updateField('name', e.target.value)}
             maxLength={MAX_NAME_LENGTH}
-            className={fieldClasses('name')}
-            placeholder="Your name"
-            autoComplete="name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            placeholder="Jane Doe"
+            className={fieldClasses}
           />
-          {errors.name && <p className="mt-1 text-xs text-red-400">{errors.name}</p>}
         </div>
+
         <div>
-          <label htmlFor="contact-email" className="mb-1.5 block text-sm font-medium text-surface-200/80">
-            Email
+          <label htmlFor="contact-topic" className={labelClasses}>
+            Topic
           </label>
-          <input
-            id="contact-email"
-            type="email"
-            value={form.email}
-            onChange={(e) => updateField('email', e.target.value)}
-            maxLength={MAX_EMAIL_LENGTH}
-            className={fieldClasses('email')}
-            placeholder="you@example.com"
-            autoComplete="email"
-          />
-          {errors.email && <p className="mt-1 text-xs text-red-400">{errors.email}</p>}
+          <select
+            id="contact-topic"
+            value={topic}
+            onChange={(e) => setTopic(e.target.value as (typeof topics)[number])}
+            className={fieldClasses}
+          >
+            {topics.map((t) => (
+              <option key={t} value={t}>
+                {t}
+              </option>
+            ))}
+          </select>
         </div>
       </div>
 
       <div>
-        <label htmlFor="contact-subject" className="mb-1.5 block text-sm font-medium text-surface-200/80">
-          Subject
+        <label htmlFor="contact-app" className={labelClasses}>
+          Which app is this about?
         </label>
-        <input
-          id="contact-subject"
-          type="text"
-          value={form.subject}
-          onChange={(e) => updateField('subject', e.target.value)}
-          maxLength={MAX_SUBJECT_LENGTH}
-          className={fieldClasses('subject')}
-          placeholder="How can we help?"
-        />
-        {errors.subject && <p className="mt-1 text-xs text-red-400">{errors.subject}</p>}
+        <select
+          id="contact-app"
+          value={appName}
+          onChange={(e) => setAppName(e.target.value)}
+          className={fieldClasses}
+        >
+          <option>General / Website</option>
+          {apps.map((app) => (
+            <option key={app.slug} value={app.name}>
+              {app.name}
+            </option>
+          ))}
+        </select>
       </div>
 
       <div>
-        <label htmlFor="contact-message" className="mb-1.5 block text-sm font-medium text-surface-200/80">
+        <label htmlFor="contact-message" className={labelClasses}>
           Message
         </label>
         <textarea
           id="contact-message"
-          rows={5}
-          value={form.message}
-          onChange={(e) => updateField('message', e.target.value)}
+          rows={6}
           maxLength={MAX_MESSAGE_LENGTH}
-          className={`${fieldClasses('message')} resize-none`}
-          placeholder="Tell us about your question, issue, or feedback..."
+          value={message}
+          onChange={(e) => {
+            setMessage(e.target.value);
+            if (error) setError('');
+          }}
+          placeholder="Tell us what's happening — for technical issues, include your device model and Android version if you can."
+          className={fieldClasses}
+          aria-invalid={Boolean(error)}
+          aria-describedby={error ? 'contact-message-error' : undefined}
+          required
         />
-        <div className="mt-1 flex justify-between">
-          {errors.message && <p className="text-xs text-red-400">{errors.message}</p>}
-          <p className="ml-auto text-xs text-surface-200/30">
-            {form.message.length}/{MAX_MESSAGE_LENGTH}
+        {error && (
+          <p id="contact-message-error" role="alert" className="mt-2 text-sm font-medium text-crimson-600">
+            {error}
           </p>
-        </div>
+        )}
       </div>
 
-      <button type="submit" className="btn-primary w-full py-3.5 text-base">
-        Send Message
-      </button>
-
-      <p className="text-center text-xs text-surface-200/40">
-        This opens your default email client with a pre-filled message. No data is stored on our servers.
-      </p>
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        <button type="submit" className="btn-primary">
+          Compose Email
+        </button>
+        <p className="text-xs leading-relaxed text-ink-400">
+          This opens your email app — nothing is sent from this site directly.
+        </p>
+      </div>
     </form>
   );
 }

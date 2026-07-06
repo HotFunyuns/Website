@@ -1,13 +1,28 @@
 import type { Metadata } from 'next';
 import PageHeader from '@/components/PageHeader';
 import ContactForm from '@/components/ContactForm';
-import AnimatedSection from '@/components/AnimatedSection';
+import Reveal from '@/components/Reveal';
 import { companyInfo } from '@/data/apps';
 
 export const metadata: Metadata = {
-  title: 'Support',
+  title: 'Support & Contact — Reign Creative LLC',
   description:
     'Get help with Reign Creative LLC apps. Contact us for support, bug reports, feature requests, or business inquiries.',
+  alternates: { canonical: '/support/' },
+  openGraph: {
+    title: 'Support & Contact — Reign Creative LLC',
+    description:
+      'Get help with Reign Creative LLC apps. Contact us for support, bug reports, feature requests, or business inquiries.',
+    url: `${companyInfo.siteUrl}/support/`,
+    images: [
+      {
+        url: `${companyInfo.siteUrl}/opengraph-image.png`,
+        width: 1200,
+        height: 630,
+        alt: 'Reign Creative LLC — Premium Mobile Apps for Android',
+      },
+    ],
+  },
 };
 
 const supportTopics = [
@@ -53,82 +68,99 @@ export default function SupportPage() {
   return (
     <>
       <PageHeader
-        title="Support & Contact"
-        description="We are here to help. Reach out for app support, bug reports, feature requests, or business inquiries."
+        eyebrow="We're Here to Help"
+        title={
+          <>
+            Support &amp; <em className="gold-text not-italic">Contact</em>
+          </>
+        }
+        description="Reach out for app support, bug reports, feature requests, or business inquiries — the people who built the apps read every message."
       />
 
       {/* Support Topics */}
-      <section className="section-padding pb-8">
+      <section className="section-padding !pt-8 pb-8" aria-labelledby="topics-heading">
         <div className="container-narrow mx-auto">
+          <h2 id="topics-heading" className="sr-only">
+            What we can help with
+          </h2>
           <div className="grid gap-4 sm:grid-cols-2">
             {supportTopics.map((topic, i) => (
-              <AnimatedSection key={topic.title} delay={i * 0.08}>
-                <div className="glass-card-hover flex gap-4 p-5">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-brand-500/10 text-brand-400">
+              <Reveal key={topic.title} delay={i * 80}>
+                <div className="card-premium-hover flex h-full gap-4 p-6">
+                  <span
+                    aria-hidden="true"
+                    className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gold-300/70 bg-gold-50 text-gold-700"
+                  >
                     {topic.icon}
-                  </div>
+                  </span>
                   <div>
-                    <h3 className="text-sm font-semibold text-white">{topic.title}</h3>
-                    <p className="mt-1 text-sm text-surface-200/60">{topic.description}</p>
+                    <h3 className="font-display text-base font-semibold text-ink-950">
+                      {topic.title}
+                    </h3>
+                    <p className="mt-1.5 text-sm leading-relaxed text-ink-500">
+                      {topic.description}
+                    </p>
                   </div>
                 </div>
-              </AnimatedSection>
+              </Reveal>
             ))}
           </div>
         </div>
       </section>
 
       {/* Contact Form & Info */}
-      <section className="section-padding pt-8">
+      <section className="section-padding pt-8" aria-labelledby="contact-heading">
         <div className="container-narrow mx-auto">
-          <div className="grid gap-8 lg:grid-cols-5">
+          <div className="grid gap-10 lg:grid-cols-5">
             {/* Form */}
             <div className="lg:col-span-3">
-              <AnimatedSection>
-                <h2 className="mb-6 text-2xl font-bold text-white">Send Us a Message</h2>
+              <Reveal>
+                <h2 id="contact-heading" className="display-title mb-7 text-2xl sm:text-3xl">
+                  Send us a message
+                </h2>
                 <ContactForm />
-              </AnimatedSection>
+              </Reveal>
             </div>
 
             {/* Contact Info */}
             <div className="lg:col-span-2">
-              <AnimatedSection delay={0.15}>
-                <h2 className="mb-6 text-2xl font-bold text-white">Contact Information</h2>
-                <div className="glass-card space-y-6 p-6 sm:p-8">
+              <Reveal delay={150}>
+                <h2 className="display-title mb-7 text-2xl sm:text-3xl">Contact details</h2>
+                <div className="card-premium space-y-6 p-7 sm:p-8">
                   <div>
-                    <h3 className="mb-1 text-xs font-semibold uppercase tracking-wider text-surface-200/40">
+                    <h3 className="mb-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-ink-400">
                       Email
                     </h3>
                     <a
                       href={`mailto:${companyInfo.supportEmail}`}
-                      className="text-brand-400 transition-colors hover:text-brand-300"
+                      className="link-accent break-all text-sm"
                       rel="noopener noreferrer"
                     >
                       {companyInfo.supportEmail}
                     </a>
                   </div>
                   <div>
-                    <h3 className="mb-1 text-xs font-semibold uppercase tracking-wider text-surface-200/40">
+                    <h3 className="mb-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-ink-400">
                       Website
                     </h3>
-                    <span className="text-surface-200/80">{companyInfo.domain}</span>
+                    <span className="text-sm text-ink-700">{companyInfo.domain}</span>
                   </div>
                   <div>
-                    <h3 className="mb-1 text-xs font-semibold uppercase tracking-wider text-surface-200/40">
+                    <h3 className="mb-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-ink-400">
                       Company
                     </h3>
-                    <span className="text-surface-200/80">{companyInfo.name}</span>
+                    <span className="text-sm text-ink-700">{companyInfo.name}</span>
                   </div>
-                  <div className="border-t border-white/5 pt-6">
-                    <h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-surface-200/40">
-                      Response Time
+                  <div className="border-t border-ink-100 pt-6">
+                    <h3 className="mb-2 text-xs font-semibold uppercase tracking-[0.14em] text-ink-400">
+                      Response time
                     </h3>
-                    <p className="text-sm text-surface-200/60">
+                    <p className="text-sm leading-relaxed text-ink-500">
                       We aim to respond to all inquiries within 24–48 hours during business days.
                     </p>
                   </div>
                 </div>
-              </AnimatedSection>
+              </Reveal>
             </div>
           </div>
         </div>

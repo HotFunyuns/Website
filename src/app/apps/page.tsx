@@ -1,84 +1,87 @@
 import type { Metadata } from 'next';
 import PageHeader from '@/components/PageHeader';
-import AppCard from '@/components/AppCard';
-import AnimatedSection from '@/components/AnimatedSection';
+import AppsExplorer from '@/components/AppsExplorer';
+import GooglePlayButton from '@/components/GooglePlayButton';
+import Reveal from '@/components/Reveal';
+import GoldDivider from '@/components/GoldDivider';
+import JsonLd from '@/components/JsonLd';
 import { apps, companyInfo } from '@/data/apps';
 
 export const metadata: Metadata = {
-  title: 'Apps',
+  title: 'Our Apps — Games, Education & Fitness for Android',
   description:
-    'Explore the full portfolio of mobile apps and digital products built by Reign Creative LLC.',
+    'Browse every Reign Creative LLC app on Google Play: arcade and sports games, anime coloring, world history, plus protein and keto diet trackers for Android.',
+  alternates: { canonical: '/apps/' },
+  openGraph: {
+    title: 'Our Apps — Games, Education & Fitness for Android | Reign Creative LLC',
+    description:
+      'Browse every Reign Creative LLC app on Google Play: games, education, and health & fitness apps for Android.',
+    url: `${companyInfo.siteUrl}/apps/`,
+    images: [
+      {
+        url: `${companyInfo.siteUrl}/opengraph-image.png`,
+        width: 1200,
+        height: 630,
+        alt: 'Reign Creative LLC — Premium Mobile Apps for Android',
+      },
+    ],
+  },
+};
+
+const collectionSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Reign Creative LLC Apps',
+  url: `${companyInfo.siteUrl}/apps/`,
+  description:
+    'The complete catalog of Reign Creative LLC mobile apps for Android, available on Google Play.',
+  isPartOf: { '@id': `${companyInfo.siteUrl}/#website` },
+  about: apps.map((app) => ({
+    '@type': 'SoftwareApplication',
+    name: app.name,
+    operatingSystem: 'Android',
+    applicationCategory: app.schemaCategory,
+    url: `${companyInfo.siteUrl}/apps/${app.slug}/`,
+  })),
 };
 
 export default function AppsPage() {
-  const categories = Array.from(new Set(apps.map((a) => a.category))).sort();
-
   return (
     <>
+      <JsonLd data={collectionSchema} />
+
       <PageHeader
-        title="Our Apps"
-        description="A growing portfolio of mobile applications designed with care and built to last."
+        eyebrow="The Catalog"
+        title={
+          <>
+            Our <em className="gold-text not-italic">Apps</em>
+          </>
+        }
+        description="Every app we've published for Android — games, learning experiences, and health & fitness tools. All free to download on Google Play."
       />
 
-      {/* Stats */}
-      <section className="section-padding pb-8">
+      <section className="section-padding !pt-6" aria-label="App catalog">
         <div className="container-wide mx-auto">
-          <AnimatedSection>
-            <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
-              {[
-                { label: 'Total Apps', value: apps.length.toString() },
-                { label: 'Categories', value: categories.length.toString() },
-                {
-                  label: 'Published',
-                  value: apps.filter((a) => a.status === 'Published').length.toString(),
-                },
-                {
-                  label: 'In Development',
-                  value: apps.filter((a) => a.status === 'In Development').length.toString(),
-                },
-              ].map((stat) => (
-                <div key={stat.label} className="glass-card p-5 text-center">
-                  <div className="text-2xl font-bold text-white sm:text-3xl">{stat.value}</div>
-                  <div className="mt-1 text-xs font-medium uppercase tracking-wider text-surface-200/40">
-                    {stat.label}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </AnimatedSection>
-        </div>
-      </section>
+          <AppsExplorer />
 
-      {/* App Grid */}
-      <section className="section-padding pt-8">
-        <div className="container-wide mx-auto">
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {apps.map((app, i) => (
-              <AppCard key={app.id} app={app} index={i} />
-            ))}
-          </div>
-        </div>
-      </section>
+          <GoldDivider className="mt-20" />
 
-      {/* CTA */}
-      <section className="section-padding bg-surface-900/30">
-        <div className="container-narrow mx-auto text-center">
-          <AnimatedSection>
-            <h2 className="text-2xl font-bold text-white sm:text-3xl">More Apps on the Way</h2>
-            <p className="mx-auto mt-4 max-w-xl text-surface-200/60">
-              We are actively developing new applications. Have a question about any of our apps,
-              or want to report an issue? We are here to help.
+          <Reveal className="mt-14 text-center">
+            <h2 className="display-title text-2xl sm:text-3xl">
+              Prefer to browse on Google Play?
+            </h2>
+            <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-ink-500">
+              Our full developer catalog — including future releases — lives on our official
+              Google Play page.
             </p>
-            <div className="mt-8">
-              <a
-                href={`mailto:${companyInfo.supportEmail}`}
-                className="btn-primary px-8 py-3"
-                rel="noopener noreferrer"
-              >
-                Contact Support
-              </a>
+            <div className="mt-7 flex justify-center">
+              <GooglePlayButton
+                href={companyInfo.developerPageUrl}
+                label="All Apps on Google Play"
+                variant="gold"
+              />
             </div>
-          </AnimatedSection>
+          </Reveal>
         </div>
       </section>
     </>

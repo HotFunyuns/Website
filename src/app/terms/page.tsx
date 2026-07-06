@@ -1,13 +1,28 @@
 import type { Metadata } from 'next';
 import PageHeader from '@/components/PageHeader';
-import AnimatedSection from '@/components/AnimatedSection';
+import Reveal from '@/components/Reveal';
 import { companyInfo } from '@/data/apps';
 
 export const metadata: Metadata = {
-  title: 'Terms of Service',
-  description:
-    'Terms of Service for Reign Creative LLC and its mobile applications.',
+  title: 'Terms of Service — Reign Creative LLC',
+  description: 'Terms of Service for Reign Creative LLC and its mobile applications.',
+  alternates: { canonical: '/terms/' },
+  openGraph: {
+    title: 'Terms of Service — Reign Creative LLC',
+    description: 'Terms of Service for Reign Creative LLC and its mobile applications.',
+    url: `${companyInfo.siteUrl}/terms/`,
+    images: [
+      {
+        url: `${companyInfo.siteUrl}/opengraph-image.png`,
+        width: 1200,
+        height: 630,
+        alt: 'Reign Creative LLC — Premium Mobile Apps for Android',
+      },
+    ],
+  },
 };
+
+const h2Classes = 'mb-3 font-display text-xl font-semibold text-ink-950';
 
 export default function TermsPage() {
   const lastUpdated = 'April 22, 2026';
@@ -15,19 +30,24 @@ export default function TermsPage() {
   return (
     <>
       <PageHeader
-        title="Terms of Service"
+        eyebrow="Legal"
+        title={
+          <>
+            Terms of <em className="gold-text not-italic">Service</em>
+          </>
+        }
         description="Please read these terms carefully before using our services."
       />
 
-      <section className="section-padding">
+      <section className="section-padding !pt-8">
         <div className="container-narrow mx-auto">
-          <AnimatedSection>
-            <div className="glass-card p-8 sm:p-10">
-              <p className="mb-8 text-sm text-surface-200/40">Last Updated: {lastUpdated}</p>
+          <Reveal>
+            <div className="card-premium p-8 sm:p-12">
+              <p className="mb-8 text-sm font-medium text-ink-400">Last Updated: {lastUpdated}</p>
 
-              <div className="prose-invert space-y-8 text-surface-200/70 leading-relaxed">
+              <div className="space-y-10 leading-relaxed text-ink-600">
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">1. Acceptance of Terms</h2>
+                  <h2 className={h2Classes}>1. Acceptance of Terms</h2>
                   <p>
                     By accessing or using any mobile application, website, or service provided by{' '}
                     {companyInfo.name} (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;), you agree to be
@@ -37,7 +57,7 @@ export default function TermsPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">2. Use of Services</h2>
+                  <h2 className={h2Classes}>2. Use of Services</h2>
                   <p>
                     You agree to use our Services only for lawful purposes and in accordance with
                     these Terms. You agree not to:
@@ -52,7 +72,7 @@ export default function TermsPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">3. Intellectual Property</h2>
+                  <h2 className={h2Classes}>3. Intellectual Property</h2>
                   <p>
                     All content, features, and functionality of our Services — including but not
                     limited to text, graphics, logos, icons, images, audio, software, and code — are
@@ -67,7 +87,7 @@ export default function TermsPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">4. User Accounts</h2>
+                  <h2 className={h2Classes}>4. User Accounts</h2>
                   <p>
                     Some of our applications may require or allow you to create an account. You are
                     responsible for maintaining the confidentiality of your account credentials and
@@ -77,7 +97,7 @@ export default function TermsPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">5. In-App Purchases</h2>
+                  <h2 className={h2Classes}>5. In-App Purchases</h2>
                   <p>
                     Some of our applications may offer in-app purchases or subscriptions. All
                     purchases are processed through the applicable app store (e.g., Google Play)
@@ -88,7 +108,7 @@ export default function TermsPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">6. Disclaimer of Warranties</h2>
+                  <h2 className={h2Classes}>6. Disclaimer of Warranties</h2>
                   <p>
                     Our Services are provided &ldquo;as is&rdquo; and &ldquo;as available&rdquo; without warranties of
                     any kind, either express or implied. We do not warrant that the Services will
@@ -98,7 +118,7 @@ export default function TermsPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">7. Limitation of Liability</h2>
+                  <h2 className={h2Classes}>7. Limitation of Liability</h2>
                   <p>
                     To the fullest extent permitted by law, {companyInfo.name} shall not be liable
                     for any indirect, incidental, special, consequential, or punitive damages
@@ -108,7 +128,7 @@ export default function TermsPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">8. Termination</h2>
+                  <h2 className={h2Classes}>8. Termination</h2>
                   <p>
                     We reserve the right to suspend or terminate your access to our Services at any
                     time, without notice, for conduct that we believe violates these Terms or is
@@ -117,7 +137,7 @@ export default function TermsPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">9. Changes to Terms</h2>
+                  <h2 className={h2Classes}>9. Changes to Terms</h2>
                   <p>
                     We may revise these Terms at any time by posting the updated version on this
                     page. Your continued use of the Services after changes are posted constitutes
@@ -127,7 +147,7 @@ export default function TermsPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">10. Governing Law</h2>
+                  <h2 className={h2Classes}>10. Governing Law</h2>
                   <p>
                     These Terms shall be governed by and construed in accordance with the laws of
                     the United States, without regard to conflict of law principles.
@@ -135,17 +155,15 @@ export default function TermsPage() {
                 </div>
 
                 <div>
-                  <h2 className="mb-3 text-xl font-semibold text-white">11. Contact Us</h2>
-                  <p>
-                    If you have questions about these Terms of Service, please contact us at:
-                  </p>
-                  <div className="mt-3 rounded-xl border border-white/10 bg-white/5 p-4">
-                    <p className="font-medium text-white">{companyInfo.name}</p>
+                  <h2 className={h2Classes}>11. Contact Us</h2>
+                  <p>If you have questions about these Terms of Service, please contact us at:</p>
+                  <div className="mt-4 rounded-xl border border-ink-100 bg-cream-50 p-5">
+                    <p className="font-semibold text-ink-950">{companyInfo.name}</p>
                     <p className="mt-1">
                       Email:{' '}
                       <a
                         href={`mailto:${companyInfo.supportEmail}`}
-                        className="text-brand-400 hover:text-brand-300"
+                        className="link-accent"
                         rel="noopener noreferrer"
                       >
                         {companyInfo.supportEmail}
@@ -156,7 +174,7 @@ export default function TermsPage() {
                 </div>
               </div>
             </div>
-          </AnimatedSection>
+          </Reveal>
         </div>
       </section>
     </>

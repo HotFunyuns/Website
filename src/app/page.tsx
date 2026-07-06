@@ -1,118 +1,277 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import Hero from '@/components/Hero';
 import SectionHeading from '@/components/SectionHeading';
 import AppCard from '@/components/AppCard';
-import AnimatedSection from '@/components/AnimatedSection';
-import { apps, companyInfo } from '@/data/apps';
+import Reveal from '@/components/Reveal';
+import GoldDivider from '@/components/GoldDivider';
+import GooglePlayIcon from '@/components/GooglePlayIcon';
+import GooglePlayButton from '@/components/GooglePlayButton';
+import { featuredApps, companyInfo } from '@/data/apps';
 
-const features = [
+export const metadata: Metadata = {
+  title: 'Reign Creative LLC — Premium Mobile Apps for Android',
+  description:
+    'Reign Creative LLC builds memorable mobile games, learning experiences, fitness trackers, and lifestyle apps for Android — all available on Google Play.',
+  alternates: { canonical: '/' },
+};
+
+const pillars = [
   {
+    title: 'Play',
+    body: 'Games built for quick, satisfying sessions — arcade action, sports sims, and creative fun that respect your time.',
     icon: (
-      <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+      <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path d="M6 12h4m-2-2v4m7-3h.01M18 13h.01" />
+        <path d="M17.32 5H6.68a4 4 0 0 0-3.98 3.6l-.7 7A3.5 3.5 0 0 0 5.48 19c.95 0 1.86-.38 2.52-1.06L9.5 16.4h5l1.5 1.54A3.53 3.53 0 0 0 18.52 19a3.5 3.5 0 0 0 3.48-3.4l-.7-7A4 4 0 0 0 17.32 5Z" />
       </svg>
     ),
-    title: 'Mobile-First Design',
-    description: 'Every app is crafted for the best possible mobile experience, from day one.',
   },
   {
+    title: 'Progress',
+    body: 'Focused trackers that make daily consistency easy — because small daily wins compound into real results.',
     icon: (
-      <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42" />
+      <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path d="M3 20h18M7 16v-5m5 5V8m5 8v-3" />
+        <path d="m7 8 4-4 3 3 4-4" />
       </svg>
     ),
-    title: 'Polished Experiences',
-    description: 'We obsess over the details — smooth interactions, clean visuals, and intuitive flows.',
   },
   {
+    title: 'Learn',
+    body: 'Learning experiences that feel like exploration, turning curiosity into knowledge you actually keep.',
     icon: (
-      <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+      <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path d="M4 19V5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2Zm0 0a2 2 0 0 0 2 2h13" />
+        <path d="M9 7h6" />
       </svg>
     ),
-    title: 'Reliable & Supported',
-    description: 'Our apps are built to last, with ongoing updates and responsive support.',
+  },
+  {
+    title: 'Polish',
+    body: 'Crafted details, smooth performance, and interfaces that feel considered — quality you can feel in every tap.',
+    icon: (
+      <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path d="M12 3v2m0 14v2m9-9h-2M5 12H3m14.5-6.5-1.4 1.4M7.9 16.1l-1.4 1.4m11 0-1.4-1.4M7.9 7.9 6.5 6.5" />
+        <circle cx="12" cy="12" r="3.5" />
+      </svg>
+    ),
+  },
+];
+
+const categoryTiles = [
+  {
+    label: 'Games',
+    href: '/apps/#games',
+    description: 'Arcade shooters, survival action, sports sims, and creative coloring.',
+    available: true,
+  },
+  {
+    label: 'Education',
+    href: '/apps/#education',
+    description: 'History and learning experiences built around curiosity.',
+    available: true,
+  },
+  {
+    label: 'Fitness & Lifestyle',
+    href: '/apps/#health-fitness',
+    description: 'Protein and keto trackers that turn consistency into progress.',
+    available: true,
+  },
+  {
+    label: 'Productivity',
+    href: '/apps/#productivity',
+    description: 'Practical everyday tools — first releases in development.',
+    available: false,
   },
 ];
 
 export default function HomePage() {
-  const featuredApps = apps.slice(0, 6);
-
   return (
     <>
       <Hero />
 
-      {/* What We Do */}
-      <section className="section-padding relative">
-        <div className="container-narrow mx-auto">
-          <SectionHeading
-            label="What We Do"
-            title="Building Digital Products That Stand Out"
-            description="We combine thoughtful design with solid engineering to create mobile apps that are a pleasure to use."
-          />
+      {/* Featured Apps */}
+      <section className="section-padding relative" aria-labelledby="featured-heading">
+        <div className="container-wide mx-auto">
+          <div className="flex flex-wrap items-end justify-between gap-6">
+            <SectionHeading
+              eyebrow="Featured Apps"
+              title={
+                <span id="featured-heading">
+                  A few favorites from the <em className="gold-text not-italic">catalog</em>
+                </span>
+              }
+              description="Games, learning, and fitness — each app is built to do one thing memorably well."
+            />
+            <Reveal delay={150}>
+              <Link href="/apps/" className="btn-outline btn-sm">
+                View all apps
+              </Link>
+            </Reveal>
+          </div>
 
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {features.map((feature, i) => (
-              <AnimatedSection key={feature.title} delay={i * 0.1}>
-                <div className="glass-card-hover p-6">
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-brand-500/10 text-brand-400">
-                    {feature.icon}
-                  </div>
-                  <h3 className="mb-2 text-lg font-semibold text-white">{feature.title}</h3>
-                  <p className="text-sm leading-relaxed text-surface-200/60">{feature.description}</p>
-                </div>
-              </AnimatedSection>
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {featuredApps.map((app, i) => (
+              <Reveal key={app.slug} delay={i * 90} className="h-full">
+                <AppCard app={app} eager={i < 2} />
+              </Reveal>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Featured Apps */}
-      <section className="section-padding relative bg-surface-900/30">
+      <GoldDivider />
+
+      {/* Value proposition */}
+      <section className="section-padding bg-cream-100" aria-labelledby="value-heading">
         <div className="container-wide mx-auto">
           <SectionHeading
-            label="Our Apps"
-            title="Featured Applications"
-            description="A selection of the mobile apps and digital products we are building."
+            eyebrow="Why Reign Creative"
+            title={<span id="value-heading">Built for Everyday Play &amp; Progress</span>}
+            description="Every app we ship is designed around a simple idea: it should be genuinely fun to open, useful in your real day, and polished enough to love."
+            align="center"
           />
 
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {featuredApps.map((app, i) => (
-              <AppCard key={app.id} app={app} index={i} />
+          <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {pillars.map((pillar, i) => (
+              <Reveal key={pillar.title} delay={i * 90} className="h-full">
+                <div className="card-premium-hover h-full p-7">
+                  <span className="flex h-12 w-12 items-center justify-center rounded-xl border border-gold-300 bg-gold-50 text-gold-700">
+                    {pillar.icon}
+                  </span>
+                  <h3 className="mt-5 font-display text-xl font-semibold text-ink-950">
+                    {pillar.title}
+                  </h3>
+                  <p className="mt-2.5 text-sm leading-relaxed text-ink-500">{pillar.body}</p>
+                </div>
+              </Reveal>
             ))}
           </div>
-
-          <AnimatedSection className="mt-12 text-center">
-            <Link href="/apps/" className="btn-secondary px-8 py-3">
-              View All Apps
-            </Link>
-          </AnimatedSection>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="section-padding relative">
-        <div className="glow-orb left-1/2 top-1/2 h-96 w-96 -translate-x-1/2 -translate-y-1/2 bg-brand-500/10 animate-pulse-glow" />
-        <div className="container-narrow relative z-10 mx-auto text-center">
-          <AnimatedSection>
-            <h2 className="text-balance text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Questions or Feedback?
+      {/* Categories */}
+      <section className="section-padding" aria-labelledby="categories-heading">
+        <div className="container-wide mx-auto">
+          <SectionHeading
+            eyebrow="Explore by Category"
+            title={<span id="categories-heading">Something for every kind of day</span>}
+            description="From five spare minutes in a queue to a focused evening of progress."
+          />
+
+          <div className="mt-12 grid gap-6 sm:grid-cols-2">
+            {categoryTiles.map((tile, i) => (
+              <Reveal key={tile.label} delay={i * 80}>
+                <Link
+                  href={tile.href}
+                  className="card-premium-hover group flex items-center justify-between gap-6 p-7"
+                >
+                  <span>
+                    <span className="flex items-center gap-3">
+                      <span className="font-display text-2xl font-semibold text-ink-950 transition-colors group-hover:text-crimson-600">
+                        {tile.label}
+                      </span>
+                      {!tile.available && <span className="pill">Coming Soon</span>}
+                    </span>
+                    <span className="mt-2 block text-sm leading-relaxed text-ink-500">
+                      {tile.description}
+                    </span>
+                  </span>
+                  <span
+                    aria-hidden="true"
+                    className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-ink-200 text-ink-400 transition-all duration-300 group-hover:border-gold-400 group-hover:bg-gold-50 group-hover:text-gold-700"
+                  >
+                    →
+                  </span>
+                </Link>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Studio trust + Google Play callout */}
+      <section className="section-padding bg-ink-panel relative overflow-hidden" aria-labelledby="studio-heading">
+        <div
+          aria-hidden="true"
+          className="bg-dot-grid absolute inset-0 opacity-40 [mask-image:radial-gradient(ellipse_60%_60%_at_70%_40%,black,transparent)]"
+        />
+        <div className="container-wide relative mx-auto grid items-center gap-14 lg:grid-cols-2">
+          <Reveal>
+            <p className="eyebrow !text-gold-300">The Studio</p>
+            <h2 id="studio-heading" className="display-title mt-4 text-balance text-3xl !text-white sm:text-4xl">
+              An independent studio with a simple standard:{' '}
+              <em className="gold-text not-italic">ship things worth keeping</em>
             </h2>
-            <p className="mx-auto mt-4 max-w-xl text-lg text-surface-200/60">
-              We are here to help. Reach out for app support, bug reports, feature requests, or business inquiries.
+            <p className="mt-6 max-w-xl text-base leading-relaxed text-ink-300">
+              Reign Creative LLC designs, builds, and continually improves every app in our catalog.
+              No bloat, no gimmicks — just focused mobile experiences that earn their place on your
+              home screen.
             </p>
-            <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <Link href="/support/" className="btn-primary px-8 py-3.5 text-base">
-                Contact Support
-              </Link>
-              <Link href="/privacy/" className="btn-secondary px-8 py-3.5 text-base">
-                Privacy Policy
-              </Link>
+            <div className="mt-8 flex flex-wrap gap-3">
+              {['Fun', 'Useful', 'Polished', 'Always improving'].map((principle) => (
+                <span key={principle} className="pill-dark">
+                  {principle}
+                </span>
+              ))}
             </div>
-            <p className="mt-6 text-sm text-surface-200/40">
-              {companyInfo.supportEmail}
+            <Link
+              href="/about/"
+              className="link-accent mt-8 inline-block !text-gold-300 hover:!text-gold-200"
+            >
+              More about the studio →
+            </Link>
+          </Reveal>
+
+          <Reveal delay={150}>
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-sm sm:p-10">
+              <span className="flex h-14 w-14 items-center justify-center rounded-2xl border border-gold-400/40 bg-gold-500/10 text-gold-300">
+                <GooglePlayIcon className="h-6 w-6" />
+              </span>
+              <h3 className="mt-6 font-display text-2xl font-semibold text-white">
+                Available on Google Play
+              </h3>
+              <p className="mt-3 text-sm leading-relaxed text-ink-300">
+                Every Reign Creative app is published under our official developer account,{' '}
+                <span className="text-gold-200">{companyInfo.developerName}</span>. Install any of
+                them free on Google Play.
+              </p>
+              <div className="mt-7 flex flex-wrap gap-3">
+                <GooglePlayButton
+                  href={companyInfo.developerPageUrl}
+                  label="Visit our Google Play page"
+                  variant="gold"
+                />
+              </div>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="section-padding relative overflow-hidden" aria-labelledby="cta-heading">
+        <div className="hero-streaks opacity-70" aria-hidden="true" />
+        <div className="container-narrow relative mx-auto text-center">
+          <Reveal>
+            <p className="eyebrow justify-center">Ready when you are</p>
+            <h2 id="cta-heading" className="display-title mt-4 text-balance text-3xl sm:text-5xl">
+              Find your next favorite app
+            </h2>
+            <p className="mx-auto mt-5 max-w-xl text-lg leading-relaxed text-ink-500">
+              Eight apps and counting — built to be played, learned from, and loved.
             </p>
-          </AnimatedSection>
+            <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
+              <Link href="/apps/" className="btn-primary">
+                Explore Our Apps
+              </Link>
+              <GooglePlayButton
+                href={companyInfo.developerPageUrl}
+                label="View on Google Play"
+                variant="outline"
+              />
+            </div>
+          </Reveal>
         </div>
       </section>
     </>

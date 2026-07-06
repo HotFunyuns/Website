@@ -1,35 +1,28 @@
-import AnimatedSection from './AnimatedSection';
+import Reveal from './Reveal';
 
 interface SectionHeadingProps {
-  label?: string;
-  title: string;
+  eyebrow: string;
+  title: React.ReactNode;
   description?: string;
-  className?: string;
   align?: 'left' | 'center';
 }
 
 export default function SectionHeading({
-  label,
+  eyebrow,
   title,
   description,
-  className = '',
-  align = 'center',
+  align = 'left',
 }: SectionHeadingProps) {
-  const alignClasses = align === 'center' ? 'text-center mx-auto' : 'text-left';
-
+  const alignClass = align === 'center' ? 'mx-auto text-center' : '';
   return (
-    <AnimatedSection className={`mb-12 max-w-3xl ${alignClasses} ${className}`}>
-      {label && (
-        <span className="mb-3 inline-block text-xs font-semibold uppercase tracking-widest text-brand-400">
-          {label}
-        </span>
-      )}
-      <h2 className="text-balance text-3xl font-bold tracking-tight text-white sm:text-4xl">
+    <Reveal className={`max-w-2xl ${alignClass}`}>
+      <p className={`eyebrow ${align === 'center' ? 'justify-center' : ''}`}>{eyebrow}</p>
+      <h2 className="display-title mt-4 text-balance text-3xl sm:text-4xl md:text-[2.75rem] md:leading-[1.15]">
         {title}
       </h2>
       {description && (
-        <p className="mt-4 text-balance text-lg text-surface-200/60">{description}</p>
+        <p className="mt-5 text-base leading-relaxed text-ink-500 sm:text-lg">{description}</p>
       )}
-    </AnimatedSection>
+    </Reveal>
   );
 }

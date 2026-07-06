@@ -1,15 +1,28 @@
 import type { MetadataRoute } from 'next';
+import { apps, companyInfo } from '@/data/apps';
+
+export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://reigncreativellc.com';
+  const baseUrl = companyInfo.siteUrl;
+  const lastModified = new Date();
 
-  return [
-    { url: baseUrl, lastModified: new Date(), changeFrequency: 'monthly', priority: 1 },
-    { url: `${baseUrl}/about`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${baseUrl}/apps`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${baseUrl}/support`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${baseUrl}/privacy`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.5 },
-    { url: `${baseUrl}/terms`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.5 },
-    { url: `${baseUrl}/app-support`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+  const staticPages: MetadataRoute.Sitemap = [
+    { url: `${baseUrl}/`, lastModified, changeFrequency: 'weekly', priority: 1 },
+    { url: `${baseUrl}/apps/`, lastModified, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${baseUrl}/about/`, lastModified, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${baseUrl}/support/`, lastModified, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${baseUrl}/app-support/`, lastModified, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${baseUrl}/privacy/`, lastModified, changeFrequency: 'yearly', priority: 0.4 },
+    { url: `${baseUrl}/terms/`, lastModified, changeFrequency: 'yearly', priority: 0.4 },
   ];
+
+  const appPages: MetadataRoute.Sitemap = apps.map((app) => ({
+    url: `${baseUrl}/apps/${app.slug}/`,
+    lastModified,
+    changeFrequency: 'monthly',
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...appPages];
 }

@@ -1,115 +1,120 @@
 import Link from 'next/link';
 import { companyInfo } from '@/data/apps';
-import { footerNavLinks } from '@/data/navigation';
+import BrandMark from './BrandMark';
+import GooglePlayIcon from './GooglePlayIcon';
+
+const exploreLinks = [
+  { label: 'Apps', href: '/apps/' },
+  { label: 'About', href: '/about/' },
+  { label: 'Support', href: '/support/' },
+];
+
+const legalLinks = [
+  { label: 'Privacy Policy', href: '/privacy/' },
+  { label: 'Terms of Service', href: '/terms/' },
+  { label: 'Developer Info', href: '/app-support/' },
+];
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
-  const quickLinks = footerNavLinks.filter(
-    (l) => !l.href.includes('privacy') && !l.href.includes('terms') && !l.href.includes('app-support')
-  );
-  const legalLinks = footerNavLinks.filter(
-    (l) => l.href.includes('privacy') || l.href.includes('terms') || l.href.includes('app-support')
-  );
-
   return (
-    <footer className="border-t border-white/5 bg-surface-950">
-      <div className="container-wide mx-auto px-4 py-16 sm:px-6 lg:px-8">
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+    <footer className="bg-ink-panel relative text-ink-300">
+      <div
+        aria-hidden="true"
+        className="h-px w-full bg-gradient-to-r from-transparent via-gold-500/70 to-transparent"
+      />
+      <div className="container-wide mx-auto px-5 py-16 sm:px-8 lg:px-10">
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-[1.4fr,1fr,1fr,1.2fr]">
           {/* Brand */}
-          <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center gap-3 text-lg font-bold text-white">
-              <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-brand-500 to-brand-700 text-sm font-black shadow-lg shadow-brand-500/20">
-                R
+          <div>
+            <Link href="/" className="inline-flex items-center gap-3" aria-label="Reign Creative LLC — home">
+              <BrandMark className="h-10 w-10 ring-1 ring-white/15" />
+              <span className="font-display text-xl font-semibold tracking-tight text-white">
+                Reign Creative <span className="text-gold-300">LLC</span>
               </span>
-              Reign Creative
             </Link>
-            <p className="mt-4 text-sm leading-relaxed text-surface-200/60">
-              {companyInfo.description}
+            <p className="mt-5 max-w-xs text-sm leading-relaxed text-ink-400">
+              An independent mobile app studio crafting games, learning experiences, fitness
+              trackers, and lifestyle apps for Android.
+            </p>
+            <p className="mt-4 font-display text-sm italic text-gold-300/90">
+              Built for memorable mobile experiences.
             </p>
           </div>
 
-          {/* Quick Links */}
-          <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-surface-200/40">
-              Navigation
-            </h3>
-            <ul className="mt-4 space-y-3">
-              {quickLinks.map((link) => (
+          {/* Explore */}
+          <nav aria-label="Explore">
+            <h2 className="text-xs font-semibold uppercase tracking-[0.18em] text-gold-400">
+              Explore
+            </h2>
+            <ul className="mt-5 space-y-3">
+              {exploreLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-surface-200/60 transition-colors hover:text-white"
+                    className="text-sm text-ink-300 transition-colors hover:text-gold-200"
                   >
                     {link.label}
                   </Link>
                 </li>
               ))}
             </ul>
-          </div>
+          </nav>
 
           {/* Legal */}
-          <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-surface-200/40">
+          <nav aria-label="Legal">
+            <h2 className="text-xs font-semibold uppercase tracking-[0.18em] text-gold-400">
               Legal
-            </h3>
-            <ul className="mt-4 space-y-3">
+            </h2>
+            <ul className="mt-5 space-y-3">
               {legalLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-surface-200/60 transition-colors hover:text-white"
+                    className="text-sm text-ink-300 transition-colors hover:text-gold-200"
                   >
                     {link.label}
                   </Link>
                 </li>
               ))}
             </ul>
-          </div>
+          </nav>
 
-          {/* Contact */}
+          {/* Google Play */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-surface-200/40">
-              Contact
-            </h3>
-            <ul className="mt-4 space-y-3">
-              <li>
-                <a
-                  href={`mailto:${companyInfo.supportEmail}`}
-                  className="text-sm text-surface-200/60 transition-colors hover:text-white"
-                  rel="noopener noreferrer"
-                >
-                  {companyInfo.supportEmail}
-                </a>
-              </li>
-              <li>
-                <span className="text-sm text-surface-200/60">
-                  {companyInfo.domain}
-                </span>
-              </li>
-            </ul>
+            <h2 className="text-xs font-semibold uppercase tracking-[0.18em] text-gold-400">
+              Get Our Apps
+            </h2>
+            <p className="mt-5 text-sm leading-relaxed text-ink-400">
+              Every Reign Creative app is published on Google Play.
+            </p>
+            <a
+              href={companyInfo.developerPageUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-gold btn-sm mt-5"
+            >
+              <GooglePlayIcon className="h-3.5 w-3.5" />
+              Google Play Developer Page
+              <span className="sr-only"> (opens in a new tab)</span>
+            </a>
           </div>
         </div>
 
-        {/* Bottom bar */}
-        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/5 pt-8 sm:flex-row">
-          <p className="text-xs text-surface-200/40">
-            &copy; {currentYear} {companyInfo.name}. All rights reserved.
+        <div className="mt-14 flex flex-col items-start justify-between gap-4 border-t border-white/10 pt-8 sm:flex-row sm:items-center">
+          <p className="text-sm text-ink-400">
+            © {currentYear} {companyInfo.name}. All rights reserved.
           </p>
-          <div className="flex gap-6">
-            <Link
-              href="/privacy/"
-              className="text-xs text-surface-200/40 transition-colors hover:text-surface-200/80"
+          <p className="text-sm text-ink-500">
+            Support:{' '}
+            <a
+              href={`mailto:${companyInfo.supportEmail}`}
+              className="text-ink-300 transition-colors hover:text-gold-200"
             >
-              Privacy
-            </Link>
-            <Link
-              href="/terms/"
-              className="text-xs text-surface-200/40 transition-colors hover:text-surface-200/80"
-            >
-              Terms
-            </Link>
-          </div>
+              {companyInfo.supportEmail}
+            </a>
+          </p>
         </div>
       </div>
     </footer>
