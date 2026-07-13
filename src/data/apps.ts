@@ -508,15 +508,15 @@ export const apps: AppInfo[] = [
       'Write your own basketball story in Pro Basketball My Career Sim by Reign Creative LLC. Decisions, development, and career drama — free on Google Play.',
   },
   {
-    slug: '82-0-pro-basketball-draft',
-    name: '82-0 Pro Basketball Draft',
-    tagline: 'Draft legendary lineups and chase the perfect season.',
+    slug: 'pro-basketball-draft-gm-mode',
+    name: 'Pro Basketball Draft & GM Mode',
+    tagline: 'Draft players and coaches, build balanced lineups, and manage your team in GM Mode.',
     cardDescription:
-      'Draft legendary basketball lineups, test your roster-building skills, and build an undefeated team.',
+      'Draft pro basketball players and coaches, build balanced lineups, make roster decisions, and manage your team in GM Mode.',
     longDescription: [
-      '82-0 Pro Basketball Draft is built around one irresistible question: can you draft a team good enough to never lose? Assemble your lineup, weigh every pick, and chase the perfect 82-0 season.',
-      'Great rosters are more than star power — they are fit, balance, and smart trade-offs. Every draft is a puzzle, and every season tells you whether your roster logic held up.',
-      'It is a game for basketball nerds in the best sense: the armchair GMs who already argue about lineups and now get to prove it.',
+      'Pro Basketball Draft & GM Mode is a mobile basketball draft and team-building game where you create lineups, draft players and coaches, manage roster choices, and test your team-building strategy.',
+      'Build balanced squads, experiment with different eras and positions, and play through a premium basketball simulation experience made for fans of roster building and GM-style decisions.',
+      'From the draft board to front-office calls, GM Mode puts you in charge — every pick, matchup, and roster move is yours to make.',
     ],
     category: 'Games · Sports',
     filter: 'games',
@@ -524,56 +524,57 @@ export const apps: AppInfo[] = [
     playStoreUrl:
       'https://play.google.com/store/apps/details?id=com.reigncreative.eightytwopro.basketballdraft',
     packageId: 'com.reigncreative.eightytwopro.basketballdraft',
-    icon: '/icons/82-0-pro-basketball-draft.jpg',
-    iconSmall: '/icons/82-0-pro-basketball-draft-sm.jpg',
+    icon: '/icons/pro-basketball-draft-gm-mode.png',
+    iconSmall: '/icons/pro-basketball-draft-gm-mode-sm.png',
     accent: 'from-crimson-500 to-gold-500',
+    featured: true,
     features: [
       {
-        title: 'Draft-first gameplay',
-        body: 'The draft is the game — every pick is a bet on how your roster comes together.',
+        title: 'Draft players & coaches',
+        body: 'The draft is the heart of the game — pick players and coaches and shape how your roster comes together.',
       },
       {
-        title: 'Chase the perfect season',
-        body: 'The goal is right in the name: build a team that can run the table at 82-0.',
+        title: 'GM Mode management',
+        body: 'Step into the front office to make roster decisions, weigh trade-offs, and manage your team your way.',
       },
       {
-        title: 'Roster-building strategy',
-        body: 'Balance, fit, and depth matter. Outsmart the draft, not just outpick it.',
+        title: 'Balanced roster building',
+        body: 'Fit, balance, and depth matter. Build a squad that works together instead of a list of big names.',
+      },
+      {
+        title: 'Experiment across eras',
+        body: 'Mix positions and different eras to test new lineup ideas and team-building strategies.',
       },
       {
         title: 'High replay value',
-        body: 'No two drafts play out the same, so there is always another roster theory to test.',
-      },
-      {
-        title: 'Made for armchair GMs',
-        body: 'If you love debating lineups and building super-teams on paper, this is your proving ground.',
+        body: 'No two drafts play out the same, so there’s always another roster to build and a new strategy to try.',
       },
     ],
     faqs: [
       {
-        question: 'Is 82-0 Pro Basketball Draft free to play?',
+        question: 'Is Pro Basketball Draft & GM Mode free to play?',
         answer:
           'Yes, it is free to download on Google Play and may include ads to support development.',
       },
       {
-        question: 'What does "82-0" mean?',
+        question: 'What is GM Mode?',
         answer:
-          'A pro basketball season is 82 games long. Going 82-0 means a perfect, undefeated season — the ultimate goal your drafted roster is chasing.',
+          'GM Mode puts you in the general manager’s seat — drafting players and coaches, making roster decisions, and managing your team’s direction.',
       },
       {
         question: 'Is this a fast game to play?',
         answer:
-          'Yes. Drafting a lineup and seeing how it performs makes for satisfying short sessions, with plenty of reason to immediately try another draft.',
+          'Yes. Drafting a lineup and building out your roster makes for satisfying sessions, with plenty of reasons to start a new team and try a different approach.',
       },
       {
         question: 'Do I need deep basketball knowledge?',
         answer:
-          'No, anyone can enjoy drafting a lineup — though basketball fans will get extra fun out of the strategy and roster debates.',
+          'No, anyone can enjoy drafting a lineup — though basketball fans will get extra out of the roster strategy and GM-style decisions.',
       },
     ],
-    metaTitle: '82-0 Pro Basketball Draft for Android',
+    metaTitle: 'Pro Basketball Draft & GM Mode',
     metaDescription:
-      'Draft legendary lineups and chase a perfect 82-0 season in 82-0 Pro Basketball Draft by Reign Creative LLC. Roster-building strategy — free on Google Play.',
+      'Draft players and coaches, build balanced basketball lineups, make roster decisions, and manage your team in Pro Basketball Draft & GM Mode.',
   },
 ];
 

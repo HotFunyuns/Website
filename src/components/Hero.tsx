@@ -47,8 +47,8 @@ const collageTiles: CollageTile[] = [
     animation: 'animate-float-fast',
   },
   {
-    src: '/icons/82-0-pro-basketball-draft-sm.jpg',
-    alt: '82-0 Pro Basketball Draft app icon',
+    src: '/icons/pro-basketball-draft-gm-mode-sm.png',
+    alt: 'Pro Basketball Draft & GM Mode app icon',
     size: 66,
     className: 'bottom-[2%] left-[38%] rotate-12 rounded-2xl',
     animation: 'animate-float-slow',
