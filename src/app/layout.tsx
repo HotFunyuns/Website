@@ -47,6 +47,7 @@ export const metadata: Metadata = {
   publisher: 'Reign Creative LLC',
   alternates: {
     canonical: '/',
+    types: { 'application/rss+xml': `${companyInfo.siteUrl}/blog/rss.xml` },
   },
   openGraph: {
     type: 'website',

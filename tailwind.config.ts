@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss';
+import typography from '@tailwindcss/typography';
 
 const config: Config = {
   content: [
@@ -103,9 +104,26 @@ const config: Config = {
       transitionTimingFunction: {
         'out-expo': 'cubic-bezier(0.22, 1, 0.36, 1)',
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            '--tw-prose-body': '#52525C',
+            '--tw-prose-headings': '#0C0C10',
+            '--tw-prose-links': '#A90D27',
+            '--tw-prose-bold': '#0C0C10',
+            '--tw-prose-bullets': '#C9A13B',
+            '--tw-prose-counters': '#8F6E23',
+            '--tw-prose-quotes': '#3B3B44',
+            '--tw-prose-quote-borders': '#D6B25A',
+            '--tw-prose-th-borders': '#C9C9D0',
+            '--tw-prose-td-borders': '#E0E0E4',
+            maxWidth: 'none',
+          },
+        },
+      },
     },
   },
-  plugins: [],
+  plugins: [typography],
 };
 
 export default config;

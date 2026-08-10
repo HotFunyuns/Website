@@ -7,7 +7,9 @@ import Reveal from '@/components/Reveal';
 import GoldDivider from '@/components/GoldDivider';
 import GooglePlayIcon from '@/components/GooglePlayIcon';
 import GooglePlayButton from '@/components/GooglePlayButton';
-import { featuredApps, companyInfo } from '@/data/apps';
+import BlogCard from '@/components/blog/BlogCard';
+import { featuredApps, companyInfo, appCount, activeCategories, countByCategory } from '@/data/apps';
+import { featuredPosts, posts } from '@/lib/blog';
 
 export const metadata: Metadata = {
   title: 'Reign Creative LLC — Premium Mobile Apps for Android',
@@ -59,32 +61,14 @@ const pillars = [
   },
 ];
 
-const categoryTiles = [
-  {
-    label: 'Games',
-    href: '/apps/#games',
-    description: 'Arcade shooters, survival action, sports sims, and creative coloring.',
-    available: true,
-  },
-  {
-    label: 'Education',
-    href: '/apps/#education',
-    description: 'History and learning experiences built around curiosity.',
-    available: true,
-  },
-  {
-    label: 'Fitness & Lifestyle',
-    href: '/apps/#health-fitness',
-    description: 'Protein and keto trackers that turn consistency into progress.',
-    available: true,
-  },
-  {
-    label: 'Productivity',
-    href: '/apps/#productivity',
-    description: 'Practical everyday tools — first releases in development.',
-    available: false,
-  },
-];
+const categoryTiles = activeCategories.map((category) => ({
+  ...category,
+  href: `/apps/category/${category.id}/`,
+  count: countByCategory(category.id),
+}));
+
+// Editor's picks lead; the newest articles fill any remaining slots.
+const latestPosts = [...featuredPosts, ...posts.filter((p) => !p.featured)].slice(0, 3);
 
 export default function HomePage() {
   return (
@@ -111,13 +95,15 @@ export default function HomePage() {
             </Reveal>
           </div>
 
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <ul className="mt-12 grid list-none gap-6 p-0 sm:grid-cols-2 lg:grid-cols-3">
             {featuredApps.map((app, i) => (
-              <Reveal key={app.slug} delay={i * 90} className="h-full">
-                <AppCard app={app} eager={i < 2} />
-              </Reveal>
+              <li key={app.slug} className="h-full">
+                <Reveal delay={i * 90} className="h-full">
+                  <AppCard app={app} eager={i < 3} />
+                </Reveal>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </section>
 
@@ -160,36 +146,74 @@ export default function HomePage() {
             description="From five spare minutes in a queue to a focused evening of progress."
           />
 
-          <div className="mt-12 grid gap-6 sm:grid-cols-2">
+          <ul className="mt-12 grid list-none gap-6 p-0 sm:grid-cols-2">
             {categoryTiles.map((tile, i) => (
-              <Reveal key={tile.label} delay={i * 80}>
-                <Link
-                  href={tile.href}
-                  className="card-premium-hover group flex items-center justify-between gap-6 p-7"
-                >
-                  <span>
-                    <span className="flex items-center gap-3">
-                      <span className="font-display text-2xl font-semibold text-ink-950 transition-colors group-hover:text-crimson-600">
-                        {tile.label}
-                      </span>
-                      {!tile.available && <span className="pill">Coming Soon</span>}
-                    </span>
-                    <span className="mt-2 block text-sm leading-relaxed text-ink-500">
-                      {tile.description}
-                    </span>
-                  </span>
-                  <span
-                    aria-hidden="true"
-                    className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-ink-200 text-ink-400 transition-all duration-300 group-hover:border-gold-400 group-hover:bg-gold-50 group-hover:text-gold-700"
+              <li key={tile.id} className="last:sm:col-span-2">
+                <Reveal delay={i * 80}>
+                  <Link
+                    href={tile.href}
+                    className="card-premium-hover group flex h-full items-center justify-between gap-6 p-7"
                   >
-                    →
-                  </span>
-                </Link>
-              </Reveal>
+                    <span>
+                      <span className="flex flex-wrap items-center gap-3">
+                        <span className="font-display text-2xl font-semibold text-ink-950 transition-colors group-hover:text-crimson-600">
+                          {tile.label}
+                        </span>
+                        <span className="pill">
+                          {tile.count} {tile.count === 1 ? 'app' : 'apps'}
+                        </span>
+                      </span>
+                      <span className="mt-2 block text-sm leading-relaxed text-ink-500">
+                        {tile.blurb}
+                      </span>
+                    </span>
+                    <span
+                      aria-hidden="true"
+                      className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-ink-200 text-ink-400 transition-all duration-300 group-hover:border-gold-400 group-hover:bg-gold-50 group-hover:text-gold-700"
+                    >
+                      →
+                    </span>
+                  </Link>
+                </Reveal>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </section>
+
+      {/* Latest guides */}
+      {latestPosts.length > 0 && (
+        <section className="section-padding bg-cream-100" aria-labelledby="guides-heading">
+          <div className="container-wide mx-auto">
+            <div className="flex flex-wrap items-end justify-between gap-6">
+              <SectionHeading
+                eyebrow="From the blog"
+                title={
+                  <span id="guides-heading">
+                    Guides from the people who <em className="gold-text not-italic">build them</em>
+                  </span>
+                }
+                description="How our apps work, who they are for, and what to expect before you install."
+              />
+              <Reveal delay={150}>
+                <Link href="/blog/" className="btn-outline btn-sm">
+                  All articles
+                </Link>
+              </Reveal>
+            </div>
+
+            <ul className="mt-12 grid list-none gap-6 p-0 sm:grid-cols-2 lg:grid-cols-3">
+              {latestPosts.map((post, i) => (
+                <li key={post.slug} className="h-full">
+                  <Reveal delay={i * 90} className="h-full">
+                    <BlogCard post={post} />
+                  </Reveal>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
 
       {/* Studio trust + Google Play callout */}
       <section className="section-padding bg-ink-panel relative overflow-hidden" aria-labelledby="studio-heading">
@@ -260,7 +284,8 @@ export default function HomePage() {
               Find your next favorite app
             </h2>
             <p className="mx-auto mt-5 max-w-xl text-lg leading-relaxed text-ink-500">
-              Eight apps and counting — built to be played, learned from, and loved.
+              {appCount} apps across {activeCategories.length} categories — built to be played,
+              learned from, and loved.
             </p>
             <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
               <Link href="/apps/" className="btn-primary">

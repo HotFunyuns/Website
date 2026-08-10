@@ -1,62 +1,58 @@
 import Link from 'next/link';
-import { companyInfo } from '@/data/apps';
+import { companyInfo, getAppBySlug } from '@/data/apps';
 import GooglePlayIcon from './GooglePlayIcon';
 import PlayStoreLink from './PlayStoreLink';
 
-interface CollageTile {
-  src: string;
-  alt: string;
-  size: number;
-  className: string;
-  animation: string;
-}
+// Icon paths and names are read from the catalog rather than hardcoded, so a
+// Play rename or a re-fetched icon can never leave the hero pointing at a file
+// that no longer exists.
+const tile = (slug: string, small = true) => {
+  const app = getAppBySlug(slug);
+  if (!app) throw new Error(`Hero references unknown app slug "${slug}"`);
+  return { src: small ? app.iconSmall : app.icon, alt: `${app.name} app icon` };
+};
 
-const collageTiles: CollageTile[] = [
+const flagship = tile('anime-coloring-book', false);
+
+const collageTiles = [
   {
-    src: '/icons/zombie-survival-last-survivor-sm.jpg',
-    alt: 'Zombie Survival: Last Survivor app icon',
+    ...tile('zombie-survival-last-survivor'),
     size: 92,
     className: 'left-[6%] top-[4%] -rotate-6 rounded-[1.4rem]',
     animation: 'animate-float-mid',
   },
   {
-    src: '/icons/keto-diet-tracker-sm.jpg',
-    alt: 'Keto Diet Tracker: Low Carb app icon',
+    ...tile('keto-diet-tracker'),
     size: 68,
     className: 'left-[47%] top-0 -rotate-[8deg] rounded-2xl',
     animation: 'animate-float-fast',
   },
   {
-    src: '/icons/world-history-timeline-sim.jpg',
-    alt: 'World History Timeline Sim app icon',
+    ...tile('world-history-timeline-sim', false),
     size: 108,
     className: 'right-[3%] top-[10%] rotate-6 rounded-[1.6rem]',
     animation: 'animate-float-fast',
   },
   {
-    src: '/icons/pro-basketball-my-career-sim-sm.jpg',
-    alt: 'Pro Basketball My Career Sim app icon',
+    ...tile('pro-basketball-my-career-sim'),
     size: 76,
     className: '-left-2 top-[46%] -rotate-12 rounded-2xl',
     animation: 'animate-float-mid',
   },
   {
-    src: '/icons/protein-diet-tracker-sm.jpg',
-    alt: 'Protein Diet Tracker app icon',
+    ...tile('protein-diet-tracker'),
     size: 84,
     className: 'bottom-[14%] left-[9%] rotate-3 rounded-[1.3rem]',
     animation: 'animate-float-fast',
   },
   {
-    src: '/icons/pro-basketball-draft-gm-mode-sm.png',
-    alt: 'Pro Basketball Draft & GM Mode app icon',
+    ...tile('pro-basketball-draft-gm-mode'),
     size: 66,
     className: 'bottom-[2%] left-[38%] rotate-12 rounded-2xl',
     animation: 'animate-float-slow',
   },
   {
-    src: '/icons/space-shooter-classic-arcade.jpg',
-    alt: 'Space Shooter: Classic Arcade app icon',
+    ...tile('space-shooter-classic-arcade', false),
     size: 100,
     className: 'bottom-[8%] right-[8%] -rotate-3 rounded-[1.5rem]',
     animation: 'animate-float-slow',
@@ -64,11 +60,11 @@ const collageTiles: CollageTile[] = [
 ];
 
 const mobileStrip = [
-  { src: '/icons/anime-coloring-book-sm.jpg', alt: 'Anime Coloring Book: Paint Art app icon', rotate: '-rotate-6' },
-  { src: '/icons/zombie-survival-last-survivor-sm.jpg', alt: 'Zombie Survival: Last Survivor app icon', rotate: 'rotate-3' },
-  { src: '/icons/world-history-timeline-sim-sm.jpg', alt: 'World History Timeline Sim app icon', rotate: '-rotate-3' },
-  { src: '/icons/protein-diet-tracker-sm.jpg', alt: 'Protein Diet Tracker app icon', rotate: 'rotate-6' },
-  { src: '/icons/space-shooter-classic-arcade-sm.jpg', alt: 'Space Shooter: Classic Arcade app icon', rotate: '-rotate-6' },
+  { ...tile('anime-coloring-book'), rotate: '-rotate-6' },
+  { ...tile('zombie-survival-last-survivor'), rotate: 'rotate-3' },
+  { ...tile('world-history-timeline-sim'), rotate: '-rotate-3' },
+  { ...tile('protein-diet-tracker'), rotate: 'rotate-6' },
+  { ...tile('space-shooter-classic-arcade'), rotate: '-rotate-6' },
 ];
 
 export default function Hero() {
@@ -153,8 +149,8 @@ export default function Hero() {
           {/* Center flagship tile */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/icons/anime-coloring-book.jpg"
-            alt="Anime Coloring Book: Paint Art app icon"
+            src={flagship.src}
+            alt={flagship.alt}
             width={176}
             height={176}
             fetchPriority="high"

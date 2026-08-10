@@ -4,7 +4,7 @@ import PageHeader from '@/components/PageHeader';
 import Reveal from '@/components/Reveal';
 import GoldDivider from '@/components/GoldDivider';
 import GooglePlayButton from '@/components/GooglePlayButton';
-import { companyInfo } from '@/data/apps';
+import { companyInfo, appCount } from '@/data/apps';
 
 export const metadata: Metadata = {
   title: 'About Reign Creative LLC — Independent App Studio',
@@ -177,7 +177,8 @@ export default function AboutPage() {
               See what we&apos;ve built so far
             </h2>
             <p className="mx-auto mt-4 max-w-lg text-base leading-relaxed text-ink-500 sm:text-lg">
-              Eight published apps across games, education, and fitness — all free on Google Play.
+              {appCount} published apps across games, learning, languages, and fitness — all free on
+              Google Play.
             </p>
             <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
               <Link href="/apps/" className="btn-primary">

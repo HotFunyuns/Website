@@ -1,15 +1,25 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useId, useMemo, useState } from 'react';
 import { motion, AnimatePresence, MotionConfig } from 'framer-motion';
 import Link from 'next/link';
-import { apps, filterCategories, type FilterId } from '@/data/apps';
+import { apps, activeCategories, type FilterId } from '@/data/apps';
 import AppCard from './AppCard';
 
-const validIds = filterCategories.map((c) => c.id);
+const filterOptions: { id: FilterId; label: string }[] = [
+  { id: 'all', label: 'All Apps' },
+  ...activeCategories.map((c) => ({ id: c.id as FilterId, label: c.shortLabel })),
+];
+
+const validIds = filterOptions.map((c) => c.id);
+
+const countFor = (id: FilterId) =>
+  id === 'all' ? apps.length : apps.filter((a) => a.categoryId === id).length;
 
 export default function AppsExplorer() {
   const [filter, setFilter] = useState<FilterId>('all');
+  const [query, setQuery] = useState('');
+  const searchId = useId();
 
   useEffect(() => {
     const hash = window.location.hash.replace('#', '');
@@ -24,20 +34,51 @@ export default function AppsExplorer() {
     history.replaceState(null, '', id === 'all' ? pathname + search : `#${id}`);
   };
 
-  const visibleApps = useMemo(
-    () => (filter === 'all' ? apps : apps.filter((app) => app.filter === filter)),
-    [filter]
-  );
+  const visibleApps = useMemo(() => {
+    const byCategory = filter === 'all' ? apps : apps.filter((app) => app.categoryId === filter);
+    const q = query.trim().toLowerCase();
+    if (!q) return byCategory;
+    return byCategory.filter((app) =>
+      `${app.name} ${app.category} ${app.tagline} ${app.cardDescription}`.toLowerCase().includes(q)
+    );
+  }, [filter, query]);
 
-  const activeCategory = filterCategories.find((c) => c.id === filter);
+  const activeCategory = activeCategories.find((c) => c.id === filter);
+  const searching = query.trim().length > 0;
 
   return (
     <MotionConfig reducedMotion="user">
       <div>
+        <div className="mb-6">
+          <label htmlFor={searchId} className="sr-only">
+            Search apps by name or category
+          </label>
+          <div className="relative max-w-md">
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-ink-400"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+            >
+              <circle cx="11" cy="11" r="7" />
+              <path d="M20 20l-3.5-3.5" />
+            </svg>
+            <input
+              id={searchId}
+              type="search"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Search apps…"
+              className="w-full rounded-full border border-ink-300 bg-white py-2.5 pl-11 pr-4 text-sm text-ink-950 transition-colors placeholder:text-ink-400 focus:border-gold-400 focus:outline-none focus:ring-2 focus:ring-gold-400/40"
+            />
+          </div>
+        </div>
+
         <div role="group" aria-label="Filter apps by category" className="flex flex-wrap gap-2.5">
-          {filterCategories.map((cat) => {
-            const count =
-              cat.id === 'all' ? apps.length : apps.filter((a) => a.filter === cat.id).length;
+          {filterOptions.map((cat) => {
             const active = filter === cat.id;
             return (
               <button
@@ -57,7 +98,7 @@ export default function AppsExplorer() {
                     active ? 'bg-gold-400 text-ink-950' : 'bg-ink-100 text-ink-500'
                   }`}
                 >
-                  {count}
+                  {countFor(cat.id)}
                 </span>
               </button>
             );
@@ -67,8 +108,8 @@ export default function AppsExplorer() {
         <p aria-live="polite" className="mt-5 text-sm text-ink-400">
           {visibleApps.length > 0
             ? `Showing ${visibleApps.length} ${visibleApps.length === 1 ? 'app' : 'apps'}`
-            : 'No apps in this category yet'}
-          {activeCategory && activeCategory.id !== 'all' ? ` — ${activeCategory.blurb}` : ''}
+            : 'No apps match that search'}
+          {activeCategory && !searching ? ` — ${activeCategory.blurb}` : ''}
         </p>
 
         {visibleApps.length > 0 ? (
@@ -96,18 +137,26 @@ export default function AppsExplorer() {
               className="mx-auto flex h-14 w-14 items-center justify-center rounded-full border border-gold-300 bg-gold-50"
             >
               <svg viewBox="0 0 24 24" className="h-6 w-6 text-gold-700" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1" />
+                <circle cx="11" cy="11" r="7" />
+                <path d="M20 20l-3.5-3.5" />
               </svg>
             </span>
             <h3 className="mt-6 font-display text-2xl font-semibold text-ink-950">
-              Productivity tools are in development
+              Nothing matched “{query.trim()}”
             </h3>
             <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-ink-500">
-              Our first productivity releases are being built right now. In the meantime, the rest
-              of the catalog is one tap away.
+              Try a different word, or browse the full catalog — there are {apps.length} apps across{' '}
+              {activeCategories.length} categories.
             </p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-              <button type="button" onClick={() => selectFilter('all')} className="btn-primary btn-sm">
+              <button
+                type="button"
+                onClick={() => {
+                  setQuery('');
+                  selectFilter('all');
+                }}
+                className="btn-primary btn-sm"
+              >
                 Show all apps
               </button>
               <Link href="/support/" className="btn-outline btn-sm">

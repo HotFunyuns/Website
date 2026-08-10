@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { companyInfo } from '@/data/apps';
+import { companyInfo, activeCategories } from '@/data/apps';
 import BrandMark from './BrandMark';
 import GooglePlayIcon from './GooglePlayIcon';
 import PlayStoreLink from './PlayStoreLink';
@@ -11,6 +11,7 @@ const exploreLinks = [
 ];
 
 const legalLinks = [
+  { label: 'Editorial Policy', href: '/editorial-policy/' },
   { label: 'Privacy Policy', href: '/privacy/' },
   { label: 'Terms of Service', href: '/terms/' },
   { label: 'Developer Info', href: '/app-support/' },
@@ -102,7 +103,25 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-14 flex flex-col items-start justify-between gap-4 border-t border-white/10 pt-8 sm:flex-row sm:items-center">
+        <nav aria-label="App categories" className="mt-14 border-t border-white/10 pt-8">
+          <h2 className="text-xs font-semibold uppercase tracking-[0.18em] text-gold-400">
+            Categories
+          </h2>
+          <ul className="mt-4 flex flex-wrap gap-x-6 gap-y-3">
+            {activeCategories.map((category) => (
+              <li key={category.id}>
+                <Link
+                  href={`/apps/category/${category.id}/`}
+                  className="text-sm text-ink-300 transition-colors hover:text-gold-200"
+                >
+                  {category.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
+        <div className="mt-10 flex flex-col items-start justify-between gap-4 border-t border-white/10 pt-8 sm:flex-row sm:items-center">
           <p className="text-sm text-ink-400">
             © {currentYear} {companyInfo.name}. All rights reserved.
           </p>

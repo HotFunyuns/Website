@@ -5,7 +5,8 @@ import GooglePlayButton from '@/components/GooglePlayButton';
 import Reveal from '@/components/Reveal';
 import GoldDivider from '@/components/GoldDivider';
 import JsonLd from '@/components/JsonLd';
-import { apps, companyInfo } from '@/data/apps';
+import Link from 'next/link';
+import { apps, activeCategories, appCount, companyInfo, countByCategory } from '@/data/apps';
 
 export const metadata: Metadata = {
   title: 'Our Apps — Games, Education & Fitness for Android',
@@ -57,11 +58,30 @@ export default function AppsPage() {
             Our <em className="gold-text not-italic">Apps</em>
           </>
         }
-        description="Every app we've published for Android — games, learning experiences, and health & fitness tools. All free to download on Google Play."
+        description={`All ${appCount} apps we've published for Android — games, learning experiences, language courses, and health tools. Every one is free to download on Google Play.`}
       />
 
       <section className="section-padding !pt-6" aria-label="App catalog">
         <div className="container-wide mx-auto">
+          <nav aria-label="App categories" className="mb-10">
+            <h2 className="eyebrow">Browse by category</h2>
+            <ul className="mt-4 flex list-none flex-wrap gap-3 p-0">
+              {activeCategories.map((category) => (
+                <li key={category.id}>
+                  <Link
+                    href={`/apps/category/${category.id}/`}
+                    className="inline-flex items-center gap-2 rounded-full border border-ink-200 bg-white px-4 py-2 text-sm font-medium text-ink-600 transition-all duration-300 hover:-translate-y-0.5 hover:border-gold-400 hover:text-ink-950"
+                  >
+                    {category.label}
+                    <span className="rounded-full bg-ink-100 px-1.5 py-0.5 text-[10px] font-bold leading-none text-ink-500">
+                      {countByCategory(category.id)}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
           <AppsExplorer />
 
           <GoldDivider className="mt-20" />

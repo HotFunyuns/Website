@@ -5,12 +5,15 @@ import { companyInfo, getAppBySlug } from '@/data/apps';
 
 const NEW_SLUG = 'pro-basketball-draft-gm-mode';
 const NEW_PATH = `/apps/${NEW_SLUG}/`;
+// Read from the catalog so this page follows any future Play rename instead of
+// advertising a name the store no longer uses.
+const CURRENT_NAME = getAppBySlug(NEW_SLUG)?.name ?? 'Basketball Draft GM Franchise';
 
 export const metadata: Metadata = {
-  title: 'Pro Basketball Draft & GM Mode',
-  description:
-    'This app is now Pro Basketball Draft & GM Mode. Visit the current app page for details and the free Google Play download.',
+  title: CURRENT_NAME,
+  description: `This app is now ${CURRENT_NAME}. Visit the current app page for details and the free Google Play download.`,
   alternates: { canonical: `${companyInfo.siteUrl}${NEW_PATH}` },
+  robots: { index: false, follow: true },
 };
 
 export default function LegacyBasketballDraftPage() {
@@ -34,7 +37,7 @@ export default function LegacyBasketballDraftPage() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={app.icon}
-                alt="Pro Basketball Draft & GM Mode app icon"
+                alt={`${app.name} app icon`}
                 width={96}
                 height={96}
                 fetchPriority="high"
@@ -46,8 +49,7 @@ export default function LegacyBasketballDraftPage() {
 
           <p className="eyebrow justify-center mt-8">App renamed</p>
           <h1 className="display-title mt-4 text-balance text-4xl leading-[1.1] sm:text-5xl">
-            This app is now{' '}
-            <em className="gold-text not-italic">Pro Basketball Draft &amp; GM Mode</em>
+            This app is now <em className="gold-text not-italic">{CURRENT_NAME}</em>
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-ink-500">
             We&apos;ve renamed this app. You&apos;re being redirected to the current page — if it
@@ -56,7 +58,7 @@ export default function LegacyBasketballDraftPage() {
 
           <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
             <Link href={NEW_PATH} className="btn-primary">
-              Go to Pro Basketball Draft &amp; GM Mode
+              Go to {CURRENT_NAME}
             </Link>
             {app && (
               <GooglePlayButton

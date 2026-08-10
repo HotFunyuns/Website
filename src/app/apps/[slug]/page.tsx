@@ -8,7 +8,9 @@ import GooglePlayButton from '@/components/GooglePlayButton';
 import GoldDivider from '@/components/GoldDivider';
 import Reveal from '@/components/Reveal';
 import JsonLd from '@/components/JsonLd';
-import { apps, companyInfo, getAppBySlug, getRelatedApps } from '@/data/apps';
+import BlogCard from '@/components/blog/BlogCard';
+import { apps, companyInfo, getAppBySlug, getRelatedApps, getCategory } from '@/data/apps';
+import { getPostsByApp } from '@/lib/blog';
 
 export const dynamicParams = false;
 
@@ -53,6 +55,9 @@ export default function AppPage({ params }: { params: { slug: string } }) {
   if (!app) notFound();
 
   const related = getRelatedApps(app);
+  const category = getCategory(app.categoryId);
+  const categoryPath = `/apps/category/${app.categoryId}/`;
+  const guides = getPostsByApp(app.slug).slice(0, 3);
 
   const softwareSchema = {
     '@context': 'https://schema.org',
@@ -64,11 +69,11 @@ export default function AppPage({ params }: { params: { slug: string } }) {
     operatingSystem: 'Android',
     applicationCategory: app.schemaCategory,
     image: `${companyInfo.siteUrl}${app.icon}`,
-    offers: {
-      '@type': 'Offer',
-      price: '0',
-      priceCurrency: 'USD',
-    },
+    // Only free apps get an Offer. A price we have not verified is worse than
+    // no price at all, and the visible "Price" row reads from the same field.
+    ...(app.free
+      ? { offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' } }
+      : {}),
     publisher: {
       '@id': `${companyInfo.siteUrl}/#organization`,
     },
@@ -105,6 +110,7 @@ export default function AppPage({ params }: { params: { slug: string } }) {
             items={[
               { label: 'Home', href: '/' },
               { label: 'Apps', href: '/apps/' },
+              ...(category ? [{ label: category.shortLabel, href: categoryPath }] : []),
               { label: app.name },
             ]}
           />
@@ -132,7 +138,9 @@ export default function AppPage({ params }: { params: { slug: string } }) {
             </div>
 
             <div className="max-w-2xl">
-              <span className="pill">{app.category}</span>
+              <Link href={categoryPath} className="pill transition-colors hover:border-gold-400 hover:text-ink-950">
+                {app.category}
+              </Link>
               <h1 className="display-title mt-4 text-balance text-4xl leading-[1.08] sm:text-5xl">
                 {app.name}
               </h1>
@@ -180,22 +188,34 @@ export default function AppPage({ params }: { params: { slug: string } }) {
             <div className="card-premium h-fit p-7 sm:p-8">
               <h3 className="font-display text-lg font-semibold text-ink-950">At a glance</h3>
               <dl className="mt-5 space-y-4">
-                <div className="flex items-center justify-between gap-4 border-b border-ink-100 pb-4">
-                  <dt className="text-sm text-ink-500">Category</dt>
-                  <dd className="text-sm font-semibold text-ink-950">{app.category}</dd>
-                </div>
-                <div className="flex items-center justify-between gap-4 border-b border-ink-100 pb-4">
-                  <dt className="text-sm text-ink-500">Platform</dt>
-                  <dd className="text-sm font-semibold text-ink-950">Android</dd>
-                </div>
-                <div className="flex items-center justify-between gap-4 border-b border-ink-100 pb-4">
-                  <dt className="text-sm text-ink-500">Price</dt>
-                  <dd className="text-sm font-semibold text-ink-950">Free to download</dd>
-                </div>
-                <div className="flex items-center justify-between gap-4">
-                  <dt className="text-sm text-ink-500">Developer</dt>
-                  <dd className="text-sm font-semibold text-ink-950">{companyInfo.name}</dd>
-                </div>
+                {[
+                  {
+                    term: 'Category',
+                    detail: category ? (
+                      <Link href={categoryPath} className="link-accent">
+                        {app.category}
+                      </Link>
+                    ) : (
+                      app.category
+                    ),
+                  },
+                  { term: 'Platform', detail: 'Android' },
+                  { term: 'Price', detail: app.free ? 'Free to download' : 'Paid' },
+                  { term: 'Content rating', detail: app.contentRating },
+                  { term: 'Contains ads', detail: app.containsAds ? 'Yes' : 'No' },
+                  { term: 'In-app purchases', detail: app.inAppPurchases ? 'Yes' : 'No' },
+                  { term: 'Developer', detail: companyInfo.name },
+                ].map((row, i, rows) => (
+                  <div
+                    key={row.term}
+                    className={`flex items-center justify-between gap-4 ${
+                      i < rows.length - 1 ? 'border-b border-ink-100 pb-4' : ''
+                    }`}
+                  >
+                    <dt className="text-sm text-ink-500">{row.term}</dt>
+                    <dd className="text-right text-sm font-semibold text-ink-950">{row.detail}</dd>
+                  </div>
+                ))}
               </dl>
               <GooglePlayButton
                 href={app.playStoreUrl}
@@ -206,6 +226,18 @@ export default function AppPage({ params }: { params: { slug: string } }) {
                 small
                 className="mt-7 w-full"
               />
+              <p className="mt-4 text-xs leading-relaxed text-ink-400">
+                Store details checked against the live Google Play listing on{' '}
+                <time dateTime={app.lastVerified}>
+                  {new Date(`${app.lastVerified}T00:00:00Z`).toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                    timeZone: 'UTC',
+                  })}
+                </time>
+                . Google Play is the source of truth.
+              </p>
             </div>
           </Reveal>
         </div>
@@ -256,6 +288,30 @@ export default function AppPage({ params }: { params: { slug: string } }) {
           </p>
         </div>
       </section>
+
+      {/* Guides */}
+      {guides.length > 0 && (
+        <section className="section-padding !pt-0" aria-labelledby="app-guides-heading">
+          <div className="container-wide mx-auto">
+            <GoldDivider className="mb-16" />
+            <h2 id="app-guides-heading" className="display-title text-2xl sm:text-3xl">
+              Guides for {app.name}
+            </h2>
+            <p className="mt-3 max-w-2xl text-ink-500">
+              Written by the team that builds the app.
+            </p>
+            <ul className="mt-8 grid list-none gap-6 p-0 sm:grid-cols-2 lg:grid-cols-3">
+              {guides.map((post, i) => (
+                <li key={post.slug} className="h-full">
+                  <Reveal delay={i * 60} className="h-full">
+                    <BlogCard post={post} headingLevel="h3" />
+                  </Reveal>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
 
       {/* CTA band */}
       <section className="bg-ink-panel relative overflow-hidden" aria-labelledby="get-app-heading">

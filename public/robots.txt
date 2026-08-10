@@ -1,4 +1,28 @@
+# Reign Creative LLC — https://reigncreativellc.com
+# Everything published on this site is public and crawlable.
+
 User-agent: *
+Allow: /
+
+# AI search and answer crawlers. These fetch pages to answer user queries and
+# cite sources, so they are listed explicitly to make the permission deliberate
+# rather than inherited. Training-only crawlers (GPTBot, ClaudeBot, CCBot) are
+# intentionally given no rules of their own — they continue to inherit the
+# site-wide Allow above, which is this site's existing default.
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
 Allow: /
 
 Sitemap: https://reigncreativellc.com/sitemap.xml
