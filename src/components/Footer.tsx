@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { companyInfo } from '@/data/apps';
 import BrandMark from './BrandMark';
 import GooglePlayIcon from './GooglePlayIcon';
+import PlayStoreLink from './PlayStoreLink';
 
 const exploreLinks = [
   { label: 'Apps', href: '/apps/' },
@@ -89,16 +90,15 @@ export default function Footer() {
             <p className="mt-5 text-sm leading-relaxed text-ink-400">
               Every Reign Creative app is published on Google Play.
             </p>
-            <a
+            <PlayStoreLink
               href={companyInfo.developerPageUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              buttonLocation="footer"
               className="btn-gold btn-sm mt-5"
             >
               <GooglePlayIcon className="h-3.5 w-3.5" />
               Google Play Developer Page
               <span className="sr-only"> (opens in a new tab)</span>
-            </a>
+            </PlayStoreLink>
           </div>
         </div>
 

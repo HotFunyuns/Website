@@ -28,7 +28,7 @@ const h2Classes = 'mb-3 font-display text-xl font-semibold text-ink-950';
 const h3Classes = 'mb-2 mt-4 text-base font-semibold text-ink-800';
 
 export default function PrivacyPage() {
-  const lastUpdated = 'June 2, 2026';
+  const lastUpdated = 'August 9, 2026';
 
   return (
     <>
@@ -88,6 +88,35 @@ export default function PrivacyPage() {
                     type, operating system version, app version, diagnostics, and general usage
                     analytics. This data is used to improve app performance and user experience.
                   </p>
+                  <h3 className={h3Classes}>Website Analytics (Google Analytics 4)</h3>
+                  <p>
+                    Our website at {companyInfo.domain} uses Google Analytics 4, a web analytics
+                    service provided by Google, together with first-party analytics cookies (for
+                    example, <code className="text-ink-800">_ga</code>). It records general usage
+                    information such as the pages you view and how long you stay, the website or
+                    search engine that referred you, how far down a page you scroll, clicks on
+                    outbound links and file downloads, clicks on our Google Play links, an
+                    approximate location (typically country, region, or city) that Google derives
+                    from your IP address, and basic device information such as browser, operating
+                    system, screen size, and language.
+                  </p>
+                  <p className="mt-2">
+                    We use this information only in aggregate, to understand which apps and pages
+                    visitors find useful, to find navigation and performance problems, and to decide
+                    what to build next. We do not use website analytics to identify you personally.
+                    We do not send your name, email address, support message content, or anything
+                    else you type into a form on this site to Google Analytics, and we do not
+                    combine analytics data with support correspondence.
+                  </p>
+                  <p className="mt-2">
+                    Google processes this analytics data under its own privacy terms and as our
+                    service provider. Google Analytics 4 uses your IP address to derive an
+                    approximate location but does not log or store IP addresses. You can opt out at
+                    any time by installing the Google Analytics Opt-out Browser Add-on, by blocking
+                    analytics cookies in your browser, or by using a browser or extension that
+                    blocks tracking scripts. The website works normally either way.
+                  </p>
+
                   <h3 className={h3Classes}>Advertising Identifier (Ad ID)</h3>
                   <p>
                     Apps that display advertisements through Google AdMob may use your device&apos;s
@@ -102,7 +131,7 @@ export default function PrivacyPage() {
                     advertisements, Google Play Services, and Google Play Billing for in-app
                     purchases where an app offers them. These services may collect information such
                     as device identifiers, usage data, advertising identifiers, and purchase
-                    information.
+                    information. Our website uses Google Analytics 4, as described above.
                   </p>
                   <p className="mt-2">
                     These third-party services operate under their own privacy policies, and we
@@ -118,6 +147,28 @@ export default function PrivacyPage() {
                         rel="noopener noreferrer"
                       >
                         https://policies.google.com/privacy
+                      </a>
+                    </li>
+                    <li>
+                      How Google uses data from sites that use its services:{' '}
+                      <a
+                        href="https://policies.google.com/technologies/partner-sites"
+                        className="link-accent"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        https://policies.google.com/technologies/partner-sites
+                      </a>
+                    </li>
+                    <li>
+                      Google Analytics Opt-out Browser Add-on:{' '}
+                      <a
+                        href="https://tools.google.com/dlpage/gaoptout"
+                        className="link-accent"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        https://tools.google.com/dlpage/gaoptout
                       </a>
                     </li>
                   </ul>
@@ -186,6 +237,13 @@ export default function PrivacyPage() {
                     if used. These providers retain data according to their own privacy policies.
                   </p>
                   <p className="mt-2">
+                    <strong className="font-semibold text-ink-800">Website analytics data:</strong>{' '}
+                    Google Analytics data collected from {companyInfo.domain} is held by Google and
+                    retained according to the retention period configured in our Google Analytics
+                    property and Google&apos;s own policies. Aggregate reports may be retained
+                    indefinitely because they do not identify individual visitors.
+                  </p>
+                  <p className="mt-2">
                     <strong className="font-semibold text-ink-800">
                       Legal/security records:
                     </strong>{' '}
@@ -221,8 +279,9 @@ export default function PrivacyPage() {
                   </p>
                   <p className="mt-2">
                     We may share limited data with trusted third-party partners such as Google
-                    AdMob for advertising and Google Play Billing for payment processing where an
-                    app offers in-app purchases.
+                    AdMob for advertising, Google Play Billing for payment processing where an
+                    app offers in-app purchases, and Google Analytics for website usage
+                    measurement.
                   </p>
                 </div>
 

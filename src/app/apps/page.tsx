@@ -77,6 +77,7 @@ export default function AppsPage() {
             <div className="mt-7 flex justify-center">
               <GooglePlayButton
                 href={companyInfo.developerPageUrl}
+                buttonLocation="article_bottom"
                 label="All Apps on Google Play"
                 variant="gold"
               />

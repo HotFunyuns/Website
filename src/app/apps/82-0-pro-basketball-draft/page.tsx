@@ -61,6 +61,8 @@ export default function LegacyBasketballDraftPage() {
             {app && (
               <GooglePlayButton
                 href={app.playStoreUrl}
+                buttonLocation="hero"
+                appName={app.name}
                 label="Get it on Google Play"
                 variant="outline"
               />

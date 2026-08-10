@@ -16,7 +16,7 @@ export default function RelatedApps({ apps }: { apps: AppInfo[] }) {
       <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {apps.map((app, i) => (
           <Reveal key={app.slug} delay={i * 80} className="h-full">
-            <AppCard app={app} />
+            <AppCard app={app} buttonLocation="related_apps" />
           </Reveal>
         ))}
       </div>

@@ -240,6 +240,7 @@ export default function HomePage() {
               <div className="mt-7 flex flex-wrap gap-3">
                 <GooglePlayButton
                   href={companyInfo.developerPageUrl}
+                  buttonLocation="article_middle"
                   label="Visit our Google Play page"
                   variant="gold"
                 />
@@ -267,6 +268,7 @@ export default function HomePage() {
               </Link>
               <GooglePlayButton
                 href={companyInfo.developerPageUrl}
+                buttonLocation="article_bottom"
                 label="View on Google Play"
                 variant="outline"
               />

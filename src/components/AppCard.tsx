@@ -3,14 +3,17 @@
 import Link from 'next/link';
 import { useCallback, useRef } from 'react';
 import type { AppInfo } from '@/data/apps';
+import type { ButtonLocation } from '@/lib/analytics';
 import GooglePlayIcon from './GooglePlayIcon';
+import PlayStoreLink from './PlayStoreLink';
 
 interface AppCardProps {
   app: AppInfo;
   eager?: boolean;
+  buttonLocation?: ButtonLocation;
 }
 
-export default function AppCard({ app, eager = false }: AppCardProps) {
+export default function AppCard({ app, eager = false, buttonLocation = 'app_card' }: AppCardProps) {
   const cardRef = useRef<HTMLElement>(null);
   const frame = useRef<number | null>(null);
 
@@ -58,16 +61,16 @@ export default function AppCard({ app, eager = false }: AppCardProps) {
       <p className="mt-2.5 flex-1 text-sm leading-relaxed text-ink-500">{app.cardDescription}</p>
 
       <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-3">
-        <a
+        <PlayStoreLink
           href={app.playStoreUrl}
-          target="_blank"
-          rel="noopener noreferrer"
+          buttonLocation={buttonLocation}
+          appName={app.name}
           className="btn-primary btn-sm"
         >
           <GooglePlayIcon className="h-3.5 w-3.5" />
           View on Google Play
           <span className="sr-only"> — {app.name} (opens in a new tab)</span>
-        </a>
+        </PlayStoreLink>
         <Link
           href={`/apps/${app.slug}/`}
           className="link-accent text-sm"

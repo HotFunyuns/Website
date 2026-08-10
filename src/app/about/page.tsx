@@ -185,6 +185,7 @@ export default function AboutPage() {
               </Link>
               <GooglePlayButton
                 href={companyInfo.developerPageUrl}
+                buttonLocation="article_bottom"
                 label="View on Google Play"
                 variant="outline"
               />

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { companyInfo } from '@/data/apps';
 import GooglePlayIcon from './GooglePlayIcon';
+import PlayStoreLink from './PlayStoreLink';
 
 interface CollageTile {
   src: string;
@@ -116,16 +117,15 @@ export default function Hero() {
             <Link href="/apps/" className="btn-primary">
               Explore Our Apps
             </Link>
-            <a
+            <PlayStoreLink
               href={companyInfo.developerPageUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              buttonLocation="hero"
               className="btn-outline"
             >
               <GooglePlayIcon className="h-4 w-4" />
               View on Google Play
               <span className="sr-only"> (opens in a new tab)</span>
-            </a>
+            </PlayStoreLink>
           </div>
 
           <p className="mt-8 flex items-center gap-2.5 text-sm text-ink-400">

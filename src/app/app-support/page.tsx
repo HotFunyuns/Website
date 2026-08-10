@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import PageHeader from '@/components/PageHeader';
+import PlayStoreLink from '@/components/PlayStoreLink';
 import Reveal from '@/components/Reveal';
 import { apps, companyInfo } from '@/data/apps';
 
@@ -75,14 +76,13 @@ export default function AppSupportPage() {
                   <h3 className="mb-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-ink-400">
                     Google Play Developer
                   </h3>
-                  <a
+                  <PlayStoreLink
                     href={companyInfo.developerPageUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    buttonLocation="article_top"
                     className="link-accent font-medium"
                   >
                     {companyInfo.developerName}
-                  </a>
+                  </PlayStoreLink>
                 </div>
               </div>
             </div>
@@ -149,15 +149,15 @@ export default function AppSupportPage() {
                         <p className="text-xs text-ink-400">{app.category}</p>
                       </div>
                     </div>
-                    <a
+                    <PlayStoreLink
                       href={app.playStoreUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      buttonLocation="app_card"
+                      appName={app.name}
                       className="pill transition-colors hover:border-gold-500"
                     >
                       Google Play
                       <span className="sr-only"> — {app.name} (opens in a new tab)</span>
-                    </a>
+                    </PlayStoreLink>
                   </li>
                 ))}
               </ul>

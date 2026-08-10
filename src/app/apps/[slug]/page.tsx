@@ -139,7 +139,12 @@ export default function AppPage({ params }: { params: { slug: string } }) {
               <p className="mt-4 text-lg leading-relaxed text-ink-500">{app.tagline}</p>
 
               <div className="mt-8 flex flex-wrap items-center gap-4">
-                <GooglePlayButton href={app.playStoreUrl} label="Get it on Google Play" />
+                <GooglePlayButton
+                  href={app.playStoreUrl}
+                  buttonLocation="hero"
+                  appName={app.name}
+                  label="Get it on Google Play"
+                />
                 <Link href="/apps/" className="link-accent text-sm">
                   ← Back to all apps
                 </Link>
@@ -194,6 +199,8 @@ export default function AppPage({ params }: { params: { slug: string } }) {
               </dl>
               <GooglePlayButton
                 href={app.playStoreUrl}
+                buttonLocation="article_middle"
+                appName={app.name}
                 label="View on Google Play"
                 variant="outline"
                 small
@@ -279,7 +286,13 @@ export default function AppPage({ params }: { params: { slug: string } }) {
               {app.tagline} Free on Google Play.
             </p>
             <div className="mt-8 flex justify-center">
-              <GooglePlayButton href={app.playStoreUrl} label="Get it on Google Play" variant="gold" />
+              <GooglePlayButton
+                href={app.playStoreUrl}
+                buttonLocation="article_bottom"
+                appName={app.name}
+                label="Get it on Google Play"
+                variant="gold"
+              />
             </div>
           </Reveal>
         </div>
