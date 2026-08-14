@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import PageHeader from '@/components/PageHeader';
 import Reveal from '@/components/Reveal';
 import { companyInfo } from '@/data/apps';
@@ -170,6 +171,13 @@ export default function TermsPage() {
                       </a>
                     </p>
                     <p className="mt-1">Website: {companyInfo.domain}</p>
+                    <p className="mt-1">
+                      Or use the form on our{' '}
+                      <Link href="/support/" className="link-accent">
+                        support page
+                      </Link>
+                      .
+                    </p>
                   </div>
                 </div>
               </div>

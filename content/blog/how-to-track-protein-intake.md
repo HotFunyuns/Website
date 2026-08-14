@@ -5,7 +5,7 @@
   "description": "A practical guide to logging protein on Android: what the official intake references say, why tracking habits collapse, and how to build one that lasts.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "health-nutrition",
   "tags": ["protein", "macro tracking", "nutrition logging", "android apps"],
@@ -59,7 +59,7 @@
     },
     {
       "question": "Is a free protein tracker good enough?",
-      "answer": "For daily totals and a history you can look back over, yes. Paid tiers in nutrition apps generally sell database size, integrations, and reporting depth rather than better arithmetic. Protein Diet Tracker is free to download on Google Play, contains ads, and offers optional in-app purchases."
+      "answer": "For daily totals and a history you can look back over, yes. Totalling protein is addition, and paying for an app does not make addition more accurate — so if you are weighing up a paid tier, look at exactly what it adds for you and decide whether that is worth a recurring cost. Protein Diet Tracker is free to download on Google Play, contains ads, and offers optional in-app purchases."
     },
     {
       "question": "What happens to my logging data?",
@@ -101,7 +101,7 @@
 }
 ---
 
-Most people who start tracking protein stop within a fortnight. Not because they stopped caring, and not because the app was bad — because logging a meal took ninety seconds, they were holding a fork, and skipping it once made skipping it twice easy.
+Food tracking does not usually end with a decision to stop. It ends with one meal that did not get logged — because logging it would have taken ninety seconds and you were holding a fork — and then a second one, because the first gap had already put a hole in the week.
 
 That is worth saying plainly at the start, because it changes what a good tracking setup looks like. The problem to solve is not accuracy. It is friction.
 
@@ -152,13 +152,13 @@ Here is the approach that tends to hold up, stated as a process rather than a pr
 
 Spend the first week logging what you already eat, without changing anything and without setting a goal. You are collecting a baseline.
 
-This feels like a wasted week and it is the most valuable one. Almost everyone is surprised by their baseline in one direction or the other, and a target chosen before you know your starting point is a guess. If your baseline is 70 grams a day, a jump to 160 is a different project than a move to 90.
+This feels like a wasted week and it is the most valuable one, because a target chosen before you know your starting point is a guess. If your baseline is 70 grams a day, a jump to 160 is a different project than a move to 90.
 
 ### Calibrate a handful of foods, then estimate the rest
 
 Weigh the five or six foods you eat most often — once, on a kitchen scale, so you know what your normal portion actually weighs. After that, estimate.
 
-USDA's **FoodData Central** is the public reference database for what is in those foods, and it is free to search. As rough anchors from that kind of standard reference data: a 3-ounce (85 g) cooked chicken breast portion lands around 26 grams of protein, a large egg around 6 grams, a small container of plain nonfat Greek yogurt in the high teens, and half a cup of cooked lentils around 9 grams. Treat those as orientation, not gospel — brands and preparation move the numbers, and the entry for the exact food you ate is the one to trust.
+USDA's **FoodData Central** is the public reference database for what is in those foods, and it is free to search. Approximate figures from it, purely to give you a sense of scale: a 3-ounce (85 g) cooked chicken breast portion lands around 26 grams of protein, a large egg around 6 grams, a small container of plain nonfat Greek yogurt in the mid-teens, and half a cup of cooked lentils around 9 grams. Treat those as orientation, not gospel — brands and preparation move the numbers, and the FoodData Central entry for the exact food you ate is the one to trust over any figure quoted here.
 
 Consistency beats precision here. An estimate you make the same way every day produces a trend you can read. A precise measurement you take three days out of ten produces nothing.
 
@@ -195,7 +195,7 @@ Most comparison guides list features. These four questions predict whether you w
 
 **How many taps is a repeat meal?** Try logging the same breakfast three days running before committing. That is the interaction you will perform hundreds of times.
 
-**What does it cost, and when does it start asking?** Many nutrition apps are free to install and gate the useful parts behind a subscription. Check before you invest weeks of entries. Protein Diet Tracker is free to download, contains ads, and has optional in-app purchases; nothing central is held back.
+**What does it cost, and when does it start asking?** Free to install and free to keep using are not the same thing, and the difference is not always visible on day one. Read the pricing and any subscription terms on the Play listing before you invest weeks of entries in something. Protein Diet Tracker is free to download, contains ads, and has optional in-app purchases; nothing central is held back.
 
 **Where does your data live?** The Data safety section on any Google Play listing states what an app collects and shares. In Protein Diet Tracker, entries stay on your device and no account is required, which also means you are responsible for them — an uninstall takes the history with it.
 

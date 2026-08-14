@@ -40,8 +40,8 @@
     "spaced-repetition-for-language-learning"
   ],
   "takeaways": [
-    "The US Foreign Service Institute places Russian in Category III at approximately 44 weeks of full-time instruction, or 1,012 class hours, for its own students.",
-    "That figure describes a specific programme — small-group classroom training for diplomats, roughly 23 hours of class plus 17 hours of self-study a week — aimed at ILR level 3.",
+    "The US Foreign Service Institute places Russian in Category III at approximately 44 weeks of full-time instruction, or 1,100 class hours, for its own students.",
+    "That figure describes a specific programme — intensive, full-time, small-group classroom training for diplomats, working out at about 25 class hours a week — aimed at Professional Working Proficiency, Speaking-3/Reading-3 on the ILR scale.",
     "Hours are not interchangeable: an hour of guided instruction with immediate correction is not equivalent to an hour of solo app time, so dividing the total by your daily minutes produces a number that does not mean much.",
     "Russian's curve is unusually front-loaded on the alphabet, which most adults can read slowly within a fortnight, and back-loaded on the case system and verb aspect.",
     "Milestones described as a sequence are more useful than milestones described as a schedule, because the order is predictable and the pace is not."
@@ -52,11 +52,11 @@
   "faqs": [
     {
       "question": "How many hours does FSI say Russian takes?",
-      "answer": "The Foreign Service Institute places Russian in Category III, at approximately 44 weeks of full-time instruction, commonly given as 1,012 class hours. FSI describes a typical training week as around 23 hours of class plus 17 hours of self-study. Those numbers describe FSI's own students in FSI's own programme, working toward a specific professional standard, and the institute presents them as typical rather than guaranteed."
+      "answer": "The Foreign Service Institute places Russian in Category III, at approximately 44 weeks of full-time instruction, published as 1,100 class hours. That works out at roughly 25 class hours a week, before homework. Those numbers describe FSI's own students in FSI's own programme, working toward a specific professional standard, and the institute presents them as typical rather than guaranteed."
     },
     {
       "question": "What does FSI Category III mean?",
-      "answer": "FSI groups the languages it teaches by how long its students typically need to reach an integrated score of 3 on the Interagency Language Roundtable scale, which ILR calls general professional proficiency. Category III sits between Category II — German, Malay, Indonesian, Swahili at roughly 36 weeks — and Category IV, the hardest group, at 88 weeks. Russian shares Category III with Polish, Thai, Khmer and Vietnamese."
+      "answer": "FSI groups the languages it teaches by how long its students typically need to reach Professional Working Proficiency — a score of Speaking-3/Reading-3 on the Interagency Language Roundtable scale. Category III sits between Category II — German, Malay, Indonesian, Swahili at roughly 36 weeks — and Category IV, the hardest group, at 88 weeks. Russian shares Category III with Polish, Thai, Khmer and Vietnamese."
     },
     {
       "question": "Can I just divide the FSI hours by my daily study time?",
@@ -80,7 +80,7 @@
       "title": "Foreign Language Training",
       "publisher": "U.S. Department of State, Foreign Service Institute",
       "url": "https://www.state.gov/foreign-language-training/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-08-13"
     },
     {
       "title": "Interagency Language Roundtable Skill Level Descriptions",
@@ -108,16 +108,16 @@ Nobody can tell you how long Russian will take you, and anybody who does is sell
 
 ## The figure, and what it describes
 
-The US Foreign Service Institute trains American diplomats in the languages they will work in, and it groups those languages by how long its students typically need to reach an integrated score of **3** on the Interagency Language Roundtable scale — the level ILR describes as **general professional proficiency**.
+The US Foreign Service Institute trains American diplomats in the languages they will work in, and it groups those languages by how long its students typically need to reach **Professional Working Proficiency** — a score of **Speaking-3/Reading-3** on the Interagency Language Roundtable scale.
 
-Russian is in **Category III**, at approximately **44 weeks of full-time instruction**, commonly stated as **1,012 class hours**.
+Russian is in **Category III**, at approximately **44 weeks of full-time instruction**, published as **1,100 class hours**.
 
 Every part of that sentence is load-bearing:
 
-- **Full-time.** FSI describes a typical week as roughly **23 hours of class plus 17 hours of self-study**. That is a 40-hour week, and the arithmetic is consistent: 44 weeks at 23 class hours is 1,012.
+- **Full-time.** 1,100 hours across 44 weeks is about **25 class hours a week**, before any homework — a job, not an evening habit.
 - **Class**, meaning small-group instruction with trained teachers, correcting you continuously.
 - **Typically**, meaning an average across students who have been selected and are being paid to do this as their job.
-- **ILR 3**, a professional standard — using the language for work, not ordering coffee.
+- **Speaking-3/Reading-3**, a professional standard — using the language for work, not ordering coffee.
 
 Where Russian sits relative to its neighbours is the genuinely useful part:
 
@@ -132,7 +132,7 @@ Russian is demanding, and it is a **full category below** the hardest group — 
 
 ## Why you should not divide
 
-The obvious next move is arithmetic. Take 1,012 hours, divide by your daily study time, and read off an answer. At 30 minutes a day every day, a year gives you about 182 hours, and the division suggests something in the region of five and a half years.
+The obvious next move is arithmetic. Take 1,100 hours, divide by your daily study time, and read off an answer. At 30 minutes a day every day, a year gives you about 182 hours, and the division suggests something in the region of six years.
 
 That number is arithmetically correct and close to meaningless, for a reason worth being precise about: **FSI hours and app hours are not the same unit.**
 
@@ -232,7 +232,7 @@ The app's own answer to the fluency question is the right one: no app can promis
 
 ## The honest answer
 
-Russian takes longer than Spanish and half as long as Mandarin, by the only public institutional accounting that exists. The alphabet takes a fortnight, the case system takes months to automate, and verb aspect takes longer than either. The FSI figure of 44 weeks and 1,012 class hours is real, it is checkable, and it describes full-time professional training rather than anything you are about to do.
+Russian takes longer than Spanish and half as long as Mandarin, by the only public institutional accounting that exists. The alphabet takes a fortnight, the case system takes months to automate, and verb aspect takes longer than either. The FSI figure of 44 weeks and 1,100 class hours is real, it is checkable, and it describes full-time professional training rather than anything you are about to do.
 
 The useful question is not "how long" but "how consistently". A learner doing twenty focused minutes daily for two years will pass a learner doing four-hour weekend sessions for the same period, and both will be passed by someone with a weekly conversation partner.
 

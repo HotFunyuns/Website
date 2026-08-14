@@ -1,5 +1,15 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import GoldDivider from '@/components/GoldDivider';
+
+// Without this the 404 inherits the root layout's title, description and
+// `canonical: '/'`, so it reports itself as being the homepage.
+export const metadata: Metadata = {
+  title: { absolute: 'Page Not Found — Reign Creative LLC' },
+  description: 'This page does not exist or has moved.',
+  alternates: { canonical: null },
+  robots: { index: false, follow: true },
+};
 
 export default function NotFound() {
   return (

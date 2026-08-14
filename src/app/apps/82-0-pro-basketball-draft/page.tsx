@@ -13,7 +13,10 @@ export const metadata: Metadata = {
   title: CURRENT_NAME,
   description: `This app is now ${CURRENT_NAME}. Visit the current app page for details and the free Google Play download.`,
   alternates: { canonical: `${companyInfo.siteUrl}${NEW_PATH}` },
-  robots: { index: false, follow: true },
+  // Deliberately no `noindex`. GitHub Pages cannot serve a 301, so the instant
+  // meta refresh below plus this canonical are the redirect. Adding noindex on
+  // top would stop that pair being processed and strand whatever the old URL
+  // has earned instead of passing it to the renamed app.
 };
 
 export default function LegacyBasketballDraftPage() {

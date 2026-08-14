@@ -97,7 +97,7 @@
       "title": "Foreign Language Training",
       "publisher": "U.S. Department of State, Foreign Service Institute",
       "url": "https://www.state.gov/foreign-language-training/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-08-13"
     }
   ]
 }
@@ -199,9 +199,9 @@ Neither is "more useful" in the abstract. They are useful in different places, f
 
 ## The difficulty question, answered carefully
 
-The most defensible public benchmark is the US Foreign Service Institute's training categories, which group the languages FSI teaches by how long its own students typically need to reach an integrated score of 3 on the Interagency Language Roundtable scale. FSI places **both** Cantonese and Mandarin in **Category IV**, its hardest group, at **88 weeks of full-time instruction (2,200 class hours)**, alongside Japanese, Korean and Arabic.
+The most defensible public benchmark is the US Foreign Service Institute's training categories, which group the languages FSI teaches by how long its own students typically need to reach Professional Working Proficiency — a score of Speaking-3/Reading-3 on the Interagency Language Roundtable scale. FSI places **both** Cantonese and Mandarin in **Category IV**, its hardest group, at **88 weeks of full-time instruction (2,200 class hours)**, alongside Japanese, Korean and Arabic.
 
-Two things follow. First, the published institutional guidance does not rank one above the other, so anyone telling you Cantonese is "twice as hard" is not working from that source. Second, those figures describe intensive classroom training for diplomats on a schedule FSI puts at roughly 23 hours of class plus 17 hours of self-study a week. They are not a prediction about phone study and should never be read as one.
+Two things follow. First, the published institutional guidance does not rank one above the other, so anyone telling you Cantonese is "twice as hard" is not working from that source. Second, those figures describe intensive, full-time, small-group classroom training for diplomats — 2,200 hours across 88 weeks is about 25 class hours a week, before homework. They are not a prediction about phone study and should never be read as one.
 
 What FSI is genuinely good for is relative scale. Both languages sit at the demanding end, which is a reason to choose deliberately rather than a reason not to start.
 

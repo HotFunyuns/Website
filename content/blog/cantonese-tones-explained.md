@@ -92,7 +92,7 @@
       "title": "Foreign Language Training",
       "publisher": "U.S. Department of State, Foreign Service Institute",
       "url": "https://www.state.gov/foreign-language-training/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-08-13"
     }
   ]
 }

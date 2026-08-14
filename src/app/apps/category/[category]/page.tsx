@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import AppCard from '@/components/AppCard';
+import BlogCard from '@/components/blog/BlogCard';
 import GooglePlayButton from '@/components/GooglePlayButton';
 import GoldDivider from '@/components/GoldDivider';
 import Reveal from '@/components/Reveal';
@@ -14,6 +15,7 @@ import {
   getCategory,
   type CategoryId,
 } from '@/data/apps';
+import { getPostsByCategory } from '@/lib/blog';
 
 export const dynamicParams = false;
 
@@ -57,6 +59,7 @@ export default function CategoryPage({ params }: { params: { category: string } 
   if (!category) notFound();
 
   const categoryApps = getAppsByCategory(category.id);
+  const categoryPosts = getPostsByCategory(category.id);
   const siblings = activeCategories.filter((c) => c.id !== category.id);
 
   const listSchema = {
@@ -131,7 +134,7 @@ export default function CategoryPage({ params }: { params: { category: string } 
           <Reveal>
             <p className="eyebrow">About this category</p>
             <h2 id="category-intro-heading" className="display-title mt-4 text-3xl sm:text-4xl">
-              Why we build {category.shortLabel.toLowerCase()} apps
+              Why we build {category.shortLabel} apps
             </h2>
             <div className="mt-7 space-y-5">
               {category.intro.map((paragraph) => (
@@ -143,6 +146,41 @@ export default function CategoryPage({ params }: { params: { category: string } 
           </Reveal>
         </div>
       </section>
+
+      {categoryPosts.length > 0 && (
+        <section className="section-padding" aria-labelledby="category-guides-heading">
+          <div className="container-wide mx-auto">
+            <Reveal>
+              <p className="eyebrow">Guides</p>
+              <h2 id="category-guides-heading" className="display-title mt-4 text-3xl sm:text-4xl">
+                Reading on {category.shortLabel}
+              </h2>
+              <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink-500">
+                {categoryPosts.length === 1 ? 'A guide' : `${categoryPosts.length} guides`} written by
+                the team that builds these apps, covering how they work and where their limits are.
+              </p>
+            </Reveal>
+
+            <ul className="mt-10 grid list-none gap-6 p-0 sm:grid-cols-2 lg:grid-cols-3">
+              {categoryPosts.map((post, i) => (
+                <li key={post.slug} className="h-full">
+                  <Reveal delay={i * 60} className="h-full">
+                    <BlogCard post={post} headingLevel="h3" />
+                  </Reveal>
+                </li>
+              ))}
+            </ul>
+
+            <Reveal className="mt-8">
+              <Link href={`/blog/category/${category.id}/`} className="link-accent text-sm">
+                All {category.shortLabel} guides →
+              </Link>
+            </Reveal>
+
+            <GoldDivider className="mt-20" />
+          </div>
+        </section>
+      )}
 
       <section className="section-padding" aria-labelledby="other-categories-heading">
         <div className="container-wide mx-auto">

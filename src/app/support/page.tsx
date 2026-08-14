@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import PageHeader from '@/components/PageHeader';
 import ContactForm from '@/components/ContactForm';
 import Reveal from '@/components/Reveal';
@@ -105,6 +106,20 @@ export default function SupportPage() {
               </Reveal>
             ))}
           </div>
+
+          <Reveal className="mt-8">
+            <p className="text-sm leading-relaxed text-ink-500">
+              Quicker than writing: every{' '}
+              <Link href="/apps/" className="link-accent">
+                app page
+              </Link>{' '}
+              carries its own FAQs, and per-app developer contact details are listed on the{' '}
+              <Link href="/app-support/" className="link-accent">
+                developer info page
+              </Link>
+              .
+            </p>
+          </Reveal>
         </div>
       </section>
 

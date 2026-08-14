@@ -5,7 +5,7 @@ _Diagnostic only — this script never fails the build._
 
 ## Summary
 
-- **68** exported pages
+- **69** exported pages
 - **22** app pages, **21** articles
 - **0** broken internal links
 - **1** orphan pages (no inbound links)
@@ -44,7 +44,7 @@ None.
 - "health &amp; nutrition" → `/apps/category/health-nutrition/`, `/blog/category/health-nutrition/`
 - "video &amp; utility apps" → `/apps/category/video-utility/`, `/blog/category/video-utility/`
 - "anime &amp; creative" → `/apps/category/anime-creative/`, `/blog/category/anime-creative/`
-- "read →" → `/blog/anime-coloring-app-guide/`, `/blog/anime-trivia-quiz-guide/`, `/blog/baseball-draft-gm-guide/`, `/blog/hockey-draft-gm-guide/`, `/blog/football-draft-gm-guide/`, `/blog/soccer-draft-xi-guide/`, `/blog/mma-boxing-fight-draft-guide/`, `/blog/net-carbs-explained-keto-tracking/`, `/blog/how-to-track-protein-intake/`, `/blog/learn-khmer-beginners-guide/`, `/blog/learn-cantonese-beginners-guide/`, `/blog/learn-malay-beginners-guide/`, `/blog/learn-russian-cyrillic-beginners-guide/`, `/blog/learn-thai-script-beginners-guide/`, `/blog/mental-math-training-guide/`, `/blog/basketball-draft-gm-guide/`, `/blog/basketball-career-sim-guide/`, `/blog/android-video-player-guide/`, `/blog/space-shooter-arcade-guide/`, `/blog/zombie-survival-roguelike-guide/`, `/blog/world-history-timeline-guide/`
+- "read →" → `/blog/anime-coloring-app-guide/`, `/blog/anime-trivia-quiz-guide/`, `/blog/baseball-draft-gm-guide/`, `/blog/hockey-draft-gm-guide/`, `/blog/space-shooter-arcade-guide/`, `/blog/zombie-survival-roguelike-guide/`, `/blog/mental-math-training-guide/`, `/blog/world-history-timeline-guide/`, `/blog/how-to-track-protein-intake/`, `/blog/net-carbs-explained-keto-tracking/`, `/blog/learn-cantonese-beginners-guide/`, `/blog/learn-khmer-beginners-guide/`, `/blog/learn-malay-beginners-guide/`, `/blog/learn-russian-cyrillic-beginners-guide/`, `/blog/learn-thai-script-beginners-guide/`, `/blog/basketball-career-sim-guide/`, `/blog/basketball-draft-gm-guide/`, `/blog/football-draft-gm-guide/`, `/blog/mma-boxing-fight-draft-guide/`, `/blog/soccer-draft-xi-guide/`, `/blog/android-video-player-guide/`
 - "learn more →" → `/apps/anime-trivia-word-games/`, `/apps/protein-diet-tracker/`, `/apps/keto-diet-tracker/`, `/apps/anime-coloring-book/`, `/apps/pro-basketball-my-career-sim/`, `/apps/pro-basketball-draft-gm-mode/`, `/apps/football-draft-gm-mode/`, `/apps/space-shooter-classic-arcade/`, `/apps/zombie-survival-last-survivor/`, `/apps/world-history-timeline-sim/`, `/apps/mental-math-memory-games/`, `/apps/learn-cantonese/`, `/apps/learn-thai/`, `/apps/learn-malay/`, `/apps/learn-russian/`, `/apps/learn-cambodian-khmer/`, `/apps/baseball-draft-gm-team/`, `/apps/soccer-draft-gm-xi/`, `/apps/hockey-draft-gm-manager/`, `/apps/mma-boxing-fight-draft/`, `/apps/regal-video-player/`
 - "sports &amp; gm" → `/apps/category/sports-gm/`, `/blog/category/sports-gm/`
 - "sports career &amp; gm games 7" → `/apps/category/sports-gm/`, `/blog/category/sports-gm/`
@@ -66,68 +66,69 @@ None.
 
 | Page | Inbound | Depth |
 | --- | --- | --- |
-| `/about/` | 67 | 1 |
-| `/app-support/` | 67 | 1 |
-| `/apps/` | 67 | 1 |
-| `/apps/category/action-arcade/` | 67 | 1 |
-| `/apps/category/anime-creative/` | 67 | 1 |
-| `/apps/category/education-brain/` | 67 | 1 |
-| `/apps/category/health-nutrition/` | 67 | 1 |
-| `/apps/category/language-learning/` | 67 | 1 |
-| `/apps/category/sports-gm/` | 67 | 1 |
-| `/apps/category/video-utility/` | 67 | 1 |
-| `/blog/` | 67 | 1 |
-| `/editorial-policy/` | 67 | 1 |
-| `/privacy/` | 67 | 1 |
-| `/support/` | 67 | 1 |
-| `/terms/` | 67 | 1 |
-| `/apps/pro-basketball-draft-gm-mode/` | 16 | 1 |
-| `/apps/pro-basketball-my-career-sim/` | 14 | 2 |
-| `/apps/protein-diet-tracker/` | 14 | 1 |
-| `/blog/category/sports-gm/` | 14 | 2 |
-| `/apps/keto-diet-tracker/` | 13 | 2 |
-| `/blog/anime-coloring-app-guide/` | 12 | 2 |
-| `/blog/category/language-learning/` | 12 | 2 |
-| `/apps/football-draft-gm-mode/` | 11 | 2 |
-| `/blog/basketball-draft-gm-guide/` | 11 | 1 |
-| `/blog/baseball-draft-gm-guide/` | 10 | 2 |
-| `/blog/hockey-draft-gm-guide/` | 10 | 2 |
-| `/apps/learn-cantonese/` | 9 | 1 |
-| `/blog/category/action-arcade/` | 9 | 2 |
-| `/blog/category/anime-creative/` | 9 | 2 |
-| `/blog/category/education-brain/` | 9 | 2 |
-| `/blog/category/health-nutrition/` | 9 | 2 |
-| `/blog/football-draft-gm-guide/` | 9 | 2 |
-| `/blog/learn-cantonese-beginners-guide/` | 9 | 1 |
-| `/blog/space-shooter-arcade-guide/` | 9 | 2 |
-| `/apps/baseball-draft-gm-team/` | 8 | 2 |
-| `/apps/learn-malay/` | 8 | 2 |
-| `/apps/learn-thai/` | 8 | 2 |
-| `/blog/android-video-player-guide/` | 8 | 2 |
-| `/blog/anime-trivia-quiz-guide/` | 8 | 2 |
-| `/blog/category/video-utility/` | 8 | 2 |
-| `/blog/how-to-track-protein-intake/` | 8 | 1 |
-| `/blog/learn-thai-script-beginners-guide/` | 8 | 2 |
-| `/blog/soccer-draft-xi-guide/` | 8 | 2 |
-| `/blog/zombie-survival-roguelike-guide/` | 8 | 2 |
-| `/apps/anime-coloring-book/` | 7 | 1 |
-| `/apps/learn-russian/` | 7 | 2 |
-| `/apps/space-shooter-classic-arcade/` | 7 | 1 |
-| `/blog/learn-khmer-beginners-guide/` | 7 | 2 |
-| `/blog/learn-malay-beginners-guide/` | 7 | 2 |
-| `/blog/mental-math-training-guide/` | 7 | 2 |
-| `/blog/mma-boxing-fight-draft-guide/` | 7 | 2 |
-| `/blog/net-carbs-explained-keto-tracking/` | 7 | 2 |
-| `/blog/world-history-timeline-guide/` | 7 | 2 |
-| `/apps/anime-trivia-word-games/` | 6 | 2 |
-| `/apps/hockey-draft-gm-manager/` | 6 | 2 |
-| `/apps/world-history-timeline-sim/` | 6 | 1 |
-| `/apps/zombie-survival-last-survivor/` | 6 | 2 |
-| `/blog/basketball-career-sim-guide/` | 6 | 2 |
-| `/blog/learn-russian-cyrillic-beginners-guide/` | 6 | 2 |
-| `/apps/mental-math-memory-games/` | 5 | 2 |
-| `/apps/learn-cambodian-khmer/` | 4 | 2 |
-| `/apps/mma-boxing-fight-draft/` | 4 | 2 |
-| `/apps/regal-video-player/` | 4 | 2 |
-| `/apps/soccer-draft-gm-xi/` | 4 | 2 |
+| `/about/` | 68 | 1 |
+| `/app-support/` | 68 | 1 |
+| `/apps/` | 68 | 1 |
+| `/apps/category/action-arcade/` | 68 | 1 |
+| `/apps/category/anime-creative/` | 68 | 1 |
+| `/apps/category/education-brain/` | 68 | 1 |
+| `/apps/category/health-nutrition/` | 68 | 1 |
+| `/apps/category/language-learning/` | 68 | 1 |
+| `/apps/category/sports-gm/` | 68 | 1 |
+| `/apps/category/video-utility/` | 68 | 1 |
+| `/blog/` | 68 | 1 |
+| `/editorial-policy/` | 68 | 1 |
+| `/press/` | 68 | 1 |
+| `/privacy/` | 68 | 1 |
+| `/support/` | 68 | 1 |
+| `/terms/` | 68 | 1 |
+| `/apps/pro-basketball-draft-gm-mode/` | 17 | 1 |
+| `/apps/pro-basketball-my-career-sim/` | 15 | 2 |
+| `/apps/protein-diet-tracker/` | 15 | 1 |
+| `/blog/category/sports-gm/` | 15 | 2 |
+| `/apps/keto-diet-tracker/` | 14 | 2 |
+| `/blog/anime-coloring-app-guide/` | 13 | 2 |
+| `/blog/category/language-learning/` | 13 | 2 |
+| `/apps/football-draft-gm-mode/` | 12 | 2 |
+| `/blog/basketball-draft-gm-guide/` | 12 | 1 |
+| `/blog/baseball-draft-gm-guide/` | 11 | 2 |
+| `/blog/hockey-draft-gm-guide/` | 11 | 2 |
+| `/apps/learn-cantonese/` | 10 | 1 |
+| `/blog/category/action-arcade/` | 10 | 2 |
+| `/blog/category/anime-creative/` | 10 | 2 |
+| `/blog/category/education-brain/` | 10 | 2 |
+| `/blog/category/health-nutrition/` | 10 | 2 |
+| `/blog/football-draft-gm-guide/` | 10 | 2 |
+| `/blog/learn-cantonese-beginners-guide/` | 10 | 1 |
+| `/blog/soccer-draft-xi-guide/` | 10 | 2 |
+| `/blog/space-shooter-arcade-guide/` | 10 | 2 |
+| `/apps/baseball-draft-gm-team/` | 9 | 2 |
+| `/apps/learn-malay/` | 9 | 2 |
+| `/apps/learn-thai/` | 9 | 2 |
+| `/blog/android-video-player-guide/` | 9 | 2 |
+| `/blog/anime-trivia-quiz-guide/` | 9 | 2 |
+| `/blog/category/video-utility/` | 9 | 2 |
+| `/blog/how-to-track-protein-intake/` | 9 | 1 |
+| `/blog/learn-thai-script-beginners-guide/` | 9 | 2 |
+| `/blog/zombie-survival-roguelike-guide/` | 9 | 2 |
+| `/apps/anime-coloring-book/` | 8 | 1 |
+| `/apps/learn-russian/` | 8 | 2 |
+| `/apps/space-shooter-classic-arcade/` | 8 | 1 |
+| `/blog/learn-khmer-beginners-guide/` | 8 | 2 |
+| `/blog/learn-malay-beginners-guide/` | 8 | 2 |
+| `/blog/mental-math-training-guide/` | 8 | 2 |
+| `/blog/mma-boxing-fight-draft-guide/` | 8 | 2 |
+| `/blog/net-carbs-explained-keto-tracking/` | 8 | 2 |
+| `/blog/world-history-timeline-guide/` | 8 | 2 |
+| `/apps/anime-trivia-word-games/` | 7 | 2 |
+| `/apps/hockey-draft-gm-manager/` | 7 | 2 |
+| `/apps/world-history-timeline-sim/` | 7 | 1 |
+| `/apps/zombie-survival-last-survivor/` | 7 | 2 |
+| `/blog/basketball-career-sim-guide/` | 7 | 2 |
+| `/blog/learn-russian-cyrillic-beginners-guide/` | 7 | 2 |
+| `/apps/mental-math-memory-games/` | 6 | 2 |
+| `/apps/soccer-draft-gm-xi/` | 6 | 2 |
+| `/apps/learn-cambodian-khmer/` | 5 | 2 |
+| `/apps/mma-boxing-fight-draft/` | 5 | 2 |
+| `/apps/regal-video-player/` | 5 | 2 |
 | `/apps/82-0-pro-basketball-draft/` | 0 | — |

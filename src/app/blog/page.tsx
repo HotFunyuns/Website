@@ -10,7 +10,7 @@ import { companyInfo } from '@/data/apps';
 import { blogCategories, featuredPosts, posts } from '@/lib/blog';
 
 export const metadata: Metadata = {
-  title: 'Blog — Android App Guides from Reign Creative',
+  title: 'Blog — Android App Guides',
   description:
     'Guides to the Android apps we build: sports GM and career sims, beginner language courses, nutrition trackers, arcade games, and learning tools.',
   alternates: { canonical: '/blog/' },

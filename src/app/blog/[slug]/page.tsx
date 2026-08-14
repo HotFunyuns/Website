@@ -34,7 +34,11 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
 
   const canonical = `/blog/${post.slug}/`;
   return {
-    title: post.metaTitle,
+    // Opts out of the site-wide "| Reign Creative LLC" suffix: it pushed every
+    // article title past the width a result can show, truncating the headline
+    // itself. The og/twitter titles below still carry the brand, and the
+    // BlogPosting publisher and visible byline identify us on the page.
+    title: { absolute: post.metaTitle },
     description: post.description,
     alternates: { canonical },
     ...(post.noindex ? { robots: { index: false, follow: false } } : {}),

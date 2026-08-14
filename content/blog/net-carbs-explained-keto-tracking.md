@@ -5,7 +5,7 @@
   "description": "Net carbs never appear on a US Nutrition Facts label. Here is what the label really declares, how the subtraction works, and why two apps disagree.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "health-nutrition",
   "tags": ["net carbs", "low carb", "nutrition labels", "macro tracking", "dietary fiber"],
@@ -222,7 +222,7 @@ A built-in calculator turns details you enter — age, height, weight, activity 
 
 Around the food log sit the other things low-carb eaters tend to record: ketone readings you have taken yourself with blood, urine strips or a breath meter including GKI, an intermittent fasting timer, water, and sodium, potassium and magnesium. The app stores readings you enter; it does not measure anything itself. Charts, body measurements, photo logs and weekly and monthly summaries turn the entries into a record you can look back over.
 
-It is free on Google Play, supported by ads, with no in-app purchases. No account is required and your logs stay on your device rather than on our servers — which also means an uninstall takes the history with it. Other trackers in the [health and nutrition category](/apps/category/health-nutrition/) make different trade-offs; if carbohydrate is not the number you care about, [tracking protein instead](/blog/how-to-track-protein-intake/) is a different exercise with the same failure mode, which is friction rather than motivation.
+It is free on Google Play, supported by ads, with no in-app purchases. No account is required and your logs stay on your device rather than on our servers — which also means an uninstall takes the history with it. Other trackers in the [health and nutrition category](/apps/category/health-nutrition/) make different trade-offs. If carbohydrate is not the number you care about, [Protein Diet Tracker](/apps/protein-diet-tracker/) is built around a different one, and [tracking protein instead](/blog/how-to-track-protein-intake/) is a different exercise with the same failure mode, which is friction rather than motivation.
 
 ## Practical rules that survive a real week
 

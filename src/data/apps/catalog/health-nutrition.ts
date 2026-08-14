@@ -105,7 +105,7 @@ export const healthNutritionApps: AppInfo[] = [
           'No account is required. Your entries are stored locally on your device rather than on our servers, as set out in our privacy policy, and they stay there until you delete them or uninstall the app.',
       },
     ],
-    metaTitle: 'Protein Diet Tracker for Android — Log Daily Protein',
+    metaTitle: 'Protein Diet Tracker for Android',
     metaDescription:
       'Log meals, workouts and body weight, then see your protein, calories and macros for the day in one clear total. Protein Diet Tracker is free on Google Play.',
   },

@@ -6,7 +6,9 @@ import PlayStoreLink from './PlayStoreLink';
 
 const exploreLinks = [
   { label: 'Apps', href: '/apps/' },
+  { label: 'Blog', href: '/blog/' },
   { label: 'About', href: '/about/' },
+  { label: 'Press', href: '/press/' },
   { label: 'Support', href: '/support/' },
 ];
 

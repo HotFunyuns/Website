@@ -5,7 +5,7 @@
   "description": "How a basketball career sim differs from a GM game, what the possession decisions are really asking, and how early choices compound across a whole career.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "sports-gm",
   "tags": ["career mode", "basketball", "sports sim", "player progression", "android games"],
@@ -95,11 +95,13 @@ The trade is worth naming because it decides whether you will enjoy the game. If
 
 [Basketball Career Sim](/apps/pro-basketball-my-career-sim/) runs a full arc — youth basketball, high school, recruiting and college, the draft, then the professional years, the playoffs and the awards. Each stage feeds the next, which is a structural choice with real consequences for how you should play.
 
+Two different kinds of statement follow, and they are worth telling apart. What the game *contains* — the stages, the systems, the decisions Live Sim puts in front of you — is on the [app's own page](/apps/pro-basketball-my-career-sim/) and its Play listing. How we think you should *play* it is our judgement from building and playing it, not a published rule set, and you may reasonably reach different conclusions.
+
 ### Creation is a strategy decision, not a character screen
 
 You set position, name, height, weight, wingspan, age, jersey number and playing style, then choose the archetype and attributes you want to develop.
 
-The temptation is to spread everything evenly and stay flexible. Resist it. Attribute development compounds — a strength you commit to early gets more chances to become a defining one, while an even spread produces a player who is adequate everywhere and the obvious answer nowhere. Pick the thing your player is going to be good at before you have played a possession, and let the rest be a consequence.
+The temptation is to spread everything evenly and stay flexible. Our advice is to resist it. Because each stage feeds the next, a strength you commit to early has more career left in which to become a defining one, while an even spread tends to produce a player who is adequate everywhere and the obvious answer nowhere. Pick the thing your player is going to be good at before you have played a possession, and let the rest be a consequence.
 
 Height, weight and wingspan are worth treating as part of the same decision rather than cosmetic sliders. A build and an archetype that agree with each other give you a coherent player. A build that fights the archetype gives you a player who is always slightly the wrong tool for the job you chose.
 
@@ -109,7 +111,7 @@ Youth basketball and high school are where the stakes are lowest and the learnin
 
 ### Recruiting is the first real fork
 
-Recruiting and college are where the career stops being a straight line. This is the point at which what you have already done starts determining what you are allowed to do next — which is the mechanic the whole game runs on, appearing for the first time in a form you can see.
+Recruiting and college are where the career stops being a straight line. It is the first stage where what you have already done visibly shapes what comes next, and that pattern — earlier results narrowing or widening later options — is the one to watch for from here on.
 
 ### The draft and the professional years
 
@@ -144,6 +146,8 @@ Between games there is a second game: training camp, attribute upgrades, signatu
 
 All of it runs on fictional in-game currency with no real-world value — worth saying clearly, because the presence of contracts and brand deals in a sports title invites the wrong assumption. Nothing here is money, and nothing here predicts, tracks or relates to any real athlete's earnings.
 
+Real money does enter in one place, and it is separate from all of the above: Basketball Career Sim is free to download on Google Play, supported by ads, with optional in-app purchases and an Everyone content rating. [Basketball Draft GM Franchise](/apps/pro-basketball-draft-gm-mode/), the front-office companion, is on the same terms.
+
 As a progression system, the off-court layer is where you convert results into capability. The strategic question is the same one that governs any upgrade economy: do you deepen your existing strength or patch your weakness? For a career sim, deepening usually wins earlier than instinct suggests, because being conspicuously good at one thing generates opportunities in a way that being unremarkable at everything does not.
 
 ## What the simulation assumes
@@ -168,4 +172,4 @@ Three things follow. It does not describe any real player, team, school or leagu
 
 ## If the career is not the part you want
 
-Some people want the possessions; other people want the board. If reading this made you want to build the roster instead of play in it, the [basketball draft and GM guide](/blog/basketball-draft-gm-guide/) covers the front-office side, and the same drafting logic in other sports is in the [football draft guide](/blog/football-draft-gm-guide/) and the [soccer draft XI guide](/blog/soccer-draft-xi-guide/). Everything the studio makes in this space is listed under [sports GM](/apps/category/sports-gm/).
+Some people want the possessions; other people want the board. If reading this made you want to build the roster instead of play in it, [Basketball Draft GM Franchise](/apps/pro-basketball-draft-gm-mode/) is the front-office version of the same sport, and the same drafting logic applied elsewhere is in the [football draft guide](/blog/football-draft-gm-guide/), the [baseball draft guide](/blog/baseball-draft-gm-guide/) and the [soccer draft XI guide](/blog/soccer-draft-xi-guide/). Everything the studio makes in this space is listed under [sports GM](/apps/category/sports-gm/).

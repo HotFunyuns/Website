@@ -5,7 +5,7 @@
   "description": "What the Thai writing system asks of a beginner: consonant classes, vowels that surround the letter, and five tones that are spelled rather than marked.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "language-learning",
   "tags": ["thai", "thai alphabet", "tones", "reading", "beginner"],
@@ -91,7 +91,7 @@
       "title": "Foreign Language Training",
       "publisher": "U.S. Department of State, Foreign Service Institute",
       "url": "https://www.state.gov/foreign-language-training/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-08-13"
     }
   ]
 }
@@ -174,9 +174,9 @@ A note on which Thai you are learning: courses, including ours, teach **Standard
 
 ## Where Thai sits on the difficulty scale
 
-The clearest public benchmark is the US Foreign Service Institute's training categories, which group languages by how long FSI students typically need to reach an integrated score of 3 on the Interagency Language Roundtable scale. Thai is in **Category III**, at approximately **44 weeks of full-time instruction (1,012 class hours)**, alongside Russian, Khmer, Polish and Vietnamese.
+The clearest public benchmark is the US Foreign Service Institute's training categories, which group languages by how long FSI students typically need to reach Professional Working Proficiency — a score of Speaking-3/Reading-3 on the Interagency Language Roundtable scale. Thai is in **Category III**, at approximately **44 weeks of full-time instruction (1,100 class hours)**, alongside Russian, Khmer, Polish and Vietnamese.
 
-That figure describes intensive full-time classroom training for diplomats — FSI describes a typical week as around 23 hours of class plus 17 hours of self-study — so it is not a prediction about app study. Use it as a relative scale instead: Thai is demanding, but a full category easier than Cantonese, Mandarin, Japanese, Korean or Arabic. The script is front-loaded difficulty; the grammar behind it is considerably kinder than the writing system suggests.
+That figure describes intensive, full-time, small-group classroom training for diplomats — 1,100 hours across 44 weeks is about 25 class hours a week, before homework — so it is not a prediction about app study. Use it as a relative scale instead: Thai is demanding, but a full category easier than Cantonese, Mandarin, Japanese, Korean or Arabic. The script is front-loaded difficulty; the grammar behind it is considerably kinder than the writing system suggests.
 
 ## A four-week plan for the script
 

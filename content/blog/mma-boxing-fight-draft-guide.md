@@ -5,7 +5,7 @@
   "description": "Why the higher-rated fighter loses, how separate MMA and boxing simulators resolve a bout, and how to draft a stable that covers matchups, not ratings.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "sports-gm",
   "tags": ["mma", "boxing", "draft strategy", "combat sports", "sports sim"],
@@ -159,4 +159,4 @@ The Fighter Explorer and side-by-side comparisons exist for the decision that ma
 4. **Learn one sport's simulator at a time** using the single-sport drafts.
 5. **When two fighters are close, compare profiles rather than totals.** The overall number is exactly the thing that hides the difference that decides the fight.
 
-Drafting under positional constraints instead of style constraints is covered in the [hockey draft guide](/blog/hockey-draft-gm-guide/) and the [baseball draft guide](/blog/baseball-draft-gm-guide/). The rest of the studio's drafting and management games are listed under [sports GM](/apps/category/sports-gm/).
+Drafting under positional constraints instead of style constraints is covered in the [soccer draft XI guide](/blog/soccer-draft-xi-guide/) and the [baseball draft guide](/blog/baseball-draft-gm-guide/). The rest of the studio's drafting and management games are listed under [sports GM](/apps/category/sports-gm/).

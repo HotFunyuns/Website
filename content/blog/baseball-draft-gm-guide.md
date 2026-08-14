@@ -5,7 +5,7 @@
   "description": "What ERA, WHIP and WAR are telling you on a draft card, what they leave out, and how to read a projected 162-game record without over-trusting it.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "sports-gm",
   "tags": ["baseball", "draft strategy", "statistics", "gm mode", "roster building"],
@@ -187,5 +187,7 @@ A club that projects well and is then managed carelessly gives back a lot of wha
 3. **Fill fielding and speed deliberately, not accidentally.** They are weighted inputs, and they are where careless drafts leak.
 4. **Choose the coach with the club's actual weakness in mind**, not as an afterthought.
 5. **Read the projection as a diagnosis.** Name the one slot you would redraft, then go and redraft it.
+
+162-0 Baseball Draft & GM Team is free to download on Google Play, supported by ads, with optional in-app purchases and an Everyone content rating.
 
 Broader drafting principles that apply across every sport are in the [basketball draft and GM guide](/blog/basketball-draft-gm-guide/), and the rest of the studio's management titles are listed under [sports GM](/apps/category/sports-gm/).

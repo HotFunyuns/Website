@@ -85,7 +85,7 @@ export const categories: CategoryInfo[] = [
     ],
     metaTitle: 'Sports Career & GM Games for Android',
     metaDescription:
-      'Draft simulators, franchise mode, and career sims for basketball, football, baseball, soccer, hockey, and combat sports. Free on Google Play from Reign Creative LLC.',
+      'Draft simulators, franchise mode, and career sims for basketball, football, baseball, soccer, hockey, and combat sports. Free on Google Play.',
   },
   {
     id: 'action-arcade',

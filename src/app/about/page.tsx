@@ -7,7 +7,8 @@ import GooglePlayButton from '@/components/GooglePlayButton';
 import { companyInfo, appCount } from '@/data/apps';
 
 export const metadata: Metadata = {
-  title: 'About Reign Creative LLC — Independent App Studio',
+  // Absolute because the template suffix would name the company twice.
+  title: { absolute: 'About Reign Creative LLC — Independent App Studio' },
   description:
     'Reign Creative LLC is an independent mobile app studio building games, educational tools, fitness trackers, and lifestyle experiences for Android.',
   alternates: { canonical: '/about/' },
@@ -76,19 +77,53 @@ export default function AboutPage() {
             <div className="space-y-5 text-base leading-relaxed text-ink-600 sm:text-lg">
               <p>
                 Reign Creative LLC is an independent app studio founded in {companyInfo.founded}.
-                We design, build, and publish our own catalog of Android apps — from fast arcade
-                games and sports simulations to history explorers and focused diet trackers.
+                We design, build, and publish our own catalog of Android apps — from{' '}
+                <Link href="/apps/category/action-arcade/" className="link-accent">
+                  fast arcade games
+                </Link>{' '}
+                and{' '}
+                <Link href="/apps/category/sports-gm/" className="link-accent">
+                  sports simulations
+                </Link>{' '}
+                to{' '}
+                <Link href="/apps/category/education-brain/" className="link-accent">
+                  history explorers
+                </Link>
+                ,{' '}
+                <Link href="/apps/category/language-learning/" className="link-accent">
+                  language courses
+                </Link>{' '}
+                and focused{' '}
+                <Link href="/apps/category/health-nutrition/" className="link-accent">
+                  diet trackers
+                </Link>
+                .
               </p>
               <p>
                 Being independent shapes how we work. There&apos;s no committee deciding what ships:
                 every app starts as something we genuinely want to exist, gets built with care, and
-                keeps improving after launch. When you email support, the people who made the app
-                are the ones reading it.
+                keeps improving after launch. When you{' '}
+                <Link href="/support/" className="link-accent">
+                  email support
+                </Link>
+                , the people who made the app are the ones reading it.
               </p>
               <p>
                 Our catalog is deliberately varied — play, learning, and progress — but everything
                 we release is held to the same standard: it should be fun to open, useful in your
                 real day, and polished enough to love.
+              </p>
+              <p>
+                We also write about the things our apps deal with, in{' '}
+                <Link href="/blog/" className="link-accent">
+                  guides on the blog
+                </Link>
+                . Who writes them, how claims get sourced, and what we refuse to publish are all set
+                out in our{' '}
+                <Link href="/editorial-policy/" className="link-accent">
+                  editorial policy
+                </Link>
+                .
               </p>
             </div>
           </Reveal>

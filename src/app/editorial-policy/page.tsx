@@ -16,6 +16,14 @@ export const metadata: Metadata = {
       'How Reign Creative LLC researches, sources, reviews and corrects the articles on this site.',
     url: `${companyInfo.siteUrl}/editorial-policy/`,
     type: 'website',
+    images: [
+      {
+        url: `${companyInfo.siteUrl}/opengraph-image.png`,
+        width: 1200,
+        height: 630,
+        alt: `Editorial policy — ${companyInfo.name}`,
+      },
+    ],
   },
 };
 

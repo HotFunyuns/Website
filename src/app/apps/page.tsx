@@ -9,12 +9,12 @@ import Link from 'next/link';
 import { apps, activeCategories, appCount, companyInfo, countByCategory } from '@/data/apps';
 
 export const metadata: Metadata = {
-  title: 'Our Apps — Games, Education & Fitness for Android',
+  title: 'Android Apps — Games, Education & Fitness',
   description:
     'Browse every Reign Creative LLC app on Google Play: arcade and sports games, anime coloring, world history, plus protein and keto diet trackers for Android.',
   alternates: { canonical: '/apps/' },
   openGraph: {
-    title: 'Our Apps — Games, Education & Fitness for Android | Reign Creative LLC',
+    title: 'Android Apps — Games, Education & Fitness | Reign Creative LLC',
     description:
       'Browse every Reign Creative LLC app on Google Play: games, education, and health & fitness apps for Android.',
     url: `${companyInfo.siteUrl}/apps/`,

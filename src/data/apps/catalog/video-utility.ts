@@ -99,7 +99,7 @@ export const videoUtilityApps: AppInfo[] = [
           'Yes. The sleep timer can end playback after a length of time you choose, or when the video you are currently watching finishes.',
       },
     ],
-    metaTitle: 'Regal Video Player for Android — Local Video Player',
+    metaTitle: 'Regal Video Player for Android',
     metaDescription:
       'Play local MP4, MKV and MOV files with 0.1x to 3.0x speed control, resume, Picture-in-Picture, gestures and a sleep timer. Free on Google Play.',
   },

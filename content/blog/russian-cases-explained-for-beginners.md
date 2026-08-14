@@ -97,7 +97,7 @@
       "title": "Foreign Language Training",
       "publisher": "U.S. Department of State, Foreign Service Institute",
       "url": "https://www.state.gov/foreign-language-training/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-08-13"
     }
   ]
 }
@@ -266,6 +266,6 @@ The case system is the feature that defines the Russian learning curve, and it i
 
 And Russian gives some of it back. There are **no articles** at all, no *a* and no *the*. The present tense of "to be" is normally simply omitted, so a great many sentences are shorter than their English equivalents. Word order is genuinely free, which means you are rarely wrong for arranging a sentence unusually.
 
-For scale, the US Foreign Service Institute places Russian in **Category III**, at approximately **44 weeks of full-time instruction (1,012 class hours)** for its own students — demanding, and a full category below Mandarin, Cantonese, Japanese, Korean and Arabic. That describes intensive classroom training for diplomats rather than app study, and it is a relative scale rather than a promise about you.
+For scale, the US Foreign Service Institute places Russian in **Category III**, at approximately **44 weeks of full-time instruction (1,100 class hours)** for its own students — demanding, and a full category below Mandarin, Cantonese, Japanese, Korean and Arabic. That describes intensive, full-time classroom training for diplomats rather than app study, and it is a relative scale rather than a promise about you.
 
 If Cyrillic is still new, that comes first: our guide to [the Russian alphabet](/blog/learn-russian-cyrillic-beginners-guide/) covers the 33 letters, the false friends and the stress problem, and it is the one part of Russian you can finish this month. For a sense of what other grammars ask by comparison, [Malay](/blog/learn-malay-beginners-guide/) has no cases, no gender and no conjugation at all, and the rest of our [language learning apps](/apps/category/language-learning/) start from the same assumption: no prior study.

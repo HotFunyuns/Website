@@ -5,7 +5,7 @@
   "description": "Malay gives beginners a Latin alphabet, no tones and no verb conjugation. Here is what that buys you, and where the real difficulty actually hides.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "language-learning",
   "tags": ["malay", "bahasa melayu", "affixes", "southeast asia", "beginner"],
@@ -79,7 +79,7 @@
       "title": "Foreign Language Training",
       "publisher": "U.S. Department of State, Foreign Service Institute",
       "url": "https://www.state.gov/foreign-language-training/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-08-13"
     },
     {
       "title": "ISO 639-3 Registration Authority: zsm (Malay, Standard)",
@@ -97,11 +97,11 @@ What Malay actually gives a beginner is a very cheap first fortnight. What it do
 
 ## What the difficulty scale says
 
-The US Foreign Service Institute groups the languages it teaches by how long its students typically need to reach an integrated score of 3 on the Interagency Language Roundtable scale. Malay sits in **Category II**, at approximately **36 weeks of full-time instruction (828 class hours)**, in a small group with German, Indonesian, Haitian Creole and Swahili.
+The US Foreign Service Institute groups the languages it teaches by how long its students typically need to reach Professional Working Proficiency — a score of Speaking-3/Reading-3 on the Interagency Language Roundtable scale. Malay sits in **Category II**, at approximately **36 weeks of full-time instruction (900 class hours)**, in a small group with German, Indonesian, Haitian Creole and Swahili.
 
 For comparison, Category III — Thai, Khmer, Russian, Polish, Vietnamese — runs to roughly 44 weeks, and Category IV, the group containing Cantonese, Mandarin, Japanese, Korean and Arabic, runs to 88 weeks. Malay is not in the easiest bracket, which is reserved for languages closely related to English, but it is comfortably the least demanding widely-spoken language of Southeast Asia for an English speaker to take up.
 
-Those figures describe intensive classroom training for diplomats, on a schedule FSI puts at around 23 hours of class plus 17 hours of self-study a week. They are not a prediction about what an app will do for you. They are useful precisely as a **relative** scale, and on that scale Malay is genuinely the gentlest entry point in the region.
+Those figures describe intensive, full-time, small-group classroom training for diplomats — 900 hours across 36 weeks works out at about 25 class hours a week, before any homework. They are not a prediction about what an app will do for you. They are useful precisely as a **relative** scale, and on that scale Malay is genuinely the gentlest entry point in the region.
 
 ## The part that really is easy
 
@@ -197,4 +197,4 @@ A beginner course gives you a foundation: pronunciation, core vocabulary, workin
 
 What Malay offers that most of the region does not is a genuinely low cost of entry. You can be saying useful, correct things in week one, which matters more than it sounds — the languages people abandon are usually the ones where nothing works for a month.
 
-If you want to compare that against the alternatives before committing, the other guides in our [language learning apps](/apps/category/language-learning/) collection lay out what each script actually demands: [Cantonese](/blog/learn-cantonese-beginners-guide/) sits two FSI categories higher, [Khmer](/blog/learn-khmer-beginners-guide/) has a demanding script but no tones, and [Thai](/blog/learn-thai-script-beginners-guide/) front-loads almost all of its difficulty into the writing system.
+If you want to compare that against the alternatives before committing, the other guides in our [language learning apps](/apps/category/language-learning/) collection lay out what each one actually demands: [Cantonese](/blog/learn-cantonese-beginners-guide/) sits two FSI categories higher, [Khmer](/blog/learn-khmer-beginners-guide/) has a demanding script but no tones, and [Russian](/blog/learn-russian-cyrillic-beginners-guide/) trades a new alphabet — learnable in days — for a grammar that does far more work than Malay's.

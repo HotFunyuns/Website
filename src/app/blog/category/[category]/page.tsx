@@ -23,7 +23,10 @@ export function generateMetadata({ params }: { params: { category: string } }): 
 
   const canonical = `/blog/category/${category.id}/`;
   const title = `${category.label} Articles`;
-  const description = `Guides and deep dives on ${category.label.toLowerCase()} from ${companyInfo.name}, the studio behind the apps.`;
+  // The blurb carries the distinguishing detail. Without it all seven of these
+  // read as the same sentence with one noun swapped, and lower-casing the label
+  // to fit that sentence turned "GM" into "gm".
+  const description = `In-house guides to ${category.label} from ${companyInfo.name}. ${category.blurb}`;
 
   return {
     title,
@@ -34,6 +37,14 @@ export function generateMetadata({ params }: { params: { category: string } }): 
       description,
       url: `${companyInfo.siteUrl}${canonical}`,
       type: 'website',
+      images: [
+        {
+          url: `${companyInfo.siteUrl}/opengraph-image.png`,
+          width: 1200,
+          height: 630,
+          alt: `${category.label} articles from ${companyInfo.name}`,
+        },
+      ],
     },
   };
 }

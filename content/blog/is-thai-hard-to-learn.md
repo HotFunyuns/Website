@@ -68,7 +68,7 @@
     },
     {
       "question": "How long does it take to learn Thai?",
-      "answer": "Nobody can answer that for you, and any course that gives you a number is guessing. What exists is FSI's published figure for its own full-time students — roughly 44 weeks of classroom instruction, on a schedule FSI describes as around 23 hours of class plus 17 hours of self-study a week — aimed at professional working proficiency. That describes a very specific programme, not a phone app, and not you."
+      "answer": "Nobody can answer that for you, and any course that gives you a number is guessing. What exists is FSI's published figure for its own full-time students — roughly 44 weeks of classroom instruction, or 1,100 class hours, which is about 25 hours a week before homework — aimed at Professional Working Proficiency. That describes a very specific programme, not a phone app, and not you."
     },
     {
       "question": "Is Regal - Learn Thai Language suitable for a complete beginner?",
@@ -80,7 +80,7 @@
       "title": "Foreign Language Training",
       "publisher": "U.S. Department of State, Foreign Service Institute",
       "url": "https://www.state.gov/foreign-language-training/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-08-13"
     },
     {
       "title": "Interagency Language Roundtable Skill Level Descriptions",
@@ -110,9 +110,9 @@ That shape matters more than the average. A language with concentrated difficult
 
 ## The one public benchmark
 
-The most defensible external reference is the US Foreign Service Institute's training categories, which group the languages FSI teaches by how long its own students typically need to reach an integrated score of 3 on the Interagency Language Roundtable scale — the level ILR describes as general professional proficiency.
+The most defensible external reference is the US Foreign Service Institute's training categories, which group the languages FSI teaches by how long its own students typically need to reach Professional Working Proficiency — a score of Speaking-3/Reading-3 on the Interagency Language Roundtable scale.
 
-Thai sits in **Category III**, at approximately **44 weeks of full-time instruction (1,012 class hours)**, alongside Russian, Khmer, Polish and Vietnamese.
+Thai sits in **Category III**, at approximately **44 weeks of full-time instruction (1,100 class hours)**, alongside Russian, Khmer, Polish and Vietnamese.
 
 Set against the neighbours:
 
@@ -124,7 +124,7 @@ Set against the neighbours:
 
 Two useful readings come out of that table. Thai is **exactly half** the Category IV figure — the arithmetic is 88 divided by 44 — so by FSI's own accounting the hardest group is twice the commitment. And Thai is only eight weeks above Malay, which is the language usually recommended as the gentle entry point to Southeast Asia.
 
-Now the caveats, which matter as much as the number. These figures describe intensive, full-time, small-group classroom training for diplomats, on a schedule FSI puts at roughly 23 hours of class plus 17 hours of self-study a week, aimed at a specific professional standard. They are not a prediction about what an app achieves, they are not a target, and they should never be quoted as one. What they are good for is **relative** scale, and on that scale Thai is demanding without being extreme.
+Now the caveats, which matter as much as the number. These figures describe intensive, full-time, small-group classroom training for diplomats — 1,100 hours across 44 weeks is about 25 class hours a week, before homework — aimed at a specific professional standard. They are not a prediction about what an app achieves, they are not a target, and they should never be quoted as one. What they are good for is **relative** scale, and on that scale Thai is demanding without being extreme.
 
 ## The genuinely hard parts
 

@@ -5,7 +5,7 @@
   "description": "What a chronology app teaches well, where its dates get slippery, how to tell documented fact from historians' interpretation, and how to check a claim.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "education-brain",
   "tags": ["world history", "timelines", "study methods", "primary sources", "android apps"],
@@ -212,6 +212,8 @@ If a claim matters — you are quoting it, arguing with it, or putting it in an 
 | UNESCO World Heritage List | Sites, with descriptions and dating from nomination files |
 
 Two habits make these useful. First, look for the document rather than a description of the document — most of these will show you the actual text or object. Second, notice when a museum or archive hedges. Institutional language like "attributed to", "probably", or "traditionally dated" is not evasion; it is the honest state of the evidence, and it is the tone a summary strips out.
+
+We try to hold this page to the same standard. What we will and will not assert, and how the claims here get sourced, is set out in our [editorial policy](/editorial-policy/).
 
 ## The short version
 

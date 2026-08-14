@@ -5,7 +5,7 @@
   "description": "How Cantonese tones really work, why Jyutping and traditional characters matter, and what a realistic first month of study looks like for an adult beginner.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "language-learning",
   "tags": ["cantonese", "jyutping", "tones", "chinese characters", "beginner"],
@@ -84,7 +84,7 @@
       "title": "Foreign Language Training",
       "publisher": "U.S. Department of State, Foreign Service Institute",
       "url": "https://www.state.gov/foreign-language-training/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-08-13"
     },
     {
       "title": "Unicode Character Code Charts",
@@ -110,9 +110,9 @@ This is the practical reason a Cantonese course has to be built as a Cantonese c
 
 ### Where Cantonese sits on the difficulty scale
 
-The most defensible public benchmark for language difficulty is the US Foreign Service Institute's training categories, which group languages by how long its students typically need to reach an integrated score of 3 on the Interagency Language Roundtable scale. FSI places Chinese – Cantonese in **Category IV**, its hardest group, at **88 weeks of full-time instruction (2,200 class hours)**, alongside Arabic, Mandarin, Japanese and Korean.
+The most defensible public benchmark for language difficulty is the US Foreign Service Institute's training categories, which group languages by how long its students typically need to reach Professional Working Proficiency — a score of Speaking-3/Reading-3 on the Interagency Language Roundtable scale. FSI places Chinese – Cantonese in **Category IV**, its hardest group, at **88 weeks of full-time instruction (2,200 class hours)**, alongside Arabic, Mandarin, Japanese and Korean.
 
-Read that carefully before it discourages you. It describes full-time, classroom-based training for diplomats aiming at professional working proficiency, on a schedule FSI describes as roughly 23 hours of class plus 17 hours of self-study a week. It is not a statement about how long a phone app takes, and it is not a target for someone who wants to greet their partner's family properly. What it is good for is calibrating expectations: Cantonese is at the demanding end, so a course that promises speed is promising something the evidence does not support.
+Read that carefully before it discourages you. It describes intensive, full-time, small-group classroom training for diplomats — 2,200 hours across 88 weeks is about 25 class hours a week, before homework. It is not a statement about how long a phone app takes, and it is not a target for someone who wants to greet their partner's family properly. What it is good for is calibrating expectations: Cantonese is at the demanding end, so a course that promises speed is promising something the evidence does not support.
 
 ## The tone system, described honestly
 

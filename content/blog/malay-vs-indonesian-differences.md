@@ -97,7 +97,7 @@
       "title": "Foreign Language Training",
       "publisher": "U.S. Department of State, Foreign Service Institute",
       "url": "https://www.state.gov/foreign-language-training/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-08-13"
     }
   ]
 }
@@ -191,11 +191,11 @@ So when someone says "they can understand each other", ask which register. A new
 
 ## Difficulty: both are the easy option
 
-For an English speaker, both varieties are unusually approachable by regional standards. The US Foreign Service Institute places **Malay and Indonesian in the same group, Category II**, at approximately **36 weeks of full-time instruction (828 class hours)** for its own students, alongside German, Haitian Creole and Swahili.
+For an English speaker, both varieties are unusually approachable by regional standards. The US Foreign Service Institute places **Malay and Indonesian in the same group, Category II**, at approximately **36 weeks of full-time instruction (900 class hours)** for its own students, alongside German, Haitian Creole and Swahili.
 
 For comparison, Category III — Thai, Khmer, Russian, Polish, Vietnamese — runs to roughly 44 weeks, and Category IV, containing Mandarin, Cantonese, Japanese, Korean and Arabic, runs to 88.
 
-As always, that describes intensive full-time classroom training for diplomats, on a schedule FSI puts at around 23 hours of class plus 17 hours of self-study a week. It is not a prediction about app study. What it does say clearly is that FSI's own guidance does not rank one of the two above the other, which is a useful corrective to the folk claim that Indonesian is "the easy one".
+As always, that describes intensive, full-time, small-group classroom training for diplomats — 900 hours across 36 weeks is about 25 class hours a week, before homework. It is not a prediction about app study. What it does say clearly is that FSI's own guidance does not rank one of the two above the other, which is a useful corrective to the folk claim that Indonesian is "the easy one".
 
 ## Choosing, and what happens if you switch
 

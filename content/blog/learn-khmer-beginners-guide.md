@@ -5,7 +5,7 @@
   "description": "Khmer has no tones, which removes the barrier most beginners fear. The writing system replaces it — here is what the Khmer script actually asks of you.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "language-learning",
   "tags": ["khmer", "cambodian", "khmer script", "travel", "beginner"],
@@ -85,7 +85,7 @@
       "title": "Foreign Language Training",
       "publisher": "U.S. Department of State, Foreign Service Institute",
       "url": "https://www.state.gov/foreign-language-training/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-08-13"
     }
   ]
 }
@@ -177,9 +177,9 @@ Vocabulary carries a substantial Sanskrit and Pali layer, absorbed through Hindu
 
 ## Where Khmer sits on the difficulty scale
 
-The US Foreign Service Institute groups the languages it teaches by how long its students typically need to reach an integrated score of 3 on the Interagency Language Roundtable scale. Khmer is in **Category III**, at approximately **44 weeks of full-time instruction (1,012 class hours)**, alongside Thai, Russian, Vietnamese and Polish.
+The US Foreign Service Institute groups the languages it teaches by how long its students typically need to reach Professional Working Proficiency — a score of Speaking-3/Reading-3 on the Interagency Language Roundtable scale. Khmer is in **Category III**, at approximately **44 weeks of full-time instruction (1,100 class hours)**, alongside Thai, Russian, Vietnamese and Polish.
 
-That number describes intensive classroom training for diplomats aiming at professional working proficiency, on a schedule FSI describes as roughly 23 hours of class plus 17 hours of self-study a week. It says nothing about what an app will do for you, and it should not be read as a timeline. Its value is comparative: Khmer is demanding, a category below Cantonese, Mandarin, Japanese, Korean and Arabic, and a category above [Malay](/blog/learn-malay-beginners-guide/).
+That number describes intensive, full-time, small-group classroom training for diplomats — 1,100 hours across 44 weeks is about 25 class hours a week, before homework. It says nothing about what an app will do for you, and it should not be read as a timeline. Its value is comparative: Khmer is demanding, a category below Cantonese, Mandarin, Japanese, Korean and Arabic, and a category above [Malay](/blog/learn-malay-beginners-guide/).
 
 ## A first month before a trip
 

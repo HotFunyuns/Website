@@ -6,7 +6,8 @@ import Reveal from '@/components/Reveal';
 import { apps, companyInfo } from '@/data/apps';
 
 export const metadata: Metadata = {
-  title: 'Developer Information — Reign Creative LLC',
+  // Absolute because the template suffix would name the company twice.
+  title: { absolute: 'Developer Information — Reign Creative LLC' },
   description:
     'Official developer and app support information for Reign Creative LLC. Company details, app portfolio, and support resources.',
   alternates: { canonical: '/app-support/' },

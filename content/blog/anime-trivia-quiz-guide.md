@@ -5,7 +5,7 @@
   "description": "A good quiz question is one you nearly knew. How trivia difficulty should scale, what streaks really do, and how to get better at anime quizzes.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "anime-creative",
   "tags": ["anime trivia", "quiz games", "word puzzles", "android apps"],
@@ -156,6 +156,14 @@ One thing not to do: chasing an unbroken daily streak until sessions become a ch
 Anime Trivia & Word Games is an independent fan quiz from Reign Creative LLC. It is not affiliated with, endorsed by or connected to any anime studio, publisher or rights holder, and the question bank is our own, written across the medium rather than licensed from any series.
 
 That distinction matters for reasons beyond legal tidiness. A quiz written by fans about the medium as a whole can ask about the shapes that recur across it — how organizations get structured, how power systems get explained, how arcs get built — which is a different and often more interesting question set than a licensed quiz about one property could produce.
+
+## What it will not do
+
+Being straight about the limits is part of recommending anything, including our own.
+
+- **It cannot tell you how much anime you know.** It can tell you how you did against our question bank, and a bank written by particular people reflects what those people watched. A score measures the overlap between your viewing and ours. It is not a ranking of fans.
+- **The bank is large but finite.** Thousands of questions is a lot of evenings rather than an endless supply, and anyone playing daily for long enough will start meeting familiar ground.
+- **It will not tell you what to watch next.** There is no recommendation engine in it. A question sending you off to look something up is a side effect we like, not a feature we built.
 
 ## The practical details
 

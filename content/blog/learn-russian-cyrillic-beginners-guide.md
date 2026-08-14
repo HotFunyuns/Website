@@ -5,7 +5,7 @@
   "description": "The 33 letters of Russian sorted into what you already read, what will trick you and what is new, plus the stress and cursive problems nobody warns you about.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "language-learning",
   "tags": ["russian", "cyrillic", "alphabet", "pronunciation", "beginner"],
@@ -91,7 +91,7 @@
       "title": "Foreign Language Training",
       "publisher": "U.S. Department of State, Foreign Service Institute",
       "url": "https://www.state.gov/foreign-language-training/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-08-13"
     }
   ]
 }
@@ -198,9 +198,9 @@ The app's design responds to that curve directly: cases, gender, agreement and v
 
 ## The honest scale
 
-The US Foreign Service Institute groups the languages it teaches by how long its students typically need to reach an integrated score of 3 on the Interagency Language Roundtable scale. Russian sits in **Category III**, at approximately **44 weeks of full-time instruction (1,012 class hours)**, alongside Polish, Thai, Khmer and Vietnamese.
+The US Foreign Service Institute groups the languages it teaches by how long its students typically need to reach Professional Working Proficiency — a score of Speaking-3/Reading-3 on the Interagency Language Roundtable scale. Russian sits in **Category III**, at approximately **44 weeks of full-time instruction (1,100 class hours)**, alongside Polish, Thai, Khmer and Vietnamese.
 
-That describes full-time training for diplomats, at roughly 23 hours of class plus 17 hours of self-study a week, aimed at professional working proficiency. It is not a claim about what an app achieves and it should not be read as one. What it does establish is where Russian sits relative to other options: harder than German or [Malay](/blog/learn-malay-beginners-guide/), and a full category easier than [Cantonese](/blog/learn-cantonese-beginners-guide/), Mandarin, Japanese, Korean or Arabic.
+That describes intensive, full-time, small-group classroom training for diplomats — 1,100 hours across 44 weeks is about 25 class hours a week, before homework. It is not a claim about what an app achieves and it should not be read as one. What it does establish is where Russian sits relative to other options: harder than German or [Malay](/blog/learn-malay-beginners-guide/), and a full category easier than [Cantonese](/blog/learn-cantonese-beginners-guide/), Mandarin, Japanese, Korean or Arabic.
 
 A beginner course — this one included — is aimed at a foundation, not fluency: the alphabet, working grammar, useful vocabulary and phrases for everyday situations. That foundation is real, and Cyrillic is the first piece of it. It is also the piece you can finish this month.
 
