@@ -3,12 +3,17 @@
   "title": "How Much Protein Per Day? What the Published Reference Numbers Actually Answer",
   "metaTitle": "How Much Protein Per Day? The Published Numbers",
   "description": "The RDA, the AMDR, the label Daily Value and the athlete range answer four different questions about protein. Here is what each one was built for.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-08-13",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "health-nutrition",
-  "tags": ["protein", "dietary reference intakes", "macro tracking", "nutrition basics"],
+  "tags": [
+    "protein",
+    "dietary reference intakes",
+    "macro tracking",
+    "nutrition basics"
+  ],
   "primaryKeyword": "how much protein per day",
   "secondaryKeywords": [
     "protein rda per kg",
@@ -32,11 +37,14 @@
     "Is there an upper limit on protein intake?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["protein-diet-tracker", "keto-diet-tracker"],
+  "relatedApps": [
+    "protein-diet-tracker",
+    "keto-diet-tracker"
+  ],
   "relatedArticles": [
     "how-to-track-protein-intake",
-    "protein-sources-compared",
-    "reading-nutrition-labels"
+    "intermittent-fasting-windows-explained",
+    "net-carbs-explained-keto-tracking"
   ],
   "takeaways": [
     "The adult RDA of 0.8 grams of protein per kilogram of body weight per day is defined as enough to meet the needs of nearly all healthy people — a floor, not a performance target.",
@@ -46,7 +54,6 @@
     "The only way to know whether your intake is near any of these references is to measure a normal week rather than estimate from memory."
   ],
   "disclaimer": "health",
-  "noindex": true,
   "featured": false,
   "faqs": [
     {
@@ -221,7 +228,7 @@ Knowing four published numbers does not tell you anything about yourself. Only m
 
 It is free on Google Play, supported by ads, with optional in-app purchases. No account is required and entries are stored locally on your device rather than on our servers — which also means an uninstall takes the history with it. Other tools in the [health and nutrition category](/apps/category/health-nutrition/) make different trade-offs; if carbohydrate rather than protein is the number you care about, [Keto Diet Tracker: Low Carb](/apps/keto-diet-tracker/) handles the net carb arithmetic instead.
 
-If the practical side is what you are stuck on, [how to track your daily protein intake](/blog/how-to-track-protein-intake/) covers the habit rather than the numbers, [comparing protein sources](/blog/protein-sources-compared/) covers where the grams come from, and [reading a Nutrition Facts label](/blog/reading-nutrition-labels/) covers how to get the figures off a package correctly in the first place.
+If the practical side is what you are stuck on, [how to track your daily protein intake](/blog/how-to-track-protein-intake/) covers the habit rather than the numbers. If you are also timing meals, [intermittent fasting windows explained](/blog/intermittent-fasting-windows-explained/) sets out why a daily protein total is unaffected by when the eating window opens.
 
 ## The short version
 

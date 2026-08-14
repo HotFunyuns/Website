@@ -186,7 +186,7 @@ Two weeks of that gets most adults to slow, accurate reading. Fluent reading tak
 
 Being straightforward about this is more useful than encouragement.
 
-**Six cases.** Nouns, pronouns and adjectives change form according to their role in the sentence — nominative, genitive, dative, accusative, instrumental and prepositional. This is the feature that defines the Russian learning curve. It is not memorising six tables; it is developing the reflex to choose a form while you are speaking.
+**Six cases.** Nouns, pronouns and adjectives change form according to their role in the sentence — nominative, genitive, dative, accusative, instrumental and prepositional. This is the feature that defines the Russian learning curve. It is not memorising six tables; it is developing the reflex to choose a form while you are speaking. [Russian cases explained for beginners](/blog/russian-cases-explained-for-beginners/) takes each of the six in turn and sets out what job it does, which is a more useful way in than the tables.
 
 **Three genders and agreement.** Adjectives and past-tense verbs agree with the gender of the noun, so gender is not a label you can postpone.
 

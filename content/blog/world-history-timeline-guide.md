@@ -220,3 +220,5 @@ We try to hold this page to the same standard. What we will and will not assert,
 Chronology is scaffolding. It is worth building deliberately, and a timeline app is an efficient way to build it — breadth, relative position, and enough repetition that the sequence sticks.
 
 What it hands you is compressed and stripped of argument, so keep the layers apart: documents and dates are one thing, historians' inferences are another, and the tidy popular version is a third. When a date looks wrong, suspect the calendar before you suspect the source. And when something is worth repeating, spend the minute it takes to find the document behind it.
+
+If you want to know where the numbers on a timeline come from in the first place — stratigraphy, radiocarbon, tree rings, written records — [how historians date events](/blog/how-historians-date-events/) sets out what each method can and cannot establish.

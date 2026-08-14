@@ -227,3 +227,5 @@ Sessions can be two minutes or a long training run, which is the property that m
 Mental arithmetic is a small number of ideas reused: round and compensate, decompose and recombine, swap in an easier equivalent. Learn those three and most published "tricks" become things you could have derived.
 
 Check with casting out nines while remembering what it cannot see, estimate before you calculate so decimal errors surface early, and practise in short daily sessions rather than long occasional ones. The payoff is narrow and real — you get quicker and more accurate at arithmetic — and that is enough of a reason.
+
+For the individual methods worked through in full, including the conditions where each one stops being exact, see [mental math tricks that actually work](/blog/mental-math-tricks-that-work/).

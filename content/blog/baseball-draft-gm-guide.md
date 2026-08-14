@@ -188,6 +188,8 @@ A club that projects well and is then managed carelessly gives back a lot of wha
 4. **Choose the coach with the club's actual weakness in mind**, not as an afterthought.
 5. **Read the projection as a diagnosis.** Name the one slot you would redraft, then go and redraft it.
 
+If WAR, ERA and WHIP are carrying more of that method than you are comfortable with, [baseball stats explained for beginners](/blog/baseball-stats-explained-for-beginners/) sets out what each one measures and what it leaves out.
+
 162-0 Baseball Draft & GM Team is free to download on Google Play, supported by ads, with optional in-app purchases and an Everyone content rating.
 
 Broader drafting principles that apply across every sport are in the [basketball draft and GM guide](/blog/basketball-draft-gm-guide/), and the rest of the studio's management titles are listed under [sports GM](/apps/category/sports-gm/).

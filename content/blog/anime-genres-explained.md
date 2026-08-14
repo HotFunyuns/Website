@@ -3,12 +3,18 @@
   "title": "Anime Genres Explained: Why Shōnen Is Not a Genre and Isekai Is",
   "metaTitle": "Anime Genres Explained: Demographics vs Genre",
   "description": "Shōnen and seinen are publishing demographics, not genres. What isekai, mecha and slice of life describe, and why one show carries several labels.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-08-13",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "anime-creative",
-  "tags": ["anime", "manga", "genre guide", "anime terminology", "trivia"],
+  "tags": [
+    "anime",
+    "manga",
+    "genre guide",
+    "anime terminology",
+    "trivia"
+  ],
   "primaryKeyword": "anime genres explained",
   "secondaryKeywords": [
     "shonen vs seinen",
@@ -32,12 +38,14 @@
     "What is the difference between super robot and real robot mecha?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["anime-trivia-word-games", "anime-coloring-book"],
+  "relatedApps": [
+    "anime-trivia-word-games",
+    "anime-coloring-book"
+  ],
   "relatedArticles": [
     "anime-trivia-quiz-guide",
     "anime-coloring-app-guide",
-    "color-theory-for-beginners",
-    "digital-coloring-techniques"
+    "color-theory-for-beginners"
   ],
   "takeaways": [
     "Shōnen, shōjo, seinen and josei describe the readership a magazine was aimed at, not the content of the story, which is why a violent tragedy can be shōnen and a gentle comedy can be seinen.",
@@ -47,7 +55,6 @@
     "Any given show carries several labels at once because the labels are separate axes rather than competing categories."
   ],
   "disclaimer": "none",
-  "noindex": true,
   "featured": false,
   "faqs": [
     {

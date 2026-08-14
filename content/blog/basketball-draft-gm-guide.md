@@ -158,6 +158,8 @@ If you want a concrete method rather than principles:
 4. **Leave one pick's worth of flexibility if the format allows it.** Boards develop; a plan with no slack cannot respond.
 5. **After the season, write down one sentence about why the record came out where it did.** This is the whole learning loop, and skipping it is why people plateau.
 
+Which slot counts as your worst is a question about coverage rather than ratings, and it is the reason five high-rated players at overlapping positions lose to four and a specialist. [How to build a balanced basketball roster](/blog/how-to-build-a-balanced-basketball-roster/) works through that in full.
+
 ## Where to go from here
 
 The drafting principles above port cleanly across sports, but the *shape* of the problem does not. Football has the deepest roster and the widest spread of positional value, which is covered in the [football draft simulator guide](/blog/football-draft-gm-guide/). Baseball is the most statistically explicit, and the [baseball draft guide](/blog/baseball-draft-gm-guide/) goes into what those numbers mean before you draft on them. Hockey is the tightest puzzle of all — six players and a coach, where a single weak slot has nowhere to hide, as the [hockey draft guide](/blog/hockey-draft-gm-guide/) explains.

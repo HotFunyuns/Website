@@ -3,12 +3,18 @@
   "title": "Bullet Hell vs Classic Shmup: Two Genres That Look Identical and Test Opposite Skills",
   "metaTitle": "Bullet Hell vs Classic Shmup: What Changed",
   "description": "Bullet hell and classic shoot 'em ups look alike and reward opposite instincts. Hitboxes, bullet speed, and why density is not difficulty.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-08-13",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "action-arcade",
-  "tags": ["bullet hell", "shmup", "game design", "arcade shooter", "danmaku"],
+  "tags": [
+    "bullet hell",
+    "shmup",
+    "game design",
+    "arcade shooter",
+    "danmaku"
+  ],
   "primaryKeyword": "bullet hell vs shmup",
   "secondaryKeywords": [
     "danmaku explained",
@@ -32,12 +38,13 @@
     "What does streaming mean in a bullet hell game?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["space-shooter-classic-arcade", "zombie-survival-last-survivor"],
+  "relatedApps": [
+    "space-shooter-classic-arcade",
+    "zombie-survival-last-survivor"
+  ],
   "relatedArticles": [
     "space-shooter-arcade-guide",
-    "history-of-shoot-em-up-games",
-    "best-offline-arcade-games-android",
-    "wave-survival-game-design"
+    "zombie-survival-roguelike-guide"
   ],
   "takeaways": [
     "The defining difference is the hitbox: classic shooters treat the whole ship as vulnerable, danmaku treats a single point near its centre as vulnerable, and everything else follows from that.",
@@ -47,7 +54,6 @@
     "Neither subgenre is the advanced version of the other, so skill in one transfers only partially to the other."
   ],
   "disclaimer": "none",
-  "noindex": true,
   "featured": false,
   "faqs": [
     {

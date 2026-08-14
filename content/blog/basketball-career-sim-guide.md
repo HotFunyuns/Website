@@ -160,7 +160,7 @@ Three things follow. It does not describe any real player, team, school or leagu
 
 ## Practical advice for a first career
 
-**Commit to an identity in the first ten minutes.** The archetype you pick at creation should still be recognisable in season eight.
+**Commit to an identity in the first ten minutes.** The archetype you pick at creation should still be recognisable in season eight. If the position you are choosing between is more of a label than a job to you, [basketball positions explained](/blog/basketball-positions-explained/) sets out what each of the five is actually responsible for, which is the decision the rest of the career answers to.
 
 **Be consistent on possessions rather than clever.** A predictable player is one the surrounding systems can reward. A player who alternates between hero ball and deference is one they cannot read.
 

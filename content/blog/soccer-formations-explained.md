@@ -3,12 +3,17 @@
   "title": "Soccer Formations Explained: What the Numbers Actually Decide",
   "metaTitle": "Soccer Formations Explained: 4-4-2, 4-3-3 and More",
   "description": "How to read formation notation, what each common shape gives up to get what it wants, and why the formation you defend in is rarely the one you attack in.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-08-13",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["soccer", "formations", "tactics", "squad building"],
+  "tags": [
+    "soccer",
+    "formations",
+    "tactics",
+    "squad building"
+  ],
   "primaryKeyword": "soccer formations explained",
   "secondaryKeywords": [
     "4-4-2 vs 4-3-3",
@@ -32,12 +37,14 @@
     "What does a sweeper keeper do?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["soccer-draft-gm-xi", "football-draft-gm-mode"],
+  "relatedApps": [
+    "soccer-draft-gm-xi",
+    "football-draft-gm-mode"
+  ],
   "relatedArticles": [
     "soccer-draft-xi-guide",
-    "how-soccer-league-tables-work",
-    "football-positions-explained-for-drafting",
-    "best-sports-manager-games-for-short-sessions"
+    "basketball-positions-explained",
+    "how-to-build-a-balanced-basketball-roster"
   ],
   "takeaways": [
     "Formation notation is read from the defence forward and leaves the goalkeeper out, so the digits always add up to ten.",
@@ -48,7 +55,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "What do the numbers in a soccer formation mean?",
@@ -186,6 +192,6 @@ The useful loop is comparative: change one structural decision, run it again, an
 
 ## Where to read next
 
-If you want to know how the campaign result you get back is assembled into a table, [how soccer league tables work](/blog/how-soccer-league-tables-work/) covers points, goal difference and tie-breaks. If you want the drafting side in more depth, the [soccer draft XI guide](/blog/soccer-draft-xi-guide/) goes through squad construction directly, and the [football positions guide](/blog/football-positions-explained-for-drafting/) shows how the same positional-value thinking looks in a sport with three separate personnel groups. For the practical question of fitting any of this into a commute, see [manager games for short sessions](/blog/best-sports-manager-games-for-short-sessions/).
+If you want the drafting side in more depth, the [soccer draft XI guide](/blog/soccer-draft-xi-guide/) goes through squad construction directly. For the same positional-value thinking in a sport that names its roles rather than its shape, see [basketball positions explained](/blog/basketball-positions-explained/), and for the coverage-versus-averages argument applied to a full squad, [how to build a balanced basketball roster](/blog/how-to-build-a-balanced-basketball-roster/).
 
 The full set of drafting and management titles is listed under [sports GM](/apps/category/sports-gm/).

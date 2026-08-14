@@ -3,12 +3,18 @@
   "title": "Basketball Positions Explained: What the Five Numbers Mean",
   "metaTitle": "Basketball Positions Explained (1 Through 5)",
   "description": "What a point guard, shooting guard, small forward, power forward and centre each do, why the rulebook never mentions any of them, and what position means today.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-08-13",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["basketball", "positions", "beginners", "career sim", "roster building"],
+  "tags": [
+    "basketball",
+    "positions",
+    "beginners",
+    "career sim",
+    "roster building"
+  ],
   "primaryKeyword": "basketball positions explained",
   "secondaryKeywords": [
     "what does a point guard do",
@@ -32,12 +38,14 @@
     "What is the difference between a power forward and a centre?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["pro-basketball-my-career-sim", "pro-basketball-draft-gm-mode"],
+  "relatedApps": [
+    "pro-basketball-my-career-sim",
+    "pro-basketball-draft-gm-mode"
+  ],
   "relatedArticles": [
     "how-to-build-a-balanced-basketball-roster",
     "basketball-career-sim-guide",
-    "how-fantasy-draft-strategy-works",
-    "basketball-draft-gm-guide"
+    "soccer-formations-explained"
   ],
   "takeaways": [
     "The five positions are a coaching convention, not a rule: the laws of the game set how many players a team has on court and say nothing about what any of them is called.",
@@ -48,7 +56,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "What are the five basketball positions?",
@@ -204,6 +211,6 @@ From the front-office side, positions stop being identities and become **coverag
 
 ## Further reading
 
-The roster-construction side is covered in [building a balanced basketball roster](/blog/how-to-build-a-balanced-basketball-roster/), and the drafting principles that sit underneath it are in [how fantasy draft strategy works](/blog/how-fantasy-draft-strategy-works/). For the career game specifically, see the [basketball career sim guide](/blog/basketball-career-sim-guide/); for the front-office game, the [basketball draft simulator guide](/blog/basketball-draft-gm-guide/).
+The roster-construction side is covered in [building a balanced basketball roster](/blog/how-to-build-a-balanced-basketball-roster/). For the career game specifically, see the [basketball career sim guide](/blog/basketball-career-sim-guide/); for the front-office game, the [basketball draft simulator guide](/blog/basketball-draft-gm-guide/). Soccer answers the same question with shape rather than with five numbered roles, which is the subject of [soccer formations explained](/blog/soccer-formations-explained/).
 
 Both sit alongside the studio's other management titles in the [sports GM category](/apps/category/sports-gm/).

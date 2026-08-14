@@ -3,14 +3,19 @@
   "title": "Spaced Repetition for Language Learning: What the Research Actually Supports",
   "metaTitle": "Spaced Repetition for Language Learning: How It Works",
   "description": "Spaced repetition rests on two findings, not one. Here is what the research supports, what it does not, and how to use it without a scheduling algorithm.",
-  "status": "draft",
-  "noindex": true,
+  "status": "published",
   "featured": false,
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "publishedAt": "2026-08-13",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "language-learning",
-  "tags": ["study methods", "spaced repetition", "vocabulary", "memory", "beginner"],
+  "tags": [
+    "study methods",
+    "spaced repetition",
+    "vocabulary",
+    "memory",
+    "beginner"
+  ],
   "primaryKeyword": "spaced repetition language learning",
   "secondaryKeywords": [
     "spaced repetition vocabulary",
@@ -36,12 +41,15 @@
     "Is spaced repetition better than cramming?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["learn-cantonese", "learn-russian", "learn-cambodian-khmer"],
+  "relatedApps": [
+    "learn-cantonese",
+    "learn-russian",
+    "learn-cambodian-khmer"
+  ],
   "relatedArticles": [
     "learn-cantonese-beginners-guide",
-    "cantonese-tones-explained",
-    "how-long-does-it-take-to-learn-russian",
-    "khmer-script-explained"
+    "learn-russian-cyrillic-beginners-guide",
+    "russian-cases-explained-for-beginners"
   ],
   "takeaways": [
     "Spaced repetition combines two separate findings — that reviews spread over time beat reviews packed together, and that recalling something is a stronger learning event than rereading it.",
@@ -81,16 +89,16 @@
       "accessed": "2026-08-09"
     },
     {
-      "title": "Improving Students' Learning With Effective Learning Techniques: Promising Directions From Cognitive and Educational Psychology",
-      "publisher": "Psychological Science in the Public Interest",
-      "url": "https://journals.sagepub.com/doi/10.1177/1529100612453266",
-      "accessed": "2026-08-09"
+      "title": "Improving Students' Learning With Effective Learning Techniques: Promising Directions From Cognitive and Educational Psychology (Dunlosky et al., Psychol Sci Public Interest 2013;14(1):4–58)",
+      "publisher": "PubMed, U.S. National Library of Medicine",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26173288/",
+      "accessed": "2026-08-13"
     },
     {
-      "title": "The Critical Importance of Retrieval for Learning",
-      "publisher": "Science",
-      "url": "https://www.science.org/doi/10.1126/science.1152408",
-      "accessed": "2026-08-09"
+      "title": "The Critical Importance of Retrieval for Learning (Karpicke & Roediger, Science 2008;319(5865):966–8)",
+      "publisher": "PubMed, U.S. National Library of Medicine",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18276894/",
+      "accessed": "2026-08-13"
     },
     {
       "title": "Bjork Learning and Forgetting Lab",

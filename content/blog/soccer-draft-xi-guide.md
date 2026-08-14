@@ -173,4 +173,6 @@ If your drafts keep returning campaigns you did not expect, the gap is usually i
 4. **Read the XI as a group before you lock it.** Incompatible styles are the quiet killer.
 5. **After the campaign, change exactly one thing and run it again.** One variable at a time is the only way to learn what the model rewards.
 
+Every one of those picks sits inside a shape, and the shape decides what a given player is being asked to do. [Soccer formations explained](/blog/soccer-formations-explained/) covers what a 4-4-2, a 4-3-3 and a 3-5-2 each commit you to before you have chosen anybody.
+
 The rest of the studio's drafting and management games — across basketball, football, baseball, hockey and combat sports — are listed under [sports GM](/apps/category/sports-gm/).

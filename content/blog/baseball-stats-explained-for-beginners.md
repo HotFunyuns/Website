@@ -3,12 +3,18 @@
   "title": "Baseball Stats Explained for Beginners",
   "metaTitle": "Baseball Stats Explained for Beginners",
   "description": "ERA, WHIP, OBP, slugging, fielding percentage and WAR, each with the formula and a worked example, plus what every one of them fails to tell you.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-08-13",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["baseball", "statistics", "sports sim", "draft strategy", "beginners"],
+  "tags": [
+    "baseball",
+    "statistics",
+    "sports sim",
+    "draft strategy",
+    "beginners"
+  ],
   "primaryKeyword": "baseball stats explained",
   "secondaryKeywords": [
     "what is era in baseball",
@@ -32,12 +38,13 @@
     "Why is fielding percentage a limited statistic?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["baseball-draft-gm-team"],
+  "relatedApps": [
+    "baseball-draft-gm-team"
+  ],
   "relatedArticles": [
-    "how-sports-simulation-engines-work",
-    "understanding-sports-sim-probability",
-    "how-fantasy-draft-strategy-works",
-    "baseball-draft-gm-guide"
+    "baseball-draft-gm-guide",
+    "basketball-positions-explained",
+    "how-to-build-a-balanced-basketball-roster"
   ],
   "takeaways": [
     "Rate statistics like ERA, WHIP and OBP describe performance per opportunity; counting statistics like home runs describe accumulated totals, and mixing the two up is the most common beginner error.",
@@ -48,7 +55,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "How is ERA calculated?",
@@ -229,7 +235,7 @@ Used properly it is genuinely powerful: it lets you compare a shortstop to a sta
 
 A short checklist that covers most beginner mistakes:
 
-1. **Check the sample.** Rate statistics over small samples are mostly noise. This is the same variance problem that shows up in simulated seasons, covered in [understanding sports sim probability](/blog/understanding-sports-sim-probability/).
+1. **Check the sample.** Rate statistics over small samples are mostly noise. A dozen innings or thirty at-bats will produce a number carried to three decimal places that means almost nothing.
 2. **Ask what the number excludes.** Every statistic in this article has a blind spot, and knowing it is more useful than knowing the value.
 3. **Pair a rate with a counting stat.** Quality per chance plus total chances gives you a picture; either alone does not.
 4. **Distrust single numbers.** WAR and OPS are summaries. Summaries hide the thing you needed to see.
@@ -245,6 +251,6 @@ Beyond the draft, Franchise GM Mode covers the batting order, rotation, bullpen 
 
 ## Further reading
 
-To understand what the simulator does with these inputs, see [how sports simulation engines work](/blog/how-sports-simulation-engines-work/). The variance that makes any single season a poor test is covered in [understanding sports sim probability](/blog/understanding-sports-sim-probability/), the drafting principles are in [how fantasy draft strategy works](/blog/how-fantasy-draft-strategy-works/), and the [baseball draft simulator guide](/blog/baseball-draft-gm-guide/) runs through the game end to end.
+The [baseball draft simulator guide](/blog/baseball-draft-gm-guide/) runs through the game end to end. For the same argument about positional value in a different sport, see [basketball positions explained](/blog/basketball-positions-explained/), and for what happens once you have to assemble those pieces into a working lineup, [how to build a balanced basketball roster](/blog/how-to-build-a-balanced-basketball-roster/).
 
 More sports management titles are in the [sports GM category](/apps/category/sports-gm/).

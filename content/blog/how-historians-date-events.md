@@ -3,12 +3,18 @@
   "title": "How Historians Date Events: The Methods Behind the Numbers on a Timeline",
   "metaTitle": "How Historians Date Events: The Methods Explained",
   "description": "Stratigraphy, radiocarbon, tree rings, written records and astronomy — how each dating method works, what it can and cannot establish, and why dates change.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-08-13",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "education-brain",
-  "tags": ["world history", "chronology", "archaeology", "radiocarbon", "study methods"],
+  "tags": [
+    "world history",
+    "chronology",
+    "archaeology",
+    "radiocarbon",
+    "study methods"
+  ],
   "primaryKeyword": "how historians date events",
   "secondaryKeywords": [
     "relative vs absolute dating",
@@ -31,10 +37,12 @@
     "Why do historical dates get revised?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["world-history-timeline-sim"],
+  "relatedApps": [
+    "world-history-timeline-sim"
+  ],
   "relatedArticles": [
     "world-history-timeline-guide",
-    "major-eras-of-world-history",
+    "mental-math-tricks-that-work",
     "mental-math-training-guide"
   ],
   "takeaways": [
@@ -46,7 +54,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "What is the difference between relative and absolute dating?",
@@ -240,4 +247,4 @@ Three habits are worth carrying:
 
 It is an orientation tool, not a citation apparatus. When a date matters for something you are writing or arguing, take it to an archive, a museum catalogue entry or a publication that states its evidence. The archives listed in our sources below are free and open.
 
-More apps in this area are collected under [education and brain training](/apps/category/education-brain/), and our other writing on the subject sits under [education and brain training articles](/blog/category/education-brain/). If you want the period labels that sit above these dates — "Bronze Age", "medieval", "early modern" — and where they come from, see [how the major eras of world history are defined](/blog/major-eras-of-world-history/).
+More apps in this area are collected under [education and brain training](/apps/category/education-brain/), and our other writing on the subject sits under [education and brain training articles](/blog/category/education-brain/). The [world history timeline guide](/blog/world-history-timeline-guide/) covers how to use a timeline as a study tool rather than as a reference work.

@@ -3,12 +3,18 @@
   "title": "Russian Cases Explained: Six Jobs, Not Six Tables",
   "metaTitle": "Russian Cases Explained for Beginners",
   "description": "The six Russian cases, organised by the job each one does, with the animacy rule, the motion-versus-location split, and what beginners reliably get wrong.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-08-13",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "language-learning",
-  "tags": ["russian", "grammar", "cases", "declension", "beginner"],
+  "tags": [
+    "russian",
+    "grammar",
+    "cases",
+    "declension",
+    "beginner"
+  ],
   "primaryKeyword": "russian cases explained",
   "secondaryKeywords": [
     "six russian cases",
@@ -32,11 +38,13 @@
     "In what order should I learn the Russian cases?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["learn-russian"],
+  "relatedApps": [
+    "learn-russian"
+  ],
   "relatedArticles": [
     "learn-russian-cyrillic-beginners-guide",
-    "how-long-does-it-take-to-learn-russian",
-    "spaced-repetition-for-language-learning"
+    "spaced-repetition-for-language-learning",
+    "malay-vs-indonesian-differences"
   ],
   "takeaways": [
     "A Russian case is a job label: the ending on a noun tells you what role it plays, which is work English does with word order and prepositions.",
@@ -47,7 +55,6 @@
   ],
   "disclaimer": "language",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "What are the six Russian cases?",

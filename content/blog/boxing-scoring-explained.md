@@ -3,12 +3,17 @@
   "title": "How Boxing Scoring Works: The 10-Point Must System, Round by Round",
   "metaTitle": "How Boxing Scoring Works: The 10-Point Must System",
   "description": "What the 10-point must system means, when a round is 10-9 or 10-8, the four factors judges are told to weigh, and how three scorecards become a result.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-08-13",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["boxing", "scoring", "combat sports", "rules"],
+  "tags": [
+    "boxing",
+    "scoring",
+    "combat sports",
+    "rules"
+  ],
   "primaryKeyword": "how boxing scoring works",
   "secondaryKeywords": [
     "10 point must system explained",
@@ -32,11 +37,13 @@
     "How is a split decision different from a majority decision?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["mma-boxing-fight-draft"],
+  "relatedApps": [
+    "mma-boxing-fight-draft"
+  ],
   "relatedArticles": [
-    "mma-weight-classes-explained",
     "mma-boxing-fight-draft-guide",
-    "career-mode-vs-franchise-mode"
+    "basketball-positions-explained",
+    "baseball-stats-explained-for-beginners"
   ],
   "takeaways": [
     "Under the 10-point must system the round winner must receive 10 points and the loser nine or fewer, with an even 10-10 round treated as a rarity.",
@@ -47,7 +54,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "What is the 10-point must system?",
@@ -202,6 +208,6 @@ The honest framing of a decision loss in the game is the same as the honest fram
 
 ## Where to read next
 
-The companion article is [MMA weight classes explained](/blog/mma-weight-classes-explained/), which covers the unified-rules division table and how catch weight works. For the drafting side of combat sports, see the [MMA and boxing fight draft guide](/blog/mma-boxing-fight-draft-guide/), and for how running a stable differs from following one competitor, see [career mode versus franchise mode](/blog/career-mode-vs-franchise-mode/).
+For the drafting side of combat sports, see the [MMA and boxing fight draft guide](/blog/mma-boxing-fight-draft-guide/), which covers how divisions and matchmaking work inside the game. For another sport where the official rulebook and the language fans actually use have drifted apart, see [basketball positions explained](/blog/basketball-positions-explained/).
 
 Everything the studio makes in this genre is listed under [sports GM](/apps/category/sports-gm/).

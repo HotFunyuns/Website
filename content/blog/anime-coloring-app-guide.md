@@ -157,4 +157,6 @@ Anime Coloring Book: Paint Art is free to download on Google Play, supported by 
 
 It sits in [Anime & Creative Games](/apps/category/anime-creative/) alongside [Anime Trivia & Word Games](/apps/anime-trivia-word-games/), which scratches a completely different itch — we wrote about [how quiz difficulty should scale](/blog/anime-trivia-quiz-guide/) if you want the competitive version of an anime evening. And if you would rather do something with an actual failure state, [the zombie survival guide](/blog/zombie-survival-roguelike-guide/) is the opposite of a page with no score on it.
 
+If the palette itself is where you get stuck, [color theory for beginners](/blog/color-theory-for-beginners/) covers hue, value and saturation and the schemes that reliably work, without the art-school vocabulary.
+
 Pick a palette. Fill the biggest shape. The rest turns out to be easier than it looked.

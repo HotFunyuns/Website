@@ -3,12 +3,18 @@
   "title": "Intermittent Fasting Windows Explained: The Patterns, the Naming, and What the Evidence Supports",
   "metaTitle": "Intermittent Fasting Windows Explained",
   "description": "What the four fasting patterns in the literature actually are, where names like 16:8 come from, and why the NIA says evidence is insufficient to recommend one.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-08-13",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "health-nutrition",
-  "tags": ["intermittent fasting", "eating window", "keto", "meal timing", "nutrition logging"],
+  "tags": [
+    "intermittent fasting",
+    "eating window",
+    "keto",
+    "meal timing",
+    "nutrition logging"
+  ],
   "primaryKeyword": "intermittent fasting windows",
   "secondaryKeywords": [
     "time restricted eating window",
@@ -31,12 +37,14 @@
     "Who should talk to a doctor before trying intermittent fasting?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["keto-diet-tracker", "protein-diet-tracker"],
+  "relatedApps": [
+    "keto-diet-tracker",
+    "protein-diet-tracker"
+  ],
   "relatedArticles": [
-    "keto-macros-explained",
-    "what-is-a-ketone-reading",
     "net-carbs-explained-keto-tracking",
-    "how-much-protein-per-day"
+    "how-much-protein-per-day",
+    "how-to-track-protein-intake"
   ],
   "takeaways": [
     "The National Institute on Aging describes four broad fasting patterns — time-restricted feeding, alternate-day fasting, the 5:2 pattern, and periodic fasting — and these are descriptions of what researchers studied, not prescriptions.",
@@ -46,7 +54,6 @@
     "An eating window changes when food arrives, not what is in it — the nutrition of the food inside the window is a separate question with its own separate answer."
   ],
   "disclaimer": "health",
-  "noindex": true,
   "featured": false,
   "faqs": [
     {
@@ -181,7 +188,7 @@ The mechanistic explanation you will encounter goes roughly like this: after a m
 
 Two things are true at once here. The fuel sequence itself is basic, well-described physiology. The claim that deliberately cycling through it produces specific health benefits in humans is a hypothesis under investigation — which is exactly why the NIA's recommendation language stays where it does.
 
-If you want the ketone side of that story in more detail, including why a home reading is not a self-diagnostic tool, see [what a ketone reading actually represents](/blog/what-is-a-ketone-reading/). The short version: producing ketones is normal metabolism, the number on a meter is not a grade, and it does not certify that anything is working.
+One thing worth stating plainly about the ketone end of that sequence: producing ketones is normal metabolism, the number on a home meter is not a grade, and it does not certify that anything is working.
 
 ## Fasting is not appropriate for everyone
 
@@ -219,7 +226,7 @@ Dietary Reference Intakes are expressed as daily amounts. The Recommended Dietar
 
 This is why "I fast, so the food does not matter" does not follow from anything in the literature. If anything, a shorter window makes the composition of each meal *more* consequential, because there are fewer of them.
 
-For people combining a fasting window with low-carbohydrate eating, the same logic applies to macros: see [how keto percentages convert into grams](/blog/keto-macros-explained/) and [how net carbs are calculated](/blog/net-carbs-explained-keto-tracking/), both of which are daily-total questions unaffected by clock timing.
+For people combining a fasting window with low-carbohydrate eating, the same logic applies to macros: see [how net carbs are calculated](/blog/net-carbs-explained-keto-tracking/), which is a daily-total question unaffected by clock timing.
 
 ## If you and a clinician decide to try a window
 
@@ -239,7 +246,7 @@ The point of a record is to replace "I think it has been going okay" with someth
 
 What it does is record the window you choose to run. What it does not do is choose the protocol, tell you whether fasting is appropriate for you, or interpret how it is going. It is free with ads, requires no account, and keeps your data on your device.
 
-If your interest is protein rather than carbohydrate, [Protein Diet Tracker](/apps/protein-diet-tracker/) covers daily protein, calories and macros with goals you set yourself. More tools in this area are listed under [health and fitness apps](/apps/category/health-fitness/), and the rest of our writing on nutrition tracking is collected under [health and nutrition](/blog/category/health-nutrition/).
+If your interest is protein rather than carbohydrate, [Protein Diet Tracker](/apps/protein-diet-tracker/) covers daily protein, calories and macros with goals you set yourself. More tools in this area are listed under [health and nutrition apps](/apps/category/health-nutrition/), and the rest of our writing on nutrition tracking is collected under [health and nutrition](/blog/category/health-nutrition/).
 
 ## The honest summary
 

@@ -192,7 +192,7 @@ These are exactly the areas Learn Cantonese for Beginners covers explicitly — 
 
 **Week two you start recognising characters inside words.** Not memorising a list of 200 in isolation — meeting high-frequency traditional characters inside phrases and sentences you are already saying, which is how the course introduces them.
 
-**Week three the tones start colliding.** You knew a word yesterday and today it will not come out right. This is normal and it is the point at which most people quit. The structural answer is review that pulls from your own history rather than a fresh list: Daily Review, Mistake Rescue and the missed-questions list exist precisely for the words that will not stick.
+**Week three the tones start colliding.** You knew a word yesterday and today it will not come out right. This is normal and it is the point at which most people quit. The structural answer is review that pulls from your own history rather than a fresh list: Daily Review, Mistake Rescue and the missed-questions list exist precisely for the words that will not stick. That approach has a name and a research literature behind it — [spaced repetition for language learning](/blog/spaced-repetition-for-language-learning/) explains why reviewing something at the point you are about to forget it beats reviewing it while you still know it.
 
 **Week four you build sentences instead of reciting them.** Sentence Builder, Dictation Mode and Listening Blitz all attack the gap between recognising a phrase on a page and producing one out loud.
 

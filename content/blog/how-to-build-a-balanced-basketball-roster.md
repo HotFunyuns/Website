@@ -3,12 +3,18 @@
   "title": "How to Build a Balanced Basketball Roster",
   "metaTitle": "How to Build a Basketball Roster That Works",
   "description": "Balance is coverage, not averages. The team-level jobs every lineup has to cover, why overlap wastes picks, and how minutes turn depth into a real constraint.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-08-13",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["roster building", "basketball", "gm mode", "draft strategy", "rotations"],
+  "tags": [
+    "roster building",
+    "basketball",
+    "gm mode",
+    "draft strategy",
+    "rotations"
+  ],
   "primaryKeyword": "how to build a basketball roster",
   "secondaryKeywords": [
     "balanced basketball roster",
@@ -32,12 +38,14 @@
     "How should minutes be split across a rotation?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["pro-basketball-draft-gm-mode", "pro-basketball-my-career-sim"],
+  "relatedApps": [
+    "pro-basketball-draft-gm-mode",
+    "pro-basketball-my-career-sim"
+  ],
   "relatedArticles": [
     "basketball-positions-explained",
-    "how-fantasy-draft-strategy-works",
-    "salary-cap-basics-for-gm-games",
-    "basketball-draft-gm-guide"
+    "basketball-draft-gm-guide",
+    "basketball-career-sim-guide"
   ],
   "takeaways": [
     "Balance is about coverage, not about averaging out ratings: a lineup has to be able to bring the ball up, space the floor, rebound and protect the rim, and a roster that cannot do all four has a hole regardless of its ratings.",
@@ -48,7 +56,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "What does a balanced basketball roster actually mean?",
@@ -151,7 +158,7 @@ Neither approach is correct in general. They buy different things, and pretendin
 
 **Balanced** spreads quality across the roster. It raises your floor, survives adversity better, and rarely produces a dominant unit. Over long seasons, floors tend to matter more than ceilings, simply because there are more games in which something can go wrong.
 
-The useful move is not to pick a side but to **find out what your format rewards** by running the same board twice, once each way, and comparing across several runs rather than one. A single season is one sample of a model you cannot see, which is covered properly in [understanding sports sim probability](/blog/understanding-sports-sim-probability/).
+The useful move is not to pick a side but to **find out what your format rewards** by running the same board twice, once each way, and comparing across several runs rather than one. A single season is one sample of a model you cannot see, and one sample is not evidence.
 
 ## Building it during the draft
 
@@ -177,7 +184,7 @@ Drafting sets your ceiling. The front office decides how much of it you reach, a
 
 **Trades are the only real fix for a structural mistake.** If the draft left you long at one job and short at another, that is exactly the imbalance a trade exists to correct: converting surplus you cannot use into coverage you need.
 
-**Contracts add time.** A contract is not only a price but a duration, and committing years to a player also commits the flexibility you might have wanted later. The cap side of that is covered in [salary cap basics for GM games](/blog/salary-cap-basics-for-gm-games/).
+**Contracts add time.** A contract is not only a price but a duration, and committing years to a player also commits the flexibility you might have wanted later.
 
 Basketball Draft GM Franchise hands you all three across a full 82-game season and playoff race, and offers eight draft formats — Unlimited, Quick, Blind, Franchise and Salary Cap Draft plus VS Computer, Battle Mode and a Daily Challenge — which is enough variety that a roster built for one can genuinely fail in another.
 
@@ -195,6 +202,6 @@ And keep the interpretation straight: the record a simulator returns is a model'
 
 ## Further reading
 
-For what the position labels mean and where they came from, see [basketball positions explained](/blog/basketball-positions-explained/). The valuation reasoning that underpins the draft sequencing above is in [how fantasy draft strategy works](/blog/how-fantasy-draft-strategy-works/), the budget side is in [salary cap basics](/blog/salary-cap-basics-for-gm-games/), and the [basketball draft simulator guide](/blog/basketball-draft-gm-guide/) runs through a full draft and season in the game itself.
+For what the position labels mean and where they came from, see [basketball positions explained](/blog/basketball-positions-explained/). The [basketball draft simulator guide](/blog/basketball-draft-gm-guide/) runs through a full draft and season in the game itself, and the [basketball career sim guide](/blog/basketball-career-sim-guide/) covers the single-player side, where the same coverage question applies to one career rather than a whole roster.
 
 Other management titles are in the [sports GM category](/apps/category/sports-gm/).

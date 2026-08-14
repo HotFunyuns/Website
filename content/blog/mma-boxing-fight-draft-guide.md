@@ -143,7 +143,7 @@ The drafting sits inside Unlimited Fight Draft, Limited Draft, Tournament, VS Co
 
 Three of those are worth calling out for what they teach.
 
-**Single-sport drafts** are the best place to learn. Mixing pools is more interesting and also more complicated, because you are reasoning about two resolution systems at once. Drafting boxing only for a few runs will teach you what the scorecard model rewards far faster than mixed drafting will.
+**Single-sport drafts** are the best place to learn. Mixing pools is more interesting and also more complicated, because you are reasoning about two resolution systems at once. Drafting boxing only for a few runs will teach you what the scorecard model rewards far faster than mixed drafting will, and [boxing scoring explained](/blog/boxing-scoring-explained/) covers the ten-point must system those results are modelled on.
 
 **Limited Draft** removes the ability to keep searching, which converts drafting from a selection problem into a judgement problem. The same distinction shows up in every draft game the studio makes; the [hockey draft guide](/blog/hockey-draft-gm-guide/) works through why the two rulesets test different skills.
 

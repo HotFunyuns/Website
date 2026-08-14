@@ -3,12 +3,18 @@
   "title": "Mental Math Tricks That Actually Work, and the Conditions Where They Break",
   "metaTitle": "Mental Math Tricks That Actually Work",
   "description": "Base-100 multiplication, percentage reversal, unit conversion and root estimation — every method worked through, with the case where each one fails.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-08-13",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "education-brain",
-  "tags": ["mental math", "arithmetic", "study methods", "estimation", "brain training"],
+  "tags": [
+    "mental math",
+    "arithmetic",
+    "study methods",
+    "estimation",
+    "brain training"
+  ],
   "primaryKeyword": "mental math tricks",
   "secondaryKeywords": [
     "fast multiplication tricks",
@@ -31,10 +37,12 @@
     "How can I estimate a square root without a calculator?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["mental-math-memory-games"],
+  "relatedApps": [
+    "mental-math-memory-games"
+  ],
   "relatedArticles": [
     "mental-math-training-guide",
-    "working-memory-and-training",
+    "spaced-repetition-for-language-learning",
     "world-history-timeline-guide"
   ],
   "takeaways": [
@@ -46,7 +54,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "What is the fastest way to multiply two numbers near 100?",
@@ -280,7 +287,7 @@ Memorise the cycle once and all six are available. It is a small thing, and it i
 
 Knowing a method and being fast with it are different states. The gap between them is retrieval: a method you have to reason through costs several seconds, and the same method drilled to automaticity costs a fraction of one. Nothing in this article gets faster by being read again.
 
-That is a training problem, and it responds to short, frequent, mixed practice — the same principles set out in the [training guide](/blog/mental-math-training-guide/). It is also worth understanding the constraint you are working against, which is how little the mind can hold at once while calculating; that is the subject of [working memory and what training can and cannot change](/blog/working-memory-and-training/).
+That is a training problem, and it responds to short, frequent, mixed practice — the same principles set out in the [training guide](/blog/mental-math-training-guide/). The same spacing-and-retrieval evidence is covered from the vocabulary side in [spaced repetition for language learning](/blog/spaced-repetition-for-language-learning/), which is the same mechanism applied to a different kind of material.
 
 ## Where the app fits
 

@@ -197,4 +197,6 @@ A beginner course gives you a foundation: pronunciation, core vocabulary, workin
 
 What Malay offers that most of the region does not is a genuinely low cost of entry. You can be saying useful, correct things in week one, which matters more than it sounds — the languages people abandon are usually the ones where nothing works for a month.
 
+It is also worth knowing what else the effort buys you. Malay and Indonesian are close enough that learning one gets you a long way into the other, but the gap is not where most people expect it: [Malay versus Indonesian](/blog/malay-vs-indonesian-differences/) covers where the two actually diverge.
+
 If you want to compare that against the alternatives before committing, the other guides in our [language learning apps](/apps/category/language-learning/) collection lay out what each one actually demands: [Cantonese](/blog/learn-cantonese-beginners-guide/) sits two FSI categories higher, [Khmer](/blog/learn-khmer-beginners-guide/) has a demanding script but no tones, and [Russian](/blog/learn-russian-cyrillic-beginners-guide/) trades a new alphabet — learnable in days — for a grammar that does far more work than Malay's.

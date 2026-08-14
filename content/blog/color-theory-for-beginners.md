@@ -3,12 +3,18 @@
   "title": "Color Theory for Beginners: The Part That Actually Changes Your Pictures",
   "metaTitle": "Color Theory for Beginners: A Practical Guide",
   "description": "Hue, value and saturation, why light and paint mix differently, and the colour schemes that work — without the art-school vocabulary.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-08-13",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "anime-creative",
-  "tags": ["color theory", "digital art", "coloring app", "creative hobbies", "design basics"],
+  "tags": [
+    "color theory",
+    "digital art",
+    "coloring app",
+    "creative hobbies",
+    "design basics"
+  ],
   "primaryKeyword": "color theory for beginners",
   "secondaryKeywords": [
     "hue saturation value explained",
@@ -32,11 +38,14 @@
     "Why do my colours look muddy when I mix them?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["anime-coloring-book", "anime-trivia-word-games"],
+  "relatedApps": [
+    "anime-coloring-book",
+    "anime-trivia-word-games"
+  ],
   "relatedArticles": [
     "anime-coloring-app-guide",
-    "digital-coloring-techniques",
-    "anime-genres-explained"
+    "anime-genres-explained",
+    "anime-trivia-quiz-guide"
   ],
   "takeaways": [
     "Value — how light or dark a colour is — carries more of a picture's readability than hue does, which is why a grayscale check catches problems a colour check misses.",
@@ -46,7 +55,6 @@
     "Never encode meaning in hue alone — pair it with a difference in lightness so it still reads for viewers with colour vision deficiency."
   ],
   "disclaimer": "none",
-  "noindex": true,
   "featured": false,
   "faqs": [
     {

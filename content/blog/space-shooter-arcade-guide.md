@@ -179,4 +179,6 @@ Space Shooter - Galaxy Arcade is free to download on Google Play, supported by a
 
 It sits in [Action & Arcade Games](/apps/category/action-arcade/) alongside a game built on the opposite premise — [Zombie Survival: Last Survivor](/apps/zombie-survival-last-survivor/) removes aiming entirely so that movement is the only input, and we wrote about [how its mid-run upgrade choices work](/blog/zombie-survival-roguelike-guide/) separately. If you want something with no reflex requirement at all, [the anime trivia guide](/blog/anime-trivia-quiz-guide/) covers the other end of our catalogue.
 
+The genre also split along the way, and the two halves want opposite things from a player. [Bullet hell versus classic shmup](/blog/bullet-hell-vs-classic-shmup/) covers what actually separates them, which is not difficulty.
+
 The genre has been asking the same question since Taito released Space Invaders in Japan in 1978, designed by Tomohiro Nishikado: not how fast can you shoot, but where are you going to be standing. Almost fifty years of the form later, the answer is still positioning.

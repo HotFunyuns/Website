@@ -217,6 +217,6 @@ By the end of that month you will either have a habit that costs you a few secon
 
 ## The short version
 
-Protein tracking is not complicated. The published references are public and easy to find: 0.8 g/kg per day as the adult RDA, 10–35 percent of calories as the acceptable range, 50 grams as the labelling Daily Value. The arithmetic is addition.
+Protein tracking is not complicated. The published references are public and easy to find: 0.8 g/kg per day as the adult RDA, 10–35 percent of calories as the acceptable range, 50 grams as the labelling Daily Value. The arithmetic is addition. What those figures actually mean — why the RDA is a floor rather than a target, and where the higher numbers people quote come from — is worked through in [how much protein per day](/blog/how-much-protein-per-day/).
 
 Everything that makes tracking hard is friction, and friction is a solvable problem. Pick a tool where logging a normal meal is fast, log at the table instead of at midnight, and judge yourself on weeks rather than days.

@@ -171,4 +171,6 @@ The app is free to download on Google Play, supported by ads, with optional in-a
 
 It sits in [Anime & Creative Games](/apps/category/anime-creative/) next to [Anime Coloring Book: Paint Art](/apps/anime-coloring-book/), which is the same audience approached from the opposite direction — no score, no timer, nothing to get wrong. Our [guide to colouring anime line art](/blog/anime-coloring-app-guide/) covers that side. If you want something where the pressure is on your hands instead of your memory, [the space shooter guide](/blog/space-shooter-arcade-guide/) is a good place to go next.
 
+A large share of the questions people get wrong are really terminology questions, and the labels are less obvious than they look — [anime genres explained](/blog/anime-genres-explained/) covers why shōnen and seinen are publishing demographics rather than genres.
+
 The best sign a quiz is well built is not how many questions you got right. It is how many of the ones you missed made you say *oh, right* rather than *how would anyone know that*.

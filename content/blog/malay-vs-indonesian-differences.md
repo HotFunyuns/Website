@@ -3,12 +3,18 @@
   "title": "Malay vs Indonesian: How Close Are They, Really?",
   "metaTitle": "Malay vs Indonesian: How Different Are They?",
   "description": "Malay and Indonesian share most of their grammar and core vocabulary, then diverge in loanwords and false friends. Here is what differs and which one to study.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-08-13",
+  "updatedAt": "2026-08-13",
   "author": "Reign Creative Team",
   "category": "language-learning",
-  "tags": ["malay", "indonesian", "bahasa melayu", "southeast asia", "beginner"],
+  "tags": [
+    "malay",
+    "indonesian",
+    "bahasa melayu",
+    "southeast asia",
+    "beginner"
+  ],
   "primaryKeyword": "malay vs indonesian",
   "secondaryKeywords": [
     "difference between malay and indonesian",
@@ -32,11 +38,13 @@
     "Should I learn Malay or Indonesian?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["learn-malay"],
+  "relatedApps": [
+    "learn-malay"
+  ],
   "relatedArticles": [
     "learn-malay-beginners-guide",
-    "malay-pronunciation-guide",
-    "cantonese-vs-mandarin-differences"
+    "spaced-repetition-for-language-learning",
+    "russian-cases-explained-for-beginners"
   ],
   "takeaways": [
     "Malay and Indonesian are separately standardised varieties of the same historical language, and ISO 639-3 registers them under one macrolanguage with distinct codes of their own.",
@@ -47,7 +55,6 @@
   ],
   "disclaimer": "language",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "Are Malay and Indonesian the same language?",
