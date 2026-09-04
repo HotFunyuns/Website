@@ -3,12 +3,18 @@
   "title": "Offline Sports Games on Android: How to Tell Which Ones Actually Work",
   "metaTitle": "Offline Sports Games on Android: What to Check",
   "description": "\"Offline\" means several things on Google Play. How to read a listing, run an airplane-mode test, and work out what a sports game really needs a connection for.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["offline games", "android", "sports sim", "gm mode", "app selection"],
+  "tags": [
+    "offline games",
+    "android",
+    "sports sim",
+    "gm mode",
+    "app selection"
+  ],
   "primaryKeyword": "offline sports games android",
   "secondaryKeywords": [
     "sports games that work without wifi",
@@ -32,7 +38,11 @@
     "Which kinds of sports games are most likely to work without a connection?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["football-draft-gm-mode", "pro-basketball-my-career-sim", "baseball-draft-gm-team"],
+  "relatedApps": [
+    "football-draft-gm-mode",
+    "pro-basketball-my-career-sim",
+    "baseball-draft-gm-team"
+  ],
   "relatedArticles": [
     "how-sports-simulation-engines-work",
     "what-makes-a-good-draft-board",
@@ -48,7 +58,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "How can I tell if an Android game works offline before I install it?",

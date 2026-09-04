@@ -26,7 +26,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-08-09',
+    lastVerified: '2026-09-03',
     features: [
       {
         title: 'Twelve structured units',
@@ -128,7 +128,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-08-09',
+    lastVerified: '2026-09-03',
     features: [
       {
         title: 'The Thai script from the start',
@@ -228,9 +228,9 @@ export const languageLearningApps: AppInfo[] = [
     playCategory: 'EDUCATION',
     contentRating: 'Everyone',
     containsAds: true,
-    inAppPurchases: false,
+    inAppPurchases: true,
     free: true,
-    lastVerified: '2026-08-09',
+    lastVerified: '2026-09-03',
     features: [
       {
         title: 'Vocabulary grouped by situation',
@@ -281,7 +281,7 @@ export const languageLearningApps: AppInfo[] = [
       {
         question: 'Is Learn Malay - Bahasa Melayu free?',
         answer:
-          'Yes. It is free to download on Google Play and supported by ads, and its Play listing shows no in-app purchases.',
+          'Yes. It is free to download on Google Play. It is supported by ads and offers optional in-app purchases.',
       },
       {
         question: 'Is Malay the same as Indonesian?',
@@ -306,7 +306,7 @@ export const languageLearningApps: AppInfo[] = [
     ],
     metaTitle: 'Learn Malay - Bahasa Melayu for Android',
     metaDescription:
-      'Learn Standard Malay from zero with situation-based lessons in vocabulary, grammar and pronunciation. Free on Google Play, with no in-app purchases.',
+      'Learn Standard Malay from zero with situation-based lessons in vocabulary, grammar, pronunciation and travel phrases. Free on Google Play from Reign Creative.',
   },
   {
     slug: 'learn-russian',
@@ -332,7 +332,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-08-09',
+    lastVerified: '2026-09-03',
     features: [
       {
         title: 'Cyrillic first',
@@ -434,7 +434,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-08-09',
+    lastVerified: '2026-09-03',
     features: [
       {
         title: 'The Khmer script, properly',
@@ -511,5 +511,311 @@ export const languageLearningApps: AppInfo[] = [
     metaTitle: 'Learn Cambodian, Speak Khmer for Android',
     metaDescription:
       'Learn the Khmer alphabet, everyday vocabulary and Cambodia travel phrases, with audio you can slow down and repeat. Free on Google Play from Reign Creative.',
+  },
+  {
+    slug: 'learn-vietnamese',
+    name: 'Learn Vietnamese Language Fast',
+    tagline: 'Vietnamese for beginners, organised by the situations you will actually use it in.',
+    cardDescription:
+      'Structured Vietnamese lessons covering tones, pronunciation, topic vocabulary, grammar and travel phrases, with an English track for Vietnamese speakers.',
+    longDescription: [
+      'Learn Vietnamese Language Fast is a beginner course for people learning Vietnamese for travel, family, heritage, school or work. Lessons run in a structured order rather than as open-ended word lists, and vocabulary is grouped by topic — greetings, introductions, numbers, food, family, shopping, transport, directions, daily routines, work, school, health and travel — so words arrive with the context you would meet them in.',
+      'Tones and pronunciation get their own attention, because Vietnamese is a tonal language and the tone is part of the word rather than an accent on top of it. Pronunciation activities cover the sounds and tone patterns, and listening exercises put them back into ordinary speech. Grammar lessons explain sentence patterns, pronouns and forms of address, classifiers, questions, negatives, comparisons, possession, time expressions and aspect markers with practical examples.',
+      'Practice comes in several formats — listening exercises, sentence building, dictation, matching, vocabulary review, phrase practice, grammar activities, stories and pronunciation lessons — so review does not become one repeated drill. Phrase collections cover restaurants, cafés, hotels, airports, shopping, directions, meeting people, transport, emergencies and social situations, and further material covers idioms, everyday slang, travel, business and work vocabulary, culture and etiquette, and conversation roleplays. Vietnamese speakers can switch direction and study English with Vietnamese explanations instead.',
+    ],
+    category: 'Education · Vietnamese',
+    categoryId: 'language-learning',
+    schemaCategory: 'EducationalApplication',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.reigncreative.learnvietnameselanguage',
+    packageId: 'com.reigncreative.learnvietnameselanguage',
+    icon: '/icons/learn-vietnamese.webp',
+    iconSmall: '/icons/learn-vietnamese-sm.webp',
+    accent: 'from-crimson-400 to-gold-400',
+    playCategory: 'EDUCATION',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: true,
+    free: true,
+    lastVerified: '2026-09-03',
+    features: [
+      {
+        title: 'Tones treated as part of the word',
+        body: 'Pronunciation activities cover Vietnamese sounds and tone patterns directly, rather than leaving tone as something you pick up later.',
+      },
+      {
+        title: 'Vocabulary grouped by topic',
+        body: 'Greetings, numbers, food, family, shopping, transport, directions, work, school, health and travel, so words arrive in context.',
+      },
+      {
+        title: 'Grammar explained with examples',
+        body: 'Sentence patterns, pronouns and forms of address, classifiers, questions, negatives, comparisons, possession, time and aspect markers.',
+      },
+      {
+        title: 'Several kinds of practice',
+        body: 'Listening, sentence building, dictation, matching, vocabulary review, phrase practice, grammar activities, stories and pronunciation lessons.',
+      },
+      {
+        title: 'Two directions in one app',
+        body: 'Vietnamese speakers can switch the course around and study English with Vietnamese explanations, translations and grammar support.',
+      },
+    ],
+    audience: [
+      'Beginners preparing for a trip to Vietnam',
+      'Heritage learners reconnecting with family language',
+      'Students and workers who need everyday Vietnamese',
+      'Vietnamese speakers building practical English',
+    ],
+    howItWorks: [
+      {
+        title: 'Choose your direction',
+        body: 'Study Vietnamese from English, or English from Vietnamese, each with its own lessons and progress.',
+      },
+      {
+        title: 'Work through the topics',
+        body: 'Follow the structured lessons so vocabulary and grammar arrive in a deliberate order rather than at random.',
+      },
+      {
+        title: 'Practise the tones',
+        body: 'Use the pronunciation and listening activities to get familiar with how tone changes meaning in ordinary speech.',
+      },
+      {
+        title: 'Review and extend',
+        body: 'Return through review formats, then move into idioms, slang, travel, business vocabulary and conversation roleplays.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Learn Vietnamese Language Fast free?',
+        answer:
+          'Yes, it is free to download on Google Play. It is supported by ads and offers optional in-app purchases.',
+      },
+      {
+        question: 'Does it teach northern or southern Vietnamese?',
+        answer:
+          'The app teaches standard written Vietnamese with audio pronunciation practice. Regional accent differences are real and significant, so speaking with people from the region you care about remains important.',
+      },
+      {
+        question: 'Do I need to learn the tones?',
+        answer:
+          'Yes, and the course treats them as core material rather than an optional extra. In Vietnamese, changing the tone changes the word, so tone practice sits alongside vocabulary from early on.',
+      },
+      {
+        question: 'Can Vietnamese speakers use it to learn English?',
+        answer:
+          'Yes. Switching direction gives you English lessons with Vietnamese explanations, translations, vocabulary, grammar, listening and pronunciation support.',
+      },
+      {
+        question: 'Are the lessons reviewed by a native speaker?',
+        answer:
+          'We do not claim native-speaker certification for the course. It is a structured beginner resource, and we recommend pairing it with conversation practice with fluent speakers.',
+      },
+    ],
+    metaTitle: 'Learn Vietnamese Language Fast for Android',
+    metaDescription:
+      'Learn Vietnamese tones, topic vocabulary, grammar and travel phrases through structured beginner lessons. Free on Google Play from Reign Creative.',
+  },
+  {
+    slug: 'learn-lao',
+    name: 'Learn Lao Language Fast & Easy',
+    tagline: 'Start with the Lao script, then build toward everyday conversation.',
+    cardDescription:
+      'A beginner Lao course covering the alphabet, vocabulary, pronunciation, grammar and travel phrases, with an English track for Lao speakers.',
+    longDescription: [
+      'Learn Lao Language Fast & Easy is a beginner course for a language that very few apps cover at all. It starts where a beginner actually has to start: the Lao script. Alphabet lessons work through recognising Lao characters, the sounds attached to them, and reading useful words, with interactive practice rather than a chart to memorise.',
+      'From there the course builds vocabulary for greetings, family, food, shopping, transport, numbers, time, directions, work and daily life, and phrase lessons put that vocabulary into restaurants, hotels, airports, markets and conversations with local speakers. Grammar explanations and sentence-building activities cover Lao sentence structure so you can produce your own responses rather than only recognise set phrases.',
+      'Practice formats include listening exercises, matching games, vocabulary review, sentence building, dictation, quizzes and pronunciation activities, with mistake review and the option to revisit finished lessons. Progress tracking and daily goals keep a routine visible, and advanced topics cover expressions and cultural lessons. Lao speakers can switch direction and study English vocabulary, phrases, pronunciation and grammar with Lao translations instead.',
+    ],
+    category: 'Education · Lao',
+    categoryId: 'language-learning',
+    schemaCategory: 'EducationalApplication',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.reigncreative.learnlaolanguage',
+    packageId: 'com.reigncreative.learnlaolanguage',
+    icon: '/icons/learn-lao.webp',
+    iconSmall: '/icons/learn-lao-sm.webp',
+    accent: 'from-gold-400 to-crimson-500',
+    playCategory: 'EDUCATION',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: false,
+    free: true,
+    lastVerified: '2026-09-03',
+    features: [
+      {
+        title: 'The Lao script from lesson one',
+        body: 'Character recognition, the sounds attached to them, and reading real words, taught with interactive practice rather than a reference chart.',
+      },
+      {
+        title: 'Vocabulary for daily life',
+        body: 'Greetings, family, food, shopping, transport, numbers, time, directions and work, grouped so words arrive with their situation.',
+      },
+      {
+        title: 'Phrases for travel in Laos',
+        body: 'Restaurants, hotels, airports, markets and conversations with local speakers, presented in context rather than as isolated lines.',
+      },
+      {
+        title: 'Varied practice and review',
+        body: 'Listening, matching, vocabulary review, sentence building, dictation, quizzes and pronunciation activities, with mistake review built in.',
+      },
+      {
+        title: 'Two directions in one app',
+        body: 'Lao speakers can switch to the English track and study vocabulary, phrases, pronunciation and grammar with Lao translations.',
+      },
+    ],
+    audience: [
+      'Travellers preparing for a trip to Laos',
+      'Families and partners with Lao relatives',
+      'Learners of a language that most large apps do not offer',
+      'Lao speakers building everyday English',
+    ],
+    howItWorks: [
+      {
+        title: 'Learn to read first',
+        body: 'Work through the Lao alphabet lessons so the script stops being an obstacle before longer material arrives.',
+      },
+      {
+        title: 'Build practical vocabulary',
+        body: 'Study words grouped by topic and situation rather than in alphabetical lists.',
+      },
+      {
+        title: 'Practise in context',
+        body: 'Use phrase lessons and sentence-building activities to produce responses, not just recognise them.',
+      },
+      {
+        title: 'Keep the routine going',
+        body: 'Daily goals, progress tracking and review activities bring weak material back before you forget it.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Learn Lao Language Fast & Easy free?',
+        answer:
+          'Yes, it is free to download on Google Play. It is supported by ads, and there are no in-app purchases.',
+      },
+      {
+        question: 'Do I have to learn the Lao script?',
+        answer:
+          'The course teaches it from the first lessons, because reading Lao makes everything after it considerably easier. Character recognition is broken into interactive practice rather than presented all at once.',
+      },
+      {
+        question: 'Is Lao the same as Thai?',
+        answer:
+          'They are closely related and share a great deal, but they are separate languages with separate scripts. This course teaches Lao and its own writing system.',
+      },
+      {
+        question: 'Can Lao speakers use it to learn English?',
+        answer:
+          'Yes. Switching direction gives you English vocabulary, phrases, pronunciation and grammar explained with Lao translations.',
+      },
+      {
+        question: 'Is the app enough on its own?',
+        answer:
+          'It is built to give you a beginner foundation in reading, vocabulary and everyday phrases. It is not a replacement for speaking with fluent Lao speakers.',
+      },
+    ],
+    metaTitle: 'Learn Lao Language Fast & Easy for Android',
+    metaDescription:
+      'Learn the Lao alphabet, everyday vocabulary, grammar and travel phrases with interactive beginner lessons. Free on Google Play from Reign Creative.',
+  },
+  {
+    slug: 'learn-italian',
+    name: 'Learn Italian for Beginners',
+    tagline: 'Twelve units and 192 lessons that take Italian from first words to real conversation.',
+    cardDescription:
+      'A structured Italian beginner course covering vocabulary, grammar, listening and pronunciation, with an English track for Italian speakers.',
+    longDescription: [
+      'Learn Italian for Beginners is a structured course rather than a vocabulary app. The core path runs through 12 units and 192 lessons covering greetings, family, food, numbers, daily routines, shopping, travel, work, health, relationships, past events, future plans and everyday communication, introducing words and phrases in context instead of as isolated lists.',
+      'Each lesson mixes formats — vocabulary exercises, multiple-choice questions, sentence building, matching, dictation, translation, listening activities, pronunciation practice and grammar challenges — so you learn to form sentences and understand spoken phrases rather than only recognising words on a page. Grammar covers verbs, articles, sentence structure, agreement, questions and common tenses, taught through practical examples and revisited in later units.',
+      'Listening and pronunciation are supported with audio for words, phrases, sentences and conversations, and travel material covers restaurants, airports, train stations, shops and hotels. The Review area handles everything after the first pass: difficult words, past mistakes, sentence building, listening challenges, flashcards, dictation, matching and speed practice, alongside lesson progress, streaks, achievements and saved words. Further content covers idioms, slang, informal expressions, business and workplace Italian, culture and etiquette, and roleplay conversations. Italian speakers can switch the course around and study English instead. A Premium option removes ads and unlocks the Premium learning features.',
+    ],
+    category: 'Education · Italian',
+    categoryId: 'language-learning',
+    schemaCategory: 'EducationalApplication',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.reigncreative.learnitalianlanguage',
+    packageId: 'com.reigncreative.learnitalianlanguage',
+    icon: '/icons/learn-italian.webp',
+    iconSmall: '/icons/learn-italian-sm.webp',
+    accent: 'from-crimson-500 to-ink-700',
+    playCategory: 'EDUCATION',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: true,
+    free: true,
+    lastVerified: '2026-09-03',
+    features: [
+      {
+        title: 'A course with a defined path',
+        body: '12 units and 192 core lessons in a set order, so there is always a clear next step rather than an open word list.',
+      },
+      {
+        title: 'Grammar taught in context',
+        body: 'Verbs, articles, sentence structure, agreement, questions and common tenses introduced through examples and revisited later.',
+      },
+      {
+        title: 'Listening and pronunciation support',
+        body: 'Audio for words, phrases, sentences and conversations, with dictation and listening exercises to go with it.',
+      },
+      {
+        title: 'A review area that does the work',
+        body: 'Difficult words, past mistakes, flashcards, sentence building, listening challenges, matching and speed practice in one place.',
+      },
+      {
+        title: 'Two directions in one app',
+        body: 'Italian speakers can switch course and study English, with separate lessons and separate progress for each direction.',
+      },
+    ],
+    audience: [
+      'Beginners starting Italian for the first time',
+      'Travellers preparing for a trip to Italy',
+      'Heritage learners reconnecting with family language',
+      'Italian speakers building everyday English',
+    ],
+    howItWorks: [
+      {
+        title: 'Start the core path',
+        body: 'Work through the 12 units in order, each introducing vocabulary and grammar for a specific area of daily life.',
+      },
+      {
+        title: 'Practise in several formats',
+        body: 'Mix vocabulary exercises, sentence building, dictation, translation, listening and pronunciation within each lesson.',
+      },
+      {
+        title: 'Use the review area',
+        body: 'Bring back difficult words and past mistakes with flashcards, listening challenges and speed practice.',
+      },
+      {
+        title: 'Go past the basics',
+        body: 'Move into idioms, slang, business Italian, culture and etiquette, and roleplay conversations once the core path is familiar.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Learn Italian for Beginners free?',
+        answer:
+          'Yes, it is free to download on Google Play. It is supported by ads, and an optional Premium purchase removes ads and unlocks the Premium learning features.',
+      },
+      {
+        question: 'How much material is in the core course?',
+        answer:
+          'The Google Play listing describes 12 structured units containing 192 core lessons, with further content beyond that for idioms, slang, business Italian and roleplay conversations.',
+      },
+      {
+        question: 'Does it cover grammar or only vocabulary?',
+        answer:
+          'Both. Grammar lessons cover verbs, articles, sentence structure, agreement, questions and common tenses, taught with practical examples rather than tables alone.',
+      },
+      {
+        question: 'Can Italian speakers use it to learn English?',
+        answer:
+          'Yes. Each direction has its own lessons and its own progress, so you can study Italian from English or English from Italian.',
+      },
+      {
+        question: 'Is the app enough on its own?',
+        answer:
+          'It gives you a structured beginner foundation in vocabulary, grammar, listening and pronunciation. It is not a substitute for conversation practice with fluent speakers.',
+      },
+    ],
+    metaTitle: 'Learn Italian for Beginners for Android',
+    metaDescription:
+      'A structured Italian course with 12 units, grammar in context, listening practice and travel phrases. Free on Google Play from Reign Creative.',
   },
 ];

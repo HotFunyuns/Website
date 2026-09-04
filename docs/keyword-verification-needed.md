@@ -9,7 +9,7 @@ none. Before anyone plans work around these terms, run them through Google
 Keyword Planner, Semrush or Ahrefs and record the real figures somewhere other
 than this file.
 
-**828 unique terms across 75 articles.**
+**1820 unique terms across 175 articles.**
 
 ## Priority order for verification
 
@@ -27,6 +27,8 @@ overlap — usually fine, but worth a look for cannibalisation.
 
 - `google play data safety section` — best-offline-arcade-games-android, best-offline-sports-games-android
 - `how much protein per day` — how-much-protein-per-day, how-to-track-protein-intake
+- `do sugar alcohols count as carbs` — net-carbs-explained-keto-tracking, sugar-alcohols-explained
+- `serving size vs portion size` — reading-nutrition-labels, serving-size-vs-portion-size
 - `cantonese tones explained` — cantonese-tones-explained, learn-cantonese-beginners-guide
 - `how many tones does cantonese have` — cantonese-tones-explained, learn-cantonese-beginners-guide
 - `cantonese vs mandarin` — cantonese-vs-mandarin-differences, learn-cantonese-beginners-guide
@@ -34,7 +36,13 @@ overlap — usually fine, but worth a look for cannibalisation.
 - `difference between malay and indonesian` — learn-malay-beginners-guide, malay-vs-indonesian-differences
 - `thai consonant classes` — learn-thai-script-beginners-guide, thai-tones-explained
 - `thai tone rules` — learn-thai-script-beginners-guide, thai-tones-explained
+- `what is era in baseball` — baseball-stats-explained-for-beginners, what-is-era-in-baseball
+- `what is whip in baseball` — baseball-stats-explained-for-beginners, what-is-whip-in-baseball
+- `slugging percentage explained` — baseball-stats-explained-for-beginners, ops-and-slugging-explained
+- `how do you calculate era in baseball` — baseball-stats-explained-for-beginners, what-is-era-in-baseball
 - `how to test if an app works offline` — best-offline-sports-games-android, sports-gm-games-without-internet
+- `goalie career mode` — hockey-career-sim-guide, hockey-goaltending-explained
+- `remux vs transcode` — remuxing-vs-transcoding, video-file-formats-explained
 
 ## All terms
 
@@ -44,51 +52,100 @@ overlap — usually fine, but worth a look for cannibalisation.
 | 10 point must system explained | secondary | boxing-scoring-explained | unverified |
 | 16 8 fasting explained | secondary | intermittent-fasting-windows-explained | unverified |
 | 162 game season simulator | secondary | baseball-draft-gm-guide | unverified |
+| 24fps 30fps 60fps | secondary | frame-rate-and-resolution-explained | unverified |
+| 36 hole cut | secondary | how-a-golf-cut-works | unverified |
 | 38 game season simulation | secondary | soccer-draft-xi-guide | unverified |
 | 4-4-2 vs 4-3-3 | secondary | soccer-formations-explained | unverified |
 | 5:2 eating pattern | secondary | intermittent-fasting-windows-explained | unverified |
 | 82 game season simulator | secondary | basketball-draft-gm-guide | unverified |
 | 84 game season projection | secondary | hockey-draft-gm-guide | unverified |
+| a1 a2 b1 b2 c1 c2 | secondary | cefr-levels-explained | unverified |
+| aac vs mp3 | secondary | audio-codecs-explained | unverified |
 | acceptable macronutrient distribution range protein | secondary | how-much-protein-per-day | unverified |
+| active vs passive vocabulary | secondary | how-many-words-to-be-conversational | unverified |
+| activity multiplier | secondary | tdee-and-energy-balance | unverified |
+| added sugar vs total sugar | primary | added-sugars-vs-total-sugars | unverified |
 | added sugars on nutrition label | secondary | reading-nutrition-labels | unverified |
 | additive vs subtractive color | secondary | color-theory-for-beginners | unverified |
 | airplane mode game test | secondary | best-offline-arcade-games-android | unverified |
 | alternate day fasting | secondary | intermittent-fasting-windows-explained | unverified |
 | alternate history what if scenarios | secondary | world-history-timeline-guide | unverified |
+| am i still improving in a language | long-tail | language-learning-plateau | unverified |
 | american football positions list | secondary | football-positions-explained-for-drafting | unverified |
+| amino acid profile plants | secondary | plant-vs-animal-protein | unverified |
+| anabolic resistance | secondary | protein-for-older-adults | unverified |
+| anagram solving strategy | secondary | word-game-strategy-guide | unverified |
 | android games no account required | secondary | best-offline-sports-games-android | unverified |
 | android games that work without internet | secondary | best-offline-arcade-games-android | unverified |
 | android games without account | secondary | sports-gm-games-without-internet | unverified |
+| android gaming performance | secondary | battery-and-performance-in-mobile-games | unverified |
+| android video codec support | secondary | av1-on-android-explained | unverified |
 | android video player comparison | secondary | android-video-players-compared | unverified |
 | android video player for local files | primary | android-video-player-guide | unverified |
 | android video player that resumes where you stopped | long-tail | android-video-players-compared | unverified |
 | animal vs plant protein | secondary | protein-sources-compared | unverified |
+| anime art styles | primary | anime-art-styles-explained | unverified |
+| anime color palette | primary | color-palettes-for-anime-art | unverified |
 | anime coloring app android | primary | anime-coloring-app-guide | unverified |
+| anime eye styles | secondary | anime-art-styles-explained | unverified |
 | anime genres explained | primary | anime-genres-explained | unverified |
 | anime line art coloring | secondary | anime-coloring-app-guide | unverified |
+| anime production terms | secondary | anime-terminology-glossary | unverified |
 | anime quiz app android | secondary | anime-trivia-quiz-guide | unverified |
 | anime quiz with daily challenges | long-tail | anime-trivia-quiz-guide | unverified |
+| anime style differences | secondary | anime-art-styles-explained | unverified |
+| anime terms glossary | primary | anime-terminology-glossary | unverified |
 | anime trivia quiz game | primary | anime-trivia-quiz-guide | unverified |
+| anime vocabulary explained | secondary | anime-terminology-glossary | unverified |
 | anime word puzzle game | secondary | anime-trivia-quiz-guide | unverified |
 | anki vs duolingo for vocabulary | comparison | language-learning-apps-compared | unverified |
+| app data collection disclosure | secondary | google-play-data-safety-explained | unverified |
 | app that logs ketone readings and gki | long-tail | low-carb-tracking-apps-compared | unverified |
 | app to learn khmer or malay | secondary | language-learning-apps-compared | unverified |
+| arcade difficulty escalation | secondary | difficulty-curves-explained | unverified |
 | arcade games no wifi | secondary | best-offline-arcade-games-android | unverified |
 | arcade shooter subgenres | secondary | bullet-hell-vs-classic-shmup | unverified |
 | arcade space shooter free | secondary | space-shooter-arcade-guide | unverified |
+| arcade survival structure | secondary | horde-survival-vs-wave-shooter | unverified |
+| are ads in games tracking me | long-tail | why-free-android-games-show-ads | unverified |
+| are crowd sourced food entries reliable | long-tail | why-food-databases-disagree | unverified |
+| are ere ire verbs | secondary | italian-verb-conjugation-basics | unverified |
 | are the bronze age dates the same everywhere | long-tail | major-eras-of-world-history | unverified |
 | arithmetic drills for adults | secondary | mental-math-training-guide | unverified |
+| attribute development sports game | secondary | how-player-career-modes-work | unverified |
 | auction draft budget strategy | secondary | snake-draft-vs-auction-draft | unverified |
+| audible football | secondary | reading-a-defense-basics | unverified |
+| audio codecs explained | primary | audio-codecs-explained | unverified |
+| audio passthrough | secondary | audio-codecs-explained | unverified |
+| auto fire mobile games | secondary | auto-fire-and-touch-controls | unverified |
 | auto shooter roguelike | secondary | zombie-survival-roguelike-guide | unverified |
+| av1 codec explained | secondary | av1-on-android-explained | unverified |
+| av1 hardware decoding | secondary | av1-on-android-explained | unverified |
+| av1 support android | primary | av1-on-android-explained | unverified |
+| av1 vs h265 | secondary | av1-on-android-explained | unverified |
+| availability career mode | secondary | injuries-in-sports-career-games | unverified |
+| background apps battery | secondary | battery-and-performance-in-mobile-games | unverified |
+| backup player value | secondary | depth-charts-explained | unverified |
 | bahasa melayu for beginners | secondary | learn-malay-beginners-guide | unverified |
 | bahasa melayu pronunciation | secondary | malay-pronunciation-guide | unverified |
 | balanced basketball roster | secondary | how-to-build-a-balanced-basketball-roster | unverified |
+| basal metabolic rate | secondary | tdee-and-energy-balance | unverified |
+| base colours illustration | secondary | line-art-and-flats-explained | unverified |
+| baseball career game offline | secondary | baseball-career-sim-guide | unverified |
+| baseball career mode android | secondary | baseball-career-sim-guide | unverified |
+| baseball career sim game | primary | baseball-career-sim-guide | unverified |
 | baseball draft game offline | secondary | baseball-draft-gm-guide | unverified |
 | baseball draft game with payroll limit | long-tail | baseball-draft-gm-guide | unverified |
 | baseball draft simulator app | primary | baseball-draft-gm-guide | unverified |
 | baseball franchise manager mobile | secondary | baseball-draft-gm-guide | unverified |
 | baseball gm game android | secondary | baseball-draft-gm-guide | unverified |
+| baseball lineup spots explained | secondary | batting-order-strategy-explained | unverified |
+| baseball pitching roles | secondary | baseball-pitching-roles-explained | unverified |
+| baseball player simulator | secondary | baseball-career-sim-guide | unverified |
+| baseball roster spot value | secondary | two-way-players-explained | unverified |
 | baseball stats explained | primary | baseball-stats-explained-for-beginners | unverified |
+| baserunners allowed stat | secondary | what-is-whip-in-baseball | unverified |
+| basketball advanced stats explained | primary | basketball-advanced-stats-explained | unverified |
 | basketball career game where you make the decisions | long-tail | basketball-career-sim-guide | unverified |
 | basketball career mode no wifi | secondary | basketball-career-sim-guide | unverified |
 | basketball career sim game | primary | basketball-career-sim-guide | unverified |
@@ -102,6 +159,10 @@ overlap — usually fine, but worth a look for cannibalisation.
 | basketball position numbers | secondary | basketball-positions-explained | unverified |
 | basketball positions 1 through 5 | secondary | basketball-positions-explained | unverified |
 | basketball positions explained | primary | basketball-positions-explained | unverified |
+| battery drain video playback | secondary | hardware-vs-software-decoding | unverified |
+| batting average vs ops | secondary | ops-and-slugging-explained | unverified |
+| batting order strategy | secondary | batting-order-strategy-explained | unverified |
+| bce vs bc | secondary | bce-and-ce-explained | unverified |
 | berlin interpretation roguelike | secondary | what-makes-a-roguelike | unverified |
 | best android video player | primary | android-video-players-compared | unverified |
 | best app for a language with few courses | long-tail | language-learning-apps-compared | unverified |
@@ -122,11 +183,16 @@ overlap — usually fine, but worth a look for cannibalisation.
 | best offline football manager game android | long-tail | football-draft-gm-guide | unverified |
 | best player available vs need | secondary | how-fantasy-draft-strategy-works | unverified |
 | best protein tracking app | primary | protein-tracking-apps-compared | unverified |
+| best sports career game android | secondary | how-to-choose-a-sports-career-sim | unverified |
 | best way to learn world history chronology | long-tail | world-history-timeline-guide | unverified |
 | best way to review vocabulary | secondary | spaced-repetition-for-language-learning | unverified |
 | binomial distribution wins | secondary | understanding-sports-sim-probability | unverified |
+| birdie bogey eagle meaning | secondary | golf-scoring-explained | unverified |
 | bitrate vs quality | secondary | video-codecs-explained | unverified |
+| bitrate vs resolution | secondary | frame-rate-and-resolution-explained | unverified |
 | blood ketone vs urine ketone test | secondary | what-is-a-ketone-reading | unverified |
+| blood sugar response food | secondary | glycemic-index-and-load | unverified |
+| boss rotation learning | secondary | boss-pattern-recognition | unverified |
 | boxing judges scoring criteria | secondary | boxing-scoring-explained | unverified |
 | boxing scorecard explained | secondary | boxing-scoring-explained | unverified |
 | boxing scorecard simulation | secondary | mma-boxing-fight-draft-guide | unverified |
@@ -134,16 +200,37 @@ overlap — usually fine, but worth a look for cannibalisation.
 | breath ketone meter | secondary | what-is-a-ketone-reading | unverified |
 | budget draft challenge soccer | secondary | soccer-draft-xi-guide | unverified |
 | build a starting xi game | secondary | soccer-draft-xi-guide | unverified |
+| build variety roguelite | secondary | power-ups-and-build-design | unverified |
 | bullet hell android | secondary | space-shooter-arcade-guide | unverified |
 | bullet hell dodging technique | secondary | bullet-hell-vs-classic-shmup | unverified |
 | bullet hell vs shmup | primary | bullet-hell-vs-classic-shmup | unverified |
+| bullpen roles explained | secondary | baseball-pitching-roles-explained | unverified |
+| calendar reform dates | secondary | how-calendars-and-dating-systems-work | unverified |
+| calorie calculator accuracy | secondary | tdee-and-energy-balance | unverified |
+| calorie counting accuracy | secondary | why-food-databases-disagree | unverified |
 | cambodian language basics | secondary | learn-khmer-beginners-guide | unverified |
 | can a normal ketone test rule out dka | long-tail | what-is-a-ketone-reading | unverified |
+| can a source be both primary and secondary | long-tail | primary-vs-secondary-sources | unverified |
+| can adults learn tones | long-tail | what-is-a-tonal-language | unverified |
+| can draft picks be traded | long-tail | how-football-draft-order-works | unverified |
 | can i learn thai without learning the script | long-tail | learn-thai-script-beginners-guide | unverified |
+| can lao speakers understand thai | secondary | lao-vs-thai-differences | unverified |
 | can malaysians understand indonesians | long-tail | malay-vs-indonesian-differences | unverified |
 | can mandarin speakers understand cantonese | long-tail | cantonese-vs-mandarin-differences | unverified |
+| can shadowing reinforce bad habits | long-tail | shadowing-technique-explained | unverified |
+| can thai speakers understand lao | long-tail | lao-vs-thai-differences | unverified |
+| can the body only use 30g of protein per meal | long-tail | protein-per-meal-explained | unverified |
+| can you avoid injuries in a sports game | long-tail | injuries-in-sports-career-games | unverified |
+| can you be offside from a throw in | long-tail | how-the-offside-rule-works | unverified |
+| can you change lines after icing | long-tail | what-is-icing-in-hockey | unverified |
+| can you learn a language on your own | long-tail | learning-a-language-without-a-teacher | unverified |
 | can you learn cantonese without learning characters | long-tail | learn-cantonese-beginners-guide | unverified |
 | can you learn thai without the script | long-tail | is-thai-hard-to-learn | unverified |
+| can you learn vietnamese without learning tones | long-tail | is-vietnamese-hard-to-learn | unverified |
+| can you play as a goalie in a hockey career game | long-tail | hockey-career-sim-guide | unverified |
+| can you play as a goalie in a hockey game | long-tail | hockey-goaltending-explained | unverified |
+| can you play as a goalkeeper in a soccer career sim | long-tail | soccer-career-sim-guide | unverified |
+| can you play as a pitcher in a baseball career game | long-tail | baseball-career-sim-guide | unverified |
 | cantonese and mandarin mutual intelligibility | secondary | cantonese-vs-mandarin-differences | unverified |
 | cantonese app for beginners | secondary | learn-cantonese-beginners-guide | unverified |
 | cantonese checked tones | secondary | cantonese-tones-explained | unverified |
@@ -154,34 +241,80 @@ overlap — usually fine, but worth a look for cannibalisation.
 | cantonese vs mandarin | primary | cantonese-vs-mandarin-differences, learn-cantonese-beginners-guide | unverified |
 | carb manager alternative | secondary | low-carb-tracking-apps-compared | unverified |
 | carb manager vs cronometer | comparison | low-carb-tracking-apps-compared | unverified |
+| carbohydrate quality | secondary | glycemic-index-and-load | unverified |
+| carbohydrate withdrawal | secondary | keto-flu-explained | unverified |
+| career mode explained | secondary | how-player-career-modes-work | unverified |
+| career mode not starting | secondary | coach-trust-and-playing-time | unverified |
+| career mode progression system | secondary | how-player-career-modes-work | unverified |
+| career mode recovery | secondary | injuries-in-sports-career-games | unverified |
 | career mode vs franchise mode | primary | career-mode-vs-franchise-mode | unverified |
+| career mode vs manager mode | primary | career-sim-vs-manager-game | unverified |
+| career sim session length | secondary | how-to-choose-a-sports-career-sim | unverified |
 | career sim that works offline android | long-tail | basketball-career-sim-guide | unverified |
+| career simulator comparison | secondary | how-to-choose-a-sports-career-sim | unverified |
 | casting out nines check | secondary | mental-math-training-guide | unverified |
+| cefr italian levels | secondary | how-long-to-learn-italian | unverified |
+| cefr levels explained | primary | cefr-levels-explained | unverified |
 | cefr russian levels | secondary | how-long-does-it-take-to-learn-russian | unverified |
+| cefr vs actfl | secondary | cefr-levels-explained | unverified |
+| cel shading anime | secondary | anime-art-styles-explained | unverified |
 | cel shading vs soft shading | secondary | digital-coloring-techniques | unverified |
+| changing container without re-encoding | secondary | remuxing-vs-transcoding | unverified |
+| cheapest sources of protein | long-tail | how-to-hit-a-protein-goal | unverified |
 | chroma subsampling explained | secondary | video-codecs-explained | unverified |
+| chu quoc ngu | secondary | vietnamese-alphabet-explained | unverified |
+| chunking memory | secondary | memory-techniques-that-work | unverified |
 | chunking memory technique | secondary | working-memory-and-training | unverified |
 | classic shoot em up design | secondary | bullet-hell-vs-classic-shmup | unverified |
+| clean sheet meaning soccer | secondary | clean-sheets-explained | unverified |
+| cleanup hitter meaning | secondary | batting-order-strategy-explained | unverified |
+| coach trust explained | secondary | coach-trust-and-playing-time | unverified |
+| codec profile support | secondary | hardware-vs-software-decoding | unverified |
+| collected vs shared data | secondary | google-play-data-safety-explained | unverified |
 | color theory for beginners | primary | color-theory-for-beginners | unverified |
 | color wheel explained | secondary | color-theory-for-beginners | unverified |
 | coloring app no account | secondary | anime-coloring-app-guide | unverified |
 | coloring app that saves your progress | long-tail | anime-coloring-app-guide | unverified |
 | coloring app tips | secondary | digital-coloring-techniques | unverified |
+| colour harmony practice | secondary | color-palettes-for-anime-art | unverified |
+| colouring order of operations | secondary | line-art-and-flats-explained | unverified |
 | combat sports gm game | secondary | mma-boxing-fight-draft-guide | unverified |
+| common era meaning | secondary | bce-and-ce-explained | unverified |
+| common letter patterns | secondary | word-game-strategy-guide | unverified |
+| compatible numbers | secondary | estimation-techniques-explained | unverified |
+| compensatory picks | secondary | how-football-draft-order-works | unverified |
+| competitive window | secondary | rebuild-vs-retool | unverified |
 | complementary color scheme | secondary | color-theory-for-beginners | unverified |
+| complete protein | primary | complete-vs-incomplete-proteins | unverified |
 | complete protein foods | secondary | protein-sources-compared | unverified |
+| comprehensible input | primary | comprehensible-input-explained | unverified |
+| consistency over intensity | secondary | building-a-daily-practice-habit | unverified |
 | container vs codec explained | secondary | android-video-player-guide | unverified |
+| continuous vs wave escalation | secondary | horde-survival-vs-wave-shooter | unverified |
+| contract length football | secondary | transfers-and-contracts-explained | unverified |
+| contract year performance | secondary | free-agency-explained | unverified |
 | convert miles to kilometers in your head | secondary | mental-math-tricks-that-work | unverified |
+| course management game | secondary | golf-career-sim-guide | unverified |
 | create a player basketball game | secondary | basketball-career-sim-guide | unverified |
 | cronometer vs myfitnesspal | secondary | protein-tracking-apps-compared | unverified |
+| crowd sourced food data | secondary | why-food-databases-disagree | unverified |
 | cyrillic false friends | secondary | learn-russian-cyrillic-beginners-guide | unverified |
 | daily anime challenge | secondary | anime-trivia-quiz-guide | unverified |
+| daily practice routine | secondary | building-a-daily-practice-habit | unverified |
 | daily protein intake calculator | secondary | how-to-track-protein-intake | unverified |
+| daily value added sugars | secondary | added-sugars-vs-total-sugars | unverified |
 | danmaku explained | secondary | bullet-hell-vs-classic-shmup | unverified |
 | danmaku origins | secondary | history-of-shoot-em-up-games | unverified |
+| data safety section meaning | secondary | google-play-data-safety-explained | unverified |
 | dead money contracts | secondary | salary-cap-basics-for-gm-games | unverified |
+| defensive leverage explained | secondary | reading-a-defense-basics | unverified |
 | defensive positions in football | secondary | football-positions-explained-for-drafting | unverified |
+| defensive record football | secondary | clean-sheets-explained | unverified |
 | dendrochronology tree ring dating | secondary | how-historians-date-events | unverified |
+| depth chart career mode | secondary | coach-trust-and-playing-time | unverified |
+| depth chart explained | primary | depth-charts-explained | unverified |
+| designated hitter and pitcher | secondary | two-way-players-explained | unverified |
+| dictation practice language | secondary | listening-practice-in-a-new-language | unverified |
 | difference between 3-5-2 and 5-3-2 | long-tail | soccer-formations-explained | unverified |
 | difference between a guard and a tackle in football | long-tail | football-positions-explained-for-drafting | unverified |
 | difference between batting average and on base percentage | long-tail | baseball-stats-explained-for-beginners | unverified |
@@ -196,9 +329,13 @@ overlap — usually fine, but worth a look for cannibalisation.
 | difference between time restricted eating and alternate day fasting | long-tail | intermittent-fasting-windows-explained | unverified |
 | difference between welterweight and super welterweight mma | long-tail | mma-weight-classes-explained | unverified |
 | difference between working memory and short term memory | long-tail | working-memory-and-training | unverified |
+| difference of squares mental math | secondary | multiplication-shortcuts-explained | unverified |
+| difficulty curve game design | primary | difficulty-curves-explained | unverified |
 | difficulty escalation curve | secondary | wave-survival-game-design | unverified |
 | digital coloring book app | secondary | anime-coloring-app-guide | unverified |
 | digital coloring techniques | primary | digital-coloring-techniques | unverified |
+| digital colouring stages | secondary | line-art-and-flats-explained | unverified |
+| discount calculation in your head | secondary | percentages-in-your-head | unverified |
 | divisibility rule for 7 | secondary | mental-math-tricks-that-work | unverified |
 | do ad supported games work in airplane mode | long-tail | best-offline-sports-games-android | unverified |
 | do basketball positions still matter | long-tail | basketball-positions-explained | unverified |
@@ -207,59 +344,136 @@ overlap — usually fine, but worth a look for cannibalisation.
 | do i need a barcode scanner to track protein | long-tail | protein-tracking-apps-compared | unverified |
 | do i need a player that streams from a nas | long-tail | android-video-players-compared | unverified |
 | do i need to combine plant proteins at every meal | long-tail | protein-sources-compared | unverified |
+| do i need to learn all italian tenses | long-tail | italian-verb-conjugation-basics | unverified |
 | do i need to learn jawi to read malay | long-tail | learn-malay-beginners-guide | unverified |
+| do i need to learn vietnamese tones first | long-tail | learn-vietnamese-beginners-guide | unverified |
 | do keto apps subtract erythritol and allulose | long-tail | low-carb-tracking-apps-compared | unverified |
+| do manager games have more replay value | long-tail | career-sim-vs-manager-game | unverified |
+| do memory techniques improve general memory | long-tail | memory-techniques-that-work | unverified |
 | do offline games still show ads | long-tail | sports-gm-games-without-internet | unverified |
+| do older adults need more protein | long-tail | protein-for-older-adults | unverified |
 | do rewarded ads work without a connection | long-tail | best-offline-arcade-games-android | unverified |
+| do southern and northern vietnamese have different tones | long-tail | vietnamese-tones-explained | unverified |
 | do sports sims simulate every play | long-tail | how-sports-simulation-engines-work | unverified |
-| do sugar alcohols count as carbs | secondary | net-carbs-explained-keto-tracking | unverified |
+| do streaks actually help | long-tail | building-a-daily-practice-habit | unverified |
+| do sugar alcohols count as carbs | secondary | net-carbs-explained-keto-tracking, sugar-alcohols-explained | unverified |
+| do vegetarians need more protein | long-tail | plant-vs-animal-protein | unverified |
 | do you need perfect pitch to learn cantonese | long-tail | cantonese-tones-explained | unverified |
+| do you need to combine proteins at every meal | long-tail | complete-vs-incomplete-proteins | unverified |
 | do you subtract erythritol from carbs | long-tail | net-carbs-explained-keto-tracking | unverified |
 | does a different player fix a video that will not play | long-tail | android-video-players-compared | unverified |
+| does a goalkeeper get a clean sheet if substituted | long-tail | clean-sheets-explained | unverified |
 | does a knockdown automatically mean a 10-8 round | long-tail | boxing-scoring-explained | unverified |
+| does a lottery stop tanking | long-tail | how-draft-lotteries-work | unverified |
+| does a power play end when a goal is scored | long-tail | power-play-and-penalty-kill | unverified |
 | does a roguelike have to be turn based | long-tail | what-makes-a-roguelike | unverified |
 | does android support av1 playback | long-tail | android-video-player-guide | unverified |
+| does batting order actually matter | long-tail | batting-order-strategy-explained | unverified |
 | does brain training actually work | long-tail | mental-math-training-guide | unverified |
 | does brain training work | secondary | working-memory-and-training | unverified |
 | does cantonese have six or nine tones | long-tail | cantonese-tones-explained | unverified |
+| does clock management matter in a football simulation | long-tail | football-career-sim-guide | unverified |
+| does consistency matter more than big performances | long-tail | coach-trust-and-playing-time | unverified |
+| does cooking change glycemic index | long-tail | glycemic-index-and-load | unverified |
+| does denying a permission break an app | long-tail | android-app-permissions-explained | unverified |
 | does draft position matter in a snake draft | long-tail | how-fantasy-draft-strategy-works | unverified |
 | does duolingo have cantonese khmer or malay | long-tail | language-learning-apps-compared | unverified |
 | does fiber count as a carb | secondary | net-carbs-explained-keto-tracking | unverified |
+| does flac sound better than aac | long-tail | audio-codecs-explained | unverified |
+| does goal difference reward running up the score | long-tail | goal-difference-and-tiebreakers | unverified |
 | does higher bitrate always mean better quality | long-tail | video-codecs-explained | unverified |
+| does higher resolution always mean better quality | long-tail | frame-rate-and-resolution-explained | unverified |
+| does honey count as added sugar | long-tail | added-sugars-vs-total-sugars | unverified |
+| does input alone teach a language | long-tail | comprehensible-input-explained | unverified |
+| does lowering brightness save battery while gaming | long-tail | battery-and-performance-in-mobile-games | unverified |
+| does missing the cut cost ranking points | long-tail | how-a-golf-cut-works | unverified |
+| does my android phone support av1 | long-tail | av1-on-android-explained | unverified |
+| does passive listening work for language learning | long-tail | listening-practice-in-a-new-language | unverified |
+| does protein distribution matter | long-tail | protein-per-meal-explained | unverified |
+| does quarterback archetype change gameplay | long-tail | quarterback-archetypes-explained | unverified |
+| does remuxing lose quality | long-tail | remuxing-vs-transcoding | unverified |
+| does shadowing improve pronunciation | long-tail | shadowing-technique-explained | unverified |
 | does spaced repetition actually work for languages | long-tail | spaced-repetition-for-language-learning | unverified |
 | does the eating window matter more than what you eat | long-tail | intermittent-fasting-windows-explained | unverified |
+| does the memory palace technique work | long-tail | memory-techniques-that-work | unverified |
+| does upscaling improve video quality | long-tail | frame-rate-and-resolution-explained | unverified |
+| does whip include hit by pitch | long-tail | what-is-whip-in-baseball | unverified |
 | does working memory training improve intelligence | long-tail | working-memory-and-training | unverified |
 | double round robin schedule | secondary | how-soccer-league-tables-work | unverified |
+| doubling and halving | secondary | multiplication-shortcuts-explained | unverified |
 | draft a stable of fighters game | long-tail | mma-boxing-fight-draft-guide | unverified |
 | draft board tiers | secondary | what-makes-a-good-draft-board | unverified |
 | draft board vs rankings | secondary | what-makes-a-good-draft-board | unverified |
+| draft order randomisation | secondary | how-draft-lotteries-work | unverified |
 | draft order reversal | secondary | snake-draft-vs-auction-draft | unverified |
+| draft order tiebreaker | secondary | how-football-draft-order-works | unverified |
+| draft pick trades explained | secondary | how-football-draft-order-works | unverified |
 | draft pick value | secondary | how-fantasy-draft-strategy-works | unverified |
 | draft preparation checklist | secondary | what-makes-a-good-draft-board | unverified |
+| draft round structure | secondary | how-football-draft-order-works | unverified |
 | draft simulator app | secondary | best-sports-manager-games-for-short-sessions | unverified |
 | draft strategy tiers | secondary | how-fantasy-draft-strategy-works | unverified |
 | dual column nutrition label | secondary | reading-nutrition-labels | unverified |
+| dual threat quarterback | secondary | quarterback-archetypes-explained | unverified |
 | duolingo alternative for cantonese | secondary | language-learning-apps-compared | unverified |
 | duolingo vs memrise for rare languages | comparison | language-learning-apps-compared | unverified |
+| dynamic difficulty adjustment | secondary | difficulty-curves-explained | unverified |
+| earned run average calculation | secondary | what-is-era-in-baseball | unverified |
+| earned vs unearned runs | secondary | what-is-era-in-baseball | unverified |
+| electrolyte tracking | secondary | electrolytes-on-low-carb | unverified |
+| electrolytes on keto | primary | electrolytes-on-low-carb | unverified |
+| embedded vs external subtitles | secondary | subtitle-formats-explained | unverified |
 | endless mode arcade game | secondary | space-shooter-arcade-guide | unverified |
+| endless mode design | secondary | difficulty-curves-explained | unverified |
 | endless mode games | secondary | wave-survival-game-design | unverified |
+| endless mode scoring | secondary | score-attack-strategy | unverified |
 | enemy spawn design | secondary | wave-survival-game-design | unverified |
+| energy balance | secondary | tdee-and-energy-balance | unverified |
+| era formula baseball | secondary | what-is-era-in-baseball | unverified |
+| era limitations | secondary | what-is-era-in-baseball | unverified |
 | eras of world history explained | primary | major-eras-of-world-history | unverified |
+| erythritol vs maltitol | secondary | sugar-alcohols-explained | unverified |
+| essential amino acids | secondary | complete-vs-incomplete-proteins | unverified |
 | essential amino acids list | secondary | protein-sources-compared | unverified |
+| essere avere conjugation | secondary | italian-verb-conjugation-basics | unverified |
 | estimate square root mentally | secondary | mental-math-tricks-that-work | unverified |
+| estimation techniques math | primary | estimation-techniques-explained | unverified |
+| evaluating historical sources | secondary | primary-vs-secondary-sources | unverified |
 | event level vs outcome level simulation | secondary | how-sports-simulation-engines-work | unverified |
+| expansion draft explained | primary | expansion-drafts-explained | unverified |
+| expansion team roster | secondary | expansion-drafts-explained | unverified |
+| extensive reading second language | secondary | comprehensible-input-explained | unverified |
+| fair difficulty games | secondary | difficulty-curves-explained | unverified |
+| fair vs unfair questions | secondary | how-quiz-difficulty-works | unverified |
+| false nine meaning | secondary | soccer-positions-explained | unverified |
 | fantasy basketball draft simulator | secondary | basketball-draft-gm-guide | unverified |
 | fantasy draft strategy | primary | how-fantasy-draft-strategy-works | unverified |
 | fantasy fight booking game | secondary | mma-boxing-fight-draft-guide | unverified |
 | fantasy football draft simulator offline | secondary | football-draft-gm-guide | unverified |
+| fast multiplication methods | secondary | multiplication-shortcuts-explained | unverified |
 | fast multiplication tricks | secondary | mental-math-tricks-that-work | unverified |
 | fastest way to calculate percentages mentally | long-tail | mental-math-training-guide | unverified |
 | fat protein carb percentages | secondary | keto-macros-explained | unverified |
+| fatigue management sports game | secondary | injuries-in-sports-career-games | unverified |
+| field general quarterback | secondary | quarterback-archetypes-explained | unverified |
 | fielding percentage formula | secondary | baseball-stats-explained-for-beginners | unverified |
 | fight draft game offline | secondary | mma-boxing-fight-draft-guide | unverified |
+| five on four hockey | secondary | power-play-and-penalty-kill | unverified |
+| fix video that wont play | secondary | remuxing-vs-transcoding | unverified |
+| flac lossless audio | secondary | audio-codecs-explained | unverified |
 | flashcards for language learning | secondary | spaced-repetition-for-language-learning | unverified |
 | flat colors then shading | secondary | digital-coloring-techniques | unverified |
+| flattened lottery odds | secondary | how-draft-lotteries-work | unverified |
+| flatting comics | secondary | line-art-and-flats-explained | unverified |
+| fluid balance ketogenic diet | secondary | electrolytes-on-low-carb | unverified |
+| food database accuracy | primary | why-food-databases-disagree | unverified |
+| food label tolerance | secondary | why-food-databases-disagree | unverified |
 | food logging app comparison | secondary | protein-tracking-apps-compared | unverified |
+| football career mode offline | secondary | football-career-sim-guide | unverified |
+| football career progression game | secondary | soccer-career-sim-guide | unverified |
+| football career sim android | secondary | soccer-career-sim-guide | unverified |
+| football career sim game | primary | football-career-sim-guide | unverified |
+| football career simulator | secondary | football-career-sim-guide | unverified |
 | football draft board | secondary | what-makes-a-good-draft-board | unverified |
 | football draft game android | secondary | soccer-draft-xi-guide | unverified |
 | football draft game with no refreshes | long-tail | football-draft-gm-guide | unverified |
@@ -269,9 +483,16 @@ overlap — usually fine, but worth a look for cannibalisation.
 | football gm game android | secondary | football-draft-gm-guide | unverified |
 | football position abbreviations | secondary | football-positions-explained-for-drafting | unverified |
 | football positions explained | primary | football-positions-explained-for-drafting | unverified |
+| football positions guide | secondary | soccer-positions-explained | unverified |
 | football roster builder app | secondary | football-draft-gm-guide | unverified |
+| frame rate and resolution explained | primary | frame-rate-and-resolution-explained | unverified |
+| frame rate mobile games | secondary | battery-and-performance-in-mobile-games | unverified |
+| free agency explained | primary | free-agency-explained | unverified |
+| free agency football | secondary | transfers-and-contracts-explained | unverified |
+| free agent signing strategy | secondary | free-agency-explained | unverified |
 | free anime coloring app for android | long-tail | anime-coloring-app-guide | unverified |
 | free anime trivia game | secondary | anime-trivia-quiz-guide | unverified |
+| free app business model | secondary | why-free-android-games-show-ads | unverified |
 | free coloring app android | secondary | anime-coloring-app-guide | unverified |
 | free football squad building game no wifi | long-tail | soccer-draft-xi-guide | unverified |
 | free hockey manager game for android | long-tail | hockey-draft-gm-guide | unverified |
@@ -280,53 +501,121 @@ overlap — usually fine, but worth a look for cannibalisation.
 | free primary source archives online | long-tail | world-history-timeline-guide | unverified |
 | free vs paid macro tracker | comparison | protein-tracking-apps-compared | unverified |
 | free zombie survival game android | secondary | zombie-survival-roguelike-guide | unverified |
+| front end estimation | secondary | estimation-techniques-explained | unverified |
 | front office sports game | secondary | career-mode-vs-franchise-mode | unverified |
 | fsi russian hours | secondary | how-long-does-it-take-to-learn-russian | unverified |
+| full back vs wing back | secondary | soccer-positions-explained | unverified |
 | full list of mma weight classes with limits | long-tail | mma-weight-classes-explained | unverified |
 | games for a commute | secondary | best-sports-manager-games-for-short-sessions | unverified |
 | games that still work on a plane android | long-tail | best-offline-arcade-games-android | unverified |
 | games that work on a plane | secondary | sports-gm-games-without-internet | unverified |
+| gi vs gl | secondary | glycemic-index-and-load | unverified |
 | gki glucose ketone index | secondary | what-is-a-ketone-reading | unverified |
+| glycemic index explained | primary | glycemic-index-and-load | unverified |
+| glycemic load meaning | secondary | glycemic-index-and-load | unverified |
 | gm mode vs my career | secondary | career-mode-vs-franchise-mode | unverified |
 | goal difference tie breaker | secondary | how-soccer-league-tables-work | unverified |
+| goal difference tiebreaker | primary | goal-difference-and-tiebreakers | unverified |
+| goalie angles and depth | secondary | hockey-goaltending-explained | unverified |
+| goalie career mode | secondary | hockey-career-sim-guide, hockey-goaltending-explained | unverified |
+| goalkeeper career mode | secondary | soccer-career-sim-guide | unverified |
+| goalkeeper clean sheets | secondary | clean-sheets-explained | unverified |
+| goals conceded stat | secondary | clean-sheets-explained | unverified |
+| goals scored tiebreaker | secondary | goal-difference-and-tiebreakers | unverified |
+| goaltender role hockey | secondary | hockey-goaltending-explained | unverified |
+| golf career game | primary | golf-career-sim-guide | unverified |
+| golf career simulator android | secondary | golf-career-sim-guide | unverified |
+| golf course management strategy | primary | golf-course-management-basics | unverified |
+| golf cut line explained | secondary | how-a-golf-cut-works | unverified |
+| golf decision making | secondary | golf-course-management-basics | unverified |
+| golf simulation career mode | secondary | golf-career-sim-guide | unverified |
+| golf strategy for beginners | secondary | golf-course-management-basics | unverified |
+| golf strategy game no swing meter | secondary | golf-career-sim-guide | unverified |
+| golf tour season game | secondary | golf-career-sim-guide | unverified |
+| golf tournament format | secondary | how-a-golf-cut-works | unverified |
+| golf tournament scoring | secondary | golf-scoring-explained | unverified |
+| good era baseball | secondary | what-is-era-in-baseball | unverified |
 | good source of protein label claim | secondary | protein-sources-compared | unverified |
+| good whip pitcher | secondary | what-is-whip-in-baseball | unverified |
+| google play ads policy | secondary | why-free-android-games-show-ads | unverified |
+| google play data safety | primary | google-play-data-safety-explained | unverified |
 | google play data safety section | secondary | best-offline-arcade-games-android, best-offline-sports-games-android | unverified |
+| graded readers | secondary | comprehensible-input-explained | unverified |
 | grams of protein per day | secondary | how-much-protein-per-day | unverified |
 | grams vs percentage macros | secondary | keto-macros-explained | unverified |
 | h264 vs h265 | secondary | video-codecs-explained | unverified |
 | h265 hevc android support | secondary | android-video-player-guide | unverified |
+| habit stacking study | secondary | building-a-daily-practice-habit | unverified |
 | hard cap vs soft cap | secondary | salary-cap-basics-for-gm-games | unverified |
 | hardest part of learning thai | secondary | is-thai-hard-to-learn | unverified |
+| hardest part of vietnamese | secondary | is-vietnamese-hard-to-learn | unverified |
+| hardware acceleration video | secondary | hardware-vs-software-decoding | unverified |
+| hardware vs software decoding | primary | hardware-vs-software-decoding | unverified |
+| head to head record | secondary | goal-difference-and-tiebreakers | unverified |
 | high protein foods list | primary | protein-sources-compared | unverified |
+| high protein meals planning | secondary | how-to-hit-a-protein-goal | unverified |
+| high score arcade tips | secondary | score-attack-strategy | unverified |
+| historical dating notation | secondary | bce-and-ce-explained | unverified |
 | historical periods in order | secondary | major-eras-of-world-history | unverified |
 | history app for android | secondary | world-history-timeline-guide | unverified |
 | history of arcade shooters | secondary | history-of-shoot-em-up-games | unverified |
 | history of shoot em up games | primary | history-of-shoot-em-up-games | unverified |
 | history quiz app free | secondary | world-history-timeline-guide | unverified |
+| hockey career mode android | secondary | hockey-career-sim-guide | unverified |
+| hockey career progression | secondary | hockey-career-sim-guide | unverified |
+| hockey career sim game | primary | hockey-career-sim-guide | unverified |
 | hockey defence pairs explained | secondary | hockey-line-combinations-explained | unverified |
 | hockey defenceman role | secondary | hockey-positions-explained | unverified |
 | hockey draft game offline | secondary | hockey-draft-gm-guide | unverified |
 | hockey draft game with no refreshes | long-tail | hockey-draft-gm-guide | unverified |
 | hockey draft simulator app | primary | hockey-draft-gm-guide | unverified |
+| hockey faceoff after icing | secondary | what-is-icing-in-hockey | unverified |
 | hockey franchise manager mobile | secondary | hockey-draft-gm-guide | unverified |
 | hockey gm game android | secondary | hockey-draft-gm-guide | unverified |
 | hockey goalie explained | secondary | hockey-positions-explained | unverified |
+| hockey goalie position explained | primary | hockey-goaltending-explained | unverified |
 | hockey line combinations | primary | hockey-line-combinations-explained | unverified |
 | hockey lineup simulator | secondary | hockey-draft-gm-guide | unverified |
+| hockey minor penalty | secondary | power-play-and-penalty-kill | unverified |
+| hockey netminder basics | secondary | hockey-goaltending-explained | unverified |
+| hockey penalty types | secondary | power-play-and-penalty-kill | unverified |
+| hockey player simulator | secondary | hockey-career-sim-guide | unverified |
 | hockey positions explained | primary | hockey-positions-explained | unverified |
 | hockey power play units | secondary | hockey-line-combinations-explained | unverified |
+| hockey stats explained | secondary | plus-minus-and-hockey-stats | unverified |
 | horde mode design | secondary | wave-survival-game-design | unverified |
 | horde survival game android | secondary | zombie-survival-roguelike-guide | unverified |
+| horde survival games | primary | horde-survival-vs-wave-shooter | unverified |
+| hours to learn italian | secondary | how-long-to-learn-italian | unverified |
+| how a batting order works | primary | batting-order-strategy-explained | unverified |
+| how a power play works | primary | power-play-and-penalty-kill | unverified |
 | how accurate are ancient historical dates | long-tail | how-historians-date-events | unverified |
+| how accurate are nutrition labels | long-tail | why-food-databases-disagree | unverified |
+| how accurate are tdee calculators | long-tail | tdee-and-energy-balance | unverified |
 | how are boxing decisions simulated | long-tail | mma-boxing-fight-draft-guide | unverified |
 | how are boxing rounds scored | secondary | boxing-scoring-explained | unverified |
 | how are calories calculated on a nutrition label | long-tail | reading-nutrition-labels | unverified |
+| how are clean sheets counted in a season | long-tail | clean-sheets-explained | unverified |
+| how are draft order ties broken | long-tail | how-football-draft-order-works | unverified |
 | how are hockey defence pairs put together | long-tail | hockey-line-combinations-explained | unverified |
+| how are lottery combinations drawn | long-tail | how-draft-lotteries-work | unverified |
 | how boxing scoring works | primary | boxing-scoring-explained | unverified |
+| how calendar systems work | primary | how-calendars-and-dating-systems-work | unverified |
+| how centuries are counted | secondary | bce-and-ce-explained | unverified |
 | how contracts work in gm games | secondary | salary-cap-basics-for-gm-games | unverified |
 | how did bullet hell games start | long-tail | history-of-shoot-em-up-games | unverified |
+| how different are the lao and thai scripts | long-tail | lao-vs-thai-differences | unverified |
+| how difficult should learning material be | long-tail | comprehensible-input-explained | unverified |
 | how do archaeologists know how old something is | long-tail | how-historians-date-events | unverified |
+| how do audibles work in a football career sim | long-tail | football-career-sim-guide | unverified |
 | how do auto shooter games work | long-tail | zombie-survival-roguelike-guide | unverified |
+| how do career modes decide playing time | long-tail | how-player-career-modes-work | unverified |
+| how do cuts work in a golf career game | long-tail | golf-career-sim-guide | unverified |
+| how do depth charts differ between sports | long-tail | depth-charts-explained | unverified |
+| how do draft lotteries work | primary | how-draft-lotteries-work | unverified |
+| how do endless modes scale difficulty | long-tail | difficulty-curves-explained | unverified |
+| how do free android games make money | long-tail | why-free-android-games-show-ads | unverified |
+| how do goalies develop differently | long-tail | hockey-goaltending-explained | unverified |
 | how do horde modes scale difficulty | long-tail | wave-survival-game-design | unverified |
 | how do i change container without re encoding | long-tail | video-file-formats-explained | unverified |
 | how do i check if an android game works without internet | long-tail | best-offline-sports-games-android | unverified |
@@ -334,75 +623,183 @@ overlap — usually fine, but worth a look for cannibalisation.
 | how do i know which russian case to use | long-tail | russian-cases-explained-for-beginners | unverified |
 | how do i pick colors that go together | long-tail | color-theory-for-beginners | unverified |
 | how do i shade without a soft brush | long-tail | digital-coloring-techniques | unverified |
+| how do injuries work in a career mode | long-tail | injuries-in-sports-career-games | unverified |
 | how do khmer vowel signs work | long-tail | khmer-script-explained | unverified |
+| how do lao vowels work | long-tail | lao-alphabet-explained | unverified |
+| how do league tables break ties | long-tail | goal-difference-and-tiebreakers | unverified |
+| how do multipliers work in shooters | long-tail | score-attack-strategy | unverified |
+| how do rankings work in a golf career simulator | long-tail | golf-career-sim-guide | unverified |
 | how do sim games calculate results | secondary | how-sports-simulation-engines-work | unverified |
+| how do synergies work in roguelites | long-tail | power-ups-and-build-design | unverified |
+| how do you avoid big numbers in golf | long-tail | golf-course-management-basics | unverified |
 | how do you balance a roster in a gm game | long-tail | how-to-build-a-balanced-basketball-roster | unverified |
-| how do you calculate era in baseball | long-tail | baseball-stats-explained-for-beginners | unverified |
+| how do you calculate a discount quickly | long-tail | percentages-in-your-head | unverified |
+| how do you calculate era in baseball | long-tail | baseball-stats-explained-for-beginners, what-is-era-in-baseball | unverified |
+| how do you calculate whip | long-tail | what-is-whip-in-baseball | unverified |
+| how do you calculate years across bce and ce | long-tail | bce-and-ce-explained | unverified |
+| how do you change a video container without re-encoding | long-tail | remuxing-vs-transcoding | unverified |
+| how do you check if an answer is reasonable | long-tail | estimation-techniques-explained | unverified |
+| how do you check what an app collects before installing | long-tail | google-play-data-safety-explained | unverified |
+| how do you choose a vietnamese pronoun | long-tail | vietnamese-pronouns-explained | unverified |
+| how do you compare players on different teams | long-tail | basketball-advanced-stats-explained | unverified |
+| how do you convert a label serving to your portion | long-tail | serving-size-vs-portion-size | unverified |
 | how do you convert macro percentages into grams | long-tail | keto-macros-explained | unverified |
 | how do you decide how much of the cap to spend on one player | long-tail | salary-cap-basics-for-gm-games | unverified |
+| how do you estimate a total in your head | long-tail | estimation-techniques-explained | unverified |
+| how do you evaluate a historical source | long-tail | primary-vs-secondary-sources | unverified |
+| how do you fix a thin roster | long-tail | depth-charts-explained | unverified |
+| how do you fix gaps in line art | long-tail | line-art-and-flats-explained | unverified |
+| how do you get a higher score in arcade games | long-tail | score-attack-strategy | unverified |
+| how do you get better at word games | long-tail | word-game-strategy-guide | unverified |
+| how do you get into the starting xi in a career game | long-tail | soccer-career-sim-guide | unverified |
+| how do you get speaking practice alone | long-tail | learning-a-language-without-a-teacher | unverified |
+| how do you improve frame rate on android games | long-tail | battery-and-performance-in-mobile-games | unverified |
 | how do you judge a goaltender in a draft | long-tail | hockey-positions-explained | unverified |
+| how do you keep a study habit going | long-tail | building-a-daily-practice-habit | unverified |
+| how do you know if an italian noun is masculine | long-tail | italian-articles-and-gender | unverified |
+| how do you know when to rebuild | long-tail | rebuild-vs-retool | unverified |
+| how do you learn a boss pattern quickly | long-tail | boss-pattern-recognition | unverified |
+| how do you learn to hear word boundaries | long-tail | listening-practice-in-a-new-language | unverified |
+| how do you multiply two digit numbers in your head | long-tail | multiplication-shortcuts-explained | unverified |
+| how do you pick colours that work together | long-tail | color-palettes-for-anime-art | unverified |
+| how do you practise shadowing | long-tail | shadowing-technique-explained | unverified |
+| how do you practise vietnamese tones alone | long-tail | vietnamese-tones-explained | unverified |
 | how do you pronounce the letter e in malay | long-tail | malay-pronunciation-guide | unverified |
 | how do you read a soccer formation number | long-tail | soccer-formations-explained | unverified |
+| how do you remember a list of things | long-tail | memory-techniques-that-work | unverified |
+| how do you see what permissions an app has | long-tail | android-app-permissions-explained | unverified |
+| how do you start learning lao | long-tail | learn-lao-beginners-guide | unverified |
+| how do you tell if av1 is hardware decoded | long-tail | av1-on-android-explained | unverified |
+| how do you tell if video is hardware decoded | long-tail | hardware-vs-software-decoding | unverified |
+| how do you type vietnamese diacritics | long-tail | vietnamese-alphabet-explained | unverified |
+| how do you win the starting job in a football career game | long-tail | football-career-sim-guide | unverified |
+| how do you work out 15 percent in your head | long-tail | percentages-in-your-head | unverified |
+| how does a baseball career sim decide at bats | long-tail | baseball-career-sim-guide | unverified |
 | how does a draft simulator decide the season result | long-tail | basketball-draft-gm-guide | unverified |
 | how does a football season simulator work | long-tail | football-draft-gm-guide | unverified |
 | how does a season simulator decide wins and losses | long-tail | how-sports-simulation-engines-work | unverified |
 | how does a snake draft work | secondary | snake-draft-vs-auction-draft | unverified |
+| how does a two way player affect a roster spot | long-tail | two-way-players-explained | unverified |
 | how does an auction draft work | secondary | snake-draft-vs-auction-draft | unverified |
+| how does an expansion draft work | long-tail | expansion-drafts-explained | unverified |
+| how does coach trust work | long-tail | coach-trust-and-playing-time | unverified |
+| how does deployment affect hockey stats | long-tail | plus-minus-and-hockey-stats | unverified |
+| how does italian adjective agreement work | long-tail | italian-articles-and-gender | unverified |
 | how does the malay affix system work | long-tail | learn-malay-beginners-guide | unverified |
+| how does training work in a hockey career sim | long-tail | hockey-career-sim-guide | unverified |
+| how draft order works | primary | how-football-draft-order-works | unverified |
+| how football transfers work | primary | transfers-and-contracts-explained | unverified |
+| how free agency works | secondary | free-agency-explained | unverified |
+| how golf scoring works | primary | golf-scoring-explained | unverified |
 | how hard is russian to learn | secondary | how-long-does-it-take-to-learn-russian | unverified |
 | how hard is thai for english speakers | secondary | is-thai-hard-to-learn | unverified |
 | how hard is the khmer alphabet to learn | long-tail | learn-khmer-beginners-guide | unverified |
+| how hard is the vietnamese alphabet | long-tail | learn-vietnamese-beginners-guide | unverified |
 | how historians date events | primary | how-historians-date-events | unverified |
 | how important is the goaltender in a hockey sim | long-tail | hockey-draft-gm-guide | unverified |
+| how is a golf tournament total calculated | long-tail | golf-scoring-explained | unverified |
+| how is goal difference calculated | secondary | goal-difference-and-tiebreakers | unverified |
+| how is slugging percentage calculated | long-tail | ops-and-slugging-explained | unverified |
+| how is the cut line decided in golf | long-tail | how-a-golf-cut-works | unverified |
+| how long does a rebuild take | long-tail | rebuild-vs-retool | unverified |
+| how long does each cefr level take | long-tail | cefr-levels-explained | unverified |
+| how long does it take to learn italian | primary | how-long-to-learn-italian | unverified |
 | how long does it take to learn the cyrillic alphabet | long-tail | learn-russian-cyrillic-beginners-guide | unverified |
 | how long does it take to learn the thai alphabet | long-tail | learn-thai-script-beginners-guide | unverified |
+| how long does it take to read lao script | long-tail | learn-lao-beginners-guide | unverified |
+| how long does keto flu last | long-tail | keto-flu-explained | unverified |
+| how long is a career in baseball career sim | long-tail | baseball-career-sim-guide | unverified |
+| how long is a minor penalty in hockey | long-tail | power-play-and-penalty-kill | unverified |
+| how long should a daily practice session be | long-tail | building-a-daily-practice-habit | unverified |
 | how long to learn russian | primary | how-long-does-it-take-to-learn-russian | unverified |
 | how long to learn thai | secondary | is-thai-hard-to-learn | unverified |
 | how long to learn the cyrillic alphabet | long-tail | how-long-does-it-take-to-learn-russian | unverified |
+| how long to learn vietnamese | secondary | is-vietnamese-hard-to-learn | unverified |
+| how long to reach b1 in italian | long-tail | how-long-to-learn-italian | unverified |
+| how long until i can hold a basic vietnamese conversation | long-tail | learn-vietnamese-beginners-guide | unverified |
+| how long until i can order food in italian | long-tail | learn-italian-beginners-guide | unverified |
+| how many colours should a palette have | long-tail | color-palettes-for-anime-art | unverified |
 | how many games in a 20 team league season | long-tail | how-soccer-league-tables-work | unverified |
 | how many grams of protein per kg of body weight | long-tail | how-to-track-protein-intake | unverified |
 | how many grams of protein per kilogram of body weight | long-tail | how-much-protein-per-day | unverified |
 | how many hours does it take to learn russian | long-tail | how-long-does-it-take-to-learn-russian | unverified |
+| how many hours to become conversational in italian | long-tail | how-long-to-learn-italian | unverified |
 | how many letters are in the khmer alphabet | long-tail | khmer-script-explained | unverified |
+| how many letters are in the lao alphabet | long-tail | lao-alphabet-explained | unverified |
+| how many letters are in the vietnamese alphabet | long-tail | vietnamese-alphabet-explained | unverified |
 | how many letters in the russian alphabet | secondary | learn-russian-cyrillic-beginners-guide | unverified |
 | how many mma weight classes are there | secondary | mma-weight-classes-explained | unverified |
+| how many pitches does a starter throw | long-tail | baseball-pitching-roles-explained | unverified |
+| how many plate appearances does each lineup spot get | long-tail | batting-order-strategy-explained | unverified |
+| how many players can a team protect | long-tail | expansion-drafts-explained | unverified |
 | how many players should be in a basketball rotation | long-tail | how-to-build-a-balanced-basketball-roster | unverified |
 | how many points for a win in soccer | secondary | how-soccer-league-tables-work | unverified |
+| how many safeties tells you the coverage | long-tail | reading-a-defense-basics | unverified |
 | how many simulations to run | secondary | understanding-sports-sim-probability | unverified |
 | how many things can you hold in working memory at once | long-tail | working-memory-and-training | unverified |
 | how many tiers should a draft board have | long-tail | what-makes-a-good-draft-board | unverified |
 | how many times should i run a simulation to compare strategies | long-tail | understanding-sports-sim-probability | unverified |
+| how many tones are there in vietnamese | long-tail | vietnamese-tones-explained | unverified |
 | how many tones does cantonese have | secondary | cantonese-tones-explained, learn-cantonese-beginners-guide | unverified |
 | how many tones does cantonese have compared to mandarin | long-tail | cantonese-vs-mandarin-differences | unverified |
 | how many tones does thai have | secondary | thai-tones-explained | unverified |
+| how many tones does vietnamese have | secondary | vietnamese-tones-explained | unverified |
+| how many words do you need for basic conversation | long-tail | how-many-words-to-be-conversational | unverified |
 | how many words should i review a day | long-tail | spaced-repetition-for-language-learning | unverified |
+| how many words to be fluent | primary | how-many-words-to-be-conversational | unverified |
+| how many words to learn a language | secondary | how-many-words-to-be-conversational | unverified |
+| how much does a backup player matter | long-tail | depth-charts-explained | unverified |
 | how much does season length affect simulated results | long-tail | understanding-sports-sim-probability | unverified |
+| how much grammar do you need for basic italian | long-tail | learn-italian-beginners-guide | unverified |
+| how much listening do you need to learn a language | long-tail | comprehensible-input-explained | unverified |
+| how much protein can you absorb | secondary | protein-per-meal-explained | unverified |
 | how much protein do athletes need per kg | long-tail | how-much-protein-per-day | unverified |
+| how much protein for someone over 65 | long-tail | protein-for-older-adults | unverified |
 | how much protein is in an egg | long-tail | protein-sources-compared | unverified |
 | how much protein on a low carb diet | long-tail | keto-macros-explained | unverified |
 | how much protein per day | primary | how-much-protein-per-day, how-to-track-protein-intake | unverified |
 | how much should i spend on one player in an auction draft | long-tail | snake-draft-vs-auction-draft | unverified |
+| how new teams get players | secondary | expansion-drafts-explained | unverified |
+| how player career mode works | primary | how-player-career-modes-work | unverified |
+| how quiz difficulty works | primary | how-quiz-difficulty-works | unverified |
 | how radiocarbon dating works | secondary | how-historians-date-events | unverified |
+| how should i evaluate a transfer offer in a career game | long-tail | transfers-and-contracts-explained | unverified |
+| how should quiz difficulty increase | long-tail | how-quiz-difficulty-works | unverified |
 | how soccer league tables work | primary | how-soccer-league-tables-work | unverified |
 | how spaced repetition works | secondary | spaced-repetition-for-language-learning | unverified |
 | how sports simulation games work | primary | how-sports-simulation-engines-work | unverified |
 | how to balance scoring and defence in a draft | long-tail | hockey-draft-gm-guide | unverified |
+| how to beat boss patterns | primary | boss-pattern-recognition | unverified |
+| how to break through a language plateau | long-tail | language-learning-plateau | unverified |
 | how to build a balanced starting eleven | long-tail | soccer-draft-xi-guide | unverified |
 | how to build a basketball roster | primary | how-to-build-a-balanced-basketball-roster | unverified |
 | how to build a draft board | primary | what-makes-a-good-draft-board | unverified |
+| how to build a language study routine | long-tail | learning-a-language-without-a-teacher | unverified |
+| how to build a study habit | primary | building-a-daily-practice-habit | unverified |
 | how to calculate keto macros | secondary | keto-macros-explained | unverified |
 | how to calculate net carbs | secondary | net-carbs-explained-keto-tracking | unverified |
 | how to calculate percentages in your head | secondary | mental-math-tricks-that-work | unverified |
+| how to calculate percentages mentally | primary | percentages-in-your-head | unverified |
 | how to check a historical date | secondary | world-history-timeline-guide | unverified |
+| how to check app permissions android | primary | android-app-permissions-explained | unverified |
 | how to check arithmetic without a calculator | long-tail | mental-math-training-guide | unverified |
 | how to choose a color palette | secondary | color-theory-for-beginners | unverified |
 | how to color anime hair digitally | long-tail | anime-coloring-app-guide | unverified |
 | how to compare pitchers by era and whip | long-tail | baseball-draft-gm-guide | unverified |
 | how to dodge bullet patterns | secondary | space-shooter-arcade-guide | unverified |
+| how to estimate quickly | secondary | estimation-techniques-explained | unverified |
 | how to fix a muddy looking colored page | long-tail | digital-coloring-techniques | unverified |
 | how to get better at bullet hell games | long-tail | space-shooter-arcade-guide | unverified |
 | how to get better at trivia games | long-tail | anime-trivia-quiz-guide | unverified |
+| how to get more playing time in career mode | primary | coach-trust-and-playing-time | unverified |
+| how to get more protein without supplements | long-tail | how-to-hit-a-protein-goal | unverified |
+| how to hit protein goals | primary | how-to-hit-a-protein-goal | unverified |
+| how to hit protein goals as a vegetarian | long-tail | how-to-hit-a-protein-goal | unverified |
+| how to improve listening in a foreign language | primary | listening-practice-in-a-new-language | unverified |
+| how to learn a language alone | primary | learning-a-language-without-a-teacher | unverified |
 | how to learn russian cases | secondary | russian-cases-explained-for-beginners | unverified |
+| how to measure language progress | secondary | cefr-levels-explained | unverified |
+| how to measure portions | secondary | serving-size-vs-portion-size | unverified |
 | how to multiply in your head | secondary | mental-math-training-guide | unverified |
 | how to multiply two digit numbers in your head | long-tail | mental-math-training-guide | unverified |
 | how to multiply two numbers close to 100 in your head | long-tail | mental-math-tricks-that-work | unverified |
@@ -412,59 +809,143 @@ overlap — usually fine, but worth a look for cannibalisation.
 | how to prepare for a draft | secondary | how-fantasy-draft-strategy-works | unverified |
 | how to pronounce malay words | secondary | malay-pronunciation-guide | unverified |
 | how to react to a positional run in a draft | long-tail | how-fantasy-draft-strategy-works | unverified |
+| how to read a defense | primary | reading-a-defense-basics | unverified |
 | how to read khmer | secondary | khmer-script-explained | unverified |
 | how to read nutrition labels | primary | reading-nutrition-labels | unverified |
 | how to read thai | secondary | learn-thai-script-beginners-guide | unverified |
 | how to read total carbohydrate on a label | long-tail | net-carbs-explained-keto-tracking | unverified |
+| how to remember things better | secondary | memory-techniques-that-work | unverified |
 | how to reverse a percentage increase mentally | long-tail | mental-math-tricks-that-work | unverified |
+| how to say i in vietnamese | secondary | vietnamese-pronouns-explained | unverified |
 | how to shade anime art | secondary | digital-coloring-techniques | unverified |
+| how to shadow a language | secondary | shadowing-technique-explained | unverified |
 | how to slow down a video on android | long-tail | android-video-player-guide | unverified |
+| how to solve an anagram systematically | long-tail | word-game-strategy-guide | unverified |
 | how to sound less english when speaking malay | long-tail | malay-pronunciation-guide | unverified |
+| how to square numbers ending in 5 | long-tail | multiplication-shortcuts-explained | unverified |
+| how to start learning italian | secondary | learn-italian-beginners-guide | unverified |
+| how to start learning lao | secondary | learn-lao-beginners-guide | unverified |
+| how to start learning vietnamese | secondary | learn-vietnamese-beginners-guide | unverified |
 | how to start playing danmaku games | long-tail | bullet-hell-vs-classic-shmup | unverified |
 | how to study world history | secondary | world-history-timeline-guide | unverified |
+| how to tell if a blitz is coming | long-tail | reading-a-defense-basics | unverified |
 | how to tell if an android game works offline before installing | long-tail | best-offline-arcade-games-android | unverified |
 | how to test if a game works offline | secondary | best-offline-arcade-games-android | unverified |
 | how to test if an app works offline | secondary | best-offline-sports-games-android, sports-gm-games-without-internet | unverified |
 | how to track protein intake | primary | how-to-track-protein-intake | unverified |
 | how to track protein intake without weighing food | long-tail | how-to-track-protein-intake | unverified |
+| how to work out a tip | secondary | percentages-in-your-head | unverified |
+| how tones work in language | secondary | what-is-a-tonal-language | unverified |
 | hue saturation value explained | secondary | color-theory-for-beginners | unverified |
+| hybrid icing | secondary | what-is-icing-in-hockey | unverified |
+| i+1 language | secondary | comprehensible-input-explained | unverified |
 | ice hockey positions for beginners | secondary | hockey-positions-explained | unverified |
+| icing rule explained | secondary | what-is-icing-in-hockey | unverified |
+| il lo la gli le | secondary | italian-articles-and-gender | unverified |
+| image based subtitles | secondary | subtitle-formats-explained | unverified |
+| improve accent shadowing | secondary | shadowing-technique-explained | unverified |
+| in app purchases vs ads | secondary | why-free-android-games-show-ads | unverified |
 | in draft decision making | secondary | what-makes-a-good-draft-board | unverified |
+| incomplete protein foods | secondary | complete-vs-incomplete-proteins | unverified |
+| increase protein intake | secondary | how-to-hit-a-protein-goal | unverified |
+| injuries in career mode | primary | injuries-in-sports-career-games | unverified |
+| injury risk simulation | secondary | injuries-in-sports-career-games | unverified |
+| input hypothesis language learning | secondary | comprehensible-input-explained | unverified |
+| install time permissions | secondary | android-app-permissions-explained | unverified |
 | interactive world history timeline app | primary | world-history-timeline-guide | unverified |
+| interlaced vs progressive | secondary | frame-rate-and-resolution-explained | unverified |
+| intermediate language study | secondary | language-learning-plateau | unverified |
+| intermediate plateau language | secondary | language-learning-plateau | unverified |
 | intermittent fasting windows | primary | intermittent-fasting-windows-explained | unverified |
+| interstitial ads android | secondary | why-free-android-games-show-ads | unverified |
+| is 1000 words enough to speak a language | long-tail | how-many-words-to-be-conversational | unverified |
+| is a clean sheet a good measure of a defence | long-tail | clean-sheets-explained | unverified |
+| is a low gi food always better | long-tail | glycemic-index-and-load | unverified |
+| is a serving size a recommendation | long-tail | serving-size-vs-portion-size | unverified |
+| is a two way player worth it in a career sim | long-tail | two-way-players-explained | unverified |
 | is an auction draft harder than a snake draft | long-tail | snake-draft-vs-auction-draft | unverified |
 | is bahasa melayu the same as bahasa indonesia | secondary | malay-vs-indonesian-differences | unverified |
+| is being in an offside position a foul | long-tail | how-the-offside-rule-works | unverified |
 | is bullet hell harder than a normal shmup | long-tail | bullet-hell-vs-classic-shmup | unverified |
 | is cantonese a dialect of mandarin | secondary | cantonese-vs-mandarin-differences | unverified |
+| is cefr used outside europe | long-tail | cefr-levels-explained | unverified |
 | is digital coloring as good as paper coloring | long-tail | anime-coloring-app-guide | unverified |
+| is electrolyte loss dangerous on a low carb diet | long-tail | electrolytes-on-low-carb | unverified |
+| is english a tonal language | long-tail | what-is-a-tonal-language | unverified |
+| is free agency better than drafting | long-tail | free-agency-explained | unverified |
+| is fruit sugar counted as added sugar | long-tail | added-sugars-vs-total-sugars | unverified |
+| is goal difference or head to head used first | long-tail | goal-difference-and-tiebreakers | unverified |
 | is indonesian a dialect of malay | long-tail | malay-vs-indonesian-differences | unverified |
 | is intermittent fasting safe | secondary | intermittent-fasting-windows-explained | unverified |
+| is it better to spread protein across meals | long-tail | protein-per-meal-explained | unverified |
+| is it better to survive or to score | long-tail | score-attack-strategy | unverified |
+| is italian faster to learn than french | long-tail | how-long-to-learn-italian | unverified |
+| is italian pronunciation easy | long-tail | learn-italian-beginners-guide | unverified |
 | is jyutping better than yale for beginners | long-tail | learn-cantonese-beginners-guide | unverified |
+| is keto flu a real medical condition | long-tail | keto-flu-explained | unverified |
 | is khmer a tonal language | long-tail | learn-khmer-beginners-guide | unverified |
 | is khmer tonal | secondary | learn-khmer-beginners-guide | unverified |
+| is lao a dialect of thai | long-tail | lao-vs-thai-differences | unverified |
+| is lao similar to thai | primary | lao-vs-thai-differences | unverified |
 | is malay easy to learn for english speakers | long-tail | learn-malay-beginners-guide | unverified |
 | is malay phonetic | secondary | malay-pronunciation-guide | unverified |
 | is malay spelling phonetic | long-tail | malay-pronunciation-guide | unverified |
 | is net carbs an fda term | long-tail | net-carbs-explained-keto-tracking | unverified |
 | is nutritional ketosis the same as ketoacidosis | long-tail | what-is-a-ketone-reading | unverified |
+| is ops better than batting average | long-tail | ops-and-slugging-explained | unverified |
+| is plant protein as good as animal protein | long-tail | plant-vs-animal-protein | unverified |
+| is plus minus a good hockey stat | long-tail | plus-minus-and-hockey-stats | unverified |
 | is russian harder than spanish | long-tail | how-long-does-it-take-to-learn-russian | unverified |
+| is save percentage a good stat | long-tail | hockey-goaltending-explained | unverified |
 | is shonen a genre or a demographic | long-tail | anime-genres-explained | unverified |
+| is shonen a style or a demographic | long-tail | anime-art-styles-explained | unverified |
 | is thai grammar difficult | long-tail | is-thai-hard-to-learn | unverified |
 | is thai hard to learn | primary | is-thai-hard-to-learn | unverified |
 | is thai harder than chinese | long-tail | is-thai-hard-to-learn | unverified |
+| is the data safety section verified | long-tail | google-play-data-safety-explained | unverified |
+| is there a career sim without teammates | long-tail | how-to-choose-a-sports-career-sim | unverified |
+| is there a golf game without a swing meter | long-tail | golf-career-sim-guide | unverified |
+| is there a good lao learning app | long-tail | learn-lao-beginners-guide | unverified |
 | is there a tolerable upper intake level for protein | long-tail | how-much-protein-per-day | unverified |
 | is there an official keto macro ratio | long-tail | keto-macros-explained | unverified |
+| is there an offline hockey career game for android | long-tail | hockey-career-sim-guide | unverified |
 | is there an upper limit for protein | secondary | how-much-protein-per-day | unverified |
+| is tôi rude in vietnamese | long-tail | vietnamese-pronouns-explained | unverified |
 | is vampire survivors a roguelike | long-tail | what-makes-a-roguelike | unverified |
+| is vietnamese grammar difficult | long-tail | is-vietnamese-hard-to-learn | unverified |
+| is vietnamese hard to learn | primary | is-vietnamese-hard-to-learn | unverified |
+| is vietnamese harder than thai | long-tail | is-vietnamese-hard-to-learn | unverified |
 | is war a reliable stat for drafting | long-tail | baseball-draft-gm-guide | unverified |
+| is whip better than era | long-tail | what-is-whip-in-baseball | unverified |
+| isan and lao | secondary | lao-vs-thai-differences | unverified |
 | isekai meaning | secondary | anime-genres-explained | unverified |
+| italian adjective agreement | secondary | italian-articles-and-gender | unverified |
+| italian articles explained | primary | italian-articles-and-gender | unverified |
+| italian beginner course | secondary | learn-italian-beginners-guide | unverified |
+| italian definite articles | secondary | italian-articles-and-gender | unverified |
+| italian fluency timeline | secondary | how-long-to-learn-italian | unverified |
+| italian for english speakers | secondary | learn-italian-beginners-guide | unverified |
+| italian grammar for beginners | secondary | italian-articles-and-gender | unverified |
+| italian irregular verbs | secondary | italian-verb-conjugation-basics | unverified |
+| italian noun gender | secondary | italian-articles-and-gender | unverified |
+| italian present tense | secondary | italian-verb-conjugation-basics | unverified |
+| italian pronunciation rules | secondary | learn-italian-beginners-guide | unverified |
+| italian study plan | secondary | learn-italian-beginners-guide | unverified |
+| italian study time | secondary | how-long-to-learn-italian | unverified |
+| italian verb conjugation | primary | italian-verb-conjugation-basics | unverified |
+| italian verb endings | secondary | italian-verb-conjugation-basics | unverified |
 | josei demographic manga | secondary | anime-genres-explained | unverified |
+| julian vs gregorian calendar | secondary | how-calendars-and-dating-systems-work | unverified |
 | jyutping romanisation | secondary | learn-cantonese-beginners-guide | unverified |
 | jyutping tone numbers | secondary | cantonese-tones-explained | unverified |
 | jyutping vs pinyin | secondary | cantonese-vs-mandarin-differences | unverified |
+| keto adaptation | secondary | keto-flu-explained | unverified |
 | keto app without subscription | secondary | low-carb-tracking-apps-compared | unverified |
 | keto diet tracker app | secondary | keto-macros-explained | unverified |
 | keto diet tracker vs carb manager | comparison | low-carb-tracking-apps-compared | unverified |
+| keto electrolyte loss | secondary | electrolytes-on-low-carb | unverified |
+| keto flu | primary | keto-flu-explained | unverified |
+| keto headache fatigue | secondary | keto-flu-explained | unverified |
 | keto macro ratio | secondary | keto-macros-explained | unverified |
 | keto macros explained | primary | keto-macros-explained | unverified |
 | keto tracker app android | secondary | net-carbs-explained-keto-tracking | unverified |
@@ -485,32 +966,75 @@ overlap — usually fine, but worth a look for cannibalisation.
 | khmer subscript consonants | secondary | khmer-script-explained | unverified |
 | khmer travel phrases | secondary | learn-khmer-beginners-guide | unverified |
 | khmer vowel signs | secondary | khmer-script-explained | unverified |
+| label serving size meaning | secondary | serving-size-vs-portion-size | unverified |
 | language app comparison android | secondary | language-learning-apps-compared | unverified |
 | language app with tone practice | secondary | language-learning-apps-compared | unverified |
+| language exchange | secondary | learning-a-language-without-a-teacher | unverified |
+| language learning motivation | secondary | language-learning-plateau | unverified |
+| language learning plateau | primary | language-learning-plateau | unverified |
+| language proficiency levels | secondary | cefr-levels-explained | unverified |
+| language speaking practice alone | secondary | shadowing-technique-explained | unverified |
+| language study routine | secondary | learning-a-language-without-a-teacher | unverified |
+| lao alphabet | primary | lao-alphabet-explained | unverified |
+| lao consonant classes | secondary | lao-alphabet-explained | unverified |
+| lao for travel | secondary | learn-lao-beginners-guide | unverified |
+| lao language course | secondary | learn-lao-beginners-guide | unverified |
+| lao script explained | secondary | lao-alphabet-explained | unverified |
+| lao study plan | secondary | learn-lao-beginners-guide | unverified |
+| lao thai mutual intelligibility | secondary | lao-vs-thai-differences | unverified |
+| lao vowels | secondary | lao-alphabet-explained | unverified |
+| lao vs thai language | secondary | lao-vs-thai-differences | unverified |
+| lao writing system | secondary | lao-alphabet-explained | unverified |
+| laotian for beginners | secondary | learn-lao-beginners-guide | unverified |
+| law 11 offside | secondary | how-the-offside-rule-works | unverified |
 | law of large numbers sports | secondary | understanding-sports-sim-probability | unverified |
+| leadoff hitter role | secondary | batting-order-strategy-explained | unverified |
+| league expansion rules | secondary | expansion-drafts-explained | unverified |
+| league table tiebreakers | secondary | goal-difference-and-tiebreakers | unverified |
 | learn cambodian app android | secondary | learn-khmer-beginners-guide | unverified |
 | learn cantonese app | secondary | language-learning-apps-compared | unverified |
 | learn cantonese for beginners | primary | learn-cantonese-beginners-guide | unverified |
+| learn italian for beginners | primary | learn-italian-beginners-guide | unverified |
 | learn khmer for beginners | primary | learn-khmer-beginners-guide | unverified |
+| learn lao for beginners | primary | learn-lao-beginners-guide | unverified |
 | learn malay app android | secondary | learn-malay-beginners-guide | unverified |
 | learn malay for beginners | primary | learn-malay-beginners-guide | unverified |
 | learn russian app android | secondary | learn-russian-cyrillic-beginners-guide | unverified |
 | learn russian cyrillic alphabet | primary | learn-russian-cyrillic-beginners-guide | unverified |
 | learn russian realistic timeline | secondary | how-long-does-it-take-to-learn-russian | unverified |
 | learn thai script | primary | learn-thai-script-beginners-guide | unverified |
+| learn vietnamese for beginners | primary | learn-vietnamese-beginners-guide | unverified |
+| learning a language without lessons | secondary | learning-a-language-without-a-teacher | unverified |
 | learning thai as a beginner | secondary | is-thai-hard-to-learn | unverified |
+| learning tones as an adult | secondary | what-is-a-tonal-language | unverified |
 | left wing vs right wing hockey | secondary | hockey-positions-explained | unverified |
+| letter frequency english | secondary | word-game-strategy-guide | unverified |
+| level up systems | secondary | power-ups-and-build-design | unverified |
+| limited palette illustration | secondary | color-palettes-for-anime-art | unverified |
+| limiting amino acid | secondary | complete-vs-incomplete-proteins | unverified |
+| line art colouring workflow | secondary | line-art-and-flats-explained | unverified |
 | line matching hockey | secondary | hockey-line-combinations-explained | unverified |
+| line weight anime | secondary | anime-art-styles-explained | unverified |
+| lineup optimisation baseball | secondary | batting-order-strategy-explained | unverified |
 | list of world history eras in chronological order | long-tail | major-eras-of-world-history | unverified |
+| listening comprehension practice | secondary | listening-practice-in-a-new-language | unverified |
+| listening input method | secondary | comprehensible-input-explained | unverified |
 | live and dead syllables thai | secondary | thai-tones-explained | unverified |
 | local video player android | secondary | android-video-players-compared | unverified |
 | local video player vs media centre | comparison | android-video-players-compared | unverified |
 | log protein and calories | secondary | how-to-track-protein-intake | unverified |
+| lossless container change | secondary | remuxing-vs-transcoding | unverified |
+| lottery odds explained | secondary | how-draft-lotteries-work | unverified |
+| low carb hydration | secondary | electrolytes-on-low-carb | unverified |
 | low carb macro calculator | secondary | keto-macros-explained | unverified |
 | low carb macro tracker | secondary | low-carb-tracking-apps-compared | unverified |
+| low carb transition symptoms | secondary | keto-flu-explained | unverified |
+| low gi foods | secondary | glycemic-index-and-load | unverified |
+| lunar calendar explained | secondary | how-calendars-and-dating-systems-work | unverified |
 | luxury tax explained | secondary | salary-cap-basics-for-gm-games | unverified |
 | m2ts transport stream | secondary | video-file-formats-explained | unverified |
 | macro tracking app free | secondary | how-to-track-protein-intake | unverified |
+| made the cut golf | secondary | how-a-golf-cut-works | unverified |
 | malay affixes explained | secondary | learn-malay-beginners-guide | unverified |
 | malay and indonesian words that mean different things | long-tail | malay-vs-indonesian-differences | unverified |
 | malay consonant digraphs | secondary | malay-pronunciation-guide | unverified |
@@ -522,13 +1046,23 @@ overlap — usually fine, but worth a look for cannibalisation.
 | malay vowels | secondary | malay-pronunciation-guide | unverified |
 | malay vs indonesian | secondary | learn-malay-beginners-guide, malay-vs-indonesian-differences | unverified |
 | management games without energy timers | long-tail | best-sports-manager-games-for-short-sessions | unverified |
+| manager game explained | secondary | career-sim-vs-manager-game | unverified |
+| manga art style | secondary | anime-art-styles-explained | unverified |
 | manga style coloring pages | secondary | anime-coloring-app-guide | unverified |
+| manga terminology | secondary | anime-terminology-glossary | unverified |
 | math practice app free | secondary | mental-math-training-guide | unverified |
+| meaningful choices upgrades | secondary | power-ups-and-build-design | unverified |
 | mecha anime explained | secondary | anime-genres-explained | unverified |
+| memory techniques | primary | memory-techniques-that-work | unverified |
 | mental math practice app | primary | mental-math-training-guide | unverified |
 | mental math tricks | primary | mental-math-tricks-that-work | unverified |
 | mental math tricks that work | secondary | mental-math-training-guide | unverified |
+| method of loci | secondary | memory-techniques-that-work | unverified |
+| mid run upgrades | secondary | horde-survival-vs-wave-shooter | unverified |
+| middle reliever meaning | secondary | baseball-pitching-roles-explained | unverified |
 | miller magical number seven | secondary | working-memory-and-training | unverified |
+| minimum viable practice | secondary | building-a-daily-practice-habit | unverified |
+| missed cut meaning | secondary | how-a-golf-cut-works | unverified |
 | mkv not playing on android | secondary | android-video-player-guide | unverified |
 | mma divisions by weight | secondary | mma-weight-classes-explained | unverified |
 | mma fight simulator app | primary | mma-boxing-fight-draft-guide | unverified |
@@ -537,10 +1071,20 @@ overlap — usually fine, but worth a look for cannibalisation.
 | mma weight class list pounds | secondary | mma-weight-classes-explained | unverified |
 | mma weight classes explained | primary | mma-weight-classes-explained | unverified |
 | mma weight limits chart | secondary | mma-weight-classes-explained | unverified |
+| mnemonic techniques | secondary | memory-techniques-that-work | unverified |
 | mobile football manager alternative | secondary | best-sports-manager-games-for-short-sessions | unverified |
+| mobile game battery drain | primary | battery-and-performance-in-mobile-games | unverified |
+| mobile game touch controls | primary | auto-fire-and-touch-controls | unverified |
 | mov file format | secondary | video-file-formats-explained | unverified |
 | mp4 vs mkv | secondary | video-file-formats-explained | unverified |
+| multiple choice distractors | secondary | how-quiz-difficulty-works | unverified |
+| multiplication shortcuts | primary | multiplication-shortcuts-explained | unverified |
+| multiplier chains | secondary | score-attack-strategy | unverified |
+| multiply by 11 trick | secondary | multiplication-shortcuts-explained | unverified |
+| multiply numbers near 100 | secondary | multiplication-shortcuts-explained | unverified |
+| muscle protein synthesis meals | secondary | protein-per-meal-explained | unverified |
 | myfitnesspal alternative android | secondary | protein-tracking-apps-compared | unverified |
+| naturally occurring sugars | secondary | added-sugars-vs-total-sugars | unverified |
 | near transfer vs far transfer | secondary | working-memory-and-training | unverified |
 | net carb tracking app android | secondary | low-carb-tracking-apps-compared | unverified |
 | net carbs explained | primary | net-carbs-explained-keto-tracking | unverified |
@@ -548,68 +1092,154 @@ overlap — usually fine, but worth a look for cannibalisation.
 | net carbs vs total carbs | secondary | net-carbs-explained-keto-tracking | unverified |
 | no internet sports game | secondary | best-offline-sports-games-android | unverified |
 | no internet sports games | secondary | sports-gm-games-without-internet | unverified |
+| no year zero | secondary | bce-and-ce-explained | unverified |
 | nomination strategy | secondary | snake-draft-vs-auction-draft | unverified |
+| northern vs southern vietnamese tones | secondary | vietnamese-tones-explained | unverified |
 | nutrition facts label explained | secondary | reading-nutrition-labels | unverified |
 | nutrition label rounding rules | secondary | reading-nutrition-labels | unverified |
+| nutrition label servings per container | secondary | serving-size-vs-portion-size | unverified |
+| nutrition label sugars line | secondary | added-sugars-vs-total-sugars | unverified |
 | offensive line positions explained | secondary | football-positions-explained-for-drafting | unverified |
 | official course versus community word lists | long-tail | language-learning-apps-compared | unverified |
 | offline arcade games android | primary | best-offline-arcade-games-android | unverified |
 | offline basketball manager game | secondary | basketball-draft-gm-guide | unverified |
 | offline basketball rpg | secondary | basketball-career-sim-guide | unverified |
 | offline draft simulator | secondary | sports-gm-games-without-internet | unverified |
+| offline hockey game android | secondary | hockey-career-sim-guide | unverified |
 | offline manager game android | secondary | best-offline-sports-games-android | unverified |
 | offline sports games android | primary | best-offline-sports-games-android | unverified |
 | offline sports management games android | secondary | sports-gm-games-without-internet | unverified |
 | offline video player android | secondary | android-video-player-guide | unverified |
 | offline video player comparison | secondary | android-video-players-compared | unverified |
+| offside exceptions | secondary | how-the-offside-rule-works | unverified |
+| offside position vs offence | secondary | how-the-offside-rule-works | unverified |
+| offside rule explained | primary | how-the-offside-rule-works | unverified |
+| old style new style dates | secondary | how-calendars-and-dating-systems-work | unverified |
 | on base percentage formula | secondary | baseball-stats-explained-for-beginners | unverified |
+| on base plus slugging | secondary | ops-and-slugging-explained | unverified |
+| one handed mobile games | secondary | auto-fire-and-touch-controls | unverified |
 | open source vs ad supported video player | comparison | android-video-players-compared | unverified |
+| ops calculation | secondary | ops-and-slugging-explained | unverified |
+| opus codec | secondary | audio-codecs-explained | unverified |
+| order of magnitude estimate | secondary | estimation-techniques-explained | unverified |
+| pace adjusted stats | secondary | basketball-advanced-stats-explained | unverified |
+| palette for character art | secondary | color-palettes-for-anime-art | unverified |
+| passive listening effectiveness | secondary | listening-practice-in-a-new-language | unverified |
+| pattern memorisation games | secondary | boss-pattern-recognition | unverified |
+| penalty kill explained | secondary | power-play-and-penalty-kill | unverified |
+| per possession stats | secondary | basketball-advanced-stats-explained | unverified |
+| percentage change explained | secondary | percentages-in-your-head | unverified |
+| percentage mental math | secondary | percentages-in-your-head | unverified |
+| percentage points vs percent | secondary | percentages-in-your-head | unverified |
 | percentage shortcuts mental math | secondary | mental-math-training-guide | unverified |
 | perfect season football game | secondary | football-draft-gm-guide | unverified |
 | permadeath meaning | secondary | what-makes-a-roguelike | unverified |
+| permission groups android | secondary | android-app-permissions-explained | unverified |
+| phase transitions boss fight | secondary | boss-pattern-recognition | unverified |
 | picture in picture video player android | secondary | android-video-players-compared | unverified |
 | pimsleur vs app based courses | comparison | language-learning-apps-compared | unverified |
+| pitch accent vs tone | secondary | what-is-a-tonal-language | unverified |
+| pitch count explained | secondary | baseball-pitching-roles-explained | unverified |
+| pitcher and hitter same player | secondary | two-way-players-explained | unverified |
+| pitcher career mode | secondary | baseball-career-sim-guide | unverified |
+| plant based protein sources | secondary | plant-vs-animal-protein | unverified |
+| plant protein completeness | secondary | complete-vs-incomplete-proteins | unverified |
+| plant protein vs animal protein | primary | plant-vs-animal-protein | unverified |
+| play store privacy label | secondary | google-play-data-safety-explained | unverified |
 | play without wifi | secondary | sports-gm-games-without-internet | unverified |
 | playback speed control android | secondary | android-video-player-guide | unverified |
+| player career game choice | secondary | how-to-choose-a-sports-career-sim | unverified |
 | player career simulator | secondary | career-mode-vs-franchise-mode | unverified |
+| player career vs team management | secondary | career-sim-vs-manager-game | unverified |
+| playing time career mode | secondary | how-player-career-modes-work | unverified |
+| playoff tiebreaker soccer | secondary | goal-difference-and-tiebreakers | unverified |
+| plus minus hockey stat | primary | plus-minus-and-hockey-stats | unverified |
+| pocket passer meaning | secondary | quarterback-archetypes-explained | unverified |
+| pocket passer vs dual threat | secondary | football-career-sim-guide | unverified |
+| points goals assists hockey | secondary | plus-minus-and-hockey-stats | unverified |
+| polyols explained | secondary | sugar-alcohols-explained | unverified |
+| portion control | secondary | serving-size-vs-portion-size | unverified |
 | positional cliffs draft | secondary | what-makes-a-good-draft-board | unverified |
+| positional depth | secondary | depth-charts-explained | unverified |
 | positional overlap drafting | secondary | how-to-build-a-balanced-basketball-roster | unverified |
 | positional scarcity drafting | secondary | how-fantasy-draft-strategy-works | unverified |
 | positional value in a football draft | secondary | football-positions-explained-for-drafting | unverified |
 | positionless basketball | secondary | basketball-positions-explained | unverified |
+| power up design games | primary | power-ups-and-build-design | unverified |
+| pre snap read football | secondary | reading-a-defense-basics | unverified |
 | prehistory vs history | secondary | major-eras-of-world-history | unverified |
+| primary vs secondary sources | primary | primary-vs-secondary-sources | unverified |
 | procedural generation games | secondary | what-makes-a-roguelike | unverified |
+| protection list expansion draft | secondary | expansion-drafts-explained | unverified |
 | protein app without subscription | secondary | protein-tracking-apps-compared | unverified |
+| protein combining | secondary | complete-vs-incomplete-proteins | unverified |
 | protein daily value 50 grams | secondary | how-much-protein-per-day | unverified |
+| protein density foods | secondary | plant-vs-animal-protein | unverified |
 | protein diet tracker vs myfitnesspal | comparison | protein-tracking-apps-compared | unverified |
+| protein distribution across meals | secondary | protein-per-meal-explained | unverified |
+| protein for older adults | primary | protein-for-older-adults | unverified |
 | protein in lentils and tofu | secondary | protein-sources-compared | unverified |
+| protein intake ageing | secondary | protein-for-older-adults | unverified |
 | protein intake for athletes | secondary | how-much-protein-per-day | unverified |
+| protein on a budget | secondary | how-to-hit-a-protein-goal | unverified |
 | protein per calorie | secondary | protein-sources-compared | unverified |
+| protein per meal | primary | protein-per-meal-explained | unverified |
+| protein per sitting | secondary | protein-per-meal-explained | unverified |
+| protein quality comparison | secondary | plant-vs-animal-protein | unverified |
 | protein rda per kg | secondary | how-much-protein-per-day | unverified |
+| protein requirements older people | secondary | protein-for-older-adults | unverified |
+| protein timing | secondary | protein-per-meal-explained | unverified |
 | protein tracker app android | secondary | how-to-track-protein-intake | unverified |
 | protein tracker app comparison | secondary | protein-tracking-apps-compared | unverified |
 | protein tracker that does not require an account | long-tail | protein-tracking-apps-compared | unverified |
 | protein tracker vs calorie counter | comparison | how-to-track-protein-intake | unverified |
 | protein tracking app no subscription | secondary | how-to-track-protein-intake | unverified |
+| protein without powder | secondary | how-to-hit-a-protein-goal | unverified |
+| quarterback archetypes | primary | quarterback-archetypes-explained | unverified |
+| quarterback build career mode | secondary | quarterback-archetypes-explained | unverified |
+| quarterback career mode android | secondary | football-career-sim-guide | unverified |
+| quarterback game android | secondary | football-career-sim-guide | unverified |
 | quick draft games for phone | long-tail | best-sports-manager-games-for-short-sessions | unverified |
 | quick sports sim android | secondary | best-sports-manager-games-for-short-sessions | unverified |
 | quick way to convert celsius to fahrenheit accurately | long-tail | mental-math-tricks-that-work | unverified |
+| quiz game difficulty curve | secondary | how-quiz-difficulty-works | unverified |
 | random number generator in games | secondary | how-sports-simulation-engines-work | unverified |
 | ratings to probability model | secondary | how-sports-simulation-engines-work | unverified |
+| rda protein older adults | secondary | protein-for-older-adults | unverified |
+| reading lao | secondary | lao-alphabet-explained | unverified |
+| realistic language goals | secondary | how-long-to-learn-italian | unverified |
+| rebound rate explained | secondary | basketball-advanced-stats-explained | unverified |
+| rebuild vs retool | primary | rebuild-vs-retool | unverified |
+| recall vs recognition | secondary | how-quiz-difficulty-works | unverified |
 | relative vs absolute dating | secondary | how-historians-date-events | unverified |
 | relaxing coloring game | secondary | anime-coloring-app-guide | unverified |
-| remux vs transcode | secondary | video-file-formats-explained | unverified |
+| release clause meaning | secondary | transfers-and-contracts-explained | unverified |
+| remux vs transcode | primary | remuxing-vs-transcoding, video-file-formats-explained | unverified |
 | replacement level explained | secondary | how-fantasy-draft-strategy-works | unverified |
+| restricted vs unrestricted free agent | secondary | free-agency-explained | unverified |
+| retooling a roster | secondary | rebuild-vs-retool | unverified |
+| retrieval practice | secondary | memory-techniques-that-work | unverified |
 | retrieval practice language learning | secondary | spaced-repetition-for-language-learning | unverified |
+| reverse standings draft order | secondary | how-football-draft-order-works | unverified |
+| revoke app permissions | secondary | android-app-permissions-explained | unverified |
+| rewarded ads explained | secondary | why-free-android-games-show-ads | unverified |
 | rim light technique | secondary | digital-coloring-techniques | unverified |
+| risk reward golf holes | secondary | golf-course-management-basics | unverified |
+| risk reward scoring | secondary | score-attack-strategy | unverified |
 | roguelike definition | secondary | what-makes-a-roguelike | unverified |
 | roguelike upgrade choices | secondary | zombie-survival-roguelike-guide | unverified |
 | roguelike vs roguelite | secondary | what-makes-a-roguelike | unverified |
+| roster age curve | secondary | rebuild-vs-retool | unverified |
 | roster construction basketball | secondary | how-to-build-a-balanced-basketball-roster | unverified |
+| roster depth meaning | secondary | depth-charts-explained | unverified |
 | rotation minutes distribution | secondary | how-to-build-a-balanced-basketball-roster | unverified |
+| rotation player career | secondary | coach-trust-and-playing-time | unverified |
+| rotation vs depth chart | secondary | depth-charts-explained | unverified |
 | royal thai general system of transcription | secondary | learn-thai-script-beginners-guide | unverified |
+| royalty free video codec | secondary | av1-on-android-explained | unverified |
 | rumi and jawi script | secondary | learn-malay-beginners-guide | unverified |
 | run based games explained | secondary | what-makes-a-roguelike | unverified |
+| runtime permissions android | secondary | android-app-permissions-explained | unverified |
 | russian accusative animate | secondary | russian-cases-explained-for-beginners | unverified |
 | russian alphabet for beginners | secondary | learn-russian-cyrillic-beginners-guide | unverified |
 | russian cases explained | primary | russian-cases-explained-for-beginners | unverified |
@@ -621,36 +1251,73 @@ overlap — usually fine, but worth a look for cannibalisation.
 | russian prepositional case | secondary | russian-cases-explained-for-beginners | unverified |
 | russian study plan | secondary | how-long-does-it-take-to-learn-russian | unverified |
 | russian vowel reduction | secondary | learn-russian-cyrillic-beginners-guide | unverified |
+| safety count coverage | secondary | reading-a-defense-basics | unverified |
 | salary cap draft game | secondary | basketball-draft-gm-guide | unverified |
 | salary cap draft strategy | secondary | salary-cap-basics-for-gm-games | unverified |
 | salary cap explained | primary | salary-cap-basics-for-gm-games | unverified |
 | salary cap football draft | secondary | football-draft-gm-guide | unverified |
 | sample size sports sim | secondary | understanding-sports-sim-probability | unverified |
+| sanity check arithmetic | secondary | estimation-techniques-explained | unverified |
+| sarcopenia protein | secondary | protein-for-older-adults | unverified |
+| save percentage explained | secondary | hockey-goaltending-explained | unverified |
+| score attack strategy | primary | score-attack-strategy | unverified |
+| scrambling quarterback | secondary | quarterback-archetypes-explained | unverified |
+| screen brightness battery | secondary | battery-and-performance-in-mobile-games | unverified |
 | scrolling shooter genre | secondary | history-of-shoot-em-up-games | unverified |
 | season simulator explained | secondary | how-sports-simulation-engines-work | unverified |
-| serving size vs portion size | secondary | reading-nutrition-labels | unverified |
+| second last opponent | secondary | how-the-offside-rule-works | unverified |
+| secondary source examples | secondary | primary-vs-secondary-sources | unverified |
+| seinen josei meaning | secondary | anime-terminology-glossary | unverified |
+| self study language plan | secondary | learning-a-language-without-a-teacher | unverified |
+| self taught language learner | secondary | learning-a-language-without-a-teacher | unverified |
+| serving size vs portion size | secondary | reading-nutrition-labels, serving-size-vs-portion-size | unverified |
+| shadowing pronunciation practice | secondary | shadowing-technique-explained | unverified |
+| shadowing technique language learning | primary | shadowing-technique-explained | unverified |
+| shmup boss strategy | secondary | boss-pattern-recognition | unverified |
 | shmup history | secondary | history-of-shoot-em-up-games | unverified |
 | shmup hitbox size | secondary | bullet-hell-vs-classic-shmup | unverified |
 | shmup tips for beginners | secondary | space-shooter-arcade-guide | unverified |
 | shonen vs seinen | secondary | anime-genres-explained | unverified |
 | shoot em up genre explained | secondary | history-of-shoot-em-up-games | unverified |
+| short handed icing | secondary | what-is-icing-in-hockey | unverified |
 | short session management games | secondary | best-sports-manager-games-for-short-sessions | unverified |
+| short sided golf | secondary | golf-course-management-basics | unverified |
+| should i aim at the flag or the middle of the green | long-tail | golf-course-management-basics | unverified |
 | should i draft best player available or by position | long-tail | basketball-draft-gm-guide | unverified |
 | should i draft by tiers or by rankings | long-tail | how-fantasy-draft-strategy-works | unverified |
+| should i force software decoding | long-tail | hardware-vs-software-decoding | unverified |
 | should i learn cantonese or mandarin | secondary | cantonese-vs-mandarin-differences | unverified |
 | should i learn cantonese or mandarin first | long-tail | learn-cantonese-beginners-guide | unverified |
+| should i learn lao or thai first | long-tail | lao-vs-thai-differences | unverified |
+| should i play a career sim or a manager game | long-tail | career-sim-vs-manager-game | unverified |
 | should i play career mode or franchise mode | long-tail | career-mode-vs-franchise-mode | unverified |
+| should i play through an injury in career mode | long-tail | injuries-in-sports-career-games | unverified |
 | should i take damage or survivability upgrades | long-tail | zombie-survival-roguelike-guide | unverified |
+| should i transfer to get playing time | long-tail | coach-trust-and-playing-time | unverified |
+| should you attack or dodge first | long-tail | boss-pattern-recognition | unverified |
+| should you pick colours before or after shading | long-tail | color-palettes-for-anime-art | unverified |
+| should you supplement electrolytes on keto | long-tail | electrolytes-on-low-carb | unverified |
+| should you take damage or survivability upgrades | long-tail | power-ups-and-build-design | unverified |
+| should you transfer to a bigger club in career mode | long-tail | soccer-career-sim-guide | unverified |
 | shutdown line hockey | secondary | hockey-line-combinations-explained | unverified |
+| shutout football | secondary | clean-sheets-explained | unverified |
+| single high vs two high | secondary | reading-a-defense-basics | unverified |
 | six russian cases | secondary | russian-cases-explained-for-beginners | unverified |
+| skin tone anime | secondary | color-palettes-for-anime-art | unverified |
 | slice of life anime meaning | secondary | anime-genres-explained | unverified |
-| slugging percentage explained | secondary | baseball-stats-explained-for-beginners | unverified |
+| slugging percentage explained | secondary | baseball-stats-explained-for-beginners, ops-and-slugging-explained | unverified |
 | snake draft vs auction draft | primary | snake-draft-vs-auction-draft | unverified |
+| soccer career simulator | primary | soccer-career-sim-guide | unverified |
 | soccer draft game where position fit matters | long-tail | soccer-draft-xi-guide | unverified |
 | soccer draft simulator | primary | soccer-draft-xi-guide | unverified |
 | soccer formations explained | primary | soccer-formations-explained | unverified |
 | soccer manager game offline | secondary | soccer-draft-xi-guide | unverified |
+| soccer player career mode | secondary | soccer-career-sim-guide | unverified |
 | soccer points system explained | secondary | how-soccer-league-tables-work | unverified |
+| soccer positions explained | primary | soccer-positions-explained | unverified |
+| soccer roles explained | secondary | soccer-positions-explained | unverified |
+| sodium potassium magnesium low carb | secondary | electrolytes-on-low-carb | unverified |
+| source criticism | secondary | primary-vs-secondary-sources | unverified |
 | space invaders history | secondary | history-of-shoot-em-up-games | unverified |
 | space shooter arcade game android | primary | space-shooter-arcade-guide | unverified |
 | spaced repetition language app | secondary | language-learning-apps-compared | unverified |
@@ -658,7 +1325,14 @@ overlap — usually fine, but worth a look for cannibalisation.
 | spaced repetition vocabulary | secondary | spaced-repetition-for-language-learning | unverified |
 | spaced repetition vs cramming vocabulary | long-tail | spaced-repetition-for-language-learning | unverified |
 | spacing effect study method | secondary | spaced-repetition-for-language-learning | unverified |
+| special app access | secondary | android-app-permissions-explained | unverified |
+| special teams hockey | secondary | power-play-and-penalty-kill | unverified |
+| speech segmentation language | secondary | listening-practice-in-a-new-language | unverified |
+| speech shadowing method | secondary | shadowing-technique-explained | unverified |
 | split decision vs majority decision | secondary | boxing-scoring-explained | unverified |
+| sports game formats | secondary | career-sim-vs-manager-game | unverified |
+| sports game injury system | secondary | injuries-in-sports-career-games | unverified |
+| sports game playing time | secondary | coach-trust-and-playing-time | unverified |
 | sports games that work without wifi | secondary | best-offline-sports-games-android | unverified |
 | sports gm game five minutes | secondary | best-sports-manager-games-for-short-sessions | unverified |
 | sports gm games no wifi | primary | sports-gm-games-without-internet | unverified |
@@ -667,19 +1341,47 @@ overlap — usually fine, but worth a look for cannibalisation.
 | sports management games you can play in five minutes | long-tail | best-sports-manager-games-for-short-sessions | unverified |
 | sports manager games for phone | primary | best-sports-manager-games-for-short-sessions | unverified |
 | sports manager games that work without internet | long-tail | sports-gm-games-without-internet | unverified |
+| sports rpg android | secondary | how-to-choose-a-sports-career-sim | unverified |
+| sports rpg progression | secondary | how-player-career-modes-work | unverified |
+| sports sim comparison | secondary | career-sim-vs-manager-game | unverified |
 | sports simulation engine explained | secondary | how-sports-simulation-engines-work | unverified |
 | sports simulation probability | primary | understanding-sports-sim-probability | unverified |
+| sports team rebuild strategy | secondary | rebuild-vs-retool | unverified |
 | squad builder simulator | secondary | soccer-draft-xi-guide | unverified |
+| srt vs ass subtitles | secondary | subtitle-formats-explained | unverified |
 | standard malay bahasa melayu | secondary | malay-vs-indonesian-differences | unverified |
+| starter vs reliever vs closer | primary | baseball-pitching-roles-explained | unverified |
+| starting a ketogenic diet | secondary | keto-flu-explained | unverified |
 | starting six roster builder | secondary | hockey-draft-gm-guide | unverified |
+| starting xi career game | secondary | soccer-career-sim-guide | unverified |
 | stat based baseball draft | secondary | baseball-draft-gm-guide | unverified |
 | stone bronze iron age order | secondary | major-eras-of-world-history | unverified |
+| stroke play vs match play | secondary | golf-scoring-explained | unverified |
+| stuck at b1 | secondary | language-learning-plateau | unverified |
+| study streak motivation | secondary | building-a-daily-practice-habit | unverified |
+| subtitle encoding problems | secondary | subtitle-formats-explained | unverified |
+| subtitle formats | primary | subtitle-formats-explained | unverified |
+| sugar alcohol side effects | secondary | sugar-alcohols-explained | unverified |
+| sugar alcohols | primary | sugar-alcohols-explained | unverified |
+| sugar alcohols net carbs | secondary | sugar-alcohols-explained | unverified |
+| sugar free label | secondary | sugar-alcohols-explained | unverified |
+| sugar in fruit and milk | secondary | added-sugars-vs-total-sugars | unverified |
+| surround sound on phone | secondary | audio-codecs-explained | unverified |
 | survival game pacing | secondary | wave-survival-game-design | unverified |
 | survival mode quiz | secondary | anime-trivia-quiz-guide | unverified |
 | survival roguelike tips | secondary | zombie-survival-roguelike-guide | unverified |
+| survival vs scoring play | secondary | score-attack-strategy | unverified |
+| survivor-like games | secondary | horde-survival-vs-wave-shooter | unverified |
+| synergy game design | secondary | power-ups-and-build-design | unverified |
+| tai kadai languages | secondary | lao-vs-thai-differences | unverified |
+| tanking in sports | secondary | how-draft-lotteries-work | unverified |
+| tdee explained | primary | tdee-and-energy-balance | unverified |
 | team building gm mode | secondary | how-to-build-a-balanced-basketball-roster | unverified |
+| telegraphed attacks games | secondary | boss-pattern-recognition | unverified |
+| tertiary sources | secondary | primary-vs-secondary-sources | unverified |
 | test your anime knowledge | secondary | anime-trivia-quiz-guide | unverified |
 | text based basketball simulation | secondary | basketball-career-sim-guide | unverified |
+| text coverage vocabulary | secondary | how-many-words-to-be-conversational | unverified |
 | thai alphabet for beginners | secondary | learn-thai-script-beginners-guide | unverified |
 | thai app for beginners | secondary | learn-thai-script-beginners-guide | unverified |
 | thai consonant classes | secondary | learn-thai-script-beginners-guide, thai-tones-explained | unverified |
@@ -690,181 +1392,479 @@ overlap — usually fine, but worth a look for cannibalisation.
 | thai tone marks | secondary | thai-tones-explained | unverified |
 | thai tone rules | secondary | learn-thai-script-beginners-guide, thai-tones-explained | unverified |
 | thai tones explained | primary | thai-tones-explained | unverified |
+| thermal throttling phone games | secondary | battery-and-performance-in-mobile-games | unverified |
+| third party sdk data | secondary | google-play-data-safety-explained | unverified |
+| thumb occlusion screen | secondary | auto-fire-and-touch-controls | unverified |
+| time on ice stat | secondary | plus-minus-and-hockey-stats | unverified |
 | time restricted eating window | secondary | intermittent-fasting-windows-explained | unverified |
+| tonal language examples | secondary | what-is-a-tonal-language | unverified |
+| tone perception training | secondary | what-is-a-tonal-language | unverified |
+| total bases baseball | secondary | ops-and-slugging-explained | unverified |
+| total daily energy expenditure | secondary | tdee-and-energy-balance | unverified |
+| touch icing vs no touch | secondary | what-is-icing-in-hockey | unverified |
+| touchscreen input design | secondary | auto-fire-and-touch-controls | unverified |
 | traditional characters cantonese | secondary | learn-cantonese-beginners-guide | unverified |
 | traditional vs simplified characters | secondary | cantonese-vs-mandarin-differences | unverified |
+| transfer fee explained | secondary | transfers-and-contracts-explained | unverified |
+| transfer window explained | secondary | transfers-and-contracts-explained | unverified |
+| trivia question design | secondary | how-quiz-difficulty-works | unverified |
+| true shooting percentage | secondary | basketball-advanced-stats-explained | unverified |
 | two way forward meaning | secondary | hockey-positions-explained | unverified |
+| two way player career | secondary | baseball-career-sim-guide | unverified |
+| two way player career mode | secondary | two-way-players-explained | unverified |
+| two way player rules | secondary | two-way-players-explained | unverified |
+| typing vietnamese | secondary | vietnamese-alphabet-explained | unverified |
+| under par explained | secondary | golf-scoring-explained | unverified |
 | unified rules weight classes | secondary | mma-weight-classes-explained | unverified |
+| unprotected players draft | secondary | expansion-drafts-explained | unverified |
+| upgrade choice design | secondary | power-ups-and-build-design | unverified |
+| usage rate basketball | secondary | basketball-advanced-stats-explained | unverified |
+| usda fooddata central | secondary | why-food-databases-disagree | unverified |
+| value structure colouring | secondary | color-palettes-for-anime-art | unverified |
 | variance in sports simulation | secondary | understanding-sports-sim-probability | unverified |
+| vegetarian protein target | secondary | how-to-hit-a-protein-goal | unverified |
+| vegetarian protein tracking | secondary | plant-vs-animal-protein | unverified |
 | video codecs explained | primary | video-codecs-explained | unverified |
+| video conversion quality loss | secondary | remuxing-vs-transcoding | unverified |
+| video decoder android | secondary | hardware-vs-software-decoding | unverified |
 | video file formats explained | primary | video-file-formats-explained | unverified |
 | video player with 0.5x and 2x speed on android | long-tail | android-video-players-compared | unverified |
 | video player with speed control android | secondary | android-video-players-compared | unverified |
 | video plays audio but no picture | secondary | android-video-player-guide | unverified |
+| video upscaling quality | secondary | frame-rate-and-resolution-explained | unverified |
+| vietnamese alphabet | primary | vietnamese-alphabet-explained | unverified |
+| vietnamese basics | secondary | learn-vietnamese-beginners-guide | unverified |
+| vietnamese beginner course | secondary | learn-vietnamese-beginners-guide | unverified |
+| vietnamese diacritics | secondary | vietnamese-tones-explained | unverified |
+| vietnamese diacritics explained | secondary | vietnamese-alphabet-explained | unverified |
+| vietnamese difficulty english speakers | secondary | is-vietnamese-hard-to-learn | unverified |
+| vietnamese for english speakers | secondary | learn-vietnamese-beginners-guide | unverified |
+| vietnamese forms of address | secondary | vietnamese-pronouns-explained | unverified |
+| vietnamese grammar difficulty | secondary | is-vietnamese-hard-to-learn | unverified |
+| vietnamese kinship terms | secondary | vietnamese-pronouns-explained | unverified |
+| vietnamese letters | secondary | vietnamese-alphabet-explained | unverified |
+| vietnamese politeness | secondary | vietnamese-pronouns-explained | unverified |
+| vietnamese pronouns | primary | vietnamese-pronouns-explained | unverified |
+| vietnamese pronunciation tones | secondary | vietnamese-tones-explained | unverified |
+| vietnamese study plan | secondary | learn-vietnamese-beginners-guide | unverified |
+| vietnamese tôi meaning | secondary | vietnamese-pronouns-explained | unverified |
+| vietnamese tone marks | secondary | vietnamese-tones-explained | unverified |
+| vietnamese tones explained | primary | vietnamese-tones-explained | unverified |
+| vietnamese vowel marks | secondary | vietnamese-alphabet-explained | unverified |
+| vietnamese vs thai difficulty | secondary | is-vietnamese-hard-to-learn | unverified |
+| virtual joystick problems | secondary | auto-fire-and-touch-controls | unverified |
 | vlc for android alternative | secondary | android-video-players-compared | unverified |
 | vlc vs regal video player | comparison | android-video-players-compared | unverified |
+| vocabulary puzzle tips | secondary | word-game-strategy-guide | unverified |
+| vocabulary size for conversation | secondary | how-many-words-to-be-conversational | unverified |
+| walks and hits per inning pitched | secondary | what-is-whip-in-baseball | unverified |
 | warm and cool colors | secondary | color-theory-for-beginners | unverified |
 | wave based game design | secondary | wave-survival-game-design | unverified |
 | wave based shooter android | secondary | space-shooter-arcade-guide | unverified |
+| wave shooter meaning | secondary | horde-survival-vs-wave-shooter | unverified |
 | wave survival games | primary | wave-survival-game-design | unverified |
 | webm vs matroska | secondary | video-file-formats-explained | unverified |
+| webvtt explained | secondary | subtitle-formats-explained | unverified |
+| weighted draft lottery | secondary | how-draft-lotteries-work | unverified |
+| what are flats in coloring | primary | line-art-and-flats-explained | unverified |
+| what are lao consonant classes | long-tail | lao-alphabet-explained | unverified |
+| what are special permissions on android | long-tail | android-app-permissions-explained | unverified |
+| what are sugar alcohols on a nutrition label | long-tail | sugar-alcohols-explained | unverified |
 | what are the berlin interpretation factors | long-tail | what-makes-a-roguelike | unverified |
 | what are the five positions in basketball | long-tail | basketball-positions-explained | unverified |
+| what are the most useful letter patterns | long-tail | word-game-strategy-guide | unverified |
 | what are the six cases in russian | long-tail | russian-cases-explained-for-beginners | unverified |
+| what are the three italian conjugations | long-tail | italian-verb-conjugation-basics | unverified |
+| what can a teacher do that an app cannot | long-tail | learning-a-language-without-a-teacher | unverified |
+| what can you do at b1 level | long-tail | cefr-levels-explained | unverified |
+| what career sim is best for someone new to the sport | long-tail | how-to-choose-a-sports-career-sim | unverified |
+| what causes keto flu | long-tail | keto-flu-explained | unverified |
+| what comes with plant protein besides protein | long-tail | plant-vs-animal-protein | unverified |
+| what counts as added sugar | secondary | added-sugars-vs-total-sugars | unverified |
+| what counts as an earned run | long-tail | what-is-era-in-baseball | unverified |
 | what do boxing judges actually look for | long-tail | boxing-scoring-explained | unverified |
+| what do old style and new style dates mean | long-tail | how-calendars-and-dating-systems-work | unverified |
 | what do small moderate and large mean on a ketone strip | long-tail | what-is-a-ketone-reading | unverified |
 | what do the columns in a football table mean | long-tail | how-soccer-league-tables-work | unverified |
+| what do the vietnamese tone marks look like | long-tail | vietnamese-tones-explained | unverified |
 | what does 120-108 mean on a boxing scorecard | long-tail | boxing-scoring-explained | unverified |
 | what does 16 8 intermittent fasting actually mean | long-tail | intermittent-fasting-windows-explained | unverified |
 | what does 38-0-0 mean in a soccer sim | long-tail | soccer-draft-xi-guide | unverified |
+| what does 4 under par mean | long-tail | golf-scoring-explained | unverified |
 | what does 4-2-3-1 mean | secondary | soccer-formations-explained | unverified |
 | what does a centre do in hockey | secondary | hockey-positions-explained | unverified |
+| what does a closer do | secondary | baseball-pitching-roles-explained | unverified |
+| what does a defensive midfielder do | secondary | soccer-positions-explained | unverified |
+| what does a hockey goalie actually control | long-tail | hockey-goaltending-explained | unverified |
+| what does a number 10 do in soccer | long-tail | soccer-positions-explained | unverified |
 | what does a point guard do | secondary | basketball-positions-explained | unverified |
 | what does a stay at home defenceman do | long-tail | hockey-positions-explained | unverified |
 | what does a tight end do | secondary | football-positions-explained-for-drafting | unverified |
+| what does a two way player do on off days | long-tail | two-way-players-explained | unverified |
+| what does a whip of 1.00 mean | long-tail | what-is-whip-in-baseball | unverified |
+| what does auto fire solve in mobile games | long-tail | auto-fire-and-touch-controls | unverified |
+| what does b2 mean | secondary | cefr-levels-explained | unverified |
+| what does bce and ce mean | primary | bce-and-ce-explained | unverified |
 | what does calibrated radiocarbon date mean | long-tail | how-historians-date-events | unverified |
 | what does circa mean in history | secondary | how-historians-date-events | unverified |
+| what does contains ads mean on google play | long-tail | why-free-android-games-show-ads | unverified |
+| what does cour mean in anime | long-tail | anime-terminology-glossary | unverified |
 | what does depth actually do for a basketball team | long-tail | how-to-build-a-balanced-basketball-roster | unverified |
+| what does depth chart mean in sports | long-tail | depth-charts-explained | unverified |
 | what does each football position do for beginners | long-tail | football-positions-explained-for-drafting | unverified |
 | what does excellent source of protein mean on a label | long-tail | protein-sources-compared | unverified |
+| what does flattening lottery odds do | long-tail | how-draft-lotteries-work | unverified |
+| what does flatting mean in comics | long-tail | line-art-and-flats-explained | unverified |
 | what does fsi category 3 mean | long-tail | how-long-does-it-take-to-learn-russian | unverified |
 | what does gd mean in soccer | secondary | how-soccer-league-tables-work | unverified |
 | what does isekai actually mean | long-tail | anime-genres-explained | unverified |
+| what does leverage mean in football coverage | long-tail | reading-a-defense-basics | unverified |
 | what does line chemistry mean in hockey | long-tail | hockey-line-combinations-explained | unverified |
+| what does ova mean | secondary | anime-terminology-glossary | unverified |
+| what does ova stand for in anime | long-tail | anime-terminology-glossary | unverified |
 | what does p w d l mean | secondary | how-soccer-league-tables-work | unverified |
 | what does percent daily value mean | secondary | reading-nutrition-labels | unverified |
+| what does plus minus mean | secondary | plus-minus-and-hockey-stats | unverified |
+| what does servings per container mean | long-tail | serving-size-vs-portion-size | unverified |
 | what does shojo mean | secondary | anime-genres-explained | unverified |
+| what does short sided mean in golf | long-tail | golf-course-management-basics | unverified |
 | what does streaming mean in bullet hell | long-tail | bullet-hell-vs-classic-shmup | unverified |
+| what does the data safety section tell you | long-tail | google-play-data-safety-explained | unverified |
+| what does the leadoff hitter do | long-tail | batting-order-strategy-explained | unverified |
+| what does usage rate mean | long-tail | basketball-advanced-stats-explained | unverified |
 | what does war mean in baseball | secondary | baseball-stats-explained-for-beginners | unverified |
 | what does whip mean in baseball | secondary | baseball-draft-gm-guide | unverified |
+| what electrolytes matter on keto | long-tail | electrolytes-on-low-carb | unverified |
+| what happens after an icing call | long-tail | what-is-icing-in-hockey | unverified |
+| what happens if two teams have the same goal difference | long-tail | goal-difference-and-tiebreakers | unverified |
+| what happens if you miss the cut | long-tail | how-a-golf-cut-works | unverified |
+| what happens if you use the wrong vietnamese pronoun | long-tail | vietnamese-pronouns-explained | unverified |
+| what happens to extra protein in a meal | long-tail | protein-per-meal-explained | unverified |
 | what happens to my food log if i stop paying | long-tail | protein-tracking-apps-compared | unverified |
+| what happens when a contract runs down | long-tail | transfers-and-contracts-explained | unverified |
 | what happens when a fighter misses weight | long-tail | mma-weight-classes-explained | unverified |
+| what hockey stats actually measure a player | long-tail | plus-minus-and-hockey-stats | unverified |
 | what inputs does a sports simulation use | long-tail | how-sports-simulation-engines-work | unverified |
 | what is 5 percent daily value rule | long-tail | reading-nutrition-labels | unverified |
 | what is a 10-8 round in boxing | secondary | boxing-scoring-explained | unverified |
 | what is a checking line in hockey | long-tail | hockey-line-combinations-explained | unverified |
+| what is a clean sheet | primary | clean-sheets-explained | unverified |
+| what is a codec profile and level | long-tail | hardware-vs-software-decoding | unverified |
 | what is a coeng in khmer script | long-tail | khmer-script-explained | unverified |
+| what is a compensatory pick | long-tail | how-football-draft-order-works | unverified |
 | what is a dead syllable in thai | long-tail | thai-tones-explained | unverified |
+| what is a depth chart | secondary | depth-charts-explained | unverified |
+| what is a distractor in a quiz | long-tail | how-quiz-difficulty-works | unverified |
 | what is a double pivot in soccer | long-tail | soccer-formations-explained | unverified |
+| what is a dual threat quarterback | long-tail | quarterback-archetypes-explained | unverified |
+| what is a five on three | long-tail | power-play-and-penalty-kill | unverified |
 | what is a forward line in hockey | secondary | hockey-line-combinations-explained | unverified |
 | what is a game in hand in football | long-tail | how-soccer-league-tables-work | unverified |
+| what is a good era for a pitcher | long-tail | what-is-era-in-baseball | unverified |
+| what is a good ops | long-tail | ops-and-slugging-explained | unverified |
 | what is a good whip for a pitcher | long-tail | baseball-stats-explained-for-beginners | unverified |
+| what is a holding midfielder | long-tail | soccer-positions-explained | unverified |
 | what is a ketone reading | secondary | what-is-a-ketone-reading | unverified |
 | what is a legacy score in a career mode | long-tail | basketball-career-sim-guide | unverified |
+| what is a light novel adaptation | long-tail | anime-terminology-glossary | unverified |
 | what is a limited draft format | long-tail | football-draft-gm-guide | unverified |
+| what is a limiting amino acid | long-tail | complete-vs-incomplete-proteins | unverified |
 | what is a maximum bid in an auction draft | long-tail | snake-draft-vs-auction-draft | unverified |
+| what is a pocket passer | long-tail | quarterback-archetypes-explained | unverified |
+| what is a primary source | secondary | primary-vs-secondary-sources | unverified |
 | what is a projected season record in a sim | long-tail | baseball-draft-gm-guide | unverified |
+| what is a protection list | long-tail | expansion-drafts-explained | unverified |
+| what is a release clause | long-tail | transfers-and-contracts-explained | unverified |
+| what is a restricted free agent | long-tail | free-agency-explained | unverified |
+| what is a rewarded ad | long-tail | why-free-android-games-show-ads | unverified |
 | what is a roguelike | primary | what-makes-a-roguelike | unverified |
+| what is a serving size | secondary | serving-size-vs-portion-size | unverified |
+| what is a setup man in baseball | long-tail | baseball-pitching-roles-explained | unverified |
 | what is a small forward | secondary | basketball-positions-explained | unverified |
+| what is a soft subtitle | long-tail | subtitle-formats-explained | unverified |
+| what is a survivor-like game | long-tail | horde-survival-vs-wave-shooter | unverified |
 | what is a sweeper keeper | long-tail | soccer-formations-explained | unverified |
+| what is a telegraph in a boss fight | long-tail | boss-pattern-recognition | unverified |
+| what is a tertiary source | long-tail | primary-vs-secondary-sources | unverified |
+| what is a tonal language | primary | what-is-a-tonal-language | unverified |
+| what is a two way player in baseball | primary | two-way-players-explained | unverified |
 | what is a video container | secondary | video-file-formats-explained | unverified |
+| what is an albatross in golf | long-tail | golf-scoring-explained | unverified |
+| what is anabolic resistance | long-tail | protein-for-older-adults | unverified |
+| what is audio passthrough | long-tail | audio-codecs-explained | unverified |
 | what is av1 codec | secondary | video-codecs-explained | unverified |
 | what is bullet hell | secondary | bullet-hell-vs-classic-shmup | unverified |
 | what is cap space | secondary | salary-cap-basics-for-gm-games | unverified |
 | what is career mode in sports games | secondary | career-mode-vs-franchise-mode | unverified |
 | what is catch weight in mma | secondary | mma-weight-classes-explained | unverified |
+| what is cel shading in anime | long-tail | anime-art-styles-explained | unverified |
+| what is chunking in memory | long-tail | memory-techniques-that-work | unverified |
+| what is coach trust in a football career sim | long-tail | soccer-career-sim-guide | unverified |
+| what is comprehensible input in language learning | long-tail | comprehensible-input-explained | unverified |
 | what is dead money in a sports contract | long-tail | salary-cap-basics-for-gm-games | unverified |
-| what is era in baseball | secondary | baseball-stats-explained-for-beginners | unverified |
+| what is dictation practice good for | long-tail | listening-practice-in-a-new-language | unverified |
+| what is dynamic difficulty adjustment | long-tail | difficulty-curves-explained | unverified |
+| what is era in baseball | secondary | baseball-stats-explained-for-beginners, what-is-era-in-baseball | unverified |
 | what is franchise mode | secondary | career-mode-vs-franchise-mode | unverified |
+| what is front end estimation | long-tail | estimation-techniques-explained | unverified |
+| what is hybrid icing | long-tail | what-is-icing-in-hockey | unverified |
+| what is icing in hockey | primary | what-is-icing-in-hockey | unverified |
 | what is inside a video container file | long-tail | video-file-formats-explained | unverified |
+| what is judder video | secondary | frame-rate-and-resolution-explained | unverified |
+| what is neat energy expenditure | long-tail | tdee-and-energy-balance | unverified |
+| what is opportunity gating in a sports game | long-tail | how-player-career-modes-work | unverified |
+| what is ops in baseball | primary | ops-and-slugging-explained | unverified |
+| what is par in golf | secondary | golf-scoring-explained | unverified |
 | what is periodisation in history | secondary | major-eras-of-world-history | unverified |
 | what is positional scarcity in fantasy drafting | long-tail | basketball-draft-gm-guide | unverified |
+| what is remuxing | secondary | remuxing-vs-transcoding | unverified |
 | what is replacement level in fantasy drafting | long-tail | how-fantasy-draft-strategy-works | unverified |
 | what is the best spaced repetition interval | long-tail | spaced-repetition-for-language-learning | unverified |
+| what is the cut in golf | primary | how-a-golf-cut-works | unverified |
+| what is the difference between a and ă and â | long-tail | vietnamese-alphabet-explained | unverified |
+| what is the difference between a career sim and a manager game | long-tail | career-sim-vs-manager-game | unverified |
+| what is the difference between a clean sheet and a shutout | long-tail | clean-sheets-explained | unverified |
 | what is the difference between a codec and an encoder | long-tail | video-codecs-explained | unverified |
 | what is the difference between a container and a codec | long-tail | android-video-player-guide | unverified |
 | what is the difference between a draft board and a ranking list | long-tail | what-makes-a-good-draft-board | unverified |
 | what is the difference between a free safety and a strong safety | long-tail | football-positions-explained-for-drafting | unverified |
+| what is the difference between a full back and a wing back | long-tail | soccer-positions-explained | unverified |
 | what is the difference between a hard cap and a soft cap | long-tail | salary-cap-basics-for-gm-games | unverified |
+| what is the difference between a lunar and solar calendar | long-tail | how-calendars-and-dating-systems-work | unverified |
+| what is the difference between a rebuild and a retool | long-tail | rebuild-vs-retool | unverified |
 | what is the difference between a roguelike and a roguelite | long-tail | what-makes-a-roguelike | unverified |
 | what is the difference between a shooting guard and a small forward | long-tail | basketball-positions-explained | unverified |
+| what is the difference between a starter and a reliever | long-tail | baseball-pitching-roles-explained | unverified |
+| what is the difference between active and passive vocabulary | long-tail | how-many-words-to-be-conversational | unverified |
+| what is the difference between av1 and hevc | long-tail | av1-on-android-explained | unverified |
+| what is the difference between bce and bc | long-tail | bce-and-ce-explained | unverified |
+| what is the difference between bmr and tdee | long-tail | tdee-and-energy-balance | unverified |
+| what is the difference between cefr and actfl | long-tail | cefr-levels-explained | unverified |
+| what is the difference between collected and shared data | long-tail | google-play-data-safety-explained | unverified |
+| what is the difference between glycemic index and glycemic load | long-tail | glycemic-index-and-load | unverified |
+| what is the difference between horde survival and wave shooters | long-tail | horde-survival-vs-wave-shooter | unverified |
+| what is the difference between install time and runtime permissions | long-tail | android-app-permissions-explained | unverified |
+| what is the difference between interlaced and progressive | long-tail | frame-rate-and-resolution-explained | unverified |
+| what is the difference between lossy and lossless audio | long-tail | audio-codecs-explained | unverified |
 | what is the difference between mp4 and mkv | long-tail | video-file-formats-explained | unverified |
+| what is the difference between percent and percentage points | long-tail | percentages-in-your-head | unverified |
+| what is the difference between remuxing and transcoding | long-tail | remuxing-vs-transcoding | unverified |
 | what is the difference between shojo and josei | long-tail | anime-genres-explained | unverified |
+| what is the difference between shonen and seinen | long-tail | anime-terminology-glossary | unverified |
+| what is the difference between srt and ass subtitles | long-tail | subtitle-formats-explained | unverified |
+| what is the difference between stroke play and match play | long-tail | golf-scoring-explained | unverified |
+| what is the difference between tone and intonation | long-tail | what-is-a-tonal-language | unverified |
+| what is the difference between total sugars and added sugars | long-tail | added-sugars-vs-total-sugars | unverified |
 | what is the difference between value and saturation | long-tail | color-theory-for-beginners | unverified |
+| what is the doubling and halving method | long-tail | multiplication-shortcuts-explained | unverified |
+| what is the hardest part of learning vietnamese | long-tail | is-vietnamese-hard-to-learn | unverified |
 | what is the hardest part of thai for english speakers | long-tail | is-thai-hard-to-learn | unverified |
 | what is the hardest position in hockey | long-tail | hockey-positions-explained | unverified |
-| what is whip in baseball | secondary | baseball-stats-explained-for-beginners | unverified |
+| what is the worst roster position to be in | long-tail | rebuild-vs-retool | unverified |
+| what is thermal throttling on a phone | long-tail | battery-and-performance-in-mobile-games | unverified |
+| what is true shooting percentage | long-tail | basketball-advanced-stats-explained | unverified |
+| what is whip in baseball | secondary | baseball-stats-explained-for-beginners, what-is-whip-in-baseball | unverified |
 | what is working memory | primary | working-memory-and-training | unverified |
 | what makes a good trivia question | long-tail | anime-trivia-quiz-guide | unverified |
+| what makes a mobile control scheme good | long-tail | auto-fire-and-touch-controls | unverified |
+| what makes a protein complete | long-tail | complete-vs-incomplete-proteins | unverified |
+| what makes a quiz question hard | long-tail | how-quiz-difficulty-works | unverified |
+| what makes a source primary | long-tail | primary-vs-secondary-sources | unverified |
 | what makes an endless mode work | long-tail | wave-survival-game-design | unverified |
+| what makes an upgrade choice interesting | long-tail | power-ups-and-build-design | unverified |
+| what makes different anime styles look different | long-tail | anime-art-styles-explained | unverified |
+| what makes difficulty feel fair | long-tail | difficulty-curves-explained | unverified |
+| what material should you shadow | long-tail | shadowing-technique-explained | unverified |
+| what moment counts for offside | long-tail | how-the-offside-rule-works | unverified |
 | what order should i color a picture in | long-tail | digital-coloring-techniques | unverified |
+| what order should you colour in | long-tail | line-art-and-flats-explained | unverified |
+| what percentage of a language do the most common words cover | long-tail | how-many-words-to-be-conversational | unverified |
+| what position should i pick in a baseball career sim | long-tail | baseball-career-sim-guide | unverified |
 | what separates prehistory from history | long-tail | major-eras-of-world-history | unverified |
+| what should i learn first in italian | long-tail | learn-italian-beginners-guide | unverified |
+| what should i learn first in lao | long-tail | learn-lao-beginners-guide | unverified |
+| what should i learn first in vietnamese | long-tail | learn-vietnamese-beginners-guide | unverified |
+| what to do after missing a day | long-tail | building-a-daily-practice-habit | unverified |
 | what was the first shoot em up game | long-tail | history-of-shoot-em-up-games | unverified |
+| when did countries switch to the gregorian calendar | long-tail | how-calendars-and-dating-systems-work | unverified |
 | when did the middle ages start and end | secondary | major-eras-of-world-history | unverified |
 | when do judges score a round 10-8 in boxing | long-tail | boxing-scoring-explained | unverified |
+| when do you have to re-encode a video | long-tail | remuxing-vs-transcoding | unverified |
+| when do you use lo instead of il | long-tail | italian-articles-and-gender | unverified |
+| when is a player offside | secondary | how-the-offside-rule-works | unverified |
+| when is estimating better than calculating | long-tail | estimation-techniques-explained | unverified |
+| when is it worth going for a par 5 in two | long-tail | golf-course-management-basics | unverified |
+| when should a gm sign a free agent | long-tail | free-agency-explained | unverified |
+| when should a quarterback audible | long-tail | reading-a-defense-basics | unverified |
 | when should you deviate from your draft board | long-tail | what-makes-a-good-draft-board | unverified |
+| when should you see a doctor on a keto diet | long-tail | keto-flu-explained | unverified |
+| when should you take a risk for points | long-tail | score-attack-strategy | unverified |
+| when to attack a pin | secondary | golf-course-management-basics | unverified |
+| when to rebuild a team | secondary | rebuild-vs-retool | unverified |
 | when to use ultimate in an arcade shooter | long-tail | space-shooter-arcade-guide | unverified |
 | which app teaches cantonese properly | long-tail | language-learning-apps-compared | unverified |
+| which arcade structure suits short sessions | long-tail | horde-survival-vs-wave-shooter | unverified |
+| which career sim lets you play as a goalie | long-tail | how-to-choose-a-sports-career-sim | unverified |
 | which draft format is better | secondary | snake-draft-vs-auction-draft | unverified |
+| which food database is most accurate | long-tail | why-food-databases-disagree | unverified |
 | which foods have the most protein per serving | long-tail | protein-sources-compared | unverified |
 | which football positions matter most in a draft | long-tail | football-positions-explained-for-drafting | unverified |
+| which golf skills should you train first | long-tail | golf-career-sim-guide | unverified |
+| which hockey position is best for a first career | long-tail | hockey-career-sim-guide | unverified |
 | which is harder cantonese or mandarin | long-tail | cantonese-vs-mandarin-differences | unverified |
+| which italian verbs should i learn first | long-tail | italian-verb-conjugation-basics | unverified |
 | which keto app calculates net carbs automatically | long-tail | low-carb-tracking-apps-compared | unverified |
+| which languages are tonal | long-tail | what-is-a-tonal-language | unverified |
+| which letters are most common in english | long-tail | word-game-strategy-guide | unverified |
+| which plant foods are complete proteins | long-tail | complete-vs-incomplete-proteins | unverified |
+| which plant foods are highest in protein | long-tail | plant-vs-animal-protein | unverified |
 | which protein tracking app is free without a subscription | long-tail | protein-tracking-apps-compared | unverified |
+| which quarterback archetype is best for a first career | long-tail | football-career-sim-guide | unverified |
+| which quarterback archetype is easiest to play | long-tail | quarterback-archetypes-explained | unverified |
 | which russian letters look like english letters | long-tail | learn-russian-cyrillic-beginners-guide | unverified |
 | which should i learn malay or indonesian | secondary | malay-vs-indonesian-differences | unverified |
+| which soccer position should i play | long-tail | soccer-positions-explained | unverified |
+| which sports career sim has the shortest sessions | long-tail | how-to-choose-a-sports-career-sim | unverified |
+| which sports career sim to play | primary | how-to-choose-a-sports-career-sim | unverified |
+| which sports game format | secondary | career-sim-vs-manager-game | unverified |
+| which sports game format is better for short sessions | long-tail | career-sim-vs-manager-game | unverified |
 | which sports game mode has more decisions | long-tail | career-mode-vs-franchise-mode | unverified |
+| which sugar alcohols are best tolerated | long-tail | sugar-alcohols-explained | unverified |
+| whip calculation baseball | secondary | what-is-whip-in-baseball | unverified |
+| whip vs era | secondary | what-is-whip-in-baseball | unverified |
 | who should not try intermittent fasting | long-tail | intermittent-fasting-windows-explained | unverified |
+| why am i not starting in career mode | long-tail | coach-trust-and-playing-time | unverified |
+| why are arcade games hard | secondary | difficulty-curves-explained | unverified |
 | why are basketball positions numbered 1 to 5 | long-tail | basketball-positions-explained | unverified |
+| why are common italian verbs irregular | long-tail | italian-verb-conjugation-basics | unverified |
 | why are khmer letters stacked on top of each other | long-tail | khmer-script-explained | unverified |
+| why are per game stats misleading | long-tail | basketball-advanced-stats-explained | unverified |
 | why are roguelike games so replayable | long-tail | zombie-survival-roguelike-guide | unverified |
+| why are some expansion teams good immediately | long-tail | expansion-drafts-explained | unverified |
+| why are some multiple choice questions easy to guess | long-tail | how-quiz-difficulty-works | unverified |
+| why are special teams important in hockey | long-tail | power-play-and-penalty-kill | unverified |
 | why are the primary colors different on a screen | long-tail | color-theory-for-beginners | unverified |
+| why are two way players so rare in baseball | long-tail | two-way-players-explained | unverified |
 | why can i not hear cantonese tone 2 and tone 5 | long-tail | cantonese-tones-explained | unverified |
+| why can i read but not understand speech | long-tail | listening-practice-in-a-new-language | unverified |
 | why did my macro percentages change when i ate less | long-tail | keto-macros-explained | unverified |
+| why do anime eyes vary so much | long-tail | anime-art-styles-explained | unverified |
+| why do arcade games get hard so quickly | long-tail | difficulty-curves-explained | unverified |
+| why do beginner methods stop working | long-tail | language-learning-plateau | unverified |
 | why do bullet hell games feel unfair | long-tail | space-shooter-arcade-guide | unverified |
 | why do career modes feel slower than franchise modes | long-tail | career-mode-vs-franchise-mode | unverified |
+| why do career modes include injuries at all | long-tail | injuries-in-sports-career-games | unverified |
+| why do closers only pitch one inning | long-tail | baseball-pitching-roles-explained | unverified |
+| why do clubs pay transfer fees | long-tail | transfers-and-contracts-explained | unverified |
 | why do coaches change lines | secondary | hockey-line-combinations-explained | unverified |
+| why do defensive players have bad plus minus | long-tail | plus-minus-and-hockey-stats | unverified |
 | why do enemies spawn behind you | long-tail | wave-survival-game-design | unverified |
+| why do estimates for learning italian vary | long-tail | how-long-to-learn-italian | unverified |
+| why do free agents get overpaid | long-tail | free-agency-explained | unverified |
+| why do free apps have ads | primary | why-free-android-games-show-ads | unverified |
+| why do games drain phone battery so fast | long-tail | battery-and-performance-in-mobile-games | unverified |
+| why do golf tournaments have a cut | long-tail | how-a-golf-cut-works | unverified |
 | why do historians disagree about when the middle ages ended | long-tail | major-eras-of-world-history | unverified |
 | why do historical dates change | secondary | how-historians-date-events | unverified |
 | why do historical dates disagree between sources | long-tail | world-history-timeline-guide | unverified |
 | why do hockey coaches shuffle lines mid game | long-tail | hockey-line-combinations-explained | unverified |
+| why do horde games feel relentless | long-tail | horde-survival-vs-wave-shooter | unverified |
 | why do i forget vocabulary i already learned | long-tail | spaced-repetition-for-language-learning | unverified |
+| why do i keep dying at the same boss phase | long-tail | boss-pattern-recognition | unverified |
+| why do i keep missing my protein goal | long-tail | how-to-hit-a-protein-goal | unverified |
 | why do i keep quitting food tracking | long-tail | how-to-track-protein-intake | unverified |
 | why do khmer consonants have two series | long-tail | khmer-script-explained | unverified |
+| why do leagues use a draft lottery | long-tail | how-draft-lotteries-work | unverified |
+| why do leap years exist | long-tail | how-calendars-and-dating-systems-work | unverified |
 | why do malay and indonesian spell words differently | long-tail | malay-vs-indonesian-differences | unverified |
+| why do mobile games hide the screen with your thumbs | long-tail | auto-fire-and-touch-controls | unverified |
 | why do my blood and urine ketone readings disagree | long-tail | what-is-a-ketone-reading | unverified |
 | why do my colors look muddy | long-tail | color-theory-for-beginners | unverified |
+| why do my subtitles show strange characters | long-tail | subtitle-formats-explained | unverified |
+| why do nutrition apps show different values | secondary | why-food-databases-disagree | unverified |
 | why do offline games still ask for a connection | long-tail | best-offline-sports-games-android | unverified |
+| why do protein recommendations differ for older people | long-tail | protein-for-older-adults | unverified |
 | why do researchers disagree about brain training | long-tail | working-memory-and-training | unverified |
 | why do shoot em ups scroll | long-tail | history-of-shoot-em-up-games | unverified |
+| why do some builds feel better than others | long-tail | power-ups-and-build-design | unverified |
 | why do sports leagues have salary caps | long-tail | salary-cap-basics-for-gm-games | unverified |
+| why do sugar alcohols cause digestive problems | long-tail | sugar-alcohols-explained | unverified |
 | why do two apps give different net carbs | long-tail | net-carbs-explained-keto-tracking | unverified |
+| why do two identical career mode saves diverge | long-tail | how-player-career-modes-work | unverified |
+| why do virtual joysticks feel bad | long-tail | auto-fire-and-touch-controls | unverified |
 | why do wave based games get boring | long-tail | wave-survival-game-design | unverified |
+| why do we have leap years | secondary | how-calendars-and-dating-systems-work | unverified |
 | why do wingers play the off wing | long-tail | hockey-positions-explained | unverified |
+| why do you do flats before shading | long-tail | line-art-and-flats-explained | unverified |
+| why do you lose water on a low carb diet | long-tail | electrolytes-on-low-carb | unverified |
+| why does 24fps look juddery on some screens | long-tail | frame-rate-and-resolution-explained | unverified |
 | why does a 20 percent drop then a 20 percent rise not cancel | long-tail | mental-math-tricks-that-work | unverified |
 | why does a label say 0 grams when there is some | long-tail | reading-nutrition-labels | unverified |
+| why does av1 video stutter | long-tail | av1-on-android-explained | unverified |
 | why does fill leave a white outline | secondary | digital-coloring-techniques | unverified |
+| why does italian have so many words for the | long-tail | italian-articles-and-gender | unverified |
 | why does khmer have two consonant series | long-tail | learn-khmer-beginners-guide | unverified |
+| why does language learning slow down at intermediate | long-tail | language-learning-plateau | unverified |
+| why does lao have no spaces between words | long-tail | lao-alphabet-explained | unverified |
 | why does my 10 bit video not play | long-tail | video-codecs-explained | unverified |
 | why does my best roster keep losing in a sim | long-tail | understanding-sports-sim-probability | unverified |
+| why does my calorie calculator not match reality | long-tail | tdee-and-energy-balance | unverified |
+| why does my colouring look muddy | long-tail | color-palettes-for-anime-art | unverified |
 | why does my game need internet to open | long-tail | best-offline-arcade-games-android | unverified |
 | why does my high rated roster keep losing | long-tail | how-to-build-a-balanced-basketball-roster | unverified |
 | why does my mkv file have no video on android | long-tail | android-video-player-guide | unverified |
+| why does my phone get hot playing video | long-tail | hardware-vs-software-decoding | unverified |
+| why does my player stop improving in career mode | long-tail | how-player-career-modes-work | unverified |
 | why does russian cursive look so different | long-tail | learn-russian-cyrillic-beginners-guide | unverified |
 | why does russian have cases | long-tail | russian-cases-explained-for-beginners | unverified |
 | why does thai have 44 consonants | long-tail | learn-thai-script-beginners-guide | unverified |
 | why does thai have 5 tones but 4 tone marks | long-tail | thai-tones-explained | unverified |
 | why does thai have no spaces between words | long-tail | learn-thai-script-beginners-guide | unverified |
+| why does the 20th century start in 1901 | long-tail | bce-and-ce-explained | unverified |
 | why does the better team lose | secondary | understanding-sports-sim-probability | unverified |
 | why does the draft order reverse each round | long-tail | snake-draft-vs-auction-draft | unverified |
 | why does the higher rated fighter lose in a sim | long-tail | mma-boxing-fight-draft-guide | unverified |
+| why does the multiply by 11 trick work | long-tail | multiplication-shortcuts-explained | unverified |
+| why does the same food have different calories in different apps | long-tail | why-food-databases-disagree | unverified |
 | why does the same roster give different results | long-tail | how-sports-simulation-engines-work | unverified |
 | why does the serving size not match what i eat | long-tail | reading-nutrition-labels | unverified |
+| why does the worst team pick first | long-tail | how-football-draft-order-works | unverified |
+| why does video stutter phone | secondary | hardware-vs-software-decoding | unverified |
+| why does vietnamese have so many words for you | long-tail | vietnamese-pronouns-explained | unverified |
+| why does vietnamese use latin letters | long-tail | vietnamese-alphabet-explained | unverified |
+| why has my language progress stopped | secondary | language-learning-plateau | unverified |
+| why is 8 percent of 25 the same as 25 percent of 8 | long-tail | percentages-in-your-head | unverified |
 | why is a perfect season so unlikely | long-tail | understanding-sports-sim-probability | unverified |
 | why is a radiocarbon date given as a range | long-tail | how-historians-date-events | unverified |
 | why is av1 slower to decode | long-tail | video-codecs-explained | unverified |
+| why is era misleading | long-tail | what-is-era-in-baseball | unverified |
+| why is glycemic index criticised | long-tail | glycemic-index-and-load | unverified |
 | why is goal difference used as a tie breaker | long-tail | how-soccer-league-tables-work | unverified |
 | why is heavyweight such a wide weight class | long-tail | mma-weight-classes-explained | unverified |
+| why is icing not called when short handed | long-tail | what-is-icing-in-hockey | unverified |
+| why is listening harder than reading | secondary | listening-practice-in-a-new-language | unverified |
 | why is malay final k a glottal stop | long-tail | malay-pronunciation-guide | unverified |
 | why is my hitbox so small in bullet hell | long-tail | bullet-hell-vs-classic-shmup | unverified |
+| why is ops criticised | long-tail | ops-and-slugging-explained | unverified |
 | why is russian stress not marked | long-tail | learn-russian-cyrillic-beginners-guide | unverified |
+| why is the cleanup spot fourth | long-tail | batting-order-strategy-explained | unverified |
+| why is the goalkeeper not the last defender | long-tail | how-the-offside-rule-works | unverified |
+| why is the serving size on a label so small | long-tail | serving-size-vs-portion-size | unverified |
+| why is there a daily value for added sugars | long-tail | added-sugars-vs-total-sugars | unverified |
 | why is there a white line around my fill | long-tail | digital-coloring-techniques | unverified |
+| why is there no sound on my video file | long-tail | audio-codecs-explained | unverified |
+| why is there no year zero | long-tail | bce-and-ce-explained | unverified |
 | why is war different on different websites | long-tail | baseball-stats-explained-for-beginners | unverified |
+| why teams overpay free agents | secondary | free-agency-explained | unverified |
 | why will my partially downloaded mp4 not play | long-tail | video-file-formats-explained | unverified |
+| why wont my subtitles display | long-tail | subtitle-formats-explained | unverified |
 | wing back formation explained | secondary | soccer-formations-explained | unverified |
+| word frequency language learning | secondary | how-many-words-to-be-conversational | unverified |
+| word game strategy | primary | word-game-strategy-guide | unverified |
+| word puzzle technique | secondary | word-game-strategy-guide | unverified |
 | working memory capacity limit | secondary | working-memory-and-training | unverified |
 | world history timeline for students | secondary | world-history-timeline-guide | unverified |
 | written cantonese vs standard written chinese | secondary | learn-cantonese-beginners-guide | unverified |
 | zombie game no in app purchases | secondary | zombie-survival-roguelike-guide | unverified |
 | zombie survival roguelike android | primary | zombie-survival-roguelike-guide | unverified |
+| zone starts hockey | secondary | plus-minus-and-hockey-stats | unverified |

@@ -5,7 +5,7 @@
   "description": "What a point guard, shooting guard, small forward, power forward and centre each do, why the rulebook never mentions any of them, and what position means today.",
   "status": "published",
   "publishedAt": "2026-08-13",
-  "updatedAt": "2026-08-13",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "sports-gm",
   "tags": [
@@ -88,6 +88,12 @@
       "publisher": "FIBA",
       "url": "https://about.fiba.basketball/en/our-sport/official-basketball-rules",
       "accessed": "2026-08-09"
+    },
+    {
+      "title": "Official Basketball Rules and Basketball Equipment (rule book downloads)",
+      "publisher": "FIBA",
+      "url": "https://www.fiba.basketball/documents",
+      "accessed": "2026-09-03"
     }
   ]
 }

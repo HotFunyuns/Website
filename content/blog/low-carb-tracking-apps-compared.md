@@ -3,12 +3,18 @@
   "title": "Low-Carb Tracking Apps Compared: The Subtraction, the Extras and the Subscription",
   "metaTitle": "Best Keto App: Low-Carb Trackers Compared",
   "description": "Four low-carb trackers compared on net carb conventions, ketone and fasting logs, and where each one puts its paywall. Verified August 2026.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "health-nutrition",
-  "tags": ["keto", "low carb", "net carbs", "app comparison", "nutrition logging"],
+  "tags": [
+    "keto",
+    "low carb",
+    "net carbs",
+    "app comparison",
+    "nutrition logging"
+  ],
   "primaryKeyword": "best keto app",
   "secondaryKeywords": [
     "keto tracker app comparison",
@@ -38,7 +44,10 @@
     "Can an app measure my ketone levels?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["keto-diet-tracker", "protein-diet-tracker"],
+  "relatedApps": [
+    "keto-diet-tracker",
+    "protein-diet-tracker"
+  ],
   "relatedArticles": [
     "net-carbs-explained-keto-tracking",
     "how-to-track-protein-intake",
@@ -52,8 +61,7 @@
     "Check where each vendor puts its paywall before you commit months of entries — in this category the split varies more than the feature lists do."
   ],
   "disclaimer": "comparison",
-  "researchDate": "2026-08-09",
-  "noindex": true,
+  "researchDate": "2026-09-03",
   "featured": false,
   "faqs": [
     {
@@ -74,7 +82,7 @@
     },
     {
       "question": "Does Carb Manager have a free version?",
-      "answer": "Carb Manager's own premium page listed a free Basic account alongside a paid Premium account when we read it on 9 August 2026, and highlighted Premium extras including exclusive recipes, personalised meal plans and a video jumpstart course. The page's own feature table did not draw a clear line between the two tiers, so we have not characterised which individual features are gated. Check their current pricing page directly."
+      "answer": "Carb Manager's own premium page listed a free Basic account alongside a paid Premium account when we read it on 3 September 2026, and highlighted Premium extras including exclusive recipes, personalised meal plans and a video jumpstart course. The page's own feature table did not draw a clear line between the two tiers, so we have not characterised which individual features are gated. Check their current pricing page directly."
     },
     {
       "question": "How many carbs should I eat on a low-carb diet?",
@@ -86,43 +94,43 @@
       "title": "Carb Manager — Keto Diet App & Macros Tracker",
       "publisher": "Wombat Apps LLC",
       "url": "https://www.carbmanager.com/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "Carb Manager Premium",
       "publisher": "Wombat Apps LLC",
       "url": "https://www.carbmanager.com/premium",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "Cronometer Gold — plans and pricing",
       "publisher": "Cronometer Software Inc.",
       "url": "https://cronometer.com/gold/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "Cronometer features",
       "publisher": "Cronometer Software Inc.",
       "url": "https://cronometer.com/features/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "MyFitnessPal Premium",
       "publisher": "MyFitnessPal, Inc.",
       "url": "https://www.myfitnesspal.com/premium",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "Carbohydrates",
       "publisher": "MedlinePlus, U.S. National Library of Medicine",
       "url": "https://medlineplus.gov/carbohydrates.html",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "FoodData Central",
       "publisher": "U.S. Department of Agriculture, Agricultural Research Service",
       "url": "https://fdc.nal.usda.gov/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     }
   ]
 }
@@ -134,7 +142,7 @@ That subtraction is also the reason low-carb comparisons go wrong. People compar
 
 **Disclosure:** this article is published by Reign Creative LLC. We make one of the four apps discussed below — Keto Diet Tracker: Low Carb — so we have a direct commercial interest in you installing it. The comparison is written to remain useful if you choose one of the others, and we have set out below the cases where one of the others is the better fit.
 
-Everything stated here about another company's product was read on that company's own website on **9 August 2026** and is limited to what those pages said. This category changes its packaging frequently; confirm current details with the vendor before deciding.
+Everything stated here about another company's product was read on that company's own website on **3 September 2026** and is limited to what those pages said. This category changes its packaging frequently; confirm current details with the vendor before deciding.
 
 ## The subtraction is the product
 
@@ -190,7 +198,7 @@ This is where these apps separate more than they do on food logging, and it is u
 
 ## Where the money is
 
-| App | What the vendor's own pages said on 9 August 2026 |
+| App | What the vendor's own pages said on 3 September 2026 |
 | --- | --- |
 | Carb Manager | Their premium page lists a free Basic account and a paid Premium account, and highlights Premium extras including exclusive recipes, personalised meal plans and a video jumpstart course. The page's own comparison table did not clearly separate the tiers, so we have not stated which individual features are gated. |
 | Cronometer | Free Basic tier including barcode scanner and custom macro and micronutrient targets, with a seven-day reporting window; paid Gold tier adding photo and voice logging, a fasting timer, coaching and unlimited history. |
@@ -219,6 +227,6 @@ They also cannot make an estimate exact. If you want to sanity-check what an app
 
 ## How we checked, and a note on names
 
-Every statement above about Carb Manager, Cronometer and MyFitnessPal was read on those companies' own websites on 9 August 2026 and is reported as what those pages said. Where a page was unclear — as Carb Manager's tier table was — we have said so rather than filled the gap with an assumption. We have not tested the other apps' interfaces, and we make no claims about their speed, accuracy or database contents. No screenshots, icons or brand styling appear here.
+Every statement above about Carb Manager, Cronometer and MyFitnessPal was read on those companies' own websites on 3 September 2026 and is reported as what those pages said. Where a page was unclear — as Carb Manager's tier table was — we have said so rather than filled the gap with an assumption. We have not tested the other apps' interfaces, and we make no claims about their speed, accuracy or database contents. No screenshots, icons or brand styling appear here.
 
 Carb Manager, Cronometer, MyFitnessPal and all other product names and trademarks mentioned are the property of their respective owners. Their use here is nominative — for identification of the products discussed — and implies no affiliation, sponsorship, partnership or endorsement in either direction.

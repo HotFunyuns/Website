@@ -5,10 +5,15 @@
   "description": "Why the upgrade you skip matters as much as the one you take, how auto-fire makes movement the whole skill, and how to push a run deeper.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "action-arcade",
-  "tags": ["roguelike", "zombie games", "android games", "horde survival"],
+  "tags": [
+    "roguelike",
+    "zombie games",
+    "android games",
+    "horde survival"
+  ],
   "primaryKeyword": "zombie survival roguelike android",
   "secondaryKeywords": [
     "horde survival game android",
@@ -28,11 +33,14 @@
   "aiSearchQuestions": [
     "What makes a roguelike replayable?",
     "What is an auto-shooter or horde survival game?",
-    "Is there a free zombie survival roguelike on Android with no in-app purchases?",
+    "Is there a free zombie survival roguelike game on Android?",
     "Should I take damage or survivability upgrades in a survival roguelike?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["zombie-survival-last-survivor", "space-shooter-classic-arcade"],
+  "relatedApps": [
+    "zombie-survival-last-survivor",
+    "space-shooter-classic-arcade"
+  ],
   "relatedArticles": [
     "space-shooter-arcade-guide",
     "anime-trivia-quiz-guide",
@@ -65,7 +73,7 @@
     },
     {
       "question": "Is Zombie Survival: Last Survivor free, and does it have in-app purchases?",
-      "answer": "It is free to download on Google Play and supported by ads, and there are no in-app purchases at all. It carries an Everyone content rating. Nothing in the upgrade system is sold, so every build you assemble comes from decisions made during the run itself."
+      "answer": "It is free to download on Google Play, supported by ads, with optional in-app purchases. It carries an Everyone content rating. The upgrade choices that shape a build are earned during the run itself."
     },
     {
       "question": "How long does a run take?",
@@ -157,7 +165,7 @@ Runs where you cannot answer that question usually mean you were playing on auto
 
 ## The practical details
 
-Zombie Survival: Last Survivor is free to download on Google Play, supported by ads, with no in-app purchases and an Everyone content rating. Controls are simple enough to explain in a sentence, and runs stretch or shrink to fit whatever time you have.
+Zombie Survival: Last Survivor is free to download on Google Play, supported by ads, with optional in-app purchases and an Everyone content rating. Controls are simple enough to explain in a sentence, and runs stretch or shrink to fit whatever time you have.
 
 It lives in [Action & Arcade Games](/apps/category/action-arcade/) next to [Space Shooter - Galaxy Arcade](/apps/space-shooter-classic-arcade/), which takes an almost opposite position — four abilities you spend manually, patterns you learn by sight, and rewards that go into the ship between runs. If you want the reflex-driven half of the argument, the [space shooter guide](/blog/space-shooter-arcade-guide/) covers how to read enemy fire. For something with no time pressure whatsoever, [the anime coloring guide](/blog/anime-coloring-app-guide/) is the other end of the shelf.
 

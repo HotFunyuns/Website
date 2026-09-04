@@ -3,12 +3,18 @@
   "title": "What Makes a Good Draft Board",
   "metaTitle": "How to Build a Draft Board That Works",
   "description": "A draft board is a decision tool, not a ranked list. How to build one from tiers, cliffs and roster structure, and how to run it without abandoning it.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["draft board", "draft strategy", "roster building", "football", "gm mode"],
+  "tags": [
+    "draft board",
+    "draft strategy",
+    "roster building",
+    "football",
+    "gm mode"
+  ],
   "primaryKeyword": "how to build a draft board",
   "secondaryKeywords": [
     "draft board tiers",
@@ -32,7 +38,10 @@
     "How do you prepare for a draft where you cannot refresh the player pool?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["football-draft-gm-mode", "pro-basketball-draft-gm-mode"],
+  "relatedApps": [
+    "football-draft-gm-mode",
+    "pro-basketball-draft-gm-mode"
+  ],
   "relatedArticles": [
     "how-fantasy-draft-strategy-works",
     "snake-draft-vs-auction-draft",
@@ -48,7 +57,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "What is a draft board?",
@@ -68,7 +76,7 @@
     },
     {
       "question": "Do these games use real teams or players?",
-      "answer": "No. 20-0 Football Draft & GM Mode and Basketball Draft GM Franchise are fictional sports simulations built on generated player pools, and they are not affiliated with, endorsed by or connected to any real league, team or athlete. Every rating you compare on the board belongs to a generated player."
+      "answer": "No. 20-0 Football Draft & GM Mode and Pro Basketball GM Franchise are fictional sports simulations built on generated player pools, and they are not affiliated with, endorsed by or connected to any real league, team or athlete. Every rating you compare on the board belongs to a generated player."
     }
   ],
   "sources": []

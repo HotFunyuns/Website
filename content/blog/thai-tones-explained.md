@@ -3,12 +3,18 @@
   "title": "Thai Tones Explained: Five Tones, Four Marks, and Why the Marks Are Not the Answer",
   "metaTitle": "Thai Tones Explained: The Five Tones and the Rules",
   "description": "Thai has five tones and only four tone marks. Here is how consonant class, vowel length and syllable ending combine to decide the tone of a written word.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "language-learning",
-  "tags": ["thai", "tones", "thai alphabet", "pronunciation", "beginner"],
+  "tags": [
+    "thai",
+    "tones",
+    "thai alphabet",
+    "pronunciation",
+    "beginner"
+  ],
   "primaryKeyword": "thai tones explained",
   "secondaryKeywords": [
     "thai tone rules",
@@ -32,7 +38,9 @@
     "What is the difference between a live and a dead syllable in Thai?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["learn-thai"],
+  "relatedApps": [
+    "learn-thai"
+  ],
   "relatedArticles": [
     "learn-thai-script-beginners-guide",
     "is-thai-hard-to-learn",
@@ -47,7 +55,6 @@
   ],
   "disclaimer": "language",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "How many tones does Thai have?",

@@ -26,7 +26,7 @@ export const educationBrainApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-08-09',
+    lastVerified: '2026-09-03',
     features: [
       {
         title: 'Interactive timelines',
@@ -128,7 +128,7 @@ export const educationBrainApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-08-09',
+    lastVerified: '2026-09-03',
     features: [
       {
         title: 'Four operations in one place',

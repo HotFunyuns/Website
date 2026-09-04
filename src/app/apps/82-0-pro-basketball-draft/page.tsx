@@ -1,22 +1,23 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import GooglePlayButton from '@/components/GooglePlayButton';
+import LegacyRedirect from '@/components/LegacyRedirect';
 import { companyInfo, getAppBySlug } from '@/data/apps';
 
 const NEW_SLUG = 'pro-basketball-draft-gm-mode';
 const NEW_PATH = `/apps/${NEW_SLUG}/`;
 // Read from the catalog so this page follows any future Play rename instead of
 // advertising a name the store no longer uses.
-const CURRENT_NAME = getAppBySlug(NEW_SLUG)?.name ?? 'Basketball Draft GM Franchise';
+const CURRENT_NAME = getAppBySlug(NEW_SLUG)?.name ?? 'Pro Basketball GM Franchise';
 
 export const metadata: Metadata = {
   title: CURRENT_NAME,
   description: `This app is now ${CURRENT_NAME}. Visit the current app page for details and the free Google Play download.`,
   alternates: { canonical: `${companyInfo.siteUrl}${NEW_PATH}` },
-  // Deliberately no `noindex`. GitHub Pages cannot serve a 301, so the instant
-  // meta refresh below plus this canonical are the redirect. Adding noindex on
-  // top would stop that pair being processed and strand whatever the old URL
-  // has earned instead of passing it to the renamed app.
+  // Deliberately no `noindex`. GitHub Pages cannot serve a 301, so this
+  // canonical plus the client-side replace below are the redirect. Adding
+  // noindex on top would stop that pair being processed and strand whatever the
+  // old URL has earned instead of passing it to the renamed app.
 };
 
 export default function LegacyBasketballDraftPage() {
@@ -24,8 +25,13 @@ export default function LegacyBasketballDraftPage() {
 
   return (
     <>
-      {/* Instant client redirect for browsers; the visible content below is the no-JS fallback. */}
-      <meta httpEquiv="refresh" content={`0; url=${NEW_PATH}`} />
+      {/*
+        Redirects via location.replace so the retired URL is not left in the
+        session history. A meta refresh can leave it there, which turns Back
+        into a loop — see LegacyRedirect for the full reasoning. The visible
+        content below is the no-JavaScript fallback.
+      */}
+      <LegacyRedirect to={NEW_PATH} />
 
       <section className="relative overflow-hidden bg-white pb-24 pt-32 sm:pt-40">
         <div className="hero-streaks opacity-60" aria-hidden="true" />

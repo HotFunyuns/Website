@@ -26,7 +26,7 @@ export const actionArcadeApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-08-09',
+    lastVerified: '2026-09-03',
     features: [
       {
         title: 'Four abilities, four answers',
@@ -127,9 +127,9 @@ export const actionArcadeApps: AppInfo[] = [
     playCategory: 'GAME_ACTION',
     contentRating: 'Everyone',
     containsAds: true,
-    inAppPurchases: false,
+    inAppPurchases: true,
     free: true,
-    lastVerified: '2026-08-09',
+    lastVerified: '2026-09-03',
     features: [
       {
         title: 'You move, the weapons fire',
@@ -180,7 +180,7 @@ export const actionArcadeApps: AppInfo[] = [
       {
         question: 'Is Zombie Survival: Last Survivor free?',
         answer:
-          'Yes, it is free to download on Google Play. It is supported by ads, and there are no in-app purchases.',
+          'Yes, it is free to download on Google Play. It is supported by ads and offers optional in-app purchases.',
       },
       {
         question: 'Do I have to aim and shoot?',

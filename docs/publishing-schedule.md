@@ -1,5 +1,92 @@
 # Publishing schedule
 
+## Status: superseded on 2026-09-04
+
+This document recommended a 90-day, ten-batch drip release for the gated drafts.
+**That plan was not followed.** On 2026-09-04 the owner instructed a single
+release of everything: all remaining gated drafts plus 100 newly written
+articles, 139 articles in one day.
+
+The recommendation and the reasoning behind it are preserved below, unedited,
+because the "before" reading is the only one that exists and rewriting it would
+destroy the record. What follows first is what actually happened and what to
+watch as a result.
+
+## What actually happened
+
+| | Plan | Actual |
+| --- | --- | --- |
+| Release shape | 10 batches of 5, over 90 days | 1 release of 139 |
+| Gated drafts released | 50 (the count when this was written) | 39 (the count that remained) |
+| New articles | Not contemplated | 100 |
+| First release date | 2026-08-24 | 2026-09-04 |
+| Published total after | 71 | 175 |
+
+Every article released still went through the nine-step review in
+[`content-review-process.md`](./content-review-process.md). The step that was
+skipped is the pacing, not the review.
+
+## The risk this creates, stated plainly
+
+The argument below for spreading releases out was about **attribution and
+downside containment**, and both are weakened by a single release:
+
+**Attribution is now coarse.** With one release there is no clean measurement
+window per batch. A change in performance after 2026-09-04 can be traced to
+"the September release" and no further. The batch-level diagnosis this schedule
+was designed to enable is not available.
+
+**The downside is site-wide rather than batch-sized.** If quality or release
+pattern is a problem, it surfaces across 139 URLs at once rather than after five.
+
+**Release pattern is itself a signal.** Publishing a large number of pages
+simultaneously is a pattern search engines evaluate at the site level. That is
+independent of whether the individual pages are good, and it is recorded in
+[`google-spam-compliance-audit.md`](./google-spam-compliance-audit.md) § 1 as the
+residual risk of this pass.
+
+## What to watch now, and what to do
+
+Check these at roughly two, six and twelve weeks from 2026-09-04.
+
+**Search Console → Pages.** Are the new URLs discovered and indexed? A large
+share sitting in "Crawled – currently not indexed" is the signal that matters
+most, and it points at the release pattern before it points at any individual
+article.
+
+**Search Console → Performance.** Impressions on the new URLs, and — more
+important — whether impressions on the **36 pre-existing articles** fell. A drop
+on previously performing pages is the clearest evidence of a site-level problem.
+
+**Cannibalisation.** The build blocks duplicate primary keywords and pre-flight
+blocks duplicate intent keys, but neither detects two different phrasings of one
+intent competing in practice. If two URLs trade positions on one query, merge or
+retarget one. `docs/search-intent-and-cannibalization-map.md` lists the 30 pairs
+closest to that line.
+
+**GA4.** Run the checklist in [`analytics-measurement.md`](./analytics-measurement.md).
+Confirm `play_store_click` fires once per click with a populated `article_slug`
+on the new pages.
+
+**Internal linking.** `npm run report:links` after any content change.
+
+## If indexing goes badly
+
+The recovery move is **not** to publish more. In rough order:
+
+1. Stop publishing. Add nothing new until the picture is clear.
+2. Identify the weakest pages by impressions and by whether they are indexed at
+   all, and improve or consolidate them.
+3. Strengthen internal linking to the pages that are performing.
+4. Wait. Site-level assessments take considerably longer to reverse than to
+   trigger.
+
+## The original recommendation, preserved
+
+Everything below this line is the document as it stood before 2026-09-04.
+
+---
+
 A recommended 90-day plan for releasing the 50 gated draft articles, starting
 from the 21 cornerstone articles that go live with the site.
 
@@ -8,7 +95,7 @@ ranking, an impression, a click, an AI citation or an install. Search results
 are not under our control. The schedule exists to make outcomes *attributable*,
 not to promise them.
 
-## Why it is spread out rather than shipped at once
+### Why it is spread out rather than shipped at once
 
 Fifty articles released on one day is the shape of a scaled-content dump, and
 search engines evaluate that pattern at the site level rather than the page
@@ -20,70 +107,18 @@ Releasing five at a time does two useful things:
 2. Each batch gets a clean measurement window, so a change in performance can be
    traced to a specific release rather than to "the content we added in August".
 
-## The gate
+### The gate
 
-Every article below is currently `"status": "draft"` with `"noindex": true` and
-has **no route on the public site**. Releasing one means completing all nine
-steps in [`content-review-process.md`](./content-review-process.md) — including
+Every article was `"status": "draft"` with `"noindex": true` and had **no route
+on the public site**. Releasing one meant completing all nine steps in
+[`content-review-process.md`](./content-review-process.md) — including
 re-verifying its sources and its app claims, which may have changed since it was
-written. Moving the date on this table is not publishing.
+written. Moving the date on the table was not publishing.
 
-Approving a batch is the owner's decision. A batch that is not ready does not
-ship; the schedule slips instead.
+Approving a batch was the owner's decision. A batch that was not ready did not
+ship; the schedule slipped instead.
 
-## Day 0 — the cornerstone set
-
-The 21 cornerstone articles (one per app in the catalog) go live with the
-redesigned site. They are not part of the 90-day drip: they are the reference
-layer every draft links back to, and they need to be indexed before the drafts
-that point at them start arriving.
-
-Leave roughly two weeks between the cornerstone launch and the first draft
-batch. That gap is the baseline everything afterwards is measured against.
-
-## The ten batches
-
-Each batch mixes categories deliberately. Publishing all twenty sports articles
-consecutively would concentrate the risk in one cluster and leave the other
-categories with no fresh material for two months.
-
-| Batch | Suggested date | Articles |
-| --- | --- | --- |
-| 1 | 2026-08-24 | `how-fantasy-draft-strategy-works`, `snake-draft-vs-auction-draft`, `cantonese-vs-mandarin-differences`, `how-much-protein-per-day`, `history-of-shoot-em-up-games` |
-| 2 | 2026-09-01 | `salary-cap-basics-for-gm-games`, `what-makes-a-good-draft-board`, `cantonese-tones-explained`, `keto-macros-explained`, `what-makes-a-roguelike` |
-| 3 | 2026-09-09 | `basketball-positions-explained`, `how-to-build-a-balanced-basketball-roster`, `thai-tones-explained`, `protein-sources-compared`, `color-theory-for-beginners` |
-| 4 | 2026-09-17 | `football-positions-explained-for-drafting`, `best-offline-sports-games-android`, `is-thai-hard-to-learn`, `what-is-a-ketone-reading`, `video-file-formats-explained` |
-| 5 | 2026-09-25 | `baseball-stats-explained-for-beginners`, `how-sports-simulation-engines-work`, `malay-vs-indonesian-differences`, `reading-nutrition-labels`, `bullet-hell-vs-classic-shmup` |
-| 6 | 2026-10-03 | `understanding-sports-sim-probability`, `career-mode-vs-franchise-mode`, `malay-pronunciation-guide`, `intermittent-fasting-windows-explained`, `wave-survival-game-design` |
-| 7 | 2026-10-11 | `soccer-formations-explained`, `how-soccer-league-tables-work`, `russian-cases-explained-for-beginners`, `mental-math-tricks-that-work`, `digital-coloring-techniques` |
-| 8 | 2026-10-19 | `hockey-positions-explained`, `hockey-line-combinations-explained`, `how-long-does-it-take-to-learn-russian`, `how-historians-date-events`, `best-offline-arcade-games-android` |
-| 9 | 2026-10-27 | `mma-weight-classes-explained`, `boxing-scoring-explained`, `khmer-script-explained`, `working-memory-and-training`, `anime-genres-explained` |
-| 10 | 2026-11-04 | `sports-gm-games-without-internet`, `best-sports-manager-games-for-short-sessions`, `spaced-repetition-for-language-learning`, `major-eras-of-world-history`, `video-codecs-explained` |
-
-Totals: 20 sports, 10 language, 6 health, 4 education, 5 arcade, 3 anime and
-creative, 2 video and utility.
-
-## What to check between batches
-
-Roughly a week after each release, before approving the next one:
-
-- **Search Console → Pages.** Are the new URLs discovered and indexed? A batch
-  that is crawled but excluded as "Crawled – currently not indexed" is a quality
-  signal worth acting on before adding five more.
-- **Search Console → Performance.** Impressions on the new URLs, and — more
-  importantly — whether impressions on *existing* URLs dropped. A fall in the
-  cornerstone articles after a batch is the signal that matters most.
-- **Cannibalisation.** If a new article and an older one trade positions on the
-  same query, one of them should be merged or retargeted. The build blocks
-  duplicate `primaryKeyword` values, but it cannot detect two different phrasings
-  of one intent.
-- **GA4.** Run the verification checklist in
-  [`analytics-measurement.md`](./analytics-measurement.md). Confirm
-  `play_store_click` fires with a populated `article_slug` on the new pages.
-- **Internal linking.** Run `npm run report:links` and check that the new
-  articles are not orphans and did not push anything past three clicks deep.
-
-## When to stop or slow down
+### When to stop or slow down
 
 Pause the schedule and diagnose before releasing more if any of these appear:
 
@@ -96,7 +131,7 @@ Pause the schedule and diagnose before releasing more if any of these appear:
 Slowing down costs a few weeks. A site-wide quality problem costs considerably
 more, and takes much longer to recover from than it does to cause.
 
-## After the 90 days
+### After the 90 days
 
 The cadence above is a starting rhythm, not a permanent one. Once there is real
 performance data, write to the intents that are actually earning impressions

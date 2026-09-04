@@ -1,0 +1,1980 @@
+{
+  "provider": "Google Autocomplete (suggestqueries.google.com, client=firefox)",
+  "measures": "query phrasing and intent only — NOT search volume, difficulty or CPC",
+  "geography": "US",
+  "language": "en",
+  "collectedAt": "2026-09-04T06:33:19.483Z",
+  "previousRun": null,
+  "seedCount": 120,
+  "observations": [
+    {
+      "cluster": "sports-career-sim",
+      "seed": "baseball career sim",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "baseball career simulator",
+        "baseball career simulator online free",
+        "baseball career sims 4",
+        "mlb career simulator",
+        "mlb career simulator game",
+        "mlb career simulator online",
+        "mlb career sims 4",
+        "baseball player career simulator",
+        "baseball glove values",
+        "career saves mlb"
+      ]
+    },
+    {
+      "cluster": "sports-career-sim",
+      "seed": "football career mode game",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "football career mode games",
+        "football career mode games android",
+        "football career mode game mobile",
+        "football career mode games free",
+        "football career mode games online",
+        "football career mode games download",
+        "football career mode games android download",
+        "sports games with career mode",
+        "what is game management in football"
+      ]
+    },
+    {
+      "cluster": "sports-career-sim",
+      "seed": "hockey career mode",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "hockey career mode",
+        "hockey career mode game",
+        "hockey player model",
+        "hockey player model girl",
+        "hockey player modern mullet",
+        "hockey player model male",
+        "playing career mode",
+        "hockey player model 3d",
+        "best hockey career mode",
+        "hockey legacy manager career mode"
+      ]
+    },
+    {
+      "cluster": "sports-career-sim",
+      "seed": "soccer career simulator",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "soccer career simulator",
+        "soccer career simulator game",
+        "soccer career simulator online",
+        "soccer career simulator ai",
+        "soccer career simulator filter",
+        "soccer career simulator online free",
+        "soccer career simulator reddit",
+        "career soccer games",
+        "what is simulation in soccer",
+        "soccer career information"
+      ]
+    },
+    {
+      "cluster": "sports-career-sim",
+      "seed": "golf career game",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "golf career game",
+        "golf career game online",
+        "golf game career mode",
+        "golf professional game",
+        "golf gamebook careers",
+        "golf career sim game",
+        "best golf career game",
+        "professional golf game today",
+        "best golf game career mode",
+        "best golf game career mode reddit"
+      ]
+    },
+    {
+      "cluster": "sports-career-sim",
+      "seed": "how to get drafted higher in",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how to get drafted higher in 2k26",
+        "how to get more draft in fc mobile",
+        "how to get more draft vouchers in fc mobile",
+        "how to get more draft tickets in fc mobile",
+        "how to get more draft picks in madden 25",
+        "how to get more draft picks in retro bowl",
+        "how to get more draft tokens in fc mobile",
+        "how to get more draft picks in mlb the show",
+        "how to get more draft points in madfut",
+        "how to get more draft picks in mlb the show 25"
+      ]
+    },
+    {
+      "cluster": "sports-career-sim",
+      "seed": "player career mode tips",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "player career mode tips",
+        "player career mode tips fc 26",
+        "fc 26 player career mode tips",
+        "player career mode guide",
+        "fc 26 player career mode guide",
+        "fc25 player career mode tips",
+        "fifa player career mode tips",
+        "eafc player career mode tips",
+        "fifa 26 player career mode tips",
+        "fifa 23 player career mode tips"
+      ]
+    },
+    {
+      "cluster": "sports-career-sim",
+      "seed": "what is a two way player",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "what is a two way player in baseball",
+        "what is a two way player in the nba",
+        "what is a two way player in basketball",
+        "what is a two way player",
+        "what is a two way player in softball",
+        "what is a two way player in hockey",
+        "what is a two way player in mlb",
+        "what is a two way player in football",
+        "what is a two way player contract in basketball",
+        "what is a two way player in the nba mean"
+      ]
+    },
+    {
+      "cluster": "sports-career-sim",
+      "seed": "quarterback archetypes",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "quarterback archetypes",
+        "quarterback archetypes cfb 26",
+        "quarterback archetypes madden 27",
+        "quarterback archetypes madden 26",
+        "qb archetypes cfb 25",
+        "qb archetypes cfb 27",
+        "qb archetypes madden 25",
+        "qb archetypes madden",
+        "qb archetypes ncaa 25",
+        "qb archetypes nfl"
+      ]
+    },
+    {
+      "cluster": "sports-career-sim",
+      "seed": "how does a golf cut work",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how does a golf cut work",
+        "how does golf cut line work",
+        "how do golf cuts work",
+        "how are golf cuts determined"
+      ]
+    },
+    {
+      "cluster": "sports-gm",
+      "seed": "gm mode games android",
+      "ok": true,
+      "status": 200,
+      "suggestions": []
+    },
+    {
+      "cluster": "sports-gm",
+      "seed": "how does a snake draft work",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how does a snake draft work",
+        "how does a snake draft work in fantasy football",
+        "how does a snake draft work with 10 people",
+        "how does a snake draft work with 3 people",
+        "how does a snake draft work with 2 people",
+        "how does a snake draft work in fantasy",
+        "how does a reverse snake draft work",
+        "how does a snake draft order work",
+        "how does snake draft work espn",
+        "how does a 2 person snake draft work"
+      ]
+    },
+    {
+      "cluster": "sports-gm",
+      "seed": "salary cap explained",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "salary cap explained",
+        "salary cap explained nba",
+        "salary cap explained nfl",
+        "salary cap meaning",
+        "salary cap meaning nfl",
+        "salary cap meaning in hindi",
+        "salary cap definition sports",
+        "salary cap meaning football",
+        "salary cap meaning nhl",
+        "salary cap meaning mlb"
+      ]
+    },
+    {
+      "cluster": "sports-gm",
+      "seed": "what is tanking in sports",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "what is tanking in sports",
+        "what sports does wada cover",
+        "what does wada stand for in sports",
+        "what does cap mean in sport"
+      ]
+    },
+    {
+      "cluster": "sports-gm",
+      "seed": "how do trades work in sports",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how do trades work in sports",
+        "how do trades work on draftkings sportsbook",
+        "how does sports trading work",
+        "how much do sports traders make",
+        "how to sports trade",
+        "what do sports traders do"
+      ]
+    },
+    {
+      "cluster": "sports-gm",
+      "seed": "depth chart explained",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "depth chart explained",
+        "nautical chart explained",
+        "depth chart meaning",
+        "depth chart definition",
+        "depth chart meaning football",
+        "depth chart analysis",
+        "depth chart meaning basketball",
+        "depth chart meaning sports",
+        "depth chart meaning crypto",
+        "depth chart interpretation"
+      ]
+    },
+    {
+      "cluster": "sports-gm",
+      "seed": "how are draft lotteries",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how do draft lotteries work",
+        "how many draft lotteries were there",
+        "how are nba draft lottery odds determined",
+        "how does a lottery draft work"
+      ]
+    },
+    {
+      "cluster": "sports-gm",
+      "seed": "expansion draft",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "expansion draft wnba",
+        "expansion draft nba",
+        "expansion draft",
+        "expansion draft nhl",
+        "expansion draft nba rules",
+        "expansion draft nhl rules",
+        "expansion draft nfl",
+        "expansion draft rules",
+        "expansion draft pwhl",
+        "expansion draft nba 2026"
+      ]
+    },
+    {
+      "cluster": "sports-gm",
+      "seed": "free agency explained",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "free agency explained",
+        "free agency meaning",
+        "free agency definition philosophy",
+        "free agency meaning nba",
+        "free agency rules afl",
+        "free agency summary",
+        "free agency meaning nfl",
+        "free agency meaning lds",
+        "free agency rules",
+        "free agency meaning mlb"
+      ]
+    },
+    {
+      "cluster": "sports-gm",
+      "seed": "rebuild vs retool",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "rebuild vs retool",
+        "rebuild vs retool nhl",
+        "rebuild retool",
+        "rebuild vs restore",
+        "rebuild vs rebuilt",
+        "is retool good"
+      ]
+    },
+    {
+      "cluster": "sports-rules",
+      "seed": "baseball positions explained",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "baseball positions explained",
+        "baseball positions explained for kids",
+        "baseball positions explained for dummies",
+        "baseball positions explained reddit",
+        "mlb positions explained",
+        "baseball positions meaning",
+        "baseball positions explanation",
+        "all baseball positions explained",
+        "baseball number positions explained",
+        "youth baseball positions explained"
+      ]
+    },
+    {
+      "cluster": "sports-rules",
+      "seed": "what is era in baseball",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "what is era in baseball",
+        "what is era in baseball stats",
+        "what is era in baseball pitching",
+        "what is era in baseball and how is it calculated",
+        "what is era in baseball pitching stats",
+        "what is era in baseball terms",
+        "what is era in baseball stand for",
+        "what is era plus in baseball",
+        "what is good era in baseball",
+        "what is component era in baseball"
+      ]
+    },
+    {
+      "cluster": "sports-rules",
+      "seed": "what is whip in baseball",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "what is whip in baseball",
+        "what is whip in baseball stats",
+        "what is whip in baseball pitching",
+        "what is whip in baseball statistics",
+        "what is whip in baseball pitching stats",
+        "what is whip in baseball mean",
+        "what is whip in baseball terminology",
+        "what is whip in baseball stand for",
+        "what is whip in baseball pitcher stats",
+        "what is whip in baseball scoring"
+      ]
+    },
+    {
+      "cluster": "sports-rules",
+      "seed": "what is ops in baseball",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "what is ops in baseball",
+        "what is ops in baseball stats",
+        "what is ops in baseball mean",
+        "what is ops in baseball and how is it calculated",
+        "what is ops in baseball stand for",
+        "what is ops in baseball terminology",
+        "what is ops in baseball for pitchers",
+        "what is ops in baseball stats mean",
+        "what is ops in baseball scoring",
+        "what is ops in baseball today"
+      ]
+    },
+    {
+      "cluster": "sports-rules",
+      "seed": "offside rule explained",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "offside rule explained",
+        "offside rule explained simply",
+        "offside rule explained soccer",
+        "offside rule explained for kids",
+        "offside rule explained easy",
+        "offside rule explained in spanish",
+        "offside rule explained for women",
+        "offside rule explained for dummies",
+        "offside rule explained video",
+        "offside rule explained with pictures"
+      ]
+    },
+    {
+      "cluster": "sports-rules",
+      "seed": "what is icing in hockey",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "what is icing in hockey",
+        "what is icing in hockey mean",
+        "what is icing in hockey for dummies",
+        "what is icing in hockey game",
+        "what is icing in hockey and what is the penalty",
+        "what is icing in hockey simple",
+        "what is icing in hockey rules",
+        "what is icing in hockey terms",
+        "what is icing in hockey reddit",
+        "what is icing in hockey youtube"
+      ]
+    },
+    {
+      "cluster": "sports-rules",
+      "seed": "power play hockey",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "power play hockey",
+        "power play hockey meaning",
+        "power play hockey league",
+        "power play hockey book",
+        "power play hockey rules",
+        "power play hockey game",
+        "power play hockey jersey",
+        "power play hockey cards",
+        "power play hockey table",
+        "power play hockey bremerton"
+      ]
+    },
+    {
+      "cluster": "sports-rules",
+      "seed": "how does golf scoring work",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how does golf scoring work",
+        "how does golf scoring work with handicap",
+        "how does golf scoring work pga",
+        "how does golf scoring work masters",
+        "how does golf scoring work on tv",
+        "how does golf scoring work for beginners",
+        "how does golf scoring work with par",
+        "how does golf scoring work ryder cup",
+        "how does golf scoring work match play",
+        "how does golf scoring work reddit"
+      ]
+    },
+    {
+      "cluster": "sports-rules",
+      "seed": "what is par in golf",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "what is par in golf",
+        "what is par in golf for 9 holes",
+        "what is par in golf for 18 holes",
+        "what is par in golf terms",
+        "what is par in golf course",
+        "what is par in golf score",
+        "what is par in golf game",
+        "what is par in golf for 18",
+        "what is par in golf called",
+        "what is par in golf 72"
+      ]
+    },
+    {
+      "cluster": "sports-rules",
+      "seed": "how does overtime work in football",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how does overtime work in football",
+        "how does overtime work in football fifa",
+        "how does overtime work in football soccer",
+        "how does overtime work in football world cup",
+        "how does overtime work in football uk",
+        "how does overtime work in football(soccer)",
+        "how does overtime work in football college",
+        "how does overtime work in football nfl",
+        "how does overtime work in football playoffs",
+        "how does overtime work in football now"
+      ]
+    },
+    {
+      "cluster": "sports-rules",
+      "seed": "how does the nfl draft order work",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how does the nfl draft order work",
+        "how does the nfl draft order work after round 1",
+        "how does the nfl draft order work for playoff teams",
+        "how does the nfl draft system work",
+        "how does the nfl draft pick order work",
+        "how does the nfl supplemental draft order work",
+        "how does nfl draft order work round 2",
+        "how does nfl draft order work round 3",
+        "how does the american football draft system work",
+        "how do nfl draft order work"
+      ]
+    },
+    {
+      "cluster": "sports-rules",
+      "seed": "goal difference tiebreaker",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "goal difference tiebreaker",
+        "what if two teams tie in goal difference",
+        "what happens if teams are tied on goal difference",
+        "meaning of tiebreaker",
+        "what happens if both teams have same goal difference",
+        "tied on points and goal difference"
+      ]
+    },
+    {
+      "cluster": "sports-rules",
+      "seed": "what is a clean sheet",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "what is a clean sheet in soccer",
+        "what is a clean sheet in football",
+        "what is a clean sheet in fc 26",
+        "what is a clean sheet in the world cup",
+        "what is a clean sheet",
+        "what is a clean sheet in world cup soccer",
+        "what is a clean sheet in fifa",
+        "what is a clean sheet in soccer mean",
+        "what is a clean sheet in soccer betting",
+        "what is a clean sheet in soccer for a player"
+      ]
+    },
+    {
+      "cluster": "sports-rules",
+      "seed": "basketball advanced stats explained",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "basketball advanced stats explained",
+        "basketball reference advanced stats explained",
+        "what are advanced stats in basketball",
+        "most important advanced stats in basketball",
+        "nba advanced stats explained"
+      ]
+    },
+    {
+      "cluster": "sports-rules",
+      "seed": "plus minus hockey stat",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "plus minus hockey stat",
+        "plus minus hockey stat meaning",
+        "plus minus nhl stats",
+        "is plus minus a good hockey stat",
+        "what does plus minus mean in hockey stats",
+        "plus minus statistik nhl",
+        "plus minus statistik luleå hockey",
+        "plus minus statistik hockey",
+        "what is plus or minus in hockey"
+      ]
+    },
+    {
+      "cluster": "sports-sim-design",
+      "seed": "how do sports simulations work",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how does betting on sports games work"
+      ]
+    },
+    {
+      "cluster": "sports-sim-design",
+      "seed": "monte carlo simulation sports",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "monte carlo simulation sports betting",
+        "monte carlo simulation sports",
+        "monte carlo simulation is used for",
+        "monte carlo simulation simple explanation",
+        "monte carlo simulation explanation"
+      ]
+    },
+    {
+      "cluster": "sports-sim-design",
+      "seed": "random number generator game fairness",
+      "ok": true,
+      "status": 200,
+      "suggestions": []
+    },
+    {
+      "cluster": "sports-sim-design",
+      "seed": "why do simulated seasons vary",
+      "ok": true,
+      "status": 200,
+      "suggestions": []
+    },
+    {
+      "cluster": "language-vietnamese",
+      "seed": "learn vietnamese",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "learn vietnamese",
+        "learn vietnamese with annie",
+        "learn vietnamese online",
+        "learn vietnamese app",
+        "learn vietnamese free",
+        "learn vietnamese language",
+        "learn vietnamese reddit",
+        "learn vietnamese near me",
+        "learn vietnamese book",
+        "learn vietnamese language online free"
+      ]
+    },
+    {
+      "cluster": "language-vietnamese",
+      "seed": "vietnamese tones",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "vietnamese tones",
+        "vietnamese tones chart",
+        "vietnamese tones how many",
+        "vietnamese tones explained",
+        "vietnamese tones pronunciation",
+        "vietnamese tones southern",
+        "vietnamese tones examples",
+        "vietnamese tones ma",
+        "vietnamese tones vs chinese tones",
+        "vietnamese tones vs cantonese"
+      ]
+    },
+    {
+      "cluster": "language-vietnamese",
+      "seed": "is vietnamese hard to learn",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "is vietnamese hard to learn for english speakers",
+        "is vietnamese hard to learn for spanish speakers",
+        "is vietnamese hard to learn for chinese speakers",
+        "is vietnamese hard to learn for english speakers reddit",
+        "is vietnamese hard to learn for french speakers",
+        "is vietnamese hard to learn for beginners",
+        "is vietnamese hard to learn for english",
+        "is vietnamese hard to learn for arabic speakers",
+        "is vietnamese hard to learn for cantonese speakers",
+        "is vietnamese harder to learn than japanese"
+      ]
+    },
+    {
+      "cluster": "language-vietnamese",
+      "seed": "vietnamese alphabet",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "vietnamese alphabet",
+        "vietnamese alphabet pronunciation",
+        "vietnamese alphabet chart",
+        "vietnamese alphabet song",
+        "vietnamese alphabet letters",
+        "vietnamese alphabet copy and paste",
+        "vietnamese alphabet lore",
+        "vietnamese alphabet a to z",
+        "vietnamese alphabet lore comic studio",
+        "vietnamese alphabet with accents"
+      ]
+    },
+    {
+      "cluster": "language-vietnamese",
+      "seed": "vietnamese pronouns",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "vietnamese pronouns",
+        "vietnamese pronouns chart",
+        "vietnamese pronouns family",
+        "vietnamese pronouns list",
+        "vietnamese pronouns explained",
+        "vietnamese pronouns reddit",
+        "vietnamese pronouns meme",
+        "vietnamese pronouns guide",
+        "vietnamese pronouns system",
+        "vietnamese pronouns for friends"
+      ]
+    },
+    {
+      "cluster": "language-lao",
+      "seed": "learn lao",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "learn lao",
+        "learn laos language",
+        "learn lao free",
+        "learn lao online",
+        "learn lao app",
+        "learn lao alphabet",
+        "how long does it take to learn lao",
+        "is lao hard to learn"
+      ]
+    },
+    {
+      "cluster": "language-lao",
+      "seed": "lao alphabet",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "lao alphabet",
+        "lao alphabet chart",
+        "lao alphabet song",
+        "lao alphabet pronunciation",
+        "lao alphabet keyboard",
+        "lao alphabet to english",
+        "lao alphabet vs thai alphabet",
+        "lao alphabet pdf",
+        "lao alphabet vowels",
+        "lao alphabet lore"
+      ]
+    },
+    {
+      "cluster": "language-lao",
+      "seed": "is lao similar to thai",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "is lao similar to thai",
+        "is lao similar to thai language",
+        "is laotian similar to thai",
+        "is laos similar to thailand",
+        "is lao related to thai",
+        "is lao food similar to thai",
+        "is laotian food similar to thai",
+        "is laos more similar to thailand or vietnam",
+        "is thailand more similar to laos or cambodia",
+        "is laotian like thai"
+      ]
+    },
+    {
+      "cluster": "language-italian",
+      "seed": "learn italian",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "learn italian",
+        "learn italian free",
+        "learn italian online",
+        "learn italian fast the right way",
+        "learn italian online free",
+        "learn italian through stories",
+        "learn italian for travel",
+        "learn italian san francisco",
+        "learn italian with lucrezia",
+        "learn italian near me"
+      ]
+    },
+    {
+      "cluster": "language-italian",
+      "seed": "italian verb conjugation",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "italian verb conjugation",
+        "italian verb conjugation chart",
+        "italian verb conjugation practice",
+        "italian verb conjugation table pdf",
+        "italian verb conjugation app",
+        "italian verb conjugation present tense",
+        "italian verb conjugation table",
+        "italian verb conjugation rules",
+        "italian verb conjugation pdf",
+        "italian verb conjugation flashcards"
+      ]
+    },
+    {
+      "cluster": "language-italian",
+      "seed": "italian articles explained",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "italian articles explained",
+        "italian articles explanation",
+        "italian definite articles explained",
+        "what are the articles in italian"
+      ]
+    },
+    {
+      "cluster": "language-italian",
+      "seed": "how long does it take to learn italian",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how long does it take to learn italian",
+        "how long does it take to learn italian with duolingo",
+        "how long does it take to learn italian if you speak spanish",
+        "how long does it take to learn italian fluently",
+        "how long does it take to learn italian if you speak english",
+        "how long does it take to learn italian as an english speaker",
+        "how long does it take to learn italian as a spanish speaker",
+        "how long does it take to learn italian with babbel",
+        "how long does it take to learn italian from english",
+        "how long does it take to learn italian if you speak english and spanish"
+      ]
+    },
+    {
+      "cluster": "language-general",
+      "seed": "how long does it take to learn a language",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how long does it take to learn a language",
+        "how long does it take to learn a language on duolingo",
+        "how long does it take to learn a language fluently",
+        "how long does it take to learn a language as an adult",
+        "how long does it take to learn a language in dnd 5e",
+        "how long does it take to learn a language through immersion",
+        "how long does it take to learn a language in dnd",
+        "how long does it take to learn a language on average",
+        "how long does it take to learn a language on rosetta stone",
+        "how long does it take to learn a language with pimsleur"
+      ]
+    },
+    {
+      "cluster": "language-general",
+      "seed": "best way to learn a language alone",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "best way to learn a language alone",
+        "fastest way to learn a language alone",
+        "how to learn a language alone",
+        "how to learn a language alone reddit",
+        "how to learn a new language by yourself",
+        "how to learn a new language by yourself at home"
+      ]
+    },
+    {
+      "cluster": "language-general",
+      "seed": "what is a tonal language",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "what is a tonal language",
+        "what is a tonal language example",
+        "what is a tonal language definition",
+        "what is a tone language",
+        "what is a non tonal language",
+        "what is considered a tonal language",
+        "what is tonal language in linguistics",
+        "what is a register tone language",
+        "what is a tone in language arts",
+        "what is a contour tone language"
+      ]
+    },
+    {
+      "cluster": "language-general",
+      "seed": "how many words do you need to be fluent",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how many words do you need to be fluent in a language",
+        "how many words do you need to be fluent in spanish",
+        "how many words do you need to be fluent in japanese",
+        "how many words do you need to be fluent in english",
+        "how many words do you need to be fluent",
+        "how many words do you need to be fluent in german",
+        "how many words do you need to be fluent in french",
+        "how many words do you need to be fluent in russian",
+        "how many chinese words do you need to be fluent",
+        "how many words do you need to be fluent in korean"
+      ]
+    },
+    {
+      "cluster": "language-general",
+      "seed": "cefr levels explained",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "cefr levels explained",
+        "cefr levels explained pdf",
+        "cefr levels explained reddit",
+        "cefr levels explained french",
+        "cefr levels explained spanish",
+        "cefr levels meaning",
+        "cefr levels definition",
+        "cefr levels summary",
+        "cefr levels defined",
+        "cefr language levels explained"
+      ]
+    },
+    {
+      "cluster": "language-general",
+      "seed": "language learning plateau",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "language learning plateau",
+        "language learning plateau reddit",
+        "language acquisition plateau",
+        "language learning intermediate plateau",
+        "how to overcome language learning plateau",
+        "reddit language learning intermediate plateau",
+        "languages in plateau state",
+        "how many languages in plateau state",
+        "what is plateau in learning curve",
+        "language learning classes"
+      ]
+    },
+    {
+      "cluster": "language-general",
+      "seed": "shadowing technique language",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "shadowing technique language learning",
+        "shadowing technique language",
+        "shadowing technique for speaking",
+        "what is shadowing in language learning",
+        "shadowing technique to learn english"
+      ]
+    },
+    {
+      "cluster": "language-general",
+      "seed": "comprehensible input",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "comprehensible input",
+        "comprehensible input japanese",
+        "comprehensible input spanish",
+        "comprehensible input language learning",
+        "comprehensible input mandarin",
+        "comprehensible input french",
+        "comprehensible input method",
+        "comprehensible input korean",
+        "comprehensible input meaning",
+        "comprehensible input german"
+      ]
+    },
+    {
+      "cluster": "language-general",
+      "seed": "how to practice listening in a foreign language",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how to improve listening in a foreign language",
+        "how to improve listening comprehension in a foreign language",
+        "how to practice listening in another language",
+        "how to improve listening skills in a new language",
+        "how to improve listening skills in second language"
+      ]
+    },
+    {
+      "cluster": "language-existing",
+      "seed": "thai script",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "thai script",
+        "thai script example",
+        "thai script tattoo",
+        "thai script origin",
+        "thai script name",
+        "thai scripture",
+        "thai script font",
+        "thai script vs khmer script",
+        "thai scripture tattoo",
+        "thai script handwriting"
+      ]
+    },
+    {
+      "cluster": "language-existing",
+      "seed": "khmer alphabet",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "khmer alphabet",
+        "khmer alphabet chart",
+        "khmer alphabet vowels",
+        "khmer alphabet pronunciation",
+        "khmer alphabet a to z",
+        "khmer alphabet song",
+        "khmer alphabet in english",
+        "khmer alphabet vs thai",
+        "khmer alphabet how many",
+        "khmer alphabet flash cards"
+      ]
+    },
+    {
+      "cluster": "language-existing",
+      "seed": "russian cases",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "russian cases",
+        "russian cases chart",
+        "russian cases explained",
+        "russian cases table",
+        "russian cases examples",
+        "russian cases practice",
+        "russian cases cheat sheet",
+        "russian cases pronouns",
+        "russian cases grammar",
+        "russian cases pdf"
+      ]
+    },
+    {
+      "cluster": "language-existing",
+      "seed": "cantonese jyutping",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "cantonese jyutping",
+        "cantonese jyutping chart",
+        "cantonese jyutping converter",
+        "cantonese jyutping translator",
+        "cantonese jyutping tones",
+        "cantonese jyutping pronunciation",
+        "cantonese jyutping dictionary",
+        "cantonese jyutping to english",
+        "cantonese jyutping keyboard",
+        "cantonese jyutping table"
+      ]
+    },
+    {
+      "cluster": "language-existing",
+      "seed": "malay grammar",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "malay grammar",
+        "malay grammar checker",
+        "malay grammar pdf",
+        "malay grammar check",
+        "malay grammar rules",
+        "malay grammar book",
+        "malay grammar structure",
+        "malay grammar checker online free",
+        "malay grammar made easy",
+        "malay grammar made easy pdf"
+      ]
+    },
+    {
+      "cluster": "health-protein",
+      "seed": "how much protein",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how much protein in an egg",
+        "how much protein should i eat",
+        "how much protein in a chicken breast",
+        "how much protein is in one egg",
+        "how much protein should i eat a day",
+        "how much protein in 2 eggs",
+        "how much protein in tofu",
+        "how much protein in shrimp",
+        "how much protein do i need a day",
+        "how much protein in a hard boiled egg"
+      ]
+    },
+    {
+      "cluster": "health-protein",
+      "seed": "protein per meal",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "protein per meal",
+        "protein per meal men",
+        "protein per meal women",
+        "protein per meal to build muscle",
+        "protein per meal max",
+        "protein per meal for weight loss",
+        "protein per meal for diabetics",
+        "protein per meal calculator",
+        "protein per meal limit",
+        "protein per meal absorption"
+      ]
+    },
+    {
+      "cluster": "health-protein",
+      "seed": "complete protein",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "complete protein",
+        "complete protein foods",
+        "complete proteins for vegetarians",
+        "complete protein sources",
+        "complete protein powder",
+        "complete protein myth",
+        "complete protein vs incomplete protein",
+        "complete protein vegan",
+        "complete protein meaning",
+        "complete protein examples"
+      ]
+    },
+    {
+      "cluster": "health-protein",
+      "seed": "protein for older adults",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "protein for older adults",
+        "protein for aging adults",
+        "protein for senior adults",
+        "protein requirements for older adults",
+        "whey protein for older adults",
+        "protein shakes for older adults",
+        "protein intake for older adults",
+        "protein rda for older adults",
+        "protein supplements for older adults",
+        "protein sources for older adults"
+      ]
+    },
+    {
+      "cluster": "health-protein",
+      "seed": "plant protein vs animal protein",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "plant protein vs animal protein",
+        "plant protein vs animal protein for building muscle",
+        "plant protein vs animal protein chart",
+        "plant protein vs animal protein for muscle growth",
+        "plant protein vs animal protein powder",
+        "plant protein vs animal protein and kidney disease",
+        "plant protein vs animal protein absorption",
+        "plant protein vs animal protein which is better",
+        "plant protein vs animal protein reddit",
+        "plant protein vs animal protein for kidney health"
+      ]
+    },
+    {
+      "cluster": "health-protein",
+      "seed": "how to hit protein goal",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how to hit protein goals as a vegetarian",
+        "how to hit protein goal",
+        "how to hit protein goals while in calorie deficit",
+        "how to hit protein goals without protein powder",
+        "how to hit protein goals on a budget",
+        "how to hit protein goals without dairy",
+        "how to hit protein goals as a vegan",
+        "how to hit protein goals easily",
+        "how to hit protein goal when not hungry",
+        "how to hit protein goals with low calories"
+      ]
+    },
+    {
+      "cluster": "health-keto",
+      "seed": "net carbs",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "net carbs",
+        "net carbs vs total carbs",
+        "net carbs vs total carbs keto",
+        "net carbs in a sweet potato",
+        "net carbs in corn on the cob",
+        "net carbs in a banana",
+        "net carbs in watermelon",
+        "net carbs in avocado",
+        "net carbs in blueberries",
+        "net carbs in watermelon 1 cup"
+      ]
+    },
+    {
+      "cluster": "health-keto",
+      "seed": "keto flu",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "keto flu",
+        "keto flu symptoms",
+        "keto flu timeline",
+        "keto fluff",
+        "keto fluff recipe",
+        "keto flush for dogs",
+        "keto flu reddit",
+        "keto flu remedy",
+        "keto flu diarrhea",
+        "keto flush"
+      ]
+    },
+    {
+      "cluster": "health-keto",
+      "seed": "electrolytes on keto",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "electrolytes on keto",
+        "electrolytes on keto diet",
+        "electrolytes on keto reddit",
+        "best electrolytes on keto",
+        "getting electrolytes on keto",
+        "electrolytes while on keto",
+        "electrolytes needed on keto",
+        "low electrolytes on keto",
+        "replenish electrolytes on keto",
+        "taking electrolytes on.keto"
+      ]
+    },
+    {
+      "cluster": "health-keto",
+      "seed": "sugar alcohols",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "sugar alcohols",
+        "sugar alcohols and diabetes",
+        "sugar alcohols vs sugar",
+        "sugar alcohols that cause diarrhea",
+        "sugar alcohols meaning",
+        "sugar alcohols in protein bars",
+        "sugar alcohols keto",
+        "sugar alcohols examples",
+        "sugar alcohols diarrhea",
+        "sugar alcohols bad for you"
+      ]
+    },
+    {
+      "cluster": "health-keto",
+      "seed": "fiber and net carbs",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "fiber and net carbs",
+        "dietary fiber and net carbs",
+        "how does fiber and net carbs work",
+        "fiber one net carbs",
+        "fiber vs net carbs",
+        "net carbs fiber and sugar alcohol",
+        "how to calculate net carbs with fiber",
+        "is net carbs carbs minus fiber",
+        "do you count fiber as carbs",
+        "how does fiber reduce net carbs"
+      ]
+    },
+    {
+      "cluster": "health-keto",
+      "seed": "glycemic index explained",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "glycemic index explained",
+        "glycemic index explained simply",
+        "glycemic load explained",
+        "glycemic load explained simply",
+        "glycemic index meaning",
+        "glycemic index definition",
+        "glycemic index meaning in tamil",
+        "glycemic index meaning in hindi",
+        "glycemic index meaning in marathi",
+        "glycemic index meaning in bengali"
+      ]
+    },
+    {
+      "cluster": "health-general",
+      "seed": "how to read a nutrition label",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how to read a nutrition label",
+        "how to read a nutrition label pdf",
+        "how to read a nutrition label for carbs",
+        "how to read a nutrition label for sugar",
+        "how to read a nutrition label handout",
+        "how to read a nutrition label for kids",
+        "how to read a nutrition label for diabetics",
+        "how to read a nutrition label worksheet",
+        "how to read a nutrition label canada",
+        "how to read a nutrition label australia"
+      ]
+    },
+    {
+      "cluster": "health-general",
+      "seed": "calorie deficit",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "calorie deficit calculator",
+        "calorie deficit",
+        "calorie deficit diet",
+        "calorie deficit to lose 2 pounds a week",
+        "calorie deficit to lose weight",
+        "calorie deficit to lose a pound",
+        "calorie deficit calculator for weight loss",
+        "calorie deficit meals",
+        "calorie deficit but not losing weight",
+        "calorie deficit meal plan"
+      ]
+    },
+    {
+      "cluster": "health-general",
+      "seed": "tdee explained",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "tdee explained",
+        "tdee explained reddit",
+        "tdee calculator explained",
+        "tdee chart explained",
+        "tdee multipliers explained",
+        "tdee activity explained",
+        "bmr tdee explained",
+        "tdee activity levels explained",
+        "tdee exercise level explained",
+        "what does tdee stand for"
+      ]
+    },
+    {
+      "cluster": "health-general",
+      "seed": "food logging accuracy",
+      "ok": true,
+      "status": 200,
+      "suggestions": []
+    },
+    {
+      "cluster": "health-general",
+      "seed": "why do food databases disagree",
+      "ok": true,
+      "status": 200,
+      "suggestions": []
+    },
+    {
+      "cluster": "health-general",
+      "seed": "serving size vs portion size",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "serving size vs portion size",
+        "serving size and portion size",
+        "serving size and portion size difference",
+        "is serving size and portion size the same"
+      ]
+    },
+    {
+      "cluster": "health-general",
+      "seed": "added sugar vs total sugar",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "added sugar vs total sugar",
+        "added sugar vs total sugar per day",
+        "added sugar or total sugar",
+        "total sugar vs added sugar diabetes",
+        "total sugar vs added sugar nutrition label",
+        "total sugar vs added sugar difference",
+        "total sugar vs included added sugar",
+        "is total sugar and added sugar the same",
+        "whats the difference between total sugar and added sugar",
+        "does total sugar include added sugar"
+      ]
+    },
+    {
+      "cluster": "health-general",
+      "seed": "how to track macros",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how to track macros",
+        "how to track macros for weight loss",
+        "how to track macros for fat loss",
+        "how to track macros when eating out",
+        "how to track macros for beginners",
+        "how to track macros for free",
+        "how to track macros and calories",
+        "how to track macros and micros",
+        "how to track macros in a recipe",
+        "how to track macros easily"
+      ]
+    },
+    {
+      "cluster": "arcade",
+      "seed": "what is a bullet hell",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "what is a bullet hell game",
+        "what is a bullet hell",
+        "what is a bullet hell shooter",
+        "what is a bullet hell boss",
+        "what is a reverse bullet hell",
+        "what is a reverse bullet hell game",
+        "what is bullet hell combat",
+        "what is bullet hell genre",
+        "what is bullet hell gungeon",
+        "what is bullet hell gameplay"
+      ]
+    },
+    {
+      "cluster": "arcade",
+      "seed": "roguelite vs roguelike",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "roguelite vs roguelike",
+        "roguelite vs roguelike games",
+        "roguelite vs roguelike examples",
+        "roguelite vs roguelike meaning",
+        "roguelite vs roguelike vs rogue",
+        "roguelite vs roguelike reddit",
+        "roguelite vs roguelike difference",
+        "roguelite vs roguelike balatro",
+        "roguelite vs roguelike hades",
+        "roguelike vs roguelite"
+      ]
+    },
+    {
+      "cluster": "arcade",
+      "seed": "shmup terms",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "shmup terms"
+      ]
+    },
+    {
+      "cluster": "arcade",
+      "seed": "horde survival games",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "horde survival games",
+        "horde survival games xbox",
+        "horde survival games ps5",
+        "horde survival games online",
+        "horde survival games android",
+        "horde survival games steam",
+        "horde survival games switch",
+        "horde survival games pc",
+        "horde survival games mobile",
+        "horde survival games browser"
+      ]
+    },
+    {
+      "cluster": "arcade",
+      "seed": "difficulty curve game design",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "difficulty curve game design",
+        "learning curve game design",
+        "curve vs curve crush"
+      ]
+    },
+    {
+      "cluster": "arcade",
+      "seed": "why are arcade games so hard",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "why are arcade games so hard",
+        "why are arcade games so difficult",
+        "why are old arcade games so hard",
+        "why are arcade fighting games so hard",
+        "why are 1 up arcade superheroes game so hard to find",
+        "hardest arcade games",
+        "hardest arcade game ever",
+        "are arcade games rigged"
+      ]
+    },
+    {
+      "cluster": "education-history",
+      "seed": "world history timeline",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "world history timeline",
+        "world history timeline chart",
+        "world history timeline poster",
+        "world history timeline pdf",
+        "world history timeline map",
+        "world history timeline website",
+        "world history timeline book",
+        "world history timeline for classroom",
+        "world history timeline the rise and fall of nations",
+        "world history timeline interactive"
+      ]
+    },
+    {
+      "cluster": "education-history",
+      "seed": "what is bce and ce",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "what is bce and ce",
+        "what is bce and ce mean",
+        "what is bce and ce in time",
+        "what is bce and ce stand for",
+        "what is bce and ce vs bc and ad",
+        "what is bce and ce and ad",
+        "what is bce and ce in the bible",
+        "what is bce and ce in history",
+        "what is bce and ce based on",
+        "what is bce and ce in years"
+      ]
+    },
+    {
+      "cluster": "education-history",
+      "seed": "how do historians know dates",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how do historians know exact dates",
+        "how do historians find out about the past",
+        "how do historians verify the historical data",
+        "ways used to determine dates in history"
+      ]
+    },
+    {
+      "cluster": "education-history",
+      "seed": "primary vs secondary sources",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "primary vs secondary sources",
+        "primary vs secondary sources in research",
+        "primary vs secondary sources of law",
+        "primary vs secondary sources vs tertiary",
+        "primary vs secondary sources in history",
+        "primary vs secondary sources examples",
+        "primary vs secondary sources worksheet",
+        "primary vs secondary sources anchor chart",
+        "primary vs secondary sources for kids",
+        "primary vs secondary sources in science"
+      ]
+    },
+    {
+      "cluster": "education-history",
+      "seed": "periodization history",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "periodization history",
+        "periodization history definition",
+        "periodization history example",
+        "periodization history timeline",
+        "periodization in history pdf",
+        "periodization in history meaning in hindi",
+        "periodization in history notes",
+        "periodization in history in hindi",
+        "periodization world history",
+        "periodization art history"
+      ]
+    },
+    {
+      "cluster": "education-math",
+      "seed": "mental math tricks",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "mental math tricks",
+        "mental math tricks for multiplication",
+        "mental math tricks for percentages",
+        "mental math tricks for addition and subtraction",
+        "mental math tricks for kids",
+        "mental math tricks for quant",
+        "mental math tricks pdf",
+        "mental math tricks for 2 digit multiplication",
+        "mental math tricks for adults",
+        "mental math tricks for division"
+      ]
+    },
+    {
+      "cluster": "education-math",
+      "seed": "how to improve working memory",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how to improve working memory adhd",
+        "how to improve working memory in adults",
+        "how to improve working memory",
+        "how to improve working memory in child",
+        "how to improve working memory in kids",
+        "how to improve working memory in children",
+        "how to improve working memory and processing speed",
+        "how to improve working memory autism",
+        "how to improve working memory reddit",
+        "how to improve working memory adhd reddit"
+      ]
+    },
+    {
+      "cluster": "education-math",
+      "seed": "spaced repetition",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "spaced repetition",
+        "spaced repetition system",
+        "spaced repetition app",
+        "spaced repetition meaning",
+        "spaced repetition meaning in bengali",
+        "spaced repetition algorithm",
+        "spaced repetition meaning in hindi",
+        "spaced repetition study method",
+        "spaced repetition method",
+        "spaced repetition obsidian"
+      ]
+    },
+    {
+      "cluster": "education-math",
+      "seed": "does brain training work",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "does brain training work",
+        "does brain training work for adhd",
+        "does brain training work reddit",
+        "does brain training work on switch 2",
+        "does cognitive training work",
+        "does brain exercises work",
+        "do brain exercises work",
+        "does brain training actually work",
+        "does elevate brain training work",
+        "does impulse brain training work"
+      ]
+    },
+    {
+      "cluster": "education-math",
+      "seed": "estimation techniques math",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "estimation techniques math",
+        "calculation techniques maths",
+        "estimation method maths",
+        "estimation strategy math",
+        "calculation techniques maths grade 8",
+        "what are estimation techniques",
+        "estimation rules in maths",
+        "estimation questions examples",
+        "why is estimation important in math",
+        "examples of estimation in mathematics"
+      ]
+    },
+    {
+      "cluster": "anime-creative",
+      "seed": "color theory basics",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "color theory basics",
+        "color theory basics for beginners",
+        "color theory basics pdf",
+        "color theory basics sarah renae clark",
+        "color theory basics youtube",
+        "color theory basics for artists",
+        "color theory basics for digital painters",
+        "color theory basics painting",
+        "color theory basics video",
+        "color theory basics book"
+      ]
+    },
+    {
+      "cluster": "anime-creative",
+      "seed": "digital coloring tips",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "digital coloring tips",
+        "digital painting tips",
+        "digital painting tips and tricks",
+        "digital colouring tips",
+        "digital painting tips for beginners",
+        "digital painting tips reddit",
+        "digital coloring techniques",
+        "digital coloring guide",
+        "digital art coloring tips",
+        "digital drawing coloring tips"
+      ]
+    },
+    {
+      "cluster": "anime-creative",
+      "seed": "anime art styles",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "anime art styles",
+        "anime art styles names",
+        "anime art styles for ai",
+        "anime art styles for ai prompts",
+        "anime art styles pinterest",
+        "anime art styles 90s",
+        "anime art styles examples",
+        "anime art styles over the years",
+        "anime art styles by decade",
+        "anime art styles names for ai"
+      ]
+    },
+    {
+      "cluster": "anime-creative",
+      "seed": "anime genres explained",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "anime genres explained",
+        "anime genres explained reddit",
+        "anime styles explained",
+        "anime genres list",
+        "anime genres list with examples",
+        "anime genres meaning",
+        "anime genres list alphabetical",
+        "all anime genres explained",
+        "different anime genres explained",
+        "anime genres list explained"
+      ]
+    },
+    {
+      "cluster": "anime-creative",
+      "seed": "word game strategy",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "word game strategy",
+        "word puzzle strategy",
+        "world game strategy",
+        "word game hints",
+        "word game tips",
+        "word game hints today",
+        "word game guide",
+        "imposter word game strategy",
+        "waffle word game strategy",
+        "reunion word game strategy"
+      ]
+    },
+    {
+      "cluster": "video-utility",
+      "seed": "video codec",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "video codecs",
+        "video codec not supported",
+        "video codec wmvideo decoder",
+        "video codec converter",
+        "video codec not supported android",
+        "video codec download",
+        "video codec meaning",
+        "video codec pack",
+        "video codecs for windows 11",
+        "video codec discord"
+      ]
+    },
+    {
+      "cluster": "video-utility",
+      "seed": "mkv vs mp4",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "mkv vs mp4",
+        "mkv vs mp4 quality",
+        "mkv vs mp4 file size",
+        "mkv vs mp4 which is better",
+        "mkv vs mp4 for plex",
+        "mkv vs mp4 obs",
+        "mkv vs mp4 jellyfin",
+        "mkv vs mp4 file",
+        "mkv vs mp4 vs mov",
+        "mkv vs mp4 container"
+      ]
+    },
+    {
+      "cluster": "video-utility",
+      "seed": "av1 support",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "av1 support",
+        "av1 supported devices",
+        "av1 supported gpu list",
+        "av1 support apple tv",
+        "av1 supported gpu",
+        "av1 support premiere pro",
+        "av1 support plex",
+        "av1 supported cpu list",
+        "av1 support iphone",
+        "av1 support apple"
+      ]
+    },
+    {
+      "cluster": "video-utility",
+      "seed": "subtitle formats",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "subtitle formats",
+        "subtitle formats premiere pro",
+        "subtitle formats srt",
+        "subtitle formats list",
+        "subtitle formats supported by youtube",
+        "subtitle formats for youtube",
+        "subtitle file formats",
+        "different subtitle formats",
+        "ffmpeg subtitle formats",
+        "all subtitle formats"
+      ]
+    },
+    {
+      "cluster": "video-utility",
+      "seed": "hardware vs software decoding",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "hardware vs software decoding",
+        "hardware vs software decoding jellyfin",
+        "hardware or software decoding",
+        "hardware or software decoding moonlight",
+        "moonlight hardware vs software decoding",
+        "hardware vs software video decoding",
+        "av1 hardware vs software encoding",
+        "hardware or software decoder for iptv",
+        "hardware or software decoder for iptv firestick",
+        "hardware or software decoder firestick"
+      ]
+    },
+    {
+      "cluster": "video-utility",
+      "seed": "why won't my video play on android",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "why wont my videos play on my android",
+        "why won t my videos play on my android phone",
+        "why won't videos play on my android tablet",
+        "why won t facebook videos play on my android phone",
+        "why won't youtube videos play on my android phone",
+        "why videos won't play on my phone",
+        "can't play video on android phone",
+        "why won't some of my videos play"
+      ]
+    },
+    {
+      "cluster": "video-utility",
+      "seed": "audio codec passthrough",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "audio codec passthrough vs aac",
+        "audio codec passthrough",
+        "audio codec passthrough or aac",
+        "audio format passthrough",
+        "what is audio passthrough",
+        "audio codec examples",
+        "audio passthrough meaning"
+      ]
+    },
+    {
+      "cluster": "android-general",
+      "seed": "android offline games",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "android offline games",
+        "android offline games free",
+        "android offline games free download for mobile",
+        "android offline games download",
+        "android offline games with controller support",
+        "android offline games apk",
+        "android offline games free download",
+        "android offline games 2026",
+        "android offline games rpg",
+        "android offline games reddit"
+      ]
+    },
+    {
+      "cluster": "android-general",
+      "seed": "how to check app permissions android",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how to check app permissions android",
+        "how to see app permissions android",
+        "how to find app permissions android",
+        "how to get app permission in android",
+        "how to get manage app permissions on android",
+        "how to check app permissions",
+        "how to manage app permissions on android"
+      ]
+    },
+    {
+      "cluster": "android-general",
+      "seed": "google play data safety",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "google play data safety",
+        "google play data safety form",
+        "google play data safety section",
+        "google play data safety admob",
+        "google play data safety declaration",
+        "google play data safety policy",
+        "google play console data safety",
+        "google play console data safety form",
+        "google play store data safety",
+        "google play store data safety form"
+      ]
+    },
+    {
+      "cluster": "android-general",
+      "seed": "android app storage",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "android app storage",
+        "android app storage doesn't add up",
+        "android app storage location",
+        "android app storage usage",
+        "android app storage permission",
+        "android app storage path",
+        "android app storage manager",
+        "android app storage space",
+        "android app storage access",
+        "android app data location"
+      ]
+    },
+    {
+      "cluster": "android-general",
+      "seed": "why do free apps have ads",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "why do free apps have ads",
+        "why do apps have so many ads",
+        "why does every app have ads",
+        "do all apps have ads"
+      ]
+    },
+    {
+      "cluster": "android-general",
+      "seed": "how to back up app data android",
+      "ok": true,
+      "status": 200,
+      "suggestions": [
+        "how to back up app data android",
+        "how to backup app data on android without root"
+      ]
+    },
+    {
+      "cluster": "android-general",
+      "seed": "android battery drain games",
+      "ok": true,
+      "status": 200,
+      "suggestions": []
+    }
+  ]
+}

@@ -3,12 +3,18 @@
   "title": "Snake Draft vs Auction Draft: What Actually Changes",
   "metaTitle": "Snake Draft vs Auction Draft: Key Differences",
   "description": "Snake drafts allocate players by pick order; auctions allocate them by budget. What each format rewards, the arithmetic behind both, and how to pick one.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["draft formats", "draft strategy", "auction draft", "snake draft", "roster building"],
+  "tags": [
+    "draft formats",
+    "draft strategy",
+    "auction draft",
+    "snake draft",
+    "roster building"
+  ],
   "primaryKeyword": "snake draft vs auction draft",
   "secondaryKeywords": [
     "how does a snake draft work",
@@ -32,7 +38,10 @@
     "Which draft format is better for a beginner?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["pro-basketball-draft-gm-mode", "baseball-draft-gm-team"],
+  "relatedApps": [
+    "pro-basketball-draft-gm-mode",
+    "baseball-draft-gm-team"
+  ],
   "relatedArticles": [
     "how-fantasy-draft-strategy-works",
     "salary-cap-basics-for-gm-games",
@@ -48,7 +57,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "What is the difference between a snake draft and an auction draft?",
@@ -68,11 +76,11 @@
     },
     {
       "question": "Do these games include auction drafting?",
-      "answer": "Basketball Draft GM Franchise includes a Salary Cap Draft, which constrains your picks with a budget rather than only with pick order. That is budget allocation, not a live auction — the catalogue does not describe bidding against other managers. 162-0 Baseball Draft & GM Team similarly includes payroll-focused drafting alongside its other modes."
+      "answer": "Pro Basketball GM Franchise includes a Salary Cap Draft, which constrains your picks with a budget rather than only with pick order. That is budget allocation, not a live auction — the catalogue does not describe bidding against other managers. 162-0 Baseball Draft & GM Team similarly includes payroll-focused drafting alongside its other modes."
     },
     {
       "question": "Are these games connected to a real league?",
-      "answer": "No. Basketball Draft GM Franchise and 162-0 Baseball Draft & GM Team are fictional sports simulations built on generated player pools. They are not affiliated with, endorsed by or connected to any real league, team or athlete, and any in-game salary or payroll figure is a simulation value with no real-world meaning."
+      "answer": "No. Pro Basketball GM Franchise and 162-0 Baseball Draft & GM Team are fictional sports simulations built on generated player pools. They are not affiliated with, endorsed by or connected to any real league, team or athlete, and any in-game salary or payroll figure is a simulation value with no real-world meaning."
     }
   ],
   "sources": []
@@ -185,7 +193,7 @@ And be honest about the group. Auctions are unforgiving of a table where half th
 
 It is worth being exact here rather than approximate.
 
-[Basketball Draft GM Franchise](/apps/pro-basketball-draft-gm-mode/) ships eight draft formats: Unlimited Draft, Quick Draft, Blind Draft, Franchise Draft, Salary Cap Draft, VS Computer, Battle Mode and a Daily Challenge. **Salary Cap Draft** is the budget-constrained one. Every pick has a price as well as a rating, and you have to complete a roster inside a limit — which exercises the same valuation muscle an auction demands. It is not an auction: the catalogue describes drafting under a cap, not live bidding against other managers.
+[Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) ships eight draft formats: Unlimited Draft, Quick Draft, Blind Draft, Franchise Draft, Salary Cap Draft, VS Computer, Battle Mode and a Daily Challenge. **Salary Cap Draft** is the budget-constrained one. Every pick has a price as well as a rating, and you have to complete a roster inside a limit — which exercises the same valuation muscle an auction demands. It is not an auction: the catalogue describes drafting under a cap, not live bidding against other managers.
 
 [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/) includes payroll-focused drafting alongside Unlimited Draft, a ten-pick Limited Refresh Draft with no rerolls, VS Computer, Battle Mode, a Daily Challenge and Baseball IQ. Its Franchise GM Mode carries payroll review past draft day.
 

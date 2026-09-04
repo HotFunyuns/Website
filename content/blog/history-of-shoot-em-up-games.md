@@ -3,12 +3,18 @@
   "title": "A History of the Shoot 'em Up: How One Idea Kept Reinventing Itself",
   "metaTitle": "History of Shoot 'em Up Games: Arcade to Danmaku",
   "description": "From a 1962 lab experiment to danmaku, how the shoot 'em up changed across five decades and why its central question never moved.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "action-arcade",
-  "tags": ["game history", "arcade shooter", "shmup", "bullet hell", "android games"],
+  "tags": [
+    "game history",
+    "arcade shooter",
+    "shmup",
+    "bullet hell",
+    "android games"
+  ],
   "primaryKeyword": "history of shoot em up games",
   "secondaryKeywords": [
     "shmup history",
@@ -32,7 +38,10 @@
     "What does STG mean in Japanese arcade games?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["space-shooter-classic-arcade", "zombie-survival-last-survivor"],
+  "relatedApps": [
+    "space-shooter-classic-arcade",
+    "zombie-survival-last-survivor"
+  ],
   "relatedArticles": [
     "space-shooter-arcade-guide",
     "bullet-hell-vs-classic-shmup",
@@ -47,7 +56,6 @@
     "The genre survived the arcade's decline because its unit of play is a few minutes long, which is exactly what a phone is good for."
   ],
   "disclaimer": "none",
-  "noindex": true,
   "featured": false,
   "faqs": [
     {
@@ -181,7 +189,7 @@ The coin-operated arcade declined, and the genre lost the venue it was designed 
 
 That unit turned out to be extremely well suited to a device you pull out of your pocket. Touch controls also changed the input in an interesting way — dragging a ship with one finger removes the deadzone and the digital-direction problem of a stick, at the cost of your thumb covering part of the screen. Most modern mobile shooters answer that by keeping the player's ship near the bottom of the display and moving the interesting information upward.
 
-Our own entry keeps the arcade shape rather than the arcade hardware. Four abilities — FIRE for the main weapons, ALT for a secondary attack, a charged Ultimate, and a Shield — and waves that arrive in readable patterns, where movement and timing keep you alive more reliably than firepower. Endless Mode removes the finish line entirely, which is the same open-ended score contract Space Invaders wrote in 1978. If you want the tactical version rather than the historical one, [our guide to reading enemy fire](/blog/space-shooter-arcade-guide/) covers how the patterns actually break down, and [Action & Arcade Games](/apps/category/action-arcade/) has the rest of what we make in the genre.
+Our own entry keeps the arcade shape rather than the arcade hardware. Four abilities — FIRE for the main weapons, ALT for a secondary attack, a charged Ultimate, and a Shield — and waves that arrive in readable patterns, where movement and timing keep you alive more reliably than firepower. Endless Mode removes the finish line entirely, which is the same open-ended score contract Space Invaders wrote in 1978. If you want the tactical version rather than the historical one, [our guide to reading enemy fire](/blog/space-shooter-arcade-guide/) covers how the patterns actually break down, [the bullet hell and classic shmup comparison](/blog/bullet-hell-vs-classic-shmup/) explains what actually separates the two branches this history produced, and [Action & Arcade Games](/apps/category/action-arcade/) has the rest of what we make in the genre.
 
 Reign Creative LLC is an independent studio. The games named above belong to the companies that made them, and none of them are connected to us in any way — they are here because you cannot describe this genre honestly without them.
 

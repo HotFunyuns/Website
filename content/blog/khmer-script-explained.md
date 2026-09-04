@@ -3,14 +3,19 @@
   "title": "Khmer Script Explained: Two Series, Stacked Consonants and Four-Sided Vowels",
   "metaTitle": "Khmer Script Explained: How the Alphabet Works",
   "description": "Khmer has 33 consonants in two series, subscripts that stack downward and vowel signs on all four sides. Here is how a Khmer syllable is put together.",
-  "status": "draft",
-  "noindex": true,
+  "status": "published",
   "featured": false,
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "language-learning",
-  "tags": ["khmer", "khmer script", "cambodian", "writing systems", "beginner"],
+  "tags": [
+    "khmer",
+    "khmer script",
+    "cambodian",
+    "writing systems",
+    "beginner"
+  ],
   "primaryKeyword": "khmer script explained",
   "secondaryKeywords": [
     "khmer alphabet explained",
@@ -36,7 +41,9 @@
     "Is the Khmer script harder than Thai?"
   ],
   "demandTier": "unverified-low",
-  "relatedApps": ["learn-cambodian-khmer"],
+  "relatedApps": [
+    "learn-cambodian-khmer"
+  ],
   "relatedArticles": [
     "learn-khmer-beginners-guide",
     "learn-thai-script-beginners-guide",
@@ -134,6 +141,8 @@ Because the series is fixed to the letter, Khmer needs an escape hatch for the c
 
 - **៉** — often called *musikatoan*, sometimes translated as "mouse's teeth". It converts a second-series consonant into a first-series one.
 - **៊** — often called *triisap*, sometimes translated as "snake's teeth". It converts a first-series consonant into a second-series one.
+
+One caveat on the names themselves: *musikatoan* and *triisap* are the glosses given in the Unicode Khmer code chart annotations, which is where we took them from. Romanisations of Khmer terms vary between references, and no Khmer reader has reviewed this article. Treat the names as a label to search for rather than as the settled form.
 
 Two small marks that flip the vowel reading of the entire syllable. They are worth learning early, not because they are frequent, but because encountering one without knowing what it does makes an otherwise readable word unreadable.
 

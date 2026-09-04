@@ -3,12 +3,18 @@
   "title": "Cantonese vs Mandarin: The Differences That Actually Change Your Study Plan",
   "metaTitle": "Cantonese vs Mandarin: The Differences That Matter",
   "description": "Cantonese and Mandarin are not mutually intelligible. Here is what differs in sound, romanisation, script and everyday vocabulary, and how to pick one.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "language-learning",
-  "tags": ["cantonese", "mandarin", "jyutping", "chinese characters", "beginner"],
+  "tags": [
+    "cantonese",
+    "mandarin",
+    "jyutping",
+    "chinese characters",
+    "beginner"
+  ],
   "primaryKeyword": "cantonese vs mandarin",
   "secondaryKeywords": [
     "difference between cantonese and mandarin",
@@ -32,7 +38,9 @@
     "Should I learn Cantonese or Mandarin first?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["learn-cantonese"],
+  "relatedApps": [
+    "learn-cantonese"
+  ],
   "relatedArticles": [
     "learn-cantonese-beginners-guide",
     "cantonese-tones-explained",
@@ -47,7 +55,6 @@
   ],
   "disclaimer": "language",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "Can a Mandarin speaker understand Cantonese?",

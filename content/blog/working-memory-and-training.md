@@ -3,12 +3,18 @@
   "title": "What Is Working Memory, and Can Training Actually Change It?",
   "metaTitle": "What Is Working Memory? And Can It Be Trained?",
   "description": "What working memory is, how small its capacity really is, and an honest account of why researchers still disagree about whether training transfers to anything.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "education-brain",
-  "tags": ["working memory", "cognition", "brain training", "study methods", "research"],
+  "tags": [
+    "working memory",
+    "cognition",
+    "brain training",
+    "study methods",
+    "research"
+  ],
   "primaryKeyword": "what is working memory",
   "secondaryKeywords": [
     "working memory capacity limit",
@@ -31,7 +37,9 @@
     "What is the difference between near transfer and far transfer?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["mental-math-memory-games"],
+  "relatedApps": [
+    "mental-math-memory-games"
+  ],
   "relatedArticles": [
     "mental-math-training-guide",
     "mental-math-tricks-that-work",
@@ -46,7 +54,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "What is working memory?",

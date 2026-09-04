@@ -3,12 +3,18 @@
   "title": "How to Read a Nutrition Facts Label, Line by Line",
   "metaTitle": "How to Read Nutrition Labels: A Line-by-Line Guide",
   "description": "What each line of a US Nutrition Facts panel is required to mean, where rounding hides real amounts, and which numbers are conventions rather than advice.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "health-nutrition",
-  "tags": ["nutrition labels", "food labeling", "daily value", "serving size", "macro tracking"],
+  "tags": [
+    "nutrition labels",
+    "food labeling",
+    "daily value",
+    "serving size",
+    "macro tracking"
+  ],
   "primaryKeyword": "how to read nutrition labels",
   "secondaryKeywords": [
     "nutrition facts label explained",
@@ -32,7 +38,10 @@
     "Why can a label declare 0 grams of fat when the food contains fat?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["protein-diet-tracker", "keto-diet-tracker"],
+  "relatedApps": [
+    "protein-diet-tracker",
+    "keto-diet-tracker"
+  ],
   "relatedArticles": [
     "net-carbs-explained-keto-tracking",
     "protein-sources-compared",
@@ -46,7 +55,6 @@
     "The panel tells you composition and nothing else; front-of-pack claims are governed by separate rules with exact numeric thresholds behind them."
   ],
   "disclaimer": "health",
-  "noindex": true,
   "featured": false,
   "faqs": [
     {

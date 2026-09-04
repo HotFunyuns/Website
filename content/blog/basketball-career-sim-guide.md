@@ -5,10 +5,16 @@
   "description": "How a basketball career sim differs from a GM game, what the possession decisions are really asking, and how early choices compound across a whole career.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-13",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["career mode", "basketball", "sports sim", "player progression", "android games"],
+  "tags": [
+    "career mode",
+    "basketball",
+    "sports sim",
+    "player progression",
+    "android games"
+  ],
   "primaryKeyword": "basketball career sim game",
   "secondaryKeywords": [
     "basketball my career mode android",
@@ -32,7 +38,10 @@
     "What do you actually control in a basketball career simulator?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["pro-basketball-my-career-sim", "pro-basketball-draft-gm-mode"],
+  "relatedApps": [
+    "pro-basketball-my-career-sim",
+    "pro-basketball-draft-gm-mode"
+  ],
   "relatedArticles": [
     "basketball-draft-gm-guide",
     "football-draft-gm-guide",
@@ -146,7 +155,7 @@ Between games there is a second game: training camp, attribute upgrades, signatu
 
 All of it runs on fictional in-game currency with no real-world value — worth saying clearly, because the presence of contracts and brand deals in a sports title invites the wrong assumption. Nothing here is money, and nothing here predicts, tracks or relates to any real athlete's earnings.
 
-Real money does enter in one place, and it is separate from all of the above: Basketball Career Sim is free to download on Google Play, supported by ads, with optional in-app purchases and an Everyone content rating. [Basketball Draft GM Franchise](/apps/pro-basketball-draft-gm-mode/), the front-office companion, is on the same terms.
+Real money does enter in one place, and it is separate from all of the above: Basketball Career Sim is free to download on Google Play, supported by ads, with optional in-app purchases and an Everyone content rating. [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/), the front-office companion, is on the same terms.
 
 As a progression system, the off-court layer is where you convert results into capability. The strategic question is the same one that governs any upgrade economy: do you deepen your existing strength or patch your weakness? For a career sim, deepening usually wins earlier than instinct suggests, because being conspicuously good at one thing generates opportunities in a way that being unremarkable at everything does not.
 
@@ -172,4 +181,4 @@ Three things follow. It does not describe any real player, team, school or leagu
 
 ## If the career is not the part you want
 
-Some people want the possessions; other people want the board. If reading this made you want to build the roster instead of play in it, [Basketball Draft GM Franchise](/apps/pro-basketball-draft-gm-mode/) is the front-office version of the same sport, and the same drafting logic applied elsewhere is in the [football draft guide](/blog/football-draft-gm-guide/), the [baseball draft guide](/blog/baseball-draft-gm-guide/) and the [soccer draft XI guide](/blog/soccer-draft-xi-guide/). Everything the studio makes in this space is listed under [sports GM](/apps/category/sports-gm/).
+Some people want the possessions; other people want the board. If reading this made you want to build the roster instead of play in it, [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) is the front-office version of the same sport, and the same drafting logic applied elsewhere is in the [football draft guide](/blog/football-draft-gm-guide/), the [baseball draft guide](/blog/baseball-draft-gm-guide/) and the [soccer draft XI guide](/blog/soccer-draft-xi-guide/). Everything the studio makes in this space is listed under [sports GM](/apps/category/sports-gm/).

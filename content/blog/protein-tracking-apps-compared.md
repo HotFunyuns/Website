@@ -3,12 +3,18 @@
   "title": "Protein Tracking Apps Compared: Database Depth, Paywalls and What You Keep",
   "metaTitle": "Best Protein Tracking App: An Honest Comparison",
   "description": "Three protein trackers compared on what actually differs: database depth, where the paid line sits, and how many taps a repeat meal really costs.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "health-nutrition",
-  "tags": ["protein", "macro tracking", "app comparison", "nutrition logging", "android apps"],
+  "tags": [
+    "protein",
+    "macro tracking",
+    "app comparison",
+    "nutrition logging",
+    "android apps"
+  ],
   "primaryKeyword": "best protein tracking app",
   "secondaryKeywords": [
     "protein tracker app comparison",
@@ -38,7 +44,10 @@
     "Do I need a big food database to track protein?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["protein-diet-tracker", "keto-diet-tracker"],
+  "relatedApps": [
+    "protein-diet-tracker",
+    "keto-diet-tracker"
+  ],
   "relatedArticles": [
     "how-to-track-protein-intake",
     "net-carbs-explained-keto-tracking",
@@ -52,8 +61,7 @@
     "No nutrition app assesses you. Whatever daily number you work to is a number you or a qualified professional chose, not one the software determined."
   ],
   "disclaimer": "comparison",
-  "researchDate": "2026-08-09",
-  "noindex": true,
+  "researchDate": "2026-09-03",
   "featured": false,
   "faqs": [
     {
@@ -62,11 +70,11 @@
     },
     {
       "question": "Is barcode scanning free in MyFitnessPal?",
-      "answer": "MyFitnessPal's own Premium page lists \"Barcode scan and meal scan\" among Premium features, and its home page describes Premium as unlocking \"MyFitnessPal's best tools (like Barcode Scan, Intermittent Fasting, and Custom Macro Goals).\" We read both pages on 9 August 2026. Pricing and packaging change, so check MyFitnessPal's current pages before deciding on that basis."
+      "answer": "MyFitnessPal's own Premium page lists \"Barcode scan and meal scan\" among Premium features, and its home page describes Premium as unlocking \"MyFitnessPal's best tools (like Barcode Scan, Intermittent Fasting, and Custom Macro Goals).\" We read both pages on 3 September 2026. Pricing and packaging change, so check MyFitnessPal's current pages before deciding on that basis."
     },
     {
       "question": "Does Cronometer include a barcode scanner in its free tier?",
-      "answer": "Cronometer's pricing page lists a barcode scanner in the free Basic tier, along with custom macro and micronutrient targets, custom foods, meals and recipes, and syncing with apps and devices, as read on 9 August 2026. The same page lists photo and voice logging, a fasting timer and unlimited historical data under the paid Gold tier, and notes that Basic reports and charts cover a seven-day window. Confirm the current split with Cronometer directly."
+      "answer": "Cronometer's pricing page lists a barcode scanner in the free Basic tier, along with custom macro and micronutrient targets, custom foods, meals and recipes, and syncing with apps and devices, as read on 3 September 2026. The same page lists photo and voice logging, a fasting timer and unlimited historical data under the paid Gold tier, and notes that Basic reports and charts cover a seven-day window. Confirm the current split with Cronometer directly."
     },
     {
       "question": "Do I need an account to track protein?",
@@ -86,43 +94,43 @@
       "title": "MyFitnessPal",
       "publisher": "MyFitnessPal, Inc.",
       "url": "https://www.myfitnesspal.com/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "MyFitnessPal Premium",
       "publisher": "MyFitnessPal, Inc.",
       "url": "https://www.myfitnesspal.com/premium",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "Cronometer — Track nutrition & count calories",
       "publisher": "Cronometer Software Inc.",
       "url": "https://cronometer.com/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "Cronometer Gold — plans and pricing",
       "publisher": "Cronometer Software Inc.",
       "url": "https://cronometer.com/gold/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "Cronometer features",
       "publisher": "Cronometer Software Inc.",
       "url": "https://cronometer.com/features/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "FoodData Central",
       "publisher": "U.S. Department of Agriculture, Agricultural Research Service",
       "url": "https://fdc.nal.usda.gov/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "Protein in diet",
       "publisher": "MedlinePlus, U.S. National Library of Medicine",
       "url": "https://medlineplus.gov/ency/article/002467.htm",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     }
   ]
 }
@@ -134,7 +142,7 @@ What differs is everything either side of it: how a food gets into the log in th
 
 **Disclosure:** this article is published by Reign Creative LLC. We make one of the three apps discussed below — Protein Diet Tracker — so we have a direct commercial interest in you installing it. We have written the comparison to be useful if you install something else instead, and we say plainly below where the other two do things ours does not.
 
-Everything stated here about another company's product was read on that company's own website on **9 August 2026**, and is limited to what we could verify there. Feature packaging and pricing in this category change often. Confirm anything that matters to you with the vendor before you decide.
+Everything stated here about another company's product was read on that company's own website on **3 September 2026**, and is limited to what we could verify there. Feature packaging and pricing in this category change often. Confirm anything that matters to you with the vendor before you decide.
 
 ## Start with how you eat, not with the feature list
 
@@ -172,12 +180,12 @@ Here is what it does not have, stated as plainly as we can: **no barcode scanner
 
 ## Where the paid line falls
 
-This is the detail most likely to surprise you a month in, because each vendor draws it somewhere different. The table below reports only what each company's own pages stated on 9 August 2026.
+This is the detail most likely to surprise you a month in, because each vendor draws it somewhere different. The table below reports only what each company's own pages stated on 3 September 2026.
 
 | App | What the vendor's own pages place in the free tier | What the vendor's own pages place behind payment |
 | --- | --- | --- |
 | MyFitnessPal | Their Premium page does not enumerate the free tier. | "Ad-free logging experience", "Barcode scan and meal scan", "Voice logging and multi-day logging", "Custom macros and goals", "Intermittent fasting tracker", "Download progress reports", "Priority customer support". A separate Premium+ adds meal planning, recipes and grocery lists. |
-| Cronometer | Basic: logging food, exercise, biometrics and notes; barcode scanner; custom foods, meals and recipes; custom macro and micronutrient targets; syncing with apps and devices; reports and charts over a seven-day window. | Gold: Photo Log, Voice Log, Recipe Importer, Fasting Timer, Macro Scheduler, Nutrition Scores, Custom Charts, Crono Coach, ad-free use and unlimited historical data. |
+| Cronometer | Basic: logging food, exercise, biometrics and notes; barcode scanner; custom foods, meals and recipes; custom macro and micronutrient targets; syncing with apps and devices; reports and charts over a seven-day window. | Gold: Photo Log, Voice Log, Recipe Importer, Fasting Timer, Macro Scheduler, Custom Biometrics, Nutrition Scores, Custom Charts, Oracle Nutrient Search, Crono Coach, ad-free use and unlimited historical data. |
 | Protein Diet Tracker | Free to download, ad-supported. Goal setting, daily totals, workout and weight logging, nutrition history and progress trends are in the app. | Optional in-app purchases. |
 
 Two things are worth pulling out of that.
@@ -225,6 +233,6 @@ If you have not tracked before, the mechanics matter more than the choice of app
 
 ## How we checked, and a note on names
 
-Every statement above about MyFitnessPal and Cronometer was read on those companies' own websites on 9 August 2026 and is reported as what those pages said. Where a page was ambiguous about which features are free, we said the page was ambiguous rather than guessing. We used no screenshots, icons or brand styling, and we did not test their apps' interfaces or make claims about their speed.
+Every statement above about MyFitnessPal and Cronometer was read on those companies' own websites on 3 September 2026 and is reported as what those pages said. Where a page was ambiguous about which features are free, we said the page was ambiguous rather than guessing. We used no screenshots, icons or brand styling, and we did not test their apps' interfaces or make claims about their speed.
 
 MyFitnessPal, Cronometer and all other product names and trademarks mentioned are the property of their respective owners. Their use here is nominative — for identification of the products being discussed — and does not imply any affiliation, sponsorship, partnership or endorsement in either direction.

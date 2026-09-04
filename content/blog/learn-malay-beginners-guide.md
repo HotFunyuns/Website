@@ -5,10 +5,16 @@
   "description": "Malay gives beginners a Latin alphabet, no tones and no verb conjugation. Here is what that buys you, and where the real difficulty actually hides.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-13",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "language-learning",
-  "tags": ["malay", "bahasa melayu", "affixes", "southeast asia", "beginner"],
+  "tags": [
+    "malay",
+    "bahasa melayu",
+    "affixes",
+    "southeast asia",
+    "beginner"
+  ],
   "primaryKeyword": "learn malay for beginners",
   "secondaryKeywords": [
     "bahasa melayu for beginners",
@@ -32,7 +38,9 @@
     "Do Malay verbs conjugate for tense?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["learn-malay"],
+  "relatedApps": [
+    "learn-malay"
+  ],
   "relatedArticles": [
     "learn-thai-script-beginners-guide",
     "learn-cantonese-beginners-guide",
@@ -65,7 +73,7 @@
     },
     {
       "question": "Is Learn Malay - Bahasa Melayu free?",
-      "answer": "Yes. It is free to download on Google Play and supported by ads, and its Play listing shows no in-app purchases. There is no hearts or lives system, so a wrong answer never blocks you from continuing a lesson."
+      "answer": "Yes. It is free to download on Google Play, supported by ads, and it offers optional in-app purchases. There is no hearts or lives system, so a wrong answer never blocks you from continuing a lesson."
     }
   ],
   "sources": [

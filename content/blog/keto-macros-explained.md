@@ -3,12 +3,18 @@
   "title": "Keto Macros Explained: Turning Percentages Into Grams You Can Actually Log",
   "metaTitle": "Keto Macros Explained: Percentages Into Grams",
   "description": "Keto macro ratios are a convention, not a regulated standard. Here is the arithmetic that converts them to grams, and where the conversion misleads people.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "health-nutrition",
-  "tags": ["keto", "macros", "low carb", "macro tracking", "nutrition basics"],
+  "tags": [
+    "keto",
+    "macros",
+    "low carb",
+    "macro tracking",
+    "nutrition basics"
+  ],
   "primaryKeyword": "keto macros explained",
   "secondaryKeywords": [
     "keto macro ratio",
@@ -32,7 +38,10 @@
     "Why do my macro percentages change when my calories change?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["keto-diet-tracker", "protein-diet-tracker"],
+  "relatedApps": [
+    "keto-diet-tracker",
+    "protein-diet-tracker"
+  ],
   "relatedArticles": [
     "net-carbs-explained-keto-tracking",
     "what-is-a-ketone-reading",
@@ -47,7 +56,6 @@
     "A ketogenic pattern sits deliberately outside the National Academies' acceptable ranges for carbohydrate and fat, which is exactly why it belongs in a conversation with a clinician rather than with a calculator."
   ],
   "disclaimer": "health",
-  "noindex": true,
   "featured": false,
   "faqs": [
     {

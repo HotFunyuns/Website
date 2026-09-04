@@ -3,12 +3,18 @@
   "title": "Wave Survival Design: Why the Gap Between Waves Matters More Than the Wave",
   "metaTitle": "Wave Survival Games: How the Design Works",
   "description": "How wave survival games build tension: escalation curves, spawn placement, the pause between waves, and why more enemies is the weakest lever.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "action-arcade",
-  "tags": ["game design", "horde survival", "wave based games", "android games", "arcade shooter"],
+  "tags": [
+    "game design",
+    "horde survival",
+    "wave based games",
+    "android games",
+    "arcade shooter"
+  ],
   "primaryKeyword": "wave survival games",
   "secondaryKeywords": [
     "horde mode design",
@@ -32,7 +38,10 @@
     "Why do horde games get boring after a while?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["zombie-survival-last-survivor", "space-shooter-classic-arcade"],
+  "relatedApps": [
+    "zombie-survival-last-survivor",
+    "space-shooter-classic-arcade"
+  ],
   "relatedArticles": [
     "zombie-survival-roguelike-guide",
     "what-makes-a-roguelike",
@@ -47,7 +56,6 @@
     "If you cannot say why a run ended, the design failed to communicate, not you."
   ],
   "disclaimer": "none",
-  "noindex": true,
   "featured": false,
   "faqs": [
     {

@@ -3,12 +3,18 @@
   "title": "The Major Eras of World History, and Why the Labels Are Arguments",
   "metaTitle": "Eras of World History Explained: The Labels",
   "description": "Stone Age to modern: what each era label covers, why the boundaries are conventions rather than discoveries, and where the standard scheme stops working.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "education-brain",
-  "tags": ["world history", "chronology", "periodisation", "study methods", "ancient history"],
+  "tags": [
+    "world history",
+    "chronology",
+    "periodisation",
+    "study methods",
+    "ancient history"
+  ],
   "primaryKeyword": "eras of world history explained",
   "secondaryKeywords": [
     "historical periods in order",
@@ -31,7 +37,9 @@
     "Do the Stone, Bronze and Iron Ages happen at the same time everywhere?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["world-history-timeline-sim"],
+  "relatedApps": [
+    "world-history-timeline-sim"
+  ],
   "relatedArticles": [
     "how-historians-date-events",
     "world-history-timeline-guide",
@@ -46,7 +54,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "What are the major eras of world history in order?",

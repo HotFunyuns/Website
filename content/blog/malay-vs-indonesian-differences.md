@@ -5,7 +5,7 @@
   "description": "Malay and Indonesian share most of their grammar and core vocabulary, then diverge in loanwords and false friends. Here is what differs and which one to study.",
   "status": "published",
   "publishedAt": "2026-08-13",
-  "updatedAt": "2026-08-13",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "language-learning",
   "tags": [
@@ -78,7 +78,7 @@
     },
     {
       "question": "Which does Learn Malay - Bahasa Melayu teach?",
-      "answer": "Standard Malay, written in the Latin alphabet, with culture and regional notes explaining how Malay is used across different communities. It deliberately does not present Indonesian as the same language. It is free to download on Google Play and supported by ads, and its Play listing shows no in-app purchases."
+      "answer": "Standard Malay, written in the Latin alphabet, with culture and regional notes explaining how Malay is used across different communities. It deliberately does not present Indonesian as the same language. It is free to download on Google Play, supported by ads, and it offers optional in-app purchases."
     }
   ],
   "sources": [
@@ -222,4 +222,4 @@ If you do switch later, expect the adjustment to be concentrated in exactly the 
 
 One historical language, two national standards, maintained by two institutions that also cooperate. Shared grammar, shared affixes, shared core vocabulary, aligned spelling since 1972. Divergent loanword layers, a real set of false friends, different pronunciation habits, and colloquial registers that pull much further apart than the formal ones.
 
-If you have already decided on Malay, our [beginner's guide to Malay](/blog/learn-malay-beginners-guide/) covers what the first month actually asks for, and the rest of our [language learning apps](/apps/category/language-learning/) put that difficulty in context against languages that are considerably less forgiving.
+If you have already decided on Malay, [the pronunciation guide](/blog/malay-pronunciation-guide/) covers the sound differences described above in far more detail, and our [beginner's guide to Malay](/blog/learn-malay-beginners-guide/) covers what the first month actually asks for, and the rest of our [language learning apps](/apps/category/language-learning/) put that difficulty in context against languages that are considerably less forgiving.

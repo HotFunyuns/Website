@@ -3,12 +3,17 @@
   "title": "What Makes a Roguelike? The Definition, the Argument, and a Test That Settles It",
   "metaTitle": "What Is a Roguelike? The Definition Explained",
   "description": "Rogue, the Berlin Interpretation and the roguelite split: what the word means, why the definition is contested, and a test that settles it.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "action-arcade",
-  "tags": ["roguelike", "game design", "genre definition", "android games"],
+  "tags": [
+    "roguelike",
+    "game design",
+    "genre definition",
+    "android games"
+  ],
   "primaryKeyword": "what is a roguelike",
   "secondaryKeywords": [
     "roguelike vs roguelite",
@@ -32,7 +37,10 @@
     "Does a game need permadeath to be a roguelike?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["zombie-survival-last-survivor", "space-shooter-classic-arcade"],
+  "relatedApps": [
+    "zombie-survival-last-survivor",
+    "space-shooter-classic-arcade"
+  ],
   "relatedArticles": [
     "zombie-survival-roguelike-guide",
     "wave-survival-game-design",
@@ -47,7 +55,6 @@
     "If you can memorise a winning sequence and repeat it, the structure has failed regardless of what the store page calls it."
   ],
   "disclaimer": "none",
-  "noindex": true,
   "featured": false,
   "faqs": [
     {
@@ -68,7 +75,7 @@
     },
     {
       "question": "Is a horde survival game a roguelike?",
-      "answer": "It depends which definition you are using, and the honest answer is that it inherits the structure without the traditional trappings. Zombie Survival: Last Survivor is a good example of the shape: experience collected during a stage levels you up in the middle of the fight and hands you a choice between weapon boosts, damage increases, survival upgrades or a special ability, so each run assembles a different build under pressure. It is free to download on Google Play, supported by ads, with no in-app purchases."
+      "answer": "It depends which definition you are using, and the honest answer is that it inherits the structure without the traditional trappings. Zombie Survival: Last Survivor is a good example of the shape: experience collected during a stage levels you up in the middle of the fight and hands you a choice between weapon boosts, damage increases, survival upgrades or a special ability, so each run assembles a different build under pressure. It is free to download on Google Play, supported by ads, with optional in-app purchases."
     }
   ],
   "sources": [
@@ -208,7 +215,7 @@ What the game actually does: your weapons fire on their own while you move, expe
 
 Against the three questions: the offers differ, so runs diverge; the build is assembled inside the run, so what you take is what you have; and taking one upgrade at a level-up means not taking the others at that level-up. That is the engine, intact, in a game with no grid, no turns and no text display. Against the Berlin Interpretation it would score poorly on half the high-value factors and strongly on the rest — which is exactly what a scale is for. [The build guide](/blog/zombie-survival-roguelike-guide/) goes into how to actually make those choices well.
 
-For contrast, [Space Shooter - Galaxy Arcade](/apps/space-shooter-classic-arcade/) sits on the other side of the persistence question: rewards earned during a run go into weapons, unlocked upgrades, ship systems and bonuses you choose yourself, so the ship carries forward between attempts. Same shelf, opposite answer to "what does a loss leave behind." Both are in [Action & Arcade Games](/apps/category/action-arcade/), and both are free to download on Google Play with ads.
+For contrast, [Space Shooter - Galaxy Arcade](/apps/space-shooter-classic-arcade/) sits on the other side of the persistence question: rewards earned during a run go into weapons, unlocked upgrades, ship systems and bonuses you choose yourself, so the ship carries forward between attempts. Same shelf, opposite answer to "what does a loss leave behind." Both are in [Action & Arcade Games](/apps/category/action-arcade/), and both are free to download on Google Play with ads. If the escalation rather than the taxonomy is what interests you, [how wave survival difficulty is designed](/blog/wave-survival-game-design/) covers why these runs get harder in the shape they do.
 
 The games named in this article belong to their respective developers and publishers. Reign Creative LLC is an independent studio and has no connection to any of them.
 

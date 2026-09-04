@@ -5,7 +5,7 @@
   "description": "Bullet hell and classic shoot 'em ups look alike and reward opposite instincts. Hitboxes, bullet speed, and why density is not difficulty.",
   "status": "published",
   "publishedAt": "2026-08-13",
-  "updatedAt": "2026-08-13",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "action-arcade",
   "tags": [
@@ -197,7 +197,7 @@ The honest framing is that neither is the advanced version of the other, so pick
 
 **Choose either if** what you actually want is patterns that reward learning. That property is not owned by a subgenre. It comes from three things: a pattern telegraphs before it arrives, it behaves the same way every time, and a survivable route existed before the shot was fired. A game with those three is worth your time at any density.
 
-Our own take keeps the readable-pattern contract and the arcade run length. Enemy models move and attack in their own ways, bosses ask you to learn a rotation rather than out-gun it, and Endless Mode strips out the finish line so the only measure left is how long your positioning holds. It is free to download on Google Play, supported by ads, with optional in-app purchases and an Everyone content rating, and it sits with the rest of our [Action & Arcade Games](/apps/category/action-arcade/). If you would rather have positioning without any aiming at all, [Zombie Survival: Last Survivor](/apps/zombie-survival-last-survivor/) removes the firing input entirely and makes movement the only thing you control.
+Our own take keeps the readable-pattern contract and the arcade run length. Enemy models move and attack in their own ways, bosses ask you to learn a rotation rather than out-gun it, and Endless Mode strips out the finish line so the only measure left is how long your positioning holds. It is free to download on Google Play, supported by ads, with optional in-app purchases and an Everyone content rating, and it sits with the rest of our [Action & Arcade Games](/apps/category/action-arcade/). If you would rather have positioning without any aiming at all, [Zombie Survival: Last Survivor](/apps/zombie-survival-last-survivor/) removes the firing input entirely and makes movement the only thing you control. For how the two halves of this split got here, [the genre’s history](/blog/history-of-shoot-em-up-games/) traces the line from 1978 to the modern danmaku screen.
 
 The games named in this article belong to the companies that made them. Reign Creative LLC is an independent studio with no connection to any of them.
 

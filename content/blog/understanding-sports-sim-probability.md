@@ -3,12 +3,18 @@
   "title": "Understanding Probability in Sports Simulations",
   "metaTitle": "Sports Simulation Probability, Explained",
   "description": "Why a better roster still loses, how season length compounds small edges, and how many runs you actually need before a simulated result means anything.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["probability", "variance", "sports sim", "simulation", "statistics"],
+  "tags": [
+    "probability",
+    "variance",
+    "sports sim",
+    "simulation",
+    "statistics"
+  ],
   "primaryKeyword": "sports simulation probability",
   "secondaryKeywords": [
     "variance in sports simulation",
@@ -32,7 +38,10 @@
     "What is variance in a sports simulation?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["baseball-draft-gm-team", "football-draft-gm-mode"],
+  "relatedApps": [
+    "baseball-draft-gm-team",
+    "football-draft-gm-mode"
+  ],
   "relatedArticles": [
     "how-sports-simulation-engines-work",
     "baseball-stats-explained-for-beginners",
@@ -48,7 +57,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "Why does my best roster keep losing?",

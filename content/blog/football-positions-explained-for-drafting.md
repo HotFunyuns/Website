@@ -3,12 +3,17 @@
   "title": "Football Positions Explained, and What Each One Is Worth on a Draft Board",
   "metaTitle": "Football Positions Explained: A Drafter's Guide",
   "description": "What every football position actually does, which groups are scarce, and how to read a position before you spend a draft pick filling it.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["football", "positions", "draft strategy", "roster building"],
+  "tags": [
+    "football",
+    "positions",
+    "draft strategy",
+    "roster building"
+  ],
   "primaryKeyword": "football positions explained",
   "secondaryKeywords": [
     "american football positions list",
@@ -32,7 +37,10 @@
     "How many players are on the field for each team in football?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["football-draft-gm-mode", "baseball-draft-gm-team"],
+  "relatedApps": [
+    "football-draft-gm-mode",
+    "baseball-draft-gm-team"
+  ],
   "relatedArticles": [
     "football-draft-gm-guide",
     "hockey-positions-explained",
@@ -48,7 +56,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "How many players from each team are on the field in American football?",

@@ -5,7 +5,7 @@
   "description": "Hue, value and saturation, why light and paint mix differently, and the colour schemes that work — without the art-school vocabulary.",
   "status": "published",
   "publishedAt": "2026-08-13",
-  "updatedAt": "2026-08-13",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "anime-creative",
   "tags": [
@@ -215,7 +215,7 @@ Three exercises worth doing in that setting:
 2. **The temperature swap.** Colour the same drawing twice, once with a warm set and once with a cool one, changing nothing else. The difference in mood is the whole lesson about temperature.
 3. **The accent test.** Colour a picture in analogous hues, then add one small area of the complementary hue at full saturation. Watch where your eye goes.
 
-If you want what the style specifically asks for rather than the general theory, [our guide to colouring anime line art](/blog/anime-coloring-app-guide/) covers hair, eyes and skin conventions in detail. The rest of what we make in this area is in [Anime & Creative Games](/apps/category/anime-creative/).
+If you want what the style specifically asks for rather than the general theory, [our guide to colouring anime line art](/blog/anime-coloring-app-guide/) covers hair, eyes and skin conventions in detail, and [the flats-then-shadows workflow](/blog/digital-coloring-techniques/) covers the order to apply any of this in. The rest of what we make in this area is in [Anime & Creative Games](/apps/category/anime-creative/).
 
 ## The short version
 

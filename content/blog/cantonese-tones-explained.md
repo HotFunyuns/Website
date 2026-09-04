@@ -3,12 +3,18 @@
   "title": "Cantonese Tones Explained: Six Tones, One Structure, and How to Practise Them",
   "metaTitle": "Cantonese Tones Explained: A Practical Guide",
   "description": "What the six Cantonese tones are, why some references say nine, which contrasts actually cause beginner errors, and how to practise tone without perfect pitch.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "language-learning",
-  "tags": ["cantonese", "tones", "jyutping", "pronunciation", "beginner"],
+  "tags": [
+    "cantonese",
+    "tones",
+    "jyutping",
+    "pronunciation",
+    "beginner"
+  ],
   "primaryKeyword": "cantonese tones explained",
   "secondaryKeywords": [
     "how many tones does cantonese have",
@@ -32,7 +38,9 @@
     "Do I need perfect pitch to learn a tonal language?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["learn-cantonese"],
+  "relatedApps": [
+    "learn-cantonese"
+  ],
   "relatedArticles": [
     "learn-cantonese-beginners-guide",
     "cantonese-vs-mandarin-differences",
@@ -48,7 +56,6 @@
   ],
   "disclaimer": "language",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "Does Cantonese have six tones or nine?",

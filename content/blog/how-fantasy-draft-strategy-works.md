@@ -3,12 +3,17 @@
   "title": "How Fantasy Draft Strategy Actually Works",
   "metaTitle": "Fantasy Draft Strategy: How It Actually Works",
   "description": "The mechanics under draft strategy: replacement value, tiers, positional runs, and why your draft slot decides which plans are even available to you.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["draft strategy", "roster building", "fantasy drafting", "sports sim"],
+  "tags": [
+    "draft strategy",
+    "roster building",
+    "fantasy drafting",
+    "sports sim"
+  ],
   "primaryKeyword": "fantasy draft strategy",
   "secondaryKeywords": [
     "draft strategy tiers",
@@ -32,7 +37,10 @@
     "How should I respond when several managers draft the same position in a row?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["pro-basketball-draft-gm-mode", "football-draft-gm-mode"],
+  "relatedApps": [
+    "pro-basketball-draft-gm-mode",
+    "football-draft-gm-mode"
+  ],
   "relatedArticles": [
     "snake-draft-vs-auction-draft",
     "what-makes-a-good-draft-board",
@@ -48,7 +56,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "What is a tier-based draft strategy?",
@@ -68,7 +75,7 @@
     },
     {
       "question": "Do these games use real players and teams?",
-      "answer": "No. Basketball Draft GM Franchise and 20-0 Football Draft & GM Mode are fictional sports simulations with generated player pools. They are not affiliated with, endorsed by or connected to any real league, team or athlete. Drafting against generated players is also what makes the exercise a strategy problem rather than a memory test, because you have to judge each name on the attributes shown."
+      "answer": "No. Pro Basketball GM Franchise and 20-0 Football Draft & GM Mode are fictional sports simulations with generated player pools. They are not affiliated with, endorsed by or connected to any real league, team or athlete. Drafting against generated players is also what makes the exercise a strategy problem rather than a memory test, because you have to judge each name on the attributes shown."
     },
     {
       "question": "How many drafts does it take to tell whether a strategy is working?",
@@ -168,7 +175,7 @@ In a simulation, there is a second limit worth stating plainly. When a game retu
 
 The reason drafting stays interesting after fifty runs is that changing the rules changes the correct answer with the same players on the board.
 
-[Basketball Draft GM Franchise](/apps/pro-basketball-draft-gm-mode/) includes eight draft formats — Unlimited Draft, Quick Draft, Blind Draft, Franchise Draft, Salary Cap Draft, VS Computer, Battle Mode and a Daily Challenge — and they pull in different directions:
+[Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) includes eight draft formats — Unlimited Draft, Quick Draft, Blind Draft, Franchise Draft, Salary Cap Draft, VS Computer, Battle Mode and a Daily Challenge — and they pull in different directions:
 
 - **Unlimited Draft** gives you room to compare, which is where you learn what a board looks like.
 - **Quick Draft** removes deliberation time, so whatever tiers you built beforehand are the only structure you get.

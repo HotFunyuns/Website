@@ -5,10 +5,16 @@
   "description": "A six-player roster plus a coach is the tightest draft puzzle in the genre. How to balance scoring against defence, and what an 84-game projection measures.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-13",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["hockey", "draft strategy", "gm mode", "roster building", "sports sim"],
+  "tags": [
+    "hockey",
+    "draft strategy",
+    "gm mode",
+    "roster building",
+    "sports sim"
+  ],
   "primaryKeyword": "hockey draft simulator app",
   "secondaryKeywords": [
     "hockey gm game android",
@@ -32,7 +38,10 @@
     "What is the difference between unlimited and limited drafting?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["hockey-draft-gm-manager", "baseball-draft-gm-team"],
+  "relatedApps": [
+    "hockey-draft-gm-manager",
+    "baseball-draft-gm-team"
+  ],
   "relatedArticles": [
     "baseball-draft-gm-guide",
     "basketball-draft-gm-guide",
@@ -89,7 +98,7 @@ It is worth seeing the roster sizes side by side, because they explain why the s
 | --- | --- |
 | 84-0 Hockey Draft & GM Manager | Six players and a coach |
 | [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/) | Nine players and a coach |
-| [38-0 Football Draft XI Soccer](/apps/soccer-draft-gm-xi/) | A full starting XI |
+| [38-0-0 Pro Football GM Soccer](/apps/soccer-draft-gm-xi/) | A full starting XI |
 
 As the roster shrinks, two things happen at once. Each individual pick matters more, and the number of ways to compensate for a mistake falls. A nine-player club has slack; a six-player roster does not. That is why a drafting habit that works perfectly well in the [baseball draft simulator](/blog/baseball-draft-gm-guide/) — taking a flyer on a slot you can fix later — is expensive here.
 

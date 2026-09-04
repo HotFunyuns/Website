@@ -3,12 +3,18 @@
   "title": "What Is a Ketone Reading? What the Number Represents, and What It Cannot Tell You",
   "metaTitle": "Ketone Levels Explained: What a Reading Means",
   "description": "What ketones are, what blood, urine and breath tests each measure, and why published sources are explicit that a reading is not a self-diagnostic tool.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "health-nutrition",
-  "tags": ["ketones", "low carb", "keto", "self-testing", "nutrition logging"],
+  "tags": [
+    "ketones",
+    "low carb",
+    "keto",
+    "self-testing",
+    "nutrition logging"
+  ],
   "primaryKeyword": "ketone levels explained",
   "secondaryKeywords": [
     "what is a ketone reading",
@@ -32,7 +38,10 @@
     "Can I use a ketone meter to check my own health?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["keto-diet-tracker", "protein-diet-tracker"],
+  "relatedApps": [
+    "keto-diet-tracker",
+    "protein-diet-tracker"
+  ],
   "relatedArticles": [
     "keto-macros-explained",
     "net-carbs-explained-keto-tracking",
@@ -46,7 +55,6 @@
     "A logged reading is a record for a conversation with a clinician, not a score, a grade, or evidence that anything is working."
   ],
   "disclaimer": "health",
-  "noindex": true,
   "featured": false,
   "faqs": [
     {

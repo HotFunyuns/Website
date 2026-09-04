@@ -3,12 +3,18 @@
   "title": "Video File Formats Explained: What Is Actually Inside an MP4, MKV or MOV",
   "metaTitle": "Video File Formats Explained: MP4, MKV, MOV",
   "description": "What a container really stores, how MP4, MKV, MOV and transport streams differ, and why remuxing fixes problems that re-encoding should not.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "video-utility",
-  "tags": ["video formats", "containers", "media files", "android", "utilities"],
+  "tags": [
+    "video formats",
+    "containers",
+    "media files",
+    "android",
+    "utilities"
+  ],
   "primaryKeyword": "video file formats explained",
   "secondaryKeywords": [
     "mp4 vs mkv",
@@ -32,7 +38,9 @@
     "What is the difference between remuxing and transcoding?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["regal-video-player"],
+  "relatedApps": [
+    "regal-video-player"
+  ],
   "relatedArticles": [
     "android-video-player-guide",
     "video-codecs-explained"
@@ -45,7 +53,6 @@
     "Remuxing rewraps the same tracks into a different container without re-encoding, so it is fast and lossless — try it before you transcode."
   ],
   "disclaimer": "none",
-  "noindex": true,
   "featured": false,
   "faqs": [
     {
@@ -228,7 +235,7 @@ This is the single most useful practical idea in the whole subject.
 
 **Remuxing** takes the existing compressed tracks and writes them into a different container. Nothing is decoded. The video data is copied bit for bit, so quality is identical and the operation runs at roughly the speed of your disk.
 
-If a file will not play, ask whether the problem is the box or the contents. A container that a device does not parse is fixed by remuxing in seconds. A codec the device cannot decode is not — that needs a real transcode, and [how codecs actually work](/blog/android-video-player-guide/) is the other half of the diagnosis.
+If a file will not play, ask whether the problem is the box or the contents. A container that a device does not parse is fixed by remuxing in seconds. A codec the device cannot decode is not — that needs a real transcode, and [how codecs actually work](/blog/android-video-player-guide/) is the other half of the diagnosis. [The codec reference](/blog/video-codecs-explained/) goes through H.264, H.265, VP9 and AV1 individually, including the profile and level details that decide whether a device can decode a given file at all.
 
 Remuxing is also the fix for a broken index. Rewrapping an MP4 rebuilds the movie box, which repairs files where seeking was erratic or the duration was reported wrongly.
 

@@ -39,6 +39,14 @@ const PACKAGES = [
   'com.reigncreative.learncambodian',
   'com.reigncreative.ketotracker',
   'com.reigncreative.animetrivia',
+  'com.reigncreative.baseballmycareer',
+  'com.reigncreative.footballmycareer',
+  'com.reigncreative.hockeymycareersimulator',
+  'com.reigncreative.soccermycareersim',
+  'com.reigncreative.golfmycareersimulator',
+  'com.reigncreative.learnvietnameselanguage',
+  'com.reigncreative.learnlaolanguage',
+  'com.reigncreative.learnitalianlanguage',
 ];
 
 // Owner-confirmed Draft / In Review / Internal Testing. Probed only to prove

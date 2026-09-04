@@ -3,12 +3,17 @@
   "title": "Offline Arcade Games on Android: What \"Offline\" Actually Means, and How to Test It",
   "metaTitle": "Offline Arcade Games on Android: What to Check",
   "description": "Why some arcade games stall the moment you lose signal, what the Play listing does and does not tell you, and how to test any game yourself.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "action-arcade",
-  "tags": ["offline games", "android games", "arcade shooter", "app permissions"],
+  "tags": [
+    "offline games",
+    "android games",
+    "arcade shooter",
+    "app permissions"
+  ],
   "primaryKeyword": "offline arcade games android",
   "secondaryKeywords": [
     "android games that work without internet",
@@ -32,7 +37,10 @@
     "What does the Data safety section on Google Play tell me?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["space-shooter-classic-arcade", "zombie-survival-last-survivor"],
+  "relatedApps": [
+    "space-shooter-classic-arcade",
+    "zombie-survival-last-survivor"
+  ],
   "relatedArticles": [
     "space-shooter-arcade-guide",
     "zombie-survival-roguelike-guide",
@@ -47,7 +55,6 @@
     "A well-behaved offline game fails fast when the network is missing rather than sitting on a spinner waiting for a timeout."
   ],
   "disclaimer": "none",
-  "noindex": true,
   "featured": false,
   "faqs": [
     {
@@ -181,7 +188,7 @@ We make two games in this category, and the honest description of them is narrow
 
 [Space Shooter - Galaxy Arcade](/apps/space-shooter-classic-arcade/) is a wave-based shooter with four abilities, readable projectile patterns, an upgrade path fed by the rewards you earn during a run, and an Endless Mode with no finish line. It is free to download on Google Play, supported by ads, offers optional in-app purchases and carries an Everyone content rating. [Our guide to reading enemy fire](/blog/space-shooter-arcade-guide/) covers how to actually play it.
 
-[Zombie Survival: Last Survivor](/apps/zombie-survival-last-survivor/) is a horde survival game where your weapons fire automatically and movement is the entire input, with mid-run level-ups that hand you an upgrade choice on the spot. It is free to download, supported by ads, has no in-app purchases at all, and carries an Everyone content rating. [The build guide](/blog/zombie-survival-roguelike-guide/) covers how the upgrade decisions work.
+[Zombie Survival: Last Survivor](/apps/zombie-survival-last-survivor/) is a horde survival game where your weapons fire automatically and movement is the entire input, with mid-run level-ups that hand you an upgrade choice on the spot. It is free to download, supported by ads, offers optional in-app purchases, and carries an Everyone content rating. [The build guide](/blog/zombie-survival-roguelike-guide/) covers how the upgrade decisions work.
 
 Neither listing describes multiplayer, matchmaking or online leaderboards, and both are structured as single-player runs whose progression comes out of the run itself. What we are deliberately *not* doing is telling you they are certified offline games, because that is not a claim our store listings make, and a claim about your specific device and Android version is not one we can make from here. Install one, run the airplane-mode test above, and hold us to the result. Both sit with the rest of our [Action & Arcade Games](/apps/category/action-arcade/).
 

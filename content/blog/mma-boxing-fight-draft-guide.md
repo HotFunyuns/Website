@@ -5,10 +5,16 @@
   "description": "Why the higher-rated fighter loses, how separate MMA and boxing simulators resolve a bout, and how to draft a stable that covers matchups, not ratings.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-13",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["mma", "boxing", "draft strategy", "combat sports", "sports sim"],
+  "tags": [
+    "mma",
+    "boxing",
+    "draft strategy",
+    "combat sports",
+    "sports sim"
+  ],
   "primaryKeyword": "mma fight simulator app",
   "secondaryKeywords": [
     "boxing simulator android",
@@ -29,10 +35,13 @@
     "How does an MMA fight simulator decide a winner?",
     "What does styles make fights mean?",
     "How is boxing simulated differently from MMA?",
-    "Is there a fight draft game with no in-app purchases?"
+    "Is there a free MMA and boxing draft game for Android?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["mma-boxing-fight-draft", "hockey-draft-gm-manager"],
+  "relatedApps": [
+    "mma-boxing-fight-draft",
+    "hockey-draft-gm-manager"
+  ],
   "relatedArticles": [
     "hockey-draft-gm-guide",
     "basketball-draft-gm-guide",
@@ -66,7 +75,7 @@
     },
     {
       "question": "Does the game have in-app purchases?",
-      "answer": "No. 40-0 MMA & Boxing Fight Draft is free to download on Google Play and has no in-app purchases at all. It is supported by ads."
+      "answer": "40-0 MMA & Boxing Fight Draft is free to download on Google Play. It is supported by ads and offers optional in-app purchases."
     },
     {
       "question": "Are the fighters real people?",

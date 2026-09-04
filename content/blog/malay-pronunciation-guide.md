@@ -3,12 +3,18 @@
   "title": "A Malay Pronunciation Guide That Starts With What Actually Goes Wrong",
   "metaTitle": "Malay Pronunciation Guide for Beginners",
   "description": "Malay spelling is nearly phonemic, so pronunciation is mostly rhythm plus five rules. Here are the vowels, the digraphs and the habits English speakers import.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "language-learning",
-  "tags": ["malay", "pronunciation", "bahasa melayu", "phonetics", "beginner"],
+  "tags": [
+    "malay",
+    "pronunciation",
+    "bahasa melayu",
+    "phonetics",
+    "beginner"
+  ],
   "primaryKeyword": "malay pronunciation guide",
   "secondaryKeywords": [
     "how to pronounce malay words",
@@ -32,7 +38,9 @@
     "Why does Malay sound so even compared to English?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["learn-malay"],
+  "relatedApps": [
+    "learn-malay"
+  ],
   "relatedArticles": [
     "learn-malay-beginners-guide",
     "malay-vs-indonesian-differences",
@@ -47,7 +55,6 @@
   ],
   "disclaimer": "language",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "Is Malay spelling phonetic?",
@@ -71,7 +78,7 @@
     },
     {
       "question": "Does Learn Malay - Bahasa Melayu cover pronunciation?",
-      "answer": "Yes. Pronunciation lessons cover vowels, consonants, syllable rhythm and the spelling-to-sound patterns that make Malay predictable, with guided speaking activities and Malay speech support where your device provides it. Listening practice uses everyday dialogue with comprehension checks. The app is free to download on Google Play and supported by ads, and its Play listing shows no in-app purchases."
+      "answer": "Yes. Pronunciation lessons cover vowels, consonants, syllable rhythm and the spelling-to-sound patterns that make Malay predictable, with guided speaking activities and Malay speech support where your device provides it. Listening practice uses everyday dialogue with comprehension checks. The app is free to download on Google Play, supported by ads, and it offers optional in-app purchases."
     }
   ],
   "sources": [
@@ -197,7 +204,7 @@ This is also why **listening to real dialogue matters more than drilling isolate
 
 In much of Peninsular Malaysia and in Singapore, a word-final **a** is reduced toward a schwa — so *apa*, *saya*, *nama* and *bila* all end in an indistinct vowel rather than a clear *ah*. Other conventions, including the one used across the strait in Indonesian, keep a fuller *a* in that position.
 
-Neither is wrong. Both are established, and they are among the most reliable cues a listener uses to place a speaker. It is one of several differences worth understanding if you are choosing between the two national standards, and our [beginner's guide to Malay](/blog/learn-malay-beginners-guide/) sets out the rest.
+Neither is wrong. Both are established, and they are among the most reliable cues a listener uses to place a speaker. It is one of several differences worth understanding if you are choosing between the two national standards — [the full Malay and Indonesian comparison](/blog/malay-vs-indonesian-differences/) covers vocabulary, spelling and register as well as sound — and our [beginner's guide to Malay](/blog/learn-malay-beginners-guide/) sets out the rest.
 
 Practical advice: match the convention used where you intend to speak, stay consistent, and recognise the other one when you hear it.
 

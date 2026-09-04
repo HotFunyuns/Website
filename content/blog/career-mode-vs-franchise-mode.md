@@ -3,12 +3,17 @@
   "title": "Career Mode vs Franchise Mode: Two Sports Games Wearing the Same Jersey",
   "metaTitle": "Career Mode vs Franchise Mode: Which One Suits You",
   "description": "Career mode and franchise mode look alike on a store page and play nothing alike. What each one decides, what it costs you, and how to tell which you want.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["career mode", "franchise mode", "sports sim", "game design"],
+  "tags": [
+    "career mode",
+    "franchise mode",
+    "sports sim",
+    "game design"
+  ],
   "primaryKeyword": "career mode vs franchise mode",
   "secondaryKeywords": [
     "what is franchise mode",
@@ -32,7 +37,10 @@
     "What is GM mode in a sports game?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["pro-basketball-my-career-sim", "pro-basketball-draft-gm-mode"],
+  "relatedApps": [
+    "pro-basketball-my-career-sim",
+    "pro-basketball-draft-gm-mode"
+  ],
   "relatedArticles": [
     "basketball-career-sim-guide",
     "basketball-draft-gm-guide",
@@ -48,7 +56,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "What is the difference between career mode and franchise mode?",
@@ -144,7 +151,7 @@ Around that sit the systems that make a career a career: coach trust, team chemi
 
 ### The franchise shape
 
-[Basketball Draft GM Franchise](/apps/pro-basketball-draft-gm-mode/) is the other pattern. Every run begins on the draft board, the roster then plays a full 82-game season and a playoff race, and contracts, trades and rotations are yours. Eight draft formats — Unlimited, Quick, Blind, Franchise and Salary Cap drafts, plus VS Computer, Battle Mode and a Daily Challenge — change the constraints, so a roster that dominates one format can fall apart in another.
+[Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) is the other pattern. Every run begins on the draft board, the roster then plays a full 82-game season and a playoff race, and contracts, trades and rotations are yours. Eight draft formats — Unlimited, Quick, Blind, Franchise and Salary Cap drafts, plus VS Computer, Battle Mode and a Daily Challenge — change the constraints, so a roster that dominates one format can fall apart in another.
 
 The same shape recurs across the other sports with different vocabulary. Football has Franchise Mode and GM Mode extending control past draft day to the wider organisation. Hockey has Franchise GM Mode for organising forwards, defenders and goaltending across seasons. Baseball has Franchise GM Mode covering the batting order, rotation, bullpen and payroll. Soccer calls it club management and includes formations, squad depth, transfers, contracts, fitness and season progress. Combat sports has GM Mode, where you sign fighters, manage contracts and move contenders toward title shots with your decisions feeding the rankings.
 

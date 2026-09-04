@@ -3,12 +3,18 @@
   "title": "How Long Does It Take to Learn Russian? What the Published Figures Do and Do Not Say",
   "metaTitle": "How Long Does It Take to Learn Russian?",
   "description": "The one public institutional figure for Russian study time is FSI's, and it describes full-time diplomatic training. Here is what it means and what it does not.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "language-learning",
-  "tags": ["russian", "study planning", "language difficulty", "fsi", "beginner"],
+  "tags": [
+    "russian",
+    "study planning",
+    "language difficulty",
+    "fsi",
+    "beginner"
+  ],
   "primaryKeyword": "how long to learn russian",
   "secondaryKeywords": [
     "fsi russian hours",
@@ -32,7 +38,9 @@
     "Is Russian harder than Spanish or French?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["learn-russian"],
+  "relatedApps": [
+    "learn-russian"
+  ],
   "relatedArticles": [
     "learn-russian-cyrillic-beginners-guide",
     "russian-cases-explained-for-beginners",
@@ -48,7 +56,6 @@
   ],
   "disclaimer": "language",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "How many hours does FSI say Russian takes?",

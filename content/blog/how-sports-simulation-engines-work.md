@@ -3,12 +3,18 @@
   "title": "How Sports Simulation Engines Turn Ratings Into Results",
   "metaTitle": "How Sports Simulation Games Actually Work",
   "description": "Inside a sports sim: how ratings become probabilities, where randomness enters, the two main engine designs, and what a simulated record does and does not mean.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["sports sim", "simulation engine", "game design", "baseball", "probability"],
+  "tags": [
+    "sports sim",
+    "simulation engine",
+    "game design",
+    "baseball",
+    "probability"
+  ],
   "primaryKeyword": "how sports simulation games work",
   "secondaryKeywords": [
     "sports simulation engine explained",
@@ -32,7 +38,10 @@
     "Is a simulated season a prediction of anything real?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["baseball-draft-gm-team", "pro-basketball-draft-gm-mode"],
+  "relatedApps": [
+    "baseball-draft-gm-team",
+    "pro-basketball-draft-gm-mode"
+  ],
   "relatedArticles": [
     "understanding-sports-sim-probability",
     "baseball-stats-explained-for-beginners",
@@ -48,7 +57,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "How does a sports simulation game calculate a result?",
@@ -72,7 +80,7 @@
     },
     {
       "question": "Are these games based on real players or leagues?",
-      "answer": "No. 162-0 Baseball Draft & GM Team and Basketball Draft GM Franchise are fictional sports simulations built on generated player pools, and they are not affiliated with, endorsed by or connected to any real league, team or athlete."
+      "answer": "No. 162-0 Baseball Draft & GM Team and Pro Basketball GM Franchise are fictional sports simulations built on generated player pools, and they are not affiliated with, endorsed by or connected to any real league, team or athlete."
     }
   ],
   "sources": [
@@ -81,6 +89,12 @@
       "publisher": "Brown University",
       "url": "https://seeing-theory.brown.edu/",
       "accessed": "2026-08-09"
+    },
+    {
+      "title": "SP 800-22 Rev. 1a: A Statistical Test Suite for Random and Pseudorandom Number Generators for Cryptographic Applications",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://csrc.nist.gov/pubs/sp/800/22/r1/upd1/final",
+      "accessed": "2026-09-03"
     }
   ]
 }

@@ -1,0 +1,2304 @@
+{
+  "checkedAt": "2026-09-04T08:32:38.132Z",
+  "results": [
+    {
+      "url": "https://aa.usno.navy.mil/",
+      "status": 200,
+      "finalUrl": "https://aa.usno.navy.mil/",
+      "verdict": "ok",
+      "articles": [
+        "how-historians-date-events",
+        "world-history-timeline-guide"
+      ]
+    },
+    {
+      "url": "https://aa.usno.navy.mil/faq/calendars",
+      "status": 200,
+      "finalUrl": "https://aa.usno.navy.mil/faq/calendars",
+      "verdict": "ok",
+      "articles": [
+        "bce-and-ce-explained",
+        "how-calendars-and-dating-systems-work"
+      ]
+    },
+    {
+      "url": "https://about.fiba.basketball/en/our-sport/official-basketball-rules",
+      "status": 200,
+      "finalUrl": "https://about.fiba.basketball/en/our-sport/official-basketball-rules",
+      "verdict": "ok",
+      "articles": [
+        "basketball-advanced-stats-explained",
+        "basketball-positions-explained",
+        "depth-charts-explained",
+        "expansion-drafts-explained",
+        "free-agency-explained",
+        "how-to-build-a-balanced-basketball-roster",
+        "rebuild-vs-retool"
+      ]
+    },
+    {
+      "url": "https://aomedia.org/",
+      "status": 200,
+      "finalUrl": "https://aomedia.org/",
+      "verdict": "ok",
+      "articles": [
+        "android-video-player-guide"
+      ]
+    },
+    {
+      "url": "https://aomediacodec.github.io/av1-spec/",
+      "status": 200,
+      "finalUrl": "https://aomediacodec.github.io/av1-spec/",
+      "verdict": "ok",
+      "articles": [
+        "av1-on-android-explained",
+        "video-codecs-explained"
+      ]
+    },
+    {
+      "url": "https://apps.ankiweb.net/",
+      "status": 200,
+      "finalUrl": "https://apps.ankiweb.net/",
+      "verdict": "ok",
+      "articles": [
+        "language-learning-apps-compared"
+      ]
+    },
+    {
+      "url": "https://archive.org/details/memorycontributi00ebbiuoft",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/memorycontributi00ebbiuoft",
+      "verdict": "ok",
+      "articles": [
+        "spaced-repetition-for-language-learning"
+      ]
+    },
+    {
+      "url": "https://avalon.law.yale.edu/",
+      "status": 200,
+      "finalUrl": "https://avalon.law.yale.edu/",
+      "verdict": "ok",
+      "articles": [
+        "major-eras-of-world-history",
+        "world-history-timeline-guide"
+      ]
+    },
+    {
+      "url": "https://bjorklab.psych.ucla.edu/",
+      "status": 200,
+      "finalUrl": "https://bjorklab.psych.ucla.edu/",
+      "verdict": "ok",
+      "articles": [
+        "spaced-repetition-for-language-learning"
+      ]
+    },
+    {
+      "url": "https://blog.duolingo.com/duolingo-101-how-to-learn-a-language-on-duolingo/",
+      "status": 200,
+      "finalUrl": "https://blog.duolingo.com/duolingo-101-how-to-learn-a-language-on-duolingo/",
+      "verdict": "ok",
+      "articles": [
+        "language-learning-apps-compared"
+      ]
+    },
+    {
+      "url": "https://blog.duolingo.com/duolingo-updates/",
+      "status": 200,
+      "finalUrl": "https://blog.duolingo.com/duolingo-updates/",
+      "verdict": "ok",
+      "articles": [
+        "language-learning-apps-compared"
+      ]
+    },
+    {
+      "url": "https://c14.arch.ox.ac.uk/",
+      "status": 200,
+      "finalUrl": "https://c14.arch.ox.ac.uk/",
+      "verdict": "ok",
+      "articles": [
+        "how-historians-date-events"
+      ]
+    },
+    {
+      "url": "https://c14.arch.ox.ac.uk/oxcal.html",
+      "status": 200,
+      "finalUrl": "https://c14.arch.ox.ac.uk/oxcal.html",
+      "verdict": "ok",
+      "articles": [
+        "how-historians-date-events"
+      ]
+    },
+    {
+      "url": "https://cie.co.at/",
+      "status": 200,
+      "finalUrl": "https://cie.co.at/",
+      "verdict": "ok",
+      "articles": [
+        "color-theory-for-beginners"
+      ]
+    },
+    {
+      "url": "https://cronometer.com/",
+      "status": 200,
+      "finalUrl": "https://cronometer.com/",
+      "verdict": "ok",
+      "articles": [
+        "protein-tracking-apps-compared"
+      ]
+    },
+    {
+      "url": "https://cronometer.com/features/",
+      "status": 200,
+      "finalUrl": "https://cronometer.com/features/",
+      "verdict": "ok",
+      "articles": [
+        "low-carb-tracking-apps-compared",
+        "protein-tracking-apps-compared"
+      ]
+    },
+    {
+      "url": "https://cronometer.com/gold/",
+      "status": 200,
+      "finalUrl": "https://cronometer.com/gold/",
+      "verdict": "ok",
+      "articles": [
+        "low-carb-tracking-apps-compared",
+        "protein-tracking-apps-compared"
+      ]
+    },
+    {
+      "url": "https://csrc.nist.gov/pubs/sp/800/22/r1/upd1/final",
+      "status": 200,
+      "finalUrl": "https://csrc.nist.gov/pubs/sp/800/22/r1/upd1/final",
+      "verdict": "ok",
+      "articles": [
+        "career-sim-vs-manager-game",
+        "coach-trust-and-playing-time",
+        "how-draft-lotteries-work",
+        "how-football-draft-order-works",
+        "how-player-career-modes-work",
+        "how-sports-simulation-engines-work",
+        "how-to-choose-a-sports-career-sim",
+        "injuries-in-sports-career-games"
+      ]
+    },
+    {
+      "url": "https://datatracker.ietf.org/wg/cellar/about/",
+      "status": 200,
+      "finalUrl": "https://datatracker.ietf.org/wg/cellar/about/",
+      "verdict": "ok",
+      "articles": [
+        "video-file-formats-explained"
+      ]
+    },
+    {
+      "url": "https://developer.android.com/games/pgs/overview",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "browser-only",
+      "articles": [
+        "best-offline-arcade-games-android"
+      ]
+    },
+    {
+      "url": "https://developer.android.com/guide/topics/permissions/overview",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "browser-only",
+      "articles": [
+        "android-app-permissions-explained",
+        "battery-and-performance-in-mobile-games",
+        "google-play-data-safety-explained",
+        "why-free-android-games-show-ads"
+      ]
+    },
+    {
+      "url": "https://developer.android.com/media",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "browser-only",
+      "articles": [
+        "android-video-player-guide"
+      ]
+    },
+    {
+      "url": "https://developer.android.com/media/platform/supported-formats",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "browser-only",
+      "articles": [
+        "android-video-player-guide",
+        "android-video-players-compared",
+        "audio-codecs-explained",
+        "av1-on-android-explained",
+        "battery-and-performance-in-mobile-games",
+        "hardware-vs-software-decoding",
+        "remuxing-vs-transcoding",
+        "subtitle-formats-explained",
+        "video-codecs-explained",
+        "video-file-formats-explained"
+      ]
+    },
+    {
+      "url": "https://developer.android.com/reference/android/Manifest.permission",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "browser-only",
+      "articles": [
+        "best-offline-arcade-games-android"
+      ]
+    },
+    {
+      "url": "https://developer.android.com/topic/architecture/data-layer/offline-first",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "browser-only",
+      "articles": [
+        "best-offline-sports-games-android"
+      ]
+    },
+    {
+      "url": "https://developer.apple.com/documentation/quicktime-file-format",
+      "status": 200,
+      "finalUrl": "https://developer.apple.com/documentation/quicktime-file-format",
+      "verdict": "ok",
+      "articles": [
+        "video-file-formats-explained"
+      ]
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Video_codecs",
+      "status": 200,
+      "finalUrl": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
+      "verdict": "ok",
+      "articles": [
+        "av1-on-android-explained",
+        "frame-rate-and-resolution-explained",
+        "hardware-vs-software-decoding"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Alpha_compositing",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Alpha_compositing",
+      "verdict": "ok",
+      "articles": [
+        "digital-coloring-techniques"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Call_of_Duty:_World_at_War",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Call_of_Duty:_World_at_War",
+      "verdict": "ok",
+      "articles": [
+        "wave-survival-game-design"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/DoDonPachi",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/DoDonPachi",
+      "verdict": "ok",
+      "articles": [
+        "bullet-hell-vs-classic-shmup"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Earned_run_average",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Earned_run_average",
+      "verdict": "ok",
+      "articles": [
+        "baseball-draft-gm-guide"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Flood_fill",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Flood_fill",
+      "verdict": "ok",
+      "articles": [
+        "digital-coloring-techniques"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Gears_of_War_2",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Gears_of_War_2",
+      "verdict": "ok",
+      "articles": [
+        "wave-survival-game-design"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ikaruga",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Ikaruga",
+      "verdict": "ok",
+      "articles": [
+        "bullet-hell-vs-classic-shmup"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Isekai",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Isekai",
+      "verdict": "ok",
+      "articles": [
+        "anime-genres-explained"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Left_4_Dead",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Left_4_Dead",
+      "verdict": "ok",
+      "articles": [
+        "wave-survival-game-design"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mecha_anime_and_manga",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Mecha_anime_and_manga",
+      "verdict": "ok",
+      "articles": [
+        "anime-genres-explained"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Munsell_color_system",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Munsell_color_system",
+      "verdict": "ok",
+      "articles": [
+        "color-theory-for-beginners"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/NetHack",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/NetHack",
+      "verdict": "ok",
+      "articles": [
+        "what-makes-a-roguelike"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rogue_(video_game)",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Rogue_(video_game)",
+      "verdict": "ok",
+      "articles": [
+        "what-makes-a-roguelike"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Roguelike",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Roguelike",
+      "verdict": "ok",
+      "articles": [
+        "what-makes-a-roguelike",
+        "zombie-survival-roguelike-guide"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Seinen_manga",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Seinen_manga",
+      "verdict": "ok",
+      "articles": [
+        "anime-genres-explained"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sh%C5%8Djo_manga",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Sh%C5%8Djo_manga",
+      "verdict": "ok",
+      "articles": [
+        "anime-genres-explained"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sh%C5%8Dnen_manga",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Sh%C5%8Dnen_manga",
+      "verdict": "ok",
+      "articles": [
+        "anime-genres-explained"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Shoot_%27em_up",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Shoot_%27em_up",
+      "verdict": "ok",
+      "articles": [
+        "bullet-hell-vs-classic-shmup",
+        "history-of-shoot-em-up-games"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Space_Invaders",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Space_Invaders",
+      "verdict": "ok",
+      "articles": [
+        "history-of-shoot-em-up-games"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Spacewar!",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Spacewar!",
+      "verdict": "ok",
+      "articles": [
+        "history-of-shoot-em-up-games"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Spatial_anti-aliasing",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Spatial_anti-aliasing",
+      "verdict": "ok",
+      "articles": [
+        "digital-coloring-techniques"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Walks_plus_hits_per_inning_pitched",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Walks_plus_hits_per_inning_pitched",
+      "verdict": "ok",
+      "articles": [
+        "baseball-draft-gm-guide"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wins_Above_Replacement",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Wins_Above_Replacement",
+      "verdict": "ok",
+      "articles": [
+        "baseball-draft-gm-guide"
+      ]
+    },
+    {
+      "url": "https://europa.eu/europass/en/common-european-framework-reference-language-skills",
+      "status": 200,
+      "finalUrl": "https://europass.europa.eu/en/common-european-framework-reference-language-skills",
+      "verdict": "ok",
+      "articles": [
+        "cefr-levels-explained",
+        "comprehensible-input-explained",
+        "how-long-to-learn-italian",
+        "how-many-words-to-be-conversational",
+        "is-vietnamese-hard-to-learn",
+        "italian-articles-and-gender",
+        "language-learning-plateau",
+        "learn-italian-beginners-guide",
+        "learning-a-language-without-a-teacher",
+        "listening-practice-in-a-new-language"
+      ]
+    },
+    {
+      "url": "https://fdc.nal.usda.gov/",
+      "status": 200,
+      "finalUrl": "https://fdc.nal.usda.gov/",
+      "verdict": "ok",
+      "articles": [
+        "complete-vs-incomplete-proteins",
+        "how-much-protein-per-day",
+        "how-to-hit-a-protein-goal",
+        "how-to-track-protein-intake",
+        "keto-macros-explained",
+        "low-carb-tracking-apps-compared",
+        "net-carbs-explained-keto-tracking",
+        "plant-vs-animal-protein",
+        "protein-sources-compared",
+        "protein-tracking-apps-compared",
+        "why-food-databases-disagree"
+      ]
+    },
+    {
+      "url": "https://glottolog.org/resource/languoid/id/ital1282",
+      "status": 200,
+      "finalUrl": "https://glottolog.org/resource/languoid/id/ital1282",
+      "verdict": "ok",
+      "articles": [
+        "italian-articles-and-gender",
+        "italian-verb-conjugation-basics",
+        "learn-italian-beginners-guide"
+      ]
+    },
+    {
+      "url": "https://glottolog.org/resource/languoid/id/laoo1244",
+      "status": 200,
+      "finalUrl": "https://glottolog.org/resource/languoid/id/laoo1244",
+      "verdict": "ok",
+      "articles": [
+        "lao-alphabet-explained",
+        "lao-vs-thai-differences",
+        "learn-lao-beginners-guide",
+        "what-is-a-tonal-language"
+      ]
+    },
+    {
+      "url": "https://glottolog.org/resource/languoid/id/viet1252",
+      "status": 200,
+      "finalUrl": "https://glottolog.org/resource/languoid/id/viet1252",
+      "verdict": "ok",
+      "articles": [
+        "is-vietnamese-hard-to-learn",
+        "learn-vietnamese-beginners-guide",
+        "vietnamese-alphabet-explained",
+        "vietnamese-pronouns-explained",
+        "vietnamese-tones-explained",
+        "what-is-a-tonal-language"
+      ]
+    },
+    {
+      "url": "https://gramota.ru/",
+      "status": 200,
+      "finalUrl": "https://gramota.ru/",
+      "verdict": "ok",
+      "articles": [
+        "how-long-does-it-take-to-learn-russian",
+        "learn-russian-cyrillic-beginners-guide",
+        "russian-cases-explained-for-beginners"
+      ]
+    },
+    {
+      "url": "https://history.state.gov/historicaldocuments",
+      "status": 200,
+      "finalUrl": "https://history.state.gov/historicaldocuments",
+      "verdict": "ok",
+      "articles": [
+        "primary-vs-secondary-sources",
+        "world-history-timeline-guide"
+      ]
+    },
+    {
+      "url": "https://humanorigins.si.edu/education/introduction-human-evolution",
+      "status": 200,
+      "finalUrl": "https://humanorigins.si.edu/education/introduction-human-evolution",
+      "verdict": "ok",
+      "articles": [
+        "major-eras-of-world-history"
+      ]
+    },
+    {
+      "url": "https://humanorigins.si.edu/evidence/behavior/stone-tools",
+      "status": 200,
+      "finalUrl": "https://humanorigins.si.edu/evidence/behavior/stone-tools",
+      "verdict": "ok",
+      "articles": [
+        "major-eras-of-world-history"
+      ]
+    },
+    {
+      "url": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens",
+      "status": 200,
+      "finalUrl": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens",
+      "verdict": "ok",
+      "articles": [
+        "major-eras-of-world-history"
+      ]
+    },
+    {
+      "url": "https://iso639-3.sil.org/code/ind",
+      "status": 200,
+      "finalUrl": "https://iso639-3.sil.org/code/ind",
+      "verdict": "ok",
+      "articles": [
+        "malay-vs-indonesian-differences"
+      ]
+    },
+    {
+      "url": "https://iso639-3.sil.org/code/ita",
+      "status": 200,
+      "finalUrl": "https://iso639-3.sil.org/code/ita",
+      "verdict": "ok",
+      "articles": [
+        "italian-verb-conjugation-basics",
+        "learn-italian-beginners-guide"
+      ]
+    },
+    {
+      "url": "https://iso639-3.sil.org/code/lao",
+      "status": 200,
+      "finalUrl": "https://iso639-3.sil.org/code/lao",
+      "verdict": "ok",
+      "articles": [
+        "lao-vs-thai-differences",
+        "learn-lao-beginners-guide"
+      ]
+    },
+    {
+      "url": "https://iso639-3.sil.org/code/vie",
+      "status": 200,
+      "finalUrl": "https://iso639-3.sil.org/code/vie",
+      "verdict": "ok",
+      "articles": [
+        "learn-vietnamese-beginners-guide",
+        "vietnamese-pronouns-explained",
+        "vietnamese-tones-explained"
+      ]
+    },
+    {
+      "url": "https://iso639-3.sil.org/code/zsm",
+      "status": 200,
+      "finalUrl": "https://iso639-3.sil.org/code/zsm",
+      "verdict": "ok",
+      "articles": [
+        "learn-malay-beginners-guide",
+        "malay-pronunciation-guide",
+        "malay-vs-indonesian-differences"
+      ]
+    },
+    {
+      "url": "https://library.fangraphs.com/",
+      "status": 200,
+      "finalUrl": "https://library.fangraphs.com/",
+      "verdict": "ok",
+      "articles": [
+        "baseball-stats-explained-for-beginners"
+      ]
+    },
+    {
+      "url": "https://ltrr.arizona.edu/",
+      "status": 200,
+      "finalUrl": "https://ltrr.arizona.edu/",
+      "verdict": "ok",
+      "articles": [
+        "how-historians-date-events"
+      ]
+    },
+    {
+      "url": "https://mathworld.wolfram.com/BinomialTheorem.html",
+      "status": 200,
+      "finalUrl": "https://mathworld.wolfram.com/BinomialTheorem.html",
+      "verdict": "ok",
+      "articles": [
+        "mental-math-tricks-that-work"
+      ]
+    },
+    {
+      "url": "https://mathworld.wolfram.com/CastingOutNines.html",
+      "status": 200,
+      "finalUrl": "https://mathworld.wolfram.com/CastingOutNines.html",
+      "verdict": "ok",
+      "articles": [
+        "mental-math-training-guide"
+      ]
+    },
+    {
+      "url": "https://mathworld.wolfram.com/DivisibilityTests.html",
+      "status": 200,
+      "finalUrl": "https://mathworld.wolfram.com/DivisibilityTests.html",
+      "verdict": "ok",
+      "articles": [
+        "mental-math-tricks-that-work"
+      ]
+    },
+    {
+      "url": "https://mathworld.wolfram.com/NewtonsMethod.html",
+      "status": 200,
+      "finalUrl": "https://mathworld.wolfram.com/NewtonsMethod.html",
+      "verdict": "ok",
+      "articles": [
+        "mental-math-tricks-that-work"
+      ]
+    },
+    {
+      "url": "https://mathworld.wolfram.com/SquareRoot.html",
+      "status": 200,
+      "finalUrl": "https://mathworld.wolfram.com/SquareRoot.html",
+      "verdict": "ok",
+      "articles": [
+        "mental-math-tricks-that-work"
+      ]
+    },
+    {
+      "url": "https://medlineplus.gov/carbohydrates.html",
+      "status": 200,
+      "finalUrl": "https://medlineplus.gov/carbohydrates.html",
+      "verdict": "ok",
+      "articles": [
+        "electrolytes-on-low-carb",
+        "glycemic-index-and-load",
+        "intermittent-fasting-windows-explained",
+        "keto-macros-explained",
+        "low-carb-tracking-apps-compared",
+        "net-carbs-explained-keto-tracking",
+        "sugar-alcohols-explained",
+        "what-is-a-ketone-reading"
+      ]
+    },
+    {
+      "url": "https://medlineplus.gov/dietaryfats.html",
+      "status": 200,
+      "finalUrl": "https://medlineplus.gov/dietaryfats.html",
+      "verdict": "ok",
+      "articles": [
+        "keto-macros-explained"
+      ]
+    },
+    {
+      "url": "https://medlineplus.gov/dietaryfiber.html",
+      "status": 200,
+      "finalUrl": "https://medlineplus.gov/dietaryfiber.html",
+      "verdict": "ok",
+      "articles": [
+        "net-carbs-explained-keto-tracking"
+      ]
+    },
+    {
+      "url": "https://medlineplus.gov/dietaryproteins.html",
+      "status": 200,
+      "finalUrl": "https://medlineplus.gov/dietaryproteins.html",
+      "verdict": "ok",
+      "articles": [
+        "how-much-protein-per-day"
+      ]
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/000320.htm",
+      "status": 200,
+      "finalUrl": "https://medlineplus.gov/ency/article/000320.htm",
+      "verdict": "ok",
+      "articles": [
+        "what-is-a-ketone-reading"
+      ]
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/002467.htm",
+      "status": 200,
+      "finalUrl": "https://medlineplus.gov/ency/article/002467.htm",
+      "verdict": "ok",
+      "articles": [
+        "complete-vs-incomplete-proteins",
+        "how-much-protein-per-day",
+        "how-to-hit-a-protein-goal",
+        "how-to-track-protein-intake",
+        "plant-vs-animal-protein",
+        "protein-per-meal-explained",
+        "protein-sources-compared",
+        "protein-tracking-apps-compared"
+      ]
+    },
+    {
+      "url": "https://medlineplus.gov/ency/patientinstructions/000838.htm",
+      "status": 200,
+      "finalUrl": "https://medlineplus.gov/ency/patientinstructions/000838.htm",
+      "verdict": "ok",
+      "articles": [
+        "keto-macros-explained"
+      ]
+    },
+    {
+      "url": "https://medlineplus.gov/fluidandelectrolytebalance.html",
+      "status": 200,
+      "finalUrl": "https://medlineplus.gov/fluidandelectrolytebalance.html",
+      "verdict": "ok",
+      "articles": [
+        "electrolytes-on-low-carb",
+        "keto-flu-explained"
+      ]
+    },
+    {
+      "url": "https://medlineplus.gov/lab-tests/ketones-in-blood/",
+      "status": 200,
+      "finalUrl": "https://medlineplus.gov/lab-tests/ketones-in-blood/",
+      "verdict": "ok",
+      "articles": [
+        "intermittent-fasting-windows-explained",
+        "what-is-a-ketone-reading"
+      ]
+    },
+    {
+      "url": "https://medlineplus.gov/lab-tests/ketones-in-urine/",
+      "status": 200,
+      "finalUrl": "https://medlineplus.gov/lab-tests/ketones-in-urine/",
+      "verdict": "ok",
+      "articles": [
+        "what-is-a-ketone-reading"
+      ]
+    },
+    {
+      "url": "https://medlineplus.gov/pregnancyandnutrition.html",
+      "status": 200,
+      "finalUrl": "https://medlineplus.gov/pregnancyandnutrition.html",
+      "verdict": "ok",
+      "articles": [
+        "intermittent-fasting-windows-explained"
+      ]
+    },
+    {
+      "url": "https://mp4ra.org/",
+      "status": 200,
+      "finalUrl": "https://mp4ra.org/",
+      "verdict": "ok",
+      "articles": [
+        "video-file-formats-explained"
+      ]
+    },
+    {
+      "url": "https://nap.nationalacademies.org/catalog/10490/",
+      "status": 200,
+      "finalUrl": "https://www.nationalacademies.org/projects/HMD-FNB-18-P-119/publication/10490",
+      "verdict": "ok",
+      "articles": [
+        "intermittent-fasting-windows-explained"
+      ]
+    },
+    {
+      "url": "https://nap.nationalacademies.org/catalog/10490/dietary-reference-intakes-for-energy-carbohydrate-fiber-fat-fatty-acids-cholesterol-protein-and-amino-acids",
+      "status": 200,
+      "finalUrl": "https://www.nationalacademies.org/projects/HMD-FNB-18-P-119/publication/10490",
+      "verdict": "ok",
+      "articles": [
+        "complete-vs-incomplete-proteins",
+        "how-much-protein-per-day",
+        "how-to-track-protein-intake",
+        "keto-macros-explained",
+        "net-carbs-explained-keto-tracking",
+        "plant-vs-animal-protein",
+        "protein-for-older-adults",
+        "protein-sources-compared",
+        "reading-nutrition-labels",
+        "tdee-and-energy-balance",
+        "what-is-a-ketone-reading"
+      ]
+    },
+    {
+      "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "status": 403,
+      "finalUrl": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "verdict": "browser-only",
+      "articles": [
+        "how-much-protein-per-day"
+      ]
+    },
+    {
+      "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "status": 403,
+      "finalUrl": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "verdict": "browser-only",
+      "articles": [
+        "protein-sources-compared"
+      ]
+    },
+    {
+      "url": "https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/",
+      "status": 403,
+      "finalUrl": "https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/",
+      "verdict": "browser-only",
+      "articles": [
+        "protein-sources-compared"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2864034/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2864034/",
+      "verdict": "ok",
+      "articles": [
+        "working-memory-and-training"
+      ]
+    },
+    {
+      "url": "https://prpm.dbp.gov.my/",
+      "status": 200,
+      "finalUrl": "https://prpm.dbp.gov.my/",
+      "verdict": "ok",
+      "articles": [
+        "malay-pronunciation-guide"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16719566/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/16719566/",
+      "verdict": "ok",
+      "articles": [
+        "building-a-daily-practice-habit",
+        "how-long-to-learn-italian",
+        "how-many-words-to-be-conversational",
+        "language-learning-plateau",
+        "learning-a-language-without-a-teacher",
+        "memory-techniques-that-work",
+        "multiplication-shortcuts-explained",
+        "what-is-a-tonal-language"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18276894/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/18276894/",
+      "verdict": "ok",
+      "articles": [
+        "spaced-repetition-for-language-learning"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22612437/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/22612437/",
+      "verdict": "ok",
+      "articles": [
+        "memory-techniques-that-work",
+        "working-memory-and-training"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23867520/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/23867520/",
+      "verdict": "ok",
+      "articles": [
+        "protein-for-older-adults"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25102926/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/25102926/",
+      "verdict": "ok",
+      "articles": [
+        "working-memory-and-training"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26173288/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/26173288/",
+      "verdict": "ok",
+      "articles": [
+        "boss-pattern-recognition",
+        "building-a-daily-practice-habit",
+        "comprehensible-input-explained",
+        "estimation-techniques-explained",
+        "how-many-words-to-be-conversational",
+        "how-quiz-difficulty-works",
+        "learning-a-language-without-a-teacher",
+        "listening-practice-in-a-new-language",
+        "memory-techniques-that-work",
+        "multiplication-shortcuts-explained",
+        "shadowing-technique-explained",
+        "spaced-repetition-for-language-learning",
+        "word-game-strategy-guide"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27474138/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/27474138/",
+      "verdict": "ok",
+      "articles": [
+        "working-memory-and-training"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27697851/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/27697851/",
+      "verdict": "ok",
+      "articles": [
+        "working-memory-and-training"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27840639/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/27840639/",
+      "verdict": "ok",
+      "articles": [
+        "sugar-alcohols-explained"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28698222/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/28698222/",
+      "verdict": "ok",
+      "articles": [
+        "protein-per-meal-explained"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28993807/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/28993807/",
+      "verdict": "ok",
+      "articles": [
+        "serving-size-vs-portion-size"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29497353/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/29497353/",
+      "verdict": "ok",
+      "articles": [
+        "how-to-hit-a-protein-goal",
+        "protein-per-meal-explained"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31805451/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/31805451/",
+      "verdict": "ok",
+      "articles": [
+        "electrolytes-on-low-carb",
+        "keto-flu-explained"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32719809/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/32719809/",
+      "verdict": "ok",
+      "articles": [
+        "why-food-databases-disagree"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38977928/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/38977928/",
+      "verdict": "ok",
+      "articles": [
+        "tdee-and-energy-balance"
+      ]
+    },
+    {
+      "url": "https://roguebasin.com/index.php/Berlin_Interpretation",
+      "status": 200,
+      "finalUrl": "https://roguebasin.com/index.php/Berlin_Interpretation",
+      "verdict": "ok",
+      "articles": [
+        "difficulty-curves-explained",
+        "horde-survival-vs-wave-shooter",
+        "power-ups-and-build-design",
+        "score-attack-strategy",
+        "what-makes-a-roguelike"
+      ]
+    },
+    {
+      "url": "https://sabr.org/",
+      "status": 200,
+      "finalUrl": "https://sabr.org/",
+      "verdict": "ok",
+      "articles": [
+        "baseball-stats-explained-for-beginners"
+      ]
+    },
+    {
+      "url": "https://seeing-theory.brown.edu/",
+      "status": 200,
+      "finalUrl": "https://seeing-theory.brown.edu/",
+      "verdict": "ok",
+      "articles": [
+        "career-sim-vs-manager-game",
+        "how-draft-lotteries-work",
+        "how-player-career-modes-work",
+        "how-sports-simulation-engines-work",
+        "how-to-choose-a-sports-career-sim",
+        "injuries-in-sports-career-games",
+        "rebuild-vs-retool",
+        "understanding-sports-sim-probability"
+      ]
+    },
+    {
+      "url": "https://support.google.com/googleplay/android-developer/answer/10787469",
+      "status": 200,
+      "finalUrl": "https://support.google.com/googleplay/android-developer/answer/10787469",
+      "verdict": "ok",
+      "articles": [
+        "android-app-permissions-explained",
+        "best-offline-arcade-games-android",
+        "best-offline-sports-games-android",
+        "google-play-data-safety-explained",
+        "why-free-android-games-show-ads"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/",
+      "verdict": "browser-only",
+      "articles": [
+        "how-historians-date-events",
+        "major-eras-of-world-history",
+        "world-history-timeline-guide"
+      ]
+    },
+    {
+      "url": "https://www.abcboxing.com/unified-rules-boxing/",
+      "status": 200,
+      "finalUrl": "https://www.abcboxing.com/unified-rules-boxing/",
+      "verdict": "ok",
+      "articles": [
+        "boxing-scoring-explained"
+      ]
+    },
+    {
+      "url": "https://www.abcboxing.com/unified-rules/",
+      "status": 200,
+      "finalUrl": "https://www.abcboxing.com/unified-rules/",
+      "verdict": "ok",
+      "articles": [
+        "boxing-scoring-explained",
+        "mma-weight-classes-explained"
+      ]
+    },
+    {
+      "url": "https://www.abcboxing.com/wp-content/uploads/2025/08/Unified-Rules-of-MMA-8.2025.pdf",
+      "status": 200,
+      "finalUrl": "https://www.abcboxing.com/wp-content/uploads/2025/08/Unified-Rules-of-MMA-8.2025.pdf",
+      "verdict": "ok",
+      "articles": [
+        "mma-weight-classes-explained"
+      ]
+    },
+    {
+      "url": "https://www.abcboxing.com/wp-content/uploads/2025/10/ABC-BOXING-JUDGE-MANUAL.pdf",
+      "status": 200,
+      "finalUrl": "https://www.abcboxing.com/wp-content/uploads/2025/10/ABC-BOXING-JUDGE-MANUAL.pdf",
+      "verdict": "ok",
+      "articles": [
+        "boxing-scoring-explained"
+      ]
+    },
+    {
+      "url": "https://www.actfl.org/educator-resources/actfl-proficiency-guidelines",
+      "status": 200,
+      "finalUrl": "https://www.actfl.org/terms-and-conditions",
+      "verdict": "ok",
+      "articles": [
+        "cefr-levels-explained",
+        "comprehensible-input-explained",
+        "how-long-to-learn-italian",
+        "language-learning-plateau",
+        "shadowing-technique-explained"
+      ]
+    },
+    {
+      "url": "https://www.adobe.com/products/flashplayer/end-of-life.html",
+      "status": 200,
+      "finalUrl": "https://www.adobe.com/products/flashplayer/end-of-life-alternative.html",
+      "verdict": "ok",
+      "articles": [
+        "video-file-formats-explained"
+      ]
+    },
+    {
+      "url": "https://www.animenewsnetwork.com/encyclopedia/lexicon.php",
+      "status": 200,
+      "finalUrl": "https://www.animenewsnetwork.com/encyclopedia/lexicon.php",
+      "verdict": "ok",
+      "articles": [
+        "anime-art-styles-explained",
+        "anime-genres-explained",
+        "anime-terminology-glossary",
+        "how-quiz-difficulty-works",
+        "word-game-strategy-guide"
+      ]
+    },
+    {
+      "url": "https://www.archives.gov/education/lessons/worksheets",
+      "status": 200,
+      "finalUrl": "https://www.archives.gov/education/lessons/worksheets",
+      "verdict": "ok",
+      "articles": [
+        "primary-vs-secondary-sources"
+      ]
+    },
+    {
+      "url": "https://www.archives.gov/founding-docs",
+      "status": 200,
+      "finalUrl": "https://www.archives.gov/founding-docs",
+      "verdict": "ok",
+      "articles": [
+        "how-historians-date-events",
+        "major-eras-of-world-history",
+        "primary-vs-secondary-sources"
+      ]
+    },
+    {
+      "url": "https://www.archives.gov/founding-docs/declaration",
+      "status": 200,
+      "finalUrl": "https://www.archives.gov/founding-docs/declaration",
+      "verdict": "ok",
+      "articles": [
+        "world-history-timeline-guide"
+      ]
+    },
+    {
+      "url": "https://www.britishmuseum.org/collection/object/Y_EA24",
+      "status": 403,
+      "finalUrl": "https://www.britishmuseum.org/collection/object/Y_EA24",
+      "verdict": "browser-only",
+      "articles": [
+        "world-history-timeline-guide"
+      ]
+    },
+    {
+      "url": "https://www.carbmanager.com/",
+      "status": 200,
+      "finalUrl": "https://www.carbmanager.com/",
+      "verdict": "ok",
+      "articles": [
+        "low-carb-tracking-apps-compared"
+      ]
+    },
+    {
+      "url": "https://www.carbmanager.com/premium",
+      "status": 200,
+      "finalUrl": "https://www.carbmanager.com/premium",
+      "verdict": "ok",
+      "articles": [
+        "low-carb-tracking-apps-compared"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/diabetes/about/diabetic-ketoacidosis.html",
+      "status": 200,
+      "finalUrl": "https://www.cdc.gov/diabetes/about/diabetic-ketoacidosis.html",
+      "verdict": "ok",
+      "articles": [
+        "keto-flu-explained",
+        "what-is-a-ketone-reading"
+      ]
+    },
+    {
+      "url": "https://www.coe.int/en/web/common-european-framework-reference-languages",
+      "status": 403,
+      "finalUrl": "https://www.coe.int/en/web/common-european-framework-reference-languages",
+      "verdict": "browser-only",
+      "articles": [
+        "how-long-does-it-take-to-learn-russian"
+      ]
+    },
+    {
+      "url": "https://www.computerhistory.org/pdp-1/",
+      "status": 200,
+      "finalUrl": "https://www.computerhistory.org/pdp-1/",
+      "verdict": "ok",
+      "articles": [
+        "history-of-shoot-em-up-games"
+      ]
+    },
+    {
+      "url": "https://www.dbp.gov.my/",
+      "status": 200,
+      "finalUrl": "https://dbp.gov.my/",
+      "verdict": "ok",
+      "articles": [
+        "learn-malay-beginners-guide",
+        "malay-pronunciation-guide",
+        "malay-vs-indonesian-differences"
+      ]
+    },
+    {
+      "url": "https://www.dietaryguidelines.gov/",
+      "status": 200,
+      "finalUrl": "https://www.dietaryguidelines.gov/",
+      "verdict": "ok",
+      "articles": [
+        "added-sugars-vs-total-sugars",
+        "how-much-protein-per-day",
+        "how-to-track-protein-intake",
+        "keto-macros-explained",
+        "net-carbs-explained-keto-tracking",
+        "protein-sources-compared"
+      ]
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12",
+      "status": 200,
+      "finalUrl": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12",
+      "verdict": "ok",
+      "articles": [
+        "reading-nutrition-labels"
+      ]
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.13",
+      "status": 200,
+      "finalUrl": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.13",
+      "verdict": "ok",
+      "articles": [
+        "reading-nutrition-labels"
+      ]
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.9",
+      "status": 200,
+      "finalUrl": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.9",
+      "verdict": "ok",
+      "articles": [
+        "keto-macros-explained",
+        "net-carbs-explained-keto-tracking",
+        "protein-sources-compared",
+        "reading-nutrition-labels"
+      ]
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-D/section-101.54",
+      "status": 200,
+      "finalUrl": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-D/section-101.54",
+      "verdict": "ok",
+      "articles": [
+        "protein-sources-compared",
+        "reading-nutrition-labels"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/food/food-labeling-nutrition/changes-nutrition-facts-label",
+      "status": 200,
+      "finalUrl": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/changes-nutrition-facts-label",
+      "verdict": "ok",
+      "articles": [
+        "reading-nutrition-labels"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label",
+      "status": 200,
+      "finalUrl": "https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label",
+      "verdict": "ok",
+      "articles": [
+        "added-sugars-vs-total-sugars",
+        "reading-nutrition-labels"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/food/nutrition-facts-label/daily-value-nutrition-and-supplement-facts-labels",
+      "status": 200,
+      "finalUrl": "https://www.fda.gov/food/nutrition-facts-label/daily-value-nutrition-and-supplement-facts-labels",
+      "verdict": "ok",
+      "articles": [
+        "how-much-protein-per-day",
+        "how-to-track-protein-intake",
+        "keto-macros-explained",
+        "net-carbs-explained-keto-tracking",
+        "protein-sources-compared",
+        "reading-nutrition-labels"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+      "status": 200,
+      "finalUrl": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+      "verdict": "ok",
+      "articles": [
+        "added-sugars-vs-total-sugars",
+        "glycemic-index-and-load",
+        "net-carbs-explained-keto-tracking",
+        "percentages-in-your-head",
+        "reading-nutrition-labels",
+        "serving-size-vs-portion-size",
+        "sugar-alcohols-explained",
+        "why-food-databases-disagree"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/food/nutrition-facts-label/serving-size-nutrition-facts-label",
+      "status": 200,
+      "finalUrl": "https://www.fda.gov/food/nutrition-facts-label/serving-size-nutrition-facts-label",
+      "verdict": "ok",
+      "articles": [
+        "serving-size-vs-portion-size"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
+      "status": 200,
+      "finalUrl": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
+      "verdict": "ok",
+      "articles": [
+        "protein-sources-compared",
+        "reading-nutrition-labels"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/questions-and-answers-dietary-fiber",
+      "status": 200,
+      "finalUrl": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/questions-and-answers-dietary-fiber",
+      "verdict": "ok",
+      "articles": [
+        "net-carbs-explained-keto-tracking"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/blood-glucose-monitoring-devices",
+      "status": 200,
+      "finalUrl": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/blood-glucose-monitoring-devices",
+      "verdict": "ok",
+      "articles": [
+        "what-is-a-ketone-reading"
+      ]
+    },
+    {
+      "url": "https://www.fiba.basketball/documents",
+      "status": 200,
+      "finalUrl": "https://about.fiba.basketball/en/services/resource-hub/downloads",
+      "verdict": "ok",
+      "articles": [
+        "basketball-advanced-stats-explained",
+        "basketball-positions-explained",
+        "how-to-build-a-balanced-basketball-roster"
+      ]
+    },
+    {
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2016/01/lumosity-pay-2-million-settle-ftc-deceptive-advertising-charges-its-brain-training-program",
+      "status": 200,
+      "finalUrl": "https://www.ftc.gov/news-events/news/press-releases/2016/01/lumosity-pay-2-million-settle-ftc-deceptive-advertising-charges-its-brain-training-program",
+      "verdict": "ok",
+      "articles": [
+        "working-memory-and-training"
+      ]
+    },
+    {
+      "url": "https://www.govtilr.org/",
+      "status": 200,
+      "finalUrl": "https://www.govtilr.org/",
+      "verdict": "ok",
+      "articles": [
+        "how-long-does-it-take-to-learn-russian",
+        "is-thai-hard-to-learn"
+      ]
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/",
+      "status": 200,
+      "finalUrl": "https://www.itl.nist.gov/div898/handbook/",
+      "verdict": "ok",
+      "articles": [
+        "understanding-sports-sim-probability"
+      ]
+    },
+    {
+      "url": "https://www.itu.int/rec/T-REC-H.222.0",
+      "status": 200,
+      "finalUrl": "https://www.itu.int/rec/T-REC-H.222.0",
+      "verdict": "ok",
+      "articles": [
+        "remuxing-vs-transcoding",
+        "video-file-formats-explained"
+      ]
+    },
+    {
+      "url": "https://www.itu.int/rec/T-REC-H.264",
+      "status": 200,
+      "finalUrl": "https://www.itu.int/rec/T-REC-H.264",
+      "verdict": "ok",
+      "articles": [
+        "frame-rate-and-resolution-explained",
+        "hardware-vs-software-decoding",
+        "video-codecs-explained"
+      ]
+    },
+    {
+      "url": "https://www.itu.int/rec/T-REC-H.265",
+      "status": 200,
+      "finalUrl": "https://www.itu.int/rec/T-REC-H.265",
+      "verdict": "ok",
+      "articles": [
+        "frame-rate-and-resolution-explained",
+        "video-codecs-explained"
+      ]
+    },
+    {
+      "url": "https://www.itu.int/rec/T-REC-H.266",
+      "status": 200,
+      "finalUrl": "https://www.itu.int/rec/T-REC-H.266",
+      "verdict": "ok",
+      "articles": [
+        "video-codecs-explained"
+      ]
+    },
+    {
+      "url": "https://www.leg.state.nv.us/NAC/NAC-467.html",
+      "status": 200,
+      "finalUrl": "https://www.leg.state.nv.us/NAC/NAC-467.html",
+      "verdict": "ok",
+      "articles": [
+        "boxing-scoring-explained",
+        "mma-weight-classes-explained"
+      ]
+    },
+    {
+      "url": "https://www.loc.gov/catdir/cpso/romanization/chinese.pdf",
+      "status": 200,
+      "finalUrl": "https://www.loc.gov/catdir/cpso/romanization/chinese.pdf",
+      "verdict": "ok",
+      "articles": [
+        "cantonese-vs-mandarin-differences"
+      ]
+    },
+    {
+      "url": "https://www.loc.gov/catdir/cpso/romanization/khmer.pdf",
+      "status": 200,
+      "finalUrl": "https://www.loc.gov/catdir/cpso/romanization/khmer.pdf",
+      "verdict": "ok",
+      "articles": [
+        "khmer-script-explained",
+        "learn-khmer-beginners-guide"
+      ]
+    },
+    {
+      "url": "https://www.loc.gov/catdir/cpso/romanization/russian.pdf",
+      "status": 200,
+      "finalUrl": "https://www.loc.gov/catdir/cpso/romanization/russian.pdf",
+      "verdict": "ok",
+      "articles": [
+        "learn-russian-cyrillic-beginners-guide",
+        "russian-cases-explained-for-beginners"
+      ]
+    },
+    {
+      "url": "https://www.loc.gov/catdir/cpso/romanization/thai.pdf",
+      "status": 200,
+      "finalUrl": "https://www.loc.gov/catdir/cpso/romanization/thai.pdf",
+      "verdict": "ok",
+      "articles": [
+        "learn-thai-script-beginners-guide",
+        "thai-tones-explained"
+      ]
+    },
+    {
+      "url": "https://www.loc.gov/collections/",
+      "status": 403,
+      "finalUrl": "https://www.loc.gov/collections/",
+      "verdict": "browser-only",
+      "articles": [
+        "world-history-timeline-guide"
+      ]
+    },
+    {
+      "url": "https://www.lshk.org/jyutping",
+      "status": 200,
+      "finalUrl": "https://lshk.org/jyutping-faq/",
+      "verdict": "ok",
+      "articles": [
+        "cantonese-tones-explained",
+        "cantonese-vs-mandarin-differences",
+        "language-learning-apps-compared",
+        "learn-cantonese-beginners-guide"
+      ]
+    },
+    {
+      "url": "https://www.matroska.org/",
+      "status": 200,
+      "finalUrl": "https://www.matroska.org/index.html",
+      "verdict": "ok",
+      "articles": [
+        "android-video-player-guide",
+        "video-file-formats-explained"
+      ]
+    },
+    {
+      "url": "https://www.matroska.org/technical/elements.html",
+      "status": 200,
+      "finalUrl": "https://www.matroska.org/technical/elements.html",
+      "verdict": "ok",
+      "articles": [
+        "remuxing-vs-transcoding"
+      ]
+    },
+    {
+      "url": "https://www.matroska.org/technical/subtitles.html",
+      "status": 200,
+      "finalUrl": "https://www.matroska.org/technical/subtitles.html",
+      "verdict": "ok",
+      "articles": [
+        "subtitle-formats-explained"
+      ]
+    },
+    {
+      "url": "https://www.memrise.com/",
+      "status": 200,
+      "finalUrl": "https://www.memrise.com/",
+      "verdict": "ok",
+      "articles": [
+        "language-learning-apps-compared"
+      ]
+    },
+    {
+      "url": "https://www.memrise.com/en/learn-cantonese",
+      "status": 200,
+      "finalUrl": "https://www.memrise.com/en/learn-cantonese",
+      "verdict": "ok",
+      "articles": [
+        "language-learning-apps-compared"
+      ]
+    },
+    {
+      "url": "https://www.memrise.com/en/learn-khmer",
+      "status": 200,
+      "finalUrl": "https://www.memrise.com/en/learn-khmer",
+      "verdict": "ok",
+      "articles": [
+        "language-learning-apps-compared"
+      ]
+    },
+    {
+      "url": "https://www.memrise.com/en/learn-malay",
+      "status": 200,
+      "finalUrl": "https://www.memrise.com/en/learn-malay",
+      "verdict": "ok",
+      "articles": [
+        "language-learning-apps-compared"
+      ]
+    },
+    {
+      "url": "https://www.mlb.com/glossary/rules/designated-hitter",
+      "status": 200,
+      "finalUrl": "https://www.mlb.com/glossary/rules/designated-hitter",
+      "verdict": "ok",
+      "articles": [
+        "two-way-players-explained"
+      ]
+    },
+    {
+      "url": "https://www.mlb.com/glossary/standard-stats/earned-run-average",
+      "status": 200,
+      "finalUrl": "https://www.mlb.com/glossary/standard-stats/earned-run-average",
+      "verdict": "ok",
+      "articles": [
+        "baseball-career-sim-guide",
+        "baseball-pitching-roles-explained",
+        "what-is-era-in-baseball",
+        "what-is-whip-in-baseball"
+      ]
+    },
+    {
+      "url": "https://www.mlb.com/glossary/standard-stats/on-base-percentage",
+      "status": 200,
+      "finalUrl": "https://www.mlb.com/glossary/standard-stats/on-base-percentage",
+      "verdict": "ok",
+      "articles": [
+        "batting-order-strategy-explained"
+      ]
+    },
+    {
+      "url": "https://www.mlb.com/glossary/standard-stats/on-base-plus-slugging",
+      "status": 200,
+      "finalUrl": "https://www.mlb.com/glossary/standard-stats/on-base-plus-slugging",
+      "verdict": "ok",
+      "articles": [
+        "baseball-career-sim-guide",
+        "batting-order-strategy-explained",
+        "ops-and-slugging-explained",
+        "two-way-players-explained"
+      ]
+    },
+    {
+      "url": "https://www.mlb.com/glossary/standard-stats/slugging-percentage",
+      "status": 200,
+      "finalUrl": "https://www.mlb.com/glossary/standard-stats/slugging-percentage",
+      "verdict": "ok",
+      "articles": [
+        "ops-and-slugging-explained"
+      ]
+    },
+    {
+      "url": "https://www.mlb.com/glossary/standard-stats/walks-and-hits-per-inning-pitched",
+      "status": 200,
+      "finalUrl": "https://www.mlb.com/glossary/standard-stats/walks-and-hits-per-inning-pitched",
+      "verdict": "ok",
+      "articles": [
+        "baseball-pitching-roles-explained",
+        "what-is-era-in-baseball",
+        "what-is-whip-in-baseball"
+      ]
+    },
+    {
+      "url": "https://www.museumofplay.org/games/space-invaders/",
+      "status": 200,
+      "finalUrl": "https://www.museumofplay.org/games/space-invaders/",
+      "verdict": "ok",
+      "articles": [
+        "auto-fire-and-touch-controls",
+        "boss-pattern-recognition",
+        "bullet-hell-vs-classic-shmup",
+        "difficulty-curves-explained",
+        "history-of-shoot-em-up-games",
+        "horde-survival-vs-wave-shooter",
+        "power-ups-and-build-design",
+        "score-attack-strategy",
+        "space-shooter-arcade-guide",
+        "wave-survival-game-design"
+      ]
+    },
+    {
+      "url": "https://www.myfitnesspal.com/",
+      "status": 200,
+      "finalUrl": "https://www.myfitnesspal.com/",
+      "verdict": "ok",
+      "articles": [
+        "protein-tracking-apps-compared"
+      ]
+    },
+    {
+      "url": "https://www.myfitnesspal.com/premium",
+      "status": 200,
+      "finalUrl": "https://www.myfitnesspal.com/premium",
+      "verdict": "ok",
+      "articles": [
+        "low-carb-tracking-apps-compared",
+        "protein-tracking-apps-compared"
+      ]
+    },
+    {
+      "url": "https://www.nal.usda.gov/human-nutrition-and-food-safety/dri-calculator",
+      "status": 200,
+      "finalUrl": "https://www.nal.usda.gov/human-nutrition-and-food-safety/dri-calculator",
+      "verdict": "ok",
+      "articles": [
+        "how-much-protein-per-day"
+      ]
+    },
+    {
+      "url": "https://www.nationalarchives.gov.uk/",
+      "status": 200,
+      "finalUrl": "https://www.nationalarchives.gov.uk/",
+      "verdict": "ok",
+      "articles": [
+        "how-historians-date-events",
+        "major-eras-of-world-history",
+        "world-history-timeline-guide"
+      ]
+    },
+    {
+      "url": "https://www.ncaa.org/sports/2013/11/21/playing-rules.aspx",
+      "status": 200,
+      "finalUrl": "https://www.ncaa.org/",
+      "verdict": "ok",
+      "articles": [
+        "depth-charts-explained",
+        "football-career-sim-guide",
+        "how-football-draft-order-works",
+        "quarterback-archetypes-explained",
+        "reading-a-defense-basics"
+      ]
+    },
+    {
+      "url": "https://www.ncaa.org/sports/2014/10/6/football-rules-and-interpretations.aspx",
+      "status": 200,
+      "finalUrl": "https://www.ncaa.org/",
+      "verdict": "ok",
+      "articles": [
+        "football-career-sim-guide",
+        "quarterback-archetypes-explained",
+        "reading-a-defense-basics"
+      ]
+    },
+    {
+      "url": "https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness",
+      "status": 200,
+      "finalUrl": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/color-blindness",
+      "verdict": "ok",
+      "articles": [
+        "color-palettes-for-anime-art",
+        "color-theory-for-beginners",
+        "line-art-and-flats-explained"
+      ]
+    },
+    {
+      "url": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work",
+      "status": 200,
+      "finalUrl": "https://www.nei.nih.gov/eye-health-information/healthy-vision/how-eyes-work",
+      "verdict": "ok",
+      "articles": [
+        "color-theory-for-beginners"
+      ]
+    },
+    {
+      "url": "https://www.nia.nih.gov/health/brain-health/cognitive-health-and-older-adults",
+      "status": 200,
+      "finalUrl": "https://www.nia.nih.gov/health/brain-health/cognitive-health-and-older-adults",
+      "verdict": "ok",
+      "articles": [
+        "working-memory-and-training"
+      ]
+    },
+    {
+      "url": "https://www.nia.nih.gov/health/healthy-eating-nutrition-and-diet",
+      "status": 200,
+      "finalUrl": "https://www.nia.nih.gov/health/healthy-eating-nutrition-and-diet",
+      "verdict": "ok",
+      "articles": [
+        "protein-for-older-adults"
+      ]
+    },
+    {
+      "url": "https://www.nia.nih.gov/news/calorie-restriction-and-fasting-diets-what-do-we-know",
+      "status": 200,
+      "finalUrl": "https://www.nia.nih.gov/news/calorie-restriction-and-fasting-diets-what-do-we-know",
+      "verdict": "ok",
+      "articles": [
+        "intermittent-fasting-windows-explained"
+      ]
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/diabetes",
+      "status": 200,
+      "finalUrl": "https://www.niddk.nih.gov/health-information/diabetes",
+      "verdict": "ok",
+      "articles": [
+        "glycemic-index-and-load",
+        "intermittent-fasting-windows-explained",
+        "what-is-a-ketone-reading"
+      ]
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/low-blood-glucose-hypoglycemia",
+      "status": 200,
+      "finalUrl": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/low-blood-glucose-hypoglycemia",
+      "verdict": "ok",
+      "articles": [
+        "intermittent-fasting-windows-explained"
+      ]
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/weight-management",
+      "status": 200,
+      "finalUrl": "https://www.niddk.nih.gov/health-information/weight-management",
+      "verdict": "ok",
+      "articles": [
+        "tdee-and-energy-balance"
+      ]
+    },
+    {
+      "url": "https://www.nimh.nih.gov/health/topics/eating-disorders",
+      "status": 200,
+      "finalUrl": "https://www.nimh.nih.gov/health/topics/eating-disorders",
+      "verdict": "ok",
+      "articles": [
+        "intermittent-fasting-windows-explained"
+      ]
+    },
+    {
+      "url": "https://www.nist.gov/pml/owm/metric-si/si-units",
+      "status": 200,
+      "finalUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+      "verdict": "ok",
+      "articles": [
+        "estimation-techniques-explained",
+        "percentages-in-your-head"
+      ]
+    },
+    {
+      "url": "https://www.nist.gov/pml/owm/metric-si/unit-conversion",
+      "status": 200,
+      "finalUrl": "https://www.nist.gov/pml/owm/metric-si/unit-conversion",
+      "verdict": "ok",
+      "articles": [
+        "mental-math-tricks-that-work"
+      ]
+    },
+    {
+      "url": "https://www.nist.gov/pml/special-publication-811",
+      "status": 200,
+      "finalUrl": "https://www.nist.gov/pml/special-publication-811",
+      "verdict": "ok",
+      "articles": [
+        "mental-math-tricks-that-work"
+      ]
+    },
+    {
+      "url": "https://www.nist.gov/pml/time-and-frequency-division",
+      "status": 200,
+      "finalUrl": "https://www.nist.gov/pml/time-and-frequency-division",
+      "verdict": "ok",
+      "articles": [
+        "bce-and-ce-explained",
+        "how-calendars-and-dating-systems-work"
+      ]
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/chemistry/1960/summary/",
+      "status": 200,
+      "finalUrl": "https://www.nobelprize.org/prizes/chemistry/1960/summary/",
+      "verdict": "ok",
+      "articles": [
+        "how-historians-date-events"
+      ]
+    },
+    {
+      "url": "https://www.nps.gov/subjects/archeology/index.htm",
+      "status": 200,
+      "finalUrl": "https://www.nps.gov/subjects/archeology/index.htm",
+      "verdict": "ok",
+      "articles": [
+        "how-historians-date-events",
+        "major-eras-of-world-history"
+      ]
+    },
+    {
+      "url": "https://www.olympics.com/en/sports/ice-hockey/",
+      "status": 200,
+      "finalUrl": "https://www.olympics.com/en/sports/ice-hockey/",
+      "verdict": "ok",
+      "articles": [
+        "hockey-career-sim-guide",
+        "hockey-goaltending-explained",
+        "plus-minus-and-hockey-stats",
+        "power-play-and-penalty-kill",
+        "what-is-icing-in-hockey"
+      ]
+    },
+    {
+      "url": "https://www.orst.go.th/",
+      "status": 200,
+      "finalUrl": "https://www.orst.go.th/",
+      "verdict": "ok",
+      "articles": [
+        "is-thai-hard-to-learn",
+        "learn-thai-script-beginners-guide",
+        "thai-tones-explained"
+      ]
+    },
+    {
+      "url": "https://www.pimsleur.com/learn-chinese-cantonese/",
+      "status": 200,
+      "finalUrl": "https://www.pimsleur.com/learn-chinese-cantonese/",
+      "verdict": "ok",
+      "articles": [
+        "language-learning-apps-compared"
+      ]
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6381",
+      "status": 200,
+      "finalUrl": "https://www.rfc-editor.org/info/rfc6381/",
+      "verdict": "ok",
+      "articles": [
+        "audio-codecs-explained"
+      ]
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6716",
+      "status": 200,
+      "finalUrl": "https://www.rfc-editor.org/info/rfc6716/",
+      "verdict": "ok",
+      "articles": [
+        "video-codecs-explained"
+      ]
+    },
+    {
+      "url": "https://www.state.gov/foreign-language-training/",
+      "status": 200,
+      "finalUrl": "https://www.state.gov/national-foreign-affairs-training-center/foreign-language-training",
+      "verdict": "ok",
+      "articles": [
+        "cantonese-tones-explained",
+        "cantonese-vs-mandarin-differences",
+        "how-long-does-it-take-to-learn-russian",
+        "is-thai-hard-to-learn",
+        "khmer-script-explained",
+        "learn-cantonese-beginners-guide",
+        "learn-khmer-beginners-guide",
+        "learn-malay-beginners-guide",
+        "learn-russian-cyrillic-beginners-guide",
+        "learn-thai-script-beginners-guide",
+        "malay-pronunciation-guide",
+        "malay-vs-indonesian-differences",
+        "russian-cases-explained-for-beginners",
+        "thai-tones-explained"
+      ]
+    },
+    {
+      "url": "https://www.theifab.com/laws-of-the-game-documents/",
+      "status": 200,
+      "finalUrl": "https://www.theifab.com/laws-of-the-game-documents/",
+      "verdict": "ok",
+      "articles": [
+        "clean-sheets-explained",
+        "free-agency-explained",
+        "goal-difference-and-tiebreakers",
+        "how-the-offside-rule-works",
+        "soccer-career-sim-guide",
+        "soccer-formations-explained",
+        "transfers-and-contracts-explained"
+      ]
+    },
+    {
+      "url": "https://www.theifab.com/laws/latest/determining-the-outcome-of-a-match/",
+      "status": 200,
+      "finalUrl": "https://www.theifab.com/laws/latest/determining-the-outcome-of-a-match/",
+      "verdict": "ok",
+      "articles": [
+        "clean-sheets-explained",
+        "goal-difference-and-tiebreakers"
+      ]
+    },
+    {
+      "url": "https://www.theifab.com/laws/latest/offside/",
+      "status": 200,
+      "finalUrl": "https://www.theifab.com/laws/latest/offside/",
+      "verdict": "ok",
+      "articles": [
+        "how-the-offside-rule-works",
+        "soccer-formations-explained",
+        "soccer-positions-explained"
+      ]
+    },
+    {
+      "url": "https://www.theifab.com/laws/latest/the-players/",
+      "status": 200,
+      "finalUrl": "https://www.theifab.com/laws/latest/the-players/",
+      "verdict": "ok",
+      "articles": [
+        "coach-trust-and-playing-time",
+        "soccer-career-sim-guide",
+        "soccer-formations-explained",
+        "soccer-positions-explained",
+        "transfers-and-contracts-explained"
+      ]
+    },
+    {
+      "url": "https://www.unicode.org/charts/",
+      "status": 200,
+      "finalUrl": "https://www.unicode.org/charts/",
+      "verdict": "ok",
+      "articles": [
+        "cantonese-tones-explained",
+        "cantonese-vs-mandarin-differences",
+        "language-learning-apps-compared",
+        "lao-vs-thai-differences",
+        "learn-cantonese-beginners-guide"
+      ]
+    },
+    {
+      "url": "https://www.unicode.org/charts/PDF/U0100.pdf",
+      "status": 200,
+      "finalUrl": "https://www.unicode.org/charts/PDF/U0100.pdf",
+      "verdict": "ok",
+      "articles": [
+        "vietnamese-alphabet-explained"
+      ]
+    },
+    {
+      "url": "https://www.unicode.org/charts/PDF/U0400.pdf",
+      "status": 200,
+      "finalUrl": "https://www.unicode.org/charts/PDF/U0400.pdf",
+      "verdict": "ok",
+      "articles": [
+        "learn-russian-cyrillic-beginners-guide",
+        "russian-cases-explained-for-beginners"
+      ]
+    },
+    {
+      "url": "https://www.unicode.org/charts/PDF/U0E00.pdf",
+      "status": 200,
+      "finalUrl": "https://www.unicode.org/charts/PDF/U0E00.pdf",
+      "verdict": "ok",
+      "articles": [
+        "is-thai-hard-to-learn",
+        "learn-thai-script-beginners-guide",
+        "thai-tones-explained"
+      ]
+    },
+    {
+      "url": "https://www.unicode.org/charts/PDF/U0E80.pdf",
+      "status": 200,
+      "finalUrl": "https://www.unicode.org/charts/PDF/U0E80.pdf",
+      "verdict": "ok",
+      "articles": [
+        "lao-alphabet-explained",
+        "learn-lao-beginners-guide"
+      ]
+    },
+    {
+      "url": "https://www.unicode.org/charts/PDF/U1780.pdf",
+      "status": 200,
+      "finalUrl": "https://www.unicode.org/charts/PDF/U1780.pdf",
+      "verdict": "ok",
+      "articles": [
+        "khmer-script-explained",
+        "learn-khmer-beginners-guide"
+      ]
+    },
+    {
+      "url": "https://www.unicode.org/charts/PDF/U19E0.pdf",
+      "status": 200,
+      "finalUrl": "https://www.unicode.org/charts/PDF/U19E0.pdf",
+      "verdict": "ok",
+      "articles": [
+        "khmer-script-explained"
+      ]
+    },
+    {
+      "url": "https://www.unicode.org/charts/PDF/U1E00.pdf",
+      "status": 200,
+      "finalUrl": "https://www.unicode.org/charts/PDF/U1E00.pdf",
+      "verdict": "ok",
+      "articles": [
+        "learn-vietnamese-beginners-guide",
+        "vietnamese-alphabet-explained",
+        "vietnamese-tones-explained"
+      ]
+    },
+    {
+      "url": "https://www.unicode.org/versions/Unicode17.0.0/",
+      "status": 200,
+      "finalUrl": "https://www.unicode.org/versions/Unicode17.0.0/",
+      "verdict": "ok",
+      "articles": [
+        "lao-alphabet-explained"
+      ]
+    },
+    {
+      "url": "https://www.usahockeyrulebook.com/",
+      "status": 200,
+      "finalUrl": "https://www.usahockeyrulebook.com/",
+      "verdict": "ok",
+      "articles": [
+        "expansion-drafts-explained",
+        "hockey-career-sim-guide",
+        "hockey-goaltending-explained",
+        "plus-minus-and-hockey-stats",
+        "power-play-and-penalty-kill",
+        "what-is-icing-in-hockey"
+      ]
+    },
+    {
+      "url": "https://www.usga.org/content/usga/home-page/rules/rules-2019/rules-of-golf/rules-and-interpretations.html",
+      "status": 200,
+      "finalUrl": "https://www.usga.org/rules/rules-and-clarifications/rules-and-clarifications.html",
+      "verdict": "ok",
+      "articles": [
+        "golf-career-sim-guide",
+        "golf-course-management-basics",
+        "how-a-golf-cut-works"
+      ]
+    },
+    {
+      "url": "https://www.usga.org/handicapping/roh/2020-rules-of-handicapping.html",
+      "status": 200,
+      "finalUrl": "https://www.usga.org/handicapping/roh/rules-of-handicapping.html",
+      "verdict": "ok",
+      "articles": [
+        "golf-scoring-explained"
+      ]
+    },
+    {
+      "url": "https://www.usga.org/rules-hub.html",
+      "status": 200,
+      "finalUrl": "https://www.usga.org/rules-hub.html",
+      "verdict": "ok",
+      "articles": [
+        "golf-career-sim-guide",
+        "golf-course-management-basics",
+        "golf-scoring-explained",
+        "how-a-golf-cut-works"
+      ]
+    },
+    {
+      "url": "https://www.usno.navy.mil/USNO/astronomical-applications",
+      "status": 200,
+      "finalUrl": "https://www.cnmoc.usff.navy.mil/usno/",
+      "verdict": "ok",
+      "articles": [
+        "how-calendars-and-dating-systems-work"
+      ]
+    },
+    {
+      "url": "https://www.videolan.org/vlc/",
+      "status": 200,
+      "finalUrl": "https://www.videolan.org/vlc/",
+      "verdict": "ok",
+      "articles": [
+        "android-video-players-compared"
+      ]
+    },
+    {
+      "url": "https://www.videolan.org/vlc/download-android.html",
+      "status": 200,
+      "finalUrl": "https://www.videolan.org/vlc/download-android.html",
+      "verdict": "ok",
+      "articles": [
+        "android-video-players-compared"
+      ]
+    },
+    {
+      "url": "https://www.videolan.org/vlc/features.html",
+      "status": 200,
+      "finalUrl": "https://www.videolan.org/vlc/features.html",
+      "verdict": "ok",
+      "articles": [
+        "android-video-players-compared"
+      ]
+    },
+    {
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "status": 200,
+      "finalUrl": "https://www.w3.org/TR/WCAG22/",
+      "verdict": "ok",
+      "articles": [
+        "auto-fire-and-touch-controls",
+        "color-palettes-for-anime-art"
+      ]
+    },
+    {
+      "url": "https://www.w3.org/TR/css-color-4/",
+      "status": 200,
+      "finalUrl": "https://www.w3.org/TR/css-color-4/",
+      "verdict": "ok",
+      "articles": [
+        "anime-art-styles-explained",
+        "anime-terminology-glossary",
+        "color-palettes-for-anime-art",
+        "color-theory-for-beginners",
+        "digital-coloring-techniques",
+        "line-art-and-flats-explained"
+      ]
+    },
+    {
+      "url": "https://www.w3.org/TR/webvtt1/",
+      "status": 200,
+      "finalUrl": "https://www.w3.org/TR/webvtt1/",
+      "verdict": "ok",
+      "articles": [
+        "subtitle-formats-explained"
+      ]
+    },
+    {
+      "url": "https://www.webmproject.org/",
+      "status": 200,
+      "finalUrl": "https://www.webmproject.org/",
+      "verdict": "ok",
+      "articles": [
+        "video-file-formats-explained"
+      ]
+    },
+    {
+      "url": "https://www.webmproject.org/vp9/",
+      "status": 200,
+      "finalUrl": "https://www.webmproject.org/vp9/",
+      "verdict": "ok",
+      "articles": [
+        "video-codecs-explained"
+      ]
+    },
+    {
+      "url": "https://xiph.org/flac/",
+      "status": 200,
+      "finalUrl": "https://xiph.org/flac/",
+      "verdict": "ok",
+      "articles": [
+        "audio-codecs-explained",
+        "video-codecs-explained"
+      ]
+    }
+  ]
+}

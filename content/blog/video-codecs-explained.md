@@ -3,12 +3,18 @@
   "title": "Video Codecs Explained: Compression, Bitrate, Bit Depth and Why Newer Is Not Always Better",
   "metaTitle": "Video Codecs Explained: H.264, HEVC, AV1",
   "description": "How video compression works, what bitrate and bit depth actually control, and why a newer codec means a smaller file and less certain support.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "video-utility",
-  "tags": ["video codecs", "compression", "h264", "av1", "android"],
+  "tags": [
+    "video codecs",
+    "compression",
+    "h264",
+    "av1",
+    "android"
+  ],
   "primaryKeyword": "video codecs explained",
   "secondaryKeywords": [
     "h264 vs h265",
@@ -32,7 +38,9 @@
     "What is chroma subsampling and why does it exist?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["regal-video-player"],
+  "relatedApps": [
+    "regal-video-player"
+  ],
   "relatedArticles": [
     "android-video-player-guide",
     "video-file-formats-explained"
@@ -45,7 +53,6 @@
     "Each codec generation has targeted roughly half the bitrate of its predecessor for equivalent quality, and has paid for it in decoding cost and device support."
   ],
   "disclaimer": "none",
-  "noindex": true,
   "featured": false,
   "faqs": [
     {
@@ -270,7 +277,7 @@ A file with picture and no sound has usually hit an audio codec the device does 
 
 **Encoding for your own archive on modern devices:** H.265 or AV1, in Matroska, using constant quality rather than a bitrate target. Confirm your playback device handles the profile — particularly the bit depth — before committing an entire library.
 
-**Fixing a file that will not play:** check the codec, the profile, the bit depth and the level, in that order. Then re-encode to H.264 if the device genuinely cannot decode it. [The full diagnostic order](/blog/android-video-player-guide/) covers what each failure signature tells you, and the container is the other half of the problem — try remuxing before you transcode, because it is free and lossless.
+**Fixing a file that will not play:** check the codec, the profile, the bit depth and the level, in that order. Then re-encode to H.264 if the device genuinely cannot decode it. Check the container first, though — [what MP4, MKV and MOV actually do](/blog/video-file-formats-explained/) explains why a remux is often the whole fix. [The full diagnostic order](/blog/android-video-player-guide/) covers what each failure signature tells you, and the container is the other half of the problem — try remuxing before you transcode, because it is free and lossless.
 
 ## What our player is built for
 

@@ -5,10 +5,16 @@
   "description": "What a basketball draft simulator models, why the highest-rated pick is often the wrong one, and how to read a projected season without over-reading it.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["draft strategy", "roster building", "gm mode", "basketball", "sports sim"],
+  "tags": [
+    "draft strategy",
+    "roster building",
+    "gm mode",
+    "basketball",
+    "sports sim"
+  ],
   "primaryKeyword": "basketball draft simulator app",
   "secondaryKeywords": [
     "basketball gm game android",
@@ -32,7 +38,10 @@
     "Are basketball draft simulator games based on real players?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["pro-basketball-draft-gm-mode", "pro-basketball-my-career-sim"],
+  "relatedApps": [
+    "pro-basketball-draft-gm-mode",
+    "pro-basketball-my-career-sim"
+  ],
   "relatedArticles": [
     "football-draft-gm-guide",
     "baseball-draft-gm-guide",
@@ -51,7 +60,7 @@
   "faqs": [
     {
       "question": "How does a basketball draft simulator decide my season record?",
-      "answer": "It scores the roster you assembled and converts that score into a win-loss result over the season length the game uses. In Basketball Draft GM Franchise, the roster you draft is taken through 82 games and a playoff race. The record is the model's verdict on your team-building, not a forecast of any real event."
+      "answer": "It scores the roster you assembled and converts that score into a win-loss result over the season length the game uses. In Pro Basketball GM Franchise, the roster you draft is taken through 82 games and a playoff race. The record is the model's verdict on your team-building, not a forecast of any real event."
     },
     {
       "question": "Should I draft the best player available or draft for need?",
@@ -59,15 +68,15 @@
     },
     {
       "question": "What is a salary cap draft?",
-      "answer": "A format where your picks are constrained by a budget rather than only by pick order, so every selection has a price as well as a rating. It turns the draft from a ranking exercise into an allocation problem: you are deciding not just who is best but who is worth what they cost. Basketball Draft GM Franchise includes Salary Cap Draft as one of its eight formats."
+      "answer": "A format where your picks are constrained by a budget rather than only by pick order, so every selection has a price as well as a rating. It turns the draft from a ranking exercise into an allocation problem: you are deciding not just who is best but who is worth what they cost. Pro Basketball GM Franchise includes Salary Cap Draft as one of its eight formats."
     },
     {
       "question": "Do these games use real players and real teams?",
-      "answer": "No. Basketball Draft GM Franchise is a fictional sports simulation with generated players, and it is not affiliated with, endorsed by or connected to any real league, team or athlete. The generic pool is also what makes the drafting interesting, because you have to judge players on the attributes in front of you rather than on reputation."
+      "answer": "No. Pro Basketball GM Franchise is a fictional sports simulation with generated players, and it is not affiliated with, endorsed by or connected to any real league, team or athlete. The generic pool is also what makes the drafting interesting, because you have to judge players on the attributes in front of you rather than on reputation."
     },
     {
       "question": "Does the app cost anything?",
-      "answer": "Basketball Draft GM Franchise is free to download on Google Play. It is supported by ads and offers optional in-app purchases. The draft formats, the season and GM Mode are part of the base game."
+      "answer": "Pro Basketball GM Franchise is free to download on Google Play. It is supported by ads and offers optional in-app purchases. The draft formats, the season and GM Mode are part of the base game."
     },
     {
       "question": "How long does one run take?",
@@ -116,7 +125,7 @@ This sounds obvious and it is routinely ignored, because rating numbers are visi
 
 ## Formats are the difficulty setting
 
-[Basketball Draft GM Franchise](/apps/pro-basketball-draft-gm-mode/) ships eight draft formats: Unlimited Draft, Quick Draft, Blind Draft, Franchise Draft, Salary Cap Draft, VS Computer, Battle Mode and a Daily Challenge. The important thing about that list is not its length. It is that a roster which dominates one format can fall apart in the next, because each one changes the constraint you are optimising under.
+[Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) ships eight draft formats: Unlimited Draft, Quick Draft, Blind Draft, Franchise Draft, Salary Cap Draft, VS Computer, Battle Mode and a Daily Challenge. The important thing about that list is not its length. It is that a roster which dominates one format can fall apart in the next, because each one changes the constraint you are optimising under.
 
 Consider what a budget does to drafting. Without one, the board is a ranking problem — take the best available thing that helps you. Add a cap and it becomes an allocation problem, where a merely good player at a low price can be a better pick than a great player at a high one. The same board, the same players, a completely different correct answer.
 

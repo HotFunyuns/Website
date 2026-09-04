@@ -3,12 +3,18 @@
   "title": "Digital Coloring Techniques: Halos, Flats, Shading Order and Rescuing a Muddy Page",
   "metaTitle": "Digital Coloring Techniques That Actually Help",
   "description": "Why fills leave a pale halo, how cel and soft shading really differ, and a shading order that stops a page turning muddy on a phone screen.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "anime-creative",
-  "tags": ["digital art", "coloring app", "shading", "anime art", "creative hobbies"],
+  "tags": [
+    "digital art",
+    "coloring app",
+    "shading",
+    "anime art",
+    "creative hobbies"
+  ],
   "primaryKeyword": "digital coloring techniques",
   "secondaryKeywords": [
     "cel shading vs soft shading",
@@ -32,7 +38,10 @@
     "How do I fix a picture where all the colours look muddy?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["anime-coloring-book", "anime-trivia-word-games"],
+  "relatedApps": [
+    "anime-coloring-book",
+    "anime-trivia-word-games"
+  ],
   "relatedArticles": [
     "anime-coloring-app-guide",
     "color-theory-for-beginners",
@@ -46,7 +55,6 @@
     "A muddy page is usually a value problem, so widen the light-to-dark spread before you touch a single hue."
   ],
   "disclaimer": "none",
-  "noindex": true,
   "featured": false,
   "faqs": [
     {
@@ -204,7 +212,7 @@ For colour selection, the palettes run from soft pastels and classic shades thro
 
 Continue Coloring brings back unfinished artwork with your work in place, stored on your device with no account required, so a flats pass and a shading pass can happen days apart. And Get Random Artwork unlocks a surprise canvas in exchange for watching a rewarded ad, which is genuinely useful for practice — the drawing you would not have chosen is the one that makes you solve a problem you have been avoiding.
 
-More on what anime line art specifically asks for is in [our guide to coloring anime art on a phone](/blog/anime-coloring-app-guide/), and the rest of what we make sits in [Anime & Creative Games](/apps/category/anime-creative/).
+The technique above assumes you have already chosen colours that work together; if that is the part going wrong, [colour theory for beginners](/blog/color-theory-for-beginners/) covers the relationships a palette is built from. More on what anime line art specifically asks for is in [our guide to coloring anime art on a phone](/blog/anime-coloring-app-guide/), and the rest of what we make sits in [Anime & Creative Games](/apps/category/anime-creative/).
 
 ## The short version
 

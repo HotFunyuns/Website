@@ -26,7 +26,7 @@ export const animeCreativeApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-08-09',
+    lastVerified: '2026-09-03',
     features: [
       {
         title: 'Fill, brush and erase',
@@ -128,7 +128,7 @@ export const animeCreativeApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-08-09',
+    lastVerified: '2026-09-03',
     features: [
       {
         title: 'A deep question bank',

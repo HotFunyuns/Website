@@ -3,12 +3,17 @@
   "title": "Sports Manager Games for Short Sessions: What Makes One Work on a Phone",
   "metaTitle": "Sports Manager Games for Phone: Short Session Guide",
   "description": "Why most management games fail in a five-minute window, the four properties that let one survive it, and how to test any manager game before you commit.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["sports gm", "mobile games", "session design", "draft simulator"],
+  "tags": [
+    "sports gm",
+    "mobile games",
+    "session design",
+    "draft simulator"
+  ],
   "primaryKeyword": "sports manager games for phone",
   "secondaryKeywords": [
     "short session management games",
@@ -32,7 +37,11 @@
     "Which sports game mode is quickest to finish?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["soccer-draft-gm-xi", "football-draft-gm-mode", "hockey-draft-gm-manager"],
+  "relatedApps": [
+    "soccer-draft-gm-xi",
+    "football-draft-gm-mode",
+    "hockey-draft-gm-manager"
+  ],
   "relatedArticles": [
     "soccer-draft-xi-guide",
     "sports-gm-games-without-internet",
@@ -48,7 +57,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "What makes a management game work in a short session?",
@@ -133,7 +141,7 @@ Not a league table — a description of session shape, so you can match one to y
 
 ### Soccer: a draft that fits a gap, and a save that does not have to
 
-[38-0 Football Draft XI Soccer](/apps/soccer-draft-gm-xi/) is explicit about running at two speeds. A draft and simulation fits comfortably into a short session, while club management and season progress are there when you want a longer save.
+[38-0-0 Pro Football GM Soccer](/apps/soccer-draft-gm-xi/) is explicit about running at two speeds. A draft and simulation fits comfortably into a short session, while club management and season progress are there when you want a longer save.
 
 The short-session version is a complete loop: draft across every position on the pitch, weighing position fit and playing style rather than stacking ratings, then run the 38-game campaign and read the wins, draws and losses. Limited drafts and budget challenges shorten it further by constraining the search. The longer version — formations, squad depth, transfers, contracts, fitness and season progress — is the evening game, and quizzes, player guessing and daily challenges sit in between as single-decision filler. The [soccer draft XI guide](/blog/soccer-draft-xi-guide/) covers the squad-building side, and [formations explained](/blog/soccer-formations-explained/) covers the shape you are drafting into.
 
@@ -151,13 +159,13 @@ The short-session version is a complete loop: draft across every position on the
 
 ### Basketball: two different shapes
 
-Basketball Draft GM Franchise carries eight draft formats, and two of them exist specifically for short play — Quick Draft and Blind Draft — alongside Unlimited, Franchise and Salary Cap drafting, VS Computer, Battle Mode and a Daily Challenge, with a full 82-game season behind them.
+Pro Basketball GM Franchise carries eight draft formats, and two of them exist specifically for short play — Quick Draft and Blind Draft — alongside Unlimited, Franchise and Salary Cap drafting, VS Computer, Battle Mode and a Daily Challenge, with a full 82-game season behind them.
 
 Basketball Career Sim goes the other way and produces the shortest unit in the whole catalogue: Live Sim hands you a single possession and asks what your player does. One decision is a complete interaction. It also supports offline play and needs no account, which makes it the least demanding of a bad connection.
 
 ### Combat sports: brackets and single bouts
 
-40-0 MMA & Boxing Fight Draft offers Unlimited Fight Draft, Limited Draft, Tournament, VS Computer, Draft Battle Royale and single-sport MMA and boxing drafts. The single-sport drafts are the quickest entry point, and the Fighter Explorer, comparisons, quizzes and daily challenges are all one-sitting items. It is free with no in-app purchases at all.
+40-0 MMA & Boxing Fight Draft offers Unlimited Fight Draft, Limited Draft, Tournament, VS Computer, Draft Battle Royale and single-sport MMA and boxing drafts. The single-sport drafts are the quickest entry point, and the Fighter Explorer, comparisons, quizzes and daily challenges are all one-sitting items. It is free to download, supported by ads, with optional in-app purchases.
 
 ## Habits that make a five-minute session worth something
 

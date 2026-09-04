@@ -3,12 +3,18 @@
   "title": "Is Thai Hard to Learn? Where the Difficulty Actually Sits",
   "metaTitle": "Is Thai Hard to Learn? An Honest Answer",
   "description": "Thai difficulty is not evenly spread. Here is what the script and tones really cost, what the grammar gives back free, and what published guidance says.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "language-learning",
-  "tags": ["thai", "language difficulty", "thai grammar", "beginner", "study planning"],
+  "tags": [
+    "thai",
+    "language difficulty",
+    "thai grammar",
+    "beginner",
+    "study planning"
+  ],
   "primaryKeyword": "is thai hard to learn",
   "secondaryKeywords": [
     "how hard is thai for english speakers",
@@ -32,7 +38,9 @@
     "How does Thai compare to Chinese in difficulty?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["learn-thai"],
+  "relatedApps": [
+    "learn-thai"
+  ],
   "relatedArticles": [
     "learn-thai-script-beginners-guide",
     "thai-tones-explained",
@@ -48,7 +56,6 @@
   ],
   "disclaimer": "language",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "Is Thai harder than Chinese?",

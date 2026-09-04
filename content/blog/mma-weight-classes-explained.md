@@ -3,12 +3,17 @@
   "title": "MMA Weight Classes Explained: The Full List and What the Bands Really Mean",
   "metaTitle": "MMA Weight Classes Explained: The Unified Rules List",
   "description": "The complete unified-rules weight class table with pound limits, why the bands are uneven, and how catch weight and weight misses are handled.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["mma", "weight classes", "combat sports", "rules"],
+  "tags": [
+    "mma",
+    "weight classes",
+    "combat sports",
+    "rules"
+  ],
   "primaryKeyword": "mma weight classes explained",
   "secondaryKeywords": [
     "mma weight class list pounds",
@@ -32,7 +37,9 @@
     "How long is an MMA round and how many rounds are there?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["mma-boxing-fight-draft"],
+  "relatedApps": [
+    "mma-boxing-fight-draft"
+  ],
   "relatedArticles": [
     "boxing-scoring-explained",
     "mma-boxing-fight-draft-guide",
@@ -48,7 +55,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "What are the MMA weight classes?",

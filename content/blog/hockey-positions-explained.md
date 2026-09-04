@@ -3,12 +3,17 @@
   "title": "Hockey Positions Explained: What Each of the Six Slots Actually Does",
   "metaTitle": "Hockey Positions Explained: All Six on the Ice",
   "description": "Centre, wings, defence and goaltender — what each position is responsible for, what separates a good one from a bad one, and how to judge them at a draft.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["hockey", "positions", "goaltending", "draft strategy"],
+  "tags": [
+    "hockey",
+    "positions",
+    "goaltending",
+    "draft strategy"
+  ],
   "primaryKeyword": "hockey positions explained",
   "secondaryKeywords": [
     "what does a centre do in hockey",
@@ -32,7 +37,10 @@
     "Why is goaltending considered the most important position in hockey?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["hockey-draft-gm-manager", "football-draft-gm-mode"],
+  "relatedApps": [
+    "hockey-draft-gm-manager",
+    "football-draft-gm-mode"
+  ],
   "relatedArticles": [
     "hockey-line-combinations-explained",
     "hockey-draft-gm-guide",
@@ -48,7 +56,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "What are the positions in ice hockey?",

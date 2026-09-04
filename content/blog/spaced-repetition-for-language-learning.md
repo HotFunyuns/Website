@@ -6,7 +6,7 @@
   "status": "published",
   "featured": false,
   "publishedAt": "2026-08-13",
-  "updatedAt": "2026-08-13",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "language-learning",
   "tags": [
@@ -83,10 +83,10 @@
   ],
   "sources": [
     {
-      "title": "Memory: A Contribution to Experimental Psychology (1885)",
-      "publisher": "Classics in the History of Psychology, York University",
-      "url": "https://psychclassics.yorku.ca/Ebbinghaus/",
-      "accessed": "2026-08-09"
+      "title": "Memory: A Contribution to Experimental Psychology (Ebbinghaus, 1885; Ruger & Bussenius translation, 1913)",
+      "publisher": "Internet Archive",
+      "url": "https://archive.org/details/memorycontributi00ebbiuoft",
+      "accessed": "2026-09-03"
     },
     {
       "title": "Improving Students' Learning With Effective Learning Techniques: Promising Directions From Cognitive and Educational Psychology (Dunlosky et al., Psychol Sci Public Interest 2013;14(1):4–58)",

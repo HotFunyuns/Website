@@ -3,12 +3,18 @@
   "title": "Language Learning Apps Compared: What to Do When Your Language Isn't One of the Big Ones",
   "metaTitle": "Best Language Learning App for Rarer Languages",
   "description": "How to choose a language app when your language is not one of the big ones: availability, official courses versus community word lists, tones and script.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "language-learning",
-  "tags": ["language learning", "app comparison", "cantonese", "spaced repetition", "android apps"],
+  "tags": [
+    "language learning",
+    "app comparison",
+    "cantonese",
+    "spaced repetition",
+    "android apps"
+  ],
   "primaryKeyword": "best language learning app for less common languages",
   "secondaryKeywords": [
     "language app comparison android",
@@ -38,7 +44,11 @@
     "Is Anki good for learning a language with no course available?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["learn-cantonese", "learn-cambodian-khmer", "learn-malay"],
+  "relatedApps": [
+    "learn-cantonese",
+    "learn-cambodian-khmer",
+    "learn-malay"
+  ],
   "relatedArticles": [
     "learn-cantonese-beginners-guide",
     "learn-khmer-beginners-guide",
@@ -53,8 +63,7 @@
     "No app makes anyone fluent, and none of the tools here are a substitute for time spent with fluent speakers."
   ],
   "disclaimer": "comparison",
-  "researchDate": "2026-08-09",
-  "noindex": true,
+  "researchDate": "2026-09-03",
   "featured": false,
   "faqs": [
     {
@@ -67,7 +76,7 @@
     },
     {
       "question": "Does Memrise have a Cantonese, Khmer or Malay course?",
-      "answer": "When we read Memrise's own pages for those three languages on 9 August 2026, each stated that Memrise teaches that language's vocabulary \"with word lists created by other users.\" Cantonese did not appear in the course list in that page's navigation. That is a description of the content model rather than a judgement of it, and Memrise's own site is the place to confirm the current position."
+      "answer": "When we read Memrise's own pages for those three languages on 3 September 2026, each stated that Memrise teaches that language's vocabulary \"with word lists created by other users.\" Cantonese did not appear in the course list in that page's navigation. That is a description of the content model rather than a judgement of it, and Memrise's own site is the place to confirm the current position."
     },
     {
       "question": "Is Anki good for learning a language?",
@@ -75,7 +84,7 @@
     },
     {
       "question": "Does Pimsleur teach Cantonese?",
-      "answer": "Pimsleur publishes a Chinese (Cantonese) course. Its own page for that course describes audio-language instruction with supplemental tools, states that \"each lesson takes just 30 minutes,\" and refers to Levels 1–5 steadily expanding speaking skills, as read on 9 August 2026. The page describes the course in terms of listening and speaking rather than reading Chinese characters, so check their site if written Cantonese matters to you."
+      "answer": "Pimsleur publishes a Chinese (Cantonese) course. Its own page for that course describes audio-language instruction with supplemental tools, states that \"each lesson takes just 30 minutes,\" and refers to Levels 1–5 steadily expanding speaking skills, as read on 3 September 2026. The page describes the course in terms of listening and speaking rather than reading Chinese characters, so check their site if written Cantonese matters to you."
     },
     {
       "question": "Can any app make me fluent?",
@@ -87,61 +96,61 @@
       "title": "Duolingo 101: How to learn a language on Duolingo",
       "publisher": "Duolingo, Inc.",
       "url": "https://blog.duolingo.com/duolingo-101-how-to-learn-a-language-on-duolingo/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "New on Duolingo: Better Courses, Updated Features—and Still Free!",
       "publisher": "Duolingo, Inc.",
       "url": "https://blog.duolingo.com/duolingo-updates/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "Memrise — Learn a language",
       "publisher": "Memrise Ltd.",
       "url": "https://www.memrise.com/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "Learn Cantonese with Memrise",
       "publisher": "Memrise Ltd.",
       "url": "https://www.memrise.com/en/learn-cantonese",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "Learn Khmer with Memrise",
       "publisher": "Memrise Ltd.",
       "url": "https://www.memrise.com/en/learn-khmer",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "Learn Malay with Memrise",
       "publisher": "Memrise Ltd.",
       "url": "https://www.memrise.com/en/learn-malay",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "Anki — powerful, intelligent flashcards",
       "publisher": "Ankitects Pty Ltd",
       "url": "https://apps.ankiweb.net/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "Learn to Speak Chinese (Cantonese)",
       "publisher": "Pimsleur, Simon & Schuster",
       "url": "https://www.pimsleur.com/learn-chinese-cantonese/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "Jyutping (粵拼)",
       "publisher": "Linguistic Society of Hong Kong",
       "url": "https://www.lshk.org/jyutping",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     },
     {
       "title": "Unicode Character Code Charts",
       "publisher": "Unicode, Inc.",
       "url": "https://www.unicode.org/charts/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-09-03"
     }
   ]
 }
@@ -153,7 +162,7 @@ That single question eliminates more options than every feature comparison combi
 
 **Disclosure:** this article is published by Reign Creative LLC. We publish Android courses for several of the languages discussed here, including the Cantonese course named below, so we have a direct commercial interest in you installing one. We have written this to be useful if you end up somewhere else, and the recommendations at the end genuinely point elsewhere in several cases.
 
-Everything stated about another company's product was read on that company's own website on **9 August 2026** and is limited to what those pages said. Course catalogues change; check the current listing yourself before deciding.
+Everything stated about another company's product was read on that company's own website on **3 September 2026** and is limited to what those pages said. Course catalogues change; check the current listing yourself before deciding.
 
 ## Check availability before you compare anything
 
@@ -167,7 +176,7 @@ If it is not there, the rest of this article is for you.
 
 This is the distinction that trips people up, and it is visible on vendors' own pages if you know to look for it.
 
-When we read Memrise's pages for Cantonese, Khmer and Malay on 9 August 2026, each one described the offering the same way: Memrise teaches that language's vocabulary **"with word lists created by other users."** On the Cantonese page, Cantonese did not appear among the courses listed in the page's own navigation.
+When we read Memrise's pages for Cantonese, Khmer and Malay on 3 September 2026, each one described the offering the same way: Memrise teaches that language's vocabulary **"with word lists created by other users."** On the Cantonese page, Cantonese did not appear among the courses listed in the page's own navigation.
 
 That is a description of a content model, not a criticism. Community-contributed word lists are how an enormous amount of rare-language study actually happens, and for a language with no commercial course anywhere they may be the best material in existence. But they are a different product from a sequenced course, and the difference shows up in practice:
 
@@ -184,7 +193,7 @@ Once you stop sorting by brand and start sorting by what the software actually i
 
 ### The large course platform
 
-Duolingo is the reference example. Its own blog describes a free app teaching more than 40 languages, with Duolingo Max subscribers getting unlimited access to its Video Call feature. Where a course exists, this shape gives you sequencing, habit mechanics and scale.
+Duolingo is the reference example. Its own blog describes a free app, and on the date shown said it offered "over 100 courses teaching 40+ languages". The same page describes Duolingo Max as adding "GPT-4-powered features like Video Call with Lily, chat roleplays with your favorite Duolingo characters, and personalized grammar explanations" on top of Super Duolingo. Where a course exists, this shape gives you sequencing, habit mechanics and scale.
 
 The trade is inherent to the shape rather than to any company: producing a course is expensive, so coverage concentrates where demand is largest. The languages named across Duolingo's own pages we read are Spanish, French, German, Italian, Japanese, Chinese, Korean, Greek and English — which tells you where the production effort has gone, not what the full catalogue contains. Go and read the catalogue.
 
@@ -248,6 +257,6 @@ We publish separate beginner courses for Khmer, Malay, Thai and Russian on the s
 
 ## How we checked, and a note on names
 
-Every statement above about Duolingo, Memrise, Anki and Pimsleur was read on those companies' own websites on 9 August 2026 and is reported as what those pages said. We did not state which languages any platform does or does not offer beyond what its own pages showed us, because catalogues change and an out-of-date absence claim is worse than no claim. We used no screenshots, icons or brand styling.
+Every statement above about Duolingo, Memrise, Anki and Pimsleur was read on those companies' own websites on 3 September 2026 and is reported as what those pages said. We did not state which languages any platform does or does not offer beyond what its own pages showed us, because catalogues change and an out-of-date absence claim is worse than no claim. We used no screenshots, icons or brand styling.
 
 Duolingo, Memrise, Anki, AnkiDroid, Pimsleur and all other product names and trademarks mentioned are the property of their respective owners. Their use here is nominative — for identification of the products discussed — and implies no affiliation, sponsorship, partnership or endorsement in either direction.

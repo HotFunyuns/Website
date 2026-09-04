@@ -5,10 +5,16 @@
   "description": "What a chronology app teaches well, where its dates get slippery, how to tell documented fact from historians' interpretation, and how to check a claim.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-13",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "education-brain",
-  "tags": ["world history", "timelines", "study methods", "primary sources", "android apps"],
+  "tags": [
+    "world history",
+    "timelines",
+    "study methods",
+    "primary sources",
+    "android apps"
+  ],
   "primaryKeyword": "interactive world history timeline app",
   "secondaryKeywords": [
     "world history timeline for students",
@@ -32,8 +38,12 @@
     "Where can I check a historical date for free?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["world-history-timeline-sim"],
-  "relatedArticles": ["mental-math-training-guide"],
+  "relatedApps": [
+    "world-history-timeline-sim"
+  ],
+  "relatedArticles": [
+    "mental-math-training-guide"
+  ],
   "takeaways": [
     "A timeline app is a tool for orientation and breadth — it teaches you where things sit relative to each other, which is the scaffolding depth later attaches to.",
     "Separate three layers whenever you read history: what a document records, what historians infer from it, and what the popular story has smoothed into shape.",
@@ -90,10 +100,10 @@
       "accessed": "2026-08-09"
     },
     {
-      "title": "Digital Archive: International History Declassified",
-      "publisher": "Woodrow Wilson International Center for Scholars",
-      "url": "https://digitalarchive.wilsoncenter.org/",
-      "accessed": "2026-08-09"
+      "title": "Foreign Relations of the United States (Historical Documents)",
+      "publisher": "Office of the Historian, U.S. Department of State",
+      "url": "https://history.state.gov/historicaldocuments",
+      "accessed": "2026-09-03"
     },
     {
       "title": "The Avalon Project: Documents in Law, History and Diplomacy",
@@ -159,7 +169,7 @@ The Rosetta Stone is a useful case. The documented part: it carries a decree iss
 
 The popular story compresses everything after that into one name and one moment. The reality was a contested, incremental decipherment: Thomas Young made real progress on the Demotic text and on identifying royal names in cartouches, and Jean-François Champollion's breakthrough in the 1820s built on and went far beyond it, with an argument about priority that the two men's supporters were still conducting long afterwards. Who "deserves credit" is interpretation. That the stone bears three scripts is fact.
 
-A third example makes the point in the modern period. That the Berlin Wall's crossings opened on the night of 9 November 1989 is documented in exhaustive detail. *Why* it opened that night — a mishandled press conference, sustained mass protest, the economic condition of the GDR, changes in Soviet policy, or the interaction of all of them — is a live historical argument, and the declassified diplomatic record that feeds it is publicly readable in archives like the Wilson Center's.
+A third example makes the point in the modern period. That the Berlin Wall's crossings opened on the night of 9 November 1989 is documented in exhaustive detail. *Why* it opened that night — a mishandled press conference, sustained mass protest, the economic condition of the GDR, changes in Soviet policy, or the interaction of all of them — is a live historical argument, and the declassified diplomatic record that feeds it is publicly readable — the U.S. State Department publishes its own official documentary record in the *Foreign Relations of the United States* series.
 
 > Rule of thumb: dates, texts, objects and inscriptions are the floor. Causes, motives, significance and credit are the building. An app can hand you the floor. It cannot hand you the building, and you should be suspicious of anything that pretends to.
 
@@ -207,7 +217,7 @@ If a claim matters — you are quoting it, arguing with it, or putting it in an 
 | The National Archives, UK | British state records, dating conventions, research guides |
 | Library of Congress digital collections | Newspapers, photographs, manuscripts, maps |
 | The British Museum collection | Objects, inscriptions, provenance and dating |
-| Wilson Center Digital Archive | Declassified twentieth-century diplomatic documents |
+| Foreign Relations of the United States | The U.S. State Department’s official documentary record of foreign policy |
 | Yale's Avalon Project | Full texts of treaties, charters and legal documents |
 | UNESCO World Heritage List | Sites, with descriptions and dating from nomination files |
 

@@ -3,12 +3,17 @@
   "title": "Sports GM Games Without Internet: What \"Offline\" Actually Means",
   "metaTitle": "Sports GM Games Without Internet: What to Check",
   "description": "Offline is four different things in a mobile game. Here is what each one means, why draft-and-sim games suit a flight, and how to test any app in five minutes.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["offline games", "sports gm", "android", "travel"],
+  "tags": [
+    "offline games",
+    "sports gm",
+    "android",
+    "travel"
+  ],
   "primaryKeyword": "sports gm games no wifi",
   "secondaryKeywords": [
     "offline sports management games android",
@@ -32,7 +37,11 @@
     "What happens to my save data in an offline game?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["hockey-draft-gm-manager", "pro-basketball-my-career-sim", "baseball-draft-gm-team"],
+  "relatedApps": [
+    "hockey-draft-gm-manager",
+    "pro-basketball-my-career-sim",
+    "baseball-draft-gm-team"
+  ],
   "relatedArticles": [
     "hockey-draft-gm-guide",
     "best-sports-manager-games-for-short-sessions",
@@ -48,7 +57,6 @@
   ],
   "disclaimer": "none",
   "featured": false,
-  "noindex": true,
   "faqs": [
     {
       "question": "What does it mean for a game to work offline?",

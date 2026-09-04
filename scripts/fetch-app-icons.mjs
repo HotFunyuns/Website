@@ -38,6 +38,14 @@ const SLUGS = {
   'com.reigncreative.learnrussianlanguage': 'learn-russian',
   'com.reigncreative.learncambodian': 'learn-cambodian-khmer',
   'com.reigncreative.animetrivia': 'anime-trivia-word-games',
+  'com.reigncreative.baseballmycareer': 'baseball-career-sim',
+  'com.reigncreative.footballmycareer': 'football-career-sim',
+  'com.reigncreative.hockeymycareersimulator': 'hockey-career-sim',
+  'com.reigncreative.soccermycareersim': 'soccer-career-sim-xi',
+  'com.reigncreative.golfmycareersimulator': 'golf-career-simulator',
+  'com.reigncreative.learnvietnameselanguage': 'learn-vietnamese',
+  'com.reigncreative.learnlaolanguage': 'learn-lao',
+  'com.reigncreative.learnitalianlanguage': 'learn-italian',
 };
 
 // The Play CDN resizes via a trailing size directive on the image path. The -rw

@@ -5,10 +5,16 @@
   "description": "Why the draw changes everything in a soccer draft game, how position fit differs from position coverage, and what a 38-game simulated campaign really measures.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["soccer", "draft strategy", "squad building", "football manager", "sports sim"],
+  "tags": [
+    "soccer",
+    "draft strategy",
+    "squad building",
+    "football manager",
+    "sports sim"
+  ],
   "primaryKeyword": "soccer draft simulator",
   "secondaryKeywords": [
     "football draft game android",
@@ -32,7 +38,10 @@
     "Is there a soccer squad builder that works offline?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["soccer-draft-gm-xi", "football-draft-gm-mode"],
+  "relatedApps": [
+    "soccer-draft-gm-xi",
+    "football-draft-gm-mode"
+  ],
   "relatedArticles": [
     "football-draft-gm-guide",
     "basketball-draft-gm-guide",
@@ -62,7 +71,7 @@
     },
     {
       "question": "Is this football or soccer?",
-      "answer": "Both — it is the same game either way. You draft a full XI for the global game, whichever name you use for it. The app is titled 38-0 Football Draft XI Soccer precisely because the sport goes by two names in different places."
+      "answer": "Both — it is the same game either way. You draft a full XI for the global game, whichever name you use for it. The app is titled 38-0-0 Pro Football GM Soccer precisely because the sport goes by two names in different places."
     },
     {
       "question": "Is it connected to any real club or competition?",
@@ -70,7 +79,7 @@
     },
     {
       "question": "Does it cost anything?",
-      "answer": "38-0 Football Draft XI Soccer is free to download on Google Play. It is supported by ads and offers optional in-app purchases. The draft formats, the campaign simulation and club management are part of the base game."
+      "answer": "38-0-0 Pro Football GM Soccer is free to download on Google Play. It is supported by ads and offers optional in-app purchases. The draft formats, the campaign simulation and club management are part of the base game."
     }
   ],
   "sources": []
@@ -87,7 +96,7 @@ Everything about drafting an XI follows from that.
 
 In a two-outcome sport, defensive solidity and attacking quality are close to interchangeable ways of buying wins. Add draws and they stop being symmetric.
 
-Solidity converts losses into draws. Attacking quality converts draws into wins. Both are worth having, but they buy different things, and a squad that has spent everything on one of them hits a ceiling that more of the same will not raise. This is the specific reason a balanced XI outperforms a lopsided one in [38-0 Football Draft XI Soccer](/apps/soccer-draft-gm-xi/), and it is a genuinely different constraint from the ones the other drafting sports impose.
+Solidity converts losses into draws. Attacking quality converts draws into wins. Both are worth having, but they buy different things, and a squad that has spent everything on one of them hits a ceiling that more of the same will not raise. This is the specific reason a balanced XI outperforms a lopsided one in [38-0-0 Pro Football GM Soccer](/apps/soccer-draft-gm-xi/), and it is a genuinely different constraint from the ones the other drafting sports impose.
 
 The practical version: before you start picking, decide roughly where your side sits on that axis, and notice when a pick would push you further in a direction you have already invested in.
 

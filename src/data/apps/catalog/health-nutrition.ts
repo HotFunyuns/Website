@@ -26,7 +26,7 @@ export const healthNutritionApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-08-09',
+    lastVerified: '2026-09-03',
     features: [
       {
         title: 'Protein, calories and macros together',
@@ -133,7 +133,7 @@ export const healthNutritionApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: false,
     free: true,
-    lastVerified: '2026-08-09',
+    lastVerified: '2026-09-03',
     features: [
       {
         title: 'Net carbs worked out for you',

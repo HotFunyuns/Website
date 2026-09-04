@@ -3,12 +3,18 @@
   "title": "Protein Sources Compared: Reading a High Protein Foods List Properly",
   "metaTitle": "High Protein Foods List: What the Numbers Show",
   "description": "A high protein foods list answers three different questions at once. Here is how per-serving, per-calorie and protein-quality figures actually differ.",
-  "status": "draft",
-  "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-09",
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
   "author": "Reign Creative Team",
   "category": "health-nutrition",
-  "tags": ["protein", "food sources", "nutrition labels", "plant protein", "macro tracking"],
+  "tags": [
+    "protein",
+    "food sources",
+    "nutrition labels",
+    "plant protein",
+    "macro tracking"
+  ],
   "primaryKeyword": "high protein foods list",
   "secondaryKeywords": [
     "animal vs plant protein",
@@ -32,7 +38,10 @@
     "What does 'good source of protein' mean on a food package?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["protein-diet-tracker", "keto-diet-tracker"],
+  "relatedApps": [
+    "protein-diet-tracker",
+    "keto-diet-tracker"
+  ],
   "relatedArticles": [
     "how-much-protein-per-day",
     "reading-nutrition-labels",
@@ -46,7 +55,6 @@
     "Some nutrients travel with the protein — vitamin B12 and heme iron are the ones most worth knowing about when a diet shifts between animal and plant sources."
   ],
   "disclaimer": "health",
-  "noindex": true,
   "featured": false,
   "faqs": [
     {
