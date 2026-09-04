@@ -477,12 +477,26 @@ sitemap, the feed or any link.
 
 ## 23. Commit and branch
 
-Recorded at the end of this document after the push, along with the deployment
-result.
+| | |
+| --- | --- |
+| Branch | `main` |
+| Remote | `origin` — `https://github.com/HotFunyuns/Website.git` |
+| Baseline commit | `7628c3e` |
+| This commit | `5dd26d5` — *Publish expanded SEO content and update app catalog* |
+| Files changed | 211 (139 new, 72 modified) |
+| Push | Fast-forward `7628c3e..5dd26d5`. No force-push, no history rewrite. |
 
 ## 24. Deployment
 
-Recorded at the end of this document.
+Deployed by GitHub Actions to GitHub Pages on push to `main`.
+
+| | |
+| --- | --- |
+| Live URL | https://reigncreativellc.com |
+| Result | **Success** |
+| Time to live | Roughly eight minutes from push |
+
+Verified against the production site, not the local build.
 
 ## 25. Facts requiring owner review
 
@@ -528,4 +542,51 @@ Recorded at the end of this document.
 
 ## Deployment record
 
-_Completed after the push._
+Verified on the live site at **https://reigncreativellc.com** after the
+`5dd26d5` deployment completed.
+
+### Full sitemap sweep
+
+**228 of 228 URLs in the production sitemap returned HTTP 200.** Every article,
+app page, category page and static page is reachable.
+
+### Targeted checks
+
+| Check | Result |
+| --- | --- |
+| Homepage, app catalog, blog index | 200 |
+| App and blog category pages | 200 |
+| About, editorial policy, privacy, press | 200 |
+| All 8 new app pages | 200, each with `SoftwareApplication` JSON-LD and a Play link |
+| Representative article from each of 8 clusters | 200, each with `BlogPosting` + `BreadcrumbList`, correct self-canonical, no `noindex` |
+| `sitemap.xml` | 200 — **228 URLs, zero duplicates** |
+| `blog/rss.xml` | 200 — **175 items** |
+| `robots.txt` | 200 — all five search/answer crawlers explicitly allowed, sitemap declared |
+| `llms.txt` | 200 — includes the newly added apps |
+| Unknown article URL | **404**, not a soft 200 |
+| Legacy redirect page | 200 with **no meta refresh** — the back-button fix is live |
+| Renamed app page | Shows the current store name, on the unchanged URL |
+
+### Back-button behaviour
+
+The retired URL `/apps/82-0-pro-basketball-draft/` was confirmed to serve no
+`<meta http-equiv="refresh">` in production. It redirects via
+`location.replace()`, which replaces the current history entry rather than
+adding one, so pressing Back from the destination returns the visitor to
+wherever they actually came from rather than into a redirect loop.
+
+No other page on the site manipulates history. The only first-party History API
+call is `replaceState` for the app-catalog category filter, which by definition
+cannot create the extra entries a back-trap requires.
+
+### What still needs a live tool
+
+- **Google Rich Results Test** — needs a public URL, so it can now be run
+  against the three representative URLs listed in
+  [`docs/structured-data-report.md`](./structured-data-report.md).
+- **Core Web Vitals** — field data accumulates in Search Console and CrUX over
+  the coming weeks. No synthetic score is quoted, because a lab number is not
+  the metric Google uses.
+- **`play_store_click` in GA4 DebugView** — the event is gated on the production
+  hostname, so it can only be observed on the live site. The checklist is in
+  [`analytics-measurement.md`](./analytics-measurement.md).
