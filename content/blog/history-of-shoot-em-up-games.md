@@ -76,7 +76,7 @@
     },
     {
       "question": "Is the genre still being made?",
-      "answer": "Yes, though mostly outside the arcade cabinet that created it. Independent developers, doujin circles and mobile studios have kept the form going, and the short run length that once suited a coin slot now suits a phone. Space Shooter - Galaxy Arcade is our own entry in that lineage, free to download on Google Play with ads and optional in-app purchases."
+      "answer": "Yes, though mostly outside the arcade cabinet that created it. Independent developers, doujin circles and mobile studios have kept the form going, and the short run length that once suited a coin slot now suits a phone. Space Galaxy Attack Arcade is our own entry in that lineage, free to download on Google Play with ads and optional in-app purchases."
     }
   ],
   "sources": [
@@ -159,7 +159,7 @@ By the mid-1980s the survival layer was well understood, and the next move was t
 
 **Irem's R-Type** (1987) went the other way and gave you one thing: a detachable pod that could be docked front or rear, absorbed fire, and fired independently. Instead of a shopping list, a single object whose placement was the whole tactical layer.
 
-These two approaches — accumulate a build, or master one tool — still describe most of what modern arcade shooters do with progression. The lineage runs directly into contemporary phone games. [Space Shooter - Galaxy Arcade](/apps/space-shooter-classic-arcade/) sits on the accumulate side: rewards earned during a run go into weapons, unlocked upgrades, ship systems and bonuses you pick yourself, so the ship you launch with next time is a different ship.
+These two approaches — accumulate a build, or master one tool — still describe most of what modern arcade shooters do with progression. The lineage runs directly into contemporary phone games. [Space Galaxy Attack Arcade](/apps/space-shooter-classic-arcade/) sits on the accumulate side: rewards earned during a run go into weapons, unlocked upgrades, ship systems and bonuses you pick yourself, so the ship you launch with next time is a different ship.
 
 ## Scoring became a second game
 

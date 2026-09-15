@@ -156,13 +156,23 @@ export default function CategoryPage({ params }: { params: { category: string } 
                 Reading on {category.shortLabel}
               </h2>
               <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink-500">
-                {categoryPosts.length === 1 ? 'A guide' : `${categoryPosts.length} guides`} written by
-                the team that builds these apps, covering how they work and where their limits are.
+                {categoryPosts.length === 1
+                  ? 'A guide'
+                  : `${categoryPosts.length} guides`}{' '}
+                written by the team that builds these apps, covering how they work and where their
+                limits are{categoryPosts.length > 6 ? ' — a few of them below' : ''}.
               </p>
             </Reveal>
 
+            {/*
+              A preview, not the whole list. Rendering every article here made
+              /blog/category/<id>/ a ~98% text subset of this page, so the two
+              hubs competed to be the same result. Six cards keep the
+              cross-link useful without reproducing the reading list; the "All
+              … guides" link below is the route to the full set.
+            */}
             <ul className="mt-10 grid list-none gap-6 p-0 sm:grid-cols-2 lg:grid-cols-3">
-              {categoryPosts.map((post, i) => (
+              {categoryPosts.slice(0, 6).map((post, i) => (
                 <li key={post.slug} className="h-full">
                   <Reveal delay={i * 60} className="h-full">
                     <BlogCard post={post} headingLevel="h3" />

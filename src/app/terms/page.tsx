@@ -5,8 +5,10 @@ import Reveal from '@/components/Reveal';
 import { companyInfo } from '@/data/apps';
 
 export const metadata: Metadata = {
-  title: 'Terms of Service — Reign Creative LLC',
-  description: 'Terms of Service for Reign Creative LLC and its mobile applications.',
+  // Brand comes from the root layout's '%s | Reign Creative LLC' template.
+  title: 'Terms of Service',
+  description:
+    'The terms that govern use of the Reign Creative LLC website and the Android apps we publish, including licence, acceptable use and liability.',
   alternates: { canonical: '/terms/' },
   openGraph: {
     title: 'Terms of Service — Reign Creative LLC',

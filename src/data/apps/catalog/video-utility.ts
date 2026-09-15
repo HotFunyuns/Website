@@ -25,7 +25,7 @@ export const videoUtilityApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'Common local formats',
@@ -102,5 +102,107 @@ export const videoUtilityApps: AppInfo[] = [
     metaTitle: 'Regal Video Player for Android',
     metaDescription:
       'Play local MP4, MKV and MOV files with 0.1x to 3.0x speed control, resume, Picture-in-Picture, gestures and a sleep timer. Free on Google Play.',
+  },
+  {
+    slug: 'tcg-card-grading-scanner',
+    name: 'TCG Card Grading Scanner Value',
+    tagline: 'Scan a card, check what it is worth, and measure the centring before you send it anywhere.',
+    cardDescription:
+      'Identify trading cards with your camera, check market-value estimates by printing variant, and measure border centring from front and back photos.',
+    longDescription: [
+      'TCG Card Grading Scanner Value turns your camera into a card scanner. Single Value Scan handles one card at a time: capture it, review the suggested match, compare the ranked alternatives, then pick the correct printing and the price variant that matches what you are holding. A normal, holo and reverse holo copy of the same card are different things, and the app keeps the selected variant visible rather than quietly averaging them.',
+      'Bulk Value Scan is for a stack. You add cards one after another, adjust quantities, change variants, remove anything matched incorrectly, and watch a combined value update as you go — without repeating the setup for every card. Each result is still reviewable before it is saved, so a bad match does not silently end up in your collection.',
+      'Card Centering Scan measures left, right, top and bottom borders from front and back photos. You adjust the rounded card guides, inspect the overlay and read the centring ratios, which makes comparing two similar copies a measurement rather than a guess. The grading guidance that accompanies it is explicitly informational: these are not official grades, lighting and camera angle affect the measurements, and an official grade still requires an independent professional grading service.',
+    ],
+    category: 'Utilities · TCG Scanner',
+    categoryId: 'video-utility',
+    schemaCategory: 'UtilitiesApplication',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.reigncreative.tcgvaluescanner',
+    packageId: 'com.reigncreative.tcgvaluescanner',
+    icon: '/icons/tcg-card-grading-scanner.webp',
+    iconSmall: '/icons/tcg-card-grading-scanner-sm.webp',
+    accent: 'from-crimson-500 to-ink-700',
+    playCategory: 'SPORTS',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: true,
+    free: true,
+    lastVerified: '2026-09-15',
+    features: [
+      {
+        title: 'Single Value Scan',
+        body: 'Capture one card, review the suggested match against ranked alternatives, and select the correct printing yourself.',
+      },
+      {
+        title: 'Bulk Value Scan',
+        body: 'Add cards consecutively, adjust quantities and variants, remove wrong entries, and see a combined value update as you work.',
+      },
+      {
+        title: 'Card centring measurement',
+        body: 'Measure left, right, top and bottom borders from front and back photos using adjustable rounded guides and an overlay.',
+      },
+      {
+        title: 'Variant-aware values',
+        body: 'Normal, holo and reverse holo printings are priced separately, and the selected variant stays visible with the result.',
+      },
+      {
+        title: 'Collection and history',
+        body: 'Save identified cards, review your scan history, correct uncertain matches, and keep variant details with each entry.',
+      },
+    ],
+    audience: [
+      'Collectors sorting or cataloguing a growing card collection',
+      'Anyone checking newly acquired cards before storing or selling',
+      'People comparing duplicates to decide which copy is the better one',
+      'Collectors deciding whether a card is worth submitting for grading',
+    ],
+    howItWorks: [
+      {
+        title: 'Scan the card',
+        body: 'Point the camera at a card and let the scanner suggest a match, with alternatives ranked underneath.',
+      },
+      {
+        title: 'Confirm the printing',
+        body: 'Choose the correct card and the price variant — normal, holo, reverse holo — that matches the copy in front of you.',
+      },
+      {
+        title: 'Measure the centring',
+        body: 'Photograph front and back, adjust the rounded guides, and read the left, right, top and bottom ratios.',
+      },
+      {
+        title: 'Save it to the collection',
+        body: 'Keep the entry with its variant and value estimate, or run a bulk scan when you have a whole stack to get through.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is TCG Card Grading Scanner Value free?',
+        answer:
+          'Yes, it is free to download on Google Play. It is supported by ads, and Google Play lists in-app purchases.',
+      },
+      {
+        question: 'Does it give me an official grade?',
+        answer:
+          'No. Grading estimates are informational only. Lighting, glare, camera angle, card design and manual alignment all affect the centring measurement, and an official grade requires an independent professional grading service.',
+      },
+      {
+        question: 'Where do the card values come from?',
+        answer:
+          'They are estimates based on available third-party market information for the matched card and variant. Pricing can change and may be unavailable for some cards. They are not guaranteed sale prices, offers or appraisals.',
+      },
+      {
+        question: 'What if the scanner picks the wrong card?',
+        answer:
+          'Every scan shows ranked alternatives, and you select the correct printing and variant before the result is saved. Entries can also be corrected or removed afterwards.',
+      },
+      {
+        question: 'Is it affiliated with any card company or grading service?',
+        answer:
+          'No. The app is not affiliated with, endorsed by or sponsored by any card manufacturer, marketplace or professional grading company. All names and trademarks belong to their respective owners.',
+      },
+    ],
+    metaTitle: 'TCG Card Grading Scanner Value for Android',
+    metaDescription:
+      'Scan trading cards to identify them, check variant-aware market value estimates, and measure border centring before grading. Free on Google Play.',
   },
 ];

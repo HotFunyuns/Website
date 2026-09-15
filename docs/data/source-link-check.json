@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-04T08:32:38.132Z",
+  "checkedAt": "2026-09-15T20:51:17.188Z",
   "results": [
     {
       "url": "https://aa.usno.navy.mil/",
@@ -37,6 +37,15 @@
       ]
     },
     {
+      "url": "https://agar.io/",
+      "status": 200,
+      "finalUrl": "https://agar.io/",
+      "verdict": "ok",
+      "articles": [
+        "io-games-without-a-connection"
+      ]
+    },
+    {
       "url": "https://aomedia.org/",
       "status": 200,
       "finalUrl": "https://aomedia.org/",
@@ -61,6 +70,7 @@
       "finalUrl": "https://apps.ankiweb.net/",
       "verdict": "ok",
       "articles": [
+        "choosing-a-history-app-for-students",
         "language-learning-apps-compared"
       ]
     },
@@ -183,12 +193,30 @@
       ]
     },
     {
+      "url": "https://datatracker.ietf.org/doc/html/rfc9559",
+      "status": 200,
+      "finalUrl": "https://datatracker.ietf.org/doc/html/rfc9559",
+      "verdict": "ok",
+      "articles": [
+        "how-to-play-mkv-files-on-android"
+      ]
+    },
+    {
       "url": "https://datatracker.ietf.org/wg/cellar/about/",
       "status": 200,
       "finalUrl": "https://datatracker.ietf.org/wg/cellar/about/",
       "verdict": "ok",
       "articles": [
         "video-file-formats-explained"
+      ]
+    },
+    {
+      "url": "https://developer.android.com/develop/ui/views/text-and-emoji/downloadable-fonts",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "browser-only",
+      "articles": [
+        "khmer-fonts-on-android"
       ]
     },
     {
@@ -233,6 +261,7 @@
         "av1-on-android-explained",
         "battery-and-performance-in-mobile-games",
         "hardware-vs-software-decoding",
+        "how-to-play-mkv-files-on-android",
         "remuxing-vs-transcoding",
         "subtitle-formats-explained",
         "video-codecs-explained",
@@ -278,12 +307,98 @@
       ]
     },
     {
+      "url": "https://en.wikipedia.org/wiki/.io",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/.io",
+      "verdict": "ok",
+      "articles": [
+        "what-are-io-games"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/ATP_Rankings",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/ATP_Rankings",
+      "verdict": "ok",
+      "articles": [
+        "how-tennis-ranking-points-work",
+        "tennis-career-sim-guide",
+        "tennis-ranking-decay-and-scheduling"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/ATP_Tour",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/ATP_Tour",
+      "verdict": "ok",
+      "articles": [
+        "tennis-ranking-decay-and-scheduling"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Affix",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Affix",
+      "verdict": "ok",
+      "articles": [
+        "malay-affixes-guide"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Agar.io",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Agar.io",
+      "verdict": "ok",
+      "articles": [
+        "eat-and-grow-arena-strategy",
+        "io-games-without-a-connection",
+        "what-are-io-games"
+      ]
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Alpha_compositing",
       "status": 200,
       "finalUrl": "https://en.wikipedia.org/wiki/Alpha_compositing",
       "verdict": "ok",
       "articles": [
         "digital-coloring-techniques"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Anime",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Anime",
+      "verdict": "ok",
+      "articles": [
+        "anime-hair-colour-meanings",
+        "manga-vs-anime-differences"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Boxing_styles_and_technique",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Boxing_styles_and_technique",
+      "verdict": "ok",
+      "articles": [
+        "southpaw-vs-orthodox"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Brain_training",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Brain_training",
+      "verdict": "ok",
+      "articles": [
+        "do-brain-training-apps-work"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bullet_hell",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Bullet_hell",
+      "verdict": "ok",
+      "articles": [
+        "vertical-shooter-games-on-android"
       ]
     },
     {
@@ -296,12 +411,177 @@
       ]
     },
     {
+      "url": "https://en.wikipedia.org/wiki/Card_(sports)",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Card_(sports)",
+      "verdict": "ok",
+      "articles": [
+        "how-fight-cards-are-built"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cel_shading",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Cel_shading",
+      "verdict": "ok",
+      "articles": [
+        "how-to-shade-anime-hair"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Choke_(sports)",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Choke_(sports)",
+      "verdict": "ok",
+      "articles": [
+        "pressure-and-nerves-in-golf-sims"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chunking_(psychology)",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Chunking_(psychology)",
+      "verdict": "ok",
+      "articles": [
+        "how-to-remember-historical-dates"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Collectible_card_game",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Collectible_card_game",
+      "verdict": "ok",
+      "articles": [
+        "reverse-holo-vs-holo"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Color_symbolism",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Color_symbolism",
+      "verdict": "ok",
+      "articles": [
+        "anime-hair-colour-meanings"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Comparison_of_Indonesian_and_Standard_Malay",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Comparison_of_Indonesian_and_Standard_Malay",
+      "verdict": "ok",
+      "articles": [
+        "malay-phrases-for-travel",
+        "should-i-learn-malay-or-indonesian"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Comparison_of_rugby_league_and_rugby_union",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Comparison_of_rugby_league_and_rugby_union",
+      "verdict": "ok",
+      "articles": [
+        "how-rugby-scoring-works",
+        "rugby-union-vs-rugby-league"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Concentration_(card_game)",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Concentration_(card_game)",
+      "verdict": "ok",
+      "articles": [
+        "designing-memory-games-beyond-matching-pairs"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Content-based_image_retrieval",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Content-based_image_retrieval",
+      "verdict": "ok",
+      "articles": [
+        "when-a-card-scanner-picks-the-wrong-card"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Corsi_block-tapping_test",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Corsi_block-tapping_test",
+      "verdict": "ok",
+      "articles": [
+        "designing-memory-games-beyond-matching-pairs"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Counterfactual_history",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Counterfactual_history",
+      "verdict": "ok",
+      "articles": [
+        "counterfactual-history-and-what-if-scenarios"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cyrillic_script",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Cyrillic_script",
+      "verdict": "ok",
+      "articles": [
+        "russian-cursive-handwriting-guide"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Desktop_Tower_Defense",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Desktop_Tower_Defense",
+      "verdict": "ok",
+      "articles": [
+        "what-does-td-mean-in-games"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Devanagari",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Devanagari",
+      "verdict": "ok",
+      "articles": [
+        "learn-marathi-beginners-guide",
+        "marathi-alphabet-and-devanagari"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Distributed_practice",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Distributed_practice",
+      "verdict": "ok",
+      "articles": [
+        "marathi-study-plan-first-month"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Divisibility_rule",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Divisibility_rule",
+      "verdict": "ok",
+      "articles": [
+        "mental-division-tricks"
+      ]
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/DoDonPachi",
       "status": 200,
       "finalUrl": "https://en.wikipedia.org/wiki/DoDonPachi",
       "verdict": "ok",
       "articles": [
         "bullet-hell-vs-classic-shmup"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dynamic_game_difficulty_balancing",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Dynamic_game_difficulty_balancing",
+      "verdict": "ok",
+      "articles": [
+        "shmup-difficulty-tiers"
       ]
     },
     {
@@ -314,12 +594,59 @@
       ]
     },
     {
+      "url": "https://en.wikipedia.org/wiki/Elo_rating_system",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Elo_rating_system",
+      "verdict": "ok",
+      "articles": [
+        "style-matchups-in-a-fight-simulator"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire",
+      "verdict": "ok",
+      "articles": [
+        "why-rome-fell"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ferdinand_von_Richthofen",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Ferdinand_von_Richthofen",
+      "verdict": "ok",
+      "articles": [
+        "the-silk-road-for-beginners"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Filler_(media)",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Filler_(media)",
+      "verdict": "ok",
+      "articles": [
+        "manga-vs-anime-differences"
+      ]
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Flood_fill",
       "status": 200,
       "finalUrl": "https://en.wikipedia.org/wiki/Flood_fill",
       "verdict": "ok",
       "articles": [
         "digital-coloring-techniques"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Game_balance",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Game_balance",
+      "verdict": "ok",
+      "articles": [
+        "aura-towers-and-support-stacking",
+        "shmup-difficulty-tiers",
+        "tower-defense-strategy-basics"
       ]
     },
     {
@@ -332,12 +659,125 @@
       ]
     },
     {
+      "url": "https://en.wikipedia.org/wiki/Glossary_of_golf",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Glossary_of_golf",
+      "verdict": "ok",
+      "articles": [
+        "strokes-gained-for-club-golfers"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Glossary_of_tennis_terms",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Glossary_of_tennis_terms",
+      "verdict": "ok",
+      "articles": [
+        "how-tennis-qualifiers-work",
+        "tennis-scoring-for-beginners"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms",
+      "verdict": "ok",
+      "articles": [
+        "aura-towers-and-support-stacking"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Grammatical_aspect",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Grammatical_aspect",
+      "verdict": "ok",
+      "articles": [
+        "choosing-russian-verb-aspect",
+        "russian-verbs-of-motion"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Grappling",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Grappling",
+      "verdict": "ok",
+      "articles": [
+        "striking-vs-grappling-in-mma"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Handicap_(golf)",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Handicap_(golf)",
+      "verdict": "ok",
+      "articles": [
+        "golf-handicap-for-beginners"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hindi",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Hindi",
+      "verdict": "ok",
+      "articles": [
+        "marathi-vs-hindi-differences"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Historical_method",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Historical_method",
+      "verdict": "ok",
+      "articles": [
+        "choosing-a-history-app-for-students",
+        "counterfactual-history-and-what-if-scenarios",
+        "how-to-study-history-on-your-own"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Historiography_of_the_fall_of_the_Western_Roman_Empire",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Historiography_of_the_fall_of_the_Western_Roman_Empire",
+      "verdict": "ok",
+      "articles": [
+        "counterfactual-history-and-what-if-scenarios",
+        "why-rome-fell"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hittites",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Hittites",
+      "verdict": "ok",
+      "articles": [
+        "what-caused-the-bronze-age-collapse"
+      ]
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Ikaruga",
       "status": 200,
       "finalUrl": "https://en.wikipedia.org/wiki/Ikaruga",
       "verdict": "ok",
       "articles": [
         "bullet-hell-vs-classic-shmup"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Indonesian_language",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Indonesian_language",
+      "verdict": "ok",
+      "articles": [
+        "should-i-learn-malay-or-indonesian"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Iron_(golf)",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Iron_(golf)",
+      "verdict": "ok",
+      "articles": [
+        "club-distance-gapping"
       ]
     },
     {
@@ -350,12 +790,208 @@
       ]
     },
     {
+      "url": "https://en.wikipedia.org/wiki/Josei_manga",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Josei_manga",
+      "verdict": "ok",
+      "articles": [
+        "shonen-vs-seinen"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Khmer_language",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Khmer_language",
+      "verdict": "ok",
+      "articles": [
+        "is-khmer-hard-to-learn",
+        "khmer-greetings-and-honorifics",
+        "khmer-phrases-for-cambodia-travel"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Khmer_numerals",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Khmer_numerals",
+      "verdict": "ok",
+      "articles": [
+        "khmer-vs-thai-script"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Khmer_script",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Khmer_script",
+      "verdict": "ok",
+      "articles": [
+        "is-khmer-hard-to-learn",
+        "khmer-fonts-on-android",
+        "khmer-vs-thai-script"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lao_grammar",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Lao_grammar",
+      "verdict": "ok",
+      "articles": [
+        "is-lao-hard-to-learn",
+        "lao-greetings-and-politeness"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lao_language",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Lao_language",
+      "verdict": "ok",
+      "articles": [
+        "building-a-lao-course-from-scratch",
+        "is-lao-hard-to-learn",
+        "lao-greetings-and-politeness",
+        "lao-phrases-for-travellers",
+        "lao-tone-rules"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lao_script",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Lao_script",
+      "verdict": "ok",
+      "articles": [
+        "building-a-lao-course-from-scratch",
+        "is-lao-hard-to-learn",
+        "lao-tone-rules"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse",
+      "verdict": "ok",
+      "articles": [
+        "what-caused-the-bronze-age-collapse"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Late_antiquity",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Late_antiquity",
+      "verdict": "ok",
+      "articles": [
+        "why-rome-fell"
+      ]
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Left_4_Dead",
       "status": 200,
       "finalUrl": "https://en.wikipedia.org/wiki/Left_4_Dead",
       "verdict": "ok",
       "articles": [
         "wave-survival-game-design"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Limited_animation",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Limited_animation",
+      "verdict": "ok",
+      "articles": [
+        "manga-vs-anime-differences"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lineout_(rugby_union)",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Lineout_(rugby_union)",
+      "verdict": "ok",
+      "articles": [
+        "rugby-forwards-and-backs"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lucky_loser",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Lucky_loser",
+      "verdict": "ok",
+      "articles": [
+        "how-tennis-qualifiers-work"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Malay_grammar",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Malay_grammar",
+      "verdict": "ok",
+      "articles": [
+        "is-malay-easy-to-learn",
+        "malay-affixes-guide",
+        "malay-phrases-for-travel"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Malay_language",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Malay_language",
+      "verdict": "ok",
+      "articles": [
+        "is-malay-easy-to-learn",
+        "malay-phrases-for-travel",
+        "should-i-learn-malay-or-indonesian"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Manga",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Manga",
+      "verdict": "ok",
+      "articles": [
+        "anime-hair-colour-meanings",
+        "manga-vs-anime-differences"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Marathi_grammar",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Marathi_grammar",
+      "verdict": "ok",
+      "articles": [
+        "is-marathi-hard-to-learn",
+        "marathi-phrases-with-meaning",
+        "marathi-verb-basics",
+        "marathi-vs-hindi-differences"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Marathi_language",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Marathi_language",
+      "verdict": "ok",
+      "articles": [
+        "is-marathi-hard-to-learn",
+        "learn-marathi-beginners-guide",
+        "marathi-alphabet-and-devanagari",
+        "marathi-numbers-and-counting",
+        "marathi-study-plan-first-month",
+        "marathi-verb-basics",
+        "marathi-vs-hindi-differences"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Match_play",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Match_play",
+      "verdict": "ok",
+      "articles": [
+        "golf-tournament-formats"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Matroska",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Matroska",
+      "verdict": "ok",
+      "articles": [
+        "how-to-play-mkv-files-on-android"
       ]
     },
     {
@@ -368,6 +1004,34 @@
       ]
     },
     {
+      "url": "https://en.wikipedia.org/wiki/Memory_span",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Memory_span",
+      "verdict": "ok",
+      "articles": [
+        "designing-memory-games-beyond-matching-pairs"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mental_calculation",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Mental_calculation",
+      "verdict": "ok",
+      "articles": [
+        "mental-division-tricks"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mixed_martial_arts",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Mixed_martial_arts",
+      "verdict": "ok",
+      "articles": [
+        "mma-fantasy-draft-strategy",
+        "striking-vs-grappling-in-mma"
+      ]
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Munsell_color_system",
       "status": 200,
       "finalUrl": "https://en.wikipedia.org/wiki/Munsell_color_system",
@@ -377,12 +1041,152 @@
       ]
     },
     {
+      "url": "https://en.wikipedia.org/wiki/Mycenaean_Greece",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Mycenaean_Greece",
+      "verdict": "ok",
+      "articles": [
+        "what-caused-the-bronze-age-collapse"
+      ]
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/NetHack",
       "status": 200,
       "finalUrl": "https://en.wikipedia.org/wiki/NetHack",
       "verdict": "ok",
       "articles": [
         "what-makes-a-roguelike"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/No_contest_(combat_sports)",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/No_contest_(combat_sports)",
+      "verdict": "ok",
+      "articles": [
+        "how-boxing-records-are-written"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Northern_Wu",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Northern_Wu",
+      "verdict": "ok",
+      "articles": [
+        "wu-chinese-and-where-shanghainese-sits"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Orthodox_stance",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Orthodox_stance",
+      "verdict": "ok",
+      "articles": [
+        "southpaw-vs-orthodox"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Perceptual_hashing",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Perceptual_hashing",
+      "verdict": "ok",
+      "articles": [
+        "when-a-card-scanner-picks-the-wrong-card"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Periodization",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Periodization",
+      "verdict": "ok",
+      "articles": [
+        "choosing-a-history-app-for-students",
+        "how-to-remember-historical-dates",
+        "how-to-study-history-on-your-own"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game",
+      "verdict": "ok",
+      "articles": [
+        "reverse-holo-vs-holo"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Precision_and_recall",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Precision_and_recall",
+      "verdict": "ok",
+      "articles": [
+        "when-a-card-scanner-picks-the-wrong-card"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Primary_source",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Primary_source",
+      "verdict": "ok",
+      "articles": [
+        "how-to-study-history-on-your-own"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Professional_boxing",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Professional_boxing",
+      "verdict": "ok",
+      "articles": [
+        "how-boxing-records-are-written",
+        "how-mma-judging-criteria-work"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Professional_golf_tours",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Professional_golf_tours",
+      "verdict": "ok",
+      "articles": [
+        "how-golf-q-school-works"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Qualifying_school",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Qualifying_school",
+      "verdict": "ok",
+      "articles": [
+        "how-golf-q-school-works"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Real-time_strategy",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Real-time_strategy",
+      "verdict": "ok",
+      "articles": [
+        "what-does-td-mean-in-games"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Reduplication",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Reduplication",
+      "verdict": "ok",
+      "articles": [
+        "is-malay-easy-to-learn",
+        "malay-affixes-guide"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rock_paper_scissors",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Rock_paper_scissors",
+      "verdict": "ok",
+      "articles": [
+        "countering-armoured-and-flying-enemies",
+        "style-matchups-in-a-fight-simulator"
       ]
     },
     {
@@ -405,12 +1209,153 @@
       ]
     },
     {
+      "url": "https://en.wikipedia.org/wiki/Romanization_of_Wu_Chinese",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Romanization_of_Wu_Chinese",
+      "verdict": "ok",
+      "articles": [
+        "shanghainese-romanisation-choices"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Romulus_Augustulus",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Romulus_Augustulus",
+      "verdict": "ok",
+      "articles": [
+        "why-rome-fell"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rugby_league",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Rugby_league",
+      "verdict": "ok",
+      "articles": [
+        "rugby-union-vs-rugby-league"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rugby_union",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Rugby_union",
+      "verdict": "ok",
+      "articles": [
+        "rugby-draft-and-squad-building"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rugby_union_positions",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Rugby_union_positions",
+      "verdict": "ok",
+      "articles": [
+        "rugby-forwards-and-backs",
+        "rugby-positions-and-numbers"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Russian_cursive",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Russian_cursive",
+      "verdict": "ok",
+      "articles": [
+        "russian-cursive-handwriting-guide"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Russian_grammar",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Russian_grammar",
+      "verdict": "ok",
+      "articles": [
+        "choosing-russian-verb-aspect",
+        "russian-verbs-of-motion",
+        "russian-word-order-and-emphasis"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Russian_phonology",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Russian_phonology",
+      "verdict": "ok",
+      "articles": [
+        "russian-vowel-reduction"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Russian_verbs",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Russian_verbs",
+      "verdict": "ok",
+      "articles": [
+        "choosing-russian-verb-aspect",
+        "russian-verbs-of-motion"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Salary_cap",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Salary_cap",
+      "verdict": "ok",
+      "articles": [
+        "rugby-draft-and-squad-building"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sampeah",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Sampeah",
+      "verdict": "ok",
+      "articles": [
+        "khmer-greetings-and-honorifics"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Score_(game)",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Score_(game)",
+      "verdict": "ok",
+      "articles": [
+        "ship-loadouts-and-upgrade-priority"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Scrum_(rugby_union)",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Scrum_(rugby_union)",
+      "verdict": "ok",
+      "articles": [
+        "rugby-positions-and-numbers"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sea_Peoples",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Sea_Peoples",
+      "verdict": "ok",
+      "articles": [
+        "what-caused-the-bronze-age-collapse"
+      ]
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Seinen_manga",
       "status": 200,
       "finalUrl": "https://en.wikipedia.org/wiki/Seinen_manga",
       "verdict": "ok",
       "articles": [
-        "anime-genres-explained"
+        "anime-genres-explained",
+        "shonen-vs-seinen"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Serve_and_volley",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Serve_and_volley",
+      "verdict": "ok",
+      "articles": [
+        "serve-and-volley-strategy",
+        "tennis-playing-styles"
       ]
     },
     {
@@ -419,7 +1364,8 @@
       "finalUrl": "https://en.wikipedia.org/wiki/Sh%C5%8Djo_manga",
       "verdict": "ok",
       "articles": [
-        "anime-genres-explained"
+        "anime-genres-explained",
+        "shonen-vs-seinen"
       ]
     },
     {
@@ -428,7 +1374,23 @@
       "finalUrl": "https://en.wikipedia.org/wiki/Sh%C5%8Dnen_manga",
       "verdict": "ok",
       "articles": [
-        "anime-genres-explained"
+        "anime-genres-explained",
+        "shonen-vs-seinen"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Shanghainese",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Shanghainese",
+      "verdict": "ok",
+      "articles": [
+        "is-shanghainese-a-dialect-or-a-language",
+        "learn-shanghainese-beginners-guide",
+        "shanghainese-phrases-for-beginners",
+        "shanghainese-romanisation-choices",
+        "shanghainese-tones-and-tone-sandhi",
+        "shanghainese-vs-mandarin-differences",
+        "wu-chinese-and-where-shanghainese-sits"
       ]
     },
     {
@@ -438,7 +1400,63 @@
       "verdict": "ok",
       "articles": [
         "bullet-hell-vs-classic-shmup",
-        "history-of-shoot-em-up-games"
+        "history-of-shoot-em-up-games",
+        "ship-loadouts-and-upgrade-priority",
+        "vertical-shooter-games-on-android"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Silk_Road",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Silk_Road",
+      "verdict": "ok",
+      "articles": [
+        "the-silk-road-for-beginners"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Slither.io",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Slither.io",
+      "verdict": "ok",
+      "articles": [
+        "what-are-io-games"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Slope_rating",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Slope_rating",
+      "verdict": "ok",
+      "articles": [
+        "golf-handicap-for-beginners"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Snake_(video_game_genre)",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Snake_(video_game_genre)",
+      "verdict": "ok",
+      "articles": [
+        "eat-and-grow-arena-strategy"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sogdia",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Sogdia",
+      "verdict": "ok",
+      "articles": [
+        "the-silk-road-for-beginners"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Southpaw_stance",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Southpaw_stance",
+      "verdict": "ok",
+      "articles": [
+        "southpaw-vs-orthodox"
       ]
     },
     {
@@ -460,12 +1478,243 @@
       ]
     },
     {
+      "url": "https://en.wikipedia.org/wiki/Spacing_effect",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Spacing_effect",
+      "verdict": "ok",
+      "articles": [
+        "how-to-remember-historical-dates"
+      ]
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Spatial_anti-aliasing",
       "status": 200,
       "finalUrl": "https://en.wikipedia.org/wiki/Spatial_anti-aliasing",
       "verdict": "ok",
       "articles": [
         "digital-coloring-techniques"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Specular_highlight",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Specular_highlight",
+      "verdict": "ok",
+      "articles": [
+        "how-to-shade-anime-hair"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Stableford",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Stableford",
+      "verdict": "ok",
+      "articles": [
+        "golf-tournament-formats"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Standard_Chinese",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Standard_Chinese",
+      "verdict": "ok",
+      "articles": [
+        "shanghainese-vs-mandarin-differences"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Status_effect",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Status_effect",
+      "verdict": "ok",
+      "articles": [
+        "tower-types-and-what-they-counter"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Stress_(linguistics)",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Stress_(linguistics)",
+      "verdict": "ok",
+      "articles": [
+        "russian-vowel-reduction"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Stroke_play",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Stroke_play",
+      "verdict": "ok",
+      "articles": [
+        "strokes-gained-for-club-golfers"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/SubRip",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/SubRip",
+      "verdict": "ok",
+      "articles": [
+        "subtitles-not-working-on-android"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/SubStation_Alpha",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/SubStation_Alpha",
+      "verdict": "ok",
+      "articles": [
+        "subtitles-not-working-on-android"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tennis_court",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Tennis_court",
+      "verdict": "ok",
+      "articles": [
+        "serve-and-volley-strategy"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tennis_scoring_system",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Tennis_scoring_system",
+      "verdict": "ok",
+      "articles": [
+        "tennis-career-sim-guide",
+        "tennis-scoring-for-beginners"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tennis_strategy",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Tennis_strategy",
+      "verdict": "ok",
+      "articles": [
+        "tennis-playing-styles"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Testing_effect",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Testing_effect",
+      "verdict": "ok",
+      "articles": [
+        "how-to-remember-historical-dates"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Thai_script",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Thai_script",
+      "verdict": "ok",
+      "articles": [
+        "khmer-vs-thai-script"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tone_sandhi",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Tone_sandhi",
+      "verdict": "ok",
+      "articles": [
+        "shanghainese-tones-and-tone-sandhi"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Topic_and_comment",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Topic_and_comment",
+      "verdict": "ok",
+      "articles": [
+        "russian-word-order-and-emphasis"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tower_defense",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Tower_defense",
+      "verdict": "ok",
+      "articles": [
+        "countering-armoured-and-flying-enemies",
+        "tower-defense-strategy-basics",
+        "tower-types-and-what-they-counter",
+        "what-does-td-mean-in-games"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Transfer_of_learning",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Transfer_of_learning",
+      "verdict": "ok",
+      "articles": [
+        "do-brain-training-apps-work"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Try_(rugby)",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Try_(rugby)",
+      "verdict": "ok",
+      "articles": [
+        "how-rugby-scoring-works",
+        "rugby-union-vs-rugby-league"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Unified_Rules_of_Mixed_Martial_Arts",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Unified_Rules_of_Mixed_Martial_Arts",
+      "verdict": "ok",
+      "articles": [
+        "how-mma-judging-criteria-work",
+        "striking-vs-grappling-in-mma"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Variations_of_golf",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Variations_of_golf",
+      "verdict": "ok",
+      "articles": [
+        "golf-tournament-formats"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Varieties_of_Chinese",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Varieties_of_Chinese",
+      "verdict": "ok",
+      "articles": [
+        "is-shanghainese-a-dialect-or-a-language"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vowel_reduction_in_Russian",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Vowel_reduction_in_Russian",
+      "verdict": "ok",
+      "articles": [
+        "russian-vowel-reduction"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/WTA_rankings",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/WTA_rankings",
+      "verdict": "ok",
+      "articles": [
+        "how-tennis-ranking-points-work"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wai_(gesture)",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Wai_(gesture)",
+      "verdict": "ok",
+      "articles": [
+        "lao-greetings-and-politeness"
       ]
     },
     {
@@ -478,12 +1727,105 @@
       ]
     },
     {
+      "url": "https://en.wikipedia.org/wiki/Wedge_(golf)",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Wedge_(golf)",
+      "verdict": "ok",
+      "articles": [
+        "club-distance-gapping"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Weekly_Sh%C5%8Dnen_Jump",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Weekly_Sh%C5%8Dnen_Jump",
+      "verdict": "ok",
+      "articles": [
+        "shonen-vs-seinen"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Weekly_Young_Jump",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Weekly_Young_Jump",
+      "verdict": "ok",
+      "articles": [
+        "shonen-vs-seinen"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Weight_class",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Weight_class",
+      "verdict": "ok",
+      "articles": [
+        "mma-fantasy-draft-strategy"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Weight_class_(boxing)",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Weight_class_(boxing)",
+      "verdict": "ok",
+      "articles": [
+        "how-fight-cards-are-built"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wild_card_(sports)",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Wild_card_(sports)",
+      "verdict": "ok",
+      "articles": [
+        "how-tennis-qualifiers-work"
+      ]
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Wins_Above_Replacement",
       "status": 200,
       "finalUrl": "https://en.wikipedia.org/wiki/Wins_Above_Replacement",
       "verdict": "ok",
       "articles": [
         "baseball-draft-gm-guide"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Word_order",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Word_order",
+      "verdict": "ok",
+      "articles": [
+        "russian-word-order-and-emphasis"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Working_memory",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Working_memory",
+      "verdict": "ok",
+      "articles": [
+        "designing-memory-games-beyond-matching-pairs"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wu_Chinese",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Wu_Chinese",
+      "verdict": "ok",
+      "articles": [
+        "is-shanghainese-a-dialect-or-a-language",
+        "learn-shanghainese-beginners-guide",
+        "shanghainese-vs-mandarin-differences",
+        "wu-chinese-and-where-shanghainese-sits"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Yips",
+      "status": 200,
+      "finalUrl": "https://en.wikipedia.org/wiki/Yips",
+      "verdict": "ok",
+      "articles": [
+        "pressure-and-nerves-in-golf-sims"
       ]
     },
     {
@@ -521,6 +1863,15 @@
         "protein-sources-compared",
         "protein-tracking-apps-compared",
         "why-food-databases-disagree"
+      ]
+    },
+    {
+      "url": "https://fdc.nal.usda.gov/about-us",
+      "status": 200,
+      "finalUrl": "https://fdc.nal.usda.gov/about-us/",
+      "verdict": "ok",
+      "articles": [
+        "recipe-nutrition-figures-and-why-they-move"
       ]
     },
     {
@@ -569,6 +1920,15 @@
         "how-long-does-it-take-to-learn-russian",
         "learn-russian-cyrillic-beginners-guide",
         "russian-cases-explained-for-beginners"
+      ]
+    },
+    {
+      "url": "https://help.tcgplayer.com/hc/en-us/articles/221430307-Card-Conditioning-Overview",
+      "status": 403,
+      "finalUrl": "https://help.tcgplayer.com/hc/en-us/articles/221430307-Card-Conditioning-Overview",
+      "verdict": "blocked",
+      "articles": [
+        "card-condition-grading-scales"
       ]
     },
     {
@@ -660,6 +2020,16 @@
       ]
     },
     {
+      "url": "https://laws.worldrugby.org/",
+      "status": 200,
+      "finalUrl": "https://passport.world.rugby/laws-of-the-game/",
+      "verdict": "ok",
+      "articles": [
+        "how-rugby-scoring-works",
+        "rugby-positions-and-numbers"
+      ]
+    },
+    {
       "url": "https://library.fangraphs.com/",
       "status": 200,
       "finalUrl": "https://library.fangraphs.com/",
@@ -701,6 +2071,7 @@
       "finalUrl": "https://mathworld.wolfram.com/DivisibilityTests.html",
       "verdict": "ok",
       "articles": [
+        "mental-division-tricks",
         "mental-math-tricks-that-work"
       ]
     },
@@ -725,7 +2096,7 @@
     {
       "url": "https://medlineplus.gov/carbohydrates.html",
       "status": 200,
-      "finalUrl": "https://medlineplus.gov/carbohydrates.html",
+      "finalUrl": "https://www.medlineplus.gov/carbohydrates.html",
       "verdict": "ok",
       "articles": [
         "electrolytes-on-low-carb",
@@ -741,7 +2112,7 @@
     {
       "url": "https://medlineplus.gov/dietaryfats.html",
       "status": 200,
-      "finalUrl": "https://medlineplus.gov/dietaryfats.html",
+      "finalUrl": "https://www.medlineplus.gov/dietaryfats.html",
       "verdict": "ok",
       "articles": [
         "keto-macros-explained"
@@ -750,7 +2121,7 @@
     {
       "url": "https://medlineplus.gov/dietaryfiber.html",
       "status": 200,
-      "finalUrl": "https://medlineplus.gov/dietaryfiber.html",
+      "finalUrl": "https://www.medlineplus.gov/dietaryfiber.html",
       "verdict": "ok",
       "articles": [
         "net-carbs-explained-keto-tracking"
@@ -759,7 +2130,7 @@
     {
       "url": "https://medlineplus.gov/dietaryproteins.html",
       "status": 200,
-      "finalUrl": "https://medlineplus.gov/dietaryproteins.html",
+      "finalUrl": "https://www.medlineplus.gov/dietaryproteins.html",
       "verdict": "ok",
       "articles": [
         "how-much-protein-per-day"
@@ -768,7 +2139,7 @@
     {
       "url": "https://medlineplus.gov/ency/article/000320.htm",
       "status": 200,
-      "finalUrl": "https://medlineplus.gov/ency/article/000320.htm",
+      "finalUrl": "https://www.medlineplus.gov/ency/article/000320.htm",
       "verdict": "ok",
       "articles": [
         "what-is-a-ketone-reading"
@@ -777,7 +2148,7 @@
     {
       "url": "https://medlineplus.gov/ency/article/002467.htm",
       "status": 200,
-      "finalUrl": "https://medlineplus.gov/ency/article/002467.htm",
+      "finalUrl": "https://www.medlineplus.gov/ency/article/002467.htm",
       "verdict": "ok",
       "articles": [
         "complete-vs-incomplete-proteins",
@@ -793,7 +2164,7 @@
     {
       "url": "https://medlineplus.gov/ency/patientinstructions/000838.htm",
       "status": 200,
-      "finalUrl": "https://medlineplus.gov/ency/patientinstructions/000838.htm",
+      "finalUrl": "https://www.medlineplus.gov/ency/patientinstructions/000838.htm",
       "verdict": "ok",
       "articles": [
         "keto-macros-explained"
@@ -802,7 +2173,7 @@
     {
       "url": "https://medlineplus.gov/fluidandelectrolytebalance.html",
       "status": 200,
-      "finalUrl": "https://medlineplus.gov/fluidandelectrolytebalance.html",
+      "finalUrl": "https://www.medlineplus.gov/fluidandelectrolytebalance.html",
       "verdict": "ok",
       "articles": [
         "electrolytes-on-low-carb",
@@ -810,9 +2181,19 @@
       ]
     },
     {
+      "url": "https://medlineplus.gov/foodsafety.html",
+      "status": 200,
+      "finalUrl": "https://www.medlineplus.gov/foodsafety.html",
+      "verdict": "ok",
+      "articles": [
+        "batch-cooking-for-the-week",
+        "how-to-meal-plan-for-the-week"
+      ]
+    },
+    {
       "url": "https://medlineplus.gov/lab-tests/ketones-in-blood/",
       "status": 200,
-      "finalUrl": "https://medlineplus.gov/lab-tests/ketones-in-blood/",
+      "finalUrl": "https://www.medlineplus.gov/lab-tests/ketones-in-blood/",
       "verdict": "ok",
       "articles": [
         "intermittent-fasting-windows-explained",
@@ -822,7 +2203,7 @@
     {
       "url": "https://medlineplus.gov/lab-tests/ketones-in-urine/",
       "status": 200,
-      "finalUrl": "https://medlineplus.gov/lab-tests/ketones-in-urine/",
+      "finalUrl": "https://www.medlineplus.gov/lab-tests/ketones-in-urine/",
       "verdict": "ok",
       "articles": [
         "what-is-a-ketone-reading"
@@ -831,7 +2212,7 @@
     {
       "url": "https://medlineplus.gov/pregnancyandnutrition.html",
       "status": 200,
-      "finalUrl": "https://medlineplus.gov/pregnancyandnutrition.html",
+      "finalUrl": "https://www.medlineplus.gov/pregnancyandnutrition.html",
       "verdict": "ok",
       "articles": [
         "intermittent-fasting-windows-explained"
@@ -899,6 +2280,52 @@
       "verdict": "browser-only",
       "articles": [
         "protein-sources-compared"
+      ]
+    },
+    {
+      "url": "https://omniglot.com/language/numbers/marathi.htm",
+      "status": 200,
+      "finalUrl": "https://omniglot.com/language/numbers/marathi.htm",
+      "verdict": "ok",
+      "articles": [
+        "marathi-numbers-and-counting"
+      ]
+    },
+    {
+      "url": "https://omniglot.com/language/phrases/khmer.php",
+      "status": 200,
+      "finalUrl": "https://omniglot.com/language/phrases/khmer.php",
+      "verdict": "ok",
+      "articles": [
+        "khmer-greetings-and-honorifics",
+        "khmer-phrases-for-cambodia-travel"
+      ]
+    },
+    {
+      "url": "https://omniglot.com/language/phrases/lao.php",
+      "status": 200,
+      "finalUrl": "https://omniglot.com/language/phrases/lao.php",
+      "verdict": "ok",
+      "articles": [
+        "lao-phrases-for-travellers"
+      ]
+    },
+    {
+      "url": "https://omniglot.com/language/phrases/marathi.php",
+      "status": 200,
+      "finalUrl": "https://omniglot.com/language/phrases/marathi.php",
+      "verdict": "ok",
+      "articles": [
+        "marathi-phrases-with-meaning"
+      ]
+    },
+    {
+      "url": "https://omniglot.com/language/phrases/shanghainese.php",
+      "status": 200,
+      "finalUrl": "https://omniglot.com/language/phrases/shanghainese.php",
+      "verdict": "ok",
+      "articles": [
+        "shanghainese-phrases-for-beginners"
       ]
     },
     {
@@ -1115,6 +2542,15 @@
       ]
     },
     {
+      "url": "https://slither.io/",
+      "status": 200,
+      "finalUrl": "http://slither.io/?a",
+      "verdict": "ok",
+      "articles": [
+        "io-games-without-a-connection"
+      ]
+    },
+    {
       "url": "https://support.google.com/googleplay/android-developer/answer/10787469",
       "status": 200,
       "finalUrl": "https://support.google.com/googleplay/android-developer/answer/10787469",
@@ -1124,7 +2560,35 @@
         "best-offline-arcade-games-android",
         "best-offline-sports-games-android",
         "google-play-data-safety-explained",
+        "offline-tower-defence-on-android",
         "why-free-android-games-show-ads"
+      ]
+    },
+    {
+      "url": "https://support.google.com/googleplay/android-developer/answer/9857753",
+      "status": 200,
+      "finalUrl": "https://support.google.com/googleplay/android-developer/answer/9857753",
+      "verdict": "ok",
+      "articles": [
+        "offline-tower-defence-on-android"
+      ]
+    },
+    {
+      "url": "https://tcg.pokemon.com/en-us/",
+      "status": 200,
+      "finalUrl": "https://tcg.pokemon.com/en-us/",
+      "verdict": "ok",
+      "articles": [
+        "reverse-holo-vs-holo"
+      ]
+    },
+    {
+      "url": "https://themindcompany.com/apps/elevate",
+      "status": 200,
+      "finalUrl": "https://themindcompany.com/apps/elevate",
+      "verdict": "ok",
+      "articles": [
+        "do-brain-training-apps-work"
       ]
     },
     {
@@ -1277,6 +2741,26 @@
       ]
     },
     {
+      "url": "https://www.cgccards.com/card-grading/grading-scale/",
+      "status": 200,
+      "finalUrl": "https://www.cgccards.com/card-grading/grading-scale/",
+      "verdict": "ok",
+      "articles": [
+        "card-condition-grading-scales",
+        "how-to-measure-card-centring"
+      ]
+    },
+    {
+      "url": "https://www.cgccards.com/services/",
+      "status": 200,
+      "finalUrl": "https://www.cgccards.com/submit/services-fees/cgc-grading/",
+      "verdict": "ok",
+      "articles": [
+        "card-grading-costs-and-tiers",
+        "is-my-card-worth-grading"
+      ]
+    },
+    {
       "url": "https://www.coe.int/en/web/common-european-framework-reference-languages",
       "status": 403,
       "finalUrl": "https://www.coe.int/en/web/common-european-framework-reference-languages",
@@ -1320,6 +2804,15 @@
       ]
     },
     {
+      "url": "https://www.duolingo.com/courses",
+      "status": 200,
+      "finalUrl": "https://www.duolingo.com/courses",
+      "verdict": "ok",
+      "articles": [
+        "should-i-learn-malay-or-indonesian"
+      ]
+    },
+    {
       "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12",
       "status": 200,
       "finalUrl": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12",
@@ -1360,12 +2853,51 @@
       ]
     },
     {
+      "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely",
+      "status": 200,
+      "finalUrl": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely",
+      "verdict": "ok",
+      "articles": [
+        "how-to-meal-plan-for-the-week",
+        "pantry-inventory-and-grocery-lists"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety",
+      "status": 200,
+      "finalUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety",
+      "verdict": "ok",
+      "articles": [
+        "batch-cooking-for-the-week"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+      "status": 200,
+      "finalUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+      "verdict": "ok",
+      "articles": [
+        "cooking-from-what-is-in-the-pantry",
+        "pantry-inventory-and-grocery-lists"
+      ]
+    },
+    {
       "url": "https://www.fda.gov/food/food-labeling-nutrition/changes-nutrition-facts-label",
       "status": 200,
       "finalUrl": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/changes-nutrition-facts-label",
       "verdict": "ok",
       "articles": [
         "reading-nutrition-labels"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/food/food-labeling-nutrition/food-allergies",
+      "status": 200,
+      "finalUrl": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
+      "verdict": "ok",
+      "articles": [
+        "cooking-from-what-is-in-the-pantry",
+        "tracking-food-allergies-and-reactions"
       ]
     },
     {
@@ -1403,6 +2935,7 @@
         "net-carbs-explained-keto-tracking",
         "percentages-in-your-head",
         "reading-nutrition-labels",
+        "recipe-scaling-and-serving-sizes",
         "serving-size-vs-portion-size",
         "sugar-alcohols-explained",
         "why-food-databases-disagree"
@@ -1414,6 +2947,7 @@
       "finalUrl": "https://www.fda.gov/food/nutrition-facts-label/serving-size-nutrition-facts-label",
       "verdict": "ok",
       "articles": [
+        "recipe-scaling-and-serving-sizes",
         "serving-size-vs-portion-size"
       ]
     },
@@ -1457,11 +2991,30 @@
       ]
     },
     {
+      "url": "https://www.ftc.gov/business-guidance/blog/2016/01/mind-gap-what-lumosity-promised-vs-what-it-could-prove",
+      "status": 200,
+      "finalUrl": "https://www.ftc.gov/business-guidance/blog/2016/01/mind-gap-what-lumosity-promised-vs-what-it-could-prove",
+      "verdict": "ok",
+      "articles": [
+        "do-brain-training-apps-work"
+      ]
+    },
+    {
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2015/01/makers-jungle-rangers-computer-game-kids-settle-ftc-charges-they-deceived-consumers-baseless-brain",
+      "status": 200,
+      "finalUrl": "https://www.ftc.gov/news-events/news/press-releases/2015/01/makers-jungle-rangers-computer-game-kids-settle-ftc-charges-they-deceived-consumers-baseless-brain",
+      "verdict": "ok",
+      "articles": [
+        "do-brain-training-apps-work"
+      ]
+    },
+    {
       "url": "https://www.ftc.gov/news-events/news/press-releases/2016/01/lumosity-pay-2-million-settle-ftc-deceptive-advertising-charges-its-brain-training-program",
       "status": 200,
       "finalUrl": "https://www.ftc.gov/news-events/news/press-releases/2016/01/lumosity-pay-2-million-settle-ftc-deceptive-advertising-charges-its-brain-training-program",
       "verdict": "ok",
       "articles": [
+        "do-brain-training-apps-work",
         "working-memory-and-training"
       ]
     },
@@ -1522,6 +3075,15 @@
       "verdict": "ok",
       "articles": [
         "video-codecs-explained"
+      ]
+    },
+    {
+      "url": "https://www.khanacademy.org/about",
+      "status": 200,
+      "finalUrl": "https://www.khanacademy.org/about",
+      "verdict": "ok",
+      "articles": [
+        "choosing-a-history-app-for-students"
       ]
     },
     {
@@ -1595,6 +3157,15 @@
       ]
     },
     {
+      "url": "https://www.lumosity.com/en/",
+      "status": 200,
+      "finalUrl": "https://www.lumosity.com/en/",
+      "verdict": "ok",
+      "articles": [
+        "do-brain-training-apps-work"
+      ]
+    },
+    {
       "url": "https://www.matroska.org/",
       "status": 200,
       "finalUrl": "https://www.matroska.org/index.html",
@@ -1602,6 +3173,15 @@
       "articles": [
         "android-video-player-guide",
         "video-file-formats-explained"
+      ]
+    },
+    {
+      "url": "https://www.matroska.org/technical/basics.html",
+      "status": 200,
+      "finalUrl": "https://www.matroska.org/technical/basics.html",
+      "verdict": "ok",
+      "articles": [
+        "how-to-play-mkv-files-on-android"
       ]
     },
     {
@@ -1619,7 +3199,8 @@
       "finalUrl": "https://www.matroska.org/technical/subtitles.html",
       "verdict": "ok",
       "articles": [
-        "subtitle-formats-explained"
+        "subtitle-formats-explained",
+        "subtitles-not-working-on-android"
       ]
     },
     {
@@ -1767,6 +3348,15 @@
       ]
     },
     {
+      "url": "https://www.nal.usda.gov/human-nutrition-and-food-safety/food-composition",
+      "status": 200,
+      "finalUrl": "https://www.nal.usda.gov/human-nutrition-and-food-safety/food-composition",
+      "verdict": "ok",
+      "articles": [
+        "recipe-nutrition-figures-and-why-they-move"
+      ]
+    },
+    {
       "url": "https://www.nationalarchives.gov.uk/",
       "status": 200,
       "finalUrl": "https://www.nationalarchives.gov.uk/",
@@ -1822,6 +3412,15 @@
       ]
     },
     {
+      "url": "https://www.nhs.uk/conditions/food-allergy/",
+      "status": 200,
+      "finalUrl": "https://www.nhs.uk/conditions/food-allergy/",
+      "verdict": "ok",
+      "articles": [
+        "tracking-food-allergies-and-reactions"
+      ]
+    },
+    {
       "url": "https://www.nia.nih.gov/health/brain-health/cognitive-health-and-older-adults",
       "status": 200,
       "finalUrl": "https://www.nia.nih.gov/health/brain-health/cognitive-health-and-older-adults",
@@ -1846,6 +3445,15 @@
       "verdict": "ok",
       "articles": [
         "intermittent-fasting-windows-explained"
+      ]
+    },
+    {
+      "url": "https://www.niaid.nih.gov/diseases-conditions/food-allergy",
+      "status": 200,
+      "finalUrl": "https://www.niaid.nih.gov/diseases-conditions/food-allergy",
+      "verdict": "ok",
+      "articles": [
+        "tracking-food-allergies-and-reactions"
       ]
     },
     {
@@ -1968,12 +3576,52 @@
       ]
     },
     {
+      "url": "https://www.peak.net/",
+      "status": 200,
+      "finalUrl": "https://www.peak.net/",
+      "verdict": "ok",
+      "articles": [
+        "do-brain-training-apps-work"
+      ]
+    },
+    {
       "url": "https://www.pimsleur.com/learn-chinese-cantonese/",
       "status": 200,
       "finalUrl": "https://www.pimsleur.com/learn-chinese-cantonese/",
       "verdict": "ok",
       "articles": [
         "language-learning-apps-compared"
+      ]
+    },
+    {
+      "url": "https://www.psacard.com/gradingstandards",
+      "status": 403,
+      "finalUrl": "https://www.psacard.com/gradingstandards",
+      "verdict": "blocked",
+      "articles": [
+        "card-condition-grading-scales",
+        "card-grading-costs-and-tiers",
+        "how-to-measure-card-centring"
+      ]
+    },
+    {
+      "url": "https://www.psacard.com/pricing",
+      "status": 403,
+      "finalUrl": "https://www.psacard.com/pricing",
+      "verdict": "blocked",
+      "articles": [
+        "card-grading-costs-and-tiers",
+        "is-my-card-worth-grading"
+      ]
+    },
+    {
+      "url": "https://www.randa.org/en/rog/the-rules-of-golf",
+      "status": 200,
+      "finalUrl": "https://www.randa.org/en/rog/the-rules-of-golf",
+      "verdict": "ok",
+      "articles": [
+        "club-distance-gapping",
+        "golf-handicap-for-beginners"
       ]
     },
     {
@@ -2094,7 +3742,17 @@
       "verdict": "ok",
       "articles": [
         "learn-russian-cyrillic-beginners-guide",
-        "russian-cases-explained-for-beginners"
+        "russian-cases-explained-for-beginners",
+        "russian-cursive-handwriting-guide"
+      ]
+    },
+    {
+      "url": "https://www.unicode.org/charts/PDF/U0900.pdf",
+      "status": 200,
+      "finalUrl": "https://www.unicode.org/charts/PDF/U0900.pdf",
+      "verdict": "ok",
+      "articles": [
+        "marathi-alphabet-and-devanagari"
       ]
     },
     {
@@ -2146,6 +3804,24 @@
         "learn-vietnamese-beginners-guide",
         "vietnamese-alphabet-explained",
         "vietnamese-tones-explained"
+      ]
+    },
+    {
+      "url": "https://www.unicode.org/faq/utf_bom.html",
+      "status": 200,
+      "finalUrl": "https://www.unicode.org/faq/utf_bom.html",
+      "verdict": "ok",
+      "articles": [
+        "subtitles-not-working-on-android"
+      ]
+    },
+    {
+      "url": "https://www.unicode.org/notes/tn61/",
+      "status": 200,
+      "finalUrl": "https://www.unicode.org/notes/tn61/",
+      "verdict": "ok",
+      "articles": [
+        "khmer-fonts-on-android"
       ]
     },
     {
@@ -2260,6 +3936,7 @@
         "color-palettes-for-anime-art",
         "color-theory-for-beginners",
         "digital-coloring-techniques",
+        "how-to-shade-anime-hair",
         "line-art-and-flats-explained"
       ]
     },
@@ -2269,7 +3946,8 @@
       "finalUrl": "https://www.w3.org/TR/webvtt1/",
       "verdict": "ok",
       "articles": [
-        "subtitle-formats-explained"
+        "subtitle-formats-explained",
+        "subtitles-not-working-on-android"
       ]
     },
     {

@@ -4,7 +4,7 @@ import PageHeader from '@/components/PageHeader';
 import GoldDivider from '@/components/GoldDivider';
 import Reveal from '@/components/Reveal';
 import JsonLd from '@/components/JsonLd';
-import BlogCard from '@/components/blog/BlogCard';
+import BlogCard, { type BlogCardPost } from '@/components/blog/BlogCard';
 import BlogExplorer from '@/components/blog/BlogExplorer';
 import { companyInfo } from '@/data/apps';
 import { blogCategories, featuredPosts, posts } from '@/lib/blog';
@@ -35,7 +35,20 @@ export default function BlogIndexPage() {
   const categories = blogCategories();
   const featured = featuredPosts.slice(0, 3);
   const featuredSlugs = new Set(featured.map((p) => p.slug));
-  const rest = posts.filter((p) => !featuredSlugs.has(p.slug));
+  // Projected to card fields before crossing into the client `BlogExplorer`.
+  // Passing whole posts serialises every article body into this page's RSC
+  // payload — see the note on `BlogCardPost`.
+  const rest: BlogCardPost[] = posts
+    .filter((p) => !featuredSlugs.has(p.slug))
+    .map(({ slug, title, description, category, publishedAt, readingMinutes, tags }) => ({
+      slug,
+      title,
+      description,
+      category,
+      publishedAt,
+      readingMinutes,
+      tags,
+    }));
 
   const blogSchema = {
     '@context': 'https://schema.org',

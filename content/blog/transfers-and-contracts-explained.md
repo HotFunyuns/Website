@@ -161,6 +161,6 @@ From the other side, three questions:
 
 ## In our games
 
-[Football Career Soccer XI Sim](/apps/soccer-career-sim-xi/) models transfers, contract negotiations, free agency and the reputational effects around them from the player's side; [the guide](/blog/soccer-career-sim-guide/) covers how to read a set of competing offers. [38-0-0 Pro Football GM Soccer](/apps/soccer-draft-gm-xi/) puts you on the club side of the same market.
+[Football Career Soccer XI Sim](/apps/soccer-career-sim-xi/) models transfers, contract negotiations, free agency and the reputational effects around them from the player's side; [the guide](/blog/soccer-career-sim-guide/) covers how to read a set of competing offers. [Pro Football GM Club Soccer](/apps/soccer-draft-gm-xi/) puts you on the club side of the same market.
 
 The Laws of the Game govern how football is played rather than how players are registered — [IFAB publishes them](https://www.theifab.com/laws-of-the-game-documents/) — and registration and transfer regulations are set separately by football's governing bodies and vary by jurisdiction. Every club, competition and player in our games is fictional. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).

@@ -160,7 +160,7 @@ Two practical suggestions:
 
 Our apps are free to download on Google Play and supported by ads, with optional in-app purchases on most of them. That is the model described above, and we are not going to present it as anything else.
 
-[Space Shooter - Galaxy Arcade](/apps/space-shooter-classic-arcade/) and [Zombie Survival: Last Survivor](/apps/zombie-survival-last-survivor/) both carry the "Contains ads" declaration on their listings, along with their content ratings and in-app purchase disclosures. Every app page on this site states the same facts, verified against the live listing rather than written from memory — the verification date is shown on each page.
+[Space Galaxy Attack Arcade](/apps/space-shooter-classic-arcade/) and [Zombie Survival: Last Survivor](/apps/zombie-survival-last-survivor/) both carry the "Contains ads" declaration on their listings, along with their content ratings and in-app purchase disclosures. Every app page on this site states the same facts, verified against the live listing rather than written from memory — the verification date is shown on each page.
 
 Where our apps store data you enter, they store it on your device rather than on our servers. Our [privacy policy](/privacy/) sets out the detail.
 

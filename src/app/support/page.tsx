@@ -6,7 +6,10 @@ import Reveal from '@/components/Reveal';
 import { companyInfo } from '@/data/apps';
 
 export const metadata: Metadata = {
-  title: 'Support & Contact — Reign Creative LLC',
+  // The root layout appends ' | Reign Creative LLC', so the brand is not
+  // repeated here. The og:title below still carries it, because social cards
+  // are not templated.
+  title: 'Support & Contact',
   description:
     'Get help with Reign Creative LLC apps. Contact us for support, bug reports, feature requests, or business inquiries.',
   alternates: { canonical: '/support/' },

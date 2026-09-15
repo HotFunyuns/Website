@@ -46,6 +46,17 @@ const SLUGS = {
   'com.reigncreative.learnvietnameselanguage': 'learn-vietnamese',
   'com.reigncreative.learnlaolanguage': 'learn-lao',
   'com.reigncreative.learnitalianlanguage': 'learn-italian',
+  // Added 2026-09-15 after verifying each listing is publicly reachable signed-out.
+  'com.reigncreative.protenniscareersim': 'tennis-career-sim',
+  'com.reigncreative.twentyfourzero.rugbydraft': 'rugby-draft-pro-league',
+  'com.reigncreative.spacegalaxyattackhardcore': 'space-galaxy-attack-hardcore',
+  'com.reigncreative.jellyfishio': 'jellyfish-arena-survivor-io',
+  'com.reigncreative.regaltowerdefense': 'regal-tower-defense',
+  'com.reigncreative.tcgvaluescanner': 'tcg-card-grading-scanner',
+  'com.reigncreative.easyrecipes': 'easy-recipes-meal-planner',
+  'com.reigncreative.learnmarathilanguage': 'learn-marathi',
+  'com.reigncreative.learnshanghaineselanguage': 'learn-shanghainese',
+  'com.reigncreative.animecasinoslots': 'anime-casino-slots',
 };
 
 // The Play CDN resizes via a trailing size directive on the image path. The -rw

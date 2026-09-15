@@ -98,7 +98,7 @@ It is worth seeing the roster sizes side by side, because they explain why the s
 | --- | --- |
 | 84-0 Hockey Draft & GM Manager | Six players and a coach |
 | [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/) | Nine players and a coach |
-| [38-0-0 Pro Football GM Soccer](/apps/soccer-draft-gm-xi/) | A full starting XI |
+| [Pro Football GM Club Soccer](/apps/soccer-draft-gm-xi/) | A full starting XI |
 
 As the roster shrinks, two things happen at once. Each individual pick matters more, and the number of ways to compensate for a mistake falls. A nine-player club has slack; a six-player roster does not. That is why a drafting habit that works perfectly well in the [baseball draft simulator](/blog/baseball-draft-gm-guide/) — taking a flyer on a slot you can fix later — is expensive here.
 

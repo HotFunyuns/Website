@@ -167,7 +167,7 @@ This takes fewer total attempts than the alternative, which is playing the whole
 
 ## Where our games fit
 
-[Space Shooter - Galaxy Arcade](/apps/space-shooter-classic-arcade/) is built around readable patterns: bosses ask you to learn a rotation rather than to out-gun them, and four distinct abilities — main weapons, a secondary attack, a charged Ultimate and a Shield — mean the response to a pattern is a decision rather than only a dodge.
+[Space Galaxy Attack Arcade](/apps/space-shooter-classic-arcade/) is built around readable patterns: bosses ask you to learn a rotation rather than to out-gun them, and four distinct abilities — main weapons, a secondary attack, a charged Ultimate and a Shield — mean the response to a pattern is a decision rather than only a dodge.
 
 Resource timing matters there. A Shield held for the phase that actually needs it is worth more than one used on the first pressure.
 

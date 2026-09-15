@@ -50,7 +50,7 @@ The static output is generated in the `out/` directory, ready to deploy to any s
 
 ### Apps
 
-Edit `src/data/apps.ts` — all app cards are generated from this single file:
+Edit the catalog files under `src/data/apps/catalog/` — all app cards are generated from them (see `src/data/apps/types.ts` for the `AppInfo` shape):
 
 ```typescript
 {
@@ -67,7 +67,7 @@ Edit `src/data/apps.ts` — all app cards are generated from this single file:
 
 ### Company Info & Support Email
 
-Edit `src/data/apps.ts` — the `companyInfo` object at the bottom:
+Edit `src/data/apps/types.ts` — the `companyInfo` object:
 
 ```typescript
 export const companyInfo = {
@@ -109,7 +109,7 @@ git push -u origin main
 ```
 
 3. In GitHub repo settings → **Pages** → Source: select **GitHub Actions**
-4. The included `.github/workflows/deploy.yml` will automatically build and deploy on every push to `main`
+4. The included `.github/workflows/nextjs.yml` will automatically build and deploy on every push to `main`
 
 ### Option 2: Vercel
 
@@ -157,7 +157,33 @@ Upload the `out/` directory after running `npm run build`, or connect the GitHub
 
 ### Security Headers
 
-The site implements a comprehensive set of security headers via **both** HTML meta tags (built into every page) and hosting-platform config files:
+**Production reality first: this site is served by GitHub Pages, which sends no
+custom response headers at all.** Verified 2026-09-15 —
+`curl -I https://reigncreativellc.com/` returns only GitHub/Fastly caching
+headers. No CSP, no HSTS, no `X-Frame-Options`, no `X-Content-Type-Options`, no
+`Referrer-Policy`, no `Permissions-Policy`.
+
+What is actually in force today:
+
+| Mechanism | Status in production |
+|---|---|
+| CSP via `<meta http-equiv>` in `layout.tsx` | **In force** — browsers honour a meta CSP |
+| `<meta name="referrer">` in `layout.tsx` | **In force** |
+| `X-Frame-Options`, `X-Content-Type-Options`, `X-XSS-Protection`, `Permissions-Policy` as meta tags | **Ignored by browsers** — these are header-only directives. There is currently **no clickjacking protection**. |
+| HSTS | **Not sent.** GitHub Pages only sends it when "Enforce HTTPS" is enabled, and **it is currently OFF** — `http://reigncreativellc.com/` returns 200 rather than redirecting. |
+| `vercel.json` | **Inert.** Never published, never read on this host. Kept only as ready-made config if the site moves to Vercel. |
+
+`public/_headers` (Netlify/Cloudflare syntax) was **deleted** on 2026-09-15: it
+applied nothing here and was itself being served at
+`https://reigncreativellc.com/_headers` as a crawlable 200 advertising headers
+nobody sent.
+
+**To actually get these headers**, the site must sit behind a host that can send
+them — Cloudflare (free tier, Transform Rules), Netlify, or Vercel. That is an
+owner decision, not something the repository can fix.
+
+The values below are the intended set, retained as the specification to apply
+after such a migration. **They are not live today.**
 
 | Header | Value | Purpose |
 |--------|-------|---------|
@@ -167,15 +193,14 @@ The site implements a comprehensive set of security headers via **both** HTML me
 | X-XSS-Protection | `1; mode=block` | Legacy XSS filter for older browsers |
 | Referrer-Policy | `strict-origin-when-cross-origin` | Controls how much referrer info is sent |
 | Permissions-Policy | `camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=()` | Disables unnecessary browser APIs |
-| Strict-Transport-Security | `max-age=63072000; includeSubDomains; preload` | Forces HTTPS (in `_headers`/`vercel.json` — requires HTTP header, not meta tag) |
+| Strict-Transport-Security | `max-age=63072000; includeSubDomains; preload` | Forces HTTPS (header-only; would require a host that sends headers) |
 
-**Meta tags** are set in `src/app/layout.tsx` and are baked into every generated HTML file.
+**Meta tags** are set in `src/app/layout.tsx` and are baked into every generated
+HTML file — but only the CSP and `referrer` meta tags do anything. See the table
+above for which of these are genuinely in force.
 
-**HTTP headers** are configured in:
-- `public/_headers` — for Netlify and Cloudflare Pages
-- `vercel.json` — for Vercel
-
-**Note on GitHub Pages:** GitHub Pages does not support custom HTTP headers. The meta tag CSP, X-Frame-Options, X-Content-Type-Options, X-XSS-Protection, and Referrer-Policy all work via meta tags. HSTS is handled by GitHub Pages automatically when "Enforce HTTPS" is enabled. For full header control, consider deploying behind Cloudflare (free tier) which allows custom response headers via Transform Rules.
+**HTTP headers** would be configured in `vercel.json` (Vercel) after a
+migration. Nothing in the repository can make GitHub Pages send them.
 
 ### CSP Design Notes
 
@@ -209,7 +234,11 @@ The site implements a comprehensive set of security headers via **both** HTML me
 - **Netlify**: HTTPS is enabled by default. Use Settings → Domain management → HTTPS to verify.
 - **Cloudflare**: Set SSL/TLS mode to "Full (strict)" and enable "Always Use HTTPS" under SSL/TLS → Edge Certificates.
 
-The `Strict-Transport-Security` header (HSTS) is configured in `_headers` and `vercel.json` with a 2-year max-age and preload flag. This tells browsers to always use HTTPS for this domain after the first visit.
+**HSTS is not currently sent.** It is declared in `vercel.json`, which this host
+never reads. On GitHub Pages, HSTS only appears once **Settings → Pages →
+Enforce HTTPS** is enabled, and that toggle is presently **off** — which is also
+why `http://reigncreativellc.com/` serves a 200 instead of upgrading. Turning it
+on is the single highest-value hosting change available and requires no code.
 
 ### npm Audit Status
 
@@ -226,7 +255,7 @@ These are false positives for this deployment model. The site ships only static 
 3. **Never commit `.env` files**: The `.gitignore` excludes all env files. If you ever need environment variables, use your hosting provider's dashboard
 4. **Monitor dependency vulnerabilities**: Run `npm audit` after installing new packages
 5. **Keep Node.js updated**: Use the latest LTS version
-6. **Review CSP if adding third-party scripts**: If you add analytics, chat widgets, or other third-party JS, update the CSP in both `src/app/layout.tsx` and the hosting config files (`_headers`, `vercel.json`)
+6. **Review CSP if adding third-party scripts**: If you add analytics, chat widgets, or other third-party JS, update the CSP meta tag in `src/app/layout.tsx` (the only one in force) and `vercel.json` if the site is ever migrated there
 7. **Check headers after deployment**: Use [securityheaders.com](https://securityheaders.com) to verify your deployed headers are working correctly
 
 ---

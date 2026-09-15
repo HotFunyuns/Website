@@ -89,7 +89,11 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
 
   const category = getCategory(post.category);
   const relatedApps = getPostApps(post);
-  const relatedPosts = getRelatedPosts(post);
+  // Six, not the default three. 126 articles declare four `relatedArticles`;
+  // at three, the fourth was authored, validated at build time, and then
+  // silently dropped from the page. Six clears every authored pick and fills
+  // two even rows of the 3-up grid below from the same-category fallback.
+  const relatedPosts = getRelatedPosts(post, 6);
   const { previous, next } = getPostNeighbours(post);
   const primaryApp = relatedApps[0];
 

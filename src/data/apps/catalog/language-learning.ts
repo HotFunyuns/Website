@@ -26,7 +26,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'Twelve structured units',
@@ -128,7 +128,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'The Thai script from the start',
@@ -230,7 +230,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'Vocabulary grouped by situation',
@@ -332,7 +332,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'Cyrillic first',
@@ -434,7 +434,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'The Khmer script, properly',
@@ -536,7 +536,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'Tones treated as part of the word',
@@ -638,7 +638,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: false,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'The Lao script from lesson one',
@@ -740,7 +740,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'A course with a defined path',
@@ -817,5 +817,211 @@ export const languageLearningApps: AppInfo[] = [
     metaTitle: 'Learn Italian for Beginners for Android',
     metaDescription:
       'A structured Italian course with 12 units, grammar in context, listening practice and travel phrases. Free on Google Play from Reign Creative.',
+  },
+  {
+    slug: 'learn-marathi',
+    name: 'Learn Marathi Language Fast',
+    tagline: 'Devanagari first, then the Marathi you would actually use in Pune or Mumbai.',
+    cardDescription:
+      'A beginner Marathi course covering the Devanagari script, everyday vocabulary, grammar and conversation, with English romanisation throughout.',
+    longDescription: [
+      'Learn Marathi Language Fast starts where a genuine beginner starts: the Marathi alphabet and the Devanagari script. From there it moves through common words, sentence patterns and real conversations, with romanised text and English meanings alongside so you can read and pronounce a line before you can recognise every character in it.',
+      'The topics are chosen for use rather than coverage — greetings, introductions, family, food, shopping and prices, transport and directions, work, travel, health, numbers and time. Cultural notes and etiquette sit alongside the vocabulary, which matters in a language most learners pick up for family or for living in Maharashtra rather than for a certificate.',
+      'Practice comes in ten formats: multiple-choice quizzes, listening drills, sentence building, matching, dictation, vocabulary review, speaking activities, roleplay conversations, timed modes and targeted practice on the questions you got wrong. Progress tracking, streaks and achievements keep the sessions short and repeatable. The course also runs in reverse, so Marathi speakers can use it to study English.',
+    ],
+    category: 'Education · Marathi',
+    categoryId: 'language-learning',
+    schemaCategory: 'EducationalApplication',
+    playStoreUrl:
+      'https://play.google.com/store/apps/details?id=com.reigncreative.learnmarathilanguage',
+    packageId: 'com.reigncreative.learnmarathilanguage',
+    icon: '/icons/learn-marathi.webp',
+    iconSmall: '/icons/learn-marathi-sm.webp',
+    accent: 'from-crimson-400 to-gold-400',
+    playCategory: 'EDUCATION',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: true,
+    free: true,
+    lastVerified: '2026-09-15',
+    features: [
+      {
+        title: 'Devanagari from the start',
+        body: 'The Marathi alphabet and script come first, with romanisation and English meanings so you are never blocked on reading.',
+      },
+      {
+        title: 'Everyday topics',
+        body: 'Greetings, family, food, shopping, transport, directions, work, travel, health, numbers and time — the situations you hit first.',
+      },
+      {
+        title: 'Ten practice formats',
+        body: 'Quizzes, listening, sentence building, matching, dictation, review, speaking, roleplay, timed modes and focused practice on your mistakes.',
+      },
+      {
+        title: 'Works in both directions',
+        body: 'English speakers learn Marathi with English explanations; Marathi speakers can switch the course around and study English instead.',
+      },
+      {
+        title: 'Progress you can see',
+        body: 'Streaks, achievements and lesson tracking so a five-minute session still registers as movement.',
+      },
+    ],
+    audience: [
+      'Complete beginners starting their first Marathi course',
+      'Heritage learners reconnecting with family language',
+      'People moving to or travelling in Maharashtra',
+      'Marathi speakers who want to study English the other way round',
+    ],
+    howItWorks: [
+      {
+        title: 'Learn the script',
+        body: 'Work through the Marathi alphabet and Devanagari basics with romanisation next to every line.',
+      },
+      {
+        title: 'Build everyday vocabulary',
+        body: 'Move into common words and phrases grouped by the situations you are most likely to need them in.',
+      },
+      {
+        title: 'Practise actively',
+        body: 'Use quizzes, listening, dictation, matching and roleplay rather than only reading lists.',
+      },
+      {
+        title: 'Review what you missed',
+        body: 'Revisit difficult words and previous lessons through targeted practice built from your own mistakes.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Learn Marathi Language Fast free?',
+        answer:
+          'Yes, it is free to download on Google Play. It is supported by ads, and Google Play lists in-app purchases.',
+      },
+      {
+        question: 'Do I need to read Devanagari first?',
+        answer:
+          'No. Lessons show romanised text and English meanings alongside the script, so you can start speaking while you are still learning to read.',
+      },
+      {
+        question: 'Can Marathi speakers use it to learn English?',
+        answer:
+          'Yes. The course runs in both directions, with English vocabulary, grammar and pronunciation explained through Marathi.',
+      },
+      {
+        question: 'What kind of practice does it include?',
+        answer:
+          'Multiple-choice quizzes, listening practice, sentence building, matching games, dictation, vocabulary review, speaking activities, roleplay conversations, timed modes and mistake review.',
+      },
+      {
+        question: 'Is it useful for travel?',
+        answer:
+          'The topics cover travel, transport, directions, food, shopping and health, along with cultural notes and etiquette for Maharashtra.',
+      },
+    ],
+    metaTitle: 'Learn Marathi Language Fast for Android',
+    metaDescription:
+      'Learn Marathi from the Devanagari script up, with everyday vocabulary, grammar, pronunciation and ten kinds of practice. Free on Google Play.',
+  },
+  {
+    slug: 'learn-shanghainese',
+    name: 'Learn Shanghainese Wu Chinese',
+    tagline: 'A Wu Chinese course that treats Shanghainese as its own language, not a Mandarin accent.',
+    cardDescription:
+      'A 12-unit Shanghainese course covering characters, romanisation, tone sandhi and everyday conversation, built for beginners.',
+    longDescription: [
+      'Shanghainese — the Shanghai dialect, Shanghai Wu, a variety of Wu Chinese — is not Mandarin and is not Cantonese, and almost no learning app treats it as a language in its own right. This course does: it teaches Shanghainese pronunciation, vocabulary and sentence patterns directly rather than routing everything through Mandarin equivalents.',
+      'The learning path runs twelve units covering greetings, family, food, numbers, time, home, transport, shopping, school, work, health, social life and real conversations. Alongside the vocabulary you get Chinese characters, Shanghainese romanisation, grammar and sentence patterns, and the parts most courses skip entirely — connected speech and tone sandhi, which is where Shanghainese stops sounding like a word list.',
+      'Practice is built from interactive vocabulary and phrase lessons, character and meaning drills, pronunciation guidance, grammar and sentence-building exercises, travel-focused language for transport, restaurants, shopping and emergencies, and review activities for words and questions you missed. Daily goals, XP, levels, streaks and achievements keep it to a few minutes a day, and themed packs extend into idioms, informal phrases, business, relationships, etiquette and advanced conversation. The course also runs in reverse for Shanghainese speakers studying English.',
+    ],
+    category: 'Education · Shanghainese',
+    categoryId: 'language-learning',
+    schemaCategory: 'EducationalApplication',
+    playStoreUrl:
+      'https://play.google.com/store/apps/details?id=com.reigncreative.learnshanghaineselanguage',
+    packageId: 'com.reigncreative.learnshanghaineselanguage',
+    icon: '/icons/learn-shanghainese.webp',
+    iconSmall: '/icons/learn-shanghainese-sm.webp',
+    accent: 'from-gold-500 to-crimson-500',
+    playCategory: 'EDUCATION',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: true,
+    free: true,
+    lastVerified: '2026-09-15',
+    features: [
+      {
+        title: 'A 12-unit learning path',
+        body: 'Greetings, family, food, numbers, time, home, transport, shopping, school, work, health, social life and real conversations, in order.',
+      },
+      {
+        title: 'Tone sandhi and connected speech',
+        body: 'Lessons on how Shanghainese tones actually behave in a sentence, which is where most learners stall.',
+      },
+      {
+        title: 'Characters plus romanisation',
+        body: 'Chinese characters and Shanghainese romanisation together, so you can read and pronounce without guessing from Mandarin.',
+      },
+      {
+        title: 'Themed packs',
+        body: 'Extend into idioms, informal phrases, travel, business, relationships, pronunciation, grammar, listening, culture and etiquette.',
+      },
+      {
+        title: 'Two directions',
+        body: 'Switch the course around at any time so Shanghainese speakers can study English vocabulary, grammar and pronunciation.',
+      },
+    ],
+    audience: [
+      'Beginners who want Shanghainese specifically, not Mandarin',
+      'Heritage learners reconnecting with family in Shanghai',
+      'Travellers preparing for a trip to the city',
+      'Families trying to keep Shanghainese across generations',
+    ],
+    howItWorks: [
+      {
+        title: 'Start the path',
+        body: 'Begin at unit one with greetings and basic patterns, using characters and romanisation side by side.',
+      },
+      {
+        title: 'Work on pronunciation',
+        body: 'Take the tone and connected-speech lessons early, because they change how everything later sounds.',
+      },
+      {
+        title: 'Practise and review',
+        body: 'Use the vocabulary, character, grammar and sentence-building exercises, then revisit the questions you missed.',
+      },
+      {
+        title: 'Extend with packs',
+        body: 'Add travel, business, culture or advanced conversation packs once the core twelve units feel comfortable.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Learn Shanghainese Wu Chinese free?',
+        answer:
+          'Yes, it is free to download on Google Play. It is supported by ads, and Google Play lists in-app purchases.',
+      },
+      {
+        question: 'Is Shanghainese the same as Mandarin?',
+        answer:
+          'No. Shanghainese is a variety of Wu Chinese and is distinct from both Mandarin and Cantonese in pronunciation, vocabulary and grammar. This course teaches it directly rather than through Mandarin.',
+      },
+      {
+        question: 'Do I need to know Chinese characters already?',
+        answer:
+          'No. Characters are introduced alongside Shanghainese romanisation and English meanings, so you can start speaking before you can read fluently.',
+      },
+      {
+        question: 'What is tone sandhi and why is it covered?',
+        answer:
+          'It is the way tones change when syllables run together. Shanghainese relies on it heavily, so lessons cover it directly instead of teaching words in isolation.',
+      },
+      {
+        question: 'Can Shanghainese speakers learn English with it?',
+        answer:
+          'Yes. The learning direction can be switched at any time, with a full English course explained through Shanghainese.',
+      },
+    ],
+    metaTitle: 'Learn Shanghainese Wu Chinese for Android',
+    metaDescription:
+      'A 12-unit Shanghainese course with characters, romanisation, tone sandhi and everyday conversation — taught as Wu Chinese, not Mandarin. Free on Google Play.',
   },
 ];

@@ -73,7 +73,9 @@ outline or a stub.
   `play_store_click` from the shared `PlayStoreLink` component, production
   hostname gating in `src/lib/analytics.ts`.
 - **Output.** Next.js 14 static export (`output: 'export'`, `trailingSlash: true`),
-  deployed to GitHub Pages by `.github/workflows/deploy.yml` on push to `main`.
+  deployed to GitHub Pages by `.github/workflows/nextjs.yml` on push to `main`.
+  (`deploy.yml` was deleted on 2026-09-15 — two workflows were deploying the same
+  artifact twice per push.)
 
 ## 3. Existing reports carried forward, not replaced
 

@@ -148,7 +148,7 @@ If you want to judge a defence, in a real competition or a simulated one:
 
 ## In a simulation
 
-In [38-0-0 Pro Football GM Soccer](/apps/soccer-draft-gm-xi/), a season is scored in wins, draws and losses with goal difference behind it, so a defence's value shows up in the table rather than in a clean-sheet count. That is the correct emphasis: what matters is the total conceded, not how often the total was exactly zero.
+In [Pro Football GM Club Soccer](/apps/soccer-draft-gm-xi/), a season is scored in wins, draws and losses with goal difference behind it, so a defence's value shows up in the table rather than in a clean-sheet count. That is the correct emphasis: what matters is the total conceded, not how often the total was exactly zero.
 
 From the player's side, in [Football Career Soccer XI Sim](/apps/soccer-career-sim-xi/), clean sheets are part of a defender's or goalkeeper's career record — and the honest reading is the same as in the real sport. A goalkeeper's clean-sheet total in a season reflects the squad they were part of at least as much as their own play. [The Football Career Soccer XI Sim guide](/blog/soccer-career-sim-guide/) covers judging a season against your role rather than against a raw figure.
 

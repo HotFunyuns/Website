@@ -3,7 +3,28 @@ import { getCategory } from '@/data/apps';
 import type { BlogPost } from '@/lib/blog/types';
 import { formatPostDate } from './format';
 
-export default function BlogCard({ post, headingLevel = 'h3' }: { post: BlogPost; headingLevel?: 'h2' | 'h3' }) {
+/**
+ * Exactly the fields a card renders, and the ones `BlogExplorer` searches.
+ *
+ * The card used to take a whole `BlogPost`. That is harmless on a server
+ * component, but `BlogExplorer` is a client component, so every post handed to
+ * it — including the full Markdown `body`, `toc`, `faqs` and `sources` of all
+ * of them — was serialised into the RSC payload embedded in /blog/. That one
+ * prop was carrying the entire corpus twice and had pushed the page past 2.6 MB.
+ * Narrowing the type keeps the payload proportional to what is actually drawn.
+ */
+export type BlogCardPost = Pick<
+  BlogPost,
+  'slug' | 'title' | 'description' | 'category' | 'publishedAt' | 'readingMinutes' | 'tags'
+>;
+
+export default function BlogCard({
+  post,
+  headingLevel = 'h3',
+}: {
+  post: BlogCardPost;
+  headingLevel?: 'h2' | 'h3';
+}) {
   const category = getCategory(post.category);
   const Heading = headingLevel;
 

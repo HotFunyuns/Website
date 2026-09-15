@@ -2,7 +2,7 @@
 {
   "title": "Building an XI That Holds Up: A Guide to Soccer Draft Simulators",
   "metaTitle": "Soccer Draft Simulator: Building an XI That Holds Up",
-  "description": "Why the draw changes everything in a soccer draft game, how position fit differs from position coverage, and what a 38-game simulated campaign really measures.",
+  "description": "Why the draw changes everything in a soccer draft game, how position fit differs from position coverage, and what a simulated league campaign really measures.",
   "status": "published",
   "publishedAt": "2026-08-09",
   "updatedAt": "2026-09-04",
@@ -21,14 +21,14 @@
     "build a starting xi game",
     "soccer manager game offline",
     "squad builder simulator",
-    "38 game season simulation",
+    "season simulation soccer game",
     "budget draft challenge soccer"
   ],
   "intent": "informational",
   "longTailKeywords": [
     "soccer draft game where position fit matters",
     "how to build a balanced starting eleven",
-    "what does 38-0-0 mean in a soccer sim",
+    "what a perfect season means in a soccer sim",
     "free football squad building game no wifi"
   ],
   "aiSearchQuestions": [
@@ -58,8 +58,8 @@
   "featured": false,
   "faqs": [
     {
-      "question": "What does 38-0-0 mean?",
-      "answer": "Thirty-eight wins, no draws and no defeats across a 38-game campaign. It is a perfect season and the target the whole game is built around. Because soccer has three possible results rather than two, a perfect record demands that you win matches you could have drawn, which is a harder standard than simply avoiding defeat."
+      "question": "What counts as a perfect season here?",
+      "answer": "A league campaign won outright — every match won, none drawn and none lost. It is the target the whole game is built around. Because soccer has three possible results rather than two, a perfect record demands that you win matches you could have drawn, which is a harder standard than simply avoiding defeat."
     },
     {
       "question": "Why is the highest-rated XI not always the best XI?",
@@ -71,7 +71,7 @@
     },
     {
       "question": "Is this football or soccer?",
-      "answer": "Both — it is the same game either way. You draft a full XI for the global game, whichever name you use for it. The app is titled 38-0-0 Pro Football GM Soccer precisely because the sport goes by two names in different places."
+      "answer": "Both — it is the same game either way. You draft a full XI for the global game, whichever name you use for it. The app is titled Pro Football GM Club Soccer precisely because the sport goes by two names in different places."
     },
     {
       "question": "Is it connected to any real club or competition?",
@@ -79,7 +79,7 @@
     },
     {
       "question": "Does it cost anything?",
-      "answer": "38-0-0 Pro Football GM Soccer is free to download on Google Play. It is supported by ads and offers optional in-app purchases. The draft formats, the campaign simulation and club management are part of the base game."
+      "answer": "Pro Football GM Club Soccer is free to download on Google Play. It is supported by ads and offers optional in-app purchases. The draft formats, the campaign simulation and club management are part of the base game."
     }
   ],
   "sources": []
@@ -88,7 +88,7 @@
 
 Soccer is the only sport in this genre where you can play well and get nothing for it.
 
-A basketball or baseball roster that is slightly better than its opponent wins slightly more often. A soccer side that is slightly better than its opponent draws a lot. That third result is why a perfect campaign in this sport reads 38-0-0 rather than 38-0, and why it demands something that "do not lose" does not: you have to convert. A side built to be difficult to beat will produce a long unbeaten run and nowhere near a perfect record.
+A basketball or baseball roster that is slightly better than its opponent wins slightly more often. A soccer side that is slightly better than its opponent draws a lot. That third result is why a perfect campaign in this sport has to record wins, draws and defeats rather than just wins and losses, and why it demands something that "do not lose" does not: you have to convert. A side built to be difficult to beat will produce a long unbeaten run and nowhere near a perfect record.
 
 Everything about drafting an XI follows from that.
 
@@ -96,7 +96,7 @@ Everything about drafting an XI follows from that.
 
 In a two-outcome sport, defensive solidity and attacking quality are close to interchangeable ways of buying wins. Add draws and they stop being symmetric.
 
-Solidity converts losses into draws. Attacking quality converts draws into wins. Both are worth having, but they buy different things, and a squad that has spent everything on one of them hits a ceiling that more of the same will not raise. This is the specific reason a balanced XI outperforms a lopsided one in [38-0-0 Pro Football GM Soccer](/apps/soccer-draft-gm-xi/), and it is a genuinely different constraint from the ones the other drafting sports impose.
+Solidity converts losses into draws. Attacking quality converts draws into wins. Both are worth having, but they buy different things, and a squad that has spent everything on one of them hits a ceiling that more of the same will not raise. This is the specific reason a balanced XI outperforms a lopsided one in [Pro Football GM Club Soccer](/apps/soccer-draft-gm-xi/), and it is a genuinely different constraint from the ones the other drafting sports impose.
 
 The practical version: before you start picking, decide roughly where your side sits on that axis, and notice when a pick would push you further in a direction you have already invested in.
 
@@ -148,7 +148,7 @@ Competitive formats add an opponent's board to the things you are tracking. A pi
 
 ## What the campaign simulation is doing
 
-When the XI is locked and the simulation runs, it plays out a 38-game campaign and reports wins, draws and losses.
+When the XI is locked and the simulation runs, it plays out a full league campaign and reports wins, draws and losses.
 
 That result is a model's output. It is computed from the squad you built — ratings, position fit, playing style, balance — according to the game's own rules. Three clarifications matter:
 
@@ -172,7 +172,7 @@ Transfers deserve a specific note, because they are the only tool that fixes a s
 
 Tournaments, quizzes, player guessing and daily challenges sit alongside the drafting, and it is easy to write them off as padding. The knowledge formats are testing the same faculty the draft board needs: reading a set of attributes and forming a fast, accurate judgement about what they will do.
 
-If your drafts keep returning campaigns you did not expect, the gap is usually in that reading rather than in your strategy. Practising it directly is cheaper than practising it 38 games at a time.
+If your drafts keep returning campaigns you did not expect, the gap is usually in that reading rather than in your strategy. Practising it directly is cheaper than practising it a whole campaign at a time.
 
 ## A pre-draft checklist
 

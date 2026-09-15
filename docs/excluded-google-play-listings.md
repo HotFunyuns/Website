@@ -1,5 +1,11 @@
 # Google Play listings checked and excluded
 
+> **Latest pass: 2026-09-15.** Jump to [2026-09-15 re-audit](#2026-09-15-re-audit).
+> The 2026-09-04 section below is kept as the historical record; ten of the
+> packages it reports as 404 are now live under different IDs.
+
+## 2026-09-04 audit
+
 Every package ID probed during the 2026-09-04 inventory audit that is **not**
 represented on this website, with the exact URL tested and the reason.
 
@@ -134,3 +140,103 @@ These remain in force regardless of what a future probe finds:
 **Owner action:** if any app is in testing or pre-registration right now, add its
 package ID to `MUST_NOT_BE_PUBLIC` so every future verification run asserts it
 has not leaked.
+
+---
+
+# 2026-09-15 re-audit
+
+Re-run of the same probe against a wider candidate set. **Ten of the packages
+that were 404 or undiscovered on 2026-09-04 are now publicly live and have been
+added to the site** (see `docs/current-production-app-inventory.md`), which is
+the expected outcome — the 2026-09-04 note said explicitly that a 404 meant the
+guessed package name was wrong, not that an app existed.
+
+## Result summary
+
+| Outcome | Count |
+| --- | ---: |
+| Public, included on the site | **39** |
+| Public but excluded for another reason | **0** |
+| Listed by the owner as Production, but no public listing found | **1** |
+
+## Excluded: BIG JACKPOT Casino Slots Games — UNVERIFIED
+
+The owner listed this as a recently-visible Production app. **It could not be
+verified as publicly reachable, so it is not on the site.**
+
+What was tried, all signed out, all on 2026-09-15:
+
+| Method | Result |
+| --- | --- |
+| Public developer page (20 packages in served HTML) | Not present |
+| BFS crawl of all 39 known listing pages for `com.reigncreative.*` IDs | Not present |
+| Google Play search, `"BIG JACKPOT Casino Slots Games"` | No Reign Collective result |
+| Google Play search, + `"Reign Creative"` | No Reign Collective result |
+| Google Play search, `"Reign Creative slots"` | No Reign Collective result |
+| Google Play search, `"Anime Casino Slot Machine Game"` | No Reign Collective result — **yet that app IS public**, so Play search alone is not a reliable negative for this developer's casino titles |
+| Direct package-ID probes, 22 candidates | All HTTP 404 |
+
+Candidates probed, all HTTP 404:
+`com.reigncreative.bigjackpotslots`, `com.reigncreative.bigjackpot`,
+`com.reigncreative.bigjackpotcasinoslots`, `com.reigncreative.bigjackpotcasino`,
+`com.reigncreative.bigjackpotcasinoslotsgames`,
+`com.reigncreative.bigjackpotslotsgames`, `com.reigncreative.bigjackpotslot`,
+`com.reigncreative.bigjackpotcasinoslot`, `com.reigncreative.bigjackpotgames`,
+`com.reigncreative.jackpotslots`, `com.reigncreative.jackpotcasinoslots`,
+`com.reigncreative.jackpotcasino`, `com.reigncreative.jackpotslotsgames`,
+`com.reigncreative.casinoslots`, `com.reigncreative.casinoslotsgames`,
+`com.reigncreative.casinoslotsgame`, `com.reigncreative.casinoslotsjackpot`,
+`com.reigncreative.casinoslotmachine`, `com.reigncreative.slots`,
+`com.reigncreative.slotscasino`, `com.reigncreative.slotmachine`,
+`com.reigncreative.slotmachines`, `com.reigncreative.luckyslots`,
+`com.reigncreative.vegasslots`, `com.reigncreative.bigwinslots`,
+`com.reigncreative.slotsgames`, `com.reigncreative.animeslots`,
+`com.reigncreative.animecasino`, `com.reigncreative.animeslotmachine`
+
+**Status: UNVERIFIED, not "not published".** The honest reading is that the
+package ID is simply unknown — the sibling title
+`com.reigncreative.animecasinoslots` is fully public yet also invisible to Play
+search from this locale, so a search miss proves nothing here. This app is
+excluded because it could not be confirmed, not because it was judged unfit.
+
+**Owner action:** supply the exact package ID from Play Console. Add it to
+`PACKAGES` in `scripts/verify-play-listings.mjs`, re-run
+`node scripts/verify-play-listings.mjs` and `node scripts/fetch-app-icons.mjs`,
+and if it returns HTTP 200 with `SoftwareApplication` JSON-LD it can be written
+into the catalog in a single pass.
+
+## Nothing else was withheld
+
+Every one of the 39 packages that resolved publicly is on the site. No public
+Reign Collective Apps listing is being held back on editorial grounds, including
+the Teen-rated `com.reigncreative.animecasinoslots`, which is published with
+explicit entertainment-only and no-real-money-gambling disclosures.
+
+## Package IDs found public on 2026-09-15 that were unknown on 2026-09-04
+
+`com.reigncreative.protenniscareersim`,
+`com.reigncreative.twentyfourzero.rugbydraft`,
+`com.reigncreative.spacegalaxyattackhardcore`,
+`com.reigncreative.jellyfishio`, `com.reigncreative.regaltowerdefense`,
+`com.reigncreative.tcgvaluescanner`, `com.reigncreative.easyrecipes`,
+`com.reigncreative.learnmarathilanguage`,
+`com.reigncreative.learnshanghaineselanguage`,
+`com.reigncreative.animecasinoslots`
+
+Note that three of these — `rugbydraftgm`, `tennisdraftgm`, and the
+`learn<language>language` sweep — were *guessed near-misses* in the 2026-09-04
+probe. The real IDs are `twentyfourzero.rugbydraft`, `protenniscareersim` and
+`learnmarathilanguage` / `learnshanghaineselanguage`. Guessing package names is
+a weak discovery method and should not be relied on again: the developer page
+plus Play title search plus a BFS crawl found nine of the ten, and the tenth
+(`animecasinoslots`) came from a probe of the app's own title rendered as a
+package name.
+
+## Standing exclusion rules
+
+The rules in the 2026-09-04 section above remain in force unchanged.
+`MUST_NOT_BE_PUBLIC` in `scripts/verify-play-listings.mjs` is **still empty**
+because the owner has still not named any package that is in Draft, review or
+testing. That is the one gap in this audit: the Play Console reportedly holds
+around 78 projects, most of them drafts, and this audit can only prove which
+packages *are* public — it cannot enumerate the drafts from outside.

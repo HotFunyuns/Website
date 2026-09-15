@@ -75,7 +75,7 @@
     },
     {
       "question": "What do your own arcade games require?",
-      "answer": "Both Space Shooter - Galaxy Arcade and Zombie Survival: Last Survivor are free to download on Google Play and supported by ads, and neither listing describes multiplayer, matchmaking or online leaderboards. We are not going to tell you they are certified offline games, because that is not a claim our store listings make. Install one, launch it once with a connection, then run the airplane-mode test described in this article and judge it yourself."
+      "answer": "Both Space Galaxy Attack Arcade and Zombie Survival: Last Survivor are free to download on Google Play and supported by ads, and neither listing describes multiplayer, matchmaking or online leaderboards. We are not going to tell you they are certified offline games, because that is not a claim our store listings make. Install one, launch it once with a connection, then run the airplane-mode test described in this article and judge it yourself."
     }
   ],
   "sources": [
@@ -186,7 +186,7 @@ If you are specifically shopping for something to play without signal, the arcad
 
 We make two games in this category, and the honest description of them is narrower than the marketing sentence you were probably expecting.
 
-[Space Shooter - Galaxy Arcade](/apps/space-shooter-classic-arcade/) is a wave-based shooter with four abilities, readable projectile patterns, an upgrade path fed by the rewards you earn during a run, and an Endless Mode with no finish line. It is free to download on Google Play, supported by ads, offers optional in-app purchases and carries an Everyone content rating. [Our guide to reading enemy fire](/blog/space-shooter-arcade-guide/) covers how to actually play it.
+[Space Galaxy Attack Arcade](/apps/space-shooter-classic-arcade/) is a wave-based shooter with four abilities, readable projectile patterns, an upgrade path fed by the rewards you earn during a run, and an Endless Mode with no finish line. It is free to download on Google Play, supported by ads, offers optional in-app purchases and carries an Everyone content rating. [Our guide to reading enemy fire](/blog/space-shooter-arcade-guide/) covers how to actually play it.
 
 [Zombie Survival: Last Survivor](/apps/zombie-survival-last-survivor/) is a horde survival game where your weapons fire automatically and movement is the entire input, with mid-run level-ups that hand you an upgrade choice on the spot. It is free to download, supported by ads, offers optional in-app purchases, and carries an Everyone content rating. [The build guide](/blog/zombie-survival-roguelike-guide/) covers how the upgrade decisions work.
 

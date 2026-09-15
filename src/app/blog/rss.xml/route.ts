@@ -3,8 +3,18 @@ import { posts } from '@/lib/blog';
 
 export const dynamic = 'force-static';
 
+/**
+ * Escapes text for XML character data.
+ *
+ * The control-character strip is not decoration. XML 1.0 forbids most C0
+ * control characters outright — there is no entity that can carry them — so a
+ * stray one pasted into an article title would produce a feed that every
+ * conforming reader rejects wholesale, not just for that one item. Dropping
+ * them here keeps one bad character from taking the whole feed down.
+ */
 function escapeXml(value: string): string {
   return value
+    .replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\uFFFE\uFFFF]/g, '')
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
@@ -12,10 +22,19 @@ function escapeXml(value: string): string {
     .replace(/'/g, '&apos;');
 }
 
+const newest = (days: string[]) => days.reduce((a, b) => (a > b ? a : b));
+
 export function GET() {
   const site = companyInfo.siteUrl;
   const feedUrl = `${site}/blog/rss.xml`;
-  const updated = posts[0]?.updatedAt ?? new Date().toISOString().slice(0, 10);
+
+  // The newest recorded revision date across the whole collection — the same
+  // value src/app/sitemap.ts stamps on /blog/. `posts` is ordered by
+  // publishedAt, so posts[0].updatedAt is the newest *post's* revision date,
+  // which is not the same thing and drifts from the sitemap whenever an older
+  // article is revised. Never build time: that would tell readers the feed
+  // changed on every deploy.
+  const updated = posts.length > 0 ? newest(posts.map((post) => post.updatedAt)) : null;
 
   // `posts` is already filtered to published, non-future articles, so the feed
   // cannot advertise a URL the site does not build.
@@ -43,7 +62,8 @@ export function GET() {
     `    <link>${site}/blog/</link>`,
     `    <description>${escapeXml('Guides to the Android apps built by Reign Creative LLC.')}</description>`,
     '    <language>en-us</language>',
-    `    <lastBuildDate>${new Date(`${updated}T09:00:00Z`).toUTCString()}</lastBuildDate>`,
+    '    <docs>https://www.rssboard.org/rss-specification</docs>',
+    updated ? `    <lastBuildDate>${new Date(`${updated}T09:00:00Z`).toUTCString()}</lastBuildDate>` : '',
     `    <atom:link href="${feedUrl}" rel="self" type="application/rss+xml" />`,
     items,
     '  </channel>',

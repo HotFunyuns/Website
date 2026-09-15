@@ -47,6 +47,19 @@ const PACKAGES = [
   'com.reigncreative.learnvietnameselanguage',
   'com.reigncreative.learnlaolanguage',
   'com.reigncreative.learnitalianlanguage',
+  // Verified 2026-09-15: additional Production listings discovered on the public
+  // developer page and via Google Play search. Package IDs confirmed by probing
+  // each listing signed-out.
+  'com.reigncreative.protenniscareersim',
+  'com.reigncreative.twentyfourzero.rugbydraft',
+  'com.reigncreative.spacegalaxyattackhardcore',
+  'com.reigncreative.jellyfishio',
+  'com.reigncreative.regaltowerdefense',
+  'com.reigncreative.tcgvaluescanner',
+  'com.reigncreative.easyrecipes',
+  'com.reigncreative.learnmarathilanguage',
+  'com.reigncreative.learnshanghaineselanguage',
+  'com.reigncreative.animecasinoslots',
 ];
 
 // Owner-confirmed Draft / In Review / Internal Testing. Probed only to prove

@@ -154,7 +154,7 @@ It also shapes defending. A defensive line pushing up to compress the pitch is u
 
 ## In a simulation
 
-In [38-0-0 Pro Football GM Soccer](/apps/soccer-draft-gm-xi/) and [Football Career Soccer XI Sim](/apps/soccer-career-sim-xi/), offside is part of the model that resolves attacking moves rather than something you adjudicate frame by frame. What it means practically is that a forward's value depends partly on timing and movement attributes rather than only on finishing — the same distinction the rule creates in the real sport.
+In [Pro Football GM Club Soccer](/apps/soccer-draft-gm-xi/) and [Football Career Soccer XI Sim](/apps/soccer-career-sim-xi/), offside is part of the model that resolves attacking moves rather than something you adjudicate frame by frame. What it means practically is that a forward's value depends partly on timing and movement attributes rather than only on finishing — the same distinction the rule creates in the real sport.
 
 [The Football Career Soccer XI Sim guide](/blog/soccer-career-sim-guide/) covers how forward decisions are presented from the player's side, and [how soccer league tables work](/blog/how-soccer-league-tables-work/) covers how the seasons those goals contribute to are scored.
 

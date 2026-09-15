@@ -25,7 +25,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'Create your player',
@@ -129,7 +129,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'Draft board first',
@@ -232,7 +232,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'Position-by-position drafting',
@@ -334,7 +334,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'Stat-led drafting',
@@ -414,13 +414,13 @@ export const sportsGmApps: AppInfo[] = [
   },
   {
     slug: 'soccer-draft-gm-xi',
-    name: '38-0-0 Pro Football GM Soccer',
-    tagline: 'Draft an XI, simulate the campaign, and find out if your side can go 38-0-0.',
+    name: 'Pro Football GM Club Soccer',
+    tagline: 'Draft an XI position by position, then simulate the season and chase a perfect record.',
     cardDescription:
-      'Build a starting XI position by position, then simulate a 38-game campaign and see how close your side gets to a perfect record.',
+      'Build a starting XI position by position, then simulate a league campaign and see how close your side gets to a perfect season.',
     longDescription: [
-      '38-0 Football Draft is a draft game for the global game. Each run offers a fresh set of player choices, so you pick across the pitch, balance the squad, and finish with an XI you believe can survive a full campaign. Position fit and playing style matter as much as the ratings do.',
-      'Once the XI is locked in, the simulation plays out the season and reports back in wins, draws and losses. A perfect 38-0-0 record takes more than collecting the highest-rated names, which is exactly where squad balance earns its keep. Completed runs can be saved and measured against your next attempt.',
+      'Pro Football GM Club Soccer is a draft game for the global game. Each run offers a fresh set of player choices, so you pick across the pitch, balance the squad, and finish with an XI you believe can survive a full campaign. Position fit and playing style matter as much as the ratings do.',
+      'Once the XI is locked in, the simulation plays out the season and reports back in wins, draws and losses. A perfect record takes more than collecting the highest-rated names, which is exactly where squad balance earns its keep. Completed runs can be saved and measured against your next attempt.',
       'There is more than one way to draft: limited drafts, budget challenges, computer battles, tournaments, quizzes, player guessing and season modes. Club management adds formations, squad depth, transfers, contracts, fitness and season progress for anyone who wants a longer save, and daily challenges give you a reason to come back.',
     ],
     category: 'Games · Soccer',
@@ -436,7 +436,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'Build your XI',
@@ -444,7 +444,7 @@ export const sportsGmApps: AppInfo[] = [
       },
       {
         title: 'Season simulation',
-        body: 'Finalise the lineup and play out a 38-game campaign, scored in wins, draws and losses.',
+        body: 'Finalise the lineup and play out a league campaign, scored in wins, draws and losses.',
       },
       {
         title: 'Multiple draft rules',
@@ -476,7 +476,7 @@ export const sportsGmApps: AppInfo[] = [
       },
       {
         title: 'Simulate the campaign',
-        body: 'Run the 38-game season and see the wins, draws and losses your side produces.',
+        body: 'Run the season and see the wins, draws and losses your side produces.',
       },
       {
         title: 'Save, manage, repeat',
@@ -485,14 +485,14 @@ export const sportsGmApps: AppInfo[] = [
     ],
     faqs: [
       {
-        question: 'Is 38-0-0 Pro Football GM Soccer free?',
+        question: 'Is Pro Football GM Club Soccer free?',
         answer:
           'Yes. It is free to download on Google Play, it is supported by ads, and there are optional in-app purchases.',
       },
       {
-        question: 'What does 38-0-0 mean?',
+        question: 'What counts as a perfect season?',
         answer:
-          'Thirty-eight wins, no draws and no defeats across a 38-game campaign. It is a perfect season, and the target the whole game is built around.',
+          'A campaign won outright — no draws and no defeats. Because soccer scores draws as well as wins and losses, a side built only to be hard to beat produces a long unbeaten run rather than a perfect record.',
       },
       {
         question: 'How long does a run take?',
@@ -510,9 +510,9 @@ export const sportsGmApps: AppInfo[] = [
           'Both — it is the same game either way. You draft a full XI for the global game, whichever name you use for it.',
       },
     ],
-    metaTitle: '38-0-0 Pro Football GM Soccer for Android',
+    metaTitle: 'Pro Football GM Club Soccer for Android',
     metaDescription:
-      'Build a starting XI and simulate a 38-game campaign chasing a perfect record. Draft modes, club management and quizzes — free on Google Play.',
+      'Build a starting XI and simulate a league campaign chasing a perfect record. Draft modes, club management and quizzes — free on Google Play.',
   },
   {
     slug: 'hockey-draft-gm-manager',
@@ -539,7 +539,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'Draft a starting six',
@@ -642,7 +642,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'Two separate simulators',
@@ -744,7 +744,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'Pick a position and a path',
@@ -846,7 +846,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'Build the quarterback you want to play',
@@ -948,7 +948,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'Four ways to play',
@@ -1050,7 +1050,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'Six positions, real differences',
@@ -1152,7 +1152,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'Decisions instead of swing timing',
@@ -1229,5 +1229,211 @@ export const sportsGmApps: AppInfo[] = [
     metaTitle: 'Golf Career Simulator Pro Tour for Android',
     metaDescription:
       'Build a golfer, choose how to play every hole, and chase rankings and trophies across full tour seasons. Free on Google Play from Reign Creative.',
+  },
+  {
+    slug: 'tennis-career-sim',
+    name: 'Tennis Career Simulator 2026',
+    tagline: 'Start on the junior circuit and decide the points that move you up the world rankings.',
+    cardDescription:
+      'Create a player, commit to a playing style, and work from junior events through qualifiers and draws toward the top of the rankings.',
+    longDescription: [
+      'Tennis Career Simulator 2026 starts with a player you build yourself: portrait, dominant hand, backhand, and a playing style chosen from aggressive baseliner, counterpuncher, all-court player, serve-and-volley specialist, big server or tactical shotmaker. That choice is not cosmetic. It decides which options you actually have when a point gets tight, so two careers begun the same week can play nothing alike.',
+      'The career opens on the junior circuit, moves through academy opportunities, and then into qualifiers, tournament draws and championship events. Ranking points expire on a rolling window rather than accumulating forever, which turns scheduling into a real decision: defending a result you already have competes with chasing a new one, and a light season shows up in the rankings months later.',
+      'Matches are resolved at the points that matter. You decide how to serve, return, defend, attack and respond under pressure, with your attributes, style and preparation setting what is on the table. Around the tennis sits the rest of a career — coaches and support staff, academy offers, rivals, sponsorships, and training for the surface in front of you — so results, form, records and career history all accumulate into one ongoing story.',
+    ],
+    category: 'Games · Tennis Career',
+    categoryId: 'sports-gm',
+    schemaCategory: 'GameApplication',
+    playStoreUrl:
+      'https://play.google.com/store/apps/details?id=com.reigncreative.protenniscareersim',
+    packageId: 'com.reigncreative.protenniscareersim',
+    icon: '/icons/tennis-career-sim.webp',
+    iconSmall: '/icons/tennis-career-sim-sm.webp',
+    accent: 'from-gold-400 to-gold-600',
+    playCategory: 'GAME_SPORTS',
+    contentRating: 'Everyone',
+    containsAds: false,
+    inAppPurchases: true,
+    free: true,
+    lastVerified: '2026-09-15',
+    features: [
+      {
+        title: 'Six playing styles',
+        body: 'Aggressive baseliner, counterpuncher, all-court player, serve-and-volley specialist, big server or tactical shotmaker — each one changes the choices you get in a rally.',
+      },
+      {
+        title: 'Junior circuit to the pro tour',
+        body: 'Begin in junior events, earn academy opportunities, then enter qualifiers, main draws and championship events against progressively stronger fields.',
+      },
+      {
+        title: 'Rankings that decay',
+        body: 'Ranking points expire over a realistic window, so planning which events to play and which results to defend is part of the game rather than an afterthought.',
+      },
+      {
+        title: 'Decide the big points',
+        body: 'Choose how to serve, return, defend and attack in the moments that swing a match, with your attributes and preparation deciding the options available.',
+      },
+      {
+        title: 'Coaches, rivals and reputation',
+        body: 'Work with coaching and support staff, weigh academy offers, build rivalries, and watch sponsorships and expectations grow with your results.',
+      },
+    ],
+    audience: [
+      'Tennis fans who want the season, not just the match',
+      'Players who prefer decisions over swipe-and-timing controls',
+      'Anyone who enjoys long career arcs with lasting consequences',
+      'People who like replaying a career with a completely different style',
+    ],
+    howItWorks: [
+      {
+        title: 'Create your player',
+        body: 'Set the portrait, dominant hand and backhand, then pick the playing style your career will be built around.',
+      },
+      {
+        title: 'Come up through the juniors',
+        body: 'Play junior events, take academy opportunities, and train the attributes that suit the style you chose.',
+      },
+      {
+        title: 'Enter the tour',
+        body: 'Work through qualifiers and draws, earn ranking points, and plan a schedule that defends what you already have.',
+      },
+      {
+        title: 'Build a legacy',
+        body: 'Track results, form, records and milestones across multiple seasons as rivalries and sponsorships develop around you.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Tennis Career Simulator 2026 free?',
+        answer:
+          'Yes, it is free to download on Google Play. Google Play lists in-app purchases for it and does not show a Contains ads badge.',
+      },
+      {
+        question: 'Do I play the points myself?',
+        answer:
+          'You make the decisions rather than swinging a racket. On important points you choose how to serve, return, defend or attack, and the simulation resolves the result from your attributes, style and preparation.',
+      },
+      {
+        question: 'Why do my ranking points go down?',
+        answer:
+          'Points expire over a realistic window, so a strong result from last season eventually drops off. Planning which tournaments to enter is part of holding a ranking.',
+      },
+      {
+        question: 'Does the playing style really matter?',
+        answer:
+          'Yes. A serve-and-volley specialist and a counterpuncher get different options in the same situation, and they respond differently to surfaces and matchups.',
+      },
+      {
+        question: 'Is this based on real players or real tournaments?',
+        answer:
+          'No. It is a fictional tennis simulation and is not affiliated with, endorsed by or connected to any real player, tour, tournament or governing body.',
+      },
+    ],
+    metaTitle: 'Tennis Career Simulator 2026 for Android',
+    metaDescription:
+      'Build a tennis player, pick a playing style, and climb from junior events to the world rankings one decision at a time. Free on Google Play.',
+  },
+  {
+    slug: 'rugby-draft-pro-league',
+    name: '24-0 Rugby Draft Pro League',
+    tagline: 'Draft forwards, backs and goal kickers, then run the club through a 24-match season.',
+    cardDescription:
+      'Draft a rugby squad from a pool of more than 1,000 players, then manage contracts, rotation and a salary cap across a full season.',
+    longDescription: [
+      '24-0 Rugby Draft Pro League opens at the draft board. You build a squad from a pool of more than 1,000 rugby players — forwards, backs, specialists and goal kickers drawn from different eras — and the pool rotates, so the same plan will not work twice. Position fit, value and depth matter as much as raw rating, because a squad that cannot absorb an injury will not survive a season.',
+      'GM mode runs a 24-match campaign under a $200M in-game salary cap. Trades, contracts, free agents, payroll, rotation, morale and job security are all yours to manage, and matchup preparation before a big fixture is a real lever rather than a menu. The result is a club you are accountable for over a whole year, not a single game.',
+      'The match model follows rugby union scoring — tries, conversions, penalty goals, drop goals and draws — with authentic position roles behind it. Around the main campaign sit shorter formats: fantasy squads that mix legends and value picks, limited drafts, salary challenges, daily modes and a simulator for projecting how a lineup would actually hold up.',
+    ],
+    category: 'Games · Rugby',
+    categoryId: 'sports-gm',
+    schemaCategory: 'GameApplication',
+    playStoreUrl:
+      'https://play.google.com/store/apps/details?id=com.reigncreative.twentyfourzero.rugbydraft',
+    packageId: 'com.reigncreative.twentyfourzero.rugbydraft',
+    icon: '/icons/rugby-draft-pro-league.webp',
+    iconSmall: '/icons/rugby-draft-pro-league-sm.webp',
+    accent: 'from-crimson-500 to-ink-700',
+    playCategory: 'GAME_SPORTS',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: true,
+    free: true,
+    lastVerified: '2026-09-15',
+    features: [
+      {
+        title: 'A pool of 1,000+ players',
+        body: 'Draft forwards, backs, specialists and goal kickers from different eras, with a rotating pool so no two draft boards look the same.',
+      },
+      {
+        title: '24-match GM season',
+        body: 'Run a club through a full campaign under a $200M in-game salary cap, handling trades, contracts, free agents and payroll.',
+      },
+      {
+        title: 'Squad management that bites',
+        body: 'Rotation, depth, morale, confidence and job security all move with your results, so a thin bench becomes a problem in week fifteen.',
+      },
+      {
+        title: 'Rugby union scoring',
+        body: 'Tries, conversions, penalty goals, drop goals and draws, with position roles that reward building around scrummaging, kicking, speed or defence.',
+      },
+      {
+        title: 'Shorter formats',
+        body: 'Fantasy squads, limited drafts, salary challenges, daily modes and a simulator for testing a lineup without committing to a season.',
+      },
+    ],
+    audience: [
+      'Rugby union fans who enjoy squad building as much as matches',
+      'Draft and GM players looking for a sport outside the usual four',
+      'Anyone who wants a full season to manage, not a single fixture',
+      'Players who like short daily challenges alongside a long campaign',
+    ],
+    howItWorks: [
+      {
+        title: 'Work the draft board',
+        body: 'Pick from a rotating pool of more than 1,000 players, balancing talent against position fit, value and squad depth.',
+      },
+      {
+        title: 'Set the club up',
+        body: 'Handle contracts, payroll and free agents inside the $200M in-game cap, then build a rotation that can last 24 matches.',
+      },
+      {
+        title: 'Play the season',
+        body: 'Prepare for each matchup, follow results, and react to morale, injuries and the pressure that comes with a poor run.',
+      },
+      {
+        title: 'Try another format',
+        body: 'Move to fantasy squads, limited drafts, salary challenges or the simulator when you want a shorter test of an idea.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is 24-0 Rugby Draft Pro League free?',
+        answer:
+          'Yes, it is free to download on Google Play. It is supported by ads, and Google Play lists in-app purchases.',
+      },
+      {
+        question: 'How long is a season?',
+        answer:
+          'GM mode runs a 24-match rugby season under a $200M in-game salary cap, with the playoff and championship picture resolving at the end of it.',
+      },
+      {
+        question: 'Is this rugby union or rugby league?',
+        answer:
+          'Rugby union. The scoring model covers tries, conversions, penalty goals, drop goals and draws, and the positions follow union roles.',
+      },
+      {
+        question: 'Can I play without committing to a full season?',
+        answer:
+          'Yes. Fantasy squads, limited drafts, salary challenges, daily modes and the simulator all work as short sessions.',
+      },
+      {
+        question: 'Are the players and ratings official?',
+        answer:
+          'No. Player names and historical details are used for informational game purposes, in-game ratings and salaries are unofficial estimates, and the app is not affiliated with or endorsed by any player, club, league, union or governing organisation.',
+      },
+    ],
+    metaTitle: '24-0 Rugby Draft Pro League for Android',
+    metaDescription:
+      'Draft a rugby union squad from 1,000+ players, then manage contracts, rotation and a salary cap through a 24-match season. Free on Google Play.',
   },
 ];

@@ -156,7 +156,7 @@ If you want to try both in the same sport, our catalogue is deliberately paired:
 - Baseball: [Baseball Career Sim 2026](/apps/baseball-career-sim/) and [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/)
 - American football: [Football Career Sim 2026](/apps/football-career-sim/) and [20-0 Football Draft & GM Mode](/apps/football-draft-gm-mode/)
 - Ice hockey: [Hockey Career Sim 2026](/apps/hockey-career-sim/) and [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/)
-- Association football: [Football Career Soccer XI Sim](/apps/soccer-career-sim-xi/) and [38-0-0 Pro Football GM Soccer](/apps/soccer-draft-gm-xi/)
+- Association football: [Football Career Soccer XI Sim](/apps/soccer-career-sim-xi/) and [Pro Football GM Club Soccer](/apps/soccer-draft-gm-xi/)
 - Basketball: [Basketball Career Sim](/apps/pro-basketball-my-career-sim/) and [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/)
 
 [Golf Career Simulator Pro Tour](/apps/golf-career-simulator/) is the one that has no manager counterpart, because golf has no team to manage — which makes it the purest version of the career format we build. [Its guide](/blog/golf-career-sim-guide/) is a good illustration of what a career sim looks like when the sport removes teammates from the equation entirely.

@@ -171,7 +171,7 @@ The workable approach is combining levers gradually, so that the total pressure 
 
 ## Where our games fit
 
-[Space Shooter - Galaxy Arcade](/apps/space-shooter-classic-arcade/) uses readable enemy patterns and four distinct abilities — main weapons, a secondary attack, a charged Ultimate and a Shield — so escalation is met with decisions rather than only with faster reactions. Its Endless Mode removes the finish line entirely.
+[Space Galaxy Attack Arcade](/apps/space-shooter-classic-arcade/) uses readable enemy patterns and four distinct abilities — main weapons, a secondary attack, a charged Ultimate and a Shield — so escalation is met with decisions rather than only with faster reactions. Its Endless Mode removes the finish line entirely.
 
 [Zombie Survival: Last Survivor](/apps/zombie-survival-last-survivor/) escalates on the quantity lever with movement as the only input, and counters it with mid-run level-ups that hand you a choice of upgrade on the spot.
 

@@ -165,7 +165,7 @@ This open-ended score contract is the oldest one in the genre — [Space Invader
 
 ## Where our games fit
 
-[Space Shooter - Galaxy Arcade](/apps/space-shooter-classic-arcade/) has four distinct resources — main weapons, a secondary attack, a charged Ultimate and a Shield — which makes the timing question explicit rather than incidental. Endless Mode removes the finish line, so the only measure left is how long your positioning holds.
+[Space Galaxy Attack Arcade](/apps/space-shooter-classic-arcade/) has four distinct resources — main weapons, a secondary attack, a charged Ultimate and a Shield — which makes the timing question explicit rather than incidental. Endless Mode removes the finish line, so the only measure left is how long your positioning holds.
 
 [Zombie Survival: Last Survivor](/apps/zombie-survival-last-survivor/) removes aiming entirely and makes movement the only input, which strips scoring down to positioning and build decisions. Its mid-run level-ups are the resource question in a different form — see [power-ups and build design](/blog/power-ups-and-build-design/).
 

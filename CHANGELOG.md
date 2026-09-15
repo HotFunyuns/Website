@@ -2,6 +2,82 @@
 
 All notable changes to the Reign Creative LLC website are documented here.
 
+## [1.2.0] — 2026-09-15
+
+### Search Console canonical fix + 100 new articles
+
+**Root cause of the 12 `Duplicate without user-selected canonical` exclusions.** `output: 'export'`
+writes an RSC flight payload at `out/<route>/index.txt` beside every page. GitHub Pages served all
+239 at HTTP 200 `text/plain` containing each page's full prose. A `text/plain` response cannot carry
+`<link rel="canonical">`, so each was a duplicate URL with no canonical — exactly what that Search
+Console bucket means. Confirmed live, and the discovery path was traced in Next's own router chunk
+(`pathname += "index.txt"` + `?_rsc=`, then `fetch()`).
+
+- **`scripts/postbuild-normalize-urls.mjs` (new)**: deletes every `out/**/index.txt` and the
+  `out/404/` soft-404 directory, keeping `out/404.html` (GitHub Pages' real 404 handler). Wired into
+  both `npm run build` and the deploy workflow. Verified in a driven browser that client-side
+  navigation, Back and Forward still work — the router falls back to a normal page load.
+- **`/apps/82-0-pro-basketball-draft/`**: shipped `og:url` pointing at the homepage while its
+  canonical pointed at the renamed app. Fixed with an explicit `openGraph.url`.
+- **`.github/workflows/deploy.yml` deleted.** It and `nextjs.yml` both deployed the same artifact on
+  every push, and pinned different `deploy-pages` versions.
+- **`public/_headers` deleted.** Netlify syntax, inert on this host, and itself served at
+  `/_headers` as a crawlable 200 advertising headers nobody sends.
+- **Category hubs de-duplicated**: `/blog/category/<id>/` and `/apps/category/<id>/` rendered an
+  identical `<h1>` and blurb, making the article hub a ~98% text subset of the app hub. The blog hub
+  now has its own heading and intro, and the app hub shows 6 article cards instead of the full list.
+- **New audit gates**: `audit-canonicals`, `audit-redirects`, `audit-duplicate-content`,
+  `audit-back-navigation`, `validate-sitemap-rss`. The back-navigation audit guards the
+  `location.replace()` fix that keeps the retired app URL out of session history.
+
+### Content — 175 → 275 articles
+
+- **100 new articles**, all published, each with a unique primary keyword, 2–5 internal article
+  links, a category link, an app link, 3+ FAQs and 3+ takeaways. Median length 1,171 words (was 928).
+- **53 of the 100 cover the 9 newly verified apps that had no coverage at all.**
+- **400 unique source URLs, every one verified reachable.** Several planned sources were rejected
+  rather than cited: Timeline Eons' listing 404s, CGC's pricing path 404s, Beckett redirects to a
+  maintenance page, and the ITF rules pages return 200 but serve a stub instead of the document.
+
+### App catalog — 29 → 39 apps
+
+- 10 apps added, each verified against its live signed-out Google Play listing.
+- 2 renamed: **Space Galaxy Attack Arcade** and **Pro Football GM Club Soccer**.
+- The soccer rename removed the "38-0-0" framing from the store listing, so the 38-game claim was
+  stripped from 12 existing articles. Real-football references to a 20-team league playing 38
+  matches were kept — those are independently true.
+- *BIG JACKPOT Casino Slots Games* excluded as **UNVERIFIED** (22 candidate package IDs probed, all
+  404); it is not marked "not published", because a Play-search miss does not prove absence.
+
+### Homepage
+
+- Hero floating icons replaced with 8 verified Production apps, CSS-only animation, explicit
+  dimensions for zero layout shift, `prefers-reduced-motion` honoured and animation paused when the
+  tab is hidden.
+
+### Performance
+
+- **`/blog/` was 2.65 MB**: `BlogExplorer` is a client component and was being handed full
+  `BlogPost` objects, serialising every article body into the page. Narrowed to a card-shaped
+  projection — 510 KB at 275 articles, where the old shape would have been roughly 4 MB.
+- `getRelatedPosts` raised from 3 to 6: 126 articles declared a 4th related article that was
+  authored, build-validated, and then silently discarded.
+
+### Documentation accuracy
+
+- **README's security section was materially false.** It claimed a "comprehensive set of security
+  headers" was live. Production sends **none** — verified with `curl -I`. It also claimed
+  `X-Frame-Options` and `X-Content-Type-Options` work as meta tags; they do not, so there is
+  currently no clickjacking protection. Rewritten to state what is actually served.
+- `Organization` schema gained `alternateName: "Reign Collective Apps"` — the real Play developer
+  name, previously unlinked to the legal entity.
+
+### Known, not fixed here (owner action)
+
+- **GitHub Pages "Enforce HTTPS" is OFF.** `http://reigncreativellc.com/` returns 200 with an
+  identical ETag rather than upgrading, so every page exists on two schemes. No code can change this.
+- Real HTTP security headers require a host that sends them (Cloudflare/Netlify/Vercel).
+
 ## [1.1.3] — 2026-06-02
 
 ### Privacy Policy — Data Retention Compliance Fix (Keto Tracker rejection)

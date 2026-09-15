@@ -1,4 +1,15 @@
-# Sample workflow for building and deploying a Next.js site to GitHub Pages
+# The single workflow that builds and deploys this site to GitHub Pages.
+#
+# There used to be two — this one and `deploy.yml` — both triggered by a push to
+# `main` and both sharing the `pages` concurrency group. Because the group is
+# repo-scoped, they did not race: they serialised, so every push ran two full
+# builds and two deployments of the same artifact, roughly doubling deploy time
+# (this site is ~230 pages), and whichever finished second was the one that
+# actually went live. They also pinned different `deploy-pages` versions (v4 and
+# v5), so which of the two won was not something the history made obvious.
+# `deploy.yml` was deleted; this file is the survivor because it is the one that
+# has been maintained (it restores the Next build cache and is on the current
+# action versions).
 #
 # To get started with Next.js see: https://nextjs.org/docs/getting-started
 #
@@ -77,6 +88,24 @@ jobs:
       # unpublished-content gate in scripts/validate-content.mjs also runs here.
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.manager }} run build
+
+      # Deletes the URL surfaces the export emits that GitHub Pages would serve
+      # at HTTP 200 with no possible canonical: the per-route RSC flight payload
+      # (`<route>/index.txt`, a text/plain copy of every page's prose) and the
+      # `404/` directory, a soft 404 duplicating the real `404.html` handler.
+      # Idempotent, so it is harmless if `npm run build` already ran it.
+      - name: Normalise published URLs
+        run: node scripts/postbuild-normalize-urls.mjs
+
+      # Canonicalisation is the only signal this host can send, so a broken
+      # canonical is a deploy-blocking defect rather than a warning. These read
+      # `out/` only and take a couple of seconds.
+      - name: Audit canonicals and URL surface
+        run: |
+          node scripts/audit-canonicals.mjs
+          node scripts/audit-redirects.mjs
+          node scripts/audit-duplicate-content.mjs
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

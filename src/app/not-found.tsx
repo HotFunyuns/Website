@@ -4,6 +4,18 @@ import GoldDivider from '@/components/GoldDivider';
 
 // Without this the 404 inherits the root layout's title, description and
 // `canonical: '/'`, so it reports itself as being the homepage.
+//
+// `canonical: null` is deliberate and must stay. On GitHub Pages this component
+// is built to `out/404.html`, which the host serves — with a genuine 404 status
+// — for every unknown path. One file answers for infinitely many URLs, so a
+// self-canonical would be false and a canonical to `/` would claim the
+// homepage. `noindex` is the correct signal for it, and is what keeps the page
+// out of the index without asserting a URL identity it does not have.
+//
+// The export also writes `out/404/index.html`, an identical copy that Pages
+// serves at HTTP 200 — a soft 404 duplicate with no canonical.
+// `scripts/postbuild-normalize-urls.mjs` deletes that directory after the
+// build; `out/404.html` itself is kept, because it is the handler.
 export const metadata: Metadata = {
   title: { absolute: 'Page Not Found — Reign Creative LLC' },
   description: 'This page does not exist or has moved.',

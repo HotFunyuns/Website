@@ -2,11 +2,12 @@
   "name": "reign-creative-llc-website",
   "version": "1.0.0",
   "private": true,
-  "description": "Official website for Reign Creative LLC \u2014 mobile apps and digital products",
+  "description": "Official website for Reign Creative LLC — mobile apps and digital products",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/validate-content.mjs",
+    "build": "node scripts/audit-catalog.mjs && next build && node scripts/validate-content.mjs && node scripts/postbuild-normalize-urls.mjs",
     "build:only": "next build",
+    "postbuild:urls": "node scripts/postbuild-normalize-urls.mjs",
     "start": "next start",
     "lint": "next lint",
     "audit:catalog": "node scripts/audit-catalog.mjs",
@@ -18,9 +19,15 @@
     "audit:schema": "node scripts/validate-structured-data.mjs",
     "audit:content": "node scripts/preflight-articles.mjs",
     "audit:sources": "node scripts/check-sources.mjs --bodies",
+    "audit:canonicals": "node scripts/audit-canonicals.mjs",
+    "audit:redirects": "node scripts/audit-redirects.mjs",
+    "audit:duplicates": "node scripts/audit-duplicate-content.mjs",
+    "audit:feeds": "node scripts/validate-sitemap-rss.mjs",
+    "audit:urls": "npm run audit:canonicals && npm run audit:redirects && npm run audit:duplicates && npm run audit:backnav",
     "verify:play": "node scripts/verify-play-listings.mjs",
     "research:intent": "node scripts/collect-search-intent.mjs",
-    "audit:all": "npm run audit:content && npm run audit:catalog && npm run audit:output && npm run audit:schema && npm run audit:analytics && npm run report:links"
+    "audit:all": "npm run audit:content && npm run audit:catalog && npm run audit:output && npm run audit:schema && npm run audit:analytics && npm run report:links && npm run audit:urls && npm run audit:feeds",
+    "audit:backnav": "node scripts/audit-back-navigation.mjs"
   },
   "dependencies": {
     "framer-motion": "^11.15.0",

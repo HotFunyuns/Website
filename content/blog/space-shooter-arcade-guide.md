@@ -56,7 +56,7 @@
       "answer": "An aimed shot is fired at wherever you were standing at the moment of firing, so almost any movement invalidates it — these punish players who stand still. A fixed pattern is fired the same way regardless of where you are, so movement alone does not help and you have to be positioned in a gap. Most waves mix the two, which is why advice like \"just keep moving\" and \"find the safe spot\" both fail when used on their own."
     },
     {
-      "question": "Is Space Shooter - Galaxy Arcade free?",
+      "question": "Is Space Galaxy Attack Arcade free?",
       "answer": "Yes, it is free to download on Google Play. It is supported by ads and offers optional in-app purchases, and it carries an Everyone content rating. Nothing about the core wave progression, ability set or Endless Mode is held behind a paywall."
     },
     {
@@ -109,7 +109,7 @@ Fairness in this genre is an information problem, not a numbers problem. A patte
 
 Break the first and the pattern is a surprise. Break the second and learning it is impossible, so every death is noise. Break the third and the game is technically survivable but only for a player who has already memorised it, which is the definition of a cheap shot.
 
-[Space Shooter - Galaxy Arcade](/apps/space-shooter-classic-arcade/) is built on the first two. Projectiles arrive in readable patterns, and movement and timing keep you alive far more reliably than raw firepower does. That is a design stance with a consequence: if you die, the information you needed was almost always on the screen, and the fix is attentional rather than mechanical.
+[Space Galaxy Attack Arcade](/apps/space-shooter-classic-arcade/) is built on the first two. Projectiles arrive in readable patterns, and movement and timing keep you alive far more reliably than raw firepower does. That is a design stance with a consequence: if you die, the information you needed was almost always on the screen, and the fix is attentional rather than mechanical.
 
 ### Watch what is about to fire, not what has already fired
 
@@ -175,7 +175,7 @@ Four runs, with one job each. This beats ten runs where you try to do everything
 
 ## Where it fits
 
-Space Shooter - Galaxy Arcade is free to download on Google Play, supported by ads, with optional in-app purchases and an Everyone content rating. Runs are short enough for a break and the controls take seconds to learn, which is the arcade bargain: trivial to start, deep enough to keep failing at.
+Space Galaxy Attack Arcade is free to download on Google Play, supported by ads, with optional in-app purchases and an Everyone content rating. Runs are short enough for a break and the controls take seconds to learn, which is the arcade bargain: trivial to start, deep enough to keep failing at.
 
 It sits in [Action & Arcade Games](/apps/category/action-arcade/) alongside a game built on the opposite premise — [Zombie Survival: Last Survivor](/apps/zombie-survival-last-survivor/) removes aiming entirely so that movement is the only input, and we wrote about [how its mid-run upgrade choices work](/blog/zombie-survival-roguelike-guide/) separately. If you want something with no reflex requirement at all, [the anime trivia guide](/blog/anime-trivia-quiz-guide/) covers the other end of our catalogue.
 

@@ -161,7 +161,7 @@ The practical version for a player: if a game's controls are fighting you, that 
 
 [Zombie Survival: Last Survivor](/apps/zombie-survival-last-survivor/) takes the most reduced position on the table above: weapons fire automatically and movement is the entire input. That makes the game about reading the field and choosing where to be — and it makes mid-run upgrade choices, covered in [power-ups and build design](/blog/power-ups-and-build-design/), the other half of the decision-making.
 
-[Space Shooter - Galaxy Arcade](/apps/space-shooter-classic-arcade/) sits further up: four distinct abilities — main weapons, a secondary attack, a charged Ultimate and a Shield — so resource timing is an explicit skill alongside positioning.
+[Space Galaxy Attack Arcade](/apps/space-shooter-classic-arcade/) sits further up: four distinct abilities — main weapons, a secondary attack, a charged Ultimate and a Shield — so resource timing is an explicit skill alongside positioning.
 
 Both are free to download on Google Play, supported by ads, with optional in-app purchases and Everyone content ratings.
 

@@ -26,7 +26,7 @@ export const animeCreativeApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'Fill, brush and erase',
@@ -128,7 +128,7 @@ export const animeCreativeApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'A deep question bank',
@@ -205,5 +205,108 @@ export const animeCreativeApps: AppInfo[] = [
     metaTitle: 'Anime Trivia & Word Games for Android',
     metaDescription:
       'Test your anime knowledge with trivia rounds, timed runs, survival streaks, word puzzles and daily challenges that track your streaks. Free on Google Play.',
+  },
+  {
+    slug: 'anime-casino-slots',
+    name: 'Anime Casino Slot Machine Game',
+    tagline: 'Twenty-five original anime and manga slot machines, all unlocked, all virtual coins.',
+    cardDescription:
+      'Twenty-five original anime and manga-themed slot machines with wilds, free spins, bonus rounds and jackpot meters — virtual coins only, no real-money gambling.',
+    longDescription: [
+      'Anime Casino Slot Machine Game is a social casino game: twenty-five original slot machines built around anime and manga art, played entirely with virtual coins. It does not offer real-money gambling, and coins cannot be transferred, sold or redeemed for money, merchandise or prizes. It is rated Teen on Google Play and is intended for an adult audience as entertainment.',
+      'Every machine is available from the start — there is no VIP lock keeping content behind a wall. The twenty-five slots differ in reel layout, volatility and mechanics: roaming wilds, split boards, expanding reels, cascading symbols, breakable layers, scrolling manga panels and interactive bonus games, each with its own artwork, music and symbol set. Five machines are built as manga pages with ink effects and page-turn bonus sequences; five more run a kawaii theme through cafés, pop festivals, dream clubs and prize worlds.',
+      'The presentation prioritises readability: decorative borders never cover the reels, paylines or controls, so the board stays legible while it animates. Mini, Major and Grand jackpot meters build locally as you play, and daily coins, gifts, player levels, experience and achievement rewards give a reason to come back without any of it involving real money.',
+    ],
+    category: 'Games · Slots',
+    categoryId: 'anime-creative',
+    schemaCategory: 'GameApplication',
+    playStoreUrl:
+      'https://play.google.com/store/apps/details?id=com.reigncreative.animecasinoslots',
+    packageId: 'com.reigncreative.animecasinoslots',
+    icon: '/icons/anime-casino-slots.webp',
+    iconSmall: '/icons/anime-casino-slots-sm.webp',
+    accent: 'from-crimson-600 to-ink-900',
+    playCategory: 'GAME_CASINO',
+    contentRating: 'Teen',
+    containsAds: true,
+    inAppPurchases: false,
+    free: true,
+    lastVerified: '2026-09-15',
+    features: [
+      {
+        title: '25 machines, none locked',
+        body: 'Every slot is playable from the start, each with its own artwork, music, symbols and reel mechanics.',
+      },
+      {
+        title: 'Varied reel mechanics',
+        body: 'Roaming wilds, split boards, expanding reels, cascading symbols, breakable layers and interactive bonus rounds change how each machine plays.',
+      },
+      {
+        title: 'Manga and kawaii sets',
+        body: 'Five manga machines use comic panels, ink effects and page-turn bonus sequences; five kawaii machines run cafés, festivals and prize worlds.',
+      },
+      {
+        title: 'Jackpot meters',
+        body: 'Mini, Major and Grand meters build locally as you spin, with celebration effects and no real-money prizes attached.',
+      },
+      {
+        title: 'Readable boards',
+        body: 'Decorative borders stay outside the reels, paylines and controls, so the game remains legible while it animates.',
+      },
+    ],
+    audience: [
+      'Adults who enjoy social casino games as entertainment',
+      'Anime and manga fans who want the art style on a slot machine',
+      'Players who dislike content locked behind a VIP tier',
+      'Anyone who wants short sessions with daily rewards',
+    ],
+    howItWorks: [
+      {
+        title: 'Pick a machine',
+        body: 'Choose from twenty-five original slots, each with a different theme, reel layout and volatility.',
+      },
+      {
+        title: 'Spin with virtual coins',
+        body: 'Match symbols, land wilds and trigger free spins or bonus rounds using entertainment currency only.',
+      },
+      {
+        title: 'Watch the meters',
+        body: 'Mini, Major and Grand jackpot meters build as you play, with celebration effects when one lands.',
+      },
+      {
+        title: 'Come back for the daily',
+        body: 'Daily coins, gifts, player levels and achievement rewards top up your balance between sessions.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is this real-money gambling?',
+        answer:
+          'No. It is an entertainment-only social casino game. It does not offer real-money gambling or opportunities to win money, merchandise or physical prizes, and virtual coins cannot be transferred, sold or redeemed.',
+      },
+      {
+        question: 'Is Anime Casino Slot Machine Game free?',
+        answer:
+          'Yes, it is free to download on Google Play and supported by ads.',
+      },
+      {
+        question: 'Are any machines locked?',
+        answer:
+          'No. All twenty-five slots are playable for everyone. The VIP tier changes the surrounding interface theme and removes ads; it does not lock any anime or manga machine.',
+      },
+      {
+        question: 'Who is it intended for?',
+        answer:
+          'It is rated Teen on Google Play and is intended for an adult audience for entertainment purposes. Success in these slots does not imply future success in real-money gambling.',
+      },
+      {
+        question: 'Are the themes based on existing anime series?',
+        answer:
+          'No. All twenty-five machines use original themes and artwork, unaffiliated with any existing franchise.',
+      },
+    ],
+    metaTitle: 'Anime Casino Slot Machine Game for Android',
+    metaDescription:
+      '25 original anime and manga slot machines with wilds, free spins, bonus rounds and jackpot meters. Virtual coins only — no real-money gambling.',
   },
 ];

@@ -166,7 +166,7 @@ We make one of each, which is why this comparison is worth making honestly.
 
 [Zombie Survival: Last Survivor](/apps/zombie-survival-last-survivor/) is the horde survival shape: continuous pressure, weapons that fire automatically, movement as the entire input, and mid-run level-ups that hand you a choice between weapon boosts, damage increases, survival upgrades or a special ability while the fight continues.
 
-[Space Shooter - Galaxy Arcade](/apps/space-shooter-classic-arcade/) is closer to the wave shape: readable enemy patterns arriving in structured groups, four distinct abilities to time, and bosses that ask you to learn a rotation. Its Endless Mode removes the finish line while keeping the wave rhythm.
+[Space Galaxy Attack Arcade](/apps/space-shooter-classic-arcade/) is closer to the wave shape: readable enemy patterns arriving in structured groups, four distinct abilities to time, and bosses that ask you to learn a rotation. Its Endless Mode removes the finish line while keeping the wave rhythm.
 
 Both are free to download on Google Play, supported by ads, with optional in-app purchases and Everyone content ratings.
 

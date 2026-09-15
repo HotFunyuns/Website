@@ -52,7 +52,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: companyInfo.siteUrl,
+    // This is the homepage's own og:url, and it matches the homepage canonical
+    // exactly. Next.js replaces the whole `openGraph` object when a page
+    // declares one, so this value is also inherited by any page that declares
+    // none — and such a page then announces og:url of the homepage while its
+    // `<link rel="canonical">` says something else. The legacy
+    // /apps/82-0-pro-basketball-draft/ alias shipped exactly that contradiction.
+    // Every page that sets a canonical must therefore set its own og:url;
+    // scripts/audit-output.mjs fails the build when the two disagree.
+    url: `${companyInfo.siteUrl}/`,
     siteName: 'Reign Creative LLC',
     title: 'Reign Creative LLC — Premium Mobile Apps for Android',
     description:
@@ -80,7 +88,17 @@ const organizationSchema = {
   '@type': 'Organization',
   '@id': `${companyInfo.siteUrl}/#organization`,
   name: companyInfo.name,
-  url: companyInfo.siteUrl,
+  // The studio publishes on Google Play as "Reign Collective Apps" while the
+  // legal entity is "Reign Creative LLC". Both names are real and both are
+  // visible to a reader — the Play name on every app page and store listing —
+  // so stating the link here is describing the entity, not decorating it. Two
+  // unlinked names for one publisher is exactly the ambiguity that stops a
+  // search or answer engine consolidating them.
+  alternateName: companyInfo.developerName,
+  // Trailing slash so this is byte-identical to the homepage canonical. The two
+  // forms resolve to the same resource, but every URL we publish about ourselves
+  // should be spelled one way.
+  url: `${companyInfo.siteUrl}/`,
   logo: `${companyInfo.siteUrl}/favicon.svg`,
   email: companyInfo.supportEmail,
   description: companyInfo.description,
@@ -99,8 +117,12 @@ const websiteSchema = {
   '@type': 'WebSite',
   '@id': `${companyInfo.siteUrl}/#website`,
   name: companyInfo.name,
-  url: companyInfo.siteUrl,
+  url: `${companyInfo.siteUrl}/`,
+  inLanguage: 'en-US',
   publisher: { '@id': `${companyInfo.siteUrl}/#organization` },
+  // No `potentialAction`/SearchAction: the site has no search endpoint, and a
+  // sitelinks-searchbox action pointing at a URL that does not exist would be
+  // structured data describing something the site cannot do.
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

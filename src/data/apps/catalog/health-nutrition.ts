@@ -26,7 +26,7 @@ export const healthNutritionApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'Protein, calories and macros together',
@@ -133,7 +133,7 @@ export const healthNutritionApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: false,
     free: true,
-    lastVerified: '2026-09-03',
+    lastVerified: '2026-09-15',
     features: [
       {
         title: 'Net carbs worked out for you',
@@ -215,5 +215,107 @@ export const healthNutritionApps: AppInfo[] = [
     metaTitle: 'Keto Diet Tracker: Low Carb for Android',
     metaDescription:
       'Log net carbs without the math, with fiber and sweeteners subtracted for you, plus a barcode scanner, food database and ketone log. Free on Google Play.',
+  },
+  {
+    slug: 'easy-recipes-meal-planner',
+    name: 'Easy Recipes & Meal Planner',
+    tagline: 'Plan the week, cook from what is already in the cupboard, and see the macros while you do it.',
+    cardDescription:
+      'Recipes with step-by-step directions, a weekly meal planner, a pantry tracker, and nutrition that scales with your serving size.',
+    longDescription: [
+      'Easy Recipes & Meal Planner puts four things that usually live in four different apps into one: a recipe collection, a weekly planner, an ingredient inventory and nutrition information. The point of the combination is that they feed each other — the planner knows what you own, and cooking a planned recipe can update what you own.',
+      'Recipes come with clear ingredients and step-by-step directions, and can be browsed by meal type, cuisine and dietary preference. Every recipe starts at a practical one-person serving and scales up, with ingredient quantities and available nutrition — calories plus protein, carbohydrates and fat — adjusting with the serving size rather than staying fixed at whatever the author cooked.',
+      'The pantry tracker is the part that changes how you shop. It keeps a list of what is in your kitchen, surfaces recipe ideas based on ingredients you already have, and shows what is missing before you commit to a meal. Alongside it, dietary preferences filter discovery, and an allergy log lets you record reactions with notes and timestamps so recipes can be flagged when an ingredient matches something you recorded.',
+    ],
+    category: 'Food & Nutrition',
+    categoryId: 'health-nutrition',
+    schemaCategory: 'LifestyleApplication',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.reigncreative.easyrecipes',
+    packageId: 'com.reigncreative.easyrecipes',
+    icon: '/icons/easy-recipes-meal-planner.webp',
+    iconSmall: '/icons/easy-recipes-meal-planner-sm.webp',
+    accent: 'from-gold-400 to-crimson-500',
+    playCategory: 'FOOD_AND_DRINK',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: true,
+    free: true,
+    lastVerified: '2026-09-15',
+    features: [
+      {
+        title: 'Weekly meal planner',
+        body: 'Add recipes to breakfast, lunch, dinner and snack slots so the week is decided before it gets busy.',
+      },
+      {
+        title: 'Pantry tracker',
+        body: 'Keep an inventory of what is in the kitchen, find recipes that use it, and see what is missing before you shop.',
+      },
+      {
+        title: 'Servings that scale properly',
+        body: 'Recipes start at one serving and scale up, with ingredient amounts and nutrition adjusting to match.',
+      },
+      {
+        title: 'Calories and macros',
+        body: 'View calories along with protein, carbohydrates and fat for supported recipes, at the serving size you are actually cooking.',
+      },
+      {
+        title: 'Allergy log and flags',
+        body: 'Record allergies and previous reactions with notes and timestamps, and get recipe flags when an ingredient matches one you logged.',
+      },
+    ],
+    audience: [
+      'Home cooks who want the week planned in one sitting',
+      'People trying to cook what they already bought instead of shopping again',
+      'Anyone tracking calories or macros while still cooking real meals',
+      'Households managing allergies or specific dietary preferences',
+    ],
+    howItWorks: [
+      {
+        title: 'Find recipes',
+        body: 'Browse by meal type, cuisine or dietary preference and save the ones you would genuinely cook.',
+      },
+      {
+        title: 'Plan the week',
+        body: 'Drop recipes into breakfast, lunch, dinner and snack slots so you are not deciding at six in the evening.',
+      },
+      {
+        title: 'Check the pantry',
+        body: 'Match the plan against your ingredient inventory to see what you have and what still needs buying.',
+      },
+      {
+        title: 'Cook and update',
+        body: 'Set the serving size, follow the steps, and let the app keep your kitchen list current as you go.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Easy Recipes & Meal Planner free?',
+        answer:
+          'Yes, it is free to download on Google Play. It is supported by ads, and Google Play lists in-app purchases.',
+      },
+      {
+        question: 'Does the nutrition change when I cook for more people?',
+        answer:
+          'Yes. Recipes start at a one-person serving and ingredient quantities and available nutrition information scale with the serving size you choose.',
+      },
+      {
+        question: 'How does the pantry tracker help?',
+        answer:
+          'It keeps a list of what is in your kitchen, suggests recipes that use those ingredients, and shows what is missing, which cuts down on buying things you already own.',
+      },
+      {
+        question: 'Can it handle food allergies?',
+        answer:
+          'You can log allergies and previous reactions with notes and timestamps, and recipes are flagged when an ingredient may match something you recorded. Always confirm ingredients and food labels for your own needs.',
+      },
+      {
+        question: 'Is nutrition information available for every recipe?',
+        answer:
+          'Calories and macros are shown for supported recipes. Where a recipe has no nutrition data available, the app does not estimate one for it.',
+      },
+    ],
+    metaTitle: 'Easy Recipes & Meal Planner for Android',
+    metaDescription:
+      'Plan a week of meals, track what is in your pantry, and see calories and macros that scale with your serving size. Free on Google Play.',
   },
 ];

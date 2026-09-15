@@ -25,4 +25,11 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
+# No Disallow rules, deliberately. Duplicate URLs on this site are resolved by
+# removing the duplicate file or by the <link rel="canonical"> in the page, not
+# here: a blocked URL is a URL Google can never recrawl, so it never sees the
+# 404 or the canonical that would actually resolve the duplicate, and an
+# already-indexed URL can stay indexed with no snippet instead of dropping out.
+# See docs/url-normalization-audit.md before adding a rule below.
+
 Sitemap: https://reigncreativellc.com/sitemap.xml

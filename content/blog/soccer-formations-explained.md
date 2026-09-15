@@ -78,7 +78,7 @@
     },
     {
       "question": "Do these games use real clubs and players?",
-      "answer": "No. 38-0-0 Pro Football GM Soccer is a fictional simulation, and it is not affiliated with, endorsed by or connected to any real league, club or player. The players you draft are generated inside the game, which is precisely why judging position fit and playing style is the skill it asks for."
+      "answer": "No. Pro Football GM Club Soccer is a fictional simulation, and it is not affiliated with, endorsed by or connected to any real league, club or player. The players you draft are generated inside the game, which is precisely why judging position fit and playing style is the skill it asks for."
     }
   ],
   "sources": [
@@ -190,7 +190,7 @@ The most common mistake is picking a formation you admire and then trying to for
 
 Work in the other direction. Ask which of your players are genuinely capable of the demanding roles — the wing-back who has to cover a whole flank, the lone holder who has to screen a whole defence, the keeper who has to defend space — and rule out any shape that depends on a role you cannot fill. What is left is your real menu, and a plain shape executed properly beats a fashionable one that leaks.
 
-This is exactly the puzzle [38-0-0 Pro Football GM Soccer](/apps/soccer-draft-gm-xi/) is built around. Drafting there works across every position on the pitch, weighing position fit and playing style rather than stacking the highest ratings, and position fit, style and squad balance all feed the result. The club management side adds formations, squad depth, transfers, contracts, fitness and season progress for anyone who wants to run a longer save rather than a single draft.
+This is exactly the puzzle [Pro Football GM Club Soccer](/apps/soccer-draft-gm-xi/) is built around. Drafting there works across every position on the pitch, weighing position fit and playing style rather than stacking the highest ratings, and position fit, style and squad balance all feed the result. The club management side adds formations, squad depth, transfers, contracts, fitness and season progress for anyone who wants to run a longer save rather than a single draft.
 
 The practical drafting habit that follows: decide the shape before you spend picks, then judge every option by whether it can do the specific job you need in that structure. A high rating in the wrong role is a rating you are not going to collect.
 

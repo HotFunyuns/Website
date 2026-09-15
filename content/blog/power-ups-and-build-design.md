@@ -163,7 +163,7 @@ A design question that changes the experience substantially:
 
 Neither is better. They produce different relationships with failure: run-only makes a loss a clean reset, persistent makes it a partial gain.
 
-Our two arcade games sit on opposite sides of this, which makes them a useful comparison. [Zombie Survival: Last Survivor](/apps/zombie-survival-last-survivor/) assembles its build inside the run: experience collected during a stage levels you up mid-fight and offers a choice between weapon boosts, damage increases, survival upgrades or a special ability. [Space Shooter - Galaxy Arcade](/apps/space-shooter-classic-arcade/) does the opposite — rewards earned during a run go into weapons, unlocked upgrades, ship systems and bonuses you choose, so the ship you launch with next time is a different ship.
+Our two arcade games sit on opposite sides of this, which makes them a useful comparison. [Zombie Survival: Last Survivor](/apps/zombie-survival-last-survivor/) assembles its build inside the run: experience collected during a stage levels you up mid-fight and offers a choice between weapon boosts, damage increases, survival upgrades or a special ability. [Space Galaxy Attack Arcade](/apps/space-shooter-classic-arcade/) does the opposite — rewards earned during a run go into weapons, unlocked upgrades, ship systems and bonuses you choose, so the ship you launch with next time is a different ship.
 
 Same shelf, opposite answers to "what does a loss leave behind".
 

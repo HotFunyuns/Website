@@ -162,7 +162,7 @@ A file that falls back to software decoding will drain a battery far faster than
 
 ## Where our games fit
 
-[Space Shooter - Galaxy Arcade](/apps/space-shooter-classic-arcade/) and [Zombie Survival: Last Survivor](/apps/zombie-survival-last-survivor/) are both built around short sessions and simple control schemes — [touch controls and auto-fire](/blog/auto-fire-and-touch-controls/) covers the design reasoning — which suits phone play, though as above, session length is a design property rather than a guarantee about power use.
+[Space Galaxy Attack Arcade](/apps/space-shooter-classic-arcade/) and [Zombie Survival: Last Survivor](/apps/zombie-survival-last-survivor/) are both built around short sessions and simple control schemes — [touch controls and auto-fire](/blog/auto-fire-and-touch-controls/) covers the design reasoning — which suits phone play, though as above, session length is a design property rather than a guarantee about power use.
 
 Both are free to download on Google Play, supported by ads, with optional in-app purchases and Everyone content ratings. Ad delivery uses the network periodically, which is worth knowing if you are managing data or battery deliberately — [why free Android games show ads](/blog/why-free-android-games-show-ads/) covers that model.
 

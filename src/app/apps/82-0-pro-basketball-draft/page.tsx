@@ -14,6 +14,21 @@ export const metadata: Metadata = {
   title: CURRENT_NAME,
   description: `This app is now ${CURRENT_NAME}. Visit the current app page for details and the free Google Play download.`,
   alternates: { canonical: `${companyInfo.siteUrl}${NEW_PATH}` },
+  // Every URL this page states must be the replacement, never this retired URL
+  // and never the site root. Stating `og:url` explicitly is what stops that:
+  // when a page declares no `openGraph` of its own it inherits the root
+  // layout's, and this page previously shipped `og:url` of the homepage next to
+  // a canonical pointing at the app — two different answers to "what page is
+  // this?", which is precisely the ambiguity that makes Google pick its own
+  // canonical. Verified live before the fix at
+  // https://reigncreativellc.com/apps/82-0-pro-basketball-draft/.
+  openGraph: {
+    type: 'website',
+    siteName: companyInfo.name,
+    title: CURRENT_NAME,
+    description: `This app is now ${CURRENT_NAME}. Visit the current app page for details and the free Google Play download.`,
+    url: `${companyInfo.siteUrl}${NEW_PATH}`,
+  },
   // Deliberately no `noindex`. GitHub Pages cannot serve a 301, so this
   // canonical plus the client-side replace below are the redirect. Adding
   // noindex on top would stop that pair being processed and strand whatever the

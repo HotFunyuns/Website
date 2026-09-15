@@ -74,7 +74,7 @@
     },
     {
       "question": "Which one should I start with?",
-      "answer": "Start with whichever style gives you readable patterns rather than the one that looks impressive, because the skill you need first is reading, not dodging. Space Shooter - Galaxy Arcade sits on the readable side: projectiles arrive in patterns you can learn, and movement and timing keep you alive more reliably than firepower does. It is free to download on Google Play with ads and optional in-app purchases."
+      "answer": "Start with whichever style gives you readable patterns rather than the one that looks impressive, because the skill you need first is reading, not dodging. Space Galaxy Attack Arcade sits on the readable side: projectiles arrive in patterns you can learn, and movement and timing keep you alive more reliably than firepower does. It is free to download on Google Play with ads and optional in-app purchases."
     }
   ],
   "sources": [
@@ -175,7 +175,7 @@ Danmaku typically adds a second, spendable resource — a screen-clearing panic 
 
 There is a well-documented psychological trap attached to any charged resource: you save it for a moment worthy of it, and the moment that finally qualifies is the one that already killed you. Whatever a given game calls its defensive option, it is worth nothing while it sits unused.
 
-[Space Shooter - Galaxy Arcade](/apps/space-shooter-classic-arcade/) puts four distinct answers on the screen rather than one — FIRE for the main weapons, ALT for a secondary attack, a charged Ultimate, and a Shield that protects you while it holds. That structure sits closer to the classic side of the divide in feel, with the modern habit of making resource timing an explicit skill rather than an afterthought.
+[Space Galaxy Attack Arcade](/apps/space-shooter-classic-arcade/) puts four distinct answers on the screen rather than one — FIRE for the main weapons, ALT for a secondary attack, a charged Ultimate, and a Shield that protects you while it holds. That structure sits closer to the classic side of the divide in feel, with the modern habit of making resource timing an explicit skill rather than an afterthought.
 
 ## Scoring: where both subgenres get strange
 

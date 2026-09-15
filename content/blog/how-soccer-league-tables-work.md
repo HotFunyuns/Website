@@ -79,7 +79,7 @@
     },
     {
       "question": "Do simulated league results describe any real competition?",
-      "answer": "No. 38-0-0 Pro Football GM Soccer is a fictional simulation and is not affiliated with, endorsed by or connected to any real league, club or player. The records it produces are outputs of its own model applied to players it generated, and they are not forecasts, predictions or guidance about anything outside the game."
+      "answer": "No. Pro Football GM Club Soccer is a fictional simulation and is not affiliated with, endorsed by or connected to any real league, club or player. The records it produces are outputs of its own model applied to players it generated, and they are not forecasts, predictions or guidance about anything outside the game."
     }
   ],
   "sources": []
@@ -175,7 +175,7 @@ Three habits improve your reading immediately.
 
 ## What a perfect record looks like in a simulation
 
-[38-0-0 Pro Football GM Soccer](/apps/soccer-draft-gm-xi/) is built around a 38-game campaign scored in wins, draws and losses, and around the perfect version of it: 38 wins, no draws, no defeats. Under the three-point scheme above, that is 38 × 3 = 114 points and a season with nothing dropped.
+[Pro Football GM Club Soccer](/apps/soccer-draft-gm-xi/) is built around a league campaign scored in wins, draws and losses, and around the perfect version of it: every match won, none drawn, none lost. Under the three-point scheme above, a perfect campaign drops nothing at all — which, as the arithmetic above shows, is a far narrower target than simply going unbeaten.
 
 The reason the target is set there rather than somewhere gentler is that it makes the shortfall informative. A campaign that comes back with a handful of draws is telling you where the squad was merely adequate, and adequate is where drawn matches come from. Balance across the XI — position fit and playing style, not simply the highest ratings — is what closes that gap, and it is the same lesson the [soccer formations guide](/blog/soccer-formations-explained/) reaches from the tactical side.
 

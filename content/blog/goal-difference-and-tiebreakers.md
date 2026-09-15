@@ -150,7 +150,7 @@ The defensive half of goal difference is also a topic in its own right; [clean s
 
 ## In a simulation
 
-In [38-0-0 Pro Football GM Soccer](/apps/soccer-draft-gm-xi/), a season is scored in wins, draws and losses, and the ordering criteria behave as described above. That has one practical consequence for squad building: **a team built to win narrowly and one built to win heavily finish differently on the same points.**
+In [Pro Football GM Club Soccer](/apps/soccer-draft-gm-xi/), a season is scored in wins, draws and losses, and the ordering criteria behave as described above. That has one practical consequence for squad building: **a team built to win narrowly and one built to win heavily finish differently on the same points.**
 
 If your squad concedes little and scores little, you will find yourself losing tiebreakers you feel you deserved. If it does both freely, your goal difference will be volatile — excellent in the seasons where the goals land your way and poor when they do not.
 

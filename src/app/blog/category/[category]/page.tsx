@@ -100,10 +100,22 @@ export default function BlogCategoryPage({ params }: { params: { category: strin
             <p className="eyebrow">
               {categoryPosts.length} {categoryPosts.length === 1 ? 'article' : 'articles'}
             </p>
+            {/*
+              Deliberately NOT `{category.label}` and NOT `category.blurb`.
+              This page and /apps/category/<id>/ used to render an identical H1
+              and the identical blurb, which made the article hub a near-total
+              text subset of the app hub — the shape that gets one of a pair
+              dropped as a duplicate. The two hubs answer different questions,
+              so they now say so: this one is the reading list, that one is the
+              app list.
+            */}
             <h1 className="display-title mt-5 text-balance text-4xl leading-[1.1] sm:text-5xl">
-              {category.label}
+              {category.shortLabel} guides
             </h1>
-            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink-500">{category.blurb}</p>
+            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink-500">
+              Every article we have published on {category.shortLabel} — how these apps work, the
+              decisions behind them, and where their limits are.
+            </p>
             {appsInCategory > 0 && (
               <p className="mt-4 text-sm text-ink-500">
                 Covering{' '}

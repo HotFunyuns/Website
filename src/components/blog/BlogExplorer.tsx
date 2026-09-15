@@ -3,8 +3,7 @@
 import { useId, useMemo, useState } from 'react';
 import { motion, AnimatePresence, MotionConfig } from 'framer-motion';
 import Link from 'next/link';
-import type { BlogPost } from '@/lib/blog/types';
-import BlogCard from './BlogCard';
+import BlogCard, { type BlogCardPost } from './BlogCard';
 
 interface Filter {
   id: string;
@@ -12,7 +11,18 @@ interface Filter {
   count: number;
 }
 
-export default function BlogExplorer({ posts, filters }: { posts: BlogPost[]; filters: Filter[] }) {
+/**
+ * Takes card-shaped posts, never whole `BlogPost` objects: this is a client
+ * component, so whatever it receives is serialised into the page. See the note
+ * on `BlogCardPost`.
+ */
+export default function BlogExplorer({
+  posts,
+  filters,
+}: {
+  posts: BlogCardPost[];
+  filters: Filter[];
+}) {
   const [filter, setFilter] = useState('all');
   const [query, setQuery] = useState('');
   const searchId = useId();

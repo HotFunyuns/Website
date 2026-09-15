@@ -158,6 +158,6 @@ Practical guidance for a first career:
 
 ## From the other side of the touchline
 
-If you would rather select the eleven than be one of them, [38-0-0 Pro Football GM Soccer](/apps/soccer-draft-gm-xi/) is the squad-building version, and [the soccer draft XI guide](/blog/soccer-draft-xi-guide/) covers assembling a balanced starting eleven from a generated pool. [How soccer league tables work](/blog/how-soccer-league-tables-work/) covers how the season those players play is scored.
+If you would rather select the eleven than be one of them, [Pro Football GM Club Soccer](/apps/soccer-draft-gm-xi/) is the squad-building version, and [the soccer draft XI guide](/blog/soccer-draft-xi-guide/) covers assembling a balanced starting eleven from a generated pool. [How soccer league tables work](/blog/how-soccer-league-tables-work/) covers how the season those players play is scored.
 
 Every club, competition and player in our games is fictional. The rest of the catalogue is under [sports career and GM games](/apps/category/sports-gm/).

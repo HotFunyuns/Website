@@ -166,6 +166,6 @@ Every club, competition and player is fictional. Results are outputs of a model 
 
 ## The other side of the same sport
 
-If you would rather build the eleven than play in it, [38-0-0 Pro Football GM Soccer](/apps/soccer-draft-gm-xi/) is the drafting and management version — [the soccer draft XI guide](/blog/soccer-draft-xi-guide/) covers building a squad rather than a career. For the same career shape in a different sport, [Hockey Career Sim 2026](/apps/hockey-career-sim/) and [its guide](/blog/hockey-career-sim-guide/) are the closest match.
+If you would rather build the eleven than play in it, [Pro Football GM Club Soccer](/apps/soccer-draft-gm-xi/) is the drafting and management version — [the soccer draft XI guide](/blog/soccer-draft-xi-guide/) covers building a squad rather than a career. For the same career shape in a different sport, [Hockey Career Sim 2026](/apps/hockey-career-sim/) and [its guide](/blog/hockey-career-sim-guide/) are the closest match.
 
 All of it is listed under [sports career and GM games](/apps/category/sports-gm/). Football Career Soccer XI Sim is free to download on Google Play, supported by ads, with optional in-app purchases and an Everyone content rating.

@@ -141,9 +141,9 @@ Not a league table — a description of session shape, so you can match one to y
 
 ### Soccer: a draft that fits a gap, and a save that does not have to
 
-[38-0-0 Pro Football GM Soccer](/apps/soccer-draft-gm-xi/) is explicit about running at two speeds. A draft and simulation fits comfortably into a short session, while club management and season progress are there when you want a longer save.
+[Pro Football GM Club Soccer](/apps/soccer-draft-gm-xi/) is explicit about running at two speeds. A draft and simulation fits comfortably into a short session, while club management and season progress are there when you want a longer save.
 
-The short-session version is a complete loop: draft across every position on the pitch, weighing position fit and playing style rather than stacking ratings, then run the 38-game campaign and read the wins, draws and losses. Limited drafts and budget challenges shorten it further by constraining the search. The longer version — formations, squad depth, transfers, contracts, fitness and season progress — is the evening game, and quizzes, player guessing and daily challenges sit in between as single-decision filler. The [soccer draft XI guide](/blog/soccer-draft-xi-guide/) covers the squad-building side, and [formations explained](/blog/soccer-formations-explained/) covers the shape you are drafting into.
+The short-session version is a complete loop: draft across every position on the pitch, weighing position fit and playing style rather than stacking ratings, then run the campaign and read the wins, draws and losses. Limited drafts and budget challenges shorten it further by constraining the search. The longer version — formations, squad depth, transfers, contracts, fitness and season progress — is the evening game, and quizzes, player guessing and daily challenges sit in between as single-decision filler. The [soccer draft XI guide](/blog/soccer-draft-xi-guide/) covers the squad-building side, and [formations explained](/blog/soccer-formations-explained/) covers the shape you are drafting into.
 
 ### Football: four rulesets, one clear verdict
 
