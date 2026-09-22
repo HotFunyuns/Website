@@ -40,6 +40,9 @@
   "relatedApps": [
     "mental-math-memory-games"
   ],
+  "hubs": [
+    "memory-and-attention"
+  ],
   "relatedArticles": [
     "mental-math-training-guide",
     "mental-math-tricks-that-work",

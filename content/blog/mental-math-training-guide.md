@@ -8,7 +8,13 @@
   "updatedAt": "2026-08-09",
   "author": "Reign Creative Team",
   "category": "education-brain",
-  "tags": ["mental math", "arithmetic", "study methods", "brain training", "android apps"],
+  "tags": [
+    "mental math",
+    "arithmetic",
+    "study methods",
+    "brain training",
+    "android apps"
+  ],
   "primaryKeyword": "mental math practice app",
   "secondaryKeywords": [
     "mental math tricks that work",
@@ -32,8 +38,15 @@
     "Does mental math practice make you smarter?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["mental-math-memory-games"],
-  "relatedArticles": ["world-history-timeline-guide"],
+  "relatedApps": [
+    "mental-math-memory-games"
+  ],
+  "hubs": [
+    "mental-math"
+  ],
+  "relatedArticles": [
+    "world-history-timeline-guide"
+  ],
   "takeaways": [
     "Practice reliably makes you faster and more accurate at the thing you practise — that is a narrow claim, it is the honest one, and arithmetic fluency is worth having on its own terms.",
     "Almost every mental arithmetic method is one of three ideas: move to a round number and compensate, break a number apart and recombine, or replace an operation with an easier equivalent.",

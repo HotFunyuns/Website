@@ -43,7 +43,9 @@
     "basketball-positions-explained",
     "how-to-build-a-balanced-basketball-roster",
     "basketball-draft-gm-guide",
-    "plus-minus-and-hockey-stats"
+    "plus-minus-and-hockey-stats",
+    "college-recruiting-in-basketball-career-mode",
+    "player-body-metrics-in-career-sims"
   ],
   "takeaways": [
     "Almost every advanced basketball statistic is correcting for one of two things: pace, or opportunity.",

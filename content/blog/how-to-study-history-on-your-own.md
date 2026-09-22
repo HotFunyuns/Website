@@ -8,7 +8,12 @@
   "updatedAt": "2026-09-15",
   "author": "Reign Creative Team",
   "category": "education-brain",
-  "tags": ["world history", "study skills", "self study", "workflow"],
+  "tags": [
+    "world history",
+    "study skills",
+    "self study",
+    "workflow"
+  ],
   "primaryKeyword": "how to study history on your own",
   "secondaryKeywords": [
     "how to study history effectively",
@@ -33,7 +38,12 @@
     "How do you check a history source?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["world-history-timeline-sim"],
+  "relatedApps": [
+    "world-history-timeline-sim"
+  ],
+  "hubs": [
+    "history-learning-methods"
+  ],
   "relatedArticles": [
     "primary-vs-secondary-sources",
     "how-to-remember-historical-dates",

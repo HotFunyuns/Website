@@ -41,6 +41,9 @@
   "relatedApps": [
     "world-history-timeline-sim"
   ],
+  "hubs": [
+    "world-history-timelines"
+  ],
   "relatedArticles": [
     "mental-math-training-guide"
   ],

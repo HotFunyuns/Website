@@ -44,7 +44,8 @@
     "google-play-data-safety-explained",
     "why-free-android-games-show-ads",
     "android-video-player-guide",
-    "battery-and-performance-in-mobile-games"
+    "battery-and-performance-in-mobile-games",
+    "picture-in-picture-on-android"
   ],
   "takeaways": [
     "Android divides permissions into install-time, runtime and special categories, and they differ in how they are granted.",

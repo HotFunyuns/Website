@@ -39,6 +39,9 @@
   "relatedApps": [
     "mental-math-memory-games"
   ],
+  "hubs": [
+    "memory-and-attention"
+  ],
   "relatedArticles": [
     "working-memory-and-training",
     "spaced-repetition-for-language-learning",

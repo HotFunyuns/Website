@@ -44,7 +44,8 @@
     "how-soccer-league-tables-work",
     "clean-sheets-explained",
     "soccer-formations-explained",
-    "soccer-draft-xi-guide"
+    "soccer-draft-xi-guide",
+    "press-conferences-in-career-mode"
   ],
   "takeaways": [
     "Goal difference is goals scored minus goals conceded across the whole competition — a single number summarising both halves of a season.",

@@ -41,6 +41,9 @@
     "learn-italian",
     "protein-diet-tracker"
   ],
+  "hubs": [
+    "brain-training-games"
+  ],
   "relatedArticles": [
     "memory-techniques-that-work",
     "spaced-repetition-for-language-learning",

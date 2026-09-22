@@ -8,7 +8,12 @@
   "updatedAt": "2026-09-15",
   "author": "Reign Creative Team",
   "category": "language-learning",
-  "tags": ["malay", "difficulty", "faq", "beginner"],
+  "tags": [
+    "malay",
+    "difficulty",
+    "faq",
+    "beginner"
+  ],
   "primaryKeyword": "is malay easy to learn",
   "secondaryKeywords": [
     "is malay easy to learn for english speakers",
@@ -33,12 +38,15 @@
     "Is Malay easier than Thai or Vietnamese?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["learn-malay"],
+  "relatedApps": [
+    "learn-malay"
+  ],
   "relatedArticles": [
     "learn-malay-beginners-guide",
     "malay-affixes-guide",
     "is-vietnamese-hard-to-learn",
-    "should-i-learn-malay-or-indonesian"
+    "should-i-learn-malay-or-indonesian",
+    "malay-reduplication-explained"
   ],
   "takeaways": [
     "Malay is unusually easy to start and ordinary to continue, which is why the reputation and the experience of learners diverge around month three.",

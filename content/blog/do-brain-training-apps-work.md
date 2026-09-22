@@ -8,7 +8,12 @@
   "updatedAt": "2026-09-15",
   "author": "Reign Creative Team",
   "category": "education-brain",
-  "tags": ["brain training", "evidence", "memory", "faq"],
+  "tags": [
+    "brain training",
+    "evidence",
+    "memory",
+    "faq"
+  ],
   "primaryKeyword": "do brain training apps work",
   "secondaryKeywords": [
     "brain training apps that actually work",
@@ -33,7 +38,12 @@
     "Are free brain training apps any good?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["mental-math-memory-games"],
+  "relatedApps": [
+    "mental-math-memory-games"
+  ],
+  "hubs": [
+    "brain-training-games"
+  ],
   "relatedArticles": [
     "working-memory-and-training",
     "memory-techniques-that-work",

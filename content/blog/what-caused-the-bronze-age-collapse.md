@@ -8,7 +8,12 @@
   "updatedAt": "2026-09-15",
   "author": "Reign Creative Team",
   "category": "education-brain",
-  "tags": ["world history", "bronze age", "ancient history", "faq"],
+  "tags": [
+    "world history",
+    "bronze age",
+    "ancient history",
+    "faq"
+  ],
   "primaryKeyword": "what caused the bronze age collapse",
   "secondaryKeywords": [
     "bronze age collapse",
@@ -33,7 +38,12 @@
     "Which civilisations survived it?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["world-history-timeline-sim"],
+  "relatedApps": [
+    "world-history-timeline-sim"
+  ],
+  "hubs": [
+    "major-historical-events"
+  ],
   "relatedArticles": [
     "major-eras-of-world-history",
     "world-history-timeline-guide",

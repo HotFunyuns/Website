@@ -10,7 +10,8 @@ import Reveal from '@/components/Reveal';
 import JsonLd from '@/components/JsonLd';
 import BlogCard from '@/components/blog/BlogCard';
 import { apps, companyInfo, getAppBySlug, getRelatedApps, getCategory } from '@/data/apps';
-import { getPostsByApp } from '@/lib/blog';
+import { getHubsForApp } from '@/data/hubs';
+import { getPostsByApp, getPostsByHub } from '@/lib/blog';
 
 export const dynamicParams = false;
 
@@ -57,7 +58,18 @@ export default function AppPage({ params }: { params: { slug: string } }) {
   const related = getRelatedApps(app);
   const category = getCategory(app.categoryId);
   const categoryPath = `/apps/category/${app.categoryId}/`;
-  const guides = getPostsByApp(app.slug).slice(0, 3);
+  const allGuides = getPostsByApp(app.slug);
+  const appHubs = getHubsForApp(app.slug)
+    .map((hub) => ({ ...hub, count: getPostsByHub(hub.id).length }))
+    .filter((hub) => hub.count > 0);
+  // Apps with a topic hub have their cornerstone surfaced by the hub, so the
+  // grid here leads with the rest. Six rather than three: an app carrying a
+  // hundred guides is badly served by a three-card sample.
+  const cornerstoneSlugs = new Set(appHubs.map((hub) => hub.cornerstone));
+  const guides = [
+    ...allGuides.filter((post) => cornerstoneSlugs.has(post.slug)),
+    ...allGuides.filter((post) => !cornerstoneSlugs.has(post.slug)),
+  ].slice(0, appHubs.length > 0 ? 6 : 3);
 
   const softwareSchema = {
     '@context': 'https://schema.org',
@@ -299,6 +311,9 @@ export default function AppPage({ params }: { params: { slug: string } }) {
             </h2>
             <p className="mt-3 max-w-2xl text-ink-500">
               Written by the team that builds the app.
+              {allGuides.length > guides.length && (
+                <> {allGuides.length} in total — the topic hubs below collect them all.</>
+              )}
             </p>
             <ul className="mt-8 grid list-none gap-6 p-0 sm:grid-cols-2 lg:grid-cols-3">
               {guides.map((post, i) => (
@@ -309,6 +324,32 @@ export default function AppPage({ params }: { params: { slug: string } }) {
                 </li>
               ))}
             </ul>
+
+            {appHubs.length > 0 && (
+              <nav aria-label={`${app.name} topic hubs`} className="mt-12">
+                <h3 className="eyebrow">Topic hubs</h3>
+                <ul className="mt-5 grid list-none gap-4 p-0 sm:grid-cols-2 lg:grid-cols-3">
+                  {appHubs.map((hub) => (
+                    <li key={hub.id}>
+                      <Link
+                        href={`/blog/topics/${hub.id}/`}
+                        className="card-premium-hover group flex h-full flex-col p-5"
+                      >
+                        <span className="font-display text-base font-semibold text-ink-950 transition-colors group-hover:text-crimson-600">
+                          {hub.label}
+                        </span>
+                        <span className="mt-2 block text-xs leading-relaxed text-ink-500">
+                          {hub.blurb}
+                        </span>
+                        <span className="mt-3 text-[11px] font-semibold uppercase tracking-widest text-gold-600">
+                          {hub.count} {hub.count === 1 ? 'article' : 'articles'}
+                        </span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            )}
           </div>
         </section>
       )}

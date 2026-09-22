@@ -40,6 +40,9 @@
     "mental-math-memory-games",
     "protein-diet-tracker"
   ],
+  "hubs": [
+    "mental-math"
+  ],
   "relatedArticles": [
     "mental-math-tricks-that-work",
     "estimation-techniques-explained",

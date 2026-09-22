@@ -8,7 +8,13 @@
   "updatedAt": "2026-08-09",
   "author": "Reign Creative Team",
   "category": "anime-creative",
-  "tags": ["coloring app", "anime art", "digital art", "android apps", "creative hobbies"],
+  "tags": [
+    "coloring app",
+    "anime art",
+    "digital art",
+    "android apps",
+    "creative hobbies"
+  ],
   "primaryKeyword": "anime coloring app android",
   "secondaryKeywords": [
     "digital coloring book app",
@@ -32,11 +38,15 @@
     "Do you need drawing skill to use a coloring app?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["anime-coloring-book", "anime-trivia-word-games"],
+  "relatedApps": [
+    "anime-coloring-book",
+    "anime-trivia-word-games"
+  ],
   "relatedArticles": [
     "anime-trivia-quiz-guide",
     "space-shooter-arcade-guide",
-    "zombie-survival-roguelike-guide"
+    "zombie-survival-roguelike-guide",
+    "timed-and-survival-quiz-modes"
   ],
   "takeaways": [
     "Line art removes the hardest part of making a picture — the blank page — while leaving the part most people actually enjoy.",

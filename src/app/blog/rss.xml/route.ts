@@ -38,6 +38,20 @@ export function GET() {
 
   // `posts` is already filtered to published, non-future articles, so the feed
   // cannot advertise a URL the site does not build.
+
+  /**
+   * Articles carry a date, not a time, so the feed has always stamped them at
+   * 09:00 UTC. That is fine for anything published before today — but an
+   * article published *today*, in a build that runs before 09:00 UTC, would
+   * advertise a publication time that has not happened yet. Readers see a feed
+   * item dated in the future, and a validator reasonably reads it as a leaked
+   * draft. Clamping to build time keeps the 09:00 convention everywhere it is
+   * accurate and tells the truth on release day.
+   */
+  const buildTime = Date.now();
+  const pubDateOf = (day: string) =>
+    new Date(Math.min(Date.parse(`${day}T09:00:00Z`), buildTime)).toUTCString();
+
   const items = posts
     .map((post) => {
       const url = `${site}/blog/${post.slug}/`;
@@ -47,7 +61,7 @@ export function GET() {
         `      <link>${url}</link>`,
         `      <guid isPermaLink="true">${url}</guid>`,
         `      <description>${escapeXml(post.description)}</description>`,
-        `      <pubDate>${new Date(`${post.publishedAt}T09:00:00Z`).toUTCString()}</pubDate>`,
+        `      <pubDate>${pubDateOf(post.publishedAt)}</pubDate>`,
         `      <category>${escapeXml(post.category)}</category>`,
         '    </item>',
       ].join('\n');
@@ -63,7 +77,7 @@ export function GET() {
     `    <description>${escapeXml('Guides to the Android apps built by Reign Creative LLC.')}</description>`,
     '    <language>en-us</language>',
     '    <docs>https://www.rssboard.org/rss-specification</docs>',
-    updated ? `    <lastBuildDate>${new Date(`${updated}T09:00:00Z`).toUTCString()}</lastBuildDate>` : '',
+    updated ? `    <lastBuildDate>${pubDateOf(updated)}</lastBuildDate>` : '',
     `    <atom:link href="${feedUrl}" rel="self" type="application/rss+xml" />`,
     items,
     '  </channel>',

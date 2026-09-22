@@ -8,7 +8,12 @@
   "updatedAt": "2026-09-15",
   "author": "Reign Creative Team",
   "category": "education-brain",
-  "tags": ["world history", "counterfactual", "simulation", "feature explainer"],
+  "tags": [
+    "world history",
+    "counterfactual",
+    "simulation",
+    "feature explainer"
+  ],
   "primaryKeyword": "what is counterfactual history",
   "secondaryKeywords": [
     "counterfactual history",
@@ -33,7 +38,12 @@
     "What are the limits of counterfactual reasoning?"
   ],
   "demandTier": "unverified-low",
-  "relatedApps": ["world-history-timeline-sim"],
+  "relatedApps": [
+    "world-history-timeline-sim"
+  ],
+  "hubs": [
+    "history-learning-methods"
+  ],
   "relatedArticles": [
     "how-historians-date-events",
     "primary-vs-secondary-sources",

@@ -44,7 +44,8 @@
     "baseball-stats-explained-for-beginners",
     "two-way-players-explained",
     "baseball-career-sim-guide",
-    "baseball-draft-gm-guide"
+    "baseball-draft-gm-guide",
+    "aging-curves-in-career-sims"
   ],
   "takeaways": [
     "The roles differ on two axes: how long you pitch, and how much the game situation matters when you do. Those two together explain nearly every bullpen decision.",

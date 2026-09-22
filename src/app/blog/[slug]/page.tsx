@@ -15,6 +15,7 @@ import { companyInfo, getCategory } from '@/data/apps';
 import {
   getPostApps,
   getPostBySlug,
+  getPostHubs,
   getPostNeighbours,
   getRelatedPosts,
   posts,
@@ -96,6 +97,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
   const relatedPosts = getRelatedPosts(post, 6);
   const { previous, next } = getPostNeighbours(post);
   const primaryApp = relatedApps[0];
+  const postHubs = getPostHubs(post);
 
   const html = await renderMarkdown(post.body);
   const [firstHalf, secondHalf] = splitAtMiddleHeading(html);
@@ -181,6 +183,30 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
               </>
             )}
           </div>
+
+          {/* The route to the rest of the cluster. Without it a reader who
+              arrives from search on one article has no signal that forty
+              related ones exist, and the hub page has no inbound link from the
+              articles it collects. */}
+          {postHubs.length > 0 && (
+            <nav aria-label="Topic hubs this article belongs to" className="mt-7">
+              <ul className="flex list-none flex-wrap items-center gap-2 p-0">
+                <li className="text-xs font-semibold uppercase tracking-widest text-ink-400">
+                  Part of
+                </li>
+                {postHubs.map((hub) => (
+                  <li key={hub.id}>
+                    <Link
+                      href={`/blog/topics/${hub.id}/`}
+                      className="inline-flex items-center rounded-full border border-ink-200 bg-white px-3.5 py-1.5 text-xs font-medium text-ink-600 transition-all duration-300 hover:border-gold-400 hover:text-ink-950"
+                    >
+                      {hub.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          )}
         </div>
       </section>
 

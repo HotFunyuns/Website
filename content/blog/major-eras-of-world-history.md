@@ -40,6 +40,9 @@
   "relatedApps": [
     "world-history-timeline-sim"
   ],
+  "hubs": [
+    "world-history-timelines"
+  ],
   "relatedArticles": [
     "how-historians-date-events",
     "world-history-timeline-guide",

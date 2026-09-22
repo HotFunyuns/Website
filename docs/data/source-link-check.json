@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-15T20:51:17.188Z",
+  "checkedAt": "2026-09-22T07:10:34.945Z",
   "results": [
     {
       "url": "https://aa.usno.navy.mil/",
@@ -33,6 +33,7 @@
         "expansion-drafts-explained",
         "free-agency-explained",
         "how-to-build-a-balanced-basketball-roster",
+        "player-body-metrics-in-career-sims",
         "rebuild-vs-retool"
       ]
     },
@@ -84,6 +85,92 @@
       ]
     },
     {
+      "url": "https://arxiv.org/abs/1705.02700",
+      "status": 200,
+      "finalUrl": "https://arxiv.org/abs/1705.02700",
+      "verdict": "ok",
+      "articles": [
+        "how-to-memorize-numbers",
+        "mnemonic-systems-for-numbers"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2006.06343",
+      "status": 200,
+      "finalUrl": "https://arxiv.org/abs/2006.06343",
+      "verdict": "ok",
+      "articles": [
+        "logic-grid-puzzles"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2007.07220",
+      "status": 200,
+      "finalUrl": "https://arxiv.org/abs/2007.07220",
+      "verdict": "ok",
+      "articles": [
+        "endless-mode-vs-campaign-shooters",
+        "space-galaxy-attack-arcade-vs-hardcore"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.07980",
+      "status": 200,
+      "finalUrl": "https://arxiv.org/abs/2406.07980",
+      "verdict": "ok",
+      "articles": [
+        "build-pads-and-custom-tower-positions",
+        "world-boss-waves-in-tower-defense"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.00312",
+      "status": 200,
+      "finalUrl": "https://arxiv.org/abs/2512.00312",
+      "verdict": "ok",
+      "articles": [
+        "drafting-a-goal-kicker-in-rugby"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.15318",
+      "status": 200,
+      "finalUrl": "https://arxiv.org/abs/2604.15318",
+      "verdict": "ok",
+      "articles": [
+        "space-galaxy-attack-arcade-vs-hardcore"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/cs/9909009",
+      "status": 200,
+      "finalUrl": "https://arxiv.org/abs/cs/9909009",
+      "verdict": "ok",
+      "articles": [
+        "logic-grid-puzzles"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/math/0606300",
+      "status": 200,
+      "finalUrl": "https://arxiv.org/abs/math/0606300",
+      "verdict": "ok",
+      "articles": [
+        "boss-weak-points-and-module-targeting"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/html/2505.20011v2",
+      "status": 200,
+      "finalUrl": "https://arxiv.org/html/2505.20011v2",
+      "verdict": "ok",
+      "articles": [
+        "ai-opponents-vs-real-players-in-io-games",
+        "holding-first-place-in-io-leaderboards",
+        "momentum-steering-in-snake-style-games"
+      ]
+    },
+    {
       "url": "https://avalon.law.yale.edu/",
       "status": 200,
       "finalUrl": "https://avalon.law.yale.edu/",
@@ -100,6 +187,41 @@
       "verdict": "ok",
       "articles": [
         "spaced-repetition-for-language-learning"
+      ]
+    },
+    {
+      "url": "https://bjorklab.psych.ucla.edu/research/",
+      "status": 200,
+      "finalUrl": "https://bjorklab.psych.ucla.edu/research/",
+      "verdict": "ok",
+      "articles": [
+        "brain-training-for-busy-adults",
+        "brain-training-questions-answered",
+        "choosing-a-difficulty-level",
+        "daily-challenge-formats-explained"
+      ]
+    },
+    {
+      "url": "https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Koriat_RBjork_2005.pdf",
+      "status": 200,
+      "finalUrl": "https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Koriat_RBjork_2005.pdf",
+      "verdict": "ok",
+      "articles": [
+        "paired-associate-learning"
+      ]
+    },
+    {
+      "url": "https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/11/soderstorm_ra_learningvsperformance.pdf",
+      "status": 200,
+      "finalUrl": "https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/11/soderstorm_ra_learningvsperformance.pdf",
+      "verdict": "ok",
+      "articles": [
+        "accuracy-before-speed",
+        "deliberate-practice-in-brain-games",
+        "how-long-a-brain-training-session-should-be",
+        "how-to-track-practice-progress",
+        "interleaving-versus-blocked-practice",
+        "why-practice-progress-plateaus"
       ]
     },
     {
@@ -139,12 +261,70 @@
       ]
     },
     {
+      "url": "https://cdspress.ca/wp-content/uploads/2022/08/Kevin-A.-Harrigan-Mike-Dixon-.pdf",
+      "status": 200,
+      "finalUrl": "https://cdspress.ca/wp-content/uploads/2022/08/Kevin-A.-Harrigan-Mike-Dixon-.pdf",
+      "verdict": "ok",
+      "articles": [
+        "slot-reel-mechanics-explained",
+        "slot-volatility-explained"
+      ]
+    },
+    {
+      "url": "https://cemc.uwaterloo.ca/sites/default/files/documents/2024/SequencesSeries.html",
+      "status": 200,
+      "finalUrl": "https://cemc.uwaterloo.ca/sites/default/files/documents/2024/SequencesSeries.html",
+      "verdict": "ok",
+      "articles": [
+        "arithmetic-sequences-explained",
+        "finding-the-rule-in-a-number-pattern",
+        "geometric-sequences-explained",
+        "number-sequence-puzzles-explained"
+      ]
+    },
+    {
       "url": "https://cie.co.at/",
       "status": 200,
       "finalUrl": "https://cie.co.at/",
       "verdict": "ok",
       "articles": [
         "color-theory-for-beginners"
+      ]
+    },
+    {
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co60130/napiers-bones",
+      "status": 200,
+      "finalUrl": "https://collection.sciencemuseumgroup.org.uk/objects/co60130/napiers-bones",
+      "verdict": "ok",
+      "articles": [
+        "lattice-and-line-multiplication"
+      ]
+    },
+    {
+      "url": "https://comptroller.texas.gov/taxes/sales/",
+      "status": 200,
+      "finalUrl": "https://comptroller.texas.gov/taxes/sales/",
+      "verdict": "ok",
+      "articles": [
+        "estimating-sales-tax"
+      ]
+    },
+    {
+      "url": "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions",
+      "status": 200,
+      "finalUrl": "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions",
+      "verdict": "ok",
+      "articles": [
+        "what-a-brain-training-subscription-buys"
+      ]
+    },
+    {
+      "url": "https://courses.grainger.illinois.edu/cs418/fa2025/text/finite-differences.html",
+      "status": 200,
+      "finalUrl": "https://courses.grainger.illinois.edu/cs418/fa2025/text/finite-differences.html",
+      "verdict": "ok",
+      "articles": [
+        "finding-the-rule-in-a-number-pattern"
       ]
     },
     {
@@ -211,12 +391,57 @@
       ]
     },
     {
+      "url": "https://developer.android.com/develop/connectivity/network-ops/reading-network-state",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "browser-only",
+      "articles": [
+        "offline-brain-training-apps"
+      ]
+    },
+    {
+      "url": "https://developer.android.com/develop/ui/views/picture-in-picture",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "browser-only",
+      "articles": [
+        "picture-in-picture-on-android"
+      ]
+    },
+    {
       "url": "https://developer.android.com/develop/ui/views/text-and-emoji/downloadable-fonts",
       "status": 0,
       "error": "fetch failed",
       "verdict": "browser-only",
       "articles": [
         "khmer-fonts-on-android"
+      ]
+    },
+    {
+      "url": "https://developer.android.com/develop/ui/views/touch-and-input/gestures",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "browser-only",
+      "articles": [
+        "tower-defense-camera-controls"
+      ]
+    },
+    {
+      "url": "https://developer.android.com/develop/ui/views/touch-and-input/gestures/scale",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "browser-only",
+      "articles": [
+        "tower-defense-camera-controls"
+      ]
+    },
+    {
+      "url": "https://developer.android.com/games/pgs/leaderboards",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "browser-only",
+      "articles": [
+        "holding-first-place-in-io-leaderboards"
       ]
     },
     {
@@ -241,12 +466,31 @@
       ]
     },
     {
+      "url": "https://developer.android.com/guide/topics/ui/accessibility/principles",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "browser-only",
+      "articles": [
+        "accessibility-in-brain-training-apps"
+      ]
+    },
+    {
       "url": "https://developer.android.com/media",
       "status": 0,
       "error": "fetch failed",
       "verdict": "browser-only",
       "articles": [
         "android-video-player-guide"
+      ]
+    },
+    {
+      "url": "https://developer.android.com/media/camera/camerax",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "browser-only",
+      "articles": [
+        "bulk-scanning-a-card-collection",
+        "photographing-cards-for-centring"
       ]
     },
     {
@@ -296,6 +540,15 @@
       ]
     },
     {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/imageSmoothingEnabled",
+      "status": 200,
+      "finalUrl": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/imageSmoothingEnabled",
+      "verdict": "ok",
+      "articles": [
+        "fixing-fill-tool-mistakes-in-coloring-apps"
+      ]
+    },
+    {
       "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Video_codecs",
       "status": 200,
       "finalUrl": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -304,6 +557,24 @@
         "av1-on-android-explained",
         "frame-rate-and-resolution-explained",
         "hardware-vs-software-decoding"
+      ]
+    },
+    {
+      "url": "https://developers.google.com/ml-kit/vision/text-recognition/v2",
+      "status": 200,
+      "finalUrl": "https://developers.google.com/ml-kit/vision/text-recognition/v2?hl=zh-cn",
+      "verdict": "ok",
+      "articles": [
+        "bulk-scanning-a-card-collection"
+      ]
+    },
+    {
+      "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-85-Media-facilities-Online?contentId=WLdWjNblfeTYASj14peItA",
+      "status": 200,
+      "finalUrl": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-85-Media-facilities-Online?contentId=WLdWjNblfeTYASj14peItA",
+      "verdict": "ok",
+      "articles": [
+        "press-conferences-in-career-mode"
       ]
     },
     {
@@ -1829,6 +2100,15 @@
       ]
     },
     {
+      "url": "https://eric.ed.gov/?id=EJ207063",
+      "status": 200,
+      "finalUrl": "https://eric.ed.gov/?id=EJ207063",
+      "verdict": "ok",
+      "articles": [
+        "subtraction-without-borrowing"
+      ]
+    },
+    {
       "url": "https://europa.eu/europass/en/common-european-framework-reference-language-skills",
       "status": 200,
       "finalUrl": "https://europass.europa.eu/en/common-european-framework-reference-language-skills",
@@ -1844,6 +2124,25 @@
         "learn-italian-beginners-guide",
         "learning-a-language-without-a-teacher",
         "listening-practice-in-a-new-language"
+      ]
+    },
+    {
+      "url": "https://everydaymath.uchicago.edu/teaching-topics/computation/",
+      "status": 200,
+      "finalUrl": "https://everydaymath.uchicago.edu/teaching-topics/computation/",
+      "verdict": "ok",
+      "articles": [
+        "left-to-right-addition",
+        "number-bonds-and-making-tens"
+      ]
+    },
+    {
+      "url": "https://faculty.washington.edu/chudler/tenper.html",
+      "status": 200,
+      "finalUrl": "https://faculty.washington.edu/chudler/tenper.html",
+      "verdict": "ok",
+      "articles": [
+        "brain-training-questions-answered"
       ]
     },
     {
@@ -1875,6 +2174,34 @@
       ]
     },
     {
+      "url": "https://files.eric.ed.gov/fulltext/ED557355.pdf",
+      "status": 200,
+      "finalUrl": "https://files.eric.ed.gov/fulltext/ED557355.pdf",
+      "verdict": "ok",
+      "articles": [
+        "interleaving-versus-blocked-practice"
+      ]
+    },
+    {
+      "url": "https://files.eric.ed.gov/fulltext/EJ1257022.pdf",
+      "status": 200,
+      "finalUrl": "https://files.eric.ed.gov/fulltext/EJ1257022.pdf",
+      "verdict": "ok",
+      "articles": [
+        "dictation-practice-in-a-new-script"
+      ]
+    },
+    {
+      "url": "https://forallx.openlogicproject.org/",
+      "status": 200,
+      "finalUrl": "https://forallx.openlogicproject.org/",
+      "verdict": "ok",
+      "articles": [
+        "deductive-reasoning-examples",
+        "syllogisms-explained"
+      ]
+    },
+    {
       "url": "https://glottolog.org/resource/languoid/id/ital1282",
       "status": 200,
       "finalUrl": "https://glottolog.org/resource/languoid/id/ital1282",
@@ -1892,9 +2219,30 @@
       "verdict": "ok",
       "articles": [
         "lao-alphabet-explained",
+        "lao-numbers-and-prices",
         "lao-vs-thai-differences",
         "learn-lao-beginners-guide",
         "what-is-a-tonal-language"
+      ]
+    },
+    {
+      "url": "https://glottolog.org/resource/languoid/id/mara1378",
+      "status": 200,
+      "finalUrl": "https://glottolog.org/resource/languoid/id/mara1378",
+      "verdict": "ok",
+      "articles": [
+        "learning-english-from-marathi",
+        "where-marathi-is-spoken"
+      ]
+    },
+    {
+      "url": "https://glottolog.org/resource/languoid/id/shan1293",
+      "status": 200,
+      "finalUrl": "https://glottolog.org/resource/languoid/id/shan1293",
+      "verdict": "ok",
+      "articles": [
+        "heritage-language-learners-shanghainese",
+        "reading-shanghainese-characters"
       ]
     },
     {
@@ -1909,6 +2257,15 @@
         "vietnamese-pronouns-explained",
         "vietnamese-tones-explained",
         "what-is-a-tonal-language"
+      ]
+    },
+    {
+      "url": "https://glottolog.org/resource/languoid/id/wuch1236",
+      "status": 200,
+      "finalUrl": "https://glottolog.org/resource/languoid/id/wuch1236",
+      "verdict": "ok",
+      "articles": [
+        "reading-shanghainese-characters"
       ]
     },
     {
@@ -1929,6 +2286,15 @@
       "verdict": "blocked",
       "articles": [
         "card-condition-grading-scales"
+      ]
+    },
+    {
+      "url": "https://hhs.purdue.edu/skill-learning-and-performance-lab/wp-content/uploads/sites/43/2024/08/macnamara-et-al-2014-deliberate-practice-and-performance-in-music-games-sports-education-and-professions-a-meta-analysis.pdf",
+      "status": 200,
+      "finalUrl": "https://hhs.purdue.edu/skill-learning-and-performance-lab/wp-content/uploads/sites/43/2024/08/macnamara-et-al-2014-deliberate-practice-and-performance-in-music-games-sports-education-and-professions-a-meta-analysis.pdf",
+      "verdict": "ok",
+      "articles": [
+        "deliberate-practice-in-brain-games"
       ]
     },
     {
@@ -1966,6 +2332,90 @@
       "verdict": "ok",
       "articles": [
         "major-eras-of-world-history"
+      ]
+    },
+    {
+      "url": "https://ies.ed.gov/ncee/wwc/Docs/PracticeGuide/20072004.pdf",
+      "status": 200,
+      "finalUrl": "https://ies.ed.gov/ncee/wwc/Docs/PracticeGuide/20072004.pdf",
+      "verdict": "ok",
+      "articles": [
+        "how-to-improve-concentration",
+        "paired-associate-learning"
+      ]
+    },
+    {
+      "url": "https://ies.ed.gov/ncee/wwc/PracticeGuide/1",
+      "status": 200,
+      "finalUrl": "https://ies.ed.gov/ncee/wwc/PracticeGuide/1",
+      "verdict": "ok",
+      "articles": [
+        "deliberate-practice-in-brain-games",
+        "how-long-a-brain-training-session-should-be",
+        "how-to-track-practice-progress",
+        "interleaving-versus-blocked-practice",
+        "why-practice-progress-plateaus"
+      ]
+    },
+    {
+      "url": "https://ies.ed.gov/ncee/wwc/PracticeGuide/2",
+      "status": 200,
+      "finalUrl": "https://ies.ed.gov/ncee/wwc/PracticeGuide/2",
+      "verdict": "ok",
+      "articles": [
+        "accuracy-before-speed",
+        "how-long-a-brain-training-session-should-be",
+        "how-to-track-practice-progress"
+      ]
+    },
+    {
+      "url": "https://ies.ed.gov/ncee/wwc/practiceguide/1",
+      "status": 200,
+      "finalUrl": "https://ies.ed.gov/ncee/wwc/practiceguide/1",
+      "verdict": "ok",
+      "articles": [
+        "brain-training-for-busy-adults",
+        "brain-training-questions-answered",
+        "choosing-a-difficulty-level",
+        "daily-challenge-formats-explained",
+        "warming-up-before-focused-work"
+      ]
+    },
+    {
+      "url": "https://ies.ed.gov/ncee/wwc/practiceguide/15",
+      "status": 200,
+      "finalUrl": "https://ies.ed.gov/ncee/wwc/practiceguide/15",
+      "verdict": "ok",
+      "articles": [
+        "comparing-fractions-mentally",
+        "finding-the-original-price-before-a-discount",
+        "fraction-decimal-percent-conversions",
+        "ratios-and-proportions-mentally",
+        "simplifying-fractions-quickly",
+        "unit-price-comparison"
+      ]
+    },
+    {
+      "url": "https://ies.ed.gov/ncee/wwc/practiceguide/26",
+      "status": 200,
+      "finalUrl": "https://ies.ed.gov/ncee/wwc/practiceguide/26",
+      "verdict": "ok",
+      "articles": [
+        "careless-arithmetic-mistakes",
+        "counting-up-subtraction",
+        "helping-a-child-with-math-facts",
+        "multiplying-by-five-and-twenty-five",
+        "times-tables-memorisation",
+        "why-am-i-slow-at-mental-math"
+      ]
+    },
+    {
+      "url": "https://info.lse.ac.uk/current-students/careers/information-and-resources/interview-assessment-centre-psychometric/verbal-reasoning-tests",
+      "status": 200,
+      "finalUrl": "https://info.lse.ac.uk/current-students/careers/information-and-resources/interview-assessment-centre-psychometric/verbal-reasoning-tests",
+      "verdict": "ok",
+      "articles": [
+        "verbal-reasoning-question-types"
       ]
     },
     {
@@ -2020,6 +2470,24 @@
       ]
     },
     {
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0123024",
+      "status": 200,
+      "finalUrl": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0123024",
+      "verdict": "ok",
+      "articles": [
+        "common-reasoning-mistakes"
+      ]
+    },
+    {
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0071275",
+      "status": 200,
+      "finalUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0071275",
+      "verdict": "ok",
+      "articles": [
+        "brain-training-questions-answered"
+      ]
+    },
+    {
       "url": "https://laws.worldrugby.org/",
       "status": 200,
       "finalUrl": "https://passport.world.rugby/laws-of-the-game/",
@@ -2027,6 +2495,15 @@
       "articles": [
         "how-rugby-scoring-works",
         "rugby-positions-and-numbers"
+      ]
+    },
+    {
+      "url": "https://learningcenter.unc.edu/tips-and-tools/multiple-choice-exams/",
+      "status": 200,
+      "finalUrl": "https://learningcenter.unc.edu/tips-and-tools/multiple-choice-exams/",
+      "verdict": "ok",
+      "articles": [
+        "timed-and-survival-quiz-modes"
       ]
     },
     {
@@ -2039,12 +2516,108 @@
       ]
     },
     {
+      "url": "https://longevity.stanford.edu/a-consensus-on-the-brain-training-industry-from-the-scientific-community-2/",
+      "status": 200,
+      "finalUrl": "https://longevity.stanford.edu/a-consensus-on-the-brain-training-industry-from-the-scientific-community-2/",
+      "verdict": "ok",
+      "articles": [
+        "brain-games-for-older-adults",
+        "brain-training-questions-answered",
+        "can-practice-raise-an-iq-score",
+        "spatial-reasoning-and-number-sense",
+        "what-a-brain-age-score-means"
+      ]
+    },
+    {
+      "url": "https://longevity.stanford.edu/a-consensus-on-the-brain-training-industry-from-the-scientific-community/",
+      "status": 200,
+      "finalUrl": "https://longevity.stanford.edu/a-consensus-on-the-brain-training-industry-from-the-scientific-community/",
+      "verdict": "ok",
+      "articles": [
+        "attention-span-exercises",
+        "n-back-tasks-explained"
+      ]
+    },
+    {
+      "url": "https://lshk.org/jyutping/",
+      "status": 200,
+      "finalUrl": "https://lshk.org/jyutping-faq/",
+      "verdict": "ok",
+      "articles": [
+        "cantonese-sentence-final-particles",
+        "spoken-vs-written-cantonese"
+      ]
+    },
+    {
       "url": "https://ltrr.arizona.edu/",
       "status": 200,
       "finalUrl": "https://ltrr.arizona.edu/",
       "verdict": "ok",
       "articles": [
         "how-historians-date-events"
+      ]
+    },
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fibonacci/",
+      "status": 200,
+      "finalUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Fibonacci/",
+      "verdict": "ok",
+      "articles": [
+        "fibonacci-and-recursive-sequences"
+      ]
+    },
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Gauss/",
+      "status": 200,
+      "finalUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Gauss/",
+      "verdict": "ok",
+      "articles": [
+        "arithmetic-sequences-explained"
+      ]
+    },
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Zeno_of_Elea/",
+      "status": 200,
+      "finalUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Zeno_of_Elea/",
+      "verdict": "ok",
+      "articles": [
+        "geometric-sequences-explained"
+      ]
+    },
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/Extras/Napier_rods/",
+      "status": 200,
+      "finalUrl": "https://mathshistory.st-andrews.ac.uk/Extras/Napier_rods/",
+      "verdict": "ok",
+      "articles": [
+        "lattice-and-line-multiplication"
+      ]
+    },
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Egyptian_mathematics/",
+      "status": 200,
+      "finalUrl": "https://mathshistory.st-andrews.ac.uk/HistTopics/Egyptian_mathematics/",
+      "verdict": "ok",
+      "articles": [
+        "russian-peasant-multiplication"
+      ]
+    },
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Egyptian_papyri/",
+      "status": 200,
+      "finalUrl": "https://mathshistory.st-andrews.ac.uk/HistTopics/Egyptian_papyri/",
+      "verdict": "ok",
+      "articles": [
+        "russian-peasant-multiplication"
+      ]
+    },
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Indian_mathematics/",
+      "status": 200,
+      "finalUrl": "https://mathshistory.st-andrews.ac.uk/HistTopics/Indian_mathematics/",
+      "verdict": "ok",
+      "articles": [
+        "cross-multiplication-in-one-pass"
       ]
     },
     {
@@ -2066,13 +2639,32 @@
       ]
     },
     {
+      "url": "https://mathworld.wolfram.com/DecimalExpansion.html",
+      "status": 200,
+      "finalUrl": "https://mathworld.wolfram.com/DecimalExpansion.html",
+      "verdict": "ok",
+      "articles": [
+        "fraction-decimal-percent-conversions"
+      ]
+    },
+    {
       "url": "https://mathworld.wolfram.com/DivisibilityTests.html",
       "status": 200,
       "finalUrl": "https://mathworld.wolfram.com/DivisibilityTests.html",
       "verdict": "ok",
       "articles": [
         "mental-division-tricks",
-        "mental-math-tricks-that-work"
+        "mental-math-tricks-that-work",
+        "why-divisibility-rules-work"
+      ]
+    },
+    {
+      "url": "https://mathworld.wolfram.com/EuclideanAlgorithm.html",
+      "status": 200,
+      "finalUrl": "https://mathworld.wolfram.com/EuclideanAlgorithm.html",
+      "verdict": "ok",
+      "articles": [
+        "simplifying-fractions-quickly"
       ]
     },
     {
@@ -2082,6 +2674,24 @@
       "verdict": "ok",
       "articles": [
         "mental-math-tricks-that-work"
+      ]
+    },
+    {
+      "url": "https://mathworld.wolfram.com/RepeatingDecimal.html",
+      "status": 200,
+      "finalUrl": "https://mathworld.wolfram.com/RepeatingDecimal.html",
+      "verdict": "ok",
+      "articles": [
+        "fraction-decimal-percent-conversions"
+      ]
+    },
+    {
+      "url": "https://mathworld.wolfram.com/SquareNumber.html",
+      "status": 200,
+      "finalUrl": "https://mathworld.wolfram.com/SquareNumber.html",
+      "verdict": "ok",
+      "articles": [
+        "squares-cubes-and-roots"
       ]
     },
     {
@@ -2096,7 +2706,7 @@
     {
       "url": "https://medlineplus.gov/carbohydrates.html",
       "status": 200,
-      "finalUrl": "https://www.medlineplus.gov/carbohydrates.html",
+      "finalUrl": "https://medlineplus.gov/carbohydrates.html",
       "verdict": "ok",
       "articles": [
         "electrolytes-on-low-carb",
@@ -2112,7 +2722,7 @@
     {
       "url": "https://medlineplus.gov/dietaryfats.html",
       "status": 200,
-      "finalUrl": "https://www.medlineplus.gov/dietaryfats.html",
+      "finalUrl": "https://medlineplus.gov/dietaryfats.html",
       "verdict": "ok",
       "articles": [
         "keto-macros-explained"
@@ -2121,7 +2731,7 @@
     {
       "url": "https://medlineplus.gov/dietaryfiber.html",
       "status": 200,
-      "finalUrl": "https://www.medlineplus.gov/dietaryfiber.html",
+      "finalUrl": "https://medlineplus.gov/dietaryfiber.html",
       "verdict": "ok",
       "articles": [
         "net-carbs-explained-keto-tracking"
@@ -2130,7 +2740,7 @@
     {
       "url": "https://medlineplus.gov/dietaryproteins.html",
       "status": 200,
-      "finalUrl": "https://www.medlineplus.gov/dietaryproteins.html",
+      "finalUrl": "https://medlineplus.gov/dietaryproteins.html",
       "verdict": "ok",
       "articles": [
         "how-much-protein-per-day"
@@ -2139,7 +2749,7 @@
     {
       "url": "https://medlineplus.gov/ency/article/000320.htm",
       "status": 200,
-      "finalUrl": "https://www.medlineplus.gov/ency/article/000320.htm",
+      "finalUrl": "https://medlineplus.gov/ency/article/000320.htm",
       "verdict": "ok",
       "articles": [
         "what-is-a-ketone-reading"
@@ -2148,7 +2758,7 @@
     {
       "url": "https://medlineplus.gov/ency/article/002467.htm",
       "status": 200,
-      "finalUrl": "https://www.medlineplus.gov/ency/article/002467.htm",
+      "finalUrl": "https://medlineplus.gov/ency/article/002467.htm",
       "verdict": "ok",
       "articles": [
         "complete-vs-incomplete-proteins",
@@ -2164,7 +2774,7 @@
     {
       "url": "https://medlineplus.gov/ency/patientinstructions/000838.htm",
       "status": 200,
-      "finalUrl": "https://www.medlineplus.gov/ency/patientinstructions/000838.htm",
+      "finalUrl": "https://medlineplus.gov/ency/patientinstructions/000838.htm",
       "verdict": "ok",
       "articles": [
         "keto-macros-explained"
@@ -2173,7 +2783,7 @@
     {
       "url": "https://medlineplus.gov/fluidandelectrolytebalance.html",
       "status": 200,
-      "finalUrl": "https://www.medlineplus.gov/fluidandelectrolytebalance.html",
+      "finalUrl": "https://medlineplus.gov/fluidandelectrolytebalance.html",
       "verdict": "ok",
       "articles": [
         "electrolytes-on-low-carb",
@@ -2183,7 +2793,7 @@
     {
       "url": "https://medlineplus.gov/foodsafety.html",
       "status": 200,
-      "finalUrl": "https://www.medlineplus.gov/foodsafety.html",
+      "finalUrl": "https://medlineplus.gov/foodsafety.html",
       "verdict": "ok",
       "articles": [
         "batch-cooking-for-the-week",
@@ -2193,7 +2803,7 @@
     {
       "url": "https://medlineplus.gov/lab-tests/ketones-in-blood/",
       "status": 200,
-      "finalUrl": "https://www.medlineplus.gov/lab-tests/ketones-in-blood/",
+      "finalUrl": "https://medlineplus.gov/lab-tests/ketones-in-blood/",
       "verdict": "ok",
       "articles": [
         "intermittent-fasting-windows-explained",
@@ -2203,7 +2813,7 @@
     {
       "url": "https://medlineplus.gov/lab-tests/ketones-in-urine/",
       "status": 200,
-      "finalUrl": "https://www.medlineplus.gov/lab-tests/ketones-in-urine/",
+      "finalUrl": "https://medlineplus.gov/lab-tests/ketones-in-urine/",
       "verdict": "ok",
       "articles": [
         "what-is-a-ketone-reading"
@@ -2212,7 +2822,7 @@
     {
       "url": "https://medlineplus.gov/pregnancyandnutrition.html",
       "status": 200,
-      "finalUrl": "https://www.medlineplus.gov/pregnancyandnutrition.html",
+      "finalUrl": "https://medlineplus.gov/pregnancyandnutrition.html",
       "verdict": "ok",
       "articles": [
         "intermittent-fasting-windows-explained"
@@ -2256,6 +2866,305 @@
       ]
     },
     {
+      "url": "https://ncaaorg.s3.amazonaws.com/championships/sports/football/rules/2026PRMFB_2026RuleChanges.pdf",
+      "status": 200,
+      "finalUrl": "https://ncaaorg.s3.amazonaws.com/championships/sports/football/rules/2026PRMFB_2026RuleChanges.pdf",
+      "verdict": "ok",
+      "articles": [
+        "two-minute-clock-management"
+      ]
+    },
+    {
+      "url": "https://ncaaorg.s3.amazonaws.com/championships/sports/football/rules/PRMFB_RulesBook.pdf",
+      "status": 200,
+      "finalUrl": "https://ncaaorg.s3.amazonaws.com/championships/sports/football/rules/PRMFB_RulesBook.pdf",
+      "verdict": "ok",
+      "articles": [
+        "two-minute-clock-management"
+      ]
+    },
+    {
+      "url": "https://nces.ed.gov/nationsreportcard/guides/",
+      "status": 200,
+      "finalUrl": "https://nces.ed.gov/nationsreportcard/guides/",
+      "verdict": "ok",
+      "articles": [
+        "percentiles-and-standard-scores"
+      ]
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/piaac/",
+      "status": 200,
+      "finalUrl": "https://nces.ed.gov/surveys/piaac/",
+      "verdict": "ok",
+      "articles": [
+        "brain-training-for-busy-adults"
+      ]
+    },
+    {
+      "url": "https://nhlrc.ucla.edu/nhlrc/about",
+      "status": 200,
+      "finalUrl": "https://nhlrc.ucla.edu/nhlrc/about",
+      "verdict": "ok",
+      "articles": [
+        "heritage-language-learners-shanghainese"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/11014",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/problems/subtraction-surprise",
+      "verdict": "ok",
+      "articles": [
+        "subtraction-without-borrowing"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/1308",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/articles/divisibility-tests",
+      "verdict": "ok",
+      "articles": [
+        "multiplying-by-nine-and-ninety-nine"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/articles/developing-number-fluency-what-why-and-how",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/articles/developing-number-fluency-what-why-and-how",
+      "verdict": "ok",
+      "articles": [
+        "choosing-a-difficulty-level",
+        "left-to-right-addition",
+        "number-bonds-and-making-tens"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/articles/digital-roots",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/articles/digital-roots",
+      "verdict": "ok",
+      "articles": [
+        "multiplying-by-nine-and-ninety-nine"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/articles/divided-differences",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/articles/divided-differences",
+      "verdict": "ok",
+      "articles": [
+        "arithmetic-sequences-explained",
+        "finding-the-rule-in-a-number-pattern",
+        "sequences-with-more-than-one-answer"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/articles/divisibility-tests",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/articles/divisibility-tests",
+      "verdict": "ok",
+      "articles": [
+        "simplifying-fractions-quickly",
+        "why-divisibility-rules-work"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/articles/golden-ratio-fibonacci-numbers-and-continued-fractions",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/articles/golden-ratio-fibonacci-numbers-and-continued-fractions",
+      "verdict": "ok",
+      "articles": [
+        "fibonacci-and-recursive-sequences"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/articles/introduction-modular-arithmetic",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/articles/introduction-modular-arithmetic",
+      "verdict": "ok",
+      "articles": [
+        "squares-cubes-and-roots",
+        "why-divisibility-rules-work"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/articles/multiplication-series-illustrating-number-properties-arrays",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/articles/multiplication-series-illustrating-number-properties-arrays",
+      "verdict": "ok",
+      "articles": [
+        "cross-multiplication-in-one-pass",
+        "lattice-and-line-multiplication",
+        "multiplying-by-five-and-twenty-five"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/articles/pattern-sniffing",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/articles/pattern-sniffing",
+      "verdict": "ok",
+      "articles": [
+        "number-sequence-puzzles-explained"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/articles/reasoning-identifying-opportunities",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/articles/reasoning-identifying-opportunities",
+      "verdict": "ok",
+      "articles": [
+        "logic-grid-puzzles"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/articles/reasoning-journey-novice-expert-article",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/articles/reasoning-journey-novice-expert",
+      "verdict": "ok",
+      "articles": [
+        "common-reasoning-mistakes"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/parents",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/parents",
+      "verdict": "ok",
+      "articles": [
+        "brain-games-for-the-whole-family"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/problem-solving-skills",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/problem-solving-skills",
+      "verdict": "ok",
+      "articles": [
+        "working-backwards-problems"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/problems/adding-all-nine",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/problems/adding-all-nine",
+      "verdict": "ok",
+      "articles": [
+        "multiplying-by-nine-and-ninety-nine"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/problems/arranging-additions-and-sorting-subtractions",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/problems/arranging-additions-and-sorting-subtractions",
+      "verdict": "ok",
+      "articles": [
+        "adding-a-list-of-numbers-mentally",
+        "compensation-strategy-in-arithmetic"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/problems/binary-squares",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/problems/binary-squares",
+      "verdict": "ok",
+      "articles": [
+        "russian-peasant-multiplication"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/problems/mixing-paints",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/problems/mixing-paints",
+      "verdict": "ok",
+      "articles": [
+        "ratios-and-proportions-mentally"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/problems/ordering-fractions",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/problems/ordering-fractions",
+      "verdict": "ok",
+      "articles": [
+        "comparing-fractions-mentally"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/problems/percentage-unchanged",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/problems/percentage-unchanged",
+      "verdict": "ok",
+      "articles": [
+        "finding-the-original-price-before-a-discount"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/problems/quadratic-patterns",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/problems/quadratic-patterns",
+      "verdict": "ok",
+      "articles": [
+        "finding-the-rule-in-a-number-pattern"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/problems/sort-street",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/problems/sort-street",
+      "verdict": "ok",
+      "articles": [
+        "odd-one-out-puzzles"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/problems/which-symbol",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/problems/which-symbol",
+      "verdict": "ok",
+      "articles": [
+        "missing-number-problems"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/transformations",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/curriculum/transformations-age-11-16",
+      "verdict": "ok",
+      "articles": [
+        "visual-pattern-puzzles"
+      ]
+    },
+    {
+      "url": "https://nrich.maths.org/working-backwards-ks2",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/working-backwards-ks2",
+      "verdict": "ok",
+      "articles": [
+        "working-backwards-problems"
+      ]
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/",
+      "status": 200,
+      "finalUrl": "https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/",
+      "verdict": "ok",
+      "articles": [
+        "build-pads-and-custom-tower-positions",
+        "rotating-draft-pools-explained",
+        "world-boss-waves-in-tower-defense"
+      ]
+    },
+    {
+      "url": "https://odphp.health.gov/our-work/nutrition-physical-activity/dietary-guidelines",
+      "status": 200,
+      "finalUrl": "https://odphp.health.gov/our-work/nutrition-physical-activity/dietary-guidelines",
+      "verdict": "ok",
+      "articles": [
+        "meal-planning-for-a-dietary-preference"
+      ]
+    },
+    {
       "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
       "status": 403,
       "finalUrl": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
@@ -2280,6 +3189,80 @@
       "verdict": "browser-only",
       "articles": [
         "protein-sources-compared"
+      ]
+    },
+    {
+      "url": "https://oeis.org/A000032",
+      "status": 200,
+      "finalUrl": "https://oeis.org/A000032",
+      "verdict": "ok",
+      "articles": [
+        "fibonacci-and-recursive-sequences"
+      ]
+    },
+    {
+      "url": "https://oeis.org/A000045",
+      "status": 200,
+      "finalUrl": "https://oeis.org/A000045",
+      "verdict": "ok",
+      "articles": [
+        "fibonacci-and-recursive-sequences"
+      ]
+    },
+    {
+      "url": "https://oeis.org/A000079",
+      "status": 200,
+      "finalUrl": "https://oeis.org/A000079",
+      "verdict": "ok",
+      "articles": [
+        "geometric-sequences-explained"
+      ]
+    },
+    {
+      "url": "https://oeis.org/A000127",
+      "status": 200,
+      "finalUrl": "https://oeis.org/A000127",
+      "verdict": "ok",
+      "articles": [
+        "inductive-reasoning-examples",
+        "number-sequence-puzzles-explained",
+        "sequences-with-more-than-one-answer"
+      ]
+    },
+    {
+      "url": "https://oeis.org/A000290",
+      "status": 200,
+      "finalUrl": "https://oeis.org/A000290",
+      "verdict": "ok",
+      "articles": [
+        "squares-cubes-and-roots"
+      ]
+    },
+    {
+      "url": "https://oeis.org/A000578",
+      "status": 200,
+      "finalUrl": "https://oeis.org/A000578",
+      "verdict": "ok",
+      "articles": [
+        "squares-cubes-and-roots"
+      ]
+    },
+    {
+      "url": "https://oeis.org/hints.html",
+      "status": 200,
+      "finalUrl": "https://oeis.org/hints.html",
+      "verdict": "ok",
+      "articles": [
+        "sequences-with-more-than-one-answer"
+      ]
+    },
+    {
+      "url": "https://oeis.org/wiki/Welcome",
+      "status": 200,
+      "finalUrl": "https://oeis.org/wiki/Welcome",
+      "verdict": "ok",
+      "articles": [
+        "number-sequence-puzzles-explained"
       ]
     },
     {
@@ -2329,12 +3312,872 @@
       ]
     },
     {
+      "url": "https://operations.nfl.com/calendar-events/nfl-combine/nfl-scouting-combine",
+      "status": 200,
+      "finalUrl": "https://operations.nfl.com/calendar-events/nfl-combine/nfl-scouting-combine",
+      "verdict": "ok",
+      "articles": [
+        "scouting-combine-drills-explained"
+      ]
+    },
+    {
+      "url": "https://operations.nfl.com/the-rules/nfl-rulebook/",
+      "status": 200,
+      "finalUrl": "https://operations.nfl.com/rules-officiating/2026-nfl-rulebook",
+      "verdict": "ok",
+      "articles": [
+        "two-minute-clock-management"
+      ]
+    },
+    {
+      "url": "https://pacman.holenet.info/",
+      "status": 200,
+      "finalUrl": "https://pacman.holenet.info/",
+      "verdict": "ok",
+      "articles": [
+        "ai-opponents-vs-real-players-in-io-games",
+        "boss-weak-points-and-module-targeting"
+      ]
+    },
+    {
+      "url": "https://passport.world.rugby/laws-of-the-game/laws-by-number/3-team/",
+      "status": 200,
+      "finalUrl": "https://passport.world.rugby/laws-of-the-game/laws-by-number/3-team/",
+      "verdict": "ok",
+      "articles": [
+        "rugby-squad-rotation-over-a-season"
+      ]
+    },
+    {
+      "url": "https://passport.world.rugby/laws-of-the-game/laws-by-number/8-scoring/",
+      "status": 200,
+      "finalUrl": "https://passport.world.rugby/laws-of-the-game/laws-by-number/8-scoring/",
+      "verdict": "ok",
+      "articles": [
+        "drafting-a-goal-kicker-in-rugby"
+      ]
+    },
+    {
+      "url": "https://patents.google.com/patent/US8105151",
+      "status": 200,
+      "finalUrl": "https://patents.google.com/patent/US8105151",
+      "verdict": "ok",
+      "articles": [
+        "slot-reel-mechanics-explained"
+      ]
+    },
+    {
+      "url": "https://pcgbook.com/",
+      "status": 200,
+      "finalUrl": "https://www.pcgbook.com/",
+      "verdict": "ok",
+      "articles": [
+        "rotating-draft-pools-explained",
+        "world-boss-waves-in-tower-defense"
+      ]
+    },
+    {
+      "url": "https://pgcb.pa.gov/files/technical_standards/Technical_Standards_Section_461b1.pdf",
+      "status": 200,
+      "finalUrl": "https://pgcb.pa.gov/files/technical_standards/Technical_Standards_Section_461b1.pdf",
+      "verdict": "ok",
+      "articles": [
+        "slot-volatility-explained"
+      ]
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/fallacies/",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/fallacies/",
+      "verdict": "ok",
+      "articles": [
+        "common-reasoning-mistakes"
+      ]
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/induction-problem/",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/induction-problem/",
+      "verdict": "ok",
+      "articles": [
+        "inductive-reasoning-examples"
+      ]
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/logic-inductive/",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/logic-inductive/",
+      "verdict": "ok",
+      "articles": [
+        "inductive-reasoning-examples"
+      ]
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/logical-consequence/",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/logical-consequence/",
+      "verdict": "ok",
+      "articles": [
+        "deductive-reasoning-examples"
+      ]
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/reasoning-analogy/",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/reasoning-analogy/",
+      "verdict": "ok",
+      "articles": [
+        "analogy-puzzles-explained",
+        "odd-one-out-puzzles"
+      ]
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/simplicity/",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/simplicity/",
+      "verdict": "ok",
+      "articles": [
+        "sequences-with-more-than-one-answer"
+      ]
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/square/",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/square/",
+      "verdict": "ok",
+      "articles": [
+        "syllogisms-explained"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10693350/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10693350/",
+      "verdict": "ok",
+      "articles": [
+        "matrix-reasoning-puzzles"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10955741/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10955741/",
+      "verdict": "ok",
+      "articles": [
+        "style-fit-vs-rating-in-squad-building"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10957671/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10957671/",
+      "verdict": "ok",
+      "articles": [
+        "working-backwards-problems"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11237090/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11237090/",
+      "verdict": "ok",
+      "articles": [
+        "endless-mode-vs-campaign-shooters",
+        "space-galaxy-attack-arcade-vs-hardcore"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11349744/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11349744/",
+      "verdict": "ok",
+      "articles": [
+        "endless-mode-vs-campaign-shooters"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11595985/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11595985/",
+      "verdict": "ok",
+      "articles": [
+        "limitations-of-iq-testing",
+        "what-the-average-iq-score-means"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11783984/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11783984/",
+      "verdict": "ok",
+      "articles": [
+        "delayed-recall-explained",
+        "remembering-a-long-number",
+        "short-term-versus-working-memory"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12292765/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12292765/",
+      "verdict": "ok",
+      "articles": [
+        "timed-and-survival-quiz-modes"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12307481/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12307481/",
+      "verdict": "ok",
+      "articles": [
+        "press-conferences-in-career-mode"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12418189/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12418189/",
+      "verdict": "ok",
+      "articles": [
+        "style-fit-vs-rating-in-squad-building"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12470963",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12470963",
+      "verdict": "ok",
+      "articles": [
+        "are-online-iq-tests-accurate"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12839676/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12839676/",
+      "verdict": "ok",
+      "articles": [
+        "how-iq-scores-are-calculated",
+        "iq-score-ranges-and-bands",
+        "what-the-average-iq-score-means"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12938770/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12938770/",
+      "verdict": "ok",
+      "articles": [
+        "analogy-puzzles-explained"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13190410/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13190410/",
+      "verdict": "ok",
+      "articles": [
+        "math-anxiety-in-adults"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13214330/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13214330/",
+      "verdict": "ok",
+      "articles": [
+        "backward-digit-span",
+        "digit-span-explained"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13302299/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13302299/",
+      "verdict": "ok",
+      "articles": [
+        "fun-iq-quizzes-versus-real-assessments",
+        "limitations-of-iq-testing",
+        "what-iq-tests-actually-measure"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13523809/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13523809/",
+      "verdict": "ok",
+      "articles": [
+        "grid-and-position-memory"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323975/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323975/",
+      "verdict": "ok",
+      "articles": [
+        "recognition-versus-recall"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2447156/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2447156/",
+      "verdict": "ok",
+      "articles": [
+        "change-detection-tasks"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2657600/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2657600/",
+      "verdict": "ok",
+      "articles": [
+        "backward-digit-span",
+        "delayed-recall-explained",
+        "recognition-versus-recall",
+        "short-term-versus-working-memory"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2735458/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2735458/",
+      "verdict": "ok",
+      "articles": [
+        "odd-one-out-puzzles"
+      ]
+    },
+    {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2864034/",
       "status": 200,
       "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2864034/",
       "verdict": "ok",
       "articles": [
+        "digit-span-explained",
+        "grid-and-position-memory",
+        "growing-sequence-memory-games",
+        "how-to-memorize-numbers",
+        "n-back-tasks-explained",
+        "paired-associate-learning",
+        "remembering-a-long-number",
+        "short-term-versus-working-memory",
         "working-memory-and-training"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3144578/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3144578/",
+      "verdict": "ok",
+      "articles": [
+        "counting-up-subtraction",
+        "times-tables-memorisation"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3289109/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3289109/",
+      "verdict": "ok",
+      "articles": [
+        "change-detection-tasks"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3426724/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3426724/",
+      "verdict": "ok",
+      "articles": [
+        "energy-and-morale-in-match-decisions"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3461277/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3461277/",
+      "verdict": "ok",
+      "articles": [
+        "boss-weak-points-and-module-targeting"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3661602/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3661602/",
+      "verdict": "ok",
+      "articles": [
+        "attention-span-exercises",
+        "n-back-tasks-explained"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3748610/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3748610/",
+      "verdict": "ok",
+      "articles": [
+        "iq-score-ranges-and-bands"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3880841/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3880841/",
+      "verdict": "ok",
+      "articles": [
+        "compensation-strategy-in-arithmetic"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3918559/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3918559/",
+      "verdict": "ok",
+      "articles": [
+        "drafting-a-goal-kicker-in-rugby"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3928819/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3928819/",
+      "verdict": "ok",
+      "articles": [
+        "aging-curves-in-career-sims"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3942550/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3942550/",
+      "verdict": "ok",
+      "articles": [
+        "backward-digit-span",
+        "digit-span-explained"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3980403/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3980403/",
+      "verdict": "ok",
+      "articles": [
+        "delayed-recall-explained",
+        "remembering-a-long-number",
+        "short-term-versus-working-memory"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4052662/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4052662/",
+      "verdict": "ok",
+      "articles": [
+        "timed-and-survival-quiz-modes",
+        "what-processing-speed-means"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4103412/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4103412/",
+      "verdict": "ok",
+      "articles": [
+        "comparing-fractions-mentally",
+        "fraction-decimal-percent-conversions",
+        "simplifying-fractions-quickly"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4152423/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4152423/",
+      "verdict": "ok",
+      "articles": [
+        "what-the-average-iq-score-means"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4382075/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4382075/",
+      "verdict": "ok",
+      "articles": [
+        "attention-span-exercises"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4519226/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4519226/",
+      "verdict": "ok",
+      "articles": [
+        "player-body-metrics-in-career-sims"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4528092/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4528092/",
+      "verdict": "ok",
+      "articles": [
+        "what-processing-speed-means"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4735758/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4735758/",
+      "verdict": "ok",
+      "articles": [
+        "adding-a-list-of-numbers-mentally",
+        "careless-arithmetic-mistakes",
+        "why-am-i-slow-at-mental-math"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4755885/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4755885/",
+      "verdict": "ok",
+      "articles": [
+        "tracing-practice-for-new-scripts"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5264407/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5264407/",
+      "verdict": "ok",
+      "articles": [
+        "social-casino-vs-real-money-gambling"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5288891/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5288891/",
+      "verdict": "ok",
+      "articles": [
+        "why-meal-plans-fail-midweek"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5415597/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5415597/",
+      "verdict": "ok",
+      "articles": [
+        "grid-and-position-memory",
+        "growing-sequence-memory-games"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5449225/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5449225/",
+      "verdict": "ok",
+      "articles": [
+        "recognition-versus-recall"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5724815/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5724815/",
+      "verdict": "ok",
+      "articles": [
+        "careless-arithmetic-mistakes",
+        "helping-a-child-with-math-facts",
+        "why-am-i-slow-at-mental-math"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5856893/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5856893/",
+      "verdict": "ok",
+      "articles": [
+        "rugby-squad-rotation-over-a-season"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5869896",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5869896",
+      "verdict": "ok",
+      "articles": [
+        "mnemonic-systems-for-numbers"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5883583/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5883583/",
+      "verdict": "ok",
+      "articles": [
+        "limitations-of-iq-testing"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5990556/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5990556/",
+      "verdict": "ok",
+      "articles": [
+        "what-processing-speed-means"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6087760/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6087760/",
+      "verdict": "ok",
+      "articles": [
+        "analogy-puzzles-explained",
+        "matrix-reasoning-puzzles",
+        "visual-pattern-puzzles"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6224850/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6224850/",
+      "verdict": "ok",
+      "articles": [
+        "underrated-attributes-in-hockey-career-mode"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6267550/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6267550/",
+      "verdict": "ok",
+      "articles": [
+        "deductive-reasoning-examples",
+        "syllogisms-explained"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6367038/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6367038/",
+      "verdict": "ok",
+      "articles": [
+        "can-practice-raise-an-iq-score",
+        "fluid-and-crystallized-intelligence"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6370694/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6370694/",
+      "verdict": "ok",
+      "articles": [
+        "adding-a-list-of-numbers-mentally",
+        "times-tables-memorisation"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6421116/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6421116/",
+      "verdict": "ok",
+      "articles": [
+        "missing-number-problems"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6480749/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6480749/",
+      "verdict": "ok",
+      "articles": [
+        "can-practice-raise-an-iq-score"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6591133/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6591133/",
+      "verdict": "ok",
+      "articles": [
+        "n-back-tasks-explained"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6647533/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6647533/",
+      "verdict": "ok",
+      "articles": [
+        "backward-digit-span",
+        "digit-span-explained",
+        "mnemonic-systems-for-numbers"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6731745/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6731745/",
+      "verdict": "ok",
+      "articles": [
+        "deliberate-practice-in-brain-games"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6815069/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6815069/",
+      "verdict": "ok",
+      "articles": [
+        "college-recruiting-in-basketball-career-mode",
+        "player-body-metrics-in-career-sims"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6837216/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6837216/",
+      "verdict": "ok",
+      "articles": [
+        "matrix-reasoning-puzzles"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6963292/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6963292/",
+      "verdict": "ok",
+      "articles": [
+        "are-online-iq-tests-accurate",
+        "can-practice-raise-an-iq-score"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7498601/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7498601/",
+      "verdict": "ok",
+      "articles": [
+        "brain-training-questions-answered"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7955968/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7955968/",
+      "verdict": "ok",
+      "articles": [
+        "how-to-memorize-numbers",
+        "mnemonic-systems-for-numbers"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8292782/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8292782/",
+      "verdict": "ok",
+      "articles": [
+        "visual-pattern-puzzles"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8309713/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8309713/",
+      "verdict": "ok",
+      "articles": [
+        "college-recruiting-in-basketball-career-mode"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8356899/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8356899/",
+      "verdict": "ok",
+      "articles": [
+        "warming-up-before-focused-work"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8642381/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8642381/",
+      "verdict": "ok",
+      "articles": [
+        "attention-span-exercises",
+        "how-to-improve-concentration"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8811497/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8811497/",
+      "verdict": "ok",
+      "articles": [
+        "helping-a-child-with-math-facts",
+        "math-anxiety-in-adults"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9304239/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9304239/",
+      "verdict": "ok",
+      "articles": [
+        "math-anxiety-in-adults"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9458275/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9458275/",
+      "verdict": "ok",
+      "articles": [
+        "hockey-career-archetypes-explained",
+        "underrated-attributes-in-hockey-career-mode"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9598698/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9598698/",
+      "verdict": "ok",
+      "articles": [
+        "energy-and-morale-in-match-decisions"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9865475/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9865475/",
+      "verdict": "ok",
+      "articles": [
+        "fluid-and-crystallized-intelligence",
+        "what-iq-tests-actually-measure"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9924538/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9924538/",
+      "verdict": "ok",
+      "articles": [
+        "rugby-squad-rotation-over-a-season"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9992958/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9992958/",
+      "verdict": "ok",
+      "articles": [
+        "aging-curves-in-career-sims"
       ]
     },
     {
@@ -2343,7 +4186,55 @@
       "finalUrl": "https://prpm.dbp.gov.my/",
       "verdict": "ok",
       "articles": [
-        "malay-pronunciation-guide"
+        "malay-pronunciation-guide",
+        "malay-reduplication-explained"
+      ]
+    },
+    {
+      "url": "https://psnet.ahrq.gov/primer/systems-approach",
+      "status": 200,
+      "finalUrl": "https://psnet.ahrq.gov/primer/systems-approach",
+      "verdict": "ok",
+      "articles": [
+        "careless-arithmetic-mistakes"
+      ]
+    },
+    {
+      "url": "https://psych.hanover.edu/javatest/cle/Cognition_js/exp/BrownPeterson.html",
+      "status": 200,
+      "finalUrl": "https://psych.hanover.edu/javatest/cle/Cognition_js/exp/BrownPeterson.html",
+      "verdict": "ok",
+      "articles": [
+        "delayed-recall-explained"
+      ]
+    },
+    {
+      "url": "https://psychclassics.yorku.ca/Binet/binet1.htm",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "fail",
+      "articles": [
+        "who-invented-the-iq-test"
+      ]
+    },
+    {
+      "url": "https://psychclassics.yorku.ca/Miller/",
+      "status": 200,
+      "finalUrl": "https://psychclassics.yorku.ca/Miller/",
+      "verdict": "ok",
+      "articles": [
+        "digit-span-explained",
+        "how-to-memorize-numbers",
+        "remembering-a-long-number"
+      ]
+    },
+    {
+      "url": "https://psychclassics.yorku.ca/Terman/terman1.htm",
+      "status": 200,
+      "finalUrl": "https://psychclassics.yorku.ca/Terman/terman1.htm",
+      "verdict": "ok",
+      "articles": [
+        "who-invented-the-iq-test"
       ]
     },
     {
@@ -2369,6 +4260,24 @@
       "verdict": "ok",
       "articles": [
         "spaced-repetition-for-language-learning"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18841077/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/18841077/",
+      "verdict": "ok",
+      "articles": [
+        "scouting-combine-drills-explained"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20938353/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/20938353/",
+      "verdict": "ok",
+      "articles": [
+        "scouting-combine-drills-explained"
       ]
     },
     {
@@ -2476,6 +4385,15 @@
       ]
     },
     {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29996725/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/29996725/",
+      "verdict": "ok",
+      "articles": [
+        "playing-the-big-points-in-tennis"
+      ]
+    },
+    {
       "url": "https://pubmed.ncbi.nlm.nih.gov/31805451/",
       "status": 203,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/31805451/",
@@ -2501,6 +4419,51 @@
       "verdict": "ok",
       "articles": [
         "tdee-and-energy-balance"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39748989/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/39748989/",
+      "verdict": "ok",
+      "articles": [
+        "tennis-coaching-teams-explained"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40340808/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/40340808/",
+      "verdict": "ok",
+      "articles": [
+        "playing-the-big-points-in-tennis"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41262388/",
+      "status": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/41262388/",
+      "verdict": "ok",
+      "articles": [
+        "playing-the-big-points-in-tennis"
+      ]
+    },
+    {
+      "url": "https://rajbhasha.gov.in/en/constitutional-provisions",
+      "status": 200,
+      "finalUrl": "https://rajbhasha.gov.in/en/constitutional-provisions",
+      "verdict": "ok",
+      "articles": [
+        "learning-english-from-marathi"
+      ]
+    },
+    {
+      "url": "https://rajbhasha.gov.in/en/languages-included-eighth-schedule-indian-constitution",
+      "status": 200,
+      "finalUrl": "https://rajbhasha.gov.in/en/languages-included-eighth-schedule-indian-constitution",
+      "verdict": "ok",
+      "articles": [
+        "where-marathi-is-spoken"
       ]
     },
     {
@@ -2551,6 +4514,43 @@
       ]
     },
     {
+      "url": "https://source.android.com/docs/compatibility/cdd",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "browser-only",
+      "articles": [
+        "picture-in-picture-on-android"
+      ]
+    },
+    {
+      "url": "https://source.android.com/docs/core/display/pip",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "browser-only",
+      "articles": [
+        "picture-in-picture-on-android"
+      ]
+    },
+    {
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/oct/doc2024104408501.pdf",
+      "status": 200,
+      "finalUrl": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/oct/doc2024104408501.pdf",
+      "verdict": "ok",
+      "articles": [
+        "where-marathi-is-spoken"
+      ]
+    },
+    {
+      "url": "https://stats.iihf.com/hockey/rules/offrules.htm",
+      "status": 200,
+      "finalUrl": "https://stats.iihf.com/hockey/rules/offrules.htm",
+      "verdict": "ok",
+      "articles": [
+        "hockey-career-archetypes-explained",
+        "underrated-attributes-in-hockey-career-mode"
+      ]
+    },
+    {
       "url": "https://support.google.com/googleplay/android-developer/answer/10787469",
       "status": 200,
       "finalUrl": "https://support.google.com/googleplay/android-developer/answer/10787469",
@@ -2574,6 +4574,71 @@
       ]
     },
     {
+      "url": "https://support.google.com/googleplay/android-developer/answer/9859455",
+      "status": 200,
+      "finalUrl": "https://support.google.com/googleplay/android-developer/answer/9859455",
+      "verdict": "ok",
+      "articles": [
+        "offline-brain-training-apps"
+      ]
+    },
+    {
+      "url": "https://support.google.com/googleplay/android-developer/answer/9859655",
+      "status": 200,
+      "finalUrl": "https://support.google.com/googleplay/android-developer/answer/9859655",
+      "verdict": "ok",
+      "articles": [
+        "brain-games-for-the-whole-family"
+      ]
+    },
+    {
+      "url": "https://support.google.com/googleplay/android-developer/answer/9877032",
+      "status": 200,
+      "finalUrl": "https://support.google.com/googleplay/android-developer/answer/9877032",
+      "verdict": "ok",
+      "articles": [
+        "slot-reel-mechanics-explained",
+        "social-casino-vs-real-money-gambling"
+      ]
+    },
+    {
+      "url": "https://support.google.com/googleplay/answer/11416267",
+      "status": 200,
+      "finalUrl": "https://support.google.com/googleplay/answer/11416267",
+      "verdict": "ok",
+      "articles": [
+        "offline-brain-training-apps"
+      ]
+    },
+    {
+      "url": "https://support.google.com/googleplay/answer/6209544",
+      "status": 200,
+      "finalUrl": "https://support.google.com/googleplay/answer/6209544",
+      "verdict": "ok",
+      "articles": [
+        "brain-games-for-the-whole-family",
+        "fun-iq-quizzes-versus-real-assessments"
+      ]
+    },
+    {
+      "url": "https://support.google.com/googleplay/answer/7018481",
+      "status": 200,
+      "finalUrl": "https://support.google.com/googleplay/answer/7018481",
+      "verdict": "ok",
+      "articles": [
+        "what-a-brain-training-subscription-buys"
+      ]
+    },
+    {
+      "url": "https://taxadmin.org/research-and-tax-rates/",
+      "status": 200,
+      "finalUrl": "https://taxadmin.org/research-and-tax-rates/",
+      "verdict": "ok",
+      "articles": [
+        "estimating-sales-tax"
+      ]
+    },
+    {
       "url": "https://tcg.pokemon.com/en-us/",
       "status": 200,
       "finalUrl": "https://tcg.pokemon.com/en-us/",
@@ -2588,7 +4653,44 @@
       "finalUrl": "https://themindcompany.com/apps/elevate",
       "verdict": "ok",
       "articles": [
+        "brain-training-apps-compared",
         "do-brain-training-apps-work"
+      ]
+    },
+    {
+      "url": "https://users.cs.northwestern.edu/~paritosh/papers/KIP/power-law-repealed.pdf",
+      "status": 200,
+      "finalUrl": "https://users.cs.northwestern.edu/~paritosh/papers/KIP/power-law-repealed.pdf",
+      "verdict": "ok",
+      "articles": [
+        "why-practice-progress-plateaus"
+      ]
+    },
+    {
+      "url": "https://wals.info/chapter/27",
+      "status": 200,
+      "finalUrl": "https://wals.info/chapter/27",
+      "verdict": "ok",
+      "articles": [
+        "malay-reduplication-explained"
+      ]
+    },
+    {
+      "url": "https://wals.info/chapter/33",
+      "status": 200,
+      "finalUrl": "https://wals.info/chapter/33",
+      "verdict": "ok",
+      "articles": [
+        "malay-reduplication-explained"
+      ]
+    },
+    {
+      "url": "https://web.mit.edu/jbelcher/www/learner/retrieval.pdf",
+      "status": 200,
+      "finalUrl": "https://web.mit.edu/jbelcher/www/learner/retrieval.pdf",
+      "verdict": "ok",
+      "articles": [
+        "paired-associate-learning"
       ]
     },
     {
@@ -2600,6 +4702,15 @@
         "how-historians-date-events",
         "major-eras-of-world-history",
         "world-history-timeline-guide"
+      ]
+    },
+    {
+      "url": "https://www.abcboxing.com/",
+      "status": 200,
+      "finalUrl": "https://www.abcboxing.com/",
+      "verdict": "ok",
+      "articles": [
+        "managing-a-fight-stable"
       ]
     },
     {
@@ -2640,6 +4751,15 @@
       ]
     },
     {
+      "url": "https://www.acsu.buffalo.edu/~duchan/new_history/hist19c/subpages/yerkes.html",
+      "status": 200,
+      "finalUrl": "https://www.acsu.buffalo.edu/~duchan/new_history/hist19c/subpages/yerkes.html",
+      "verdict": "ok",
+      "articles": [
+        "who-invented-the-iq-test"
+      ]
+    },
+    {
       "url": "https://www.actfl.org/educator-resources/actfl-proficiency-guidelines",
       "status": 200,
       "finalUrl": "https://www.actfl.org/terms-and-conditions",
@@ -2662,6 +4782,17 @@
       ]
     },
     {
+      "url": "https://www.aera.net/Publications/Books/Standards-for-Educational-and-Psychological-Testing-2014-Edition",
+      "status": 200,
+      "finalUrl": "https://www.aera.net/Publications/Books/Standards-for-Educational-and-Psychological-Testing-2014-Edition",
+      "verdict": "ok",
+      "articles": [
+        "iq-and-emotional-intelligence",
+        "nonverbal-reasoning-tests-explained",
+        "reliability-and-validity-in-testing"
+      ]
+    },
+    {
       "url": "https://www.animenewsnetwork.com/encyclopedia/lexicon.php",
       "status": 200,
       "finalUrl": "https://www.animenewsnetwork.com/encyclopedia/lexicon.php",
@@ -2672,6 +4803,15 @@
         "anime-terminology-glossary",
         "how-quiz-difficulty-works",
         "word-game-strategy-guide"
+      ]
+    },
+    {
+      "url": "https://www.appraisalfoundation.org/imis/TAF/Standards/Appraisal_Standards/Uniform_Standards_of_Professional_Appraisal_Practice/TAF/USPAP.aspx",
+      "status": 200,
+      "finalUrl": "https://appraisalfoundation.org/products/uspap",
+      "verdict": "ok",
+      "articles": [
+        "why-card-price-estimates-disagree"
       ]
     },
     {
@@ -2704,12 +4844,93 @@
       ]
     },
     {
+      "url": "https://www.archives.gov/preservation/technical/guidelines.html",
+      "status": 200,
+      "finalUrl": "https://www.archives.gov/preservation/technical/guidelines.html",
+      "verdict": "ok",
+      "articles": [
+        "photographing-cards-for-centring"
+      ]
+    },
+    {
+      "url": "https://www.bls.gov/cex/",
+      "status": 200,
+      "finalUrl": "https://www.bls.gov/cex/",
+      "verdict": "ok",
+      "articles": [
+        "budget-math-in-your-head"
+      ]
+    },
+    {
+      "url": "https://www.bls.gov/oes/oes_ques.htm",
+      "status": 200,
+      "finalUrl": "https://www.bls.gov/oes/oes_ques.htm",
+      "verdict": "ok",
+      "articles": [
+        "percentiles-and-standard-scores"
+      ]
+    },
+    {
+      "url": "https://www.brainfacts.org/thinking-sensing-and-behaving/thinking-and-awareness/2019/debunked-the-10-percent-brain-myth-061719",
+      "status": 200,
+      "finalUrl": "https://www.brainfacts.org/thinking-sensing-and-behaving/thinking-and-awareness/2019/debunked-the-10-percent-brain-myth-061719",
+      "verdict": "ok",
+      "articles": [
+        "brain-training-questions-answered"
+      ]
+    },
+    {
+      "url": "https://www.brainhq.com/",
+      "status": 200,
+      "finalUrl": "https://www.brainhq.com/",
+      "verdict": "ok",
+      "articles": [
+        "brain-training-apps-compared"
+      ]
+    },
+    {
+      "url": "https://www.brainhq.com/why-brainhq/brainhq-faq/",
+      "status": 200,
+      "finalUrl": "https://www.brainhq.com/why-brainhq/brainhq-faq/",
+      "verdict": "ok",
+      "articles": [
+        "what-a-brain-training-subscription-buys"
+      ]
+    },
+    {
       "url": "https://www.britishmuseum.org/collection/object/Y_EA24",
       "status": 403,
       "finalUrl": "https://www.britishmuseum.org/collection/object/Y_EA24",
       "verdict": "browser-only",
       "articles": [
         "world-history-timeline-guide"
+      ]
+    },
+    {
+      "url": "https://www.cal.org/heritage/pdfs/Who-is-a-Heritage-Language-Learner.pdf",
+      "status": 200,
+      "finalUrl": "https://www.cal.org/heritage/pdfs/Who-is-a-Heritage-Language-Learner.pdf",
+      "verdict": "ok",
+      "articles": [
+        "heritage-language-learners-shanghainese"
+      ]
+    },
+    {
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-handbook-of-chinese-linguistics/sentencefinal-particles/12FA19BC714F9536406AEF9CC50CD44E",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/books/abs/cambridge-handbook-of-chinese-linguistics/sentencefinal-particles/12FA19BC714F9536406AEF9CC50CD44E",
+      "verdict": "ok",
+      "articles": [
+        "cantonese-sentence-final-particles"
+      ]
+    },
+    {
+      "url": "https://www.cambridge.org/core/journals/history-of-education-quarterly/article/abs/psychologists-and-the-war-the-meaning-of-intelligence-in-the-alpha-and-beta-tests/4A5A26B93CECFA339EC105C9AFDF9B4B",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/journals/history-of-education-quarterly/article/abs/psychologists-and-the-war-the-meaning-of-intelligence-in-the-alpha-and-beta-tests/4A5A26B93CECFA339EC105C9AFDF9B4B",
+      "verdict": "ok",
+      "articles": [
+        "who-invented-the-iq-test"
       ]
     },
     {
@@ -2731,6 +4952,29 @@
       ]
     },
     {
+      "url": "https://www.careers.manchester.ac.uk/applicationsinterviews/psychometric/reasoningtests/",
+      "status": 200,
+      "finalUrl": "https://www.careers.manchester.ac.uk/applicationsinterviews/psychometric/reasoningtests/",
+      "verdict": "ok",
+      "articles": [
+        "abstract-reasoning-tests-explained",
+        "nonverbal-reasoning-tests-explained",
+        "numerical-reasoning-tests-explained",
+        "strategy-for-timed-reasoning-tests",
+        "verbal-reasoning-question-types"
+      ]
+    },
+    {
+      "url": "https://www.ccli.gov.hk/en/hkscs/what_is_hkscs.html",
+      "status": 200,
+      "finalUrl": "https://www.ccli.gov.hk/en/hkscs/what_is_hkscs.html",
+      "verdict": "ok",
+      "articles": [
+        "cantonese-sentence-final-particles",
+        "spoken-vs-written-cantonese"
+      ]
+    },
+    {
       "url": "https://www.cdc.gov/diabetes/about/diabetic-ketoacidosis.html",
       "status": 200,
       "finalUrl": "https://www.cdc.gov/diabetes/about/diabetic-ketoacidosis.html",
@@ -2738,6 +4982,42 @@
       "articles": [
         "keto-flu-explained",
         "what-is-a-ketone-reading"
+      ]
+    },
+    {
+      "url": "https://www.cdtfa.ca.gov/taxes-and-fees/sales-use-tax-rates.htm",
+      "status": 200,
+      "finalUrl": "https://cdtfa.ca.gov/taxes-and-fees/sales-use-tax-rates.htm",
+      "verdict": "ok",
+      "articles": [
+        "estimating-sales-tax"
+      ]
+    },
+    {
+      "url": "https://www.cemc.uwaterloo.ca/resources/courseware/courseware.html",
+      "status": 200,
+      "finalUrl": "https://cemc.uwaterloo.ca/resources/courseware",
+      "verdict": "ok",
+      "articles": [
+        "missing-number-problems"
+      ]
+    },
+    {
+      "url": "https://www.cemc.uwaterloo.ca/resources/potw.php",
+      "status": 200,
+      "finalUrl": "https://cemc.uwaterloo.ca/resources/potw",
+      "verdict": "ok",
+      "articles": [
+        "working-backwards-problems"
+      ]
+    },
+    {
+      "url": "https://www.census.gov/topics/research/stat-research/expertise/survey-sampling.html",
+      "status": 200,
+      "finalUrl": "https://www.census.gov/topics/research/stat-research/expertise/survey-sampling.html",
+      "verdict": "ok",
+      "articles": [
+        "inductive-reasoning-examples"
       ]
     },
     {
@@ -2761,6 +5041,15 @@
       ]
     },
     {
+      "url": "https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life",
+      "status": 200,
+      "finalUrl": "https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life",
+      "verdict": "ok",
+      "articles": [
+        "brain-games-for-older-adults"
+      ]
+    },
+    {
       "url": "https://www.coe.int/en/web/common-european-framework-reference-languages",
       "status": 403,
       "finalUrl": "https://www.coe.int/en/web/common-european-framework-reference-languages",
@@ -2776,6 +5065,42 @@
       "verdict": "ok",
       "articles": [
         "history-of-shoot-em-up-games"
+      ]
+    },
+    {
+      "url": "https://www.consumerfinance.gov/archive/blog/budgeting-how-to-create-a-budget-and-stick-with-it/",
+      "status": 200,
+      "finalUrl": "https://www.consumerfinance.gov/archive/blog/budgeting-how-to-create-a-budget-and-stick-with-it/",
+      "verdict": "ok",
+      "articles": [
+        "budget-math-in-your-head"
+      ]
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/teach/activities/creating-monthly-household-budget/",
+      "status": 200,
+      "finalUrl": "https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/teach/activities/creating-monthly-household-budget/",
+      "verdict": "ok",
+      "articles": [
+        "budget-math-in-your-head"
+      ]
+    },
+    {
+      "url": "https://www.cs.ubc.ca/~rensink/publications/download/S&R-TICS-05a.pdf",
+      "status": 200,
+      "finalUrl": "https://www.cs.ubc.ca/~rensink/publications/download/S&R-TICS-05a.pdf",
+      "verdict": "ok",
+      "articles": [
+        "change-detection-tasks"
+      ]
+    },
+    {
+      "url": "https://www.csb.gov.hk/english/aboutus/org/scsd/1470.html",
+      "status": 200,
+      "finalUrl": "https://www.csb.gov.hk/english/aboutus/org/scsd/1470.html",
+      "verdict": "ok",
+      "articles": [
+        "spoken-vs-written-cantonese"
       ]
     },
     {
@@ -2801,6 +5126,16 @@
         "keto-macros-explained",
         "net-carbs-explained-keto-tracking",
         "protein-sources-compared"
+      ]
+    },
+    {
+      "url": "https://www.digitizationguidelines.gov/guidelines/digitize-technical.html",
+      "status": 200,
+      "finalUrl": "https://www.digitizationguidelines.gov/guidelines/digitize-technical.html",
+      "verdict": "ok",
+      "articles": [
+        "bulk-scanning-a-card-collection",
+        "photographing-cards-for-centring"
       ]
     },
     {
@@ -2850,6 +5185,58 @@
       "articles": [
         "protein-sources-compared",
         "reading-nutrition-labels"
+      ]
+    },
+    {
+      "url": "https://www.ets.org/about/fairness.html",
+      "status": 200,
+      "finalUrl": "https://www.ets.org/about/fairness.html",
+      "verdict": "ok",
+      "articles": [
+        "limitations-of-iq-testing"
+      ]
+    },
+    {
+      "url": "https://www.ets.org/about/fairness/review-publications.html",
+      "status": 200,
+      "finalUrl": "https://www.ets.org/about/fairness/review-publications.html",
+      "verdict": "ok",
+      "articles": [
+        "reliability-and-validity-in-testing"
+      ]
+    },
+    {
+      "url": "https://www.ets.org/gre/test-takers/general-test/prepare/content/quantitative-reasoning.html",
+      "status": 200,
+      "finalUrl": "https://www.ets.org/gre/test-takers/general-test/prepare/content/quantitative-reasoning.html",
+      "verdict": "ok",
+      "articles": [
+        "numerical-reasoning-tests-explained",
+        "strategy-for-timed-reasoning-tests"
+      ]
+    },
+    {
+      "url": "https://www.ets.org/gre/test-takers/general-test/prepare/content/verbal-reasoning.html",
+      "status": 200,
+      "finalUrl": "https://www.ets.org/gre/test-takers/general-test/prepare/content/verbal-reasoning.html",
+      "verdict": "ok",
+      "articles": [
+        "verbal-reasoning-question-types"
+      ]
+    },
+    {
+      "url": "https://www.ets.org/research/policy_research_reports/publications/report/2018/jysw.html",
+      "status": 200,
+      "finalUrl": "https://www.ets.org/research/policy_research_reports/publications/report/2018/jysw.html",
+      "verdict": "ok",
+      "articles": [
+        "are-online-iq-tests-accurate",
+        "fluid-and-crystallized-intelligence",
+        "fun-iq-quizzes-versus-real-assessments",
+        "how-iq-scores-are-calculated",
+        "iq-score-ranges-and-bands",
+        "percentiles-and-standard-scores",
+        "what-iq-tests-actually-measure"
       ]
     },
     {
@@ -2958,7 +5345,8 @@
       "verdict": "ok",
       "articles": [
         "protein-sources-compared",
-        "reading-nutrition-labels"
+        "reading-nutrition-labels",
+        "what-allergy-flags-in-recipe-apps-miss"
       ]
     },
     {
@@ -2980,6 +5368,15 @@
       ]
     },
     {
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-questions-and-answers-regarding-food-allergen-labeling-edition-5",
+      "status": 200,
+      "finalUrl": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-questions-and-answers-regarding-food-allergen-labeling-edition-5",
+      "verdict": "ok",
+      "articles": [
+        "what-allergy-flags-in-recipe-apps-miss"
+      ]
+    },
+    {
       "url": "https://www.fiba.basketball/documents",
       "status": 200,
       "finalUrl": "https://about.fiba.basketball/en/services/resource-hub/downloads",
@@ -2991,12 +5388,184 @@
       ]
     },
     {
+      "url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2021.726454/full",
+      "status": 200,
+      "finalUrl": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.726454/full",
+      "verdict": "ok",
+      "articles": [
+        "tracing-practice-for-new-scripts"
+      ]
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2022.796372/full",
+      "status": 200,
+      "finalUrl": "https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2022.796372/full",
+      "verdict": "ok",
+      "articles": [
+        "cantonese-sentence-final-particles",
+        "spoken-vs-written-cantonese"
+      ]
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.858273/full",
+      "status": 200,
+      "finalUrl": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.858273/full",
+      "verdict": "ok",
+      "articles": [
+        "abstract-reasoning-tests-explained"
+      ]
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2019.00269/full",
+      "status": 200,
+      "finalUrl": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2019.00269/full",
+      "verdict": "ok",
+      "articles": [
+        "abstract-reasoning-tests-explained",
+        "nonverbal-reasoning-tests-explained",
+        "spatial-reasoning-and-number-sense"
+      ]
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2021.679191/full",
+      "status": 200,
+      "finalUrl": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2021.679191/full",
+      "verdict": "ok",
+      "articles": [
+        "dictation-practice-in-a-new-script"
+      ]
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2019.00789/full",
+      "status": 200,
+      "finalUrl": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2019.00789/full",
+      "verdict": "ok",
+      "articles": [
+        "what-a-brain-age-score-means"
+      ]
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2014.00150/full",
+      "status": 200,
+      "finalUrl": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2014.00150/full",
+      "verdict": "ok",
+      "articles": [
+        "accuracy-before-speed",
+        "numerical-reasoning-tests-explained",
+        "reading-response-time-numbers",
+        "strategy-for-timed-reasoning-tests"
+      ]
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2018.01100/full",
+      "status": 200,
+      "finalUrl": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2018.01100/full",
+      "verdict": "ok",
+      "articles": [
+        "aging-curves-in-career-sims"
+      ]
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.00297/full",
+      "status": 200,
+      "finalUrl": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.00297/full",
+      "verdict": "ok",
+      "articles": [
+        "nonverbal-reasoning-tests-explained"
+      ]
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.01171/full",
+      "status": 200,
+      "finalUrl": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.01171/full",
+      "verdict": "ok",
+      "articles": [
+        "reading-response-time-numbers",
+        "why-practice-progress-plateaus"
+      ]
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.00755/full",
+      "status": 200,
+      "finalUrl": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.00755/full",
+      "verdict": "ok",
+      "articles": [
+        "spatial-reasoning-and-number-sense"
+      ]
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01078/full",
+      "status": 200,
+      "finalUrl": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01078/full",
+      "verdict": "ok",
+      "articles": [
+        "iq-and-emotional-intelligence"
+      ]
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01504/full",
+      "status": 200,
+      "finalUrl": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01504/full",
+      "verdict": "ok",
+      "articles": [
+        "how-long-a-brain-training-session-should-be"
+      ]
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.00884/full",
+      "status": 200,
+      "finalUrl": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.00884/full",
+      "verdict": "ok",
+      "articles": [
+        "abstract-reasoning-tests-explained"
+      ]
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.01116/full",
+      "status": 200,
+      "finalUrl": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.01116/full",
+      "verdict": "ok",
+      "articles": [
+        "iq-and-emotional-intelligence",
+        "reliability-and-validity-in-testing"
+      ]
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.02123/full",
+      "status": 200,
+      "finalUrl": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.02123/full",
+      "verdict": "ok",
+      "articles": [
+        "dictation-practice-in-a-new-script"
+      ]
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.591308/full",
+      "status": 200,
+      "finalUrl": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.591308/full",
+      "verdict": "ok",
+      "articles": [
+        "spatial-reasoning-and-number-sense"
+      ]
+    },
+    {
       "url": "https://www.ftc.gov/business-guidance/blog/2016/01/mind-gap-what-lumosity-promised-vs-what-it-could-prove",
       "status": 200,
       "finalUrl": "https://www.ftc.gov/business-guidance/blog/2016/01/mind-gap-what-lumosity-promised-vs-what-it-could-prove",
       "verdict": "ok",
       "articles": [
-        "do-brain-training-apps-work"
+        "brain-training-apps-compared",
+        "do-brain-training-apps-work",
+        "what-a-brain-age-score-means"
+      ]
+    },
+    {
+      "url": "https://www.ftc.gov/legal-library/browse/rules/deceptive-pricing",
+      "status": 200,
+      "finalUrl": "https://www.ftc.gov/legal-library/browse/rules/deceptive-pricing",
+      "verdict": "ok",
+      "articles": [
+        "finding-the-original-price-before-a-discount"
       ]
     },
     {
@@ -3014,8 +5583,83 @@
       "finalUrl": "https://www.ftc.gov/news-events/news/press-releases/2016/01/lumosity-pay-2-million-settle-ftc-deceptive-advertising-charges-its-brain-training-program",
       "verdict": "ok",
       "articles": [
+        "are-online-iq-tests-accurate",
+        "brain-games-for-older-adults",
+        "brain-training-apps-compared",
+        "brain-training-questions-answered",
         "do-brain-training-apps-work",
+        "what-a-brain-age-score-means",
+        "what-a-brain-training-subscription-buys",
         "working-memory-and-training"
+      ]
+    },
+    {
+      "url": "https://www.gamblingcommission.gov.uk/about-us/page/virtual-currencies-esports-and-social-gaming-discussion-paper",
+      "status": 200,
+      "finalUrl": "https://www.gamblingcommission.gov.uk/about-us/page/virtual-currencies-esports-and-social-gaming-discussion-paper",
+      "verdict": "ok",
+      "articles": [
+        "social-casino-vs-real-money-gambling"
+      ]
+    },
+    {
+      "url": "https://www.globalratings.com/",
+      "status": 200,
+      "finalUrl": "https://www.globalratings.com/",
+      "verdict": "ok",
+      "articles": [
+        "brain-games-for-the-whole-family"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/government/collections/multiplication-tables-check",
+      "status": 200,
+      "finalUrl": "https://www.gov.uk/government/collections/multiplication-tables-check",
+      "verdict": "ok",
+      "articles": [
+        "times-tables-memorisation"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/food-allergy-and-intolerance-advice-for-consumers/food-allergy-and-intolerance-advice-for-consumers",
+      "status": 200,
+      "finalUrl": "https://www.gov.uk/government/publications/food-allergy-and-intolerance-advice-for-consumers/food-allergy-and-intolerance-advice-for-consumers",
+      "verdict": "ok",
+      "articles": [
+        "what-allergy-flags-in-recipe-apps-miss"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/how-to-chill-freeze-and-defrost-food-safely",
+      "status": 200,
+      "finalUrl": "https://www.gov.uk/government/publications/how-to-chill-freeze-and-defrost-food-safely",
+      "verdict": "ok",
+      "articles": [
+        "why-meal-plans-fail-midweek"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study",
+      "status": 200,
+      "finalUrl": "https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study",
+      "verdict": "ok",
+      "articles": [
+        "compensation-strategy-in-arithmetic",
+        "counting-up-subtraction",
+        "cross-multiplication-in-one-pass",
+        "left-to-right-addition",
+        "multiplying-by-five-and-twenty-five",
+        "number-bonds-and-making-tens",
+        "subtraction-without-borrowing"
+      ]
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-106publ210/html/PLAW-106publ210.htm",
+      "status": 200,
+      "finalUrl": "https://www.govinfo.gov/content/pkg/PLAW-106publ210/html/PLAW-106publ210.htm",
+      "verdict": "ok",
+      "articles": [
+        "managing-a-fight-stable"
       ]
     },
     {
@@ -3029,12 +5673,79 @@
       ]
     },
     {
+      "url": "https://www.ics.uci.edu/~gmark/chi08-mark.pdf",
+      "status": 200,
+      "finalUrl": "https://ics.uci.edu/~gmark/chi08-mark.pdf",
+      "verdict": "ok",
+      "articles": [
+        "how-to-improve-concentration"
+      ]
+    },
+    {
+      "url": "https://www.irs.gov/publications/p561",
+      "status": 200,
+      "finalUrl": "https://www.irs.gov/publications/p561",
+      "verdict": "ok",
+      "articles": [
+        "why-card-price-estimates-disagree"
+      ]
+    },
+    {
+      "url": "https://www.itftennis.com/media/15480/2026-itf-world-tennis-tour-juniors-regulations.pdf",
+      "status": 200,
+      "finalUrl": "https://www.itftennis.com/media/15480/2026-itf-world-tennis-tour-juniors-regulations.pdf",
+      "verdict": "ok",
+      "articles": [
+        "junior-circuit-to-pro-tour-path"
+      ]
+    },
+    {
+      "url": "https://www.itftennis.com/media/15546/2026-wtt-regulations.pdf",
+      "status": 200,
+      "finalUrl": "https://www.itftennis.com/media/15546/2026-wtt-regulations.pdf",
+      "verdict": "ok",
+      "articles": [
+        "junior-circuit-to-pro-tour-path",
+        "tennis-coaching-teams-explained"
+      ]
+    },
+    {
+      "url": "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf",
+      "status": 200,
+      "finalUrl": "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf",
+      "verdict": "ok",
+      "articles": [
+        "junior-circuit-to-pro-tour-path",
+        "playing-the-big-points-in-tennis",
+        "tennis-coaching-teams-explained"
+      ]
+    },
+    {
       "url": "https://www.itl.nist.gov/div898/handbook/",
       "status": 200,
       "finalUrl": "https://www.itl.nist.gov/div898/handbook/",
       "verdict": "ok",
       "articles": [
         "understanding-sports-sim-probability"
+      ]
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda3661.htm",
+      "status": 200,
+      "finalUrl": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda3661.htm",
+      "verdict": "ok",
+      "articles": [
+        "how-iq-scores-are-calculated"
+      ]
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/pmc/section5/pmc51.htm",
+      "status": 200,
+      "finalUrl": "https://www.itl.nist.gov/div898/handbook/pmc/section5/pmc51.htm",
+      "verdict": "ok",
+      "articles": [
+        "iq-score-ranges-and-bands",
+        "percentiles-and-standard-scores"
       ]
     },
     {
@@ -3087,6 +5798,34 @@
       ]
     },
     {
+      "url": "https://www.learningscientists.org/blog/2016/6/23-1",
+      "status": 200,
+      "finalUrl": "https://www.learningscientists.org/blog/2016/6/23-1",
+      "verdict": "ok",
+      "articles": [
+        "daily-challenge-formats-explained"
+      ]
+    },
+    {
+      "url": "https://www.learningscientists.org/blog/2016/7/21-1",
+      "status": 200,
+      "finalUrl": "https://www.learningscientists.org/blog/2016/7/21-1",
+      "verdict": "ok",
+      "articles": [
+        "daily-challenge-formats-explained",
+        "warming-up-before-focused-work"
+      ]
+    },
+    {
+      "url": "https://www.learningscientists.org/blog/2016/8/11-1",
+      "status": 200,
+      "finalUrl": "https://www.learningscientists.org/blog/2016/8/11-1",
+      "verdict": "ok",
+      "articles": [
+        "choosing-a-difficulty-level"
+      ]
+    },
+    {
       "url": "https://www.leg.state.nv.us/NAC/NAC-467.html",
       "status": 200,
       "finalUrl": "https://www.leg.state.nv.us/NAC/NAC-467.html",
@@ -3094,6 +5833,24 @@
       "articles": [
         "boxing-scoring-explained",
         "mma-weight-classes-explained"
+      ]
+    },
+    {
+      "url": "https://www.leg.state.nv.us/nac/nac-467.html",
+      "status": 200,
+      "finalUrl": "https://www.leg.state.nv.us/nac/nac-467.html",
+      "verdict": "ok",
+      "articles": [
+        "managing-a-fight-stable"
+      ]
+    },
+    {
+      "url": "https://www.legislation.gov.uk/ukpga/2005/19/section/6",
+      "status": 200,
+      "finalUrl": "https://www.legislation.gov.uk/ukpga/2005/19/section/6",
+      "verdict": "ok",
+      "articles": [
+        "social-casino-vs-real-money-gambling"
       ]
     },
     {
@@ -3113,6 +5870,15 @@
       "articles": [
         "khmer-script-explained",
         "learn-khmer-beginners-guide"
+      ]
+    },
+    {
+      "url": "https://www.loc.gov/catdir/cpso/romanization/lao.pdf",
+      "status": 200,
+      "finalUrl": "https://www.loc.gov/catdir/cpso/romanization/lao.pdf",
+      "verdict": "ok",
+      "articles": [
+        "lao-numbers-and-prices"
       ]
     },
     {
@@ -3162,7 +5928,37 @@
       "finalUrl": "https://www.lumosity.com/en/",
       "verdict": "ok",
       "articles": [
+        "brain-training-apps-compared",
         "do-brain-training-apps-work"
+      ]
+    },
+    {
+      "url": "https://www.lumosity.com/en/brain-games/",
+      "status": 200,
+      "finalUrl": "https://www.lumosity.com/en/brain-games/",
+      "verdict": "ok",
+      "articles": [
+        "brain-training-apps-compared",
+        "what-a-brain-training-subscription-buys"
+      ]
+    },
+    {
+      "url": "https://www.maine.gov/doe/pl/math/addition",
+      "status": 200,
+      "finalUrl": "https://www.maine.gov/doe/pl/math/addition",
+      "verdict": "ok",
+      "articles": [
+        "left-to-right-addition",
+        "number-bonds-and-making-tens"
+      ]
+    },
+    {
+      "url": "https://www.math.ucla.edu/~tom/Stopping/Contents.html",
+      "status": 200,
+      "finalUrl": "https://www.math.ucla.edu/~tom/Stopping/Contents.html",
+      "verdict": "ok",
+      "articles": [
+        "rotating-draft-pools-explained"
       ]
     },
     {
@@ -3357,6 +6153,15 @@
       ]
     },
     {
+      "url": "https://www.nationalacademies.org/read/24782/chapter/2",
+      "status": 200,
+      "finalUrl": "https://www.nationalacademies.org/read/24782/chapter/2",
+      "verdict": "ok",
+      "articles": [
+        "brain-games-for-older-adults"
+      ]
+    },
+    {
       "url": "https://www.nationalarchives.gov.uk/",
       "status": 200,
       "finalUrl": "https://www.nationalarchives.gov.uk/",
@@ -3365,6 +6170,34 @@
         "how-historians-date-events",
         "major-eras-of-world-history",
         "world-history-timeline-guide"
+      ]
+    },
+    {
+      "url": "https://www.nationalnumeracy.org.uk/helping-children-maths",
+      "status": 200,
+      "finalUrl": "https://www.nationalnumeracy.org.uk/helping-children-maths",
+      "verdict": "ok",
+      "articles": [
+        "helping-a-child-with-math-facts"
+      ]
+    },
+    {
+      "url": "https://www.nationalnumeracy.org.uk/what-numeracy",
+      "status": 200,
+      "finalUrl": "https://www.nationalnumeracy.org.uk/what-numeracy",
+      "verdict": "ok",
+      "articles": [
+        "accuracy-before-speed",
+        "brain-training-for-busy-adults"
+      ]
+    },
+    {
+      "url": "https://www.ncaa.org/eligibility-center/recruiting",
+      "status": 200,
+      "finalUrl": "https://www.ncaa.org/eligibility-center/recruiting/",
+      "verdict": "ok",
+      "articles": [
+        "college-recruiting-in-basketball-career-mode"
       ]
     },
     {
@@ -3418,6 +6251,25 @@
       "verdict": "ok",
       "articles": [
         "tracking-food-allergies-and-reactions"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/",
+      "status": 200,
+      "finalUrl": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/",
+      "verdict": "ok",
+      "articles": [
+        "meal-planning-for-a-dietary-preference",
+        "why-meal-plans-fail-midweek"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegetarian-diet/",
+      "status": 200,
+      "finalUrl": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegetarian-diet/",
+      "verdict": "ok",
+      "articles": [
+        "meal-planning-for-a-dietary-preference"
       ]
     },
     {
@@ -3495,6 +6347,15 @@
       ]
     },
     {
+      "url": "https://www.nist.gov/news-events/news/2024/12/best-practices-uniform-unit-pricing-update-nist-sp-1181-and-nist-handbook",
+      "status": 200,
+      "finalUrl": "https://www.nist.gov/news-events/news/2024/12/best-practices-uniform-unit-pricing-update-nist-sp-1181-and-nist-handbook",
+      "verdict": "ok",
+      "articles": [
+        "unit-price-comparison"
+      ]
+    },
+    {
       "url": "https://www.nist.gov/pml/owm/metric-si/si-units",
       "status": 200,
       "finalUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
@@ -3514,6 +6375,15 @@
       ]
     },
     {
+      "url": "https://www.nist.gov/pml/owm/national-legal-metrology/us-retail-pricing-laws-and-regulations",
+      "status": 200,
+      "finalUrl": "https://www.nist.gov/pml/owm/national-legal-metrology/us-retail-pricing-laws-and-regulations",
+      "verdict": "ok",
+      "articles": [
+        "unit-price-comparison"
+      ]
+    },
+    {
       "url": "https://www.nist.gov/pml/special-publication-811",
       "status": 200,
       "finalUrl": "https://www.nist.gov/pml/special-publication-811",
@@ -3530,6 +6400,52 @@
       "articles": [
         "bce-and-ce-explained",
         "how-calendars-and-dating-systems-work"
+      ]
+    },
+    {
+      "url": "https://www.nist.gov/programs-projects/uniform-unit-pricing-tools-consumers-fight-shrinkflation",
+      "status": 200,
+      "finalUrl": "https://www.nist.gov/programs-projects/uniform-unit-pricing-tools-consumers-fight-shrinkflation",
+      "verdict": "ok",
+      "articles": [
+        "ratios-and-proportions-mentally",
+        "unit-price-comparison"
+      ]
+    },
+    {
+      "url": "https://www.nngroup.com/articles/recognition-and-recall/",
+      "status": 200,
+      "finalUrl": "https://www.nngroup.com/articles/recognition-and-recall/",
+      "verdict": "ok",
+      "articles": [
+        "rotating-draft-pools-explained"
+      ]
+    },
+    {
+      "url": "https://www.nngroup.com/articles/response-times-3-important-limits/",
+      "status": 200,
+      "finalUrl": "https://www.nngroup.com/articles/response-times-3-important-limits/",
+      "verdict": "ok",
+      "articles": [
+        "momentum-steering-in-snake-style-games"
+      ]
+    },
+    {
+      "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+      "status": 200,
+      "finalUrl": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+      "verdict": "ok",
+      "articles": [
+        "fixing-fill-tool-mistakes-in-coloring-apps"
+      ]
+    },
+    {
+      "url": "https://www.nngroup.com/articles/touch-target-size/",
+      "status": 200,
+      "finalUrl": "https://www.nngroup.com/articles/touch-target-size/",
+      "verdict": "ok",
+      "articles": [
+        "tower-defense-camera-controls"
       ]
     },
     {
@@ -3565,6 +6481,24 @@
       ]
     },
     {
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing/bulletins/housingpurchaseaffordabilitygreatbritain/2024",
+      "status": 200,
+      "finalUrl": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing/bulletins/housingpurchaseaffordabilitygreatbritain/2024",
+      "verdict": "ok",
+      "articles": [
+        "reading-response-time-numbers"
+      ]
+    },
+    {
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/methodologies/householdtotalwealthingreatbritainqualityandmethodsguide",
+      "status": 200,
+      "finalUrl": "https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/methodologies/householdtotalwealthingreatbritainqualityandmethodsguide",
+      "verdict": "ok",
+      "articles": [
+        "how-to-track-practice-progress"
+      ]
+    },
+    {
       "url": "https://www.orst.go.th/",
       "status": 200,
       "finalUrl": "https://www.orst.go.th/",
@@ -3576,12 +6510,57 @@
       ]
     },
     {
+      "url": "https://www.owgr.com/how-the-ranking-works",
+      "status": 200,
+      "finalUrl": "https://www.owgr.com/how-the-ranking-works",
+      "verdict": "ok",
+      "articles": [
+        "tour-eligibility-and-schedules"
+      ]
+    },
+    {
+      "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/058/chapter461a/s461a.1.html",
+      "status": 200,
+      "finalUrl": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/058/chapter461a/s461a.1.html",
+      "verdict": "ok",
+      "articles": [
+        "slot-reel-mechanics-explained",
+        "slot-volatility-explained"
+      ]
+    },
+    {
       "url": "https://www.peak.net/",
       "status": 200,
       "finalUrl": "https://www.peak.net/",
       "verdict": "ok",
       "articles": [
-        "do-brain-training-apps-work"
+        "brain-training-apps-compared",
+        "do-brain-training-apps-work",
+        "what-a-brain-training-subscription-buys"
+      ]
+    },
+    {
+      "url": "https://www.pearsonassessments.com/en-us/Store/Professional-Assessments/Cognition-&-Neuro/Wechsler-Adult-Intelligence-Scale-%7C-Fifth-Edition/p/P100071002",
+      "status": 200,
+      "finalUrl": "https://www.pearsonassessments.com/en-us/Store/Professional-Assessments/Cognition-&-Neuro/Wechsler-Adult-Intelligence-Scale-%7C-Fifth-Edition/p/P100071002",
+      "verdict": "ok",
+      "articles": [
+        "fluid-and-crystallized-intelligence",
+        "fun-iq-quizzes-versus-real-assessments",
+        "how-iq-scores-are-calculated",
+        "what-iq-tests-actually-measure",
+        "what-the-average-iq-score-means"
+      ]
+    },
+    {
+      "url": "https://www.pearsonassessments.com/en-us/Store/Professional-Assessments/Cognition-&-Neuro/Wechsler-Adult-Intelligence-Scale-|-Fifth-Edition/p/P100071002",
+      "status": 200,
+      "finalUrl": "https://www.pearsonassessments.com/en-us/Store/Professional-Assessments/Cognition-&-Neuro/Wechsler-Adult-Intelligence-Scale-|-Fifth-Edition/p/P100071002",
+      "verdict": "ok",
+      "articles": [
+        "iq-and-emotional-intelligence",
+        "reliability-and-validity-in-testing",
+        "who-invented-the-iq-test"
       ]
     },
     {
@@ -3615,6 +6594,15 @@
       ]
     },
     {
+      "url": "https://www.psychologie.uzh.ch/dam/jcr:ffffffff-bd53-4653-0000-000022fc34de/Jones.Oberauer.2012.Memory.pdf",
+      "status": 200,
+      "finalUrl": "https://www.psychologie.uzh.ch/dam/jcr:ffffffff-bd53-4653-0000-000022fc34de/Jones.Oberauer.2012.Memory.pdf",
+      "verdict": "ok",
+      "articles": [
+        "growing-sequence-memory-games"
+      ]
+    },
+    {
       "url": "https://www.randa.org/en/rog/the-rules-of-golf",
       "status": 200,
       "finalUrl": "https://www.randa.org/en/rog/the-rules-of-golf",
@@ -3622,6 +6610,26 @@
       "articles": [
         "club-distance-gapping",
         "golf-handicap-for-beginners"
+      ]
+    },
+    {
+      "url": "https://www.red3d.com/cwr/steer/",
+      "status": 200,
+      "finalUrl": "https://www.red3d.com/cwr/steer/",
+      "verdict": "ok",
+      "articles": [
+        "ai-opponents-vs-real-players-in-io-games",
+        "holding-first-place-in-io-leaderboards",
+        "momentum-steering-in-snake-style-games"
+      ]
+    },
+    {
+      "url": "https://www.redblobgames.com/pathfinding/a-star/introduction.html",
+      "status": 200,
+      "finalUrl": "https://www.redblobgames.com/pathfinding/a-star/introduction.html",
+      "verdict": "ok",
+      "articles": [
+        "build-pads-and-custom-tower-positions"
       ]
     },
     {
@@ -3640,6 +6648,15 @@
       "verdict": "ok",
       "articles": [
         "video-codecs-explained"
+      ]
+    },
+    {
+      "url": "https://www.richmondfed.org/publications/research/working_papers/2016/wp_16-02",
+      "status": 200,
+      "finalUrl": "https://www.richmondfed.org/publications/research/working_papers/2016/wp_16-02",
+      "verdict": "ok",
+      "articles": [
+        "why-card-price-estimates-disagree"
       ]
     },
     {
@@ -3665,17 +6682,38 @@
       ]
     },
     {
+      "url": "https://www.tate.org.uk/art/art-terms/m/mosaic",
+      "status": 200,
+      "finalUrl": "https://www.tate.org.uk/art/art-terms/m/mosaic",
+      "verdict": "ok",
+      "articles": [
+        "texture-palettes-in-coloring-apps"
+      ]
+    },
+    {
+      "url": "https://www.tate.org.uk/art/art-terms/p/pastel",
+      "status": 200,
+      "finalUrl": "https://www.tate.org.uk/art/art-terms/p/pastel",
+      "verdict": "ok",
+      "articles": [
+        "texture-palettes-in-coloring-apps"
+      ]
+    },
+    {
       "url": "https://www.theifab.com/laws-of-the-game-documents/",
       "status": 200,
       "finalUrl": "https://www.theifab.com/laws-of-the-game-documents/",
       "verdict": "ok",
       "articles": [
         "clean-sheets-explained",
+        "energy-and-morale-in-match-decisions",
         "free-agency-explained",
         "goal-difference-and-tiebreakers",
         "how-the-offside-rule-works",
+        "press-conferences-in-career-mode",
         "soccer-career-sim-guide",
         "soccer-formations-explained",
+        "style-fit-vs-rating-in-squad-building",
         "transfers-and-contracts-explained"
       ]
     },
@@ -3714,9 +6752,38 @@
       ]
     },
     {
+      "url": "https://www.theopen.com/qualification",
+      "status": 200,
+      "finalUrl": "https://www.theopen.com/qualification",
+      "verdict": "ok",
+      "articles": [
+        "tour-eligibility-and-schedules"
+      ]
+    },
+    {
+      "url": "https://www.theopen.com/royal-birkdale-154th-open/exemptions",
+      "status": 200,
+      "finalUrl": "https://www.theopen.com/royal-birkdale-154th-open/exemptions",
+      "verdict": "ok",
+      "articles": [
+        "tour-eligibility-and-schedules"
+      ]
+    },
+    {
+      "url": "https://www.ucat.ac.uk/about-ucat/test-format-and-scoring/",
+      "status": 200,
+      "finalUrl": "https://www.ucat.ac.uk/about-ucat/test-format-and-scoring/",
+      "verdict": "ok",
+      "articles": [
+        "numerical-reasoning-tests-explained",
+        "strategy-for-timed-reasoning-tests",
+        "verbal-reasoning-question-types"
+      ]
+    },
+    {
       "url": "https://www.unicode.org/charts/",
       "status": 200,
-      "finalUrl": "https://www.unicode.org/charts/",
+      "finalUrl": "http://www.unicode.org/Public/18.0.0/charts/",
       "verdict": "ok",
       "articles": [
         "cantonese-tones-explained",
@@ -3729,7 +6796,7 @@
     {
       "url": "https://www.unicode.org/charts/PDF/U0100.pdf",
       "status": 200,
-      "finalUrl": "https://www.unicode.org/charts/PDF/U0100.pdf",
+      "finalUrl": "http://www.unicode.org/Public/18.0.0/charts/PDF/U0100.pdf",
       "verdict": "ok",
       "articles": [
         "vietnamese-alphabet-explained"
@@ -3738,7 +6805,7 @@
     {
       "url": "https://www.unicode.org/charts/PDF/U0400.pdf",
       "status": 200,
-      "finalUrl": "https://www.unicode.org/charts/PDF/U0400.pdf",
+      "finalUrl": "http://www.unicode.org/Public/18.0.0/charts/PDF/U0400.pdf",
       "verdict": "ok",
       "articles": [
         "learn-russian-cyrillic-beginners-guide",
@@ -3749,7 +6816,7 @@
     {
       "url": "https://www.unicode.org/charts/PDF/U0900.pdf",
       "status": 200,
-      "finalUrl": "https://www.unicode.org/charts/PDF/U0900.pdf",
+      "finalUrl": "http://www.unicode.org/Public/18.0.0/charts/PDF/U0900.pdf",
       "verdict": "ok",
       "articles": [
         "marathi-alphabet-and-devanagari"
@@ -3758,7 +6825,7 @@
     {
       "url": "https://www.unicode.org/charts/PDF/U0E00.pdf",
       "status": 200,
-      "finalUrl": "https://www.unicode.org/charts/PDF/U0E00.pdf",
+      "finalUrl": "http://www.unicode.org/Public/18.0.0/charts/PDF/U0E00.pdf",
       "verdict": "ok",
       "articles": [
         "is-thai-hard-to-learn",
@@ -3769,17 +6836,18 @@
     {
       "url": "https://www.unicode.org/charts/PDF/U0E80.pdf",
       "status": 200,
-      "finalUrl": "https://www.unicode.org/charts/PDF/U0E80.pdf",
+      "finalUrl": "http://www.unicode.org/Public/18.0.0/charts/PDF/U0E80.pdf",
       "verdict": "ok",
       "articles": [
         "lao-alphabet-explained",
+        "lao-numbers-and-prices",
         "learn-lao-beginners-guide"
       ]
     },
     {
       "url": "https://www.unicode.org/charts/PDF/U1780.pdf",
       "status": 200,
-      "finalUrl": "https://www.unicode.org/charts/PDF/U1780.pdf",
+      "finalUrl": "http://www.unicode.org/Public/18.0.0/charts/PDF/U1780.pdf",
       "verdict": "ok",
       "articles": [
         "khmer-script-explained",
@@ -3789,7 +6857,7 @@
     {
       "url": "https://www.unicode.org/charts/PDF/U19E0.pdf",
       "status": 200,
-      "finalUrl": "https://www.unicode.org/charts/PDF/U19E0.pdf",
+      "finalUrl": "http://www.unicode.org/Public/18.0.0/charts/PDF/U19E0.pdf",
       "verdict": "ok",
       "articles": [
         "khmer-script-explained"
@@ -3798,7 +6866,7 @@
     {
       "url": "https://www.unicode.org/charts/PDF/U1E00.pdf",
       "status": 200,
-      "finalUrl": "https://www.unicode.org/charts/PDF/U1E00.pdf",
+      "finalUrl": "http://www.unicode.org/Public/18.0.0/charts/PDF/U1E00.pdf",
       "verdict": "ok",
       "articles": [
         "learn-vietnamese-beginners-guide",
@@ -3825,6 +6893,15 @@
       ]
     },
     {
+      "url": "https://www.unicode.org/reports/tr38/",
+      "status": 200,
+      "finalUrl": "https://www.unicode.org/reports/tr38/",
+      "verdict": "ok",
+      "articles": [
+        "reading-shanghainese-characters"
+      ]
+    },
+    {
       "url": "https://www.unicode.org/versions/Unicode17.0.0/",
       "status": 200,
       "finalUrl": "https://www.unicode.org/versions/Unicode17.0.0/",
@@ -3834,12 +6911,31 @@
       ]
     },
     {
+      "url": "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-12/",
+      "status": 200,
+      "finalUrl": "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-12/",
+      "verdict": "ok",
+      "articles": [
+        "learning-english-from-marathi"
+      ]
+    },
+    {
+      "url": "https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-16/",
+      "status": 200,
+      "finalUrl": "https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-16/",
+      "verdict": "ok",
+      "articles": [
+        "tracing-practice-for-new-scripts"
+      ]
+    },
+    {
       "url": "https://www.usahockeyrulebook.com/",
       "status": 200,
       "finalUrl": "https://www.usahockeyrulebook.com/",
       "verdict": "ok",
       "articles": [
         "expansion-drafts-explained",
+        "hockey-career-archetypes-explained",
         "hockey-career-sim-guide",
         "hockey-goaltending-explained",
         "plus-minus-and-hockey-stats",
@@ -3916,6 +7012,15 @@
       ]
     },
     {
+      "url": "https://www.w3.org/TR/SVG11/painting.html",
+      "status": 200,
+      "finalUrl": "https://www.w3.org/TR/SVG11/painting.html",
+      "verdict": "ok",
+      "articles": [
+        "fixing-fill-tool-mistakes-in-coloring-apps"
+      ]
+    },
+    {
       "url": "https://www.w3.org/TR/WCAG22/",
       "status": 200,
       "finalUrl": "https://www.w3.org/TR/WCAG22/",
@@ -3941,6 +7046,15 @@
       ]
     },
     {
+      "url": "https://www.w3.org/TR/css-images-3/",
+      "status": 200,
+      "finalUrl": "https://www.w3.org/TR/css-images-3/",
+      "verdict": "ok",
+      "articles": [
+        "texture-palettes-in-coloring-apps"
+      ]
+    },
+    {
       "url": "https://www.w3.org/TR/webvtt1/",
       "status": 200,
       "finalUrl": "https://www.w3.org/TR/webvtt1/",
@@ -3948,6 +7062,33 @@
       "articles": [
         "subtitle-formats-explained",
         "subtitles-not-working-on-android"
+      ]
+    },
+    {
+      "url": "https://www.w3.org/WAI/WCAG2/supplemental/",
+      "status": 200,
+      "finalUrl": "https://www.w3.org/WAI/WCAG2/supplemental/",
+      "verdict": "ok",
+      "articles": [
+        "accessibility-in-brain-training-apps"
+      ]
+    },
+    {
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/timeouts.html",
+      "status": 200,
+      "finalUrl": "https://www.w3.org/WAI/WCAG22/Understanding/timeouts.html",
+      "verdict": "ok",
+      "articles": [
+        "accessibility-in-brain-training-apps"
+      ]
+    },
+    {
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html",
+      "status": 200,
+      "finalUrl": "https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html",
+      "verdict": "ok",
+      "articles": [
+        "accessibility-in-brain-training-apps"
       ]
     },
     {

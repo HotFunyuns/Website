@@ -45,7 +45,8 @@
     "baseball-stats-explained-for-beginners",
     "baseball-draft-gm-guide",
     "basketball-career-sim-guide",
-    "career-mode-vs-franchise-mode"
+    "career-mode-vs-franchise-mode",
+    "aging-curves-in-career-sims"
   ],
   "takeaways": [
     "Position is the single most consequential choice in the game: it decides which situations you are asked to resolve, which attributes matter, and how often you appear.",

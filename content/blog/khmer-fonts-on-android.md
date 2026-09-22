@@ -8,7 +8,12 @@
   "updatedAt": "2026-09-15",
   "author": "Reign Creative Team",
   "category": "language-learning",
-  "tags": ["khmer", "android", "fonts", "troubleshooting"],
+  "tags": [
+    "khmer",
+    "android",
+    "fonts",
+    "troubleshooting"
+  ],
   "primaryKeyword": "khmer font for android",
   "secondaryKeywords": [
     "khmer text not showing android",
@@ -32,12 +37,15 @@
     "What is the Khmer coeng character?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["learn-cambodian-khmer"],
+  "relatedApps": [
+    "learn-cambodian-khmer"
+  ],
   "relatedArticles": [
     "khmer-script-explained",
     "learn-khmer-beginners-guide",
     "android-app-permissions-explained",
-    "khmer-vs-thai-script"
+    "khmer-vs-thai-script",
+    "tracing-practice-for-new-scripts"
   ],
   "takeaways": [
     "Empty boxes mean the renderer found no font containing those characters — a font problem, not a corrupted file or a broken app.",

@@ -39,6 +39,22 @@ const BROWSER_ONLY_HOSTS = [
   'www.britishmuseum.org',
   'www.coe.int',
   'www.loc.gov',
+  // Added 2026-09-21. source.android.com behaves exactly like its sibling
+  // developer.android.com above: a cookie-less client is bounced through
+  // `oauth2authorize?prompt=none&auto_signin=True` until it exhausts the
+  // redirect limit, which surfaces as a transport error rather than a status.
+  // Both URLs this site cites were confirmed live on 2026-09-21 by an
+  // independent browser-equivalent fetch that returned real documentation:
+  // /docs/core/display/pip ("The picture-in-picture (PIP) feature for Android
+  // handheld devices lets users resize an app with an ongoing activity into a
+  // small window") and /docs/compatibility/cdd ("Welcome to the Android
+  // Compatibility Definition Document (CDD)").
+  'source.android.com',
+  // Added 2026-09-21. Returns 200 to a browser user-agent and 406 to a plain
+  // scripted fetch. Confirmed live on 2026-09-21: the WHIP glossary entry
+  // returns `<title>Walks And Hits Per Inning Pitched (WHIP) | Glossary |
+  // MLB.com</title>`. Cited by three articles predating this expansion.
+  'www.mlb.com',
 ];
 const browserOnly = (url) => BROWSER_ONLY_HOSTS.includes(new URL(url).hostname);
 

@@ -8,7 +8,12 @@
   "updatedAt": "2026-09-15",
   "author": "Reign Creative Team",
   "category": "education-brain",
-  "tags": ["world history", "apps", "students", "decision guide"],
+  "tags": [
+    "world history",
+    "apps",
+    "students",
+    "decision guide"
+  ],
   "primaryKeyword": "best history app for students",
   "secondaryKeywords": [
     "history timeline app",
@@ -33,7 +38,12 @@
     "Are there free options for learning world history?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["world-history-timeline-sim"],
+  "relatedApps": [
+    "world-history-timeline-sim"
+  ],
+  "hubs": [
+    "history-learning-methods"
+  ],
   "relatedArticles": [
     "world-history-timeline-guide",
     "how-to-study-history-on-your-own",

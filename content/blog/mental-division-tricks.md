@@ -8,7 +8,12 @@
   "updatedAt": "2026-09-15",
   "author": "Reign Creative Team",
   "category": "education-brain",
-  "tags": ["mental math", "division", "arithmetic", "how-to"],
+  "tags": [
+    "mental math",
+    "division",
+    "arithmetic",
+    "how-to"
+  ],
   "primaryKeyword": "mental division tricks",
   "secondaryKeywords": [
     "how to divide in your head",
@@ -33,7 +38,12 @@
     "Is halving and doubling faster than long division?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["mental-math-memory-games"],
+  "relatedApps": [
+    "mental-math-memory-games"
+  ],
+  "hubs": [
+    "mental-math"
+  ],
   "relatedArticles": [
     "multiplication-shortcuts-explained",
     "mental-math-tricks-that-work",

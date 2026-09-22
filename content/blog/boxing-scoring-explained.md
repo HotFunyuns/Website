@@ -43,7 +43,8 @@
   "relatedArticles": [
     "mma-boxing-fight-draft-guide",
     "basketball-positions-explained",
-    "baseball-stats-explained-for-beginners"
+    "baseball-stats-explained-for-beginners",
+    "managing-a-fight-stable"
   ],
   "takeaways": [
     "Under the 10-point must system the round winner must receive 10 points and the loser nine or fewer, with an even 10-10 round treated as a rarity.",

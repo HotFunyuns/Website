@@ -2,6 +2,7 @@ import 'server-only';
 import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { apps, categories, getAppBySlug, type CategoryId } from '@/data/apps';
+import { hubIds, hubs as allHubs, type HubInfo } from '@/data/hubs';
 import { countWords, extractToc, readingMinutes } from './markdown';
 import {
   DEMAND_TIERS,
@@ -90,6 +91,12 @@ function parse(slug: string, raw: string): BlogPost {
   }
   if (data.demandTier !== undefined && !DEMAND_TIERS.includes(data.demandTier)) {
     fail(slug, `"demandTier" must be one of ${DEMAND_TIERS.join(', ')}`);
+  }
+  if (data.hubs !== undefined) {
+    if (!Array.isArray(data.hubs)) fail(slug, '"hubs" must be an array when present');
+    for (const hub of data.hubs) {
+      if (!hubIds.has(hub)) fail(slug, `hubs references unknown hub "${hub}"`);
+    }
   }
   if (data.disclaimer === 'comparison' && !data.researchDate) {
     fail(slug, 'comparison articles must record a "researchDate"');
@@ -225,6 +232,43 @@ export function getPostsByApp(appSlug: string): BlogPost[] {
       const bPrimary = b.relatedApps[0] === appSlug ? 0 : 1;
       return aPrimary - bPrimary || b.publishedAt.localeCompare(a.publishedAt);
     });
+}
+
+/** Published articles declaring this hub, cornerstone first, then newest. */
+export function getPostsByHub(hubId: string): BlogPost[] {
+  const hub = allHubs.find((h) => h.id === hubId);
+  return posts
+    .filter((post) => post.hubs?.includes(hubId))
+    .sort((a, b) => {
+      const aCorner = hub && a.slug === hub.cornerstone ? 0 : 1;
+      const bCorner = hub && b.slug === hub.cornerstone ? 0 : 1;
+      return aCorner - bCorner || b.publishedAt.localeCompare(a.publishedAt);
+    });
+}
+
+/** Hubs that actually hold a published article, so no empty listing ships. */
+export function activeHubs(): (HubInfo & { count: number })[] {
+  return allHubs
+    .map((hub) => ({ ...hub, count: getPostsByHub(hub.id).length }))
+    .filter((hub) => hub.count > 0);
+}
+
+/** The hubs an article belongs to, resolved to full hub records. */
+export function getPostHubs(post: BlogPost): HubInfo[] {
+  return (post.hubs ?? [])
+    .map((id) => allHubs.find((hub) => hub.id === id))
+    .filter((hub): hub is HubInfo => Boolean(hub));
+}
+
+// A hub whose cornerstone is missing or unpublished would render a dead link
+// on its most prominent element, so it is caught here rather than in review.
+for (const hub of allHubs) {
+  if (getPostsByHub(hub.id).length === 0) continue;
+  if (!posts.some((post) => post.slug === hub.cornerstone)) {
+    throw new Error(
+      `src/data/hubs.ts — hub "${hub.id}" names cornerstone "${hub.cornerstone}", which is not a published article`
+    );
+  }
 }
 
 /** Adjacent published posts for prev/next navigation. */

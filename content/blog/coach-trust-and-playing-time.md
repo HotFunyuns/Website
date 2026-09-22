@@ -45,7 +45,9 @@
     "how-player-career-modes-work",
     "soccer-career-sim-guide",
     "football-career-sim-guide",
-    "injuries-in-sports-career-games"
+    "injuries-in-sports-career-games",
+    "scouting-combine-drills-explained",
+    "two-minute-clock-management"
   ],
   "takeaways": [
     "Playing time is the currency of a career mode, because minutes generate the situations that generate development.",

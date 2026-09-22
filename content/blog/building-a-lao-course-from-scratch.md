@@ -8,7 +8,12 @@
   "updatedAt": "2026-09-15",
   "author": "Reign Creative Team",
   "category": "language-learning",
-  "tags": ["lao", "app", "case study", "course design"],
+  "tags": [
+    "lao",
+    "app",
+    "case study",
+    "course design"
+  ],
   "primaryKeyword": "learn lao app",
   "secondaryKeywords": [
     "lao language app",
@@ -32,12 +37,16 @@
     "How do you learn a language with few resources?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["learn-lao"],
+  "relatedApps": [
+    "learn-lao"
+  ],
   "relatedArticles": [
     "learn-lao-beginners-guide",
     "lao-alphabet-explained",
     "language-learning-apps-compared",
-    "lao-tone-rules"
+    "lao-tone-rules",
+    "dictation-practice-in-a-new-script",
+    "lao-numbers-and-prices"
   ],
   "takeaways": [
     "Lao is absent from most large language apps for economic reasons rather than linguistic ones, which is exactly why a small studio can usefully build for it.",

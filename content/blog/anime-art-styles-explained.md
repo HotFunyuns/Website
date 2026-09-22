@@ -44,7 +44,9 @@
     "anime-genres-explained",
     "color-palettes-for-anime-art",
     "anime-coloring-app-guide",
-    "line-art-and-flats-explained"
+    "line-art-and-flats-explained",
+    "fixing-fill-tool-mistakes-in-coloring-apps",
+    "texture-palettes-in-coloring-apps"
   ],
   "takeaways": [
     "Demographic labels such as shōnen and shōjo describe a target readership, not an art style, though visual conventions do cluster around them.",

@@ -45,7 +45,8 @@
     "listening-practice-in-a-new-language",
     "language-learning-plateau",
     "shadowing-technique-explained",
-    "spaced-repetition-for-language-learning"
+    "spaced-repetition-for-language-learning",
+    "malay-reduplication-explained"
   ],
   "takeaways": [
     "Comprehensible input means material you can mostly understand, with a small amount that is new — the difficulty level is the whole idea.",

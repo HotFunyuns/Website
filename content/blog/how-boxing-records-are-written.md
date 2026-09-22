@@ -8,7 +8,12 @@
   "updatedAt": "2026-09-15",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["boxing", "records", "statistics", "faq"],
+  "tags": [
+    "boxing",
+    "records",
+    "statistics",
+    "faq"
+  ],
   "primaryKeyword": "how do boxing records work",
   "secondaryKeywords": [
     "boxing records meaning",
@@ -32,12 +37,15 @@
     "Is an undefeated record a good measure of a fighter?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["mma-boxing-fight-draft"],
+  "relatedApps": [
+    "mma-boxing-fight-draft"
+  ],
   "relatedArticles": [
     "mma-weight-classes-explained",
     "how-mma-judging-criteria-work",
     "how-fight-cards-are-built",
-    "boxing-scoring-explained"
+    "boxing-scoring-explained",
+    "managing-a-fight-stable"
   ],
   "takeaways": [
     "A record is written wins-losses-draws, with the figure in brackets conventionally counting wins inside the distance.",

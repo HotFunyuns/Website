@@ -8,7 +8,12 @@
   "updatedAt": "2026-09-15",
   "author": "Reign Creative Team",
   "category": "language-learning",
-  "tags": ["shanghainese", "wu chinese", "faq", "linguistics"],
+  "tags": [
+    "shanghainese",
+    "wu chinese",
+    "faq",
+    "linguistics"
+  ],
   "primaryKeyword": "is shanghainese a dialect",
   "secondaryKeywords": [
     "shanghainese dialect or language",
@@ -32,12 +37,16 @@
     "Does it matter whether Shanghainese is a language?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["learn-shanghainese"],
+  "relatedApps": [
+    "learn-shanghainese"
+  ],
   "relatedArticles": [
     "wu-chinese-and-where-shanghainese-sits",
     "shanghainese-vs-mandarin-differences",
     "learn-shanghainese-beginners-guide",
-    "what-is-a-tonal-language"
+    "what-is-a-tonal-language",
+    "heritage-language-learners-shanghainese",
+    "reading-shanghainese-characters"
   ],
   "takeaways": [
     "By the mutual intelligibility test, Shanghainese is a separate language: Wu varieties are not intelligible to Mandarin speakers without study.",

@@ -8,7 +8,12 @@
   "updatedAt": "2026-09-15",
   "author": "Reign Creative Team",
   "category": "education-brain",
-  "tags": ["memory games", "game design", "case study", "education"],
+  "tags": [
+    "memory games",
+    "game design",
+    "case study",
+    "education"
+  ],
   "primaryKeyword": "memory game design",
   "secondaryKeywords": [
     "memory game design ideas",
@@ -33,7 +38,12 @@
     "What does a memory game actually train?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["mental-math-memory-games"],
+  "relatedApps": [
+    "mental-math-memory-games"
+  ],
+  "hubs": [
+    "memory-and-attention"
+  ],
   "relatedArticles": [
     "memory-techniques-that-work",
     "working-memory-and-training",

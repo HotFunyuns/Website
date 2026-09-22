@@ -40,6 +40,10 @@
   "relatedApps": [
     "world-history-timeline-sim"
   ],
+  "hubs": [
+    "world-history-timelines",
+    "history-learning-methods"
+  ],
   "relatedArticles": [
     "world-history-timeline-guide",
     "mental-math-tricks-that-work",

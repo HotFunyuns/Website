@@ -44,7 +44,9 @@
     "goal-difference-and-tiebreakers",
     "soccer-positions-explained",
     "how-soccer-league-tables-work",
-    "soccer-career-sim-guide"
+    "soccer-career-sim-guide",
+    "energy-and-morale-in-match-decisions",
+    "style-fit-vs-rating-in-squad-building"
   ],
   "takeaways": [
     "A clean sheet is a match in which a team concedes no goals; the American English equivalent is a shutout.",

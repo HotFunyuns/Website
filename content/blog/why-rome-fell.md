@@ -8,7 +8,12 @@
   "updatedAt": "2026-09-15",
   "author": "Reign Creative Team",
   "category": "education-brain",
-  "tags": ["world history", "rome", "ancient history", "faq"],
+  "tags": [
+    "world history",
+    "rome",
+    "ancient history",
+    "faq"
+  ],
   "primaryKeyword": "why did rome fall",
   "secondaryKeywords": [
     "fall of rome",
@@ -33,7 +38,12 @@
     "Why do historians disagree about the cause?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["world-history-timeline-sim"],
+  "relatedApps": [
+    "world-history-timeline-sim"
+  ],
+  "hubs": [
+    "civilizations-and-empires"
+  ],
   "relatedArticles": [
     "major-eras-of-world-history",
     "how-historians-date-events",

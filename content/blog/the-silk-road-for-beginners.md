@@ -8,7 +8,12 @@
   "updatedAt": "2026-09-15",
   "author": "Reign Creative Team",
   "category": "education-brain",
-  "tags": ["world history", "silk road", "trade", "beginner"],
+  "tags": [
+    "world history",
+    "silk road",
+    "trade",
+    "beginner"
+  ],
   "primaryKeyword": "what was the silk road",
   "secondaryKeywords": [
     "silk road",
@@ -33,7 +38,12 @@
     "When did the Silk Road decline?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["world-history-timeline-sim"],
+  "relatedApps": [
+    "world-history-timeline-sim"
+  ],
+  "hubs": [
+    "civilizations-and-empires"
+  ],
   "relatedArticles": [
     "major-eras-of-world-history",
     "world-history-timeline-guide",

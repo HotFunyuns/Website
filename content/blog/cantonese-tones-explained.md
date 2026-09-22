@@ -45,7 +45,9 @@
     "learn-cantonese-beginners-guide",
     "cantonese-vs-mandarin-differences",
     "thai-tones-explained",
-    "spaced-repetition-for-language-learning"
+    "spaced-repetition-for-language-learning",
+    "cantonese-sentence-final-particles",
+    "spoken-vs-written-cantonese"
   ],
   "takeaways": [
     "Jyutping numbers six contrasting tones from 1 to 6, and the structure is easier to hold than the list: three level tones at three heights, two rising tones, and one low falling tone.",

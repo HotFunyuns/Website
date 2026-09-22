@@ -8,7 +8,12 @@
   "updatedAt": "2026-09-15",
   "author": "Reign Creative Team",
   "category": "sports-gm",
-  "tags": ["golf", "clubs", "course management", "strategy"],
+  "tags": [
+    "golf",
+    "clubs",
+    "course management",
+    "strategy"
+  ],
   "primaryKeyword": "golf club distance gapping",
   "secondaryKeywords": [
     "golf club distances",
@@ -32,12 +37,15 @@
     "What size gap should there be between clubs?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["golf-career-simulator"],
+  "relatedApps": [
+    "golf-career-simulator"
+  ],
   "relatedArticles": [
     "golf-course-management-basics",
     "strokes-gained-for-club-golfers",
     "golf-handicap-for-beginners",
-    "pressure-and-nerves-in-golf-sims"
+    "pressure-and-nerves-in-golf-sims",
+    "tour-eligibility-and-schedules"
   ],
   "takeaways": [
     "Gapping is about even spacing across the set, not about how far the longest club goes.",

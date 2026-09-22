@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { apps, activeCategories, companyInfo, getAppsByCategory } from '@/data/apps';
-import { blogCategories, getPostsByCategory, posts } from '@/lib/blog';
+import { activeHubs, blogCategories, getPostsByCategory, getPostsByHub, posts } from '@/lib/blog';
 
 export const dynamic = 'force-static';
 
@@ -72,6 +72,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  const hubPages: MetadataRoute.Sitemap = activeHubs().map((hub) => ({
+    url: `${baseUrl}/blog/topics/${hub.id}/`,
+    lastModified: toDate(newest(getPostsByHub(hub.id).map((post) => post.updatedAt))),
+    changeFrequency: 'weekly',
+    priority: 0.7,
+  }));
+
   // `posts` excludes drafts, reviews and future-dated articles, so nothing
   // unpublished can reach the sitemap even if it exists on disk.
   const postPages: MetadataRoute.Sitemap = posts.map((post) => ({
@@ -81,5 +88,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: post.featured ? 0.8 : 0.7,
   }));
 
-  return [...staticPages, ...categoryPages, ...appPages, ...blogCategoryPages, ...postPages];
+  return [
+    ...staticPages,
+    ...categoryPages,
+    ...appPages,
+    ...blogCategoryPages,
+    ...hubPages,
+    ...postPages,
+  ];
 }

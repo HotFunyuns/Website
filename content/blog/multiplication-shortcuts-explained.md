@@ -39,6 +39,9 @@
   "relatedApps": [
     "mental-math-memory-games"
   ],
+  "hubs": [
+    "mental-math"
+  ],
   "relatedArticles": [
     "mental-math-tricks-that-work",
     "estimation-techniques-explained",

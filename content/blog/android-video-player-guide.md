@@ -8,7 +8,13 @@
   "updatedAt": "2026-08-09",
   "author": "Reign Creative Team",
   "category": "video-utility",
-  "tags": ["video playback", "codecs", "android", "media formats", "utilities"],
+  "tags": [
+    "video playback",
+    "codecs",
+    "android",
+    "media formats",
+    "utilities"
+  ],
   "primaryKeyword": "android video player for local files",
   "secondaryKeywords": [
     "mkv not playing on android",
@@ -32,8 +38,14 @@
     "How do I play MKV files on an Android phone?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["regal-video-player"],
-  "relatedArticles": ["mental-math-training-guide", "world-history-timeline-guide"],
+  "relatedApps": [
+    "regal-video-player"
+  ],
+  "relatedArticles": [
+    "mental-math-training-guide",
+    "world-history-timeline-guide",
+    "picture-in-picture-on-android"
+  ],
   "takeaways": [
     "MP4, MKV and MOV are containers — boxes that hold tracks. H.264, H.265, VP9 and AV1 are codecs — the way the picture inside is compressed. The file extension names the box, not the contents.",
     "A file that plays sound with a black screen has almost always hit a video decoder your device does not have; a file that shows picture with no sound has hit an audio one.",

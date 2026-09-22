@@ -59,6 +59,15 @@ export interface PostFrontmatter {
   featured?: boolean;
   noindex?: boolean;
   researchDate?: string;
+  /**
+   * Topic hubs this article belongs to. A category answers "which app is this
+   * about?"; a hub answers "which subject is this about?". Optional, because
+   * the 275 articles written before hubs existed are served well enough by
+   * their category — but every article in a hub's subject area should declare
+   * it, or the hub page cannot find it and the article is orphaned from its
+   * cluster.
+   */
+  hubs?: string[];
   /* Planning metadata. Feeds docs/keyword-map.csv; never rendered to visitors. */
   longTailKeywords?: string[];
   comparisonKeywords?: string[];

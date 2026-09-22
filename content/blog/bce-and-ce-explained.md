@@ -39,6 +39,9 @@
   "relatedApps": [
     "world-history-timeline-sim"
   ],
+  "hubs": [
+    "world-history-timelines"
+  ],
   "relatedArticles": [
     "how-historians-date-events",
     "major-eras-of-world-history",

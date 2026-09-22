@@ -134,6 +134,7 @@ const EXPECTED_BY_PAGE_TYPE = {
   app: ['Organization', 'WebSite', 'SoftwareApplication', 'BreadcrumbList'],
   'app-category': ['Organization', 'WebSite', 'CollectionPage', 'BreadcrumbList'],
   'blog-category': ['Organization', 'WebSite', 'CollectionPage', 'BreadcrumbList'],
+  'blog-hub': ['Organization', 'WebSite', 'CollectionPage', 'BreadcrumbList'],
   'blog-index': ['Organization', 'WebSite', 'Blog'],
   'apps-index': ['Organization', 'WebSite', 'CollectionPage'],
   static: ['Organization', 'WebSite'],
@@ -146,6 +147,9 @@ function pageTypeOf(route) {
   if (route === '/blog/') return 'blog-index';
   if (route === '/apps/') return 'apps-index';
   if (route.startsWith('/blog/category/')) return 'blog-category';
+  // Must precede the generic /blog/ branch below, or a topic hub is mistaken
+  // for an article and required to carry a BlogPosting it does not emit.
+  if (route.startsWith('/blog/topics/')) return 'blog-hub';
   if (route.startsWith('/apps/category/')) return 'app-category';
   if (route.startsWith('/blog/')) return 'article';
   if (route.startsWith('/apps/')) return 'app';

@@ -8,7 +8,12 @@
   "updatedAt": "2026-09-15",
   "author": "Reign Creative Team",
   "category": "education-brain",
-  "tags": ["world history", "memory", "study skills", "strategy"],
+  "tags": [
+    "world history",
+    "memory",
+    "study skills",
+    "strategy"
+  ],
   "primaryKeyword": "how to remember historical dates",
   "secondaryKeywords": [
     "how to memorise dates for history",
@@ -33,7 +38,13 @@
     "How do timelines help with recall?"
   ],
   "demandTier": "unverified-medium",
-  "relatedApps": ["world-history-timeline-sim"],
+  "relatedApps": [
+    "world-history-timeline-sim"
+  ],
+  "hubs": [
+    "history-learning-methods",
+    "memory-and-attention"
+  ],
   "relatedArticles": [
     "memory-techniques-that-work",
     "how-to-study-history-on-your-own",

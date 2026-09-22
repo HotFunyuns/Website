@@ -8,7 +8,12 @@
   "updatedAt": "2026-09-15",
   "author": "Reign Creative Team",
   "category": "language-learning",
-  "tags": ["marathi", "difficulty", "faq", "beginner"],
+  "tags": [
+    "marathi",
+    "difficulty",
+    "faq",
+    "beginner"
+  ],
   "primaryKeyword": "is marathi hard to learn",
   "secondaryKeywords": [
     "is marathi difficult",
@@ -32,12 +37,16 @@
     "How long does it take to read Devanagari?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["learn-marathi"],
+  "relatedApps": [
+    "learn-marathi"
+  ],
   "relatedArticles": [
     "learn-marathi-beginners-guide",
     "marathi-vs-hindi-differences",
     "is-vietnamese-hard-to-learn",
-    "marathi-study-plan-first-month"
+    "marathi-study-plan-first-month",
+    "learning-english-from-marathi",
+    "where-marathi-is-spoken"
   ],
   "takeaways": [
     "Marathi is moderately hard for an English speaker: no tones and a phonetic script, against three genders, pervasive agreement and an unfamiliar word order.",

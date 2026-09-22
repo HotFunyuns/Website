@@ -7,7 +7,7 @@ import JsonLd from '@/components/JsonLd';
 import BlogCard, { type BlogCardPost } from '@/components/blog/BlogCard';
 import BlogExplorer from '@/components/blog/BlogExplorer';
 import { companyInfo } from '@/data/apps';
-import { blogCategories, featuredPosts, posts } from '@/lib/blog';
+import { activeHubs, blogCategories, featuredPosts, posts } from '@/lib/blog';
 
 export const metadata: Metadata = {
   title: 'Blog — Android App Guides',
@@ -33,6 +33,7 @@ export const metadata: Metadata = {
 
 export default function BlogIndexPage() {
   const categories = blogCategories();
+  const topicHubs = activeHubs();
   const featured = featuredPosts.slice(0, 3);
   const featuredSlugs = new Set(featured.map((p) => p.slug));
   // Projected to card fields before crossing into the client `BlogExplorer`.
@@ -119,6 +120,35 @@ export default function BlogIndexPage() {
                   </ul>
                   <GoldDivider className="mt-16" />
                 </section>
+              )}
+
+              {/* Hubs before categories: a category is "which app", a hub is
+                  "which subject", and a reader arriving at the blog index is
+                  almost always looking for the second one. Listing them here
+                  also keeps every hub two clicks from the homepage. */}
+              {topicHubs.length > 0 && (
+                <nav aria-label="Article topic hubs" className="mb-10">
+                  <h2 className="eyebrow">Browse by topic</h2>
+                  <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink-500">
+                    Each hub collects everything we have published on one subject, with a starting
+                    point and an argument for what is worth reading first.
+                  </p>
+                  <ul className="mt-4 flex list-none flex-wrap gap-3 p-0">
+                    {topicHubs.map((hub) => (
+                      <li key={hub.id}>
+                        <Link
+                          href={`/blog/topics/${hub.id}/`}
+                          className="inline-flex items-center gap-2 rounded-full border border-ink-200 bg-white px-4 py-2 text-sm font-medium text-ink-600 transition-all duration-300 hover:-translate-y-0.5 hover:border-gold-400 hover:text-ink-950"
+                        >
+                          {hub.label}
+                          <span className="rounded-full bg-ink-100 px-1.5 py-0.5 text-[10px] font-bold leading-none text-ink-500">
+                            {hub.count}
+                          </span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </nav>
               )}
 
               <nav aria-label="Article categories" className="mb-10">

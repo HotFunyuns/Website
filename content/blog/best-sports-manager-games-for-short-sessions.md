@@ -46,7 +46,8 @@
     "soccer-draft-xi-guide",
     "sports-gm-games-without-internet",
     "career-mode-vs-franchise-mode",
-    "soccer-formations-explained"
+    "soccer-formations-explained",
+    "style-fit-vs-rating-in-squad-building"
   ],
   "takeaways": [
     "The constraint on a phone is interruption, not screen size, so the property that matters is whether a session can end with a verdict rather than a checkpoint.",

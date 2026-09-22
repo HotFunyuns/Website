@@ -45,7 +45,9 @@
     "hockey-positions-explained",
     "hockey-line-combinations-explained",
     "hockey-draft-gm-guide",
-    "baseball-career-sim-guide"
+    "baseball-career-sim-guide",
+    "underrated-attributes-in-hockey-career-mode",
+    "hockey-career-archetypes-explained"
   ],
   "takeaways": [
     "Goaltender is a full career path with its own attributes and its own in-game decisions, not a variation on a skater — and it is the position most under-served by roster-management games.",

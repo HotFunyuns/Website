@@ -40,6 +40,9 @@
   "relatedApps": [
     "mental-math-memory-games"
   ],
+  "hubs": [
+    "mental-math"
+  ],
   "relatedArticles": [
     "mental-math-training-guide",
     "spaced-repetition-for-language-learning",

@@ -45,7 +45,8 @@
     "career-mode-vs-franchise-mode",
     "how-player-career-modes-work",
     "best-sports-manager-games-for-short-sessions",
-    "golf-career-sim-guide"
+    "golf-career-sim-guide",
+    "tour-eligibility-and-schedules"
   ],
   "takeaways": [
     "A career sim asks 'can this player succeed?'; a manager game asks 'can this squad succeed?'. Everything else follows from that.",

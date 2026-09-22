@@ -8,7 +8,12 @@
   "updatedAt": "2026-09-15",
   "author": "Reign Creative Team",
   "category": "language-learning",
-  "tags": ["khmer", "difficulty", "faq", "beginner"],
+  "tags": [
+    "khmer",
+    "difficulty",
+    "faq",
+    "beginner"
+  ],
   "primaryKeyword": "is khmer hard to learn",
   "secondaryKeywords": [
     "how hard is khmer",
@@ -32,12 +37,15 @@
     "How many vowels does Khmer have?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["learn-cambodian-khmer"],
+  "relatedApps": [
+    "learn-cambodian-khmer"
+  ],
   "relatedArticles": [
     "khmer-script-explained",
     "learn-khmer-beginners-guide",
     "khmer-vs-thai-script",
-    "is-vietnamese-hard-to-learn"
+    "is-vietnamese-hard-to-learn",
+    "tracing-practice-for-new-scripts"
   ],
   "takeaways": [
     "Khmer is not tonal, which removes an entire category of difficulty that Thai, Lao and Vietnamese learners have to deal with.",

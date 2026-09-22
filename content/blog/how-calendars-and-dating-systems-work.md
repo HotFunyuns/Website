@@ -39,6 +39,9 @@
   "relatedApps": [
     "world-history-timeline-sim"
   ],
+  "hubs": [
+    "world-history-timelines"
+  ],
   "relatedArticles": [
     "bce-and-ce-explained",
     "how-historians-date-events",

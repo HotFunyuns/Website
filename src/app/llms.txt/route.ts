@@ -1,5 +1,5 @@
 import { activeCategories, apps, companyInfo } from '@/data/apps';
-import { posts } from '@/lib/blog';
+import { activeHubs, posts } from '@/lib/blog';
 
 export const dynamic = 'force-static';
 
@@ -28,6 +28,15 @@ export function GET() {
     '',
     ...activeCategories.map(
       (category) => `- [${category.label}](${site}/apps/category/${category.id}/)`
+    ),
+    '',
+    '## Topic hubs',
+    '',
+    'Each hub collects every article on one subject and names the one to read',
+    'first. They are the fastest route into a cluster.',
+    '',
+    ...activeHubs().map(
+      (hub) => `- [${hub.label}](${site}/blog/topics/${hub.id}/) (${hub.count}): ${hub.blurb}`
     ),
     '',
     '## Articles',
