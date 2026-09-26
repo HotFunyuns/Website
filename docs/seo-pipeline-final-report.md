@@ -365,7 +365,36 @@ removed, and every gate green.
 
 ## 22–24. Commit, branch and deployment
 
-Recorded here after the push, once production was verified.
+| | |
+| --- | --- |
+| Commit | `77a9312` — "Improve authorship internal linking and SEO publishing workflow" |
+| Branch | `main`, a normal push `c79de0f..77a9312`. No force-push; no history rewritten |
+| Deploy | GitHub Actions run 36222741141, *Deploy Next.js site to Pages*: **success**. Pushed 06:06:07 UTC; live 06:08:00 UTC. With a warm build cache the whole run took under two minutes at 601 pages. Every step passed, including the new "Audit entity naming and run tests" |
+| Queue workflow | Registered and active. Its hourly runs are no-ops while the queue is empty |
+
+**Verified on production after the deploy** (2026-09-26 UTC, which is still
+2026-09-25 in Los Angeles):
+
+- `verify-live --smoke` on 12 key pages: all answer 200, canonicals and `og:url`
+  agree, and JSON-LD parses. Every article byline links `/authors/reign-creative-llc/`
+  with `rel="author"` and matches `BlogPosting.author`. Every `<page>/index.txt`
+  is a genuine 404. The sitemap has 599 URLs and the RSS feed 525 items, and no
+  unpublished article answers or is listed anywhere.
+- `/authors/reign-creative-llc/` is live, and its `index.txt` returns 404.
+- `llms.txt` is 11,759 bytes.
+- "Reign Creative Team" appears nowhere on the sampled pages. The editorial
+  policy carries the corrected AI disclosure and not the old claim.
+- Articles show the ownership line and the author box.
+- Category pages show their standing copy. App pages list every guide and name
+  both company names.
+- The Mental Math cornerstone no longer recommends Achaemenid Persia.
+- **GA4:** only `G-JK8FPQB5L2` exists in the shipped JavaScript.
+- **`play_store_click`, behaviourally:** the live article was loaded in headless
+  Edge with Google Analytics and Tag Manager blocked at the network layer, so no
+  test event reached the property. Result: one `page_view` on load, then exactly
+  one `play_store_click` per click (0 → 1 → 2). The event carries
+  `button_location`, `link_url` with the install referrer, `page_path`,
+  `app_name`, `article_slug` and `link_text`.
 
 ## 25. Manual actions still required
 
