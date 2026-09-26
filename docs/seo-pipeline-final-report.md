@@ -370,7 +370,7 @@ removed, and every gate green.
 | Commit | `77a9312` — "Improve authorship internal linking and SEO publishing workflow" |
 | Branch | `main`, a normal push `c79de0f..77a9312`. No force-push; no history rewritten |
 | Deploy | GitHub Actions run 36222741141, *Deploy Next.js site to Pages*: **success**. Pushed 06:06:07 UTC; live 06:08:00 UTC. With a warm build cache the whole run took under two minutes at 601 pages. Every step passed, including the new "Audit entity naming and run tests" |
-| Queue workflow | Registered and active. Its hourly runs are no-ops while the queue is empty |
+| Queue workflow | Registered and **active** on `main` (06:06 UTC), with a YAML-valid schedule `17 * * * *` and a manual trigger. **No scheduled run had fired by 07:55 UTC**, two slots after registration. GitHub often delays or skips the first runs of a newly added schedule. Its first run in CI is therefore **not yet observed**. Locally, its decision logic and a full release rehearsal pass in `npm test`, and with the queue empty its first step returns "nothing due" and every later step is skipped |
 
 **Verified on production after the deploy** (2026-09-26 UTC, which is still
 2026-09-25 in Los Angeles):
@@ -410,6 +410,11 @@ removed, and every gate green.
    article in full.
 6. **GitHub:** if `main` is ever protected, allow Actions to push, or releases
    will stop at the push step.
+7. **Confirm the queue job once in CI:** Actions → *Publish approved article
+   (daily queue)* → **Run workflow**, with *dry run* ticked. With nothing
+   scheduled it should finish green after the "Check eligibility" step, and the
+   later steps should show as skipped. The hourly runs will also show up there
+   once GitHub starts the schedule.
 
 ## 26. The one-article-per-day workflow
 
