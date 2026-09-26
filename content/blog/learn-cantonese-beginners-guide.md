@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-08-09",
   "updatedAt": "2026-08-13",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "language-learning",
   "tags": ["cantonese", "jyutping", "tones", "chinese characters", "beginner"],
   "primaryKeyword": "learn cantonese for beginners",

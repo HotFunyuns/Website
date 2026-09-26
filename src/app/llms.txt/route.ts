@@ -1,12 +1,23 @@
 import { activeCategories, apps, companyInfo } from '@/data/apps';
-import { activeHubs, posts } from '@/lib/blog';
+import { DEFAULT_AUTHOR_ID, authorPath } from '@/data/authors';
+import { activeHubs, postCount } from '@/lib/blog';
 
 export const dynamic = 'force-static';
 
 /**
- * A plain-text index for assistants that read the site. It is generated from the
- * same `posts` collection the routes and sitemap use, so it can never advertise
- * a draft, and from `apps`, so it cannot drift from the catalog.
+ * A small plain-text index for assistants that read the site: who the company
+ * is, what it makes, and where the complete lists live.
+ *
+ * It deliberately does not list every article. It used to — 525 lines copied
+ * from the RSS feed, 155 KB — which made it a second, less useful copy of the
+ * feed and the sitemap rather than an index. The feed and the sitemap are the
+ * complete, machine-readable lists, and they are named below. Nothing here is
+ * an instruction to anyone; scripts/validate-sitemap-rss.mjs fails the build if
+ * that changes, if an advertised URL is not in the sitemap, or if an app is
+ * missing.
+ *
+ * Treat this file as optional. It is not a ranking signal and it replaces none
+ * of the crawlable HTML, structured data, sitemap or internal links.
  */
 export function GET() {
   const site = companyInfo.siteUrl;
@@ -16,24 +27,36 @@ export function GET() {
     '',
     `> ${companyInfo.description}`,
     '',
-    'An independent Android app studio. Every app below is published on Google',
-    'Play. Articles are written in-house and are not medically, linguistically or',
-    'professionally reviewed unless a named reviewer is credited on the article.',
+    `${companyInfo.name} publishes its Android apps on Google Play under the developer`,
+    `name ${companyInfo.developerName}. Both names refer to the same company, and`,
+    `${site}/ is its official website.`,
+    '',
+    `Articles are published under the organizational byline ${companyInfo.name}.`,
+    'They are drafted with the help of AI tools and are not medically,',
+    'linguistically or professionally reviewed unless a named reviewer is credited',
+    'on the article. The editorial policy explains what is checked, and how.',
+    '',
+    '## About the company',
+    '',
+    `- [About ${companyInfo.name}](${site}/about/): who the company is, what it makes, and how to reach it`,
+    `- [Author profile](${site}${authorPath({ id: DEFAULT_AUTHOR_ID })}): the byline on every article and how the articles are made`,
+    `- [Editorial policy](${site}/editorial-policy/): sourcing, AI use, dates, corrections and ownership disclosure`,
+    `- [Press kit](${site}/press/): verified company facts and the app catalogue`,
+    `- [Google Play developer page](${companyInfo.developerPageUrl}): every published app`,
     '',
     '## Apps',
     '',
     ...apps.map((app) => `- [${app.name}](${site}/apps/${app.slug}/): ${app.tagline}`),
     '',
-    '## Categories',
+    '## App categories',
     '',
     ...activeCategories.map(
-      (category) => `- [${category.label}](${site}/apps/category/${category.id}/)`
+      (category) => `- [${category.label}](${site}/apps/category/${category.id}/): ${category.blurb}`
     ),
     '',
     '## Topic hubs',
     '',
-    'Each hub collects every article on one subject and names the one to read',
-    'first. They are the fastest route into a cluster.',
+    'Each hub collects every article on one subject and names the one to read first.',
     '',
     ...activeHubs().map(
       (hub) => `- [${hub.label}](${site}/blog/topics/${hub.id}/) (${hub.count}): ${hub.blurb}`
@@ -41,13 +64,15 @@ export function GET() {
     '',
     '## Articles',
     '',
-    ...posts.map((post) => `- [${post.title}](${site}/blog/${post.slug}/): ${post.description}`),
+    `There are ${postCount} published articles, all listed on the [blog](${site}/blog/).`,
+    `The RSS feed at ${site}/blog/rss.xml carries each title and summary, and the`,
+    `sitemap at ${site}/sitemap.xml lists every public URL.`,
     '',
     '## Policies',
     '',
-    `- [Editorial policy](${site}/editorial-policy/): how we source facts, what we will not publish, and our ownership disclosure`,
     `- [Privacy policy](${site}/privacy/)`,
     `- [Terms of service](${site}/terms/)`,
+    `- [Support](${site}/support/)`,
     '',
   ];
 

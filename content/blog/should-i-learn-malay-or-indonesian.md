@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "language-learning",
   "tags": ["malay", "indonesian", "decision guide", "comparison"],
   "primaryKeyword": "should i learn malay or indonesian",
@@ -38,7 +38,8 @@
     "malay-vs-indonesian-differences",
     "learn-malay-beginners-guide",
     "language-learning-apps-compared",
-    "malay-affixes-guide"
+    "malay-affixes-guide",
+    "malay-phrases-for-travel"
   ],
   "takeaways": [
     "Destination decides this more than anything else: Indonesian is the national language of Indonesia, while Malay holds official status in Malaysia, Brunei and Singapore.",

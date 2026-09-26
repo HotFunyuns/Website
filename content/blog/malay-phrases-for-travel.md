@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "language-learning",
   "tags": ["malay", "phrases", "travel", "listicle"],
   "primaryKeyword": "malay phrases for travel",
@@ -38,7 +38,8 @@
     "learn-malay-beginners-guide",
     "malay-pronunciation-guide",
     "malay-affixes-guide",
-    "is-malay-easy-to-learn"
+    "is-malay-easy-to-learn",
+    "should-i-learn-malay-or-indonesian"
   ],
   "takeaways": [
     "Six words carry an unreasonable share of the load: boleh, ada, tolong, berapa, di mana and terima kasih.",

@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": [
     "keto",
@@ -51,7 +51,9 @@
   "relatedArticles": [
     "net-carbs-explained-keto-tracking",
     "how-to-track-protein-intake",
-    "protein-tracking-apps-compared"
+    "protein-tracking-apps-compared",
+    "electrolytes-on-low-carb",
+    "keto-flu-explained"
   ],
   "takeaways": [
     "The feature that separates a low-carb tracker from a general calorie counter is the subtraction — whether the app takes fiber and sweeteners off total carbohydrate for you, and which ones it takes off.",

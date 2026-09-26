@@ -6,8 +6,8 @@ import GoldDivider from '@/components/GoldDivider';
 import Reveal from '@/components/Reveal';
 import JsonLd from '@/components/JsonLd';
 import BlogCard from '@/components/blog/BlogCard';
-import { companyInfo, countByCategory, getCategory, type CategoryId } from '@/data/apps';
-import { blogCategories, getPostsByCategory } from '@/lib/blog';
+import { apps, companyInfo, countByCategory, getCategory, type CategoryId } from '@/data/apps';
+import { activeHubs, blogCategories, getPostsByCategory, mostReferencedInCategory } from '@/lib/blog';
 
 export const dynamicParams = false;
 
@@ -58,6 +58,14 @@ export default function BlogCategoryPage({ params }: { params: { category: strin
 
   const siblings = blogCategories().filter((c) => c.id !== category.id);
   const appsInCategory = countByCategory(category.id);
+  // The apps these articles are about, by the article's primary (CTA) app —
+  // which can sit outside the category, as a data-safety explainer does.
+  const coveredApps = apps
+    .map((app) => ({ app, count: categoryPosts.filter((post) => post.relatedApps[0] === app.slug).length }))
+    .filter((entry) => entry.count > 0)
+    .sort((a, b) => b.count - a.count || a.app.name.localeCompare(b.app.name));
+  const categoryHubs = activeHubs().filter((hub) => hub.categoryId === category.id);
+  const mostReferenced = mostReferencedInCategory(category.id, 3);
 
   const listSchema = {
     '@context': 'https://schema.org',
@@ -116,6 +124,13 @@ export default function BlogCategoryPage({ params }: { params: { category: strin
               Every article we have published on {category.shortLabel} — how these apps work, the
               decisions behind them, and where their limits are.
             </p>
+            {/* Standing copy for this reading list, written for it. Without it
+                the page was a templated sentence over a card grid. */}
+            {category.readingIntro.map((paragraph) => (
+              <p key={paragraph.slice(0, 40)} className="mt-4 max-w-2xl text-base leading-relaxed text-ink-600">
+                {paragraph}
+              </p>
+            ))}
             {appsInCategory > 0 && (
               <p className="mt-4 text-sm text-ink-500">
                 Covering{' '}
@@ -131,11 +146,76 @@ export default function BlogCategoryPage({ params }: { params: { category: strin
 
       <section className="section-padding !pt-4" aria-label={`${category.label} articles`}>
         <div className="container-wide mx-auto">
+          {categoryHubs.length > 0 && (
+            <nav aria-labelledby="category-hubs-heading" className="mb-14">
+              <h2 id="category-hubs-heading" className="display-title text-2xl">
+                Topic hubs
+              </h2>
+              <ul className="mt-6 grid list-none gap-4 p-0 sm:grid-cols-2 lg:grid-cols-3">
+                {categoryHubs.map((hub) => (
+                  <li key={hub.id}>
+                    <Link href={`/blog/topics/${hub.id}/`} className="card-premium-hover group flex h-full flex-col p-5">
+                      <span className="font-display text-base font-semibold text-ink-950 transition-colors group-hover:text-crimson-600">
+                        {hub.label}
+                      </span>
+                      <span className="mt-2 block text-xs leading-relaxed text-ink-500">{hub.blurb}</span>
+                      <span className="mt-3 text-[11px] font-semibold uppercase tracking-widest text-gold-600">
+                        {hub.count} {hub.count === 1 ? 'article' : 'articles'}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          )}
+
+          {mostReferenced.length > 0 && categoryPosts.length > 6 && (
+            <section aria-labelledby="most-referenced-heading" className="mb-14">
+              <h2 id="most-referenced-heading" className="display-title text-2xl">
+                Most-referenced guides
+              </h2>
+              <p className="mt-2 max-w-2xl text-sm text-ink-500">
+                The articles in this category that other articles link to most often.
+              </p>
+              <ul className="mt-6 grid list-none gap-6 p-0 sm:grid-cols-2 lg:grid-cols-3">
+                {mostReferenced.map((post) => (
+                  <li key={post.slug} className="h-full">
+                    <BlogCard post={post} headingLevel="h3" />
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {coveredApps.length > 0 && (
+            <nav aria-labelledby="covered-apps-heading" className="mb-14">
+              <h2 id="covered-apps-heading" className="eyebrow">
+                Articles by app
+              </h2>
+              <ul className="mt-4 flex list-none flex-wrap gap-3 p-0">
+                {coveredApps.map(({ app, count }) => (
+                  <li key={app.slug}>
+                    <Link
+                      href={`/apps/${app.slug}/`}
+                      className="inline-flex items-center gap-2 rounded-full border border-ink-200 bg-white px-4 py-2 text-sm font-medium text-ink-600 transition-all duration-300 hover:-translate-y-0.5 hover:border-gold-400 hover:text-ink-950"
+                    >
+                      {app.name}
+                      <span className="rounded-full bg-ink-100 px-1.5 py-0.5 text-[10px] font-bold leading-none text-ink-500">
+                        {count}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          )}
+
+          <h2 className="eyebrow mb-6">All {category.shortLabel} articles</h2>
           <ul className="grid list-none gap-6 p-0 sm:grid-cols-2 lg:grid-cols-3">
             {categoryPosts.map((post, i) => (
               <li key={post.slug} className="h-full">
                 <Reveal delay={i * 60} className="h-full">
-                  <BlogCard post={post} headingLevel="h2" />
+                  <BlogCard post={post} headingLevel="h3" />
                 </Reveal>
               </li>
             ))}

@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-08-13",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "language-learning",
   "tags": [
     "malay",
@@ -44,7 +44,8 @@
   "relatedArticles": [
     "learn-malay-beginners-guide",
     "spaced-repetition-for-language-learning",
-    "russian-cases-explained-for-beginners"
+    "russian-cases-explained-for-beginners",
+    "should-i-learn-malay-or-indonesian"
   ],
   "takeaways": [
     "Malay and Indonesian are separately standardised varieties of the same historical language, and ISO 639-3 registers them under one macrolanguage with distinct codes of their own.",

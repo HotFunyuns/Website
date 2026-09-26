@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
     "world history",
@@ -48,7 +48,8 @@
     "major-eras-of-world-history",
     "world-history-timeline-guide",
     "how-to-study-history-on-your-own",
-    "how-calendars-and-dating-systems-work"
+    "how-calendars-and-dating-systems-work",
+    "why-rome-fell"
   ],
   "takeaways": [
     "It was a network of routes covering over 6,400 km overland, not a single road, and it operated from the second century BCE to the mid-fifteenth century.",

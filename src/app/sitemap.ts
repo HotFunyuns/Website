@@ -1,6 +1,14 @@
 import type { MetadataRoute } from 'next';
 import { apps, activeCategories, companyInfo, getAppsByCategory } from '@/data/apps';
-import { activeHubs, blogCategories, getPostsByCategory, getPostsByHub, posts } from '@/lib/blog';
+import { authorPath, authors } from '@/data/authors';
+import {
+  activeHubs,
+  blogCategories,
+  getPostsByAuthor,
+  getPostsByCategory,
+  getPostsByHub,
+  posts,
+} from '@/lib/blog';
 
 export const dynamic = 'force-static';
 
@@ -79,6 +87,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  // One profile per author with a published article — the same rule
+  // src/app/authors/[author]/page.tsx uses to decide which profiles exist. The
+  // page lists the author's newest articles, so it changes when they do.
+  const authorPages: MetadataRoute.Sitemap = authors
+    .map((author) => ({ author, authored: getPostsByAuthor(author.id) }))
+    .filter(({ authored }) => authored.length > 0)
+    .map(({ author, authored }) => ({
+      url: `${baseUrl}${authorPath(author)}`,
+      lastModified: toDate(newest(authored.map((post) => post.updatedAt))),
+      changeFrequency: 'weekly',
+      priority: 0.5,
+    }));
+
   // `posts` excludes drafts, reviews and future-dated articles, so nothing
   // unpublished can reach the sitemap even if it exists on disk.
   const postPages: MetadataRoute.Sitemap = posts.map((post) => ({
@@ -94,6 +115,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...appPages,
     ...blogCategoryPages,
     ...hubPages,
+    ...authorPages,
     ...postPages,
   ];
 }

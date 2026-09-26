@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-08-09",
   "updatedAt": "2026-08-09",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "action-arcade",
   "tags": ["arcade shooter", "bullet hell", "android games", "game design"],
   "primaryKeyword": "space shooter arcade game android",

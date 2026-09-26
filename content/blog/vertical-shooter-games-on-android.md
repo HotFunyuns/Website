@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "action-arcade",
   "tags": ["shmup", "android", "arcade", "decision guide"],
   "primaryKeyword": "vertical shooter games android",

@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
     "baseball",
@@ -46,7 +46,8 @@
     "baseball-draft-gm-guide",
     "basketball-career-sim-guide",
     "career-mode-vs-franchise-mode",
-    "aging-curves-in-career-sims"
+    "aging-curves-in-career-sims",
+    "two-way-players-explained"
   ],
   "takeaways": [
     "Position is the single most consequential choice in the game: it decides which situations you are asked to resolve, which attributes matter, and how often you appear.",

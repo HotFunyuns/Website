@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-22",
   "updatedAt": "2026-09-22",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "anime-creative",
   "tags": [
     "coloring app",
@@ -45,7 +45,8 @@
     "color-palettes-for-anime-art",
     "color-theory-for-beginners",
     "digital-coloring-techniques",
-    "fixing-fill-tool-mistakes-in-coloring-apps"
+    "fixing-fill-tool-mistakes-in-coloring-apps",
+    "anime-hair-colour-meanings"
   ],
   "takeaways": [
     "A texture palette answers a different question from a colour palette: colour decides what hue a shape is, texture decides what the shape appears to be made of.",

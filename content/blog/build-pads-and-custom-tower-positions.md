@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-22",
   "updatedAt": "2026-09-22",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "action-arcade",
   "tags": [
     "tower defense",
@@ -45,7 +45,8 @@
     "aura-towers-and-support-stacking",
     "tower-types-and-what-they-counter",
     "world-boss-waves-in-tower-defense",
-    "tower-defense-camera-controls"
+    "tower-defense-camera-controls",
+    "offline-tower-defence-on-android"
   ],
   "takeaways": [
     "A Build Pad is a purchased tower position, not a tower: it buys you geometry, and the tower that goes on it still has to be paid for separately.",

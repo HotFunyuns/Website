@@ -19,7 +19,11 @@
 
 ## Pages
 
-Home (`/`), About (`/about/`), Apps (`/apps/`), Support (`/support/`), Privacy (`/privacy/`), Terms (`/terms/`), Developer Info (`/app-support/`), 404
+Home (`/`), About (`/about/`), Apps (`/apps/`), Blog (`/blog/`, categories, topic hubs, 525 articles), Author (`/authors/reign-creative-llc/`), Editorial Policy (`/editorial-policy/`), Press (`/press/`), Support (`/support/`), Privacy (`/privacy/`), Terms (`/terms/`), Developer Info (`/app-support/`), 404
+
+## Publishing articles
+
+New articles go through the approval-gated daily queue — never set `status: published` by hand without `editorialApproved: true`. See `docs/publishing-workflow.md`. Bylines come from `src/data/authors.ts`.
 
 ## How to Update
 

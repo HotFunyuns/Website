@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-08-09",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "language-learning",
   "tags": [
     "malay",
@@ -44,7 +44,8 @@
   "relatedArticles": [
     "learn-thai-script-beginners-guide",
     "learn-cantonese-beginners-guide",
-    "learn-khmer-beginners-guide"
+    "learn-khmer-beginners-guide",
+    "malay-phrases-for-travel"
   ],
   "takeaways": [
     "The US Foreign Service Institute places Malay in Category II at roughly 36 weeks of full-time instruction, two full categories below Cantonese, Mandarin, Japanese, Korean and Arabic.",

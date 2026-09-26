@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
     "hockey",
@@ -45,7 +45,9 @@
     "hockey-positions-explained",
     "hockey-draft-gm-guide",
     "football-positions-explained-for-drafting",
-    "sports-gm-games-without-internet"
+    "sports-gm-games-without-internet",
+    "power-play-and-penalty-kill",
+    "what-is-icing-in-hockey"
   ],
   "takeaways": [
     "Hockey is played in units rather than by individuals, so the meaningful question is never how good a player is but who they are good next to.",

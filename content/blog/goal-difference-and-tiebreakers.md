@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
     "soccer",
@@ -45,7 +45,8 @@
     "clean-sheets-explained",
     "soccer-formations-explained",
     "soccer-draft-xi-guide",
-    "press-conferences-in-career-mode"
+    "press-conferences-in-career-mode",
+    "how-the-offside-rule-works"
   ],
   "takeaways": [
     "Goal difference is goals scored minus goals conceded across the whole competition — a single number summarising both halves of a season.",

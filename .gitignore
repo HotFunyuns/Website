@@ -40,3 +40,6 @@ next-env.d.ts
 .idea/
 *.swp
 *.swo
+
+# Search Console exports (performance data; this repository is public)
+/search-console/

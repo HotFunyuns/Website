@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": ["rugby", "draft", "squad building", "strategy"],
   "primaryKeyword": "rugby draft simulator",
@@ -37,7 +37,8 @@
     "rugby-forwards-and-backs",
     "rugby-positions-and-numbers",
     "expansion-drafts-explained",
-    "best-offline-sports-games-android"
+    "best-offline-sports-games-android",
+    "rugby-union-vs-rugby-league"
   ],
   "takeaways": [
     "A rugby draft has to fill a set piece, which makes it structurally different from drafting a team in a sport with no scrum or lineout.",

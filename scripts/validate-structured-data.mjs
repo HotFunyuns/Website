@@ -10,6 +10,7 @@
 import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
+import { laDay } from './lib/publishing.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(HERE, '..');
@@ -75,6 +76,7 @@ const FORBIDDEN_TYPES = new Set(['AggregateRating', 'Rating', 'Review', 'Endorse
  * exactly how markup rots without anyone noticing.
  */
 const ALLOWED_TYPES = new Set([
+  'AboutPage',
   'Answer',
   'Blog',
   'BlogPosting',
@@ -87,6 +89,8 @@ const ALLOWED_TYPES = new Set([
   'ListItem',
   'Offer',
   'Organization',
+  'Person',
+  'ProfilePage',
   'Question',
   'SoftwareApplication',
   'WebPage',
@@ -110,6 +114,8 @@ const REQUIRED = {
   BreadcrumbList: ['itemListElement'],
   FAQPage: ['mainEntity'],
   CollectionPage: ['name', 'url'],
+  ProfilePage: ['url', 'mainEntity'],
+  AboutPage: ['url', 'mainEntity'],
 };
 
 /** Fields a nested node cannot be meaningful without. */
@@ -137,6 +143,8 @@ const EXPECTED_BY_PAGE_TYPE = {
   'blog-hub': ['Organization', 'WebSite', 'CollectionPage', 'BreadcrumbList'],
   'blog-index': ['Organization', 'WebSite', 'Blog'],
   'apps-index': ['Organization', 'WebSite', 'CollectionPage'],
+  author: ['Organization', 'WebSite', 'ProfilePage', 'BreadcrumbList'],
+  about: ['Organization', 'WebSite', 'AboutPage'],
   static: ['Organization', 'WebSite'],
   error: ['Organization', 'WebSite'],
 };
@@ -146,6 +154,8 @@ function pageTypeOf(route) {
   if (route.startsWith('/404')) return 'error';
   if (route === '/blog/') return 'blog-index';
   if (route === '/apps/') return 'apps-index';
+  if (route === '/about/') return 'about';
+  if (route.startsWith('/authors/')) return 'author';
   if (route.startsWith('/blog/category/')) return 'blog-category';
   // Must precede the generic /blog/ branch below, or a topic hub is mistaken
   // for an article and required to carry a BlogPosting it does not emit.
@@ -182,7 +192,8 @@ const idReferences = [];
 
 /** Signature -> routes, to prove the site-wide entity is stated identically everywhere. */
 const entitySignatures = { Organization: new Map(), WebSite: new Map() };
-const TODAY = new Date().toISOString().slice(0, 10);
+// Publication dates are Los Angeles calendar days; see scripts/lib/publishing.mjs.
+const TODAY = laDay();
 
 /** Walks every node of a JSON-LD tree, yielding each object that carries an @type. */
 function* nodes(value) {
@@ -289,7 +300,7 @@ for (const file of walk(OUT)) {
     // A `url`, an `@id` or a `mainEntityOfPage` that disagrees with the
     // canonical is a second answer to "which URL is this?".
     if (canonical) {
-      const PAGE_TYPES = ['BlogPosting', 'SoftwareApplication', 'CollectionPage', 'WebPage', 'Blog', 'FAQPage'];
+      const PAGE_TYPES = ['BlogPosting', 'SoftwareApplication', 'CollectionPage', 'WebPage', 'Blog', 'FAQPage', 'ProfilePage', 'AboutPage'];
       if (PAGE_TYPES.includes(type) && typeof data.url === 'string' && data.url !== canonical) {
         fail(`${route}: ${type}.url is ${data.url} but the canonical is ${canonical}`);
       }
@@ -316,6 +327,15 @@ for (const file of walk(OUT)) {
       }
       if (data.dateModified && data.datePublished && data.dateModified < data.datePublished) {
         fail(`${route}: dateModified precedes datePublished`);
+      }
+      // The author must resolve to a profile this export publishes, so the
+      // byline's promise — "this is who wrote it, and here is who they are" —
+      // is something a crawler can follow.
+      const authorUrl = data.author?.url;
+      if (typeof authorUrl !== 'string' || !authorUrl.startsWith(`${SITE}/authors/`)) {
+        fail(`${route}: BlogPosting.author.url ${authorUrl} is not an author profile on this site`);
+      } else if (!exportedRoutes.has(authorUrl.slice(SITE.length))) {
+        fail(`${route}: BlogPosting.author.url ${authorUrl} has no page in out/`);
       }
       if (data.datePublished > TODAY) {
         fail(`${route}: datePublished ${data.datePublished} is in the future`);

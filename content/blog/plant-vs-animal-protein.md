@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": [
     "protein",
@@ -44,7 +44,8 @@
     "complete-vs-incomplete-proteins",
     "protein-sources-compared",
     "how-to-hit-a-protein-goal",
-    "how-much-protein-per-day"
+    "how-much-protein-per-day",
+    "protein-for-older-adults"
   ],
   "takeaways": [
     "The differences are in amino acid profile, protein density per calorie, and what else arrives with the protein — not in whether the protein 'works'.",

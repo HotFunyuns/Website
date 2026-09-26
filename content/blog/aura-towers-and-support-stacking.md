@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "action-arcade",
   "tags": ["tower defense", "aura towers", "game design", "developer insight"],
   "primaryKeyword": "aura towers in tower defense",

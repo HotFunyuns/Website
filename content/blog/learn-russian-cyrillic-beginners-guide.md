@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-08-09",
   "updatedAt": "2026-08-13",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "language-learning",
   "tags": ["russian", "cyrillic", "alphabet", "pronunciation", "beginner"],
   "primaryKeyword": "learn russian cyrillic alphabet",
@@ -36,7 +36,8 @@
   "relatedArticles": [
     "learn-cantonese-beginners-guide",
     "learn-thai-script-beginners-guide",
-    "learn-malay-beginners-guide"
+    "learn-malay-beginners-guide",
+    "russian-cursive-handwriting-guide"
   ],
   "takeaways": [
     "The modern Russian alphabet has 33 letters: ten vowel letters, twenty-one consonant letters and two signs that spell no sound of their own.",

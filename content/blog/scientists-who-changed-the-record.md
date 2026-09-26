@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-22",
   "updatedAt": "2026-09-22",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
     "world history",
@@ -49,7 +49,8 @@
     "how-we-know-what-historical-figures-did",
     "primary-vs-secondary-sources",
     "how-historians-date-events",
-    "how-to-study-history-on-your-own"
+    "how-to-study-history-on-your-own",
+    "scholars-of-the-islamic-golden-age"
   ],
   "takeaways": [
     "Nature published three papers on DNA structure in the same issue in April 1953, not one, and the familiar story that credits a single pair of researchers starts by forgetting the other two.",

@@ -66,10 +66,12 @@ export default function AppPage({ params }: { params: { slug: string } }) {
   // grid here leads with the rest. Six rather than three: an app carrying a
   // hundred guides is badly served by a three-card sample.
   const cornerstoneSlugs = new Set(appHubs.map((hub) => hub.cornerstone));
-  const guides = [
+  const ordered = [
     ...allGuides.filter((post) => cornerstoneSlugs.has(post.slug)),
     ...allGuides.filter((post) => !cornerstoneSlugs.has(post.slug)),
-  ].slice(0, appHubs.length > 0 ? 6 : 3);
+  ];
+  const guides = ordered.slice(0, appHubs.length > 0 ? 6 : 3);
+  const moreGuides = ordered.slice(guides.length);
 
   const softwareSchema = {
     '@context': 'https://schema.org',
@@ -216,7 +218,19 @@ export default function AppPage({ params }: { params: { slug: string } }) {
                   { term: 'Content rating', detail: app.contentRating },
                   { term: 'Contains ads', detail: app.containsAds ? 'Yes' : 'No' },
                   { term: 'In-app purchases', detail: app.inAppPurchases ? 'Yes' : 'No' },
-                  { term: 'Developer', detail: companyInfo.name },
+                  // Both names, because a reader comparing this page with the
+                  // store sees "Reign Collective Apps" there — the same company.
+                  {
+                    term: 'Developer',
+                    detail: (
+                      <>
+                        {companyInfo.name}
+                        <span className="block text-xs font-normal text-ink-500">
+                          {companyInfo.developerName} on Google Play
+                        </span>
+                      </>
+                    ),
+                  },
                 ].map((row, i, rows) => (
                   <div
                     key={row.term}
@@ -310,8 +324,8 @@ export default function AppPage({ params }: { params: { slug: string } }) {
               Guides for {app.name}
             </h2>
             <p className="mt-3 max-w-2xl text-ink-500">
-              Written by the team that builds the app.
-              {allGuides.length > guides.length && (
+              Published by {companyInfo.name}, which makes {app.name}.
+              {allGuides.length > guides.length && appHubs.length > 0 && (
                 <> {allGuides.length} in total — the topic hubs below collect them all.</>
               )}
             </p>
@@ -324,6 +338,28 @@ export default function AppPage({ params }: { params: { slug: string } }) {
                 </li>
               ))}
             </ul>
+
+            {/* Apps without a topic hub used to show three cards and nothing
+                else, so every further guide about the app had no link from the
+                app's own page — the page most likely to send a reader to it.
+                The rest are listed by title; the hub apps link their hubs
+                instead, which already collect every guide. */}
+            {appHubs.length === 0 && moreGuides.length > 0 && (
+              <nav aria-labelledby="more-guides-heading" className="mt-10">
+                <h3 id="more-guides-heading" className="eyebrow">
+                  More guides for {app.name}
+                </h3>
+                <ul className="mt-5 grid list-none gap-x-8 gap-y-3 p-0 sm:grid-cols-2">
+                  {moreGuides.map((post) => (
+                    <li key={post.slug}>
+                      <Link href={`/blog/${post.slug}/`} className="link-accent text-sm">
+                        {post.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            )}
 
             {appHubs.length > 0 && (
               <nav aria-label={`${app.name} topic hubs`} className="mt-12">

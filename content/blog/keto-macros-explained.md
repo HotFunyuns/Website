@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": [
     "keto",
@@ -46,7 +46,9 @@
     "net-carbs-explained-keto-tracking",
     "what-is-a-ketone-reading",
     "intermittent-fasting-windows-explained",
-    "reading-nutrition-labels"
+    "reading-nutrition-labels",
+    "electrolytes-on-low-carb",
+    "keto-flu-explained"
   ],
   "takeaways": [
     "No US federal nutrition authority defines a 'keto macro ratio' — the familiar 70/25/5 style splits are a popular convention, and treating them as a standard is the first mistake.",

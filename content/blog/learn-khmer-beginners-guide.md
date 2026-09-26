@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-08-09",
   "updatedAt": "2026-08-13",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "language-learning",
   "tags": ["khmer", "cambodian", "khmer script", "travel", "beginner"],
   "primaryKeyword": "learn khmer for beginners",
@@ -36,7 +36,8 @@
   "relatedArticles": [
     "learn-thai-script-beginners-guide",
     "learn-cantonese-beginners-guide",
-    "learn-malay-beginners-guide"
+    "learn-malay-beginners-guide",
+    "khmer-phrases-for-cambodia-travel"
   ],
   "takeaways": [
     "Khmer is not a tonal language, which removes the single feature that most discourages beginners from Thai, Vietnamese and Cantonese.",

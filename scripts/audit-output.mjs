@@ -239,6 +239,40 @@ for (const file of html) {
 if (missingAlt > 0) fail(`${missingAlt} <img> element(s) without an alt attribute`);
 if (missingDims > 0) fail(`${missingDims} <img> element(s) without width and height`);
 
+/* --------------------------------------------------- structural a11y basics */
+
+// The checks a static audit can make with confidence: a document language, a
+// main landmark, headings that do not skip levels on the way down, links a
+// screen reader can name, and ids that are unique in the document (the header
+// and footer logos once shared an SVG gradient id).
+for (const file of html) {
+  const route = routeOf(file);
+  const doc = readFileSync(file, 'utf8').replace(/<script[\s\S]*?<\/script>/g, '');
+  if (!/<html[^>]*\slang="[a-z]{2}/.test(doc)) fail(`${route}: <html> has no lang attribute`);
+  if (!/<main[\s>]/.test(doc)) fail(`${route}: no <main> landmark`);
+  const levels = [...doc.matchAll(/<h([1-6])[\s>]/g)].map((m) => Number(m[1]));
+  for (let i = 1; i < levels.length; i++) {
+    if (levels[i] > levels[i - 1] + 1) {
+      fail(`${route}: heading jumps from h${levels[i - 1]} to h${levels[i]}`);
+      break;
+    }
+  }
+  for (const m of doc.matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a>/g)) {
+    const text = m[2].replace(/<img[^>]*alt="([^"]+)"[^>]*>/g, ' $1 ').replace(/<[^>]*>/g, '').trim();
+    if (!text && !/aria-label="[^"]+"/.test(m[1]) && !/aria-hidden="true"/.test(m[1])) {
+      fail(`${route}: link ${/href="([^"]*)"/.exec(m[1])?.[1]} has no accessible name`);
+    }
+  }
+  const seenIds = new Set();
+  for (const m of doc.matchAll(/\sid="([^"]+)"/g)) {
+    if (seenIds.has(m[1])) {
+      fail(`${route}: duplicate id "${m[1]}"`);
+      break;
+    }
+    seenIds.add(m[1]);
+  }
+}
+
 /* ---------------------------------------------------------------- robots */
 
 const robots = readFileSync(join(OUT, 'robots.txt'), 'utf8');

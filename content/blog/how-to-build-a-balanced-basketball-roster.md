@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-08-13",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
     "roster building",
@@ -45,7 +45,8 @@
   "relatedArticles": [
     "basketball-positions-explained",
     "basketball-draft-gm-guide",
-    "basketball-career-sim-guide"
+    "basketball-career-sim-guide",
+    "basketball-advanced-stats-explained"
   ],
   "takeaways": [
     "Balance is about coverage, not about averaging out ratings: a lineup has to be able to bring the ball up, space the floor, rebound and protect the rim, and a roster that cannot do all four has a hole regardless of its ratings.",

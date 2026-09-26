@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-22",
   "updatedAt": "2026-09-22",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
     "brain training",
@@ -45,7 +45,8 @@
   "relatedArticles": [
     "do-brain-training-apps-work",
     "building-a-daily-practice-habit",
-    "mental-math-training-guide"
+    "mental-math-training-guide",
+    "daily-challenge-formats-explained"
   ],
   "takeaways": [
     "Ten minutes is enough for a session that does something, provided you split it across four different activities rather than repeating one drill for ten minutes.",

@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-08-09",
   "updatedAt": "2026-08-13",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": ["net carbs", "low carb", "nutrition labels", "macro tracking", "dietary fiber"],
   "primaryKeyword": "net carbs explained",

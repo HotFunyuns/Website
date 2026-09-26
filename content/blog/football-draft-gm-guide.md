@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-08-09",
   "updatedAt": "2026-08-09",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": ["draft strategy", "football", "gm mode", "roster building", "salary cap"],
   "primaryKeyword": "football draft simulator app",

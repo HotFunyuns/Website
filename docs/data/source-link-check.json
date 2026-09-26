@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-22T07:10:34.945Z",
+  "checkedAt": "2026-09-26T05:45:14.354Z",
   "results": [
     {
       "url": "https://aa.usno.navy.mil/",
@@ -18,7 +18,28 @@
       "verdict": "ok",
       "articles": [
         "bce-and-ce-explained",
-        "how-calendars-and-dating-systems-work"
+        "how-calendars-and-dating-systems-work",
+        "how-to-count-centuries-correctly",
+        "russian-revolutions-of-1917",
+        "when-two-sources-disagree-on-a-date"
+      ]
+    },
+    {
+      "url": "https://aa.usno.navy.mil/faq/islamic",
+      "status": 200,
+      "finalUrl": "https://aa.usno.navy.mil/faq/islamic",
+      "verdict": "ok",
+      "articles": [
+        "hijri-calendar-and-historical-dating"
+      ]
+    },
+    {
+      "url": "https://aa.usno.navy.mil/faq/millennium",
+      "status": 200,
+      "finalUrl": "https://aa.usno.navy.mil/faq/millennium",
+      "verdict": "ok",
+      "articles": [
+        "how-to-count-centuries-correctly"
       ]
     },
     {
@@ -35,6 +56,118 @@
         "how-to-build-a-balanced-basketball-roster",
         "player-body-metrics-in-career-sims",
         "rebuild-vs-retool"
+      ]
+    },
+    {
+      "url": "https://academic.oup.com/ahr/article-lookup/doi/10.1086/ahr.117.1.40",
+      "status": 403,
+      "finalUrl": "https://academic.oup.com/ahr/article-lookup/doi/10.1086/ahr.117.1.40",
+      "verdict": "blocked",
+      "articles": [
+        "haitian-revolution-explained",
+        "latin-american-independence-wars"
+      ]
+    },
+    {
+      "url": "https://academic.oup.com/hwj/article/doi/10.1093/hwj/dbx053/4785934",
+      "status": 403,
+      "finalUrl": "https://academic.oup.com/hwj/article/doi/10.1093/hwj/dbx053/4785934",
+      "verdict": "blocked",
+      "articles": [
+        "indigenous-resistance-wars-compared"
+      ]
+    },
+    {
+      "url": "https://afe.easia.columbia.edu/main_pop/kpct/kp_4000bce-1000ce.htm",
+      "status": 200,
+      "finalUrl": "https://afe.easia.columbia.edu/main_pop/kpct/kp_4000bce-1000ce.htm",
+      "verdict": "ok",
+      "articles": [
+        "printing-press-impact-explained",
+        "women-who-ruled-empires"
+      ]
+    },
+    {
+      "url": "https://afe.easia.columbia.edu/songdynasty-module/econ-rev-money.html",
+      "status": 200,
+      "finalUrl": "https://afe.easia.columbia.edu/songdynasty-module/econ-rev-money.html",
+      "verdict": "ok",
+      "articles": [
+        "tang-and-song-china-explained"
+      ]
+    },
+    {
+      "url": "https://afe.easia.columbia.edu/songdynasty-module/tech-printing.html",
+      "status": 200,
+      "finalUrl": "https://afe.easia.columbia.edu/songdynasty-module/tech-printing.html",
+      "verdict": "ok",
+      "articles": [
+        "tang-and-song-china-explained"
+      ]
+    },
+    {
+      "url": "https://afe.easia.columbia.edu/special/china_1750_taiping.htm",
+      "status": 200,
+      "finalUrl": "https://afe.easia.columbia.edu/special/china_1750_taiping.htm",
+      "verdict": "ok",
+      "articles": [
+        "chinas-deadliest-rebellions"
+      ]
+    },
+    {
+      "url": "https://afe.easia.columbia.edu/special/japan_1750_meiji.htm",
+      "status": 200,
+      "finalUrl": "https://afe.easia.columbia.edu/special/japan_1750_meiji.htm",
+      "verdict": "ok",
+      "articles": [
+        "meiji-restoration-explained"
+      ]
+    },
+    {
+      "url": "https://afe.easia.columbia.edu/timelines/china_timeline.htm",
+      "status": 200,
+      "finalUrl": "https://afe.easia.columbia.edu/timelines/china_timeline.htm",
+      "verdict": "ok",
+      "articles": [
+        "tang-and-song-china-explained"
+      ]
+    },
+    {
+      "url": "https://afe.easia.columbia.edu/timelines/japan_timeline.htm",
+      "status": 200,
+      "finalUrl": "https://afe.easia.columbia.edu/timelines/japan_timeline.htm",
+      "verdict": "ok",
+      "articles": [
+        "japan-from-yamato-to-meiji"
+      ]
+    },
+    {
+      "url": "https://afe.easia.columbia.edu/timelines/korea_timeline.htm",
+      "status": 200,
+      "finalUrl": "https://afe.easia.columbia.edu/timelines/korea_timeline.htm",
+      "verdict": "ok",
+      "articles": [
+        "korean-dynasties-explained"
+      ]
+    },
+    {
+      "url": "https://afe.easia.columbia.edu/timelines/southasia_timeline.htm",
+      "status": 200,
+      "finalUrl": "https://afe.easia.columbia.edu/timelines/southasia_timeline.htm",
+      "verdict": "ok",
+      "articles": [
+        "chola-empire-maritime-power",
+        "how-the-mughal-empire-expanded",
+        "maurya-and-gupta-empires-compared"
+      ]
+    },
+    {
+      "url": "https://afe.easia.columbia.edu/timelines/vietnam_timeline.htm",
+      "status": 200,
+      "finalUrl": "https://afe.easia.columbia.edu/timelines/vietnam_timeline.htm",
+      "verdict": "ok",
+      "articles": [
+        "mainland-southeast-asian-kingdoms"
       ]
     },
     {
@@ -76,12 +209,75 @@
       ]
     },
     {
+      "url": "https://archive.org/details/historyofbritis01mill",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/historyofbritis01mill",
+      "verdict": "ok",
+      "articles": [
+        "indian-history-periodisation-debate"
+      ]
+    },
+    {
+      "url": "https://archive.org/details/in.ernet.dli.2015.135307",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/in.ernet.dli.2015.135307",
+      "verdict": "ok",
+      "articles": [
+        "ashoka-and-the-rock-edicts"
+      ]
+    },
+    {
+      "url": "https://archive.org/details/memoirofgeneralt0000tous",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/memoirofgeneralt0000tous",
+      "verdict": "ok",
+      "articles": [
+        "toussaint-louverture-and-the-haitian-generals"
+      ]
+    },
+    {
       "url": "https://archive.org/details/memorycontributi00ebbiuoft",
       "status": 200,
       "finalUrl": "https://archive.org/details/memorycontributi00ebbiuoft",
       "verdict": "ok",
       "articles": [
         "spaced-repetition-for-language-learning"
+      ]
+    },
+    {
+      "url": "https://archive.org/details/muqaddimahintrod0001ibnk",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/muqaddimahintrod0001ibnk",
+      "verdict": "ok",
+      "articles": [
+        "scholars-of-the-islamic-golden-age"
+      ]
+    },
+    {
+      "url": "https://archive.org/details/northpoleitsdisc00pear",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/northpoleitsdisc00pear",
+      "verdict": "ok",
+      "articles": [
+        "famous-explorers-in-history"
+      ]
+    },
+    {
+      "url": "https://archive.org/details/travelsofibnbatt0000ibnb",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/travelsofibnbatt0000ibnb",
+      "verdict": "ok",
+      "articles": [
+        "ibn-battuta-and-the-rihla"
+      ]
+    },
+    {
+      "url": "https://artsandculture.google.com/",
+      "status": 200,
+      "finalUrl": "https://artsandculture.google.com/",
+      "verdict": "ok",
+      "articles": [
+        "history-apps-compared-for-self-study"
       ]
     },
     {
@@ -171,6 +367,15 @@
       ]
     },
     {
+      "url": "https://asi.nic.in/pages/Epigraphy-Branch/HQ",
+      "status": 200,
+      "finalUrl": "https://asi.nic.in/pages/Epigraphy-Branch/HQ",
+      "verdict": "ok",
+      "articles": [
+        "ashoka-and-the-rock-edicts"
+      ]
+    },
+    {
       "url": "https://avalon.law.yale.edu/",
       "status": 200,
       "finalUrl": "https://avalon.law.yale.edu/",
@@ -178,6 +383,15 @@
       "articles": [
         "major-eras-of-world-history",
         "world-history-timeline-guide"
+      ]
+    },
+    {
+      "url": "https://avalon.law.yale.edu/18th_century/rightsof.asp",
+      "status": 200,
+      "finalUrl": "https://avalon.law.yale.edu/18th_century/rightsof.asp",
+      "verdict": "ok",
+      "articles": [
+        "french-revolution-causes-and-phases"
       ]
     },
     {
@@ -207,6 +421,7 @@
       "finalUrl": "https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Koriat_RBjork_2005.pdf",
       "verdict": "ok",
       "articles": [
+        "judging-your-own-recall",
         "paired-associate-learning"
       ]
     },
@@ -243,6 +458,15 @@
       ]
     },
     {
+      "url": "https://blog.sciencemuseumgroup.org.uk/",
+      "status": 200,
+      "finalUrl": "https://blog.sciencemuseumgroup.org.uk/",
+      "verdict": "ok",
+      "articles": [
+        "why-the-industrial-revolution-started-in-britain"
+      ]
+    },
+    {
       "url": "https://c14.arch.ox.ac.uk/",
       "status": 200,
       "finalUrl": "https://c14.arch.ox.ac.uk/",
@@ -271,6 +495,24 @@
       ]
     },
     {
+      "url": "https://cemc.uwaterloo.ca/resources/courseware",
+      "status": 200,
+      "finalUrl": "https://cemc.uwaterloo.ca/resources/courseware",
+      "verdict": "ok",
+      "articles": [
+        "missing-number-problems"
+      ]
+    },
+    {
+      "url": "https://cemc.uwaterloo.ca/resources/potw",
+      "status": 200,
+      "finalUrl": "https://cemc.uwaterloo.ca/resources/potw",
+      "verdict": "ok",
+      "articles": [
+        "working-backwards-problems"
+      ]
+    },
+    {
       "url": "https://cemc.uwaterloo.ca/sites/default/files/documents/2024/SequencesSeries.html",
       "status": 200,
       "finalUrl": "https://cemc.uwaterloo.ca/sites/default/files/documents/2024/SequencesSeries.html",
@@ -283,6 +525,15 @@
       ]
     },
     {
+      "url": "https://china.usc.edu/",
+      "status": 200,
+      "finalUrl": "https://china.usc.edu/",
+      "verdict": "ok",
+      "articles": [
+        "opium-wars-and-unequal-treaties"
+      ]
+    },
+    {
       "url": "https://cie.co.at/",
       "status": 200,
       "finalUrl": "https://cie.co.at/",
@@ -292,12 +543,49 @@
       ]
     },
     {
+      "url": "https://cik.efeo.fr/",
+      "status": 200,
+      "finalUrl": "https://cik.efeo.fr/",
+      "verdict": "ok",
+      "articles": [
+        "dating-southeast-asian-history",
+        "who-built-the-great-monuments"
+      ]
+    },
+    {
+      "url": "https://cipotato.org/potato/potato-facts-and-figures/",
+      "status": 200,
+      "finalUrl": "https://cipotato.org/potato/potato-facts-and-figures/",
+      "verdict": "ok",
+      "articles": [
+        "columbian-exchange-explained"
+      ]
+    },
+    {
+      "url": "https://classics.mit.edu/Aristotle/heavens.2.ii.html",
+      "status": 200,
+      "finalUrl": "https://classics.mit.edu/Aristotle/heavens.2.ii.html",
+      "verdict": "ok",
+      "articles": [
+        "did-people-think-the-earth-was-flat"
+      ]
+    },
+    {
       "url": "https://collection.sciencemuseumgroup.org.uk/objects/co60130/napiers-bones",
       "status": 200,
       "finalUrl": "https://collection.sciencemuseumgroup.org.uk/objects/co60130/napiers-bones",
       "verdict": "ok",
       "articles": [
         "lattice-and-line-multiplication"
+      ]
+    },
+    {
+      "url": "https://collezioni.museoegizio.it/en-GB/material/Cat_1874/",
+      "status": 200,
+      "finalUrl": "https://collezioni.museoegizio.it/en-GB/material/Cat_1874/",
+      "verdict": "ok",
+      "articles": [
+        "regnal-years-and-dynastic-dating"
       ]
     },
     {
@@ -373,6 +661,25 @@
       ]
     },
     {
+      "url": "https://cudl.lib.cam.ac.uk/collections/islamic",
+      "status": 200,
+      "finalUrl": "https://cudl.lib.cam.ac.uk/collections/islamic",
+      "verdict": "ok",
+      "articles": [
+        "hijri-calendar-and-historical-dating"
+      ]
+    },
+    {
+      "url": "https://cup.columbia.edu/book/must-we-divide-history-into-periods/9780231173001",
+      "status": 200,
+      "finalUrl": "https://cup.columbia.edu/book/must-we-divide-history-into-periods/9780231173001/",
+      "verdict": "ok",
+      "articles": [
+        "periodisation-in-history-explained",
+        "what-makes-an-event-a-turning-point"
+      ]
+    },
+    {
       "url": "https://datatracker.ietf.org/doc/html/rfc9559",
       "status": 200,
       "finalUrl": "https://datatracker.ietf.org/doc/html/rfc9559",
@@ -388,6 +695,42 @@
       "verdict": "ok",
       "articles": [
         "video-file-formats-explained"
+      ]
+    },
+    {
+      "url": "https://dccam.org/",
+      "status": 200,
+      "finalUrl": "https://www.dccam.org/",
+      "verdict": "ok",
+      "articles": [
+        "khmer-rouge-and-cambodian-genocide"
+      ]
+    },
+    {
+      "url": "https://depts.washington.edu/silkroad/",
+      "status": 200,
+      "finalUrl": "https://depts.washington.edu/silkroad/",
+      "verdict": "ok",
+      "articles": [
+        "mongol-conquests-explained"
+      ]
+    },
+    {
+      "url": "https://depts.washington.edu/silkroad/texts/carpini.html",
+      "status": 200,
+      "finalUrl": "https://depts.washington.edu/silkroad/texts/carpini.html",
+      "verdict": "ok",
+      "articles": [
+        "mongol-conquests-explained"
+      ]
+    },
+    {
+      "url": "https://depts.washington.edu/silkroad/texts/rubruck.html",
+      "status": 200,
+      "finalUrl": "https://depts.washington.edu/silkroad/texts/rubruck.html",
+      "verdict": "ok",
+      "articles": [
+        "mongol-conquests-explained"
       ]
     },
     {
@@ -562,10 +905,19 @@
     {
       "url": "https://developers.google.com/ml-kit/vision/text-recognition/v2",
       "status": 200,
-      "finalUrl": "https://developers.google.com/ml-kit/vision/text-recognition/v2?hl=zh-cn",
+      "finalUrl": "https://developers.google.com/ml-kit/vision/text-recognition/v2",
       "verdict": "ok",
       "articles": [
         "bulk-scanning-a-card-collection"
+      ]
+    },
+    {
+      "url": "https://digitarq.arquivos.pt/",
+      "status": 200,
+      "finalUrl": "https://digitarq.arquivos.pt/",
+      "verdict": "ok",
+      "articles": [
+        "queen-nzinga-of-ndongo-and-matamba"
       ]
     },
     {
@@ -575,6 +927,324 @@
       "verdict": "ok",
       "articles": [
         "press-conferences-in-career-mode"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1007/s10686-005-9002-5",
+      "status": 200,
+      "finalUrl": "https://link.springer.com/article/10.1007/s10686-005-9002-5",
+      "verdict": "ok",
+      "articles": [
+        "hijri-calendar-and-historical-dating"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1017/cbo9781139135474",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/books/princes-of-the-mughal-empire-15041719/F72D1C99851C722D72AD95F71505DEC4",
+      "verdict": "ok",
+      "articles": [
+        "how-the-mughal-empire-expanded"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1017/cbo9781139194662.005",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/books/abs/cambridge-world-history/evolution-rupture-and-periodization/899A014B84081C607FAC6B0D0FDC02D7",
+      "verdict": "ok",
+      "articles": [
+        "why-historical-eras-overlap"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1017/chol9780521226929.011",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/books/abs/cambridge-economic-history-of-india/mughal-empire/9D220E825769FDF8851433B0CA5F01F4",
+      "verdict": "ok",
+      "articles": [
+        "how-the-mughal-empire-expanded"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1017/eac.2024.2",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/journals/early-china/article/xia-shang-zhou-duandai-gongcheng-baogao-and-its-chronology-of-the-western-zhou-dynasty/78B7D45FE8B93DD70AB440B44A5FF2CA",
+      "verdict": "ok",
+      "articles": [
+        "chinese-dynasties-in-chronological-order"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1017/rdc.2016.118",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/journals/radiocarbon/article/abs/dating-the-expansion-of-the-inca-empire-bayesian-models-from-ecuador-and-argentina/0BBB00F5551A6C9506DC30D5204BD656",
+      "verdict": "ok",
+      "articles": [
+        "andean-civilizations-in-order"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1017/s0026749x12000091",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/impact-of-climate-on-southeast-asia-circa-9501820-new-findings/4EA47A9F9791A563B829EE6ACABAAC66",
+      "verdict": "ok",
+      "articles": [
+        "mainland-southeast-asian-kingdoms"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1017/s0035869x00095502",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/abs/note-on-the-allahabad-pillar-of-asoka/A177CD60009054B8B519D28487C63E52",
+      "verdict": "ok",
+      "articles": [
+        "maurya-and-gupta-empires-compared"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1017/s0956536114000248",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/journals/ancient-mesoamerica/article/abs/terminal-long-count-dates-and-the-disintegration-of-classic-period-maya-polities/CC2C95EAD6202015BADC8DF4C770C069",
+      "verdict": "ok",
+      "articles": [
+        "maya-long-count-calendar-explained"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1017/trn.2016.21",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/journals/trans-trans-regional-and-national-studies-of-southeast-asia/article/commodity-flows-diaspora-networking-and-contested-agency-in-the-eastern-indian-ocean-c-10001500/0D6BC7604A0D8F0459BF1565177483CB",
+      "verdict": "ok",
+      "articles": [
+        "chola-empire-maritime-power",
+        "srivijaya-and-majapahit"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1080/00223344.2018.1512369",
+      "status": 403,
+      "finalUrl": "https://www.tandfonline.com/doi/full/10.1080/00223344.2018.1512369",
+      "verdict": "blocked",
+      "articles": [
+        "famous-explorers-in-history"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1093/acrefore/9780190277727.013.235",
+      "status": 403,
+      "finalUrl": "https://academic.oup.com/edited-volume/61799/chapter/546291143",
+      "verdict": "blocked",
+      "articles": [
+        "zheng-he-treasure-voyages"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1093/oxfordhb/9780198915560.013.0030",
+      "status": 403,
+      "finalUrl": "https://academic.oup.com/edited-volume/59907/chapter/521094232",
+      "verdict": "blocked",
+      "articles": [
+        "wu-zetian-and-hostile-sources"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1163/1878464-13040102",
+      "status": 200,
+      "finalUrl": "https://brill.com/view/journals/jim/4/1/article-p49_2.xml",
+      "verdict": "ok",
+      "articles": [
+        "hijri-calendar-and-historical-dating"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1163/22134379-90003649",
+      "status": 200,
+      "finalUrl": "https://brill.com/view/journals/bki/164/4/article-p411_3.xml",
+      "verdict": "ok",
+      "articles": [
+        "srivijaya-and-majapahit"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1177/030631293023002004",
+      "status": 403,
+      "finalUrl": "https://journals.sagepub.com/doi/10.1177/030631293023002004",
+      "verdict": "blocked",
+      "articles": [
+        "scientists-who-changed-the-record"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1179/073750302788699628",
+      "status": 403,
+      "finalUrl": "https://www.tandfonline.com/doi/full/10.1179/073750302788699628",
+      "verdict": "blocked",
+      "articles": [
+        "wu-zetian-and-hostile-sources"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1179/mon.2005.53.1.001",
+      "status": 403,
+      "finalUrl": "https://www.tandfonline.com/doi/full/10.1179/mon.2005.53.1.001",
+      "verdict": "blocked",
+      "articles": [
+        "zheng-he-treasure-voyages"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1179/tin.1991.23.1.1",
+      "status": 403,
+      "finalUrl": "https://www.tandfonline.com/doi/full/10.1179/tin.1991.23.1.1",
+      "verdict": "blocked",
+      "articles": [
+        "zheng-he-treasure-voyages"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1353/tan.2012.0004",
+      "status": 200,
+      "finalUrl": "https://muse.jhu.edu/verify?url=%2Farticle%2F766643&r=2062783",
+      "verdict": "ok",
+      "articles": [
+        "wu-zetian-and-hostile-sources"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1371/journal.pone.0211691",
+      "status": 200,
+      "finalUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0211691",
+      "verdict": "ok",
+      "articles": [
+        "andean-civilizations-in-order"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.15184/aqy.2021.140",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/journals/antiquity/article/teotihuacan-complex-at-the-classic-maya-city-of-tikal-guatemala/1ABD72745DB20D55493B1A47CF267E77",
+      "verdict": "ok",
+      "articles": [
+        "mesoamerica-before-the-aztecs"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1525/9780520951617",
+      "status": 202,
+      "finalUrl": "https://www.degruyterbrill.com/document/doi/10.1525/9780520951617/html",
+      "verdict": "ok",
+      "articles": [
+        "ibn-battuta-and-the-rihla"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.18800/boletindearqueologiapucp.200101.004",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "fail",
+      "articles": [
+        "andean-civilizations-in-order"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2143/as.30.0.565556",
+      "status": 200,
+      "finalUrl": "https://poj.peeters-leuven.be/content.php?url=article&id=565556&journal_code=AS",
+      "verdict": "ok",
+      "articles": [
+        "cleopatra-beyond-the-legend"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.21697/ct.2024.94.1.03",
+      "status": 200,
+      "finalUrl": "https://czasopisma.uksw.edu.pl/index.php/ct/article/view/12545",
+      "verdict": "ok",
+      "articles": [
+        "how-to-count-centuries-correctly"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.4324/9780203017432",
+      "status": 503,
+      "finalUrl": "https://www.taylorfrancis.com/books/9780203017432",
+      "verdict": "fail",
+      "articles": [
+        "scholars-of-the-islamic-golden-age"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.5309/willmaryquar.69.3.0615",
+      "status": 200,
+      "finalUrl": "http://www.jstor.org/stable/10.5309/willmaryquar.69.3.0615",
+      "verdict": "ok",
+      "articles": [
+        "toussaint-louverture-and-the-haitian-generals"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.5309/willmaryquar.70.1.0041",
+      "status": 200,
+      "finalUrl": "http://www.jstor.org/stable/10.5309/willmaryquar.70.1.0041",
+      "verdict": "ok",
+      "articles": [
+        "toussaint-louverture-and-the-haitian-generals"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.7445/50-0-74",
+      "status": 200,
+      "finalUrl": "https://akroterion.journals.ac.za/pub/article/view/74",
+      "verdict": "ok",
+      "articles": [
+        "cleopatra-beyond-the-legend"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.7551/mitpress/3981.001.0001",
+      "status": 403,
+      "finalUrl": "https://direct.mit.edu/books/book/2074/Islamic-Science-and-the-Making-of-the-European",
+      "verdict": "blocked",
+      "articles": [
+        "scholars-of-the-islamic-golden-age"
+      ]
+    },
+    {
+      "url": "https://eclipse.gsfc.nasa.gov/SEhelp/calendars.html",
+      "status": 200,
+      "finalUrl": "https://eclipse.gsfc.nasa.gov/SEhelp/calendars.html",
+      "verdict": "ok",
+      "articles": [
+        "hijri-calendar-and-historical-dating",
+        "how-to-count-centuries-correctly",
+        "regnal-years-and-dynastic-dating"
+      ]
+    },
+    {
+      "url": "https://egyankosh.ac.in/handle/123456789/109350",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "fail",
+      "articles": [
+        "indian-history-periodisation-debate"
+      ]
+    },
+    {
+      "url": "https://en.chateauversailles.fr/discover/history/key-dates",
+      "status": 200,
+      "finalUrl": "https://en.chateauversailles.fr/discover/history/key-dates",
+      "verdict": "ok",
+      "articles": [
+        "french-revolution-causes-and-phases"
+      ]
+    },
+    {
+      "url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/weapons/helmets/",
+      "status": 200,
+      "finalUrl": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/weapons/helmets/",
+      "verdict": "ok",
+      "articles": [
+        "common-history-myths-corrected"
       ]
     },
     {
@@ -2100,10 +2770,56 @@
       ]
     },
     {
-      "url": "https://eric.ed.gov/?id=EJ207063",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/antisemitism",
       "status": 200,
-      "finalUrl": "https://eric.ed.gov/?id=EJ207063",
+      "finalUrl": "https://encyclopedia.ushmm.org/content/en/article/antisemitism",
       "verdict": "ok",
+      "articles": [
+        "black-death-explained"
+      ]
+    },
+    {
+      "url": "https://encyclopedia.ushmm.org/content/en/article/antisemitism-in-history-from-the-early-church-to-1400",
+      "status": 200,
+      "finalUrl": "https://encyclopedia.ushmm.org/content/en/article/antisemitism-in-history-from-the-early-church-to-1400",
+      "verdict": "ok",
+      "articles": [
+        "black-death-explained"
+      ]
+    },
+    {
+      "url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution",
+      "status": 200,
+      "finalUrl": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution",
+      "verdict": "ok",
+      "articles": [
+        "second-world-war-death-toll-range"
+      ]
+    },
+    {
+      "url": "https://encyclopedia.ushmm.org/content/en/article/the-armenian-genocide-1915-16-overview",
+      "status": 200,
+      "finalUrl": "https://encyclopedia.ushmm.org/content/en/article/the-armenian-genocide-1915-16-overview",
+      "verdict": "ok",
+      "articles": [
+        "armenian-genocide-explained",
+        "ottoman-empire-rise-and-decline"
+      ]
+    },
+    {
+      "url": "https://enslaved.org/",
+      "status": 200,
+      "finalUrl": "https://enslaved.org/",
+      "verdict": "ok",
+      "articles": [
+        "queen-nzinga-of-ndongo-and-matamba"
+      ]
+    },
+    {
+      "url": "https://eric.ed.gov/?id=EJ207063",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "fail",
       "articles": [
         "subtraction-without-borrowing"
       ]
@@ -2197,8 +2913,36 @@
       "finalUrl": "https://forallx.openlogicproject.org/",
       "verdict": "ok",
       "articles": [
+        "conditional-reasoning-if-then",
         "deductive-reasoning-examples",
         "syllogisms-explained"
+      ]
+    },
+    {
+      "url": "https://geniza.princeton.edu/en/",
+      "status": 200,
+      "finalUrl": "https://geniza.princeton.edu/en/",
+      "verdict": "ok",
+      "articles": [
+        "indian-ocean-trade-before-europeans"
+      ]
+    },
+    {
+      "url": "https://genocidescholars.org/resolutions/",
+      "status": 200,
+      "finalUrl": "https://genocidescholars.org/publications/resolutions/",
+      "verdict": "ok",
+      "articles": [
+        "armenian-genocide-explained"
+      ]
+    },
+    {
+      "url": "https://giza.fas.harvard.edu/",
+      "status": 200,
+      "finalUrl": "https://giza.fas.harvard.edu/",
+      "verdict": "ok",
+      "articles": [
+        "who-built-the-great-monuments"
       ]
     },
     {
@@ -2280,6 +3024,54 @@
       ]
     },
     {
+      "url": "https://guides.library.cornell.edu/history",
+      "status": 200,
+      "finalUrl": "https://guides.library.cornell.edu/history",
+      "verdict": "ok",
+      "articles": [
+        "how-to-build-a-country-history-timeline",
+        "how-to-spot-bias-in-history-writing"
+      ]
+    },
+    {
+      "url": "https://guides.loc.gov/",
+      "status": 200,
+      "finalUrl": "https://guides.loc.gov/",
+      "verdict": "ok",
+      "articles": [
+        "reading-a-history-dataset-critically"
+      ]
+    },
+    {
+      "url": "https://hdl.handle.net/10125/17145",
+      "status": 200,
+      "finalUrl": "https://scholarspace.manoa.hawaii.edu/handle/10125/17145",
+      "verdict": "ok",
+      "articles": [
+        "mainland-southeast-asian-kingdoms"
+      ]
+    },
+    {
+      "url": "https://hdl.handle.net/10125/19176",
+      "status": 200,
+      "finalUrl": "https://scholarspace.manoa.hawaii.edu/handle/10125/19176",
+      "verdict": "ok",
+      "articles": [
+        "chola-empire-maritime-power",
+        "srivijaya-and-majapahit"
+      ]
+    },
+    {
+      "url": "https://hej.net.au/article/hej1-109/",
+      "status": 403,
+      "finalUrl": "https://hej.net.au/article/hej1-109/",
+      "verdict": "blocked",
+      "articles": [
+        "cause-and-effect-in-history",
+        "using-what-if-scenarios-to-learn-history"
+      ]
+    },
+    {
       "url": "https://help.tcgplayer.com/hc/en-us/articles/221430307-Card-Conditioning-Overview",
       "status": 403,
       "finalUrl": "https://help.tcgplayer.com/hc/en-us/articles/221430307-Card-Conditioning-Overview",
@@ -2289,12 +3081,51 @@
       ]
     },
     {
+      "url": "https://heritage.bnf.fr/france-ameriques/en/haitis-independence-debt-slave-unit-account-1794-1922",
+      "status": 200,
+      "finalUrl": "https://heritage.bnf.fr/france-ameriques/en/haitis-independence-debt-slave-unit-account-1794-1922",
+      "verdict": "ok",
+      "articles": [
+        "haitian-revolution-explained"
+      ]
+    },
+    {
       "url": "https://hhs.purdue.edu/skill-learning-and-performance-lab/wp-content/uploads/sites/43/2024/08/macnamara-et-al-2014-deliberate-practice-and-performance-in-music-games-sports-education-and-professions-a-meta-analysis.pdf",
       "status": 200,
       "finalUrl": "https://hhs.purdue.edu/skill-learning-and-performance-lab/wp-content/uploads/sites/43/2024/08/macnamara-et-al-2014-deliberate-practice-and-performance-in-music-games-sports-education-and-professions-a-meta-analysis.pdf",
       "verdict": "ok",
       "articles": [
         "deliberate-practice-in-brain-games"
+      ]
+    },
+    {
+      "url": "https://historicalthinking.ca/historical-significance",
+      "status": 200,
+      "finalUrl": "https://historicalthinking.ca/historical-significance",
+      "verdict": "ok",
+      "articles": [
+        "periodisation-in-history-explained",
+        "what-makes-an-event-a-turning-point"
+      ]
+    },
+    {
+      "url": "https://historicalthinking.ca/historical-thinking-concepts",
+      "status": 200,
+      "finalUrl": "https://historicalthinking.ca/historical-thinking-concepts",
+      "verdict": "ok",
+      "articles": [
+        "cause-and-effect-in-history",
+        "how-to-analyse-a-primary-source",
+        "using-what-if-scenarios-to-learn-history"
+      ]
+    },
+    {
+      "url": "https://history.state.gov/countries/ghana",
+      "status": 200,
+      "finalUrl": "https://history.state.gov/countries/ghana",
+      "verdict": "ok",
+      "articles": [
+        "twentieth-century-liberation-leaders"
       ]
     },
     {
@@ -2308,6 +3139,52 @@
       ]
     },
     {
+      "url": "https://history.state.gov/milestones/1784-1800/haitian-rev",
+      "status": 200,
+      "finalUrl": "https://history.state.gov/milestones/1784-1800/haitian-rev",
+      "verdict": "ok",
+      "articles": [
+        "toussaint-louverture-and-the-haitian-generals"
+      ]
+    },
+    {
+      "url": "https://history.state.gov/milestones/1945-1952/asia-and-africa",
+      "status": 200,
+      "finalUrl": "https://history.state.gov/milestones/1945-1952/asia-and-africa",
+      "verdict": "ok",
+      "articles": [
+        "twentieth-century-liberation-leaders"
+      ]
+    },
+    {
+      "url": "https://history.state.gov/milestones/1953-1960/bandung-conf",
+      "status": 200,
+      "finalUrl": "https://history.state.gov/milestones/1953-1960/bandung-conf",
+      "verdict": "ok",
+      "articles": [
+        "twentieth-century-liberation-leaders"
+      ]
+    },
+    {
+      "url": "https://hmml.org/collections/",
+      "status": 200,
+      "finalUrl": "https://hmml.org/collections/",
+      "verdict": "ok",
+      "articles": [
+        "how-african-history-is-dated",
+        "mansa-musa-and-the-hajj-of-1324"
+      ]
+    },
+    {
+      "url": "https://hokulea.com/about/",
+      "status": 200,
+      "finalUrl": "https://hokulea.com/about/",
+      "verdict": "ok",
+      "articles": [
+        "polynesian-voyaging-and-pacific-settlement"
+      ]
+    },
+    {
       "url": "https://humanorigins.si.edu/education/introduction-human-evolution",
       "status": 200,
       "finalUrl": "https://humanorigins.si.edu/education/introduction-human-evolution",
@@ -2317,11 +3194,22 @@
       ]
     },
     {
+      "url": "https://humanorigins.si.edu/evidence/behavior/getting-food",
+      "status": 200,
+      "finalUrl": "https://humanorigins.si.edu/evidence/behavior/getting-food",
+      "verdict": "ok",
+      "articles": [
+        "neolithic-agricultural-revolution"
+      ]
+    },
+    {
       "url": "https://humanorigins.si.edu/evidence/behavior/stone-tools",
       "status": 200,
       "finalUrl": "https://humanorigins.si.edu/evidence/behavior/stone-tools",
       "verdict": "ok",
       "articles": [
+        "deep-time-on-a-history-timeline",
+        "history-of-inventions-timeline",
         "major-eras-of-world-history"
       ]
     },
@@ -2335,12 +3223,22 @@
       ]
     },
     {
+      "url": "https://humanorigins.si.edu/evidence/human-fossils/species/sahelanthropus-tchadensis",
+      "status": 200,
+      "finalUrl": "https://humanorigins.si.edu/evidence/human-fossils/species/sahelanthropus-tchadensis",
+      "verdict": "ok",
+      "articles": [
+        "deep-time-on-a-history-timeline"
+      ]
+    },
+    {
       "url": "https://ies.ed.gov/ncee/wwc/Docs/PracticeGuide/20072004.pdf",
       "status": 200,
       "finalUrl": "https://ies.ed.gov/ncee/wwc/Docs/PracticeGuide/20072004.pdf",
       "verdict": "ok",
       "articles": [
         "how-to-improve-concentration",
+        "judging-your-own-recall",
         "paired-associate-learning"
       ]
     },
@@ -2350,10 +3248,12 @@
       "finalUrl": "https://ies.ed.gov/ncee/wwc/PracticeGuide/1",
       "verdict": "ok",
       "articles": [
+        "a-daily-history-study-routine",
         "deliberate-practice-in-brain-games",
         "how-long-a-brain-training-session-should-be",
         "how-to-track-practice-progress",
         "interleaving-versus-blocked-practice",
+        "spaced-repetition-for-history-dates",
         "why-practice-progress-plateaus"
       ]
     },
@@ -2366,6 +3266,15 @@
         "accuracy-before-speed",
         "how-long-a-brain-training-session-should-be",
         "how-to-track-practice-progress"
+      ]
+    },
+    {
+      "url": "https://ies.ed.gov/ncee/wwc/PracticeGuide/22",
+      "status": 200,
+      "finalUrl": "https://ies.ed.gov/ncee/wwc/PracticeGuide/22",
+      "verdict": "ok",
+      "articles": [
+        "how-to-write-a-history-essay"
       ]
     },
     {
@@ -2410,12 +3319,66 @@
       ]
     },
     {
+      "url": "https://indianpueblo.org/pueblo-revolt/",
+      "status": 200,
+      "finalUrl": "https://indianpueblo.org/pueblo-revolt/",
+      "verdict": "ok",
+      "articles": [
+        "indigenous-resistance-wars-compared"
+      ]
+    },
+    {
       "url": "https://info.lse.ac.uk/current-students/careers/information-and-resources/interview-assessment-centre-psychometric/verbal-reasoning-tests",
       "status": 200,
       "finalUrl": "https://info.lse.ac.uk/current-students/careers/information-and-resources/interview-assessment-centre-psychometric/verbal-reasoning-tests",
       "verdict": "ok",
       "articles": [
         "verbal-reasoning-question-types"
+      ]
+    },
+    {
+      "url": "https://isac.uchicago.edu/",
+      "status": 200,
+      "finalUrl": "https://isac.uchicago.edu/",
+      "verdict": "ok",
+      "articles": [
+        "women-who-ruled-empires"
+      ]
+    },
+    {
+      "url": "https://isac.uchicago.edu/nubian-gallery",
+      "status": 200,
+      "finalUrl": "https://isac.uchicago.edu/nubian-gallery",
+      "verdict": "ok",
+      "articles": [
+        "kush-and-the-nubian-pharaohs"
+      ]
+    },
+    {
+      "url": "https://isac.uchicago.edu/publications/persepolis-fortification-tablets",
+      "status": 200,
+      "finalUrl": "https://isac.uchicago.edu/publications/persepolis-fortification-tablets",
+      "verdict": "ok",
+      "articles": [
+        "achaemenid-persia-administration"
+      ]
+    },
+    {
+      "url": "https://isac.uchicago.edu/research/projects/nippur-expedition",
+      "status": 200,
+      "finalUrl": "https://isac.uchicago.edu/research-projects/nippur-expedition",
+      "verdict": "ok",
+      "articles": [
+        "sumer-and-the-first-cities"
+      ]
+    },
+    {
+      "url": "https://islandluminous.fiu.edu/2.html",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "fail",
+      "articles": [
+        "toussaint-louverture-and-the-haitian-generals"
       ]
     },
     {
@@ -2488,6 +3451,24 @@
       ]
     },
     {
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0111224",
+      "status": 200,
+      "finalUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0111224",
+      "verdict": "ok",
+      "articles": [
+        "how-african-history-is-dated"
+      ]
+    },
+    {
+      "url": "https://knightlab.northwestern.edu/projects/timelinejs/",
+      "status": 200,
+      "finalUrl": "https://knightlab.northwestern.edu/projects/timelinejs/",
+      "verdict": "ok",
+      "articles": [
+        "history-timeline-tools-compared"
+      ]
+    },
+    {
       "url": "https://laws.worldrugby.org/",
       "status": 200,
       "finalUrl": "https://passport.world.rugby/laws-of-the-game/",
@@ -2507,12 +3488,30 @@
       ]
     },
     {
+      "url": "https://learningcenter.unc.edu/tips-and-tools/studying-101-study-smarter-not-harder/",
+      "status": 200,
+      "finalUrl": "https://learningcenter.unc.edu/tips-and-tools/studying-101-study-smarter-not-harder/",
+      "verdict": "ok",
+      "articles": [
+        "a-daily-history-study-routine"
+      ]
+    },
+    {
       "url": "https://library.fangraphs.com/",
       "status": 200,
       "finalUrl": "https://library.fangraphs.com/",
       "verdict": "ok",
       "articles": [
         "baseball-stats-explained-for-beginners"
+      ]
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-319-62078-7_3",
+      "status": 200,
+      "finalUrl": "https://link.springer.com/chapter/10.1007/978-3-319-62078-7_3",
+      "verdict": "ok",
+      "articles": [
+        "why-historical-eras-overlap"
       ]
     },
     {
@@ -2539,6 +3538,15 @@
       ]
     },
     {
+      "url": "https://loveman.sdsu.edu/docs/1885GeneralActBerlinConference.pdf",
+      "status": 200,
+      "finalUrl": "https://loveman.sdsu.edu/docs/1885GeneralActBerlinConference.pdf",
+      "verdict": "ok",
+      "articles": [
+        "scramble-for-africa-explained"
+      ]
+    },
+    {
       "url": "https://lshk.org/jyutping/",
       "status": 200,
       "finalUrl": "https://lshk.org/jyutping-faq/",
@@ -2555,6 +3563,42 @@
       "verdict": "ok",
       "articles": [
         "how-historians-date-events"
+      ]
+    },
+    {
+      "url": "https://ltrr.arizona.edu/about/history",
+      "status": 200,
+      "finalUrl": "https://ltrr.arizona.edu/about/history",
+      "verdict": "ok",
+      "articles": [
+        "dating-north-america-before-columbus"
+      ]
+    },
+    {
+      "url": "https://markk-hamburg.de/en/digital-benin-2/",
+      "status": 200,
+      "finalUrl": "https://markk-hamburg.de/en/digital-benin-2/",
+      "verdict": "ok",
+      "articles": [
+        "west-and-central-african-kingdoms"
+      ]
+    },
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+      "status": 200,
+      "finalUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+      "verdict": "ok",
+      "articles": [
+        "scholars-of-the-islamic-golden-age"
+      ]
+    },
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Avicenna/",
+      "status": 200,
+      "finalUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Avicenna/",
+      "verdict": "ok",
+      "articles": [
+        "scholars-of-the-islamic-golden-age"
       ]
     },
     {
@@ -2911,6 +3955,15 @@
       ]
     },
     {
+      "url": "https://nmmz.co.zw/world-heritage-sites/",
+      "status": 200,
+      "finalUrl": "https://www.nmmz.co.zw/world-heritage-sites/",
+      "verdict": "ok",
+      "articles": [
+        "great-zimbabwe-and-mutapa"
+      ]
+    },
+    {
       "url": "https://nrich.maths.org/11014",
       "status": 200,
       "finalUrl": "https://nrich.maths.org/problems/subtraction-surprise",
@@ -3027,6 +4080,15 @@
       ]
     },
     {
+      "url": "https://nrich.maths.org/curriculum/transformations-age-11-16",
+      "status": 200,
+      "finalUrl": "https://nrich.maths.org/curriculum/transformations-age-11-16",
+      "verdict": "ok",
+      "articles": [
+        "visual-pattern-puzzles"
+      ]
+    },
+    {
       "url": "https://nrich.maths.org/parents",
       "status": 200,
       "finalUrl": "https://nrich.maths.org/parents",
@@ -3124,15 +4186,6 @@
       "verdict": "ok",
       "articles": [
         "missing-number-problems"
-      ]
-    },
-    {
-      "url": "https://nrich.maths.org/transformations",
-      "status": 200,
-      "finalUrl": "https://nrich.maths.org/curriculum/transformations-age-11-16",
-      "verdict": "ok",
-      "articles": [
-        "visual-pattern-puzzles"
       ]
     },
     {
@@ -3330,6 +4383,15 @@
       ]
     },
     {
+      "url": "https://orias.berkeley.edu/resources-teachers/travels-ibn-battuta",
+      "status": 200,
+      "finalUrl": "https://orias.berkeley.edu/resources-teachers/travels-ibn-battuta",
+      "verdict": "ok",
+      "articles": [
+        "ibn-battuta-and-the-rihla"
+      ]
+    },
+    {
       "url": "https://pacman.holenet.info/",
       "status": 200,
       "finalUrl": "https://pacman.holenet.info/",
@@ -3337,6 +4399,15 @@
       "articles": [
         "ai-opponents-vs-real-players-in-io-games",
         "boss-weak-points-and-module-targeting"
+      ]
+    },
+    {
+      "url": "https://parksaustralia.gov.au/kakadu/discover/culture/",
+      "status": 200,
+      "finalUrl": "https://kakadu.gov.au/discover/culture/",
+      "verdict": "ok",
+      "articles": [
+        "how-long-people-have-lived-in-australia"
       ]
     },
     {
@@ -3377,12 +4448,48 @@
       ]
     },
     {
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/51*.html",
+      "status": 200,
+      "finalUrl": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/51*.html",
+      "verdict": "ok",
+      "articles": [
+        "cleopatra-beyond-the-legend"
+      ]
+    },
+    {
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Antony*.html",
+      "status": 200,
+      "finalUrl": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Antony*.html",
+      "verdict": "ok",
+      "articles": [
+        "cleopatra-beyond-the-legend"
+      ]
+    },
+    {
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Procopius/Buildings/1A*.html",
+      "status": 200,
+      "finalUrl": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Procopius/Buildings/1A*.html",
+      "verdict": "ok",
+      "articles": [
+        "who-built-the-great-monuments"
+      ]
+    },
+    {
       "url": "https://pgcb.pa.gov/files/technical_standards/Technical_Standards_Section_461b1.pdf",
       "status": 200,
       "finalUrl": "https://pgcb.pa.gov/files/technical_standards/Technical_Standards_Section_461b1.pdf",
       "verdict": "ok",
       "articles": [
         "slot-volatility-explained"
+      ]
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/conditionals/",
+      "status": 200,
+      "finalUrl": "https://plato.stanford.edu/entries/conditionals/",
+      "verdict": "ok",
+      "articles": [
+        "conditional-reasoning-if-then"
       ]
     },
     {
@@ -3450,12 +4557,30 @@
       ]
     },
     {
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10693350/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10060156/",
       "status": 200,
-      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10693350/",
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10060156/",
       "verdict": "ok",
       "articles": [
-        "matrix-reasoning-puzzles"
+        "swahili-coast-city-states"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10400708/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10400708/",
+      "verdict": "ok",
+      "articles": [
+        "great-zimbabwe-and-mutapa"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10400939/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10400939/",
+      "verdict": "ok",
+      "articles": [
+        "why-civilizations-collapse"
       ]
     },
     {
@@ -3474,6 +4599,25 @@
       "verdict": "ok",
       "articles": [
         "working-backwards-problems"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11111401/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11111401/",
+      "verdict": "ok",
+      "articles": [
+        "neolithic-agricultural-revolution",
+        "why-civilizations-collapse"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11192071/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11192071/",
+      "verdict": "ok",
+      "articles": [
+        "rapa-nui-and-the-collapse-myth"
       ]
     },
     {
@@ -3517,6 +4661,52 @@
       ]
     },
     {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11804499/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11804499/",
+      "verdict": "ok",
+      "articles": [
+        "great-zimbabwe-and-mutapa",
+        "swahili-coast-city-states"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11831114/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11831114/",
+      "verdict": "ok",
+      "articles": [
+        "columbian-exchange-explained"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11893810/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11893810/",
+      "verdict": "ok",
+      "articles": [
+        "neolithic-agricultural-revolution"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12079131/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12079131/",
+      "verdict": "ok",
+      "articles": [
+        "neolithic-agricultural-revolution"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12189222/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12189222/",
+      "verdict": "ok",
+      "articles": [
+        "spaced-repetition-for-history-dates"
+      ]
+    },
+    {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12292765/",
       "status": 200,
       "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12292765/",
@@ -3546,10 +4736,19 @@
     {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12470963",
       "status": 200,
-      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12470963",
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12470963/",
       "verdict": "ok",
       "articles": [
         "are-online-iq-tests-accurate"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12550076/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12550076/",
+      "verdict": "ok",
+      "articles": [
+        "polynesian-voyaging-and-pacific-settlement"
       ]
     },
     {
@@ -3626,7 +4825,8 @@
       "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2447156/",
       "verdict": "ok",
       "articles": [
-        "change-detection-tasks"
+        "change-detection-tasks",
+        "interference-and-forgetting"
       ]
     },
     {
@@ -3660,11 +4860,30 @@
         "grid-and-position-memory",
         "growing-sequence-memory-games",
         "how-to-memorize-numbers",
+        "interference-and-forgetting",
         "n-back-tasks-explained",
         "paired-associate-learning",
         "remembering-a-long-number",
         "short-term-versus-working-memory",
         "working-memory-and-training"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2872380/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2872380/",
+      "verdict": "ok",
+      "articles": [
+        "khmer-empire-at-angkor"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3033267/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3033267/",
+      "verdict": "ok",
+      "articles": [
+        "polynesian-voyaging-and-pacific-settlement"
       ]
     },
     {
@@ -3683,7 +4902,8 @@
       "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3289109/",
       "verdict": "ok",
       "articles": [
-        "change-detection-tasks"
+        "change-detection-tasks",
+        "interference-and-forgetting"
       ]
     },
     {
@@ -3715,6 +4935,24 @@
       ]
     },
     {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3683102/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3683102/",
+      "verdict": "ok",
+      "articles": [
+        "interference-and-forgetting"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3732978/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3732978/",
+      "verdict": "ok",
+      "articles": [
+        "khmer-empire-at-angkor"
+      ]
+    },
+    {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3748610/",
       "status": 200,
       "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3748610/",
@@ -3739,6 +4977,15 @@
       "verdict": "ok",
       "articles": [
         "drafting-a-goal-kicker-in-rugby"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3922767/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3922767/",
+      "verdict": "ok",
+      "articles": [
+        "khmer-rouge-and-cambodian-genocide"
       ]
     },
     {
@@ -3769,6 +5016,15 @@
         "delayed-recall-explained",
         "remembering-a-long-number",
         "short-term-versus-working-memory"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3983480/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3983480/",
+      "verdict": "ok",
+      "articles": [
+        "spaced-repetition-for-history-dates"
       ]
     },
     {
@@ -3811,6 +5067,15 @@
       ]
     },
     {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4388638/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4388638/",
+      "verdict": "ok",
+      "articles": [
+        "conditional-reasoning-if-then"
+      ]
+    },
+    {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4519226/",
       "status": 200,
       "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4519226/",
@@ -3826,6 +5091,16 @@
       "verdict": "ok",
       "articles": [
         "what-processing-speed-means"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4629331/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4629331/",
+      "verdict": "ok",
+      "articles": [
+        "bantu-migrations-explained",
+        "how-african-history-is-dated"
       ]
     },
     {
@@ -3963,6 +5238,15 @@
       ]
     },
     {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6281431/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6281431/",
+      "verdict": "ok",
+      "articles": [
+        "dating-north-america-before-columbus"
+      ]
+    },
+    {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6367038/",
       "status": 200,
       "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6367038/",
@@ -3992,12 +5276,41 @@
       ]
     },
     {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6421400/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6421400/",
+      "verdict": "ok",
+      "articles": [
+        "dating-southeast-asian-history",
+        "khmer-empire-at-angkor",
+        "what-makes-an-event-a-turning-point"
+      ]
+    },
+    {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6480749/",
       "status": 200,
       "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6480749/",
       "verdict": "ok",
       "articles": [
         "can-practice-raise-an-iq-score"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6491774/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6491774/",
+      "verdict": "ok",
+      "articles": [
+        "matrix-reasoning-puzzles"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6589680/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6589680/",
+      "verdict": "ok",
+      "articles": [
+        "khmer-empire-at-angkor"
       ]
     },
     {
@@ -4030,6 +5343,15 @@
       ]
     },
     {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6800651/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6800651/",
+      "verdict": "ok",
+      "articles": [
+        "indus-valley-civilization-explained"
+      ]
+    },
+    {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6815069/",
       "status": 200,
       "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6815069/",
@@ -4037,6 +5359,15 @@
       "articles": [
         "college-recruiting-in-basketball-career-mode",
         "player-body-metrics-in-career-sims"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6822619/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6822619/",
+      "verdict": "ok",
+      "articles": [
+        "indus-valley-civilization-explained"
       ]
     },
     {
@@ -4068,6 +5399,15 @@
       ]
     },
     {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7810102/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7810102/",
+      "verdict": "ok",
+      "articles": [
+        "common-history-myths-corrected"
+      ]
+    },
+    {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7955968/",
       "status": 200,
       "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7955968/",
@@ -4075,6 +5415,15 @@
       "articles": [
         "how-to-memorize-numbers",
         "mnemonic-systems-for-numbers"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8285907/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8285907/",
+      "verdict": "ok",
+      "articles": [
+        "columbian-exchange-explained"
       ]
     },
     {
@@ -4115,6 +5464,15 @@
       ]
     },
     {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8763985/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8763985/",
+      "verdict": "ok",
+      "articles": [
+        "spaced-repetition-for-history-dates"
+      ]
+    },
+    {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8811497/",
       "status": 200,
       "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8811497/",
@@ -4122,6 +5480,24 @@
       "articles": [
         "helping-a-child-with-math-facts",
         "math-anxiety-in-adults"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9217749/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9217749/",
+      "verdict": "ok",
+      "articles": [
+        "black-death-explained"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9296624/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9296624/",
+      "verdict": "ok",
+      "articles": [
+        "why-civilizations-collapse"
       ]
     },
     {
@@ -4153,6 +5529,15 @@
       ]
     },
     {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9821873/",
+      "status": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9821873/",
+      "verdict": "ok",
+      "articles": [
+        "mesoamerica-before-the-aztecs"
+      ]
+    },
+    {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9865475/",
       "status": 200,
       "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9865475/",
@@ -4178,6 +5563,16 @@
       "verdict": "ok",
       "articles": [
         "aging-curves-in-career-sims"
+      ]
+    },
+    {
+      "url": "https://programminghistorian.org/en/lessons/",
+      "status": 200,
+      "finalUrl": "https://programminghistorian.org/en/lessons/",
+      "verdict": "ok",
+      "articles": [
+        "history-timeline-tools-compared",
+        "reading-a-history-dataset-critically"
       ]
     },
     {
@@ -4239,7 +5634,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/16719566/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/16719566/",
       "verdict": "ok",
       "articles": [
@@ -4255,7 +5650,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/18276894/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/18276894/",
       "verdict": "ok",
       "articles": [
@@ -4264,7 +5659,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/18841077/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/18841077/",
       "verdict": "ok",
       "articles": [
@@ -4273,7 +5668,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/20938353/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/20938353/",
       "verdict": "ok",
       "articles": [
@@ -4282,7 +5677,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/22612437/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/22612437/",
       "verdict": "ok",
       "articles": [
@@ -4292,7 +5687,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/23867520/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/23867520/",
       "verdict": "ok",
       "articles": [
@@ -4301,7 +5696,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/25102926/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/25102926/",
       "verdict": "ok",
       "articles": [
@@ -4310,7 +5705,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/26173288/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/26173288/",
       "verdict": "ok",
       "articles": [
@@ -4331,7 +5726,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/27474138/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/27474138/",
       "verdict": "ok",
       "articles": [
@@ -4340,7 +5735,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/27697851/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/27697851/",
       "verdict": "ok",
       "articles": [
@@ -4349,7 +5744,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/27840639/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/27840639/",
       "verdict": "ok",
       "articles": [
@@ -4358,7 +5753,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/28698222/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/28698222/",
       "verdict": "ok",
       "articles": [
@@ -4367,7 +5762,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/28993807/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/28993807/",
       "verdict": "ok",
       "articles": [
@@ -4376,7 +5771,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/29497353/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/29497353/",
       "verdict": "ok",
       "articles": [
@@ -4386,7 +5781,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/29996725/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/29996725/",
       "verdict": "ok",
       "articles": [
@@ -4395,7 +5790,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/31805451/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/31805451/",
       "verdict": "ok",
       "articles": [
@@ -4405,7 +5800,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/32719809/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/32719809/",
       "verdict": "ok",
       "articles": [
@@ -4414,7 +5809,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/38977928/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/38977928/",
       "verdict": "ok",
       "articles": [
@@ -4423,7 +5818,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/39748989/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/39748989/",
       "verdict": "ok",
       "articles": [
@@ -4432,7 +5827,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/40340808/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/40340808/",
       "verdict": "ok",
       "articles": [
@@ -4441,7 +5836,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/41262388/",
-      "status": 203,
+      "status": 200,
       "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/41262388/",
       "verdict": "ok",
       "articles": [
@@ -4467,6 +5862,15 @@
       ]
     },
     {
+      "url": "https://revolution.chnm.org/",
+      "status": 200,
+      "finalUrl": "https://revolution.chnm.org/",
+      "verdict": "ok",
+      "articles": [
+        "french-revolution-causes-and-phases"
+      ]
+    },
+    {
       "url": "https://roguebasin.com/index.php/Berlin_Interpretation",
       "status": 200,
       "finalUrl": "https://roguebasin.com/index.php/Berlin_Interpretation",
@@ -4480,12 +5884,59 @@
       ]
     },
     {
+      "url": "https://royalhistsoc.org/",
+      "status": 200,
+      "finalUrl": "https://royalhistsoc.org/",
+      "verdict": "ok",
+      "articles": [
+        "reading-a-history-dataset-critically",
+        "why-is-history-important-to-study"
+      ]
+    },
+    {
+      "url": "https://royalhistsoc.org/racereport/",
+      "status": 200,
+      "finalUrl": "https://royalhistsoc.org/racereport/",
+      "verdict": "ok",
+      "articles": [
+        "contested-legacies-in-history",
+        "how-to-spot-bias-in-history-writing"
+      ]
+    },
+    {
       "url": "https://sabr.org/",
       "status": 200,
       "finalUrl": "https://sabr.org/",
       "verdict": "ok",
       "articles": [
         "baseball-stats-explained-for-beginners"
+      ]
+    },
+    {
+      "url": "https://sahistory.org.za/article/empty-land-myth",
+      "status": 200,
+      "finalUrl": "https://sahistory.org.za/article/empty-land-myth",
+      "verdict": "ok",
+      "articles": [
+        "bantu-migrations-explained"
+      ]
+    },
+    {
+      "url": "https://salem.lib.virginia.edu/overview.html",
+      "status": 200,
+      "finalUrl": "https://salem.lib.virginia.edu/overview.html",
+      "verdict": "ok",
+      "articles": [
+        "common-history-myths-corrected"
+      ]
+    },
+    {
+      "url": "https://searchuserinterfaces.com/book/",
+      "status": 200,
+      "finalUrl": "https://searchuserinterfaces.com/book/",
+      "verdict": "ok",
+      "articles": [
+        "browsing-history-by-region-and-era"
       ]
     },
     {
@@ -4502,6 +5953,15 @@
         "injuries-in-sports-career-games",
         "rebuild-vs-retool",
         "understanding-sports-sim-probability"
+      ]
+    },
+    {
+      "url": "https://skyscrapercenter.com/criteria",
+      "status": 200,
+      "finalUrl": "https://www.skyscrapercenter.com/criteria",
+      "verdict": "ok",
+      "articles": [
+        "how-to-check-a-historical-superlative"
       ]
     },
     {
@@ -4529,6 +5989,51 @@
       "verdict": "browser-only",
       "articles": [
         "picture-in-picture-on-android"
+      ]
+    },
+    {
+      "url": "https://sourcebooks.fordham.edu/eastasia/eastasiasbook.asp",
+      "status": 200,
+      "finalUrl": "https://sourcebooks.fordham.edu/eastasia/eastasiasbook.asp",
+      "verdict": "ok",
+      "articles": [
+        "chinas-deadliest-rebellions"
+      ]
+    },
+    {
+      "url": "https://sourcebooks.fordham.edu/mod/1839lin2.asp",
+      "status": 200,
+      "finalUrl": "https://sourcebooks.fordham.edu/mod/1839lin2.asp",
+      "verdict": "ok",
+      "articles": [
+        "opium-wars-and-unequal-treaties"
+      ]
+    },
+    {
+      "url": "https://sourcebooks.fordham.edu/mod/modsbook38.asp",
+      "status": 200,
+      "finalUrl": "https://sourcebooks.fordham.edu/mod/modsbook38.asp",
+      "verdict": "ok",
+      "articles": [
+        "what-started-the-first-world-war"
+      ]
+    },
+    {
+      "url": "https://sourcebooks.fordham.edu/sbook.asp",
+      "status": 200,
+      "finalUrl": "https://sourcebooks.fordham.edu/sbook.asp",
+      "verdict": "ok",
+      "articles": [
+        "did-people-think-the-earth-was-flat"
+      ]
+    },
+    {
+      "url": "https://soviethistory.msu.edu/",
+      "status": 200,
+      "finalUrl": "https://soviethistory.msu.edu/",
+      "verdict": "ok",
+      "articles": [
+        "russian-revolutions-of-1917"
       ]
     },
     {
@@ -4648,6 +6153,24 @@
       ]
     },
     {
+      "url": "https://teaching.cornell.edu/teaching-resources/active-collaborative-learning/metacognitive-strategies",
+      "status": 200,
+      "finalUrl": "https://teaching.cornell.edu/teaching-resources/active-collaborative-learning/metacognitive-strategies",
+      "verdict": "ok",
+      "articles": [
+        "a-daily-history-study-routine"
+      ]
+    },
+    {
+      "url": "https://thehaitianrevolution.com/",
+      "status": 200,
+      "finalUrl": "https://thehaitianrevolution.com/",
+      "verdict": "ok",
+      "articles": [
+        "haitian-revolution-explained"
+      ]
+    },
+    {
       "url": "https://themindcompany.com/apps/elevate",
       "status": 200,
       "finalUrl": "https://themindcompany.com/apps/elevate",
@@ -4658,12 +6181,48 @@
       ]
     },
     {
+      "url": "https://today.duke.edu/showcase/haitideclaration/newsarchive.html",
+      "status": 200,
+      "finalUrl": "https://today.duke.edu/showcase/haitideclaration/newsarchive.html",
+      "verdict": "ok",
+      "articles": [
+        "haitian-revolution-explained"
+      ]
+    },
+    {
+      "url": "https://ulurustatement.org/the-statement/view-the-statement/",
+      "status": 200,
+      "finalUrl": "https://ulurustatement.org/the-statement/view-the-statement/",
+      "verdict": "ok",
+      "articles": [
+        "how-long-people-have-lived-in-australia"
+      ]
+    },
+    {
       "url": "https://users.cs.northwestern.edu/~paritosh/papers/KIP/power-law-repealed.pdf",
       "status": 200,
       "finalUrl": "https://users.cs.northwestern.edu/~paritosh/papers/KIP/power-law-repealed.pdf",
       "verdict": "ok",
       "articles": [
         "why-practice-progress-plateaus"
+      ]
+    },
+    {
+      "url": "https://visualizingcultures.mit.edu/opium_wars_01/ow1_essay01.html",
+      "status": 200,
+      "finalUrl": "https://visualizingcultures.mit.edu/opium_wars_01/ow1_essay01.html",
+      "verdict": "ok",
+      "articles": [
+        "opium-wars-and-unequal-treaties"
+      ]
+    },
+    {
+      "url": "https://visualizingcultures.mit.edu/throwing_off_asia_01/toa_essay01.html",
+      "status": 200,
+      "finalUrl": "https://visualizingcultures.mit.edu/throwing_off_asia_01/toa_essay01.html",
+      "verdict": "ok",
+      "articles": [
+        "meiji-restoration-explained"
       ]
     },
     {
@@ -4690,6 +6249,7 @@
       "finalUrl": "https://web.mit.edu/jbelcher/www/learner/retrieval.pdf",
       "verdict": "ok",
       "articles": [
+        "judging-your-own-recall",
         "paired-associate-learning"
       ]
     },
@@ -4702,6 +6262,943 @@
         "how-historians-date-events",
         "major-eras-of-world-history",
         "world-history-timeline-guide"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1003",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1003",
+      "verdict": "browser-only",
+      "articles": [
+        "chinese-dynasties-in-chronological-order"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1003/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1003/",
+      "verdict": "browser-only",
+      "articles": [
+        "tang-and-song-china-explained",
+        "wu-zetian-and-hostile-sources"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1055",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1055",
+      "verdict": "browser-only",
+      "articles": [
+        "swahili-coast-city-states"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1073",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1073",
+      "verdict": "browser-only",
+      "articles": [
+        "kush-and-the-nubian-pharaohs"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1114",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1114",
+      "verdict": "browser-only",
+      "articles": [
+        "chinese-dynasties-in-chronological-order",
+        "regnal-years-and-dynastic-dating"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1135/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1135/",
+      "verdict": "browser-only",
+      "articles": [
+        "korean-dynasties-explained"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1139",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1139",
+      "verdict": "browser-only",
+      "articles": [
+        "ghana-mali-songhai-empires"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/114",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/114",
+      "verdict": "browser-only",
+      "articles": [
+        "achaemenid-persia-administration"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/116",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/116",
+      "verdict": "browser-only",
+      "articles": [
+        "ghana-mali-songhai-empires"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/119",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/119",
+      "verdict": "browser-only",
+      "articles": [
+        "ghana-mali-songhai-empires"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/119/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/119/",
+      "verdict": "browser-only",
+      "articles": [
+        "how-african-history-is-dated",
+        "ibn-battuta-and-the-rihla"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/12",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/12",
+      "verdict": "browser-only",
+      "articles": [
+        "kingdom-of-aksum-explained"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1222",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1222",
+      "verdict": "browser-only",
+      "articles": [
+        "achaemenid-persia-administration"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1223/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1223/",
+      "verdict": "browser-only",
+      "articles": [
+        "zheng-he-treasure-voyages"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1246/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1246/",
+      "verdict": "browser-only",
+      "articles": [
+        "japan-from-yamato-to-meiji"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1269/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1269/",
+      "verdict": "browser-only",
+      "articles": [
+        "andean-civilizations-in-order",
+        "history-of-inventions-timeline",
+        "sumer-and-the-first-cities"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1278/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1278/",
+      "verdict": "browser-only",
+      "articles": [
+        "korean-dynasties-explained"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/129",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/129",
+      "verdict": "browser-only",
+      "articles": [
+        "maya-long-count-calendar-explained"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1306",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1306",
+      "verdict": "browser-only",
+      "articles": [
+        "how-long-people-have-lived-in-australia"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1336",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1336",
+      "verdict": "browser-only",
+      "articles": [
+        "kush-and-the-nubian-pharaohs"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1366",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1366",
+      "verdict": "browser-only",
+      "articles": [
+        "who-built-the-great-monuments"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/138/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/138/",
+      "verdict": "browser-only",
+      "articles": [
+        "indian-history-periodisation-debate",
+        "indus-valley-civilization-explained",
+        "sumer-and-the-first-cities"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1389",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1389",
+      "verdict": "browser-only",
+      "articles": [
+        "chinese-dynasties-in-chronological-order"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/140",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/140",
+      "verdict": "browser-only",
+      "articles": [
+        "what-was-happening-elsewhere-when-rome-ruled"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1405/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1405/",
+      "verdict": "browser-only",
+      "articles": [
+        "periodisation-in-history-explained",
+        "sumer-and-the-first-cities"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/144",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/144",
+      "verdict": "browser-only",
+      "articles": [
+        "swahili-coast-city-states"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/144/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/144/",
+      "verdict": "browser-only",
+      "articles": [
+        "ibn-battuta-and-the-rihla"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1442",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1442",
+      "verdict": "browser-only",
+      "articles": [
+        "chinese-dynasties-in-chronological-order",
+        "what-was-happening-elsewhere-when-rome-ruled"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1443",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1443",
+      "verdict": "browser-only",
+      "articles": [
+        "chinese-dynasties-in-chronological-order"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1443/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1443/",
+      "verdict": "browser-only",
+      "articles": [
+        "tang-and-song-china-explained"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1452",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1452",
+      "verdict": "browser-only",
+      "articles": [
+        "ottoman-empire-rise-and-decline"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/147",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/147",
+      "verdict": "browser-only",
+      "articles": [
+        "how-long-people-have-lived-in-australia"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1477/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1477/",
+      "verdict": "browser-only",
+      "articles": [
+        "korean-dynasties-explained"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1481/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1481/",
+      "verdict": "browser-only",
+      "articles": [
+        "sumer-and-the-first-cities"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/15",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/15",
+      "verdict": "browser-only",
+      "articles": [
+        "kingdom-of-aksum-explained",
+        "what-late-antiquity-means",
+        "what-was-happening-elsewhere-when-rome-ruled",
+        "why-historical-eras-overlap"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/15/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/15/",
+      "verdict": "browser-only",
+      "articles": [
+        "how-african-history-is-dated"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1502/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1502/",
+      "verdict": "browser-only",
+      "articles": [
+        "maurya-and-gupta-empires-compared"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1511",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1511",
+      "verdict": "browser-only",
+      "articles": [
+        "west-and-central-african-kingdoms"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1568",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1568",
+      "verdict": "browser-only",
+      "articles": [
+        "what-late-antiquity-means",
+        "why-historical-eras-overlap"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1577",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1577",
+      "verdict": "browser-only",
+      "articles": [
+        "how-long-people-have-lived-in-australia"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1588/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1588/",
+      "verdict": "browser-only",
+      "articles": [
+        "dating-southeast-asian-history",
+        "mainland-southeast-asian-kingdoms"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1592",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/1592",
+      "verdict": "browser-only",
+      "articles": [
+        "chinese-dynasties-in-chronological-order"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/173",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/173",
+      "verdict": "browser-only",
+      "articles": [
+        "swahili-coast-city-states"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/18",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/18",
+      "verdict": "browser-only",
+      "articles": [
+        "kingdom-of-aksum-explained"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/198/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/198/",
+      "verdict": "browser-only",
+      "articles": [
+        "dating-north-america-before-columbus"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/20",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/20",
+      "verdict": "browser-only",
+      "articles": [
+        "the-early-caliphates"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/231/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/231/",
+      "verdict": "browser-only",
+      "articles": [
+        "how-the-mughal-empire-expanded"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/242/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/242/",
+      "verdict": "browser-only",
+      "articles": [
+        "maurya-and-gupta-empires-compared"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/249/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/249/",
+      "verdict": "browser-only",
+      "articles": [
+        "chola-empire-maritime-power"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/250/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/250/",
+      "verdict": "browser-only",
+      "articles": [
+        "chola-empire-maritime-power"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/252",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/252",
+      "verdict": "browser-only",
+      "articles": [
+        "who-built-the-great-monuments"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/252/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/252/",
+      "verdict": "browser-only",
+      "articles": [
+        "how-the-mughal-empire-expanded"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/255/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/255/",
+      "verdict": "browser-only",
+      "articles": [
+        "how-the-mughal-empire-expanded"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/276",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/276",
+      "verdict": "browser-only",
+      "articles": [
+        "the-early-caliphates"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/327",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/327",
+      "verdict": "browser-only",
+      "articles": [
+        "what-late-antiquity-means"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/330/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/330/",
+      "verdict": "browser-only",
+      "articles": [
+        "andean-civilizations-in-order"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/35",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/35",
+      "verdict": "browser-only",
+      "articles": [
+        "west-and-central-african-kingdoms"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/356",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/356",
+      "verdict": "browser-only",
+      "articles": [
+        "byzantium-a-thousand-years",
+        "ottoman-empire-rise-and-decline",
+        "what-late-antiquity-means"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/356/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/356/",
+      "verdict": "browser-only",
+      "articles": [
+        "what-makes-an-event-a-turning-point"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/364",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/364",
+      "verdict": "browser-only",
+      "articles": [
+        "great-zimbabwe-and-mutapa"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/364/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/364/",
+      "verdict": "browser-only",
+      "articles": [
+        "how-african-history-is-dated"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/365",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/365",
+      "verdict": "browser-only",
+      "articles": [
+        "great-zimbabwe-and-mutapa"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/366/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/366/",
+      "verdict": "browser-only",
+      "articles": [
+        "andean-civilizations-in-order"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/411/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/411/",
+      "verdict": "browser-only",
+      "articles": [
+        "mesoamerica-before-the-aztecs"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/414",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/414",
+      "verdict": "browser-only",
+      "articles": [
+        "what-was-happening-elsewhere-when-rome-ruled"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/414/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/414/",
+      "verdict": "browser-only",
+      "articles": [
+        "mesoamerica-before-the-aztecs"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/415/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/415/",
+      "verdict": "browser-only",
+      "articles": [
+        "mesoamerica-before-the-aztecs"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/439",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/439",
+      "verdict": "browser-only",
+      "articles": [
+        "chinese-dynasties-in-chronological-order"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/440/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/440/",
+      "verdict": "browser-only",
+      "articles": [
+        "tang-and-song-china-explained"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/441",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/441",
+      "verdict": "browser-only",
+      "articles": [
+        "chinese-dynasties-in-chronological-order"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/479/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/479/",
+      "verdict": "browser-only",
+      "articles": [
+        "mainland-southeast-asian-kingdoms"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/481/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/481/",
+      "verdict": "browser-only",
+      "articles": [
+        "mainland-southeast-asian-kingdoms"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/499",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/499",
+      "verdict": "browser-only",
+      "articles": [
+        "the-early-caliphates"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/511",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/511",
+      "verdict": "browser-only",
+      "articles": [
+        "byzantium-a-thousand-years"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/524/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/524/",
+      "verdict": "browser-only",
+      "articles": [
+        "ashoka-and-the-rock-edicts",
+        "maurya-and-gupta-empires-compared"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/567/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/567/",
+      "verdict": "browser-only",
+      "articles": [
+        "andean-civilizations-in-order"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/574/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/574/",
+      "verdict": "browser-only",
+      "articles": [
+        "mainland-southeast-asian-kingdoms"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/576/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/576/",
+      "verdict": "browser-only",
+      "articles": [
+        "mainland-southeast-asian-kingdoms"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/592/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/592/",
+      "verdict": "browser-only",
+      "articles": [
+        "dating-southeast-asian-history",
+        "srivijaya-and-majapahit"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/64",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/64",
+      "verdict": "browser-only",
+      "articles": [
+        "maya-long-count-calendar-explained"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/642/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/642/",
+      "verdict": "browser-only",
+      "articles": [
+        "srivijaya-and-majapahit"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/661/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/661/",
+      "verdict": "browser-only",
+      "articles": [
+        "japan-from-yamato-to-meiji"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/666/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/666/",
+      "verdict": "browser-only",
+      "articles": [
+        "ashoka-and-the-rock-edicts"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/668",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/668",
+      "verdict": "browser-only",
+      "articles": [
+        "who-built-the-great-monuments"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/668/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/668/",
+      "verdict": "browser-only",
+      "articles": [
+        "dating-southeast-asian-history",
+        "khmer-empire-at-angkor"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/678/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/678/",
+      "verdict": "browser-only",
+      "articles": [
+        "mainland-southeast-asian-kingdoms"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/688/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/688/",
+      "verdict": "browser-only",
+      "articles": [
+        "japan-from-yamato-to-meiji"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/700",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/700",
+      "verdict": "browser-only",
+      "articles": [
+        "what-was-happening-elsewhere-when-rome-ruled"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/700/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/700/",
+      "verdict": "browser-only",
+      "articles": [
+        "andean-civilizations-in-order"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/715/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/715/",
+      "verdict": "browser-only",
+      "articles": [
+        "rapa-nui-and-the-collapse-myth"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/737/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/737/",
+      "verdict": "browser-only",
+      "articles": [
+        "korean-dynasties-explained"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/750",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/750",
+      "verdict": "browser-only",
+      "articles": [
+        "ghana-mali-songhai-empires"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/788",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/788",
+      "verdict": "browser-only",
+      "articles": [
+        "byzantium-a-thousand-years"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/791/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/791/",
+      "verdict": "browser-only",
+      "articles": [
+        "mesoamerica-before-the-aztecs"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/870/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/870/",
+      "verdict": "browser-only",
+      "articles": [
+        "japan-from-yamato-to-meiji"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/88",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/88",
+      "verdict": "browser-only",
+      "articles": [
+        "kush-and-the-nubian-pharaohs"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/89",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/89",
+      "verdict": "browser-only",
+      "articles": [
+        "the-early-caliphates"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/949/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/list/949/",
+      "verdict": "browser-only",
+      "articles": [
+        "mainland-southeast-asian-kingdoms"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/tentativelists/489/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/tentativelists/489/",
+      "verdict": "browser-only",
+      "articles": [
+        "west-and-central-african-kingdoms"
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/tentativelists/5171/",
+      "status": 403,
+      "finalUrl": "https://whc.unesco.org/en/tentativelists/5171/",
+      "verdict": "browser-only",
+      "articles": [
+        "west-and-central-african-kingdoms"
+      ]
+    },
+    {
+      "url": "https://writingcenter.unc.edu/tips-and-tools/history/",
+      "status": 200,
+      "finalUrl": "https://writingcenter.unc.edu/tips-and-tools/history/",
+      "verdict": "ok",
+      "articles": [
+        "how-to-write-a-history-essay"
+      ]
+    },
+    {
+      "url": "https://www.1947partitionarchive.org/about",
+      "status": 200,
+      "finalUrl": "https://www.1947partitionarchive.org/about/",
+      "verdict": "ok",
+      "articles": [
+        "partition-of-india-1947"
       ]
     },
     {
@@ -4751,6 +7248,16 @@
       ]
     },
     {
+      "url": "https://www.acm.nhb.gov.sg/",
+      "status": 200,
+      "finalUrl": "https://www.acm.nhb.gov.sg/",
+      "verdict": "ok",
+      "articles": [
+        "indian-ocean-trade-before-europeans",
+        "printing-press-impact-explained"
+      ]
+    },
+    {
       "url": "https://www.acsu.buffalo.edu/~duchan/new_history/hist19c/subpages/yerkes.html",
       "status": 200,
       "finalUrl": "https://www.acsu.buffalo.edu/~duchan/new_history/hist19c/subpages/yerkes.html",
@@ -4782,6 +7289,15 @@
       ]
     },
     {
+      "url": "https://www.aeaweb.org/articles?id=10.1257/jep.24.2.163",
+      "status": 200,
+      "finalUrl": "https://www.aeaweb.org/articles?id=10.1257/jep.24.2.163",
+      "verdict": "ok",
+      "articles": [
+        "columbian-exchange-explained"
+      ]
+    },
+    {
       "url": "https://www.aera.net/Publications/Books/Standards-for-Educational-and-Psychological-Testing-2014-Edition",
       "status": 200,
       "finalUrl": "https://www.aera.net/Publications/Books/Standards-for-Educational-and-Psychological-Testing-2014-Edition",
@@ -4790,6 +7306,34 @@
         "iq-and-emotional-intelligence",
         "nonverbal-reasoning-tests-explained",
         "reliability-and-validity-in-testing"
+      ]
+    },
+    {
+      "url": "https://www.aeraweb.org/projects/lost-city/",
+      "status": 200,
+      "finalUrl": "https://aeraweb.org/projects/lost-city/",
+      "verdict": "ok",
+      "articles": [
+        "common-history-myths-corrected",
+        "who-built-the-great-monuments"
+      ]
+    },
+    {
+      "url": "https://www.africamuseum.be/en",
+      "status": 200,
+      "finalUrl": "https://www.africamuseum.be/en",
+      "verdict": "ok",
+      "articles": [
+        "contested-legacies-in-history"
+      ]
+    },
+    {
+      "url": "https://www.africamuseum.be/en/discover/provenance",
+      "status": 200,
+      "finalUrl": "https://www.africamuseum.be/en/discover/provenance",
+      "verdict": "ok",
+      "articles": [
+        "scramble-for-africa-explained"
       ]
     },
     {
@@ -4806,6 +7350,15 @@
       ]
     },
     {
+      "url": "https://www.annalsofgeophysics.eu/index.php/annals/article/view/4100",
+      "status": 200,
+      "finalUrl": "https://www.annalsofgeophysics.eu/index.php/annals/article/view/4100",
+      "verdict": "ok",
+      "articles": [
+        "kingdom-of-aksum-explained"
+      ]
+    },
+    {
       "url": "https://www.appraisalfoundation.org/imis/TAF/Standards/Appraisal_Standards/Uniform_Standards_of_Professional_Appraisal_Practice/TAF/USPAP.aspx",
       "status": 200,
       "finalUrl": "https://appraisalfoundation.org/products/uspap",
@@ -4815,11 +7368,41 @@
       ]
     },
     {
+      "url": "https://www.arce.org/",
+      "status": 200,
+      "finalUrl": "https://arce.org/",
+      "verdict": "ok",
+      "articles": [
+        "women-who-ruled-empires"
+      ]
+    },
+    {
+      "url": "https://www.archives-nationales.culture.gouv.fr/",
+      "status": 200,
+      "finalUrl": "https://www.archives-nationales.culture.gouv.fr/",
+      "verdict": "ok",
+      "articles": [
+        "french-revolution-causes-and-phases"
+      ]
+    },
+    {
+      "url": "https://www.archives.gov/education",
+      "status": 200,
+      "finalUrl": "https://www.archives.gov/education",
+      "verdict": "ok",
+      "articles": [
+        "how-to-check-a-historical-superlative",
+        "when-two-sources-disagree-on-a-date"
+      ]
+    },
+    {
       "url": "https://www.archives.gov/education/lessons/worksheets",
       "status": 200,
       "finalUrl": "https://www.archives.gov/education/lessons/worksheets",
       "verdict": "ok",
       "articles": [
+        "how-to-analyse-a-primary-source",
+        "how-we-know-what-historical-figures-did",
         "primary-vs-secondary-sources"
       ]
     },
@@ -4853,6 +7436,51 @@
       ]
     },
     {
+      "url": "https://www.archives.gov/research/military/ww1",
+      "status": 200,
+      "finalUrl": "https://www.archives.gov/topics/wwi",
+      "verdict": "ok",
+      "articles": [
+        "what-started-the-first-world-war"
+      ]
+    },
+    {
+      "url": "https://www.asa3.org/ASA/topics/history/1997Russell.html",
+      "status": 200,
+      "finalUrl": "https://www.asa3.org/ASA/topics/history/1997Russell.html",
+      "verdict": "ok",
+      "articles": [
+        "did-people-think-the-earth-was-flat"
+      ]
+    },
+    {
+      "url": "https://www.ashmolean.org/sumerian-king-list",
+      "status": 200,
+      "finalUrl": "https://www.ashmolean.org/sumerian-king-list",
+      "verdict": "ok",
+      "articles": [
+        "regnal-years-and-dynastic-dating"
+      ]
+    },
+    {
+      "url": "https://www.awm.gov.au/articles/atwar/first-world-war",
+      "status": 200,
+      "finalUrl": "https://www.awm.gov.au/articles/atwar/first-world-war",
+      "verdict": "ok",
+      "articles": [
+        "what-started-the-first-world-war"
+      ]
+    },
+    {
+      "url": "https://www.bishopmuseum.org/",
+      "status": 200,
+      "finalUrl": "https://www.bishopmuseum.org/",
+      "verdict": "ok",
+      "articles": [
+        "polynesian-voyaging-and-pacific-settlement"
+      ]
+    },
+    {
       "url": "https://www.bls.gov/cex/",
       "status": 200,
       "finalUrl": "https://www.bls.gov/cex/",
@@ -4868,6 +7496,15 @@
       "verdict": "ok",
       "articles": [
         "percentiles-and-standard-scores"
+      ]
+    },
+    {
+      "url": "https://www.bnf.fr/en/jikji-treasure-world-printing",
+      "status": 200,
+      "finalUrl": "https://www.bnf.fr/en/jikji-treasure-world-printing",
+      "verdict": "ok",
+      "articles": [
+        "printing-press-impact-explained"
       ]
     },
     {
@@ -4889,6 +7526,15 @@
       ]
     },
     {
+      "url": "https://www.brainhq.com/why-brainhq/about-the-brainhq-exercises",
+      "status": 200,
+      "finalUrl": "https://www.brainhq.com/why-brainhq/about-the-brainhq-exercises",
+      "verdict": "ok",
+      "articles": [
+        "brain-training-apps-compared"
+      ]
+    },
+    {
       "url": "https://www.brainhq.com/why-brainhq/brainhq-faq/",
       "status": 200,
       "finalUrl": "https://www.brainhq.com/why-brainhq/brainhq-faq/",
@@ -4904,6 +7550,35 @@
       "verdict": "browser-only",
       "articles": [
         "world-history-timeline-guide"
+      ]
+    },
+    {
+      "url": "https://www.bundesarchiv.de/EN/Navigation/Home/home.html",
+      "status": 200,
+      "finalUrl": "https://www.bundesarchiv.de/en/federal-archives/",
+      "verdict": "ok",
+      "articles": [
+        "second-world-war-death-toll-range",
+        "what-started-the-first-world-war"
+      ]
+    },
+    {
+      "url": "https://www.bundesregierung.de/breg-en/news/commemoration-herero-and-nama-2350762",
+      "status": 200,
+      "finalUrl": "https://www.bundesregierung.de/breg-en/news/commemoration-herero-and-nama-2350762",
+      "verdict": "ok",
+      "articles": [
+        "scramble-for-africa-explained"
+      ]
+    },
+    {
+      "url": "https://www.byzantinemuseum.gr/en/exhibitions/48/permanent-exhibition/the-byzantine-world/31/the-fall-of-constantinople",
+      "status": 200,
+      "finalUrl": "https://www.byzantinemuseum.gr/en/exhibitions/48/permanent-exhibition/the-byzantine-world/31/the-fall-of-constantinople",
+      "verdict": "ok",
+      "articles": [
+        "byzantium-a-thousand-years",
+        "ottoman-empire-rise-and-decline"
       ]
     },
     {
@@ -4931,6 +7606,126 @@
       "verdict": "ok",
       "articles": [
         "who-invented-the-iq-test"
+      ]
+    },
+    {
+      "url": "https://www.cambridge.org/core/journals/journal-of-chinese-history",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/journals/journal-of-chinese-history",
+      "verdict": "ok",
+      "articles": [
+        "chinas-deadliest-rebellions",
+        "mongol-conquests-explained"
+      ]
+    },
+    {
+      "url": "https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society",
+      "verdict": "ok",
+      "articles": [
+        "mongol-conquests-explained"
+      ]
+    },
+    {
+      "url": "https://www.cambridge.org/core/journals/modern-asian-studies",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/journals/modern-asian-studies",
+      "verdict": "ok",
+      "articles": [
+        "indian-history-periodisation-debate"
+      ]
+    },
+    {
+      "url": "https://www.cambridge.org/core/product/identifier/9780511802898/type/BOOK",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/books/britains-declining-empire/5080E8124C317B0FC2AB043341D7DDBC",
+      "verdict": "ok",
+      "articles": [
+        "how-decolonisation-happened"
+      ]
+    },
+    {
+      "url": "https://www.cambridge.org/core/product/identifier/S0021853700007982/type/journal_article",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/journals/journal-of-african-history/article/organization-of-the-maji-maji-rebellion/7DD8298B261E754471EAD710BAEAFBF5",
+      "verdict": "ok",
+      "articles": [
+        "indigenous-resistance-wars-compared",
+        "scramble-for-africa-explained"
+      ]
+    },
+    {
+      "url": "https://www.cambridge.org/core/product/identifier/S002185370700254X/type/journal_article",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/journals/journal-of-african-history/article/abs/pots-words-and-the-bantu-problem-on-lexical-reconstruction-and-early-african-history/4470F9870DB31F786ABF3904A5FAE989",
+      "verdict": "ok",
+      "articles": [
+        "bantu-migrations-explained"
+      ]
+    },
+    {
+      "url": "https://www.cambridge.org/core/product/identifier/S0021853714000371/type/journal_article",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/journals/journal-of-african-history/article/diaspora-of-africans-liberated-from-slave-ships-in-the-nineteenth-century/2F7433BAC85D2CD6FF5ECD6F94D8BDBA",
+      "verdict": "ok",
+      "articles": [
+        "atlantic-slave-trade-and-abolition"
+      ]
+    },
+    {
+      "url": "https://www.cambridge.org/core/product/identifier/S0021853722000780/type/journal_article",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/journals/journal-of-african-history/article/moving-histories-bantu-language-expansions-eclectic-economies-and-mobilities/F9F92F9C6A16A9633E75508E836C9C46",
+      "verdict": "ok",
+      "articles": [
+        "bantu-migrations-explained"
+      ]
+    },
+    {
+      "url": "https://www.cambridge.org/core/product/identifier/S0023879100007135/type/journal_article",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/journals/latin-american-research-review/article/legacy-of-civil-war-dynamics-state-building-in-mexico-18101910/6C0070DACDE3F78865006B6402BE76D4",
+      "verdict": "ok",
+      "articles": [
+        "latin-american-independence-wars"
+      ]
+    },
+    {
+      "url": "https://www.cambridge.org/core/product/identifier/S0023879100031551/type/journal_article",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/journals/latin-american-research-review/article/recent-research-on-andean-peasant-revolts-17501820/C3BC4FD49F9108B2CABAF803795D0586",
+      "verdict": "ok",
+      "articles": [
+        "latin-american-independence-wars"
+      ]
+    },
+    {
+      "url": "https://www.cambridge.org/core/product/identifier/S0023879100037766/type/journal_article",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/journals/latin-american-research-review/article/enigma-of-latin-american-independence-analyses-of-the-last-ten-years/644621E77FFEC9F761BDF8D5DEB70BE8",
+      "verdict": "ok",
+      "articles": [
+        "latin-american-independence-wars"
+      ]
+    },
+    {
+      "url": "https://www.cambridge.org/core/product/identifier/S0212610916000069/type/journal_article",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/journals/revista-de-historia-economica-journal-of-iberian-and-latin-american-economic-history/article/abs/representation-without-taxation-taxation-without-consent-the-legacy-of-spanish-colonialism-in-america/522319AE970BA398DA68D8556F15A6A9",
+      "verdict": "ok",
+      "articles": [
+        "latin-american-independence-wars"
+      ]
+    },
+    {
+      "url": "https://www.cambridge.org/core/product/identifier/S0738248015000267/type/journal_article",
+      "status": 200,
+      "finalUrl": "https://www.cambridge.org/core/journals/law-and-history-review/article/abs/legacies-of-british-colonial-violence-viewing-kenyan-detention-camps-through-the-hanslope-disclosure/8B1F91BFF8D1F967A9220DA5F9D47551",
+      "verdict": "ok",
+      "articles": [
+        "how-decolonisation-happened",
+        "indigenous-resistance-wars-compared"
       ]
     },
     {
@@ -4965,6 +7760,15 @@
       ]
     },
     {
+      "url": "https://www.catalhoyuk.com/",
+      "status": 200,
+      "finalUrl": "https://www.catalhoyuk.com/",
+      "verdict": "ok",
+      "articles": [
+        "neolithic-agricultural-revolution"
+      ]
+    },
+    {
       "url": "https://www.ccli.gov.hk/en/hkscs/what_is_hkscs.html",
       "status": 200,
       "finalUrl": "https://www.ccli.gov.hk/en/hkscs/what_is_hkscs.html",
@@ -4985,30 +7789,21 @@
       ]
     },
     {
+      "url": "https://www.cdc.gov/plague/about/index.html",
+      "status": 200,
+      "finalUrl": "https://www.cdc.gov/plague/about/index.html",
+      "verdict": "ok",
+      "articles": [
+        "black-death-explained"
+      ]
+    },
+    {
       "url": "https://www.cdtfa.ca.gov/taxes-and-fees/sales-use-tax-rates.htm",
       "status": 200,
       "finalUrl": "https://cdtfa.ca.gov/taxes-and-fees/sales-use-tax-rates.htm",
       "verdict": "ok",
       "articles": [
         "estimating-sales-tax"
-      ]
-    },
-    {
-      "url": "https://www.cemc.uwaterloo.ca/resources/courseware/courseware.html",
-      "status": 200,
-      "finalUrl": "https://cemc.uwaterloo.ca/resources/courseware",
-      "verdict": "ok",
-      "articles": [
-        "missing-number-problems"
-      ]
-    },
-    {
-      "url": "https://www.cemc.uwaterloo.ca/resources/potw.php",
-      "status": 200,
-      "finalUrl": "https://cemc.uwaterloo.ca/resources/potw",
-      "verdict": "ok",
-      "articles": [
-        "working-backwards-problems"
       ]
     },
     {
@@ -5038,6 +7833,15 @@
       "articles": [
         "card-grading-costs-and-tiers",
         "is-my-card-worth-grading"
+      ]
+    },
+    {
+      "url": "https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html",
+      "status": 200,
+      "finalUrl": "https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html",
+      "verdict": "ok",
+      "articles": [
+        "how-to-write-a-history-essay"
       ]
     },
     {
@@ -5115,6 +7919,15 @@
       ]
     },
     {
+      "url": "https://www.deutsches-museum.de/en",
+      "status": 200,
+      "finalUrl": "https://www.deutsches-museum.de/en",
+      "verdict": "ok",
+      "articles": [
+        "why-the-industrial-revolution-started-in-britain"
+      ]
+    },
+    {
       "url": "https://www.dietaryguidelines.gov/",
       "status": 200,
       "finalUrl": "https://www.dietaryguidelines.gov/",
@@ -5139,12 +7952,61 @@
       ]
     },
     {
+      "url": "https://www.doaks.org/research/byzantine",
+      "status": 200,
+      "finalUrl": "https://www.doaks.org/research/byzantine",
+      "verdict": "ok",
+      "articles": [
+        "byzantium-a-thousand-years",
+        "periodisation-in-history-explained",
+        "what-late-antiquity-means",
+        "what-makes-an-event-a-turning-point",
+        "why-historical-eras-overlap"
+      ]
+    },
+    {
+      "url": "https://www.doaks.org/research/pre-columbian",
+      "status": 200,
+      "finalUrl": "https://www.doaks.org/research/pre-columbian",
+      "verdict": "ok",
+      "articles": [
+        "what-was-happening-elsewhere-when-rome-ruled"
+      ]
+    },
+    {
       "url": "https://www.duolingo.com/courses",
       "status": 200,
       "finalUrl": "https://www.duolingo.com/courses",
       "verdict": "ok",
       "articles": [
         "should-i-learn-malay-or-indonesian"
+      ]
+    },
+    {
+      "url": "https://www.eccc.gov.kh/en",
+      "status": 200,
+      "finalUrl": "https://www.eccc.gov.kh/en",
+      "verdict": "ok",
+      "articles": [
+        "khmer-rouge-and-cambodian-genocide"
+      ]
+    },
+    {
+      "url": "https://www.eccc.gov.kh/en/cases/charged-profile/khieu-samphan",
+      "status": 200,
+      "finalUrl": "https://www.eccc.gov.kh/en/cases/charged-profile/khieu-samphan",
+      "verdict": "ok",
+      "articles": [
+        "khmer-rouge-and-cambodian-genocide"
+      ]
+    },
+    {
+      "url": "https://www.eccc.gov.kh/en/cases/charged-profile/nuon-chea",
+      "status": 200,
+      "finalUrl": "https://www.eccc.gov.kh/en/cases/charged-profile/nuon-chea",
+      "verdict": "ok",
+      "articles": [
+        "khmer-rouge-and-cambodian-genocide"
       ]
     },
     {
@@ -5185,6 +8047,15 @@
       "articles": [
         "protein-sources-compared",
         "reading-nutrition-labels"
+      ]
+    },
+    {
+      "url": "https://www.english-heritage.org.uk/visit/places/iron-bridge/history/",
+      "status": 200,
+      "finalUrl": "https://www.english-heritage.org.uk/visit/places/iron-bridge/history/",
+      "verdict": "ok",
+      "articles": [
+        "why-the-industrial-revolution-started-in-britain"
       ]
     },
     {
@@ -5271,7 +8142,7 @@
     {
       "url": "https://www.fda.gov/food/food-labeling-nutrition/changes-nutrition-facts-label",
       "status": 200,
-      "finalUrl": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/changes-nutrition-facts-label",
+      "finalUrl": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/changes-nutrition-facts-label?538fcd4b_page=2&utm_campaign=cta-card&utm_content=header&utm_term=learn-more",
       "verdict": "ok",
       "articles": [
         "reading-nutrition-labels"
@@ -5385,6 +8256,15 @@
         "basketball-advanced-stats-explained",
         "basketball-positions-explained",
         "how-to-build-a-balanced-basketball-roster"
+      ]
+    },
+    {
+      "url": "https://www.frontiersin.org/articles/10.3389/fevo.2016.00029/full",
+      "status": 200,
+      "finalUrl": "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2016.00029/full",
+      "verdict": "ok",
+      "articles": [
+        "rapa-nui-and-the-collapse-myth"
       ]
     },
     {
@@ -5603,6 +8483,24 @@
       ]
     },
     {
+      "url": "https://www.gandhiheritageportal.org/cwmg_volume_thumbview/MQ==",
+      "status": 200,
+      "finalUrl": "https://www.gandhiheritageportal.org/cwmg_volume_thumbview/MQ==",
+      "verdict": "ok",
+      "articles": [
+        "twentieth-century-liberation-leaders"
+      ]
+    },
+    {
+      "url": "https://www.genocide-museum.am/eng/",
+      "status": 200,
+      "finalUrl": "https://www.genocide-museum.am/eng/",
+      "verdict": "ok",
+      "articles": [
+        "armenian-genocide-explained"
+      ]
+    },
+    {
       "url": "https://www.globalratings.com/",
       "status": 200,
       "finalUrl": "https://www.globalratings.com/",
@@ -5673,12 +8571,175 @@
       ]
     },
     {
+      "url": "https://www.guinnessworldrecords.com/records/what-makes-a-guinness-world-records-record-title/index.html",
+      "status": 200,
+      "finalUrl": "https://www.guinnessworldrecords.com/records/what-makes-a-guinness-world-records-record-title",
+      "verdict": "ok",
+      "articles": [
+        "how-to-check-a-historical-superlative"
+      ]
+    },
+    {
+      "url": "https://www.hamilton.edu/academics/centers/writing/writing-resources/writing-a-good-history-paper",
+      "status": 200,
+      "finalUrl": "https://www.hamilton.edu/academics/centers/writing/writing-resources/writing-a-good-history-paper",
+      "verdict": "ok",
+      "articles": [
+        "how-to-write-a-history-essay"
+      ]
+    },
+    {
+      "url": "https://www.harappa.com/script",
+      "status": 403,
+      "finalUrl": "https://www.harappa.com/script",
+      "verdict": "blocked",
+      "articles": [
+        "indus-valley-civilization-explained"
+      ]
+    },
+    {
+      "url": "https://www.haudenosauneeconfederacy.com/who-we-are/",
+      "status": 200,
+      "finalUrl": "https://www.haudenosauneeconfederacy.com/who-we-are/",
+      "verdict": "ok",
+      "articles": [
+        "dating-north-america-before-columbus"
+      ]
+    },
+    {
+      "url": "https://www.historians.org/community-careers/professional-career-resources/standards-and-guidelines-for-the-discipline/",
+      "status": 403,
+      "finalUrl": "https://www.historians.org/community-careers/professional-career-resources/standards-and-guidelines-for-the-discipline/",
+      "verdict": "blocked",
+      "articles": [
+        "how-to-check-a-historical-superlative",
+        "reading-a-history-dataset-critically"
+      ]
+    },
+    {
+      "url": "https://www.historians.org/news-publications/aha-booklets/careers-for-history-majors/",
+      "status": 403,
+      "finalUrl": "https://www.historians.org/news-publications/aha-booklets/careers-for-history-majors/",
+      "verdict": "blocked",
+      "articles": [
+        "why-is-history-important-to-study"
+      ]
+    },
+    {
+      "url": "https://www.historians.org/perspectives-article/is-history-history-identity-politics-and-teleologies-of-the-present-september-2022/",
+      "status": 403,
+      "finalUrl": "https://www.historians.org/perspectives-article/is-history-history-identity-politics-and-teleologies-of-the-present-september-2022/",
+      "verdict": "blocked",
+      "articles": [
+        "contested-legacies-in-history"
+      ]
+    },
+    {
+      "url": "https://www.historians.org/resource/statement-on-standards-of-professional-conduct/",
+      "status": 403,
+      "finalUrl": "https://www.historians.org/resource/statement-on-standards-of-professional-conduct/",
+      "verdict": "blocked",
+      "articles": [
+        "cause-and-effect-in-history",
+        "contested-legacies-in-history",
+        "how-to-spot-bias-in-history-writing",
+        "how-we-know-what-historical-figures-did",
+        "using-what-if-scenarios-to-learn-history"
+      ]
+    },
+    {
+      "url": "https://www.historians.org/why-history-matters/why-study-history/",
+      "status": 403,
+      "finalUrl": "https://www.historians.org/why-history-matters/why-study-history/",
+      "verdict": "blocked",
+      "articles": [
+        "why-is-history-important-to-study"
+      ]
+    },
+    {
+      "url": "https://www.hoover.org/library-archives",
+      "status": 200,
+      "finalUrl": "https://www.hoover.org/library-archives",
+      "verdict": "ok",
+      "articles": [
+        "russian-revolutions-of-1917"
+      ]
+    },
+    {
+      "url": "https://www.hrc.utexas.edu/gutenberg-bible/",
+      "status": 200,
+      "finalUrl": "https://www.hrc.utexas.edu/gutenberg-bible/",
+      "verdict": "ok",
+      "articles": [
+        "printing-press-impact-explained"
+      ]
+    },
+    {
+      "url": "https://www.hup.harvard.edu/books/9780674725232",
+      "status": 200,
+      "finalUrl": "https://www.hup.harvard.edu/books/9780674725232",
+      "verdict": "ok",
+      "articles": [
+        "indian-history-periodisation-debate"
+      ]
+    },
+    {
       "url": "https://www.ics.uci.edu/~gmark/chi08-mark.pdf",
       "status": 200,
       "finalUrl": "https://ics.uci.edu/~gmark/chi08-mark.pdf",
       "verdict": "ok",
       "articles": [
         "how-to-improve-concentration"
+      ]
+    },
+    {
+      "url": "https://www.inah.gob.mx/",
+      "status": 200,
+      "finalUrl": "https://www.inah.gob.mx/",
+      "verdict": "ok",
+      "articles": [
+        "why-civilizations-collapse"
+      ]
+    },
+    {
+      "url": "https://www.inquirygroup.org/history-lessons/historical-thinking-chart",
+      "status": 200,
+      "finalUrl": "https://www.inquirygroup.org/history-lessons/historical-thinking-chart",
+      "verdict": "ok",
+      "articles": [
+        "a-daily-history-study-routine",
+        "cause-and-effect-in-history",
+        "how-to-analyse-a-primary-source",
+        "how-to-write-a-history-essay",
+        "when-two-sources-disagree-on-a-date",
+        "why-is-history-important-to-study"
+      ]
+    },
+    {
+      "url": "https://www.iranicaonline.org/articles/abbasid-caliphate",
+      "status": 403,
+      "finalUrl": "https://www.iranicaonline.org/articles/abbasid-caliphate",
+      "verdict": "blocked",
+      "articles": [
+        "the-early-caliphates"
+      ]
+    },
+    {
+      "url": "https://www.iranicaonline.org/articles/cyrus-iii",
+      "status": 403,
+      "finalUrl": "https://www.iranicaonline.org/articles/cyrus-iii",
+      "verdict": "blocked",
+      "articles": [
+        "achaemenid-persia-administration"
+      ]
+    },
+    {
+      "url": "https://www.iranicaonline.org/articles/darius-iii",
+      "status": 403,
+      "finalUrl": "https://www.iranicaonline.org/articles/darius-iii",
+      "verdict": "blocked",
+      "articles": [
+        "achaemenid-persia-administration"
       ]
     },
     {
@@ -5789,12 +8850,31 @@
       ]
     },
     {
+      "url": "https://www.jacar.go.jp/english/index.html",
+      "status": 200,
+      "finalUrl": "https://www.jacar.go.jp/english/index.html",
+      "verdict": "ok",
+      "articles": [
+        "second-world-war-death-toll-range"
+      ]
+    },
+    {
       "url": "https://www.khanacademy.org/about",
       "status": 200,
       "finalUrl": "https://www.khanacademy.org/about",
       "verdict": "ok",
       "articles": [
-        "choosing-a-history-app-for-students"
+        "choosing-a-history-app-for-students",
+        "history-apps-compared-for-self-study"
+      ]
+    },
+    {
+      "url": "https://www.korean.go.kr/eng_hangeul/setting/002.html",
+      "status": 200,
+      "finalUrl": "https://www.korean.go.kr/eng_hangeul/setting/002.html",
+      "verdict": "ok",
+      "articles": [
+        "korean-dynasties-explained"
       ]
     },
     {
@@ -5842,6 +8922,15 @@
       "verdict": "ok",
       "articles": [
         "managing-a-fight-stable"
+      ]
+    },
+    {
+      "url": "https://www.legislation.gov.uk/ukpga/1947/30/enacted",
+      "status": 200,
+      "finalUrl": "https://www.legislation.gov.uk/ukpga/Geo6/10-11/30/resources",
+      "verdict": "ok",
+      "articles": [
+        "partition-of-india-1947"
       ]
     },
     {
@@ -5911,6 +9000,24 @@
       ]
     },
     {
+      "url": "https://www.loc.gov/exhibits/archives/",
+      "status": 200,
+      "finalUrl": "https://www.loc.gov/exhibits/archives/",
+      "verdict": "ok",
+      "articles": [
+        "russian-revolutions-of-1917"
+      ]
+    },
+    {
+      "url": "https://www.loc.gov/exhibits/mali/",
+      "status": 200,
+      "finalUrl": "https://www.loc.gov/exhibits/mali/",
+      "verdict": "ok",
+      "articles": [
+        "mansa-musa-and-the-hajj-of-1324"
+      ]
+    },
+    {
       "url": "https://www.lshk.org/jyutping",
       "status": 200,
       "finalUrl": "https://lshk.org/jyutping-faq/",
@@ -5954,9 +9061,9 @@
     },
     {
       "url": "https://www.math.ucla.edu/~tom/Stopping/Contents.html",
-      "status": 200,
-      "finalUrl": "https://www.math.ucla.edu/~tom/Stopping/Contents.html",
-      "verdict": "ok",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "fail",
       "articles": [
         "rotating-draft-pools-explained"
       ]
@@ -6036,6 +9143,16 @@
       ]
     },
     {
+      "url": "https://www.mfa.gov.tr/the-events-of-1915-and-the-turkish-armenian-controversy-over-history_-an-overview.en.mfa",
+      "status": 200,
+      "finalUrl": "https://www.mfa.gov.tr/the-events-of-1915-and-the-turkish-armenian-controversy-over-history_-an-overview.en.mfa",
+      "verdict": "ok",
+      "articles": [
+        "armenian-genocide-explained",
+        "ottoman-empire-rise-and-decline"
+      ]
+    },
+    {
       "url": "https://www.mlb.com/glossary/rules/designated-hitter",
       "status": 200,
       "finalUrl": "https://www.mlb.com/glossary/rules/designated-hitter",
@@ -6098,6 +9215,24 @@
       ]
     },
     {
+      "url": "https://www.museonacional.gov.co/colecciones/historia/Paginas/default.aspx",
+      "status": 200,
+      "finalUrl": "https://www.museonacional.gov.co/colecciones/historia/Paginas/default.aspx",
+      "verdict": "ok",
+      "articles": [
+        "latin-american-independence-wars"
+      ]
+    },
+    {
+      "url": "https://www.museum.go.kr/site/eng/home",
+      "status": 200,
+      "finalUrl": "https://www.museum.go.kr/ENG/main/index.do",
+      "verdict": "ok",
+      "articles": [
+        "women-who-ruled-empires"
+      ]
+    },
+    {
       "url": "https://www.museumofplay.org/games/space-invaders/",
       "status": 200,
       "finalUrl": "https://www.museumofplay.org/games/space-invaders/",
@@ -6153,6 +9288,24 @@
       ]
     },
     {
+      "url": "https://www.nasa.gov/humans-in-space/commercial-space/",
+      "status": 200,
+      "finalUrl": "https://www.nasa.gov/humans-in-space/commercial-space/",
+      "verdict": "ok",
+      "articles": [
+        "history-of-inventions-timeline"
+      ]
+    },
+    {
+      "url": "https://www.nasa.gov/vision/space/workinginspace/great_wall.html",
+      "status": 200,
+      "finalUrl": "https://www.nasa.gov/image-article/great-wall/",
+      "verdict": "ok",
+      "articles": [
+        "common-history-myths-corrected"
+      ]
+    },
+    {
       "url": "https://www.nationalacademies.org/read/24782/chapter/2",
       "status": 200,
       "finalUrl": "https://www.nationalacademies.org/read/24782/chapter/2",
@@ -6173,6 +9326,129 @@
       ]
     },
     {
+      "url": "https://www.nationalarchives.gov.uk/education/",
+      "status": 200,
+      "finalUrl": "https://www.nationalarchives.gov.uk/education/",
+      "verdict": "ok",
+      "articles": [
+        "browsing-history-by-region-and-era",
+        "what-makes-an-event-a-turning-point"
+      ]
+    },
+    {
+      "url": "https://www.nationalarchives.gov.uk/education/resources/bussas-rebellion/",
+      "status": 405,
+      "finalUrl": "https://webarchive.nationalarchives.gov.uk/ukgwa/20260812090324/https://www.nationalarchives.gov.uk/education/resources/bussas-rebellion/",
+      "verdict": "fail",
+      "articles": [
+        "atlantic-slave-trade-and-abolition"
+      ]
+    },
+    {
+      "url": "https://www.nationalarchives.gov.uk/education/resources/hong-kong-and-the-opium-wars/",
+      "status": 200,
+      "finalUrl": "https://www.nationalarchives.gov.uk/education/teaching-resources/hong-kong-and-the-opium-wars/",
+      "verdict": "ok",
+      "articles": [
+        "opium-wars-and-unequal-treaties"
+      ]
+    },
+    {
+      "url": "https://www.nationalarchives.gov.uk/education/resources/indian-independence/",
+      "status": 200,
+      "finalUrl": "https://www.nationalarchives.gov.uk/education/teaching-resources/indian-independence-part-one/",
+      "verdict": "ok",
+      "articles": [
+        "how-decolonisation-happened",
+        "partition-of-india-1947"
+      ]
+    },
+    {
+      "url": "https://www.nationalarchives.gov.uk/education/resources/letters-first-world-war-1915/",
+      "status": 200,
+      "finalUrl": "https://www.nationalarchives.gov.uk/education/teaching-resources/letters-from-the-first-world-war-the-trenches-part-one/",
+      "verdict": "ok",
+      "articles": [
+        "what-started-the-first-world-war"
+      ]
+    },
+    {
+      "url": "https://www.nationalarchives.gov.uk/education/sessions-and-resources/",
+      "status": 200,
+      "finalUrl": "https://www.nationalarchives.gov.uk/education/",
+      "verdict": "ok",
+      "articles": [
+        "cause-and-effect-in-history",
+        "how-to-spot-bias-in-history-writing",
+        "using-what-if-scenarios-to-learn-history"
+      ]
+    },
+    {
+      "url": "https://www.nationalarchives.gov.uk/education/students/",
+      "status": 410,
+      "finalUrl": "https://www.nationalarchives.gov.uk/education/students/",
+      "verdict": "fail",
+      "articles": [
+        "how-to-analyse-a-primary-source"
+      ]
+    },
+    {
+      "url": "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/",
+      "status": 200,
+      "finalUrl": "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/",
+      "verdict": "ok",
+      "articles": [
+        "how-we-know-what-historical-figures-did",
+        "why-the-industrial-revolution-started-in-britain",
+        "women-who-ruled-empires"
+      ]
+    },
+    {
+      "url": "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/african-ancestors-an-overview/",
+      "status": 200,
+      "finalUrl": "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/african-ancestors-an-overview/",
+      "verdict": "ok",
+      "articles": [
+        "atlantic-slave-trade-and-abolition"
+      ]
+    },
+    {
+      "url": "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/caribbean-ancestors-an-overview/",
+      "status": 200,
+      "finalUrl": "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/caribbean-ancestors-an-overview/",
+      "verdict": "ok",
+      "articles": [
+        "atlantic-slave-trade-and-abolition"
+      ]
+    },
+    {
+      "url": "https://www.nationalarchives.gov.uk/help-with-your-research/start-here/",
+      "status": 200,
+      "finalUrl": "https://www.nationalarchives.gov.uk/help-with-your-research/start-here/",
+      "verdict": "ok",
+      "articles": [
+        "how-to-build-a-country-history-timeline"
+      ]
+    },
+    {
+      "url": "https://www.nationalarchives.nic.in/",
+      "status": 200,
+      "finalUrl": "https://www.nationalarchives.nic.in/",
+      "verdict": "ok",
+      "articles": [
+        "how-to-build-a-country-history-timeline"
+      ]
+    },
+    {
+      "url": "https://www.nationalmuseumindia.gov.in/en",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "fail",
+      "articles": [
+        "indus-valley-civilization-explained"
+      ]
+    },
+    {
       "url": "https://www.nationalnumeracy.org.uk/helping-children-maths",
       "status": 200,
       "finalUrl": "https://www.nationalnumeracy.org.uk/helping-children-maths",
@@ -6189,6 +9465,114 @@
       "articles": [
         "accuracy-before-speed",
         "brain-training-for-busy-adults"
+      ]
+    },
+    {
+      "url": "https://www.nationaltrust.org.uk/visit/shropshire-staffordshire/ironbridge-gorge",
+      "status": 200,
+      "finalUrl": "https://www.nationaltrust.org.uk/visit/shropshire-staffordshire/ironbridge-gorge",
+      "verdict": "ok",
+      "articles": [
+        "why-the-industrial-revolution-started-in-britain"
+      ]
+    },
+    {
+      "url": "https://www.nationalww2museum.org/students-teachers/student-resources/research-starters/research-starters-worldwide-deaths-world-war",
+      "status": 200,
+      "finalUrl": "https://www.nationalww2museum.org/students-teachers/student-resources/research-starters/research-starters-worldwide-deaths-world-war",
+      "verdict": "ok",
+      "articles": [
+        "second-world-war-death-toll-range"
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/171737a0",
+      "status": 200,
+      "finalUrl": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2F171737a0&code=7ae31300-81e0-4056-b07d-482199357094",
+      "verdict": "ok",
+      "articles": [
+        "scientists-who-changed-the-record"
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/171738a0",
+      "status": 200,
+      "finalUrl": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2F171738a0&code=96097a48-9f87-413e-ad63-54331fa0e563",
+      "verdict": "ok",
+      "articles": [
+        "scientists-who-changed-the-record"
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/171740a0",
+      "status": 200,
+      "finalUrl": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2F171740a0&code=13cfbe25-5a4f-4972-a470-4b001eece2a2",
+      "verdict": "ok",
+      "articles": [
+        "scientists-who-changed-the-record"
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/d41586-023-01313-5",
+      "status": 200,
+      "finalUrl": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-023-01313-5&code=f10592c0-fc41-483a-a673-cf834c98fcce",
+      "verdict": "ok",
+      "articles": [
+        "scientists-who-changed-the-record"
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/nature01383",
+      "status": 200,
+      "finalUrl": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fnature01383&code=63fb273f-cb61-4314-b616-0b6c539dba74",
+      "verdict": "ok",
+      "articles": [
+        "how-long-people-have-lived-in-australia"
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/nature14464",
+      "status": 200,
+      "finalUrl": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fnature14464&code=8ab98d5f-3f94-4180-888c-8ff35c7980f9",
+      "verdict": "ok",
+      "articles": [
+        "deep-time-on-a-history-timeline"
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/nature22336",
+      "status": 200,
+      "finalUrl": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fnature22336&code=537587bc-8f9c-4468-9807-3d574255a4ec",
+      "verdict": "ok",
+      "articles": [
+        "deep-time-on-a-history-timeline"
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/nature22968",
+      "status": 200,
+      "finalUrl": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fnature22968&code=64fe71d7-57dc-4a51-9232-db0d18443753",
+      "verdict": "ok",
+      "articles": [
+        "how-long-people-have-lived-in-australia"
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-021-24252-z",
+      "status": 200,
+      "finalUrl": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41467-021-24252-z&code=d7cfe03f-53ae-4fb6-859c-001c114a6451",
+      "verdict": "ok",
+      "articles": [
+        "rapa-nui-and-the-collapse-myth"
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-024-07881-4",
+      "status": 200,
+      "finalUrl": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41586-024-07881-4&code=e2f90228-f256-418c-aa4a-ae070d572fb8",
+      "verdict": "ok",
+      "articles": [
+        "rapa-nui-and-the-collapse-myth"
       ]
     },
     {
@@ -6225,6 +9609,42 @@
       ]
     },
     {
+      "url": "https://www.ncei.noaa.gov/products/paleoclimatology",
+      "status": 0,
+      "error": "fetch failed",
+      "verdict": "fail",
+      "articles": [
+        "why-civilizations-collapse"
+      ]
+    },
+    {
+      "url": "https://www.ndl.go.jp/koyomi/e/history/index.html",
+      "status": 200,
+      "finalUrl": "https://www.ndl.go.jp/koyomi/e/history/index.html",
+      "verdict": "ok",
+      "articles": [
+        "regnal-years-and-dynastic-dating"
+      ]
+    },
+    {
+      "url": "https://www.ndl.go.jp/modern/e/",
+      "status": 200,
+      "finalUrl": "https://www.ndl.go.jp/modern/e/",
+      "verdict": "ok",
+      "articles": [
+        "meiji-restoration-explained"
+      ]
+    },
+    {
+      "url": "https://www.ndl.go.jp/modern/e/cha1/description01.html",
+      "status": 200,
+      "finalUrl": "https://www.ndl.go.jp/modern/e/cha1/description01.html",
+      "verdict": "ok",
+      "articles": [
+        "meiji-restoration-explained"
+      ]
+    },
+    {
       "url": "https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness",
       "status": 200,
       "finalUrl": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/color-blindness",
@@ -6242,6 +9662,24 @@
       "verdict": "ok",
       "articles": [
         "color-theory-for-beginners"
+      ]
+    },
+    {
+      "url": "https://www.nelsonmandela.org/biography",
+      "status": 200,
+      "finalUrl": "https://www.nelsonmandela.org/biography",
+      "verdict": "ok",
+      "articles": [
+        "twentieth-century-liberation-leaders"
+      ]
+    },
+    {
+      "url": "https://www.nhm.ac.uk/discover/human-evolution.html",
+      "status": 200,
+      "finalUrl": "https://www.nhm.ac.uk/discover/human-evolution.html",
+      "verdict": "ok",
+      "articles": [
+        "deep-time-on-a-history-timeline"
       ]
     },
     {
@@ -6449,12 +9887,93 @@
       ]
     },
     {
+      "url": "https://www.nobelprize.org/prizes/chemistry/1944/summary/",
+      "status": 200,
+      "finalUrl": "https://www.nobelprize.org/prizes/chemistry/1944/summary/",
+      "verdict": "ok",
+      "articles": [
+        "scientists-who-changed-the-record"
+      ]
+    },
+    {
       "url": "https://www.nobelprize.org/prizes/chemistry/1960/summary/",
       "status": 200,
       "finalUrl": "https://www.nobelprize.org/prizes/chemistry/1960/summary/",
       "verdict": "ok",
       "articles": [
         "how-historians-date-events"
+      ]
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/facts/nobel-prize-facts/",
+      "status": 200,
+      "finalUrl": "https://www.nobelprize.org/prizes/facts/nobel-prize-facts/",
+      "verdict": "ok",
+      "articles": [
+        "scientists-who-changed-the-record"
+      ]
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/medicine/1962/summary/",
+      "status": 200,
+      "finalUrl": "https://www.nobelprize.org/prizes/medicine/1962/summary/",
+      "verdict": "ok",
+      "articles": [
+        "scientists-who-changed-the-record"
+      ]
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/physics/1956/summary/",
+      "status": 200,
+      "finalUrl": "https://www.nobelprize.org/prizes/physics/1956/summary/",
+      "verdict": "ok",
+      "articles": [
+        "history-of-inventions-timeline"
+      ]
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/physics/1974/summary/",
+      "status": 200,
+      "finalUrl": "https://www.nobelprize.org/prizes/physics/1974/summary/",
+      "verdict": "ok",
+      "articles": [
+        "scientists-who-changed-the-record"
+      ]
+    },
+    {
+      "url": "https://www.nps.gov/chcu/learn/historyculture/index.htm",
+      "status": 200,
+      "finalUrl": "https://www.nps.gov/chcu/learn/historyculture/index.htm",
+      "verdict": "ok",
+      "articles": [
+        "dating-north-america-before-columbus"
+      ]
+    },
+    {
+      "url": "https://www.nps.gov/lecl/learn/historyculture/sacagawea.htm",
+      "status": 200,
+      "finalUrl": "https://www.nps.gov/lecl/learn/historyculture/sacagawea.htm",
+      "verdict": "ok",
+      "articles": [
+        "famous-explorers-in-history"
+      ]
+    },
+    {
+      "url": "https://www.nps.gov/meve/learn/historyculture/index.htm",
+      "status": 200,
+      "finalUrl": "https://www.nps.gov/meve/learn/historyculture/index.htm",
+      "verdict": "ok",
+      "articles": [
+        "dating-north-america-before-columbus"
+      ]
+    },
+    {
+      "url": "https://www.nps.gov/sari/learn/historyculture/index.htm",
+      "status": 200,
+      "finalUrl": "https://www.nps.gov/sari/learn/historyculture/index.htm",
+      "verdict": "ok",
+      "articles": [
+        "famous-explorers-in-history"
       ]
     },
     {
@@ -6465,6 +9984,24 @@
       "articles": [
         "how-historians-date-events",
         "major-eras-of-world-history"
+      ]
+    },
+    {
+      "url": "https://www.nri.cam.ac.uk/",
+      "status": 200,
+      "finalUrl": "https://www.nri.cam.ac.uk/",
+      "verdict": "ok",
+      "articles": [
+        "history-of-inventions-timeline"
+      ]
+    },
+    {
+      "url": "https://www.oerproject.com/World-History",
+      "status": 200,
+      "finalUrl": "https://www.oerproject.com/World-History",
+      "verdict": "ok",
+      "articles": [
+        "history-apps-compared-for-self-study"
       ]
     },
     {
@@ -6499,6 +10036,15 @@
       ]
     },
     {
+      "url": "https://www.open.edu/openlearn/",
+      "status": 403,
+      "finalUrl": "https://www.open.edu/openlearn/",
+      "verdict": "blocked",
+      "articles": [
+        "history-apps-compared-for-self-study"
+      ]
+    },
+    {
       "url": "https://www.orst.go.th/",
       "status": 200,
       "finalUrl": "https://www.orst.go.th/",
@@ -6526,6 +10072,15 @@
       "articles": [
         "slot-reel-mechanics-explained",
         "slot-volatility-explained"
+      ]
+    },
+    {
+      "url": "https://www.partitionmuseum.org/partition-of-india/",
+      "status": 200,
+      "finalUrl": "https://www.partitionmuseum.org/partition-of-india",
+      "verdict": "ok",
+      "articles": [
+        "partition-of-india-1947"
       ]
     },
     {
@@ -6564,12 +10119,75 @@
       ]
     },
     {
+      "url": "https://www.penn.museum/sites/expedition/maya-long-count-numbers/",
+      "status": 200,
+      "finalUrl": "https://www.penn.museum/sites/expedition/maya-long-count-numbers/",
+      "verdict": "ok",
+      "articles": [
+        "maya-long-count-calendar-explained"
+      ]
+    },
+    {
+      "url": "https://www.penn.museum/sites/expedition/time-kingship-and-the-maya-universe-maya-calendars/",
+      "status": 200,
+      "finalUrl": "https://www.penn.museum/sites/expedition/time-kingship-and-the-maya-universe-maya-calendars/",
+      "verdict": "ok",
+      "articles": [
+        "maya-long-count-calendar-explained"
+      ]
+    },
+    {
+      "url": "https://www.persee.fr/doc/arasi_0004-3958_2010_num_65_1_1708",
+      "status": 200,
+      "finalUrl": "https://www.persee.fr/doc/arasi_0004-3958_2010_num_65_1_1708",
+      "verdict": "ok",
+      "articles": [
+        "dating-southeast-asian-history"
+      ]
+    },
+    {
+      "url": "https://www.perseus.tufts.edu/hopper/",
+      "status": 200,
+      "finalUrl": "https://www.perseus.tufts.edu/hopper/",
+      "verdict": "ok",
+      "articles": [
+        "how-we-know-what-historical-figures-did"
+      ]
+    },
+    {
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0024%3Abook%3D1%3Apoem%3D37",
+      "status": 200,
+      "finalUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0024%3Abook%3D1%3Apoem%3D37",
+      "verdict": "ok",
+      "articles": [
+        "cleopatra-beyond-the-legend"
+      ]
+    },
+    {
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a2008.01.0130%3achapter%3d50",
+      "status": 503,
+      "finalUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a2008.01.0130%3achapter%3d50",
+      "verdict": "fail",
+      "articles": [
+        "how-we-know-what-historical-figures-did"
+      ]
+    },
+    {
       "url": "https://www.pimsleur.com/learn-chinese-cantonese/",
       "status": 200,
       "finalUrl": "https://www.pimsleur.com/learn-chinese-cantonese/",
       "verdict": "ok",
       "articles": [
         "language-learning-apps-compared"
+      ]
+    },
+    {
+      "url": "https://www.preceden.com/",
+      "status": 200,
+      "finalUrl": "https://www.preceden.com/",
+      "verdict": "ok",
+      "articles": [
+        "history-timeline-tools-compared"
       ]
     },
     {
@@ -6595,9 +10213,9 @@
     },
     {
       "url": "https://www.psychologie.uzh.ch/dam/jcr:ffffffff-bd53-4653-0000-000022fc34de/Jones.Oberauer.2012.Memory.pdf",
-      "status": 200,
+      "status": 502,
       "finalUrl": "https://www.psychologie.uzh.ch/dam/jcr:ffffffff-bd53-4653-0000-000022fc34de/Jones.Oberauer.2012.Memory.pdf",
-      "verdict": "ok",
+      "verdict": "fail",
       "articles": [
         "growing-sequence-memory-games"
       ]
@@ -6657,6 +10275,96 @@
       "verdict": "ok",
       "articles": [
         "why-card-price-estimates-disagree"
+      ]
+    },
+    {
+      "url": "https://www.rijksmuseum.nl/en/rijksstudio",
+      "status": 200,
+      "finalUrl": "https://www.rijksmuseum.nl/en/collection",
+      "verdict": "ok",
+      "articles": [
+        "browsing-history-by-region-and-era"
+      ]
+    },
+    {
+      "url": "https://www.rijksmuseum.nl/en/stories/slavery",
+      "status": 200,
+      "finalUrl": "https://www.rijksmuseum.nl/en/stories/exhibitions/slavery",
+      "verdict": "ok",
+      "articles": [
+        "contested-legacies-in-history"
+      ]
+    },
+    {
+      "url": "https://www.rmg.co.uk/stories/space-astronomy/lunar-eclipse-guide",
+      "status": 200,
+      "finalUrl": "https://www.rmg.co.uk/stories/space-astronomy/lunar-eclipse-guide",
+      "verdict": "ok",
+      "articles": [
+        "did-people-think-the-earth-was-flat"
+      ]
+    },
+    {
+      "url": "https://www.rmg.co.uk/stories/time/which-years-are-leap-years-can-you-have-leap-seconds",
+      "status": 200,
+      "finalUrl": "https://www.rmg.co.uk/stories/time/which-years-are-leap-years-can-you-have-leap-seconds",
+      "verdict": "ok",
+      "articles": [
+        "when-two-sources-disagree-on-a-date"
+      ]
+    },
+    {
+      "url": "https://www.sahistory.org.za/article/rivonia-trial-1963-1964",
+      "status": 200,
+      "finalUrl": "https://sahistory.org.za/article/rivonia-trial-1963-1964",
+      "verdict": "ok",
+      "articles": [
+        "twentieth-century-liberation-leaders"
+      ]
+    },
+    {
+      "url": "https://www.sahistory.org.za/people/dr-kwame-nkrumah",
+      "status": 200,
+      "finalUrl": "https://sahistory.org.za/people/dr-kwame-nkrumah",
+      "verdict": "ok",
+      "articles": [
+        "twentieth-century-liberation-leaders"
+      ]
+    },
+    {
+      "url": "https://www.sciencehistory.org/",
+      "status": 200,
+      "finalUrl": "https://www.sciencehistory.org/",
+      "verdict": "ok",
+      "articles": [
+        "history-of-inventions-timeline"
+      ]
+    },
+    {
+      "url": "https://www.si.edu/openaccess",
+      "status": 403,
+      "finalUrl": "https://www.si.edu/openaccess",
+      "verdict": "blocked",
+      "articles": [
+        "browsing-history-by-region-and-era"
+      ]
+    },
+    {
+      "url": "https://www.sinica.edu.tw/en",
+      "status": 200,
+      "finalUrl": "https://www.sinica.edu.tw/en",
+      "verdict": "ok",
+      "articles": [
+        "chinas-deadliest-rebellions"
+      ]
+    },
+    {
+      "url": "https://www.spri.cam.ac.uk/museum/",
+      "status": 200,
+      "finalUrl": "https://www.spri.cam.ac.uk/museum/",
+      "verdict": "ok",
+      "articles": [
+        "famous-explorers-in-history"
       ]
     },
     {
@@ -6770,6 +10478,15 @@
       ]
     },
     {
+      "url": "https://www.tiki-toki.com/",
+      "status": 200,
+      "finalUrl": "https://www.tiki-toki.com/",
+      "verdict": "ok",
+      "articles": [
+        "history-timeline-tools-compared"
+      ]
+    },
+    {
       "url": "https://www.ucat.ac.uk/about-ucat/test-format-and-scoring/",
       "status": 200,
       "finalUrl": "https://www.ucat.ac.uk/about-ucat/test-format-and-scoring/",
@@ -6778,6 +10495,88 @@
         "numerical-reasoning-tests-explained",
         "strategy-for-timed-reasoning-tests",
         "verbal-reasoning-question-types"
+      ]
+    },
+    {
+      "url": "https://www.un.org/en/genocide-prevention/definition",
+      "status": 200,
+      "finalUrl": "https://www.un.org/en/genocide-prevention/definition",
+      "verdict": "ok",
+      "articles": [
+        "ottoman-empire-rise-and-decline"
+      ]
+    },
+    {
+      "url": "https://www.un.org/en/global-issues/decolonization",
+      "status": 200,
+      "finalUrl": "https://www.un.org/en/global-issues/decolonization",
+      "verdict": "ok",
+      "articles": [
+        "how-decolonisation-happened",
+        "twentieth-century-liberation-leaders"
+      ]
+    },
+    {
+      "url": "https://www.unesco.org/en/general-history-africa",
+      "status": 200,
+      "finalUrl": "https://www.unesco.org/en/general-history-africa",
+      "verdict": "ok",
+      "articles": [
+        "bantu-migrations-explained",
+        "ghana-mali-songhai-empires",
+        "how-african-history-is-dated",
+        "how-decolonisation-happened",
+        "indian-ocean-trade-before-europeans",
+        "kingdom-of-aksum-explained",
+        "kush-and-the-nubian-pharaohs",
+        "mansa-musa-and-the-hajj-of-1324",
+        "periodisation-in-history-explained",
+        "queen-nzinga-of-ndongo-and-matamba",
+        "scramble-for-africa-explained",
+        "west-and-central-african-kingdoms",
+        "women-who-ruled-empires"
+      ]
+    },
+    {
+      "url": "https://www.unesco.org/en/memory-world",
+      "status": 200,
+      "finalUrl": "https://www.unesco.org/en/memory-world",
+      "verdict": "ok",
+      "articles": [
+        "how-to-build-a-country-history-timeline",
+        "mansa-musa-and-the-hajj-of-1324",
+        "printing-press-impact-explained"
+      ]
+    },
+    {
+      "url": "https://www.unesco.org/en/open-educational-resources",
+      "status": 200,
+      "finalUrl": "https://www.unesco.org/en/open-educational-resources",
+      "verdict": "ok",
+      "articles": [
+        "history-apps-compared-for-self-study",
+        "reading-a-history-dataset-critically"
+      ]
+    },
+    {
+      "url": "https://www.unesco.org/en/routes-enslaved-peoples",
+      "status": 200,
+      "finalUrl": "https://www.unesco.org/en/routes-enslaved-peoples",
+      "verdict": "ok",
+      "articles": [
+        "atlantic-slave-trade-and-abolition",
+        "haitian-revolution-explained",
+        "indian-ocean-trade-before-europeans",
+        "queen-nzinga-of-ndongo-and-matamba"
+      ]
+    },
+    {
+      "url": "https://www.unibo.it/en/university/who-we-are/our-history",
+      "status": 200,
+      "finalUrl": "https://www.unibo.it/en/university/who-we-are/our-history",
+      "verdict": "ok",
+      "articles": [
+        "how-to-check-a-historical-superlative"
       ]
     },
     {
@@ -6976,6 +10775,15 @@
       ]
     },
     {
+      "url": "https://www.ushmm.org/genocide-prevention/countries/cambodia",
+      "status": 200,
+      "finalUrl": "https://www.ushmm.org/genocide-prevention/countries/cambodia",
+      "verdict": "ok",
+      "articles": [
+        "khmer-rouge-and-cambodian-genocide"
+      ]
+    },
+    {
       "url": "https://www.usno.navy.mil/USNO/astronomical-applications",
       "status": 200,
       "finalUrl": "https://www.cnmoc.usff.navy.mil/usno/",
@@ -7107,6 +10915,15 @@
       "verdict": "ok",
       "articles": [
         "video-codecs-explained"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/plague",
+      "status": 200,
+      "finalUrl": "https://www.who.int/news-room/fact-sheets/detail/plague",
+      "verdict": "ok",
+      "articles": [
+        "black-death-explained"
       ]
     },
     {

@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": [
     "protein",
@@ -43,7 +43,8 @@
     "plant-vs-animal-protein",
     "protein-sources-compared",
     "protein-per-meal-explained",
-    "how-much-protein-per-day"
+    "how-much-protein-per-day",
+    "protein-for-older-adults"
   ],
   "takeaways": [
     "A 'complete' protein contains all nine essential amino acids in useful proportions; an 'incomplete' one is low in at least one of them.",

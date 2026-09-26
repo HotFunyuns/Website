@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-22",
   "updatedAt": "2026-09-22",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
     "soccer",
@@ -44,7 +44,8 @@
   "relatedArticles": [
     "soccer-formations-explained",
     "soccer-positions-explained",
-    "soccer-draft-xi-guide"
+    "soccer-draft-xi-guide",
+    "how-the-offside-rule-works"
   ],
   "takeaways": [
     "A rating is a single number standing in for a player's whole profile, and the moment eleven of them have to function together, the detail the number discarded is the thing that decides the result.",

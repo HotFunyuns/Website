@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-08-09",
   "updatedAt": "2026-08-09",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "anime-creative",
   "tags": [
     "coloring app",
@@ -46,7 +46,8 @@
     "anime-trivia-quiz-guide",
     "space-shooter-arcade-guide",
     "zombie-survival-roguelike-guide",
-    "timed-and-survival-quiz-modes"
+    "timed-and-survival-quiz-modes",
+    "how-to-shade-anime-hair"
   ],
   "takeaways": [
     "Line art removes the hardest part of making a picture — the blank page — while leaving the part most people actually enjoy.",

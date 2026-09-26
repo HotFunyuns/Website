@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "anime-creative",
   "tags": ["anime", "colour", "character design", "listicle"],
   "primaryKeyword": "anime hair color meaning",

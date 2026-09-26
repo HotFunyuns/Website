@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "video-utility",
   "tags": [
     "av1",
@@ -43,7 +43,9 @@
     "video-codecs-explained",
     "hardware-vs-software-decoding",
     "remuxing-vs-transcoding",
-    "android-video-player-guide"
+    "android-video-player-guide",
+    "audio-codecs-explained",
+    "how-to-play-mkv-files-on-android"
   ],
   "takeaways": [
     "AV1 is a royalty-free video codec developed by the Alliance for Open Media, designed to improve compression efficiency over earlier codecs.",

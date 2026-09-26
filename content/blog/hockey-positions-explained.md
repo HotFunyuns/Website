@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
     "hockey",
@@ -45,7 +45,8 @@
     "hockey-line-combinations-explained",
     "hockey-draft-gm-guide",
     "football-positions-explained-for-drafting",
-    "soccer-formations-explained"
+    "soccer-formations-explained",
+    "what-is-icing-in-hockey"
   ],
   "takeaways": [
     "Hockey positions are described by where a player starts, not by what they are restricted to — everybody defends and everybody attacks.",

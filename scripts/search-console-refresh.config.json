@@ -1,0 +1,21 @@
+{
+  "$comment": "Thresholds for scripts/search-console-refresh.mjs. Every one is a judgement call, stated here so it can be argued with; none is a Google rule.",
+  "site": "https://reigncreativellc.com",
+  "positionBand": [8, 20],
+  "nearBandMargin": 5,
+  "minImpressions28": 100,
+  "minImpressions90": 250,
+  "minQueryImpressions": 20,
+  "clickDropRelative": 0.25,
+  "ctrDropRelative": 0.25,
+  "minPreviousClicksForDecline": 10,
+  "ctrGapRatio": 0.6,
+  "lowEditorialInbound": 1,
+  "staleAppDays": 60,
+  "staleComparisonDays": 120,
+  "staleSourceDays": 365,
+  "overlapJaccard": 0.6,
+  "importantApps": ["mental-math-memory-games", "world-history-timeline-sim", "protein-diet-tracker", "keto-diet-tracker"],
+  "maxQueue": 25,
+  "measurementWindowDays": 28
+}

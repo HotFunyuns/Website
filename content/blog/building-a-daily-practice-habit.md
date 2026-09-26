@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
     "habits",
@@ -48,7 +48,8 @@
     "memory-techniques-that-work",
     "spaced-repetition-for-language-learning",
     "language-learning-plateau",
-    "estimation-techniques-explained"
+    "estimation-techniques-explained",
+    "do-brain-training-apps-work"
   ],
   "takeaways": [
     "For the same weekly total, distributed practice outperforms massed practice — which makes daily short sessions the efficient choice, not just the convenient one.",

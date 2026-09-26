@@ -6,14 +6,18 @@ import FaqSection from '@/components/FaqSection';
 import GoldDivider from '@/components/GoldDivider';
 import JsonLd from '@/components/JsonLd';
 import ArticleAppCta from '@/components/blog/ArticleAppCta';
+import ArticleByline from '@/components/blog/ArticleByline';
+import ArticleCorrections from '@/components/blog/ArticleCorrections';
 import ArticleDisclaimer from '@/components/blog/ArticleDisclaimer';
 import ArticleSources from '@/components/blog/ArticleSources';
 import ArticleToc from '@/components/blog/ArticleToc';
+import AuthorBox from '@/components/blog/AuthorBox';
 import BlogCard from '@/components/blog/BlogCard';
-import { formatPostDate } from '@/components/blog/format';
 import { companyInfo, getCategory } from '@/data/apps';
+import { authorPath } from '@/data/authors';
 import {
   getPostApps,
+  getPostAuthor,
   getPostBySlug,
   getPostHubs,
   getPostNeighbours,
@@ -34,6 +38,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   if (!post) return {};
 
   const canonical = `/blog/${post.slug}/`;
+  const author = getPostAuthor(post);
   return {
     // Opts out of the site-wide "| Reign Creative LLC" suffix: it pushed every
     // article title past the width a result can show, truncating the headline
@@ -43,7 +48,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     description: post.description,
     alternates: { canonical },
     ...(post.noindex ? { robots: { index: false, follow: false } } : {}),
-    authors: [{ name: post.author }],
+    authors: [{ name: author.name, url: `${companyInfo.siteUrl}${authorPath(author)}` }],
     openGraph: {
       title: `${post.metaTitle} | ${companyInfo.name}`,
       description: post.description,
@@ -51,7 +56,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
       type: 'article',
       publishedTime: post.publishedAt,
       modifiedTime: post.updatedAt,
-      authors: [post.author],
+      authors: [author.name],
       images: [
         {
           url: `${companyInfo.siteUrl}/opengraph-image.png`,
@@ -90,10 +95,12 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
 
   const category = getCategory(post.category);
   const relatedApps = getPostApps(post);
-  // Six, not the default three. 126 articles declare four `relatedArticles`;
-  // at three, the fourth was authored, validated at build time, and then
-  // silently dropped from the page. Six clears every authored pick and fills
-  // two even rows of the 3-up grid below from the same-category fallback.
+  const author = getPostAuthor(post);
+  // Six, not the default three. Most articles declare three to six
+  // `relatedArticles`; at three, the later picks were authored, validated at
+  // build time, and then silently dropped from the page. Six clears nearly every
+  // authored pick and fills two even rows of the 3-up grid below with the most
+  // relevant published articles (see getRelatedPosts).
   const relatedPosts = getRelatedPosts(post, 6);
   const { previous, next } = getPostNeighbours(post);
   const primaryApp = relatedApps[0];
@@ -113,12 +120,14 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
     dateModified: post.updatedAt,
     wordCount: post.wordCount,
     inLanguage: 'en-US',
-    // Named to match the visible byline exactly, and pointed at the policy that
-    // states who writes these and what has not been expert-reviewed.
+    // Resolved from the same registry entry as the visible byline, so the two
+    // cannot drift, and pointed at the author's crawlable profile page — which
+    // says who the author is and how these articles are made.
+    // scripts/audit-authorship.mjs fails the build if name or URL disagree.
     author: {
-      '@type': 'Organization',
-      name: post.author,
-      url: `${companyInfo.siteUrl}/editorial-policy/`,
+      '@type': author.kind === 'person' ? 'Person' : 'Organization',
+      name: author.name,
+      url: `${companyInfo.siteUrl}${authorPath(author)}`,
     },
     publisher: { '@id': `${companyInfo.siteUrl}/#organization` },
     image: `${companyInfo.siteUrl}/opengraph-image.png`,
@@ -168,21 +177,13 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-ink-500">{post.description}</p>
 
-          <div className="mt-8 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-ink-400">
-            <span className="font-medium text-ink-600">{post.author}</span>
-            <span aria-hidden="true">·</span>
-            <time dateTime={post.publishedAt}>{formatPostDate(post.publishedAt)}</time>
-            <span aria-hidden="true">·</span>
-            <span>{post.readingMinutes} min read</span>
-            {post.updatedAt !== post.publishedAt && (
-              <>
-                <span aria-hidden="true">·</span>
-                <span>
-                  Updated <time dateTime={post.updatedAt}>{formatPostDate(post.updatedAt)}</time>
-                </span>
-              </>
-            )}
-          </div>
+          <ArticleByline
+            author={author}
+            publishedAt={post.publishedAt}
+            updatedAt={post.updatedAt}
+            readingMinutes={post.readingMinutes}
+            apps={relatedApps}
+          />
 
           {/* The route to the rest of the cluster. Without it a reader who
               arrives from search on one article has no signal that forty
@@ -213,6 +214,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
       <div className="container-wide mx-auto px-5 pb-20 sm:px-8 lg:px-10">
         <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr),19rem] lg:gap-14">
           <article className="min-w-0">
+            <ArticleCorrections corrections={post.corrections ?? []} />
             <ArticleDisclaimer kind={post.disclaimer} researchDate={post.researchDate} />
 
             {post.takeaways.length > 0 && (
@@ -261,6 +263,8 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
             )}
 
             <ArticleSources sources={post.sources} />
+
+            <AuthorBox author={author} editorialApproved={post.editorialApproved === true} />
 
             {primaryApp && (
               <ArticleAppCta

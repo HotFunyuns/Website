@@ -106,6 +106,14 @@ jobs:
           node scripts/audit-redirects.mjs
           node scripts/audit-duplicate-content.mjs
 
+      # Authorship and dates run inside `npm run build`. These add the entity
+      # naming check and the test suite (queue rules, DST edges, the linking
+      # pass, a full release rehearsal on a temporary copy of the content).
+      - name: Audit entity naming and run tests
+        run: |
+          node scripts/audit-entities.mjs
+          npm test
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

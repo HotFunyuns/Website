@@ -7,18 +7,29 @@
 // says the article does not do that are both fine, and a checker that flags
 // them teaches its reader to ignore it.
 //
-// Run: node scripts/preflight-articles.mjs [--published-only] [--context]
+// Run: node scripts/preflight-articles.mjs [--published-only] [--context] [--only <slug>]
+//
+// --only <slug> checks one article — the publishing queue runs it on the
+// article it is about to release — against the published corpus: per-article
+// rules for that article alone, and the cross-article duplicate checks only
+// where that article is one side of the pair, so an unrelated draft still in
+// progress cannot block a release.
 
 import { readFileSync, readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
+import { FIRST_PARTY_GUIDE } from './lib/content.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(HERE, '..');
-const CONTENT = join(ROOT, 'content', 'blog');
+const CONTENT = process.env.REIGN_CONTENT_DIR || join(ROOT, 'content', 'blog');
 const FRONTMATTER = /^---\r?\n([\s\S]*?)\r?\n---\r?\n?/;
 const publishedOnly = process.argv.includes('--published-only');
 const showContext = process.argv.includes('--context');
+const onlyIndex = process.argv.indexOf('--only');
+const only = onlyIndex >= 0 ? process.argv[onlyIndex + 1] : null;
+/** With --only, a cross-article finding counts only if that article is part of it. */
+const involves = (...slugs) => !only || slugs.includes(only);
 
 /**
  * Claim shapes we never publish. Each pattern must match the *assertion*, not a
@@ -56,7 +67,8 @@ const DISCLAIMER_REQUIRED = { 'health-nutrition': 'health', 'language-learning':
  * citations there would push writers to bolt on a citation that supports
  * nothing.
  */
-const FIRST_PARTY_GUIDE = /-guide$|^best-|^sports-gm-games-without-internet$|^career-mode-vs-franchise-mode$|^what-makes-a-good-draft-board$|^how-fantasy-draft-strategy-works$|^snake-draft-vs-auction-draft$|^salary-cap-basics-for-gm-games$|^how-soccer-league-tables-work$|^hockey-positions-explained$|^hockey-line-combinations-explained$|^football-positions-explained-for-drafting$/;
+// FIRST_PARTY_GUIDE is defined in scripts/lib/content.mjs, so the refresh report
+// applies the same exemption.
 
 const files = readdirSync(CONTENT).filter((f) => f.endsWith('.md'));
 const problems = [];
@@ -79,6 +91,12 @@ for (const file of files) {
   const data = JSON.parse(m[1]);
   const body = raw.slice(m[0].length).trim();
   if (publishedOnly && data.status !== 'published') continue;
+  if (only && slug !== only) {
+    // Other articles take part only in the cross-article checks, and only when
+    // they are public — two unreleased drafts cannot collide in public.
+    if (data.status === 'published') articles.push({ slug, data, body });
+    continue;
+  }
   articles.push({ slug, data, body });
 
   const fail = (msg) => problems.push(`${slug}: ${msg}`);
@@ -137,7 +155,7 @@ for (const file of files) {
 const byIntentKey = new Map();
 for (const a of articles) {
   const key = `${a.data.category}::${a.data.intent}::${a.data.primaryKeyword.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()}`;
-  if (byIntentKey.has(key)) problems.push(`${a.slug}: identical intent key to ${byIntentKey.get(key)}`);
+  if (byIntentKey.has(key) && involves(a.slug, byIntentKey.get(key))) problems.push(`${a.slug}: identical intent key to ${byIntentKey.get(key)}`);
   byIntentKey.set(key, a.slug);
 }
 
@@ -147,7 +165,7 @@ for (let i = 0; i < articles.length; i++) {
     const a = new Set(norm(articles[i].data.title));
     const b = new Set(norm(articles[j].data.title));
     const shared = [...a].filter((w) => b.has(w)).length;
-    if (shared / Math.min(a.size, b.size) >= 0.85) {
+    if (shared / Math.min(a.size, b.size) >= 0.85 && involves(articles[i].slug, articles[j].slug)) {
       problems.push(`near-duplicate titles: "${articles[i].data.title}" / "${articles[j].data.title}"`);
     }
   }
@@ -157,12 +175,13 @@ for (const field of ['metaTitle', 'description', 'title']) {
   const seen = new Map();
   for (const a of articles) {
     const v = a.data[field].trim().toLowerCase();
-    if (seen.has(v)) problems.push(`duplicate ${field}: ${a.slug} and ${seen.get(v)}`);
+    if (seen.has(v) && involves(a.slug, seen.get(v))) problems.push(`duplicate ${field}: ${a.slug} and ${seen.get(v)}`);
     seen.set(v, a.slug);
   }
 }
 
-console.log(`checked ${articles.length} article(s)`);
+if (only && !articles.some((a) => a.slug === only)) problems.push(`${only}: no such article`);
+console.log(only ? `checked ${only} against ${articles.length - 1} published article(s)` : `checked ${articles.length} article(s)`);
 if (notes.length) {
   console.log(`\n${notes.length} note(s) for human review:`);
   for (const n of notes) console.log(`  · ${n}`);

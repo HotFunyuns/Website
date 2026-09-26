@@ -1,66 +1,23 @@
-// Moves reviewed drafts to published. Step 8 of docs/content-review-process.md,
-// applied mechanically so the fields can never be set inconsistently.
+// Retired on 2026-09-25. Publishing now goes through the approval-gated queue.
 //
-// It refuses to run unless scripts/preflight-articles.mjs is clean, because
-// publishing is the one action that cannot be undone quietly — a URL that has
-// been crawled stays in an index long after the file changes.
+// This script used to move every reviewed draft to published in one go, with
+// whatever --date it was given. That allowed a backdated publication date, a
+// bulk release, and a release with no record of approval — each of which the
+// queue now prevents:
 //
-// Run: node scripts/publish-drafts.mjs --date YYYY-MM-DD [--only slug,slug] [--dry]
+//   npm run queue:status                        what is queued and what would happen now
+//   npm run queue:release -- --slug <slug>      release one approved article today (manual override)
+//
+// The file is kept, printing this pointer, so older documents that name it
+// still lead somewhere. See docs/publishing-workflow.md.
 
-import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
-import { execFileSync } from 'node:child_process';
-import { fileURLToPath } from 'node:url';
-import { dirname, join } from 'node:path';
-
-const HERE = dirname(fileURLToPath(import.meta.url));
-const ROOT = join(HERE, '..');
-const CONTENT = join(ROOT, 'content', 'blog');
-const FRONTMATTER = /^---\r?\n([\s\S]*?)\r?\n---\r?\n?/;
-
-const args = process.argv.slice(2);
-const arg = (name) => {
-  const i = args.indexOf(name);
-  return i >= 0 ? args[i + 1] : undefined;
-};
-const dry = args.includes('--dry');
-const date = arg('--date');
-const only = arg('--only')?.split(',').map((s) => s.trim()).filter(Boolean);
-
-if (!/^\d{4}-\d{2}-\d{2}$/.test(date ?? '')) {
-  console.error('usage: node scripts/publish-drafts.mjs --date YYYY-MM-DD [--only slug,slug] [--dry]');
-  process.exit(1);
-}
-
-try {
-  execFileSync(process.execPath, [join(HERE, 'preflight-articles.mjs')], { stdio: 'pipe' });
-} catch (err) {
-  console.error('pre-flight is not clean — fix it before publishing:\n');
-  console.error(err.stdout?.toString() ?? err.message);
-  process.exit(1);
-}
-
-const published = [];
-
-for (const file of readdirSync(CONTENT).filter((f) => f.endsWith('.md'))) {
-  const slug = file.replace(/\.md$/, '');
-  if (only && !only.includes(slug)) continue;
-  const path = join(CONTENT, file);
-  const raw = readFileSync(path, 'utf8');
-  const m = FRONTMATTER.exec(raw);
-  if (!m) continue;
-  const data = JSON.parse(m[1]);
-  if (data.status === 'published') continue;
-
-  data.status = 'published';
-  data.publishedAt = date;
-  data.updatedAt = date;
-  delete data.noindex;
-
-  if (!dry) {
-    writeFileSync(path, `---\n${JSON.stringify(data, null, 2)}\n---\n${raw.slice(m[0].length)}`, 'utf8');
-  }
-  published.push(slug);
-}
-
-console.log(`${dry ? '[dry run] ' : ''}published ${published.length} article(s) on ${date}:`);
-for (const slug of published) console.log(`  ${slug}`);
+console.error(
+  [
+    'publish-drafts.mjs is retired: it could backdate and bulk-publish.',
+    'Use the approval-gated queue instead:',
+    '  npm run queue:status',
+    '  npm run queue:release -- --slug <slug>   (the article must carry "editorialApproved": true)',
+    'See docs/publishing-workflow.md.',
+  ].join('\n')
+);
+process.exit(1);

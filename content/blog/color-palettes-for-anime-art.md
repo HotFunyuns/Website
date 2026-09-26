@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "anime-creative",
   "tags": [
     "colour",
@@ -43,7 +43,8 @@
     "color-theory-for-beginners",
     "anime-art-styles-explained",
     "line-art-and-flats-explained",
-    "digital-coloring-techniques"
+    "digital-coloring-techniques",
+    "anime-hair-colour-meanings"
   ],
   "takeaways": [
     "A limited palette holds together more reliably than a large one, because fewer colours mean fewer chances for two of them to fight.",

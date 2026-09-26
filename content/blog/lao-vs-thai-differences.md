@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "language-learning",
   "tags": [
     "lao",
@@ -44,7 +44,8 @@
     "learn-lao-beginners-guide",
     "lao-alphabet-explained",
     "learn-thai-script-beginners-guide",
-    "malay-vs-indonesian-differences"
+    "malay-vs-indonesian-differences",
+    "lao-greetings-and-politeness"
   ],
   "takeaways": [
     "Lao and Thai are closely related members of the same language family, not the same language and not dialects of one another.",

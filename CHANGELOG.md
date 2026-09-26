@@ -2,6 +2,66 @@
 
 All notable changes to the Reign Creative LLC website are documented here.
 
+## [1.3.0] — 2026-09-25
+
+### Authorship, internal linking, the publishing queue and the refresh system
+
+No articles were added. Full account: `docs/seo-pipeline-final-report.md`.
+
+- **Honest authorship.** The byline on all 525 articles is now **Reign Creative
+  LLC**, linked with `rel="author"` to a new profile page at
+  `/authors/reign-creative-llc/` (`ProfilePage` → the `#organization` node).
+  `BlogPosting.author` reads the same registry entry (`src/data/authors.ts`). A
+  person cannot be added as an author without a recorded owner approval.
+- **Editorial policy corrected.** It said every article was reviewed by a person
+  before publication, which the 2026-09-22 report recorded as untrue. It now
+  describes AI-assisted drafting, what the automated checks do and do not do, and
+  the new rule: every article published after 2026-09-22 must be read and
+  approved by a person. New sections cover topic selection, keyword research,
+  rules by subject, dates, corrections and the absence of guarantees.
+- **Ownership disclosure on every article**, beside the byline, as the policy
+  promised. Previously only the comparison articles carried one. An "About the
+  author" box follows the sources.
+- **"Written by the team that builds the app"** replaced on the app, app-category
+  and blog index pages.
+- **About page** rewritten around verifiable facts. It explains the two names
+  (Reign Creative LLC and Reign Collective Apps), what the company makes, how
+  facts are checked, AI use, corrections, comparisons and contact, and carries
+  `AboutPage` markup.
+- **"Keep reading" is relevance-ranked.** Empty slots used to take the newest
+  same-category articles, which put Achaemenid Persia on the Mental Math
+  cornerstone. The shared score in `src/lib/blog/relevance.mjs` now fills them.
+- **App pages link every guide.** Apps without a topic hub showed only three
+  guides, and their other guides had no link from the app's own page.
+- **Blog category pages** gained standing copy, topic hubs, "Most-referenced
+  guides" and "Articles by app".
+- **Post-publication linking pass** (`npm run links:after-publish`), run on the
+  orphaned article, the 36 articles with only one editorial inbound link, and 8
+  hub articles missing their cornerstone. It added 82 "Keep reading" links; prose
+  was untouched.
+- **Approval-gated publishing queue** (`scripts/publish-queue.mjs`,
+  `.github/workflows/publish-queue.yml`): new `editorialApproved`, `publishAt`,
+  `sameDayOverride` and `corrections` fields; at most one release per
+  America/Los_Angeles day; rerun-safe; builds before it commits.
+  `publish-drafts.mjs` is retired because it could backdate.
+- **Dates are Los Angeles days.** `isPublicPost()` and the build gates compared
+  against the UTC day, which turns over at 16:00–17:00 Pacific.
+- **New build gates.** Every published article must be linked from another
+  article's prose or "Keep reading". Queue-era articles need a persisted link
+  from an older article. The authorship audit and entity audit run, and `llms.txt`
+  leaks are checked. Structural accessibility checks were added to
+  `audit-output`.
+- **Link graph** (`npm run report:links`): editorial vs listing vs global links,
+  click depth, anchors, cohorts, app coverage. Writes
+  `docs/data/link-graph.json` and `link-graph-edges.csv`.
+- **Search Console refresh system** (`npm run report:search-console`) reads CSV
+  exports. No data exists yet, so no page was refreshed on a guessed ranking.
+- **`llms.txt`** is trimmed from a 155 KB copy of the feed to a small index.
+- **Organization logo** is now the 180×180 PNG; the footer logo's duplicate SVG
+  id is fixed.
+- **Tests**: `npm test` — 63 unit and end-to-end tests, including DST
+  edges.
+
 ## [1.2.0] — 2026-09-15
 
 ### Search Console canonical fix + 100 new articles

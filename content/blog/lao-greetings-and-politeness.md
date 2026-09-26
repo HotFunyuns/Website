@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "language-learning",
   "tags": ["lao", "greetings", "phrases", "travel"],
   "primaryKeyword": "how to say hello in laos",
@@ -37,7 +37,8 @@
     "learn-lao-beginners-guide",
     "lao-phrases-for-travellers",
     "lao-tone-rules",
-    "lao-alphabet-explained"
+    "lao-alphabet-explained",
+    "building-a-lao-course-from-scratch"
   ],
   "takeaways": [
     "Sabaidee covers hello at any time of day, and time-specific greetings are built by adding a period word to it rather than by using separate formulas.",

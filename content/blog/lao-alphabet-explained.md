@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "language-learning",
   "tags": [
     "lao",
@@ -44,7 +44,8 @@
     "learn-lao-beginners-guide",
     "lao-vs-thai-differences",
     "learn-thai-script-beginners-guide",
-    "khmer-script-explained"
+    "khmer-script-explained",
+    "is-lao-hard-to-learn"
   ],
   "takeaways": [
     "Lao is an abugida: consonants carry an inherent vowel, and written vowel signs modify it rather than standing alone as letters.",

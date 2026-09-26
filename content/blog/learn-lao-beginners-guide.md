@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "language-learning",
   "tags": [
     "lao",
@@ -44,7 +44,8 @@
     "lao-alphabet-explained",
     "lao-vs-thai-differences",
     "learn-thai-script-beginners-guide",
-    "what-is-a-tonal-language"
+    "what-is-a-tonal-language",
+    "building-a-lao-course-from-scratch"
   ],
   "takeaways": [
     "Lao is an under-resourced language for learners: the scarcity of materials is a bigger practical obstacle than the language's own difficulty.",

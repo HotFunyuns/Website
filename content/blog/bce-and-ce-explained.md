@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
     "history",
@@ -46,7 +46,8 @@
     "how-historians-date-events",
     "major-eras-of-world-history",
     "how-calendars-and-dating-systems-work",
-    "primary-vs-secondary-sources"
+    "primary-vs-secondary-sources",
+    "world-history-timeline-guide"
   ],
   "takeaways": [
     "BCE means Before Common Era and CE means Common Era; they map exactly onto BC and AD, using the same year numbers.",

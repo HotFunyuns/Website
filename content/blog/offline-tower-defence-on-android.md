@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "action-arcade",
   "tags": ["tower defense", "offline", "android", "decision guide"],
   "primaryKeyword": "best tower defense games android offline",
@@ -38,7 +38,8 @@
     "best-offline-arcade-games-android",
     "best-offline-sports-games-android",
     "tower-defense-strategy-basics",
-    "why-free-android-games-show-ads"
+    "why-free-android-games-show-ads",
+    "what-does-td-mean-in-games"
   ],
   "takeaways": [
     "Tower defence punishes interruption harder than most arcade genres, because the unit you lose to a stall is a ten-minute level rather than a thirty-second run.",

@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "video-utility",
   "tags": ["trading cards", "grading", "value", "decision guide"],
   "primaryKeyword": "is my card worth grading",

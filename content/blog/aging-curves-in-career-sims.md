@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-22",
   "updatedAt": "2026-09-22",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
     "career mode",
@@ -44,7 +44,8 @@
   "relatedArticles": [
     "how-player-career-modes-work",
     "injuries-in-sports-career-games",
-    "baseball-career-sim-guide"
+    "baseball-career-sim-guide",
+    "two-way-players-explained"
   ],
   "takeaways": [
     "There is no single peak age. One editorial reviewing the field puts the age of peak athletic performance at roughly 20 to 30 years old depending on the sport and on sex, which is a wide enough band that any game using one number is simplifying heavily.",

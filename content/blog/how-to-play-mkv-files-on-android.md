@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "video-utility",
   "tags": ["video", "mkv", "android", "troubleshooting"],
   "primaryKeyword": "how to play mkv files on android",
@@ -38,7 +38,8 @@
     "video-file-formats-explained",
     "video-codecs-explained",
     "hardware-vs-software-decoding",
-    "android-video-players-compared"
+    "android-video-players-compared",
+    "frame-rate-and-resolution-explained"
   ],
   "takeaways": [
     "MKV is a container, explicitly not a compression format, so an MKV that will not play is almost never a problem with the MKV part.",

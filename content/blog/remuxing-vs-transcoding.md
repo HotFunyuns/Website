@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "video-utility",
   "tags": [
     "video",
@@ -43,7 +43,9 @@
     "video-file-formats-explained",
     "hardware-vs-software-decoding",
     "av1-on-android-explained",
-    "subtitle-formats-explained"
+    "subtitle-formats-explained",
+    "audio-codecs-explained",
+    "frame-rate-and-resolution-explained"
   ],
   "takeaways": [
     "Remuxing rewraps existing streams in a different container without decoding them, so it is fast and loses nothing.",

@@ -29,8 +29,10 @@ Three independent mechanisms, each of which would be sufficient alone:
 A draft also carries `"noindex": true`, which is belt-and-braces: it only matters
 if all three mechanisms above failed simultaneously.
 
-`"status": "published"` with a future `publishedAt` is treated as unpublished, so
-scheduling is the same mechanism rather than a separate one.
+Scheduling is `"status": "scheduled"` plus `publishAt`, and those articles are
+invisible in exactly the same way. `"status": "published"` with a future
+`publishedAt` is no longer a way to schedule: the build rejects it, because it
+would skip the approval check and the one-per-day limit.
 
 ## The nine steps
 
@@ -81,28 +83,38 @@ are themselves published — linking a published article to a draft is a build
 failure. The body links the app page, at least one category page, and 2–5
 related articles.
 
-**8. Set the publication fields.**
+**8. Approve and schedule it.**
+Only a person who has done steps 1–7 on the complete article sets:
 ```json
-"status": "published",
-"publishedAt": "<the date it actually goes live>",
-"updatedAt": "<same date>",
+"status": "scheduled",
+"editorialApproved": true,
+"publishAt": "<the earliest day it may go out>",
 ```
-and **remove `"noindex": true`** — the build fails if a published article still
-carries it. Do not backdate. A publication date is a factual claim.
+Leave `publishedAt` alone. The release stamps it with the day the article
+actually goes live, and removes `"noindex": true`. A publication date is a
+factual claim, and nothing in the queue can backdate it.
 
-**9. Build and verify the output.**
-```
-npm run build          # export + unpublished-content gate
-npm run report:links   # orphans, thin linking, click depth
-```
-Then confirm on disk: `out/blog/<slug>/index.html` exists, the slug appears in
-`out/sitemap.xml` and `out/blog/rss.xml`, and the rendered page carries no
-`noindex`.
+`editorialApproved: true` is public-facing. The editorial policy tells readers
+that every article published after 22 September 2026 was read and approved by a
+person, and approved articles say so at the end.
+
+**9. Let the queue release it.**
+The hourly job releases at most one approved article per Los Angeles day. It
+runs the post-publication linking pass, builds with every gate, and only then
+commits and deploys. To release one by hand, use
+`npm run queue:release -- --slug <slug>`, then `npm run build`, commit and push.
+The full procedure, including recovery, is in
+[publishing-workflow.md](./publishing-workflow.md).
+
+(`scripts/publish-drafts.mjs`, which set these fields in bulk with any date, is
+retired. It now only prints a pointer to the queue.)
 
 ## Release cadence
 
-Release in small batches rather than all at once, and leave gaps between them so
-performance is attributable. `docs/publishing-schedule.md` holds the plan.
+One approved article per day, at most, through the queue in
+[publishing-workflow.md](./publishing-workflow.md). Pacing keeps performance
+attributable to a release and contains the downside of a bad one. It is not a
+ranking rule, and the queue does not treat it as one.
 
-Approving a batch is the owner's decision, not the writer's. Drafts stay drafts
-until then.
+Approving an article is the owner's decision, not the writer's. Drafts stay
+drafts until then.

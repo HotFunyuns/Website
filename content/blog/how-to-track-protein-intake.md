@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-08-09",
   "updatedAt": "2026-08-13",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": ["protein", "macro tracking", "nutrition logging", "android apps"],
   "primaryKeyword": "how to track protein intake",

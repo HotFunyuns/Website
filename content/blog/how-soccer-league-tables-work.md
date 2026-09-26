@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
     "soccer",
@@ -45,7 +45,9 @@
     "soccer-formations-explained",
     "soccer-draft-xi-guide",
     "career-mode-vs-franchise-mode",
-    "best-sports-manager-games-for-short-sessions"
+    "best-sports-manager-games-for-short-sessions",
+    "clean-sheets-explained",
+    "how-the-offside-rule-works"
   ],
   "takeaways": [
     "A league table is a sorted summary, not a record of a season — two clubs on identical points can have had completely different years.",

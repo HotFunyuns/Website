@@ -26,10 +26,13 @@ Body starts here.
 | `title` | string | The H1. Full sentence allowed; no length cap. |
 | `metaTitle` | string | **≤ 60 characters.** Used in `<title>`. Front-load the keyword. |
 | `description` | string | **70–160 characters.** Meta description. Must read as a sentence, not a keyword list. |
-| `status` | enum | `draft` \| `review` \| `scheduled` \| `published` |
-| `publishedAt` | date | `YYYY-MM-DD`. A future date keeps the article unpublished even if status is `published`. |
-| `updatedAt` | date | `YYYY-MM-DD`. Same as `publishedAt` unless the content was genuinely revised. |
-| `author` | string | `Reign Creative Team` |
+| `status` | enum | `draft` \| `review` \| `scheduled` \| `published`. Only `published` is ever public. `scheduled` requires `editorialApproved: true` and `publishAt`. See [publishing-workflow.md](./publishing-workflow.md). |
+| `editorialApproved` | bool? | `true` states that a person read the complete article and approved it. Required to schedule or release, and on every article published after 2026-09-22. Never set it on an article nobody has read. |
+| `publishAt` | date? | `scheduled` only: the earliest America/Los_Angeles day it may be released. A plan, not a publication date. |
+| `sameDayOverride` | bool? | Written only by `npm run queue:release -- --allow-second-today`. Records a deliberate second release on one day. |
+| `publishedAt` | date | `YYYY-MM-DD`, America/Los_Angeles: the day the article actually went live. The release step stamps it; never set it earlier. A `published` article may not carry a future date — the build fails; queue it instead. |
+| `updatedAt` | date | `YYYY-MM-DD`. Same as `publishedAt` unless visible content was genuinely revised (body, FAQs, takeaways, sources, title or description). Adding a link is not a revision; `scripts/audit-authorship.mjs` fails a bump with no content change. |
+| `author` | string | An author id from `src/data/authors.ts` — currently only `reign-creative-llc`. The byline, the structured data and the profile page all read the registry. |
 | `category` | enum | One of the seven app category ids. |
 | `tags` | string[] | 3–6 lowercase topical tags. |
 | `primaryKeyword` | string | **Must be unique across every article.** A duplicate fails the build. |
@@ -44,6 +47,8 @@ Body starts here.
 | `featured` | bool? | Optional. Homepage/blog featured slot. |
 | `noindex` | bool? | Optional. **Required `true` on every draft.** Fails the build if set on a published article. |
 | `researchDate` | date? | **Required when `disclaimer` is `comparison`.** |
+| `hubs` | string[]? | Topic hub ids from `src/data/hubs.ts`. An education-brain article should declare its hub. |
+| `corrections` | {date, note}[]? | Corrections that changed what the article says. Rendered on the article; each date must fall between `publishedAt` and `updatedAt`. |
 | `longTailKeywords` | string[]? | Planning only. Feeds the keyword map. |
 | `comparisonKeywords` | string[]? | Planning only. |
 | `aiSearchQuestions` | string[]? | Questions an AI assistant might be asked that this article answers. |
@@ -115,6 +120,7 @@ Drafts exist in the repo but must be invisible to the public build:
 
 ```json
 "status": "draft",
+"editorialApproved": false,
 "noindex": true
 ```
 
@@ -128,6 +134,11 @@ appears in the sitemap or RSS, or is linked from any exported page.
 ## Before you finish
 
 ```
-node scripts/dump-catalog.mjs <app-slug>   # verify every app claim
-npm run build                              # parse + export + gate
+node scripts/dump-catalog.mjs <app-slug>            # verify every app claim
+node scripts/preflight-articles.mjs --only <slug>   # claim-safety and structure checks
+npm run queue:status                                # where it sits in the queue
+npm run build                                       # parse + export + every gate
 ```
+
+Publishing itself goes through the approval-gated queue — see
+[publishing-workflow.md](./publishing-workflow.md).

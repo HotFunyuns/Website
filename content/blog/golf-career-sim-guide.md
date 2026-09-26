@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
     "golf",
@@ -45,7 +45,9 @@
     "understanding-sports-sim-probability",
     "how-sports-simulation-engines-work",
     "career-mode-vs-franchise-mode",
-    "best-sports-manager-games-for-short-sessions"
+    "best-sports-manager-games-for-short-sessions",
+    "club-distance-gapping",
+    "pressure-and-nerves-in-golf-sims"
   ],
   "takeaways": [
     "There is no swing meter. Every shot is a decision about how to play the hole from this lie, at this distance, in these conditions — the timing skill is replaced by a judgement skill.",

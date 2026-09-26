@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-08-09",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
     "hockey",
@@ -45,7 +45,8 @@
   "relatedArticles": [
     "baseball-draft-gm-guide",
     "basketball-draft-gm-guide",
-    "mma-boxing-fight-draft-guide"
+    "mma-boxing-fight-draft-guide",
+    "power-play-and-penalty-kill"
   ],
   "takeaways": [
     "A six-player roster plus a coach means every pick is a large fraction of the team, so a single weak slot has nowhere to hide.",

@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-22",
   "updatedAt": "2026-09-22",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
     "golf",
@@ -44,7 +44,8 @@
   "relatedArticles": [
     "how-golf-q-school-works",
     "how-a-golf-cut-works",
-    "golf-career-sim-guide"
+    "golf-career-sim-guide",
+    "pressure-and-nerves-in-golf-sims"
   ],
   "takeaways": [
     "There are three different doors into a tournament field — an exemption, a ranking or earnings position, and qualifying — and which one you are using changes how you should plan a season.",

@@ -7,7 +7,7 @@
   "featured": false,
   "publishedAt": "2026-08-13",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "language-learning",
   "tags": [
     "study methods",

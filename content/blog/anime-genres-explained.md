@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-08-13",
   "updatedAt": "2026-08-13",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "anime-creative",
   "tags": [
     "anime",
@@ -45,7 +45,9 @@
   "relatedArticles": [
     "anime-trivia-quiz-guide",
     "anime-coloring-app-guide",
-    "color-theory-for-beginners"
+    "color-theory-for-beginners",
+    "manga-vs-anime-differences",
+    "shonen-vs-seinen"
   ],
   "takeaways": [
     "Shōnen, shōjo, seinen and josei describe the readership a magazine was aimed at, not the content of the story, which is why a violent tragedy can be shōnen and a gentle comedy can be seinen.",

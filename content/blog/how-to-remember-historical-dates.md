@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
     "world history",
@@ -49,7 +49,8 @@
     "memory-techniques-that-work",
     "how-to-study-history-on-your-own",
     "world-history-timeline-guide",
-    "major-eras-of-world-history"
+    "major-eras-of-world-history",
+    "working-memory-and-training"
   ],
   "takeaways": [
     "Learn sequence before year. Knowing what came before what is more useful, more durable and far cheaper to acquire than a list of numbers.",

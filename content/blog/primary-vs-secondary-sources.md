@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
     "history",
@@ -46,7 +46,8 @@
     "how-historians-date-events",
     "bce-and-ce-explained",
     "major-eras-of-world-history",
-    "how-calendars-and-dating-systems-work"
+    "how-calendars-and-dating-systems-work",
+    "how-to-study-history-on-your-own"
   ],
   "takeaways": [
     "A primary source is evidence created at the time by someone with direct involvement; a secondary source interprets primary evidence afterwards.",

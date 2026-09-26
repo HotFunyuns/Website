@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-22",
   "updatedAt": "2026-09-22",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "language-learning",
   "tags": [
     "lao",
@@ -44,7 +44,9 @@
     "lao-alphabet-explained",
     "lao-phrases-for-travellers",
     "lao-tone-rules",
-    "dictation-practice-in-a-new-script"
+    "dictation-practice-in-a-new-script",
+    "is-lao-hard-to-learn",
+    "lao-greetings-and-politeness"
   ],
   "takeaways": [
     "Lao has its own set of numerals, encoded as a contiguous block of ten characters in the Unicode standard, and you will meet them on signage alongside Western digits rather than instead of them.",

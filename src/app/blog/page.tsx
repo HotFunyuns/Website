@@ -81,7 +81,7 @@ export default function BlogIndexPage() {
             App guides &amp; <em className="gold-text not-italic">deep dives</em>
           </>
         }
-        description="How our Android apps work, who they are for, and what to expect before you install — written by the team that builds them."
+        description="Guides and explainers on the subjects our Android apps deal with — history, mental math, languages, nutrition, sports and games — from the studio that builds them."
       />
 
       <section className="section-padding !pt-6" aria-label="Articles">

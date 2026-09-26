@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-08-13",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
     "soccer",
@@ -44,7 +44,8 @@
   "relatedArticles": [
     "soccer-draft-xi-guide",
     "basketball-positions-explained",
-    "how-to-build-a-balanced-basketball-roster"
+    "how-to-build-a-balanced-basketball-roster",
+    "clean-sheets-explained"
   ],
   "takeaways": [
     "Formation notation is read from the defence forward and leaves the goalkeeper out, so the digits always add up to ten.",

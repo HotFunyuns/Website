@@ -1,5 +1,11 @@
 # Publishing schedule
 
+> **Current process (2026-09-25):** new articles are released through the
+> approval-gated daily queue — at most one editorially approved article per
+> America/Los_Angeles day — described in
+> [publishing-workflow.md](./publishing-workflow.md). Everything below is the
+> historical record of the September 2026 releases.
+
 ## Status: superseded on 2026-09-04
 
 This document recommended a 90-day, ten-batch drip release for the gated drafts.

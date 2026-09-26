@@ -159,8 +159,8 @@ export default function CategoryPage({ params }: { params: { category: string } 
                 {categoryPosts.length === 1
                   ? 'A guide'
                   : `${categoryPosts.length} guides`}{' '}
-                written by the team that builds these apps, covering how they work and where their
-                limits are{categoryPosts.length > 6 ? ' — a few of them below' : ''}.
+                from the studio that builds these apps, covering how they work and where their limits
+                are{categoryPosts.length > 6 ? ' — a few of them below' : ''}.
               </p>
             </Reveal>
 

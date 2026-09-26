@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "language-learning",
   "tags": [
     "khmer",
@@ -45,7 +45,8 @@
     "learn-khmer-beginners-guide",
     "khmer-vs-thai-script",
     "is-vietnamese-hard-to-learn",
-    "tracing-practice-for-new-scripts"
+    "tracing-practice-for-new-scripts",
+    "khmer-phrases-for-cambodia-travel"
   ],
   "takeaways": [
     "Khmer is not tonal, which removes an entire category of difficulty that Thai, Lao and Vietnamese learners have to deal with.",

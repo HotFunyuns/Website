@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
     "baseball",
@@ -43,7 +43,8 @@
     "baseball-stats-explained-for-beginners",
     "what-is-whip-in-baseball",
     "baseball-pitching-roles-explained",
-    "baseball-career-sim-guide"
+    "baseball-career-sim-guide",
+    "ops-and-slugging-explained"
   ],
   "takeaways": [
     "ERA is earned runs allowed multiplied by nine and divided by innings pitched — a rate per nine innings rather than a total.",

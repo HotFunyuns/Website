@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
     "baseball",
@@ -43,7 +43,8 @@
     "what-is-era-in-baseball",
     "baseball-stats-explained-for-beginners",
     "ops-and-slugging-explained",
-    "baseball-draft-gm-guide"
+    "baseball-draft-gm-guide",
+    "batting-order-strategy-explained"
   ],
   "takeaways": [
     "WHIP is walks plus hits, divided by innings pitched — a measure of how much traffic a pitcher allows on the bases.",

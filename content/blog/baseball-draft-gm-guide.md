@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-08-09",
   "updatedAt": "2026-08-13",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": ["baseball", "draft strategy", "statistics", "gm mode", "roster building"],
   "primaryKeyword": "baseball draft simulator app",

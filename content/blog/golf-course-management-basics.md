@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
     "golf",
@@ -42,7 +42,8 @@
     "golf-scoring-explained",
     "how-a-golf-cut-works",
     "golf-career-sim-guide",
-    "understanding-sports-sim-probability"
+    "understanding-sports-sim-probability",
+    "club-distance-gapping"
   ],
   "takeaways": [
     "Most strokes are lost to trouble rather than to poor striking, so the largest available improvement is choosing targets that make trouble unlikely.",

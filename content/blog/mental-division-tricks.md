@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
     "mental math",
@@ -48,7 +48,8 @@
     "multiplication-shortcuts-explained",
     "mental-math-tricks-that-work",
     "estimation-techniques-explained",
-    "percentages-in-your-head"
+    "percentages-in-your-head",
+    "mental-math-training-guide"
   ],
   "takeaways": [
     "Estimate the magnitude before you calculate. Almost every serious mental division error is a factor-of-ten error, and a two-second estimate catches all of them.",

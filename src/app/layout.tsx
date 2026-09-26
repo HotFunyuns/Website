@@ -99,7 +99,10 @@ const organizationSchema = {
   // forms resolve to the same resource, but every URL we publish about ourselves
   // should be spelled one way.
   url: `${companyInfo.siteUrl}/`,
-  logo: `${companyInfo.siteUrl}/favicon.svg`,
+  // The 180×180 PNG of the crown mark (src/app/apple-icon.png), not the 32-unit
+  // favicon SVG: Google documents a raster logo of at least 112×112 for
+  // Organization markup, and this is the same mark at a size that meets it.
+  logo: `${companyInfo.siteUrl}/apple-icon.png`,
   email: companyInfo.supportEmail,
   description: companyInfo.description,
   foundingDate: companyInfo.founded,

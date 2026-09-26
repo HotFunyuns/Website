@@ -513,21 +513,28 @@ if (!existsSync(llmsPath)) {
   const llmsSet = new Set(llmsUrls);
   for (const url of llmsSet) checkAdvertisedUrl('llms.txt', url);
 
-  for (const url of [...sitemapPosts, ...sitemapApps]) {
+  for (const url of sitemapApps) {
     if (!llmsSet.has(url)) fail(`llms.txt omits ${url}, which the sitemap publishes`);
   }
   for (const url of llmsSet) {
     if (!sitemapSet.has(url)) fail(`llms.txt advertises ${url}, which the sitemap omits`);
   }
 
-  // Each article gets one index line, spelled the same way the feed spells it.
-  // Comparing against the feed proves the two surfaces were generated from one
-  // collection, and the fixed shape proves no body text crept in.
-  for (const [slug, post] of feedPostsBySlug) {
-    const expected = `- [${post.title}](${post.url}): ${post.description}`;
-    if (!llms.includes(expected)) {
-      fail(`llms.txt entry for ${slug} does not match the feed's title/description exactly`);
-    }
+  // llms.txt is an index, not a third copy of the article list. It used to
+  // restate every feed item (155 KB at 525 articles); it now names the feed and
+  // the sitemap, which are the complete lists, and stays small. An article URL
+  // may still appear — nothing forbids pointing at a cornerstone — but the file
+  // must not grow back into a duplicate of the feed.
+  const LLMS_MAX_BYTES = 32 * 1024;
+  if (Buffer.byteLength(llms) > LLMS_MAX_BYTES) {
+    fail(`llms.txt is ${Buffer.byteLength(llms)} bytes; keep it under ${LLMS_MAX_BYTES} — list the feed, not every article`);
+  }
+  for (const doc of [`${SITE}/sitemap.xml`, `${SITE}/blog/rss.xml`]) {
+    if (!llms.includes(doc)) fail(`llms.txt does not point at ${doc}, the complete list it defers to`);
+  }
+  const articleLines = [...llmsSet].filter((url) => feedPostsBySlug.has(url.replace(`${SITE}/blog/`, '').replace(/\/$/, '')));
+  if (articleLines.length > 25) {
+    fail(`llms.txt lists ${articleLines.length} articles — it is duplicating the feed again`);
   }
 }
 

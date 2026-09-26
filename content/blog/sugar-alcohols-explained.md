@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": [
     "sugar alcohols",
@@ -44,7 +44,8 @@
     "net-carbs-explained-keto-tracking",
     "reading-nutrition-labels",
     "added-sugars-vs-total-sugars",
-    "keto-macros-explained"
+    "keto-macros-explained",
+    "glycemic-index-and-load"
   ],
   "takeaways": [
     "Sugar alcohols (polyols) are carbohydrates used as sweeteners; they appear under 'Total Carbohydrate' on a Nutrition Facts label.",

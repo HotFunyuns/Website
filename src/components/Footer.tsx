@@ -33,7 +33,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Link href="/" className="inline-flex items-center gap-3" aria-label="Reign Creative LLC — home">
-              <BrandMark className="h-10 w-10 ring-1 ring-white/15" />
+              <BrandMark className="h-10 w-10 ring-1 ring-white/15" gradientId="crown-gold-footer" />
               <span className="font-display text-xl font-semibold tracking-tight text-white">
                 Reign Creative <span className="text-gold-300">LLC</span>
               </span>

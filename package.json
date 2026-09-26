@@ -5,7 +5,16 @@
   "description": "Official website for Reign Creative LLC — mobile apps and digital products",
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/audit-catalog.mjs && next build && node scripts/validate-content.mjs && node scripts/postbuild-normalize-urls.mjs",
+    "build": "node scripts/audit-catalog.mjs && next build && node scripts/validate-content.mjs && node scripts/audit-authorship.mjs && node scripts/postbuild-normalize-urls.mjs",
+    "test": "node scripts/tests/run.mjs",
+    "queue:status": "node scripts/publish-queue.mjs status",
+    "queue:release": "node scripts/publish-queue.mjs release",
+    "queue:report": "node scripts/publish-queue.mjs report",
+    "links:after-publish": "node scripts/post-publication-links.mjs",
+    "audit:authorship": "node scripts/audit-authorship.mjs",
+    "audit:entities": "node scripts/audit-entities.mjs",
+    "report:search-console": "node scripts/search-console-refresh.mjs",
+    "verify:live": "node scripts/verify-live.mjs",
     "build:only": "next build",
     "postbuild:urls": "node scripts/postbuild-normalize-urls.mjs",
     "start": "next start",
@@ -26,7 +35,7 @@
     "audit:urls": "npm run audit:canonicals && npm run audit:redirects && npm run audit:duplicates && npm run audit:backnav",
     "verify:play": "node scripts/verify-play-listings.mjs",
     "research:intent": "node scripts/collect-search-intent.mjs",
-    "audit:all": "npm run audit:content && npm run audit:catalog && npm run audit:output && npm run audit:schema && npm run audit:analytics && npm run report:links && npm run audit:urls && npm run audit:feeds",
+    "audit:all": "npm run audit:content && npm run audit:catalog && npm run audit:output && npm run audit:schema && npm run audit:analytics && npm run audit:authorship && npm run audit:entities && npm run report:links && npm run audit:urls && npm run audit:feeds && npm test",
     "audit:backnav": "node scripts/audit-back-navigation.mjs"
   },
   "dependencies": {

@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-22",
   "updatedAt": "2026-09-22",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
     "brain training",
@@ -45,7 +45,8 @@
   "relatedArticles": [
     "do-brain-training-apps-work",
     "how-quiz-difficulty-works",
-    "mental-math-training-guide"
+    "mental-math-training-guide",
+    "daily-challenge-formats-explained"
   ],
   "takeaways": [
     "Pick the level where you get most answers right but not all of them. As a working rule of ours — not a research constant — aim for roughly four correct in five, and move when you are reliably above that.",

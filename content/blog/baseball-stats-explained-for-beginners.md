@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-08-13",
   "updatedAt": "2026-08-13",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
     "baseball",
@@ -44,7 +44,9 @@
   "relatedArticles": [
     "baseball-draft-gm-guide",
     "basketball-positions-explained",
-    "how-to-build-a-balanced-basketball-roster"
+    "how-to-build-a-balanced-basketball-roster",
+    "ops-and-slugging-explained",
+    "what-is-era-in-baseball"
   ],
   "takeaways": [
     "Rate statistics like ERA, WHIP and OBP describe performance per opportunity; counting statistics like home runs describe accumulated totals, and mixing the two up is the most common beginner error.",

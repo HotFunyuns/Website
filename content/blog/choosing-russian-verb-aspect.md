@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "language-learning",
   "tags": ["russian", "grammar", "verbs", "how-to"],
   "primaryKeyword": "russian verbal aspect",
@@ -38,7 +38,8 @@
     "russian-verbs-of-motion",
     "russian-cases-explained-for-beginners",
     "how-long-does-it-take-to-learn-russian",
-    "russian-word-order-and-emphasis"
+    "russian-word-order-and-emphasis",
+    "russian-cursive-handwriting-guide"
   ],
   "takeaways": [
     "Aspect is not tense. It answers whether an action is viewed as a bounded whole or as a process, and Russian makes you answer it every time you use a verb.",

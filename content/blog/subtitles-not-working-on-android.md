@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "video-utility",
   "tags": ["video", "subtitles", "android", "troubleshooting"],
   "primaryKeyword": "subtitles not working on android",
@@ -38,7 +38,8 @@
     "subtitle-formats-explained",
     "android-video-players-compared",
     "how-to-play-mkv-files-on-android",
-    "video-file-formats-explained"
+    "video-file-formats-explained",
+    "frame-rate-and-resolution-explained"
   ],
   "takeaways": [
     "Step zero is checking whether your player advertises subtitle support at all, because a missing feature looks exactly like a broken file.",

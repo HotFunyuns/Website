@@ -37,12 +37,35 @@ The static output is generated in the `out/` directory, ready to deploy to any s
 | Page | Path | Purpose |
 |------|------|---------|
 | Home | `/` | Hero, company intro, featured apps, CTA |
-| About | `/about/` | Company overview, values, what sets us apart |
+| About | `/about/` | Who the company is (Reign Creative LLC / Reign Collective Apps), what it makes, how facts are checked, AI use, corrections |
 | Apps | `/apps/` | Full app portfolio with cards and stats |
+| Blog | `/blog/` | Articles, plus `/blog/category/<id>/` and `/blog/topics/<hub>/` |
+| Author | `/authors/reign-creative-llc/` | The byline on every article and how articles are made |
+| Editorial Policy | `/editorial-policy/` | Topics, AI use, sourcing, dates, corrections, ownership disclosure |
+| Press | `/press/` | Verified company facts and the app catalogue |
 | Support | `/support/` | Contact form, support topics, contact info |
 | Privacy Policy | `/privacy/` | Privacy policy for apps and website |
 | Terms of Service | `/terms/` | Terms for app users and site visitors |
 | Developer Info | `/app-support/` | Company details, app list, policies (for app store review) |
+
+---
+
+## Publishing Articles
+
+Articles live in `content/blog/` (spec: `docs/content-spec.md`). New ones are
+released through an approval-gated queue — at most one editorially approved
+article per America/Los_Angeles day — by `.github/workflows/publish-queue.yml`,
+or by hand. Full procedure: `docs/publishing-workflow.md`.
+
+```bash
+npm run queue:status                          # what is queued, what happens next
+npm run queue:release -- --slug <slug>        # release one approved article now
+npm run links:after-publish -- <slug>         # the post-publication linking pass
+npm test                                      # unit and release-rehearsal tests
+npm run report:links                          # internal-link graph and audit
+npm run report:search-console                 # refresh report from Search Console CSV exports
+node scripts/verify-live.mjs --smoke          # check production after a deploy
+```
 
 ---
 

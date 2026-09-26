@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
     "calendars",
@@ -46,7 +46,8 @@
     "bce-and-ce-explained",
     "how-historians-date-events",
     "primary-vs-secondary-sources",
-    "major-eras-of-world-history"
+    "major-eras-of-world-history",
+    "world-history-timeline-guide"
   ],
   "takeaways": [
     "Calendars exist to keep a whole number of days aligned with astronomical cycles that are not whole numbers of days, which is why leap rules are necessary.",

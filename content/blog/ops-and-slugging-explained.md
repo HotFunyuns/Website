@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
     "baseball",
@@ -43,7 +43,8 @@
     "baseball-stats-explained-for-beginners",
     "what-is-whip-in-baseball",
     "batting-order-strategy-explained",
-    "baseball-career-sim-guide"
+    "baseball-career-sim-guide",
+    "what-is-era-in-baseball"
   ],
   "takeaways": [
     "Slugging percentage is total bases divided by at-bats, so it weights a home run as four times a single.",

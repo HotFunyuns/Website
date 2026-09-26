@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "action-arcade",
   "tags": ["tower defense", "enemies", "strategy", "tactics"],
   "primaryKeyword": "how to counter flying enemies in tower defense",
@@ -38,7 +38,8 @@
     "tower-types-and-what-they-counter",
     "tower-defense-strategy-basics",
     "aura-towers-and-support-stacking",
-    "boss-pattern-recognition"
+    "boss-pattern-recognition",
+    "tower-defense-camera-controls"
   ],
   "takeaways": [
     "Armour taxes each individual hit, so fast weak shots lose most of their value and slow heavy shots keep most of theirs — the answer is rarely more of the same tower.",

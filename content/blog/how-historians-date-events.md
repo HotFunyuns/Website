@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-08-13",
   "updatedAt": "2026-08-13",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
     "world history",
@@ -47,7 +47,8 @@
   "relatedArticles": [
     "world-history-timeline-guide",
     "mental-math-tricks-that-work",
-    "mental-math-training-guide"
+    "mental-math-training-guide",
+    "how-to-study-history-on-your-own"
   ],
   "takeaways": [
     "Dating methods split into two families: relative methods that establish order without numbers, and absolute methods that attach a figure with a stated uncertainty.",

@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-22",
   "updatedAt": "2026-09-22",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "action-arcade",
   "tags": [
     "tower defense",
@@ -45,7 +45,8 @@
     "countering-armoured-and-flying-enemies",
     "battery-and-performance-in-mobile-games",
     "world-boss-waves-in-tower-defense",
-    "build-pads-and-custom-tower-positions"
+    "build-pads-and-custom-tower-positions",
+    "what-does-td-mean-in-games"
   ],
   "takeaways": [
     "Losing a wave you could not see is a viewing problem, not a strategy problem, and it has a different fix: change the camera before you change the layout.",

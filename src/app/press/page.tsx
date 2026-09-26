@@ -88,7 +88,7 @@ const shortBoilerplate = companyInfo.description;
 const categoryList = activeCategories.map((category) => category.shortLabel);
 const categoryPhrase = `${categoryList.slice(0, -1).join(', ')} and ${categoryList[categoryList.length - 1]}`;
 
-const longBoilerplate = `${companyInfo.name} is an independent Android app studio founded in ${companyInfo.founded}, publishing on Google Play as ${companyInfo.developerName}. Its ${appCount}-app catalogue spans ${categoryPhrase}. Every app is free to download. The studio also writes in-house guides to the apps it builds at ${companyInfo.domain}/blog/.`;
+const longBoilerplate = `${companyInfo.name} is an independent Android app studio founded in ${companyInfo.founded}, publishing on Google Play as ${companyInfo.developerName}. Its ${appCount}-app catalogue spans ${categoryPhrase}. Every app is free to download. The studio also publishes guides on the subjects its apps cover at ${companyInfo.domain}/blog/.`;
 
 export default function PressPage() {
   return (

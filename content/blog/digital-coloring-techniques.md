@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "anime-creative",
   "tags": [
     "digital art",
@@ -45,7 +45,8 @@
   "relatedArticles": [
     "anime-coloring-app-guide",
     "color-theory-for-beginners",
-    "anime-genres-explained"
+    "anime-genres-explained",
+    "how-to-shade-anime-hair"
   ],
   "takeaways": [
     "The pale outline left by a fill is anti-aliasing, not a bug — the edge pixels of the line art are partly transparent, so the fill only partly covers them.",

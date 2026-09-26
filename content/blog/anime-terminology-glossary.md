@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "anime-creative",
   "tags": [
     "anime",
@@ -44,7 +44,9 @@
     "anime-genres-explained",
     "anime-art-styles-explained",
     "word-game-strategy-guide",
-    "anime-trivia-quiz-guide"
+    "anime-trivia-quiz-guide",
+    "manga-vs-anime-differences",
+    "shonen-vs-seinen"
   ],
   "takeaways": [
     "Demographic terms — shōnen, shōjo, seinen, josei — describe intended readership, not content or art style.",

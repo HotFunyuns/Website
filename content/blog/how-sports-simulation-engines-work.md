@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
     "sports sim",
@@ -46,7 +46,8 @@
     "understanding-sports-sim-probability",
     "baseball-stats-explained-for-beginners",
     "how-fantasy-draft-strategy-works",
-    "baseball-draft-gm-guide"
+    "baseball-draft-gm-guide",
+    "batting-order-strategy-explained"
   ],
   "takeaways": [
     "Every sports simulation has the same three layers: numeric inputs describing the roster, a model that converts those numbers into probabilities, and a sampling step that turns probabilities into one concrete result.",

@@ -1,0 +1,144 @@
+# Releases at most one editorially approved article per Los Angeles day.
+#
+# GitHub cron runs in UTC and ignores daylight saving, so the schedule only
+# decides how often to *check*. scripts/publish-queue.mjs decides whether it is
+# release time in America/Los_Angeles (09:00 or later), whether anything was
+# already released today, and which approved article is due. Most runs end
+# after the first step with "nothing to do" — no install, no build.
+#
+# When an article is due, the job releases it, runs the post-publication
+# linking pass, builds the whole site with every gate, and only then commits
+# and pushes. A failed check, a failed build or a failed audit stops the job
+# before the commit, so nothing reaches main or production.
+#
+# Pushes made with GITHUB_TOKEN deliberately do not trigger other workflows, so
+# the job dispatches the deploy workflow (nextjs.yml) itself after pushing.
+#
+# Reruns are safe: the release step reads today's releases first, and a second
+# run on the same Los Angeles day finds one and stops.
+#
+# Manual use: Actions → "Publish approved article (daily queue)" → Run workflow.
+# See docs/publishing-workflow.md.
+
+name: Publish approved article (daily queue)
+
+on:
+  schedule:
+    # Hourly, at :17 past to stay clear of the top-of-hour rush on shared runners.
+    - cron: '17 * * * *'
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Manual override: release this scheduled, editorially approved article now, ignoring its publishAt (leave empty for the next due one)'
+        required: false
+        default: ''
+      allow_second_today:
+        description: 'Allow a second release today (explicit override of the one-per-day limit)'
+        type: boolean
+        default: false
+      ignore_release_hour:
+        description: 'Release before 09:00 America/Los_Angeles'
+        type: boolean
+        default: false
+      dry_run:
+        description: 'Show what would happen without committing or deploying'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write # commit the release to main
+  actions: write # dispatch the deploy workflow
+
+concurrency:
+  group: publish-queue
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      SLUG_INPUT: ${{ inputs.slug }}
+      ALLOW_SECOND: ${{ inputs.allow_second_today }}
+      IGNORE_HOUR: ${{ inputs.ignore_release_hour }}
+      DRY_RUN: ${{ inputs.dry_run }}
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Node built-ins only, so this runs before any install.
+      - name: Check eligibility (America/Los_Angeles)
+        id: check
+        run: |
+          args=()
+          if [ -n "$SLUG_INPUT" ]; then args+=(--slug "$SLUG_INPUT"); fi
+          if [ "$ALLOW_SECOND" = "true" ]; then args+=(--allow-second-today); fi
+          if [ "$IGNORE_HOUR" = "true" ]; then args+=(--ignore-release-hour); fi
+          node scripts/publish-queue.mjs check --ci "${args[@]}"
+
+      - name: Install dependencies
+        if: steps.check.outputs.eligible == 'true'
+        run: npm ci
+
+      - name: Release and link
+        if: steps.check.outputs.eligible == 'true'
+        id: release
+        env:
+          PLANNED: ${{ steps.check.outputs.slug }}
+        run: |
+          args=(--expect "$PLANNED")
+          if [ -n "$SLUG_INPUT" ]; then args+=(--slug "$SLUG_INPUT"); fi
+          if [ "$ALLOW_SECOND" = "true" ]; then args+=(--allow-second-today); fi
+          if [ "$IGNORE_HOUR" = "true" ]; then args+=(--ignore-release-hour); fi
+          if [ "$DRY_RUN" = "true" ]; then args+=(--dry-run); fi
+          node scripts/publish-queue.mjs release --ci "${args[@]}"
+
+      # The same build that deploys: export, draft/scheduled containment,
+      # the inbound-link gate, authorship and date checks, URL normalisation.
+      - name: Build and validate
+        if: steps.release.outputs.released == 'true'
+        run: |
+          npm run build
+          node scripts/audit-canonicals.mjs
+          node scripts/audit-redirects.mjs
+          node scripts/audit-duplicate-content.mjs
+          node scripts/validate-structured-data.mjs
+          node scripts/validate-sitemap-rss.mjs
+          node scripts/audit-output.mjs
+          npm test
+
+      - name: Confirm the article is linked in the built site
+        if: steps.release.outputs.released == 'true'
+        env:
+          RELEASED: ${{ steps.release.outputs.slug }}
+        run: node scripts/post-publication-links.mjs "$RELEASED" --verify --dry-run
+
+      - name: Regenerate reports
+        if: steps.release.outputs.released == 'true'
+        run: |
+          node scripts/link-report.mjs
+          node scripts/publish-queue.mjs report
+
+      - name: Commit and push
+        if: steps.release.outputs.released == 'true'
+        env:
+          RELEASED: ${{ steps.release.outputs.slug }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/blog docs/internal-linking-report.md docs/data/link-graph.json docs/data/link-graph-edges.csv docs/publishing-queue-report.md
+          git commit -m "Publish $RELEASED" -m "Released by the daily publishing queue (.github/workflows/publish-queue.yml) with the post-publication linking pass."
+          git push origin HEAD:main
+
+      - name: Deploy
+        if: steps.release.outputs.released == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run nextjs.yml --ref main

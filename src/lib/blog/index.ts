@@ -2,14 +2,19 @@ import 'server-only';
 import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { apps, categories, getAppBySlug, type CategoryId } from '@/data/apps';
+import { getAuthor, type AuthorInfo } from '@/data/authors';
 import { hubIds, hubs as allHubs, type HubInfo } from '@/data/hubs';
 import { countWords, extractToc, readingMinutes } from './markdown';
+import { relevanceProfile, relevanceScore, type RelevanceProfile } from './relevance.mjs';
 import {
+  APPROVAL_GATE_AFTER,
+  DAILY_RELEASE_LIMIT,
   DEMAND_TIERS,
   DISCLAIMER_KINDS,
   POST_STATUSES,
   SEARCH_INTENTS,
   isPublicPost,
+  publicationDay,
   type BlogPost,
   type PostFrontmatter,
 } from './types';
@@ -54,8 +59,11 @@ function parse(slug: string, raw: string): BlogPost {
   need('title');
   need('metaTitle');
   need('description');
-  need('author');
   need('primaryKeyword');
+
+  if (!getAuthor(need('author'))) {
+    fail(slug, `"author" ${JSON.stringify(data.author)} is not an author id in src/data/authors.ts`);
+  }
 
   if (!POST_STATUSES.includes(data.status)) {
     fail(slug, `"status" must be one of ${POST_STATUSES.join(', ')}`);
@@ -74,6 +82,57 @@ function parse(slug: string, raw: string): BlogPost {
   }
   if (data.researchDate !== undefined && !isDate(data.researchDate)) {
     fail(slug, '"researchDate" must be an ISO date (YYYY-MM-DD)');
+  }
+  if (data.updatedAt < data.publishedAt) fail(slug, '"updatedAt" is earlier than "publishedAt"');
+
+  /* ------------------------------------------------ the publishing queue */
+
+  for (const field of ['editorialApproved', 'sameDayOverride'] as const) {
+    if (data[field] !== undefined && typeof data[field] !== 'boolean') {
+      fail(slug, `"${field}" must be true or false when present`);
+    }
+  }
+  if (data.publishAt !== undefined && !isDate(data.publishAt)) {
+    fail(slug, '"publishAt" must be an ISO date (YYYY-MM-DD)');
+  }
+  if (data.status === 'scheduled') {
+    // Queuing an article is approving it for release, so an unapproved one has
+    // no business in the queue — it stays in `review` until a person signs off.
+    if (data.editorialApproved !== true) {
+      fail(slug, 'a scheduled article must carry "editorialApproved": true — keep it in "review" until it is approved');
+    }
+    if (!data.publishAt) fail(slug, 'a scheduled article needs "publishAt", the earliest day it may be released');
+  }
+  if (data.status === 'published') {
+    // `publishedAt` records the day an article went live. A future one is a
+    // pre-dated claim that bypasses the queue's approval and daily limit.
+    if (data.publishedAt > publicationDay()) {
+      fail(
+        slug,
+        `published with a future publishedAt (${data.publishedAt}) — use "status": "scheduled" with "publishAt"; the release step stamps the real date`
+      );
+    }
+    if (data.publishedAt > APPROVAL_GATE_AFTER && data.editorialApproved !== true) {
+      fail(slug, `published after ${APPROVAL_GATE_AFTER} without "editorialApproved": true`);
+    }
+  }
+  if (data.sameDayOverride && !(data.status === 'published' && data.publishedAt > APPROVAL_GATE_AFTER)) {
+    fail(slug, '"sameDayOverride" is only meaningful on an article released through the queue');
+  }
+  if (data.corrections !== undefined) {
+    if (!Array.isArray(data.corrections)) fail(slug, '"corrections" must be an array when present');
+    for (const correction of data.corrections) {
+      if (!isDate(correction?.date ?? '') || !correction?.note?.trim()) {
+        fail(slug, 'each correction needs an ISO "date" and a "note"');
+      }
+      // A correction is a content change, so the modified date must reflect it.
+      if (correction.date > data.updatedAt) {
+        fail(slug, `correction dated ${correction.date} is later than "updatedAt" ${data.updatedAt}`);
+      }
+      if (correction.date < data.publishedAt) {
+        fail(slug, `correction dated ${correction.date} predates publication`);
+      }
+    }
   }
 
   for (const appSlug of needList('relatedApps') as string[]) {
@@ -158,6 +217,24 @@ function loadAll(): BlogPost[] {
     }
   }
 
+  // One approved article per Los Angeles day. The release step enforces this
+  // before it writes anything; checking it again here means a workflow that
+  // misfires, a rerun, or a hand edit cannot quietly ship two. A deliberate
+  // second release carries `sameDayOverride`, written by the release command.
+  const releasesByDay = new Map<string, string[]>();
+  for (const post of posts) {
+    if (post.status !== 'published' || post.publishedAt <= APPROVAL_GATE_AFTER || post.sameDayOverride) continue;
+    releasesByDay.set(post.publishedAt, [...(releasesByDay.get(post.publishedAt) ?? []), post.slug]);
+  }
+  releasesByDay.forEach((slugs, day) => {
+    if (slugs.length > DAILY_RELEASE_LIMIT) {
+      fail(
+        slugs[1],
+        `${slugs.length} articles released on ${day} (${slugs.join(', ')}); the limit is ${DAILY_RELEASE_LIMIT} — use npm run queue:release -- --allow-second-today for a deliberate override`
+      );
+    }
+  });
+
   // Two articles chasing one primary keyword compete with each other in the
   // same result set, so the collision is rejected at build time rather than
   // discovered months later in Search Console.
@@ -203,20 +280,87 @@ export function blogCategories() {
 
 export const featuredPosts: BlogPost[] = posts.filter((post) => post.featured);
 
-/** Explicit picks first, then same-category fallbacks, so a cluster never dead-ends. */
+const profiles = new Map<string, RelevanceProfile>(posts.map((post) => [post.slug, relevanceProfile(post)]));
+
+/** How related two published articles are — see src/lib/blog/relevance.mjs. */
+export function postRelevance(a: BlogPost, b: BlogPost): number {
+  const pa = profiles.get(a.slug) ?? relevanceProfile(a);
+  const pb = profiles.get(b.slug) ?? relevanceProfile(b);
+  return relevanceScore(pa, pb);
+}
+
+/**
+ * Explicit picks first, then the most relevant published articles, so a cluster
+ * never dead-ends and never pads with an unrelated one.
+ *
+ * The fallback used to be "the newest articles in the same category", which in a
+ * 224-article category meant every article with a free slot recommended the
+ * same alphabetically-first handful from the latest release — a history piece
+ * on a mental-math cornerstone. Relevance comes from the article's own metadata,
+ * so the picks are stable: they change when the corpus gains a closer match,
+ * not because something newer exists. Ties go to the newer article, then slug.
+ * Unpublished articles cannot appear here: every candidate comes from `posts`.
+ */
 export function getRelatedPosts(post: BlogPost, count = 3): BlogPost[] {
   const explicit = post.relatedArticles
     .map((slug) => getPostBySlug(slug))
     .filter((p): p is BlogPost => Boolean(p));
+  const taken = new Set([post.slug, ...explicit.map((p) => p.slug)]);
 
-  const sameCategory = posts.filter(
-    (p) => p.slug !== post.slug && p.category === post.category && !explicit.includes(p)
-  );
-  const rest = posts.filter(
-    (p) => p.slug !== post.slug && p.category !== post.category && !explicit.includes(p)
-  );
+  const fallback = posts
+    .filter((p) => !taken.has(p.slug))
+    .map((p) => ({ post: p, score: postRelevance(post, p) }))
+    .filter((candidate) => candidate.score >= 1)
+    .sort(
+      (a, b) =>
+        b.score - a.score ||
+        b.post.publishedAt.localeCompare(a.post.publishedAt) ||
+        a.post.slug.localeCompare(b.post.slug)
+    )
+    .map((candidate) => candidate.post);
 
-  return [...explicit, ...sameCategory, ...rest].slice(0, count);
+  return [...explicit, ...fallback].slice(0, count);
+}
+
+/** The registry entry behind an article's byline. The loader guarantees it exists. */
+export function getPostAuthor(post: Pick<BlogPost, 'author' | 'slug'>): AuthorInfo {
+  const author = getAuthor(post.author);
+  if (!author) throw new Error(`content/blog/${post.slug}.md — unknown author "${post.author}"`);
+  return author;
+}
+
+/**
+ * How many other published articles link to each one, in prose or in their
+ * `relatedArticles` — the articles the rest of the site already points readers
+ * to. Used to pick a category's "most referenced" guides from evidence in the
+ * corpus rather than by hand.
+ */
+const referenceCounts = (() => {
+  const counts = new Map<string, number>(posts.map((post) => [post.slug, 0]));
+  for (const post of posts) {
+    const targets = new Set(post.relatedArticles);
+    const bodyLink = /\]\(\/blog\/([a-z0-9-]+)\/\)/g;
+    let match: RegExpExecArray | null;
+    while ((match = bodyLink.exec(post.body)) !== null) targets.add(match[1]);
+    targets.forEach((slug) => {
+      if (slug !== post.slug && counts.has(slug)) counts.set(slug, (counts.get(slug) ?? 0) + 1);
+    });
+  }
+  return counts;
+})();
+
+/** The published articles in a category that other articles link to most. */
+export function mostReferencedInCategory(categoryId: CategoryId, count = 3): BlogPost[] {
+  return getPostsByCategory(categoryId)
+    .map((post) => ({ post, refs: referenceCounts.get(post.slug) ?? 0 }))
+    .sort((a, b) => b.refs - a.refs || a.post.slug.localeCompare(b.post.slug))
+    .slice(0, count)
+    .map((entry) => entry.post);
+}
+
+/** Published articles bylined to an author, newest first. */
+export function getPostsByAuthor(authorId: string): BlogPost[] {
+  return posts.filter((post) => post.author === authorId);
 }
 
 export function getPostApps(post: BlogPost) {

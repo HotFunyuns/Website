@@ -6,7 +6,7 @@
   "status": "published",
   "publishedAt": "2026-08-09",
   "updatedAt": "2026-09-04",
-  "author": "Reign Creative Team",
+  "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
     "draft strategy",
@@ -46,7 +46,8 @@
     "football-draft-gm-guide",
     "baseball-draft-gm-guide",
     "hockey-draft-gm-guide",
-    "basketball-career-sim-guide"
+    "basketball-career-sim-guide",
+    "basketball-advanced-stats-explained"
   ],
   "takeaways": [
     "A draft simulator is a constrained optimisation puzzle: a fixed number of picks, a pool you do not control, and a scoring model you can only infer from results.",
