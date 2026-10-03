@@ -199,7 +199,7 @@ Most comparison guides list features. These four questions predict whether you w
 
 **Where does your data live?** The Data safety section on any Google Play listing states what an app collects and shares. In Protein Diet Tracker, entries stay on your device and no account is required, which also means you are responsible for them — an uninstall takes the history with it.
 
-**Does it require a whole philosophy?** Some trackers assume a specific diet. If you are counting one number, an app that totals what you enter without pushing a plan will annoy you less. If you are specifically eating low-carb, a dedicated tool like [Keto Diet Tracker](/apps/keto-diet-tracker/) that handles [net carb arithmetic](/blog/net-carbs-explained-keto-tracking/) for you is the better fit than a general tracker you have to do mental maths around. Both sit alongside the rest of our [health and nutrition apps](/apps/category/health-nutrition/) if you want to compare them.
+**Does it require a whole philosophy?** Some trackers assume a specific diet. If you are counting one number, an app that totals what you enter without pushing a plan will annoy you less. If you are specifically eating low-carb, a dedicated tool like [Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) that handles [net carb arithmetic](/blog/net-carbs-explained-keto-tracking/) for you is the better fit than a general tracker you have to do mental maths around. Both sit alongside the rest of our [health and nutrition apps](/apps/category/health-nutrition/) if you want to compare them.
 
 ## A realistic first month
 

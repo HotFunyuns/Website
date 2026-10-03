@@ -37,7 +37,9 @@
     "golf-scoring-explained",
     "golf-course-management-basics",
     "club-distance-gapping",
-    "how-golf-q-school-works"
+    "how-golf-q-school-works",
+    "golf-rules-for-beginners",
+    "golf-stats-to-track"
   ],
   "takeaways": [
     "Strokes gained measures a golfer's performance relative to the field they are competing against, rather than against par.",

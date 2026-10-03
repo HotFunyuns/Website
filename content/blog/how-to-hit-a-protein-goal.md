@@ -168,6 +168,6 @@ The design brief is speed: a tracker only earns its place if opening it never fe
 
 You set your own daily goals. The app measures the day against your numbers and does not prescribe them.
 
-It is free to download on Google Play, supported by ads, with optional in-app purchases, and entries stay on your device rather than on our servers. If carbohydrate is the number you are managing instead, [Keto Diet Tracker: Low Carb](/apps/keto-diet-tracker/) is the equivalent tool for that.
+It is free to download on Google Play, supported by ads, with optional in-app purchases, and entries stay on your device rather than on our servers. If carbohydrate is the number you are managing instead, [Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) is the equivalent tool for that.
 
 **This article is general information, not medical or dietary advice, and it has not been reviewed by a doctor or registered dietitian.** Talk to a qualified professional before changing how you eat, especially if you are pregnant, managing a medical condition or taking medication. The rest of our nutrition tools are under [health and nutrition](/apps/category/health-nutrition/).

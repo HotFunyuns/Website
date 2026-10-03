@@ -5,7 +5,13 @@
   "description": "Two machines can return the same average and feel nothing alike. What volatility measures, how regulators calculate it, and what it changes in a coin-only game.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Anime Casino Slot Machine Game, had twenty-five anime and manga machines each with its own volatility, coins that cannot be transferred or sold, a coin balance refilled by daily rewards and an app page listing every machine; the app, now Vegas Casino Slots JACKPOT WIN, has a listing that describes reel-based slots with virtual coins and virtual jackpots and coins that cannot be redeemed for cash, without detailing machines, and the article now says only that."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "anime-creative",
   "tags": [
@@ -68,7 +74,7 @@
     },
     {
       "question": "Does volatility matter in a game that only uses virtual coins?",
-      "answer": "It matters for pacing rather than for money. In a social casino game such as Anime Casino Slot Machine Game, coins cannot be transferred, sold or redeemed, so volatility determines how often something happens and how long a coin balance lasts, not what anything costs. A player who wants steady activity in a short session and a player who wants rare, large events are looking for opposite machines from the same set of twenty-five."
+      "answer": "It matters for pacing rather than for money. In a social casino game such as Vegas Casino Slots JACKPOT WIN, coins have no real-world monetary value and cannot be redeemed for cash, so volatility determines how often something happens and how long a coin balance lasts, not what anything costs. A player who wants steady activity in a short session and a player who wants rare, large events are looking for opposite kinds of machine."
     }
   ],
   "sources": [
@@ -138,8 +144,8 @@ Probability behaving counter-intuitively over short runs is not unique to slots,
 
 ## What volatility means when there is no money involved
 
-Anime Casino Slot Machine Game is our own app, built by Reign Creative, and it is a social casino game: twenty-five original anime and manga-themed machines played entirely with virtual coins, with no real-money gambling and no way to transfer, sell or redeem those coins. Each of the twenty-five is built with a different theme, reel layout and volatility.
+Vegas Casino Slots JACKPOT WIN is our own app, built by Reign Creative, and it is a social casino game: reel-based slot machines played with virtual coins and virtual jackpots, with no real-money gambling, no cash payouts or real-world prizes, and coins that have no real-world monetary value and cannot be redeemed for cash.
 
-That last clause is the reason this article exists. In a coin-only game, volatility is stripped of its financial consequence and left with its design consequence. It determines how often the screen does something, how quickly a coin balance moves, and whether a five-minute session is likely to contain any notable event at all. Choosing between machines becomes a question about the session you want — steady activity, or long quiet stretches with the possibility of something large — rather than a question about money. The [app page](/apps/anime-casino-slots/) lists what each machine is built around, and the coin balance simply refills through daily rewards rather than through a wallet.
+That is the reason this article exists. In a coin-only game, volatility is stripped of its financial consequence and left with its design consequence. It determines how often the screen does something, how quickly a coin balance moves, and whether a five-minute session is likely to contain any notable event at all. Choosing between machines becomes a question about the session you want — steady activity, or long quiet stretches with the possibility of something large — rather than a question about money. The game's listing does not publish a volatility figure for any machine, so the two levers above — how often something lands and how large it is when it does — are the way to read one; the [app page](/apps/anime-casino-slots/) covers what the listing does say.
 
 It is worth being precise about that boundary, because the vocabulary is borrowed wholesale from an industry where the stakes are real. We set out where the legal and platform lines actually fall in [our comparison of social casino play and real-money gambling](/blog/social-casino-vs-real-money-gambling/), and the rest of this category sits under [anime and creative games](/blog/category/anime-creative/).

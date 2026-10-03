@@ -5,7 +5,13 @@
   "description": "A selection rule with a number attached, plus what a difficulty label physically changes in an arithmetic drill and in a memory round.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said every difficulty ladder it names in our app, then called Mental Math & Memory Games, is shown on the app page; that page, for the app now named IQ Test & Brain Training Games, describes its features without listing individual modes or ladders, so the sentence now simply points to it."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -68,7 +74,7 @@
     },
     {
       "question": "Should I use an adaptive setting instead of choosing?",
-      "answer": "Adaptive settings are useful once you have picked a sensible level, not instead of picking one. In Mental Math & Memory Games, adaptive adjustment lengthens the task after three correct answers in a row and shortens it after two misses, clamped so it cannot fall below the floor of the level you chose. It tunes within a band; it does not choose the band."
+      "answer": "Adaptive settings are useful once you have picked a sensible level, not instead of picking one. In IQ Test & Brain Training Games, adaptive adjustment lengthens the task after three correct answers in a row and shortens it after two misses, clamped so it cannot fall below the floor of the level you chose. It tunes within a band; it does not choose the band."
     },
     {
       "question": "How long should I stay at a level before moving up?",
@@ -120,7 +126,7 @@ The four-in-five rule is a practical way of staying on the useful side of that l
 
 "Hard" is not a marking scheme. In a well-built practice app it is a different task, and knowing which property changed tells you whether moving up trains what you came for.
 
-In the arithmetic modes of Mental Math & Memory Games — our own app, built by Reign Creative — the ladders are explicit about it. Multiplication Rush runs tables of 1–9, then 1–12, then two-digit by one-digit, then two-digit by two-digit, then a mixed setting. Each step adds digits, which changes which stage of the calculation breaks first: recall at the bottom of the ladder, holding partial products at the top. Mixed Operations runs Easy, Medium, Hard, Expert and Adaptive, where the change is less about digit count and more about which operations turn up and in what combination.
+In the arithmetic modes of IQ Test & Brain Training Games — our own app, built by Reign Creative — the ladders are explicit about it. Multiplication Rush runs tables of 1–9, then 1–12, then two-digit by one-digit, then two-digit by two-digit, then a mixed setting. Each step adds digits, which changes which stage of the calculation breaks first: recall at the bottom of the ladder, holding partial products at the top. Mixed Operations runs Easy, Medium, Hard, Expert and Adaptive, where the change is less about digit count and more about which operations turn up and in what combination.
 
 The memory side moves several properties at once. Its seven levels change how many items appear, how large the grid is, how long the reveal lasts and how long you hold the answer before typing it — Beginner sits at three or four items on a 2×2 grid with a slow reveal, Champion at up to twenty items on grids as large as 7×7 with the fastest reveal. One step up the memory ladder is therefore a bigger jump than one step up an arithmetic ladder, and it is worth expecting that rather than concluding you have gone backwards.
 
@@ -148,4 +154,4 @@ Move up when two or three consecutive sessions in the same mode, at the same dif
 
 When the numbers say you should move but the next level is clearly too far — a common gap on the memory ladder — there are two alternatives worth trying before you force it. The first is mixing problem types rather than raising difficulty: The Learning Scientists describe interleaving as switching between ideas while you study, and note that it feels harder than working through one type at a time while being more helpful in the long run. The What Works Clearinghouse practice guide on organising instruction makes a related recommendation about interleaving worked examples with problems to solve. The second is holding the difficulty and tightening the constraint — the same questions with a shorter clock, or with a single mistake ending the run.
 
-How a quiz app decides what counts as hard in the first place is a related and genuinely separate question, covered in [how quiz difficulty actually works](/blog/how-quiz-difficulty-works/). For what this whole category of practice does and does not support, [our brain training explainer](/blog/do-brain-training-apps-work/) is the evidence-led version. More sits in the [brain training games hub](/blog/topics/brain-training-games/) and the [education and brain category](/blog/category/education-brain/), and every ladder named above is on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+How a quiz app decides what counts as hard in the first place is a related and genuinely separate question, covered in [how quiz difficulty actually works](/blog/how-quiz-difficulty-works/). For what this whole category of practice does and does not support, [our brain training explainer](/blog/do-brain-training-apps-work/) is the evidence-led version. More sits in the [brain training games hub](/blog/topics/brain-training-games/) and the [education and brain category](/blog/category/education-brain/), and the app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

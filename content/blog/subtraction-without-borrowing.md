@@ -5,7 +5,13 @@
   "description": "Add the same amount to both numbers and the difference does not change, but the borrow disappears. Here is why that is safe, and how to pick what to add.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the full catalogue of our app, then called Mental Math & Memory Games, is on its app page; that page, now for IQ Test & Brain Training Games, describes the app without listing individual drills or techniques, and the sentence now points there only for a description of the app."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -161,6 +167,6 @@ England's national curriculum takes the same practical line for adults' purposes
 
 Three things need to be automatic before this method is fast: complements to 100 and 1,000, the decision about which direction to slide, and the restraint not to correct an answer that needs no correction.
 
-Mental Math & Memory Games, our own app at Reign Creative, drills the first of those in Subtraction Sprint, which includes a borrowing-practice difficulty built from precisely the shapes this method dissolves, and the Accuracy Trainer runs the same material untimed, ten questions at a time, with a hint and an explanation available when one goes wrong. The app's technique library carries the slide-both-numbers move as a named method with its own worked example and its own named common mistake, which is the opposite-directions error above. The full catalogue is on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+IQ Test & Brain Training Games, our own app at Reign Creative, drills the first of those in Subtraction Sprint, which includes a borrowing-practice difficulty built from precisely the shapes this method dissolves, and the Accuracy Trainer runs the same material untimed, ten questions at a time, with a hint and an explanation available when one goes wrong. The app's technique library carries the slide-both-numbers move as a named method with its own worked example and its own named common mistake, which is the opposite-directions error above. The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).
 
 Work one shape at a time. Twenty subtractions where the second number ends in 98 or 99, then twenty from a number ending in zeros, then a mixed set where you have to choose the direction. The mixed set is the real skill; the first two are just installing the moves. The broader sequence of methods, and the facts each assumes, is laid out in the [mental math practice guide](/blog/mental-math-training-guide/), with the rest of this material in the [mental math topic hub](/blog/topics/mental-math/) and under [education and brain training articles](/blog/category/education-brain/).

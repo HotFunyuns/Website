@@ -80,7 +80,7 @@
     },
     {
       "question": "Does practising tricks make you better at maths generally?",
-      "answer": "Practising a specific method makes you faster and more accurate at that method and at closely related problems. Broad claims beyond that are contested in the research literature, and we do not make them. Mental Math & Memory Games is built to drill arithmetic and track speed and accuracy, which is what a drill can honestly deliver."
+      "answer": "Practising a specific method makes you faster and more accurate at that method and at closely related problems. Broad claims beyond that are contested in the research literature, and we do not make them. IQ Test & Brain Training Games is built to drill arithmetic and track speed and accuracy, which is what a drill can honestly deliver."
     }
   ],
   "sources": [
@@ -294,7 +294,7 @@ That is a training problem, and it responds to short, frequent, mixed practice â
 
 ## Where the app fits
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) drills addition, subtraction, multiplication and division with difficulty that climbs as you improve, plus timed sprints, accuracy rounds, survival challenges and boss quizzes, and a daily math challenge. It tracks scores, accuracy, streaks, response time, personal bests and history, and includes techniques for percentages, estimation, number patterns and faster calculation.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) drills addition, subtraction, multiplication and division with difficulty that climbs as you improve, plus timed sprints, accuracy rounds, survival challenges and boss quizzes, and a daily math challenge. It tracks scores, accuracy, streaks, response time, personal bests and history, and includes techniques for percentages, estimation, number patterns and faster calculation.
 
 Response time is the number worth watching. Score mixes speed and accuracy together, but response time is the cleaner signal of whether a method has crossed from reasoning into retrieval.
 

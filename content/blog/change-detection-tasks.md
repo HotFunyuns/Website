@@ -5,7 +5,13 @@
   "description": "How change detection tasks work, what change blindness does and does not prove, and why spotting a removed item depends on what you encoded.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no test or assessment of any kind; the app, now IQ Test & Brain Training Games, includes a memory test and an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so while keeping its point that a missing-item game result is not a measurement of visual memory."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -57,7 +63,7 @@
     "In the canonical laboratory version described by Lin and Luck, a sample array appears for about 100 ms, a retention interval of around 900 ms follows, and a test array is then judged same or different.",
     "That procedure yields a capacity estimate, usually written K, and the figures it produces for simple features are small — typically a handful of items rather than a whole scene.",
     "Simons and Rensink warn explicitly that change blindness has been over-interpreted; failing to detect a change does not prove that nothing was represented, only that what was represented did not support that comparison.",
-    "Mental Math & Memory Games includes What's Missing?, Missing Color and Missing Sport as ten-round game modes. They are practice and entertainment, not a test of visual memory, and the app contains no assessment."
+    "IQ Test & Brain Training Games includes What's Missing?, Missing Color and Missing Sport as ten-round game modes. They are practice and entertainment, not a test of visual memory; the app's separate memory test and IQ-style test produce results its listing calls estimates based on app activities, not clinical or professional assessments."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -136,7 +142,7 @@ A related format asks a different question about the same display. Where a missi
 
 ## Playing the missing-item rounds well
 
-Mental Math & Memory Games is our own app, built by Reign Creative. Its memory catalogue includes **What's Missing?**, **Missing Color** and **Missing Sport** as ten-round challenge modes, alongside recognition and grid formats that ask different questions of the same display. These are game modes. The app records score, accuracy, streak, response time and personal bests, and it contains no test or assessment of any kind — a missing-item result is a game statistic, not a measurement of your visual memory.
+IQ Test & Brain Training Games is our own app, built by Reign Creative. Its memory catalogue includes **What's Missing?**, **Missing Color** and **Missing Sport** as ten-round challenge modes, alongside recognition and grid formats that ask different questions of the same display. These are game modes. In them the app records score, accuracy, streak, response time and personal bests, and a missing-item result is a game statistic, not a measurement of your visual memory. The app does also include a memory test and an IQ-style test, and its Google Play listing describes their results as estimates based on app activities, not clinical or professional assessments.
 
 Within those modes, three habits do most of the work, and all three are about deciding what to encode rather than trying to see more:
 
@@ -150,7 +156,7 @@ If you want the wider design view of why this format sits alongside matching, sp
 
 You will get better at these rounds, and the mechanism will be encoding strategy rather than expanded capacity. That is the honest version of nearly every memory-game improvement, and it is the reason we keep the claim narrow.
 
-The broader evidence on whether this kind of practice spreads to anything else is set out in our guide to [whether brain training apps work](/blog/do-brain-training-apps-work/), and the capacity story underneath it is in [working memory and training](/blog/working-memory-and-training/). Both conclude the same way: practice on a task improves the task, transfer to dissimilar tasks is weak and disputed, and no app should promise otherwise. The rest of this subject is collected in the [memory and attention hub](/blog/topics/memory-and-attention/) and the wider [education and brain training category](/blog/category/education-brain/), and the missing-item modes are in [Mental Math & Memory Games](/apps/mental-math-memory-games/).
+The broader evidence on whether this kind of practice spreads to anything else is set out in our guide to [whether brain training apps work](/blog/do-brain-training-apps-work/), and the capacity story underneath it is in [working memory and training](/blog/working-memory-and-training/). Both conclude the same way: practice on a task improves the task, transfer to dissimilar tasks is weak and disputed, and no app should promise otherwise. The rest of this subject is collected in the [memory and attention hub](/blog/topics/memory-and-attention/) and the wider [education and brain training category](/blog/category/education-brain/), and the missing-item modes are in [IQ Test & Brain Training Games](/apps/mental-math-memory-games/).
 
 ## The everyday version
 

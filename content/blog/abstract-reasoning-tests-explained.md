@@ -5,7 +5,13 @@
   "description": "Abstract reasoning items are engineered objects: a rule, a key and distractors chosen to match specific errors. Knowing the anatomy makes practice sharper.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, had no figural items and was not an assessment of anything; the app, now IQ Test & Brain Training Games, has logic games built on patterns and rule discovery and an IQ-style test covering patterns and spatial reasoning, whose results its Google Play listing calls estimates rather than professional assessments, and the article now describes it that way without claiming which item formats it uses."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -55,7 +61,7 @@
     "Difficulty is engineered, not accidental. Published research on generated number-series items found that items needing two arithmetic steps were far harder than one-step items, and that item features predicted most of the variance in difficulty.",
     "Modern item banks are increasingly produced by automatic item generation, in which a template specifies which features can be varied and an algorithm produces many items targeting the same construct.",
     "Because distractors are designed around common errors, a near-miss answer is usually evidence of a specific misconception rather than carelessness.",
-    "Mental Math & Memory Games has no figural or shape items. Its Number Pattern Challenge is a rule-discovery drill in numbers, which is an analogue of this task rather than an equivalent, and it is not a test."
+    "Our own app, IQ Test & Brain Training Games, has logic games built on patterns and rule discovery and an IQ-style test that includes patterns and spatial reasoning; its listing calls the results estimates based on app activities, not a professional assessment, so read them as a record of how you did on the app's own questions."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -73,8 +79,8 @@
       "answer": "No. Distractors are chosen deliberately, and good item writers build them from the errors real candidates make — continuing a difference instead of extending it, applying a rule to the wrong feature, or stopping one step early. Some automatic generation systems now produce distractors from documented error patterns. If you are consistently landing on the same kind of wrong answer, that pattern is diagnostic."
     },
     {
-      "question": "Does Mental Math & Memory Games contain abstract reasoning items?",
-      "answer": "It contains no figural, matrix or shape items, so it has nothing that matches a nonverbal abstract reasoning test. Its Number Pattern Challenge asks you to find the rule behind a run of numbers under a timer, with Easy, Medium and Hard settings. That is a useful analogue of the same mental move, but it is practice in a game rather than an assessment, and it produces no score that means anything outside the app."
+      "question": "Does IQ Test & Brain Training Games contain abstract reasoning items?",
+      "answer": "Its Google Play listing describes logic games built on patterns and rule discovery, and an IQ-style test that covers patterns and spatial reasoning alongside numerical reasoning, logic, vocabulary, working memory and processing speed. The listing does not say whether any of those items use the figural series or grid formats described in this article. It also describes the test's results as estimates based on app activities, not a professional assessment, so read a result there as a record of how you did on the app's own questions rather than as a score on a standardised abstract reasoning test."
     }
   ],
   "sources": [
@@ -150,8 +156,8 @@ It is also worth carrying over a caution from the fairness literature. Research 
 
 If you want to practise rule discovery, practise the search procedure rather than collecting answers. Run the checklist in a fixed order, and when you get one wrong, name the misconception before moving on. That habit is the difference between repetition and useful practice.
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and it contains no figural or shape items at all. What it does contain is **Number Pattern Challenge**, a 75-second rule-discovery drill in numbers with Easy, Medium and Hard settings, alongside arithmetic modes such as Mixed Operations and Missing Number Puzzle that exercise the same habit of asking what operation links two quantities. That is an analogue of abstract reasoning, not an equivalent, and it is not an assessment of anything. The app records score, accuracy, streak and response time for your own runs, and nothing more.
+IQ Test & Brain Training Games is our own app, built by Reign Creative. Its logic games include patterns and rule discovery, and its IQ-style test covers patterns and spatial reasoning alongside numerical reasoning, logic, vocabulary, working memory and processing speed; its Google Play listing does not say whether any of those items use the figural formats described above. Practising rule discovery there is an analogue of the task, not an equivalent, and the listing describes the test's results as estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments. The app keeps personal bests, accuracy, streaks, response speed and a history of past results, so what it tracks is your record against yourself.
 
 Faster arithmetic does make the numeric variety of these items less punishing, simply because less of your attention goes on computing and more is available for the rule — the methods in [mental math tricks that work](/blog/mental-math-tricks-that-work/) are the relevant ones. And because rule search loads working memory hard, [working memory and training](/blog/working-memory-and-training/) is worth reading before you conclude that a plateau means anything about you.
 
-For the construct these tests are supposed to sample, start with [what IQ tests actually measure](/blog/what-iq-tests-actually-measure/). The rest of the material sits in the [IQ tests and reasoning hub](/blog/topics/iq-tests-and-reasoning/) and the wider [education and brain category](/blog/category/education-brain/), and the drills themselves are described on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+For the construct these tests are supposed to sample, start with [what IQ tests actually measure](/blog/what-iq-tests-actually-measure/). The rest of the material sits in the [IQ tests and reasoning hub](/blog/topics/iq-tests-and-reasoning/) and the wider [education and brain category](/blog/category/education-brain/), and the app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

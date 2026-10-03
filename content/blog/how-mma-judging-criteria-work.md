@@ -5,10 +5,21 @@
   "description": "The ten-point must system, the criteria hierarchy judges are told to apply, and the structural reasons three judges can see three different rounds.",
   "status": "published",
   "publishedAt": "2026-09-15",
-  "updatedAt": "2026-09-15",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described the fighters in 40-0 MMA & Boxing Fight Draft as fictional and generated. 40-0 MMA & Boxing Fight Draft builds its fighter pools from real fighters' careers, with ratings and records that are the game's own estimates, and is not affiliated with or endorsed by any promotion, sanctioning body or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
-  "tags": ["mma", "judging", "scoring", "reference"],
+  "tags": [
+    "mma",
+    "judging",
+    "scoring",
+    "reference"
+  ],
   "primaryKeyword": "mma judging criteria",
   "secondaryKeywords": [
     "mma scoring criteria",
@@ -32,12 +43,15 @@
     "Why do judges disagree?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["mma-boxing-fight-draft"],
+  "relatedApps": [
+    "mma-boxing-fight-draft"
+  ],
   "relatedArticles": [
     "boxing-scoring-explained",
     "mma-weight-classes-explained",
     "how-boxing-records-are-written",
-    "striking-vs-grappling-in-mma"
+    "striking-vs-grappling-in-mma",
+    "boxing-belts-and-sanctioning-bodies"
   ],
   "takeaways": [
     "MMA uses the ten-point must system: the round winner gets ten, the other fighter nine or fewer.",
@@ -159,4 +173,4 @@ So each simulated judge applies the same hierarchy with a small independent vari
 
 How records accumulate from all these decision paths is covered in [how boxing records are written](/blog/how-boxing-records-are-written/).
 
-The fighters in the game are fictional and generated inside it. It is not affiliated with, endorsed by or connected to any real promotion, sanctioning body, event or athlete, and nothing it produces describes or predicts a real bout. The studio's other titles are listed under [sports GM](/blog/category/sports-gm/).
+The game's fighter pools are built from real fighters' careers, with ratings and records that are the game's own estimates. It is not affiliated with, endorsed by or licensed by any promotion, sanctioning body, event or athlete, and nothing it produces describes or predicts a real bout. The studio's other titles are listed under [sports GM](/blog/category/sports-gm/).

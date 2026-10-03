@@ -5,7 +5,13 @@
   "description": "Reverse a discount by dividing, never by adding the percentage back. Here is why, plus the fraction shortcuts that make the division easy.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, was not an assessment of anything and that its numbers described drill performance and nothing else; the app, now IQ Test & Brain Training Games, also includes an IQ-style test and other tests whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -174,8 +180,8 @@ The What Works Clearinghouse practice guide on fractions instruction recommends 
 
 ## Practising the reverse move
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/), which is our own app, built by Reign Creative, ships a Discount Challenge mode — a 75-second timed drill on the Discounts difficulty. Its techniques library states the forward rule plainly: for "X% off", you can subtract the discount, or jump straight to what you pay, so 30% off means you pay 70%. Holding the forward rule in that form is what makes the reverse obvious, because "you pay 70%" is already the multiplier you need to divide by.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/), which is our own app, built by Reign Creative, ships a Discount Challenge mode — a 75-second timed drill on the Discounts difficulty. Its techniques library states the forward rule plainly: for "X% off", you can subtract the discount, or jump straight to what you pay, so 30% off means you pay 70%. Holding the forward rule in that form is what makes the reverse obvious, because "you pay 70%" is already the multiplier you need to divide by.
 
 The Percentage Trainer covers the same territory over a wider range, with difficulty settings for Basics, Tips, Discounts, Advanced and Mixed. Each technique in the library carries steps, a worked example, a "best for" note, a named common mistake and a two-question mini quiz, and links through to a specific mode at a specific difficulty.
 
-The app is an educational game and a practice tool rather than an assessment of anything, and the numbers it records — score, accuracy, streak, response time and personal bests — describe drill performance and nothing else. The methods that sit around this one are collected in the [mental math training guide](/blog/mental-math-training-guide/), the rest of the hub under [mental math](/blog/topics/mental-math/), and the wider subject under [education and brain training](/blog/category/education-brain/). For related percentage shortcuts including near-100 multiplication and successive percentage change, see [mental math tricks that actually work](/blog/mental-math-tricks-that-work/).
+The app is an educational game and a practice tool. Its drills record score, accuracy, streak, response time and personal bests, and those numbers describe drill performance; its IQ-style test and other test results are, in its listing's words, estimates based on app activities, not clinical or professional assessments. The methods that sit around this one are collected in the [mental math training guide](/blog/mental-math-training-guide/), the rest of the hub under [mental math](/blog/topics/mental-math/), and the wider subject under [education and brain training](/blog/category/education-brain/). For related percentage shortcuts including near-100 multiplication and successive percentage change, see [mental math tricks that actually work](/blog/mental-math-tricks-that-work/).

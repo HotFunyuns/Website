@@ -45,7 +45,8 @@
     "strokes-gained-for-club-golfers",
     "golf-handicap-for-beginners",
     "pressure-and-nerves-in-golf-sims",
-    "tour-eligibility-and-schedules"
+    "tour-eligibility-and-schedules",
+    "golf-penalty-areas-red-vs-yellow-stakes"
   ],
   "takeaways": [
     "Gapping is about even spacing across the set, not about how far the longest club goes.",

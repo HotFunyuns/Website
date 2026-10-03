@@ -173,7 +173,7 @@ Worth doing occasionally rather than never:
 
 Our apps are local-first by design, and the permission implications follow from that.
 
-[Regal Video Player](/apps/regal-video-player/) is a player for files already on your device, so its requirements relate to reading media on the device rather than to network services, accounts or personal data categories.
+[Video Player All Formats PRO](/apps/regal-video-player/) is a player for files already on your device, so its requirements relate to reading media on the device rather than to network services, accounts or personal data categories.
 
 [Protein Diet Tracker](/apps/protein-diet-tracker/) stores entries on your device rather than on our servers, and requires no account. That is a design decision with a privacy consequence: data that never leaves the device cannot be exposed by us, and it also means an uninstall takes your history with it.
 

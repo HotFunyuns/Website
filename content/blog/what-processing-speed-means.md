@@ -5,7 +5,13 @@
   "description": "What processing speed means as a psychological construct, how it is measured, and why the response time an app records is a task time rather than a score.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no reaction-time test and no assessment of any kind; the app, now IQ Test & Brain Training Games, includes a reaction time test and an IQ-style test covering processing speed, whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now applies its cautions to those results too."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -54,7 +60,7 @@
     "A response time on an arithmetic question is not a processing-speed measurement. It mixes reading, retrieval, calculation, keypad entry and your chosen speed-accuracy setting into one number.",
     "Reaction-time distributions are positively skewed, so a single slow trial can drag the mean well away from typical performance. In a worked example of ten trials, one 9-second outlier pushes the mean to 2.06 seconds while the median stays at 1.30.",
     "Hedge, Powell and Sumner describe a reliability paradox: the low between-participant variability that makes a task produce robust experimental effects is exactly what makes it a poor measure of individual differences.",
-    "Mental Math & Memory Games records average, median and fastest-correct response times and a consistency figure for its own drills. It contains no reaction-time test and no assessment of any kind."
+    "IQ Test & Brain Training Games records response times on its own drills and also has a reaction time test and an IQ-style test that covers processing speed. Its listing describes those results as estimates based on app activities, not clinical or professional assessments, so compare them only with your own earlier results."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -121,7 +127,7 @@ When an app records that you answered a multiplication question in 2.4 seconds, 
 
 The speed-accuracy problem is the deepest of the three. Richard Heitz's review of the speed-accuracy trade-off documents it as a fundamental property of decision-making across species: faster responses involve less accumulated evidence and hence less informed decisions. His methodological warning applies directly to any app statistic — group means obtained at a single criterion, he writes, provide only a snapshot of performance that conflates decision strategy with the nature of the task. Translated: a time only means something when you know where the person was sitting on the speed-accuracy curve, and an app cannot know that.
 
-This is why our position on our own numbers is narrow. Mental Math & Memory Games is our own app, built by Reign Creative. It records average response time, median response time, fastest correct answer and a consistency figure for each run, and it ships short-clock formats — a 30-second lightning round, 60-second sprints, and a speed ladder whose clock shrinks as you climb. **None of that is a processing-speed measurement, and the app contains no reaction-time test.** Those numbers describe your play in one mode at one difficulty. They are game statistics, and treating them as anything else would be a claim we cannot support.
+This is why our position on our own numbers is narrow. IQ Test & Brain Training Games is our own app, built by Reign Creative. It records average response time, median response time, fastest correct answer and a consistency figure for each run, and it ships short-clock formats — a 30-second lightning round, 60-second sprints, and a speed ladder whose clock shrinks as you climb. **None of that is a processing-speed measurement.** Those numbers describe your play in one mode at one difficulty. They are game statistics, and treating them as anything else would be a claim we cannot support. The app also has a reaction time test, which its listing says measures speed and consistency, and an IQ-style test that includes processing speed; the listing describes those results as estimates based on app activities, not clinical or professional assessments, and the cautions below apply to them as much as to the drill times.
 
 ## The shape of your own timing data
 
@@ -156,4 +162,4 @@ Whether anything general changes underneath is a much harder question, and the h
 
 Processing speed is a real construct in psychology, estimated carefully from many easy items under controlled conditions, with accuracy pinned near ceiling so that the score means what it claims. A response time in a game is none of those things.
 
-That does not make your numbers useless. Median times and consistency are genuinely informative about your own progress in one mode. They are simply a different kind of object from a measurement, and keeping the two apart is the difference between a practice record you can trust and a score you have quietly over-read. More on span, timing and attention sits in the [memory and attention hub](/blog/topics/memory-and-attention/), the arithmetic material is in the [education and brain training category](/blog/category/education-brain/), and the modes that record these times are in [Mental Math & Memory Games](/apps/mental-math-memory-games/).
+That does not make your numbers useless. Median times and consistency are genuinely informative about your own progress in one mode. They are simply a different kind of object from a measurement, and keeping the two apart is the difference between a practice record you can trust and a score you have quietly over-read. More on span, timing and attention sits in the [memory and attention hub](/blog/topics/memory-and-attention/), the arithmetic material is in the [education and brain training category](/blog/category/education-brain/), and the modes that record these times are in [IQ Test & Brain Training Games](/apps/mental-math-memory-games/).

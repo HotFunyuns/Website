@@ -5,7 +5,13 @@
   "description": "Numerical reasoning tests assume you can already calculate. The difficulty is deciding what to compute from a table, and doing it inside a 40-second budget.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, drilled only the calculation layer, presented no data tables, made no assessment of any kind and listed its drills on its app page; the app, now IQ Test & Brain Training Games, includes an IQ-style test covering numerical reasoning whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so, notes that the listing describes no data-table items and points to the app page only for a description of the app."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -151,8 +157,8 @@ The rest of the exam behaviour — how to pace, when to abandon an item, and wha
 
 ## What arithmetic practice is genuinely for
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and it drills the calculation layer rather than the test. The modes that map onto this material are specific: **Percentage Trainer**, a 75-second drill with Basics, Tips, Discounts, Advanced and Mixed settings; **Ratio Trainer**; **Estimation Mode**, a 90-second drill scored by how close your answer is rather than by exact matching; and **Mixed Operations**, which interleaves the four operations so you cannot settle into one procedure. The app records score, accuracy, streak, response time and personal bests for those runs.
+IQ Test & Brain Training Games is our own app, built by Reign Creative. Its mental math practice drills the calculation layer, and its IQ-style test includes numerical reasoning among the areas it covers. The modes that map onto this material are specific: **Percentage Trainer**, a 75-second drill with Basics, Tips, Discounts, Advanced and Mixed settings; **Ratio Trainer**; **Estimation Mode**, a 90-second drill scored by how close your answer is rather than by exact matching; and **Mixed Operations**, which interleaves the four operations so you cannot settle into one procedure. The app records score, accuracy, streak, response time and personal bests for those runs.
 
-What it does not do is present a data table and ask what follows from it, and it makes no assessment of any kind. It is an educational game that practises arithmetic, and the honest claim is that fluent arithmetic is a prerequisite for numerical reasoning rather than a substitute for practising the real format. For a structured route through the methods themselves, [the mental math training guide](/blog/mental-math-training-guide/) is the cornerstone of that subject.
+Its listing does not describe data-table items of the kind above, and it says the IQ-style test's results are estimates based on app activities, not clinical or professional assessments, so neither the drills nor that test stands in for the real table-reading format. The honest claim is that fluent arithmetic is a prerequisite for numerical reasoning rather than a substitute for practising the real format. For a structured route through the methods themselves, [the mental math training guide](/blog/mental-math-training-guide/) is the cornerstone of that subject.
 
-More on item types, scoring and limits sits in the [IQ tests and reasoning hub](/blog/topics/iq-tests-and-reasoning/); the [education and brain category](/blog/category/education-brain/) collects the arithmetic and memory material; and the drills are listed on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+More on item types, scoring and limits sits in the [IQ tests and reasoning hub](/blog/topics/iq-tests-and-reasoning/); the [education and brain category](/blog/category/education-brain/) collects the arithmetic and memory material; and the app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

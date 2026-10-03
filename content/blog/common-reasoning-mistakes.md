@@ -5,7 +5,13 @@
   "description": "Valid but untrue, one rule assumed unique, a conditional read backwards. Six errors that wreck puzzle answers, each with a checkable example and a fix.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, claimed nothing beyond its drill statistics and contained no test or assessment; the app, now IQ Test & Brain Training Games, includes an IQ-style test, a memory test and a personality questionnaire whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -77,7 +83,7 @@
     },
     {
       "question": "Do timed drills make these errors more likely?",
-      "answer": "Speed pressure rewards the first plausible answer, which is precisely the condition several of these errors need. If you want to catch your own reasoning, an untimed format with feedback and an explanation is the better tool. Mental Math & Memory Games ships an untimed accuracy mode with hints and explanations for exactly that reason."
+      "answer": "Speed pressure rewards the first plausible answer, which is precisely the condition several of these errors need. If you want to catch your own reasoning, an untimed format with feedback and an explanation is the better tool. IQ Test & Brain Training Games ships an untimed accuracy mode with hints and explanations for exactly that reason."
     }
   ],
   "sources": [
@@ -175,6 +181,6 @@ The same failure appears in arithmetic as an answer that is plausible but never 
 
 NRICH, the mathematics education project at the University of Cambridge, describes a progression in reasoning that ends with *justifying* — "a correct logical argument that has a complete chain of reasoning to it" — and *proving*, "a watertight argument that is mathematically sound". The useful implication is that reasoning quality is visible in the explanation, not in the answer. If you cannot say why, you do not yet know.
 
-That has a direct consequence for how you practise. Timed formats reward the first plausible answer, which is exactly the condition five of these six errors need. Mental Math & Memory Games, which we build at Reign Creative, ships an untimed accuracy mode that gives feedback, an explanation and an optional hint on each question, and that format — not the sprints — is the one to use when you are trying to catch your own reasoning rather than your speed. The app records score, accuracy, streak and response time on its drills and claims nothing beyond that; it contains no test, no assessment and no verdict about you.
+That has a direct consequence for how you practise. Timed formats reward the first plausible answer, which is exactly the condition five of these six errors need. IQ Test & Brain Training Games, which we build at Reign Creative, ships an untimed accuracy mode that gives feedback, an explanation and an optional hint on each question, and that format — not the sprints — is the one to use when you are trying to catch your own reasoning rather than your speed. Those drills record score, accuracy, streak and response time. The app's IQ-style test, memory test and personality questionnaire are separate, and its listing describes their results as estimates based on app activities, not clinical or professional assessments, so treat none of them as a verdict about you.
 
-You can see the mode list on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/), find the rest of this material in the [logic and pattern puzzles hub](/blog/topics/logic-and-pattern-puzzles/), and browse the wider [education and brain section](/blog/category/education-brain/) for related writing on study method and evidence.
+You can see how the app describes its games and tests on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/), find the rest of this material in the [logic and pattern puzzles hub](/blog/topics/logic-and-pattern-puzzles/), and browse the wider [education and brain section](/blog/category/education-brain/) for related writing on study method and evidence.

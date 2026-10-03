@@ -5,7 +5,13 @@
   "description": "Grouping, meaning, phonetic encoding and spatial placement each cost something different. A side-by-side comparison so you can pick the right one.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, recorded nothing beyond drill statistics, made no claim to expand memory and listed its full catalogue on its app page; the app, now IQ Test & Brain Training Games, includes a memory test and an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and that listing uses a 'build memory' heading, so the article now says so while keeping its position that span practice does not expand general memory."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -76,7 +82,7 @@
     },
     {
       "question": "Can a practice app improve my number memory?",
-      "answer": "It can improve your performance on the drills you practise, which is a real and limited result. Mental Math & Memory Games records the length of the sequences you complete and your accuracy on them. It makes no claim that this expands your general memory, and the research on span training does not support such a claim."
+      "answer": "It can improve your performance on the drills you practise, which is a real and limited result. IQ Test & Brain Training Games records the length of the sequences you complete and your accuracy on them. Its store listing uses the heading 'build memory, focus and speed', but we make no claim that this practice expands your general memory, and the research on span training does not support such a claim."
     }
   ],
   "sources": [
@@ -163,6 +169,6 @@ The honest summary is that most people need the first two and will never need th
 
 ## Where practice fits
 
-Mental Math & Memory Games, our own app at Reign Creative, ships number and sequence recall drills that give you somewhere to rehearse whichever method you pick, and its technique library includes a number-chunking entry that teaches grouping directly with a worked example and a short quiz. The seven memory difficulty levels run from three or four items at Beginner up to much longer sequences at the top, so you can hold the method constant and move only the load.
+IQ Test & Brain Training Games, our own app at Reign Creative, ships number and sequence recall drills that give you somewhere to rehearse whichever method you pick, and its technique library includes a number-chunking entry that teaches grouping directly with a worked example and a short quiz. The seven memory difficulty levels run from three or four items at Beginner up to much longer sequences at the top, so you can hold the method constant and move only the load.
 
-Be clear about what that buys. You will get better at the drills you run, which is the near-transfer result the evidence supports. There is no claim here that the practice enlarges your memory in general, prevents anything, or measures anything about you — the app records score, accuracy, streak and response time, and nothing else. See the full catalogue on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/), the rest of this subject in the [memory and attention hub](/blog/topics/memory-and-attention/), and the wider [education and brain section](/blog/category/education-brain/) for related study articles.
+Be clear about what that buys. You will get better at the drills you run, which is the near-transfer result the evidence supports. There is no claim here that the practice enlarges your memory in general or prevents anything. The drills record score, accuracy, streak and response time; the app's separate memory test and IQ-style test produce results its Google Play listing calls estimates based on app activities, not clinical or professional assessments. See how the app describes itself on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/), the rest of this subject in the [memory and attention hub](/blog/topics/memory-and-attention/), and the wider [education and brain section](/blog/category/education-brain/) for related study articles.

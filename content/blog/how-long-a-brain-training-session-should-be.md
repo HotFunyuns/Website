@@ -5,7 +5,13 @@
   "description": "Five to fifteen minutes covers most practice sessions. Here is the evidence on dose, why long sessions stop paying, and how to build one from short drills.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the whole catalogue of our app's modes and formats could be seen on its app page; that page, for the app now called IQ Test & Brain Training Games (previously Mental Math & Memory Games), describes the app without listing its individual modes, and the sentence now points to it as a description of the app."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -125,11 +131,11 @@ The second is about what gets practised. A drill you work through while fatigued
 
 ## A session you can actually build
 
-Mental Math & Memory Games is our own app — Reign Creative publishes it — and its content is cut into short units, which makes it a convenient way to show what a session of a given length is physically made of. The shipped pieces include a 30-second lightning round, 60-second sprints on each operation, 75-second trainers for the applied topics, a 180-second math marathon, a ten-question accuracy round with no timer at all, and memory rounds that run in sets of roughly eight to twelve.
+IQ Test & Brain Training Games is our own app — Reign Creative publishes it — and its content is cut into short units, which makes it a convenient way to show what a session of a given length is physically made of. The shipped pieces include a 30-second lightning round, 60-second sprints on each operation, 75-second trainers for the applied topics, a 180-second math marathon, a ten-question accuracy round with no timer at all, and memory rounds that run in sets of roughly eight to twelve.
 
 Stacked end to end, a 30-second lightning round, two 60-second sprints and one 75-second trainer come to 225 seconds of play — three minutes and forty-five seconds. Adding the 180-second marathon brings it to 405 seconds, or six minutes and forty-five seconds. The remaining minutes of a ten-minute sitting go on reading the feedback after each round, which is the part that turns repetition into practice rather than filler.
 
-That arithmetic is the point. "Fifteen minutes" is not fifteen minutes of answering questions; it is perhaps eight to ten minutes of play and several minutes of looking at what went wrong. If you strip out the looking, you have built a longer session that teaches less. You can see the whole catalogue of modes and formats on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/), and the rest of the [brain training games hub](/blog/topics/brain-training-games/) covers how to sequence them.
+That arithmetic is the point. "Fifteen minutes" is not fifteen minutes of answering questions; it is perhaps eight to ten minutes of play and several minutes of looking at what went wrong. If you strip out the looking, you have built a longer session that teaches less. The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/), and the rest of the [brain training games hub](/blog/topics/brain-training-games/) covers how to sequence a session.
 
 ## Finding your own limit from your own record
 

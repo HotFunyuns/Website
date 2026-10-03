@@ -5,7 +5,13 @@
   "description": "A list is a memory problem before it is an arithmetic problem. Hold one running total, group to round numbers when you can see the list, and check it twice.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the full catalogue of math and memory modes in our app, then called Mental Math & Memory Games, is shown on its app page; that page, for the app now named IQ Test & Brain Training Games, describes its features without listing individual modes, so the sentence now simply points to it."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -170,6 +176,6 @@ Two cheap partial checks are worth knowing. The last digit of the total is fixed
 
 The arithmetic in a long addition is easy. The holding is what fails, so that is what benefits from deliberate practice.
 
-Mental Math & Memory Games, built by Reign Creative, has a memory mode built for exactly this: numbers appear one at a time and you hold the total, with nothing written down, over a fixed set of rounds. That is the running-total skill in isolation, without the arithmetic being the bottleneck. On the arithmetic side, Addition Sprint includes a mixed-chains difficulty that strings several additions together against a 60-second clock, and the Accuracy Trainer runs untimed rounds with an explanation available when you miss one. You can see the full catalogue of math and memory modes on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+IQ Test & Brain Training Games, built by Reign Creative, has a memory mode built for exactly this: numbers appear one at a time and you hold the total, with nothing written down, over a fixed set of rounds. That is the running-total skill in isolation, without the arithmetic being the bottleneck. On the arithmetic side, Addition Sprint includes a mixed-chains difficulty that strings several additions together against a 60-second clock, and the Accuracy Trainer runs untimed rounds with an explanation available when you miss one. The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).
 
 Two sensible ways to build it: extend the list length by one only when the shorter length is comfortable, and alternate between the running total and the grouping route on the same list so that each one checks the other. The methods, their order and the facts they assume are set out in the [mental math practice guide](/blog/mental-math-training-guide/), and the rest of this material sits in the [mental math topic hub](/blog/topics/mental-math/) and under [education and brain training articles](/blog/category/education-brain/).

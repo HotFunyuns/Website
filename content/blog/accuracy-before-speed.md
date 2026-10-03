@@ -5,7 +5,13 @@
   "description": "Speed and accuracy trade against each other, so training them in the wrong order makes you fast at a method that does not work. Here is the order and the test.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the modes of our app, then called Mental Math & Memory Games and now IQ Test & Brain Training Games, are listed on its app page; that page describes the app's games and tests without listing individual modes, and the sentence now points to it only for that description."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -136,7 +142,7 @@ There is a second-order reason too. National Numeracy defines numeracy as "havin
 
 The useful thing about a drill app is that it reports both numbers from the same run, so the trade-off stops being theoretical.
 
-Mental Math & Memory Games is our own app — Reign Creative publishes it — and it ships both poles of this deliberately. There is an untimed accuracy round of ten questions with feedback, an explanation and an optional hint on each item; there are 60-second sprints on each operation; and there is a no-mistake format where a single wrong answer ends the run. Every run reports how many you got right, how many wrong, your accuracy, and your answer times.
+IQ Test & Brain Training Games is our own app — Reign Creative publishes it — and it ships both poles of this deliberately. There is an untimed accuracy round of ten questions with feedback, an explanation and an optional hint on each item; there are 60-second sprints on each operation; and there is a no-mistake format where a single wrong answer ends the run. Every run reports how many you got right, how many wrong, your accuracy, and your answer times.
 
 The experiment takes two sessions.
 
@@ -174,4 +180,4 @@ One caution worth carrying: a good session is not proof of learning. Soderstrom 
 
 Accuracy and answer time in a drill app are statistics about that app's generated questions under its own conditions. They describe your performance on a practised task. They are not a measurement of ability, they are not comparable to anything standardised, and improvement in them is not evidence of any wider change — the cornerstone guide [do brain training apps work](/blog/do-brain-training-apps-work/) sets out how weak the transfer evidence is.
 
-Within that narrow frame, the ordering advice is solid and useful: get it right, then get it quick. The [brain training games hub](/blog/topics/brain-training-games/) collects the rest of the practice-design articles, the modes themselves are listed on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/), and related writing sits in the [education and brain category](/blog/category/education-brain/).
+Within that narrow frame, the ordering advice is solid and useful: get it right, then get it quick. The [brain training games hub](/blog/topics/brain-training-games/) collects the rest of the practice-design articles, the app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/), and related writing sits in the [education and brain category](/blog/category/education-brain/).

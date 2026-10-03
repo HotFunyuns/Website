@@ -180,7 +180,7 @@ If subtitle handling is your main requirement, it is worth testing with your act
 
 ## Where our app fits
 
-[Regal Video Player](/apps/regal-video-player/) is a local-file player built for H.264, H.265, VP8, VP9 and AV1 video with AAC, MP3, FLAC and Ogg audio, inside MP4, MKV, MOV, M4V, WebM, 3GP, FLV, TS and M2TS containers.
+[Video Player All Formats PRO](/apps/regal-video-player/) is a local-file player built for H.264, H.265, VP8, VP9 and AV1 video with AAC, MP3, FLAC and Ogg audio, inside MP4, MKV, MOV, M4V, WebM, 3GP, FLV, TS and M2TS containers.
 
 **On subtitles specifically, we are going to be direct:** if extensive subtitle handling — multiple embedded tracks, complex ASS typesetting, image-based tracks from discs — is the thing you need most, check whether a player's actual behaviour with your files matches your requirement before committing to it. That is true of ours and of every other player, and a feature list is not a substitute for the test.
 

@@ -5,7 +5,13 @@
   "description": "What a supportive at-home session with number facts looks like, why the timer should come last, and how a parent's own attitude changes the outcome.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, made no assessment of any kind and that its app page lists everything that ships; the app, now IQ Test & Brain Training Games, includes an IQ-style test and a memory test whose results its Google Play listing calls estimates rather than clinical, educational-placement or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -148,10 +154,10 @@ Two additions in the same spirit. Do not re-teach a method different from the on
 
 ## Where an app fits, and where it does not
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and it is rated Everyone on Google Play in the educational game category. Used sensibly it supplies the repetition and the immediate feedback that a parent doing this by hand has to generate manually.
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and it is rated Everyone on Google Play in the educational game category. Used sensibly it supplies the repetition and the immediate feedback that a parent doing this by hand has to generate manually.
 
 The parts that suit a child are specific. Accuracy Trainer runs ten questions with no timer, gives feedback and an explanation, and offers a hint — the right default. Flash Cards include a times tables deck covering the products from 2 × 2 to 12 × 12, twelve cards a session, self-graded as missed or got it. The lowest difficulty settings on each operation are genuinely low: single-digit addition, and multiplication restricted to the 1 to 9 tables. Sessions are short by design, and play works offline, so a device in aeroplane mode is a device with fewer distractions.
 
-What it is not: it is a game, not a curriculum and not a tutor. It does not decide what a child should learn next, it does not track a syllabus, and it makes no assessment of any kind — the numbers it keeps are score, accuracy, streak, response time and personal bests on its own drills. The choice of what to practise stays with the adult and the school.
+What it is not: it is a game, not a curriculum and not a tutor. It does not track a syllabus or decide what a child needs to learn next — the practice recommendations it offers after its IQ-style test point to its own brain-training games — and its drills keep score, accuracy, streak, response time and personal bests. Its listing describes its IQ-style test, memory test and other results as estimates based on app activities, not medical, psychological, clinical, educational-placement or professional diagnostic assessments. The choice of what to practise stays with the adult and the school.
 
-If you want the methods themselves — the ones behind the facts, so that a forgotten answer can be rebuilt rather than guessed — [the mental math methods guide](/blog/mental-math-training-guide/) and [multiplication shortcuts and why they work](/blog/multiplication-shortcuts-explained/) cover them with worked examples. The [app page](/apps/mental-math-memory-games/) lists what ships, the [mental math collection](/blog/topics/mental-math/) holds the rest of the method articles, and the [education and brain training section](/blog/category/education-brain/) has everything else.
+If you want the methods themselves — the ones behind the facts, so that a forgotten answer can be rebuilt rather than guessed — [the mental math methods guide](/blog/mental-math-training-guide/) and [multiplication shortcuts and why they work](/blog/multiplication-shortcuts-explained/) cover them with worked examples. The [app page](/apps/mental-math-memory-games/) describes the app, the [mental math collection](/blog/topics/mental-math/) holds the rest of the method articles, and the [education and brain training section](/blog/category/education-brain/) has everything else.

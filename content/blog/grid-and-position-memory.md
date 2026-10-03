@@ -5,7 +5,13 @@
   "description": "How grid and position memory tasks work, why location is its own kind of content, and the strategies that help on a grid but not on a list.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no test or assessment of any kind; the app, now IQ Test & Brain Training Games, includes a memory test and an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so while keeping its point that a grid-game personal best is not a test result."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -54,7 +60,7 @@
     "Getting better at a grid drill is mostly better encoding and better chunking of the layout, not a larger memory. Nelson Cowan's review puts the central working-memory store at roughly 3 to 5 meaningful chunks in young adults.",
     "A review by Donolato, Giofrè and Mammarella found overwhelming evidence for a forward/backward distinction in digit span but no clear evidence for the same distinction in spatial span, so verbal and spatial order memory do not behave identically.",
     "Grid scores are sensitive to how the display is drawn: a 2026 study found that crowding distractors close to target locations dropped hit rates from 78% to 68%, which is a reason to treat any single grid figure cautiously.",
-    "Mental Math & Memory Games records a largest-grid personal best, but that number is a record of your play in one game, not a test result or an assessment of anything."
+    "IQ Test & Brain Training Games records a largest-grid personal best, but that number is a record of your play in one game, not a test result or an assessment of anything."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -73,7 +79,7 @@
     },
     {
       "question": "Is a grid game the same thing as a Corsi block-tapping task?",
-      "answer": "No. The Corsi block-tapping task is a laboratory and clinical procedure with a controlled display, a standardised administration and published normative data. A grid game in an app shares the general shape of the task and nothing else. Mental Math & Memory Games contains no test of any kind, and its grid modes produce a game score rather than a measurement."
+      "answer": "No. The Corsi block-tapping task is a laboratory and clinical procedure with a controlled display, a standardised administration and published normative data. A grid game in an app shares the general shape of the task and nothing else. The grid modes in IQ Test & Brain Training Games produce a game score rather than a measurement. The app's separate memory test is described in its listing as giving an estimate based on app activities, not a clinical or professional assessment."
     }
   ],
   "sources": [
@@ -131,7 +137,7 @@ None of these transfer to a spoken list, because a spoken list already has the o
 
 ## What a grid drill changes as it grows
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and its grid modes are a reasonable illustration because the difficulty dials are explicit rather than hidden. Number Grid Memory shows a grid of digits and then asks for one exact cell. Color Grid, Letter Grid, Color Position Recall, Memory Maze and Pattern Builder vary the content and the probe. Across the seven memory levels the grid itself grows and the exposure shrinks.
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and its grid modes are a reasonable illustration because the difficulty dials are explicit rather than hidden. Number Grid Memory shows a grid of digits and then asks for one exact cell. Color Grid, Letter Grid, Color Position Recall, Memory Maze and Pattern Builder vary the content and the probe. Across the seven memory levels the grid itself grows and the exposure shrinks.
 
 The table below lists the four dials that actually change between the easiest and hardest levels, which is useful because it shows that "harder" is not one thing.
 
@@ -144,7 +150,7 @@ The table below lists the four dials that actually change between the easiest an
 
 Read that as three separate problems stacking. More cells means more to bind. Less reveal time means less scanning, so your fixed scan order has to be faster or shorter. A longer hold gap means the binding has to survive an unfilled delay rather than being dumped straight out. If your accuracy collapses when you move up a level, it is worth working out which of the three broke, because the fix differs: a bigger grid wants better chunking, a shorter reveal wants a faster scan, a longer hold wants rehearsal.
 
-The app records a largest-grid figure among its personal bests. That is a record of your play in one game under one set of settings. It is not a test result, it is not comparable to anyone else's number, and the app contains no assessment of any kind.
+The app records a largest-grid figure among its personal bests. That is a record of your play in one game under one set of settings. It is not a test result, and it is not comparable to anyone else's number. The app's separate memory test and IQ-style test produce results its listing describes as estimates based on app activities, not clinical or professional assessments.
 
 ## How much to trust any single grid score
 
@@ -152,7 +158,7 @@ Less than you would like, and for a reason that has nothing to do with you. Grid
 
 Two practical consequences follow. First, compare yourself only to yourself, on the same mode at the same level, which is the same discipline that makes any [practice record worth reading](/blog/working-memory-and-training/). Second, treat a bad run as noise until it repeats. A single number from a task this sensitive is a weak signal — a point that applies just as much to the [change detection formats](/blog/change-detection-tasks/) that ask which item vanished rather than which cell held it.
 
-If you want the wider design context for why grid formats exist at all alongside matching and sequence formats, our piece on [memory games beyond matching pairs](/blog/designing-memory-games-beyond-matching-pairs/) covers the format question, and the general encoding strategies that sit underneath all of this — chunking, elaboration, retrieval practice — are set out in [memory techniques that actually work](/blog/memory-techniques-that-work/). More articles on span, encoding and attention sit in the [memory and attention hub](/blog/topics/memory-and-attention/), and the wider [education and brain training category](/blog/category/education-brain/) covers the arithmetic side. The grid modes themselves live in [Mental Math & Memory Games](/apps/mental-math-memory-games/).
+If you want the wider design context for why grid formats exist at all alongside matching and sequence formats, our piece on [memory games beyond matching pairs](/blog/designing-memory-games-beyond-matching-pairs/) covers the format question, and the general encoding strategies that sit underneath all of this — chunking, elaboration, retrieval practice — are set out in [memory techniques that actually work](/blog/memory-techniques-that-work/). More articles on span, encoding and attention sit in the [memory and attention hub](/blog/topics/memory-and-attention/), and the wider [education and brain training category](/blog/category/education-brain/) covers the arithmetic side. The grid modes themselves live in [IQ Test & Brain Training Games](/apps/mental-math-memory-games/).
 
 ## The honest summary
 

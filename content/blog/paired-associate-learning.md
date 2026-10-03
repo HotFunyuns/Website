@@ -5,7 +5,13 @@
   "description": "What paired-associate learning is, why arbitrary pairs resist repetition, and why judging a pair with both halves in front of you overstates what you know.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no test or assessment of any kind and recorded nothing beyond its drill statistics; the app, now IQ Test & Brain Training Games, includes a memory test and an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -54,7 +60,7 @@
     "Koriat and Bjork showed that judgments made while both halves of a pair are visible are inflated, because the perceived association when both are present differs from the probability that the cue alone will produce the target.",
     "Karpicke and Roediger found that repeated studying after an item had been learned had no effect on delayed recall, while repeated testing produced a large positive effect — and students' predictions of their own performance were uncorrelated with what actually happened.",
     "The practical rule that follows is to test cue-to-target with the target hidden, early and often, rather than rereading the pair.",
-    "Mental Math & Memory Games includes Letter Pairs and Letter-Number Pairs rounds as part of its memory catalogue; they are game modes, not an assessment, and the app contains no test of any kind."
+    "IQ Test & Brain Training Games, our own app, includes letter-based memory games whose results are game statistics; its memory test and IQ-style test are separate, and its listing describes their results as estimates based on app activities, not clinical or professional assessments."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -154,11 +160,11 @@ Put together, the practical routine for a pair list is short:
 
 ## Where a pair drill fits in a practice app
 
-Mental Math & Memory Games is our own app, built by Reign Creative. Its memory catalogue includes **Letter Pairs** and **Letter–Number Pairs**, each a ten-round drill, plus **Equation Match**, which asks you to match each equation to its answer on a face-down board. These are the associative end of the catalogue, sitting alongside the span and grid modes that test storage and order instead.
+IQ Test & Brain Training Games is our own app, built by Reign Creative. Its memory catalogue includes **Letter Pairs** and **Letter–Number Pairs**, each a ten-round drill, plus **Equation Match**, which asks you to match each equation to its answer on a face-down board. These are the associative end of the catalogue, sitting alongside the span and grid modes that test storage and order instead.
 
-Two honest notes about them. First, a pair round in a game uses material with no meaning attached — that is what makes it a memory exercise rather than a study session, and it is also why the mediator strategies above make such a visible difference within a single session. Second, the app records score, accuracy, streak, response time and personal bests, and nothing more. It contains no assessment of any kind, and a pair-drill result is a game statistic rather than a measurement of associative memory.
+Two honest notes about them. First, a pair round in a game uses material with no meaning attached — that is what makes it a memory exercise rather than a study session, and it is also why the mediator strategies above make such a visible difference within a single session. Second, a pair-drill result is a game statistic — score, accuracy, streak, response time and personal bests — rather than a measurement of associative memory. The app does include a memory test and an IQ-style test, and its listing describes their results as estimates based on app activities, not clinical or professional assessments.
 
-If you want the underlying account of what working memory is and what practice does and does not change about it, our guide to [working memory and training](/blog/working-memory-and-training/) sets out both sides of the evidence without overstating either. The rest of the span, encoding and attention material is collected in the [memory and attention hub](/blog/topics/memory-and-attention/), the arithmetic side sits in the [education and brain training category](/blog/category/education-brain/), and the pair modes themselves are in [Mental Math & Memory Games](/apps/mental-math-memory-games/).
+If you want the underlying account of what working memory is and what practice does and does not change about it, our guide to [working memory and training](/blog/working-memory-and-training/) sets out both sides of the evidence without overstating either. The rest of the span, encoding and attention material is collected in the [memory and attention hub](/blog/topics/memory-and-attention/), the arithmetic side sits in the [education and brain training category](/blog/category/education-brain/), and the pair modes themselves are in [IQ Test & Brain Training Games](/apps/mental-math-memory-games/).
 
 ## The one sentence to keep
 

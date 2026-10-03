@@ -44,7 +44,8 @@
     "rugby-forwards-and-backs",
     "rugby-draft-and-squad-building",
     "rotating-draft-pools-explained",
-    "rugby-squad-rotation-over-a-season"
+    "rugby-squad-rotation-over-a-season",
+    "rugby-kicking-laws-50-22-and-drop-outs"
   ],
   "takeaways": [
     "Under World Rugby's Law 8 a try is worth five points, a conversion two, and a penalty goal or dropped goal three each, so a kicker is the only player who converts position into points without a phase of play.",

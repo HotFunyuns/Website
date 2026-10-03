@@ -5,7 +5,13 @@
   "description": "A worked method for grid logic puzzles: mark negatives first, propagate every positive across its row and column, and use counting when elimination stalls.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, offered only arithmetic and memory drills with nothing resembling a deduction puzzle and made no claims beyond its drill statistics; the app, now IQ Test & Brain Training Games, has logic games built on deduction, conditional reasoning and rule discovery and an IQ-style test whose results its Google Play listing calls estimates, and the article now says so while noting that the listing describes no logic grid mode."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -53,7 +59,7 @@
     "Mark negatives before positives. Most clues tell you what is not true, and a grid that records every negative will hand you the positives on its own.",
     "Every positive you write costs you a whole row and a whole column, because each value is used exactly once. Failing to propagate a positive is the most common reason a solve stalls.",
     "When direct elimination runs out, count. If two of three pairings in a category are fixed, the third is forced without any clue mentioning it.",
-    "Mental Math & Memory Games has no logic grid mode. The nearest thing in the app is rule-finding in its number pattern and missing number drills, which is a different task."
+    "Our own app, IQ Test & Brain Training Games, has logic games built on deduction, conditional reasoning and rule discovery, plus puzzle games, but its listing does not describe a logic grid mode, so practise the grid method itself with puzzles built for it."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -75,8 +81,8 @@
       "answer": "Count. If a category has three values and two of them are already committed elsewhere, the third is forced even though no clue says so directly. This counting argument is what unlocks most apparent dead ends, and it is worth trying before you resort to assuming a value and testing for contradiction."
     },
     {
-      "question": "Does Mental Math & Memory Games have logic grid puzzles?",
-      "answer": "No. The app ships arithmetic and memory drills, including number pattern and missing number modes that involve rule finding, but it contains no logic grid mode, no zebra puzzles and no verbal deduction items. This article is here for the reader rather than as a description of the product."
+      "question": "Does IQ Test & Brain Training Games have logic grid puzzles?",
+      "answer": "Its Google Play listing does not describe a logic grid mode. It does describe logic games built on deduction, conditional reasoning, analogies and rule discovery, puzzle games for planning and problem solving, and an IQ-style test that covers logic, so the app exercises related reasoning. For the grid method itself, use puzzles built in that format; this article is here for the reader rather than as a description of the product."
     }
   ],
   "sources": [
@@ -104,7 +110,7 @@
 
 The method for a logic grid puzzle is short enough to state up front: record every negative before you write a single positive, propagate each positive across its whole row and column the moment you write it, and when elimination stalls, count what is left rather than guessing. Everything else is bookkeeping. This article works an original puzzle through that procedure so you can see where each step comes from.
 
-One thing to clear up before starting. Mental Math & Memory Games, which we build at Reign Creative, has **no logic grid mode**. It ships arithmetic and memory drills, including number pattern and missing number puzzles that involve finding a rule, and nothing in it resembles the puzzle below. This piece exists because the question is worth answering, not because it describes a feature.
+One thing to clear up before starting. IQ Test & Brain Training Games, which we build at Reign Creative, has logic games built on deduction, conditional reasoning and rule discovery, and puzzle games, but its Google Play listing does not describe a **logic grid mode**, and nothing below is taken from the app. This piece exists because the question is worth answering, not because it describes a feature.
 
 ## What the grid is actually for
 
@@ -177,4 +183,4 @@ Only if all four are exhausted is assumption-and-contradiction appropriate, and 
 
 If you enjoy this kind of structured rule-finding, the numerical relative is worth reading next: [our guide to number sequence puzzles](/blog/number-sequence-puzzles-explained/) covers the equivalent procedure for sequences, where the unknown is a rule rather than a matching. You will also find the broader set of puzzle articles in the [logic and pattern puzzles hub](/blog/topics/logic-and-pattern-puzzles/) and the wider [education and brain section](/blog/category/education-brain/).
 
-For practice that does exist in our app rather than in this article, the number pattern and missing number drills on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/) exercise rule-finding under a timer, and the untimed accuracy mode with its explanations is the better fit if you want to slow down and check your reasoning. Neither is a logic grid, and neither is a test of anything — the app records score, accuracy, streak and response time on its own drills and makes no claims beyond that. If you want to see how the same care applies to arithmetic shortcuts, [our article on mental math tricks and where they break](/blog/mental-math-tricks-that-work/) is built on the same principle: know why the step is valid before you trust it.
+For practice that does exist in our app rather than in this article, the logic games in [IQ Test & Brain Training Games](/apps/mental-math-memory-games/) work on deduction, conditional reasoning and rule discovery, though its listing does not describe any of them as a logic grid. Its IQ-style test also covers logic, and the listing describes the results as estimates based on app activities, not a clinical or professional assessment. If you want to see how the same care applies to arithmetic shortcuts, [our article on mental math tricks and where they break](/blog/mental-math-tricks-that-work/) is built on the same principle: know why the step is valid before you trust it.

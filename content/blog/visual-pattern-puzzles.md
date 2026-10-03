@@ -5,7 +5,13 @@
   "description": "Figural pattern puzzles run on translation, rotation, reflection and glide reflection, plus a counted attribute. How to name what changes, and check it.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, had no shape or figural items, offered only arithmetic and memory practice and assessed nothing; the app, now IQ Test & Brain Training Games, has pattern-based logic games and an IQ-style test covering patterns and spatial reasoning, whose results its Google Play listing calls estimates, and the article now says so without claiming which item formats it uses."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -54,7 +60,7 @@
     "Rotation and reflection are told apart by handedness: rotating a figure never turns it into its mirror image, so one asymmetric feature settles the question.",
     "Two terms are never enough to fix a rule. A third term is what rules out the competing explanation, and a fourth is what confirms it.",
     "Perception research finds that patterns containing more symmetry types are detected more readily than the simpler ones nested inside them, which is why some patterns seem to jump out and others do not.",
-    "Mental Math & Memory Games contains no shape or figural items at all; its Number Pattern Challenge applies the same rule-finding habit to numbers instead."
+    "Our own app, IQ Test & Brain Training Games, has pattern and rule-discovery logic games and an IQ-style test covering patterns and spatial reasoning, but its listing does not say whether any of them use the rotation, reflection or translation rules described here."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -72,8 +78,8 @@
       "answer": "More than two, and usually more than three. Two terms are consistent with a large number of rules, so any answer based on them is a guess. A third term eliminates most competitors and a fourth confirms the survivor. If a puzzle gives you only two terms and asks for the next, it is relying on a convention about which rule is simplest rather than on evidence."
     },
     {
-      "question": "Can I practise visual pattern puzzles in Mental Math & Memory Games?",
-      "answer": "No. The app has no shape items, no rotation or mirror-image tasks, and no figural puzzles of any kind. Its catalogue is arithmetic and memory practice. The Number Pattern Challenge mode asks you to find the rule behind a run of numbers, which exercises the same habit of naming what is changing, but it is a numerical task, and the app assesses nothing."
+      "question": "Can I practise visual pattern puzzles in IQ Test & Brain Training Games?",
+      "answer": "Its Google Play listing does not say directly. It describes logic games built on patterns and rule discovery, memory games that use symbols, colours and grids, and an IQ-style test covering patterns and spatial reasoning, without saying whether any item uses the rotation, reflection or translation rules this article describes. The listing also describes the test's results as estimates based on app activities, not a professional assessment."
     }
   ],
   "sources": [
@@ -101,7 +107,7 @@
 
 Nearly every figural pattern puzzle you will meet is built from four transformations — translation, rotation, reflection and glide reflection — applied to a figure, plus one or more attributes that change in place, such as count, shading or size. The skill being tested is not seeing harder; it is describing. A solver who can say "the arrow turns 90 degrees clockwise while the number of dots goes up by one" has already finished, and a solver staring at the figures waiting for something to click usually has not started.
 
-One statement first, because this hub is attached to an app: Mental Math & Memory Games, which is our own app, has no shape items, no mirror-image tasks and no figural puzzles at all. This article is about the puzzle format, not about a feature.
+One statement first, because this hub is attached to an app: IQ Test & Brain Training Games, which is our own app, has pattern-based logic games and an IQ-style test covering patterns and spatial reasoning, but its Google Play listing does not describe mirror-image or rotation tasks, so this article is about the puzzle format, not about a feature.
 
 ## The four transformations
 
@@ -150,6 +156,6 @@ Here is a counted example to work on. A sequence of dot arrangements contains 1 
 
 ## What transfers, and what this app actually contains
 
-None of the above requires shapes. The habit that makes it work — name the attributes, isolate one, insist on a third and fourth term before committing — applies identically to a run of numbers, which is the one place this app does have something relevant. Mental Math & Memory Games ships a **Number Pattern Challenge** mode that asks for the rule behind a numerical run, at three difficulty settings, and records accuracy and response time per session. It is a one-dimensional analogue of the same discipline, and it is practice rather than assessment. What the app does and does not track is set out on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+None of the above requires shapes. The habit that makes it work — name the attributes, isolate one, insist on a third and fourth term before committing — applies identically to a run of numbers, and to the pattern and rule-discovery games in our app. IQ Test & Brain Training Games ships a **Number Pattern Challenge** mode that asks for the rule behind a numerical run, at three difficulty settings, and records accuracy and response time per session. It is a one-dimensional analogue of the same discipline, and it is practice rather than assessment; the app's separate IQ-style test, which covers patterns and spatial reasoning, produces results its listing calls estimates based on app activities, not a professional assessment. What the app tracks is set out on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).
 
 Two related habits are worth a look. Reading a pattern that is moving rather than static is a different problem, and our guide to [reading boss patterns](/blog/boss-pattern-recognition/) treats it directly. Holding several partial hypotheses while testing another is a genuine capacity limit rather than a character flaw, and [working memory and training](/blog/working-memory-and-training/) explains what that limit is. For the full taxonomy of rule-finding problems, start with [number sequence puzzles](/blog/number-sequence-puzzles-explained/), browse the [logic and pattern puzzles hub](/blog/topics/logic-and-pattern-puzzles/), or see everything in the [education and brain training section](/blog/category/education-brain/).

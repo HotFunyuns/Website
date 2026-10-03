@@ -5,7 +5,13 @@
   "description": "What each pitching role actually does, how workload and leverage differ, and why a bullpen is built the way it is — with the simulation consequences of each.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said all players, teams and leagues in our games are fictional. That is true of our career sims, but our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The sentence has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -45,7 +51,8 @@
     "two-way-players-explained",
     "baseball-career-sim-guide",
     "baseball-draft-gm-guide",
-    "aging-curves-in-career-sims"
+    "aging-curves-in-career-sims",
+    "infield-fly-rule"
   ],
   "takeaways": [
     "The roles differ on two axes: how long you pitch, and how much the game situation matters when you do. Those two together explain nearly every bullpen decision.",
@@ -156,6 +163,6 @@ If you are on the management side rather than the player side, the same leverage
 
 That is a scheduling problem across a season, not a ranking problem. [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/) puts you on that side of it, and [the baseball draft and GM guide](/blog/baseball-draft-gm-guide/) covers how pitching depth is valued during a draft.
 
-Everything we make in this space is listed under [sports career and GM games](/apps/category/sports-gm/). All players, teams and leagues in our games are fictional.
+Everything we make in this space is listed under [sports career and GM games](/apps/category/sports-gm/). Our career sims are set in fictional leagues with fictional teams and players; our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, team or athlete.
 
 MLB and MLB.com are trademarks of their respective owners, referenced here only to identify the source of the statistical definitions cited. No affiliation, sponsorship or endorsement is implied.

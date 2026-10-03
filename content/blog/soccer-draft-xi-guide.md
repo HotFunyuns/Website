@@ -5,7 +5,13 @@
   "description": "Why the draw changes everything in a soccer draft game, how position fit differs from position coverage, and what a simulated league campaign really measures.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described Pro Football GM Club Soccer as a generic simulator with fictional, generated players. Pro Football GM Club Soccer builds its player pool from real-world athletes' careers, with ratings that are the game's own estimates, and is not affiliated with or endorsed by any league, team or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -45,7 +51,9 @@
   "relatedArticles": [
     "football-draft-gm-guide",
     "basketball-draft-gm-guide",
-    "hockey-draft-gm-guide"
+    "hockey-draft-gm-guide",
+    "soccer-rule-changes-2026-27",
+    "soccer-rules-for-beginners"
   ],
   "takeaways": [
     "Soccer is scored in wins, draws and losses, so a perfect campaign requires converting draws as well as avoiding defeats — a defensively excellent but blunt side caps out early.",
@@ -75,7 +83,7 @@
     },
     {
       "question": "Is it connected to any real club or competition?",
-      "answer": "No. It is a generic simulator with fictional players and no affiliation with, endorsement by or connection to any real club, league or player. Because the pool is generated, you are judging players on the attributes and styles shown rather than on reputation."
+      "answer": "No. It is not affiliated with, endorsed by or licensed by any club, league or player. Its draft pool is built from real players' careers and some of its screens use real club names, but the ratings are the game's own estimates, so judge players on the attributes and styles shown rather than on reputation."
     },
     {
       "question": "Does it cost anything?",
@@ -152,7 +160,7 @@ When the XI is locked and the simulation runs, it plays out a full league campai
 
 That result is a model's output. It is computed from the squad you built — ratings, position fit, playing style, balance — according to the game's own rules. Three clarifications matter:
 
-**It does not describe anything real.** The players are fictional and generated inside the game. The result has no relationship to any real match, club, competition or player, and it is not usable as an indication of any real outcome.
+**It does not forecast anything real.** The pool is built from real players' careers, but the result is the game's model scoring your squad, and it predicts nothing about any real match, club, competition or player, and it is not usable as an indication of any real outcome.
 
 **It is a score for your squad building.** Read it the way you would read the score at the end of a puzzle. The question worth asking is not whether you were unlucky but which decision the result is disagreeing with.
 

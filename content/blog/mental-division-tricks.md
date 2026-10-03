@@ -202,7 +202,7 @@ And for **dividing by a decimal**, shift both numbers by the same power of ten u
 
 ## Which of these we teach in the app, and the one we removed
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) covers addition, subtraction, multiplication and division practice with difficulty that climbs as you improve, and it carries a set of **taught techniques** alongside the drills — methods for percentages, estimation, number patterns and faster calculation, each with games attached so you apply it immediately rather than reading it and forgetting it.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) covers addition, subtraction, multiplication and division practice with difficulty that climbs as you improve, and it carries a set of **taught techniques** alongside the drills — methods for percentages, estimation, number patterns and faster calculation, each with games attached so you apply it immediately rather than reading it and forgetting it.
 
 On the division side, the ones that made it in as taught methods are the ones above that generalise: factor splitting, partial quotients, halving chains, and the round-and-correct adjustment. Everything else is drilled rather than taught, which is a deliberate distinction — a technique earns a lesson slot only if it applies to numbers you did not choose.
 

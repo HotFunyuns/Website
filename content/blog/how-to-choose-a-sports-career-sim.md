@@ -48,7 +48,9 @@
     "career-sim-vs-manager-game",
     "how-player-career-modes-work",
     "golf-career-sim-guide",
-    "baseball-career-sim-guide"
+    "baseball-career-sim-guide",
+    "relative-age-effect-in-sports",
+    "baseball-positions-by-number"
   ],
   "takeaways": [
     "The most useful selection question is not which sport you like, but how much your results should depend on teammates.",

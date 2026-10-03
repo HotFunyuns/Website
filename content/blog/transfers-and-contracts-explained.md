@@ -5,7 +5,13 @@
   "description": "Transfer fees, contract length, free agency and release clauses — what each mechanism does, and how to evaluate an offer in a career or management game.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said every club, competition and player in our games is fictional. That is true of our career sims, but our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The sentence has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -44,7 +50,9 @@
     "coach-trust-and-playing-time",
     "soccer-career-sim-guide",
     "free-agency-explained",
-    "salary-cap-basics-for-gm-games"
+    "salary-cap-basics-for-gm-games",
+    "how-soccer-academies-work",
+    "pressing-in-soccer-explained"
   ],
   "takeaways": [
     "A transfer fee buys out the remainder of a contract, which is why contract length is the single biggest driver of a player's transfer value.",
@@ -163,4 +171,4 @@ From the other side, three questions:
 
 [Football Career Soccer XI Sim](/apps/soccer-career-sim-xi/) models transfers, contract negotiations, free agency and the reputational effects around them from the player's side; [the guide](/blog/soccer-career-sim-guide/) covers how to read a set of competing offers. [Pro Football GM Club Soccer](/apps/soccer-draft-gm-xi/) puts you on the club side of the same market.
 
-The Laws of the Game govern how football is played rather than how players are registered — [IFAB publishes them](https://www.theifab.com/laws-of-the-game-documents/) — and registration and transfer regulations are set separately by football's governing bodies and vary by jurisdiction. Every club, competition and player in our games is fictional. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+The Laws of the Game govern how football is played rather than how players are registered — [IFAB publishes them](https://www.theifab.com/laws-of-the-game-documents/) — and registration and transfer regulations are set separately by football's governing bodies and vary by jurisdiction. Our career sims use fictional clubs, competitions and players; our draft games build their player pools from real-world players' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, club or player. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).

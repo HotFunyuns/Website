@@ -5,7 +5,13 @@
   "description": "The difference between tearing a roster down and reshaping it, the honest tests for which your team needs, and why the worst outcome is doing neither.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said every league, team and player in our games is fictional. That is true of our career sims, but our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The sentence has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -45,7 +51,9 @@
     "free-agency-explained",
     "salary-cap-basics-for-gm-games",
     "how-draft-lotteries-work",
-    "how-to-build-a-balanced-basketball-roster"
+    "how-to-build-a-balanced-basketball-roster",
+    "hockey-forecheck-systems",
+    "how-do-nhl-standings-work"
   ],
   "takeaways": [
     "A rebuild trades present quality for future assets; a retool keeps the core and replaces the parts around it.",
@@ -170,4 +178,4 @@ In draft-and-simulate formats the timing pressure compresses — you build a ros
 
 [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/), [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/) and [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) all include formats that force this choice, and [salary cap basics for GM games](/blog/salary-cap-basics-for-gm-games/) covers the constraint that makes it a genuine dilemma rather than a preference.
 
-Every league, team and player in our games is fictional. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+Our career sims are set in fictional leagues with fictional teams and players; our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, team or athlete. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).

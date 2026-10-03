@@ -5,7 +5,13 @@
   "description": "The two dominant sports-game formats compared on session length, decision type and replay value, with an honest account of what each one is bad at.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said both formats run on generated players in fictional leagues and that every player in our games is fictional. Our career sims are fictional, but our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -77,7 +83,7 @@
     },
     {
       "question": "Do these games predict real results?",
-      "answer": "No. Both formats produce outputs from a model working under its own assumptions, applied to generated players in fictional leagues. They are not forecasts and are not guidance for wagering on anything."
+      "answer": "No. Both formats produce outputs from a model working under its own assumptions — applied to fictional players in the career sims, and to rosters drawn from real athletes' careers in the manager games. They are not forecasts and are not guidance for wagering on anything."
     }
   ],
   "sources": [
@@ -155,7 +161,7 @@ If you are new to the sport, start with a career sim. If you already know the sp
 If you want to try both in the same sport, our catalogue is deliberately paired:
 
 - Baseball: [Baseball Career Sim 2026](/apps/baseball-career-sim/) and [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/)
-- American football: [Football Career Sim 2026](/apps/football-career-sim/) and [20-0 Football Draft & GM Mode](/apps/football-draft-gm-mode/)
+- American football: [Football Career Sim 2026](/apps/football-career-sim/) and [Football Franchise GM League](/apps/football-draft-gm-mode/)
 - Ice hockey: [Hockey Career Sim 2026](/apps/hockey-career-sim/) and [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/)
 - Association football: [Football Career Soccer XI Sim](/apps/soccer-career-sim-xi/) and [Pro Football GM Club Soccer](/apps/soccer-draft-gm-xi/)
 - Basketball: [Basketball Career Sim](/apps/pro-basketball-my-career-sim/) and [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/)
@@ -166,4 +172,4 @@ If you want to try both in the same sport, our catalogue is deliberately paired:
 
 "Career mode versus franchise mode" is a narrower question inside the same territory — both are usually inside one game rather than being separate products. [Career mode versus franchise mode](/blog/career-mode-vs-franchise-mode/) covers that, and [how player career modes work](/blog/how-player-career-modes-work/) covers the machinery underneath the career side. If session length is your deciding factor, [sports manager games for short sessions](/blog/best-sports-manager-games-for-short-sessions/) covers which of our games survive interruption best.
 
-Both formats produce results by sampling from a model under its own assumptions. Neither predicts anything about a real athlete, team or competition, and every league, team and player in our games is fictional. All of it is under [sports career and GM games](/apps/category/sports-gm/).
+Both formats produce results by sampling from a model under its own assumptions. Neither predicts anything about a real athlete, team or competition. Our career sims are set in fictional leagues; our draft and GM games build their player pools from real athletes' careers, with ratings that are the games' own estimates. All of it is under [sports career and GM games](/apps/category/sports-gm/).

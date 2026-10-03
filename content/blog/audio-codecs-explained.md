@@ -177,7 +177,7 @@ Most players show track details in a media information panel: codec, channels, s
 
 ## Where our app fits
 
-[Regal Video Player](/apps/regal-video-player/) supports AAC, MP3, FLAC and Ogg audio alongside H.264, H.265, VP8, VP9 and AV1 video, inside MP4, MKV, MOV, M4V, WebM, 3GP, FLV, TS and M2TS containers.
+[Video Player All Formats PRO](/apps/regal-video-player/) supports AAC, MP3, FLAC and Ogg audio alongside H.264, H.265, VP8, VP9 and AV1 video, inside MP4, MKV, MOV, M4V, WebM, 3GP, FLV, TS and M2TS containers.
 
 **What that means for the silent-video problem:** a file whose audio is one of those formats will play. A file carrying only a multichannel home-cinema track may play video without audio, and the fix is a compatible audio track rather than a different player.
 

@@ -5,7 +5,13 @@
   "description": "An IQ score is not a count of correct answers. It is a rank inside a norm sample, rescaled so the average is 100. Here is each step of that conversion.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, showed only a points score and produced no IQ score, percentile or classification of any kind; the app, now IQ Test & Brain Training Games, includes an IQ-style test whose results its Google Play listing calls estimates based on app activities rather than professional assessments, and the article now explains why such a result is still not the deviation IQ it describes."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -53,7 +59,7 @@
     "The mean of 100 is imposed by the conversion, not discovered in the data. So is the standard deviation of 15.",
     "Because the scale is pinned to a norm sample, a score expires. The WAIS-5 was published in 2024 with updated norms; a score from an older edition was a rank against a different group of people.",
     "Every reported score carries measurement error, which is why a competent report gives a confidence interval rather than a single number.",
-    "Mental Math & Memory Games reports points — a base value plus speed and streak bonuses, scaled by difficulty. That is a game score, not a normed score, and the two are not comparable in any direction."
+    "Our own app, IQ Test & Brain Training Games, offers an IQ-style test alongside its games; its listing describes no norm sample and calls the results estimates based on app activities, not a professional assessment, so read them as a record of how you did on the app's questions rather than as a deviation IQ."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -72,7 +78,7 @@
     },
     {
       "question": "Does a brain training app calculate an IQ score?",
-      "answer": "Ours does not. Mental Math & Memory Games awards points for a correct answer, with bonuses for speed and for an unbroken streak, scaled by the difficulty selected. There is no norm sample, no age comparison and no conversion table anywhere in that calculation, so the output is a game score and nothing more."
+      "answer": "Ours, IQ Test & Brain Training Games, offers an IQ-style test, so it does produce a result — but its Google Play listing describes IQ test results as estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments. The listing describes no norm sample or conversion table of the kind explained in this article, so treat the result as a record of how you did on the app's own questions, not as a deviation IQ."
     }
   ],
   "sources": [
@@ -151,11 +157,11 @@ In practice this is why a report from a qualified administrator gives a band rat
 
 ## What our app's number is, and what it is not
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) is our own app, and its on-screen number is labelled SCORE for a reason.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) is our own app, and it shows numbers of two kinds: game results such as personal bests, accuracy and streaks, and the results of its IQ-style test, memory test and reaction time test.
 
-That score is points. A correct answer earns a base value, with a bonus for answering quickly and a further bonus for an unbroken streak, the whole thing scaled by the difficulty you selected. The design goal is to make a fast, accurate, sustained run feel different from a slow, patchy one — which is a game design goal, not a measurement goal.
+The game score is points. A correct answer earns a base value, with a bonus for answering quickly and a further bonus for an unbroken streak, the whole thing scaled by the difficulty you selected. The design goal is to make a fast, accurate, sustained run feel different from a slow, patchy one — which is a game design goal, not a measurement goal.
 
-None of the three steps above happens anywhere in it. There is no standardisation sample, no age band, no conversion table, no composite and no metric with a fixed mean. The app therefore produces no IQ score, no percentile and no classification of any kind, and a higher score in it says only that you did better at that mode, at that difficulty, than you did before. The honest, useful readings are accuracy on a fixed mode and difficulty, and response time — the kind of self-comparison discussed in our guide to [building a daily practice habit](/blog/building-a-daily-practice-habit/).
+A higher game score says only that you did better at that mode, at that difficulty, than you did before. For the IQ-style test, the listing describes no standardisation sample, age band or conversion table, and it states that IQ test and other results are estimates based on app activities, not medical, psychological, clinical, educational-placement, employment or professional diagnostic assessments. Nobody supervises the sitting either, so whatever form a result takes, it is not the deviation IQ this article describes. The honest, useful readings are accuracy on a fixed mode and difficulty, and response time — the kind of self-comparison discussed in our guide to [building a daily practice habit](/blog/building-a-daily-practice-habit/).
 
 Keeping **practice** separate from **standardised psychological assessment** is not modesty. It is the difference between a number that means something because of how it was built, and a number that means something because of what you did last Tuesday.
 

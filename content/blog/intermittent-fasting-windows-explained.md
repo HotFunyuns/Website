@@ -5,7 +5,13 @@
   "description": "What the four fasting patterns in the literature actually are, where names like 16:8 come from, and why the NIA says evidence is insufficient to recommend one.",
   "status": "published",
   "publishedAt": "2026-08-13",
-  "updatedAt": "2026-08-13",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Keto Diet Tracker, tracked electrolytes, kept photo logs and monthly summaries, did not interpret how your fasting was going, and kept everything on your device with no account; the app, now Ketora: Keto Diet Carb Tracker, lists a fasting timer with reminders, a food diary, recipes, a meal planner, weekly insights and an AI coach that reviews your logs without saying where they are kept, and the article now describes only that."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": [
@@ -77,8 +83,8 @@
       "answer": "No. A window changes the timing of eating; it does not change the nutrient content of the food. Dietary Reference Intakes for nutrients such as protein and carbohydrate are expressed as daily amounts, so compressing eating into fewer hours means the same daily nutrition has to fit into fewer meals rather than becoming unnecessary."
     },
     {
-      "question": "Can Keto Diet Tracker run a fasting window?",
-      "answer": "Keto Diet Tracker includes an intermittent fasting timer alongside its food log, net carb tracking, water tracking and electrolyte tracking. It records the window you choose to run. It does not select a protocol for you, does not judge whether fasting is appropriate for you, and everything stays on your device with no account required."
+      "question": "Can Ketora run a fasting window?",
+      "answer": "Yes. Ketora: Keto Diet Carb Tracker includes an intermittent fasting timer with 16:8, 18:6, 20:4, OMAD or custom windows and reminders when your eating window opens and closes, alongside its food diary, net carb tracking and water tracking. It runs the window you choose rather than selecting a protocol for you, and it does not judge whether fasting is appropriate for you; its listing describes it as informational, not medical advice."
     }
   ],
   "sources": [
@@ -240,11 +246,11 @@ Assuming that conversation has happened and the answer was yes, a few things are
 
 The point of a record is to replace "I think it has been going okay" with something a professional can look at.
 
-## Where Keto Diet Tracker fits
+## Where Ketora fits
 
-[Keto Diet Tracker](/apps/keto-diet-tracker/) includes an intermittent fasting timer alongside the rest of its logging: a food log with automatic net carb subtraction, a low-carb food database with a barcode scanner, custom foods and recipes, water tracking, electrolyte tracking for sodium, potassium and magnesium, ketone logs for readings you have taken yourself, body measurements, photo logs, and charts with weekly and monthly summaries.
+[Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) includes an intermittent fasting timer — 16:8, 18:6, 20:4, OMAD or a custom window, with reminders when your eating window opens and closes — alongside the rest of its logging: a food diary with automatic net carb subtraction, a barcode scanner, custom foods and saved meals, keto recipes and a meal planner, water, weight and body measurements, ketone readings you have taken yourself, and charts with weekly insights.
 
-What it does is record the window you choose to run. What it does not do is choose the protocol, tell you whether fasting is appropriate for you, or interpret how it is going. It is free with ads, requires no account, and keeps your data on your device.
+What it does is run the window you choose. What it does not do is choose the protocol for you or tell you whether fasting is appropriate for you; its listing describes it as informational, not medical advice. It is free to download and supported by ads, and its listing describes an AI coach that reviews your logs and suggests low-carb swaps and small meal-planner changes when you hit a plateau — suggestions to weigh, not a judgement about your health.
 
 If your interest is protein rather than carbohydrate, [Protein Diet Tracker](/apps/protein-diet-tracker/) covers daily protein, calories and macros with goals you set yourself. More tools in this area are listed under [health and nutrition apps](/apps/category/health-nutrition/), and the rest of our writing on nutrition tracking is collected under [health and nutrition](/blog/category/health-nutrition/).
 

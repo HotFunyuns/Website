@@ -5,7 +5,13 @@
   "description": "How to read formation notation, what each common shape gives up to get what it wants, and why the formation you defend in is rarely the one you attack in.",
   "status": "published",
   "publishedAt": "2026-08-13",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described Pro Football GM Club Soccer as a fictional simulation whose players are generated inside the game. Pro Football GM Club Soccer builds its player pool from real-world athletes' careers, with ratings that are the game's own estimates, and is not affiliated with or endorsed by any league, team or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -45,7 +51,9 @@
     "soccer-draft-xi-guide",
     "basketball-positions-explained",
     "how-to-build-a-balanced-basketball-roster",
-    "clean-sheets-explained"
+    "clean-sheets-explained",
+    "low-block-vs-high-line",
+    "penalty-shootout-rules"
   ],
   "takeaways": [
     "Formation notation is read from the defence forward and leaves the goalkeeper out, so the digits always add up to ten.",
@@ -79,7 +87,7 @@
     },
     {
       "question": "Do these games use real clubs and players?",
-      "answer": "No. Pro Football GM Club Soccer is a fictional simulation, and it is not affiliated with, endorsed by or connected to any real league, club or player. The players you draft are generated inside the game, which is precisely why judging position fit and playing style is the skill it asks for."
+      "answer": "Pro Football GM Club Soccer builds its draft pool from real players' careers and uses real club names in some of its screens, with ratings that are the game's own estimates; it is not affiliated with, endorsed by or licensed by any league, club or player. Judging position fit and playing style is still the skill it asks for, because a famous name in the wrong role weakens the side."
     }
   ],
   "sources": [

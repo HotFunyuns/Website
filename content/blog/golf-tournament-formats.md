@@ -5,10 +5,15 @@
   "description": "Stroke play, match play, Stableford, scramble, best ball and shotgun starts: what each format changes about how you should actually play.",
   "status": "published",
   "publishedAt": "2026-09-15",
-  "updatedAt": "2026-09-15",
+  "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
   "category": "sports-gm",
-  "tags": ["golf", "formats", "tournaments", "listicle"],
+  "tags": [
+    "golf",
+    "formats",
+    "tournaments",
+    "listicle"
+  ],
   "primaryKeyword": "golf tournament formats",
   "secondaryKeywords": [
     "golf competition formats",
@@ -32,12 +37,16 @@
     "Which format suits a group of mixed abilities?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["golf-career-simulator"],
+  "relatedApps": [
+    "golf-career-simulator"
+  ],
   "relatedArticles": [
     "golf-scoring-explained",
     "how-a-golf-cut-works",
     "golf-handicap-for-beginners",
-    "golf-course-management-basics"
+    "golf-course-management-basics",
+    "golf-rules-for-beginners",
+    "match-play-scoring-explained"
   ],
   "takeaways": [
     "Stroke play counts every shot and has no ceiling on damage; every other format exists to change that property in some way.",
@@ -88,6 +97,12 @@
       "publisher": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Match_play",
       "accessed": "2026-09-15"
+    }
+  ],
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article described how our golf game's formats were chosen, including a match-play prototype that was dropped and a claim that the game offers only one format. We could not verify that account, and the game's Google Play listing describes its events only as multi-round tournaments with cuts, leaderboards, ties and playoffs, so the section now says only what the listing supports."
     }
   ]
 }
@@ -145,17 +160,11 @@ These sit on top of any of the above rather than replacing them.
 | Testing a partnership properly | Foursomes |
 | Keeping a group interested to the last hole | Skins |
 
-## The formats we implemented, and the ones we dropped
+## Which format our golf game uses
 
-[Golf Career Simulator Pro Tour](/apps/golf-career-simulator/) implements one format: multi-round stroke play, with cuts, leaderboards, ties and playoffs.
+[Golf Career Simulator Pro Tour](/apps/golf-career-simulator/) is built around a tour schedule of multi-round events. Cuts, leaderboards, ties and playoffs decide where each week ends, and finishes feed rankings, earnings, sponsorship and which events are open to you next season. That is how the game's Google Play listing describes it, and it is all this article claims about the game.
 
-That is a narrower answer than the list above, and the narrowing was deliberate.
-
-We built match play as a prototype and cut it. The problem was not the format, which is excellent — it was that match play does not accumulate into a career the way stroke play does. A career in the game runs on finishes converting into rankings, earnings and reputation, and those in turn deciding which events are open to you next season. Stroke play produces a finishing position for every player in the field, every week, which is exactly the input that machine needs. Match play produces a bracket, and a bracket produces a meaningful result for two players and a shrug for the rest.
-
-Stableford had a different problem. It works beautifully as a way of scoring a round, and it substantially reduces the consequence of a disaster — which is the very thing that makes the game's risk decisions matter. The moment a triple bogey costs a couple of points rather than three shots, choosing the aggressive line stops being a real decision.
-
-So the honest position is: **stroke play with a cut was the only format that held a career narrative together**, and we shipped that rather than offering five formats where four were decorative. If you want variety of format, the game does not provide it. If you want the consequences of a single format applied consistently across seasons, it does.
+The link to the formats above is worth spelling out. A season-long ranking needs a finishing position for every player in every event. Multi-round stroke play produces one; a match-play bracket ranks the two players in each match and says little about everyone else in the field.
 
 The cut is doing a lot of the work there — it is what makes the first two rounds about survival rather than scoring. [How a golf cut works](/blog/how-a-golf-cut-works/) covers the mechanism and what missing one actually costs.
 

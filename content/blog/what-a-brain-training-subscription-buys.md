@@ -5,7 +5,13 @@
   "description": "Paywalls here usually gate catalogue access, session choice and reports rather than a different kind of exercise. No prices, just the structure to check.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, had no algorithmic session selection, implied that breadth across cognitive domains had no free route, said we make no cognitive claim at all, and said its modes are listed on our app page; the app, now IQ Test & Brain Training Games, lists an IQ-style test across seven areas followed by brain-training recommendations and games across several domains, with results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -118,11 +124,11 @@
 
 **In this category a paywall almost never buys you a different kind of exercise. It buys access to more of the same catalogue, sessions chosen for you rather than by you, more detailed reporting, and the removal of a daily cap.** Knowing that in advance turns "is it worth it" into a question you can answer, because you can check whether you would actually use those four things.
 
-Two disclosures before anything else. Mental Math & Memory Games is our own app, published by Reign Creative, so we are not a neutral party in a discussion about paywalls. And there are no prices anywhere in this article — not ours and not anyone else's — for the reason given below.
+Two disclosures before anything else. IQ Test & Brain Training Games is our own app, published by Reign Creative, so we are not a neutral party in a discussion about paywalls. And there are no prices anywhere in this article — not ours and not anyone else's — for the reason given below.
 
 ## What was checked, and what was deliberately left out
 
-Everything stated here about another company's product comes from that company's own official pages, read on 21 September 2026. Reviews were not used as evidence of what a product contains, and nothing is inferred from what a page does not mention.
+Everything stated here about another company's product comes from that company's own official pages, read on 21 September 2026; statements about our own app were re-checked against its Google Play listing on 2 October 2026, after it was renamed and its listing rewritten. Reviews were not used as evidence of what a product contains, and nothing is inferred from what a page does not mention.
 
 Prices are excluded on purpose. They differ by region, by platform, by whether you buy monthly or annually, and by whatever promotion is running the week you look. A number published here would be wrong for a meaningful share of readers on the day they read it, and a wrong number is worse than none. The place to find the current figure is the publisher's own plan page or the store listing on your device.
 
@@ -158,11 +164,11 @@ The fourth gate is how much you can play. A daily-session cap, like BrainHQ's fi
 
 ## Where our app sits
 
-Mental Math & Memory Games is free, contains ads and offers in-app purchases. The important structural point is that gameplay is not the paywall: every arithmetic mode, every memory mode and the whole technique library are playable, and replaying anything is always free.
+IQ Test & Brain Training Games is free, contains ads and offers in-app purchases. The important structural point is that gameplay is not the paywall: every arithmetic mode, every memory mode and the whole technique library are playable, and replaying anything is always free.
 
 We are not publishing our own price here for the same reason we are not publishing anyone else's, and you should check the current figure on the store listing rather than in an article.
 
-That structure is a choice with visible trade-offs, and it is worth naming them rather than presenting it as obviously superior. An ad-supported free tier means interruptions that a subscription-funded product does not have. And a product with no algorithmic session selection puts the work of choosing what to practise back on you — which is exactly the thing some readers would happily pay to avoid.
+That structure is a choice with visible trade-offs, and it is worth naming them rather than presenting it as obviously superior. An ad-supported free tier means interruptions that a subscription-funded product does not have. And while our app's listing describes brain-training recommendations after its IQ-style test and structured cognitive-training sessions, it does not describe a service that plans every session for you, so expect to do some of the choosing yourself — which is exactly the thing some readers would happily pay to avoid.
 
 ## How to check before you subscribe
 
@@ -178,7 +184,7 @@ A short routine that works across the category:
 
 There is a real case for paying, and pretending otherwise would be dishonest.
 
-If you want breadth across several cognitive domains, the publishers that document that breadth put most of it behind a subscription, and there is no free route to it. If you know you will not choose your own sessions sensibly, algorithmic selection is a service with value. If you will read a weekly report and act on it, reporting depth is worth something. And if ads genuinely disrupt your concentration during a timed task, removing them is not a trivial benefit.
+If you want breadth across several cognitive domains, the subscription publishers that document that breadth put most of it behind a subscription. Ours now lists several domains too, so check what any free tier, ours included, actually unlocks before deciding. If you know you will not choose your own sessions sensibly, algorithmic selection is a service with value. If you will read a weekly report and act on it, reporting depth is worth something. And if ads genuinely disrupt your concentration during a timed task, removing them is not a trivial benefit.
 
 Equally, if what you want is arithmetic drill and you will happily pick your own mode, you do not need to pay anyone — us included — to get it.
 
@@ -186,6 +192,6 @@ Equally, if what you want is arithmetic drill and you will happily pick your own
 
 Evidence. The question of whether any of this transfers beyond the exercises themselves is unresolved across the whole category, and a subscription does not resolve it.
 
-The clearest external marker remains the US Federal Trade Commission's January 2016 action, in which Lumos Labs [paid $2 million to settle charges](https://www.ftc.gov/news-events/news/press-releases/2016/01/lumosity-pay-2-million-settle-ftc-deceptive-advertising-charges-its-brain-training-program) over advertising that claimed training would improve performance on everyday tasks and delay age-related cognitive decline. The Commission's summary was that the company "simply did not have the science to back up its ads". That history applies to the category, not to one company, and it applies to us as well: we make no cognitive claim at all, which is a position rather than an achievement.
+The clearest external marker remains the US Federal Trade Commission's January 2016 action, in which Lumos Labs [paid $2 million to settle charges](https://www.ftc.gov/news-events/news/press-releases/2016/01/lumosity-pay-2-million-settle-ftc-deceptive-advertising-charges-its-brain-training-program) over advertising that claimed training would improve performance on everyday tasks and delay age-related cognitive decline. The Commission's summary was that the company "simply did not have the science to back up its ads". That history applies to the category, not to one company, and it applies to us as well: we make no claim that our app improves everyday performance or protects against cognitive decline, and its listing describes its IQ-style test and other results as estimates based on app activities rather than professional assessments — a position rather than an achievement.
 
-The cornerstone guide [do brain training apps work](/blog/do-brain-training-apps-work/) goes through the underlying research properly. The rest of the practical writing sits in the [brain training games hub](/blog/topics/brain-training-games/) and the [education and brain category](/blog/category/education-brain/), and the modes our own app ships are listed on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+The cornerstone guide [do brain training apps work](/blog/do-brain-training-apps-work/) goes through the underlying research properly. The rest of the practical writing sits in the [brain training games hub](/blog/topics/brain-training-games/) and the [education and brain category](/blog/category/education-brain/), and our own app is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

@@ -5,7 +5,13 @@
   "description": "Pocket passer, scrambler, field general, dual-threat: what each archetype actually trades away, and how the choice changes the decisions a game offers you.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said our games borrow no league identities and that every league, team and player in them is fictional. That is true of our career sims, but our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The sentence has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -44,7 +50,8 @@
     "football-career-sim-guide",
     "football-positions-explained-for-drafting",
     "reading-a-defense-basics",
-    "how-player-career-modes-work"
+    "how-player-career-modes-work",
+    "franchise-tag-explained"
   ],
   "takeaways": [
     "An archetype is a description of what you do when a play breaks down — that is the moment where the categories actually differ.",
@@ -156,6 +163,6 @@ The useful question is not "which archetype is best?" It is **"which failure mod
 
 An archetype only exists relative to the eleven other people on the field. Protection quality decides how long a pocket passer has; the quality of the receiving group decides whether a field general's correct read is worth anything. [Football positions explained](/blog/football-positions-explained-for-drafting/) covers what each role contributes and why they are valued differently.
 
-If you would rather assemble the offence than play in it, [20-0 Football Draft & GM Mode](/apps/football-draft-gm-mode/) is the roster-building version of the sport. The general mechanics of how a career mode converts your build into outcomes are in [how player career modes work](/blog/how-player-career-modes-work/).
+If you would rather assemble the offence than play in it, [Football Franchise GM League](/apps/football-draft-gm-mode/) is the roster-building version of the sport. The general mechanics of how a career mode converts your build into outcomes are in [how player career modes work](/blog/how-player-career-modes-work/).
 
-Real football is governed by published rulebooks — the [NCAA's playing rules](https://www.ncaa.org/sports/2013/11/21/playing-rules.aspx) are freely available — and our games borrow the structure of downs, distance and clock rather than any league's identities. Every league, team and player in them is fictional. The full catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+Real football is governed by published rulebooks — the [NCAA's playing rules](https://www.ncaa.org/sports/2013/11/21/playing-rules.aspx) are freely available — and the structure of downs, distance and clock in our games comes from the sport itself. Our career sims are set in fictional leagues with fictional teams and players; our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, team or athlete. The full catalogue is under [sports career and GM games](/apps/category/sports-gm/).

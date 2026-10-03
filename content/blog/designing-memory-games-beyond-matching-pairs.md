@@ -5,7 +5,13 @@
   "description": "Matching pairs is one memory task among many. The formats we built instead, what each one actually stresses, and the ones that did not survive testing.",
   "status": "published",
   "publishedAt": "2026-09-15",
-  "updatedAt": "2026-09-15",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article described our app, then called Mental Math & Memory Games, as two halves, memory and arithmetic; the app, now IQ Test & Brain Training Games, also has logic, vocabulary and focus games and an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -174,7 +180,7 @@ First, those figures describe performance under controlled conditions on a speci
 
 Second, and more practically: a game that opens at the population average is a game that the majority of people fail on their first try. First-session failure is the most reliable way to lose someone, and there is no pedagogical benefit to it.
 
-So the numeric and grid tasks in [Mental Math & Memory Games](/apps/mental-math-memory-games/) start comfortably below those anchors and **climb adaptively** — the sequence lengthens after a success and shortens after a failure, so a player spends most of their session at the edge of their own capacity rather than at the edge of a published average. The adult figures are where the curve is heading, not where it starts.
+So the numeric and grid tasks in [IQ Test & Brain Training Games](/apps/mental-math-memory-games/) start comfortably below those anchors and **climb adaptively** — the sequence lengthens after a success and shortens after a failure, so a player spends most of their session at the edge of their own capacity rather than at the edge of a published average. The adult figures are where the curve is heading, not where it starts.
 
 The consequence is that early rounds look trivially easy to a strong player. That is a deliberate cost: two or three quick successes cost a strong player fifteen seconds, and they are the difference between a weaker player continuing and closing the app.
 
@@ -184,7 +190,7 @@ The memory side covers **number, grid, sequence and delayed-recall** activities 
 
 Around them sit formats that change the pressure rather than the task: timed sprints, accuracy rounds, survival challenges that run until you slip, and boss quizzes to close out a stretch of work. Scores, accuracy, streaks, response time and personal bests are recorded with a history, so progress is a trend rather than an impression.
 
-The arithmetic half of the app is the place where speed pressure *is* the right dial, which is why the two halves are built differently even though they sit in the same product.
+The arithmetic games are the place where speed pressure *is* the right dial, which is why they are built differently from the memory games even though both sit in the same product, which also has logic, vocabulary and focus games and an IQ-style test whose results its listing calls estimates rather than clinical or professional assessments.
 
 ## The caveat that has to be attached
 

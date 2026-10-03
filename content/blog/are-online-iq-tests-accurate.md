@@ -5,7 +5,13 @@
   "description": "A free online IQ test fails at the parts that make a score mean anything: controlled conditions, a real norm sample, an administrator and a retest interval.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no test of any kind; the app, now IQ Test & Brain Training Games, includes an IQ-style test, a memory test and a reaction time test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now applies its argument to that test."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -56,7 +62,7 @@
     "Proctoring is not uniformly decisive. A 2025 study of 226 participants in a low-stakes setting found no overall performance difference by proctoring status, but memory tasks behaved differently across conditions and observed cheating in proctored sessions was rare, at around 4 per cent.",
     "Repeat exposure inflates scores on its own. Retest effects are largest between the first and second sittings — one analysis reported an effect size of 0.72 — and remain positive through a fourth administration.",
     "Regulators have acted on unsupported cognitive claims. In January 2016 the US Federal Trade Commission announced a $2 million settlement over brain-training advertising that claimed scientific studies proved benefits they could not substantiate.",
-    "Mental Math & Memory Games contains no test at all, so there is nothing in it to be accurate or inaccurate about. It is an educational game that records practice statistics."
+    "Our own app, IQ Test & Brain Training Games, includes an IQ-style test, and the same limits apply to it: it is taken unsupervised on a phone, and its Google Play listing describes the results as estimates based on app activities, not a clinical or professional assessment."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -74,8 +80,8 @@
       "answer": "It depends on the task. Scherrer and colleagues, testing 226 participants in a low-stakes setting in 2025, found no significant overall difference by proctoring status, with proctored participants slightly ahead on reasoning and divergent thinking and slightly behind on memory. Memory tasks showed measurement problems across conditions, and the authors concluded supervision matters most for tasks that are easy to cheat."
     },
     {
-      "question": "Does the Mental Math & Memory Games app contain an IQ test?",
-      "answer": "No. It has no test, no assessment, no percentile, no brain-age figure and no estimate of intelligence. It generates arithmetic and memory rounds and records what happened — score, accuracy, streak, response time and personal bests. Those describe a practice session and are not offered as a measurement of anything."
+      "question": "Does the IQ Test & Brain Training Games app contain an IQ test?",
+      "answer": "Yes. It includes an IQ-style test covering numerical reasoning, logic, patterns, vocabulary, working memory, spatial reasoning and processing speed, alongside brain games, a memory test and a reaction time test. Its Google Play listing states that these results are estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments. Because the test is taken unsupervised on a phone, the limits this article describes apply to it too."
     }
   ],
   "sources": [
@@ -151,13 +157,13 @@ Cognitive-benefit marketing has a documented enforcement history. On 5 January 2
 
 That case was about training claims rather than testing claims, but the principle transfers: a cognitive claim needs substantiation proportionate to the claim, and "our users score higher" is not substantiation.
 
-## What our app does instead of testing you
+## Where our own app fits
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) is our own app, built by Reign Creative, and it contains no test. There is nothing in it to be accurate or inaccurate about.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) is our own app, built by Reign Creative, and it includes an IQ-style test — so this article's argument applies to it as much as to any web quiz.
 
-Its Google Play category is Educational game and its content rating is Everyone. It generates arithmetic rounds — Multiplication Rush, Addition Sprint, Subtraction Sprint, Division Dash, Mixed Operations — plus number, sequence, grid and delayed-recall memory rounds, formats such as Survival and Boss Quiz, a Daily Challenge, and a 49-technique library with worked examples. What it records is score, accuracy, streak, response time and personal bests.
+Its Google Play category is Educational game and its content rating is Everyone. Its IQ-style test covers numerical reasoning, logic, patterns, vocabulary, working memory, spatial reasoning and processing speed, and the app also has a memory test, a reaction time test, a personality questionnaire, and memory, logic, focus, vocabulary and mental math games. It keeps personal bests, accuracy, streaks, response speed and a history of past results.
 
-None of that is offered as a measurement. There is no percentile, no classification, no brain-age figure and no estimate of intelligence anywhere in the product. The four categories this series keeps apart apply cleanly: the app is **practice**, **entertainment** and **educational activity**, and it is not **standardised psychological assessment**. Our broader position on what practice products can claim is set out in [do brain training apps work](/blog/do-brain-training-apps-work/).
+The listing is explicit about what those results are: IQ test, personality test, memory test and other results are estimates based on app activities, not medical, psychological, clinical, educational-placement, employment or professional diagnostic assessments. The four failure points above apply to it in full: you set the conditions, the listing documents no comparison group, nobody observes the session, and the app invites you to revisit the test and compare against your own history, which is exactly where the retest effect shows up. The four categories this series keeps apart still sort it cleanly: the app is **practice**, **entertainment** and **educational activity**, and it is not **standardised psychological assessment**. Our broader position on what practice products can claim is set out in [do brain training apps work](/blog/do-brain-training-apps-work/).
 
 ## If you want a number that means something
 

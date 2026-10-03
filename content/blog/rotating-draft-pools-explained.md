@@ -44,7 +44,8 @@
     "what-makes-a-good-draft-board",
     "rugby-draft-and-squad-building",
     "snake-draft-vs-auction-draft",
-    "drafting-a-goal-kicker-in-rugby"
+    "drafting-a-goal-kicker-in-rugby",
+    "how-sports-scouting-works"
   ],
   "takeaways": [
     "A rotating pool changes which positional groups are deep and which are thin on a given board, so scarcity — not talent — is the variable that moves between runs.",

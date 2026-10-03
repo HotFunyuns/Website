@@ -5,7 +5,13 @@
   "description": "Net carbs never appear on a US Nutrition Facts label. Here is what the label really declares, how the subtraction works, and why two apps disagree.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-13",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Keto Diet Tracker: Low Carb, subtracted erythritol, allulose and monk fruit, sent carb-limit alerts, left the carb limit entirely to you, let you change its starting macros freely, logged electrolytes, GKI and photos, kept monthly summaries, had no paid tier and kept logs only on your device; the app, now Ketora: Keto Diet Carb Tracker, lists net carbs as total carbs minus fiber and sugar alcohols, daily targets from a few questions with custom macro goals in an optional Ketora Premium, and an AI coach that reviews your logs, and the article now describes only that."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": ["net carbs", "low carb", "nutrition labels", "macro tracking", "dietary fiber"],
@@ -64,8 +70,8 @@
       "answer": "That is a question for you and a qualified healthcare professional, not for an article or an app. The published reference points are public: the National Academies set a Recommended Dietary Allowance for carbohydrate of 130 grams per day for adults and an Acceptable Macronutrient Distribution Range of 45 to 65 percent of calories, and FDA uses a Daily Value of 275 grams of total carbohydrate on labels. Those are population reference figures, not personal targets."
     },
     {
-      "question": "Does Keto Diet Tracker do the subtraction for me?",
-      "answer": "Yes. It takes total carbohydrate and subtracts fiber along with sweeteners such as erythritol, allulose and monk fruit each time you log a food, and it can alert you when a day passes a limit you have set yourself. You choose the limit; the app does not pick a number for you."
+      "question": "Does Ketora do the subtraction for me?",
+      "answer": "Yes. Ketora: Keto Diet Carb Tracker takes total carbohydrate and subtracts fiber and sugar alcohols each time you log a food, shows net and total carbs side by side, and keeps a progress ring of how much of your daily limit is left. Its daily targets come from a few questions about your body and goals, so treat them as a starting point rather than a recommendation for you."
     }
   ],
   "sources": [
@@ -216,13 +222,13 @@ This article makes no claim that any carbohydrate target produces any outcome. C
 
 The subtraction is easy once. It is tedious 300 times a week in a supermarket aisle, which is where a dedicated tool earns its place.
 
-[Keto Diet Tracker: Low Carb](/apps/keto-diet-tracker/) is built around that specific chore. Fiber and sweeteners including erythritol, allulose and monk fruit come off total carbohydrate automatically as you log, and the app can alert you when a day passes a limit you set yourself. A low-carb food database and barcode scanner cover packaged items, custom foods and recipes cover anything you cook, and a meal planner lets you lay out breakfast, lunch, dinner and desserts in advance.
+[Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) is built around that specific chore. Fiber and sugar alcohols come off total carbohydrate automatically as you log, net and total carbs show side by side, and a progress ring shows how much of your daily limit is left. A barcode scanner covers packaged items, custom foods and saved meals cover what you make yourself, and keto recipes with net carbs per serving feed a meal planner that turns the week into a grocery list.
 
-A built-in calculator turns details you enter — age, height, weight, activity level — into starting fat, protein and net carb figures you are free to change. That is a starting point generated from a formula, not an assessment of you, and it is meant to be overwritten once you know better.
+A few questions about your body and goals produce starting fat, protein, carb and calorie targets, and you can switch between strict keto, lazy keto and a flexible low-carb approach. That is a starting point generated from your answers, not an assessment of you; the listing puts custom macro goals, for setting your own figures, in the optional Ketora Premium.
 
-Around the food log sit the other things low-carb eaters tend to record: ketone readings you have taken yourself with blood, urine strips or a breath meter including GKI, an intermittent fasting timer, water, and sodium, potassium and magnesium. If you intend to use that timer, [the common fasting windows and what separates them](/blog/intermittent-fasting-windows-explained/) is worth reading before you pick one. The app stores readings you enter; it does not measure anything itself. Charts, body measurements, photo logs and weekly and monthly summaries turn the entries into a record you can look back over.
+Around the food log sit the other things low-carb eaters tend to record: ketone readings you have taken yourself from blood, breath or urine strips, an intermittent fasting timer, water and weight. If you intend to use that timer, [the common fasting windows and what separates them](/blog/intermittent-fasting-windows-explained/) is worth reading before you pick one. The app stores readings you enter; it does not measure anything itself. Charts, body measurements and weekly insights turn the entries into a record you can look back over.
 
-It is free on Google Play, supported by ads, with no in-app purchases. No account is required and your logs stay on your device rather than on our servers — which also means an uninstall takes the history with it. Other trackers in the [health and nutrition category](/apps/category/health-nutrition/) make different trade-offs. If carbohydrate is not the number you care about, [Protein Diet Tracker](/apps/protein-diet-tracker/) is built around a different one, and [tracking protein instead](/blog/how-to-track-protein-intake/) is a different exercise with the same failure mode, which is friction rather than motivation.
+It is free on Google Play and supported by ads; Google Play shows no in-app purchases for it, although its listing describes an optional Ketora Premium. Other trackers in the [health and nutrition category](/apps/category/health-nutrition/) make different trade-offs. If carbohydrate is not the number you care about, [Protein Diet Tracker](/apps/protein-diet-tracker/) is built around a different one, and [tracking protein instead](/blog/how-to-track-protein-intake/) is a different exercise with the same failure mode, which is friction rather than motivation.
 
 ## Practical rules that survive a real week
 

@@ -5,7 +5,13 @@
   "description": "A digit span is the longest run of numbers you can repeat back. How the stepped procedure produces that figure, and why an app's best span is not a test score.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, administered no cognitive assessment and made no claim about how you compare with others; the app, now IQ Test & Brain Training Games, includes a memory test and an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, so the article now says that and no longer says the app page lists its full memory catalogue."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -54,7 +60,7 @@
     "In the standard clinical form used by Choi and colleagues in their normative study, sequences are read at one digit per second, two trials are given at each length, and testing halts when both trials at a length fail.",
     "The figure a span task returns is larger than the underlying storage limit, because rehearsal and grouping sit on top of it. Nelson Cowan argues the central store holds roughly 3 to 5 meaningful items in young adults.",
     "Norris, Hall and Gathercole found that digit span training does not substantially improve the capacity of verbal short-term memory, and that transfer to other span tasks was minimal. Practice moves the score through better strategy, not a bigger store.",
-    "Mental Math & Memory Games records a best span on its own drills. That is a personal best in a game, not a measurement, and the app administers no cognitive assessment of any kind."
+    "IQ Test & Brain Training Games records a best span on its own memory drills, and that is a personal best in a game. Its memory test and IQ-style test are separate features, and its listing describes their results as estimates based on app activities, not clinical or professional assessments."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -76,8 +82,8 @@
       "answer": "Your score on the practised task can rise. Norris, Hall and Gathercole concluded that digit span training does not substantially improve the capacity of verbal short-term memory, and found little evidence of fundamental capacity change with extensive practice. Improvement generally reflects better grouping and strategy on that specific task rather than a larger underlying store."
     },
     {
-      "question": "Does Mental Math & Memory Games give me a digit span score?",
-      "answer": "It records the longest sequence you have completed in its own memory drills and keeps that as a personal best. That is a game statistic produced under game conditions, with no standard administration, no norms and no interpretation attached. It is not a test, not an assessment, and not comparable to a score produced by a psychologist using a standardised instrument."
+      "question": "Does IQ Test & Brain Training Games give me a digit span score?",
+      "answer": "It records the longest sequence you have completed in its own memory drills and keeps that as a personal best — a game statistic produced under game conditions, with no standard administration. The app also has a memory test you can repeat against your own history, and its listing describes that result, like its other test results, as an estimate based on app activities rather than a clinical or professional assessment. Neither is comparable to a score produced by a psychologist using a standardised instrument."
     }
   ],
   "sources": [
@@ -115,7 +121,7 @@
 }
 ---
 
-A digit span is the longest run of digits you can take in once and repeat back in the right order. It is not a number you either have or lack, and it is not read off a single attempt: it is the output of a stepped procedure that lengthens the sequence until you fail. Mental Math & Memory Games, which we build at Reign Creative, stores a best span from its own drills, and that figure is a personal best in a game rather than a test score. The app administers no cognitive assessment of any kind, and this article explains what the real procedure does so you can see the difference.
+A digit span is the longest run of digits you can take in once and repeat back in the right order. It is not a number you either have or lack, and it is not read off a single attempt: it is the output of a stepped procedure that lengthens the sequence until you fail. IQ Test & Brain Training Games, which we build at Reign Creative, stores a best span from its own drills, and that figure is a personal best in a game rather than a test score. The app also has a memory test and an IQ-style test, whose results its Google Play listing describes as estimates based on app activities, not clinical or professional assessments; this article explains what the real procedure does so you can see the difference.
 
 ## What a span task is actually sampling
 
@@ -153,8 +159,8 @@ There is a second, quieter reason to be cautious about comparing span numbers ac
 
 ## Where the app's drills fit
 
-Mental Math & Memory Games ships memory modes built on exactly this shape: a Digit Span Trainer that runs twelve rounds and lengthens the digit string as you go, plus Number Recall and Sequence Memory, which run up to twenty items at the higher difficulty levels. The app keeps your longest completed sequence as a personal best, alongside score, accuracy, streak and response time.
+IQ Test & Brain Training Games ships memory modes built on exactly this shape: a Digit Span Trainer that runs twelve rounds and lengthens the digit string as you go, plus Number Recall and Sequence Memory, which run up to twenty items at the higher difficulty levels. The app keeps your longest completed sequence as a personal best, alongside score, accuracy, streak and response time.
 
-Treat that record as what it is. It was produced on your own phone, at a moment of your choosing, with no examiner, no standard presentation rate you did not set, and no norms behind it. It tells you whether this week's practice went better than last week's on the same mode at the same difficulty. It does not tell you anything about your standing relative to other people, and the app makes no such claim. Keeping practice, entertainment and standardised psychological assessment in separate boxes is not a legal formality — it is the only way the practice record stays useful.
+Treat that record as what it is. It was produced on your own phone, at a moment of your choosing, with no examiner and no standard presentation rate you did not set. It tells you whether this week's practice went better than last week's on the same mode at the same difficulty. It does not tell you anything about your standing relative to other people. Keeping practice, entertainment and standardised psychological assessment in separate boxes is not a legal formality — it is the only way the practice record stays useful.
 
-If you want to use the drills seriously, hold the mode and the difficulty constant, and read accuracy before you read the span. You can see the full memory catalogue on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/), browse the rest of this subject in the [memory and attention hub](/blog/topics/memory-and-attention/), and find the wider set of study and cognition articles in the [education and brain section](/blog/category/education-brain/). For the strategies that actually move a span — grouping, rhythm and rehearsal — the practical companion piece is [our comparison of number memorisation methods](/blog/how-to-memorize-numbers/).
+If you want to use the drills seriously, hold the mode and the difficulty constant, and read accuracy before you read the span. You can see how the app describes its memory games and memory test on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/), browse the rest of this subject in the [memory and attention hub](/blog/topics/memory-and-attention/), and find the wider set of study and cognition articles in the [education and brain section](/blog/category/education-brain/). For the strategies that actually move a span — grouping, rhythm and rehearsal — the practical companion piece is [our comparison of number memorisation methods](/blog/how-to-memorize-numbers/).

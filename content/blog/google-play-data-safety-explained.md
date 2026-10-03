@@ -5,7 +5,13 @@
   "description": "What developers must declare, how collection differs from sharing, what the section does not tell you, and how to read it before installing anything.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said Keto Diet Tracker: Low Carb stored your entries only on your device and needed no account; the app, now Ketora: Keto Diet Carb Tracker, describes an AI coach that reviews your logs and its listing does not say where they are kept, so the article now makes that claim for Protein Diet Tracker only and suggests checking Ketora's Data safety section."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "video-utility",
   "tags": [
@@ -166,9 +172,11 @@ For a food log or a game save, many people prefer that trade. For something you 
 
 ## Where our apps fit
 
-[Protein Diet Tracker](/apps/protein-diet-tracker/) and [Keto Diet Tracker: Low Carb](/apps/keto-diet-tracker/) store your entries on your device rather than on our servers, and require no account. The consequence stated plainly: your logs stay with you, and an uninstall takes them with it. [How to track protein intake](/blog/how-to-track-protein-intake/) covers building the logging habit that produces that data.
+[Protein Diet Tracker](/apps/protein-diet-tracker/) stores your entries on your device rather than on our servers, and requires no account. The consequence stated plainly: your logs stay with you, and an uninstall takes them with it. [How to track protein intake](/blog/how-to-track-protein-intake/) covers building the logging habit that produces that data.
 
-[Regal Video Player](/apps/regal-video-player/) plays files already on the device and is not a streaming client, so its relationship with your data is similarly narrow.
+[Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) is a case to check rather than assume: its listing describes an AI coach that reviews your logs and does not say where that happens, so read its Data safety section before treating it as local-first.
+
+[Video Player All Formats PRO](/apps/regal-video-player/) plays files already on the device and is not a streaming client, so its relationship with your data is similarly narrow.
 
 Our apps are free to download, supported by ads, with optional in-app purchases on most — which means advertising components are present, and that is reflected in what our listings declare. Our [privacy policy](/privacy/) covers the detail, and every app page on this site states the ads, in-app purchase and content-rating facts verified against the live listing with the verification date shown.
 

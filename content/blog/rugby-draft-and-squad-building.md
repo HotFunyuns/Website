@@ -8,7 +8,12 @@
   "updatedAt": "2026-09-15",
   "author": "reign-creative-llc",
   "category": "sports-gm",
-  "tags": ["rugby", "draft", "squad building", "strategy"],
+  "tags": [
+    "rugby",
+    "draft",
+    "squad building",
+    "strategy"
+  ],
   "primaryKeyword": "rugby draft simulator",
   "secondaryKeywords": [
     "rugby draft",
@@ -32,7 +37,9 @@
     "What does a salary cap do in a rugby draft?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["rugby-draft-pro-league"],
+  "relatedApps": [
+    "rugby-draft-pro-league"
+  ],
   "relatedArticles": [
     "rugby-forwards-and-backs",
     "rugby-positions-and-numbers",

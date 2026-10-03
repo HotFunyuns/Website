@@ -5,7 +5,13 @@
   "description": "A card is a matchmaking exercise: ranking, styles, weight and stakes all decide the order. What the terms mean and how a card gets assembled.",
   "status": "published",
   "publishedAt": "2026-09-15",
-  "updatedAt": "2026-09-15",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described the fighters in 40-0 MMA & Boxing Fight Draft as fictional and generated. 40-0 MMA & Boxing Fight Draft builds its fighter pools from real fighters' careers, with ratings and records that are the game's own estimates, and is not affiliated with or endorsed by any promotion, sanctioning body or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": ["mma", "boxing", "matchmaking", "feature explainer"],
@@ -37,7 +43,9 @@
     "mma-weight-classes-explained",
     "how-boxing-records-are-written",
     "mma-fantasy-draft-strategy",
-    "how-mma-judging-criteria-work"
+    "how-mma-judging-criteria-work",
+    "undefeated-records-in-boxing-and-mma",
+    "boxing-vs-mma-rules"
   ],
   "takeaways": [
     "A card lists the bouts at a combat-sports event: a main event plus an undercard, which may be split into a midcard and a lower card.",
@@ -150,4 +158,4 @@ The second constraint, standing, is softer. The app will match fighters at diffe
 
 **The consequence at the draft board** is that weight-class spread is not decoration. A stable clustered in one division fights the same small pool repeatedly. A stable spread across divisions has more available matchups, which in GM Mode means more paths to a title. That is the practical argument in [MMA fantasy draft strategy](/blog/mma-fantasy-draft-strategy/), and it is why weight coverage tends to beat raw fighter quality over a long run.
 
-The fighters in the game are fictional and generated inside it; it is not affiliated with, endorsed by or connected to any real promotion, sanctioning body, event or athlete. The studio's other sports and management titles are listed under [sports GM](/apps/category/sports-gm/).
+The game's fighter pools are built from real fighters' careers, with ratings and records that are the game's own estimates; it is not affiliated with, endorsed by or licensed by any promotion, sanctioning body, event or athlete. The studio's other sports and management titles are listed under [sports GM](/apps/category/sports-gm/).

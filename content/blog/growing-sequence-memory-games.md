@@ -5,7 +5,13 @@
   "description": "Why growing-sequence memory games break down in the middle of the list, what the serial position curve predicts, and how chunking moves the break point.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no test of any kind; the app, now IQ Test & Brain Training Games, includes a memory test whose result its Google Play listing calls an estimate rather than a clinical or professional assessment, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -54,7 +60,7 @@
     "Jones and Oberauer report that forward recall typically shows strong primacy with only a little recency, while backward recall shows the reverse, so which end is protected depends on the order you reproduce the list in.",
     "Grouping a sequence into runs of three or four and giving each run its own rhythm converts a long list into a short one, which is the single most effective strategy on this format.",
     "Improvement on a sequence game is a better encoding habit, not a larger memory. The working-memory literature describes a central store of roughly three to five chunks that strategy works around rather than expands.",
-    "Mental Math & Memory Games records a longest-sequence figure as a personal best, which is a record of your play in one mode and not a measurement of anything."
+    "IQ Test & Brain Training Games records a longest-sequence figure as a personal best, which is a record of your play in one mode and not a measurement of anything."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -107,7 +113,7 @@ Strip away the lights and sounds and this is **immediate serial recall**: a list
 
 The growing part adds a staircase. Round three asks for three items, round seven asks for seven. That accumulation is the opposite of what [an n-back task](/blog/n-back-tasks-explained/) does, where the load stays flat and only the contents change. Because the list only ever grows by one, the game converges on your limit with reasonable precision, and because it starts easy it gives you several rounds of momentum before it gets interesting. That combination — self-calibrating difficulty plus a visible number at the end — is why the format has survived since the 1970s in one form or another.
 
-In our own app, Mental Math & Memory Games, built by Reign Creative, this format appears as **Simon Memory**, described in the mode list as a twelve-round game where the pattern grows by one every round. Nearby modes vary the same idea: Color Sequence and Letter Sequence change the content, Order Recall changes the probe, and Backward Tap reverses the direction of reproduction. The app stores a longest-sequence figure among its personal bests, which is a record of your play in one mode rather than a measurement of anything.
+In our own app, IQ Test & Brain Training Games, built by Reign Creative, this format appears as **Simon Memory**, described in the mode list as a twelve-round game where the pattern grows by one every round. Nearby modes vary the same idea: Color Sequence and Letter Sequence change the content, Order Recall changes the probe, and Backward Tap reverses the direction of reproduction. The app stores a longest-sequence figure among its personal bests, which is a record of your play in one mode rather than a measurement of anything.
 
 ## Why the middle is where it breaks
 
@@ -145,10 +151,10 @@ This is the same chunking mechanism described in our guide to [memory techniques
 
 Expect your longest sequence to climb, then flatten. The climb is real: you are learning a specific encoding routine and applying it consistently, which is exactly the kind of gain practice reliably produces. The flattening is also real, because the underlying store is small and strategy works around it rather than expanding it.
 
-What you should not conclude from a rising number is that your memory has improved in general. Near-transfer to similar tasks is comparatively well supported; broad transfer is disputed and weak, and we set the evidence out honestly in our guide to [working memory and whether training changes it](/blog/working-memory-and-training/). A sequence game is practice and entertainment. It is not a standardised assessment, and Mental Math & Memory Games contains no test of any kind.
+What you should not conclude from a rising number is that your memory has improved in general. Near-transfer to similar tasks is comparatively well supported; broad transfer is disputed and weak, and we set the evidence out honestly in our guide to [working memory and whether training changes it](/blog/working-memory-and-training/). A sequence game is practice and entertainment, and it is not a standardised assessment. IQ Test & Brain Training Games does include a memory test, which its listing says tracks recall against your own history, but the listing describes that result too as an estimate based on app activities, not a clinical or professional assessment.
 
 ## Reading a sequence game as a design object
 
 If the format interests you as a design rather than as a challenge, two things are worth noticing. First, the staircase does the difficulty tuning for free — the game never has to guess your level, because it walks up to it. That is unusual, and it is why the format tolerates such a wide range of players. Our piece on [how quiz difficulty works](/blog/how-quiz-difficulty-works/) covers the alternative approaches and their trade-offs.
 
-Second, a growing sequence is one of the few formats where the failure is informative. Losing a run tells you your current chunked capacity on that content type at that reveal speed, which is a genuinely useful number to know about yourself even though it is not a measurement of anything psychological. Other formats and what each one demands are compared in [memory games beyond matching pairs](/blog/designing-memory-games-beyond-matching-pairs/), and the rest of the span and encoding material sits in the [memory and attention hub](/blog/topics/memory-and-attention/) alongside the wider [education and brain training category](/blog/category/education-brain/). Simon Memory and the other sequence modes are in [Mental Math & Memory Games](/apps/mental-math-memory-games/).
+Second, a growing sequence is one of the few formats where the failure is informative. Losing a run tells you your current chunked capacity on that content type at that reveal speed, which is a genuinely useful number to know about yourself even though it is not a measurement of anything psychological. Other formats and what each one demands are compared in [memory games beyond matching pairs](/blog/designing-memory-games-beyond-matching-pairs/), and the rest of the span and encoding material sits in the [memory and attention hub](/blog/topics/memory-and-attention/) alongside the wider [education and brain training category](/blog/category/education-brain/). Simon Memory and the other sequence modes are in [IQ Test & Brain Training Games](/apps/mental-math-memory-games/).

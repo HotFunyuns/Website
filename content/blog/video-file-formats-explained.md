@@ -72,7 +72,7 @@
       "answer": "Remuxing takes the existing video and audio tracks out of one container and writes them into another without decoding or re-encoding them. Because the compressed data is copied bit for bit, it is lossless and runs at roughly disk speed rather than processor speed. It is the right first attempt when a file will not play, since it costs almost nothing and it fixes any problem that was caused by the container rather than by the codec inside it."
     },
     {
-      "question": "Which containers does Regal Video Player open?",
+      "question": "Which containers does Video Player All Formats PRO open?",
       "answer": "MP4, MKV and MOV alongside M4V, WebM, 3GP, FLV, TS and M2TS. It is built for H.264, H.265, VP8, VP9 and AV1 video with AAC, MP3, FLAC and Ogg audio. What actually plays still depends on the specific file, your Android version and the decoders your device provides, which is a hardware reality rather than a property of any particular player."
     }
   ],
@@ -255,7 +255,7 @@ The general rule: **MKV to keep everything, MP4 to give it to someone else.**
 
 ## What our player opens
 
-[Regal Video Player](/apps/regal-video-player/) is built for local files rather than streams, and the container list is the concrete answer to most of this article: MP4, MKV and MOV alongside M4V, WebM, 3GP, FLV, TS and M2TS.
+[Video Player All Formats PRO](/apps/regal-video-player/) is built for local files rather than streams, and the container list is the concrete answer to most of this article: MP4, MKV and MOV alongside M4V, WebM, 3GP, FLV, TS and M2TS.
 
 Inside those it is built for H.264, H.265, VP8, VP9 and AV1 video with AAC, MP3, FLAC and Ogg audio. The caveat is the same one that applies to every player on Android and is worth repeating rather than burying: what actually plays depends on the specific file, your Android version and the decoders your device provides. A player can implement a container parser; it cannot manufacture a hardware decoder your chipset does not have.
 

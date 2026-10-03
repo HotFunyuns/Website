@@ -5,7 +5,13 @@
   "description": "What a label's serving size represents, why it is not a recommendation, and how the gap between it and your portion distorts a day's tracking.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said both of our nutrition apps store your entries on your device; Keto Diet Tracker: Low Carb, now Ketora: Keto Diet Carb Tracker, describes an AI coach that reviews your logs and its listing does not say where they are kept, so the article now makes that claim for Protein Diet Tracker only."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": [
@@ -166,10 +172,10 @@ If you estimate the same portion the same way every time, your totals are compar
 
 [Protein Diet Tracker](/apps/protein-diet-tracker/) is built around fast entry, because the practical failure mode of tracking is stopping rather than being slightly wrong. Meals, snacks, workouts and body weight go into one daily record with a history behind it.
 
-[Keto Diet Tracker: Low Carb](/apps/keto-diet-tracker/) includes a barcode scanner for packaged items, which pulls the label's own serving basis in rather than requiring you to transcribe it — one fewer place for the error described above.
+[Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) includes a barcode scanner for packaged items, which pulls the label's own serving basis in rather than requiring you to transcribe it — one fewer place for the error described above.
 
 Neither app can know what portion you actually ate. That part remains yours, which is why calibrating your estimates occasionally is worth the trouble.
 
-Both are free to download on Google Play, supported by ads, and store entries on your device rather than on our servers.
+Both are free to download on Google Play and supported by ads, and Protein Diet Tracker stores entries on your device rather than on our servers.
 
 **This article is general information, not medical or dietary advice, and it has not been reviewed by a doctor or registered dietitian.** [How to read nutrition labels](/blog/reading-nutrition-labels/) covers the rest of the panel, and the [FDA's label guide](https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label) is the authoritative reference. The rest of our nutrition tools are under [health and nutrition](/apps/category/health-nutrition/).

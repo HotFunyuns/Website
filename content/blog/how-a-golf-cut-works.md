@@ -43,7 +43,9 @@
     "golf-scoring-explained",
     "golf-career-sim-guide",
     "golf-course-management-basics",
-    "career-sim-vs-manager-game"
+    "career-sim-vs-manager-game",
+    "golf-playoffs-and-tie-breaks",
+    "why-golf-has-18-holes"
   ],
   "takeaways": [
     "A cut reduces the field partway through a tournament, typically after two of four rounds, so the weekend is played by a smaller group.",

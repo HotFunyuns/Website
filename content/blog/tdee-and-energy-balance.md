@@ -5,7 +5,13 @@
   "description": "What total daily energy expenditure is made of, how accurate prediction equations really are, and why a calculator output is an estimate to test.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Keto Diet Tracker: Low Carb, turned your details into starting fat, protein and net carb figures you were free to adjust, and that it stored entries only on your device; the app, now Ketora: Keto Diet Carb Tracker, lists daily fat, protein, carb and calorie targets from a few questions, puts custom macro goals in an optional Ketora Premium and does not say where it keeps the logs its AI coach reviews, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": [
@@ -170,8 +176,8 @@ The practical translation: **watch the trend over weeks, not the number today.**
 
 **You set the goals.** The app does not calculate a TDEE for you, does not recommend a calorie target, and does not prescribe anything. That is deliberate: given the error discussed above, a number generated from an equation and presented as *your* requirement would be overstating what the method supports.
 
-[Keto Diet Tracker: Low Carb](/apps/keto-diet-tracker/) includes a macro calculator that turns details you enter into starting fat, protein and net carb figures — described as a starting point you are free to adjust, which is the honest framing for any such calculation.
+[Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) does produce numbers: a few questions about your body and goals become daily fat, protein, carb and calorie targets, presented as targets to start from — the honest framing for any such calculation, and exactly the kind of estimate to test against your own results. Its listing puts custom macro goals in an optional Ketora Premium.
 
-Both are free to download on Google Play, supported by ads, and store entries on your device rather than on our servers.
+Both are free to download on Google Play and supported by ads, and Protein Diet Tracker stores entries on your device rather than on our servers.
 
 **This article is general information, not medical or dietary advice, and it has not been reviewed by a doctor or registered dietitian.** For general information about weight management, [NIDDK](https://www.niddk.nih.gov/health-information/weight-management) is a reliable starting point. Talk to a qualified professional before making significant changes to how you eat. The rest of our nutrition tools are under [health and nutrition](/apps/category/health-nutrition/).

@@ -5,7 +5,13 @@
   "description": "How to budget seconds per question, when to abandon an item, and what a guess is actually worth under different marking schemes — with the arithmetic shown.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, was an educational game rather than test preparation, was arithmetic practice with a clock and not a reasoning test, produced no score that means anything outside the app, and had its modes listed on our app page; the app, now IQ Test & Brain Training Games, describes itself as IQ test practice and brain training, with an IQ-style test covering numerical reasoning, logic and patterns whose results its Google Play listing calls estimates rather than educational-placement, employment or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -143,10 +149,10 @@ The rule that falls out is short: find out the marking scheme before the test. I
 
 Content practice and condition practice are different things, and most people do only the first. Condition practice means working under a clock you cannot pause, tolerating the feeling of moving on from an unsolved item, and getting used to the fact that a run will contain errors.
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and while it is an educational game rather than test preparation, some of its formats rehearse exactly those conditions. The timed modes run on a global countdown — 60-second sprints, 75-second trainers, and a 180-second Math Marathon — which forces the same pacing decision the real thing does. The **30-Second Lightning Round** is deliberate pace pressure in miniature. The **Accuracy Trainer** is the untimed opposite, a 10-question set with feedback and hints, which is where to work when the problem is method rather than speed. And each run reports average and median response time, the fastest correct answer and a consistency figure, so you can see whether a change of pace actually moved anything.
+IQ Test & Brain Training Games is our own app, built by Reign Creative. Its listing describes IQ-style test practice and brain games rather than preparation for any particular selection test, but some of its formats rehearse exactly those conditions. The timed modes run on a global countdown — 60-second sprints, 75-second trainers, and a 180-second Math Marathon — which forces the same pacing decision the real thing does. The **30-Second Lightning Round** is deliberate pace pressure in miniature. The **Accuracy Trainer** is the untimed opposite, a 10-question set with feedback and hints, which is where to work when the problem is method rather than speed. And each run reports average and median response time, the fastest correct answer and a consistency figure, so you can see whether a change of pace actually moved anything.
 
-That is the honest boundary of the claim: it is arithmetic practice with a clock attached, not a reasoning test, and it produces no score that means anything outside the app. What it does supply is a cheap way to discover where your own speed-accuracy curve bends — run the same mode at the same difficulty twice, once at a comfortable pace and once pushing, and compare accuracy and average time.
+That is the honest boundary of the claim: those timed formats are arithmetic practice with a clock attached. The app's IQ-style test does include reasoning areas — numerical reasoning, logic and patterns among them — but its listing describes the results as estimates based on app activities, not educational-placement, employment or professional assessments, so treat them as practice rather than as a forecast of how you will score on a real selection test. What the timed formats do supply is a cheap way to discover where your own speed-accuracy curve bends — run the same mode at the same difficulty twice, once at a comfortable pace and once pushing, and compare accuracy and average time.
 
 For the design logic behind timed and survival formats generally, [timed and survival quiz modes](/blog/timed-and-survival-quiz-modes/) covers the game side, and [building a daily practice habit](/blog/building-a-daily-practice-habit/) covers keeping the practice going. For the question of what any of these instruments claims about you, start with [what IQ tests actually measure](/blog/what-iq-tests-actually-measure/).
 
-The rest of the material is in the [IQ tests and reasoning hub](/blog/topics/iq-tests-and-reasoning/) and the [education and brain category](/blog/category/education-brain/), and the modes are listed on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+The rest of the material is in the [IQ tests and reasoning hub](/blog/topics/iq-tests-and-reasoning/) and the [education and brain category](/blog/category/education-brain/), and the app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

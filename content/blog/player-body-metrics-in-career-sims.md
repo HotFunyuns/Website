@@ -44,7 +44,8 @@
     "basketball-positions-explained",
     "basketball-career-sim-guide",
     "how-sports-simulation-engines-work",
-    "college-recruiting-in-basketball-career-mode"
+    "college-recruiting-in-basketball-career-mode",
+    "basketball-player-archetypes"
   ],
   "takeaways": [
     "In real basketball the differences by position are large and well documented: one study of Spanish professionals recorded mean heights of 182.28 cm for guards, 195.65 cm for forwards and 204.08 cm for centres.",

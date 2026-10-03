@@ -5,7 +5,13 @@
   "description": "Spatial ability and mathematics are related but distinct. What spatial reasoning means, how it is measured, and why arithmetic drill is not practice for it.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, had no spatial content, offered only arithmetic, memory and technique content, was not an assessment and produced no score that describes you; the app, now IQ Test & Brain Training Games, lists spatial reasoning in its IQ-style test, spatial memory in its memory games and a personality questionnaire, with results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says the listing does not describe item formats such as mental rotation instead of claiming the app has none."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -52,7 +58,7 @@
     "The relationship with mathematics is real but moderate. One study reports correlations of roughly 0.50 to 0.53 between spatial and mathematical factors even after controlling for verbal ability, which is a substantial overlap and a long way from identity.",
     "Meta-analytic evidence cited in the same literature puts the correlation between visual-spatial skills and arithmetic ability at around 0.25, and finds the influence on academic achievement runs through arithmetic rather than directly.",
     "Whether training spatial skills improves mathematics is genuinely unsettled, and researchers say the mechanisms are not well understood. Nobody has shown the reverse route — that arithmetic drill lifts spatial ability.",
-    "Mental Math & Memory Games contains no mental rotation, mirror-image, paper-folding or shape task of any kind, so it is not spatial reasoning practice."
+    "IQ Test & Brain Training Games, our own app, lists spatial reasoning among the areas its IQ-style test covers, but its listing does not describe the item formats — mental rotation, paper folding or assembly — so check the items yourself before treating it as spatial reasoning practice."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -141,8 +147,8 @@ It is also why the construct question matters. A battery that samples several ab
 
 ## What this app contains, and what it does not
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and it has no spatial content. There is no mental rotation task, no mirror-image task, no paper-folding task, no shape assembly, and no figural item of any kind. Its grid memory rounds ask you to remember positions in a grid, which is a memory-for-location task rather than a manipulation-of-shape task, and the distinction is worth keeping.
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and its listing does name spatial content: its IQ-style test covers spatial reasoning among seven areas, and its memory games include spatial memory. The listing does not describe the item formats, so we cannot tell you whether any of them is a mental rotation, mirror-image, paper-folding or assembly task, and we do not claim that they are. Its grid memory rounds ask you to remember positions in a grid, which is a memory-for-location task rather than a manipulation-of-shape task, and the distinction is worth keeping.
 
-What it does contain is arithmetic practice — the four operations, mixed drills, percentages, ratios and estimation — memory rounds built on numbers, sequences, grids and delayed recall, a library of calculation techniques with worked examples, and tracking of score, accuracy, streak, response time and personal bests. It is an educational game and not an assessment, and it produces no score that describes you.
+Around that sit logic, focus, vocabulary and mental math games — the four operations, percentages, ratios, estimation and money problems — memory games built on digit span, sequences, grids, colours, letters and symbols, a memory test, a reaction time test and a personality questionnaire, with personal bests, accuracy, streaks and response speed tracked over time. Its listing describes the IQ test, personality test, memory test and other results as estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments.
 
-If spatial practice is what you are after, look for a product built around rotation, folding and assembly tasks. Saying that plainly costs nothing and saves you a wasted month. The rest of this subject sits in the [IQ tests and reasoning hub](/blog/topics/iq-tests-and-reasoning/), the [education and brain category](/blog/category/education-brain/) collects the arithmetic and memory articles, and the modes themselves are listed on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+If rotation, folding and assembly practice is specifically what you are after, check the items in the app yourself or look for a product built around those tasks. Saying that plainly costs nothing and saves you a wasted month. The rest of this subject sits in the [IQ tests and reasoning hub](/blog/topics/iq-tests-and-reasoning/), the [education and brain category](/blog/category/education-brain/) collects the arithmetic and memory articles, and the app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

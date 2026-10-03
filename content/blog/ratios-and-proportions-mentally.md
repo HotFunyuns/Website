@@ -5,7 +5,13 @@
   "description": "Most proportion problems are scaling problems. Find the factor, apply it, and keep cross-multiplication for the cases where no friendly factor exists.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, was not an assessment of anything and that the figures it records are only drill statistics; the app, now IQ Test & Brain Training Games, also has an IQ-style test and other tests whose results its Google Play listing calls estimates rather than clinical or professional assessments, so the passage now describes only what its drills record."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -170,8 +176,8 @@ Use it when the numbers refuse to cooperate, and prefer scaling when they do. A 
 
 ## Practising the scaling reflex
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) — our own app, built by Reign Creative — ships a Ratio Trainer, a 75-second timed mode with Easy, Medium and Hard settings, and a Unit Price Challenge on the same clock for the applied rate case. The percentage swap above appears in the app's techniques library as The Percentage Swap, stated with the same 4%-of-75 example, and like every entry there it carries its steps, a worked example, a "best for" note, a named common mistake and a two-question mini quiz.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) — our own app, built by Reign Creative — ships a Ratio Trainer, a 75-second timed mode with Easy, Medium and Hard settings, and a Unit Price Challenge on the same clock for the applied rate case. The percentage swap above appears in the app's techniques library as The Percentage Swap, stated with the same 4%-of-75 example, and like every entry there it carries its steps, a worked example, a "best for" note, a named common mistake and a two-question mini quiz.
 
 What makes ratio work feel slow is usually the division inside it rather than the reasoning, so Division Dash is the useful companion drill — its Exact division and Multiples difficulties are the ones that show up inside a sharing problem.
 
-The app is an educational game and a practice tool rather than a course or an assessment of anything, and the figures it records are game statistics: score, accuracy, streak, response time and personal bests on the modes you play.
+The app is an educational game and a practice tool rather than a course, and the figures its drills record are game statistics: score, accuracy, streak, response time and personal bests on the modes you play.

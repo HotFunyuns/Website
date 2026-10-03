@@ -5,7 +5,13 @@
   "description": "A ten-minute practice route for adults with no spare time: one timed sprint, one accuracy set, one technique and one memory round, plus the honest limits.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the modes it names in our app, then called Mental Math & Memory Games, are listed on its app page; that page, now for IQ Test & Brain Training Games, describes the app without naming individual modes, and the sentence now points there only for a description of the app."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -116,7 +122,7 @@ The second reason is more practical. Arithmetic decay in adults is rarely a know
 
 ## The four-part route
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and the slots below map onto modes it actually ships. The shape of the routine matters more than the product, though; any app with the same four ingredients will do.
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and the slots below map onto modes it actually ships. The shape of the routine matters more than the product, though; any app with the same four ingredients will do.
 
 ### Minutes 1–2: one timed sprint on your worst operation
 
@@ -154,4 +160,4 @@ Hold the mode and the difficulty constant, then watch accuracy before score. Sco
 
 Expect noise. A single bad session means you were tired, not that you regressed. The [daily practice habit guide](/blog/building-a-daily-practice-habit/) covers the part nobody writes about — what to do after the week you miss four days — and that matters more than any individual session's numbers.
 
-For the wider question of what this kind of practice does and does not support, the evidence review in [our brain training explainer](/blog/do-brain-training-apps-work/) is the honest version, regulatory history included. More routines and explainers sit in the [brain training games hub](/blog/topics/brain-training-games/) and across the [education and brain category](/blog/category/education-brain/), and the modes named above are listed on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+For the wider question of what this kind of practice does and does not support, the evidence review in [our brain training explainer](/blog/do-brain-training-apps-work/) is the honest version, regulatory history included. More routines and explainers sit in the [brain training games hub](/blog/topics/brain-training-games/) and across the [education and brain category](/blog/category/education-brain/), and the app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

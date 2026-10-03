@@ -5,7 +5,13 @@
   "description": "Which inverse operation solves a missing number problem depends on where the blank sits. Worked examples, the two shapes that trip people up, and a check.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the drill modes it names could be seen on our app's page; that page, for the app now called IQ Test & Brain Training Games (previously Mental Math & Memory Games), describes how the app works and how progress is tracked without naming individual drills, and the sentence now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -161,10 +167,10 @@ NRICH, the mathematics education project based in the Faculty of Mathematics at 
 
 ## Practising the move rather than the puzzle
 
-Reading a method and owning it are different things, and the gap between them closes through repetition on items you have not seen before. Mental Math & Memory Games, which is our own app, ships a **Missing Number Puzzle** mode built around this exact task, with Easy, Medium and Hard settings on a 75-second clock, plus an **Equation Builder** mode that works the other way round — you assemble the pieces that make a given equation true. The point of the timer is not speed for its own sake; it is that a time limit discourages solving by trial and error, which is the habit that stops the inverse from becoming automatic.
+Reading a method and owning it are different things, and the gap between them closes through repetition on items you have not seen before. IQ Test & Brain Training Games, which is our own app, ships a **Missing Number Puzzle** mode built around this exact task, with Easy, Medium and Hard settings on a 75-second clock, plus an **Equation Builder** mode that works the other way round — you assemble the pieces that make a given equation true. The point of the timer is not speed for its own sake; it is that a time limit discourages solving by trial and error, which is the habit that stops the inverse from becoming automatic.
 
 Two cautions about drilling this. First, accuracy before speed: an inverted sign you never notice is worse than a slow correct answer, and the quickest way to install the error permanently is to practise it at pace. Second, always substitute. Substitution is a complete check for a single unknown — if your number makes the original equation true, it is right, regardless of how you found it.
 
-The arithmetic underneath is ordinary, and if the division steps are the slow part rather than the logic, the methods in our guide to [mental division](/blog/mental-division-tricks/) and to [multiplication shortcuts](/blog/multiplication-shortcuts-explained/) will do more for your times than more puzzle practice will. You can see the drill modes and how progress is recorded on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/), and the rest of our writing on arithmetic and reasoning sits in the [education and brain training section](/blog/category/education-brain/).
+The arithmetic underneath is ordinary, and if the division steps are the slow part rather than the logic, the methods in our guide to [mental division](/blog/mental-division-tricks/) and to [multiplication shortcuts](/blog/multiplication-shortcuts-explained/) will do more for your times than more puzzle practice will. You can see how the app works and how progress is tracked on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/), and the rest of our writing on arithmetic and reasoning sits in the [education and brain training section](/blog/category/education-brain/).
 
 The CEMC at the University of Waterloo publishes free courseware and a weekly problem set covering this material from upper primary through senior secondary, which is a good next step if you want problems that are graded rather than generated.

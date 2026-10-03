@@ -5,7 +5,13 @@
   "description": "Answer times are skewed, so the average is pulled up by a single long think. Here is what mean, median, fastest and consistency each tell you about a session.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, reported statistics about its own rounds and nothing else, with no assessment happening, and that the modes producing these numbers are listed on its app page; the app, now IQ Test & Brain Training Games, also has a reaction time test and an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -135,7 +141,7 @@ Where it is genuinely useful is as a floor check. If your median is four seconds
 
 ## Consistency: the number that moves first
 
-Mental Math & Memory Games is our own app — Reign Creative builds it — and alongside average, median and fastest-correct it records a consistency value on a nought-to-one-hundred scale, described in the app as how consistent response times were across the run.
+IQ Test & Brain Training Games is our own app — Reign Creative builds it — and alongside average, median and fastest-correct it records a consistency value on a nought-to-one-hundred scale, described in the app as how consistent response times were across the run.
 
 That number deserves attention because it usually improves before pace does. The first effect of practising a method is not that your ordinary answers get faster; it is that the occasional catastrophic answer stops happening. You still take about two seconds on a familiar item, but you no longer take twelve on the one that used to derail you.
 
@@ -156,6 +162,6 @@ One further caution: a single session is a small sample. Ten answers give a medi
 
 ## What these numbers are not
 
-Response times recorded by a drill app are timings of that app's questions on your device, including the time it takes to read the screen and tap. They are not reaction times in the laboratory sense, they are not comparable to any published norm, and they do not measure processing speed as a psychological construct. There is no assessment happening — the app reports statistics about its own rounds and nothing else.
+Response times recorded by a drill app are timings of that app's questions on your device, including the time it takes to read the screen and tap. They are not reaction times in the laboratory sense, they are not comparable to any published norm, and they do not measure processing speed as a psychological construct. There is no assessment happening in a drill round — it reports statistics about its own questions and nothing else. Our app's separate reaction time test and IQ-style test are a different feature, and its listing describes their results as estimates based on app activities, not clinical or professional assessments.
 
-Used for what they are, they are genuinely useful: a way to see whether a method has become automatic. The rest of the practice-record articles sit in the [brain training games hub](/blog/topics/brain-training-games/), the honest limits of the whole category are covered in [do brain training apps work](/blog/do-brain-training-apps-work/), the modes that produce these numbers are listed on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/), and more of this writing is collected in the [education and brain category](/blog/category/education-brain/).
+Used for what they are, they are genuinely useful: a way to see whether a method has become automatic. The rest of the practice-record articles sit in the [brain training games hub](/blog/topics/brain-training-games/), the honest limits of the whole category are covered in [do brain training apps work](/blog/do-brain-training-apps-work/), the app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/), and more of this writing is collected in the [education and brain category](/blog/category/education-brain/).

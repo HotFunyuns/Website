@@ -5,7 +5,13 @@
   "description": "A short drill used as a start ritual, not a cognitive enhancer: why the hard part is beginning, and what five minutes of arithmetic is actually doing.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the modes it names are listed on our app's page; that page, for the app now called IQ Test & Brain Training Games (previously Mental Math & Memory Games), describes the app without naming individual modes, and the sentence now points to it as a description of the app."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -111,7 +117,7 @@ A five-minute drill is a way of putting something trivially startable between yo
 
 ## What the five minutes should contain
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and the three components below exist in it. The shape is what matters, not the product — a deck of flash cards would do the same job.
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and the three components below exist in it. The shape is what matters, not the product — a deck of flash cards would do the same job.
 
 **One 30-Second Lightning Round.** Thirty seconds of arithmetic under a clock, and it is over before you can renegotiate. Its whole function is to be the first completed thing of the session.
 
@@ -139,4 +145,4 @@ It is also not a substitute for the scheduling that makes study work. The What W
 
 And it makes no claim about intelligence. Practice, entertainment, educational activity and standardised psychological assessment are four separate things, and a warm-up drill is the first three at most. For the evidence on what this category of practice does and does not support, [our brain training explainer](/blog/do-brain-training-apps-work/) is the honest version.
 
-More on routines and progress sits in the [brain training games hub](/blog/topics/brain-training-games/) and the wider [education and brain category](/blog/category/education-brain/); the modes named above are listed on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+More on routines and progress sits in the [brain training games hub](/blog/topics/brain-training-games/) and the wider [education and brain category](/blog/category/education-brain/); the app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

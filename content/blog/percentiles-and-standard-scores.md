@@ -5,7 +5,13 @@
   "description": "A percentage is how much you got right. A percentile is where you ranked. A standard score is how far from the mean you sat. Three numbers, routinely confused.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, held no comparison group and reported no percentile, rank or classification of any kind; the app, now IQ Test & Brain Training Games, also has an IQ-style test whose results its Google Play listing calls estimates based on app activities, with no comparison group documented, and the article now says that instead of ruling any such figure out."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -53,7 +59,7 @@
     "A standard score says how many standard deviations from the mean a result sits. On a scale with a mean of 100 and a standard deviation of 15, a score of 115 is one standard deviation up, which lands at roughly the 84th percentile.",
     "Percentile ranks are not equally spaced. Five points near the centre of the scale moves you about 13 percentile points; the same five points at the top moves you about 1.3.",
     "Every score carries measurement error, so a competent report shows a confidence interval. A single number implies a precision the test does not have.",
-    "Accuracy in Mental Math & Memory Games is a percentage of the questions it asked you. It is not a percentile, and the app reports no percentile of any kind."
+    "Accuracy in our own app, IQ Test & Brain Training Games, is a percentage of the questions it asked you, not a percentile. Its listing calls the results of its IQ-style test estimates based on app activities and documents no comparison group, so do not read any figure from it as a rank among other people."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -72,7 +78,7 @@
     },
     {
       "question": "Is accuracy in a practice app a percentile?",
-      "answer": "No. Accuracy in Mental Math & Memory Games is the share of the questions in that session you answered correctly — a percentage computed only from your own run. The app holds no comparison group, so it cannot and does not report a percentile, a rank or a classification of any kind."
+      "answer": "No. Accuracy in IQ Test & Brain Training Games is the share of the questions in that session you answered correctly — a percentage computed only from your own run. The app also has an IQ-style test, whose results its listing calls estimates based on app activities, not a professional assessment, and the listing documents no comparison group for them, so do not read any figure there as a percentile in the normed sense this article describes."
     }
   ],
   "sources": [
@@ -161,9 +167,9 @@ It is also worth noting that reported categories are definitions rather than nat
 
 ## Where our app's percentage fits
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) is our own app, built by Reign Creative, and it reports **accuracy** on every run: the share of that session's questions you answered correctly.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) is our own app, built by Reign Creative, and it reports **accuracy** on every run: the share of that session's questions you answered correctly.
 
-That is a percentage in the strict sense above. It is computed from your answers to the questions the app generated for you, at the difficulty you chose, and it is not compared with anybody. The app holds no norm sample, so it reports **no percentile, no rank and no classification** — and reading its accuracy figure as a standing among other people would be a category error.
+That is a percentage in the strict sense above. It is computed from your answers to the questions the app generated for you, at the difficulty you chose, and it is not compared with anybody. The app also has an IQ-style test, whose results its Google Play listing calls estimates based on app activities, not a professional assessment, and the listing documents no comparison group for them. So do not read the accuracy figure, or any figure from the test, as a standing among other people — for accuracy, that would be a category error.
 
 Accuracy is still the single most useful number the app gives you, provided you compare like with like. Hold the mode constant and hold the difficulty constant — Division Dash on the same setting, or the same length of number-memory round — and a change in accuracy across sessions is informative about your practice. Change the mode or the difficulty and the comparison is worthless. This is **practice** feedback, not **standardised psychological assessment**, and the value comes from tracking yourself rather than a population; our guide to [building a daily practice habit](/blog/building-a-daily-practice-habit/) covers doing that without fooling yourself.
 

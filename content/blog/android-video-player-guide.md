@@ -171,7 +171,7 @@ Work down this list rather than guessing.
 
 ## What a local player should give you
 
-Once a file plays, the rest is about not fighting the interface. [Regal Video Player](/apps/regal-video-player/) is built for exactly this case: media already sitting on your phone or tablet, opened directly, with no account required for normal local playback.
+Once a file plays, the rest is about not fighting the interface. [Video Player All Formats PRO](/apps/regal-video-player/) is built for exactly this case: media already sitting on your phone or tablet, opened directly, with no account required for normal local playback.
 
 **Format coverage.** MP4, MKV and MOV alongside M4V, WebM, 3GP, FLV, TS and M2TS containers, built for H.264, H.265, VP8, VP9 and AV1 video with AAC, MP3, FLAC and Ogg audio. What actually plays still depends on the file and the decoders your device provides — that caveat applies to every player on Android, and any app claiming otherwise is claiming something the hardware does not let it deliver.
 

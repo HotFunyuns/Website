@@ -5,7 +5,13 @@
   "description": "Repeat a cognitive test and your score goes up. That is a measurement artefact, a real skill gain, or both — and telling them apart is the whole question.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no test, norm sample, percentile or assessment, that nothing in it measures intelligence, and that it belonged only in the 'better at the task' category; the app, now IQ Test & Brain Training Games, includes an IQ-style test you can revisit, with results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now explains that retest gains on that test are the practice effect it describes."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -53,7 +59,7 @@
     "Speed improves too, and keeps improving. A meta-analysis of 36 studies covering 21,810 participants found response times falling by about half a standard deviation by the fourth administration, with no plateau reached.",
     "Practice effects are large enough to distort research. Salthouse found that repeated-testing gains are a major reason longitudinal studies of ageing disagree with cross-sectional ones.",
     "The 2014 Stanford Center on Longevity and Max Planck consensus statement holds that cognitive training produces statistically significant improvement in practised skills, while there is little evidence it improves underlying broad cognitive abilities.",
-    "We make no claim that Mental Math & Memory Games raises intelligence. It is practice on specific tasks, and what changes is performance on those tasks."
+    "We make no claim that IQ Test & Brain Training Games raises intelligence. It is practice on specific tasks, and what changes is performance on those tasks."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -72,7 +78,7 @@
     },
     {
       "question": "Does the app claim to increase intelligence?",
-      "answer": "No. Mental Math & Memory Games drills arithmetic and memory tasks and records score, accuracy, streak, response time and personal bests. Those numbers describe performance on the drilled task. Nothing in the product measures intelligence or supports a claim about it, and we make no such claim."
+      "answer": "No, and we make no such claim. IQ Test & Brain Training Games includes an IQ-style test, and its listing describes the results as estimates based on app activities, not a professional assessment. Its drills record score, accuracy, streak, response time and personal bests, which describe performance on the drilled task. If you retake the test, expect the practice effect this article describes: a rising result says more about familiarity with the format than about a change in ability."
     }
   ],
   "sources": [
@@ -144,11 +150,11 @@ That statement is one side of a genuine scientific disagreement rather than a cl
 
 ## What our app is actually doing
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) is our own app, built by Reign Creative, and it falls squarely into claim two.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) is our own app, built by Reign Creative, and it touches two of the three claims: its drills are claim two, and its IQ-style test, which you can revisit, is exactly where claim one appears.
 
-Its daily drills are practice on specific tasks. Multiplication Rush practises multiplication. Division Dash practises division. Number-memory and sequence-memory rounds practise holding and reproducing a sequence. Mixed Operations practises switching between operations under time pressure. What the app records — score, accuracy, streak, response time and personal bests, with a session history — describes performance on those tasks and nothing else.
+Its daily drills are practice on specific tasks. Multiplication Rush practises multiplication. Division Dash practises division. Number-memory and sequence-memory rounds practise holding and reproducing a sequence. Mixed Operations practises switching between operations under time pressure. What the drills record — score, accuracy, streak, response time and personal bests — describes performance on those tasks.
 
-**We make no claim that this raises intelligence, and nothing in the product could support one.** There is no test, no norm sample, no percentile and no assessment in it. If your accuracy in Division Dash rises from 72 per cent to 88 per cent at the same difficulty, you have got better at Division Dash. That is a genuine result and it is the only one on offer.
+**We make no claim that this raises intelligence, and nothing in the product could support one — its own test included.** If your accuracy in Division Dash rises from 72 per cent to 88 per cent at the same difficulty, you have got better at Division Dash. That is a genuine result. If your result on the app's IQ-style test rises on a second or third attempt, that is claim one at work: you have learned the format. Its listing describes those results as estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments, and a retest gain on them is no evidence for claim three.
 
 The practice-effect literature does suggest one useful habit, though: expect your own early gains to be disproportionately about familiarity. The first few sessions in any new mode will improve quickly because you are learning the format. Hold the mode and the difficulty constant, and start treating changes as meaningful only once that initial jump has passed — the kind of measurement hygiene discussed in [building a daily practice habit](/blog/building-a-daily-practice-habit/).
 

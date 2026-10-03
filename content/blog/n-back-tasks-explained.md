@@ -5,7 +5,13 @@
   "description": "What an n-back task asks you to do, why dual n-back feels unlike other memory games, and what the training studies actually found about transfer.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the full mode list of our app, then called Mental Math & Memory Games and now IQ Test & Brain Training Games, is on its app page; that page describes the app's games and tests without listing individual modes, and the sentence now points to it only for that description."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -54,7 +60,7 @@
     "Dual n-back runs two streams at once — typically a position and a sound — with an independent match decision for each, which is what makes it so much harder than the single-stream version.",
     "Thompson and colleagues ran 20 sessions of adaptive dual n-back against an active control and found substantial, lasting gains on the trained task with no transfer to untrained working-memory or fluid-intelligence measures.",
     "A 2014 consensus statement from the Stanford Center on Longevity and the Max Planck Institute for Human Development, signed by dozens of scientists, holds that the literature does not support claims that brain games improve general cognitive performance in everyday life.",
-    "Mental Math & Memory Games includes a short N-Back Lite round in its memory catalogue. It is a game mode, not a training protocol, and we make no claim that it changes anything beyond performance on itself."
+    "IQ Test & Brain Training Games includes a short N-Back Lite round in its memory catalogue. It is a game mode, not a training protocol, and we make no claim that it changes anything beyond performance on itself."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -149,7 +155,7 @@ Above both sits the 2014 consensus statement issued jointly by the Stanford Cent
 
 ## Playing an n-back round without the marketing
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and it includes **N-Back Lite** as one of the twelve challenge modes in its memory catalogue — a short round of the task alongside things like Flash Recall, Rapid Recognition and Dual Attribute. The name is deliberately modest. A brief round inside a memory game is not the multi-week adaptive protocol the studies above used, and we do not present it as one. It is there because the task is interesting and unusual, not because it does something to you.
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and it includes **N-Back Lite** as one of the twelve challenge modes in its memory catalogue — a short round of the task alongside things like Flash Recall, Rapid Recognition and Dual Attribute. The name is deliberately modest. A brief round inside a memory game is not the multi-week adaptive protocol the studies above used, and we do not present it as one. It is there because the task is interesting and unusual, not because it does something to you.
 
 If you want to play it well, three things help:
 
@@ -157,7 +163,7 @@ If you want to play it well, three things help:
 - **Say the window out loud, or sub-vocally.** Verbalising the two or three current items gives the queue something to hold onto during the gap between stimuli.
 - **Expect the errors to cluster after a match.** Registering a match takes a beat, and the next item usually arrives during that beat. Knowing this does not fix it, but it stops you reading the following mistake as a collapse.
 
-More on structuring short sessions so they actually repeat is in our guide to [building a daily practice habit](/blog/building-a-daily-practice-habit/), and the other span and updating tasks are covered across the [memory and attention hub](/blog/topics/memory-and-attention/). The full mode list is on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/), and the rest of the [education and brain training category](/blog/category/education-brain/) covers the arithmetic side of the same app.
+More on structuring short sessions so they actually repeat is in our guide to [building a daily practice habit](/blog/building-a-daily-practice-habit/), and the other span and updating tasks are covered across the [memory and attention hub](/blog/topics/memory-and-attention/). The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/), and the rest of the [education and brain training category](/blog/category/education-brain/) covers the arithmetic side of the same app.
 
 ## Is it worth doing?
 

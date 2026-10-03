@@ -5,7 +5,13 @@
   "description": "What ERA, WHIP and WAR are telling you on a draft card, what they leave out, and how to read a projected 162-game record without over-trusting it.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-13",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described 162-0 Baseball Draft & GM Team as using fictional, generated players. 162-0 Baseball Draft & GM Team builds its player pool from real-world athletes' careers, with ratings that are the game's own estimates, and is not affiliated with or endorsed by any league, team or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": ["baseball", "draft strategy", "statistics", "gm mode", "roster building"],
@@ -36,7 +42,9 @@
   "relatedArticles": [
     "basketball-draft-gm-guide",
     "hockey-draft-gm-guide",
-    "football-draft-gm-guide"
+    "football-draft-gm-guide",
+    "how-is-war-calculated",
+    "ops-plus-vs-wrc-plus"
   ],
   "takeaways": [
     "ERA and WHIP answer different questions about the same pitcher, and disagreement between them is information rather than noise.",
@@ -70,7 +78,7 @@
     },
     {
       "question": "Is it connected to a real baseball league?",
-      "answer": "No. The game makes no claim of official league affiliation and is not connected to any real league, club or player. The pool is generated inside the game, which is why the statistics on the cards are the only thing you have to judge a player by."
+      "answer": "No. The game is not affiliated with, endorsed by or licensed by any league, team, players' association or player. Its draft pool is built from real players' careers, and the ratings are the game's own estimates rather than official statistics, so judge each pick on what the card shows and on what your roster needs rather than on reputation alone."
     }
   ],
   "sources": [
@@ -142,7 +150,7 @@ The simulator returns a projected 162-game win-loss record. That number is the m
 
 It is worth being precise about what that means, because "projection" is a word that invites the wrong reading.
 
-It is **not a prediction about the real world.** The players are fictional and generated inside the game. Nothing in the projection describes, forecasts or relates to any real club, player or season, and it is not usable as an indication of any real event. The game has no live results and no online multiplayer; everything you see is the model evaluating your roster.
+It is **not a prediction about the real world.** The draft pool is built from real players' careers, but the projection is the game's model scoring a roster you assembled: it does not forecast any real club, player or season, and it is not usable as an indication of any real event. The game has no live results and no online multiplayer; everything you see is the model evaluating your roster.
 
 It is **not a certainty even inside the game.** A projection is a summary judgement about a roster, not a guarantee about a sequence of games. Read it the way you would read a score at the end of a puzzle: it tells you how good your solution was, not what will happen next.
 

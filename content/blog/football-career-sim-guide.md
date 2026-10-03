@@ -44,7 +44,9 @@
     "football-positions-explained-for-drafting",
     "football-draft-gm-guide",
     "baseball-career-sim-guide",
-    "career-mode-vs-franchise-mode"
+    "career-mode-vs-franchise-mode",
+    "what-is-epa-in-football",
+    "when-to-go-for-it-on-4th-down"
   ],
   "takeaways": [
     "The archetype you pick decides which options the simulator offers you in a given situation, not just how likely each one is to work.",
@@ -163,6 +165,6 @@ Two seasons played identically will not produce identical results, and that is t
 
 ## If you would rather build the team than play in it
 
-The front-office version of the same sport is [20-0 Football Draft & GM Mode](/apps/football-draft-gm-mode/), where the question is which roster you assemble rather than which read you make; [the football draft and GM guide](/blog/football-draft-gm-guide/) covers that. The same career structure in other sports is in [Baseball Career Sim 2026](/apps/baseball-career-sim/) — see [its guide](/blog/baseball-career-sim-guide/) — and the general format distinction is in [career mode versus franchise mode](/blog/career-mode-vs-franchise-mode/).
+The front-office version of the same sport is [Football Franchise GM League](/apps/football-draft-gm-mode/), where the question is which roster you assemble rather than which read you make; [the football draft and GM guide](/blog/football-draft-gm-guide/) covers that. The same career structure in other sports is in [Baseball Career Sim 2026](/apps/baseball-career-sim/) — see [its guide](/blog/baseball-career-sim-guide/) — and the general format distinction is in [career mode versus franchise mode](/blog/career-mode-vs-franchise-mode/).
 
 Everything we make in this space is listed under [sports career and GM games](/apps/category/sports-gm/). Football Career Sim 2026 is free to download on Google Play, supported by ads, with optional in-app purchases and an Everyone content rating.

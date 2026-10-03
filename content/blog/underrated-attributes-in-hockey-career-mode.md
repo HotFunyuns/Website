@@ -43,7 +43,9 @@
   "relatedArticles": [
     "hockey-career-archetypes-explained",
     "plus-minus-and-hockey-stats",
-    "hockey-career-sim-guide"
+    "hockey-career-sim-guide",
+    "faceoff-rules-hockey",
+    "how-does-the-nhl-draft-work"
   ],
   "takeaways": [
     "Nine attributes develop through training in Hockey Career Sim 2026 — skating, shooting, passing, puck control, checking, positioning, stamina, awareness and goaltending — and most players pour everything into the first two.",

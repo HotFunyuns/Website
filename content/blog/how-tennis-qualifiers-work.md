@@ -37,7 +37,9 @@
     "tennis-career-sim-guide",
     "how-tennis-ranking-points-work",
     "how-golf-q-school-works",
-    "tennis-scoring-for-beginners"
+    "tennis-scoring-for-beginners",
+    "tennis-code-violations-and-shot-clock",
+    "tennis-rules-for-beginners"
   ],
   "takeaways": [
     "Most main-draw places go to direct acceptances, ranked in order; qualifying exists to fill the remainder from players below the cut-off.",

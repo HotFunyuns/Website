@@ -45,7 +45,8 @@
     "rugby-forwards-and-backs",
     "injuries-in-sports-career-games",
     "drafting-a-goal-kicker-in-rugby",
-    "rotating-draft-pools-explained"
+    "rotating-draft-pools-explained",
+    "rugby-career-sim-guide"
   ],
   "takeaways": [
     "Rugby union's laws already write half of a rotation plan: a matchday squad of 23 must contain six players able to play in the front row, so specialist cover is a legal requirement rather than a luxury.",

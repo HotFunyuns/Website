@@ -5,7 +5,13 @@
   "description": "What every football position actually does, which groups are scarce, and how to read a position before you spend a draft pick filling it.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described Football Franchise GM League as a generic simulator built on fictional, generated players, and said the game is named for an unbeaten run. Football Franchise GM League builds its player pool from real-world athletes' careers, with ratings that are the game's own estimates, and is not affiliated with or endorsed by any league, team or athlete. Its Google Play title no longer carries the 20-0 record it is built around. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -45,7 +51,9 @@
     "football-draft-gm-guide",
     "hockey-positions-explained",
     "soccer-formations-explained",
-    "best-sports-manager-games-for-short-sessions"
+    "best-sports-manager-games-for-short-sessions",
+    "nfl-draft-pick-value-chart",
+    "how-does-american-football-work"
   ],
   "takeaways": [
     "Football fields three separate personnel groups — offence, defence and kicking units — which is why the position list is long and why a roster is really several rosters.",
@@ -75,7 +83,7 @@
     },
     {
       "question": "Does a draft simulator use real football players and teams?",
-      "answer": "No. 20-0 Football Draft & GM Mode is a generic simulator built on fictional players, and it is not affiliated with, endorsed by or connected to any real league, team or athlete. That is also why the positional thinking in this article is the useful part — you are judging a slot and a set of attributes rather than recognising a name."
+      "answer": "Football Franchise GM League builds its draft pool from real players' careers, with ratings that are the game's own estimates rather than official statistics, and it is not affiliated with, endorsed by or licensed by any league, team, players' association or athlete. That is why the positional thinking in this article is the useful part — a familiar name still has to fill a slot, and the attributes decide whether it does."
     }
   ],
   "sources": []
@@ -196,9 +204,9 @@ Knowing what a position does is step one. Knowing what it is *worth to you* is s
 
 ## What the simulator is doing with all this
 
-When you finish a roster in [20-0 Football Draft & GM Mode](/apps/football-draft-gm-mode/) and the season simulator returns a record, that record is the game's own assessment of how well your eleven-by-three fits together. It is scoring roster construction under the model's internal rules.
+When you finish a roster in [Football Franchise GM League](/apps/football-draft-gm-mode/) and the season simulator returns a record, that record is the game's own assessment of how well your eleven-by-three fits together. It is scoring roster construction under the model's internal rules.
 
-Three limits are worth stating plainly. The players are fictional and generated inside the game, so nothing in the result describes or forecasts any real league, team or athlete. The record is a score, not a prediction, and the useful question after one arrives is which of your picks it is disagreeing with. And the perfect unbeaten run the game is named for is deliberately hard rather than the expected outcome of a competent draft — the gap between your record and perfection is the information you drafted for.
+Three limits are worth stating plainly. The pool is built from real players' careers, but the result is the game's model scoring your roster, so nothing in it forecasts any real league, team or athlete. The record is a score, not a prediction, and the useful question after one arrives is which of your picks it is disagreeing with. And the perfect unbeaten run the game is built around is deliberately hard rather than the expected outcome of a competent draft — the gap between your record and perfection is the information you drafted for.
 
 The game's Gridiron IQ challenges test the same skill from the other direction: reading a completed team sheet and spotting which group will let it down. If your drafts keep producing records you did not expect, that is usually where the gap lives.
 

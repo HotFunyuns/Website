@@ -180,7 +180,7 @@ Making the routine survive contact with an ordinary week is a separate problem, 
 
 ## Where our app fits
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) provides short, repeated practice with immediate feedback — the retrieval-and-spacing shape described above, applied to arithmetic and memory tasks.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) provides short, repeated practice with immediate feedback — the retrieval-and-spacing shape described above, applied to arithmetic and memory tasks.
 
 It is free to download on Google Play, supported by ads, with optional in-app purchases and an Everyone content rating.
 

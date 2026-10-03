@@ -182,7 +182,7 @@ The habit has to carry you through that stretch, which is exactly when the floor
 
 Several of our apps are built around short daily sessions, because the format follows from the research rather than from a design preference.
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) uses short sessions with immediate feedback. [Learn Italian for Beginners](/apps/learn-italian/) sequences its 12 units into lessons intended for daily study, with progress tracking, streaks and a review area for past mistakes. [Protein Diet Tracker](/apps/protein-diet-tracker/) applies the same idea to logging: fast entry matters because the failure mode of tracking is abandonment.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) uses short sessions with immediate feedback. [Learn Italian for Beginners](/apps/learn-italian/) sequences its 12 units into lessons intended for daily study, with progress tracking, streaks and a review area for past mistakes. [Protein Diet Tracker](/apps/protein-diet-tracker/) applies the same idea to logging: fast entry matters because the failure mode of tracking is abandonment.
 
 All are free to download on Google Play and supported by ads.
 

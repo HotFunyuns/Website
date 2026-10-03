@@ -5,7 +5,13 @@
   "description": "Why leagues randomise draft order, how weighted lotteries are built, what flattening the odds changes, and what a lottery can and cannot prevent.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said every league, team and player in our games is fictional. That is true of our career sims, but our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The sentence has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -44,7 +50,9 @@
     "how-football-draft-order-works",
     "rebuild-vs-retool",
     "what-makes-a-good-draft-board",
-    "understanding-sports-sim-probability"
+    "understanding-sports-sim-probability",
+    "nba-playoff-format",
+    "has-any-team-gone-82-0"
   ],
   "takeaways": [
     "A draft lottery randomises the top of the draft order so that finishing last does not guarantee the first pick.",
@@ -154,4 +162,4 @@ What our games model instead is the part that is interesting to play: evaluating
 
 [What makes a good draft board](/blog/what-makes-a-good-draft-board/) covers preparing for any of them — and the preparation matters more than the position, because a board that identifies where the real quality gaps sit is worth more than a pick one place higher.
 
-Every league, team and player in our games is fictional, and nothing here describes any real league's current lottery rules — those change, and each league's own published regulations are the authority. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+Our career sims are set in fictional leagues and our draft and GM games build their player pools from real athletes' careers; nothing here describes any real league's current lottery rules — those change, and each league's own published regulations are the authority. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).

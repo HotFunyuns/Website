@@ -37,7 +37,9 @@
     "how-tennis-ranking-points-work",
     "tennis-career-sim-guide",
     "how-to-choose-a-sports-career-sim",
-    "understanding-sports-sim-probability"
+    "understanding-sports-sim-probability",
+    "how-tennis-seeding-works",
+    "tennis-rating-systems-ntrp-utr-wtn"
   ],
   "takeaways": [
     "A cumulative points total produces a curve that only rises, which removes tension from a career game; expiry is what gives the ranking a second direction.",

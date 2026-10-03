@@ -37,7 +37,9 @@
     "how-a-golf-cut-works",
     "golf-career-sim-guide",
     "golf-tournament-formats",
-    "how-tennis-qualifiers-work"
+    "how-tennis-qualifiers-work",
+    "golf-penalty-areas-red-vs-yellow-stakes",
+    "golf-playoffs-and-tie-breaks"
   ],
   "takeaways": [
     "Qualifying school is the annual tournament through which players without status earn membership of a tour for the following season.",

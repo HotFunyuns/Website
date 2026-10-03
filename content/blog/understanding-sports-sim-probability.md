@@ -5,7 +5,13 @@
   "description": "Why a better roster still loses, how season length compounds small edges, and how many runs you actually need before a simulated result means anything.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described 162-0 Baseball Draft & GM Team and Football Franchise GM League as simulations built on generated players who do not exist. Both build their draft pools from real-world players' careers, with ratings that are the games' own estimates; the probabilities they produce are still properties of the games' models. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -46,7 +52,8 @@
     "how-sports-simulation-engines-work",
     "baseball-stats-explained-for-beginners",
     "how-fantasy-draft-strategy-works",
-    "baseball-draft-gm-guide"
+    "baseball-draft-gm-guide",
+    "expected-goals-xg-explained"
   ],
   "takeaways": [
     "A probability is a statement about a distribution of outcomes, not a promise about the next one, so a strong roster losing is the model working rather than failing.",
@@ -76,7 +83,7 @@
     },
     {
       "question": "Are these probabilities predictions about real sport?",
-      "answer": "No. Every number in this article is either arithmetic you can check yourself or a property of a fictional model. 162-0 Baseball Draft & GM Team and 20-0 Football Draft & GM Mode are simulations built on generated players, not affiliated with, endorsed by or connected to any real league, team or athlete. Nothing here is a forecast, and nothing here is betting guidance."
+      "answer": "No. Every number in this article is either arithmetic you can check yourself or a property of a fictional model. 162-0 Baseball Draft & GM Team and Football Franchise GM League build their draft pools from real players' careers, with ratings that are the games' own estimates, and are not affiliated with, endorsed by or licensed by any league, team or athlete. Nothing here is a forecast, and nothing here is betting guidance."
     }
   ],
   "sources": [
@@ -126,7 +133,7 @@ And the sensitivity to *p* is just as sharp. At 162 games, raising the per-game 
 
 Two honest caveats about this calculation. It assumes every game is independent and every opponent identical, which is not how any real sport works and not how a well-built simulator works either. And no actual engine computes a season this way. It is a toy model, and its purpose is to show the *shape* of the relationship between length and rarity, which holds regardless of how much more sophisticated the real model is.
 
-This is also why [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/) states outright that the perfect 162-0 season is designed to be rare, while [20-0 Football Draft & GM Mode](/apps/football-draft-gm-mode/) can build its whole identity around a 20-game unbeaten run. The two games are asking for very different amounts of luck.
+This is also why [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/) states outright that the perfect 162-0 season is designed to be rare, while [Football Franchise GM League](/apps/football-draft-gm-mode/) can build its whole identity around a 20-game unbeaten run. The two games are asking for very different amounts of luck.
 
 ## How wide is "normal"?
 
@@ -177,7 +184,7 @@ That last point is the one people resist, because "about the same" feels like a 
 
 ## What these numbers are not
 
-Everything above describes fictional models. The probabilities in a sports simulation are properties of software written by people, applied to generated players who do not exist. They cannot be evidence about a real athlete, a real team or a real competition.
+Everything above describes fictional models. The probabilities in a sports simulation are properties of software written by people, applied to ratings the software assigns — whether the players are generated or drawn from real careers. They cannot be evidence about a real athlete, a real team or a real competition.
 
 They are also not wagering guidance, and this article does not offer any. The arithmetic here is for understanding why a simulated season behaves the way it does, and its whole domain of validity ends at the edge of the app.
 

@@ -173,7 +173,7 @@ Percentages respond to the same thing every arithmetic skill does: short, freque
 
 The free version is to do it in real situations — estimate the tip before the app does, work out the discount before the till does, then check. You get the feedback automatically and it costs no study time.
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) provides the structured version: short sessions, immediate right-or-wrong feedback, repeated over time. It is free to download on Google Play, supported by ads, with optional in-app purchases.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) provides the structured version: short sessions, immediate right-or-wrong feedback, repeated over time. It is free to download on Google Play, supported by ads, with optional in-app purchases.
 
 As elsewhere in this category, we are not claiming arithmetic practice makes you generally smarter — [working memory and training](/blog/working-memory-and-training/) covers why that claim is weakly supported. It makes you better at arithmetic, which is worth having on its own.
 

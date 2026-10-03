@@ -166,6 +166,6 @@ A file that falls back to software decoding will drain a battery far faster than
 
 Both are free to download on Google Play, supported by ads, with optional in-app purchases and Everyone content ratings. Ad delivery uses the network periodically, which is worth knowing if you are managing data or battery deliberately — [why free Android games show ads](/blog/why-free-android-games-show-ads/) covers that model.
 
-[Regal Video Player](/apps/regal-video-player/) is the playback-side app where the decoding question above applies.
+[Video Player All Formats PRO](/apps/regal-video-player/) is the playback-side app where the decoding question above applies.
 
 Everything we make here is under [action and arcade games](/apps/category/action-arcade/).

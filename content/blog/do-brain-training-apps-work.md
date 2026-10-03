@@ -5,7 +5,13 @@
   "description": "An honest read on brain training claims: what practice reliably improves, what it does not transfer to, and what regulators have said about the marketing.",
   "status": "published",
   "publishedAt": "2026-09-15",
-  "updatedAt": "2026-09-15",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article described our app, then called Mental Math & Memory Games, as arithmetic and memory practice only, said arithmetic fluency was the whole of what it offered and that it claimed nothing needing evidence; the app, now IQ Test & Brain Training Games, also includes an IQ-style test, memory and reaction time tests, logic, vocabulary and focus games and a personality questionnaire, whose results its Google Play listing calls estimates rather than professional assessments, and our column of the comparison and the section on what we claim now say so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -193,28 +199,30 @@ That sentence is the settlement, absorbed. It is a materially more careful claim
 
 ## The comparison, and where we are the weaker product
 
-| Feature | Mental Math & Memory Games (ours) | Lumosity | Verification source | Last checked |
+| Feature | IQ Test & Brain Training Games (ours) | Lumosity | Verification source | Last checked |
 | --- | --- | --- | --- | --- |
-| What it claims to train | Arithmetic speed and accuracy across four operations, plus number, grid, sequence and delayed-recall memory tasks | Memory, attention, flexibility and problem solving via adaptive games | Our app and Google Play listing; lumosity.com | 15 September 2026 |
+| What it claims to train | Memory, logic, math, verbal ability, focus and speed, through brain games, mental math and an IQ-style test across seven areas | Memory, attention, flexibility and problem solving via adaptive games | Our Google Play listing; lumosity.com | Ours 2 October 2026; Lumosity 15 September 2026 |
 | Claim about everyday transfer | None. We make no claim that it improves general cognition, school or work performance | States results are promising and that more research is needed to connect improved assessment scores to everyday tasks | Our app listing; lumosity.com | 15 September 2026 |
 | Published research on its own site | **None. We have not run a study and do not cite one** | Describes a randomised study with 4,715 completers against a crossword control | Our app; lumosity.com | 15 September 2026 |
 | Regulatory history in this category | None known to us | $2 million FTC settlement announced January 2016 over deceptive advertising claims | ftc.gov press release, January 2016 | 15 September 2026 |
 | Price model | Free to download, ad-supported, optional in-app purchases | Not verified from the page we read; the page we read did not state pricing | Our Google Play listing; lumosity.com | 15 September 2026 |
-| What the user is shown | Score, accuracy, response time, streaks and personal bests, with a history | Adaptive difficulty and a daily set of games; assessment scores described in its research summary | Our app; lumosity.com | 15 September 2026 |
+| What the user is shown | Personal bests, accuracy, response speed and streaks with a history and charts, plus IQ-style test, memory test, reaction time test and personality results that its listing calls estimates, not professional assessments | Adaptive difficulty and a daily set of games; assessment scores described in its research summary | Our Google Play listing; lumosity.com | Ours 2 October 2026; Lumosity 15 September 2026 |
 
 The third row is the one we want to draw attention to rather than bury. **Lumosity has a study on its site and we have none.** That is a genuine advantage for them on a dimension a reader might reasonably care about, and an article that omitted it in favour of leading with the settlement would be doing exactly what this article is complaining about.
 
-Our honest position is that we have not run research, and therefore have nothing to cite, and therefore claim nothing that would need citing.
+Our honest position is that we have not run research and therefore have nothing to cite. That matters more now that the app includes an IQ-style test: its listing calls the results estimates based on app activities, not professional assessments, and no study of ours stands behind them.
 
 ## What our app claims, precisely
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) tracks scores, accuracy, streaks, response time and personal bests, and keeps a history so improvement shows up as a trend rather than a feeling. It covers addition, subtraction, multiplication and division with difficulty that climbs, number, grid, sequence and delayed-recall memory games, and formats that change the pressure: timed sprints, accuracy rounds, survival challenges and boss quizzes. It teaches techniques for percentages, estimation, number patterns and faster calculation, with games to apply each one immediately.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) tracks scores, accuracy, streaks, response time and personal bests, and keeps a history so improvement shows up as a trend rather than a feeling. It covers addition, subtraction, multiplication and division with difficulty that climbs, number, grid, sequence and delayed-recall memory games, and formats that change the pressure: timed sprints, accuracy rounds, survival challenges and boss quizzes. It teaches techniques for percentages, estimation, number patterns and faster calculation, with games to apply each one immediately.
 
-Here is the claim, stated exactly: **if you practise mental arithmetic in this app, you will get faster and more accurate at mental arithmetic.** That is measurable, it is measured, and it shows up in your own numbers.
+The app now also includes an IQ-style test covering numerical reasoning, logic, patterns, vocabulary, working memory, spatial reasoning and processing speed, a memory test, a reaction time test, logic, vocabulary and focus games, and a personality questionnaire with a Big Five profile. Its Google Play listing states that IQ test, personality test, memory test and other results are estimates based on app activities, not medical, psychological, clinical, educational-placement, employment or professional diagnostic assessments, and it offers the personality questionnaire as self-reflection rather than diagnosis.
+
+Here is the practice claim, stated exactly: **if you practise mental arithmetic in this app, you will get faster and more accurate at mental arithmetic.** That is measurable, it is measured, and it shows up in your own numbers. The test results are a different kind of number, and the listing's own wording is the right way to read them: estimates based on the app's own activities, not a clinical or professional assessment.
 
 Here is what we do not claim: that it improves your general cognitive ability, that it protects against cognitive decline, that it will help your schoolwork or your job, or that being quicker at our division drill makes you quicker at anything that is not a division drill. The transfer critique in this article applies to our product as fully as it applies to any other, and we would be doing the thing the FTC acted on if we implied otherwise.
 
-There is one narrow place where transfer is uncontroversial, and it is worth naming because it is the honest reason to use a product like this: **arithmetic fluency is itself a real-world skill.** Being able to divide a bill, sanity-check a price or estimate a quantity without a phone is not a laboratory abstraction. Practising it improves it. That is near transfer at essentially zero distance, and it is the whole of what we are offering.
+There is one narrow place where transfer is uncontroversial, and it is worth naming because it is the honest reason to use a product like this: **arithmetic fluency is itself a real-world skill.** Being able to divide a bill, sanity-check a price or estimate a quantity without a phone is not a laboratory abstraction. Practising it improves it. That is near transfer at essentially zero distance, and the same rule holds for the app's memory, logic and vocabulary games: expect to get better at what you practise, not at everything else.
 
 ## How to read any product in this category
 

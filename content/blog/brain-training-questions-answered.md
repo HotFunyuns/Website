@@ -5,7 +5,13 @@
   "description": "Nine claims people repeat about brain games, each answered briefly with what the evidence actually says and what a practice app does and does not do.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no IQ test, no cognitive assessment and no personality test and showed no brain-age or percentile figure; the app, now IQ Test & Brain Training Games, includes an IQ-style test, a memory test, a reaction time test and a personality questionnaire whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so and no longer makes claims about figures the listing does not describe."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -63,7 +69,7 @@
     },
     {
       "question": "Does a high score in a brain game mean a high IQ?",
-      "answer": "No. A score in a practice app is a composite of how many questions you answered, how fast, at what difficulty, under that app's own scoring rules. A standardised assessment compares your answers against a norm sample under controlled administration. Mental Math & Memory Games contains no IQ test, no cognitive assessment and no percentile scoring, and its score is not an estimate of anything but that session."
+      "answer": "No. A score in a practice app is a composite of how many questions you answered, how fast, at what difficulty, under that app's own scoring rules. A standardised assessment compares your answers against a norm sample under controlled administration. Our own app, IQ Test & Brain Training Games, does include an IQ-style test, and its Google Play listing describes the results as estimates based on app activities, not a clinical or professional assessment — so a high result there is an estimate from the app's own questions, not a standardised IQ score."
     },
     {
       "question": "Do we really use only ten percent of our brains?",
@@ -129,7 +135,7 @@
 
 The short version: practice makes you better at what you practised, and almost every disputed claim in this category is an attempt to extend that sentence. Below are nine things people repeat about brain games, each answered in a paragraph or two with the evidence that settles it — and, where it is relevant, what our own app does and does not do.
 
-Mental Math & Memory Games is built by Reign Creative. Its claim register is short and worth stating up front, because several answers below depend on it: it drills arithmetic and memory tasks, it records score, accuracy, streak, response time and personal bests, and it makes no claim about intelligence, cognitive decline, diagnosis or transfer to untrained skills. It contains no IQ test, no cognitive assessment, no personality test, no brain-age figure and no percentile scoring.
+IQ Test & Brain Training Games is built by Reign Creative. Its claim register is worth stating up front, because several answers below depend on it. It includes an IQ-style test, a memory test, a reaction time test and a personality questionnaire with a Big Five profile, alongside brain, memory, logic, focus, vocabulary and mental math games, and it tracks personal bests, accuracy, streaks, response speed and an assessment history. Its Google Play listing states that the test results are estimates based on app activities, not medical, psychological, clinical, educational-placement, employment or professional diagnostic assessments, and it makes no claim about cognitive decline, diagnosis or transfer to untrained skills.
 
 ## Myths about what training does
 
@@ -177,7 +183,7 @@ Four categories are worth keeping apart whenever a number appears on a screen �
 
 ### "An app can tell you your brain age"
 
-Where a figure like that appears, it is a performance index mapped to an age band by the publisher's own choice of mapping, not a measurement of anything biological. Mental Math & Memory Games does not produce a brain-age number, a cognitive age or any age comparison, and it does not compare your result to an average for your age group.
+Where a figure like that appears, it is a performance index mapped to an age band by the publisher's own choice of mapping, not a measurement of anything biological. The Google Play listing for our own app, IQ Test & Brain Training Games, does not describe a brain-age figure. Whatever result the app shows — from its IQ-style test, memory test or reaction time test — is, in the listing's own words, an estimate based on app activities, not a medical, psychological, clinical or professional diagnostic assessment, and the caution above applies to it.
 
 ## Myths about how to practise
 
@@ -189,4 +195,4 @@ The reverse is closer to true. The Bjork Learning and Forgetting Lab at UCLA has
 
 The scheduling evidence says otherwise. The What Works Clearinghouse practice guide on organising instruction lists spacing learning over time among its recommendations, and distributed practice is among the better-supported findings in the area. Ten minutes on most days is a better plan than an hour once a week, and it has the practical advantage of actually happening.
 
-More on routines, progress and evidence sits in the [brain training games hub](/blog/topics/brain-training-games/) and across the [education and brain category](/blog/category/education-brain/). The modes referred to above are listed on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+More on routines, progress and evidence sits in the [brain training games hub](/blog/topics/brain-training-games/) and across the [education and brain category](/blog/category/education-brain/). The modes referred to above are listed on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

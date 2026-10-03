@@ -5,7 +5,13 @@
   "description": "A mechanical method for finding the rule behind a number pattern when inspection fails, using difference tables, constant rows and degree counting.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, had no figural, matrix or logic-grid items, that none of its modes is a test or assessment, and that it records nothing beyond drill statistics; the app, now IQ Test & Brain Training Games, lists logic games built on sequences, patterns and rule discovery and an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so without claiming which item formats it uses."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -177,4 +183,4 @@ There is also a limit worth stating honestly. A constant row proves the data you
 
 The method is mechanical, so what limits you is arithmetic speed and the reliability of your subtraction — a slipped sign one row down corrupts everything above it. Sanity-checking magnitudes as you go, in the way described in [estimation techniques that make mental math useful](/blog/estimation-techniques-explained/), catches most of those before they propagate, and the broader speed work in [the mental math methods guide](/blog/mental-math-training-guide/) makes the table cheap enough to build casually.
 
-Mental Math & Memory Games, our own app from Reign Creative, ships the drills for that underlying arithmetic — Subtraction Sprint and Mixed Operations for the table itself, and the 75-second Number Pattern Challenge for rule-finding. Two things it does not ship, stated plainly: there are no figural or matrix items and no logic-grid puzzles in it, and none of its modes is a test or an assessment. It records score, accuracy, streak and response time on its own drills, nothing more. See the [app page](/apps/mental-math-memory-games/) for what is in it, the [logic and pattern puzzles collection](/blog/topics/logic-and-pattern-puzzles/) for the rest of this subject, and the [education and brain training section](/blog/category/education-brain/) for everything else.
+IQ Test & Brain Training Games, our own app from Reign Creative, ships the drills for that underlying arithmetic — Subtraction Sprint and Mixed Operations for the table itself, and the 75-second Number Pattern Challenge for rule-finding. Its listing also describes logic games built on sequences, patterns and rule discovery, and an IQ-style test that includes patterns among its areas; it does not say whether any of them uses figural, matrix or logic-grid formats. The listing describes the IQ-style test's results as estimates based on app activities, not clinical or professional assessments, and on the drills the app records score, accuracy, streak and response time. See the [app page](/apps/mental-math-memory-games/) for what is in it, the [logic and pattern puzzles collection](/blog/topics/logic-and-pattern-puzzles/) for the rest of this subject, and the [education and brain training section](/blog/category/education-brain/) for everything else.

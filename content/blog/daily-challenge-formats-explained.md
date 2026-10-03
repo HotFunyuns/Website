@@ -5,7 +5,13 @@
   "description": "How a date-seeded daily challenge works, why everyone gets the same one, what a once-a-day cap is protecting, and where the format stops being useful.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the modes that the daily challenge in our app, then called Mental Math & Memory Games and now IQ Test & Brain Training Games, points at are listed on its app page; that page describes the app's games and tests without listing individual modes, and the sentence now points to it only for that description."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -51,7 +57,7 @@
     "A daily challenge is usually generated from the date itself, so the puzzle is produced on your device rather than delivered — which is why everyone gets the same one and why it works with no connection.",
     "Determinism is the whole feature. Because the challenge is fixed by the date, two people can compare results meaningfully without any server, account or leaderboard between them.",
     "A once-a-day cap is not a limit on play. It protects the comparability of the artefact: an attempt you can repeat until it goes well is not the same object as one everybody gets once.",
-    "In Mental Math & Memory Games the math daily is drawn from a pool of seven challenge types pointing at real modes and difficulties, and the memory daily from a pool of ten, with a single shared streak rather than one per category.",
+    "In IQ Test & Brain Training Games the math daily is drawn from a pool of seven challenge types pointing at real modes and difficulties, and the memory daily from a pool of ten, with a single shared streak rather than one per category.",
     "A daily is a reason to open the app, not a training plan. One short challenge is not enough practice to move anything, and treating it as a complete session is the format's main failure mode."
   ],
   "disclaimer": "none",
@@ -71,7 +77,7 @@
     },
     {
       "question": "What happens to a shared streak if I only do one category?",
-      "answer": "In Mental Math & Memory Games the daily streak is shared rather than split per category, so completing either the math daily or the memory daily keeps the same streak alive. That is a deliberate choice in favour of the habit over the specificity: it means a day counts, but it also means the streak number does not tell you what you actually practised."
+      "answer": "In IQ Test & Brain Training Games the daily streak is shared rather than split per category, so completing either the math daily or the memory daily keeps the same streak alive. That is a deliberate choice in favour of the habit over the specificity: it means a day counts, but it also means the streak number does not tell you what you actually practised."
     }
   ],
   "sources": [
@@ -125,7 +131,7 @@ A cap on attempts reads as a restriction. It is closer to a safeguard.
 
 If you can retry a daily until the result pleases you, your score stops describing "how I did on today's challenge" and starts describing "my best of however many attempts I made". Someone else's first-attempt result is then not comparable to yours in any useful way, and the shared-seed property — the only reason the format exists — quietly stops meaning anything.
 
-So the cap is a constraint on the artefact rather than on practice. In Mental Math & Memory Games — our own app, built by Reign Creative — every other mode is unlimited. You can run Multiplication Rush thirty times in a row if you want. The daily is the one object that is deliberately once, because that is what makes it an object.
+So the cap is a constraint on the artefact rather than on practice. In IQ Test & Brain Training Games — our own app, built by Reign Creative — every other mode is unlimited. You can run Multiplication Rush thirty times in a row if you want. The daily is the one object that is deliberately once, because that is what makes it an object.
 
 ## What is actually inside a daily
 
@@ -143,4 +149,4 @@ Being asked to produce answers rather than review material is the second quiet b
 
 The limit is dose. One short round is a prompt, not a session. If your record has a long streak and a flat set of personal bests, the daily is doing its job and you are not doing the rest of it. The Bjork Learning and Forgetting Lab's work on the gap between practice performance and durable learning is the relevant caution here too: a comfortable daily that you clear every morning is a pleasant routine, and not necessarily a training effect.
 
-The honest framing for the whole category — what practice supports, and where the claims outrun the evidence — is in [our brain training explainer](/blog/do-brain-training-apps-work/). More on routines and progress sits in the [brain training games hub](/blog/topics/brain-training-games/) and across the [education and brain category](/blog/category/education-brain/); the modes the daily points at are listed on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+The honest framing for the whole category — what practice supports, and where the claims outrun the evidence — is in [our brain training explainer](/blog/do-brain-training-apps-work/). More on routines and progress sits in the [brain training games hub](/blog/topics/brain-training-games/) and across the [education and brain category](/blog/category/education-brain/); the app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

@@ -5,7 +5,13 @@
   "description": "Deliberate practice needs a specific target, immediate feedback, difficulty just above your level, and correction. Here is how that maps onto a short drill.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the modes and difficulty ladders of our app, then called Mental Math & Memory Games, are shown on its app page; that page, for the app now named IQ Test & Brain Training Games, describes its features without listing difficulty ladders, so the sentence now simply points to it."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -130,7 +136,7 @@ Read those two results together and the sensible conclusion is not "practice doe
 
 ## Mapping the four conditions onto a short drill
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and it is a convenient worked example because each of the four conditions corresponds to something you either choose or ignore on screen.
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and it is a convenient worked example because each of the four conditions corresponds to something you either choose or ignore on screen.
 
 **A specific target** is the mode and difficulty you pick. Choosing Subtraction Sprint at a borrowing-heavy difficulty is a target. Opening whatever appeared first is not.
 
@@ -167,4 +173,4 @@ That is five minutes with a target, feedback, an appropriate level and a correct
 
 The [IES practice guide on organising instruction and study](https://ies.ed.gov/ncee/wwc/PracticeGuide/1) is the closest thing to official backing for the structural half of this: its recommendations include interleaving worked example solutions with problem-solving exercises and using quizzing to re-expose learners to key content, which is a reasonable description of alternating between a technique's worked example and a drill on the same material.
 
-None of this makes drill a route to general cognitive improvement — the cornerstone guide [do brain training apps work](/blog/do-brain-training-apps-work/) sets out why that claim is weak, and the rest of the [brain training games hub](/blog/topics/brain-training-games/) stays inside the narrower claim. What deliberate practice offers is a better return on the minutes you were going to spend anyway. You can see which modes and difficulty ladders exist on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/), and more practice-method writing sits in the [education and brain category](/blog/category/education-brain/).
+None of this makes drill a route to general cognitive improvement — the cornerstone guide [do brain training apps work](/blog/do-brain-training-apps-work/) sets out why that claim is weak, and the rest of the [brain training games hub](/blog/topics/brain-training-games/) stays inside the narrower claim. What deliberate practice offers is a better return on the minutes you were going to spend anyway. The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/), and more practice-method writing sits in the [education and brain category](/blog/category/education-brain/).

@@ -5,7 +5,13 @@
   "description": "Why the higher-rated fighter loses, how separate MMA and boxing simulators resolve a bout, and how to draft a stable that covers matchups, not ratings.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said the fighters in 40-0 MMA & Boxing Fight Draft are fictional and generated. 40-0 MMA & Boxing Fight Draft builds its fighter pools from real fighters' careers, with ratings and records that are the game's own estimates, and is not affiliated with or endorsed by any promotion, sanctioning body or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -45,14 +51,15 @@
   "relatedArticles": [
     "hockey-draft-gm-guide",
     "basketball-draft-gm-guide",
-    "baseball-draft-gm-guide"
+    "baseball-draft-gm-guide",
+    "ko-vs-tko-how-fights-end"
   ],
   "takeaways": [
     "Combat sports drafting is not positional coverage — it is matchup coverage, because a style advantage can outweigh a ratings advantage.",
     "Mixed martial arts and boxing are resolved by separate simulators, with boxing adding draws and judges' scorecards as possible outcomes.",
     "A stable built entirely from one archetype has a predictable weakness, so diversifying styles is closer to portfolio construction than to team building.",
     "Weight class and era are constraints on the board, not decoration; they determine which of your fighters can actually be used where.",
-    "Every result is the output of a model applied to fictional fighters, and describes nothing about any real bout, athlete or promotion."
+    "Every result is the output of a model applied to the fighters you drafted — built from real fighters' careers and rated by the game's own estimates — and predicts nothing about any real bout, athlete or promotion."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -79,7 +86,7 @@
     },
     {
       "question": "Are the fighters real people?",
-      "answer": "No. The fighters are fictional and generated inside the game, and it is not affiliated with, endorsed by or connected to any real promotion, sanctioning body or athlete. Results are simulation outputs and describe nothing about any real bout."
+      "answer": "Yes. The draft pools are built from real fighters' careers across eras and weight classes, with ratings and records that are the game's own estimates rather than official statistics. The game is not affiliated with, endorsed by or licensed by any promotion, sanctioning body or athlete, and results are simulation outputs that describe nothing about any real bout."
     }
   ],
   "sources": []
@@ -126,13 +133,13 @@ The pool spans eras, countries and divisions, and it is easy to read that as var
 
 Weight class in particular is not a preference. A fighter is only usable in the situations their division allows, which means a stable that is deep in one division and empty in another has a coverage problem regardless of how good the fighters are. When you are drafting for a tournament or a bracket, division depth is a real constraint on your options, and noticing it late is expensive.
 
-Era adds a different texture. Drafting across eras is one of the genuine pleasures of a fictional pool — it is a comparison you can only make in a simulation, because it never happens in reality. It is worth being clear-eyed about that: cross-era matchups are interesting precisely because they are unanswerable outside a model.
+Era adds a different texture. Drafting across eras is one of the genuine pleasures of a simulated draft — it is a comparison you can only make in a simulation, because it never happens in reality. It is worth being clear-eyed about that: cross-era matchups are interesting precisely because they are unanswerable outside a model.
 
 ## What the simulators assume
 
 Every result the game produces is a model's output, and it is worth stating the boundaries plainly.
 
-The fighters are fictional and generated inside the game. The game is not affiliated with, endorsed by or connected to any real promotion, sanctioning body, event or athlete. No result describes, predicts or relates to any real bout, and nothing in the app is usable as an indication of how a real fight would go. It is not, and is not intended as, guidance about any real-world event.
+The fighter pools are built from real fighters' careers, with ratings and records that are the game's own estimates. The game is not affiliated with, endorsed by or licensed by any promotion, sanctioning body, event or athlete. No result describes or predicts any real bout, and nothing in the app is usable as an indication of how a real fight would go. It is not, and is not intended as, guidance about any real-world event.
 
 Inside the model, the assumptions are the ones described above: attributes and styles interact, the interaction can override a ratings gap, and the sport's own rules determine which outcomes are possible. That is a design decision, and it is what makes the drafting worth thinking about. A model where the higher number always won would be a sorting exercise.
 

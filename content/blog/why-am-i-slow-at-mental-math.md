@@ -5,7 +5,13 @@
   "description": "Slow mental arithmetic has several distinct causes, and each needs a different fix. Here is how to tell them apart from your own accuracy and timing record.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, was not an assessment, made no claim about intelligence, produced no test result and recorded nothing beyond its drill numbers, and that our app page lists the modes named here; the app, now IQ Test & Brain Training Games, includes an IQ-style test and other tests whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -157,8 +163,8 @@ The second is that a difficulty which is persistent, severe and out of proportio
 
 ## Using a practice record to tell these apart
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and the reason it is relevant here is narrow: it records the numbers this diagnosis needs. Each run reports correct and wrong counts, accuracy, average and median answer time, fastest correct answer and best streak, and it keeps per-mode personal bests and a session history, so you can compare like with like instead of comparing impressions.
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and the reason it is relevant here is narrow: it records the numbers this diagnosis needs. Each run reports correct and wrong counts, accuracy, average and median answer time, fastest correct answer and best streak, and it keeps per-mode personal bests and a session history, so you can compare like with like instead of comparing impressions.
 
 The modes map onto the causes directly. Accuracy Trainer is untimed, gives feedback and an explanation and runs ten questions, which is the setting for cause one. Multiplication Rush, Addition Sprint, Subtraction Sprint and Division Dash can be run separately to expose cause four. Mixed Operations and the longer Math Marathon put multi-step load back on for cause three. The technique library carries methods with worked examples for cause five.
 
-It is a practice game, not an assessment: it makes no claim about intelligence, produces no test result, and its numbers describe performance on its own drills and nothing else. The [app page](/apps/mental-math-memory-games/) lists the modes, the [mental math collection](/blog/topics/mental-math/) holds the method articles, and the [education and brain training section](/blog/category/education-brain/) has the rest.
+Its drill numbers describe performance on its own drills. The app also has an IQ-style test and other tests, and its listing describes their results as estimates based on app activities, not clinical or professional assessments, so none of them identifies a condition of any kind. The [app page](/apps/mental-math-memory-games/) describes the app, the [mental math collection](/blog/topics/mental-math/) holds the method articles, and the [education and brain training section](/blog/category/education-brain/) has the rest.

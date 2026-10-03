@@ -5,7 +5,13 @@
   "description": "What a goaltender actually controls, why save percentage misleads, how the position develops differently, and what a goalie career looks like in a simulation.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said every league, team and player in our games is fictional. That is true of our career sims, but our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The sentence has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -44,7 +50,9 @@
     "hockey-positions-explained",
     "hockey-career-sim-guide",
     "plus-minus-and-hockey-stats",
-    "hockey-line-combinations-explained"
+    "hockey-line-combinations-explained",
+    "types-of-hockey-shots",
+    "when-to-pull-the-goalie"
   ],
   "takeaways": [
     "A goaltender's controllable job is positioning: taking away angle and choosing depth, so that most shots are stopped by being in the right place rather than by reacting.",
@@ -157,4 +165,4 @@ If you are picking a first position, [hockey positions explained](/blog/hockey-p
 
 From a management perspective, goaltending is the highest-variance investment on a roster: the gap between the best and worst available options is large, and the position is hard to evaluate because of the statistical problems described above. [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) puts you on that side of it, and [hockey line combinations explained](/blog/hockey-line-combinations-explained/) covers how deployment in front of a goalie changes what they face.
 
-Every league, team and player in our games is fictional. The full catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+Our career sims are set in fictional leagues with fictional teams and players; our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, team or athlete. The full catalogue is under [sports career and GM games](/apps/category/sports-gm/).

@@ -196,7 +196,7 @@ The counterpart: **forced subtitles**, a track flagged to appear for a few lines
 
 ## What our player does, stated plainly
 
-[Regal Video Player](/apps/regal-video-player/) is built around local playback of common containers and codecs: MP4, MKV and MOV alongside M4V, WebM, 3GP, FLV, TS and M2TS, with H.264, H.265, VP8, VP9 and AV1 video and AAC, MP3, FLAC and Ogg audio, subject as always to the decoders your device provides.
+[Video Player All Formats PRO](/apps/regal-video-player/) is built around local playback of common containers and codecs: MP4, MKV and MOV alongside M4V, WebM, 3GP, FLV, TS and M2TS, with H.264, H.265, VP8, VP9 and AV1 video and AAC, MP3, FLAC and Ogg audio, subject as always to the decoders your device provides.
 
 The features we describe and stand behind are playback speed from 0.1x to 3.0x in 0.1x steps, resume with saved positions, recent videos and playback history, favourites, gesture controls for seeking, volume, brightness, mute and rotate, a screen lock for long content, Picture-in-Picture on supported devices, a sleep timer and repeat mode.
 

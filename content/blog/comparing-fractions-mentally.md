@@ -163,7 +163,7 @@ Reducing a fraction first often makes the comparison obvious, which is why the o
 
 ## Practising the decision under time pressure
 
-Comparison is a speed skill, because the whole value of these strategies is that they beat the slow method on the clock. [Mental Math & Memory Games](/apps/mental-math-memory-games/) — our own app, built by Reign Creative — ships Compare Numbers Fast, a multiple-choice mode on a 60-second timer with Easy, Medium and Hard settings. The format matters: multiple choice forces a judgement rather than a computation, which is the habit these four strategies are meant to install.
+Comparison is a speed skill, because the whole value of these strategies is that they beat the slow method on the clock. [IQ Test & Brain Training Games](/apps/mental-math-memory-games/) — our own app, built by Reign Creative — ships Compare Numbers Fast, a multiple-choice mode on a 60-second timer with Easy, Medium and Hard settings. The format matters: multiple choice forces a judgement rather than a computation, which is the habit these four strategies are meant to install.
 
 The benchmark set that makes strategy one work is in the techniques library as Common Percent Anchors, which stores the big landmarks as fractions — 25% as a quarter, 33% as roughly a third, 50% as a half, 75% as three quarters — on the principle that dividing beats multiplying. Like every entry in that library it carries steps, a worked example, a named common mistake and a two-question mini quiz.
 

@@ -164,7 +164,7 @@ Remuxing an MKV into an MP4 also sometimes helps on its own, where a device's su
 
 ## What a player can and cannot do about this
 
-[Regal Video Player](/apps/regal-video-player/) opens MP4, MKV and MOV alongside M4V, WebM, 3GP, FLV, TS and M2TS, and is built for H.264, H.265, VP8, VP9 and AV1 video with AAC, MP3, FLAC and Ogg audio.
+[Video Player All Formats PRO](/apps/regal-video-player/) opens MP4, MKV and MOV alongside M4V, WebM, 3GP, FLV, TS and M2TS, and is built for H.264, H.265, VP8, VP9 and AV1 video with AAC, MP3, FLAC and Ogg audio.
 
 That list is a statement about what the app will attempt, and we attach the same caveat to it everywhere it appears, including here: **what actually plays depends on the file and the decoders your device provides.**
 

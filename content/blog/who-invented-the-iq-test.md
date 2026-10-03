@@ -5,7 +5,13 @@
   "description": "Alfred Binet and Theodore Simon built the first practical intelligence scale in 1905 to find schoolchildren who needed help. Here is how its purpose drifted.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no IQ test, cognitive assessment or percentile scoring and sat outside the history of IQ testing; the app, now IQ Test & Brain Training Games, includes an IQ-style test whose results its Google Play listing calls estimates, not clinical, educational-placement, employment or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -139,8 +145,8 @@ Pearson's Wechsler Adult Intelligence Scale, Fifth Edition, published in 2024 fo
 
 ## Where a practice app sits in this story
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and it sits outside this history rather than inside it. It contains no IQ test, no cognitive assessment and no percentile scoring. What it contains is arithmetic drill — Multiplication Rush, Addition Sprint, Subtraction Sprint, Division Dash, Mixed Operations — memory rounds built on numbers, sequences, grids and delayed recall, a library of calculation techniques, and a record of your score, accuracy, streak and response time. Those are game statistics about your practice, not measurements of a trait.
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and it sits on the consumer side of the line this history draws. It includes an IQ-style test covering numerical reasoning, logic, patterns, vocabulary, working memory, spatial reasoning and processing speed, alongside brain, memory, logic and mental math games, a memory test and a reaction time test. Its Google Play listing states that IQ test, memory test and other results are estimates based on app activities, not medical, psychological, clinical, educational-placement, employment or professional diagnostic assessments — which rules out exactly the school-placement and selection uses this history describes.
 
 Keeping the four categories apart is the whole point: practice, entertainment, educational activity and standardised psychological assessment are different things, and a century of this history is the story of what happens when they get confused. The same scepticism applies to product claims generally, which is why the evidence guide on [whether brain training apps work](/blog/do-brain-training-apps-work/) is worth reading alongside this one, and why dating and sourcing arguments in [how historians date events](/blog/how-historians-date-events/) are a decent model for reading any claim about the past.
 
-More on the statistics, the item types and the limits sits in the [IQ tests and reasoning hub](/blog/topics/iq-tests-and-reasoning/), and the wider [education and brain category](/blog/category/education-brain/) covers memory, arithmetic and practice design. The drills themselves are on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+More on the statistics, the item types and the limits sits in the [IQ tests and reasoning hub](/blog/topics/iq-tests-and-reasoning/), and the wider [education and brain category](/blog/category/education-brain/) covers memory, arithmetic and practice design. The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

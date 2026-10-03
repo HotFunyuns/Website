@@ -45,7 +45,9 @@
     "soccer-formations-explained",
     "how-soccer-league-tables-work",
     "soccer-draft-xi-guide",
-    "hockey-career-sim-guide"
+    "hockey-career-sim-guide",
+    "soccer-stats-explained",
+    "soccer-substitution-rules"
   ],
   "takeaways": [
     "Coach Trust, not your overall rating, is what actually decides whether you start — it rises with performances and falls with poor ones, and it is the gate on everything else.",

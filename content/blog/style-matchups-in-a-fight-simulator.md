@@ -5,7 +5,13 @@
   "description": "Styles make fights, but turning that into code means deciding what a style is. How we modelled it, and what the model cannot represent.",
   "status": "published",
   "publishedAt": "2026-09-15",
-  "updatedAt": "2026-09-15",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described the fighters, records and pool in 40-0 MMA & Boxing Fight Draft as fictional and generated. 40-0 MMA & Boxing Fight Draft builds its fighter pools from real fighters' careers, with ratings and records that are the game's own estimates, and is not affiliated with or endorsed by any promotion, sanctioning body or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": ["mma", "simulation", "game design", "developer insight"],
@@ -13,7 +19,6 @@
   "secondaryKeywords": [
     "fight simulator mechanics",
     "mma fighting styles",
-    "boxing styles",
     "style makes fights",
     "combat sport simulation",
     "fighter attributes in games"
@@ -37,7 +42,9 @@
     "how-sports-simulation-engines-work",
     "understanding-sports-sim-probability",
     "striking-vs-grappling-in-mma",
-    "mma-fantasy-draft-strategy"
+    "mma-fantasy-draft-strategy",
+    "boxing-styles-explained",
+    "boxing-weight-classes-explained"
   ],
   "takeaways": [
     "A style has to be represented as something the code can compare, and the choice of representation decides how the whole simulator behaves.",
@@ -117,9 +124,9 @@ This is where a simulator has to be careful, because the temptation is to let co
 
 **What it claims:** given these attributes, these preferences and this ruleset, here is a plausible distribution of outcomes. Run the same bout repeatedly and you will get different results, because the model is sampling rather than calculating. That is the same logic discussed in [understanding sports sim probability](/blog/understanding-sports-sim-probability/), and it is the only honest way to present a fight — a single simulated result is one draw from a distribution, not a verdict.
 
-**What it does not claim:** anything about reality. The fighters are fictional and generated inside the game. A result does not describe, predict or relate to any real bout or athlete.
+**What it does not claim:** anything about reality. The fighter pools are built from real fighters' careers, but the ratings are the game's own estimates and a result does not describe or predict any real bout or athlete.
 
-There is a subtler point about cross-era matchups, which the app supports and which are one of the genuine pleasures of a fictional pool. A cross-era comparison is **unfalsifiable by construction**. There is no ground truth to calibrate against, because the fight never happens and cannot happen. Our model will produce a result for it, and that result is entertainment. Presenting it as analysis would be dishonest, and we try not to.
+There is a subtler point about cross-era matchups, which the app supports and which are one of the genuine pleasures of a simulated draft. A cross-era comparison is **unfalsifiable by construction**. There is no ground truth to calibrate against, because the fight never happens and cannot happen. Our model will produce a result for it, and that result is entertainment. Presenting it as analysis would be dishonest, and we try not to.
 
 Rating systems designed for real competition have a defined meaning — an Elo-style rating is calibrated against actual results between actual opponents. Our ratings have no such anchor, and it would be a mistake to read them as though they did.
 
@@ -141,4 +148,4 @@ The preference model does that better than the table did, because there is no si
 
 The general architecture of how simulation engines of this kind are assembled, across the studio's other sports, is in [how sports simulation engines work](/blog/how-sports-simulation-engines-work/).
 
-The fighters, records and results in the game are fictional. It is not affiliated with, endorsed by or connected to any real promotion, sanctioning body, event or athlete. The rest of the studio's simulation titles are listed under [sports GM](/blog/category/sports-gm/).
+The game's fighter pools are built from real fighters' careers, with ratings and records that are the game's own estimates, and its results are simulations. It is not affiliated with, endorsed by or licensed by any promotion, sanctioning body, event or athlete. The rest of the studio's simulation titles are listed under [sports GM](/blog/category/sports-gm/).

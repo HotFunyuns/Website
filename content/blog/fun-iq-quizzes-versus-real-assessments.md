@@ -5,7 +5,13 @@
   "description": "A shareable quiz and a normed assessment can use similar-looking questions and still be completely different objects. Here is the checklist that separates them.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no assessment, no IQ test, no personality test, no percentile scoring and no estimate of intelligence; the app, now IQ Test & Brain Training Games, includes an IQ-style test, a memory test, a reaction time test and a personality questionnaire whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now runs its checklist on those results."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -53,7 +59,7 @@
     "Pearson requires Qualification Level C to buy or administer its adult Wechsler battery. A product anyone can open is not operating under that model, whatever its questions look like.",
     "Google Play content ratings are set by the developer together with the International Age Rating Coalition, and Google states plainly that a rating does not tell you an app is designed for users of a particular age.",
     "A quiz is a legitimate thing to enjoy. The problem starts when its output is presented, or read, as a measurement.",
-    "Mental Math & Memory Games ships quiz-shaped practice — Boss Quiz, True or False Math, Tap the Correct Answer — and no assessment of any kind."
+    "IQ Test & Brain Training Games, our own app, includes an IQ-style test, a memory test, a reaction time test and a personality questionnaire; its Google Play listing calls their results estimates based on app activities rather than clinical or professional assessments, and the checklist in this article applies to them as it would to any other app."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -71,8 +77,8 @@
       "answer": "Nothing at all. Google Play explains that ratings are the responsibility of the app developer and the International Age Rating Coalition, and that they describe potentially objectionable content. Google also states directly that content ratings do not tell you whether an app is designed for users of a specific age. A rating is not a quality or validity signal."
     },
     {
-      "question": "Where does Mental Math & Memory Games sit?",
-      "answer": "It is listed on Google Play as an Educational game with a content rating of Everyone, and it ships quiz-shaped practice — Boss Quiz, True or False Math, Tap the Correct Answer — alongside arithmetic and memory drills. It contains no assessment, no percentile and no estimate of intelligence, and everything it records describes a practice session."
+      "question": "Where does IQ Test & Brain Training Games sit?",
+      "answer": "It is listed on Google Play as an Educational game with a content rating of Everyone. Alongside memory, logic, vocabulary, focus and mental math games, it includes an IQ-style test, a memory test, a reaction time test and a personality questionnaire with a Big Five profile. Its listing states that these results are estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments. Measured against the checklist in this article, it is a self-administered product anyone can open, so treat its results as practice feedback and entertainment rather than a standardised score."
     }
   ],
   "sources": [
@@ -152,13 +158,13 @@ Google also states something that deserves quoting whenever a store listing is u
 
 ## Where our app sits, stated plainly
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) is our own app, built by Reign Creative. Its Google Play category is Educational game and its content rating is Everyone.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) is our own app, built by Reign Creative. Its Google Play category is Educational game and its content rating is Everyone.
 
 It ships quiz-shaped content — Boss Quiz, True or False Math and Tap the Correct Answer are all question-and-answer formats — alongside arithmetic drills such as Multiplication Rush and Mixed Operations, number, sequence, grid and delayed-recall memory rounds, a Daily Challenge, and a 49-technique library with worked examples and practice links.
 
-Every one of those is practice, entertainment or educational activity. **None of them is an assessment.** The app contains no IQ test, no cognitive assessment, no personality test, no brain-age estimate and no percentile scoring. What it records — score, accuracy, streak, response time, personal bests and session history — describes what happened in a session at a difficulty you chose.
+Every one of those is practice, entertainment or educational activity. The app also includes an IQ-style test, a memory test, a reaction time test and a personality questionnaire with a Big Five profile, and those are where the checklist above matters. Its Google Play listing states that IQ test, personality test, memory test and other results are estimates based on app activities, not medical, psychological, clinical, educational-placement, employment or professional diagnostic assessments. Run against the five features above, the app has no qualification requirement, it is taken unsupervised wherever you happen to be, and its listing documents no norm sample, technical manual or reliability evidence — so **none of its results is a standardised assessment score.** What it records — personal bests, accuracy, streaks, response speed and a history of past results — describes your own sessions over time.
 
-The reason to be this explicit is that the category is full of products that are deliberately vague about it. Being clear costs us nothing, because practice with honest feedback is genuinely useful; the case for it does not need borrowed authority. The evidence about what practice products can and cannot claim is in [do brain training apps work](/blog/do-brain-training-apps-work/), and the design of question difficulty in quiz-shaped formats is covered in [how quiz difficulty works](/blog/how-quiz-difficulty-works/).
+The reason to be this explicit is that the category is full of products that are deliberately vague about it, and an app with "IQ test" in its name has more reason than most to say plainly what its numbers are. Practice with honest feedback is genuinely useful; the case for it does not need borrowed authority. The evidence about what practice products can and cannot claim is in [do brain training apps work](/blog/do-brain-training-apps-work/), and the design of question difficulty in quiz-shaped formats is covered in [how quiz difficulty works](/blog/how-quiz-difficulty-works/).
 
 ## Three questions before you believe a result
 

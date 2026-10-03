@@ -72,7 +72,7 @@
       "answer": "Because bit depth is handled by a separate profile with separate hardware support. H.265 and AV1 both define 8-bit and 10-bit variants, and a chipset can implement a fixed-function decoder for one without the other. The codec name on the file is identical either way, which is why the failure looks so arbitrary — a black screen with working audio on a file whose codec your phone supposedly supports."
     },
     {
-      "question": "Which codecs is Regal Video Player built for?",
+      "question": "Which codecs is Video Player All Formats PRO built for?",
       "answer": "H.264, H.265, VP8, VP9 and AV1 video with AAC, MP3, FLAC and Ogg audio, inside MP4, MKV, MOV, M4V, WebM, 3GP, FLV, TS and M2TS containers. What actually plays depends on the file, your Android version and the decoders your device provides — no player can supply a hardware decoder your chipset does not have. It is free to download with ads, and an optional Premium purchase removes ads and unlocks extra themes."
     }
   ],
@@ -281,7 +281,7 @@ A file with picture and no sound has usually hit an audio codec the device does 
 
 ## What our player is built for
 
-[Regal Video Player](/apps/regal-video-player/) is built for H.264, H.265, VP8, VP9 and AV1 video with AAC, MP3, FLAC and Ogg audio, inside MP4, MKV, MOV, M4V, WebM, 3GP, FLV, TS and M2TS containers.
+[Video Player All Formats PRO](/apps/regal-video-player/) is built for H.264, H.265, VP8, VP9 and AV1 video with AAC, MP3, FLAC and Ogg audio, inside MP4, MKV, MOV, M4V, WebM, 3GP, FLV, TS and M2TS containers.
 
 The caveat is the honest one and it applies to every player on the platform: what actually plays depends on the file, your Android version and the decoders your device provides. Any app claiming to guarantee playback of a codec your chipset has no decoder for is claiming something the hardware does not allow.
 

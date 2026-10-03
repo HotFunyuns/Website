@@ -227,7 +227,7 @@ This matters more in nutrition than in most categories, so it is worth stating d
 
 **Choose [Protein Diet Tracker](/apps/protein-diet-tracker/) if** you cook most of what you eat, you want protein and calories rather than a full nutrient panel, you want training and body weight in the same history as the food, and you would rather not have an account at all.
 
-**Choose something else entirely if** you are specifically eating low-carb, where net carb arithmetic is the daily chore rather than protein totals — [Keto Diet Tracker: Low Carb](/apps/keto-diet-tracker/) handles that subtraction, and that field has its own set of specialist apps worth comparing separately. The rest of our nutrition tools are listed under [health and nutrition](/apps/category/health-nutrition/).
+**Choose something else entirely if** you are specifically eating low-carb, where net carb arithmetic is the daily chore rather than protein totals — [Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) handles that subtraction, and that field has its own set of specialist apps worth comparing separately. The rest of our nutrition tools are listed under [health and nutrition](/apps/category/health-nutrition/).
 
 If you have not tracked before, the mechanics matter more than the choice of app: [how to track protein intake](/blog/how-to-track-protein-intake/) covers the habit itself, and [net carbs, explained](/blog/net-carbs-explained-keto-tracking/) covers why two apps can disagree about the same food.
 

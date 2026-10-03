@@ -5,7 +5,13 @@
   "description": "What polyols are, how they appear on a label, why they differ from each other in tolerance and effect, and how low-carb net carb arithmetic treats them.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Keto Diet Tracker: Low Carb, subtracted erythritol, allulose and monk fruit, had no paid tier, needed no account and kept logs only on your device; the app, now Ketora: Keto Diet Carb Tracker, lists net carbs as total carbs minus fiber and sugar alcohols, describes an optional Ketora Premium and does not say where it keeps the logs its AI coach reviews, so the article now says only what that listing supports."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": [
@@ -162,10 +168,10 @@ The ingredient list is where the specific polyol name appears, which is why it m
 
 ## Where our app fits
 
-[Keto Diet Tracker: Low Carb](/apps/keto-diet-tracker/) subtracts fibre and sweeteners including erythritol, allulose and monk fruit from total carbohydrate automatically as you log, so the net carb figure is calculated rather than done by hand in a supermarket aisle.
+[Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) subtracts fibre and sugar alcohols from total carbohydrate automatically as you log — the fibre-plus-sugar-alcohols convention above — so the net carb figure is calculated rather than done by hand in a supermarket aisle.
 
 That is an implementation of one convention, applied consistently. It is not a claim that this convention is the correct one — as above, there is no single authority. What consistency gives you is comparability across your own history.
 
-The app is free to download on Google Play, supported by ads, with no in-app purchases. No account is required and your logs stay on your device rather than on our servers.
+The app is free to download on Google Play and supported by ads. Google Play shows no in-app purchases for it, although its listing describes an optional Ketora Premium; the core tracker, barcode scanner, food diary, calorie counter and fasting timer stay free.
 
 **This article is general information, not medical or dietary advice, and it has not been reviewed by a doctor or registered dietitian.** If you have a gastrointestinal condition, are managing diabetes, or take medication that interacts with what you eat, talk to a qualified healthcare professional. [MedlinePlus](https://medlineplus.gov/carbohydrates.html) is a reliable starting point for general information about carbohydrates. The rest of our nutrition tools are under [health and nutrition](/apps/category/health-nutrition/).

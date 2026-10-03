@@ -5,7 +5,13 @@
   "description": "Restricted and unrestricted free agency, why the market overpays, and how to use it well when you are the general manager rather than a spectator.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said every league, team and player in our games is fictional. That is true of our career sims, but our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The sentence has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -44,7 +50,9 @@
     "salary-cap-basics-for-gm-games",
     "transfers-and-contracts-explained",
     "rebuild-vs-retool",
-    "expansion-drafts-explained"
+    "expansion-drafts-explained",
+    "how-does-the-nhl-salary-cap-work",
+    "nhl-offer-sheet-explained"
   ],
   "takeaways": [
     "A free agent is a player whose contract has expired and who may sign with any team; no compensation is owed to the previous club.",
@@ -152,4 +160,4 @@ Our draft and GM games are built around the selection problem rather than around
 
 The practical skill in both is the same one free agency demands: **knowing what a marginal upgrade is actually worth to your roster, and refusing to pay more than that.** [What makes a good draft board](/blog/what-makes-a-good-draft-board/) covers finding those values before you are under time pressure.
 
-Every league, team and player in our games is fictional, and nothing here describes any specific league's current free-agency rules — those are set individually and change frequently. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+Our career sims are set in fictional leagues and our draft and GM games build their player pools from real athletes' careers; nothing here describes any specific league's current free-agency rules — those are set individually and change frequently. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).

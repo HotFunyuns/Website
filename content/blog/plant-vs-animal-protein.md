@@ -5,7 +5,13 @@
   "description": "How plant and animal protein differ in amino acid profile, density and what comes packaged with them — and what that means when you are tracking.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said both of our nutrition apps store your entries on your device; Keto Diet Tracker: Low Carb, now Ketora: Keto Diet Carb Tracker, describes an AI coach that reviews your logs and its listing does not say where they are kept, so the article now makes that claim for Protein Diet Tracker only."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": [
@@ -150,9 +156,9 @@ We are flagging this rather than resolving it. Recommendations differ between so
 
 [Protein Diet Tracker](/apps/protein-diet-tracker/) totals protein, calories and macros from what you log, which makes the density trade-off visible: you can see how many calories a day's protein cost you. It does not evaluate sources or recommend a diet — you set the goals and it measures against them.
 
-[Keto Diet Tracker: Low Carb](/apps/keto-diet-tracker/) is the tool if carbohydrate is the constraint pulling against your protein intake, since it calculates net carbs as you log.
+[Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) is the tool if carbohydrate is the constraint pulling against your protein intake, since it calculates net carbs as you log.
 
-Both are free to download on Google Play, supported by ads, and store your entries on your device rather than on our servers.
+Both are free to download on Google Play and supported by ads, and Protein Diet Tracker stores your entries on your device rather than on our servers.
 
 [Protein sources compared](/blog/protein-sources-compared/) covers what specific foods contribute, and [how to hit a protein goal](/blog/how-to-hit-a-protein-goal/) covers the practical problem of raising a daily total — which is where the density difference bites hardest.
 

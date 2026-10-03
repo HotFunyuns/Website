@@ -5,7 +5,13 @@
   "description": "Memorise the squares to 30 and the cubes to 15, then use a last-digit filter and a digital-root check to read exact roots straight back off them.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, was not an assessment and recorded only drill statistics; the app, now IQ Test & Brain Training Games, also includes an IQ-style test, a memory test and a reaction time test whose results its Google Play listing calls estimates rather than professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -176,8 +182,8 @@ Both methods are all-or-nothing. They return an exact answer or they tell you th
 
 ## Drilling recognition rather than calculation
 
-Recognition responds to short, frequent retrieval practice, because what you are building is the ability to produce a fact rather than derive it. [Mental Math & Memory Games](/apps/mental-math-memory-games/), which is our own app, built by Reign Creative, ships two modes aimed squarely at this. Squares & Cubes is a 60-second timed mode with five difficulty settings — Squares 1–15, Squares 13–30, Cubes 1–15, Square roots and Mixed — and Square Root Trainer is a separate 60-second mode on roots alone.
+Recognition responds to short, frequent retrieval practice, because what you are building is the ability to produce a fact rather than derive it. [IQ Test & Brain Training Games](/apps/mental-math-memory-games/), which is our own app, built by Reign Creative, ships two modes aimed squarely at this. Squares & Cubes is a 60-second timed mode with five difficulty settings — Squares 1–15, Squares 13–30, Cubes 1–15, Square roots and Mixed — and Square Root Trainer is a separate 60-second mode on roots alone.
 
-For the flat memorisation half, the Flash Cards mode carries a Squares deck covering n² for n from 2 to 30 and a Cubes deck covering n³ for n from 2 to 15, twelve cards to a session, with a flip-then-grade format where you mark each card yourself. The app is a practice and entertainment product rather than a course or an assessment, and it records only what it can see: score, accuracy, streak, response time and personal bests on the drills you actually play.
+For the flat memorisation half, the Flash Cards mode carries a Squares deck covering n² for n from 2 to 30 and a Cubes deck covering n³ for n from 2 to 15, twelve cards to a session, with a flip-then-grade format where you mark each card yourself. The app is a practice and entertainment product rather than a course or a standardised assessment: on the drills you actually play it records score, accuracy, streak, response time and personal bests, and the results of its IQ-style test, memory test and reaction time test are, in its listing's words, estimates based on app activities, not a professional assessment.
 
 The number to watch is response time rather than score. A square you have to reconstruct costs seconds; a square you recognise costs a fraction of one, and that gap is the whole point of memorising the list in the first place. For the shortcuts that use these facts once you have them, see [multiplication shortcuts and why they work](/blog/multiplication-shortcuts-explained/).

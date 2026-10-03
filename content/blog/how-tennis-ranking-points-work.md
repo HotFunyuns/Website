@@ -37,7 +37,9 @@
     "tennis-career-sim-guide",
     "tennis-ranking-decay-and-scheduling",
     "how-tennis-qualifiers-work",
-    "understanding-sports-sim-probability"
+    "understanding-sports-sim-probability",
+    "how-tennis-seeding-works",
+    "tennis-rating-systems-ntrp-utr-wtn"
   ],
   "takeaways": [
     "Points are awarded for the round you reach, scaled by the tier of the tournament, so the same result is worth very different amounts at different events.",

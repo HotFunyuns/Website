@@ -5,7 +5,13 @@
   "description": "An app's brain age is a performance index mapped onto an age label by the publisher. A research brain age is derived from MRI. The two share only a name.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no IQ test or cognitive assessment and gave no brain age or percentile; the app, now IQ Test & Brain Training Games, includes an IQ-style test, a memory test and a reaction time test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so and no longer rules out any particular figure."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -52,7 +58,7 @@
     "The research version, BrainAGE, is computed from structural MRI using a model trained on scans of healthy people, and the reported figure is the gap between the estimate and the person's actual age.",
     "An app cannot do any of that. It has your tap timings and answer accuracy, so any age label it prints is a mapping decision made by the developer rather than a measurement of tissue.",
     "Because the number is a performance index, it moves with sleep, caffeine, familiarity with the format and how many times you have played — none of which says anything about your brain's condition.",
-    "Mental Math & Memory Games produces no brain age, no cognitive age and no age comparison of any kind."
+    "Our own app, IQ Test & Brain Training Games, includes an IQ-style test, a memory test and a reaction time test; its listing calls their results estimates based on app activities, not clinical or professional assessments, so apply the same caution to any figure it shows you."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -70,8 +76,8 @@
       "answer": "Because it is a performance score, and performance is noisy. Sleep, time of day, caffeine, distraction, the device you are using and — most of all — how familiar you are with the specific task format all move it. Repeated play tends to improve the number simply through familiarity, which is why an improving age label is not evidence that anything about you has changed."
     },
     {
-      "question": "Does Mental Math & Memory Games give you a brain age?",
-      "answer": "No. The app produces no brain age, no cognitive age, no age comparison and no percentile. It reports score, accuracy, streak, response time and personal bests for the drills you have played, which are statistics about a game session. It contains no IQ test and no cognitive assessment of any kind, and it is published as an educational game."
+      "question": "Does IQ Test & Brain Training Games give you a brain age?",
+      "answer": "Its Google Play listing does not describe a brain-age feature. It does describe an IQ-style test, a memory test and a reaction time test, and states that their results are estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments. Whatever figure the app shows, the points in this article apply to it: it is an estimate built from your performance on the app's own tasks, not a measurement of your brain. The app is published as an educational game."
     }
   ],
   "sources": [
@@ -137,10 +143,10 @@ The agency's own business-guidance post framed the evidentiary question in terms
 
 An age label is a compressed version of exactly the claim the FTC examined. It asserts, in one number, that your performance corresponds to a stage of life. Nothing an app can observe supports that inference.
 
-## What this app does, and what it refuses to do
+## Where our own app fits
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and it produces no brain age, no cognitive age, no age comparison and no percentile. It contains no IQ test and no cognitive assessment. It is published as an educational game, and the numbers it shows are statistics about your own sessions: score, accuracy, streak, average and median response time, fastest correct answer, and personal bests for each mode.
+IQ Test & Brain Training Games is our own app, built by Reign Creative. It is published as an educational game, and it includes an IQ-style test, a memory test and a reaction time test alongside its brain games, with personal bests, accuracy, streaks, response speed and an assessment history to compare against. Its Google Play listing does not describe a brain-age feature, and it states that IQ test, memory test and other results are estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments.
 
-Those numbers are worth reading for one narrow purpose — comparing your own runs on the same mode at the same difficulty — and they are worth nothing as a statement about you. Arithmetic drills such as Multiplication Rush, Addition Sprint and Mixed Operations get you faster at arithmetic. Memory rounds on numbers, sequences, grids and delayed recall get you better at those rounds. That is the whole claim, and there is no version of it that involves your age.
+Those numbers are worth reading for one narrow purpose — comparing your own runs on the same activity at the same difficulty — and not as a statement about your brain. Arithmetic drills such as Multiplication Rush, Addition Sprint and Mixed Operations get you faster at arithmetic. Memory rounds on numbers, sequences, grids and delayed recall get you better at those rounds. Treat any figure the app shows, test results included, the same way: an estimate of how you did on its tasks, never a measure of how old your brain is.
 
-Keeping practice, entertainment, educational activity and standardised psychological assessment distinct is the discipline that makes the rest of this subject readable — including [what IQ tests actually measure](/blog/what-iq-tests-actually-measure/), which is the cornerstone of the [IQ tests and reasoning hub](/blog/topics/iq-tests-and-reasoning/). More practice and memory material sits in the [education and brain category](/blog/category/education-brain/), and the modes are listed on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+Keeping practice, entertainment, educational activity and standardised psychological assessment distinct is the discipline that makes the rest of this subject readable — including [what IQ tests actually measure](/blog/what-iq-tests-actually-measure/), which is the cornerstone of the [IQ tests and reasoning hub](/blog/topics/iq-tests-and-reasoning/). More practice and memory material sits in the [education and brain category](/blog/category/education-brain/), and the app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

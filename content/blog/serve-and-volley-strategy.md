@@ -37,7 +37,9 @@
     "tennis-playing-styles",
     "tennis-career-sim-guide",
     "tennis-scoring-for-beginners",
-    "tennis-ranking-decay-and-scheduling"
+    "tennis-ranking-decay-and-scheduling",
+    "tennis-court-surfaces-explained",
+    "tennis-stats-explained"
   ],
   "takeaways": [
     "Serve and volley trades rally time for pressure: you get to the net first, and the returner has less time to organise a passing shot.",

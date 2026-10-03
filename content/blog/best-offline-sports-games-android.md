@@ -5,7 +5,13 @@
   "description": "\"Offline\" means several things on Google Play. How to read a listing, run an airplane-mode test, and work out what a sports game really needs a connection for.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described Football Franchise GM League and 162-0 Baseball Draft & GM Team as fictional simulations built on generated players. Their draft pools are built from real-world players' careers, with ratings that are the games' own estimates; Basketball Career Sim is fictional. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -77,7 +83,7 @@
     },
     {
       "question": "Are your sports games connected to real leagues?",
-      "answer": "No. 20-0 Football Draft & GM Mode, Basketball Career Sim and 162-0 Baseball Draft & GM Team are fictional sports simulations built on generated players. They are not affiliated with, endorsed by or connected to any real league, team, school, athlete or organisation, and they do not use live results."
+      "answer": "No. None of them is affiliated with, endorsed by or licensed by any league, team, school, athlete or organisation, and none uses live results. Basketball Career Sim is set in a fictional league with fictional players. Football Franchise GM League and 162-0 Baseball Draft & GM Team build their draft pools from real players' careers, with ratings that are the games' own estimates rather than official statistics."
     }
   ],
   "sources": [
@@ -167,7 +173,7 @@ We should be exact here rather than convenient, because a vague claim is worse t
 
 **[162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/)** has no online multiplayer and does not use live results. Every record it produces is a projection from the roster you drafted. That removes the two biggest structural reasons a sports game would need a server, though it is not itself a statement that every screen works disconnected.
 
-**[20-0 Football Draft & GM Mode](/apps/football-draft-gm-mode/)** is built around drafting a roster position by position and handing it to a season simulator, with Franchise and GM Mode past draft day, plus VS Computer, Battle, Tournament, a Daily Challenge and Gridiron IQ. Its competitive modes are against the computer rather than a live human opponent.
+**[Football Franchise GM League](/apps/football-draft-gm-mode/)** is built around drafting a roster position by position and handing it to a season simulator, with Franchise and GM Mode past draft day, plus VS Computer, Battle, Tournament, a Daily Challenge and Gridiron IQ. Its competitive modes are against the computer rather than a live human opponent.
 
 All three are free to download, contain ads, and offer optional in-app purchases. Where a listing does not explicitly promise offline play, run the airplane-mode test above — on ours as readily as on anyone else's. We would rather you verified it than trusted a paragraph.
 

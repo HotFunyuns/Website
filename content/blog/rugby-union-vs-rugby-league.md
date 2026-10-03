@@ -37,7 +37,9 @@
     "rugby-positions-and-numbers",
     "how-rugby-scoring-works",
     "how-the-offside-rule-works",
-    "rugby-forwards-and-backs"
+    "rugby-forwards-and-backs",
+    "rugby-breakdown-tackle-ruck-maul",
+    "rugby-yellow-and-red-cards"
   ],
   "takeaways": [
     "The split happened in 1895 over payments to players, not over rules; the rule differences accumulated afterwards.",

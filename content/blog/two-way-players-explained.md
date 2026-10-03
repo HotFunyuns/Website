@@ -5,7 +5,13 @@
   "description": "What a two-way player is, why the role almost disappeared, what it costs a development budget, and how a two-way career behaves inside a baseball simulation.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said Reign Creative's baseball games contain no real athletes, teams or competitions. Baseball Career Sim 2026 is fictional, but 162-0 Baseball Draft & GM Team builds its player pool from real-world players' careers, with ratings that are the game's own estimates. The affected sentences have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -44,14 +50,16 @@
     "baseball-career-sim-guide",
     "baseball-stats-explained-for-beginners",
     "baseball-pitching-roles-explained",
-    "how-player-career-modes-work"
+    "how-player-career-modes-work",
+    "baseball-positions-by-number",
+    "baseball-rules-for-beginners"
   ],
   "takeaways": [
     "A two-way player is one who both pitches and bats as a regular part of their role, rather than a pitcher who occasionally hits.",
     "The role is rare mainly because of workload and specialisation: pitching and hitting demand different training, and a pitcher's rest schedule conflicts with an everyday hitter's.",
     "The roster value is real — one player occupying two functional slots frees a spot elsewhere — which is why the archetype persists despite the difficulty.",
     "In a simulation with a fixed development budget, a two-way build spends twice and arrives later; it is a second-career choice, not a first one.",
-    "Nothing here describes any real athlete. Simulation examples refer to generated players in fictional leagues."
+    "Nothing here describes any real athlete. Simulation examples refer to the career sim's generated players in fictional leagues."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -151,6 +159,6 @@ The rate statistics are more informative than the counting ones here. [On-base p
 
 ## A note on what these examples describe
 
-Everything above about simulation behaviour refers to generated players in fictional leagues. Reign Creative's baseball games contain no real athletes, teams or competitions, and nothing here is a description of, or a claim about, any real player's career. The front-office version of the sport — where two-way flexibility is a roster-construction question rather than a personal one — is [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/), and the rest of what we make is under [sports career and GM games](/apps/category/sports-gm/).
+Everything above about simulation behaviour refers to the career sim's generated players in fictional leagues, and nothing here is a description of, or a claim about, any real player's career. The draft game is different: its player pool is built from real players' careers, with ratings that are the game's own estimates. The front-office version of the sport — where two-way flexibility is a roster-construction question rather than a personal one — is [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/), and the rest of what we make is under [sports career and GM games](/apps/category/sports-gm/).
 
 MLB and MLB.com are trademarks of their respective owners, referenced here only to identify the source of the statistical definitions cited. No affiliation, sponsorship or endorsement is implied.

@@ -49,7 +49,7 @@
   ],
   "takeaways": [
     "For a practice app, the question is not whether the screens load offline but whether your record survives — the streak, the personal bests, the session history and the difficulty that adapts to them.",
-    "In Mental Math & Memory Games every arithmetic problem is generated on the device and every memory round is built on the device, so there is nothing to download and nothing to wait for.",
+    "In IQ Test & Brain Training Games every arithmetic problem is generated on the device and every memory round is built on the device, so there is nothing to download and nothing to wait for.",
     "Progress is written to local device storage, which means it keeps working in airplane mode and also means it lives on one device only — there is no cloud backup to restore from.",
     "Advertising and in-app purchases are the parts that need a connection. Without one they degrade to unavailable rather than blocking play.",
     "The reliable way to test any app's offline claim is to enable airplane mode, force-stop the app, then play a full session and check afterwards that the record updated."
@@ -59,7 +59,7 @@
   "faqs": [
     {
       "question": "Do streaks and personal bests still update with no connection?",
-      "answer": "In Mental Math & Memory Games they do, because they are written to storage on the device rather than to a server. A session played in airplane mode records its score, accuracy, response times and any new personal best exactly as a connected session would. The trade-off is that this record is tied to the install: uninstalling or switching phones does not carry it across."
+      "answer": "In IQ Test & Brain Training Games they do, because they are written to storage on the device rather than to a server. A session played in airplane mode records its score, accuracy, response times and any new personal best exactly as a connected session would. The trade-off is that this record is tied to the install: uninstalling or switching phones does not carry it across."
     },
     {
       "question": "Does adaptive difficulty need internet?",
@@ -99,7 +99,7 @@
 
 For a practice app, "works offline" is the wrong question. The screens were always going to load. What matters is whether your **record** survives a session with no connection: the streak, the personal bests, the session history, and the adaptive difficulty that reads those numbers to decide what to serve you next. An app can render perfectly in airplane mode and still quietly drop the session that made the trip worthwhile.
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and this article uses it as the worked example because we can state precisely which parts touch the network and which do not. The same three questions apply to any practice app you are assessing.
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and this article uses it as the worked example because we can state precisely which parts touch the network and which do not. The same three questions apply to any practice app you are assessing.
 
 ## The three things that have to be local
 
@@ -121,7 +121,7 @@ This trade-off is also why the Data safety section on a Google Play listing is w
 
 Two things, and neither of them is gameplay.
 
-**Advertising.** Mental Math & Memory Games is free and contains ads. Serving an ad is a network request by definition, so with no connection there is nothing to serve. The correct behaviour is for the request to fail quietly and for play to continue, which is how it is built here: no ad, no blocked screen, no retry loop.
+**Advertising.** IQ Test & Brain Training Games is free and contains ads. Serving an ad is a network request by definition, so with no connection there is nothing to serve. The correct behaviour is for the request to fail quietly and for play to continue, which is how it is built here: no ad, no blocked screen, no retry loop.
 
 **In-app purchases.** The app offers in-app purchases, and billing is handled by Google Play, which needs a connection to reach. Offline, purchase flows report that billing is unavailable and the rest of the app carries on.
 
@@ -144,4 +144,4 @@ If step three fails, the content is being fetched. If step four fails, the recor
 
 A game you play once does not care whether the session was recorded. A practice routine is nothing but the record: the whole reason to open it tomorrow is that yesterday is written down. Missing a day because you were on a train with no signal, and losing the streak you had built, is a genuinely discouraging outcome — and an avoidable one, since none of the mechanics involved need a network at all.
 
-The habit side of this is covered in [building a daily practice habit](/blog/building-a-daily-practice-habit/), and the honest account of what this kind of practice does and does not support is in [our brain training explainer](/blog/do-brain-training-apps-work/). More on routines and progress sits in the [brain training games hub](/blog/topics/brain-training-games/) and the wider [education and brain category](/blog/category/education-brain/); the mode list is on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+The habit side of this is covered in [building a daily practice habit](/blog/building-a-daily-practice-habit/), and the honest account of what this kind of practice does and does not support is in [our brain training explainer](/blog/do-brain-training-apps-work/). More on routines and progress sits in the [brain training games hub](/blog/topics/brain-training-games/) and the wider [education and brain category](/blog/category/education-brain/); the mode list is on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

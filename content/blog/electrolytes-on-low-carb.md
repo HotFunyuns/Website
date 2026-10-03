@@ -5,7 +5,13 @@
   "description": "Why fluid and sodium shift when carbohydrate intake drops, what electrolytes do, and why this is a topic for a clinician rather than self-management.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Keto Diet Tracker: Low Carb, logged sodium, potassium and magnesium, had no paid tier and stored logs only on your device; the app, now Ketora: Keto Diet Carb Tracker, has a listing that includes no electrolyte logging, describes an optional Ketora Premium and does not say where it keeps the logs its AI coach reviews, so the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": [
@@ -155,13 +161,13 @@ An article cannot know any of that about you. A clinician can, and this is a cas
 
 ## Where our app fits
 
-[Keto Diet Tracker: Low Carb](/apps/keto-diet-tracker/) includes logging for sodium, potassium and magnesium alongside water intake, net carbs, fat and protein, so the whole day sits in one record rather than across several apps.
+[Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) logs water alongside net carbs, fat, protein and calories, but its current listing does not include sodium, potassium or magnesium logging, so if you are keeping an electrolyte record it will need to live somewhere else.
 
-**The app stores what you enter. It does not measure anything, does not interpret a value, and does not recommend an intake.** Those distinctions matter here more than for most nutrients, because the appropriate intake is genuinely individual.
+**A tracking app stores what you enter. It does not measure anything, should not interpret a value, and is no substitute for a clinician on what your electrolyte intake should be.** Those distinctions matter here more than for most nutrients, because the appropriate intake is genuinely individual.
 
 What tracking gives you is a record — which is exactly what is useful in a conversation with a clinician, and considerably better than a recollection.
 
-The app is free to download on Google Play, supported by ads, with no in-app purchases. Logs are stored on your device rather than on our servers, which also means an uninstall takes them with it.
+The app is free to download on Google Play and supported by ads. Google Play shows no in-app purchases for it, although its listing describes an optional Ketora Premium; the core tracker, barcode scanner, food diary, calorie counter and fasting timer stay free.
 
 **This article is general information, not medical advice, and it has not been written or reviewed by a doctor or registered dietitian.** Do not start or change an electrolyte supplement on the basis of it. If you are taking medication, managing a heart or kidney condition, pregnant, or experiencing persistent symptoms, talk to a qualified healthcare professional.
 

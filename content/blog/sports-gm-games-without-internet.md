@@ -5,7 +5,13 @@
   "description": "Offline is four different things in a mobile game. Here is what each one means, why draft-and-sim games suit a flight, and how to test any app in five minutes.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said the studio's sports titles are fictional, involve no real-world data and run on players the game generated. The draft and GM games build their player pools from real-world athletes' careers, shipped inside the app with ratings that are the games' own estimates; the career sims are fictional. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -80,7 +86,7 @@
     },
     {
       "question": "Are these games connected to real leagues or teams?",
-      "answer": "No. The studio's sports titles are fictional simulations and are not affiliated with, endorsed by or connected to any real league, team or athlete. That is also one reason they suit offline play: there is no live data feed to be out of sync with, because there is no real-world data involved at all."
+      "answer": "No. None of the studio's sports titles is affiliated with, endorsed by or licensed by any league, team or athlete. The career sims are fictional; the draft and GM games build their player pools from real athletes' careers, but those pools ship inside the app with ratings that are the games' own estimates. That is one reason they suit offline play: there is no live data feed to be out of sync with."
     }
   ],
   "sources": []
@@ -113,7 +119,7 @@ Some genres fight offline play and some are practically designed for it. Sports 
 
 **The computation is small and local.** Working out a projected record from a roster is arithmetic on a handful of attributes. There is no reason for it to happen anywhere but on the phone in your hand.
 
-**There is no live data.** A simulator built on fictional players has nothing to sync with. Nobody's form changed overnight, no fixture list moved, no injury report needs fetching. The game is complete the moment it is installed.
+**There is no live data.** A simulator whose player pool ships inside the app has nothing to sync with. Nobody's form changed overnight, no fixture list moved, no injury report needs fetching. The game is complete the moment it is installed.
 
 **The session has a natural end.** Draft, simulate, read the record, decide whether to run it again. That loop closes, which means an interruption — landing, a tunnel, a stop — costs you a session rather than a save.
 
@@ -163,7 +169,7 @@ Behind that sits Franchise GM Mode for organising forwards, defenders and goalte
 
 ### What the simulation is doing while you are offline
 
-The projected record is produced by the game's own internal rules acting on players it generated. It is not fetching anything, not comparing you to anyone, and not describing or forecasting any real league, team or athlete. It is a score on a roster puzzle, which is exactly why it does not need a network to produce.
+The projected record is produced by the game's own internal rules acting on the roster you drafted. It is not fetching anything, not comparing you to anyone, and not forecasting anything about any real league, team or athlete. It is a score on a roster puzzle, which is exactly why it does not need a network to produce.
 
 ## A short checklist before you fly
 

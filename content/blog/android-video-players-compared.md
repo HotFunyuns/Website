@@ -69,19 +69,19 @@
     },
     {
       "question": "Which Android video player handles network shares and streams?",
-      "answer": "VideoLAN's own page for VLC for Android lists \"Support for network streams, including HLS and Dash\" and \"Support for NAS and shared drives browsing,\" as read on 3 September 2026. Regal Video Player is a local-file player and does not do either — it opens media already on your device. If your library lives on a home server, that difference decides the choice on its own."
+      "answer": "VideoLAN's own page for VLC for Android lists \"Support for network streams, including HLS and Dash\" and \"Support for NAS and shared drives browsing,\" as read on 3 September 2026. Video Player All Formats PRO is a local-file player and does not do either — it opens media already on your device. If your library lives on a home server, that difference decides the choice on its own."
     },
     {
       "question": "Do these players support subtitles?",
-      "answer": "VideoLAN's page for VLC for Android lists \"Subtitles support, embedded and external, including ASS and DVD subtitles\" along with \"Multi audio or subtitles tracks selection.\" Regal Video Player's feature set covers local playback, speed control, resume, gestures, Picture-in-Picture and a sleep timer, and does not include subtitle handling. If you watch subtitled video, that is the deciding factor."
+      "answer": "VideoLAN's page for VLC for Android lists \"Subtitles support, embedded and external, including ASS and DVD subtitles\" along with \"Multi audio or subtitles tracks selection.\" Video Player All Formats PRO's feature set covers local playback, speed control, resume, gestures, Picture-in-Picture and a sleep timer, and does not include subtitle handling. If you watch subtitled video, that is the deciding factor."
     },
     {
       "question": "What playback speed range do I actually need?",
-      "answer": "For studying from recorded lectures or language material, granularity matters more than range — the difference between 0.8x and 0.9x is what makes a fast speaker followable. Regal Video Player runs from 0.1x to 3.0x in 0.1x steps for that reason. If you only ever want double speed, almost any player will do."
+      "answer": "For studying from recorded lectures or language material, granularity matters more than range — the difference between 0.8x and 0.9x is what makes a fast speaker followable. Video Player All Formats PRO runs from 0.1x to 3.0x in 0.1x steps for that reason. If you only ever want double speed, almost any player will do."
     },
     {
       "question": "Is an open source player better than an ad-supported one?",
-      "answer": "They are different bargains rather than different quality tiers. VideoLAN states that VLC is \"a free and open source cross-platform multimedia player and framework\" and is \"Completely Free - no spyware, no ads and no user tracking.\" Regal Video Player is free with ads and an optional Premium purchase that removes them and adds themes. Ads cost you attention and screen space; the choice is which cost you prefer."
+      "answer": "They are different bargains rather than different quality tiers. VideoLAN states that VLC is \"a free and open source cross-platform multimedia player and framework\" and is \"Completely Free - no spyware, no ads and no user tracking.\" Video Player All Formats PRO is free with ads and an optional Premium purchase that removes them and adds themes. Ads cost you attention and screen space; the choice is which cost you prefer."
     },
     {
       "question": "Can I play movies bought from a streaming store in these apps?",
@@ -121,7 +121,7 @@ The usual way people choose a video player is to install one, hit a file that wi
 
 The reason it is such an unsatisfying method is that the thing most people are trying to fix — playback failure — is usually not the app's department at all.
 
-**Disclosure:** this article is published by Reign Creative LLC. We make one of the two players discussed below — Regal Video Player — so we have a direct commercial interest in you installing it. The other is broader than ours in several concrete ways, and this article says where.
+**Disclosure:** this article is published by Reign Creative LLC. We make one of the two players discussed below — Video Player All Formats PRO — so we have a direct commercial interest in you installing it. The other is broader than ours in several concrete ways, and this article says where.
 
 Everything stated about VLC and VLC for Android was read on VideoLAN's own website on **3 September 2026** and is limited to what those pages said. Software changes; check their current pages before deciding.
 
@@ -170,7 +170,7 @@ That is the full-media-client shape, and it is worth being clear about what it m
 
 ## What ours does, and what it leaves out
 
-[Regal Video Player](/apps/regal-video-player/) is the narrow shape: a local player for files already on your phone or tablet.
+[Video Player All Formats PRO](/apps/regal-video-player/) is the narrow shape: a local player for files already on your phone or tablet.
 
 It opens MP4, MKV and MOV alongside M4V, WebM, 3GP, FLV, TS and M2TS containers, and is built for media encoded with H.264, H.265, VP8, VP9 and AV1, with audio in AAC, MP3, FLAC and Ogg. Consistent with the decoder point above, what actually plays depends on the file and the decoders your device provides — we say that on the app's own page rather than claiming universal playback.
 
@@ -206,7 +206,7 @@ These are different bargains, and neither is a quality judgement. Open source fu
 
 **Choose VLC for Android if** your video lives anywhere other than the device, you need subtitles or multiple audio tracks, you want a searchable media library, you watch on Android TV or a Chromebook, or you specifically want software with no ads and no tracking.
 
-**Choose [Regal Video Player](/apps/regal-video-player/) if** your files are already on the phone, you want precise speed control for lectures or tutorials, you value reliable resume across many half-watched files, and you want Picture-in-Picture and a sleep timer without a larger application around them.
+**Choose [Video Player All Formats PRO](/apps/regal-video-player/) if** your files are already on the phone, you want precise speed control for lectures or tutorials, you value reliable resume across many half-watched files, and you want Picture-in-Picture and a sleep timer without a larger application around them.
 
 **Choose neither if** the file will not play at all. That is a decoder problem, and the fix is re-encoding rather than reinstalling — again, [the containers and codecs guide](/blog/android-video-player-guide/) walks through diagnosing it.
 

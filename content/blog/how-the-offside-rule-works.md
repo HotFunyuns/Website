@@ -5,7 +5,13 @@
   "description": "Offside position versus offside offence, the moment the ball is played, and the exceptions — the soccer rule that confuses most people, explained from Law 11.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said every club, competition and player in our games is fictional. That is true of our career sims, but our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The sentence has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -44,7 +50,9 @@
     "soccer-positions-explained",
     "soccer-formations-explained",
     "how-soccer-league-tables-work",
-    "soccer-career-sim-guide"
+    "soccer-career-sim-guide",
+    "direct-vs-indirect-free-kick",
+    "handball-rule-in-soccer"
   ],
   "takeaways": [
     "Being in an offside position is not an offence. The offence occurs only if the player becomes involved in active play.",
@@ -158,4 +166,4 @@ In [Pro Football GM Club Soccer](/apps/soccer-draft-gm-xi/) and [Football Career
 
 [The Football Career Soccer XI Sim guide](/blog/soccer-career-sim-guide/) covers how forward decisions are presented from the player's side, and [how soccer league tables work](/blog/how-soccer-league-tables-work/) covers how the seasons those goals contribute to are scored.
 
-The Laws are revised periodically, and IFAB publishes each edition — the [Laws of the Game documents page](https://www.theifab.com/laws-of-the-game-documents/) is the authoritative source for the current text. Every club, competition and player in our games is fictional. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+The Laws are revised periodically, and IFAB publishes each edition — the [Laws of the Game documents page](https://www.theifab.com/laws-of-the-game-documents/) is the authoritative source for the current text. Our career sims use fictional clubs, competitions and players; our draft games build their player pools from real-world players' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, club or player. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).

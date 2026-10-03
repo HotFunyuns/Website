@@ -5,7 +5,13 @@
   "description": "Concentration is mostly a matter of conditions, not effort. What interruption research shows, and how to set up a session you can actually finish.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, had no attention test, no reaction test and no assessment of any kind; the app, now IQ Test & Brain Training Games, includes focus games, a reaction time test and an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -54,7 +60,7 @@
     "That result reframes the cost of a busy, fragmented day: the output may survive while the experience of producing it gets much worse, which is why the damage is easy to miss.",
     "A session needs a defined end as much as a defined start. The IES practice guide's first recommendation is to space learning over time, which only works if sessions are small enough to repeat.",
     "Concentration is better judged by your error rate than by how focused you feel, because speed and accuracy trade against each other and feeling fast is not the same as being right.",
-    "Mental Math & Memory Games disables the back-swipe gesture on gameplay routes so a stray swipe cannot abandon a run mid-question, offers untimed accuracy rounds as an alternative to every timed sprint, and works with the network off."
+    "IQ Test & Brain Training Games disables the back-swipe gesture on gameplay routes so a stray swipe cannot abandon a run mid-question, offers untimed accuracy rounds as an alternative to every timed sprint, and works with the network off."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -136,13 +142,13 @@ Applied to your own work, the rule is: record what you got right and how long it
 
 We build practice apps, so it is worth saying which design decisions actually help here and which are decoration.
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and three of its properties are genuinely about protecting concentration rather than about content:
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and three of its properties are genuinely about protecting concentration rather than about content:
 
 - **Gameplay routes disable the back-swipe gesture**, so a stray swipe cannot abandon a run in the middle of a question. A small thing, but losing a run to a gesture is exactly the kind of avoidable interruption that makes people stop opening an app.
 - **Every timed sprint has an untimed counterpart.** The accuracy rounds run without a clock, with hints and an explanation after each question. If clock pressure is the thing breaking your concentration, removing the clock is a more direct fix than trying to tolerate it.
 - **It works with the network off.** Gameplay is generated on the device, so a practice session does not require a connection. The practical use of that is not travel; it is that turning the network off removes the interruption source entirely, and a session that cannot be interrupted needs no willpower to protect.
 
-What it does not have is equally worth stating: there is no attention test in the app, no reaction test, and no assessment of any kind. It records score, accuracy, streak, response time and personal bests, and nothing in that list is a measurement of concentration. If you want the evidence on whether attention drills change anything beyond themselves, we set it out in [attention span exercises and what they do not fix](/blog/attention-span-exercises/).
+What it is not is equally worth stating. It does include focus games that challenge attention and distractor resistance, a reaction time test and an IQ-style test, but its listing describes their results as estimates based on app activities, not medical, clinical or professional assessments, so none of them is a clinical measure of your concentration. Its drills record score, accuracy, streak, response time and personal bests, and nothing in that list is a measurement of concentration either. If you want the evidence on whether attention drills change anything beyond themselves, we set it out in [attention span exercises and what they do not fix](/blog/attention-span-exercises/).
 
 ## A setup you can build in five minutes
 
@@ -158,6 +164,6 @@ For self-directed study specifically, where the absence of a syllabus makes the 
 
 ## What concentration is not
 
-It is not a fixed personal quantity you either have or lack, and it is not primarily a capacity to be expanded by exercises. The background on what working memory is and how little of it practice actually changes is in our guide to [working memory and training](/blog/working-memory-and-training/), and the rest of this subject is collected in the [memory and attention hub](/blog/topics/memory-and-attention/) alongside the wider [education and brain training category](/blog/category/education-brain/). The short sessions and untimed rounds described above are in [Mental Math & Memory Games](/apps/mental-math-memory-games/).
+It is not a fixed personal quantity you either have or lack, and it is not primarily a capacity to be expanded by exercises. The background on what working memory is and how little of it practice actually changes is in our guide to [working memory and training](/blog/working-memory-and-training/), and the rest of this subject is collected in the [memory and attention hub](/blog/topics/memory-and-attention/) alongside the wider [education and brain training category](/blog/category/education-brain/). The short sessions and untimed rounds described above are in [IQ Test & Brain Training Games](/apps/mental-math-memory-games/).
 
 The most encouraging finding in this area is also the least glamorous. If concentration were mostly a trait, there would be little to do about it. Because it is mostly a set of conditions, the fixes are boring, immediate and under your control.

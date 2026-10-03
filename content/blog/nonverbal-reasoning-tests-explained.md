@@ -5,7 +5,13 @@
   "description": "Nonverbal reasoning tests replace words with shapes. That removes a language barrier, but it does not make a test culture-free. Here is what the evidence shows.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, had no figural, shape or matrix items, offered only arithmetic, memory and technique content, and was not an assessment and produced no percentile, band or classification; the app, now IQ Test & Brain Training Games, includes an IQ-style test covering patterns and spatial reasoning and logic games built on sequences and patterns, with results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says the listing does not describe item formats instead of claiming the app has none."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -52,7 +58,7 @@
     "Removing language removes one specific barrier — reading load in a second language — but it does not remove schooling effects, familiarity with two-dimensional diagrams, or test-taking conventions.",
     "Published work in clinical neuropsychology has found some of the most consistent cross-cultural differences on visuoperceptual and visually mediated executive tasks, which are exactly the tasks often assumed to be neutral.",
     "The evidence is not one-directional. A cross-cultural comparison on a Wechsler battery reported that matrix reasoning and working memory subtests showed no cross-cultural effect while knowledge-loaded subtests did.",
-    "Mental Math & Memory Games contains no figural, shape or matrix items of any kind, so nothing in it is a nonverbal reasoning test."
+    "IQ Test & Brain Training Games, our own app, has an IQ-style test that covers patterns and spatial reasoning among other areas, but its listing does not describe the item formats and calls the results estimates based on app activities, so check the items yourself before treating it as nonverbal reasoning practice."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -70,8 +76,8 @@
       "answer": "Often, but not always in the way people expect. One published comparison of South African and British students on a Wechsler battery concluded that the battery lacked measurement invariance between the groups, meaning it may have been tapping different constructs in each — while the matrix reasoning and working memory subtests specifically showed no cross-cultural effect. That is a more interesting result than a blanket claim in either direction."
     },
     {
-      "question": "Does Mental Math & Memory Games include nonverbal reasoning items?",
-      "answer": "No. The app has no figural, shape, matrix or diagram items. Its content is arithmetic practice across the four operations plus mixed drills, memory rounds built on numbers, sequences, grids of positions and delayed recall, and a library of calculation techniques. If you are looking specifically for figural reasoning practice, this is not the app for it, and saying so is more useful than implying otherwise."
+      "question": "Does IQ Test & Brain Training Games include nonverbal reasoning items?",
+      "answer": "Its listing does not say. The app's IQ-style test covers numerical reasoning, logic, patterns, vocabulary, working memory, spatial reasoning and processing speed, and its logic games include sequences and patterns, but the listing does not describe item formats such as figural series, matrices or diagrams, so we do not claim them. If figural reasoning practice is specifically what you need, look at the items in the app itself, or at a product built for that purpose, before relying on it."
     }
   ],
   "sources": [
@@ -133,8 +139,8 @@ If you are preparing for a real selection test, the useful work is narrow: learn
 
 What will not help is treating a practice score as a measurement of yourself. Repeated exposure to a format changes your score on that format, which is one reason [working memory and training](/blog/working-memory-and-training/) is worth reading before drawing conclusions from any improvement, and why the evidence review on [brain training apps](/blog/do-brain-training-apps-work/) applies here too.
 
-## Does this app contain nonverbal reasoning items? No
+## Does this app contain nonverbal reasoning items?
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and it ships no figural, shape, matrix or diagram items at all. Its content is arithmetic practice across multiplication, addition, subtraction, division and mixed operations; memory rounds built on numbers, sequences, grids of positions and delayed recall; a library of 49 calculation techniques with worked examples; and progress tracking covering score, accuracy, streak, response time and personal bests. It is an educational game, not an assessment, and it produces no percentile, band or classification of any kind.
+IQ Test & Brain Training Games is our own app, built by Reign Creative. Its IQ-style test covers numerical reasoning, logic, patterns, vocabulary, working memory, spatial reasoning and processing speed, and around it sit logic games built on analogies, sequences, conditional reasoning, deduction and patterns, plus memory, focus, vocabulary and mental math games. Its listing does not describe the item formats, so we cannot tell you whether any of them is a figural series or a matrix, and we do not claim that they are. What the listing does say is that IQ test and other results are estimates based on app activities, not medical, psychological, clinical, educational-placement, employment or professional diagnostic assessments — so whatever result the app shows is not a nonverbal reasoning score in the sense this article describes.
 
-That is a limitation stated plainly rather than a disclaimer buried at the bottom. If nonverbal reasoning practice is what you need, look for a product built for it. If arithmetic fluency and memory span practice is what you need, the [app page](/apps/mental-math-memory-games/) describes the modes. The rest of this subject — scoring, limitations, item types — sits in the [IQ tests and reasoning hub](/blog/topics/iq-tests-and-reasoning/), and the broader [education and brain category](/blog/category/education-brain/) collects the practice and memory material.
+That is the honest position, stated plainly rather than buried at the bottom. If figural reasoning practice is specifically what you need, check the item formats yourself or look for a product built for it. The [app page](/apps/mental-math-memory-games/) describes what the app covers. The rest of this subject — scoring, limitations, item types — sits in the [IQ tests and reasoning hub](/blog/topics/iq-tests-and-reasoning/), and the broader [education and brain category](/blog/category/education-brain/) collects the practice and memory material.

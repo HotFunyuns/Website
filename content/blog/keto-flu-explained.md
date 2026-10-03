@@ -5,7 +5,13 @@
   "description": "The symptom cluster reported when starting a low-carb diet, the explanations usually offered, and which symptoms should send you to a doctor.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Keto Diet Tracker: Low Carb, logged sodium, potassium and magnesium, did not recommend an intake, had no paid tier and stored logs only on your device; the app, now Ketora: Keto Diet Carb Tracker, has a listing with no electrolyte logging that sets daily macro and calorie targets and describes an optional Ketora Premium and an AI coach that reviews your logs, and the article now says only what that listing supports."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": [
@@ -168,11 +174,11 @@ That makes "increase your salt" a genuinely unsafe piece of general advice, howe
 
 ## Where our app fits
 
-[Keto Diet Tracker: Low Carb](/apps/keto-diet-tracker/) keeps net carbs, fat, protein, water, sodium, potassium and magnesium in one daily record, alongside an intermittent fasting timer and space for any ketone readings you have taken yourself. Charts, measurements and weekly summaries turn that into a history.
+[Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) keeps net carbs, fat, protein, calories and water in one daily record, alongside an intermittent fasting timer and space for any ketone readings you have taken yourself. Its current listing does not include sodium, potassium or magnesium logging. Charts, body measurements and weekly insights turn that into a history.
 
-**The app records what you enter.** It does not measure anything, does not interpret a symptom, does not diagnose, and does not recommend an intake. Its value in this context is that a written record beats memory when you are describing a fortnight of symptoms to a doctor.
+**The app records what you enter.** It does not measure anything, does not interpret a symptom and does not diagnose; its listing describes it as informational, not medical advice. Its value in this context is that a written record beats memory when you are describing a fortnight of symptoms to a doctor.
 
-It is free to download on Google Play, supported by ads, with no in-app purchases. Logs are stored on your device rather than on our servers.
+It is free to download on Google Play and supported by ads. Google Play shows no in-app purchases for it, although its listing describes an optional Ketora Premium; the core tracker, barcode scanner, food diary, calorie counter and fasting timer stay free.
 
 **This article is general information, not medical advice, and it has not been written or reviewed by a doctor or registered dietitian.** It does not diagnose anything and should not be used to decide whether symptoms need attention. If you feel unwell, talk to a qualified healthcare professional — particularly if you are pregnant, managing a medical condition, or taking medication.
 

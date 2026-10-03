@@ -5,7 +5,13 @@
   "description": "Most practice records flatter you. Hold the mode and difficulty fixed, read accuracy before score, use the median time, and run one cold check each week.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the numbers our app, then called Mental Math & Memory Games, records are not an assessment and come with no norm group or percentile; the app, now IQ Test & Brain Training Games, also includes an IQ-style test, a memory test and a reaction time test with an assessment history, whose results its Google Play listing calls estimates rather than professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -155,8 +161,8 @@ When everything genuinely has gone flat, the record tells you which lever to pul
 
 ## What the record is, honestly
 
-Mental Math & Memory Games is our own app — Reign Creative builds it — and what it records is score, accuracy, streak, response time including average, median, fastest correct and a consistency value, personal bests per mode, and a session history you can look back through. That is a good set of numbers for the purpose described here, and it is a complete description of what those numbers are: statistics about performance on that app's own generated questions.
+IQ Test & Brain Training Games is our own app — Reign Creative builds it — and on its practice side it records personal bests, accuracy, streaks and response speed, with a history and charts you can look back through. It also includes an IQ-style test, a memory test and a reaction time test, and keeps an assessment history of those results. That is a good set of numbers for the purpose described here, and it is a complete description of what those numbers are: statistics about performance on that app's own generated questions.
 
-They are not an assessment. There is no norm group, no standardised administration and no percentile, and improvement in them is evidence about the practised task and nothing wider — the cornerstone guide [do brain training apps work](/blog/do-brain-training-apps-work/) sets out how thin the evidence for anything broader is. Keeping practice, entertainment, educational activity and standardised psychological assessment clearly separated is what makes a practice record useful rather than misleading.
+None of them is a standardised assessment, and the listing says so itself: IQ test, memory test and other results are estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments. The listing documents no norm group, everything is taken unsupervised, and improvement in them is evidence about the practised task and nothing wider — the cornerstone guide [do brain training apps work](/blog/do-brain-training-apps-work/) sets out how thin the evidence for anything broader is. Keeping practice, entertainment, educational activity and standardised psychological assessment clearly separated is what makes a practice record useful rather than misleading.
 
-More on reading and designing practice sits in the [brain training games hub](/blog/topics/brain-training-games/), the modes that generate these numbers are listed on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/), and related writing is collected in the [education and brain category](/blog/category/education-brain/).
+More on reading and designing practice sits in the [brain training games hub](/blog/topics/brain-training-games/), the modes that generate these numbers are listed on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/), and related writing is collected in the [education and brain category](/blog/category/education-brain/).

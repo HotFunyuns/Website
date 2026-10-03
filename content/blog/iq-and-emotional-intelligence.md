@@ -5,7 +5,13 @@
   "description": "EQ is not a second IQ. Ability and trait models of emotional intelligence measure different things, correlate weakly, and rest on much thinner standardisation.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no personality content and no assessment of any kind; the app, now IQ Test & Brain Training Games, includes a personality questionnaire with a Big Five profile, an IQ-style test and a memory test, whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so while noting that the listing describes no emotional-intelligence content."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -52,7 +58,7 @@
     "Ability EI treats emotional understanding as a form of intelligence and assesses it with performance items that have scored answers. Trait EI is a self-report of typical emotional behaviour and self-efficacy.",
     "One published study reported a correlation of just 0.12 between ability EI and trait EI measures, which is far too low for the two to be treated as versions of the same thing.",
     "The hardest problem for ability EI is scoring: deciding which answer to an emotional problem is correct is not like marking an arithmetic item, and the field has tried several imperfect solutions.",
-    "Mental Math & Memory Games contains no emotional-intelligence content, no personality content and no assessment of any kind."
+    "Treat the personality questionnaire and Big Five profile in our own app, IQ Test & Brain Training Games, as self-reflection, which is how its listing presents them: the listing describes no emotional-intelligence content and calls the app's results estimates based on app activities, not clinical or professional assessments."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -70,8 +76,8 @@
       "answer": "Because there is no external key. A critical review of the field notes that a clear challenge faced by early developers was constructing emotion-focused questions that could be scored with objective criteria. The usual solutions are consensus scoring, where the majority answer counts as correct, and expert scoring. Both are defensible and both mean that the correct answer is defined by a group rather than by the world."
     },
     {
-      "question": "Does Mental Math & Memory Games include any EQ or personality content?",
-      "answer": "No. The app has no emotional-intelligence content, no personality questionnaire and no assessment of any kind. It is an educational game containing arithmetic drills across the four operations and mixed practice, memory rounds using numbers, sequences, grids and delayed recall, a library of calculation techniques, and progress tracking for score, accuracy, streak and response time."
+      "question": "Does IQ Test & Brain Training Games include any EQ or personality content?",
+      "answer": "It has personality content, and its Google Play listing describes no emotional-intelligence content. The personality questionnaire uses original questions with dimension-based results about thinking style, communication, planning and decision making, plus a Big Five profile, and the listing presents it as self-reflection rather than diagnosis. The listing describes those results, like the results of the app's IQ-style test and memory test, as estimates based on app activities, not psychological, clinical or professional diagnostic assessments."
     }
   ],
   "sources": [
@@ -137,10 +143,12 @@ Three questions make almost any result interpretable. First, was it a performanc
 
 If the answers are "self-report", "unstated" and "hiring", the result should carry very little weight. If it is a well-documented ability measure used for reflection rather than selection, it can be a reasonable prompt for thinking about your own habits — which is a modest and honest claim, and the only kind the evidence currently supports.
 
-## What this app does not contain
+## Where our own app fits
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and it contains no emotional-intelligence content, no personality content and no assessment of any kind. It is an educational game: arithmetic drills across multiplication, addition, subtraction, division and mixed operations; memory rounds built on numbers, sequences, grids and delayed recall; a library of 49 calculation techniques with worked examples; and tracking of score, accuracy, streak, response time and personal bests.
+IQ Test & Brain Training Games is our own app, built by Reign Creative. Its Google Play listing describes no emotional-intelligence content, but the app does include personality content: a personality questionnaire with original questions and dimension-based results about thinking style, communication, planning and decision making, plus a Big Five profile, which the listing presents as self-reflection rather than diagnosis and does not present as a measure of emotional intelligence. Alongside them sit an IQ-style test covering numerical reasoning, logic, patterns, vocabulary, working memory, spatial reasoning and processing speed, a memory test, a reaction time test, and memory, logic, vocabulary, focus and mental math games, with personal bests, accuracy, streaks, response speed and an assessment history tracked over time.
+
+The listing calls those results — IQ test, personality test, memory test and the rest — estimates based on app activities, not medical, psychological, clinical, educational-placement, employment or professional diagnostic assessments. The three questions in the previous section apply to them as well: the personality questionnaire is a self-report, and the listing offers it for reflection rather than for any decision about you.
 
 Keeping practice, entertainment, educational activity and standardised psychological assessment apart is the whole discipline here, and it applies to our own product before anyone else's. If you want to understand what practice on a drill does and does not change, [working memory and training](/blog/working-memory-and-training/) is the relevant article, and the evidence review in [do brain training apps work](/blog/do-brain-training-apps-work/) covers the category-level claims.
 
-The rest of this subject sits in the [IQ tests and reasoning hub](/blog/topics/iq-tests-and-reasoning/), the wider [education and brain category](/blog/category/education-brain/) collects the memory and arithmetic material, and the modes are described on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+The rest of this subject sits in the [IQ tests and reasoning hub](/blog/topics/iq-tests-and-reasoning/), the wider [education and brain category](/blog/category/education-brain/) collects the memory and arithmetic material, and the modes are described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

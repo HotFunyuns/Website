@@ -5,7 +5,7 @@
   "description": "Par, birdie, bogey, stroke play versus match play, and how a four-round tournament total is built — the scoring vocabulary explained from first principles.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -43,7 +43,9 @@
     "golf-career-sim-guide",
     "how-a-golf-cut-works",
     "golf-course-management-basics",
-    "understanding-sports-sim-probability"
+    "understanding-sports-sim-probability",
+    "golf-stats-to-track",
+    "how-par-is-determined"
   ],
   "takeaways": [
     "Par is the number of strokes a hole is expected to take, and every scoring term is defined relative to it.",
@@ -57,7 +59,7 @@
   "faqs": [
     {
       "question": "What is par?",
-      "answer": "The number of strokes a competent player is expected to need on a hole, based mainly on its length. Most holes are par 3, 4 or 5, and a full 18-hole course typically totals around 70 to 72."
+      "answer": "The score a scratch player would generally be expected to make on a hole in normal course and weather conditions, set mainly by its length. Most holes are par 3, 4 or 5, and a full 18-hole course typically totals around 70 to 72."
     },
     {
       "question": "What do birdie, bogey and eagle mean?",
@@ -88,6 +90,18 @@
       "publisher": "United States Golf Association (USGA)",
       "url": "https://www.usga.org/handicapping/roh/2020-rules-of-handicapping.html",
       "accessed": "2026-09-03"
+    },
+    {
+      "title": "Rules of Handicapping — Definitions (Par)",
+      "publisher": "The R&A",
+      "url": "https://www.randa.org/en/roh/definitions",
+      "accessed": "2026-10-02"
+    }
+  ],
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article defined par as the score a \"competent player\" is expected to make; the Rules of Handicapping define it as the score a scratch player would generally be expected to make in normal conditions, and the definition now says so, with that source."
     }
   ]
 }
@@ -97,7 +111,7 @@
 
 ## Par, and why it exists
 
-Par is the number of strokes a hole is expected to take a competent player, driven mainly by the hole's length. Most holes are par 3, 4 or 5. A standard 18-hole course usually totals around 70 to 72.
+Par is the score a scratch player would generally be expected to make on a hole in normal course and weather conditions, allowing two putts — that is how the World Handicap System's Rules of Handicapping define it — and it is driven mainly by the hole's length. Most holes are par 3, 4 or 5. A standard 18-hole course usually totals around 70 to 72.
 
 The reason golf needs par at all is that holes differ enormously. Taking four shots on a 190-yard hole is a poor result; taking four on a 550-yard hole is a very good one. Par normalises them so a single number describes a round.
 

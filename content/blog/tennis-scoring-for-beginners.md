@@ -15,7 +15,6 @@
     "how does tennis scoring work",
     "tennis scoring system",
     "what is deuce in tennis",
-    "tennis tiebreak rules",
     "tennis scoring for dummies"
   ],
   "intent": "informational",
@@ -37,7 +36,9 @@
     "tennis-career-sim-guide",
     "tennis-playing-styles",
     "how-tennis-qualifiers-work",
-    "golf-scoring-explained"
+    "golf-scoring-explained",
+    "tennis-rules-for-beginners",
+    "tennis-tiebreak-rules"
   ],
   "takeaways": [
     "A game is won by the first side to reach at least four points with a margin of two, which is why deuce exists at three points each.",

@@ -5,7 +5,13 @@
   "description": "A catalogue of the rule types behind number sequence puzzles, a first-pass procedure that beats guessing, and the honest limit of every such puzzle.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, had one drill for this skill, numeric pattern work only, no figural, matrix or logic-grid items, was not an assessment and made no claim about intelligence; the app, now IQ Test & Brain Training Games, has logic games built on sequences, patterns and rule discovery and an IQ-style test whose results its Google Play listing calls estimates rather than professional assessments, and the article now says so without claiming which item formats it uses."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -156,6 +162,6 @@ A puzzle is therefore answerable because its setter fixed a rule in advance and 
 
 Rule-finding gets faster with exposure, because the six families above are a small catalogue and recognition replaces search. That is the same mechanism that makes memorised times tables useful, as [the mental math methods guide](/blog/mental-math-training-guide/) sets out, and it is the sense in which the [broader collection of mental arithmetic techniques](/blog/mental-math-tricks-that-work/) is worth drilling.
 
-Mental Math & Memory Games, our own app built by Reign Creative, ships one drill aimed squarely at this skill: Number Pattern Challenge, a 75-second mode with Easy, Medium and Hard settings in which you identify a rule and supply a missing value. Its technique library includes a pattern-recognition entry whose premise is simply that spotting the pattern replaces calculating it. To be plain about the limits: the app's pattern work is numeric only. There are no shape or figural items, no matrix grids and no logic-grid puzzles in it, so it is practice for one dimension of this subject rather than all of it. It is also a game, not an assessment — it records score, accuracy, streak and response time on its own drills and makes no claim about intelligence. You can see the full mode list on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/), and the wider question of what a reasoning score does and does not represent is covered in [what IQ tests actually measure](/blog/what-iq-tests-actually-measure/).
+IQ Test & Brain Training Games, our own app built by Reign Creative, ships a drill aimed squarely at this skill: Number Pattern Challenge, a 75-second mode with Easy, Medium and Hard settings in which you identify a rule and supply a missing value. Its listing also describes logic games built on sequences, patterns and rule discovery, and an IQ-style test that covers patterns. Its technique library includes a pattern-recognition entry whose premise is simply that spotting the pattern replaces calculating it. To be plain about the limits: its listing does not say whether any of its pattern items are figural, matrix or logic-grid puzzles, so do not assume it covers every format in this subject. Its IQ-style test results are, in the listing's words, estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments, so a result there is a record of how you did on the app's own questions. The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/), and the wider question of what a reasoning score does and does not represent is covered in [what IQ tests actually measure](/blog/what-iq-tests-actually-measure/).
 
 If holding several intermediate values while you test a rule is the part that breaks down, that is a capacity problem rather than a pattern problem, and [working memory and what training does to it](/blog/working-memory-and-training/) is the better next read. More of this subject is collected in the [education and brain training section](/blog/category/education-brain/).

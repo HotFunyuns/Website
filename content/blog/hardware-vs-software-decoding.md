@@ -176,7 +176,7 @@ Two notes:
 
 ## Where our app fits
 
-[Regal Video Player](/apps/regal-video-player/) is built for H.264, H.265, VP8, VP9 and AV1 video with AAC, MP3, FLAC and Ogg audio, inside MP4, MKV, MOV, M4V, WebM, 3GP, FLV, TS and M2TS containers.
+[Video Player All Formats PRO](/apps/regal-video-player/) is built for H.264, H.265, VP8, VP9 and AV1 video with AAC, MP3, FLAC and Ogg audio, inside MP4, MKV, MOV, M4V, WebM, 3GP, FLV, TS and M2TS containers.
 
 **What a player controls and what it does not:** it can hand a stream to the platform's decoder and use hardware decoding where it is available. It cannot create a decoder that the device does not have, and it cannot make a software decode efficient. Any player claiming otherwise is describing something other than what is happening.
 

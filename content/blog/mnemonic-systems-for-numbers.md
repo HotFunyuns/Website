@@ -5,7 +5,13 @@
   "description": "Phonetic, shape, rhyme and peg systems all convert digits into something easier to hold. What each one asks of you before it starts paying anything back.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, offered no assessment, no test and no interpretation of your results, and pointed to a full mode list on its app page; the app, now IQ Test & Brain Training Games, includes an IQ-style test, a memory test and a personality questionnaire whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so and points to the app page's general description instead."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -75,7 +81,7 @@
       "answer": "No. For everyday numbers, grouping and a steady rhythm do most of the work, and a system is overhead. Systems earn their keep when you need long strings, exact order, or durable recall over months. Choosing the smallest technique that does the job is a skill in itself."
     },
     {
-      "question": "Does Mental Math & Memory Games include a mnemonic system?",
+      "question": "Does IQ Test & Brain Training Games include a mnemonic system?",
       "answer": "No. The app ships no major system, no peg list and no shape or rhyme scheme. Its technique library teaches arithmetic methods and a number-chunking approach, and its memory modes give you somewhere to rehearse. If you want to use one of the systems described here, you bring it to the drills yourself."
     }
   ],
@@ -110,7 +116,7 @@
 
 Every mnemonic system for numbers does one job: it converts digits, which mean nothing, into material that means something, so the knowledge you already have can carry the weight. The four systems below differ only in what they convert digits into — sounds, shapes, rhymes or fixed hooks — and in how much work you have to do before the conversion is free. That set-up cost is the honest difference between them, and it is the part most guides leave out.
 
-Before going further: Mental Math & Memory Games, which we build at Reign Creative, ships **no** mnemonic system. There is no major system in it, no peg list, no shape scheme. Its technique library teaches arithmetic methods and number chunking, and its memory modes give you somewhere to rehearse. Anything in this article, you bring yourself.
+Before going further: IQ Test & Brain Training Games, which we build at Reign Creative, ships **no** mnemonic system. There is no major system in it, no peg list, no shape scheme. Its technique library teaches arithmetic methods and number chunking, and its memory modes give you somewhere to rehearse. Anything in this article, you bring yourself.
 
 ## The phonetic system: digits become sounds
 
@@ -156,4 +162,4 @@ The reasonable conclusion is not "don't bother". It is: pick the smallest system
 
 Once you have chosen one, you need repetitions, and this is where a drill app is genuinely helpful even though it contains none of the systems above. The app's number and sequence recall modes present digits and take them away, which is exactly the loop a phonetic system needs in order to become automatic, and the seven difficulty levels let you raise the length while holding the reveal speed steady.
 
-Be clear about what the app is doing and not doing. It records score, accuracy, streak, response time and personal bests on its own drills. It offers no assessment, no test and no interpretation of what your numbers say about you — practice and entertainment on one side, standardised psychological assessment on the other, and nothing in the product crosses that line. You can see the full mode list on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/), read the rest of this subject in the [memory and attention hub](/blog/topics/memory-and-attention/), and browse related writing in the [education and brain section](/blog/category/education-brain/).
+Be clear about what the app is doing and not doing. Its drills record score, accuracy, streak, response time and personal bests. The app also includes an IQ-style test, a memory test and a personality questionnaire, and its Google Play listing calls their results estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments — practice and entertainment on one side, standardised psychological assessment on the other, and by its own listing's account nothing in the product is the second. You can read a description of the app on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/), read the rest of this subject in the [memory and attention hub](/blog/topics/memory-and-attention/), and browse related writing in the [education and brain section](/blog/category/education-brain/).

@@ -5,7 +5,13 @@
   "description": "What a salary cap is, how hard and soft caps differ, and why a budget turns drafting from a ranking exercise into an allocation problem you can get wrong.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said these games are not connected to any real athlete. Their draft pools are built from real-world players' careers, with ratings that are the games' own estimates; they are not affiliated with or endorsed by any league, team or athlete. The answer has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -47,7 +53,9 @@
     "snake-draft-vs-auction-draft",
     "how-fantasy-draft-strategy-works",
     "how-to-build-a-balanced-basketball-roster",
-    "basketball-draft-gm-guide"
+    "basketball-draft-gm-guide",
+    "nba-apron-explained",
+    "nba-trade-rules"
   ],
   "takeaways": [
     "A salary cap is a ceiling on total roster spending, which converts team-building from a ranking problem into an allocation problem where price matters as much as quality.",
@@ -77,11 +85,11 @@
     },
     {
       "question": "Which of these games include salary cap drafting?",
-      "answer": "Pro Basketball GM Franchise includes Salary Cap Draft as one of its eight formats, and its GM Mode covers contracts and trades. 20-0 Football Draft & GM Mode includes a Salary Cap Draft alongside Unlimited, Limited and Playoff formats. 162-0 Baseball Draft & GM Team includes payroll-focused drafting, and payroll review is part of its Franchise GM Mode."
+      "answer": "Pro Basketball GM Franchise includes Salary Cap Draft as one of its eight formats, and its GM Mode covers contracts and trades. Football Franchise GM League includes a Salary Cap Draft alongside Unlimited, Limited and Playoff formats. 162-0 Baseball Draft & GM Team includes payroll-focused drafting, and payroll review is part of its Franchise GM Mode."
     },
     {
       "question": "Is the money in these games real?",
-      "answer": "No. Salaries, caps and payroll figures in these games are simulation values with no real-world worth, and the games are not affiliated with, endorsed by or connected to any real league, team or athlete. Nothing in this article describes the actual financial rules of any real competition."
+      "answer": "No. Salaries, caps and payroll figures in these games are simulation values with no real-world worth, and the games are not affiliated with, endorsed by or licensed by any league, team or athlete, although their draft pools are built from real players' careers. Nothing in this article describes the actual financial rules of any real competition."
     }
   ],
   "sources": []
@@ -166,7 +174,7 @@ The practical rule that survives contact with actual play: be more willing to ov
 
 Past draft day, its GM Mode covers **contracts, trades and rotations**, which is where the duration problem becomes real. Trades are also the only tool that genuinely fixes a structural allocation mistake: they convert a surplus you cannot use into coverage you need, at a price.
 
-[20-0 Football Draft & GM Mode](/apps/football-draft-gm-mode/) puts a Salary Cap Draft next to Unlimited, Limited and Playoff formats, and the football roster is the one where cap decisions bite hardest simply because there are more slots to fund. [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/) includes payroll-focused drafting, and payroll review sits inside its Franchise GM Mode alongside the batting order, rotation and bullpen.
+[Football Franchise GM League](/apps/football-draft-gm-mode/) puts a Salary Cap Draft next to Unlimited, Limited and Playoff formats, and the football roster is the one where cap decisions bite hardest simply because there are more slots to fund. [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/) includes payroll-focused drafting, and payroll review sits inside its Franchise GM Mode alongside the batting order, rotation and bullpen.
 
 In all three, the currency is fictional and the resulting record is a model's score for how well the roster fits together, not a forecast of anything real.
 

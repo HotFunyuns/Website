@@ -5,7 +5,13 @@
   "description": "A draft board is a decision tool, not a ranked list. How to build one from tiers, cliffs and roster structure, and how to run it without abandoning it.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described Football Franchise GM League and Pro Basketball GM Franchise as fictional simulations built on generated player pools. Both build their draft pools from real-world players' careers, with ratings that are the games' own estimates, and neither is affiliated with or endorsed by any league, team or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -46,7 +52,8 @@
     "how-fantasy-draft-strategy-works",
     "snake-draft-vs-auction-draft",
     "salary-cap-basics-for-gm-games",
-    "football-draft-gm-guide"
+    "football-draft-gm-guide",
+    "nfl-draft-pick-value-chart"
   ],
   "takeaways": [
     "A board is a decision tool, not a ranking: its job is to tell you at a glance who is left in each tier, where the next cliff is, and which of your slots is still empty.",
@@ -72,11 +79,11 @@
     },
     {
       "question": "Does a board still help in a draft with no refreshes?",
-      "answer": "It helps more, not less. When you cannot keep re-examining the pool, everything you did not think about in advance has to be improvised at speed. 20-0 Football Draft & GM Mode includes a Limited Draft with no refreshes at all, and that format is the clearest demonstration of whether your preparation was real."
+      "answer": "It helps more, not less. When you cannot keep re-examining the pool, everything you did not think about in advance has to be improvised at speed. Football Franchise GM League includes a Limited Draft with no refreshes at all, and that format is the clearest demonstration of whether your preparation was real."
     },
     {
       "question": "Do these games use real teams or players?",
-      "answer": "No. 20-0 Football Draft & GM Mode and Pro Basketball GM Franchise are fictional sports simulations built on generated player pools, and they are not affiliated with, endorsed by or connected to any real league, team or athlete. Every rating you compare on the board belongs to a generated player."
+      "answer": "Football Franchise GM League and Pro Basketball GM Franchise build their draft pools from real players' careers, and some GM screens use real team names. Every rating you compare on the board is the game's own estimate rather than an official statistic, and neither game is affiliated with, endorsed by or licensed by any league, team, players' association or athlete."
     }
   ],
   "sources": []
@@ -169,7 +176,7 @@ For any position where a single unfilled slot would sink the roster, know your f
 
 The board-building method does not change across formats. What changes is how finished it has to be when the draft opens.
 
-[20-0 Football Draft & GM Mode](/apps/football-draft-gm-mode/) is a good place to feel that difference, because its formats sit at opposite ends of the spectrum:
+[Football Franchise GM League](/apps/football-draft-gm-mode/) is a good place to feel that difference, because its formats sit at opposite ends of the spectrum:
 
 - **Unlimited Draft** lets you keep comparing options. Here a board is a convenience — you can do a lot of the thinking live, and this is the format to learn a pool in.
 - **Limited Draft** removes refreshes entirely, so every pick has to count. This is where preparation is the whole game. Anything you did not tier in advance, you are guessing at.

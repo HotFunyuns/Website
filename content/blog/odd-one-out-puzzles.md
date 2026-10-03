@@ -5,7 +5,13 @@
   "description": "An odd one out puzzle asks for a dimension on which one item differs. Why several answers are often defensible, and how a setter removes the ambiguity.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, covered only arithmetic and memory, assessed nothing, had nothing that asks you to categorise and offered a numerical comparison drill as its nearest relative to odd-one-out; the app, now IQ Test & Brain Training Games, lists vocabulary games on verbal relationships, logic games built on patterns and an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so and that the listing does not describe an odd-one-out mode."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -54,7 +60,7 @@
     "For numbers, run a fixed checklist: parity, primality, perfect squares and cubes, digit count, digit sum, and membership of a familiar family such as the triangular numbers.",
     "For words, the useful dimensions are category, part of speech, morphology and spelling or sound — and a single set can split differently under each.",
     "For shapes, definitions do the work, and definitions vary by country, so a quadrilateral puzzle can have a different answer in British and North American usage.",
-    "Mental Math & Memory Games has no word or shape odd-one-out mode; the nearest thing it ships is a timed numerical comparison drill."
+    "Our own app, IQ Test & Brain Training Games, lists vocabulary games on word meaning and verbal relationships and logic games built on patterns, but its listing does not describe an odd-one-out mode as such."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -73,7 +79,7 @@
     },
     {
       "question": "Does the app have odd one out puzzles?",
-      "answer": "No. Mental Math & Memory Games has no word odd-one-out and no shape odd-one-out. Its closest mode is Compare Numbers Fast, a timed drill on judging which of two numbers is larger, which trains the numerical comparison underneath rather than the categorisation task itself. The app is arithmetic and memory practice, and it assesses nothing."
+      "answer": "The Google Play listing for IQ Test & Brain Training Games does not describe an odd-one-out mode. The nearest things it lists are vocabulary games on synonyms, antonyms, word meaning and verbal relationships, logic games built on analogies, patterns and rule discovery, and an IQ-style test covering logic, patterns, vocabulary and spatial reasoning. The listing calls the test's results estimates based on app activities, not clinical or professional assessments."
     }
   ],
   "sources": [
@@ -161,6 +167,6 @@ Solvers can use the same list in reverse. If you find two answers, you have not 
 
 ## What our app has, and what it does not
 
-Being direct about it: Mental Math & Memory Games, our own app, ships no word odd-one-out and no shape odd-one-out. Nothing in its catalogue asks you to categorise. The nearest relative is **Compare Numbers Fast**, a timed multiple-choice drill on judging which of two numbers is larger, which sharpens the numerical comparison that sits underneath a numeric odd-one-out without being that task. The full mode list and the progress statistics the app records are on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+Being direct about it: the Google Play listing for IQ Test & Brain Training Games, our own app, does not describe an odd-one-out mode. What it does list nearby are vocabulary games on synonyms, antonyms, word meaning and verbal relationships, logic games built on analogies, patterns and rule discovery, and an IQ-style test whose areas include logic, patterns, vocabulary and spatial reasoning; the listing calls the test's results estimates based on app activities, not clinical or professional assessments. The app's games, tests and progress tracking are described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).
 
 The ambiguity described here has a close cousin in figural puzzles, where the question is which transformation is changing rather than which property is shared; that is covered in [visual pattern puzzles](/blog/visual-pattern-puzzles/). The related task of naming a relationship before testing options is the subject of [analogy questions](/blog/analogy-puzzles-explained/), and the general procedure for rule-finding starts with [number sequence puzzles](/blog/number-sequence-puzzles-explained/). Everything in this subject is collected in the [logic and pattern puzzles hub](/blog/topics/logic-and-pattern-puzzles/), and our wider writing on practice and reasoning is in the [education and brain training section](/blog/category/education-brain/).

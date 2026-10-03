@@ -5,7 +5,13 @@
   "description": "Picking an answer from a list is a different job from producing it from nothing. Why the gap exists, and why multiple-choice practice flatters what you know.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, measured nothing about you, recorded nothing beyond its drill statistics, contained no test or assessment, and listed its full mode list on its app page; the app, now IQ Test & Brain Training Games, includes an IQ-style test, a memory test and a personality questionnaire whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -76,7 +82,7 @@
     },
     {
       "question": "Which app modes use recognition and which use recall?",
-      "answer": "In Mental Math & Memory Games, modes that offer options - tap the correct answer, true-or-false items, matching pairs and rapid recognition rounds - are recognition tasks. Modes that give you a keypad and no candidates, such as number and sequence recall or the standard arithmetic sprints, are recall tasks. The scores are not comparable."
+      "answer": "In IQ Test & Brain Training Games, modes that offer options - tap the correct answer, true-or-false items, matching pairs and rapid recognition rounds - are recognition tasks. Modes that give you a keypad and no candidates, such as number and sequence recall or the standard arithmetic sprints, are recall tasks. The scores are not comparable."
     }
   ],
   "sources": [
@@ -148,10 +154,10 @@ The fix costs about half a second per item.
 
 ## The two kinds of answering in the app
 
-Mental Math & Memory Games, our own app at Reign Creative, happens to ship both formats side by side, which makes it easy to run this comparison on yourself.
+IQ Test & Brain Training Games, our own app at Reign Creative, happens to ship both formats side by side, which makes it easy to run this comparison on yourself.
 
 On the recognition side are the modes that give you candidates: a rapid recognition round that asks whether an item appeared in the set you just saw, matching-pair memory rounds, a tap-the-correct-answer arithmetic mode, and true-or-false items where an equation is presented and you judge it. On the recall side are the modes with a keypad and no options: number recall, sequence memory, and the standard operation sprints where you type the answer.
 
-Run the same content in both and the accuracy gap will usually be larger than you expect. That gap is the useful number — not because the app measures anything about you, but because it shows you which of your two scores is the honest one. The app records score, accuracy, streak, response time and personal bests on its own drills and nothing more; it contains no assessment, no test and no interpretation of what any of it means about your abilities.
+Run the same content in both and the accuracy gap will usually be larger than you expect. That gap is the useful number — not because the drills measure anything about you, but because it shows you which of your two scores is the honest one. Those drills record score, accuracy, streak, response time and personal bests. The app's IQ-style test, memory test and personality questionnaire are separate features, and its listing describes their results as estimates based on app activities, not clinical or professional assessments of your abilities.
 
-If you want to look at the full mode list, it is on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/). The rest of this subject sits in the [memory and attention hub](/blog/topics/memory-and-attention/), the underlying capacity question is covered in [the working memory guide](/blog/working-memory-and-training/), and the broader set of learning articles is in the [education and brain section](/blog/category/education-brain/).
+If you want to see how the app describes its games and tests, that is on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/). The rest of this subject sits in the [memory and attention hub](/blog/topics/memory-and-attention/), the underlying capacity question is covered in [the working memory guide](/blog/working-memory-and-training/), and the broader set of learning articles is in the [education and brain section](/blog/category/education-brain/).

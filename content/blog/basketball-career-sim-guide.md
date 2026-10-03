@@ -45,7 +45,9 @@
   "relatedArticles": [
     "basketball-draft-gm-guide",
     "football-draft-gm-guide",
-    "soccer-draft-xi-guide"
+    "soccer-draft-xi-guide",
+    "nba-draft-eligibility-rules",
+    "basketball-rules-for-beginners"
   ],
   "takeaways": [
     "A career sim narrows the camera to one player, which trades the breadth of a GM game for consequences that follow you for seasons.",

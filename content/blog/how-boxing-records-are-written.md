@@ -5,7 +5,13 @@
   "description": "What each number in a boxing record means, what a no-contest does to it, and why an unbeaten record can say less than it appears to.",
   "status": "published",
   "publishedAt": "2026-09-15",
-  "updatedAt": "2026-09-15",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described the fighters in 40-0 MMA & Boxing Fight Draft as fictional and generated. 40-0 MMA & Boxing Fight Draft builds its fighter pools from real fighters' careers, with ratings and records that are the game's own estimates, and is not affiliated with or endorsed by any promotion, sanctioning body or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -164,4 +170,4 @@ The practical advice is the same advice that applies to reading any record: **lo
 
 For how the decisions inside those records get scored in the first place, see [how MMA judging criteria work](/blog/how-mma-judging-criteria-work/).
 
-The fighters in the game are fictional and generated inside it. It is not affiliated with, endorsed by or connected to any real promotion, sanctioning body, event or athlete, and no record it produces describes a real career. The studio's other sports games are under [sports GM](/apps/category/sports-gm/).
+The game's fighter pools are built from real fighters' careers, with ratings and records that are the game's own estimates rather than official statistics. It is not affiliated with, endorsed by or licensed by any promotion, sanctioning body, event or athlete, and no record a simulation produces describes a real career. The studio's other sports games are under [sports GM](/apps/category/sports-gm/).

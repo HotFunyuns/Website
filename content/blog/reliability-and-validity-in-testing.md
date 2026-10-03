@@ -5,7 +5,13 @@
   "description": "Reliability asks whether a test repeats itself. Validity asks whether the conclusion drawn from the score is justified. Two questions to ask of any test.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, made no measurement claim and contained no IQ test, cognitive assessment or percentile scoring; the app, now IQ Test & Brain Training Games, includes an IQ-style test, a memory test and a reaction time test whose results its Google Play listing calls estimates rather than professional assessments, and the article now notes that no reliability or validity evidence is cited for them."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -52,7 +58,7 @@
     "A test can be highly reliable and still invalid for a given use. Consistency is necessary and not sufficient, and this is the confusion that lets a stable-looking number carry an unsupported conclusion.",
     "The Standards for Educational and Psychological Testing, published jointly by AERA, APA and NCME in its 2014 edition, is the reference professionals use for how test development and use should be documented.",
     "Documentation is the practical test. Published instruments carry technical manuals, norm samples and qualification requirements — Pearson restricts its 2024 Wechsler adult battery to qualification level C purchasers.",
-    "Mental Math & Memory Games publishes no reliability or validity evidence because it makes no measurement claim. Its score, accuracy, streak and response-time figures are game statistics about your own runs."
+    "Our own app, IQ Test & Brain Training Games, includes an IQ-style test, a memory test and a reaction time test, and its listing cites no reliability or validity evidence for them; it calls the results estimates based on app activities, not professional assessments, so ask this article's two questions of them before reading anything into a result."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -70,8 +76,8 @@
       "answer": "Look for documentation rather than a claim. A genuinely validated instrument has a technical manual, a described norm sample, published reliability coefficients, validity evidence for stated uses, and usually a restriction on who may administer it. Pearson, for example, sells its 2024 Wechsler adult battery at qualification level C. A product that asserts it is validated without publishing any of that has told you nothing."
     },
     {
-      "question": "Does Mental Math & Memory Games publish reliability or validity evidence?",
-      "answer": "No, and it would be strange if it did. The app makes no measurement claim about you, so there is no interpretation for validity evidence to support. It reports score, accuracy, streak, response time and personal bests for the drills you have played, which are statistics about a game session. Treating them as a measurement of a trait would be the error this article is written to prevent."
+      "question": "Does IQ Test & Brain Training Games publish reliability or validity evidence?",
+      "answer": "No. Neither its Google Play listing nor its app page cites any reliability or validity evidence, even though the app now includes an IQ-style test, a memory test and a reaction time test. The listing describes those results as estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments. Without published evidence, treating a result as a measurement of a trait would be the error this article is written to prevent; use it to compare your own runs."
     }
   ],
   "sources": [
@@ -149,8 +155,8 @@ Applied to a free web quiz, this checklist usually terminates at step one. That 
 
 ## What our own numbers are
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and it publishes no reliability or validity evidence. That is not an omission — it follows from making no measurement claim. The app is an educational game. It contains no IQ test, no cognitive assessment and no percentile scoring, and the numbers it shows you describe what happened in a session: score, accuracy, streak, average and median response time, fastest correct answer, and personal bests per mode.
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and neither its Google Play listing nor its app page cites any reliability or validity evidence. That matters, because the app is an educational game that also includes an IQ-style test, a memory test and a reaction time test, and its listing says the reaction time test measures speed and consistency. The listing also states that IQ test, memory test and other results are estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments, and the app keeps personal bests, accuracy, streaks, response speed and an assessment history.
 
 Those figures are useful for exactly one purpose, which is comparing your own runs on the same mode at the same difficulty. Read across modes and they mislead — a 60-second sprint and a 75-second trainer are different tasks. Read them as a statement about your abilities and they mislead more. The scepticism that the evidence review in [do brain training apps work](/blog/do-brain-training-apps-work/) applies to the category applies to us as well, and the specific case of a performance number dressed as an age estimate is dismantled in [what a brain age score means](/blog/what-a-brain-age-score-means/).
 
-The rest of this material sits in the [IQ tests and reasoning hub](/blog/topics/iq-tests-and-reasoning/), with the wider practice and memory articles in the [education and brain category](/blog/category/education-brain/), and the modes described on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+The rest of this material sits in the [IQ tests and reasoning hub](/blog/topics/iq-tests-and-reasoning/), with the wider practice and memory articles in the [education and brain category](/blog/category/education-brain/), and the modes described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

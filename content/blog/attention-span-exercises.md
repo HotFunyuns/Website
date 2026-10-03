@@ -5,7 +5,13 @@
   "description": "What attention span actually means, what attention exercises reliably change, what the trials found about transfer, and what to do instead.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no attention test, no attention-training mode and no reaction measure, and that its only claim was that its drills demand attention; the app, now IQ Test & Brain Training Games, lists focus games that challenge attention and distractor resistance and a reaction time test, with results its Google Play listing calls estimates rather than professional assessments, and the article now says so while keeping its evidence-based point that practice improves the practised task."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -56,7 +62,7 @@
     "An attention exercise reliably improves performance on that exercise. The question worth asking is whether it improves anything you actually care about, and there the evidence is much weaker.",
     "A meta-analysis of randomised trials by Cortese and colleagues found that cognitive training improved working-memory performance substantially while its effects on symptoms assessed by blinded raters were small, and that there were no significant effects on reading or arithmetic.",
     "Vallesi and colleagues' meta-analysis of sustained-attention tasks shows how much of a score reflects strategy rather than capacity: older adults were slower on go trials but made fewer false alarms, a trade-off rather than a deficit.",
-    "Mental Math & Memory Games contains no attention test and no attention-training mode. It ships drills that demand attention — brief-exposure and rapid-recognition rounds, timed sprints — which is a different claim.",
+    "IQ Test & Brain Training Games, our own app, includes focus games that its listing says challenge attention and distractor resistance, and a reaction time test. Getting better at them is evidence that you got better at them, not that your attention span grew, and the listing describes its test results as estimates rather than professional assessments.",
     "The interventions with the best support for staying on a task are structural: shorter sessions, fewer interruptions, and a task specified clearly enough to start."
   ],
   "disclaimer": "none",
@@ -72,7 +78,7 @@
     },
     {
       "question": "Does a memory or maths app train attention?",
-      "answer": "Ours does not, and we would rather say so plainly. Mental Math & Memory Games contains no attention test and no attention-training mode. Several of its rounds are attention-demanding — brief exposures, rapid recognition, rounds that ask you to hold two features of an item at once, and drills under a countdown — but demanding attention and training it are different claims, and only the first is ours."
+      "answer": "Ours is not only a memory and maths app: IQ Test & Brain Training Games includes focus games that its listing says challenge attention and distractor resistance, plus a reaction time test. What the evidence supports is narrower than the word training suggests — practising those games reliably improves performance on those games, while effects beyond the trained task are weak and contested. Its listing describes the reaction time test and other results as estimates based on app activities, not professional assessments."
     },
     {
       "question": "What should I do instead if I cannot focus?",
@@ -150,9 +156,9 @@ That is a general lesson about attention scores. Speed and accuracy trade agains
 
 ## What our app has, and what it does not
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and the plainest useful thing we can say here is a negative. **It contains no attention test and no attention-training mode.** There is no vigilance task, no reaction measure, and nothing that produces an attention score.
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and the plainest useful thing we can say here is what its listing actually claims. **It includes focus games that the listing says challenge attention and distractor resistance, and a reaction time test that it says measures speed and consistency.** The listing describes that result, like its other test results, as an estimate based on app activities, not a professional assessment.
 
-What it does contain are drills that *demand* attention while asking about something else: rounds with a very brief exposure, rapid-recognition rounds, rounds that require you to hold two attributes of an item at once, and arithmetic sprints under a 30-, 60- or 75-second clock. Those are attention-demanding by construction. Demanding attention and training attention are different claims, and only the first one is ours to make.
+It also has drills that *demand* attention while asking about something else: rounds with a very brief exposure, rapid-recognition rounds, rounds that require you to hold two attributes of an item at once, and arithmetic sprints under a 30-, 60- or 75-second clock. Those are attention-demanding by construction. Demanding attention and training attention are different claims. The listing files its focus games under brain training; the evidence above supports the narrower reading — you get better at the games you practise — and that is the only claim this article makes for them.
 
 ## What to change instead
 
@@ -163,10 +169,10 @@ If the real problem is the fourth thing — starting a task and staying with it 
 - **Specify the next action.** "Revise chapter four" is a project. "Work the six problems on page 81" is a task you can actually start, and a specified task competes much better against a notification than a vague one does.
 - **Use retrieval, not rereading.** Attention wanders fastest during passive review. Active recall keeps you occupied by construction, the techniques are in [memory techniques that actually work](/blog/memory-techniques-that-work/), and the reason passive review feels so convincing is set out in [judging your own recall](/blog/judging-your-own-recall/).
 
-The wider evidence on capacity and training sits in [working memory and training](/blog/working-memory-and-training/), the rest of this subject is collected in the [memory and attention hub](/blog/topics/memory-and-attention/) and the [education and brain training category](/blog/category/education-brain/), and the drills themselves are in [Mental Math & Memory Games](/apps/mental-math-memory-games/).
+The wider evidence on capacity and training sits in [working memory and training](/blog/working-memory-and-training/), the rest of this subject is collected in the [memory and attention hub](/blog/topics/memory-and-attention/) and the [education and brain training category](/blog/category/education-brain/), and the drills themselves are in [IQ Test & Brain Training Games](/apps/mental-math-memory-games/).
 
 ## The honest position
 
-Practise an attention-demanding drill because it is absorbing, because it gives a short session a clear shape, or because you enjoy watching a number move. Those are good reasons, and they are the reasons we offer.
+Practise an attention-demanding drill because it is absorbing, because it gives a short session a clear shape, or because you enjoy watching a number move. Those are good reasons, and they are the reasons this article offers.
 
 Do not practise one expecting it to repair your relationship with long-form reading, and treat any product that promises that as having gone past what the evidence allows. Practice, entertainment, educational activity and standardised assessment are four different things. Attention exercises are comfortably in the first three and nowhere near the fourth.

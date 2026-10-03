@@ -5,7 +5,13 @@
   "description": "How a new team is stocked from existing rosters, why protection lists are the whole game, and what makes some expansion drafts far kinder than others.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said every league, team and player in our games is fictional. That is true of our career sims, but our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The sentence has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -44,7 +50,8 @@
     "how-draft-lotteries-work",
     "rebuild-vs-retool",
     "salary-cap-basics-for-gm-games",
-    "what-makes-a-good-draft-board"
+    "what-makes-a-good-draft-board",
+    "how-does-the-nhl-salary-cap-work"
   ],
   "takeaways": [
     "An expansion draft stocks a new team by letting it select from players left unprotected by existing teams.",
@@ -158,4 +165,4 @@ Most draft games do not model expansion, because it is a one-off league event ra
 
 [What makes a good draft board](/blog/what-makes-a-good-draft-board/) covers preparing for a draft where the pool is unfamiliar, which is exactly the expansion team's problem.
 
-Every league, team and player in our games is fictional, and nothing here describes any specific league's current expansion rules — those are set individually and change. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+Our career sims are set in fictional leagues and our draft and GM games build their player pools from real athletes' careers; nothing here describes any specific league's current expansion rules — those are set individually and change. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).

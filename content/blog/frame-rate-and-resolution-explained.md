@@ -183,7 +183,7 @@ The [MDN web video codec guide](https://developer.mozilla.org/en-US/docs/Web/Med
 
 ## Where our app fits
 
-[Regal Video Player](/apps/regal-video-player/) plays local files in H.264, H.265, VP8, VP9 and AV1 with AAC, MP3, FLAC and Ogg audio, inside MP4, MKV, MOV, M4V, WebM, 3GP, FLV, TS and M2TS containers.
+[Video Player All Formats PRO](/apps/regal-video-player/) plays local files in H.264, H.265, VP8, VP9 and AV1 with AAC, MP3, FLAC and Ogg audio, inside MP4, MKV, MOV, M4V, WebM, 3GP, FLV, TS and M2TS containers.
 
 **What a player controls:** which decoder is used, and how the decoded frames are presented. **What it does not:** the bitrate, resolution or frame rate of the file, all of which were fixed at encoding. A player cannot improve a source; it can fail to do it justice.
 

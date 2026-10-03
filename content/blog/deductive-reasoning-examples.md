@@ -5,7 +5,13 @@
   "description": "A deductive argument promises its conclusion cannot be false if the premises are true. Validity, soundness, the counterexample test, and why belief interferes.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no logic items and nothing resembling a reasoning test and covered only arithmetic and memory; the app, now IQ Test & Brain Training Games, includes logic games with deduction and conditional reasoning and an IQ-style test covering logic, whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -54,7 +60,7 @@
     "Soundness is the pair: a sound argument is valid and has true premises, which is the only combination that makes its conclusion safe to rely on.",
     "To show a form invalid, build another argument of the same shape with obviously true premises and an obviously false conclusion. One counterexample settles it.",
     "A meta-analysis of belief bias found that believable conclusions are endorsed more often than unbelievable ones with identical structure, and attributed the effect to a shift in response bias rather than a change in people's ability to discriminate valid from invalid.",
-    "Mental Math & Memory Games contains no logic items of any kind; this subject is here for the reader, not the product."
+    "Our own app, IQ Test & Brain Training Games, includes logic games built on deduction and conditional reasoning, but this subject is here for the reader: the validity and counterexample checks above work on any argument, with or without an app."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -103,7 +109,7 @@ A deductive argument makes one specific promise: if its premises are true, its c
 
 The Stanford Encyclopedia of Philosophy's entry on logical consequence puts the standard analysis in two parts. **Necessity**: the truth of the premises is necessarily sufficient for the truth of the conclusion, so it is impossible for the premises to hold while the conclusion fails. **Formality**: whether that holds depends on the argument's structure rather than on what its terms happen to mean.
 
-One note before the examples, since this hub sits alongside an app. Mental Math & Memory Games, our own app, has no logic mode, no argument items and nothing resembling a reasoning test. Its catalogue is arithmetic and memory practice. This article is here because readers of the [logic and pattern puzzles hub](/blog/topics/logic-and-pattern-puzzles/) need the concept, not because we have something to sell against it.
+One note before the examples, since this hub sits alongside an app. IQ Test & Brain Training Games, our own app, includes logic games with analogies, sequences, conditional reasoning and deduction, and an IQ-style test whose areas include logic; its Google Play listing calls the test's results estimates based on app activities, not clinical or professional assessments. This article is here because readers of the [logic and pattern puzzles hub](/blog/topics/logic-and-pattern-puzzles/) need the concept, and nothing in it depends on the app.
 
 ## Validity is a promise about form
 
@@ -166,6 +172,6 @@ The countermeasure follows from the counterexample test. Judge the form with con
 
 ## Practising this honestly
 
-There is no arithmetic in this article, and the app does not help with it. What our app does offer, and the reason it appears in this hub at all, is a set of untimed **Accuracy Trainer** rounds with feedback and explanations, which are the opposite of the timed sprints in one specific way: they do not reward answering before you have finished thinking. If your errors come from speed rather than from method, that pressure difference is the relevant one. The mode list is on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/), and our sceptical review of what practice apps can and cannot do is in [do brain training apps work](/blog/do-brain-training-apps-work/).
+There is no arithmetic in this article, and the app's arithmetic drills are not what helps with it; its logic games, which include deduction and conditional reasoning, are the closer match. Our app also offers a set of untimed **Accuracy Trainer** rounds with feedback and explanations, which are the opposite of the timed sprints in one specific way: they do not reward answering before you have finished thinking. If your errors come from speed rather than from method, that pressure difference is the relevant one. The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/), and our sceptical review of what practice apps can and cannot do is in [do brain training apps work](/blog/do-brain-training-apps-work/).
 
 For the quantifier machinery behind "all", "some" and "none", continue to [syllogisms](/blog/syllogisms-explained/). For rule-discovery problems, where the premises are a handful of terms rather than sentences, start with [number sequence puzzles](/blog/number-sequence-puzzles-explained/). The rest of our writing on reasoning and practice is in the [education and brain training section](/blog/category/education-brain/).

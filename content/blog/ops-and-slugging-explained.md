@@ -5,7 +5,13 @@
   "description": "How slugging percentage and OPS are calculated, why adding two rates with different denominators is a compromise, and what OPS is genuinely good for.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said all players, teams and leagues in our games are fictional. That is true of our career sims, but our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The sentence has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -44,7 +50,8 @@
     "what-is-whip-in-baseball",
     "batting-order-strategy-explained",
     "baseball-career-sim-guide",
-    "what-is-era-in-baseball"
+    "what-is-era-in-baseball",
+    "platoon-advantage-baseball"
   ],
   "takeaways": [
     "Slugging percentage is total bases divided by at-bats, so it weights a home run as four times a single.",
@@ -154,6 +161,6 @@ From the player's perspective, OPS is also the fairest way to judge your own off
 
 [Baseball statistics explained for beginners](/blog/baseball-stats-explained-for-beginners/) covers the wider vocabulary, and [what is WHIP in baseball](/blog/what-is-whip-in-baseball/) is the pitching-side equivalent of "what does this rate actually capture". [The Baseball Career Sim 2026 guide](/blog/baseball-career-sim-guide/) covers reading your own numbers when you are the hitter rather than the front office.
 
-All players, teams and leagues in our games are fictional. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+Our career sims are set in fictional leagues with fictional teams and players; our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, team or athlete. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).
 
 MLB and MLB.com are trademarks of their respective owners, referenced here only to identify the source of the statistical definitions cited. No affiliation, sponsorship or endorsement is implied.

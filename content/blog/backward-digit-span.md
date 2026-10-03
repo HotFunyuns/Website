@@ -5,7 +5,13 @@
   "description": "Reversing a sequence adds a second job on top of holding it. Why backward span runs shorter than forward span, and what that gap is actually telling you.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, administered no cognitive test and did not test working memory; the app, now IQ Test & Brain Training Games, includes a memory test and an IQ-style test covering working memory, whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so and no longer says that the app page lists the full memory catalogue."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -56,7 +62,7 @@
     "Türüdü and colleagues describe the forward task as primarily measuring the storage capacity of the phonological loop, while the backward task engages the central executive for active manipulation of information.",
     "The standard clinical procedure recognises the difficulty gap in its own design: Choi and colleagues describe forward recall beginning at a length of three and backward recall beginning at a length of two.",
     "A random-direction version, where you only learn which way to answer after the digits disappear, is harder than either fixed direction because it blocks you from choosing an encoding strategy in advance.",
-    "Mental Math & Memory Games keeps your best forward span and your best backward span as separate personal bests. Those are game statistics, not assessment scores, and the app administers no cognitive test."
+    "IQ Test & Brain Training Games keeps your best forward span and your best backward span as separate personal bests. Those are game statistics, and the app's memory test and IQ-style test produce results that its listing calls estimates based on app activities, not clinical or professional assessments."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -79,7 +85,7 @@
     },
     {
       "question": "Does the app test my working memory?",
-      "answer": "No. Mental Math & Memory Games ships reverse-sequence and backward-span drills and stores your longest successful run in each, but there is no standardised administration, no norms and no interpretation. It is practice and entertainment. A standardised psychological assessment is a different thing entirely, administered by a qualified professional under controlled conditions."
+      "answer": "Not in the clinical sense. IQ Test & Brain Training Games includes a memory test and an IQ-style test whose areas include working memory, and its Google Play listing describes their results as estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments. Nothing about a phone session is standardised administration: you choose the time and the conditions, and nobody observes. A standardised psychological assessment is a different thing entirely, administered by a qualified professional under controlled conditions."
     }
   ],
   "sources": [
@@ -143,7 +149,7 @@ These are genuine techniques, and they will improve your score. They are also th
 
 ## The version that removes your strategy
 
-There is a third format worth knowing about, and Mental Math & Memory Games — our own app, built by Reign Creative — ships it: a random-direction drill where you see the digits and only find out afterwards whether to type them forward or backward.
+There is a third format worth knowing about, and IQ Test & Brain Training Games — our own app, built by Reign Creative — ships it: a random-direction drill where you see the digits and only find out afterwards whether to type them forward or backward.
 
 This is harder than either fixed direction, and the reason is instructive. In a fixed backward task you can choose an encoding that suits reversal from the first digit. In a random-direction task you cannot commit, so you either encode twice or encode neutrally and pay the transformation cost at the end. It is a neat demonstration that a large part of span performance is preparation rather than raw holding.
 
@@ -153,6 +159,6 @@ Alongside it the app ships a plain reverse-sequence mode and a backward-span lad
 
 They are game statistics. They were produced on your own device, at a time you chose, with no examiner, no controlled presentation and no reference population. They are good for one thing: comparing this week's runs to last week's on the same mode at the same difficulty level.
 
-They are not a measurement of your working memory, not a cognitive assessment, and not comparable to anything a qualified professional would produce with a standardised instrument. If a real question about memory or attention is troubling you, that is a conversation for a professional, not for a phone game.
+They are not a measurement of your working memory, not a cognitive assessment, and not comparable to anything a qualified professional would produce with a standardised instrument. If a real question about memory or attention is troubling you, that is a conversation for a professional, not for a phone game. The same limits apply to the app's memory test and to its IQ-style test, which covers working memory among other areas: the listing calls their results estimates based on app activities, not clinical or professional assessments.
 
-Used within those limits, backward drills are an unusually clear window into your own processing: you can watch the point at which adding a transformation breaks a sequence you could otherwise hold. You will find the full memory catalogue on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/), the rest of this subject in the [memory and attention hub](/blog/topics/memory-and-attention/), and the wider set of learning articles in the [education and brain section](/blog/category/education-brain/). If you have not yet read how a span figure is produced in the first place, start with [what a digit span number actually means](/blog/digit-span-explained/).
+Used within those limits, backward drills are an unusually clear window into your own processing: you can watch the point at which adding a transformation breaks a sequence you could otherwise hold. The app's memory games and tests are described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/), the rest of this subject in the [memory and attention hub](/blog/topics/memory-and-attention/), and the wider set of learning articles in the [education and brain section](/blog/category/education-brain/). If you have not yet read how a span figure is produced in the first place, start with [what a digit span number actually means](/blog/digit-span-explained/).

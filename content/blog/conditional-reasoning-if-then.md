@@ -5,7 +5,13 @@
   "description": "From 'if P then Q' only two inferences are valid. The four forms, why the invalid pair feels right, the contrapositive, and what 'only if' actually means.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, had no logic mode, no conditional items and nothing that assesses reasoning, and was arithmetic and memory practice only; the app, now IQ Test & Brain Training Games, lists conditional reasoning among its logic games and logic among the areas of an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -54,7 +60,7 @@
     "The contrapositive, 'if not-Q then not-P', is the only reversal that preserves meaning. The converse and the inverse are equivalent to each other and to neither the original nor the truth.",
     "'P only if Q' states a necessary condition and points the arrow the other way from 'if P then Q', which is why the phrase causes so much trouble in rules and contracts.",
     "In the standard card-selection experiment the correct choice is the card showing the antecedent and the card showing the false consequent, and most people instead pick the two cards named in the rule.",
-    "Mental Math & Memory Games contains no logic mode and no reasoning test; the conditionals worth practising here are the ones attached to arithmetic methods."
+    "IQ Test & Brain Training Games, our own app, lists conditional reasoning among its logic games and logic among the areas of its IQ-style test, so the four forms in this article have somewhere to be practised; its listing calls the test's results estimates, not a professional assessment."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -161,6 +167,6 @@ There is a second-order oddity worth knowing about. On the standard truth-functi
 
 ## What to practise, and what this app is
 
-To be plain about the product this hub sits under: Mental Math & Memory Games, our own app, has no logic mode, no conditional items and nothing that assesses reasoning. It is arithmetic and memory practice. Where it genuinely touches this article is the conditions attached to arithmetic methods — a shortcut that applies only to numbers near a round base, a divisibility test that runs in one direction and not the other — and its untimed **Accuracy Trainer** rounds, which give feedback and an explanation rather than a verdict, are the format in which noticing a misapplied condition is actually possible. The mode list and the statistics the app records are on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+To be plain about the product this hub sits under: IQ Test & Brain Training Games, our own app, lists conditional reasoning among its logic games, alongside analogies, sequences and deduction, and its IQ-style test includes logic among the areas it covers. Its listing does not say which of the four forms above those items use, and it describes the IQ-style test's results as estimates based on app activities, not clinical or professional assessments. The app's mental math practice touches this article too, because arithmetic methods carry conditions of their own — a shortcut that applies only to numbers near a round base, a divisibility test that runs in one direction and not the other. The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).
 
 For the wider notions of validity and soundness, read [deductive reasoning](/blog/deductive-reasoning-examples/); for rule-finding under uncertainty rather than rule-application under certainty, start with [number sequence puzzles](/blog/number-sequence-puzzles-explained/). Everything in this subject is collected in the [logic and pattern puzzles hub](/blog/topics/logic-and-pattern-puzzles/), and the rest of our writing sits in the [education and brain training section](/blog/category/education-brain/).

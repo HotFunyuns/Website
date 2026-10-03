@@ -5,7 +5,13 @@
   "description": "Virtual coins, no cash payout, a Teen rating: how a social casino game differs from real-money gambling in law and on the store, and what to check first.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Anime Casino Slot Machine Game, had twenty-five anime and manga machines, Mini, Major and Grand jackpot meters and coins that cannot be transferred, sold or redeemed for money, merchandise or prizes; the app, now Vegas Casino Slots JACKPOT WIN, has a listing that describes virtual jackpots, no cash payouts or real-world prizes and coins with no real-world monetary value that cannot be redeemed for cash, and the worked example now rests on those statements."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "anime-creative",
   "tags": [
@@ -48,7 +54,7 @@
     "The legal test is not how a game looks but whether a prize of money or money's worth can be won; the Gambling Act 2005 defines gaming as playing a game of chance for a prize, and defines that prize as money or money's worth.",
     "Convertibility is the hinge. Regulators treat in-game items as money's worth once they can be exchanged for cash or traded for something of value, so a currency that cannot leave the app is a different object from a stake.",
     "Google Play runs licensed real-money gambling apps and simulated gambling apps under separate rules, which is why a virtual-coin slot game and a betting app are not neighbours on the store even when their screens look alike.",
-    "Anime Casino Slot Machine Game, which we build, uses virtual coins only, attaches no real-money prizes to its jackpot meters, and is rated Teen on Google Play; its coins cannot be transferred, sold or redeemed.",
+    "Vegas Casino Slots JACKPOT WIN, which we build, uses virtual coins only, pays its virtual jackpots in coins with no real-world monetary value, and is rated Teen on Google Play; its listing says the coins cannot be redeemed for cash and there are no cash payouts or real-world prizes.",
     "Research on social casino gaming has found associations between paid social casino play and later monetary gambling in young people, which is a reason to treat the category carefully rather than a finding that one causes the other.",
     "Four checks settle most questions about any casino-styled app: can the currency be cashed out, does the listing declare in-app purchases, does the app advertise real-money operators, and what is the age rating."
   ],
@@ -61,11 +67,11 @@
     },
     {
       "question": "Can you win real money on a virtual-coin slot app?",
-      "answer": "Not on one that is built as a social casino game. In Anime Casino Slot Machine Game the Mini, Major and Grand meters build locally as you spin and carry no real-money prizes; coins cannot be transferred, sold or redeemed for money, merchandise or physical prizes. A meter in that design is a score that resets, not a pot that pays. If an app claims otherwise, it is describing a different product operating under different rules."
+      "answer": "Not on one that is built as a social casino game. In Vegas Casino Slots JACKPOT WIN, wins and jackpots are paid in virtual coins; its listing states that there are no cash payouts or real-world prizes and that the coins have no real-world monetary value and cannot be redeemed for cash. A jackpot in that design is a score, not a pot that pays. If an app claims otherwise, it is describing a different product operating under different rules."
     },
     {
       "question": "Why would a game with no money in it be rated Teen?",
-      "answer": "An age rating is a suitability label, not a legal classification of the activity. Anime Casino Slot Machine Game is rated Teen on Google Play and its own listing states it is intended for an adult audience for entertainment purposes, and that success in the game does not imply future success in real-money gambling. The rating and the entertainment-only framing are separate signals that happen to point the same way."
+      "answer": "An age rating is a suitability label, not a legal classification of the activity. Vegas Casino Slots JACKPOT WIN is rated Teen on Google Play and its own listing states it is intended for an adult audience for entertainment purposes, and that success in the game does not imply future success in real-money gambling. The rating and the entertainment-only framing are separate signals that happen to point the same way."
     },
     {
       "question": "Does playing a social casino game lead to gambling?",
@@ -123,11 +129,11 @@ Simulated gambling content — the policy names social casino apps and apps with
 
 ## How this maps onto one specific app
 
-Anime Casino Slot Machine Game is our own app, built by Reign Creative, and it is a useful worked example because every relevant fact about it is public on its [app page](/apps/anime-casino-slots/) and on its store listing.
+Vegas Casino Slots JACKPOT WIN is our own app, built by Reign Creative, and it is a useful worked example because every relevant fact about it is public on its [app page](/apps/anime-casino-slots/) and on its store listing.
 
-It is a social casino game with twenty-five original anime and manga-themed slot machines, played entirely with virtual coins. It does not offer real-money gambling, and coins cannot be transferred, sold or redeemed for money, merchandise or prizes. Its Mini, Major and Grand jackpot meters build locally as you spin, with celebration effects and no real-money prizes attached. It is free, supported by ads, and its verified Play listing does not declare in-app purchases — which is unusual for the category, since the standard social casino model sells coin packs. It is rated Teen on Google Play, and its listing states that it is intended for an adult audience for entertainment purposes and that success in it does not imply future success in real-money gambling.
+It is a social casino game built around slot machines, played with virtual coins. Its listing states that it does not offer real-money gambling or an opportunity to win real money or prizes, that wins and jackpots use virtual coins with no cash payouts or real-world prizes, and that the coins have no real-world monetary value and cannot be redeemed for cash. It is free, supported by ads, and its verified Play listing does not declare in-app purchases — which is unusual for the category, since the standard social casino model sells coin packs. It is rated Teen on Google Play, and its listing states that it is intended for an adult audience for entertainment purposes and that success in it does not imply future success in real-money gambling.
 
-Read against the two tests above, that description resolves cleanly. There is no prize of money or money's worth, because the currency cannot leave the app. There is no wager of real money, because there is nothing to buy with. The meters are scores.
+Read against the two tests above, that description resolves cleanly. There is no prize of money or money's worth, because the listing gives the coins no real-world monetary value and no route to cash or prizes. There is no wager of real money, because there is nothing to buy with. The jackpots are scores.
 
 ## What an age rating does and does not tell you
 

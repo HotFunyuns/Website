@@ -5,7 +5,13 @@
   "description": "What plus/minus actually counts, why deployment distorts it, and which hockey statistics tell you more about a player than about the team around them.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said 84-0 Hockey Draft & GM Manager uses generated players and that every player in our games is fictional. Its draft pool is built from real-world players' careers, with ratings that are the game's own estimates; only our career sims are fictional. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -44,7 +50,9 @@
     "hockey-line-combinations-explained",
     "hockey-goaltending-explained",
     "hockey-draft-gm-guide",
-    "basketball-advanced-stats-explained"
+    "basketball-advanced-stats-explained",
+    "hockey-forecheck-systems",
+    "how-do-nhl-standings-work"
   ],
   "takeaways": [
     "Plus/minus counts even-strength goals for and against while a player is on the ice — it credits and blames five skaters and a goalie for one number.",
@@ -142,10 +150,10 @@ The same reasoning applies across sports. Basketball's box score has an almost i
 
 ## What this means in a simulation
 
-In [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/), you are evaluating generated players from their attributes rather than from a statistical history, which removes most of these distortions at the point of selection — but reintroduces them the moment your roster starts playing, because your own players' numbers will be shaped by how you deploy them.
+In [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/), the draft pool is built from real players' careers and you compare them on the game's own ratings, which keeps most of these distortions out of the point of selection — but reintroduces them the moment your roster starts playing, because your own players' numbers will be shaped by how you deploy them.
 
 The practical consequence for a GM: **do not evaluate your own signings by their raw output in a role you assigned them.** If you put a defensive specialist in a shutdown role, their point total will be low by construction. That is your decision showing up in their statistics.
 
 From the player's side, in [Hockey Career Sim 2026](/apps/hockey-career-sim/), the same effect means your season numbers reflect your role as much as your play. [The Hockey Career Sim 2026 guide](/blog/hockey-career-sim-guide/) covers how to read development and playing time as the real progress signals, and [hockey goaltending explained](/blog/hockey-goaltending-explained/) covers the position where this problem is at its most extreme.
 
-The rules that generate all these events are published — [USA Hockey's officiating rulebook](https://www.usahockeyrulebook.com/) is freely readable — and differ between competitions. Every league, team and player in our games is fictional. The rest of the catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+The rules that generate all these events are published — [USA Hockey's officiating rulebook](https://www.usahockeyrulebook.com/) is freely readable — and differ between competitions. Our career sims are set in fictional leagues with fictional teams and players; our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, team or athlete. The rest of the catalogue is under [sports career and GM games](/apps/category/sports-gm/).

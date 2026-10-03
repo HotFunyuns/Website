@@ -44,7 +44,8 @@
     "tennis-playing-styles",
     "serve-and-volley-strategy",
     "junior-circuit-to-pro-tour-path",
-    "tennis-coaching-teams-explained"
+    "tennis-coaching-teams-explained",
+    "tennis-stats-explained"
   ],
   "takeaways": [
     "Tennis scoring is not flat: because a game, a set and a match are each won by margin rather than by total points, a handful of scorelines carry far more weight than the rest.",

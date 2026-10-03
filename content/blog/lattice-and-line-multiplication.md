@@ -5,7 +5,13 @@
   "description": "The lattice grid and the crossing-lines trick are the same place-value bookkeeping in two costumes. Here is how each works, and where both stop being useful.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the full catalogue of our app, then called Mental Math & Memory Games and now IQ Test & Brain Training Games, is on its app page; that page describes the app's games and tests without listing individual modes or techniques, and the sentence now points to it only for that description."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -177,6 +183,6 @@ For actual speed, the methods worth drilling are the ones that exploit the speci
 
 ## Where the app fits
 
-Mental Math & Memory Games, our own app at Reign Creative, has no drawing surface and no grid-multiplication mode; you cannot sketch a lattice or draw lines in it, and it would not be a useful thing for a timed drill to ask. What it does carry is both methods in its technique library, each written out with its steps, a worked example and a named common mistake, alongside the arithmetic drills where the underlying facts get practised — Multiplication Rush across difficulties from the 1–9 tables up to two-digit by two-digit products, and the untimed Accuracy Trainer for working slowly with an explanation available. The full catalogue is on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+IQ Test & Brain Training Games, our own app at Reign Creative, has no drawing surface and no grid-multiplication mode; you cannot sketch a lattice or draw lines in it, and it would not be a useful thing for a timed drill to ask. What it does carry is both methods in its technique library, each written out with its steps, a worked example and a named common mistake, alongside the arithmetic drills where the underlying facts get practised — Multiplication Rush across difficulties from the 1–9 tables up to two-digit by two-digit products, and the untimed Accuracy Trainer for working slowly with an explanation available. The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).
 
 If you are learning these to help someone else understand multiplication, draw them on paper and keep the app for the fact practice that makes any method fast. The order in which methods are worth building is in the [mental math practice guide](/blog/mental-math-training-guide/), with the rest of this material in the [mental math topic hub](/blog/topics/mental-math/) and under [education and brain training articles](/blog/category/education-brain/).

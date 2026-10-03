@@ -5,7 +5,13 @@
   "description": "A six-player roster plus a coach is the tightest draft puzzle in the genre. How to balance scoring against defence, and what an 84-game projection measures.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described 84-0 Hockey Draft & GM Manager as a generic simulator with a fictional, generated pool. 84-0 Hockey Draft & GM Manager builds its player pool from real-world athletes' careers, with ratings that are the game's own estimates, and is not affiliated with or endorsed by any league, team or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -46,7 +52,9 @@
     "baseball-draft-gm-guide",
     "basketball-draft-gm-guide",
     "mma-boxing-fight-draft-guide",
-    "power-play-and-penalty-kill"
+    "power-play-and-penalty-kill",
+    "how-do-nhl-waivers-work",
+    "nhl-offer-sheet-explained"
   ],
   "takeaways": [
     "A six-player roster plus a coach means every pick is a large fraction of the team, so a single weak slot has nowhere to hide.",
@@ -80,7 +88,7 @@
     },
     {
       "question": "Is it based on a real hockey league?",
-      "answer": "No. It is a generic simulator with fictional players and no affiliation with, endorsement by or connection to any real league, club or player. Every rating on the board is generated inside the game."
+      "answer": "No. It is not affiliated with, endorsed by or licensed by any league, club, players' association or player. Its draft pool is built from real players' careers, and every rating on the board is the game's own estimate rather than an official statistic."
     }
   ],
   "sources": []
@@ -145,7 +153,7 @@ Coaching is one of the factors the projection weighs. More usefully, it is the o
 
 The simulator turns the finished lineup into a complete regular-season record over 84 games.
 
-Be clear about what that is. It is the output of a model, computed from the roster you assembled according to the game's own rules. It does not describe, predict or relate to any real hockey game, club, player or season — the entire pool is fictional and generated inside the game. It is not a forecast of anything, and it carries no information about any real-world event.
+Be clear about what that is. It is the output of a model, computed from the roster you assembled according to the game's own rules. It does not predict any real hockey game, club, player or season — the pool is built from real players' careers, but the record is the game's own model scoring your roster. It is not a forecast of anything, and it carries no information about any real-world event.
 
 What it *is* is a score, and the most productive way to use it is comparatively. Most rosters land short of perfect, which is by design; the number to beat is not the perfect record but your own previous best. Replaying with a different approach and improving on your last result is how the game is meant to be played, and it also happens to be a decent experimental method: change one thing, run it again, see whether the projection moves.
 

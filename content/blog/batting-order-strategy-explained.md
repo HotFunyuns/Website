@@ -5,7 +5,13 @@
   "description": "What each spot in a batting order is traditionally for, how much lineup order actually changes run scoring, and how to build one in a simulation.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said all players, teams and leagues in our games are fictional. That is true of our career sims, but our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The sentence has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -44,7 +50,9 @@
     "baseball-stats-explained-for-beginners",
     "baseball-pitching-roles-explained",
     "baseball-draft-gm-guide",
-    "how-to-build-a-balanced-basketball-roster"
+    "how-to-build-a-balanced-basketball-roster",
+    "is-bunting-good-in-baseball",
+    "types-of-pitches-in-baseball"
   ],
   "takeaways": [
     "The batting order is a rotation: the leadoff spot gets the most plate appearances over a season and each subsequent spot gets slightly fewer.",
@@ -163,6 +171,6 @@ From the player's side of the game, your position in the order changes how many 
 
 The same "allocate a fixed budget of opportunities well" logic shows up in other sports too — [how to build a balanced basketball roster](/blog/how-to-build-a-balanced-basketball-roster/) works through the minutes version of exactly this problem.
 
-All players, teams and leagues in our games are fictional. Everything we make in this space is listed under [sports career and GM games](/apps/category/sports-gm/).
+Our career sims are set in fictional leagues with fictional teams and players; our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, team or athlete. Everything we make in this space is listed under [sports career and GM games](/apps/category/sports-gm/).
 
 MLB and MLB.com are trademarks of their respective owners, referenced here only to identify the source of the statistical definitions cited. No affiliation, sponsorship or endorsement is implied.

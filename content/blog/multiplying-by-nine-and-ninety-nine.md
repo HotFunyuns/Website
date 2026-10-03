@@ -5,7 +5,13 @@
   "description": "Nine is ten minus one, so multiply by the round number and take one lot away. The same move runs at 99, 999 and 9,999, with a digit-sum check built in.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the full catalogue of our app, then called Mental Math & Memory Games, is on its app page; that page, now for IQ Test & Brain Training Games, describes the app without listing individual drills or techniques, and the sentence now points there only for a description of the app."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -171,7 +177,7 @@ That makes it a lookup device for one row of the times table rather than a metho
 
 The bottleneck is not the shift, which is free. It is the subtraction, and specifically the subtraction of an awkward number from a round one.
 
-Mental Math & Memory Games, our own app at Reign Creative, drills both halves. Multiplication Rush runs timed rounds across difficulties from the 1–9 tables up to two-digit by two-digit products, Subtraction Sprint covers the take-away step including a borrowing-practice difficulty, and the Accuracy Trainer runs ten untimed questions with a hint and an explanation available. The app's technique library carries the nine and ninety-nine move as a named method with its own worked example and its own named common mistake — which is, as above, subtracting one instead of one lot. The full catalogue is on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+IQ Test & Brain Training Games, our own app at Reign Creative, drills both halves. Multiplication Rush runs timed rounds across difficulties from the 1–9 tables up to two-digit by two-digit products, Subtraction Sprint covers the take-away step including a borrowing-practice difficulty, and the Accuracy Trainer runs ten untimed questions with a hint and an explanation available. The app's technique library carries the nine and ninety-nine move as a named method with its own worked example and its own named common mistake — which is, as above, subtracting one instead of one lot. The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).
 
 A sensible sequence: ten products by 9, then ten by 99, then a mixed set where some factors are 8 or 98 so the gap is no longer always one. Adding the digit-sum check to every answer from the start makes it a habit rather than something you remember to do when an answer looks odd.
 

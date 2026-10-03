@@ -5,7 +5,13 @@
   "description": "What researchers mean by mathematics anxiety, the working-memory account of why it affects performance, and what a practice app can honestly offer.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, assessed nothing, produced no test result and made no claim about intelligence, and that its app page showed the features named here; the app, now IQ Test & Brain Training Games, includes an IQ-style test, a memory test and a personality questionnaire whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so while keeping that the app diagnoses and treats nothing."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -140,10 +146,10 @@ Very little of this is about mathematics. The conditions that make a numbers tas
 
 ## Where a practice app fits, stated honestly
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and it ships several features that reduce the pressure of a session. Accuracy Trainer has no timer, runs ten questions, offers a hint and gives feedback with an explanation after each one. Difficulty labels start low — single-digit addition, times tables from 1 to 9 — and the memory levels begin at a beginner setting with three or four items and a slow reveal. The adaptive setting adjusts to your performance but cannot drop below a level's floor, so a bad run does not send you backwards indefinitely. Replay is always free.
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and it ships several features that reduce the pressure of a session. Accuracy Trainer has no timer, runs ten questions, offers a hint and gives feedback with an explanation after each one. Difficulty labels start low — single-digit addition, times tables from 1 to 9 — and the memory levels begin at a beginner setting with three or four items and a slow reveal. The adaptive setting adjusts to your performance but cannot drop below a level's floor, so a bad run does not send you backwards indefinitely. Replay is always free.
 
-Those are comfort features, and that is the whole of the claim. The app does not diagnose, assess or treat anything, produces no test result, and makes no claim about intelligence or about anxiety. It records score, accuracy, streak, response time and personal bests on its own drills. The case for being sceptical of stronger claims in this product category generally is made in [do brain training apps work](/blog/do-brain-training-apps-work/), and the methods worth practising once the pressure is off are in [the mental math methods guide](/blog/mental-math-training-guide/).
+Those are comfort features, and that is the whole of the claim. The app does not diagnose or treat anything, anxiety included. It does include an IQ-style test, a memory test and a personality questionnaire, and its listing describes their results as estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments. Its drills record score, accuracy, streak, response time and personal bests. The case for being sceptical of stronger claims in this product category generally is made in [do brain training apps work](/blog/do-brain-training-apps-work/), and the methods worth practising once the pressure is off are in [the mental math methods guide](/blog/mental-math-training-guide/).
 
 One thing is worth saying plainly. If anxiety about numbers is causing real distress, or is interfering with work, study or daily decisions, that is a matter to raise with a qualified professional. It is not something an article, an app or a practice streak is equipped to address, and nobody should be told otherwise.
 
-You can see what ships on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/). The method articles are gathered in the [mental math collection](/blog/topics/mental-math/), and the rest of this subject area is in the [education and brain training section](/blog/category/education-brain/).
+The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/). The method articles are gathered in the [mental math collection](/blog/topics/mental-math/), and the rest of this subject area is in the [education and brain training section](/blog/category/education-brain/).

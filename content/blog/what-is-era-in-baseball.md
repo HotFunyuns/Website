@@ -5,7 +5,13 @@
   "description": "How earned run average is calculated, what counts as an earned run, why ERA flatters some pitchers, and how to read it in a simulated season.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said all players, teams and leagues in our games are fictional. That is true of our career sims, but our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The sentence has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -44,7 +50,8 @@
     "what-is-whip-in-baseball",
     "baseball-pitching-roles-explained",
     "baseball-career-sim-guide",
-    "ops-and-slugging-explained"
+    "ops-and-slugging-explained",
+    "what-is-a-balk-in-baseball"
   ],
   "takeaways": [
     "ERA is earned runs allowed multiplied by nine and divided by innings pitched — a rate per nine innings rather than a total.",
@@ -160,6 +167,6 @@ There is no fixed number that constitutes a "good" ERA. It is entirely relative 
 
 [Baseball statistics explained for beginners](/blog/baseball-stats-explained-for-beginners/) covers the wider vocabulary, and [the Baseball Career Sim 2026 guide](/blog/baseball-career-sim-guide/) covers reading your own numbers when you are the pitcher rather than the general manager.
 
-All players, teams and leagues in our games are fictional. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+Our career sims are set in fictional leagues with fictional teams and players; our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, team or athlete. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).
 
 MLB and MLB.com are trademarks of their respective owners, referenced here only to identify the source of the statistical definitions cited. No affiliation, sponsorship or endorsement is implied.

@@ -5,7 +5,13 @@
   "description": "ERA, WHIP, OBP, slugging, fielding percentage and WAR, each with the formula and a worked example, plus what every one of them fails to tell you.",
   "status": "published",
   "publishedAt": "2026-08-13",
-  "updatedAt": "2026-08-13",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version answered that the players in 162-0 Baseball Draft & GM Team are fictional and do not exist. 162-0 Baseball Draft & GM Team builds its player pool from real-world athletes' careers, with ratings that are the game's own estimates, and is not affiliated with or endorsed by any league, team or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -46,7 +52,8 @@
     "basketball-positions-explained",
     "how-to-build-a-balanced-basketball-roster",
     "ops-and-slugging-explained",
-    "what-is-era-in-baseball"
+    "what-is-era-in-baseball",
+    "fip-vs-era"
   ],
   "takeaways": [
     "Rate statistics like ERA, WHIP and OBP describe performance per opportunity; counting statistics like home runs describe accumulated totals, and mixing the two up is the most common beginner error.",
@@ -80,7 +87,7 @@
     },
     {
       "question": "Are the players in the game real?",
-      "answer": "No. 162-0 Baseball Draft & GM Team is a fictional simulation built on generated players and it is not affiliated with, endorsed by or connected to any real league, team or athlete. It uses no live results. Every statistic you see in the game belongs to a player who does not exist."
+      "answer": "Yes. The draft pool in 162-0 Baseball Draft & GM Team is built from real players' careers. The ratings are the game's own estimates rather than official statistics, the game uses no live results, and it is not affiliated with, endorsed by or licensed by any league, team, players' association or athlete."
     }
   ],
   "sources": [

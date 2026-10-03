@@ -5,7 +5,13 @@
   "description": "Reverse-standings ordering, tiebreakers, compensatory picks and trades — how a draft order is built, and what changes when a simulation generates one instead.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described the Football Franchise GM League pool as generated and said every league, team and player in our games is fictional. The game's draft pool is built from real-world players' careers, with ratings that are the game's own estimates; only our career sims are fictional. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -44,7 +50,9 @@
     "how-draft-lotteries-work",
     "football-draft-gm-guide",
     "what-makes-a-good-draft-board",
-    "snake-draft-vs-auction-draft"
+    "snake-draft-vs-auction-draft",
+    "has-any-team-gone-20-0",
+    "how-do-nfl-playoffs-work"
   ],
   "takeaways": [
     "The default principle is reverse standings: the weakest team from last season picks first, so talent flows toward the teams that need it most.",
@@ -142,7 +150,7 @@ The generic principle underneath all three: **a pick's value is the gap between 
 
 ## What a simulation actually models
 
-Most draft games, ours included, deliberately do not reproduce a league calendar. [20-0 Football Draft & GM Mode](/apps/football-draft-gm-mode/) is built around the part that is interesting to play — evaluating a generated pool under a specific constraint — rather than around administrating an ordering system.
+Most draft games, ours included, deliberately do not reproduce a league calendar. [Football Franchise GM League](/apps/football-draft-gm-mode/) is built around the part that is interesting to play — evaluating a draft pool under a specific constraint — rather than around administrating an ordering system.
 
 The formats change the constraint rather than the order:
 
@@ -157,4 +165,4 @@ The formats change the constraint rather than the order:
 
 If you are on the player side rather than the front-office side, draft order decides which situation you land in — and landing behind an established starter is one of the more consequential things that can happen to a career. [Football Career Sim 2026](/apps/football-career-sim/) models the draft as a career stage for exactly that reason.
 
-Every league, team and player in our games is fictional, and nothing here describes any real league's current rules — leagues change their ordering mechanisms regularly, and their own published rules are the only authority on what they do now. The full catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+Our career sims are set in fictional leagues and our draft and GM games build their player pools from real athletes' careers; nothing here describes any real league's current rules — leagues change their ordering mechanisms regularly, and their own published rules are the only authority on what they do now. The full catalogue is under [sports career and GM games](/apps/category/sports-gm/).

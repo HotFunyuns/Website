@@ -5,7 +5,13 @@
   "description": "Five is ten halved and twenty-five is a hundred quartered, so the multiplication becomes a shift and a division. Pick which number to divide first.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the full catalogue of our app, then called Mental Math & Memory Games, is on its app page; that page describes the app, now IQ Test & Brain Training Games, without listing its individual drills or technique library, and the article now says only that the app is described there."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -173,7 +179,7 @@ A second, quieter error is dividing the wrong factor when neither divides cleanl
 
 Two skills carry the method: halving and quartering fluently, and shifting without losing the place. Both respond to short, frequent repetition rather than long sessions.
 
-Mental Math & Memory Games, our own app at Reign Creative, drills them in Multiplication Rush and Division Dash, and the Accuracy Trainer runs ten untimed questions with a hint and an explanation available, which is the right setting while a new method is still being installed. The applied modes put the same arithmetic in context — a tip calculator round, a discount round and a unit-price round all lean on quarters and halves of round numbers. The app's technique library carries the divide-instead-of-multiply move as a named method with its own worked example and named common mistake. The full catalogue is on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+IQ Test & Brain Training Games, our own app at Reign Creative, drills them in Multiplication Rush and Division Dash, and the Accuracy Trainer runs ten untimed questions with a hint and an explanation available, which is the right setting while a new method is still being installed. The applied modes put the same arithmetic in context — a tip calculator round, a discount round and a unit-price round all lean on quarters and halves of round numbers. The app's technique library carries the divide-instead-of-multiply move as a named method with its own worked example and named common mistake. The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).
 
 The What Works Clearinghouse practice guide on mathematics intervention in the elementary grades lists timed activities as one of six recommendations for building fluency, alongside systematic instruction and the use of number lines. The useful reading for an adult is that the clock belongs at the end of the process rather than the start: install the method untimed, then use timing to make it automatic.
 

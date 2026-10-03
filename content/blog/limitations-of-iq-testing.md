@@ -5,7 +5,13 @@
   "description": "Even a well-built battery, correctly administered, has hard limits: what it samples, what it cannot measure precisely, how it ages, what it should not decide.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, reported only task performance and contained no IQ estimate, percentile, classification, brain-age figure or assessment of any kind; the app, now IQ Test & Brain Training Games, includes an IQ-style test, a memory test, a reaction time test and a personality questionnaire whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now applies its limits to those results."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -71,8 +77,8 @@
       "answer": "No, and neither does the absence of one prove it is fair. Hope and colleagues analysed 2,773 questions across 13,694 candidates and found notable differential item functioning in only eight items, concluding that group-level performance differences could not be explained by unfairness at the question level. Item-level fairness and the origins of a group difference are separate questions."
     },
     {
-      "question": "Why does a practice app report only task performance?",
-      "answer": "Because that is the only thing it has any basis for reporting. Mental Math & Memory Games has no norm sample, no standardised conditions, no technical manual and no validity evidence, so it produces no score that could be interpreted as a measurement. It records what happened in a session — score, accuracy, streak, response time and personal bests."
+      "question": "How should you read the results in IQ Test & Brain Training Games?",
+      "answer": "As estimates, not measurements of the kind this article describes. The app includes an IQ-style test, a memory test and a reaction time test, and its Google Play listing calls their results estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments. The listing cites no norm sample, technical manual or validity evidence, and a test taken on your phone has no standardised conditions, so every limit above applies with more force, not less."
     }
   ],
   "sources": [
@@ -150,13 +156,13 @@ A 2026 framework paper in the *Journal of Intelligence* separates **incremental 
 
 The authors' conclusion is a discipline worth borrowing: testing should be conditional and sequential, used only where it can plausibly change what happens next. A score that cannot change a decision is not neutral — it consumes time, money and attention, and it confers unearned authority on whatever is done anyway.
 
-## Why our app reports task performance and nothing else
+## What the limits mean for our own app
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) is our own app, built by Reign Creative, and the limits above are the reason it makes no measurement claim at all.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) is our own app, built by Reign Creative, and it includes an IQ-style test, so the limits above apply to it directly.
 
-It has no norm sample, no standardised administration, no technical manual, no published reliability evidence and no validity studies. Lacking every one of those, there is nothing it could honestly convert its numbers into. So it does not: there is no IQ estimate, no percentile, no classification, no brain-age figure and no assessment of any kind in the product.
+Its IQ-style test covers numerical reasoning, logic, patterns, vocabulary, working memory, spatial reasoning and processing speed, and the app also has a memory test, a reaction time test and a personality questionnaire. Its Google Play listing states that these results are estimates based on app activities, not medical, psychological, clinical, educational-placement, employment or professional diagnostic assessments. The listing cites no norm sample, technical manual, reliability evidence or validity studies, and a test taken on a phone has no standardised administration, so a result from it carries every limit described above and should be read as an estimate from the app's own questions, never as a score to base a decision on.
 
-What it reports is what it can defend — score, accuracy, streak, response time and personal bests for a run of Multiplication Rush, Mixed Operations, a memory round set or a Daily Challenge. Those are **practice** statistics. Keeping them clearly apart from **standardised psychological assessment** is not a disclaimer bolted on afterwards; it is the reason the numbers are trustworthy for what they do cover. Our broader position on evidence in this category is set out in [do brain training apps work](/blog/do-brain-training-apps-work/).
+Its games report accuracy, streaks, response speed and personal bests against your own history. Those are **practice** statistics. Keeping them, and the test estimates, clearly apart from **standardised psychological assessment** is not a disclaimer bolted on afterwards; it is the only honest way to read them. Our broader position on evidence in this category is set out in [do brain training apps work](/blog/do-brain-training-apps-work/).
 
 ## What a careful reader takes away
 

@@ -5,7 +5,13 @@
   "description": "What GI measures, why glycemic load was introduced to fix its biggest flaw, and the practical limits that make both figures weaker than they look.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Keto Diet Tracker: Low Carb, subtracted erythritol, allulose and monk fruit and stored entries only on your device; the app, now Ketora: Keto Diet Carb Tracker, lists net carbs as total carbs minus fiber and sugar alcohols and does not say where it keeps your logs, which its AI coach reviews, so the article now says only what that listing supports."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": [
@@ -159,10 +165,10 @@ The relevant point from this article is a negative one: **a published glycemic i
 
 ## Where our apps fit
 
-[Keto Diet Tracker: Low Carb](/apps/keto-diet-tracker/) works in net carbs rather than glycemic index, subtracting fibre and sweeteners including erythritol, allulose and monk fruit from total carbohydrate as you log. That is a label-based calculation, applied consistently, which is what makes your own history comparable over time.
+[Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) works in net carbs rather than glycemic index, subtracting fibre and sugar alcohols from total carbohydrate as you log. That is a label-based calculation, applied consistently, which is what makes your own history comparable over time.
 
 [Protein Diet Tracker](/apps/protein-diet-tracker/) totals protein, calories and macros without any carbohydrate-quality weighting.
 
-Neither app calculates glycemic index or load, and neither interprets a blood glucose reading. Both are free to download on Google Play, supported by ads, and store entries on your device rather than on our servers.
+Neither app calculates glycemic index or load, and neither interprets a blood glucose reading. Both are free to download on Google Play and supported by ads, and Protein Diet Tracker stores entries on your device rather than on our servers.
 
 **This article is general information, not medical or dietary advice, and it has not been reviewed by a doctor or registered dietitian.** If you are managing diabetes or another condition affecting blood glucose, talk to a qualified healthcare professional. [How to read nutrition labels](/blog/reading-nutrition-labels/) covers what a package actually tells you, and [MedlinePlus](https://medlineplus.gov/carbohydrates.html) is a reliable general reference on carbohydrates. The rest of our nutrition tools are under [health and nutrition](/apps/category/health-nutrition/).

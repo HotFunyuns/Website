@@ -5,7 +5,13 @@
   "description": "Recall replaces computation, so the capacity spent working out 7 times 8 goes to the rest of the problem. That is the mechanism, and its limit.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no test, made no claim about the player's abilities and listed its full catalogue on its app page; the app, now IQ Test & Brain Training Games, includes an IQ-style test, a memory test and a reaction time test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so and points to the app page only for a description of the app."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -168,8 +174,8 @@ It does not follow that memorising tables raises intelligence, improves reasonin
 
 ## Where the app fits
 
-Mental Math & Memory Games, our own app at Reign Creative, is an educational game rather than an assessment of any kind — it contains no test, produces no score that means anything outside the app, and makes no claim about the player's abilities. What it does is give the fact practice described above a structure.
+IQ Test & Brain Training Games, our own app at Reign Creative, is an educational game. It does include an IQ-style test, a memory test and a reaction time test, but its Google Play listing describes their results as estimates based on app activities, not clinical or professional assessments. What its multiplication practice does is give the fact practice described above a structure.
 
-The flash-card deck for times tables covers every product from 2 × 2 to 12 × 12, dealt twelve cards per session, with each card self-graded as missed or got it — the self-testing loop above, with the marking done for you. Multiplication Rush runs the same material as timed drills, with difficulties starting at the 1–9 tables and stepping up through 1–12 before reaching two-digit products, and the Accuracy Trainer runs ten questions with no timer at all, with a hint and an explanation available on a miss. The technique library carries the tables as a named topic, on the argument that they are the alphabet the other methods are spelled in. The full catalogue is on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+The flash-card deck for times tables covers every product from 2 × 2 to 12 × 12, dealt twelve cards per session, with each card self-graded as missed or got it — the self-testing loop above, with the marking done for you. Multiplication Rush runs the same material as timed drills, with difficulties starting at the 1–9 tables and stepping up through 1–12 before reaching two-digit products, and the Accuracy Trainer runs ten questions with no timer at all, with a hint and an explanation available on a miss. The technique library carries the tables as a named topic, on the argument that they are the alphabet the other methods are spelled in. The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).
 
 A workable four-week route: two weeks of untimed flash cards on the 28 hard facts, then two weeks of short timed rounds at the 1–12 difficulty, keeping a list of whichever facts keep reappearing as misses. The wider sequence of methods that recall unlocks is in the [mental math practice guide](/blog/mental-math-training-guide/), with the rest of this material in the [mental math topic hub](/blog/topics/mental-math/) and under [education and brain training articles](/blog/category/education-brain/).

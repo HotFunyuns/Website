@@ -2,10 +2,16 @@
 {
   "title": "Low-Carb Tracking Apps Compared: The Subtraction, the Extras and the Subscription",
   "metaTitle": "Best Keto App: Low-Carb Trackers Compared",
-  "description": "Four low-carb trackers compared on net carb conventions, ketone and fasting logs, and where each one puts its paywall. Verified August 2026.",
+  "description": "Four low-carb trackers compared on net carb conventions, ketone and fasting logs, and where each one puts its paywall. Checked September and October 2026.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Keto Diet Tracker: Low Carb, had no paid tier, subtracted erythritol, allulose and monk fruit, sent carb-limit alerts, logged electrolytes, GKI and photos, kept monthly summaries and stored logs only on the device, and its description dated the research to August; the app, now Ketora: Keto Diet Carb Tracker, lists net carbs as total carbs minus fiber and sugar alcohols, keto recipes, a meal planner, an AI coach that reviews your logs and an optional Ketora Premium, and the comparison now describes only what that listing supports."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": [
@@ -76,11 +82,11 @@
     },
     {
       "question": "Is there a low-carb tracker with no subscription at all?",
-      "answer": "Keto Diet Tracker: Low Carb is free to download on Google Play, is supported by ads, and has no in-app purchases. Everything the app does — the net carb calculation, the barcode scanner, the meal planner, the ketone and fasting logs, the weekly and monthly summaries — is in that free download. Other apps in this category are structured differently, so read each vendor's current pricing page rather than assuming."
+      "answer": "Ketora: Keto Diet Carb Tracker is free to download on Google Play and supported by ads, and Google Play shows no in-app purchases for it. Its listing, though, describes an optional Ketora Premium that unlocks custom macro goals, advanced ketosis charts, unlimited keto recipes, the full meal planner and data export, while the core tracker, barcode scanner, food diary, calorie counter and fasting timer stay free; the listing does not say how Premium is priced. Other apps in this category are structured differently, so read each vendor's current pricing page rather than assuming."
     },
     {
       "question": "Can a keto app measure my ketone levels?",
-      "answer": "No. A phone cannot measure ketones. What these apps do is store a reading you took yourself with a blood meter, a urine strip or a breath meter, so it sits alongside the rest of your log. Keto Diet Tracker records blood, urine strip and breath readings including GKI, and it does not measure anything itself. A ketone reading is a number you collected, not a medical assessment."
+      "answer": "No. A phone cannot measure ketones. What these apps do is store a reading you took yourself with a blood meter, a urine strip or a breath meter, so it sits alongside the rest of your log. Ketora records blood, breath and urine strip readings you have taken yourself, and it does not measure anything itself. A ketone reading is a number you collected, not a medical assessment."
     },
     {
       "question": "Does Carb Manager have a free version?",
@@ -142,7 +148,7 @@ A general calorie counter and a low-carb tracker look almost identical on the su
 
 That subtraction is also the reason low-carb comparisons go wrong. People compare feature lists when the thing that actually determines their daily experience is a counting convention buried three screens down.
 
-**Disclosure:** this article is published by Reign Creative LLC. We make one of the four apps discussed below — Keto Diet Tracker: Low Carb — so we have a direct commercial interest in you installing it. The comparison is written to remain useful if you choose one of the others, and we have set out below the cases where one of the others is the better fit.
+**Disclosure:** this article is published by Reign Creative LLC. We make one of the four apps discussed below — Ketora: Keto Diet Carb Tracker — so we have a direct commercial interest in you installing it. The comparison is written to remain useful if you choose one of the others, and we have set out below the cases where one of the others is the better fit.
 
 Everything stated here about another company's product was read on that company's own website on **3 September 2026** and is limited to what those pages said. This category changes its packaging frequently; confirm current details with the vendor before deciding.
 
@@ -154,7 +160,7 @@ The practical consequence for choosing an app is this: **when a tracker shows yo
 
 So the first question is not "does this app do net carbs" — nearly all of them do — but "does it do them the way I intend to count, and does it do them without me thinking about it."
 
-[Keto Diet Tracker: Low Carb](/apps/keto-diet-tracker/) subtracts fiber along with erythritol, allulose and monk fruit from total carbohydrate each time you log a food, and it can alert you when a day passes a limit you set yourself. That is a stated convention rather than a hidden one, which is the property that matters: a number you can reproduce beats a number that is theoretically purer.
+[Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) subtracts fiber and sugar alcohols from total carbohydrate each time you log a food, shows net and total carbs side by side, and keeps a progress ring of how much of your daily limit is left. That is a stated convention rather than a hidden one, which is the property that matters: a number you can reproduce beats a number that is theoretically purer.
 
 ## What each app is built around
 
@@ -162,7 +168,7 @@ So the first question is not "does this app do net carbs" — nearly all of them
 
 Carb Manager's own site describes tracking net carbs, macros and micros, and going well beyond food: it names tracking for ketones, blood glucose and insulin, and for glycemic load and GKI, plus intermittent fasting. Its named sections include a Macros Tracker, Food Tracker, Meal Planner, Recipe Database, Keto Academy, Community, Exercise Portal, Advanced Insights and Health Integrations, with Fitbit and Garmin named among device syncs.
 
-Two things stand out from that list as genuine differentiators. The **Recipe Database and Meal Planner** are positioned as a large part of the product rather than an accessory, and there is a **Community** and a **Keto Academy** — social and educational components that no purely mechanical logger has. If you want the app to also be where you get recipes and where you talk to other people doing the same thing, that is a real reason to pick it, and it is a reason we cannot match.
+Two things stand out from that list as genuine differentiators. The **Recipe Database and Meal Planner** are positioned as a large part of the product rather than an accessory, and there is a **Community** and a **Keto Academy** — social and educational components that no purely mechanical logger has. If you want the app to also be where you get recipes and where you talk to other people doing the same thing, that is a real reason to pick it. Ours now has keto recipes and a meal planner too, but its listing describes no community or course content, so on that combination it cannot match.
 
 ### Cronometer
 
@@ -178,25 +184,25 @@ MyFitnessPal is the general tracker most people already have. It logs macros and
 
 The relevant detail for a low-carb reader is where its line falls. MyFitnessPal's own Premium page lists "Custom macros and goals" and an "Intermittent fasting tracker" among Premium features. Setting a specific carbohydrate target is the entire point of low-carb tracking, so which side of the paywall that sits on is not a minor packaging question. Read their current Premium page before assuming either way.
 
-### Keto Diet Tracker: Low Carb
+### Ketora: Keto Diet Carb Tracker
 
-Ours is built narrowly around the low-carb day. The net carb subtraction runs automatically on every entry, with an optional alert when a day passes the limit you chose. There is a low-carb food database and a barcode scanner for packaged items, custom foods and recipes for anything you cook, and a meal planner covering breakfast, lunch, dinner and desserts. A built-in macro calculator turns details you enter — age, height, weight, activity level — into starting fat, protein and net carb figures you are free to change.
+Ours is built around the low-carb day. The net carb subtraction — total carbohydrate minus fiber and sugar alcohols — runs automatically on every entry, with net and total carbs side by side and a progress ring showing how much of your daily limit is left. A barcode scanner fills in nutrition from a label, and you can save favourite meals, copy yesterday's entries and add custom foods. A few questions about your body and goals produce daily fat, protein, carb and calorie targets, and you can switch between strict keto, lazy keto and a flexible low-carb approach. Keto recipes show net carbs per serving, and a meal planner turns the week into a grocery list.
 
-Around the food sit the other logs: ketone readings you took yourself with blood, urine strips or a breath meter including GKI, an intermittent fasting timer, water, and sodium, potassium and magnesium. Body measurements, photo logs, charts and weekly and monthly summaries hold the history.
+Around the food sit the other logs: ketone readings you took yourself from blood, breath or urine strips, an intermittent fasting timer with 16:8, 18:6, 20:4, OMAD or custom windows, water, weight and body measurements. Charts and weekly insights hold the history, and the listing describes an AI coach that reviews your logs and suggests low-carb swaps and recipes.
 
-It is free to download on Google Play, supported by ads, and it has **no in-app purchases** — everything listed above is in that free download. No account is required, and logs are stored locally on your device rather than on our servers.
+It is free to download on Google Play and supported by ads, and Google Play shows **no in-app purchases** for it. Its listing, however, describes an optional **Ketora Premium** that unlocks custom macro goals, advanced ketosis charts, unlimited keto recipes, the full meal planner and data export; the core tracker, barcode scanner, food diary, calorie counter and fasting timer stay free.
 
-What it does not have: no wearable or device integrations, no community, no recipe marketplace or course content, and no full micronutrient panel beyond the electrolytes named above. Those are the trades we made to keep it a single-purpose log.
+What its listing does not describe: wearable or device integrations, a community, course content, electrolyte logging or a micronutrient panel. If any of those matters to you, one of the others is the better fit.
 
 ## The half of low-carb tracking that is not food
 
 This is where these apps separate more than they do on food logging, and it is under-discussed.
 
-**Ketone readings.** Blood meters, urine strips and breath meters each produce a number, and people who use them want that number next to the day it belongs to. Carb Manager names ketone, blood glucose, insulin and GKI tracking; ours records blood, urine strip and breath readings including GKI. Neither app measures anything — a phone cannot. It stores what you type in, and a reading is a data point you collected, not a medical result.
+**Ketone readings.** Blood meters, urine strips and breath meters each produce a number, and people who use them want that number next to the day it belongs to. Carb Manager names ketone, blood glucose, insulin and GKI tracking; ours records blood, breath and urine strip readings. Neither app measures anything — a phone cannot. It stores what you type in, and a reading is a data point you collected, not a medical result.
 
 **Fasting windows.** Fasting timers appear across the category but not always in the free tier: Cronometer's pricing page lists its Fasting Timer under Gold, MyFitnessPal's Premium page lists an intermittent fasting tracker under Premium, Carb Manager names intermittent fasting on its site, and ours includes a fasting timer in the free app. If you fast, check this specifically.
 
-**Water and electrolytes.** Sodium, potassium and magnesium get attention in low-carb circles that they do not get in general nutrition apps. Ours logs all three alongside water. We are not going to tell you what to do with those numbers — that is a conversation for a healthcare professional — but if you are tracking them, having them in the same record as the food is the difference between a habit and three apps.
+**Water and electrolytes.** Sodium, potassium and magnesium get attention in low-carb circles that they do not get in general nutrition apps. Ours logs water, but its current listing does not include electrolyte logging, so if you track those three you will need somewhere else to keep them. We are not going to tell you what to do with those numbers — that is a conversation for a healthcare professional — but if you are tracking them, having them in the same record as the food is the difference between a habit and three apps.
 
 ## Where the money is
 
@@ -205,9 +211,9 @@ This is where these apps separate more than they do on food logging, and it is u
 | Carb Manager | Their premium page lists a free Basic account and a paid Premium account, and highlights Premium extras including exclusive recipes, personalised meal plans and a video jumpstart course. The page's own comparison table did not clearly separate the tiers, so we have not stated which individual features are gated. |
 | Cronometer | Free Basic tier including barcode scanner and custom macro and micronutrient targets, with a seven-day reporting window; paid Gold tier adding photo and voice logging, a fasting timer, coaching and unlimited history. |
 | MyFitnessPal | Premium page lists ad-free logging, barcode and meal scan, voice and multi-day logging, custom macros and goals, an intermittent fasting tracker and downloadable progress reports; a Premium+ tier adds meal planning and grocery lists. |
-| Keto Diet Tracker: Low Carb | Free to download, supported by ads, no in-app purchases. |
+| Ketora: Keto Diet Carb Tracker | Our own listing, read on 2 October 2026: free to download and supported by ads, with no in-app purchases shown by Google Play, but the listing describes an optional Ketora Premium (custom macro goals, advanced ketosis charts, unlimited keto recipes, the full meal planner and data export). |
 
-The pattern is worth naming without judging it: the general-purpose trackers monetise through subscriptions and put some target-setting and automation behind them, while ours monetises through ads and puts everything in the download. Ads are not free either — they cost you attention and screen space. Which cost you would rather pay is a genuine preference, and people split on it.
+The pattern is worth naming without judging it: the general-purpose trackers monetise through subscriptions and put some target-setting and automation behind them. Ours is supported by ads, and its listing also describes an optional Premium tier with custom macro goals among the extras, so the comparison is about where each line falls rather than whether there is one. Ads are not free either — they cost you attention and screen space. Which cost you would rather pay is a genuine preference, and people split on it.
 
 ## Who is better served elsewhere
 
@@ -217,7 +223,7 @@ The pattern is worth naming without judging it: the general-purpose trackers mon
 
 **Pick MyFitnessPal if** you are already logging there, most of your food is packaged, and low-carb is one phase in a longer relationship with a general tracker.
 
-**Pick [Keto Diet Tracker: Low Carb](/apps/keto-diet-tracker/) if** you want the net carb subtraction handled with a stated rule, you log ketones or fasting windows or electrolytes, and you would rather have ads than a subscription.
+**Pick [Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) if** you want the net carb subtraction handled with a stated rule, you log ketones or fasting windows, and you would rather start from an ad-supported app whose core tracker, scanner, diary and fasting timer stay free.
 
 **Pick a different tool entirely if** carbohydrate is not actually your constraint. If you are chasing a protein target rather than a carb ceiling, a general protein log is a better fit — [Protein Diet Tracker](/apps/protein-diet-tracker/) is ours, [how to track protein intake](/blog/how-to-track-protein-intake/) covers the habit, and the rest of the range sits under [health and nutrition](/apps/category/health-nutrition/).
 
@@ -229,6 +235,6 @@ They also cannot make an estimate exact. If you want to sanity-check what an app
 
 ## How we checked, and a note on names
 
-Every statement above about Carb Manager, Cronometer and MyFitnessPal was read on those companies' own websites on 3 September 2026 and is reported as what those pages said. Where a page was unclear — as Carb Manager's tier table was — we have said so rather than filled the gap with an assumption. We have not tested the other apps' interfaces, and we make no claims about their speed, accuracy or database contents. No screenshots, icons or brand styling appear here.
+Every statement above about Carb Manager, Cronometer and MyFitnessPal was read on those companies' own websites on 3 September 2026 and is reported as what those pages said. Statements about our own app were re-checked against its Google Play listing on 2 October 2026, after it was renamed and its listing rewritten. Where a page was unclear — as Carb Manager's tier table was — we have said so rather than filled the gap with an assumption. We have not tested the other apps' interfaces, and we make no claims about their speed, accuracy or database contents. No screenshots, icons or brand styling appear here.
 
 Carb Manager, Cronometer, MyFitnessPal and all other product names and trademarks mentioned are the property of their respective owners. Their use here is nominative — for identification of the products discussed — and implies no affiliation, sponsorship, partnership or endorsement in either direction.

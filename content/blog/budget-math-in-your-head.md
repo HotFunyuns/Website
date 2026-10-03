@@ -5,7 +5,13 @@
   "description": "Round every price up, never to the nearest. Biased rounding keeps your running total above the real figure, which is the only property a budget needs.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, was not an assessment of anything and that the figures it keeps describe nothing beyond drill performance; the app, now IQ Test & Brain Training Games, also has an IQ-style test and other tests whose results its Google Play listing calls estimates rather than clinical or professional assessments, so the sentence now describes only what its drills record."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -163,8 +169,8 @@ The per-unit question of which size to buy is a different calculation entirely, 
 
 ## Practising it under time pressure
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/), which is our own app, built by Reign Creative, ships Budget Speed Math — a 75-second timed mode with Easy, Medium and Hard settings — and a Change-Making Challenge on the same clock, using an "Amount spent" difficulty. The pairing matters, because the two halves of a shop are a running total and a change calculation, and they fail differently.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/), which is our own app, built by Reign Creative, ships Budget Speed Math — a 75-second timed mode with Easy, Medium and Hard settings — and a Change-Making Challenge on the same clock, using an "Amount spent" difficulty. The pairing matters, because the two halves of a shop are a running total and a change calculation, and they fail differently.
 
 Two entries in the techniques library sit directly behind this article. Running Totals is the hold-one-number rule quoted above. Rounding Estimation covers the neutral version — round each number to a friendly value, do the easy version, then judge whether the true answer is a touch more or less — which is the discipline you deliberately abandon when a budget is the goal. Each technique carries steps, a worked example, a "best for" note, a named common mistake and a two-question mini quiz.
 
-The app is an educational game and a practice tool rather than financial advice or an assessment of anything, and the figures it keeps — score, accuracy, streak, response time and personal bests — describe drill performance and nothing else.
+The app is an educational game and a practice tool rather than financial advice, and the figures its drills keep — score, accuracy, streak, response time and personal bests — describe drill performance and nothing else.

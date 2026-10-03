@@ -5,7 +5,13 @@
   "description": "Icing explained: the red-line rule, touch versus automatic variants, the exceptions, and why the consequence matters more than the whistle.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said every league, team and player in our games is fictional. That is true of our career sims, but our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The sentence has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -43,7 +49,9 @@
     "hockey-positions-explained",
     "power-play-and-penalty-kill",
     "hockey-line-combinations-explained",
-    "hockey-career-sim-guide"
+    "hockey-career-sim-guide",
+    "offside-in-hockey",
+    "hockey-rules-for-beginners"
   ],
   "takeaways": [
     "Icing is shooting the puck from behind the centre red line past the opposing goal line without it being touched, and it stops play.",
@@ -160,4 +168,4 @@ In [Hockey Career Sim 2026](/apps/hockey-career-sim/) and [84-0 Hockey Draft & G
 
 Understanding why those effects exist makes the model's behaviour legible instead of arbitrary. [Hockey positions explained](/blog/hockey-positions-explained/) covers who is responsible for what when the puck is in your own end, and [the Hockey Career Sim 2026 guide](/blog/hockey-career-sim-guide/) covers how deployment shapes a career.
 
-Every league, team and player in our games is fictional. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+Our career sims are set in fictional leagues with fictional teams and players; our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, team or athlete. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).

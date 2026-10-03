@@ -196,7 +196,7 @@ A memorised trick works on the cases it was memorised for and fails silently out
 
 These respond to short, frequent practice with immediate feedback — retrieval and spacing, both well supported in the learning literature ([Dunlosky et al.](https://pubmed.ncbi.nlm.nih.gov/26173288/) on technique effectiveness, [Cepeda et al.](https://pubmed.ncbi.nlm.nih.gov/16719566/) on distributed practice).
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) is built for that format — short sessions, immediate right-or-wrong feedback, repeated over time. It is free to download on Google Play, supported by ads, with optional in-app purchases.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) is built for that format — short sessions, immediate right-or-wrong feedback, repeated over time. It is free to download on Google Play, supported by ads, with optional in-app purchases.
 
 **We are not claiming this makes you smarter generally.** The evidence for transfer from arithmetic practice to unrelated cognitive abilities is weak, and [working memory and training](/blog/working-memory-and-training/) covers that literature including where it undercuts claims made in this app category. What practice reliably improves is arithmetic.
 

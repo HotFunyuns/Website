@@ -5,7 +5,13 @@
   "description": "Inside a sports sim: how ratings become probabilities, where randomness enters, the two main engine designs, and what a simulated record does and does not mean.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described 162-0 Baseball Draft & GM Team and Pro Basketball GM Franchise as fictional simulations built on generated player pools. Both build their draft pools from real-world players' careers, with ratings that are the games' own estimates, and neither is affiliated with or endorsed by any league, team or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -47,7 +53,8 @@
     "baseball-stats-explained-for-beginners",
     "how-fantasy-draft-strategy-works",
     "baseball-draft-gm-guide",
-    "batting-order-strategy-explained"
+    "batting-order-strategy-explained",
+    "has-any-team-gone-162-0"
   ],
   "takeaways": [
     "Every sports simulation has the same three layers: numeric inputs describing the roster, a model that converts those numbers into probabilities, and a sampling step that turns probabilities into one concrete result.",
@@ -81,7 +88,7 @@
     },
     {
       "question": "Are these games based on real players or leagues?",
-      "answer": "No. 162-0 Baseball Draft & GM Team and Pro Basketball GM Franchise are fictional sports simulations built on generated player pools, and they are not affiliated with, endorsed by or connected to any real league, team or athlete."
+      "answer": "Their player pools are. 162-0 Baseball Draft & GM Team and Pro Basketball GM Franchise build their draft pools from real players' careers, with ratings that are the games' own estimates rather than official statistics, and neither is affiliated with, endorsed by or licensed by any league, team, players' association or athlete."
     }
   ],
   "sources": [

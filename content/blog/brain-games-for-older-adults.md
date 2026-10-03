@@ -5,7 +5,13 @@
   "description": "What systematic reviews actually found about computerised brain training in later life, and the four design features that decide whether a drill is usable.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, produced no IQ estimate, brain-age figure, percentile or age comparison and contained no cognitive assessment, reaction test or personality test; the app, now IQ Test & Brain Training Games, includes an IQ-style test, a memory test, a reaction time test and a personality questionnaire whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so and no longer says the app page lists the modes it describes."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -55,7 +61,7 @@
     "The 2017 National Academies report placed cognitive training among three intervention classes supported by encouraging although inconclusive evidence, while stating that there is no evidence the long-term effects suggested by the ACTIVE trial apply to computer-based brain training applications.",
     "A 2014 consensus statement signed by a large group of scientists concluded there is little evidence that playing brain games improves underlying broad cognitive abilities, and singled out claims about preventing or reversing Alzheimer's disease as unsupported.",
     "Four design features decide whether a drill is usable rather than discouraging: an untimed alternative to every timed round, a genuinely gentle starting level, difficulty that adapts without dropping below a floor, and offline play.",
-    "Mental Math & Memory Games produces no brain-age number, no percentile, no cognitive assessment and no age comparison of any kind. It is an educational game that records performance on its own drills."
+    "IQ Test & Brain Training Games, our own app, includes an IQ-style test, a memory test and a reaction time test, and its listing describes their results as estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments; treat any figure it shows as a practice record, not a verdict on cognitive health."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -136,7 +142,7 @@ The US Federal Trade Commission's [January 2016 action against Lumos Labs](https
 
 This is where a product choice actually matters, and it has nothing to do with cognitive claims.
 
-**An untimed alternative to every timed round.** A countdown turns an arithmetic question into a test of speed, and speed is the dimension most likely to feel unfair. Mental Math & Memory Games — our own app, built by Reign Creative — ships untimed accuracy rounds with feedback and an optional hint on each question, which can stand in for a sprint on any topic. If a product's only formats are timed, it is designed for a different reader.
+**An untimed alternative to every timed round.** A countdown turns an arithmetic question into a test of speed, and speed is the dimension most likely to feel unfair. IQ Test & Brain Training Games — our own app, built by Reign Creative — ships untimed accuracy rounds with feedback and an optional hint on each question, which can stand in for a sprint on any topic. If a product's only formats are timed, it is designed for a different reader.
 
 **A starting level that is genuinely gentle.** Many apps label a level "easy" and then present it at a pace that is not. Look at what the easiest setting physically does. In our memory modes the first of seven levels runs three to four items on a two-by-two grid with a slow reveal, and the levels above it change sequence length, grid size and how long an item stays on screen. Those are mechanical differences you can check, rather than a label.
 
@@ -146,11 +152,11 @@ This is where a product choice actually matters, and it has nothing to do with c
 
 A fifth consideration is length. Short sessions are better supported by the evidence on practice than long ones, and easier to sustain: [how long a brain training session should be](/blog/how-long-a-brain-training-session-should-be/) covers the dose question, and the answer — five to fifteen minutes — is as true at seventy as at thirty.
 
-## What this app does not do
+## What this app's results do not tell you
 
 Stated plainly, because inference is not good enough on this subject.
 
-Mental Math & Memory Games does not produce a brain-age figure, a cognitive age, a percentile, an IQ estimate or any comparison against an age group. It contains no cognitive assessment, no reaction test and no personality test. What it records is score, accuracy, streak, response time and personal bests on its own drills, and a session history. Those are game statistics about generated questions; they are not a measurement of anything about you, and they should never be read as one. [How to track practice progress without fooling yourself](/blog/how-to-track-practice-progress/) covers what they can and cannot support.
+IQ Test & Brain Training Games includes an IQ-style test, a memory test, a reaction time test and a personality questionnaire with a Big Five profile, alongside its games. Its Google Play listing states that the IQ test, personality test, memory test and other results are estimates based on app activities, not medical, psychological, clinical, educational-placement, employment or professional diagnostic assessments. Its drills record score, accuracy, streak, response time and personal bests, and the app keeps a history of results to compare against. Whatever figure it shows, treat it as a record of how you did on the app's own questions that day — not a measurement of cognitive health, and never a substitute for one. [How to track practice progress without fooling yourself](/blog/how-to-track-practice-progress/) covers what those numbers can and cannot support.
 
 If you want a cognitive concern assessed, that is a conversation with a qualified professional, and no app is a substitute for it.
 
@@ -160,4 +166,4 @@ If you are choosing something for yourself or for a relative, three suggestions.
 
 Start untimed and accurate rather than timed and fast; [accuracy before speed](/blog/accuracy-before-speed/) explains why that order holds generally. Pick a product whose feature list matches what you actually want to practise rather than the one with the longest list — [brain training apps compared](/blog/brain-training-apps-compared/) sets out what each publisher documents. And treat the consensus statement's point about opportunity cost seriously: it recommends considering that "if an hour spent doing solo software drills is an hour not spent hiking, learning Italian, making a new recipe, or playing with your grandchildren, it may not be worth it."
 
-That is not an argument against doing it. It is an argument for doing it because you enjoy it and because getting quicker with numbers is genuinely useful in shops, kitchens and conversations — and for not expecting it to do anything more. The cornerstone article [do brain training apps work](/blog/do-brain-training-apps-work/) covers the general evidence in more depth, the rest of the practical writing is in the [brain training games hub](/blog/topics/brain-training-games/) and the [education and brain category](/blog/category/education-brain/), and the modes themselves are listed on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+That is not an argument against doing it. It is an argument for doing it because you enjoy it and because getting quicker with numbers is genuinely useful in shops, kitchens and conversations — and for not expecting it to do anything more. The cornerstone article [do brain training apps work](/blog/do-brain-training-apps-work/) covers the general evidence in more depth, the rest of the practical writing is in the [brain training games hub](/blog/topics/brain-training-games/) and the [education and brain category](/blog/category/education-brain/), and the app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

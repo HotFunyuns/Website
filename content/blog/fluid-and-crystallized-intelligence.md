@@ -148,7 +148,7 @@ That is a rare case of a methodological argument with a clear practical lesson: 
 
 ## Where a practice app's content falls, honestly
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) is our own app, built by Reign Creative, and the mapping below is offered as an **analogy to help you place your own activities**. It is not a measurement, and no claim is being made about either ability.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) is our own app, built by Reign Creative, and the mapping below is offered as an **analogy to help you place your own activities**. It is not a measurement, and no claim is being made about either ability.
 
 Content that leans crystallised: the 49-technique library, where a method such as a percentage shortcut is learned and then retrieved; the Flash Cards decks for times tables and common percentages; and every mode where the win condition is recall rather than derivation. Committing 7 × 8 to memory converts a calculation into a lookup, and a lookup is stored knowledge.
 

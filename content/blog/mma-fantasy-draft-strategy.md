@@ -5,7 +5,13 @@
   "description": "Drafting fighters rewards style coverage and weight-class spread over star power. How to build a stable that keeps winning matchups.",
   "status": "published",
   "publishedAt": "2026-09-15",
-  "updatedAt": "2026-09-15",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described the fighters in 40-0 MMA & Boxing Fight Draft as fictional and generated. 40-0 MMA & Boxing Fight Draft builds its fighter pools from real fighters' careers, with ratings and records that are the game's own estimates, and is not affiliated with or endorsed by any promotion, sanctioning body or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": ["mma", "draft", "strategy", "fantasy"],
@@ -37,7 +43,9 @@
     "how-fantasy-draft-strategy-works",
     "mma-weight-classes-explained",
     "style-matchups-in-a-fight-simulator",
-    "striking-vs-grappling-in-mma"
+    "striking-vs-grappling-in-mma",
+    "undefeated-records-in-boxing-and-mma",
+    "unified-rules-of-mma-explained"
   ],
   "takeaways": [
     "Team-sport draft advice does not transfer cleanly, because a stable's members never play together - each one is evaluated alone against one opponent.",
@@ -123,7 +131,7 @@ As covered in [southpaw versus orthodox](/blog/southpaw-vs-orthodox/), stance in
 
 We tried exposing an expected stance value on the card during development and removed it. It taught the wrong lesson: drafters learned to collect southpaws, which produced stables whose advantage evaporated as soon as the fights were made. Withholding the number was the only way to make the underlying truth visible — that stance is a property of a pairing.
 
-The same logic applies to the era field. It is informational. Drafting across eras is one of the genuine pleasures of a fictional pool, and it is also a comparison that has no answer outside a model, so the game does not pretend there is a hidden era bonus to be mined.
+The same logic applies to the era field. It is informational. Drafting across eras is one of the genuine pleasures of a simulated draft, and it is also a comparison that has no answer outside a model, so the game does not pretend there is a hidden era bonus to be mined.
 
 ## A practical drafting order
 
@@ -145,4 +153,4 @@ In **Unlimited**, you can search, so coverage is achievable through persistence 
 
 The **single-sport drafts** change the arithmetic again. In Boxing Only, the grappling half of the coverage checklist disappears and what replaces it is stance, distance and pace. In MMA Only, coverage widens rather than narrows, because there are more ways to lose.
 
-The fighters in the game are fictional and generated inside it. It is not affiliated with, endorsed by or connected to any real promotion, sanctioning body, event or athlete, and no draft or result describes or predicts anything real. The rest of the studio's draft games are under [sports GM](/apps/category/sports-gm/).
+The game's fighter pools are built from real fighters' careers, with ratings and records that are the game's own estimates. It is not affiliated with, endorsed by or licensed by any promotion, sanctioning body, event or athlete, and no draft or result predicts anything real. The rest of the studio's draft games are under [sports GM](/apps/category/sports-gm/).

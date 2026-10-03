@@ -44,7 +44,8 @@
     "tennis-career-sim-guide",
     "tennis-ranking-decay-and-scheduling",
     "junior-circuit-to-pro-tour-path",
-    "playing-the-big-points-in-tennis"
+    "playing-the-big-points-in-tennis",
+    "tennis-code-violations-and-shot-clock"
   ],
   "takeaways": [
     "The Rules of Tennis define coaching very broadly - 'advice or instruction of any kind and by any means to a player' - which is why the regulation is about timing and setting rather than about content.",

@@ -5,7 +5,13 @@
   "description": "Label tolerances, crowd-sourced entries, natural variation and preparation differences — why the same food shows different numbers in different apps.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Keto Diet Tracker: Low Carb, let you add custom recipes, that neither of our apps claims database perfection, and that both store entries on your device; the app, now Ketora: Keto Diet Carb Tracker, has a listing that calls its food database large and verified and its net carbs accurate and does not say where it keeps the logs its AI coach reviews, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": [
@@ -162,12 +168,12 @@ What follows practically:
 
 ## Where our apps fit
 
-[Keto Diet Tracker: Low Carb](/apps/keto-diet-tracker/) includes a low-carb food database and a barcode scanner for packaged items, plus custom foods and recipes for anything you make yourself. Custom entries are the most reliable option available to you, because you control what goes into them.
+[Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) includes a barcode scanner for packaged items, plus custom foods and saved meals for anything you make yourself. Custom entries are the most reliable option available to you, because you control what goes into them.
 
 [Protein Diet Tracker](/apps/protein-diet-tracker/) totals what you enter into daily protein, calorie and macro figures with a history behind it, and is built for speed of entry — because the practical failure mode of tracking is abandonment rather than imprecision. [How to track protein intake](/blog/how-to-track-protein-intake/) covers building that habit.
 
-Neither app claims database perfection, and we would rather say why than imply a precision the underlying data cannot support.
+Ketora's Google Play listing describes its scanner as backed by a large, verified food database and promises accurate net carbs. For the reasons this article sets out, no database entry can be guaranteed to match the food in front of you, ours included, and we would rather say why than imply a precision the underlying data cannot support.
 
-Both are free to download on Google Play, supported by ads, and store entries on your device rather than on our servers.
+Both are free to download on Google Play and supported by ads, and Protein Diet Tracker stores entries on your device rather than on our servers.
 
 **This article is general information, not medical or dietary advice, and it has not been reviewed by a doctor or registered dietitian.** If you are tracking intake for a medical reason, a registered dietitian can advise on how precise your records actually need to be. The rest of our nutrition tools are under [health and nutrition](/apps/category/health-nutrition/).

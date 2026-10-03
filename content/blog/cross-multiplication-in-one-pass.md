@@ -5,7 +5,13 @@
   "description": "A digit-by-digit multiplication that produces the answer right to left with running carries, instead of building partial products and adding them at the end.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the full catalogue of our app, then called Mental Math & Memory Games, is on its app page; that page, now for IQ Test & Brain Training Games, describes the app without listing individual drills or techniques, and the sentence now points there only for a description of the app."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -193,6 +199,6 @@ Use vertically and crosswise when both numbers are genuinely awkward and no shor
 
 ## Practising it
 
-Mental Math & Memory Games, our own app at Reign Creative, carries this method in its technique library alongside its close relatives, each with steps, a worked example and a named common mistake, and the drills to apply it in Multiplication Rush, whose difficulties climb from the 1–9 tables through 1–12, then two-digit by one-digit and two-digit by two-digit products. The untimed Accuracy Trainer is the better setting while the carry handling is still new, since a clock rewards whichever method you already had. The full catalogue is on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+IQ Test & Brain Training Games, our own app at Reign Creative, carries this method in its technique library alongside its close relatives, each with steps, a worked example and a named common mistake, and the drills to apply it in Multiplication Rush, whose difficulties climb from the 1–9 tables through 1–12, then two-digit by one-digit and two-digit by two-digit products. The untimed Accuracy Trainer is the better setting while the carry handling is still new, since a clock rewards whichever method you already had. The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).
 
 The sensible progression is to fix the table facts first, then drill two-digit by two-digit products with small digits until the three columns are automatic, then deliberately seek out the large-digit cases where the middle carry exceeds nine. The order in which the methods are worth learning is set out in the [mental math practice guide](/blog/mental-math-training-guide/); the rest of this material sits in the [mental math topic hub](/blog/topics/mental-math/) and under [education and brain training articles](/blog/category/education-brain/).

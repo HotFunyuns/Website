@@ -5,7 +5,13 @@
   "description": "What happens when a hockey team is short-handed: minor and major penalties, how a power play ends, and why special teams decide so many games.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said every league, team and player in our games is fictional. That is true of our career sims, but our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The sentence has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -19,8 +25,7 @@
     "penalty kill explained",
     "hockey minor penalty",
     "five on four hockey",
-    "special teams hockey",
-    "hockey penalty types"
+    "special teams hockey"
   ],
   "intent": "informational",
   "longTailKeywords": [
@@ -44,7 +49,9 @@
     "what-is-icing-in-hockey",
     "hockey-positions-explained",
     "hockey-line-combinations-explained",
-    "plus-minus-and-hockey-stats"
+    "plus-minus-and-hockey-stats",
+    "nhl-84-game-season",
+    "what-is-expected-goals-in-hockey"
   ],
   "takeaways": [
     "A power play is a period during which one team has more skaters on the ice because the other is serving a penalty.",
@@ -157,4 +164,4 @@ That is one of several reasons to treat plus/minus carefully, covered properly i
 
 In [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/), special-teams capability is part of what a roster needs to cover, in the same way depth at each position is. In [Hockey Career Sim 2026](/apps/hockey-career-sim/), being trusted with penalty-kill or power-play minutes is a signal that your development is working — special-teams deployment is one of the clearest indications that a coaching model rates you.
 
-[Hockey positions explained](/blog/hockey-positions-explained/) covers the roles these units are built from. Every league, team and player in our games is fictional, and the catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+[Hockey positions explained](/blog/hockey-positions-explained/) covers the roles these units are built from. Our career sims are set in fictional leagues with fictional teams and players; our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, team or athlete. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).

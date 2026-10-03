@@ -5,7 +5,13 @@
   "description": "What a sports career mode really simulates: progression curves, opportunity gating, situational sampling, and the loop between playing time and development.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said every league, team and player in all of Reign Creative's sports games is fictional. That is true of the career sims this answer is about, but the draft and GM games build their player pools from real-world athletes' careers. The answer has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -75,7 +81,7 @@
     },
     {
       "question": "Do our career sims use real players or leagues?",
-      "answer": "No. Every league, team and player in Reign Creative's sports games is fictional. Nothing in them is affiliated with, endorsed by or licensed from any real league, club or athlete."
+      "answer": "No. Every league, team and player in Reign Creative's career sims is fictional, and nothing in them is affiliated with, endorsed by or licensed from any real league, club or athlete. The studio's draft and GM games are different: their player pools are built from real-world athletes' careers."
     }
   ],
   "sources": [

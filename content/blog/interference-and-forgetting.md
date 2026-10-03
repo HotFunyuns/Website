@@ -5,7 +5,13 @@
   "description": "Forgetting is often competition rather than decay. What proactive and retroactive interference are, how big the effect is, and how switching content helps.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no assessment of any kind; the app, now IQ Test & Brain Training Games, also has a memory test, a reaction time test and an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -54,7 +60,7 @@
     "Craig, Berman, Jonides and Lustig found that interference depends on task relevance: similarity disrupts performance only along the dimensions the current task actually needs, so making the old material irrelevant releases you from it.",
     "The size of the effect is real but moderate. Hartshorne measured capacity estimates dropping about 17% from low to high interference in one experiment and about 12% from the first to the tenth trial in a large sample, with item-specific interference decaying within four or five trials.",
     "It is also context-dependent: Lin and Luck concluded that proactive interference does not meaningfully distort capacity estimates in the canonical change detection task, so the effect is not uniform across every memory paradigm.",
-    "Mental Math & Memory Games builds interference into several modes on purpose, including rotating endless rounds, a back-to-back memory boss rush, and a running-total mode where every new number overwrites the last."
+    "IQ Test & Brain Training Games builds interference into several modes on purpose, including rotating endless rounds, a back-to-back memory boss rush, and a running-total mode where every new number overwrites the last."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -143,7 +149,7 @@ Both results can be true because the paradigms differ in exactly the way Craig a
 
 ## Interference as a game mechanic
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and several of its modes create interference deliberately rather than by accident. It is worth naming them because they make the phenomenon easy to feel.
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and several of its modes create interference deliberately rather than by accident. It is worth naming them because they make the phenomenon easy to feel.
 
 **Running Total Memory** presents numbers one at a time and asks you to hold the total. Every new number overwrites the last total, and holding both the list and the running sum is precisely the mistake that makes the mode hard. Take the run 7, 4, 9, 6: the totals are 7, then 11, then 20, then 26. Hold only the current total and the task is four easy additions. Hold the digits as well and you have eight competing items in a store that fits three to five.
 
@@ -151,7 +157,7 @@ Mental Math & Memory Games is our own app, built by Reign Creative, and several 
 
 **Delayed Answer Challenge** inserts a blank pause between solving a problem and typing the answer, which is the classic way of showing that an answer you definitely had can still be gone moments later.
 
-None of these is a test. The app records score, accuracy, streak, response time and personal bests, and it contains no assessment of any kind. What the modes offer is a demonstration you can feel in ninety seconds, which is more convincing than a diagram.
+These are game modes. Alongside them the app keeps personal bests, accuracy, streaks and response speed, and it also has a memory test, a reaction time test and an IQ-style test whose results its listing describes as estimates based on app activities, not clinical or professional assessments. What the modes offer is a demonstration you can feel in ninety seconds, which is more convincing than a diagram.
 
 ## What to do about it
 
@@ -168,4 +174,4 @@ Dates are the textbook case of all four, because a long list of four-digit numbe
 
 If forgetting is competition, then the question changes from "how do I hold more?" to "how do I make this one easier to pick out?". The first question runs into a hard capacity limit described in [working memory and training](/blog/working-memory-and-training/). The second is a design problem, and design problems have solutions.
 
-More on span, encoding and attention is collected in the [memory and attention hub](/blog/topics/memory-and-attention/), the arithmetic side of the same app is covered across the [education and brain training category](/blog/category/education-brain/), and the modes described above are in [Mental Math & Memory Games](/apps/mental-math-memory-games/).
+More on span, encoding and attention is collected in the [memory and attention hub](/blog/topics/memory-and-attention/), the arithmetic side of the same app is covered across the [education and brain training category](/blog/category/education-brain/), and the modes described above are in [IQ Test & Brain Training Games](/apps/mental-math-memory-games/).

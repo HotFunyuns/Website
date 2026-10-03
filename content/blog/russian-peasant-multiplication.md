@@ -5,7 +5,13 @@
   "description": "Halve one number, double the other, discard remainders, then add the rows where the halved side is odd. It works because that column is binary.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the full catalogue of math and memory modes in our app, then called Mental Math & Memory Games, is shown on its app page; that page, for the app now named IQ Test & Brain Training Games, describes its features without listing individual modes, so the sentence now simply points to it."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -180,6 +186,6 @@ One practical caution: the discarded remainders make this method unforgiving of 
 
 ## Where the app fits
 
-Mental Math & Memory Games, our own app at Reign Creative, has no mode that builds this table for you; it is a pencil-and-paper algorithm, and a timed drill is the wrong container for it. What the app does carry is the method in its technique library, written out with its steps, a worked example and its named common mistake, next to the drills that make its two ingredients automatic: Multiplication Rush and Division Dash cover the doubling and halving, and the untimed Accuracy Trainer runs ten questions at a time with an explanation available when one goes wrong. The full catalogue of math and memory modes is on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+IQ Test & Brain Training Games, our own app at Reign Creative, has no mode that builds this table for you; it is a pencil-and-paper algorithm, and a timed drill is the wrong container for it. What the app does carry is the method in its technique library, written out with its steps, a worked example and its named common mistake, next to the drills that make its two ingredients automatic: Multiplication Rush and Division Dash cover the doubling and halving, and the untimed Accuracy Trainer runs ten questions at a time with an explanation available when one goes wrong. The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).
 
 If you want the method for its own sake, work three or four products on paper, then reconstruct the binary expansion from each table and confirm it matches the original number. That check is the method's real content. For the arithmetic that is actually worth drilling daily, the [mental math practice guide](/blog/mental-math-training-guide/) puts the methods in order, and the rest of this material sits in the [mental math topic hub](/blog/topics/mental-math/) and under [education and brain training articles](/blog/category/education-brain/).

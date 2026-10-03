@@ -5,7 +5,13 @@
   "description": "Round an awkward number, do the easy sum, then undo the change. The hard part is the undo, and the direction differs between addition and subtraction.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app's full arithmetic and memory catalogue could be seen on its app page; that page, for the app now called IQ Test & Brain Training Games (previously Mental Math & Memory Games), describes the app without listing its individual drills, and the sentence now points to it as a description of the app."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -157,9 +163,9 @@ Multiplication has its own compensation family — multiply by the round number,
 
 ## Building the habit
 
-The method only becomes useful when the decision is automatic, and that takes repetition on numbers you did not choose. Mental Math & Memory Games, our own app at Reign Creative, drills exactly the shapes this method is for: Addition Sprint runs single-digit, two-digit, three-digit and mixed chains against a 60-second clock, Subtraction Sprint includes a borrowing-practice difficulty where compensation and its alternatives both apply, and the Accuracy Trainer runs ten questions with no timer at all, with a hint and an explanation available, which is the right setting for a method you are still getting backwards.
+The method only becomes useful when the decision is automatic, and that takes repetition on numbers you did not choose. IQ Test & Brain Training Games, our own app at Reign Creative, drills exactly the shapes this method is for: Addition Sprint runs single-digit, two-digit, three-digit and mixed chains against a 60-second clock, Subtraction Sprint includes a borrowing-practice difficulty where compensation and its alternatives both apply, and the Accuracy Trainer runs ten questions with no timer at all, with a hint and an explanation available, which is the right setting for a method you are still getting backwards.
 
-The app's technique library carries compensation as two separate entries — one for addition, one for subtraction — for the same reason this article splits them: the correction direction is not shared, and teaching them as one rule is what produces the reversal. You can see the app's full arithmetic and memory catalogue on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+The app's technique library carries compensation as two separate entries — one for addition, one for subtraction — for the same reason this article splits them: the correction direction is not shared, and teaching them as one rule is what produces the reversal. The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).
 
 Practise it in one direction at a time. Do twenty additions with a rounded addend until the correction stops needing thought, then twenty subtractions where only the subtrahend moves, then twenty where only the minuend moves. Mixing all three before any of them is automatic is how the rule gets blurred in the first place.
 

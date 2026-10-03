@@ -5,7 +5,13 @@
   "description": "What a forward line and a defence pair are actually for, how coaches deploy them, and why a lineup of good players can still be a bad combination.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described 84-0 Hockey Draft & GM Manager as a generic simulator built on fictional, generated players. 84-0 Hockey Draft & GM Manager builds its player pool from real-world athletes' careers, with ratings that are the game's own estimates, and is not affiliated with or endorsed by any league, team or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -81,7 +87,7 @@
     },
     {
       "question": "Do hockey draft games use real players and teams?",
-      "answer": "No. 84-0 Hockey Draft & GM Manager is a generic simulator built on fictional players, and it is not affiliated with, endorsed by or connected to any real league, team or athlete. Because there are no names to recognise, the drafting comes down to judging attributes and how well a lineup fits together — which is the skill this article is about."
+      "answer": "84-0 Hockey Draft & GM Manager builds its draft pool from real players' careers, with ratings that are the game's own estimates rather than official statistics, and it is not affiliated with, endorsed by or licensed by any league, team, players' association or athlete. Recognising a name does not tell you whether a player suits your lines, so the drafting still comes down to judging attributes and how well a lineup fits together — which is the skill this article is about."
     }
   ],
   "sources": []
@@ -182,7 +188,7 @@ Franchise GM Mode is where combination thinking earns most, because it extends p
 
 When the last pick is in and the simulator returns a projected 84-game record, that number is the game's own assessment of the lineup you built, produced by its internal rules.
 
-Three things are worth stating plainly. The players are fictional and generated inside the game, so nothing in the result relates to any real league, team or athlete. It is a score on a roster puzzle, not a prediction, a forecast or guidance of any kind. And the perfect record the game is named for is deliberately hard — most rosters land short, and the size of the shortfall is the feedback you drafted for.
+Three things are worth stating plainly. The pool is built from real players' careers, but the result is the game's model scoring your lineup, so nothing in it forecasts any real league, team or athlete. It is a score on a roster puzzle, not a prediction, a forecast or guidance of any kind. And the perfect record the game is named for is deliberately hard — most rosters land short, and the size of the shortfall is the feedback you drafted for.
 
 The productive loop is comparative. Change one slot, draft again, and see whether the projection agrees with your reasoning about combinations. That tells you something real about how you evaluate a lineup, even though it tells you nothing about hockey outside the game.
 

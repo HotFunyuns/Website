@@ -37,7 +37,9 @@
     "rugby-positions-and-numbers",
     "rugby-union-vs-rugby-league",
     "rugby-draft-and-squad-building",
-    "golf-scoring-explained"
+    "golf-scoring-explained",
+    "offside-in-rugby-union-explained",
+    "rugby-bonus-points-explained"
   ],
   "takeaways": [
     "In rugby union a try is 5 points, a conversion 2, a penalty goal 3 and a drop goal 3.",

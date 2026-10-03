@@ -5,7 +5,13 @@
   "description": "What each line of a US Nutrition Facts panel is required to mean, where rounding hides real amounts, and which numbers are conventions rather than advice.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Keto Diet Tracker: Low Carb, had a low-carb food database, subtracted erythritol, allulose and monk fruit, sent carb-limit alerts, had no paid tier and, like Protein Diet Tracker, kept logs off our servers with no account; the app, now Ketora: Keto Diet Carb Tracker, lists a barcode scanner, net carbs as total carbs minus fiber and sugar alcohols, a progress ring and an optional Ketora Premium and does not say where it keeps the logs its AI coach reviews, and the article now says only that."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": [
@@ -79,7 +85,7 @@
     },
     {
       "question": "Can an app read labels for me?",
-      "answer": "Some can scan a barcode and pull an item in. Keto Diet Tracker: Low Carb has a barcode scanner and a low-carb food database, and it subtracts fiber and sweeteners such as erythritol, allulose and monk fruit from total carbohydrate as you log. Protein Diet Tracker is built around fast manual entry that rolls into daily protein, calorie and macro totals. Either way, the label on the package in your hand is the most current record of what is in it."
+      "answer": "Some can scan a barcode and pull an item in. Ketora: Keto Diet Carb Tracker has a barcode scanner that fills in nutrition from a label, and it subtracts fiber and sugar alcohols from total carbohydrate as you log. Protein Diet Tracker is built around fast manual entry that rolls into daily protein, calorie and macro totals. Either way, the label on the package in your hand is the most current record of what is in it."
     }
   ],
   "sources": [
@@ -244,11 +250,11 @@ Worth stating plainly, because label literacy is sometimes oversold.
 
 Reading one label well is a skill. Reading four hundred a month is a chore, and that is where a tracker earns its place.
 
-[Keto Diet Tracker: Low Carb](/apps/keto-diet-tracker/) is the more label-focused of our two: a barcode scanner and a low-carb food database pull packaged items in, custom foods and recipes cover anything you cook, and fiber and sweeteners such as erythritol, allulose and monk fruit come off total carbohydrate automatically as you log. It can alert you when a day passes a limit you set yourself, and it is free on Google Play, supported by ads, with no in-app purchases.
+[Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) is the more label-focused of our two: a barcode scanner fills in nutrition from a label, custom foods and saved meals cover anything you make yourself, and fiber and sugar alcohols come off total carbohydrate automatically as you log. A progress ring shows how much of your daily limit is left. It is free on Google Play and supported by ads; Google Play shows no in-app purchases for it, although its listing describes an optional Ketora Premium.
 
 [Protein Diet Tracker](/apps/protein-diet-tracker/) takes the opposite approach — fast manual entry of meals and snacks rolling into daily protein, calorie, carbohydrate and fat totals, with goals you choose rather than goals it calculates. It is free, contains ads, and offers optional in-app purchases.
 
-Neither stores your logs on our servers or requires an account, which also means an uninstall takes the history with it. The rest of the [health and nutrition category](/apps/category/health-nutrition/) sits alongside them, and if you are setting a target rather than reading a package, [what the published protein reference numbers actually answer](/blog/how-much-protein-per-day/) is the more relevant read.
+Protein Diet Tracker does not store your logs on our servers or require an account, which also means an uninstall takes the history with it; Ketora's listing does not say where its logs are kept. The rest of the [health and nutrition category](/apps/category/health-nutrition/) sits alongside them, and if you are setting a target rather than reading a package, [what the published protein reference numbers actually answer](/blog/how-much-protein-per-day/) is the more relevant read.
 
 ## The short version
 

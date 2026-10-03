@@ -5,7 +5,13 @@
   "description": "Why a finite list of numbers never forces a single continuation, the convention that makes sequence puzzles answerable anyway, and how to check yours.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no figural, matrix or logic-grid items, that none of its modes was a test or an estimate of anything about you, and that its app page lists what ships; the app, now IQ Test & Brain Training Games, includes logic games built on sequences and patterns and an IQ-style test, a memory test and a reaction time test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so and describes the app page accurately."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -158,6 +164,6 @@ Three practical consequences.
 
 ## The honest position of a practice app
 
-Mental Math & Memory Games is our own app, built by Reign Creative. Its 75-second Number Pattern Challenge generates items at Easy, Medium and Hard settings, and its Missing Number Puzzle mode asks you to fill a blank in an equation. Items like these are fair for exactly the reason set out above: the generator fixes a rule before it produces the terms, and the intended answer is the simplest one consistent with what you are shown.
+IQ Test & Brain Training Games is our own app, built by Reign Creative. Its 75-second Number Pattern Challenge generates items at Easy, Medium and Hard settings, and its Missing Number Puzzle mode asks you to fill a blank in an equation. Items like these are fair for exactly the reason set out above: the generator fixes a rule before it produces the terms, and the intended answer is the simplest one consistent with what you are shown.
 
-Being plain about the rest: the app contains no figural or matrix items and no logic-grid puzzles, and none of its modes is a test, an assessment or an estimate of anything about you. It records score, accuracy, streak, response time and personal bests on its own drills, and those are game statistics. The [app page](/apps/mental-math-memory-games/) lists what ships; the rest of this subject is in the [logic and pattern puzzles collection](/blog/topics/logic-and-pattern-puzzles/), and the wider set of guides is in the [education and brain training section](/blog/category/education-brain/).
+Being plain about the rest: the app also has logic games built on sequences, patterns and rule discovery, and an IQ-style test, a memory test and a reaction time test whose results its Google Play listing calls estimates based on app activities, not clinical or professional assessments. On its drills it records score, accuracy, streak, response time and personal bests, and those are game statistics. The [app page](/apps/mental-math-memory-games/) describes the app; the rest of this subject is in the [logic and pattern puzzles collection](/blog/topics/logic-and-pattern-puzzles/), and the wider set of guides is in the [education and brain training section](/blog/category/education-brain/).

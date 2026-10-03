@@ -175,7 +175,7 @@ There is also a documented failure mode worth naming. In a study of sixth and ei
 
 ## Drilling the ordering until it is automatic
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/), which is our own app, built by Reign Creative, ships a Fraction Simplifier mode: a multiple-choice format on a 75-second clock with Easy, Medium and Hard settings. Multiple choice suits this particular skill, because the decision you are practising is recognising which reduced form is correct rather than writing one out.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/), which is our own app, built by Reign Creative, ships a Fraction Simplifier mode: a multiple-choice format on a 75-second clock with Easy, Medium and Hard settings. Multiple choice suits this particular skill, because the decision you are practising is recognising which reduced form is correct rather than writing one out.
 
 Two entries in the app's techniques library cover the method directly. Fraction Simplification states the ordering explicitly — clear the 2s and 5s first, then use digit-sum rules for 3 and 9 — and Simplify Fractions First covers the cancel-before-you-divide move with the 180 ÷ 12 example above. Each technique carries steps, a worked example, a "best for" note, a named common mistake and a two-question mini quiz, plus a practice link into a specific mode at a specific difficulty.
 

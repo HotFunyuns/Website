@@ -44,7 +44,9 @@
   "relatedArticles": [
     "mma-fantasy-draft-strategy",
     "how-fight-cards-are-built",
-    "style-matchups-in-a-fight-simulator"
+    "style-matchups-in-a-fight-simulator",
+    "boxing-styles-explained",
+    "does-reach-matter-in-boxing-and-mma"
   ],
   "takeaways": [
     "A manager represents the fighter's interests and a promoter stages the event, and United States federal law treats mixing the two roles as a conflict of interest serious enough to legislate against.",

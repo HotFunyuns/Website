@@ -43,7 +43,8 @@
     "how-a-golf-cut-works",
     "golf-career-sim-guide",
     "understanding-sports-sim-probability",
-    "club-distance-gapping"
+    "club-distance-gapping",
+    "unplayable-lie-options"
   ],
   "takeaways": [
     "Most strokes are lost to trouble rather than to poor striking, so the largest available improvement is choosing targets that make trouble unlikely.",

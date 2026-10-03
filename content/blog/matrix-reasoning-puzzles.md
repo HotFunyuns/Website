@@ -5,7 +5,13 @@
   "description": "Matrix reasoning items are built from a few named rules running across rows and down columns. How the attributes, the rules and the wrong options are chosen.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, covered only arithmetic and memory, assessed nothing and contained no matrix or figural items; the app, now IQ Test & Brain Training Games, lists an IQ-style test covering patterns and spatial reasoning and logic games built on patterns and rule discovery, with results its Google Play listing calls estimates rather than clinical or professional assessments, so the article now says that and notes that the listing does not say whether the matrix format is included."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -54,7 +60,7 @@
     "The recurring rule types are constant along a line, stepwise progression, adding or subtracting elements between cells, and distributing three values so each appears once per row and column.",
     "Wrong options are not random. They are built by taking the correct answer and getting one rule wrong at a time, which is why a plausible option usually means you have missed a rule.",
     "Checking rows only is the standard failure. A rule that survives the rows and breaks in the columns was never the rule.",
-    "Mental Math & Memory Games contains no matrix items and no figural items of any kind; its Number Pattern Challenge rehearses rule-finding in one dimension instead."
+    "If you practise in our own app, IQ Test & Brain Training Games, its listing describes pattern, sequence and rule-discovery games and an IQ-style test covering patterns and spatial reasoning, but it does not say whether any of them uses the three-by-three format described here."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -72,8 +78,8 @@
       "answer": "Because a rule invented to fit three cells of a single row will often fit by accident. The columns are a second, independent test of the same hypothesis, and a genuine rule survives both. If a candidate rule works across the rows but produces a contradiction down a column, it was a coincidence rather than the rule the item was built on."
     },
     {
-      "question": "Does Mental Math & Memory Games have matrix puzzles?",
-      "answer": "No. The app ships no matrix items, no shape items and no figural items at all. Its catalogue is arithmetic and memory, and the closest thing to rule discovery is the Number Pattern Challenge, which asks you to find the rule behind a run of numbers. That rehearses the same habit in one dimension, but it is not a matrix puzzle and the app is not an assessment of any kind."
+      "question": "Does IQ Test & Brain Training Games have matrix puzzles?",
+      "answer": "Its Google Play listing does not say. The listing describes an IQ-style test covering numerical reasoning, logic, patterns, vocabulary, working memory, spatial reasoning and processing speed, and logic games with analogies, sequences, conditional reasoning, deduction, patterns and rule discovery, but it does not describe the three-by-three format explained here. It calls the app's test results estimates based on app activities, not clinical or professional assessments."
     }
   ],
   "sources": [
@@ -101,7 +107,7 @@
 
 A three-by-three matrix puzzle is a grid of nine cells with eight of them filled and one blank, where the contents of the cells change according to rules that hold along every row and down every column. Your job is to recover the rules and pick the figure that satisfies all of them. Seen from the setter's side rather than the solver's, these items are far less mysterious than they look: a small list of attributes is varied, a short list of rules is applied, and the wrong options are manufactured by breaking those rules one at a time.
 
-Before going further, one honest statement, because this hub is attached to an app. Mental Math & Memory Games, which is our own app, contains no matrix items and no figural items of any kind. Its catalogue is arithmetic and memory practice, and nothing in it assesses anything. If you came here looking for matrix practice inside our app, it is not there, and this article is written to explain the format rather than to sell anything.
+Before going further, one honest statement, because this hub is attached to an app. IQ Test & Brain Training Games, which is our own app, includes an IQ-style test whose listed areas include patterns and spatial reasoning, and logic games built around sequences, patterns and rule discovery, but its Google Play listing does not say whether any of them uses the three-by-three matrix format, and it calls the test results estimates rather than clinical or professional assessments. If you came here looking for matrix practice specifically, we cannot point you to it from the listing, and this article is written to explain the format rather than to sell anything.
 
 ## What an item is made of
 
@@ -157,6 +163,6 @@ There is also a choice of approach worth making deliberately. You can construct 
 
 Matrix items are a format, not a skill you can only acquire by doing them. What transfers is the discipline underneath: list the attributes, form one rule at a time, test it in both directions, and predict the answer before looking at the choices.
 
-Our app rehearses a one-dimensional version of that discipline in its **Number Pattern Challenge** mode, where the task is to find the rule behind a run of numbers rather than a grid of figures. It is an analogue rather than an equivalent, and it is practice, not assessment. The modes and the progress tracking are described on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/). For the general procedure for finding a rule from a short run of terms, start with our guide to [number sequence puzzles](/blog/number-sequence-puzzles-explained/); for the transformation vocabulary that describes what is changing in a figural item, see [visual pattern puzzles](/blog/visual-pattern-puzzles/).
+Our app rehearses a one-dimensional version of that discipline in its **Number Pattern Challenge** mode, where the task is to find the rule behind a run of numbers rather than a grid of figures. It is an analogue rather than an equivalent, and it is practice, not assessment. The modes and the progress tracking are described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/). For the general procedure for finding a rule from a short run of terms, start with our guide to [number sequence puzzles](/blog/number-sequence-puzzles-explained/); for the transformation vocabulary that describes what is changing in a figural item, see [visual pattern puzzles](/blog/visual-pattern-puzzles/).
 
 If the reason you are reading this is a broader question about whether puzzle practice does anything, our review of the evidence on [brain training apps](/blog/do-brain-training-apps-work/) is the honest starting point, and the same habit of reading a pattern under time pressure turns up in an unexpected place — our article on [reading boss patterns](/blog/boss-pattern-recognition/) in action games describes the same attribute-listing move applied to something that is moving. The rest of this subject is collected in the [logic and pattern puzzles hub](/blog/topics/logic-and-pattern-puzzles/) and in the wider [education and brain training section](/blog/category/education-brain/).

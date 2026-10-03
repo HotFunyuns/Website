@@ -73,7 +73,7 @@
       "answer": "The ones in this article are algebraic identities, so they always work where their conditions hold, but the conditions matter. Multiplying by 11 by splitting and adding needs a carry step once the middle sum exceeds nine, and the difference-of-squares method needs both numbers to be the same distance from a whole-number midpoint. Check a method against a case you can verify before trusting it under pressure."
     },
     {
-      "question": "Is Mental Math & Memory Games free?",
+      "question": "Is IQ Test & Brain Training Games free?",
       "answer": "Yes, it is free to download on Google Play. It is supported by ads and offers optional in-app purchases, and it is rated Everyone. Scores, accuracy, streaks, response time and personal bests are recorded so improvement shows up as a trend rather than a feeling."
     }
   ],
@@ -229,7 +229,7 @@ A few things that make a practice habit hold:
 
 **Practise your worst operation.** Everyone has one — usually division, sometimes subtraction with borrowing. It is also the one you will avoid unless something schedules it for you.
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) is built around that pattern. It covers addition, subtraction, multiplication and division with difficulty that climbs from simple warm-ups to harder rounds, and it varies the pressure deliberately: timed sprints reward speed, accuracy rounds reward getting it right, survival challenges run until you slip, and boss quizzes put a marker at the end of a stretch of work. A daily math challenge gives you a reason to open it on a day you had not planned a session.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) is built around that pattern. It covers addition, subtraction, multiplication and division with difficulty that climbs from simple warm-ups to harder rounds, and it varies the pressure deliberately: timed sprints reward speed, accuracy rounds reward getting it right, survival challenges run until you slip, and boss quizzes put a marker at the end of a stretch of work. A daily math challenge gives you a reason to open it on a day you had not planned a session.
 
 Scores, accuracy, streaks, response time and personal bests are all recorded with a history you can look back through, which is what makes progress visible rather than a feeling. Alongside the drills there are techniques for percentages, estimation, number patterns and faster calculation, with games to apply each one straight away. On the memory side, number, grid, sequence and delayed-recall activities change what a session asks of you without changing how long it takes.
 

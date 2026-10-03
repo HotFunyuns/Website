@@ -5,7 +5,13 @@
   "description": "Keto macro ratios are a convention, not a regulated standard. Here is the arithmetic that converts them to grams, and where the conversion misleads people.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Keto Diet Tracker: Low Carb, subtracted erythritol, allulose and monk fruit, sent carb-limit alerts, let you change its starting macros freely, logged electrolytes, GKI and photos, kept monthly summaries, had no paid tier and kept logs only on your device; the app, now Ketora: Keto Diet Carb Tracker, lists net carbs as total carbs minus fiber and sugar alcohols, a progress ring, daily targets with custom macro goals in an optional Ketora Premium, and an AI coach that reviews your logs, and the article now describes only that."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": [
@@ -81,8 +87,8 @@
       "answer": "That is a question for a doctor or registered dietitian who knows your health status and medication, not for an article or an app. For orientation only: FDA's Daily Value for total fat is 78 grams and for saturated fat 20 grams against a 2,000 calorie reference diet, and the National Academies' acceptable range for fat is 20 to 35 percent of calories. A ketogenic pattern sits outside that range by design."
     },
     {
-      "question": "Does Keto Diet Tracker set my macros for me?",
-      "answer": "It offers a starting point. A built-in calculator turns details you enter — age, height, weight and activity level — into starting fat, protein and net carb figures that you are free to change. That is a formula producing a suggestion, not an assessment of you, and it is meant to be overwritten once you know better."
+      "question": "Does Ketora set my macros for me?",
+      "answer": "It offers a starting point. Ketora: Keto Diet Carb Tracker asks a few questions about your body and goals and turns the answers into daily fat, protein, carb and calorie targets, and you can switch between strict keto, lazy keto and a flexible low-carb approach. That is a calculation producing a suggestion, not an assessment of you. Its listing puts custom macro goals, for setting your own figures, in an optional Ketora Premium."
     }
   ],
   "sources": [
@@ -231,11 +237,11 @@ Low-carb eaters commonly log more than three macronutrients. Two categories come
 
 The conversion is trivial once and tedious daily, which is the entire argument for a dedicated tool.
 
-[Keto Diet Tracker: Low Carb](/apps/keto-diet-tracker/) does the net carb subtraction as you log — fiber and sweeteners such as erythritol, allulose and monk fruit come off total carbohydrate automatically — and can alert you when a day passes a limit you set yourself. A low-carb food database and barcode scanner cover packaged items, custom foods and recipes cover anything you cook, and a meal planner lets you lay out breakfast, lunch, dinner and desserts in advance.
+[Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) does the net carb subtraction as you log — fiber and sugar alcohols come off total carbohydrate automatically — and a progress ring shows how much of your daily limit is left. A barcode scanner covers packaged items, custom foods and saved meals cover what you make yourself, and keto recipes with net carbs per serving feed a meal planner that turns the week into a grocery list.
 
-The built-in calculator turns details you enter, such as age, height, weight and activity level, into starting fat, protein and net carb figures you can change. It is a formula generating a suggestion, not an assessment of you. Around the food log sit water, sodium, potassium and magnesium, an intermittent fasting timer, ketone readings you have taken yourself with blood, urine strips or a breath meter including GKI, body measurements, photo logs, charts and weekly and monthly summaries.
+A few questions about your body and goals produce starting fat, protein, carb and calorie targets, and you can switch between strict keto, lazy keto and a flexible low-carb approach; the listing puts custom macro goals in the optional Ketora Premium. It is a calculation generating a suggestion, not an assessment of you. Around the food log sit water, weight and body measurements, an intermittent fasting timer, ketone readings you have taken yourself from blood, breath or urine strips, charts and weekly insights.
 
-It is free on Google Play, supported by ads, with no in-app purchases. No account is required and your logs stay on your device rather than on our servers, which also means an uninstall takes the history with it. If carbohydrate is not the number you are watching, [Protein Diet Tracker](/apps/protein-diet-tracker/) and the rest of the [health and nutrition category](/apps/category/health-nutrition/) approach the same job from a different angle, and [reading a Nutrition Facts label](/blog/reading-nutrition-labels/) covers getting the figures off a package correctly before any of this arithmetic starts.
+It is free on Google Play and supported by ads; Google Play shows no in-app purchases for it, although its listing describes an optional Ketora Premium. If carbohydrate is not the number you are watching, [Protein Diet Tracker](/apps/protein-diet-tracker/) and the rest of the [health and nutrition category](/apps/category/health-nutrition/) approach the same job from a different angle, and [reading a Nutrition Facts label](/blog/reading-nutrition-labels/) covers getting the figures off a package correctly before any of this arithmetic starts.
 
 ## The short version
 

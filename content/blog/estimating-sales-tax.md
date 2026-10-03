@@ -5,7 +5,13 @@
   "description": "Sales tax rates are awkward on purpose. Break the rate into blocks — 8.25% is 10% minus 2% plus a quarter of 1% — and the arithmetic becomes two easy steps.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, was not an assessment of anything and kept only drill figures; the app, now IQ Test & Brain Training Games, also includes an IQ-style test and a memory test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -166,8 +172,8 @@ The percentage machinery underneath all of this — the 1% and 10% anchors, the 
 
 ## Practising the decomposition
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) — our own app, built by Reign Creative — ships a Tax Estimation mode: a 75-second timed drill on the Tax difficulty setting. The matching entry in its techniques library states the method in the same terms used above, giving 8.25% as roughly 8%, reached either as 10% minus 2% or as 1% multiplied by 8. Like every technique in that library it carries its steps, a worked example, a "best for" note, a named common mistake and a two-question mini quiz.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) — our own app, built by Reign Creative — ships a Tax Estimation mode: a 75-second timed drill on the Tax difficulty setting. The matching entry in its techniques library states the method in the same terms used above, giving 8.25% as roughly 8%, reached either as 10% minus 2% or as 1% multiplied by 8. Like every technique in that library it carries its steps, a worked example, a "best for" note, a named common mistake and a two-question mini quiz.
 
 For the underlying percentage layer there is a Percentage Trainer, also on a 75-second clock, with difficulty settings covering Basics, Tips, Discounts, Advanced and Mixed. Working the Basics setting until the 1% and 10% anchors are instant is what makes the tax decomposition feel like a single step rather than four.
 
-The app is an educational game and a practice tool, not an assessment of anything. The figures it keeps — score, accuracy, streak, response time and personal bests — describe your performance on the drills you have played, and nothing beyond that.
+The app is an educational game and a practice tool. The figures its drills keep — score, accuracy, streak, response time and personal bests — describe your performance on the drills you have played. It also includes an IQ-style test and a memory test, and its Google Play listing calls their results estimates based on app activities, not clinical or professional assessments.

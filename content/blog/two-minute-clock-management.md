@@ -43,7 +43,9 @@
     "reading-a-defense-basics",
     "football-career-sim-guide",
     "quarterback-archetypes-explained",
-    "scouting-combine-drills-explained"
+    "scouting-combine-drills-explained",
+    "nfl-overtime-rules-explained",
+    "rpo-vs-play-action"
   ],
   "takeaways": [
     "Clock management is a rules problem before it is a nerve problem: which events stop the clock, and whether it restarts on the snap or on the official's ready signal, is written down and knowable.",

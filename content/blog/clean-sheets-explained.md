@@ -5,7 +5,13 @@
   "description": "Clean sheets explained: who gets credited, why the statistic flatters some teams, and what to read alongside it when judging a defence.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said every club, competition and player in our games is fictional. That is true of our career sims, but our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The sentence has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -156,4 +162,4 @@ From the player's side, in [Football Career Soccer XI Sim](/apps/soccer-career-s
 
 The rules that decide the outcome of a match — including what counts as a goal — are published by IFAB in [Law 10](https://www.theifab.com/laws/latest/determining-the-outcome-of-a-match/), while how a competition records and presents statistics is set by the competition. [How soccer league tables work](/blog/how-soccer-league-tables-work/) covers the scoring system those results feed into.
 
-Every club, competition and player in our games is fictional. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+Our career sims use fictional clubs, competitions and players; our draft games build their player pools from real-world players' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, club or player. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).

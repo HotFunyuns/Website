@@ -5,7 +5,13 @@
   "description": "Balance is coverage, not averages. The team-level jobs every lineup has to cover, why overlap wastes picks, and how minutes turn depth into a real constraint.",
   "status": "published",
   "publishedAt": "2026-08-13",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described Pro Basketball GM Franchise as a fictional simulation built on generated players. Its draft pool is built from real-world players' careers, with ratings that are the game's own estimates; Basketball Career Sim is fictional. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -46,7 +52,9 @@
     "basketball-positions-explained",
     "basketball-draft-gm-guide",
     "basketball-career-sim-guide",
-    "basketball-advanced-stats-explained"
+    "basketball-advanced-stats-explained",
+    "basketball-offense-types",
+    "basketball-rules-for-beginners"
   ],
   "takeaways": [
     "Balance is about coverage, not about averaging out ratings: a lineup has to be able to bring the ball up, space the floor, rebound and protect the rim, and a roster that cannot do all four has a hole regardless of its ratings.",
@@ -80,7 +88,7 @@
     },
     {
       "question": "Are the players in these games real?",
-      "answer": "No. Pro Basketball GM Franchise and Basketball Career Sim are fictional sports simulations built on generated players. They are not affiliated with, endorsed by or connected to any real league, team or athlete, and the records they produce are model outputs rather than predictions about anything real."
+      "answer": "In one of them. Pro Basketball GM Franchise builds its draft pool from real players' careers, with ratings that are the game's own estimates; Basketball Career Sim is set in a fictional league with fictional players. Neither is affiliated with, endorsed by or licensed by any league, team or athlete, and the records they produce are model outputs rather than predictions about anything real."
     }
   ],
   "sources": [

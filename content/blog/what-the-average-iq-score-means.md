@@ -5,7 +5,13 @@
   "description": "The average is 100 because the scale is built that way, and it is reset to 100 every time a test is renormed. That single fact reframes the whole category.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, reported only on your own sessions and could not tell you how you compare with an average; the app, now IQ Test & Brain Training Games, includes an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments and for which the listing documents no norm sample, and the article now says to read any such result as an estimate rather than a rank against a documented average."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -53,7 +59,7 @@
     "Because the mean is reset to 100 at each renorming, rising raw performance does not raise the average score. It lowers the score a given level of performance earns.",
     "The size of that drift is not fixed. Analyses of the WAIS-5 validity studies published in 2024 reported only about 1.2 IQ points per decade, well below the conventional three.",
     "There is no 'average IQ for your age' in the sense people usually mean. Scores are age-banded by design, so the average within every age band is 100.",
-    "Mental Math & Memory Games cannot tell you how you compare with an average, because it has no population sample to compare you with."
+    "Our own app, IQ Test & Brain Training Games, includes an IQ-style test, but its Google Play listing calls the results estimates based on app activities and documents no norm sample, so treat any result as an estimate, not a rank against a documented average."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -72,7 +78,7 @@
     },
     {
       "question": "Can a practice app tell me how I compare with average?",
-      "answer": "Ours cannot, and no app can without a real norm sample. Mental Math & Memory Games records what happened in your own sessions — score, accuracy, streak, response time and personal bests. It has collected no population data, so there is no average for it to place you against and it reports none."
+      "answer": "Not in the sense this article describes, because no app can without a documented norm sample. Our own app, IQ Test & Brain Training Games, includes an IQ-style test, and its Google Play listing calls the results estimates based on app activities, not clinical or professional assessments; the listing documents no norm sample. Its games track your own personal bests, accuracy, streaks and response speed, which are comparisons with yourself rather than with an average."
     }
   ],
   "sources": [
@@ -148,11 +154,11 @@ A fifty-year-old is compared with fifty-year-olds and a twenty-year-old with twe
 
 ## What a practice app can and cannot say about "average"
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) is our own app, and it does not tell you how you compare with an average — because it has nothing to compare you with.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) is our own app, and it includes an IQ-style test covering numerical reasoning, logic, patterns, vocabulary, working memory, spatial reasoning and processing speed. Its Google Play listing calls the results estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments, and it documents no norm sample — so whatever such a result says, it is not a rank against a documented average in the sense this article describes.
 
-Everything the app reports is about your own sessions: points scored, accuracy on the questions it generated, longest streak, response time, and personal bests per mode. There is no standardisation sample behind those numbers, no age banding, no conversion table and no population reference. Any app claiming to place you against "the average" without a documented norm sample is describing something it has not collected.
+Its games report on your own sessions: points scored, accuracy on the questions it generated, streaks, response speed and personal bests. Those are comparisons with yourself. Any app claiming to place you against "the average" without a documented norm sample is describing something it has not collected, and an IQ-style estimate from our own app should be read in that light.
 
-That is a constraint rather than a deficiency, and it keeps the categories where they belong. A drill in Mixed Operations or a set of number-memory rounds is **practice**; a normed battery is **standardised psychological assessment**. The useful comparison in the first case is with yourself last week, on the same mode at the same difficulty — the kind of self-referenced tracking discussed in [building a daily practice habit](/blog/building-a-daily-practice-habit/).
+That keeps the categories where they belong. A drill in Mixed Operations or a set of number-memory rounds is **practice**; the app's IQ-style test is, by its own listing's account, an estimate rather than a clinical or professional assessment; a normed battery is **standardised psychological assessment**. The useful comparison in the first case is with yourself last week, on the same mode at the same difficulty — the kind of self-referenced tracking discussed in [building a daily practice habit](/blog/building-a-daily-practice-habit/).
 
 ## The short version
 

@@ -5,7 +5,13 @@
   "description": "Add the big parts first, and a written-method carry turns into a running-total correction. The full method, the failure case, and how to absorb it.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the drills it names in our app, then called Mental Math & Memory Games, are listed on the app page; that page, for the app now named IQ Test & Brain Training Games, describes its features without naming individual drills, so the sentence now simply points to it."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -163,8 +169,8 @@ Decimals behave identically, and money is where the method feels most natural be
 
 Two things make this method stick. The first is running it on pairs where a later column genuinely pushes an earlier one up, since that is the case where the habit either holds or does not. The second is doing enough of them that the folding step stops requiring attention.
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and its technique library carries this method with its steps, a worked example and the common mistake it tends to produce, alongside a practice link into Addition Sprint — a 60-second drill with settings for single-digit, two-digit and three-digit work, mixed chains and large numbers. The three-digit and large-number settings are the ones that exercise the carry behaviour.
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and its technique library carries this method with its steps, a worked example and the common mistake it tends to produce, alongside a practice link into Addition Sprint — a 60-second drill with settings for single-digit, two-digit and three-digit work, mixed chains and large numbers. The three-digit and large-number settings are the ones that exercise the carry behaviour.
 
 What left-to-right addition quietly assumes is that you already know your complements — that 70 + 50 is 120 without thinking, and that 6 + 8 crosses ten. That layer is worth installing first if it is shaky, and [number bonds and making tens](/blog/number-bonds-and-making-tens/) is the article for it. NRICH, the mathematics education project at the University of Cambridge, frames fluency as efficiency, accuracy and flexibility together, and notes that fluency asks more of a learner than memorising a single procedure — knowing when to reach for this method rather than a different one is part of the skill, not separate from it.
 
-The three moves that sit underneath almost every mental method are set out in [our mental math practice guide](/blog/mental-math-training-guide/), and more arithmetic methods live in the [mental math hub](/blog/topics/mental-math/) and across the [education and brain category](/blog/category/education-brain/). The drills named above are listed on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+The three moves that sit underneath almost every mental method are set out in [our mental math practice guide](/blog/mental-math-training-guide/), and more arithmetic methods live in the [mental math hub](/blog/topics/mental-math/) and across the [education and brain category](/blog/category/education-brain/). The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

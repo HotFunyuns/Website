@@ -5,7 +5,13 @@
   "description": "An IQ test samples a few reasoning and memory tasks, then reports a rank against a comparison group. Here is what a battery covers and what it never touches.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no test, no percentile and no estimate of intelligence and had no relationship to IQ testing beyond a resemblance in its material; the app, now IQ Test & Brain Training Games, includes an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now explains how that test differs from a standardised battery."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -70,8 +76,8 @@
       "answer": "Everything they do not sample. That includes motivation, persistence, conscientiousness, social and practical judgement, creativity, manual skill, and any accumulated expertise not represented in the subtests. It also excludes whatever the test taker knows but cannot produce in a timed, unfamiliar setting with a stranger present."
     },
     {
-      "question": "Does the Mental Math & Memory Games app measure IQ?",
-      "answer": "No. It contains no test, no assessment, no percentile and no estimate of intelligence. It is an educational game that drills arithmetic and memory tasks and records how you did on them — score, accuracy, streak, response time and personal bests. Those are game statistics about a practice session, not measurements of an underlying ability."
+      "question": "Does the IQ Test & Brain Training Games app measure IQ?",
+      "answer": "Not in the sense this article describes. It includes an IQ-style test covering numerical reasoning, logic, patterns, vocabulary, working memory, spatial reasoning and processing speed, but its Google Play listing states that the results are estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments. The test is taken unsupervised on a phone and the listing documents no comparison group, so treat a result as a record of how you did on the app's own questions rather than a rank against a norm sample."
     }
   ],
   "sources": [
@@ -143,9 +149,9 @@ Then there is measurement error. As ETS puts it in its plain-language guide to r
 
 ## Where a practice app sits in all this
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) is our own app, built by Reign Creative, and this is the honest account of its relationship to everything above: there is none, beyond a family resemblance in the material.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) is our own app, built by Reign Creative, and this is the honest account of its relationship to everything above: it includes an IQ-style test that samples some of the same kinds of task, without the conditions that make a battery's score interpretable.
 
-The app drills arithmetic — Multiplication Rush, Addition Sprint, Subtraction Sprint, Division Dash and Mixed Operations — plus number-memory and sequence-memory rounds, a 49-technique library with worked examples, and formats such as Survival, Boss Quiz and a Daily Challenge. Some of those tasks resemble the *surface* of subtests that a real battery uses to sample working memory or processing speed. That resemblance is where the connection ends. The app contains no test, no norms, no percentile, no classification, and no estimate of anyone's intelligence. It records score, accuracy, streak, response time and personal bests, which are statistics about a practice session.
+The app's IQ-style test covers numerical reasoning, logic, patterns, vocabulary, working memory, spatial reasoning and processing speed, and around it sit memory, logic, focus, vocabulary and mental math games, a memory test and a reaction time test. Some of those areas share names with the domains a standardised battery samples. The procedure does not: the app's test is taken unsupervised, at a moment of your choosing, and its listing documents no comparison group. The listing itself says that IQ test, memory test and other results are estimates based on app activities, not medical, psychological, clinical, educational-placement, employment or professional diagnostic assessments. The app also keeps personal bests, accuracy, streaks, response speed and an assessment history, which describe how you did on its own questions.
 
 Four things are worth keeping apart whenever this subject comes up: **practice**, **entertainment**, **educational activity** and **standardised psychological assessment**. The app is the first three. It is not, and does not pretend to be, the fourth. The wider question of what practice products can and cannot claim is treated in our guide to [whether brain training apps work](/blog/do-brain-training-apps-work/), and the narrower question of what working memory is, and how contested its trainability is, in our explainer on [working memory and training](/blog/working-memory-and-training/).
 

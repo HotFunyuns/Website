@@ -37,7 +37,9 @@
     "tennis-career-sim-guide",
     "serve-and-volley-strategy",
     "tennis-scoring-for-beginners",
-    "how-tennis-ranking-points-work"
+    "how-tennis-ranking-points-work",
+    "tennis-court-surfaces-explained",
+    "tennis-tiebreak-rules"
   ],
   "takeaways": [
     "Styles are usually grouped as baseliners, volleyers and all-court players, and the finer labels are subdivisions of those three.",

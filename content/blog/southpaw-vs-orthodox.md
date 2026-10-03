@@ -5,7 +5,13 @@
   "description": "Opposite stances change lead-foot position, angles and which punches land. Why southpaws trouble orthodox fighters and how that gets neutralised.",
   "status": "published",
   "publishedAt": "2026-09-15",
-  "updatedAt": "2026-09-15",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described the fighters in 40-0 MMA & Boxing Fight Draft as fictional and generated. 40-0 MMA & Boxing Fight Draft builds its fighter pools from real fighters' careers, with ratings and records that are the game's own estimates, and is not affiliated with or endorsed by any promotion, sanctioning body or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": ["boxing", "mma", "stance", "comparison"],
@@ -37,7 +43,9 @@
     "boxing-scoring-explained",
     "mma-weight-classes-explained",
     "striking-vs-grappling-in-mma",
-    "how-fight-cards-are-built"
+    "how-fight-cards-are-built",
+    "boxing-vs-mma-rules",
+    "ko-vs-tko-how-fights-end"
   ],
   "takeaways": [
     "Orthodox places the left foot forward, southpaw places the right foot forward; the rear hand is the power hand in both.",
@@ -144,4 +152,4 @@ The practical consequence at the draft board is one that catches people out: **y
 
 For how the advantages above actually show up on a scorecard, see [boxing scoring](/blog/boxing-scoring-explained/); for the other axis every matchup is evaluated on, see [striking versus grappling](/blog/striking-vs-grappling-in-mma/).
 
-The fighters in the game are fictional and generated inside it. It is not affiliated with, endorsed by or connected to any real promotion, sanctioning body, event or athlete, and no result it produces describes or predicts a real bout. The rest of the studio's sports titles are under [sports GM](/apps/category/sports-gm/).
+The game's fighter pools are built from real fighters' careers, with ratings and records that are the game's own estimates. It is not affiliated with, endorsed by or licensed by any promotion, sanctioning body, event or athlete, and no result it produces describes or predicts a real bout. The rest of the studio's sports titles are under [sports GM](/apps/category/sports-gm/).

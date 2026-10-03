@@ -5,7 +5,13 @@
   "description": "One number, three notations. The anchors worth memorising, how to scale a denominator to 100, and the rule that says which fractions terminate as decimals.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, was not an assessment of anything and recorded only drill statistics; the app, now IQ Test & Brain Training Games, also has an IQ-style test and other tests whose results its Google Play listing calls estimates rather than clinical or professional assessments, so the passage now describes only what its drills record."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -183,8 +189,8 @@ There is a documented failure mode on the other side. In a study of sixth and ei
 
 ## Practising the conversions
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/), which is our own app, built by Reign Creative, ships Decimal Converter — an accuracy-format mode of ten questions with Easy, Medium and Hard settings. An accuracy format rather than a timed sprint suits conversion work, because the thing being drilled is recall of a fixed set rather than speed on a generated stream.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/), which is our own app, built by Reign Creative, ships Decimal Converter — an accuracy-format mode of ten questions with Easy, Medium and Hard settings. An accuracy format rather than a timed sprint suits conversion work, because the thing being drilled is recall of a fixed set rather than speed on a generated stream.
 
 For the memorisation half, the Flash Cards mode carries a Fraction ↔ Percent deck described in the app as common fraction conversions, holding seventeen fixed pairs from one half through to five sixths, with twelve cards to a session and a flip-then-grade format you mark yourself. There is also a Quick Percents deck covering 10, 20, 25 and 50 percent of generated bases.
 
-The app is an educational game and a practice tool rather than a course or an assessment of anything. What it records is score, accuracy, streak, response time and personal bests on the modes you actually play.
+The app is an educational game and a practice tool rather than a course. What its drills record is score, accuracy, streak, response time and personal bests on the modes you actually play.

@@ -5,7 +5,13 @@
   "description": "Roaming wilds, cascading symbols, split boards, breakable layers and jackpot meters, defined in plain language and set against what each one does to a paytable.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Anime Casino Slot Machine Game, had twenty-five anime and manga machines using the mechanics defined here, Mini, Major and Grand meters and coins that cannot be transferred or sold; the app, now Vegas Casino Slots JACKPOT WIN, has a listing that describes Vegas-style reel play with virtual coins and virtual jackpots, no cash payouts or real-world prizes and coins that cannot be redeemed for cash, and the article now says only that."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "anime-creative",
   "tags": [
@@ -67,8 +73,8 @@
       "answer": "No. The designed return of a machine is set over its full cycle of outcomes, and every mechanic that creates additional paying combinations is balanced by adjustments elsewhere — lower base awards, rarer trigger symbols, or a shorter feature. Two machines with very different feature lists can share an identical designed return. What the mechanics change is the shape of the distribution: how often something pays and how large it is when it does."
     },
     {
-      "question": "Are the mechanics in Anime Casino Slot Machine Game the same as a real slot machine's?",
-      "answer": "The vocabulary is shared, the consequences are not. Our app uses roaming wilds, split boards, expanding reels, cascading symbols, breakable layers and interactive bonus rounds across twenty-five machines, and Mini, Major and Grand meters that build locally as you spin. All of it runs on virtual coins that cannot be transferred, sold or redeemed, and the meters carry no real-money prizes, so the mechanics affect pacing rather than money."
+      "question": "Are the mechanics in Vegas Casino Slots JACKPOT WIN the same as a real slot machine's?",
+      "answer": "The vocabulary is shared, the consequences are not. Our app is reel-based slot play with virtual coins and virtual jackpots, and its listing does not itemise which of the mechanics on this page each machine uses. Wins and jackpots are paid in virtual coins that have no real-world monetary value and cannot be redeemed for cash, with no cash payouts or real-world prizes, so whatever mechanics a machine uses affect pacing rather than money."
     }
   ],
   "sources": [
@@ -129,7 +135,7 @@ The interaction between wilds and other mechanics is where designs get genuinely
 
 Two consequences follow, and they pull in opposite directions. A cascade raises the number of paying events per spin, which makes a session feel busier. But because the designed return is fixed, the individual awards must be smaller to compensate. A cascading machine and a single-evaluation machine with the same return figure are trading frequency against size — which is exactly the trade covered in [why one machine pays small and often while another almost never pays](/blog/slot-volatility-explained/).
 
-**Breakable layers** and **split boards** belong to the same family of board-state mechanics: instead of resolving one static grid, the machine carries state across evaluations, whether by clearing an obstruction or by treating parts of the board as separate regions. Our own app uses both terms, and the general principle is the one above — a board with memory produces chains, and chains change the distribution rather than the average.
+**Breakable layers** and **split boards** belong to the same family of board-state mechanics: instead of resolving one static grid, the machine carries state across evaluations, whether by clearing an obstruction or by treating parts of the board as separate regions. The general principle is the one above — a board with memory produces chains, and chains change the distribution rather than the average.
 
 ## Triggers, features and what the base game gives up
 
@@ -143,10 +149,10 @@ Here is the part that is rarely explained. A designer can allocate a share of th
 
 In a real-money context those meters represent a pot. In a social casino game they do not, and the distinction is not cosmetic. Google Play handles licensed real-money gambling apps and simulated gambling apps under separate policies, and the simulated category is defined by the absence of any prize of real-world monetary value. A meter in that category is a long-horizon score. We set out the full boundary in [our comparison of social casino play and real-money gambling](/blog/social-casino-vs-real-money-gambling/).
 
-## Where these terms appear in our own app
+## Where our own app fits
 
-Anime Casino Slot Machine Game is built by Reign Creative, and it is the reason this glossary is framed the way it is. Its twenty-five machines use roaming wilds, split boards, expanding reels, cascading symbols, breakable layers and interactive bonus rounds, with each machine carrying its own artwork, music, symbol set and reel mechanics. Five of them are built as manga pages with ink effects and page-turn bonus sequences; five more run a kawaii theme through cafés, pop festivals, dream clubs and prize worlds. Mini, Major and Grand meters build locally as you spin, with no real-money prizes attached, and every machine is playable from the start.
+Vegas Casino Slots JACKPOT WIN is built by Reign Creative, and it is why this glossary keeps asking what each mechanic means when no money is at stake. Its current Google Play listing describes reel-based slot machines in a Las Vegas-style setting: you spin with virtual coins, watch for symbols that line up into a winning combination, and chase virtual jackpots. The listing does not itemise which of the mechanics above any machine uses, so we do not claim them here.
 
-One design choice there is worth calling out because it is a legibility decision rather than a maths one: decorative borders are kept outside the reels, paylines and controls, so the board stays readable while it animates. A mechanic you cannot see resolve is a mechanic you cannot learn. Full details are on the [app page](/apps/anime-casino-slots/).
+What the listing does state is the boundary that matters most on this page: wins and jackpots use virtual coins, there are no cash payouts or real-world prizes, and the coins have no real-world monetary value and cannot be redeemed for cash. Whatever a jackpot display shows in a game built that way, it is a score rather than a pot. Full details are on the [app page](/apps/anime-casino-slots/).
 
 If you came here for the anime vocabulary rather than the slot vocabulary, [our anime terminology glossary](/blog/anime-terminology-glossary/) covers that side, and the rest of the category sits under [anime and creative games](/blog/category/anime-creative/).

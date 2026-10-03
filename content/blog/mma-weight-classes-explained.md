@@ -5,7 +5,13 @@
   "description": "The complete unified-rules weight class table with pound limits, why the bands are uneven, and how catch weight and weight misses are handled.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described 40-0 MMA & Boxing Fight Draft as a fictional simulation with generated fighters. 40-0 MMA & Boxing Fight Draft builds its fighter pools from real fighters' careers, with ratings and records that are the game's own estimates, and is not affiliated with or endorsed by any promotion, sanctioning body or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -44,7 +50,9 @@
     "boxing-scoring-explained",
     "mma-boxing-fight-draft-guide",
     "career-mode-vs-franchise-mode",
-    "sports-gm-games-without-internet"
+    "sports-gm-games-without-internet",
+    "boxing-weight-classes-explained",
+    "types-of-submissions-in-mma"
   ],
   "takeaways": [
     "The unified-rules table runs from Atomweight at 105 lbs up to Super Heavyweight above 265 lbs, and each named division is defined by an upper limit rather than a range you must sit inside.",
@@ -78,7 +86,7 @@
     },
     {
       "question": "Do fight draft games use real fighters and promotions?",
-      "answer": "No. 40-0 MMA & Boxing Fight Draft is a fictional simulation and is not affiliated with, endorsed by or connected to any real promotion, sanctioning body, event or athlete. Weight classes appear in it as a game mechanic that shapes matchups, and the results it produces are outputs of its own model rather than statements about anybody real."
+      "answer": "40-0 MMA & Boxing Fight Draft uses real fighters: its pools are built from real fighters' careers, with ratings and records that are the game's own estimates rather than official statistics. It is not affiliated with, endorsed by or licensed by any promotion, sanctioning body, event or athlete. Weight classes appear in it as a game mechanic that shapes matchups, and the results it produces are outputs of its own model rather than statements about anybody real."
     }
   ],
   "sources": [
@@ -188,7 +196,7 @@ Around the drafting sit Unlimited Fight Draft, Limited Draft, Tournament, VS Com
 
 Worth stating plainly, because combat sports attract this confusion more than most.
 
-The simulators take fictional fighters generated inside the game, apply the game's own internal rules about ratings, styles, divisions and matchups, and return a result. That result describes nothing outside the game. It is not a prediction, not a forecast, not analysis of any real athlete or event, and not guidance of any kind. It is a score on a roster-building puzzle.
+The simulators take the fighters you drafted, apply the game's own internal rules about ratings, styles, divisions and matchups, and return a result. That result describes nothing outside the game. It is not a prediction, not a forecast, not analysis of any real athlete or event, and not guidance of any kind. It is a score on a roster-building puzzle.
 
 The unbeaten record the game is named for is deliberately hard to reach, which is what makes a stable that falls short informative rather than disappointing. And no drafting approach guarantees it — a model with style advantages built in is a model where the obvious roster can lose.
 

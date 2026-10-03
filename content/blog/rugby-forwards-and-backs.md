@@ -38,7 +38,8 @@
     "rugby-draft-and-squad-building",
     "depth-charts-explained",
     "how-rugby-scoring-works",
-    "rugby-union-vs-rugby-league"
+    "rugby-union-vs-rugby-league",
+    "history-of-rugby-union"
   ],
   "takeaways": [
     "Eight forwards and seven backs is not a convention - the eight is fixed because a scrum must contain eight players from each side.",

@@ -5,7 +5,13 @@
   "description": "What each soccer position is responsible for, how modern roles differ from the traditional names, and how to choose one in a career game.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said the Pro Football GM Club Soccer pool is generated and that every club, competition and player in our games is fictional. The game's draft pool is built from real-world players' careers, with ratings that are the game's own estimates; only our career sims are fictional. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -44,7 +50,9 @@
     "soccer-formations-explained",
     "soccer-career-sim-guide",
     "how-soccer-league-tables-work",
-    "soccer-draft-xi-guide"
+    "soccer-draft-xi-guide",
+    "soccer-yellow-and-red-cards-explained",
+    "squad-depth-and-rotation-in-soccer"
   ],
   "takeaways": [
     "Positions describe where a player starts; roles describe what they do. Modern football has many more roles than it has positions.",
@@ -158,6 +166,6 @@ Practical guidance for a first career:
 
 ## From the other side of the touchline
 
-If you would rather select the eleven than be one of them, [Pro Football GM Club Soccer](/apps/soccer-draft-gm-xi/) is the squad-building version, and [the soccer draft XI guide](/blog/soccer-draft-xi-guide/) covers assembling a balanced starting eleven from a generated pool. [How soccer league tables work](/blog/how-soccer-league-tables-work/) covers how the season those players play is scored.
+If you would rather select the eleven than be one of them, [Pro Football GM Club Soccer](/apps/soccer-draft-gm-xi/) is the squad-building version, and [the soccer draft XI guide](/blog/soccer-draft-xi-guide/) covers assembling a balanced starting eleven from the draft pool. [How soccer league tables work](/blog/how-soccer-league-tables-work/) covers how the season those players play is scored.
 
-Every club, competition and player in our games is fictional. The rest of the catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+Our career sims use fictional clubs, competitions and players; our draft games build their player pools from real-world players' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, club or player. The rest of the catalogue is under [sports career and GM games](/apps/category/sports-gm/).

@@ -5,7 +5,13 @@
   "description": "What a depth chart is, how it differs across sports, why the second name on the list matters more than people think, and how to read one as a GM.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said every league, team and player in our games is fictional. That is true of our career sims, but our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The sentence has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -44,7 +50,9 @@
     "how-to-build-a-balanced-basketball-roster",
     "rebuild-vs-retool",
     "coach-trust-and-playing-time",
-    "what-makes-a-good-draft-board"
+    "what-makes-a-good-draft-board",
+    "personnel-groupings-football",
+    "has-any-team-gone-20-0"
   ],
   "takeaways": [
     "A depth chart lists players by position in the order they would play, and it is a plan for absence as much as a statement about quality.",
@@ -155,8 +163,8 @@ It also means a blocked path is a solvable problem rather than a dead career. Mo
 
 ## In a simulation
 
-[20-0 Football Draft & GM Mode](/apps/football-draft-gm-mode/) puts depth-chart construction at the centre, because American football's specialisation makes thin positions genuinely costly. [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) turns it into a rotation problem, where the constraint is minutes rather than slots.
+[Football Franchise GM League](/apps/football-draft-gm-mode/) puts depth-chart construction at the centre, because American football's specialisation makes thin positions genuinely costly. [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) turns it into a rotation problem, where the constraint is minutes rather than slots.
 
 In both, the same diagnostic works: after a poor simulated season, look at which positions you were forced to field weakly, rather than at whether your best player performed. [What makes a good draft board](/blog/what-makes-a-good-draft-board/) covers building the positional tiers that let you see those gaps before the draft rather than after the season, and [rebuild versus retool](/blog/rebuild-vs-retool/) covers what to do when the answer is "most of them".
 
-Every league, team and player in our games is fictional. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+Our career sims are set in fictional leagues with fictional teams and players; our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, team or athlete. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).

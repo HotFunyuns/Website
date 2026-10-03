@@ -5,7 +5,13 @@
   "description": "Snake drafts allocate players by pick order; auctions allocate them by budget. What each format rewards, the arithmetic behind both, and how to pick one.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described Pro Basketball GM Franchise and 162-0 Baseball Draft & GM Team as fictional simulations built on generated player pools. Both build their draft pools from real-world players' careers, with ratings that are the games' own estimates, and neither is affiliated with or endorsed by any league, team or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -80,7 +86,7 @@
     },
     {
       "question": "Are these games connected to a real league?",
-      "answer": "No. Pro Basketball GM Franchise and 162-0 Baseball Draft & GM Team are fictional sports simulations built on generated player pools. They are not affiliated with, endorsed by or connected to any real league, team or athlete, and any in-game salary or payroll figure is a simulation value with no real-world meaning."
+      "answer": "No. Pro Basketball GM Franchise and 162-0 Baseball Draft & GM Team are not affiliated with, endorsed by or licensed by any league, team, players' association or athlete. Their draft pools are built from real players' careers, with ratings that are the games' own estimates, and any in-game salary or payroll figure is a simulation value with no real-world meaning."
     }
   ],
   "sources": []

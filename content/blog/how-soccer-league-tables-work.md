@@ -5,7 +5,13 @@
   "description": "What every column in a league table means, why a win is worth more than two draws, and how to read a standings page that hides games in hand.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described Pro Football GM Club Soccer as a fictional simulation with generated players. Pro Football GM Club Soccer builds its player pool from real-world athletes' careers, with ratings that are the game's own estimates, and is not affiliated with or endorsed by any league, team or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -81,7 +87,7 @@
     },
     {
       "question": "Do simulated league results describe any real competition?",
-      "answer": "No. Pro Football GM Club Soccer is a fictional simulation and is not affiliated with, endorsed by or connected to any real league, club or player. The records it produces are outputs of its own model applied to players it generated, and they are not forecasts, predictions or guidance about anything outside the game."
+      "answer": "No. Pro Football GM Club Soccer is not affiliated with, endorsed by or licensed by any league, club or player. Its draft pool is built from real players' careers, but the records it produces are outputs of its own model applied to the squad you built, and they are not forecasts, predictions or guidance about anything outside the game."
     }
   ],
   "sources": []
@@ -183,7 +189,7 @@ The reason the target is set there rather than somewhere gentler is that it make
 
 ### What the model is doing, and what it is not
 
-The campaign result is produced by the game's internal rules acting on players the game generated. It weighs squad quality, position fit and balance; it does not reproduce football, and it has no relationship to any real competition, club or player.
+The campaign result is produced by the game's internal rules acting on the squad you drafted. It weighs squad quality, position fit and balance; it does not reproduce football, and it is not a forecast of any real competition, club or player.
 
 That means a simulated table is a score on a squad-building puzzle. It is not a forecast, it is not analysis of anything outside the game, and it is not guidance of any kind. What makes it useful is comparison against your own previous attempts: change one structural decision, run the campaign again, and see whether the model agrees with your reasoning.
 

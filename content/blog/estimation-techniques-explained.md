@@ -176,7 +176,7 @@ Two habits that build it without setting aside study time:
 
 ## Where our app fits
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) is built around short, repeated practice sessions with immediate feedback — the format that suits this kind of skill, because the loop between attempting and finding out is what drives improvement.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) is built around short, repeated practice sessions with immediate feedback — the format that suits this kind of skill, because the loop between attempting and finding out is what drives improvement.
 
 It is free to download on Google Play, supported by ads, with optional in-app purchases and an Everyone content rating.
 

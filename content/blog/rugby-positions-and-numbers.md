@@ -37,7 +37,9 @@
     "rugby-forwards-and-backs",
     "how-rugby-scoring-works",
     "depth-charts-explained",
-    "rugby-draft-and-squad-building"
+    "rugby-draft-and-squad-building",
+    "rugby-scrum-and-lineout-rules",
+    "rugby-sevens-vs-fifteens"
   ],
   "takeaways": [
     "In rugby union, shirt numbers 1 to 8 are the forwards and 9 to 15 are the backs, with replacements numbered 16 to 23.",

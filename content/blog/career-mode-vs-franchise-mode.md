@@ -5,7 +5,13 @@
   "description": "Career mode and franchise mode look alike on a store page and play nothing alike. What each one decides, what it costs you, and how to tell which you want.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said every player, club and fighter in the studio's sports games is fictional and generated. That is true of the career sims, but the draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -45,7 +51,8 @@
     "basketball-career-sim-guide",
     "basketball-draft-gm-guide",
     "sports-gm-games-without-internet",
-    "best-sports-manager-games-for-short-sessions"
+    "best-sports-manager-games-for-short-sessions",
+    "basketball-player-archetypes"
   ],
   "takeaways": [
     "Career mode narrows the camera to one player; franchise mode raises it above an organisation. Almost every other difference follows from that.",
@@ -75,7 +82,7 @@
     },
     {
       "question": "Do these games use real players, teams or leagues?",
-      "answer": "No. The studio's sports titles are fictional simulations and are not affiliated with, endorsed by or connected to any real league, team, school, athlete or organisation. Every player, club and fighter in them is generated inside the game, and any in-game money is a fictional simulation value with no real-world worth."
+      "answer": "The career sims do not: their leagues, teams and players are fictional. The draft and GM games build their player and fighter pools from real-world athletes' careers, with ratings that are the games' own estimates. None of the studio's sports titles is affiliated with, endorsed by or licensed by any league, team, school, athlete or organisation, and any in-game money is a simulation value with no real-world worth."
     }
   ],
   "sources": []
@@ -167,7 +174,7 @@ Most of the studio's sports titles are built on this loop with a franchise mode 
 
 Whichever shape you play, the model underneath deserves stating plainly.
 
-These games take fictional players, apply internal rules to your decisions, and return an outcome. They are not reproducing the physics of the sport, and they are not describing, forecasting or relating to any real league, team, school or athlete. Nothing they produce is a prediction or guidance of any kind, and no approach guarantees a result — the perfect records these games are named for are deliberately hard to reach rather than the expected outcome of competent play.
+These games take a player or a roster — fictional in the career sims, drawn from real athletes' careers in the draft and GM games — apply internal rules to your decisions, and return an outcome. They are not reproducing the physics of the sport, and they are not forecasting anything about any real league, team, school or athlete. Nothing they produce is a prediction or guidance of any kind, and no approach guarantees a result — the perfect records these games are built around are deliberately hard to reach rather than the expected outcome of competent play.
 
 What that leaves is a comparison against yourself. In a franchise, change one construction decision and see whether the model agrees. In a career, commit to an identity and see how far the surrounding systems let it go. Both are honest uses of a model; neither tells you anything about the real sport.
 

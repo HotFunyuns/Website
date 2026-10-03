@@ -5,7 +5,13 @@
   "description": "What a basketball draft simulator models, why the highest-rated pick is often the wrong one, and how to read a projected season without over-reading it.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described Pro Basketball GM Franchise as a fictional simulation with generated players. Pro Basketball GM Franchise builds its player pool from real-world athletes' careers, with ratings that are the game's own estimates, and is not affiliated with or endorsed by any league, team or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -47,7 +53,8 @@
     "baseball-draft-gm-guide",
     "hockey-draft-gm-guide",
     "basketball-career-sim-guide",
-    "basketball-advanced-stats-explained"
+    "basketball-advanced-stats-explained",
+    "player-efficiency-rating-explained"
   ],
   "takeaways": [
     "A draft simulator is a constrained optimisation puzzle: a fixed number of picks, a pool you do not control, and a scoring model you can only infer from results.",
@@ -73,7 +80,7 @@
     },
     {
       "question": "Do these games use real players and real teams?",
-      "answer": "No. Pro Basketball GM Franchise is a fictional sports simulation with generated players, and it is not affiliated with, endorsed by or connected to any real league, team or athlete. The generic pool is also what makes the drafting interesting, because you have to judge players on the attributes in front of you rather than on reputation."
+      "answer": "Pro Basketball GM Franchise builds its draft pool from real players' careers, and some of its GM screens use real team nicknames. The ratings are the game's own estimates rather than official statistics, and the app is not affiliated with, endorsed by or licensed by any league, team, players' association or athlete. Reputation is not the same as fit, so the drafting still rewards judging players on the attributes in front of you."
     },
     {
       "question": "Does the app cost anything?",

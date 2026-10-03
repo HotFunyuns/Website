@@ -5,7 +5,13 @@
   "description": "Categorical statements come in four forms. The square of opposition, a circle-drawing method that settles validity, and the invalid forms that feel right.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no logic mode and nothing that assesses reasoning and that its catalogue is only arithmetic and memory practice; the app, now IQ Test & Brain Training Games, has logic games covering conditional reasoning and deduction and an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -173,8 +179,8 @@ There is a persistent interference between content and structure here. A meta-an
 
 The countermeasure is the diagram. Circles are indifferent to whether a conclusion is agreeable, which is the point of using them on any argument where you have a stake in the answer. Note also that validity says nothing about whether the premises are true; where those premises come from is a separate question, and our guide to [primary and secondary sources](/blog/primary-vs-secondary-sources/) covers how to weigh them.
 
-## Load, practice, and what this app does not contain
+## Load, practice, and where our app fits
 
 Holding two premises, a conclusion and a part-drawn diagram in mind at once is a real capacity problem rather than a failure of character — which is why writing the diagram down beats reasoning in your head, and why [working memory and training](/blog/working-memory-and-training/) is worth reading alongside this.
 
-On the product, plainly: Mental Math & Memory Games, our own app, contains no syllogism items, no logic mode and nothing that assesses reasoning. Its catalogue is arithmetic and memory practice, and the reason it appears in this hub at all is that the untimed **Accuracy Trainer** rounds, with their feedback and explanations, model the one condition that helps here — no clock. The mode list is on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/). For the underlying concepts of validity and soundness, start with [deductive reasoning](/blog/deductive-reasoning-examples/); for the conditional version of the same machinery, see [if-then reasoning](/blog/conditional-reasoning-if-then/); and for rule-finding rather than argument-testing, the entry point is [number sequence puzzles](/blog/number-sequence-puzzles-explained/). The complete set is in the [logic and pattern puzzles hub](/blog/topics/logic-and-pattern-puzzles/) and the [education and brain training section](/blog/category/education-brain/). The open textbook *forall x: Calgary* is a good free next step for the formal treatment.
+On the product, plainly: IQ Test & Brain Training Games, our own app, has logic games covering analogies, sequences, conditional reasoning and deduction, and an IQ-style test that includes logic. Its listing does not say whether any of them uses categorical syllogisms of the kind above, and it describes test results as estimates based on app activities, not clinical or professional assessments. If you practise deduction there, the diagram habit still applies: draw the circles on paper rather than accepting a conclusion because it sounds believable. How the app describes its games and tests is on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/). For the underlying concepts of validity and soundness, start with [deductive reasoning](/blog/deductive-reasoning-examples/); for the conditional version of the same machinery, see [if-then reasoning](/blog/conditional-reasoning-if-then/); and for rule-finding rather than argument-testing, the entry point is [number sequence puzzles](/blog/number-sequence-puzzles-explained/). The complete set is in the [logic and pattern puzzles hub](/blog/topics/logic-and-pattern-puzzles/) and the [education and brain training section](/blog/category/education-brain/). The open textbook *forall x: Calgary* is a good free next step for the formal treatment.

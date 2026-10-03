@@ -5,7 +5,13 @@
   "description": "Verbal reasoning tests use a short list of formats: true/false/cannot say, text completion, sentence equivalence and comprehension. Here is what each probes.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, had no verbal items of any kind, offered no verbal practice and was not an assessment; the app, now IQ Test & Brain Training Games, has vocabulary games, analogy games and an IQ-style test covering vocabulary, whose results its Google Play listing calls estimates rather than professional assessments, and the article now says which verbal formats that overlaps with and which the listing does not describe."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -52,7 +58,7 @@
     "ETS uses a different set on its General Test — reading comprehension, text completion and sentence equivalence — which probes vocabulary in context and the structure of an argument rather than literal retrieval.",
     "Cannot say is the option that decides most scores. It means the passage is silent, not that the statement is implausible, and outside knowledge is the main source of wrong answers.",
     "Time budgets are severe: the UCAT allows 44 verbal reasoning questions in 22 minutes, which is exactly 30 seconds per question including reading.",
-    "Mental Math & Memory Games contains no verbal items of any kind — no passages, no vocabulary questions and no analogies — so it offers no practice for this format."
+    "Our own app, IQ Test & Brain Training Games, has vocabulary games built on synonyms, antonyms and context clues, and analogy games, which overlap with the word-level formats here; its listing describes no passage-based items, so do not count on it for the passage-and-statements format."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -70,8 +76,8 @@
       "answer": "Text completion omits crucial words from a short passage and asks you to select words or short phrases that create a coherent whole, sometimes with more than one blank. Sentence equivalence gives a single sentence with one blank and asks for the two choices that both complete it and produce sentences meaning the same thing. Both test vocabulary in context rather than definitions in isolation."
     },
     {
-      "question": "Does Mental Math & Memory Games include verbal reasoning practice?",
-      "answer": "No. The app has no verbal items at all: no reading passages, no vocabulary questions, no analogies and no sentence tasks. Its content is arithmetic drills across the four operations and mixed practice, memory rounds using numbers, sequences, grids and delayed recall, and a library of calculation techniques. For verbal reasoning practice you need material built for it, ideally from the publisher whose test you will sit."
+      "question": "Does IQ Test & Brain Training Games include verbal reasoning practice?",
+      "answer": "Partly. Its vocabulary games cover synonyms, antonyms, context clues and word meaning, its logic games include analogies, and its IQ-style test covers vocabulary among other areas. Its Google Play listing does not describe reading passages or true, false and cannot say statements, so for those formats you need material built for them, ideally from the publisher whose test you will sit. The listing also describes test results as estimates based on app activities, not a professional assessment."
     }
   ],
   "sources": [
@@ -135,10 +141,10 @@ The budgets are tighter than the formats suggest. The UCAT allocates 44 Verbal R
 
 Under that pressure, the reading strategy has to change. Reading a passage thoroughly before seeing the statements is affordable only when several statements share one passage. Otherwise, statement-first scanning wins. The general exam behaviour — pacing, when to abandon an item, and what a guess is worth — is covered in [strategy for a timed reasoning test](/blog/strategy-for-timed-reasoning-tests/), which also notes that the UCAT applies no negative marking, so an unanswered item and a wrong item score the same.
 
-## What these tests claim to measure, and what this app does not do
+## What these tests claim to measure, and where our app fits
 
 Verbal reasoning items are sampling a slice of language ability under time pressure, not the whole of it. The construct question — what a battery of such measures is claimed to represent — is handled in [what IQ tests actually measure](/blog/what-iq-tests-actually-measure/), and the parallel taxonomy for shape-based items is in [nonverbal reasoning tests](/blog/nonverbal-reasoning-tests-explained/).
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and it contains no verbal items whatsoever — no passages, no vocabulary questions, no analogies, no sentence tasks. It drills arithmetic through modes such as Multiplication Rush, Addition Sprint, Subtraction Sprint, Division Dash and Mixed Operations, runs memory rounds on numbers, sequences, grids and delayed recall, and records score, accuracy, streak and response time. It is an educational game rather than an assessment, and it offers no preparation for a verbal reasoning test.
+IQ Test & Brain Training Games is our own app, built by Reign Creative. Its listing describes vocabulary games on synonyms, antonyms, context clues and word meaning, logic games that include analogies, and an IQ-style test that covers vocabulary — but no reading passages or true, false and cannot say statements. It drills arithmetic through modes such as Multiplication Rush, Addition Sprint, Subtraction Sprint, Division Dash and Mixed Operations, runs memory rounds on numbers, sequences, grids and delayed recall, and records score, accuracy, streak and response time. It is an educational game, and its listing calls test results estimates based on app activities rather than professional assessments; its word games overlap with the analogy and vocabulary-in-context formats above, but the listing does not present it as preparation for a verbal reasoning test.
 
-What does transfer, modestly, is the habit of holding material in mind while you work on it — the subject of [working memory and training](/blog/working-memory-and-training/) — and the encoding methods in [memory techniques that work](/blog/memory-techniques-that-work/), which are useful for vocabulary if that is your weak point. Everything else in this subject sits in the [IQ tests and reasoning hub](/blog/topics/iq-tests-and-reasoning/) and the wider [education and brain category](/blog/category/education-brain/); the drills themselves are on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+What does transfer, modestly, is the habit of holding material in mind while you work on it — the subject of [working memory and training](/blog/working-memory-and-training/) — and the encoding methods in [memory techniques that work](/blog/memory-techniques-that-work/), which are useful for vocabulary if that is your weak point. Everything else in this subject sits in the [IQ tests and reasoning hub](/blog/topics/iq-tests-and-reasoning/) and the wider [education and brain category](/blog/category/education-brain/); the app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

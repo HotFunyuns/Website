@@ -5,7 +5,13 @@
   "description": "What makes a sequence recursive, how Fibonacci and Lucas numbers differ only in their seeds, and which golden ratio claims actually hold up.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, had no figural, matrix or logic-grid items, that none of its modes is an assessment of any kind, that its drill statistics are the extent of what its numbers mean, and that its app page lists the modes; the app, now IQ Test & Brain Training Games, lists logic games built on sequences, patterns and rule discovery and an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so without claiming item formats the listing does not describe."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -152,4 +158,4 @@ That much is mathematics and it holds. A great deal of what is written about the
 
 Recursive sequences are unusually demanding to hold in your head, because you are carrying two or three live values and updating them at every step. That is a working-memory load rather than an arithmetic one, and [what working memory is and what training does to it](/blog/working-memory-and-training/) covers the distinction properly. Speeding up the addition itself helps, which is the argument in [the mental math methods guide](/blog/mental-math-training-guide/).
 
-Mental Math & Memory Games, our own app built by Reign Creative, drills both halves separately. The 75-second Number Pattern Challenge is the rule-finding drill, while Running Total Memory — a memory mode where numbers appear one at a time and you hold the total — trains the carry-a-value-forward habit that recursion demands. Being plain about what is not there: the app ships no figural or matrix items and no logic-grid puzzles, and none of its modes is an assessment of any kind. It tracks score, accuracy, streak, response time and personal bests on its own drills, and that is the extent of what its numbers mean. The [app page](/apps/mental-math-memory-games/) lists the modes; more of this subject is in the [logic and pattern puzzles collection](/blog/topics/logic-and-pattern-puzzles/) and the [education and brain training section](/blog/category/education-brain/).
+IQ Test & Brain Training Games, our own app built by Reign Creative, drills both halves separately. The 75-second Number Pattern Challenge is the rule-finding drill, while Running Total Memory — a memory mode where numbers appear one at a time and you hold the total — trains the carry-a-value-forward habit that recursion demands. Being plain about what is and is not claimed: the listing also describes logic games built on sequences, patterns and rule discovery and an IQ-style test that covers patterns, but it does not describe figural, matrix or logic-grid formats, so we do not claim them. Its drills track score, accuracy, streak, response time and personal bests, and its listing describes the IQ-style test and other results as estimates based on app activities, not clinical or professional assessments. The [app page](/apps/mental-math-memory-games/) describes the app; more of this subject is in the [logic and pattern puzzles collection](/blog/topics/logic-and-pattern-puzzles/) and the [education and brain training section](/blog/category/education-brain/).

@@ -5,7 +5,13 @@
   "description": "The mechanics under draft strategy: replacement value, tiers, positional runs, and why your draft slot decides which plans are even available to you.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described Pro Basketball GM Franchise and Football Franchise GM League as fictional simulations with generated player pools. Both build their draft pools from real-world players' careers, with ratings that are the games' own estimates, and neither is affiliated with or endorsed by any league, team or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -75,7 +81,7 @@
     },
     {
       "question": "Do these games use real players and teams?",
-      "answer": "No. Pro Basketball GM Franchise and 20-0 Football Draft & GM Mode are fictional sports simulations with generated player pools. They are not affiliated with, endorsed by or connected to any real league, team or athlete. Drafting against generated players is also what makes the exercise a strategy problem rather than a memory test, because you have to judge each name on the attributes shown."
+      "answer": "Pro Basketball GM Franchise and Football Franchise GM League build their draft pools from real players' careers, with ratings that are the games' own estimates rather than official statistics, and some GM screens use real team names. Neither is affiliated with, endorsed by or licensed by any league, team, players' association or athlete. Knowing the names does not turn it into a memory test, though: each pick still has to be judged on the attributes shown and on what your roster needs."
     },
     {
       "question": "How many drafts does it take to tell whether a strategy is working?",
@@ -185,7 +191,7 @@ The reason drafting stays interesting after fifty runs is that changing the rule
 
 The catalogue description of the game is direct about what the season rewards — balance and depth carry more weight than any single marquee pick. That is a design decision, and it is exactly the kind of thing you can only learn by drafting differently and comparing.
 
-[20-0 Football Draft & GM Mode](/apps/football-draft-gm-mode/) makes the same point from the other end with its Limited Draft, which removes refreshes entirely. Take away the ability to keep looking and every pick has to stand on its own, which is the purest test of whether your tiers were real or decorative.
+[Football Franchise GM League](/apps/football-draft-gm-mode/) makes the same point from the other end with its Limited Draft, which removes refreshes entirely. Take away the ability to keep looking and every pick has to stand on its own, which is the purest test of whether your tiers were real or decorative.
 
 ## A practice loop that actually improves you
 

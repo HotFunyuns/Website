@@ -5,7 +5,13 @@
   "description": "Holding a number for thirty seconds is a different problem from memorising it. What the rehearsal loop can carry, and what reliably knocks a number out of it.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no test of any kind and pointed to a mode list on its app page; the app, now IQ Test & Brain Training Games, includes a memory test and an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so and points to the app page's general description instead."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -142,8 +148,8 @@ Put those together and the practical rule falls out. It is not the thirty second
 
 ## Practising the hold without pretending it is more
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and several of its memory modes drill exactly this: Number Recall and Sequence Memory show a string, take it away, and ask for it back. The seven difficulty levels change the real mechanics rather than just the label — Beginner presents three or four items with a slow reveal, and the higher levels shorten the reveal window and lengthen the sequence. A Custom Practice mode lets you set the content, the length and the reveal speed yourself, which is the setting to use if you want to isolate one variable.
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and several of its memory modes drill exactly this: Number Recall and Sequence Memory show a string, take it away, and ask for it back. The seven difficulty levels change the real mechanics rather than just the label — Beginner presents three or four items with a slow reveal, and the higher levels shorten the reveal window and lengthen the sequence. A Custom Practice mode lets you set the content, the length and the reveal speed yourself, which is the setting to use if you want to isolate one variable.
 
-Two honest limits. First, getting better at these drills means getting better at these drills; the evidence on span training does not support a claim that it enlarges memory in general, and we do not make one. Second, the app is practice and entertainment, not assessment: it records score, accuracy, streak, response time and personal bests, and contains no test of any kind.
+Two honest limits. First, getting better at these drills means getting better at these drills; the evidence on span training does not support a claim that it enlarges memory in general, and we do not make one. Second, the drills are practice and entertainment, not assessment: they record score, accuracy, streak, response time and personal bests. The app does also include a memory test and an IQ-style test, and its Google Play listing calls their results estimates based on app activities, not clinical or professional assessments.
 
-Within those limits the drills are genuinely useful for one thing this article cares about — finding out, for you specifically, where the group size stops helping. Run the same sequence length with pairs and then with triples and watch which one survives. If you want the methods for numbers you need to keep rather than merely hold, [the comparison of number memorisation methods](/blog/how-to-memorize-numbers/) covers those. Otherwise, browse the [memory and attention hub](/blog/topics/memory-and-attention/), the wider [education and brain section](/blog/category/education-brain/), or the mode list on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+Within those limits the drills are genuinely useful for one thing this article cares about — finding out, for you specifically, where the group size stops helping. Run the same sequence length with pairs and then with triples and watch which one survives. If you want the methods for numbers you need to keep rather than merely hold, [the comparison of number memorisation methods](/blog/how-to-memorize-numbers/) covers those. Otherwise, browse the [memory and attention hub](/blog/topics/memory-and-attention/), the wider [education and brain section](/blog/category/education-brain/), or the description of the app on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

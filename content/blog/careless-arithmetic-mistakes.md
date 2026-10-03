@@ -5,7 +5,13 @@
   "description": "Most so-called careless arithmetic errors are slips, not gaps in method, and the two need opposite fixes. A taxonomy plus a checking routine that takes seconds.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, was a practice game and nothing more, with no test or assessment of any kind and no claim about intelligence; the app, now IQ Test & Brain Training Games, includes an IQ-style test and a memory test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -153,6 +159,6 @@ Then count your errors by type for a week. One category will dominate — it alm
 
 Errors are only fixable if you see them, and a score total hides them. What you want is per-question feedback while you are still thinking about the question, plus a record of what went wrong.
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and it ships two modes aimed at exactly this. Accuracy Trainer runs ten questions with no timer, gives feedback and an explanation, and offers a hint — the setting in which you can watch which of the five slips you keep producing. No Mistake Challenge does the opposite: one wrong answer ends the run, which makes any slip immediately visible rather than absorbed into an average. Each run reports correct and wrong counts, accuracy, average and median answer time, and the session history keeps them, so an error pattern is something you can look at rather than remember.
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and it ships two modes aimed at exactly this. Accuracy Trainer runs ten questions with no timer, gives feedback and an explanation, and offers a hint — the setting in which you can watch which of the five slips you keep producing. No Mistake Challenge does the opposite: one wrong answer ends the run, which makes any slip immediately visible rather than absorbed into an average. Each run reports correct and wrong counts, accuracy, average and median answer time, and the session history keeps them, so an error pattern is something you can look at rather than remember.
 
-It is a practice game and nothing more: it records performance on its own drills, offers no test or assessment of any kind, and makes no claim about intelligence. The [app page](/apps/mental-math-memory-games/) lists what ships. The method articles this piece leans on sit in the [mental math collection](/blog/topics/mental-math/), starting with [the mental math methods guide](/blog/mental-math-training-guide/), and the broader set of guides is in the [education and brain training section](/blog/category/education-brain/).
+Those two modes are practice: they record performance on their own drills. The app also includes an IQ-style test and a memory test, and its Google Play listing calls their results estimates based on app activities, not clinical or professional assessments. The [app page](/apps/mental-math-memory-games/) describes the app as a whole. The method articles this piece leans on sit in the [mental math collection](/blog/topics/mental-math/), starting with [the mental math methods guide](/blog/mental-math-training-guide/), and the broader set of guides is in the [education and brain training section](/blog/category/education-brain/).

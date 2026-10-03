@@ -5,7 +5,13 @@
   "description": "Inductive arguments make a conclusion probable, never certain. The four common shapes, what makes one strong, and a sequence that punishes early confidence.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, had no logic items and nothing that assesses reasoning; the app, now IQ Test & Brain Training Games, lists logic games built on analogies, sequences, conditional reasoning, deduction and patterns and an IQ-style test covering logic and numerical reasoning, whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -166,6 +172,6 @@ Five confirmations were not enough, and no number of confirmations would have be
 
 The transferable skill here is small and specific: before committing to a rule, ask what else would fit, and ask what you would expect to see if the rival rule were right.
 
-Our own app, Mental Math & Memory Games, ships no logic items and nothing that assesses reasoning. It does ship a **Number Pattern Challenge** mode that generates fresh rule-finding items at three difficulty settings, which is useful here for one reason: because the items are generated rather than drawn from a fixed list, you cannot recognise them, so you have to run the inference each time. The app records accuracy and response time on that mode, which are game statistics about your play rather than measurements of anything about you. What it tracks is set out on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/), and our honest account of what practice apps in this category can support is in [do brain training apps work](/blog/do-brain-training-apps-work/).
+Our own app, IQ Test & Brain Training Games, has logic games built on analogies, sequences, conditional reasoning, deduction and patterns, and an IQ-style test that covers logic and numerical reasoning; its listing describes the test's results as estimates based on app activities, not clinical or professional assessments. It also ships a **Number Pattern Challenge** mode that generates fresh rule-finding items at three difficulty settings, which is useful here for one reason: because the items are generated rather than drawn from a fixed list, you cannot recognise them, so you have to run the inference each time. The app records accuracy and response time on that mode, which are game statistics about your play rather than measurements of anything about you. What it tracks is set out on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/), and our honest account of what practice apps in this category can support is in [do brain training apps work](/blog/do-brain-training-apps-work/).
 
 Two related skills are worth reading next. Judging whether a number is roughly the right size before trusting it is covered in [estimation techniques](/blog/estimation-techniques-explained/), and the specific traps in "if, then" statements are in [conditional reasoning](/blog/conditional-reasoning-if-then/). The full set sits in the [logic and pattern puzzles hub](/blog/topics/logic-and-pattern-puzzles/) and the wider [education and brain training section](/blog/category/education-brain/).

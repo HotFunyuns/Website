@@ -5,7 +5,13 @@
   "description": "What ketones are, what blood, urine and breath tests each measure, and why published sources are explicit that a reading is not a self-diagnostic tool.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Keto Diet Tracker: Low Carb, recorded GKI, logged electrolytes and photos, kept monthly summaries, did not interpret readings, had no paid tier and kept logs only on your device; the app, now Ketora: Keto Diet Carb Tracker, lists blood, breath and urine strip readings, charts with weekly and ketosis insights, an optional Ketora Premium and an AI coach that reviews your logs, and the article now describes only that."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": [
@@ -75,11 +81,11 @@
     },
     {
       "question": "What is GKI?",
-      "answer": "It is a ratio combining a blood glucose reading and a blood ketone reading into a single figure, used by some people who track both. No US federal health authority publishes a target value for it, so it is best understood as a bookkeeping number derived from two measurements rather than a threshold with official meaning. Keto Diet Tracker can record it alongside the underlying readings you have taken."
+      "answer": "It is a ratio combining a blood glucose reading and a blood ketone reading into a single figure, used by some people who track both. No US federal health authority publishes a target value for it, so it is best understood as a bookkeeping number derived from two measurements rather than a threshold with official meaning."
     },
     {
-      "question": "Does Keto Diet Tracker measure ketones?",
-      "answer": "No. It stores readings you have already taken yourself with a blood meter, urine strips or a breath meter, including GKI, and keeps them alongside your food log, fasting timer, water and electrolytes. The app does not measure anything and does not interpret a reading for you."
+      "question": "Does Ketora measure ketones?",
+      "answer": "No. Ketora: Keto Diet Carb Tracker stores readings you have already taken yourself from blood, breath or urine strips and keeps them alongside your food diary, fasting timer, water and weight. The app does not measure anything itself."
     }
   ],
   "sources": [
@@ -215,9 +221,9 @@ A dated series of readings, recorded consistently and alongside what you ate and
 
 What it is not: a scoreboard, a measure of effort, evidence that a diet is "working", or a substitute for medical assessment. A higher number is not a better number. There is no achievement encoded in it.
 
-[Keto Diet Tracker: Low Carb](/apps/keto-diet-tracker/) is built with that framing. It has a place to record blood, urine strip and breath meter readings you have taken yourself, including GKI, and it keeps them next to the rest of the day — the food log with net carbs worked out for you, an intermittent fasting timer, water, and sodium, potassium and magnesium. Charts, body measurements, photo logs and weekly and monthly summaries turn the entries into a history you can look back over.
+[Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) has a place to record blood, breath and urine strip readings you have taken yourself, and it keeps them next to the rest of the day — the food diary with net carbs worked out for you, an intermittent fasting timer, water and weight. Charts, body measurements and weekly insights turn the entries into a history you can look back over; whatever those charts show, the framing above still applies to the readings in them.
 
-The app stores what you enter. It does not measure anything itself, and it does not interpret a reading. It is free on Google Play, supported by ads, with no in-app purchases; no account is required and your logs stay on your device rather than on our servers, which also means an uninstall takes them with it.
+The app stores what you enter and does not measure anything itself, and its listing describes it as informational, not medical advice. It is free on Google Play and supported by ads; Google Play shows no in-app purchases for it, although its listing describes an optional Ketora Premium.
 
 If the surrounding numbers are what you are trying to get straight, [keto macros explained](/blog/keto-macros-explained/) covers the percentage-to-gram arithmetic, [net carbs explained](/blog/net-carbs-explained-keto-tracking/) covers the subtraction that no regulator defines, and [intermittent fasting windows](/blog/intermittent-fasting-windows-explained/) covers the timer that usually sits next to all of this. The rest of the [health and nutrition category](/apps/category/health-nutrition/) covers the adjacent tools.
 

@@ -5,7 +5,13 @@
   "description": "What working memory is, how small its capacity really is, and an honest account of why researchers still disagree about whether training transfers to anything.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, drills arithmetic and memory tasks, that this is the only thing we say it does, and that its claims concern practice rather than intelligence; the app, now IQ Test & Brain Training Games, lists an IQ-style test that covers working memory, a memory test, a reaction time test and a personality questionnaire, with results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now describes it that way while keeping that we make no claim it raises intelligence or protects against decline."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -79,8 +85,8 @@
       "answer": "We do not make that claim about our app, and the published evidence does not support making it. The National Institute on Aging states plainly that there is not enough evidence to suggest commercially available computer-based brain-training applications have the same impact on cognitive abilities as the training used in the ACTIVE trial, and advises caution about claims that computer and online games improve memory and thinking."
     },
     {
-      "question": "What does Mental Math & Memory Games claim to do?",
-      "answer": "It drills arithmetic and memory tasks and tracks how you perform on them — scores, accuracy, streaks, response time, personal bests and history. That is a claim about practice and measurement, not about intelligence, cognitive health or protection against decline. If it makes you faster at arithmetic, that is the near-transfer effect the evidence supports, and it is the only thing we say it does."
+      "question": "What does IQ Test & Brain Training Games claim to do?",
+      "answer": "Its Google Play listing describes an IQ-style test, memory, logic, focus and vocabulary games, mental math, a memory test, a reaction time test and a personality questionnaire, with progress tracked over time, and it states that the IQ test, personality test, memory test and other results are estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments. We make no claim that it raises intelligence, protects cognitive health or prevents decline. If it makes you faster at arithmetic, that is the near-transfer effect the evidence supports."
     }
   ],
   "sources": [
@@ -208,7 +214,7 @@ That distinction — between a structured research protocol and a commercial app
 
 Stated explicitly, because the absence of a claim is easy to miss:
 
-- We do not claim [Mental Math & Memory Games](/apps/mental-math-memory-games/) makes anyone smarter.
+- We do not claim [IQ Test & Brain Training Games](/apps/mental-math-memory-games/) makes anyone smarter.
 - We do not claim it raises IQ or fluid intelligence.
 - We do not claim it prevents, delays or protects against cognitive decline, dementia or any medical condition.
 - We do not claim it improves performance at work, at school or in any activity other than the ones it drills.
@@ -218,7 +224,7 @@ If you see any of those claims attached to any brain-training product, the FTC a
 
 ## What the app actually does
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) drills addition, subtraction, multiplication and division with difficulty that climbs as you improve, alongside number, grid, sequence and delayed-recall memory games. It includes timed sprints, accuracy rounds, survival challenges, boss quizzes and a daily math challenge, and it tracks scores, accuracy, streaks, response time, personal bests and history. It also covers techniques for percentages, estimation, number patterns and faster calculation.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) has an IQ-style test covering numerical reasoning, logic, patterns, vocabulary, working memory, spatial reasoning and processing speed, followed by brain-training recommendations. Around it sit memory games built on digit span, sequences, grids, colours, letters and symbols; logic, focus and vocabulary games; mental math across the four operations, percentages, ratios, estimation and money problems; a memory test, a reaction time test and a personality questionnaire; and daily challenges, streaks, personal bests, accuracy, response speed and an assessment history tracked over time. Its listing states that the IQ test, personality test, memory test and other results are estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments — so nothing it reports is a measure of working-memory capacity in the sense discussed above.
 
 Those are claims about practice and measurement. Getting faster at arithmetic through arithmetic practice is the near-transfer effect the evidence reasonably supports, and it is a worthwhile thing on its own terms — mental arithmetic is genuinely useful, and being fluent at it is genuinely convenient. It just is not a claim about your brain.
 

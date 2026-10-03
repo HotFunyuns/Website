@@ -5,7 +5,13 @@
   "description": "Why the Nutrition Facts label separates added from total sugars, what counts as added, and how the distinction interacts with low-carb tracking.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Keto Diet Tracker: Low Carb, subtracted erythritol, allulose and monk fruit and stored entries only on your device; the app, now Ketora: Keto Diet Carb Tracker, lists net carbs as total carbs minus fiber and sugar alcohols and does not say where it keeps your logs, which its AI coach reviews, so the article now says only what that listing supports."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "health-nutrition",
   "tags": [
@@ -162,10 +168,10 @@ It also does not tell you which specific sugars are present. That is in the ingr
 
 ## Where our apps fit
 
-[Keto Diet Tracker: Low Carb](/apps/keto-diet-tracker/) works from total carbohydrate, subtracting fibre and sweeteners including erythritol, allulose and monk fruit to produce net carbs as you log. For that purpose the added-sugars distinction does not enter the calculation, which is the correct treatment.
+[Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) works from total carbohydrate, subtracting fibre and sugar alcohols to produce net carbs as you log. For that purpose the added-sugars distinction does not enter the calculation, which is the correct treatment.
 
 [Protein Diet Tracker](/apps/protein-diet-tracker/) totals protein, calories, carbohydrate and fat without breaking sugars out separately.
 
-Both include barcode scanning or fast manual entry, and both are free to download on Google Play, supported by ads, with entries stored on your device rather than on our servers.
+Both include barcode scanning or fast manual entry, and both are free to download on Google Play and supported by ads. Protein Diet Tracker stores entries on your device rather than on our servers.
 
 **This article is general information, not medical or dietary advice, and it has not been reviewed by a doctor or registered dietitian.** The [FDA's label pages](https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label) are the authoritative reference for what a label declares. The rest of our nutrition tools are under [health and nutrition](/apps/category/health-nutrition/).

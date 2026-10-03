@@ -5,7 +5,13 @@
   "description": "Score bands are cut points drawn across a continuous curve by a publisher, not natural categories. Here is how they are built and why the edges are unreliable.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, produced no bands, no percentile and no classification of any kind and recorded only session statistics; the app, now IQ Test & Brain Training Games, includes an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says that instead of describing what the app does not show."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -53,7 +59,7 @@
     "The percentages are fixed by the shape of the curve, not by the population. NIST gives 68.27 per cent within one standard deviation of the mean, 95.45 per cent within two and 99.73 per cent within three.",
     "One band edge does carry formal weight: intellectual disability criteria have traditionally used approximately two standard deviations below the mean, a standard score of about 70 — and even there, measurement error means scores in the low 70s need careful handling.",
     "Labels vary between publishers and between editions of the same instrument, so an identical number can attract different words depending on which chart is open.",
-    "Mental Math & Memory Games produces no bands, no score chart and no classification of any kind. It reports points, accuracy, streak and response time for a practice run."
+    "IQ Test & Brain Training Games, our own app, includes an IQ-style test, and its listing describes the results as estimates based on app activities, not a clinical or professional assessment — so any figure it shows deserves more caution than a band on a publisher's chart, not less."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -71,8 +77,8 @@
       "answer": "Less than the label implies. Every score carries a standard error of measurement, so a result a point or two from an edge can land in the neighbouring band on a retest without anything about the person changing. This is why reports give a confidence interval, and why a single number should never be treated as a category membership."
     },
     {
-      "question": "Does the Mental Math & Memory Games app place you in a band?",
-      "answer": "No. The app produces no bands, no score chart, no percentile and no classification. It records score, accuracy, streak, response time and personal bests for the mode and difficulty you played, and those are game statistics about a practice session rather than positions in any distribution."
+      "question": "Does the IQ Test & Brain Training Games app place you in a band?",
+      "answer": "Its Google Play listing does not describe bands, a score chart or a classification. It does include an IQ-style test, and the listing states that IQ test and other results are estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments. Whatever result the app shows, read it as a record of how you did on its own questions, not as a position in a norm sample."
     }
   ],
   "sources": [
@@ -154,13 +160,13 @@ ETS describes reliability as the extent to which scores are consistent across oc
 
 A score chart never shows it. That is the chart's central omission: it renders a number as a location with hard edges when the number is really an estimate with a range around it. A competent report gives that range, and a reader who only ever sees the point estimate is missing the part of the result that governs how much confidence it deserves.
 
-## What our app does instead
+## Where our own app fits
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) is our own app, built by Reign Creative, and the honest statement about it belongs here in plain words: **it produces no bands, no score chart and no classification of any kind.**
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) is our own app, built by Reign Creative, and the honest statement about it belongs here in plain words: **it includes an IQ-style test, and its listing calls the results estimates based on app activities, not a clinical or professional assessment.**
 
-There is no percentile, no descriptive label, no range chart, and no comparison with any population. What the app records is what happened in a session: points scored, accuracy on the questions it asked, the longest unbroken streak, response time, and personal bests for each mode. Those numbers describe a run of Multiplication Rush or a set of number-memory rounds. They describe nothing else.
+Its listing does not say whether, or how, a result is placed on a scale, and it documents no comparison group, so you cannot check a result against the standards this article describes. What the listing does describe is a record against your own history: personal bests, accuracy, streaks, response speed and an assessment history. Those numbers describe how you did on the app's own questions. They describe nothing else.
 
-That distinction is deliberate, and it is the same one drawn throughout this series. **Practice** and **entertainment** produce feedback about a session. **Standardised psychological assessment** produces a position in a norm sample. A product that blurs the two is misrepresenting the second, not upgrading the first — a point developed at length in our guide to [whether brain training apps work](/blog/do-brain-training-apps-work/).
+That distinction is the same one drawn throughout this series, and the listing's own disclaimer places the app's results on the practice side of it. **Practice** and **entertainment** produce feedback about a session. **Standardised psychological assessment** produces a position in a norm sample. A product that blurs the two is misrepresenting the second, not upgrading the first — a point developed at length in our guide to [whether brain training apps work](/blog/do-brain-training-apps-work/).
 
 ## Reading a chart without being misled by it
 

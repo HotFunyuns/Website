@@ -5,7 +5,13 @@
   "description": "State the relationship as a full sentence before reading the options. Analogy relationship types, how distractors are built, and worked verbal and number items.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, had no analogy items, was arithmetic and memory practice only and made no assessment of any kind; the app, now IQ Test & Brain Training Games, lists analogies among its logic games, has vocabulary games and includes an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -57,7 +63,7 @@
     "Direction is part of the relationship. If the first pair runs creator to work, the second must too, and an option that reverses the order is wrong however apt it seems.",
     "Distractors are usually built to match the surface — a word strongly associated with the third term, but not by the relation you identified.",
     "Number analogies are underdetermined by a single pair, because more than one rule fits any two numbers; a second worked pair is what fixes the rule.",
-    "Mental Math & Memory Games ships no analogy items; its Ratio Trainer drills the proportional reasoning that number analogies depend on."
+    "IQ Test & Brain Training Games, our own app, lists analogies among its logic games and ratios in its mental math practice, so the sentence-first habit and the arithmetic behind number analogies both have somewhere to be practised."
   ],
   "disclaimer": "none",
   "featured": false,
@@ -76,7 +82,7 @@
     },
     {
       "question": "Does the app have analogy puzzles?",
-      "answer": "No. Mental Math & Memory Games contains no verbal analogy items and no figural analogy items. Its Ratio Trainer mode drills proportional reasoning, which is the machinery a numerical analogy of the two-is-to-three form actually uses, but that is a supporting skill rather than the task. The app is arithmetic and memory practice and it assesses nothing."
+      "answer": "Yes. IQ Test & Brain Training Games lists analogies among its logic games, alongside sequences, conditional reasoning and deduction, and its vocabulary games work on synonyms, antonyms and context clues; its listing does not say whether the analogy items are verbal, numerical or figural. Its IQ-style test also covers logic, patterns and vocabulary, and the listing describes that test's results as estimates based on app activities, not clinical or professional assessments."
     }
   ],
   "sources": [
@@ -157,6 +163,6 @@ The other common numerical form is a straight ratio: **2 : 3 :: 8 : ?** Here the
 
 The sentence-first method is a habit rather than a piece of knowledge, and habits install through repetition with feedback. Two things help. First, write the sentence down at the start; the act of committing to specific wording is what prevents the vague "they go together" formulation. Second, treat naming the relation as an encoding task in its own right — putting a relationship into your own words is a form of elaboration, which our guide to [memory techniques that work](/blog/memory-techniques-that-work/) covers as a general principle.
 
-On our own app: Mental Math & Memory Games, built by Reign Creative, ships no analogy items, verbal or figural. What it does ship that touches this article is **Ratio Trainer**, a timed drill on proportional relationships at three difficulty settings, which sharpens the arithmetic that numerical analogies of the ratio form depend on. That is a supporting skill, not the task, and the app makes no assessment of any kind. The mode list and the progress statistics are on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+On our own app: IQ Test & Brain Training Games, built by Reign Creative, lists analogies among its logic games, alongside sequences, conditional reasoning and deduction, and its vocabulary games work on synonyms, antonyms and context clues — so the sentence-first habit has somewhere to be practised. Its listing does not say which relationship types or formats the analogy items use. Its mental math practice also covers ratios, the arithmetic that numerical analogies of the ratio form depend on. The app's IQ-style test covers logic, patterns and vocabulary too, and its Google Play listing describes the results as estimates based on app activities, not clinical or professional assessments. The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).
 
 If the figural version of this format is what you are after, the construction of grid items is dissected in [how a matrix puzzle is built](/blog/matrix-reasoning-puzzles/), and the wider question of what follows from what is the subject of [deductive reasoning](/blog/deductive-reasoning-examples/). The full set sits in the [logic and pattern puzzles hub](/blog/topics/logic-and-pattern-puzzles/), alongside our other writing in the [education and brain training section](/blog/category/education-brain/).

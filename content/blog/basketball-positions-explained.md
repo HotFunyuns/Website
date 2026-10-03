@@ -45,7 +45,9 @@
   "relatedArticles": [
     "how-to-build-a-balanced-basketball-roster",
     "basketball-career-sim-guide",
-    "soccer-formations-explained"
+    "soccer-formations-explained",
+    "zone-vs-man-defense-basketball",
+    "how-to-read-a-basketball-box-score"
   ],
   "takeaways": [
     "The five positions are a coaching convention, not a rule: the laws of the game set how many players a team has on court and say nothing about what any of them is called.",

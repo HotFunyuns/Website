@@ -5,7 +5,13 @@
   "description": "How two or three people share a brain game that has no multiplayer: pass-the-device turns, matched difficulty, and the one genuinely shared artefact.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app's full mode list was on its app page, which describes the app without listing individual modes; the article now points to that page as a description of the app, now IQ Test & Brain Training Games (previously Mental Math & Memory Games), and adds that its IQ-style test, memory test and reaction time test give results its Google Play listing calls estimates, not clinical or professional assessments."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -51,7 +57,7 @@
     "what-a-brain-training-subscription-buys"
   ],
   "takeaways": [
-    "Mental Math & Memory Games has no multiplayer, no accounts, no shared profile and no head-to-head mode. Everything below is a way of working around that, not a feature list.",
+    "IQ Test & Brain Training Games has no multiplayer, no accounts, no shared profile and no head-to-head mode. Everything below is a way of working around that, not a feature list.",
     "Pass-the-device turn taking works because each round is short and self-contained: a 60-second sprint or a fixed set of memory rounds ends on its own.",
     "Difficulty labels are what let people of different ability share a mode — two players can run the same drill at genuinely different settings and still be doing the same activity.",
     "The daily challenge is seeded from the date, so two people on two devices get the same challenge on the same day. That is the one artefact that is genuinely comparable.",
@@ -62,7 +68,7 @@
   "faqs": [
     {
       "question": "Can several people share one profile in a practice app?",
-      "answer": "In Mental Math & Memory Games, everything is stored on the device as a single record, so several people sharing one install share one history. That is fine for casual turn taking and unhelpful if anyone wants a clean personal record. The workaround is one device per person, or accepting that the stored bests belong to whoever set them."
+      "answer": "In IQ Test & Brain Training Games, everything is stored on the device as a single record, so several people sharing one install share one history. That is fine for casual turn taking and unhelpful if anyone wants a clean personal record. The workaround is one device per person, or accepting that the stored bests belong to whoever set them."
     },
     {
       "question": "What does the Everyone content rating actually mean?",
@@ -106,7 +112,7 @@
 }
 ---
 
-You can use a single-player brain game as a family, but not by looking for a family mode. Mental Math & Memory Games — our own app, built by Reign Creative — has **no multiplayer, no accounts, no shared profile and no head-to-head mode**. What it has instead are short self-contained rounds, difficulty settings that let two people of different ability run the same drill, and a daily challenge generated from the date, which is the only thing two players can meaningfully compare.
+You can use a single-player brain game as a family, but not by looking for a family mode. IQ Test & Brain Training Games — our own app, built by Reign Creative — has **no multiplayer, no accounts, no shared profile and no head-to-head mode**. What it has instead are short self-contained rounds, difficulty settings that let two people of different ability run the same drill, and a daily challenge generated from the date, which is the only thing two players can meaningfully compare.
 
 That is the honest answer to "can we play this together". Everything below is how to make those three facts do the work a multiplayer mode would have done.
 
@@ -136,7 +142,7 @@ The mechanics of date-seeded dailies, and why a once-a-day cap is a design decis
 
 ## What an "Everyone" rating does and does not tell you
 
-Mental Math & Memory Games carries a Google Play content rating of Everyone and sits in the Educational game category. Ratings on Play are produced through the International Age Rating Coalition, a global system that lets a developer complete one questionnaire and receive ratings from the regional authorities that apply in each territory. Google's own help documentation states plainly that ratings indicate minimum maturity levels and do not tell you whether an app is designed for users of a specific age.
+IQ Test & Brain Training Games carries a Google Play content rating of Everyone and sits in the Educational game category. Ratings on Play are produced through the International Age Rating Coalition, a global system that lets a developer complete one questionnaire and receive ratings from the regional authorities that apply in each territory. Google's own help documentation states plainly that ratings indicate minimum maturity levels and do not tell you whether an app is designed for users of a specific age.
 
 That is a useful distinction for a parent. "Everyone" means the content will not surprise you. It does not mean the app was designed around how a seven-year-old reads a screen, and no rating system claims otherwise. The practical test is still to play a round yourself before handing the device over.
 
@@ -146,6 +152,6 @@ Three habits keep a family session useful rather than competitive theatre.
 
 - **Compare each player to their own last result**, never to each other. Different difficulty, different task.
 - **Talk about method, not speed.** Asking "how did you get that?" turns a drill into a conversation, and it is the only part of the session that reliably teaches anything. NRICH, the mathematics education project run at the University of Cambridge, builds its whole family resource around activities parents and children work through together rather than race at.
-- **Do not attach meaning to the numbers.** A practice score is a record of one session on one drill. It is not a measure of ability, not an assessment, and not evidence about anyone's intelligence. Practice, entertainment, educational activity and standardised assessment are four different things, and only the first three are happening here. The evidence for what practice does and does not support is set out in [our brain training explainer](/blog/do-brain-training-apps-work/).
+- **Do not attach meaning to the numbers.** A practice score is a record of one session on one drill. It is not a measure of ability, not an assessment, and not evidence about anyone's intelligence. That applies equally to the app's IQ-style test, memory test and reaction time test, whose results its Google Play listing calls estimates based on app activities, not clinical or professional assessments. Practice, entertainment, educational activity and standardised assessment are four different things, and only the first three are happening here. The evidence for what practice does and does not support is set out in [our brain training explainer](/blog/do-brain-training-apps-work/).
 
-If the memory rounds are the part that lands best with your household, the design thinking behind formats that are not just matching pairs is covered in [designing memory games beyond matching pairs](/blog/designing-memory-games-beyond-matching-pairs/). More on routines and progress sits in the [brain training games hub](/blog/topics/brain-training-games/) and the wider [education and brain category](/blog/category/education-brain/), and the full mode list is on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+If the memory rounds are the part that lands best with your household, the design thinking behind formats that are not just matching pairs is covered in [designing memory games beyond matching pairs](/blog/designing-memory-games-beyond-matching-pairs/). More on routines and progress sits in the [brain training games hub](/blog/topics/brain-training-games/) and the wider [education and brain category](/blog/category/education-brain/), and the app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

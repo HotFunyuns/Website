@@ -2,10 +2,16 @@
 {
   "title": "Brain Training Apps Compared: What Each One Documents",
   "metaTitle": "Brain Training Apps Compared by Documentation",
-  "description": "A capability comparison built only from each publisher's own official pages, read on 21 September 2026 — including where ours is the wrong choice.",
+  "description": "A capability comparison built only from each publisher's own pages, read 21 September 2026 (ours re-read 2 October) — including where ours is the wrong choice.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article described our app, then called Mental Math & Memory Games, as covering arithmetic and memory only, with no verbal or spatial content, a documented technique library and no cognitive claim; the app, now IQ Test & Brain Training Games, has a listing that documents an IQ-style test, logic, vocabulary, focus, memory and mental math games and a personality questionnaire but no technique library, and our row and conclusions now follow that listing, re-read on 2 October 2026."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -48,11 +54,11 @@
     "brain-games-for-older-adults"
   ],
   "takeaways": [
-    "This comparison uses only each publisher's own official pages, read on 21 September 2026. No third-party reviews, no ratings, no install figures and no prices are used, because none of those establish what a product contains.",
+    "This comparison uses only each publisher's own official pages, read on 21 September 2026, with our own app's listing re-read on 2 October 2026 after it changed. No third-party reviews, no ratings, no install figures and no prices are used, because none of those establish what a product contains.",
     "Lumosity's site describes 40+ games grouped into five cognitive areas, a fresh set of games each day, detailed progress tracking, and its own caveat that more research is needed to connect improved assessment scores to everyday tasks.",
     "BrainHQ describes more than two dozen exercises in six categories, a personal trainer feature that selects exercises for you, drill-down performance reporting, and more than 100 published research papers.",
     "Elevate describes 40+ games covering reading, writing, speaking, memory and math; Peak describes more than 40 games and activities across focus, memory, problem solving and mental agility, plus advanced programmes built with university researchers.",
-    "Our app covers arithmetic and memory only. If you want verbal, spatial, navigation or social-cognition training, three of the four alternatives document breadth that ours does not have, and you should choose one of them instead."
+    "Our app's listing now documents an IQ-style test plus memory, logic, focus, vocabulary and mental math games and a personality questionnaire, but nothing for navigation, social cognition, writing or speaking. If those are what you want, BrainHQ or Elevate documents them and ours does not, and you should choose one of them instead."
   ],
   "disclaimer": "comparison",
   "researchDate": "2026-09-22",
@@ -64,15 +70,15 @@
     },
     {
       "question": "Which brain training app covers the most ground?",
-      "answer": "On the basis of what each publisher documents, BrainHQ lists six categories including navigation and people skills, Lumosity lists five cognitive areas across 40+ games, Peak lists focus, memory, problem solving and mental agility across more than 40 games and activities, and Elevate lists reading, writing, speaking, memory and math. Ours is the narrowest by design: arithmetic and memory only."
+      "answer": "On the basis of what each publisher documents, BrainHQ lists six categories including navigation and people skills, Lumosity lists five cognitive areas across 40+ games, Peak lists focus, memory, problem solving and mental agility across more than 40 games and activities, and Elevate lists reading, writing, speaking, memory and math. Ours, as its listing now describes it, spans an IQ-style test, memory, logic, focus, vocabulary and mental math games and a personality questionnaire, and describes nothing for navigation, social skills, writing or speaking."
     },
     {
       "question": "Do any of them prove that their training works?",
-      "answer": "BrainHQ's site states that more than 100 published research papers show benefits and notes that individual results vary. Lumosity's own site carries the caveat that more research is needed to determine the connection between improved assessment scores and everyday tasks. We publish no efficacy research at all and make no cognitive claim. Evidence quality in this category is contested, and the cornerstone article covers why."
+      "answer": "BrainHQ's site states that more than 100 published research papers show benefits and notes that individual results vary. Lumosity's own site carries the caveat that more research is needed to determine the connection between improved assessment scores and everyday tasks. We publish no efficacy research at all, and our app's listing describes its IQ-style test and other results as estimates based on app activities, not professional assessments. Evidence quality in this category is contested, and the cornerstone article covers why."
     },
     {
       "question": "Does our app do anything the others do not document?",
-      "answer": "It ships a library of arithmetic techniques, each with steps, a worked example, a note on what it is best for and a named common mistake, with a drill attached. None of the four publishers' pages we read describes a teaching layer of that kind. That is a statement about what those pages say, not a claim about what those products contain."
+      "answer": "We no longer claim that it does. Our app's current listing documents an IQ-style test, a personality questionnaire with a Big Five profile and memory, logic, focus, vocabulary and mental math games, but we read the other publishers' pages on 21 September 2026 and have not re-checked them against those additions. Until we do, we make no claim that ours documents something theirs do not."
     }
   ],
   "sources": [
@@ -128,9 +134,9 @@
 }
 ---
 
-**The only honest way to compare apps in this category is to compare what each publisher documents on its own site, and to say clearly where your own product loses.** This article does that for four widely used brain training products and for ours, using each company's official pages as read on 21 September 2026.
+**The only honest way to compare apps in this category is to compare what each publisher documents on its own site, and to say clearly where your own product loses.** This article does that for four widely used brain training products and for ours, using each company's official pages as read on 21 September 2026 — and, for ours, its Google Play listing as re-read on 2 October 2026, after the app was renamed and re-described.
 
-A disclosure that belongs at the top rather than the bottom: Mental Math & Memory Games is our own app, published by Reign Creative, so the row describing it is written by an interested party. Treat it the way you would treat any manufacturer's specification sheet, and check the claims that matter to you.
+A disclosure that belongs at the top rather than the bottom: IQ Test & Brain Training Games is our own app, published by Reign Creative, so the row describing it is written by an interested party. Treat it the way you would treat any manufacturer's specification sheet, and check the claims that matter to you.
 
 ## How this comparison was built, and what it deliberately leaves out
 
@@ -152,7 +158,7 @@ The table below summarises the official descriptions; the detail underneath it i
 | BrainHQ | "more than two dozen brain-training exercises" in six categories | Personal trainer selects exercises; progress over time with drill-down reporting |
 | Elevate | "40+ games" strengthening "reading, writing, speaking, memory, and math" | Shows "where you excel, where you can grow, and how you compare with others" |
 | Peak | "more than 40 games and activities"; advanced programmes with university researchers | Daily routine; "insightful analysis of your performance" |
-| Mental Math & Memory Games (ours) | Arithmetic across four operations plus mixed, and memory modes; a technique library | Score, accuracy, streak, response time, personal bests, session history |
+| IQ Test & Brain Training Games (ours) | An IQ-style test across seven reasoning areas; brain, memory, logic, focus, vocabulary, puzzle and mental math games; a memory test, a reaction time test and a personality questionnaire with a Big Five profile | Personal bests, accuracy, streaks, response speed, assessment history and charts over time |
 
 **Lumosity.** Its site groups the games under memory, speed, attention, flexibility, problem solving, word and math, and describes working out "with a fresh set of games each day to keep you challenged". It also states that "detailed progress tracking helps maintain your brain-training habit" and that "we interpret your scores to offer actionable feedback and rich insights into your cognition". Notably, the same page carries its own limitation: "These results are promising, but more research is needed to determine the connection between improved assessment scores and everyday tasks in participants' lives."
 
@@ -162,17 +168,15 @@ The table below summarises the official descriptions; the detail underneath it i
 
 **Peak** describes "more than 40 games and activities" covering "Focus, Memory, Problem Solving, Mental Agility and more", built as "short, intense workouts designed around your life" with a daily routine. It also describes "Advanced Training Programmes" developed with scientists from institutions including Cambridge, and states that it works with researchers from Cambridge, Yale, UCL and King's College London.
 
-**Ours.** Mental Math & Memory Games covers arithmetic across addition, subtraction, multiplication, division and mixed operations, in timed sprint, untimed accuracy, survival, ladder and boss formats, with a daily challenge. On the memory side it covers number, sequence, grid and delayed-recall activities with seven difficulty levels. Alongside the drills it ships a library of arithmetic techniques, each with steps, a worked example, a note on what it is best for, a named common mistake and a drill to apply it. It records score, accuracy, streak, response time — average, median, fastest correct and a consistency figure — personal bests and a session history.
+**Ours.** IQ Test & Brain Training Games — listed on Google Play as Mental Math & Memory Games when this comparison was first written — now documents an IQ-style test covering numerical reasoning, logic, patterns, vocabulary, working memory, spatial reasoning and processing speed, followed by brain-training recommendations. Around it sit brain games with quick play, daily, survival, boss and progression modes; memory games built from digit span, sequences, grids, colours, letters and symbols; logic games with analogies, conditional reasoning and deduction; vocabulary games; focus games; and mental math from the four operations to percentages, ratios, estimation and money problems. It also has a memory test, a reaction time test and a personality questionnaire with a Big Five profile, which the listing presents as self-reflection rather than diagnosis, and it tracks personal bests, accuracy, streaks, response speed and assessment history. The listing states that IQ test, personality test, memory test and other results are estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments.
 
 ## Where the comparison is not equivalent
 
-Three differences are large enough that a feature table hides rather than reveals them.
+Two differences are large enough that a feature table hides rather than reveals them.
 
-**Scope.** Ours is the narrowest product here, and that is a deliberate design choice rather than a gap waiting to be filled. There are no verbal items, no figural or spatial rotation tasks, no navigation exercises and nothing addressing social cognition. If any of those are what you came for, three of the four alternatives document breadth we do not have, and the sensible decision is to choose one of them. BrainHQ's navigation and people-skills categories in particular have no counterpart on our side at all.
+**Scope.** Ours is no longer the narrow arithmetic-and-memory product this comparison first described: its listing now spans reasoning, memory, logic, vocabulary, focus and mental math, plus a personality questionnaire. What it does not describe is any navigation exercise, anything addressing social cognition, or writing and speaking practice. If those are what you came for, BrainHQ's navigation and people-skills categories and Elevate's writing and speaking areas have no counterpart in our listing, and the sensible decision is to choose one of them.
 
-**Evidence posture.** These four publishers sit in visibly different places. BrainHQ cites a research volume on its own site. Lumosity carries a published caveat about the gap between assessment-score gains and everyday tasks. Peak describes research partnerships and researcher-developed programmes rather than outcome claims. We publish no efficacy research and make no cognitive claim of any kind — our app is an educational game that records performance on its own drills. Those are four different positions, and readers should notice that "cites research" and "demonstrates a benefit for you" are not the same statement.
-
-**Teaching layer.** The technique library with worked examples and named common mistakes is the one item in our column that none of the four publishers' pages we read describes. That is precisely as strong a claim as it sounds — a statement about the content of four web pages on one date, not an assertion that these products lack such a feature.
+**Evidence posture.** These four publishers sit in visibly different places. BrainHQ cites a research volume on its own site. Lumosity carries a published caveat about the gap between assessment-score gains and everyday tasks. Peak describes research partnerships and researcher-developed programmes rather than outcome claims. We publish no efficacy research. Our listing describes its IQ-style test and other results as estimates based on app activities rather than professional assessments, and where it says the app builds memory, focus and speed, no research of ours stands behind that wording. Those are different positions, and readers should notice that "cites research" and "demonstrates a benefit for you" are not the same statement.
 
 ## What the regulator established
 
@@ -188,10 +192,10 @@ That question applies to our app exactly as much as to anyone else's, and we can
 
 Matching a product to a goal is more useful than ranking them.
 
-- **You want breadth across many cognitive domains.** BrainHQ, Peak and Lumosity each document a wider spread than we do. BrainHQ documents the widest set of named categories.
-- **You want language, writing or speaking practice.** Elevate is the only product here that documents those areas. We have nothing in that space.
+- **You want breadth across many cognitive domains.** BrainHQ documents the widest set of named categories, including navigation and people skills that our listing does not cover, and Lumosity and Peak each document a broad spread too.
+- **You want writing or speaking practice.** Elevate is the only product here that documents those areas. Ours has vocabulary games — synonyms, antonyms, context clues — but nothing for writing or speaking.
 - **You want a documented research programme attached to the product.** BrainHQ is the one that publishes a research claim of that kind on its own site. Read the underlying papers rather than the count.
-- **You want arithmetic fluency, a method library and short offline sessions.** That is the case ours is built for, and it is a narrow one. If your goal is being quicker and more confident with numbers in everyday situations, the [mental math practice guide](/blog/mental-math-training-guide/) covers the methods and the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/) covers the modes.
+- **You want mental math alongside memory, logic and vocabulary games, and a reasoning test you will read as an estimate.** That is the case ours is built for. If your goal is being quicker and more confident with numbers in everyday situations, the [mental math practice guide](/blog/mental-math-training-guide/) covers the methods and the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/) describes what the app includes.
 - **You are choosing for an older relative.** Read [brain games for older adults](/blog/brain-games-for-older-adults/) first, because the evidence question is sharper there and the marketing is more aggressive.
 
 ## What none of them can tell you

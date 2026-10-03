@@ -5,7 +5,13 @@
   "description": "Complements to 10, 100 and 1000 are the layer every mental addition method assumes: what they are, the digit rule with one trap, and how adults install them.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the drills it names from our app, then called Mental Math & Memory Games and now IQ Test & Brain Training Games, are on its app page; that page describes the app's games and tests without listing individual drills, and the sentence now points to it only for that description."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -181,6 +187,6 @@ The good news is that adults are rarely starting from zero. The facts are half-k
 
 Three things work. **Short and frequent beats long and rare** — a few minutes on most days will do more than an hour on a Sunday. **Practise both directions**, because "what goes with 7 to make 10" and "10 − 7" should be the same retrieved fact rather than two separate calculations. And **practise the complement to 100 as its own drill**, since it is the one that pays off outside arithmetic, in discounts, tips and any percentage that has to total a whole.
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and its technique library carries both the make-ten move and the friendly-numbers approach with anchors at 50, 100 and 250 — each with steps, a worked example and a named common mistake, plus a practice link into Addition Sprint, a 60-second drill that runs from single-digit work up through two- and three-digit settings and mixed chains. The single-digit setting is the one that drills bonds directly; the others test whether they have actually become automatic.
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and its technique library carries both the make-ten move and the friendly-numbers approach with anchors at 50, 100 and 250 — each with steps, a worked example and a named common mistake, plus a practice link into Addition Sprint, a 60-second drill that runs from single-digit work up through two- and three-digit settings and mixed chains. The single-digit setting is the one that drills bonds directly; the others test whether they have actually become automatic.
 
-Once the bonds are solid, the method that uses them most is [left-to-right addition](/blog/left-to-right-addition/), and the place they pay off fastest outside pure arithmetic is [percentages in your head](/blog/percentages-in-your-head/). The three moves underneath almost every mental method are set out in [our mental math practice guide](/blog/mental-math-training-guide/); more methods sit in the [mental math hub](/blog/topics/mental-math/) and across the [education and brain category](/blog/category/education-brain/), and the drills named above are on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+Once the bonds are solid, the method that uses them most is [left-to-right addition](/blog/left-to-right-addition/), and the place they pay off fastest outside pure arithmetic is [percentages in your head](/blog/percentages-in-your-head/). The three moves underneath almost every mental method are set out in [our mental math practice guide](/blog/mental-math-training-guide/); more methods sit in the [mental math hub](/blog/topics/mental-math/) and across the [education and brain category](/blog/category/education-brain/), and the app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

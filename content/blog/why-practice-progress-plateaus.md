@@ -5,7 +5,13 @@
   "description": "A flat practice score has four common causes, and they need different fixes. Here is how to read your own accuracy and timing record to tell them apart.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app's available modes and difficulty ladders are listed on its app page; that page, for the app now called IQ Test & Brain Training Games (previously Mental Math & Memory Games), describes the app without listing individual modes or ladders, and the sentence now points to it as a description of the app."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -141,7 +147,7 @@ The check worth building in is a cold run: same mode, same difficulty, no warm-u
 
 ## What to change, and in what order
 
-Mental Math & Memory Games is our own app — Reign Creative publishes it — and the ladders below are the shipped ones, which makes them a concrete illustration of the general point: a plateau is fixed by changing a specific variable, not by adding effort.
+IQ Test & Brain Training Games is our own app — Reign Creative publishes it — and the ladders below are the shipped ones, which makes them a concrete illustration of the general point: a plateau is fixed by changing a specific variable, not by adding effort.
 
 1. **Step up one difficulty label.** The arithmetic modes change what is actually generated as you climb — single digit, then wider ranges, then two-digit by two-digit, then mixed chains — and the memory modes have seven levels that change sequence length, grid size and how long items stay on screen. One rung at a time. If your accuracy at the new rung sits somewhere well short of perfect but not close to guessing, you have found the right one.
 2. **Switch from a single-operation sprint to the mixed-operation mode.** This adds the step of working out what is being asked, which is a different skill from executing it. Expect the score to fall; that is the task being harder, not you getting worse. [Interleaved versus blocked practice](/blog/interleaving-versus-blocked-practice/) explains why the mixed version feels worse while working better.
@@ -154,4 +160,4 @@ The rule that matters more than the list: **change one variable and give it seve
 
 It does not mean the practice was pointless, and it does not mean the next tier of effort will unlock something. Nothing about a flat arithmetic score says anything about general ability, and no amount of pushing through one will — the cornerstone article [do brain training apps work](/blog/do-brain-training-apps-work/) sets out why claims of that kind do not hold up, and the whole [brain training games hub](/blog/topics/brain-training-games/) stays inside the narrower and better-supported claim that you get better at what you practise.
 
-Within that frame, a plateau is a useful signal. It tells you the current demand has been met, and that improvement from here is a matter of asking for something else. The available modes and ladders are listed on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/), and more practice-design writing sits in the [education and brain category](/blog/category/education-brain/).
+Within that frame, a plateau is a useful signal. It tells you the current demand has been met, and that improvement from here is a matter of asking for something else. The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/), and more practice-design writing sits in the [education and brain category](/blog/category/education-brain/).

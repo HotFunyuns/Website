@@ -5,7 +5,13 @@
   "description": "Why most management games fail in a five-minute window, the four properties that let one survive it, and how to test any manager game before you commit.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said every sports game the studio publishes is fictional and that the players are generated inside each game. Our career sims are fictional, but our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -81,7 +87,7 @@
     },
     {
       "question": "Are they based on real leagues, clubs or players?",
-      "answer": "No. Every sports title the studio publishes is a fictional simulation and is not affiliated with, endorsed by or connected to any real league, club, team or athlete. The players, squads and fighters are generated inside each game, which is why the skill they ask for is reading attributes rather than recognising names."
+      "answer": "Partly. The studio's career sims are set in fictional leagues with fictional players, while its draft and GM games build their player and fighter pools from real-world athletes' careers, with ratings that are the games' own estimates. None of them is affiliated with, endorsed by or licensed by any league, club, team or athlete, and the skill they ask for is reading attributes and fit rather than recognising names."
     }
   ],
   "sources": []
@@ -148,7 +154,7 @@ The short-session version is a complete loop: draft across every position on the
 
 ### Football: four rulesets, one clear verdict
 
-[20-0 Football Draft & GM Mode](/apps/football-draft-gm-mode/) is built for sessions that end with a result. Unlimited, Limited with no refreshes, Salary Cap and Playoff Mode each change what a good pick looks like, so the same short loop poses a different question depending on which you pick. The Daily Challenge sets a target to hit, and Gridiron IQ tests how well you read a team sheet — both single-sitting things. Franchise Mode and GM Mode are the longer game behind them.
+[Football Franchise GM League](/apps/football-draft-gm-mode/) is built for sessions that end with a result. Unlimited, Limited with no refreshes, Salary Cap and Playoff Mode each change what a good pick looks like, so the same short loop poses a different question depending on which you pick. The Daily Challenge sets a target to hit, and Gridiron IQ tests how well you read a team sheet — both single-sitting things. Franchise Mode and GM Mode are the longer game behind them.
 
 ### Hockey: the smallest roster in the genre
 
@@ -180,9 +186,9 @@ Short play can be shallow or it can compound. Three habits decide which.
 
 ## What the simulators are and are not doing
 
-Every record these games return is produced by internal rules acting on players the game generated.
+Every record these games return is produced by internal rules acting on the roster you built.
 
-They are scoring roster construction, not reproducing sport. Nothing in a result describes, forecasts or relates to any real league, club, team or athlete, and none of it is a prediction or guidance of any kind. The perfect records the games are named for are deliberately hard to reach rather than the expected outcome of competent play, and no approach guarantees one.
+They are scoring roster construction, not reproducing sport. Nothing in a result is a forecast about any real league, club, team or athlete, and none of it is a prediction or guidance of any kind. The perfect records the games are built around are deliberately hard to reach rather than the expected outcome of competent play, and no approach guarantees one.
 
 That is what makes the short loop worth repeating. The only meaningful comparison is against your own previous attempts, and a five-minute session is enough to run exactly one of those.
 

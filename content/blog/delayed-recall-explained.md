@@ -5,7 +5,13 @@
   "description": "A retention interval is the gap between learning something and being asked for it. Why an empty pause is easy, a filled one is brutal, and what follows.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no assessment and said nothing about your performance beyond its drill figures, and that its app page lists every mode; the app, now IQ Test & Brain Training Games, includes a memory test and an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so and points to the app page only for a description of the app."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -79,7 +85,7 @@
     },
     {
       "question": "Does the app run a delayed recall test?",
-      "answer": "No. Mental Math & Memory Games ships a delayed-answer drill where you solve a problem, hold the result through a blank pause and then type it, and its memory levels include a hold duration. Those are game mechanics. The app contains no assessment, no clinical measure and no interpretation of your results."
+      "answer": "Not a standardised one. IQ Test & Brain Training Games ships a delayed-answer drill where you solve a problem, hold the result through a blank pause and then type it, and its memory levels include a hold duration. Those are game mechanics. The app also has a memory test that its listing says tracks recall against your own history, and the listing describes that result as an estimate based on app activities, not a clinical or professional assessment."
     }
   ],
   "sources": [
@@ -151,8 +157,8 @@ The classical account of the verbal store gives the mechanism behind all three: 
 
 ## What the app's delayed rounds are, and are not
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and it ships a delayed-answer drill that makes this concrete: you solve a problem, hold the result through a blank pause, and type it once the pause ends. Its memory difficulty levels also include a hold duration as a real mechanical parameter, running from no hold at the Beginner level up to a pause of more than a second at the hardest level.
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and it ships a delayed-answer drill that makes this concrete: you solve a problem, hold the result through a blank pause, and type it once the pause ends. Its memory difficulty levels also include a hold duration as a real mechanical parameter, running from no hold at the Beginner level up to a pause of more than a second at the hardest level.
 
-That is a genuinely unusual dial to have exposed in a consumer app, and it is useful for feeling the difference this article describes — an unfilled pause of a second is trivial, and the same pause with a distraction in it is not. What the app does not have is any assessment. It runs no delayed recall test, produces no clinical measure, and makes no statement about what your performance means beyond the score, accuracy, streak and response-time figures it records for your own runs. Standardised memory assessment is something a qualified professional does with a validated instrument under controlled conditions, and a phone game is not a substitute for it in any direction.
+That is a genuinely unusual dial to have exposed in a consumer app, and it is useful for feeling the difference this article describes — an unfilled pause of a second is trivial, and the same pause with a distraction in it is not. What the app does not offer is a standardised memory assessment. It has a memory test that its listing says tracks recall against your own history, and an IQ-style test that includes working memory among its areas, but the listing describes those results as estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments. Standardised memory assessment is something a qualified professional does with a validated instrument under controlled conditions, and a phone game is not a substitute for it in any direction.
 
-Used as practice, the delayed rounds are a good corrective to the habit of answering instantly, which is what the timed sprints train. If you want the companion idea — why being shown the right answer is so much easier than producing it — read [recognition versus recall](/blog/recognition-versus-recall/). Otherwise the full mode list is on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/), the related writing sits in the [memory and attention hub](/blog/topics/memory-and-attention/), and the wider set of study articles is in the [education and brain section](/blog/category/education-brain/).
+Used as practice, the delayed rounds are a good corrective to the habit of answering instantly, which is what the timed sprints train. If you want the companion idea — why being shown the right answer is so much easier than producing it — read [recognition versus recall](/blog/recognition-versus-recall/). Otherwise the app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/), the related writing sits in the [memory and attention hub](/blog/topics/memory-and-attention/), and the wider set of study articles is in the [education and brain section](/blog/category/education-brain/).

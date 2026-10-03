@@ -5,7 +5,13 @@
   "description": "What the 10-point must system means, when a round is 10-9 or 10-8, the four factors judges are told to weigh, and how three scorecards become a result.",
   "status": "published",
   "publishedAt": "2026-08-13",
-  "updatedAt": "2026-08-13",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described 40-0 MMA & Boxing Fight Draft as a fictional simulation with generated fighters. 40-0 MMA & Boxing Fight Draft builds its fighter pools from real fighters' careers, with ratings and records that are the game's own estimates, and is not affiliated with or endorsed by any promotion, sanctioning body or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -44,7 +50,9 @@
     "mma-boxing-fight-draft-guide",
     "basketball-positions-explained",
     "baseball-stats-explained-for-beginners",
-    "managing-a-fight-stable"
+    "managing-a-fight-stable",
+    "boxing-belts-and-sanctioning-bodies",
+    "boxing-rules-for-beginners"
   ],
   "takeaways": [
     "Under the 10-point must system the round winner must receive 10 points and the loser nine or fewer, with an even 10-10 round treated as a rarity.",
@@ -78,7 +86,7 @@
     },
     {
       "question": "Does the boxing simulator in a draft game use real fighters?",
-      "answer": "No. 40-0 MMA & Boxing Fight Draft is a fictional simulation and is not affiliated with, endorsed by or connected to any real promotion, sanctioning body, event or athlete. Its boxing simulator produces decisions, draws and judges' scorecards using the game's own internal model, and nothing it returns predicts or describes real competition."
+      "answer": "Yes. 40-0 MMA & Boxing Fight Draft builds its fighter pools from real fighters' careers, with ratings and records that are the game's own estimates rather than official statistics, and it is not affiliated with, endorsed by or licensed by any promotion, sanctioning body, event or athlete. Its boxing simulator produces decisions, draws and judges' scorecards using the game's own internal model, and nothing it returns predicts or describes real competition."
     }
   ],
   "sources": [
@@ -203,7 +211,7 @@ That attribute list maps onto the four factors reasonably closely, which is why 
 
 ### What the model is doing
 
-The simulator applies the game's own internal rules to fighters the game generated. It is not reproducing judging, it is not describing any real bout, athlete or promotion, and nothing it produces is a prediction, a forecast or guidance of any kind. It is a scoring model for a drafting puzzle.
+The simulator applies the game's own internal rules and ratings to the fighters you drafted. It is not reproducing judging, it is not describing any real bout, athlete or promotion, and nothing it produces is a prediction, a forecast or guidance of any kind. It is a scoring model for a drafting puzzle.
 
 The honest framing of a decision loss in the game is the same as the honest framing of a close card in reality: a result produced by criteria applied to an ambiguous contest, where reasonable models disagree. That the game can return a draw at all is a sign it is modelling the right thing.
 

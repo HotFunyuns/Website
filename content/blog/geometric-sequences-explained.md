@@ -5,7 +5,13 @@
   "description": "How to spot a constant ratio, why the nth-term rule uses an exponent, and what negative ratios and ratios below one do to a sequence.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, had no figural, matrix or logic-grid content, presented nothing as a test and made no claim about intelligence; the app, now IQ Test & Brain Training Games, has pattern and rule-discovery logic games and an IQ-style test whose results its Google Play listing calls estimates rather than professional assessments, and the article now says so without claiming which item formats it uses."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -144,4 +150,4 @@ It is also why long-run growth questions cannot be answered by adding. Something
 
 The skill worth building is not the formulas; it is the reflex of running both tests. Subtract first, and if the gaps are not constant, divide. If neither settles, the rule is probably recursive or interleaved, which is covered in [the guide to finding a rule with difference tables](/blog/finding-the-rule-in-a-number-pattern/).
 
-Mental Math & Memory Games, our own app from Reign Creative, drills the arithmetic underneath this rather than the theory: Multiplication Rush and Division Dash for the ratio work, and the 75-second Number Pattern Challenge for rule-finding itself. Its 49-technique library includes a doubling-and-halving entry with a worked example and a named common mistake. Two honest limits are worth stating: the app has no figural, matrix or logic-grid content of any kind, and nothing in it is presented as a test — it records score, accuracy, streak and response time on its own drills and makes no claim about intelligence. The [app page](/apps/mental-math-memory-games/) lists what ships. More sequence material is gathered in the [logic and pattern puzzles collection](/blog/topics/logic-and-pattern-puzzles/), and the wider subject sits in the [education and brain training section](/blog/category/education-brain/).
+IQ Test & Brain Training Games, our own app from Reign Creative, drills the arithmetic underneath this rather than the theory: Multiplication Rush and Division Dash for the ratio work, and the 75-second Number Pattern Challenge for rule-finding itself. Its 49-technique library includes a doubling-and-halving entry with a worked example and a named common mistake. Its listing also describes logic games built on patterns and rule discovery and an IQ-style test covering patterns and spatial reasoning, without saying whether any of them use figural, matrix or logic-grid items. One honest limit is worth stating: the listing describes the test's results as estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments, so a result there is a record of how you did on the app's own questions, not a measure of intelligence. The [app page](/apps/mental-math-memory-games/) describes the app. More sequence material is gathered in the [logic and pattern puzzles collection](/blog/topics/logic-and-pattern-puzzles/), and the wider subject sits in the [education and brain training section](/blog/category/education-brain/).

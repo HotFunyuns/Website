@@ -5,7 +5,13 @@
   "description": "You rarely need the price per unit. Scale the smaller pack up to the larger one and compare two totals — one multiplication instead of two awkward divisions.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, was not an assessment of anything; the app, now IQ Test & Brain Training Games, includes an IQ-style test, a memory test and a reaction time test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -162,8 +168,8 @@ For the in-aisle version of the same skill — holding a running total, and roun
 
 ## Practising the comparison
 
-[Mental Math & Memory Games](/apps/mental-math-memory-games/) — our own app, built by Reign Creative — ships a Unit Price Challenge, a 75-second timed mode on the "Per unit" difficulty. Two neighbouring modes drill the halves the comparison rests on: Ratio Trainer, also on 75 seconds with Easy, Medium and Hard settings, for the scaling reflex; and Division Dash, a 60-second mode whose difficulty settings run from Small numbers through Exact division and Multiples to Larger dividend and Mixed division, for the divisions you cannot avoid.
+[IQ Test & Brain Training Games](/apps/mental-math-memory-games/) — our own app, built by Reign Creative — ships a Unit Price Challenge, a 75-second timed mode on the "Per unit" difficulty. Two neighbouring modes drill the halves the comparison rests on: Ratio Trainer, also on 75 seconds with Easy, Medium and Hard settings, for the scaling reflex; and Division Dash, a 60-second mode whose difficulty settings run from Small numbers through Exact division and Multiples to Larger dividend and Mixed division, for the divisions you cannot avoid.
 
 The compatible-numbers technique above is one of the 49 entries in the app's techniques library, each carrying steps, a worked example, a "best for" note, a named common mistake and a two-question mini quiz, with a practice link into a specific mode at a specific difficulty.
 
-The app is an educational game and a practice tool rather than an assessment of anything. What it records — score, accuracy, streak, response time and personal bests — describes how you did on the drills you played.
+The app is an educational game and a practice tool. It does also include an IQ-style test, a memory test and a reaction time test, and its Google Play listing describes their results as estimates based on app activities, not clinical or professional assessments. What it records on the drills — score, accuracy, streak, response time and personal bests — describes how you did on the drills you played.

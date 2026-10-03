@@ -5,7 +5,13 @@
   "description": "Safety count, leverage and pre-snap movement — the three cues that tell you most about what a defence intends, explained for simulation and career-mode players.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said every league, team and player in our games is fictional. That is true of our career sims, but our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The sentence has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -44,7 +50,8 @@
     "quarterback-archetypes-explained",
     "football-career-sim-guide",
     "football-positions-explained-for-drafting",
-    "how-football-draft-order-works"
+    "how-football-draft-order-works",
+    "cover-2-vs-cover-3"
   ],
   "takeaways": [
     "Three pre-snap cues carry most of the information: how many deep safeties there are, which side of the receiver each defender is standing on, and what moves after you set.",
@@ -152,6 +159,6 @@ The practical translation: **treat every prompt as a question about what the fai
 
 ## Where to go next
 
-For what everyone else on the field is doing, [football positions explained](/blog/football-positions-explained-for-drafting/) covers the roles and their relative value. For how a career is built around these decisions, [the Football Career Sim 2026 guide](/blog/football-career-sim-guide/) is the practical companion. And if you would rather assemble the personnel that makes a defence hard to read in the first place, [20-0 Football Draft & GM Mode](/apps/football-draft-gm-mode/) puts you on that side — with [how football draft order works](/blog/how-football-draft-order-works/) covering how those players reach you.
+For what everyone else on the field is doing, [football positions explained](/blog/football-positions-explained-for-drafting/) covers the roles and their relative value. For how a career is built around these decisions, [the Football Career Sim 2026 guide](/blog/football-career-sim-guide/) is the practical companion. And if you would rather assemble the personnel that makes a defence hard to read in the first place, [Football Franchise GM League](/apps/football-draft-gm-mode/) puts you on that side — with [how football draft order works](/blog/how-football-draft-order-works/) covering how those players reach you.
 
-Real football's rules are published; the [NCAA playing rules](https://www.ncaa.org/sports/2013/11/21/playing-rules.aspx) are a freely readable example of the framework this article describes informally. Every league, team and player in our games is fictional. The full catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+Real football's rules are published; the [NCAA playing rules](https://www.ncaa.org/sports/2013/11/21/playing-rules.aspx) are a freely readable example of the framework this article describes informally. Our career sims are set in fictional leagues with fictional teams and players; our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, team or athlete. The full catalogue is under [sports career and GM games](/apps/category/sports-gm/).

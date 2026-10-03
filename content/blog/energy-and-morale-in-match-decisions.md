@@ -43,7 +43,8 @@
   "relatedArticles": [
     "injuries-in-sports-career-games",
     "understanding-sports-sim-probability",
-    "press-conferences-in-career-mode"
+    "press-conferences-in-career-mode",
+    "unbeaten-league-seasons-in-soccer"
   ],
   "takeaways": [
     "Football Career Soccer XI Sim states that attributes, position, energy, morale, the match situation and the difficulty setting all weigh on a match moment — so a failed action has six candidate explanations, not one.",

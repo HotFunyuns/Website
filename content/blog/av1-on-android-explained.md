@@ -179,7 +179,7 @@ The single most common mistake here is transcoding when a remux would have worke
 
 ## Where our app fits
 
-[Regal Video Player](/apps/regal-video-player/) is built for H.264, H.265, VP8, VP9 and AV1 video with AAC, MP3, FLAC and Ogg audio, inside MP4, MKV, MOV, M4V, WebM, 3GP, FLV, TS and M2TS containers.
+[Video Player All Formats PRO](/apps/regal-video-player/) is built for H.264, H.265, VP8, VP9 and AV1 video with AAC, MP3, FLAC and Ogg audio, inside MP4, MKV, MOV, M4V, WebM, 3GP, FLV, TS and M2TS containers.
 
 **What that means precisely:** the player will hand an AV1 stream to the device's decoder. If the device has one, it plays. If the device has only a software decoder, playback quality depends on that device's processor. If it has none, it will not play — and no player would.
 

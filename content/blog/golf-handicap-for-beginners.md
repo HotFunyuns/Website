@@ -37,7 +37,9 @@
     "golf-scoring-explained",
     "how-a-golf-cut-works",
     "strokes-gained-for-club-golfers",
-    "golf-tournament-formats"
+    "golf-tournament-formats",
+    "free-relief-in-golf",
+    "out-of-bounds-lost-ball-provisional"
   ],
   "takeaways": [
     "A handicap is a numerical measure of demonstrated ability or potential ability, designed so players of different standards can compete.",

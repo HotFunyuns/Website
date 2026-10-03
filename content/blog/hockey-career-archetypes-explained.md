@@ -44,7 +44,9 @@
     "hockey-positions-explained",
     "hockey-career-sim-guide",
     "hockey-goaltending-explained",
-    "underrated-attributes-in-hockey-career-mode"
+    "underrated-attributes-in-hockey-career-mode",
+    "hockey-penalties-explained",
+    "how-does-nhl-overtime-work"
   ],
   "takeaways": [
     "A position says where you stand on the ice; an archetype says which of that position's skills the whole career is organised around. Career modes ask for both, and only one of them is easy to change later.",

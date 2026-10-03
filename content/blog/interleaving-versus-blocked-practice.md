@@ -5,7 +5,13 @@
   "description": "Blocked practice groups one problem type together; interleaved practice mixes them. Mixing usually feels worse during the session and tests better afterwards.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the full list of modes in our app, then called Mental Math & Memory Games, is on its app page; that page, now for IQ Test & Brain Training Games, describes the app without listing individual modes, and the sentence now points there only for a description of the app."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -129,7 +135,7 @@ The practical instruction that follows is uncomfortable but simple: when you cho
 
 ## Running the comparison in a drill app
 
-Mental Math & Memory Games is our own app — Reign Creative builds it — and its catalogue happens to contain both orders in their literal forms, which makes this easy to try rather than merely read about.
+IQ Test & Brain Training Games is our own app — Reign Creative builds it — and its catalogue happens to contain both orders in their literal forms, which makes this easy to try rather than merely read about.
 
 **The blocked version** is any single-operation sprint: a run of multiplication questions, or a run of subtraction questions, where the operation is fixed for the whole round.
 
@@ -153,4 +159,4 @@ A reasonable default for a short daily session is a small block to install or re
 
 Interleaving is a way of arranging practice on a defined set of skills, and the evidence above is about retaining those skills. It is not evidence that arranging drills differently changes general cognitive ability — that much larger claim is the subject of the cornerstone article [do brain training apps work](/blog/do-brain-training-apps-work/), and it does not survive contact with the research. Practice, entertainment and educational activity are all reasonable descriptions of a mixed arithmetic round; standardised psychological assessment is not.
 
-More on session design sits in the [brain training games hub](/blog/topics/brain-training-games/), the full list of modes is on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/), and related writing is collected in the [education and brain category](/blog/category/education-brain/).
+More on session design sits in the [brain training games hub](/blog/topics/brain-training-games/), the app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/), and related writing is collected in the [education and brain category](/blog/category/education-brain/).

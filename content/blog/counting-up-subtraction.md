@@ -5,7 +5,13 @@
   "description": "Stop taking away and measure the gap instead. Counting up turns three-digit subtraction into two or three easy hops, and it is how change is made at a till.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the full list of modes for our app, then called Mental Math & Memory Games, is on its app page; that page describes the app, now IQ Test & Brain Training Games, without listing individual modes, and the article now says only that the app is described there."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -154,7 +160,7 @@ The usual "something else" for a wide gap is to slide both numbers by the same a
 
 The two skills involved are complements and hop-tracking, and they improve separately. Complements respond to short, frequent drilling; hop-tracking responds to doing the same subtraction by two different routes and comparing.
 
-Mental Math & Memory Games, our own app at Reign Creative, has a change-making mode that is this method in its natural setting — an amount tendered, an amount spent, and a 75-second clock — alongside Subtraction Sprint, which includes a borrowing-practice difficulty where counting up is usually the faster answer than the borrow it is named after. The Accuracy Trainer runs the same content with no timer, ten questions at a time, with an explanation available on a miss, which is the right setting while the hop sequence is still being learned. The full list of modes is on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+IQ Test & Brain Training Games, our own app at Reign Creative, has a change-making mode that is this method in its natural setting — an amount tendered, an amount spent, and a 75-second clock — alongside Subtraction Sprint, which includes a borrowing-practice difficulty where counting up is usually the faster answer than the borrow it is named after. The Accuracy Trainer runs the same content with no timer, ten questions at a time, with an explanation available on a miss, which is the right setting while the hop sequence is still being learned. The app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).
 
 One caution about practice design: a timer rewards whichever method you already have, not the one you are trying to install. Drill a new method untimed until it is the automatic choice, then put the clock back on. The wider ordering of methods, and which facts each one assumes, is set out in the [mental math practice guide](/blog/mental-math-training-guide/).
 

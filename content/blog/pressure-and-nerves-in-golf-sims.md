@@ -37,7 +37,9 @@
     "golf-career-sim-guide",
     "understanding-sports-sim-probability",
     "how-to-choose-a-sports-career-sim",
-    "golf-course-management-basics"
+    "golf-course-management-basics",
+    "how-par-is-determined",
+    "match-play-scoring-explained"
   ],
   "takeaways": [
     "Choking in sport describes a failure to perform under pressure at a level a competitor has already demonstrated they can reach.",

@@ -5,7 +5,13 @@
   "description": "Why career modes include injuries, what they actually model, and the decisions that reduce their cost — availability as a skill rather than as luck.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said every league, team and player in our games is fictional. That is true of the career sims this article covers, but our draft and GM games build their player pools from real-world athletes' careers. The sentence has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -159,4 +165,4 @@ In [Hockey Career Sim 2026](/apps/hockey-career-sim/), recovery and injuries sit
 
 Nothing in a game's injury system is medical information. These are abstractions built for pacing and decision-making, with no relationship to how real injuries occur, progress or heal. Do not use a game's model to reason about a real injury, your own or anyone else's.
 
-Every league, team and player in our games is fictional. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+Every league, team and player in our career sims is fictional. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).

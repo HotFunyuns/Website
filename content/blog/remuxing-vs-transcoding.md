@@ -186,7 +186,7 @@ All of these are lossless and fast, because none of them touches the encoded con
 
 ## Where our app fits
 
-[Regal Video Player](/apps/regal-video-player/) plays MP4, MKV, MOV, M4V, WebM, 3GP, FLV, TS and M2TS containers with H.264, H.265, VP8, VP9 and AV1 video and AAC, MP3, FLAC and Ogg audio.
+[Video Player All Formats PRO](/apps/regal-video-player/) plays MP4, MKV, MOV, M4V, WebM, 3GP, FLV, TS and M2TS containers with H.264, H.265, VP8, VP9 and AV1 video and AAC, MP3, FLAC and Ogg audio.
 
 **It is a player, not a converter.** It does not remux or transcode. Its relevance to this article is diagnostic: the container and codec list above tells you what it can open, which is exactly the information you need to decide whether a file needs a rewrap or a re-encode.
 

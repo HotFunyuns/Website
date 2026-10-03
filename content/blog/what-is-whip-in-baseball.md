@@ -5,7 +5,13 @@
   "description": "Walks and hits per inning pitched: how WHIP is calculated, what it captures that ERA misses, and what it deliberately ignores.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said 162-0 Baseball Draft & GM Team has you evaluate generated players from attributes rather than statistics, and that all players in our games are fictional. The game builds its draft pool from real-world players' careers and has you compare pitchers on numbers that include ERA and WHIP, with ratings that are the game's own estimates; only our career sims are fictional. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -44,7 +50,8 @@
     "baseball-stats-explained-for-beginners",
     "ops-and-slugging-explained",
     "baseball-draft-gm-guide",
-    "batting-order-strategy-explained"
+    "batting-order-strategy-explained",
+    "babip-explained"
   ],
   "takeaways": [
     "WHIP is walks plus hits, divided by innings pitched — a measure of how much traffic a pitcher allows on the bases.",
@@ -141,7 +148,7 @@ The middle two rows are where the analysis lives. A pitcher with a 2.80 ERA and 
 
 ## Using it to evaluate a draft pool
 
-In [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/) you are evaluating generated players from attributes rather than from a statistical record, which removes the noise problem at the point of selection. But once your roster is playing, the same reasoning applies to your own pitchers:
+In [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/) the draft pool is built from real players' careers, and you compare pitchers on numbers that include ERA and WHIP, so the noise problem above applies at the point of selection too. Once your roster is playing, the same reasoning applies to your own pitchers:
 
 - **Prefer sequencing-independent measures** when judging whether a pitcher is performing. WHIP, strikeout rate and walk rate all qualify. ERA does not.
 - **Give reliever numbers wide error bars.** A small innings total makes any rate statistic noisy.
@@ -153,6 +160,6 @@ In [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/) you are evalu
 
 There is no universal "good" WHIP, for the same reason there is no universal good ERA: it depends on the scoring environment. In a league where hits are plentiful, everyone's WHIP is higher. Compare a pitcher to their own league, or to the other pitchers in your own simulated season, rather than to a remembered number.
 
-All players, teams and leagues in our games are fictional. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+Our career sims are set in fictional leagues with fictional teams and players; our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, team or athlete. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).
 
 MLB and MLB.com are trademarks of their respective owners, referenced here only to identify the source of the statistical definitions cited. No affiliation, sponsorship or endorsement is implied.

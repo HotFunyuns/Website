@@ -5,7 +5,13 @@
   "description": "The four dials that decide whether a timed drill is usable: an untimed alternative, adjustable reveal speed, a difficulty floor, and no single-sense dependency.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said the mode list of our app, then called Mental Math & Memory Games, is on its app page; that page, now for IQ Test & Brain Training Games, describes the app without naming individual modes such as Accuracy Trainer or Custom Practice, and the sentence now points there only for a description of the app."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -53,7 +59,7 @@
   "takeaways": [
     "Four things decide whether a timed drill is usable: an untimed route to the same content, a reveal speed you can change, a difficulty that cannot punish a bad run, and no dependence on a single sense.",
     "WCAG's Timing Adjustable criterion allows a time limit where it is essential to the activity, which is why a speed drill is not automatically a failure — but an app with only timed modes has no route in for a large group of people.",
-    "In Mental Math & Memory Games the untimed route is Accuracy Trainer: ten questions, no clock, feedback and an explanation after each answer, hints available.",
+    "In IQ Test & Brain Training Games the untimed route is Accuracy Trainer: ten questions, no clock, feedback and an explanation after each answer, hints available.",
     "Custom Practice is the most accessibility-relevant mode in the app, because it exposes reveal speed, grid size, content and session length as settings rather than as difficulty side effects.",
     "The app ships no sound assets at all, so nothing in it depends on hearing — which is a design consequence worth stating plainly rather than a feature to advertise."
   ],
@@ -74,7 +80,7 @@
     },
     {
       "question": "Does this app make any accessibility conformance claim?",
-      "answer": "No. Mental Math & Memory Games has not been audited against WCAG or any other standard, and we make no conformance claim for it. This article describes specific design choices that happen to matter for accessibility — an untimed mode, adjustable reveal speed, a difficulty floor, no audio dependency — and readers should judge those for themselves rather than treat them as certification."
+      "answer": "No. IQ Test & Brain Training Games has not been audited against WCAG or any other standard, and we make no conformance claim for it. This article describes specific design choices that happen to matter for accessibility — an untimed mode, adjustable reveal speed, a difficulty floor, no audio dependency — and readers should judge those for themselves rather than treat them as certification."
     }
   ],
   "sources": [
@@ -116,7 +122,7 @@ WCAG Success Criterion 2.2.1, Timing Adjustable, asks that a user be able to tur
 
 That makes the honest accessibility question a different one. Not *can this timer be turned off*, but **does the same content exist somewhere without a timer at all**.
 
-In Mental Math & Memory Games — our own app, built by Reign Creative — that route is Accuracy Trainer: ten questions, no countdown, feedback and an explanation after every answer, and hints available on request. The arithmetic is the same arithmetic. What changes is that the exercise ends when you finish rather than when a clock does.
+In IQ Test & Brain Training Games — our own app, built by Reign Creative — that route is Accuracy Trainer: ten questions, no countdown, feedback and an explanation after every answer, and hints available on request. The arithmetic is the same arithmetic. What changes is that the exercise ends when you finish rather than when a clock does.
 
 An app whose entire catalogue is timed has not made a hard design choice; it has simply excluded everyone who cannot work to a clock, including people who could do every question given twenty seconds instead of six.
 
@@ -140,7 +146,7 @@ The related question — where to set that floor in the first place — is cover
 
 Android's own accessibility guidance is explicit that apps should use cues other than colour alone to distinguish elements, suggesting shape, size, text, pattern or haptic feedback as alternatives. The general principle behind it — never route essential information through one channel — is the one worth carrying.
 
-Mental Math & Memory Games ships no sound assets whatsoever, so nothing in it depends on hearing. That is a consequence of how it was built rather than an accessibility feature we set out to provide, and it is worth stating as the fact it is. On the other side, the app is portrait-only, which is a genuine constraint for anyone using a device mounted in landscape or a keyboard case, and no amount of framing improves that.
+IQ Test & Brain Training Games ships no sound assets whatsoever, so nothing in it depends on hearing. That is a consequence of how it was built rather than an accessibility feature we set out to provide, and it is worth stating as the fact it is. On the other side, the app is portrait-only, which is a genuine constraint for anyone using a device mounted in landscape or a keyboard case, and no amount of framing improves that.
 
 The colour-dependency question is live in the memory modes specifically, because the higher levels deliberately mix similar shades as part of the difficulty. Where colour is the content of the task rather than its decoration, the honest answer is that the letter, number and mixed content families exist and do not use colour at all.
 
@@ -150,4 +156,4 @@ We have not audited this app against WCAG, and we make no conformance claim for 
 
 The W3C's supplemental guidance for cognitive and learning disabilities — developed beyond the WCAG requirements themselves — is a better place to look for the full picture, covering familiar design, consistent controls, error prevention and reducing reliance on memory in processes. Success Criterion 2.2.6, Timeouts, adds the related point that users should be warned about inactivity that could cost them data.
 
-For the design side of memory formats specifically, [designing memory games beyond matching pairs](/blog/designing-memory-games-beyond-matching-pairs/) covers the format choices that sit underneath the accessibility ones, and the evidence framing for the whole category is in [our brain training explainer](/blog/do-brain-training-apps-work/). More sits in the [brain training games hub](/blog/topics/brain-training-games/) and the [education and brain category](/blog/category/education-brain/); the mode list is on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/).
+For the design side of memory formats specifically, [designing memory games beyond matching pairs](/blog/designing-memory-games-beyond-matching-pairs/) covers the format choices that sit underneath the accessibility ones, and the evidence framing for the whole category is in [our brain training explainer](/blog/do-brain-training-apps-work/). More sits in the [brain training games hub](/blog/topics/brain-training-games/) and the [education and brain category](/blog/category/education-brain/); the app itself is described on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/).

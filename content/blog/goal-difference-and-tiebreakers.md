@@ -5,7 +5,13 @@
   "description": "How goal difference is calculated, what happens when teams are level on it, and why competitions choose different tiebreakers — with the strategic consequences.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said every club, competition and player in our games is fictional. That is true of our career sims, but our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. The sentence has been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -158,4 +164,4 @@ If your squad concedes little and scores little, you will find yourself losing t
 
 [The soccer draft XI guide](/blog/soccer-draft-xi-guide/) covers building a balanced eleven, and [soccer formations explained](/blog/soccer-formations-explained/) covers the shape decisions that push a team toward one profile or the other.
 
-The Laws of the Game govern how matches are played and decided — IFAB publishes them, including [Law 10 on determining the outcome of a match](https://www.theifab.com/laws/latest/determining-the-outcome-of-a-match/) — while league standings criteria are set by each competition separately. Every club, competition and player in our games is fictional. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+The Laws of the Game govern how matches are played and decided — IFAB publishes them, including [Law 10 on determining the outcome of a match](https://www.theifab.com/laws/latest/determining-the-outcome-of-a-match/) — while league standings criteria are set by each competition separately. Our career sims use fictional clubs, competitions and players; our draft games build their player pools from real-world players' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, club or player. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).

@@ -5,7 +5,13 @@
   "description": "One holds information; the other holds it while you do something to it. What separates the two terms, and a quick test for telling which a task needs.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, assessed nothing, contained no test or interpretation of your numbers and recorded nothing beyond its drill statistics, and that its full mode list was on our app page; the app, now IQ Test & Brain Training Games, includes a memory test and an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -144,10 +150,10 @@ This is the mechanism behind a familiar experience in mental arithmetic. You kno
 
 ## How the app's modes fall on either side
 
-Mental Math & Memory Games is our own app, built by Reign Creative, and its memory catalogue happens to divide along this line unusually cleanly, which makes it a decent demonstration tool.
+IQ Test & Brain Training Games is our own app, built by Reign Creative, and its memory catalogue happens to divide along this line unusually cleanly, which makes it a decent demonstration tool.
 
 On the storage side sit Number Recall and Sequence Memory: the digits appear, they disappear, you reproduce them in order. Nothing is transformed. On the working memory side sit Running Total Memory, where numbers arrive one at a time and you hold the running sum rather than the list; Mental Math Chain, which strings operations together; and the Memory Math mode, which shows numbers and then asks you to calculate with them after they are gone.
 
 Running the two families back to back is the clearest way to feel the difference. Most people find their sequence lengths drop sharply the moment an operation is added, and that drop is the point rather than a failure.
 
-What the app does not do is assess anything. It records score, accuracy, streak, response time and personal bests on its own drills, and stops there. It contains no cognitive assessment, no test, and no interpretation of what your numbers mean about you — those belong to qualified professionals using standardised instruments, which is a different activity from practice or entertainment. You can see the full mode list on the [Mental Math & Memory Games app page](/apps/mental-math-memory-games/), explore related writing in the [memory and attention hub](/blog/topics/memory-and-attention/), and browse the wider [education and brain section](/blog/category/education-brain/) for the study-method articles.
+What the app's results are not is a professional assessment. Its memory drills record score, accuracy, streak, response time and personal bests, and it also has a memory test and an IQ-style test that covers working memory; its listing describes those results as estimates based on app activities, not medical, psychological, clinical or professional diagnostic assessments. Interpreting what memory scores mean about a person belongs to qualified professionals using standardised instruments, which is a different activity from practice or entertainment. You can see how the app describes its games and tests on the [IQ Test & Brain Training Games app page](/apps/mental-math-memory-games/), explore related writing in the [memory and attention hub](/blog/topics/memory-and-attention/), and browse the wider [education and brain section](/blog/category/education-brain/) for the study-method articles.

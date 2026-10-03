@@ -5,7 +5,13 @@
   "description": "What a constant difference is, how the nth-term rule is derived rather than memorised, and why the sum of an arithmetic sequence is just pairing.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "This article said our app, then called Mental Math & Memory Games, contained no figural, matrix or logic-grid items, presented none of its modes as a test and had its modes listed on its app page; the app, now IQ Test & Brain Training Games, includes logic games built on sequences and patterns and an IQ-style test whose results its Google Play listing calls estimates rather than clinical or professional assessments, and the article now says so and describes the app page accurately."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "education-brain",
   "tags": [
@@ -156,4 +162,4 @@ The other place this family appears constantly is inside puzzles that are not th
 
 Two habits make this automatic. First, always check a candidate rule at the first and last term you were given, not just at one of them. Second, get comfortable enough with the arithmetic that the rule-finding is the hard part, which is the argument made at length in [the mental math methods guide](/blog/mental-math-training-guide/) and in the [wider set of arithmetic techniques](/blog/mental-math-tricks-that-work/).
 
-Mental Math & Memory Games, our own app, is built by Reign Creative and ships a 75-second Number Pattern Challenge with Easy, Medium and Hard settings, plus a Missing Number Puzzle mode that asks you to fill a blank in an equation. Both are numeric practice drills: the app contains no figural or matrix items and no logic-grid puzzles, and it does not present any of its modes as a test or an assessment of anything. It records score, accuracy, streak and response time so you can see whether rule-finding is actually getting faster. The [app page](/apps/mental-math-memory-games/) lists the modes, more sequence material sits in the [logic and pattern puzzles collection](/blog/topics/logic-and-pattern-puzzles/), and the rest of this subject area is in the [education and brain training section](/blog/category/education-brain/).
+IQ Test & Brain Training Games, our own app, is built by Reign Creative and ships a 75-second Number Pattern Challenge with Easy, Medium and Hard settings, plus a Missing Number Puzzle mode that asks you to fill a blank in an equation. Both are numeric practice drills. The app also has logic games built on sequences, patterns and rule discovery and an IQ-style test whose areas include patterns, and its Google Play listing calls the test results estimates based on app activities, not clinical or professional assessments. It records score, accuracy, streak and response time so you can see whether rule-finding is actually getting faster. The [app page](/apps/mental-math-memory-games/) describes the app, more sequence material sits in the [logic and pattern puzzles collection](/blog/topics/logic-and-pattern-puzzles/), and the rest of this subject area is in the [education and brain training section](/blog/category/education-brain/).

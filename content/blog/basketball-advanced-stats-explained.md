@@ -5,7 +5,13 @@
   "description": "Per-possession thinking, true shooting, usage and rebound rate — what basketball's advanced statistics are correcting for, and where they still fall short.",
   "status": "published",
   "publishedAt": "2026-09-04",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version said Pro Basketball GM Franchise uses generated players and that every player in our games is fictional. Its draft pool is built from real-world players' careers, with ratings that are the game's own estimates; only our career sims are fictional. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -156,7 +162,7 @@ Hockey's plus/minus has the same fundamental problem in a cruder form — [plus/
 
 ## Using this in a simulation
 
-In [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/), you evaluate generated players from attributes rather than statistics, which sidesteps most of these problems at the draft. They return the moment your roster plays, because your own players' numbers are shaped by the roles you assigned.
+In [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/), the draft pool is built from real players' careers and the board ranks them by the game's own ratings — estimates that compress a career into a number, so treat them with the same care as the statistics above. These problems also return the moment your roster plays, because your own players' numbers are shaped by the roles you assigned.
 
 Two practical rules:
 
@@ -165,4 +171,4 @@ Two practical rules:
 
 [How to build a balanced basketball roster](/blog/how-to-build-a-balanced-basketball-roster/) covers the minutes-as-a-budget problem this creates, and [the basketball draft and GM guide](/blog/basketball-draft-gm-guide/) covers evaluating a pool. From the player's side, [Basketball Career Sim](/apps/pro-basketball-my-career-sim/) puts you inside the usage question directly — your own share of the offence is something you earn.
 
-Basketball's rules are published by [FIBA](https://about.fiba.basketball/en/our-sport/official-basketball-rules) and other governing bodies; positional and statistical conventions are not part of them, as [basketball positions explained](/blog/basketball-positions-explained/) covers. Every league, team and player in our games is fictional, and the catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+Basketball's rules are published by [FIBA](https://about.fiba.basketball/en/our-sport/official-basketball-rules) and other governing bodies; positional and statistical conventions are not part of them, as [basketball positions explained](/blog/basketball-positions-explained/) covers. Our career sims are set in fictional leagues with fictional teams and players; our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, team or athlete. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).

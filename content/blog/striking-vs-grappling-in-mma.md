@@ -5,7 +5,13 @@
   "description": "The oldest question in mixed martial arts. What each discipline controls, where the fight is decided, and why neither wins by default.",
   "status": "published",
   "publishedAt": "2026-09-15",
-  "updatedAt": "2026-09-15",
+  "updatedAt": "2026-10-02",
+  "corrections": [
+    {
+      "date": "2026-10-02",
+      "note": "An earlier version described the fighters in 40-0 MMA & Boxing Fight Draft as fictional and generated. 40-0 MMA & Boxing Fight Draft builds its fighter pools from real fighters' careers, with ratings and records that are the game's own estimates, and is not affiliated with or endorsed by any promotion, sanctioning body or athlete. The affected passages have been corrected."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": ["mma", "striking", "grappling", "comparison"],
@@ -37,7 +43,9 @@
     "mma-weight-classes-explained",
     "southpaw-vs-orthodox",
     "how-mma-judging-criteria-work",
-    "style-matchups-in-a-fight-simulator"
+    "style-matchups-in-a-fight-simulator",
+    "unified-rules-of-mma-explained",
+    "boxing-rules-for-beginners"
   ],
   "takeaways": [
     "Mixed martial arts combines grappling and striking, standing and on the ground, which is why no single discipline resolves a fight on its own.",
@@ -148,4 +156,4 @@ The change in behaviour was immediate and, for a while, unpopular with testers w
 
 How much further that style modelling goes, and where we decided to stop, is in [modelling style matchups in a fight simulator](/blog/style-matchups-in-a-fight-simulator/). The weight-class constraints that bound every matchup are in [MMA weight classes](/blog/mma-weight-classes-explained/).
 
-The fighters in the game are fictional and generated inside it; it is not affiliated with, endorsed by or connected to any real promotion, sanctioning body or athlete, and no result describes or predicts a real bout. The studio's other combat and sports titles are under [sports GM](/blog/category/sports-gm/).
+The game's fighter pools are built from real fighters' careers, with ratings and records that are the game's own estimates; it is not affiliated with, endorsed by or licensed by any promotion, sanctioning body or athlete, and no result describes or predicts a real bout. The studio's other combat and sports titles are under [sports GM](/blog/category/sports-gm/).
