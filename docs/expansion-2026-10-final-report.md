@@ -199,7 +199,7 @@ export → content gate → authorship audit → URL normaliser), `npm run audit
 
 ## 21–24. Commit, branch, deployment, live URLs
 
-Recorded after the push in [§ Deployment](#deployment).
+See [§ Deployment](#deployment): `main`, `e72c9a6..d521133`, deployed and verified live.
 
 ## 25. Owner actions
 
@@ -230,7 +230,30 @@ any earlier change caused any observed result. No person reviewed the new articl
 
 ## Deployment
 
-_To be recorded after the push._
+| | |
+| --- | --- |
+| Branch | `main`, a normal fast-forward push `e72c9a6..d521133` (no force-push; published history not rewritten) |
+| Commits | `f4f03f5` publishing model · `3983086` catalog · `0c75ba6` corrections and reverse links · `f16ca89` sport hubs and calculators · `6f749e7` 126 guides · `5f3d20d` technical fixes · `d521133` docs. Before the push, the session's local commits were regrouped into these seven so that an earlier draft of two internal audit files never entered the public history |
+| Deploy | GitHub Actions run 37097293281, *Deploy Next.js site to Pages*: **success**. Pushed 04:39:54 UTC on 2026-10-03 (21:39 on 2026-10-02 in Los Angeles); the run finished at 04:41:58 UTC |
+
+**Verified on production** (2026-10-03, 04:43 UTC):
+
+- All **762** sitemap URLs answer 200 with a self-referencing canonical, a matching
+  `og:url` and no `noindex`; all **163** new URLs' `index.txt` answer 404.
+- `node scripts/verify-live.mjs` on 21 representative pages (hubs, calculators, new and
+  corrected articles, new and renamed app pages, the editorial policy) and `--smoke`: pass.
+  Sitemap 762 URLs, RSS 50 items, no unpublished article answers or is listed.
+- New articles show `data-review-notice="automated"` (the AI-assisted label), the
+  no-affiliation note and their sport-hub link.
+- An unknown path answers **404** with one `noindex` robots tag and no `og:url`.
+- `http://reigncreativellc.com/sports/` still answers **200**, with no HSTS on https:
+  Enforce HTTPS is still off (owner action 1).
+
+Representative live URLs:
+`https://reigncreativellc.com/sports/`, `/sports/basketball/`, `/tools/`,
+`/tools/football/passer-rating-calculator/`, `/tools/multi-sport/perfect-season-calculator/`,
+`/blog/has-any-team-gone-82-0/`, `/blog/fip-vs-era/`, `/blog/nhl-84-game-season/`,
+`/blog/soccer-rule-changes-2026-27/`, `/apps/rugby-career-sim/`.
 
 ## Appendix A — the 163 new URLs
 
