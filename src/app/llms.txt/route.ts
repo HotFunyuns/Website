@@ -1,6 +1,9 @@
 import { activeCategories, apps, companyInfo } from '@/data/apps';
 import { DEFAULT_AUTHOR_ID, authorPath } from '@/data/authors';
 import { activeHubs, postCount } from '@/lib/blog';
+import { sportPath } from '@/data/sports';
+import { toolPath, tools } from '@/tools/registry';
+import { activeSports } from '@/lib/sports';
 
 export const dynamic = 'force-static';
 
@@ -34,7 +37,9 @@ export function GET() {
     `Articles are published under the organizational byline ${companyInfo.name}.`,
     'They are drafted with the help of AI tools and are not medically,',
     'linguistically or professionally reviewed unless a named reviewer is credited',
-    'on the article. The editorial policy explains what is checked, and how.',
+    'on the article. Each article published from 2 October 2026 states under its',
+    'byline either who reviewed it and when, or that it is AI-assisted and no person',
+    'has reviewed it. The editorial policy explains what is checked, and how.',
     '',
     '## About the company',
     '',
@@ -61,6 +66,20 @@ export function GET() {
     ...activeHubs().map(
       (hub) => `- [${hub.label}](${site}/blog/topics/${hub.id}/) (${hub.count}): ${hub.blurb}`
     ),
+    '',
+    '## Sports',
+    '',
+    'Each sport hub collects the rules, statistics and strategy guides for one sport and names the apps for it.',
+    '',
+    `- [Sports guides, calculators and simulators](${site}/sports/): every sport hub, and the guides that apply to all of them`,
+    ...activeSports().map((sport) => `- [${sport.label}](${site}${sportPath(sport)}): ${sport.blurb}`),
+    '',
+    '## Sports calculators',
+    '',
+    'Each calculator cites the source of its formula and shows a worked example.',
+    '',
+    `- [Sports calculators](${site}/tools/): all calculators and how they are built`,
+    ...tools.map((tool) => `- [${tool.title}](${site}${toolPath(tool)}): ${tool.summary}`),
     '',
     '## Articles',
     '',

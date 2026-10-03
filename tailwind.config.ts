@@ -6,6 +6,12 @@ const config: Config = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    // Calculator components live outside components/ and app/ (one folder per
+    // tool); without this, classes used only there are never generated.
+    './src/tools/**/*.{js,ts,jsx,tsx,mdx}',
+    // The app catalog carries each app's gradient/accent classes as data; the
+    // app pages apply them, so they must be generated too.
+    './src/data/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {

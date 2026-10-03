@@ -116,6 +116,7 @@ const REQUIRED = {
   CollectionPage: ['name', 'url'],
   ProfilePage: ['url', 'mainEntity'],
   AboutPage: ['url', 'mainEntity'],
+  WebPage: ['name', 'url'],
 };
 
 /** Fields a nested node cannot be meaningful without. */
@@ -145,6 +146,13 @@ const EXPECTED_BY_PAGE_TYPE = {
   'apps-index': ['Organization', 'WebSite', 'CollectionPage'],
   author: ['Organization', 'WebSite', 'ProfilePage', 'BreadcrumbList'],
   about: ['Organization', 'WebSite', 'AboutPage'],
+  // The sport hubs and the sports index carry visible FAQs; a calculator page
+  // is a WebPage (deliberately not SoftwareApplication, which would invite
+  // rating requirements we have nothing truthful to answer with).
+  'sports-index': ['Organization', 'WebSite', 'CollectionPage', 'BreadcrumbList', 'FAQPage'],
+  'sport-hub': ['Organization', 'WebSite', 'CollectionPage', 'BreadcrumbList', 'FAQPage'],
+  'tools-index': ['Organization', 'WebSite', 'CollectionPage', 'BreadcrumbList'],
+  tool: ['Organization', 'WebSite', 'WebPage', 'BreadcrumbList', 'FAQPage'],
   static: ['Organization', 'WebSite'],
   error: ['Organization', 'WebSite'],
 };
@@ -163,6 +171,10 @@ function pageTypeOf(route) {
   if (route.startsWith('/apps/category/')) return 'app-category';
   if (route.startsWith('/blog/')) return 'article';
   if (route.startsWith('/apps/')) return 'app';
+  if (route === '/sports/') return 'sports-index';
+  if (route.startsWith('/sports/')) return 'sport-hub';
+  if (route === '/tools/') return 'tools-index';
+  if (route.startsWith('/tools/')) return 'tool';
   return 'static';
 }
 
@@ -426,7 +438,7 @@ for (const file of walk(OUT)) {
     const n = topLevelTypes.filter((t) => t === type).length;
     // Two of the same page-level type is a contradiction, not extra coverage:
     // consumers pick one and there is no rule saying which.
-    if (n > 1 && ['BlogPosting', 'SoftwareApplication', 'FAQPage', 'BreadcrumbList', 'CollectionPage'].includes(type)) {
+    if (n > 1 && ['BlogPosting', 'SoftwareApplication', 'FAQPage', 'BreadcrumbList', 'CollectionPage', 'WebPage'].includes(type)) {
       fail(`${route}: ${n} ${type} blocks on one page`);
     }
   }

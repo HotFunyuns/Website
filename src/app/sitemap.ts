@@ -9,6 +9,14 @@ import {
   getPostsByHub,
   posts,
 } from '@/lib/blog';
+import { sportPath } from '@/data/sports';
+import { toolPath, tools } from '@/tools/registry';
+import {
+  activeSports,
+  sportLastModified,
+  sportsIndexLastModified,
+  toolsIndexLastModified,
+} from '@/lib/sports';
 
 export const dynamic = 'force-static';
 
@@ -100,6 +108,40 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.5,
     }));
 
+  // Sport hubs change when their own copy, a guide they list or a tool they
+  // list changes; tools when their content or calculation does. Each date is
+  // recorded in src/data/sports.ts, src/data/tools.ts or an article — never
+  // taken from the build clock. See src/lib/sports.ts.
+  const sportPages: MetadataRoute.Sitemap = [
+    {
+      url: `${baseUrl}/sports/`,
+      lastModified: toDate(sportsIndexLastModified()),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    ...activeSports().map((sport) => ({
+      url: `${baseUrl}${sportPath(sport)}`,
+      lastModified: toDate(sportLastModified(sport)),
+      changeFrequency: 'weekly' as const,
+      priority: 0.7,
+    })),
+  ];
+
+  const toolPages: MetadataRoute.Sitemap = [
+    {
+      url: `${baseUrl}/tools/`,
+      lastModified: toDate(toolsIndexLastModified()),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    ...tools.map((tool) => ({
+      url: `${baseUrl}${toolPath(tool)}`,
+      lastModified: toDate(tool.updatedAt),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    })),
+  ];
+
   // `posts` excludes drafts, reviews and future-dated articles, so nothing
   // unpublished can reach the sitemap even if it exists on disk.
   const postPages: MetadataRoute.Sitemap = posts.map((post) => ({
@@ -115,6 +157,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...appPages,
     ...blogCategoryPages,
     ...hubPages,
+    ...sportPages,
+    ...toolPages,
     ...authorPages,
     ...postPages,
   ];

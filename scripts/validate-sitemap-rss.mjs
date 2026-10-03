@@ -17,6 +17,8 @@
 import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join, sep } from 'node:path';
+import { readArticles } from './lib/content.mjs';
+import { FEED_ITEM_LIMIT, feedSlugs } from './lib/publishing.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(HERE, '..');
@@ -450,13 +452,19 @@ if (!existsSync(feedPath)) {
         }
       }
 
-      // Exactly the articles the sitemap publishes — no more, no fewer.
+      // Exactly the newest FEED_ITEM_LIMIT published articles — no more, no
+      // fewer. The feed announces what is new; the sitemap is the complete
+      // index, and every feed item must also be in it (checked above).
       const feedUrls = new Set([...feedPostsBySlug.values()].map((p) => p.url));
-      for (const url of sitemapPosts) {
-        if (!feedUrls.has(url)) fail(`blog/rss.xml omits ${url}, which the sitemap publishes`);
+      const expected = new Set(feedSlugs(readArticles()).map((slug) => `${SITE}/blog/${slug}/`));
+      for (const url of expected) {
+        if (!feedUrls.has(url)) fail(`blog/rss.xml omits ${url}, one of the newest ${FEED_ITEM_LIMIT} articles`);
       }
-      if (items.length !== sitemapPosts.length) {
-        fail(`blog/rss.xml has ${items.length} items but the sitemap publishes ${sitemapPosts.length} articles`);
+      for (const url of feedUrls) {
+        if (!expected.has(url)) fail(`blog/rss.xml lists ${url}, which is not one of the newest ${FEED_ITEM_LIMIT} articles`);
+      }
+      if (items.length !== expected.size) {
+        fail(`blog/rss.xml has ${items.length} items; expected the newest ${expected.size}`);
       }
     }
   }
@@ -514,6 +522,11 @@ if (!existsSync(llmsPath)) {
   for (const url of llmsSet) checkAdvertisedUrl('llms.txt', url);
 
   for (const url of sitemapApps) {
+    if (!llmsSet.has(url)) fail(`llms.txt omits ${url}, which the sitemap publishes`);
+  }
+  // The sport hubs and calculators are listed in full, like the apps: there are
+  // few of them, and each is an entry point rather than one item of a feed.
+  for (const url of sitemapUrls.filter((u) => /^https:\/\/reigncreativellc\.com\/(?:sports|tools)\//.test(u))) {
     if (!llmsSet.has(url)) fail(`llms.txt omits ${url}, which the sitemap publishes`);
   }
   for (const url of llmsSet) {

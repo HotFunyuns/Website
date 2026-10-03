@@ -81,6 +81,10 @@ function pageType(route) {
   if (route.startsWith('/authors/')) return 'author';
   if (route.startsWith('/blog/')) return 'article';
   if (route.startsWith('/apps/')) return 'app';
+  if (route === '/sports/') return 'sports-index';
+  if (route.startsWith('/sports/')) return 'sport-hub';
+  if (route === '/tools/') return 'tools-index';
+  if (route.startsWith('/tools/')) return 'tool';
   return 'static';
 }
 
@@ -308,7 +312,22 @@ const orphans = indexed.filter((r) => r.orphan);
 const editorialOrphans = articleRecords.filter((r) => r.editorialOrphan);
 const singleInbound = indexed.filter((r) => r.inbound.pages === 1);
 const singleEditorial = articleRecords.filter((r) => r.inbound.editorial === 1);
-const IMPORTANT = new Set(['home', 'blog-index', 'apps-index', 'app', 'app-category', 'blog-category', 'topic-hub', 'author', 'article', 'static']);
+const IMPORTANT = new Set([
+  'home',
+  'blog-index',
+  'apps-index',
+  'app',
+  'app-category',
+  'blog-category',
+  'topic-hub',
+  'author',
+  'article',
+  'static',
+  'sports-index',
+  'sport-hub',
+  'tools-index',
+  'tool',
+]);
 const deep = indexed.filter((r) => IMPORTANT.has(r.type) && (r.depth === null || r.depth > 3));
 const noAppLink = articleRecords.filter((r) => !r.linksOwnAppInBody);
 const cornerstoneGaps = articleRecords.flatMap((r) => {
@@ -360,7 +379,7 @@ function standingWords(page) {
   return textOf(html).split(' ').filter(Boolean).length;
 }
 const contextRows = indexed
-  .filter((r) => ['blog-category', 'app-category', 'topic-hub'].includes(r.type))
+  .filter((r) => ['blog-category', 'app-category', 'topic-hub', 'sports-index', 'sport-hub', 'tools-index'].includes(r.type))
   .map((r) => ({ url: r.url, type: r.type, words: standingWords(pages.get(r.url)) }));
 const thinContext = contextRows.filter((r) => r.words < THIN_CONTEXT_WORDS);
 
