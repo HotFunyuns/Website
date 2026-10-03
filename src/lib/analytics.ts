@@ -15,6 +15,7 @@ export type ButtonLocation =
   | 'article_middle'
   | 'article_bottom'
   | 'related_apps'
+  | 'author_profile'
   | 'footer';
 
 type GtagFn = (...args: unknown[]) => void;

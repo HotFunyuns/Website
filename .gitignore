@@ -43,3 +43,9 @@ next-env.d.ts
 
 # Search Console exports (performance data; this repository is public)
 /search-console/
+
+# Agent git worktrees (temporary checkouts; never commit)
+/.claude/worktrees/
+
+# Owner-only audits: internal legal/compliance findings about the apps. Never commit.
+/private/

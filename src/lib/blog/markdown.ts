@@ -7,10 +7,46 @@ import rehypeStringify from 'rehype-stringify';
 import GithubSlugger from 'github-slugger';
 import type { TocEntry } from './types';
 
+type HastNode = {
+  type: string;
+  tagName?: string;
+  properties?: Record<string, unknown>;
+  children?: HastNode[];
+};
+
+/**
+ * Wraps every table in a figure that scrolls sideways on its own, so a table
+ * wider than a phone screen no longer widens the whole page. The wrapper is a
+ * keyboard-focusable, labelled region (the accessible pattern for a scroll
+ * container). It is a <figure>, not a <div>, on purpose: the build's checks
+ * (validate-content, link-report, post-publication-links) read each article's
+ * prose as the text between `<div class="prose…">` and the next `</div>`, and
+ * a nested div would cut that region short at the first table.
+ */
+function rehypeScrollableTables() {
+  const wrap = (node: HastNode) => {
+    if (!node.children) return;
+    node.children = node.children.map((child) => {
+      if (child.type === 'element' && child.tagName === 'table') {
+        return {
+          type: 'element',
+          tagName: 'figure',
+          properties: { className: ['table-scroll'], role: 'region', ariaLabel: 'Scrollable table', tabIndex: 0 },
+          children: [child],
+        };
+      }
+      wrap(child);
+      return child;
+    });
+  };
+  return (tree: HastNode) => wrap(tree);
+}
+
 const processor = unified()
   .use(remarkParse)
   .use(remarkGfm)
   .use(remarkRehype)
+  .use(rehypeScrollableTables)
   .use(rehypeSlug)
   .use(rehypeStringify);
 

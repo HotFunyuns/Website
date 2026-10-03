@@ -380,3 +380,18 @@
     animation: none !important;
   }
 }
+
+/* Article tables scroll inside their own box on small screens instead of
+   widening the page; src/lib/blog/markdown.ts wraps every table in it.
+   Deliberately outside any @layer: the class is used only by the Markdown
+   renderer, which Tailwind does not scan, and layered rules for unscanned
+   classes are purged from the build. */
+.table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.prose .table-scroll > table {
+  margin-top: 0;
+  margin-bottom: 0;
+}

@@ -16,11 +16,24 @@ import GoldDivider from '@/components/GoldDivider';
 // serves at HTTP 200 — a soft 404 duplicate with no canonical.
 // `scripts/postbuild-normalize-urls.mjs` deletes that directory after the
 // build; `out/404.html` itself is kept, because it is the handler.
+//
+// `robots: null`: Next.js already writes `<meta name="robots" content="noindex">`
+// into every not-found response. Declaring our own printed a second, different
+// robots tag, and omitting the field let the layout's "index, follow" through
+// beside Next's noindex — null clears the inherited value so exactly one robots
+// tag, the noindex, remains. The page-level `openGraph` replaces the layout's, which
+// otherwise gave this page the homepage's `og:url`; it carries no URL at all for
+// the same reason it carries no canonical.
 export const metadata: Metadata = {
   title: { absolute: 'Page Not Found — Reign Creative LLC' },
   description: 'This page does not exist or has moved.',
   alternates: { canonical: null },
-  robots: { index: false, follow: true },
+  robots: null,
+  openGraph: {
+    title: 'Page Not Found — Reign Creative LLC',
+    description: 'This page does not exist or has moved.',
+    type: 'website',
+  },
 };
 
 export default function NotFound() {

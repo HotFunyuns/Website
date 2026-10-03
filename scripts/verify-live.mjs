@@ -10,11 +10,11 @@
 // For every page: HTTP 200, a self-referencing canonical, og:url agreeing, and
 // parseable JSON-LD. For an article additionally: the byline links the author
 // profile with rel=author and matches BlogPosting.author, and the URL is in the
-// sitemap and the RSS feed. Everywhere: `<path>/index.txt` must be a real 404,
+// sitemap and, if it is one of the newest 50, the RSS feed. Everywhere: `<path>/index.txt` must be a real 404,
 // and no unpublished article may answer or be listed.
 
 import { readArticles } from './lib/content.mjs';
-import { isPublic } from './lib/publishing.mjs';
+import { feedSlugs, isPublic } from './lib/publishing.mjs';
 
 const args = process.argv.slice(2);
 const option = (name, fallback) => {
@@ -29,6 +29,7 @@ let targets = args.filter((a) => !a.startsWith('--') && !optionValues.has(a));
 
 const articles = readArticles();
 const unpublished = articles.filter((a) => !isPublic(a.data));
+const inFeed = new Set(feedSlugs(articles));
 const toPath = (t) => (t.startsWith('/') ? (t.endsWith('/') || /\.[a-z]+$/.test(t) ? t : `${t}/`) : `/blog/${t}/`);
 
 if (smoke) {
@@ -121,7 +122,9 @@ for (const path of paths) {
     if (!link || !/rel="author"/.test(link[1])) fail(`${path}: no rel=author byline link`);
     if (posting?.author?.name !== name) fail(`${path}: BlogPosting author "${posting?.author?.name}" ≠ byline "${name}"`);
     if (posting?.author?.url !== `https://reigncreativellc.com${href}`) fail(`${path}: BlogPosting author url ${posting?.author?.url}`);
-    if (!rss.includes(`https://reigncreativellc.com${path}`)) fail(`${path}: not in the RSS feed`);
+    // Only the newest FEED_ITEM_LIMIT articles are in the feed by design.
+    const slug = path.split('/').filter(Boolean).pop();
+    if (inFeed.has(slug) && !rss.includes(`https://reigncreativellc.com${path}`)) fail(`${path}: not in the RSS feed`);
   }
 
   const sidecar = await get(`${path}index.txt`);

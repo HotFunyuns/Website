@@ -1,5 +1,5 @@
 import { companyInfo } from '@/data/apps';
-import { posts } from '@/lib/blog';
+import { RSS_ITEM_LIMIT, posts } from '@/lib/blog';
 
 export const dynamic = 'force-static';
 
@@ -52,7 +52,10 @@ export function GET() {
   const pubDateOf = (day: string) =>
     new Date(Math.min(Date.parse(`${day}T09:00:00Z`), buildTime)).toUTCString();
 
+  // The newest RSS_ITEM_LIMIT articles only. A feed tells readers and crawlers
+  // what is new; the sitemap is the complete index. `posts` is newest-first.
   const items = posts
+    .slice(0, RSS_ITEM_LIMIT)
     .map((post) => {
       const url = `${site}/blog/${post.slug}/`;
       return [

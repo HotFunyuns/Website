@@ -10,7 +10,12 @@
 // Also flags repeated openings, headings and FAQ phrasing, because those recur
 // across a templated batch long before the body text does.
 //
-// Run: node scripts/audit-similarity-250.mjs [--threshold 0.08]
+// Run: node scripts/audit-similarity-250.mjs [--threshold 0.08] [--release <YYYY-MM-DD>] [--only <slug>]
+//
+// --release picks the cohort by `publishedAt` (default: the 2026-09-22 release),
+// so a later release — including articles still in review, whose publishedAt is
+// the planned day — is audited the same way. --only restricts the cohort to one
+// article, which is how a reviewer checks a single piece against the corpus.
 
 import { readFileSync, readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -18,7 +23,10 @@ import { dirname, join } from 'node:path';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const CONTENT = join(HERE, '..', 'content', 'blog');
-const RELEASE = '2026-09-22';
+const argRelease = process.argv.indexOf('--release');
+const RELEASE = argRelease > -1 ? process.argv[argRelease + 1] : '2026-09-22';
+const argOnly = process.argv.indexOf('--only');
+const ONLY = argOnly > -1 ? process.argv[argOnly + 1] : null;
 
 const argThreshold = process.argv.indexOf('--threshold');
 // 0.08 is empirically well clear of the corpus: two genuinely distinct
@@ -57,7 +65,7 @@ for (const file of readdirSync(CONTENT).filter((f) => f.endsWith('.md'))) {
   const body = raw.slice(block[0].length);
   docs.push({
     slug: file.replace(/\.md$/, ''),
-    isRelease: data.publishedAt === RELEASE,
+    isRelease: data.publishedAt === RELEASE && (!ONLY || file === `${ONLY}.md`),
     title: data.title,
     description: data.description,
     shingles: shingles(normalise(body)),

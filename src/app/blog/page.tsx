@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: 'Blog — Android App Guides',
   description:
     'Guides to the Android apps we build: sports GM and career sims, beginner language courses, nutrition trackers, arcade games, and learning tools.',
-  alternates: { canonical: '/blog/' },
+  alternates: { canonical: '/blog/', types: { 'application/rss+xml': '/blog/rss.xml' } },
   openGraph: {
     title: `Blog — Android App Guides | ${companyInfo.name}`,
     description:
@@ -86,6 +86,14 @@ export default function BlogIndexPage() {
 
       <section className="section-padding !pt-6" aria-label="Articles">
         <div className="container-wide mx-auto">
+          {/* A plain anchor, not next/link: the feed is an XML file, not a route. */}
+          <p className="mb-8 text-sm text-ink-500">
+            New articles are also listed in our{' '}
+            <a href="/blog/rss.xml" className="link-accent">
+              RSS feed
+            </a>
+            .
+          </p>
           {posts.length === 0 ? (
             <div className="card-premium px-8 py-16 text-center sm:px-14">
               <h2 className="display-title text-2xl sm:text-3xl">Articles are on the way</h2>
