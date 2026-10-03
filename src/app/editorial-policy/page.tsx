@@ -6,7 +6,7 @@ import Reveal from '@/components/Reveal';
 import { formatPostDate } from '@/components/blog/format';
 import { companyInfo } from '@/data/apps';
 import { DEFAULT_AUTHOR_ID, authorPath } from '@/data/authors';
-import { APPROVAL_GATE_AFTER, DAILY_RELEASE_LIMIT } from '@/lib/blog';
+import { APPROVAL_GATE_AFTER, REVIEW_LABELS_INTRODUCED } from '@/lib/blog';
 
 export const metadata: Metadata = {
   title: 'Editorial Policy — How We Research and Write',
@@ -62,6 +62,7 @@ const contents = [
 
 export default function EditorialPolicyPage() {
   const gateDate = formatPostDate(APPROVAL_GATE_AFTER);
+  const labelsDate = formatPostDate(REVIEW_LABELS_INTRODUCED);
   const mail = (
     <a href={`mailto:${companyInfo.supportEmail}`} className="link-accent break-all" rel="noopener noreferrer">
       {companyInfo.supportEmail}
@@ -192,23 +193,43 @@ export default function EditorialPolicyPage() {
                     must resolve. Statements about our apps are checked against the catalog. Claims we
                     never make — medical promises, invented statistics, download counts, ranking
                     guarantees, unreleased app names — are blocked. And the text is compared with every
-                    other article to catch duplication. These checks catch a lot, but they are not the
-                    same as a person reading every sentence, and they cannot prove that a source says
-                    exactly what an article says it does.
+                    other article to catch duplication. For articles published from {labelsDate}, an AI
+                    editorial review also reads the article against its cited sources, our app catalog
+                    and the rest of the site, and its result is logged; an article that does not pass
+                    is not published. These checks catch a lot, but they are not the same as a person
+                    reading every sentence, and they cannot prove that a source says exactly what an
+                    article says it does.
+                  </p>
+                  <h3 className={`${h3} mt-5`}>Every new article says how it was checked</h3>
+                  <p className="mt-1.5">
+                    From {labelsDate}, each new article states under its byline, and again in its
+                    author box, which of these happened before it went live:
+                  </p>
+                  <ul className="ml-4 mt-3 list-disc space-y-2">
+                    <li>
+                      <strong className="text-ink-950">&ldquo;Reviewed by&rdquo; a named person, with a
+                      date.</strong> A person at {companyInfo.name} read the complete article and approved
+                      it. We keep a record of who reviewed it, when, which of its sources they opened, and
+                      what they checked or changed.
+                    </li>
+                    <li>
+                      <strong className="text-ink-950">&ldquo;AI-assisted article.&rdquo;</strong> It was
+                      drafted with AI tools and published after the automated checks and the AI editorial
+                      review alone. No person has reviewed it yet, and the article says so.
+                    </li>
+                  </ul>
+                  <p className="mt-3">
+                    We never describe an article as reviewed, approved or fact-checked by a person unless
+                    a named person did exactly that, and an article&apos;s label changes only when one
+                    does. A person&apos;s approval is an editorial check by the company that makes the
+                    apps. It is not independent review, third-party fact-checking or expert review.
                   </p>
                   <p className="mt-3">
-                    <strong className="text-ink-950">
-                      Every article published after {gateDate} must be read in full and approved by a
-                      person at {companyInfo.name} before it is released
-                    </strong>{' '}
-                    — the publishing system will not release it otherwise — and those articles say so
-                    at the end. Articles published on or before {gateDate} passed the automated checks,
-                    but not every one of them was read in full by a person before it went live. If you
-                    find a mistake in any article, tell us and we will fix it.
-                  </p>
-                  <p className="mt-3">
-                    That approval is an editorial check by the company that makes the apps. It is not
-                    independent review, third-party fact-checking or expert review.
+                    After {gateDate} and before {labelsDate}, our publishing system would not release an
+                    article without a person&apos;s approval, and no article was published in that time.
+                    Articles published on or before {gateDate} carry no label: they passed the automated
+                    checks, but not every one of them was read in full by a person before it went live.
+                    If you find a mistake in any article, tell us and we will fix it.
                   </p>
                 </div>
 
@@ -300,9 +321,14 @@ export default function EditorialPolicyPage() {
                     <div>
                       <h3 className={h3}>Sports simulation</h3>
                       <p className="mt-1.5">
-                        Our sports games use generic players and teams, not real league data, and
-                        simulate results from assumptions the articles describe. Nothing here is a
-                        prediction, and nothing should be used for betting.
+                        Our career simulators use fictional players, teams and leagues. Our draft and
+                        GM games build their player pools from real-world players&apos; careers, with
+                        ratings that are the game&apos;s own estimates rather than official statistics.
+                        None of our sports games is affiliated with, endorsed by or licensed by any
+                        league, team, players&apos; association or athlete. Our articles do not
+                        reproduce the games&apos; player records or ratings, and they explain the
+                        assumptions behind simulated results. Nothing here is a prediction, and nothing
+                        should be used for betting.
                       </p>
                     </div>
                   </div>
@@ -384,8 +410,10 @@ export default function EditorialPolicyPage() {
                   <p className="mt-3">
                     Every article shows the day it was published — the day it actually went live, in
                     Pacific time (America/Los_Angeles). A publication date is never moved earlier, and
-                    an old article&apos;s publication date is not changed. New articles are released no
-                    more than {DAILY_RELEASE_LIMIT === 1 ? 'one' : DAILY_RELEASE_LIMIT} a day.
+                    an old article&apos;s publication date is not changed. A finished article is
+                    published once it has passed every check; we do not hold finished articles back to
+                    fit a release schedule. An article a person has approved for a particular day goes
+                    out on that day.
                   </p>
                   <p className="mt-3">
                     An &ldquo;Updated&rdquo; date appears only after a substantive change to the

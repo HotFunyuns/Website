@@ -17,15 +17,21 @@
 //
 //   node scripts/post-publication-links.mjs <slug> [<slug> …]
 //   node scripts/post-publication-links.mjs --today        every article released today (Los Angeles)
+//   node scripts/post-publication-links.mjs --batch --today
+//       many articles published together: shares the older articles' free card
+//       slots out across the whole batch (cards only, no prose edits), and
+//       links an article from the same batch only when no older article has room
 //   options: --dry-run  --no-contextual  --any-age  --verify  --json
 //
 // Exit code 1 when a blocking check fails (the article is not public, links an
-// unpublished page, or cannot be given a single inbound link).
+// unpublished page, lacks its app-page link, or cannot be given a single
+// inbound link — from an older article in the one-at-a-time pass, from any
+// article in a batch).
 
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { OUT_DIR, loadSiteData, parseArticle, readArticles, setFrontmatterValue, writeArticle } from './lib/content.mjs';
-import { applyActions, planPostPublication } from './lib/linking.mjs';
+import { applyActions, planBatchLinks, planPostPublication } from './lib/linking.mjs';
 import { isQueueEra, laDay } from './lib/publishing.mjs';
 
 const args = process.argv.slice(2);
@@ -33,6 +39,7 @@ const flag = (name) => args.includes(name);
 const dryRun = flag('--dry-run');
 const verify = flag('--verify');
 const asJson = flag('--json');
+const batchMode = flag('--batch');
 const options = { contextual: !flag('--no-contextual'), anyAge: flag('--any-age') };
 
 let articles = readArticles();
@@ -45,36 +52,64 @@ if (flag('--today')) {
 }
 slugs = [...new Set(slugs)];
 if (slugs.length === 0) {
-  console.error('usage: node scripts/post-publication-links.mjs <slug> [<slug> …] [--today] [--dry-run] [--no-contextual] [--any-age] [--verify]');
+  console.error(
+    'usage: node scripts/post-publication-links.mjs <slug> [<slug> …] [--today] [--batch] [--dry-run] [--no-contextual] [--any-age] [--verify]'
+  );
   process.exit(2);
 }
 
-const BLOCKING = new Set(['no-private-links', 'older-inbound', 'app-page']);
+const BLOCKING = new Set(['no-private-links', 'older-inbound', 'batch-inbound', 'app-page']);
 const results = [];
 let blocked = false;
+let summary = null;
 
-for (const slug of slugs) {
-  const plan = planPostPublication(articles, slug, site, options);
-  if (plan.fatal) {
-    results.push({ slug, fatal: plan.fatal });
-    blocked = true;
-    continue;
+function write(actions) {
+  const written = [];
+  if (dryRun || actions.length === 0) return written;
+  const edited = applyActions(articles, actions, { setFrontmatterValue, parseArticle });
+  for (const { original, article } of edited.values()) {
+    writeArticle(original, article.raw);
+    written.push(article.slug);
   }
+  // Re-read so anything planned next sees what is now on disk.
+  articles = readArticles();
+  return written;
+}
 
-  let written = [];
-  if (!dryRun && plan.actions.length > 0) {
-    const edited = applyActions(articles, plan.actions, { setFrontmatterValue, parseArticle });
-    for (const { original, article } of edited.values()) {
-      writeArticle(original, article.raw);
-      written.push(article.slug);
+if (batchMode) {
+  const plan = planBatchLinks(articles, slugs, site);
+  const written = write(plan.actions);
+  summary = { ...plan.summary, written: written.length };
+  for (const slug of slugs) {
+    const result = plan.results.get(slug);
+    if (result.fatal) {
+      results.push({ slug, fatal: result.fatal });
+      blocked = true;
+      continue;
     }
-    // Re-read so the next slug in this run plans against what is now on disk.
-    articles = readArticles();
+    if (result.checks.some((c) => !c.ok && BLOCKING.has(c.id))) blocked = true;
+    results.push({
+      slug,
+      checks: result.checks,
+      // Each action is reported once, under the article it links to.
+      actions: plan.actions.filter((a) => a.target === slug || (a.source === slug && !slugs.includes(a.target))),
+      shortlist: [],
+      written: written.filter((s) => s === slug),
+    });
   }
-
-  const failed = plan.checks.filter((c) => !c.ok);
-  if (failed.some((c) => BLOCKING.has(c.id))) blocked = true;
-  results.push({ slug, checks: plan.checks, actions: plan.actions, shortlist: plan.shortlist, written });
+} else {
+  for (const slug of slugs) {
+    const plan = planPostPublication(articles, slug, site, options);
+    if (plan.fatal) {
+      results.push({ slug, fatal: plan.fatal });
+      blocked = true;
+      continue;
+    }
+    const written = write(plan.actions);
+    const failed = plan.checks.filter((c) => !c.ok);
+    if (failed.some((c) => BLOCKING.has(c.id))) blocked = true;
+    results.push({ slug, checks: plan.checks, actions: plan.actions, shortlist: plan.shortlist, written });
+  }
 }
 
 /* ------------------------------------------------------ rendered verification */
@@ -134,7 +169,7 @@ if (verify) {
 /* ------------------------------------------------------------------ report */
 
 if (asJson) {
-  console.log(JSON.stringify(results, null, 2));
+  console.log(JSON.stringify(summary ? { summary, results } : results, null, 2));
 } else {
   for (const result of results) {
     console.log(`\n${result.slug}`);
@@ -159,6 +194,14 @@ if (asJson) {
       if (result.rendered.length === 0) console.log('  ✓ rendered output verified');
       for (const p of result.rendered) console.log(`  ✗ rendered: ${p}`);
     }
+  }
+  if (summary) {
+    console.log(
+      `\nbatch: ${summary.articles} article(s) — ${summary.linkedFromOlder} linked from an older article, ` +
+        `${summary.onlyFromBatch} only from the same batch, ${summary.unlinked} with no inbound link; ` +
+        `${summary.cardsAdded} card(s) planned, ${summary.cardsFromOlder} of them on ${summary.olderArticlesTouched} older article(s)` +
+        `${dryRun ? '' : `; ${summary.written} file(s) written`}`
+    );
   }
   console.log(dryRun ? '\n[dry run] no files written' : '');
 }

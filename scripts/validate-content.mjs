@@ -10,7 +10,7 @@
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
 import { dirname, join, posix } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { APPROVAL_GATE_AFTER, DAILY_LIMIT, isIsoDay, laDay } from './lib/publishing.mjs';
+import { APPROVAL_GATE_AFTER, FEED_ITEM_LIMIT, feedSlugs, isIsoDay, laDay, reviewProblems } from './lib/publishing.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = join(ROOT, 'out');
@@ -58,34 +58,20 @@ const today = laDay();
 const articles = loadArticles();
 const published = articles.filter((a) => a.data.status === 'published' && a.data.publishedAt <= today);
 const unpublished = articles.filter((a) => !published.includes(a));
+const feedExpected = new Set(feedSlugs(articles));
 
-/* ------------------------------------------------------ the publishing queue */
+/* --------------------------------------- how each article says it was checked */
 
 // Re-checked here rather than trusted from the loader, for the same reason the
 // rest of this file re-parses: a bug in src/lib/blog must not silence the gate.
-const releasesByDay = new Map();
+// There is no daily limit — a finished article goes out once it passes — but
+// every article published after the gate must carry a truthful review label.
 for (const { slug, data } of articles) {
-  if (data.status === 'scheduled') {
-    if (data.editorialApproved !== true) fail(`${slug}: scheduled without "editorialApproved": true`);
-    if (!isIsoDay(data.publishAt)) fail(`${slug}: scheduled without a valid "publishAt"`);
+  if (data.status === 'scheduled' && !isIsoDay(data.publishAt)) fail(`${slug}: scheduled without a valid "publishAt"`);
+  if (data.status === 'published' && data.publishedAt > today) {
+    fail(`${slug}: published with a future publishedAt (${data.publishedAt})`);
   }
-  if (data.status !== 'published') continue;
-  if (data.publishedAt > today) {
-    fail(`${slug}: published with a future publishedAt (${data.publishedAt}) — use status "scheduled"`);
-  }
-  if (data.publishedAt > APPROVAL_GATE_AFTER) {
-    if (data.editorialApproved !== true) {
-      fail(`${slug}: published after ${APPROVAL_GATE_AFTER} without "editorialApproved": true`);
-    }
-    if (!data.sameDayOverride) {
-      releasesByDay.set(data.publishedAt, [...(releasesByDay.get(data.publishedAt) ?? []), slug]);
-    }
-  }
-}
-for (const [day, slugs] of releasesByDay) {
-  if (slugs.length > DAILY_LIMIT) {
-    fail(`${slugs.length} articles released on ${day} (${slugs.join(', ')}) — the daily limit is ${DAILY_LIMIT}`);
-  }
+  for (const problem of reviewProblems(data)) fail(`${slug}: ${problem}`);
 }
 
 /* -------------------------------------------------------------- html index */
@@ -155,8 +141,10 @@ for (const article of published) {
   if (sitemap && !sitemap.includes(`/blog/${article.slug}/`)) {
     fail(`published article "${article.slug}" is missing from sitemap.xml`);
   }
-  if (rss && !rss.includes(`/blog/${article.slug}/`)) {
-    fail(`published article "${article.slug}" is missing from the RSS feed`);
+  // The feed lists only the newest FEED_ITEM_LIMIT articles; the sitemap check
+  // above is the completeness check.
+  if (rss && feedExpected.has(article.slug) && !rss.includes(`/blog/${article.slug}/`)) {
+    fail(`published article "${article.slug}" is one of the newest ${FEED_ITEM_LIMIT} but is missing from the RSS feed`);
   }
   if (article.data.noindex === true) {
     fail(`published article "${article.slug}" is marked noindex — publish it or clear the flag`);
@@ -230,10 +218,14 @@ for (const article of published) {
 // what this gate enforces — is that at least one *other article* links each
 // published one, in its prose or its "Keep reading" grid, as rendered.
 //
-// Articles released through the queue must also have a persisted link — in an
-// older article's body or `relatedArticles` — rather than relying on the
-// relevance fallback, which can move as the corpus grows. That is what
-// `npm run links:after-publish` writes.
+// Articles published after the gate must also have a persisted link — in
+// another published article's body or `relatedArticles` — rather than relying
+// on the relevance fallback, which can move as the corpus grows. That is what
+// the linking pass writes (`npm run links:after-publish`, or `--batch` when
+// many articles go out on one day). The source may be from the same day: a
+// batch shares the older articles' free card slots out, and falls back to a
+// link from the same batch only where no older article has room. How many new
+// articles an older article links is reported, not required.
 const editorialInbound = new Map(published.map((a) => [a.slug, new Set()]));
 for (const source of published) {
   const file = join(OUT, 'blog', source.slug, 'index.html');
@@ -248,6 +240,8 @@ for (const source of published) {
     }
   }
 }
+let postGate = 0;
+let postGateFromOlder = 0;
 for (const article of published) {
   if (editorialInbound.get(article.slug).size === 0) {
     fail(
@@ -255,22 +249,27 @@ for (const article of published) {
     );
   }
   if (article.data.publishedAt > APPROVAL_GATE_AFTER) {
-    const persisted = published.some(
+    postGate++;
+    const sources = published.filter(
       (source) =>
-        source.data.publishedAt < article.data.publishedAt &&
+        source.slug !== article.slug &&
         ((source.data.relatedArticles ?? []).includes(article.slug) || source.raw.includes(`](/blog/${article.slug}/)`))
     );
-    if (!persisted) {
+    if (sources.length === 0) {
       fail(
-        `newly published /blog/${article.slug}/ has no link from an older article's body or relatedArticles — run npm run links:after-publish -- ${article.slug}`
+        `newly published /blog/${article.slug}/ has no link from another article's body or relatedArticles — run npm run links:after-publish -- --batch ${article.slug}`
       );
+    } else if (sources.some((source) => source.data.publishedAt < article.data.publishedAt)) {
+      postGateFromOlder++;
     }
   }
 }
 
 /* ----------------------------------------------------------------- reporting */
 
-const counts = `${published.length} published, ${unpublished.length} unpublished, ${htmlFiles.length} pages`;
+const counts =
+  `${published.length} published, ${unpublished.length} unpublished, ${htmlFiles.length} pages` +
+  (postGate ? `; ${postGate} published after ${APPROVAL_GATE_AFTER}, ${postGateFromOlder} of them linked from an older article` : '');
 
 for (const warning of warnings) console.warn(`  warn  ${warning}`);
 

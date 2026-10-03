@@ -3,6 +3,9 @@
 // article is written: existing ones are re-labelled as queued inside the copy,
 // and the copy is deleted afterwards. The real content/blog is never touched.
 //
+// The review records written into the copy are fixtures for this rehearsal
+// only; they describe no real review and never leave the temporary directory.
+//
 // Run: npm test
 
 import { test, before, after } from 'node:test';
@@ -42,13 +45,23 @@ const inboundTo = (slug) =>
     return a.data.relatedArticles.includes(slug) || a.body.includes(`](/blog/${slug}/)`);
   }).length;
 
+/** A fixture review record, valid against the article's own first source. */
+const fixtureReview = (slug) => ({
+  editorialReview: 'person',
+  editorialApproved: true,
+  reviewerName: 'Rehearsal Fixture',
+  reviewDate: laDay(),
+  sourcesChecked: [read(slug).data.sources[0].url],
+  reviewNotes: 'Fixture for the release rehearsal; no real review.',
+});
+
 before(() => {
   dir = mkdtempSync(join(tmpdir(), 'reign-release-'));
   cpSync(CONTENT_DIR, dir, { recursive: true });
   const today = laDay();
 
   // Make the copy independent of the real queue. This suite also runs inside
-  // the release workflow, right after a real article has been released with
+  // the release workflow, right after real articles have been released with
   // today's date — and whenever a real scheduled article happens to be due. In
   // the copy, nothing is queued and nothing was released today, whatever the
   // real content says.
@@ -62,11 +75,11 @@ before(() => {
   }
 
   // Prefer articles known to pass every check; fall back to the first published
-  // slugs, so renaming one of these never blocks a release.
+  // slugs with a source, so renaming one of these never blocks a release.
   const preferred = ['shonen-vs-seinen', 'what-does-td-mean-in-games', 'glycemic-index-and-load'];
   const available = readdirSync(dir)
     .map((name) => name.replace(/\.md$/, ''))
-    .filter((slug) => read(slug).data.status === 'published');
+    .filter((slug) => read(slug).data.status === 'published' && (read(slug).data.sources ?? []).length > 0);
   picks = [...preferred.filter((slug) => available.includes(slug)), ...available.filter((slug) => !preferred.includes(slug))].slice(0, 3);
   const [first, second] = [picks[0], picks[1]].sort();
   picks = [first, second, picks[2]];
@@ -74,82 +87,87 @@ before(() => {
 
   // Queue two articles, due today. publishedAt on a scheduled article is only
   // a plan; the release must overwrite it with the real day.
-  edit(second, { status: 'scheduled', editorialApproved: true, publishAt: today, publishedAt: '2026-01-01' });
-  edit(first, { status: 'scheduled', editorialApproved: true, publishAt: today });
+  edit(second, { status: 'scheduled', ...fixtureReview(second), publishAt: today, publishedAt: '2026-01-01' });
+  edit(first, { status: 'scheduled', ...fixtureReview(first), publishAt: today });
   // And one that nobody approved.
   edit(picks[2], { status: 'review', editorialApproved: false });
 });
 
 after(() => rmSync(dir, { recursive: true, force: true }));
 
-test('check decides without writing, and reports to GITHUB_OUTPUT', () => {
+test('check decides without writing, and reports every due article to GITHUB_OUTPUT', () => {
   const out = join(dir, '..', `gh-output-${process.pid}`);
   writeFileSync(out, '');
   const before = snapshot();
   const result = run(['check', '--ignore-release-hour', '--ci'], { GITHUB_OUTPUT: out });
   assert.equal(result.status, 0, result.stderr);
-  assert.ok(readFileSync(out, 'utf8').includes(`eligible=true\nslug=${picks[0]}\n`), readFileSync(out, 'utf8'));
+  assert.ok(readFileSync(out, 'utf8').includes(`eligible=true\nslugs=${picks[0]},${picks[1]}\n`), readFileSync(out, 'utf8'));
   assert.equal(snapshot(), before);
   rmSync(out, { force: true });
 });
 
-test('release publishes the first due article with today as its date and links it in', () => {
+test('--expect refuses when the plan no longer matches, and writes nothing', () => {
+  const before = snapshot();
   const result = run(['release', '--ignore-release-hour', '--expect', picks[0]]);
-  assert.equal(result.status, 0, result.stdout + result.stderr);
-  const released = read(picks[0]).data;
-  assert.equal(released.status, 'published');
-  assert.equal(released.publishedAt, laDay());
-  assert.equal(released.updatedAt, laDay());
-  assert.equal(released.editorialApproved, true);
-  assert.equal(released.publishAt, laDay(), 'the plan is kept as a record');
-  assert.equal(released.noindex, undefined);
-  assert.equal(released.sameDayOverride, undefined);
-  assert.ok(inboundTo(picks[0]) >= 2, 'older articles link back after the pass');
+  assert.equal(result.status, 1, result.stdout + result.stderr);
+  assert.match(result.stderr, /plan changed between check and release/);
+  assert.equal(snapshot(), before);
 });
 
-test('a rerun the same day changes nothing', () => {
+test('release publishes every due article the same day, dated today, and links each in', () => {
+  const result = run(['release', '--ignore-release-hour', '--expect', `${picks[0]},${picks[1]}`]);
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+  for (const slug of [picks[0], picks[1]]) {
+    const released = read(slug).data;
+    assert.equal(released.status, 'published', slug);
+    assert.equal(released.publishedAt, laDay(), `${slug}: never backdated, never the planned day`);
+    assert.equal(released.updatedAt, laDay());
+    assert.equal(released.editorialApproved, true);
+    assert.equal(released.editorialReview, 'person');
+    assert.equal(released.publishAt, laDay(), 'the plan is kept as a record');
+    assert.equal(released.noindex, undefined);
+    assert.equal(released.sameDayOverride, undefined);
+    assert.ok(inboundTo(slug) >= 2, `${slug}: older articles link back after the pass`);
+  }
+});
+
+test('a rerun the same day changes nothing — nothing is left due', () => {
   const before = snapshot();
   const result = run(['release', '--ignore-release-hour']);
   assert.equal(result.status, 0);
-  assert.ok(result.stdout.includes(`already released today: ${picks[0]}`), result.stdout);
+  assert.match(result.stdout, /no scheduled, approved article is due/);
   assert.equal(snapshot(), before);
-});
-
-test('--expect refuses when the plan no longer matches', () => {
-  const before = snapshot();
-  const result = run(['release', '--ignore-release-hour', '--allow-second-today', '--expect', 'something-else']);
-  assert.equal(result.status, 1);
-  assert.equal(snapshot(), before);
-});
-
-test('a second article today needs the override, and the override is recorded', () => {
-  const result = run(['release', '--ignore-release-hour', '--allow-second-today']);
-  assert.equal(result.status, 0, result.stdout + result.stderr);
-  const second = read(picks[1]).data;
-  assert.equal(second.publishedAt, laDay(), 'the planned 2026-01-01 was not used — never backdated');
-  assert.equal(second.sameDayOverride, true);
 });
 
 test('an unapproved article cannot be released, even by hand', () => {
   const before = snapshot();
-  const result = run(['release', '--slug', picks[2], '--allow-second-today']);
+  const result = run(['release', '--slug', picks[2]]);
   assert.equal(result.status, 1);
   assert.match(result.stderr + result.stdout, /not editorially approved/);
   assert.equal(snapshot(), before);
 });
 
 test('an approved article that is not scheduled cannot be released by hand either', () => {
-  edit(picks[2], { editorialApproved: true });
+  edit(picks[2], fixtureReview(picks[2]));
   const before = snapshot();
-  const result = run(['release', '--slug', picks[2], '--allow-second-today']);
+  const result = run(['release', '--slug', picks[2]]);
   assert.equal(result.status, 1);
   assert.match(result.stderr + result.stdout, /set "status": "scheduled"/);
   assert.equal(snapshot(), before);
 });
 
-test('with nothing due, release is a safe no-op', () => {
+test('a scheduled article whose review record is incomplete is refused', () => {
+  edit(picks[2], { status: 'scheduled', publishAt: laDay(), reviewNotes: '' });
   const before = snapshot();
-  const result = run(['release', '--ignore-release-hour', '--allow-second-today']);
+  const result = run(['release', '--slug', picks[2]]);
+  assert.equal(result.status, 1);
+  assert.match(result.stderr + result.stdout, /review record incomplete/);
+  assert.equal(snapshot(), before);
+});
+
+test('with nothing eligible due, release is a safe no-op', () => {
+  const before = snapshot();
+  const result = run(['release', '--ignore-release-hour']);
   assert.equal(result.status, 0);
   assert.match(result.stdout, /no scheduled, approved article is due/);
   assert.equal(snapshot(), before);

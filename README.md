@@ -52,15 +52,20 @@ The static output is generated in the `out/` directory, ready to deploy to any s
 
 ## Publishing Articles
 
-Articles live in `content/blog/` (spec: `docs/content-spec.md`). New ones are
-released through an approval-gated queue — at most one editorially approved
-article per America/Los_Angeles day — by `.github/workflows/publish-queue.yml`,
-or by hand. Full procedure: `docs/publishing-workflow.md`.
+Articles live in `content/blog/` (spec: `docs/content-spec.md`). A finished article
+is published as soon as it passes every check — there is no release schedule — and
+it says on the page how it was checked: **"AI-assisted article … No person has
+reviewed it yet"** after a logged AI editorial review, or **"Reviewed by <name> on
+<date>"** when a person has read and approved it (a review record no script may
+write). Full procedure: `docs/publishing-workflow.md`; growth practices and the
+14/28-day review: `docs/seo-growth-playbook.md`.
 
 ```bash
-npm run queue:status                          # what is queued, what happens next
-npm run queue:release -- --slug <slug>        # release one approved article now
-npm run links:after-publish -- <slug>         # the post-publication linking pass
+npm run publish:batch -- <slug…> --dry-run    # what would publish (review log + content hash, every gate)
+npm run publish:batch -- --all-ready          # publish every reviewed, unchanged, valid article today
+npm run links:batch                           # reverse links for today's new articles
+npm run queue:status                          # person-approved articles scheduled for a later day
+npm run links:after-publish -- <slug>         # the post-publication linking pass for one article
 npm test                                      # unit and release-rehearsal tests
 npm run report:links                          # internal-link graph and audit
 npm run report:search-console                 # refresh report from Search Console CSV exports

@@ -9,7 +9,7 @@ import PlayStoreLink from '@/components/PlayStoreLink';
 import { formatPostDate } from '@/components/blog/format';
 import { activeCategories, appCount, apps, companyInfo, countByCategory } from '@/data/apps';
 import { DEFAULT_AUTHOR_ID, authorPath, getAuthor } from '@/data/authors';
-import { APPROVAL_GATE_AFTER, activeHubs, postCount } from '@/lib/blog';
+import { APPROVAL_GATE_AFTER, REVIEW_LABELS_INTRODUCED, activeHubs, postCount } from '@/lib/blog';
 
 const description =
   'Reign Creative LLC is an independent Android app studio, publishing on Google Play as Reign Collective Apps: what we make, how we check facts, how to reach us.';
@@ -63,6 +63,7 @@ export default function AboutPage() {
   const author = getAuthor(DEFAULT_AUTHOR_ID);
   const hubCount = activeHubs().length;
   const gateDate = formatPostDate(APPROVAL_GATE_AFTER);
+  const labelsDate = formatPostDate(REVIEW_LABELS_INTRODUCED);
 
   // AboutPage names the Organization node the root layout defines as its main
   // entity, rather than describing the company a second time.
@@ -341,10 +342,13 @@ export default function AboutPage() {
             <GoldDivider className="mt-5" />
             <p className="mt-6">
               We use AI tools to help research, draft and edit our articles. Automated checks run
-              before anything is published, and every article published after {gateDate} is read in
-              full and approved by a person before release. Articles published before then passed the
-              automated checks, but not every one was read in full by a person. No article has been
-              reviewed by an independent expert unless the reviewer is named on it. The{' '}
+              before anything is published. Since {labelsDate}, every new article says under its
+              byline how it was checked: &ldquo;Reviewed by&rdquo; a named person, with the date, or
+              &ldquo;AI-assisted article&rdquo; — published after the automated checks and an AI
+              editorial review, with no person having reviewed it yet. Articles published on or before{' '}
+              {gateDate} carry no label: they passed the automated checks, but not every one was read in
+              full by a person. No article has been reviewed by an independent expert unless the
+              reviewer is named on it. The{' '}
               <Link href="/editorial-policy/#ai" className="link-accent">
                 editorial policy
               </Link>{' '}

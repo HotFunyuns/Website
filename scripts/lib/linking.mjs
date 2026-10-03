@@ -32,6 +32,14 @@
 //
 // Idempotent: every action is skipped when the link already exists, so running
 // the pass twice changes nothing the second time.
+//
+// Batches (planBatchLinks): when many articles go public on the same day, the
+// one-at-a-time pass above would let the first few claim every free card slot
+// on the older articles. The batch planner shares that capacity out in rounds —
+// every new article gets its best available older source before any gets a
+// second — caps how many cards one older article may receive for one batch,
+// and only falls back to a link from another article in the same batch when no
+// older article can take one. It adds cards only; it never edits prose.
 
 import {
   MIN_LINK_RELEVANCE,
@@ -52,6 +60,12 @@ export const WANT_OLDER_INBOUND = 3;
 export const MAX_NEW_LINKS = 5;
 /** How far down the relevance ranking to look for a source that can take a link. */
 const CANDIDATE_WINDOW = 15;
+/** Batch: at most this many cards on one older article may point into one batch… */
+export const BATCH_PER_SOURCE_CAP = 2;
+/** …and older sources are sought until a new article has this many. */
+export const BATCH_WANT_OLDER = 2;
+/** Batch: how far down the relevance ranking to look, per new article. */
+const BATCH_CANDIDATE_WINDOW = 25;
 /** An exact anchor used this many times for one target is already repetitive. */
 const MAX_SAME_ANCHOR = 3;
 
@@ -203,10 +217,12 @@ export function anchorUsage(articles) {
  * @param {Array} articles every article on disk (drafts included; they are filtered here)
  * @param {string} slug the article that was just published
  * @param {object} site { apps, hubs } from loadSiteData()
- * @param {object} options { now, anyAge, contextual }
+ * @param {object} options { now, anyAge, contextual, inbound }
+ *   inbound: false plans only the new article's own outbound links — the batch
+ *   planner does the inbound half itself, across the whole batch.
  */
 export function planPostPublication(articles, slug, site, options = {}) {
-  const { now = new Date(), anyAge = false, contextual = true } = options;
+  const { now = new Date(), anyAge = false, contextual = true, inbound = true } = options;
   const target = articles.find((a) => a.slug === slug);
   if (!target) return { fatal: `no article "${slug}" in content/blog`, checks: [], actions: [] };
   if (!isPublic(target.data, now)) {
@@ -319,6 +335,8 @@ export function planPostPublication(articles, slug, site, options = {}) {
 
   /* -------------------------------------------------- inbound to the target */
 
+  if (!inbound) return { target: target.slug, checks, actions, shortlist: [], fatal: null };
+
   const existing = inboundLinks(publicArticles, target.slug);
   const pool = publicArticles
     .filter((a) => a.slug !== target.slug && (anyAge || a.data.publishedAt < target.data.publishedAt))
@@ -356,6 +374,142 @@ export function planPostPublication(articles, slug, site, options = {}) {
   );
 
   return { target: target.slug, checks, actions, shortlist, fatal: null };
+}
+
+/**
+ * Plans the linking pass for a batch of articles published together. Pure:
+ * returns checks and card actions without writing anything.
+ *
+ * For each new article: its own outbound checks and cards, exactly as the
+ * single-article pass makes them (planPostPublication with inbound: false).
+ * Then the inbound half, for the whole batch at once:
+ *
+ *   1. Older articles first. In BATCH_WANT_OLDER rounds, every new article with
+ *      fewer older sources than the round number gets the most relevant older
+ *      article that can take a card, the most constrained new articles choosing
+ *      first. An older article can take a card while it lists fewer than six
+ *      related articles and fewer than BATCH_PER_SOURCE_CAP from this batch.
+ *   2. A new article that still has no inbound link at all is linked from the
+ *      most relevant article in the same batch that has room.
+ *
+ * Relevance must clear MIN_LINK_RELEVANCE. Existing links count towards every
+ * limit and capacity only shrinks while planning, so a second run over the same
+ * batch finds nothing to add.
+ *
+ * @returns {{ results: Map<string, {checks: Array, fatal: string|null}>, actions: Array, summary: object }}
+ */
+export function planBatchLinks(articles, slugs, site, options = {}) {
+  const { now = new Date(), perSourceCap = BATCH_PER_SOURCE_CAP, want = BATCH_WANT_OLDER } = options;
+  const results = new Map();
+  const actions = [];
+
+  const publicArticles = articles.filter((a) => isPublic(a.data, now));
+  const bySlug = new Map(publicArticles.map((a) => [a.slug, a]));
+
+  const targets = [];
+  for (const slug of [...new Set(slugs)]) {
+    const plan = planPostPublication(articles, slug, site, { now, inbound: false });
+    if (plan.fatal) {
+      results.set(slug, { checks: [], fatal: plan.fatal });
+      continue;
+    }
+    results.set(slug, { checks: plan.checks, fatal: null });
+    actions.push(...plan.actions);
+    targets.push(bySlug.get(slug));
+  }
+  const batch = new Set(targets.map((t) => t.slug));
+
+  // The planned state of every public article's cards and prose links.
+  const related = new Map(publicArticles.map((a) => [a.slug, new Set(a.data.relatedArticles ?? [])]));
+  const relatedCount = new Map(publicArticles.map((a) => [a.slug, (a.data.relatedArticles ?? []).length]));
+  const prose = new Map(publicArticles.map((a) => [a.slug, bodyTargets(a)]));
+  const card = (source, target) => {
+    if (related.get(source).has(target)) return false;
+    related.get(source).add(target);
+    relatedCount.set(source, relatedCount.get(source) + 1);
+    return true;
+  };
+  for (const action of actions) if (action.type === 'card') card(action.source, action.target);
+
+  const links = (source, target) => related.get(source).has(target) || prose.get(source).has(target);
+  const intoBatch = (source) => [...related.get(source)].filter((slug) => batch.has(slug)).length;
+  const hasRoom = (source) => relatedCount.get(source) < MAX_RELATED;
+  const isOlder = (source, target) => !batch.has(source.slug) && source.data.publishedAt < target.data.publishedAt;
+
+  const profiles = new Map(publicArticles.map((a) => [a.slug, relevanceProfile({ slug: a.slug, ...a.data })]));
+  const rank = (target, pool) =>
+    pool
+      .filter((a) => a.slug !== target.slug)
+      .map((a) => ({ a, s: relevanceScore(profiles.get(target.slug), profiles.get(a.slug)) }))
+      .filter((c) => c.s >= MIN_LINK_RELEVANCE)
+      .sort((x, y) => y.s - x.s || y.a.data.publishedAt.localeCompare(x.a.data.publishedAt) || x.a.slug.localeCompare(y.a.slug));
+
+  const olderPool = new Map(
+    targets.map((t) => [t.slug, rank(t, publicArticles.filter((a) => isOlder(a, t))).slice(0, BATCH_CANDIDATE_WINDOW)])
+  );
+  const olderSources = (t) => publicArticles.filter((a) => isOlder(a, t) && links(a.slug, t.slug)).length;
+  const inboundCount = (t) => publicArticles.filter((a) => a.slug !== t.slug && links(a.slug, t.slug)).length;
+  const olderCanTake = (source, target) => !links(source, target) && hasRoom(source) && intoBatch(source) < perSourceCap;
+
+  for (let round = 1; round <= want; round++) {
+    const order = targets
+      .filter((t) => olderSources(t) < round)
+      .map((t) => ({ t, open: olderPool.get(t.slug).filter((c) => olderCanTake(c.a.slug, t.slug)).length }))
+      .sort((x, y) => x.open - y.open || x.t.slug.localeCompare(y.t.slug));
+    for (const { t } of order) {
+      if (olderSources(t) >= round) continue;
+      const pick = olderPool.get(t.slug).find((c) => olderCanTake(c.a.slug, t.slug));
+      if (!pick) continue;
+      card(pick.a.slug, t.slug);
+      actions.push({ type: 'card', source: pick.a.slug, target: t.slug, score: pick.s, reason: 'links back to the new article (older article)' });
+    }
+  }
+
+  for (const t of [...targets].sort((x, y) => x.slug.localeCompare(y.slug))) {
+    if (inboundCount(t) > 0) continue;
+    const pick = rank(t, targets).find((c) => !links(c.a.slug, t.slug) && hasRoom(c.a.slug));
+    if (!pick) continue;
+    card(pick.a.slug, t.slug);
+    actions.push({
+      type: 'card',
+      source: pick.a.slug,
+      target: t.slug,
+      score: pick.s,
+      reason: 'links the new article from the same batch (no older article had room)',
+    });
+  }
+
+  let linkedFromOlder = 0;
+  let onlyFromBatch = 0;
+  let unlinked = 0;
+  for (const t of targets) {
+    const older = olderSources(t);
+    const total = inboundCount(t);
+    if (older > 0) linkedFromOlder++;
+    else if (total > 0) onlyFromBatch++;
+    else unlinked++;
+    results.get(t.slug).checks.push({
+      id: 'batch-inbound',
+      ok: total > 0,
+      detail: `${total} article(s) link to it after this pass, ${older} of them published before it`,
+      fix: 'link it by hand from a relevant article — no article with room cleared the relevance threshold',
+    });
+  }
+
+  const inboundActions = actions.filter((a) => batch.has(a.target) && !batch.has(a.source));
+  return {
+    results,
+    actions,
+    summary: {
+      articles: targets.length,
+      linkedFromOlder,
+      onlyFromBatch,
+      unlinked,
+      cardsFromOlder: inboundActions.length,
+      cardsAdded: actions.filter((a) => a.type === 'card').length,
+      olderArticlesTouched: new Set(inboundActions.map((a) => a.source)).size,
+    },
+  };
 }
 
 /**

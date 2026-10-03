@@ -60,7 +60,7 @@ function corpus() {
     make('x2', { category: 'education-brain', relatedApps: ['math-app'], tags: ['arithmetic'] }),
     make('x3', { category: 'education-brain', relatedApps: ['math-app'], tags: ['arithmetic'] }),
     make('math-cornerstone', { category: 'education-brain', relatedApps: ['math-app'], hubs: ['mental-math'], tags: ['arithmetic'] }),
-    make('scheduled-one', { status: 'scheduled', editorialApproved: true, publishAt: '2026-10-09', title: 'Tower speed runs' }),
+    make('scheduled-one', { status: 'scheduled', editorialReview: 'person', editorialApproved: true, publishAt: '2026-10-09', title: 'Tower speed runs' }),
     make(
       'new-article',
       {
@@ -68,7 +68,7 @@ function corpus() {
         primaryKeyword: 'tower range meaning',
         publishedAt: '2026-10-05',
         updatedAt: '2026-10-05',
-        editorialApproved: true,
+        editorialReview: 'automated',
         relatedArticles: ['older-a', 'older-b'],
       },
       'Covers the [app](/apps/tower-app/), [basics](/blog/older-a/) and the [category](/blog/category/action-arcade/).\n'
@@ -128,7 +128,7 @@ test('a hub article gains its cornerstone when it lacks it', () => {
       hubs: ['mental-math'],
       tags: ['arithmetic'],
       publishedAt: '2026-10-05',
-      editorialApproved: true,
+      editorialReview: 'automated',
       relatedArticles: ['x1', 'x2'],
     }),
   ];

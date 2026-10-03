@@ -8,7 +8,7 @@ import PlayStoreLink from '@/components/PlayStoreLink';
 import BlogCard from '@/components/blog/BlogCard';
 import { companyInfo } from '@/data/apps';
 import { authorPath, authors, getAuthor, type AuthorInfo } from '@/data/authors';
-import { APPROVAL_GATE_AFTER, activeHubs, blogCategories, getPostsByAuthor } from '@/lib/blog';
+import { APPROVAL_GATE_AFTER, REVIEW_LABELS_INTRODUCED, activeHubs, blogCategories, getPostsByAuthor } from '@/lib/blog';
 import { formatPostDate } from '@/components/blog/format';
 
 export const dynamicParams = false;
@@ -73,6 +73,7 @@ export default function AuthorPage({ params }: { params: { author: string } }) {
   const categories = blogCategories();
   const url = `${companyInfo.siteUrl}${authorPath(author)}`;
   const gateDate = formatPostDate(APPROVAL_GATE_AFTER);
+  const labelsDate = formatPostDate(REVIEW_LABELS_INTRODUCED);
 
   // The company byline describes the same entity the root layout declares as
   // `#organization`, so the profile points at that node instead of minting a
@@ -180,7 +181,7 @@ export default function AuthorPage({ params }: { params: { author: string } }) {
                     {author.sameAs.map((profile) => (
                       <li key={profile.url}>
                         {profile.url.startsWith('https://play.google.com/') ? (
-                          <PlayStoreLink href={profile.url} buttonLocation="article_top" className="link-accent">
+                          <PlayStoreLink href={profile.url} buttonLocation="author_profile" className="link-accent">
                             {profile.label}
                             <span className="sr-only"> (opens in a new tab)</span>
                           </PlayStoreLink>
@@ -232,14 +233,18 @@ export default function AuthorPage({ params }: { params: { author: string } }) {
                 published. Cited sources must resolve; claims about our apps must match the catalog;
                 medical promises, invented statistics, ranking guarantees and unreleased app names are
                 blocked; and each article is compared with the rest of the site to catch duplicated
-                text.
+                text. Since {labelsDate}, an AI editorial review also reads each new article against
+                its sources and the catalog, and its result is logged.
               </li>
               <li>
-                <strong className="text-ink-950">A person approves every new article.</strong> Every
-                article published after {gateDate} is read in full and approved by a person at{' '}
-                {companyInfo.name} before release, and new articles go out no more than one a day.
-                Articles published on or before that date passed the automated checks, but not every
-                one of them was read in full by a person before it went live.
+                <strong className="text-ink-950">Each new article says how it was checked.</strong>{' '}
+                Since {labelsDate}, an article a person at {companyInfo.name} read in full and approved
+                says &ldquo;Reviewed by&rdquo; with their name and the date. An article labelled
+                &ldquo;AI-assisted&rdquo; was published after the automated checks and the AI editorial
+                review alone, and no person has reviewed it yet. Finished articles are published once
+                they pass every check rather than held to a release schedule. Articles published on or
+                before {gateDate} carry no label: they passed the automated checks, but not every one
+                of them was read in full by a person before it went live.
               </li>
               <li>
                 <strong className="text-ink-950">No expert review is implied.</strong> No article is

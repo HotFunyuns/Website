@@ -1,23 +1,35 @@
 import Link from 'next/link';
 import { authorPath, type AuthorInfo } from '@/data/authors';
+import type { EditorialReview } from '@/lib/blog/types';
+import { formatPostDate } from './format';
 
 /**
  * "About the author", placed after the sources so a reader who got that far can
  * see who is accountable for the article and how it was made.
  *
- * The approval sentence renders only for articles that carry
- * `editorialApproved: true`. Articles published before that flag existed make
- * no claim either way — the editorial policy explains what was and was not
- * checked for them — because printing an approval nobody gave would be the one
- * thing worse than printing nothing.
+ * The last paragraph depends on how the article was checked:
+ *   person     names the person who read it in full and approved it, and when;
+ *   automated  says plainly that no person read it before it was published;
+ *   legacy     (no `editorialReview`) makes no claim either way — the editorial
+ *              policy explains what was and was not checked for those articles.
+ * Printing an approval nobody gave would be the one thing worse than printing
+ * nothing. scripts/audit-authorship.mjs fails the build if this paragraph and
+ * the frontmatter disagree.
  */
 export default function AuthorBox({
   author,
-  editorialApproved,
+  review,
+  reviewerName,
+  reviewDate,
+  publishedAt,
 }: {
   author: AuthorInfo;
-  editorialApproved: boolean;
+  review?: EditorialReview;
+  reviewerName?: string;
+  reviewDate?: string;
+  publishedAt: string;
 }) {
+  const company = author.kind === 'organization' ? author.name : 'Reign Creative LLC';
   return (
     <section
       aria-labelledby="about-author-heading"
@@ -38,10 +50,18 @@ export default function AuthorBox({
         listings. No article on this site has been reviewed by an independent expert unless the
         reviewer is named on it.
       </p>
-      {editorialApproved && (
-        <p className="mt-3 text-sm leading-relaxed text-ink-600">
-          A person at {author.kind === 'organization' ? author.name : 'Reign Creative LLC'} read this
-          article in full and approved it before it was published.
+      {review === 'person' && reviewerName && reviewDate && (
+        <p className="mt-3 text-sm leading-relaxed text-ink-600" data-review-statement="person">
+          {reviewerName} at {company} read this article in full and approved it on{' '}
+          <time dateTime={reviewDate}>{formatPostDate(reviewDate)}</time>
+          {reviewDate <= publishedAt ? ', before it was published.' : ', after it was first published.'}
+        </p>
+      )}
+      {review === 'automated' && (
+        <p className="mt-3 text-sm leading-relaxed text-ink-600" data-review-statement="automated">
+          No person at {company} has read this article in full. It was published after automated
+          checks and an AI editorial review, which are described in our editorial policy and are not
+          the same as a person reading every sentence.
         </p>
       )}
       <p className="mt-3 text-sm leading-relaxed text-ink-600">

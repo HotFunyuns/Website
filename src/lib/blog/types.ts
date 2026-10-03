@@ -7,10 +7,11 @@ import type { CategoryId } from '@/data/apps';
  * the build if any non-published slug reaches `out/`.
  *
  *   draft      being written; never public
- *   review     finished, waiting for a person to read and approve it
- *   scheduled  approved (`editorialApproved: true`) and queued for release on or
- *              after `publishAt`; still never public until the release step
- *              flips it to `published` — see docs/publishing-workflow.md
+ *   review     finished, waiting for its editorial review — by a person, or the
+ *              logged AI editorial review for an "automated" article
+ *   scheduled  approved by a named person and queued for release on or after
+ *              `publishAt`; still never public until the release step flips it
+ *              to `published` — see docs/publishing-workflow.md
  *   published  public from `publishedAt`, the day it actually went live
  */
 export type PostStatus = 'draft' | 'review' | 'scheduled' | 'published';
@@ -23,16 +24,45 @@ export type PostStatus = 'draft' | 'review' | 'scheduled' | 'published';
 export const PUBLICATION_TIME_ZONE = 'America/Los_Angeles';
 
 /**
- * The last day articles were released without the editorial-approval gate.
- * Every article published after it must carry `editorialApproved: true`; the
- * 525 published on or before it predate the flag and are deliberately not
- * back-filled, because nobody approved them individually and setting the flag
- * would claim they had been.
+ * The last day articles were released without saying how they were checked.
+ * Every article published after it must carry `editorialReview`; the 525
+ * published on or before it predate the labels and are deliberately not
+ * back-filled, because nobody approved them individually and labelling them
+ * would claim a check nobody recorded.
  */
 export const APPROVAL_GATE_AFTER = '2026-09-22';
 
-/** New articles released per Los Angeles calendar day, unless overridden. */
-export const DAILY_RELEASE_LIMIT = 1;
+/**
+ * The first day an article could go out with a review label. From the gate
+ * until this day the release system demanded a person's approval and nothing
+ * was published; the editorial policy states that, and the loader keeps it
+ * true by rejecting any article dated in between.
+ */
+export const REVIEW_LABELS_INTRODUCED = '2026-10-02';
+
+/**
+ * How many of the newest articles the RSS feed lists. A feed announces recent
+ * articles; the sitemap is the complete index. Must equal FEED_ITEM_LIMIT in
+ * scripts/lib/publishing.mjs (a test enforces it).
+ */
+export const RSS_ITEM_LIMIT = 50;
+
+/**
+ * How an article published after APPROVAL_GATE_AFTER was checked before it
+ * went live — stated at the top of the article and in its author box:
+ *
+ *   person     a named person at Reign Creative LLC read the complete article
+ *              and approved it. Requires `editorialApproved: true` and the
+ *              review record: `reviewerName`, `reviewDate`, `sourcesChecked`
+ *              (URLs of the article's own sources that they opened) and
+ *              `reviewNotes`. Only a person writes these, never a script.
+ *   automated  published after the automated checks and a logged AI editorial
+ *              review only. No person has read it, and the article says so.
+ *
+ * There is no daily limit: a finished article is published once it passes every
+ * check, not held back to fit a release schedule.
+ */
+export type EditorialReview = 'person' | 'automated';
 
 /** The Los Angeles calendar day (YYYY-MM-DD) containing `now`. */
 export function publicationDay(now: Date = new Date()): string {
@@ -96,24 +126,32 @@ export interface PostFrontmatter {
   /** An id from src/data/authors.ts — the byline is resolved from the registry. */
   author: string;
   /**
-   * `true` states that a person read the complete article and approved it for
-   * publication. Required before an article can be `scheduled`, and on every
-   * article published after APPROVAL_GATE_AFTER. It is an editorial check by
-   * the company that makes the apps, not independent or expert review.
+   * How the article was checked before publication. Required on every article
+   * published after APPROVAL_GATE_AFTER and on every scheduled one; absent on
+   * the legacy articles. See EditorialReview.
+   */
+  editorialReview?: EditorialReview;
+  /**
+   * `true` states that a named person read the complete article and approved
+   * it for publication. Valid only with `editorialReview: "person"` and the
+   * review record below. It is an editorial check by the company that makes
+   * the apps, not independent or expert review.
    */
   editorialApproved?: boolean;
+  /** The person who read and approved the article. Never filled by a script. */
+  reviewerName?: string;
+  /** The Los Angeles day they approved it. */
+  reviewDate?: string;
+  /** URLs, each one of this article's `sources`, that the reviewer opened. */
+  sourcesChecked?: string[];
+  /** What the reviewer checked or changed. */
+  reviewNotes?: string;
   /**
    * For `scheduled` articles: the earliest Los Angeles day it may be released.
    * A plan, not a publication date — the release step stamps `publishedAt`
    * with the day it actually goes out, which may be later.
    */
   publishAt?: string;
-  /**
-   * Set only by `npm run queue:release -- --allow-second-today`. Records that
-   * the owner deliberately released more than DAILY_RELEASE_LIMIT articles on
-   * one day, so the build can tell an override from a rerun that misfired.
-   */
-  sameDayOverride?: boolean;
   corrections?: PostCorrection[];
   category: CategoryId;
   tags: string[];
@@ -167,6 +205,7 @@ export const SEARCH_INTENTS: SearchIntent[] = [
   'navigational',
 ];
 export const DISCLAIMER_KINDS: DisclaimerKind[] = ['none', 'health', 'language', 'comparison'];
+export const EDITORIAL_REVIEWS: EditorialReview[] = ['person', 'automated'];
 export const DEMAND_TIERS: DemandTier[] = [
   'unverified-high',
   'unverified-medium',

@@ -9,12 +9,14 @@ import ArticleAppCta from '@/components/blog/ArticleAppCta';
 import ArticleByline from '@/components/blog/ArticleByline';
 import ArticleCorrections from '@/components/blog/ArticleCorrections';
 import ArticleDisclaimer from '@/components/blog/ArticleDisclaimer';
+import ArticleReviewNotice from '@/components/blog/ArticleReviewNotice';
 import ArticleSources from '@/components/blog/ArticleSources';
 import ArticleToc from '@/components/blog/ArticleToc';
 import AuthorBox from '@/components/blog/AuthorBox';
 import BlogCard from '@/components/blog/BlogCard';
 import { companyInfo, getCategory } from '@/data/apps';
 import { authorPath } from '@/data/authors';
+import { getSportForPost, sportPath } from '@/data/sports';
 import {
   getPostApps,
   getPostAuthor,
@@ -46,7 +48,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     // BlogPosting publisher and visible byline identify us on the page.
     title: { absolute: post.metaTitle },
     description: post.description,
-    alternates: { canonical },
+    alternates: { canonical, types: { 'application/rss+xml': '/blog/rss.xml' } },
     ...(post.noindex ? { robots: { index: false, follow: false } } : {}),
     authors: [{ name: author.name, url: `${companyInfo.siteUrl}${authorPath(author)}` }],
     openGraph: {
@@ -105,6 +107,9 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
   const { previous, next } = getPostNeighbours(post);
   const primaryApp = relatedApps[0];
   const postHubs = getPostHubs(post);
+  // The sport hub this guide belongs to, if any. Guides that apply to every
+  // sport (salary caps, career modes) return none and live on /sports/ itself.
+  const postSport = getSportForPost(post);
 
   const html = await renderMarkdown(post.body);
   const [firstHalf, secondHalf] = splitAtMiddleHeading(html);
@@ -185,16 +190,32 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
             apps={relatedApps}
           />
 
+          <ArticleReviewNotice
+            review={post.editorialReview}
+            reviewerName={post.reviewerName}
+            reviewDate={post.reviewDate}
+          />
+
           {/* The route to the rest of the cluster. Without it a reader who
               arrives from search on one article has no signal that forty
               related ones exist, and the hub page has no inbound link from the
               articles it collects. */}
-          {postHubs.length > 0 && (
+          {(postHubs.length > 0 || postSport) && (
             <nav aria-label="Topic hubs this article belongs to" className="mt-7">
               <ul className="flex list-none flex-wrap items-center gap-2 p-0">
                 <li className="text-xs font-semibold uppercase tracking-widest text-ink-400">
                   Part of
                 </li>
+                {postSport && (
+                  <li>
+                    <Link
+                      href={sportPath(postSport)}
+                      className="inline-flex items-center rounded-full border border-ink-200 bg-white px-3.5 py-1.5 text-xs font-medium text-ink-600 transition-all duration-300 hover:border-gold-400 hover:text-ink-950"
+                    >
+                      {postSport.label} guides
+                    </Link>
+                  </li>
+                )}
                 {postHubs.map((hub) => (
                   <li key={hub.id}>
                     <Link
@@ -264,7 +285,25 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
 
             <ArticleSources sources={post.sources} />
 
-            <AuthorBox author={author} editorialApproved={post.editorialApproved === true} />
+            {/* Sports guides name leagues, teams and record holders to explain
+                rules and history. Saying once, on every one of them, what that
+                use does and does not mean keeps it nominative. */}
+            {post.category === 'sports-gm' && (
+              <p className="mt-8 text-xs leading-relaxed text-ink-400" data-sports-notice="">
+                League, team and athlete names appear here only to identify the rules, records and
+                history being discussed. {companyInfo.name}&apos;s sports games are not affiliated with,
+                endorsed by or licensed by any league, team, players&apos; association or athlete, and
+                all names and marks belong to their owners.
+              </p>
+            )}
+
+            <AuthorBox
+              author={author}
+              review={post.editorialReview}
+              reviewerName={post.reviewerName}
+              reviewDate={post.reviewDate}
+              publishedAt={post.publishedAt}
+            />
 
             {primaryApp && (
               <ArticleAppCta

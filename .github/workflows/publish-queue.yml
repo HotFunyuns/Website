@@ -1,26 +1,32 @@
-# Releases at most one editorially approved article per Los Angeles day.
+# Releases scheduled articles — ones a named person approved for a particular
+# day — on or after their publishAt. Every due article goes out in the same
+# run: there is no daily limit, because an article that has passed every check
+# is not held back to fit a schedule. Finished articles that need no particular
+# day are published directly with scripts/publish-batch.mjs instead.
 #
 # GitHub cron runs in UTC and ignores daylight saving, so the schedule only
 # decides how often to *check*. scripts/publish-queue.mjs decides whether it is
-# release time in America/Los_Angeles (09:00 or later), whether anything was
-# already released today, and which approved article is due. Most runs end
-# after the first step with "nothing to do" — no install, no build.
+# release time in America/Los_Angeles (09:00 or later) and which approved
+# articles are due. Most runs end after the first step with "nothing to do" —
+# no install, no build.
 #
-# When an article is due, the job releases it, runs the post-publication
-# linking pass, builds the whole site with every gate, and only then commits
-# and pushes. A failed check, a failed build or a failed audit stops the job
-# before the commit, so nothing reaches main or production.
+# When articles are due, the job releases them, runs the post-publication
+# linking pass for each, builds the whole site with every gate, and only then
+# commits and pushes. A failed check, a failed build or a failed audit stops the
+# job before the commit, so nothing reaches main or production. An article that
+# fails its own validation is left scheduled and reported at the end, without
+# holding back the others.
 #
 # Pushes made with GITHUB_TOKEN deliberately do not trigger other workflows, so
 # the job dispatches the deploy workflow (nextjs.yml) itself after pushing.
 #
-# Reruns are safe: the release step reads today's releases first, and a second
-# run on the same Los Angeles day finds one and stops.
+# Reruns are safe: a released article is no longer scheduled, so a second run
+# finds nothing due.
 #
-# Manual use: Actions → "Publish approved article (daily queue)" → Run workflow.
+# Manual use: Actions → "Publish scheduled articles (queue)" → Run workflow.
 # See docs/publishing-workflow.md.
 
-name: Publish approved article (daily queue)
+name: Publish scheduled articles (queue)
 
 on:
   schedule:
@@ -29,13 +35,9 @@ on:
   workflow_dispatch:
     inputs:
       slug:
-        description: 'Manual override: release this scheduled, editorially approved article now, ignoring its publishAt (leave empty for the next due one)'
+        description: 'Manual override: release this scheduled, person-approved article now, ignoring its publishAt (leave empty for every due one)'
         required: false
         default: ''
-      allow_second_today:
-        description: 'Allow a second release today (explicit override of the one-per-day limit)'
-        type: boolean
-        default: false
       ignore_release_hour:
         description: 'Release before 09:00 America/Los_Angeles'
         type: boolean
@@ -59,7 +61,6 @@ jobs:
     timeout-minutes: 30
     env:
       SLUG_INPUT: ${{ inputs.slug }}
-      ALLOW_SECOND: ${{ inputs.allow_second_today }}
       IGNORE_HOUR: ${{ inputs.ignore_release_hour }}
       DRY_RUN: ${{ inputs.dry_run }}
     steps:
@@ -79,7 +80,6 @@ jobs:
         run: |
           args=()
           if [ -n "$SLUG_INPUT" ]; then args+=(--slug "$SLUG_INPUT"); fi
-          if [ "$ALLOW_SECOND" = "true" ]; then args+=(--allow-second-today); fi
           if [ "$IGNORE_HOUR" = "true" ]; then args+=(--ignore-release-hour); fi
           node scripts/publish-queue.mjs check --ci "${args[@]}"
 
@@ -91,17 +91,17 @@ jobs:
         if: steps.check.outputs.eligible == 'true'
         id: release
         env:
-          PLANNED: ${{ steps.check.outputs.slug }}
+          PLANNED: ${{ steps.check.outputs.slugs }}
         run: |
           args=(--expect "$PLANNED")
           if [ -n "$SLUG_INPUT" ]; then args+=(--slug "$SLUG_INPUT"); fi
-          if [ "$ALLOW_SECOND" = "true" ]; then args+=(--allow-second-today); fi
           if [ "$IGNORE_HOUR" = "true" ]; then args+=(--ignore-release-hour); fi
           if [ "$DRY_RUN" = "true" ]; then args+=(--dry-run); fi
           node scripts/publish-queue.mjs release --ci "${args[@]}"
 
       # The same build that deploys: export, draft/scheduled containment,
-      # the inbound-link gate, authorship and date checks, URL normalisation.
+      # the review-label and inbound-link gates, authorship and date checks,
+      # URL normalisation.
       - name: Build and validate
         if: steps.release.outputs.released == 'true'
         run: |
@@ -114,11 +114,11 @@ jobs:
           node scripts/audit-output.mjs
           npm test
 
-      - name: Confirm the article is linked in the built site
+      - name: Confirm the articles are linked in the built site
         if: steps.release.outputs.released == 'true'
         env:
-          RELEASED: ${{ steps.release.outputs.slug }}
-        run: node scripts/post-publication-links.mjs "$RELEASED" --verify --dry-run
+          RELEASED: ${{ steps.release.outputs.slugs }}
+        run: node scripts/post-publication-links.mjs ${RELEASED//,/ } --verify --dry-run
 
       - name: Regenerate reports
         if: steps.release.outputs.released == 'true'
@@ -129,12 +129,12 @@ jobs:
       - name: Commit and push
         if: steps.release.outputs.released == 'true'
         env:
-          RELEASED: ${{ steps.release.outputs.slug }}
+          RELEASED: ${{ steps.release.outputs.slugs }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add content/blog docs/internal-linking-report.md docs/data/link-graph.json docs/data/link-graph-edges.csv docs/publishing-queue-report.md
-          git commit -m "Publish $RELEASED" -m "Released by the daily publishing queue (.github/workflows/publish-queue.yml) with the post-publication linking pass."
+          git commit -m "Publish ${RELEASED//,/, }" -m "Released by the publishing queue (.github/workflows/publish-queue.yml) with the post-publication linking pass."
           git push origin HEAD:main
 
       - name: Deploy
@@ -142,3 +142,13 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run nextjs.yml --ref main
+
+      # The articles that passed are already live by now; one that failed its
+      # own validation stays scheduled, and this makes the run show red.
+      - name: Report articles that could not be released
+        if: always() && steps.release.outputs.failed != ''
+        env:
+          FAILED: ${{ steps.release.outputs.failed }}
+        run: |
+          echo "Not released (still scheduled): $FAILED — see the Release and link step for the reasons."
+          exit 1

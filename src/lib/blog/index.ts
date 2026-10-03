@@ -8,10 +8,11 @@ import { countWords, extractToc, readingMinutes } from './markdown';
 import { relevanceProfile, relevanceScore, type RelevanceProfile } from './relevance.mjs';
 import {
   APPROVAL_GATE_AFTER,
-  DAILY_RELEASE_LIMIT,
   DEMAND_TIERS,
   DISCLAIMER_KINDS,
+  EDITORIAL_REVIEWS,
   POST_STATUSES,
+  REVIEW_LABELS_INTRODUCED,
   SEARCH_INTENTS,
   isPublicPost,
   publicationDay,
@@ -85,39 +86,78 @@ function parse(slug: string, raw: string): BlogPost {
   }
   if (data.updatedAt < data.publishedAt) fail(slug, '"updatedAt" is earlier than "publishedAt"');
 
-  /* ------------------------------------------------ the publishing queue */
+  /* ------------------------------------- how it was checked, and the queue */
 
-  for (const field of ['editorialApproved', 'sameDayOverride'] as const) {
-    if (data[field] !== undefined && typeof data[field] !== 'boolean') {
-      fail(slug, `"${field}" must be true or false when present`);
-    }
+  if (data.editorialApproved !== undefined && typeof data.editorialApproved !== 'boolean') {
+    fail(slug, '"editorialApproved" must be true or false when present');
   }
   if (data.publishAt !== undefined && !isDate(data.publishAt)) {
     fail(slug, '"publishAt" must be an ISO date (YYYY-MM-DD)');
   }
-  if (data.status === 'scheduled') {
-    // Queuing an article is approving it for release, so an unapproved one has
-    // no business in the queue — it stays in `review` until a person signs off.
-    if (data.editorialApproved !== true) {
-      fail(slug, 'a scheduled article must carry "editorialApproved": true — keep it in "review" until it is approved');
-    }
-    if (!data.publishAt) fail(slug, 'a scheduled article needs "publishAt", the earliest day it may be released');
-  }
-  if (data.status === 'published') {
+  if (data.status === 'published' && data.publishedAt > publicationDay()) {
     // `publishedAt` records the day an article went live. A future one is a
-    // pre-dated claim that bypasses the queue's approval and daily limit.
-    if (data.publishedAt > publicationDay()) {
-      fail(
-        slug,
-        `published with a future publishedAt (${data.publishedAt}) — use "status": "scheduled" with "publishAt"; the release step stamps the real date`
-      );
+    // pre-dated claim that bypasses the review label and the release step.
+    fail(
+      slug,
+      `published with a future publishedAt (${data.publishedAt}) — publish it on the day it goes live; a person-approved article can be scheduled with "publishAt"`
+    );
+  }
+  if (data.status === 'scheduled' && !data.publishAt) {
+    fail(slug, 'a scheduled article needs "publishAt", the earliest day it may be released');
+  }
+
+  // The label at the top of every article published after the gate is a public
+  // statement about who checked it. scripts/lib/publishing.mjs (reviewProblems)
+  // enforces the same contract for the scripts and after export.
+  const review = data.editorialReview;
+  const postGate = data.status === 'published' && data.publishedAt > APPROVAL_GATE_AFTER;
+  if (review !== undefined && !EDITORIAL_REVIEWS.includes(review)) {
+    fail(slug, `"editorialReview" must be one of ${EDITORIAL_REVIEWS.join(', ')}`);
+  }
+  if ((postGate || data.status === 'scheduled') && review === undefined) {
+    fail(
+      slug,
+      'must say how it was checked: "editorialReview": "person" (a named person approved it) or "automated" (automated checks and an AI editorial review only)'
+    );
+  }
+  if (postGate && data.publishedAt < REVIEW_LABELS_INTRODUCED) {
+    fail(
+      slug,
+      `published ${data.publishedAt}, between ${APPROVAL_GATE_AFTER} and ${REVIEW_LABELS_INTRODUCED} — the editorial policy says nothing was published then`
+    );
+  }
+  const record = ['reviewerName', 'reviewDate', 'sourcesChecked', 'reviewNotes'] as const;
+  if (review === 'person') {
+    if (data.editorialApproved !== true) fail(slug, '"editorialReview": "person" needs "editorialApproved": true');
+    if (typeof data.reviewerName !== 'string' || !data.reviewerName.trim()) {
+      fail(slug, '"editorialReview": "person" needs "reviewerName" — the person who read and approved it');
     }
-    if (data.publishedAt > APPROVAL_GATE_AFTER && data.editorialApproved !== true) {
-      fail(slug, `published after ${APPROVAL_GATE_AFTER} without "editorialApproved": true`);
+    if (typeof data.reviewDate !== 'string' || !isDate(data.reviewDate)) {
+      fail(slug, '"editorialReview": "person" needs "reviewDate" (YYYY-MM-DD)');
+    }
+    if (data.reviewDate > publicationDay()) fail(slug, `"reviewDate" ${data.reviewDate} is in the future`);
+    if (!Array.isArray(data.sourcesChecked) || data.sourcesChecked.length === 0) {
+      fail(slug, '"editorialReview": "person" needs "sourcesChecked" — the URLs of the sources the reviewer opened');
+    }
+    const sourceUrls = new Set((Array.isArray(data.sources) ? data.sources : []).map((source) => source?.url));
+    for (const url of data.sourcesChecked) {
+      if (!sourceUrls.has(url)) fail(slug, `"sourcesChecked" lists ${JSON.stringify(url)}, which is not one of this article's sources`);
+    }
+    if (typeof data.reviewNotes !== 'string' || !data.reviewNotes.trim()) {
+      fail(slug, '"editorialReview": "person" needs "reviewNotes" — what the reviewer checked or changed');
+    }
+  } else {
+    if (data.editorialApproved === true) {
+      fail(slug, '"editorialApproved": true is a person\'s approval — it needs "editorialReview": "person" and the review record');
+    }
+    for (const field of record) {
+      if (data[field] !== undefined) fail(slug, `"${field}" is only valid with "editorialReview": "person"`);
     }
   }
-  if (data.sameDayOverride && !(data.status === 'published' && data.publishedAt > APPROVAL_GATE_AFTER)) {
-    fail(slug, '"sameDayOverride" is only meaningful on an article released through the queue');
+  if (data.status === 'scheduled' && review !== 'person') {
+    // Queuing an article is a person approving it for a given day; an article
+    // with the automated label is published as soon as it passes, not queued.
+    fail(slug, 'only an article a person approved ("editorialReview": "person") can be scheduled');
   }
   if (data.corrections !== undefined) {
     if (!Array.isArray(data.corrections)) fail(slug, '"corrections" must be an array when present');
@@ -216,24 +256,6 @@ function loadAll(): BlogPost[] {
       if (ref === post.slug) fail(post.slug, 'relatedArticles must not include the article itself');
     }
   }
-
-  // One approved article per Los Angeles day. The release step enforces this
-  // before it writes anything; checking it again here means a workflow that
-  // misfires, a rerun, or a hand edit cannot quietly ship two. A deliberate
-  // second release carries `sameDayOverride`, written by the release command.
-  const releasesByDay = new Map<string, string[]>();
-  for (const post of posts) {
-    if (post.status !== 'published' || post.publishedAt <= APPROVAL_GATE_AFTER || post.sameDayOverride) continue;
-    releasesByDay.set(post.publishedAt, [...(releasesByDay.get(post.publishedAt) ?? []), post.slug]);
-  }
-  releasesByDay.forEach((slugs, day) => {
-    if (slugs.length > DAILY_RELEASE_LIMIT) {
-      fail(
-        slugs[1],
-        `${slugs.length} articles released on ${day} (${slugs.join(', ')}); the limit is ${DAILY_RELEASE_LIMIT} — use npm run queue:release -- --allow-second-today for a deliberate override`
-      );
-    }
-  });
 
   // Two articles chasing one primary keyword compete with each other in the
   // same result set, so the collision is rejected at build time rather than

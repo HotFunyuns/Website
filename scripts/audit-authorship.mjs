@@ -8,8 +8,13 @@
 //   - "Published" shows publishedAt, and "Updated" appears only when updatedAt
 //     differs, showing updatedAt; both equal the JSON-LD dates;
 //   - no date is in the future (Los Angeles);
-//   - the "approved by a person" sentence appears exactly when the article
-//     carries editorialApproved: true.
+//   - the review label matches the frontmatter: an article with
+//     `editorialReview` shows that notice under the byline and the matching
+//     statement in its author box — the reviewer's name and date exactly as
+//     recorded for "person", and for "automated" the plain statement that no
+//     person has reviewed it, with no wording that implies one did; a legacy
+//     article shows neither, and no article without "person" claims a
+//     person's approval.
 //
 // With git available it also compares content/blog against a ref (HEAD by
 // default, i.e. your uncommitted changes):
@@ -138,10 +143,44 @@ for (const article of published) {
   }
   if (data.publishedAt > today || data.updatedAt > today) fail(`${route}: dated in the future (${data.publishedAt} / ${data.updatedAt})`);
 
-  /* -------------------------------------------------- approval sentence */
+  /* ------------------------------------------------ how it was checked */
   const approvalShown = /read this\s+(?:<!-- -->\s*)?article in full and approved it/.test(html);
-  if (approvalShown && data.editorialApproved !== true) fail(`${route}: claims human approval without editorialApproved: true`);
-  if (!approvalShown && data.editorialApproved === true) fail(`${route}: approved but the approval is not shown`);
+  const notice = /<p\b[^>]*data-review-notice="([a-z]+)"[^>]*>([\s\S]*?)<\/p>/.exec(html);
+  const statement = /<p\b[^>]*data-review-statement="([a-z]+)"[^>]*>([\s\S]*?)<\/p>/.exec(html);
+  const review = data.editorialReview;
+  if (!review) {
+    if (notice) fail(`${route}: shows a "${notice[1]}" review notice but carries no editorialReview`);
+    if (statement) fail(`${route}: the author box states a "${statement[1]}" review but the article carries no editorialReview`);
+    if (approvalShown) fail(`${route}: claims a person's approval without "editorialReview": "person"`);
+  } else {
+    if (!notice) fail(`${route}: editorialReview "${review}" but no review notice under the byline`);
+    else if (notice[1] !== review) fail(`${route}: shows a "${notice[1]}" notice, frontmatter says "${review}"`);
+    if (!statement) fail(`${route}: editorialReview "${review}" but the author box does not say how it was checked`);
+    else if (statement[1] !== review) fail(`${route}: the author box states "${statement[1]}", frontmatter says "${review}"`);
+    const noticeText = textOf(notice?.[2] ?? '');
+    const statementText = textOf(statement?.[2] ?? '');
+
+    if (review === 'automated') {
+      if (!/No person has reviewed it yet\./.test(noticeText)) fail(`${route}: the automated notice must say that no person has reviewed it`);
+      if (!/^No person at .+ has read this article in full\./.test(statementText)) {
+        fail(`${route}: the author box must say that no person has read the article in full`);
+      }
+      const implied = /\b(?:fact[- ]?check(?:ed|ing)?|verified by|approved|reviewed by)\b/i.exec(`${noticeText} ${statementText}`);
+      if (implied) fail(`${route}: an automated article's label says "${implied[0]}", which implies a person's review`);
+      if (approvalShown) fail(`${route}: an automated article claims a person's approval`);
+    }
+
+    if (review === 'person') {
+      const shownName = textOf(/data-reviewer=""[^>]*>([\s\S]*?)<\/span>/.exec(notice?.[2] ?? '')?.[1] ?? '');
+      if (shownName !== data.reviewerName) fail(`${route}: the notice names "${shownName}", the review record "${data.reviewerName}"`);
+      const noticeDate = /<time dateTime="([^"]*)"/.exec(notice?.[2] ?? '')?.[1];
+      if (noticeDate !== data.reviewDate) fail(`${route}: the notice dates the review ${noticeDate}, the record ${data.reviewDate}`);
+      if (!statementText.startsWith(`${data.reviewerName} at `)) fail(`${route}: the author box does not name ${data.reviewerName} as the reviewer`);
+      const statementDate = /<time dateTime="([^"]*)"/.exec(statement?.[2] ?? '')?.[1];
+      if (statementDate !== data.reviewDate) fail(`${route}: the author box dates the review ${statementDate}, the record ${data.reviewDate}`);
+      if (!approvalShown) fail(`${route}: approved by ${data.reviewerName} but the approval is not shown`);
+    }
+  }
 }
 
 // No page anywhere may point rel=author at a profile that does not exist.

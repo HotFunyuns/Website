@@ -11,6 +11,8 @@
     "queue:release": "node scripts/publish-queue.mjs release",
     "queue:report": "node scripts/publish-queue.mjs report",
     "links:after-publish": "node scripts/post-publication-links.mjs",
+    "publish:batch": "node scripts/publish-batch.mjs",
+    "links:batch": "node scripts/post-publication-links.mjs --batch --today",
     "audit:authorship": "node scripts/audit-authorship.mjs",
     "audit:entities": "node scripts/audit-entities.mjs",
     "report:search-console": "node scripts/search-console-refresh.mjs",

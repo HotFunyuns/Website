@@ -19,11 +19,11 @@
 
 ## Pages
 
-Home (`/`), About (`/about/`), Apps (`/apps/`), Blog (`/blog/`, categories, topic hubs, 525 articles), Author (`/authors/reign-creative-llc/`), Editorial Policy (`/editorial-policy/`), Press (`/press/`), Support (`/support/`), Privacy (`/privacy/`), Terms (`/terms/`), Developer Info (`/app-support/`), 404
+Home (`/`), About (`/about/`), Apps (`/apps/`), Sports (`/sports/`, nine sport hubs), Tools (`/tools/`, sports calculators), Blog (`/blog/`, categories, topic hubs), Author (`/authors/reign-creative-llc/`), Editorial Policy (`/editorial-policy/`), Press (`/press/`), Support (`/support/`), Privacy (`/privacy/`), Terms (`/terms/`), Developer Info (`/app-support/`), 404
 
 ## Publishing articles
 
-New articles go through the approval-gated daily queue — never set `status: published` by hand without `editorialApproved: true`. See `docs/publishing-workflow.md`. Bylines come from `src/data/authors.ts`.
+New articles publish through `scripts/publish-batch.mjs` once they pass every gate, with no schedule. Each carries a visible label: `editorialReview: "automated"` (AI-assisted; needs a passing entry with a matching content hash in `docs/data/editorial-review-log-2026-10.json`) or `"person"` (needs `editorialApproved`, `reviewerName`, `reviewDate`, `sourcesChecked`, `reviewNotes` — written only by the person who reviewed it). Never set those fields on anyone's behalf. See `docs/publishing-workflow.md`. Bylines come from `src/data/authors.ts`. Sports hubs live in `src/data/sports.ts`; calculators in `src/tools/<id>/` (see `docs/sports-architecture.md`). Owner-only audits live in the gitignored `private/` folder — this repository is public.
 
 ## How to Update
 
