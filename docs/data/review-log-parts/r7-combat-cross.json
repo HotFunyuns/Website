@@ -1,0 +1,294 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person's review.",
+  "entries": [
+    {
+      "slug": "boxing-rules-for-beginners",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against the ABC Unified Rules of Boxing page (rules 1-13, last amended 3 Aug 2016: 3-minute rounds, mandatory eight count, no standing eight, no three-knockdown rule, 20-second out-of-ring count, no saving by the bell, fair-blow injury = TKO, intentional-foul DQ and mandatory two-point deduction, accidental-foul no decision before four completed rounds and technical decision after, five-minute low-blow allowance); ABC Boxing Referee Manual rev. 08/2025 (knockdown definition, count stops when the standing boxer leaves the neutral corner, gait test, slip signal, re-fall resumes the count, double knockdown = technical draw, a towel cannot stop a US pro bout, low-blow line is the top of the hip not the navel or waistband, soft/hard warning escalation, punch-at-the-bell procedure); Nevada NAC 467.009 (adopts ABC championship rules; chapter controls on conflict), 467.655, 467.675 (32 boxing fouls incl. 'below the navel' and throwing in the towel), 467.688 (points by severity, deducted in that round; a low-blow claim cannot win, refusal = TKO), 467.740/745/757/760; WBC Championship Rules WC-1 (local commission enforces its own rules) and rule 13 (no bell rescue incl. the last round); WBC R&R 3.27 (approved 8 Dec 2024); WBA Rules E.2 (10 or 12 rounds) and E.12 (three knockdowns = automatic KO). Changed: ABC rules now described as model rules 'many state commissions adopt' (not all); rounds sentence rewritten in original words (was a near-paraphrase of Wikipedia); fouls list said 'below the belt' while Nevada's line is the navel - now 'too low', which the article then explains; hard-warning sentence now attributes the deduction step to the referee manual; FAQ and description say rounds are normally three minutes. App paragraph matches the catalog (boxing simulator returns decisions, draws and scorecards; hand speed, power, defence, footwork, ring control); pool described per content-spec rule 10. Links: app page, /sports/combat-sports/, cornerstone boxing-scoring-explained, three published related articles, category page. Mechanical: preflight-articles --only clean; audit-similarity-250 --release 2026-10-02 --only clean (closest pair 0.014 vs boxing-vs-mma-rules); publish-batch --dry-run stops only at the missing review log, and every other publish check (release validation, batch collisions, linking plan) passes when run in memory.",
+      "contentHash": "sha256:a1816846cf9d89220a86b15d02869004d2e5b7adaaa79cd6dcad478247dac8eb"
+    },
+    {
+      "slug": "ko-vs-tko-how-fights-end",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against ABC Unified Rules of MMA 8.2026 'Types of Decisions' (tap out, verbal tap out, technical submission; TKO = 'IS NOT intelligently defending' by strikes, laceration, corner stoppage, did not answer the bell, or medical stoppage incl. doctor stoppage and loss of bodily function; KO = 'CANNOT' due to strikes; no contest; unanimous/split/majority; technical decision/draw after 2 of 3 or 3 of 5 rounds; DQ for multiple fouls or flagrant disregard) - word-diffed against 8.2025, these definitions are unchanged; ABC boxing rules 11-12; ABC referee manual (physician may stop a bout in most jurisdictions; towel; lost mouthpiece with no spare = TKO; accidental low blow after five minutes = TKO; self-injury = TKO); Nevada NAC 467.718, 467.728, 467.740 (no count in MMA), 467.748(2), 467.702, 467.770, 467.579 (anti-doping win/draw -> no contest), 467.79615, 467.7968; WBC championship rule 15 (technical draw before round 5); WBA E.19 (technical draw before four rounds; draw if cards level). Worked example (round-3 head clash: no decision / no decision / technical draw; round 7 converges) re-derived. Changed: lede and first FAQ said a TKO is a stoppage 'while the fighter is still conscious or still trying', which is wrong for doctor, corner and did-not-answer-the-bell stoppages - now 'covers most other stoppages'; table said a US boxing corner cannot stop a fight - corrected (it can, through the commission inspector and referee, just not by throwing a towel); four-question list now includes the technical draw some rulebooks give for early accidental fouls; 'differs by a single word' and the MMA no-count causal claim softened; added that Nevada lists only physical and verbal tap-outs and defines a KO as unconsciousness from 'a strike, kick or other legal maneuver', so 'a choke-out is a technical submission' is stated as ABC-specific; stated that the 2025 and 2026 texts define results identically; accidental-foul takeaway made specific. App claims match the catalog. Mechanical: preflight-articles --only clean; audit-similarity-250 --release 2026-10-02 --only clean (closest pair 0.018 vs boxing-vs-mma-rules); publish-batch --dry-run stops only at the missing review log, and every other publish check (release validation, batch collisions, linking plan) passes when run in memory.",
+      "contentHash": "sha256:e86578b8e0b0ab8392032d2189b1df261963774ebdc92830c9c6a0339b3a2644"
+    },
+    {
+      "slug": "unified-rules-of-mma-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Writer's version claim confirmed: the ABC Unified Rules page lists Unified-Rules-of-MMA-8.2026.pdf under 'Current Documents'; its header reads 'AMENDED WITH RULE CHANGES AUGUST 5, 2026, REQUESTED IMPLEMENTATION DATE OF NOVEMEBER 2027' (sic), after the 23 July 2024 rule changes (requested implementation November 2024) and a 1 July 2025 non-substantive amendment. A word-level diff of 8.2025 vs 8.2026 shows the fouls list unchanged and the 2026 changes procedural (standalone loss-of-bodily-function section, nausea/bucket procedure, five-step foul procedure, renumbering), so the article's characterisation, 'as printed' wording and adoption-timetable caveat do not overstate what applies now. Checked in the PDF: fouls numbered 1-27 skipping 10 (26), back-of-head/spine zone, throat, groin, eyes, small joints, pile-driver arc rule, stomping/axe kick, shorts/gloves, fence, eye-poke procedure, five-minute allowance, no timeout for legal strikes without a cut, stand-up quote, replay, equipment, intentional/accidental-foul outcomes and thresholds, non-combat stoppage rule. Nevada verified and dated: NAC 467.7962 still lists 'Striking downward using the point of the elbow' (foul 10) and treats a weight-bearing hand, palm or fist as grounded - section last amended by R032-18 effective 30 Jan 2019, before the July 2024 ABC changes; 467.009(2),(4); 467.7954 (3 rounds non-title, 5 title); 467.427(7) (4-8 oz gloves). CBS Sports (23 Jul 2024) confirms the vote, the old palm-down wording and the 'de-gamify' quote. Changed: description said flatly the 12-6 elbow 'is no longer a foul' (still a foul in Nevada's published code) - now 'where the 12-6 elbow stands now'; lede now 'the last changes to what is legal' and 'under the ABC text'; 'stepping on the feet' -> 'stomping on the feet' (ABC wording); fence rule no longer says 'open hand' (not in the source). Linked mma-weight-classes-explained confirmed to table the fifteen ABC classes. Mechanical: preflight-articles --only clean; audit-similarity-250 --release 2026-10-02 --only clean (closest pair 0.019 vs types-of-submissions-in-mma); publish-batch --dry-run stops only at the missing review log, and every other publish check (release validation, batch collisions, linking plan) passes when run in memory.",
+      "contentHash": "sha256:f5c2e97b29e352bf20df9ba172e06f4793399b90832ee1c63dfbf4495cf45e4f"
+    },
+    {
+      "slug": "boxing-vs-mma-rules",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every row of the side-by-side table checked: ABC boxing rule 1 and ABC MMA rule 1 (3- vs 5-minute rounds, 1-minute rest, one to five rounds, 25-minute cap); WBC R&R 3.27 (12-round men's world title bouts); Nevada NAC 467.7954 (3/5-round caps), 467.427(6)-(7) (8 oz at 135 lb or less, 10 oz above, 8 oz to 147 lb by agreement; MMA 4-8 oz); WBC championship rule 7 (8 oz to welterweight, 10 oz from super welterweight); NAC 467.675, 467.760, 467.740(9) (count provisions do not apply to MMA), 467.688(4) (low-blow claim); ABC MMA fouls and stand-up rule, judging order (effective striking/grappling first) and 10-8 'damage, dominance, and duration'; ABC Boxing Judge Manual rev. 06/2024 (four factors, aggression beaten to the punch is not effective, 'good defense is not holding or clinching'). Arithmetic (36/47/25/29/15 minutes) checked. Lightweight 135 vs 145-155 checked against the ABC table (PDF text extraction shifts labels one row; mapping confirmed against NAC 467.7956 and the published MMA weight-class article). Changed: removed 'hitting on the break' from 'boxing-only' fouls (ABC MMA foul 25 also bans it) and 'throwing an opponent out of the cage' from 'MMA-only' fouls (Nevada's boxing rules also penalise wrestling or throwing an opponent from the ring, NAC 467.675(5), 467.757(5)); noted the 2026 MMA text reads the same as 2025 on every compared point; removed a causal 'because' the source does not state. App claims match the catalog. Mechanical: preflight-articles --only clean; audit-similarity-250 --release 2026-10-02 --only clean (closest pair 0.018 vs ko-vs-tko-how-fights-end); publish-batch --dry-run stops only at the missing review log, and every other publish check (release validation, batch collisions, linking plan) passes when run in memory.",
+      "contentHash": "sha256:064345261a3c8560466724fa4aac88d9dcc3cd3e553ae350517a827eeb9e0590"
+    },
+    {
+      "slug": "boxing-weight-classes-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All 17 limits and names checked against the WBC weight-limits PDF (bridgerweight to 224 lb / 101.605 kg; heavyweight over 224), the WBA ranking page ('as of SEPTEMBER 2026'; Minimum ... Cruiserweight 200 lb; heavyweight over 200), the IBF Championship Contest Rules posted 13 Aug 2025 (PDF text shifts labels one row; mapping checked) and the WBO Regulations (October 2021 edition, the PDF linked from wboboxing.com/regulations; Jr. Heavyweight 200 lb / 90.72 kg). kg column recomputed at 0.45359237 (all 17 match to 3 dp); band-width percentages (2.5%-4.8%; cruiserweight 12.5%) and the 2.5-5x ratio recomputed. Nevada NAC 467.476 confirmed: cruiserweight over 175 to 195, heavyweight over 195, opponent weight-difference allowances 3/5/7/9/11/12/20 lb, section last amended 4 Dec 2007 - so the writer's Nevada-vs-sanctioning-body cruiserweight difference (175-195 vs 200) is real, as printed. Weigh-ins checked: WBA E.5/E.8/E.9; WBC championship rules (24-30 h pre-bout plus day-of weigh-in; safety scale 10/5/3% -> 162/154/151 lb at 147); IBF 1.A/1.B (20-30 h; 8-10 a.m. second-day weigh-in; second limits 10-14 lb above; waived for heavyweight championships and unifications; two hours). History (1909 NSC, 1920 Walker Law, 1960s narrowing) from Wikipedia; MMA comparison table from ABC 8.2026. Changed: WBA source and table note said ratings 'dated 30 September 2026' - the page shows only 'as of September 2026', corrected; Nevada's figure no longer called 'older'/'still' (unsupported) - now 'different', with the 2007 amendment date; history sentence rewritten in original words; anchor sentence claimed the fight-cards article covers catchweights (it only mentions them in passing) - now 'how weight classes constrain matchmaking'. Mechanical: preflight-articles --only clean; audit-similarity-250 --release 2026-10-02 --only clean (closest pair 0.017 vs boxing-belts-and-sanctioning-bodies); publish-batch --dry-run stops only at the missing review log, and every other publish check (release validation, batch collisions, linking plan) passes when run in memory.",
+      "contentHash": "sha256:98a7041e13ac96e3db397ce8e9b05f0497c1258d602cae41ad6eae6f14f5fc95"
+    },
+    {
+      "slug": "boxing-belts-and-sanctioning-bodies",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified: WBA Rules (amended Dec 2022 / Apr 2024) C.10 (nine months for a former official contender, 120 days otherwise; heavyweight 12 months/180 days), C.16 (unified), C.17 ('in exceptional circumstances'; 'the vacant regular title need not be filled'), C.21-C.22 (inactive champion, interim, recess), E.9; WBC R&R (approved 8 Dec 2024) 3.5 (one mandatory a year) and 3.21-3.26 incl. exact quotes ('a true WBC World title for all purposes'; Franchise Boxer 'is not a Championship'); IBF Rules 1.A, 5.A/5.B (nine months; heavyweight one year), 16 (interim after an injury exception; elevation; 12-month cap), 17 (undisputed or three-plus belts; rotation system acknowledged with WBA/WBC/WBO); WBO Regulations s.5(a),(c),(d),(e), s.7(b) (unification extension), s.14 (super champion criteria; current champion status not required); Ali Act PL 106-210 findings quote (exact, 17 words), 31 January FTC/ABC filing list and ABC ratings-guidelines mandate; Wikipedia for the NBA->WBA (1962), WBC Mexico City (1963), IBF (1983), WBO (1988) dates and the lineal definition (stripping generally disregarded). Worked example (four mandatories, ~91 days apart) recomputed. Changed: recognition history said the bodies gradually recognised each other 'through the 1990s and 2000s' and 'by 2007 all four were doing so' - replaced with the dated steps the source gives (WBA by 2001, WBC from 2004, IBF by early 2007); 'the term undisputed barely needed to exist' replaced with the sourced point that NYSAC and the NBA usually recognised the same champion. No current champions or fighter lists; organisations named nominatively from their own documents. Mechanical: preflight-articles --only clean; audit-similarity-250 --release 2026-10-02 --only clean (closest pair 0.017 vs boxing-weight-classes-explained); publish-batch --dry-run stops only at the missing review log, and every other publish check (release validation, batch collisions, linking plan) passes when run in memory.",
+      "contentHash": "sha256:00e8ac5b8367b17b5943d20d046abb70f6021283e3a1c2529f3e0d2ec451e4a1"
+    },
+    {
+      "slug": "undefeated-records-in-boxing-and-mma",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Rule applied: retired fighters' completed records only, from official or major-outlet sources, none contradicted. Marciano - ESPN SportsCentury (opened via WebFetch; curl gets a bot challenge): '43 knockouts in 49 fights', retired 1956, Walcott ahead on all three cards after 12 rounds, KO 30 seconds into the 13th. Calzaghe - Britannica: retired February 2009, undefeated in 46 bouts, 32 by KO. Laila Ali - Britannica: undefeated in 24 bouts, 1999-2007. Ward - Sky Sports, 21 Sep 2017: immediate retirement, 'unbeaten record to 32 victories', quote verified (under 25 words). Nurmagomedov - UFC.com: 29-0-0 (W-L-D), status Retired, last fight Oct. 24, 2020. Cross-checked each fighter's current Wikipedia record (49-0, 46-0, 24-0, 32-0; no later bouts). CUT: the Mayweather 50-0 FAQ, subsection and CBS Sports source - CBS (20 Feb 2026) reports 'Floyd Mayweather is coming out of retirement' with a professional return planned, so his is not a retired fighter's completed record; the '50-0' secondary keyword and AI question went with it, and the article now says a comeback reopens a record. Rules: Nevada NAC 467.702, 467.770, 467.579; ABC MMA 8.2026 no-contest definition - added that its foul procedure also allows a disqualification for an early accidental-foul stoppage. Probability table and thresholds recomputed (0.9/0.95/0.98 to the 10th/25th/50th power; 0.5^(1/n) = 97.3%/98.3%/98.6%); 'the only way' to keep such odds softened to 'the most dependable way'. App: 'Getting a stable there is the whole challenge' is the catalog's FAQ; pool described per rule 10. Mechanical: preflight-articles --only clean; audit-similarity-250 --release 2026-10-02 --only clean (closest pair 0.012 vs types-of-submissions-in-mma); publish-batch --dry-run stops only at the missing review log, and every other publish check (release validation, batch collisions, linking plan) passes when run in memory.",
+      "contentHash": "sha256:1bebb85c2d12d973b72ee56257093c74eb95d46c814c89a05abd7f0ebfb1d796"
+    },
+    {
+      "slug": "boxing-styles-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Style definitions checked against Wikipedia 'Boxing styles and technique' (four offensive styles; out-boxer/pure boxer, ringcraft, favourable angle, accuracy over knockouts, generally taller with long reach; swarmer/pressure fighter/crowder, crouch, body work, clinch weight, good chin; slugger with planted feet, hooks and uppercuts, 'highly effective against pressure fighters', exposed to faster technical boxers with footwork and jabs, tires without an early KO; boxer-puncher outside the rock-paper-scissors theory, 'master of none'; counterpunching independent of range and dangerous with slow reflexes; southpaw as stance). Rules section checked against the ABC Boxing Judge Manual rev. 06/2024 (effective aggressiveness beaten to the punch; ring generalship; 'running and simply avoiding action should not be rewarded'; defence = punching while not being punched; 'not holding or clinching'; hard punches and number both count) and NAC 467.675 (clinch, holding and hitting, pushing, butting, crouching, timidity). Changed: matchup-cycle intro now says the reference supports some links directly and the others are reasoned from what each style needs (swarmer-vs-out-boxer and counter-vs-swarmer are inferences, not sourced claims); slugger 'mid-range' -> 'in punching range' (no range in the source); out-boxer angle sentence reworded away from the source's phrasing. No real fighters named as exemplars. App claims match the catalog. The candidate's 'boxing styles' overlap with style-matchups-in-a-fight-simulator is already resolved (its keywords no longer include the phrase). Mechanical: preflight-articles --only clean; audit-similarity-250 --release 2026-10-02 --only clean (closest pair 0.012 vs boxing-vs-mma-rules); publish-batch --dry-run stops only at the missing review log, and every other publish check (release validation, batch collisions, linking plan) passes when run in memory.",
+      "contentHash": "sha256:fc5614e523400e3944438881325601b5437086ac3248ec969af9b4dd8d9fe26b"
+    },
+    {
+      "slug": "types-of-submissions-in-mma",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "No changes needed. Checked against ABC Unified Rules of MMA 8.2026 and 8.2025 (foul 5 hair as a choking tool, 6 pile-driver and the exception for a fighter lifting an attacker out of a submission, 7 spine/back-of-head zone, 8 trachea and thumb gouging, 14 shorts/gloves, 15 fence, 16 small joints = fingers and toes, wrists/ankles/knees/shoulders/elbows large, majority-of-fingers exception; no spinal-lock or compression-lock foul; tap out, verbal tap out, technical submission; submission attempts in effective grappling, dominance, merely holding position; stand-up rule) - fouls identical in both versions and the November 2027 requested implementation date reported correctly; Nevada NAC 467.009(4), 467.7962 (no spinal-lock foul), 467.7968 (physical and verbal tap outs only); Wikipedia 'Submission (combat sports)' (technical submission may be recorded as a TKO depending on the rules), 'Chokehold' (blood vs air chokes; 'most chokeholds featured in combat sports ... are blood chokes'; guillotine and gogoplata restrict air flow), 'Joint lock' (five types; the 'banned in nearly all combat sports' line is reported as what general references say and contrasted with the ABC text), 'Compression lock' (muscle into bone over a fulcrum; biceps slicer; Achilles lock). App claims match the catalog. Mechanical: preflight-articles --only clean; audit-similarity-250 --release 2026-10-02 --only clean (closest pair 0.019 vs unified-rules-of-mma-explained); publish-batch --dry-run stops only at the missing review log, and every other publish check (release validation, batch collisions, linking plan) passes when run in memory.",
+      "contentHash": "sha256:af52c767dfbba91a89b1489afc8817b50378530dd988185f7ca61a2a9369cf66"
+    },
+    {
+      "slug": "does-reach-matter-in-boxing-and-mma",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Kirk 2024 abstract verified via NCBI E-utilities; the PubMed page shows a cookie wall to automated fetch (curl and WebFetch), so the citation now points to the E-utilities record actually opened. Confirmed: n = 2,229 bouts, BF > 3, whole cohort / each year / 13 divisions, ages 29.8 vs 30.7 and 0.82 years younger, armspan advantage at heavyweight only (198.4 +/- 6.6 vs 196.1 +/- 7.7 cm), A:S disadvantage in women's strawweight only, no variable affected method of victory, 'greatly overstated' conclusion. Finlay 2022 (PLOS One full text): 182 bouts April 1991 - January 2022, BoxRec/Wikipedia data, medians 196 vs 190.5 cm height and 201 vs 198 cm reach, d = 0.35 and 0.23, punch-output d = 0.27-0.73, ~8 points accuracy, 41 bouts without punch data. Corrected an overclaim: the article said the paper had 'no reliability data for the variables' (implying reach) - the paper's caution refers to its punch-output table; reach caveats now say the figures came from BoxRec/Wikipedia listings rather than measurement (body, two FAQs, explanation 4 hedged as 'may be noisy'). 'Only a few centimetres' replaced with the exact 5 cm and 7.5 cm; the heavyweight section now notes the boxing study examined only heavyweight, so 'both studies found their clearest effect there' was not like-for-like. Weight-band figures checked against ABC 8.2026 and NAC 467.476; footwork/inside-fighting and 'pressure fighters are often shorter' against Wikipedia. App: reach is a catalog-listed input; the 'modest input' suggestion is framed as advice for any model, not a claim about the app's internals. Mechanical: preflight-articles --only clean; audit-similarity-250 --release 2026-10-02 --only clean (closest pair 0.005 vs boxing-styles-explained); publish-batch --dry-run stops only at the missing review log, and every other publish check (release validation, batch collisions, linking plan) passes when run in memory.",
+      "contentHash": "sha256:ffcd506a9d4ad2166356cc1961e9aa4a0efd61c3b6e69fdd0dbc7ffc5c8281c4"
+    },
+    {
+      "slug": "tournament-formats-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All formulas and worked numbers re-derived: n(n-1)/2, n-1, 2n-2 or 2n-1, ceil(log2 n); the 8/16-entrant table; 0.7^3 = 0.343, 0.7^4 = 0.240; seeding 1/7 and 4/7; the four double-elimination routes (0.312 + 0.050 + 0.035 + 0.035 = 0.433) for the bracket as described; bracket reset 3/4; the four-entrant round robin by enumerating all 8 outcomes (0.343 outright; 0.343 + 0.441 x 6/8 = 0.674 at least level); the 3-round Swiss example; 380 matches over 38 rounds. FIDE Handbook C05 Annex 1 (3-4 player Berger table exactly as quoted; odd field: highest number is the bye; reverse the last two rounds of the first cycle in a double round robin) and C.04.1 Basic rules for Swiss Systems (effective 1 Feb 2026: rounds declared beforehand; no rematches; pairing-allocated bye worth a win unless tournament rules say otherwise, never twice; same-score pairing; no colour three times in a row, with pairing-system exceptions). Wikipedia for the 1895 Zurich origin and use in chess, Go, bridge and esports, double round robins in most domestic football leagues, double-elimination game counts and the bracket reset. Tightened per the coordinator's flag: condensed the FIDE Swiss rule list and the 40-0 app paragraph (dropped a repeated mode list and simulator detail); fixed a counting slip in the round-robin case (the others share 'at least' five wins). App claims match the catalog (Tournament and Draft Battle Royale among seven formats; soccer tournaments and season mode). No calculator link added - neither permitted tool fits this topic. Mechanical: preflight-articles --only clean; audit-similarity-250 --release 2026-10-02 --only clean (closest pair 0.009 vs undefeated-records-in-boxing-and-mma); publish-batch --dry-run stops only at the missing review log, and every other publish check (release validation, batch collisions, linking plan) passes when run in memory.",
+      "contentHash": "sha256:99ac17b81ab141984f012652567508eb48219b55480f08cb594ee19c445012c0"
+    },
+    {
+      "slug": "home-advantage-in-sports",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every study claim checked against the paper or abstract opened. Pollard 1986 abstract (E-utilities): established for all major pro team sports in England and North America, greatest in soccer, ~64% of points, little change since 1888, smaller in derbies/FA Cup/non-professional, larger in the European Cup, familiarity outweighs crowd and travel. Pollard & Pollard 2005 abstract: 400,000+ games from 1876, highest in early years, decline over two decades in ice hockey, basketball and English football, baseball consistently lowest, unbalanced schedules, 'some evidence that travel and familiarity contribute ... little in support of crowd effects'. Pollard 2002 abstract: 37 teams moving within the same city 1987-2001, significant drop (P = 0.011), crowd size/density not explanatory, ~24%. Wunderlich et al. 2021 (PLOS One full text): 40,000+ matches incl. 1,000+ without spectators, foul/yellow/red gaps disappear, shots and shots on target fall, only a non-significant decrease in home advantage, exact 'do not seem to be the main driving factor' quote. Benz & Lopez 2021 (PMC full text): 17 leagues, bivariate Poisson with team strength, goal-HA estimates lower in 11 and higher in 6 incl. EPL and Serie A, yellow-card HA lower in 15 of 17, clear between-league differences pre-Covid. Sedeaud et al. 2021 (PMC): 28.5->32.5% and 38.0->42.8% away wins, Premiership 55.8->45.8% (+/-12.8), Top 14 64.5->55.1, Pro D2 64.6->55.7, 'vanished' in Premiership and Celtic League, limitation that team level and recent form were not considered. Fioravanti et al. (arXiv abstract): 1,027 matches, 11 tournaments, 10 countries. World Rugby (18 Jun 2026): home weighting removed from 1 July 2026, three rating points since 2003, centralised/out-of-country venues, Fiji's three UK 'home' matches, some 20 neutral-venue internationals before end-2026. Arithmetic (38.4/21.6; SE 0.115, difference ~0.16, 1.3 SE) recomputed. Changed: the soccer-vs-rugby paragraph said 'the soccer studies used models that adjust for team strength' - Wunderlich et al. state they did not control for team strength, so it now names Benz & Lopez only; the confounder paragraph now attributes each paper's own caveat (no true control group; disrupted training); 'Home advantage in goals fell in 11 leagues' -> 'their estimate of ...'; lede and description narrowed from 'every major team sport' to the scope Pollard actually studied (England and North America). App claims match the catalog (league campaign in wins/draws/losses; saved runs; 24-match rugby union season); pools described per rule 10. No calculator link: neither permitted tool fits. Mechanical: preflight-articles --only clean; audit-similarity-250 --release 2026-10-02 --only clean (closest pair 0.015 vs regression-to-the-mean-in-sports); publish-batch --dry-run stops only at the missing review log, and every other publish check (release validation, batch collisions, linking plan) passes when run in memory.",
+      "contentHash": "sha256:fe2026e0ff89c6aac66c388e1d55e7872a84ea3c80951da0f0fb47d505654c0c"
+    },
+    {
+      "slug": "is-momentum-in-sports-real",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every study claim checked against the text opened. Miller & Sanjurjo: Econometrica abstract page (bias proved; shrinks with sequence length, grows with streak length, substantial at lengths used in empirical work; conclusions reversed) and the arXiv full text (1902.01265): 26 Cornell players (14 men, 12 women), 100 shots each at ~50% distance, changing position after every shot; .49 after three hits vs .45 after three misses, not significant; GVT quotes 'analogous to coin tossing' and 'a powerful and widely shared cognitive illusion' (footnote 8); expected difference -8 points for n = 100, p = .5, so +4 is +12 above an i.i.d. shooter; player-level correction +13 points (p < .01); 'consistently moderate to large' across controlled and semi-controlled studies; 'belief in the hot hand is not a cognitive illusion'; players/coaches may infer a non-existent hot hand, overreact or miss one; in-game drop after makes eliminated with partial controls for defence and shot location; the quoted 'the long-standing conclusions of the canonical study are reversed' matches the arXiv wording. Three-shot table recomputed (2.5/6 = 0.417). Wikipedia Hot hand: 1985 questionnaire of 100 fans, 76ers field goals, free throws, controlled experiment. Darts (arXiv 1803.05673 abstract): almost one year, 167,492 throws, minimal interaction, latent-state models, 'a strong but short-lived serial dependence' (exact). Golf (Clark 2005 abstract via E-utilities): 747 tournaments, 35 randomly chosen 1997 professionals, no evidence of a hot hand. Table tennis (Den Hartigh & Gernigon 2018 abstract): 80 players, 1-7 to 7-7 scenarios, time-out at 7-7 cut positive and restored negative momentum, instructions not significant. Overclaim check: null golf result framed with its limits; darts and controlled-shooting results not generalised to in-game play. Changed: the golf app 'answers the opening question with a yes' implied a game design settles a research question - now 'builds momentum into its model'; the rest of the app paragraph matches the catalog verbatim (momentum, confidence, fatigue and pressure within an event; decisions not swing timing; every tour, event and golfer fictional). No calculator link: neither permitted tool fits. Mechanical: preflight-articles --only clean; audit-similarity-250 --release 2026-10-02 --only clean (closest pair 0.009 vs pressure-and-nerves-in-golf-sims (its nearest existing article; distinct intent: research question vs how the golf sim models pressure)); publish-batch --dry-run stops only at the missing review log, and every other publish check (release validation, batch collisions, linking plan) passes when run in memory.",
+      "contentHash": "sha256:8de552e267ce2295b39c3579cbd1d462982836b2bf30b9c9cd74ea7dfd4c16f3"
+    },
+    {
+      "slug": "regression-to-the-mean-in-sports",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Barnett, van der Pols & Dobson 2005 (IJE; Cloudflare blocks curl, opened via WebFetch): the quoted definition 'that can make natural variation in repeated data look like real change' is exact, and 'more noticeable with increasing measurement error and when follow-up measurements are only examined on a sub-sample selected using a baseline value' supports the paraphrase. Ben-Naim, Vazquez & Redner (arXiv full text): 300,000+ regular-season games, FA top division and MLB/NHL/NBA/NFL; Table I values matched row by row (the PDF text is garbled, but the text itself confirms MLB sigma = 0.084, baseball narrowest and NFL widest): seasons 1888-2005 / 1901-2005 / 1917-2004 / 1946-2005 / 1922-2004, average games 39.7 / 155.5 / 70.8 / 79.1 / 14.0, upset frequency .452 / .441 / .414 / .365 / .364, sigma .084 (MLB), .150 (NBA), .210 (NFL); method details (location and margin ignored, ties = half a win, equal-record games disregarded) and 'soccer and baseball are the most competitive' confirmed. The chance/ability split is the article's own, clearly labelled calculation and was recomputed (23% / 14% / 40%; 'nearly three times'), as were both worked examples (.577; .627 = 8.8 of 14). Regression formula for equal-variance bivariate normal data, the sophomore slump, Sports Illustrated cover jinx, Kahneman's flight-instructor account and the upward batting-average example are all in the cited Wikipedia article. Added (coordinator-permitted, one link): a sentence linking /tools/multi-sport/pythagorean-expectation-calculator/, with a new source, MLB.com Glossary 'Pythagorean Winning Percentage', which says the formula 'proved more predictive than basic winning percentage when trying to predict a team's future performance'; the tool description matches the tool's own meta (expected record from runs, points or goals). Preflight's note on naming 'MLB' reviewed: nominative citation of a glossary definition, no affiliation implied. App claims match the catalog (soccer: saved runs, season in W/D/L; tennis: fictional career, rolling ranking-point expiry); pool described per rule 10. Mechanical: preflight-articles --only clean; audit-similarity-250 --release 2026-10-02 --only clean (closest pair 0.015 vs home-advantage-in-sports); publish-batch --dry-run stops only at the missing review log, and every other publish check (release validation, batch collisions, linking plan) passes when run in memory.",
+      "contentHash": "sha256:a038b8307b834eceb96a4f4ab1036f2f3e8d0d8fd5fe45ee1c7ac68aa040289d"
+    },
+    {
+      "slug": "relative-age-effect-in-sports",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every study claim checked against the abstract or full text opened. Cobley et al. 2009 (abstract): 38 studies 1984-2007, 253 samples, 14 sports, 16 countries; consistent but small; effect grows linearly with relative-age difference; adolescent (15-18) males at regional/national representative level in highly popular sports most affected. Smith et al. 2018 (abstract): 57 studies, 308 samples, 25 sports; OR 1.25 (adjusted 1.21); larger at 11 and under and 12-14, at higher levels and in physically demanding contexts. Brustio et al. 2026 (PMC full text): 26 studies, 318,663 male and 41,379 female players; males 34.8% vs 16.9%, OR 1.99, youth 2.42 vs senior 1.41, U7-U14 2.09 / U15-U17 2.18 / U18-U20 1.52; females 27.5% vs 23.6%, OR 1.15; Trim-and-Fill adjustment to 1.32; substantial heterogeneity; national vs regional difference descriptive but not significant, with 'selection pressures likely amplify' as the authors' reading; underdog hypothesis and transient advantages discussed as hypotheses - the article frames all of these with the authors' own caution. Hancock et al. 2011 (abstract): 9-year-olds with/without body-checking, Q1 27-39%, Q4 10-20%, reductions limited to some second and third quartiles, body-checking 'not a critical mechanism', physicality and experience influential. Mann & van Ginneken 2017 (abstract): bias with no age information and with birthdates, eliminated with age-ordered shirt numbers. Han et al. 2026 (JSSM full text, published online 1 June 2026): 13 studies, 861 players, Khamis-Roche PAH in nine, better decision-making and composure and more ball-winning involvement for later maturers, reduced dominance of early maturers, evidence limited to short-term match responses and proxy outcomes. Wikipedia: IOC, FIFA and the six confederations use 1 January, UK 1 September; competence/self-efficacy compounding (also in the rugby review's introduction). Arithmetic (364 days > a tenth of nine years; 1.2^3 = 1.73) checked. Changed: hockey section said removing body-checking, 'the most visible physical difference', left 'the selection loop' intact - the study measured participation distributions under a contact rule, so now 'the sport's most visible form of contact left the birth-quartile pattern intact'. Preflight's note on naming 'FIFA' reviewed: nominative, cited, no affiliation implied. App claims match the catalog (career sim fictional; no birth-month mechanic claimed; rugby draft pool from real careers per rule 10). Mechanical: preflight-articles --only clean; audit-similarity-250 --release 2026-10-02 --only clean (closest pair 0.009 vs how-sports-scouting-works); publish-batch --dry-run stops only at the missing review log, and every other publish check (release validation, batch collisions, linking plan) passes when run in memory.",
+      "contentHash": "sha256:975dfbf2e641b02c20d6f2c09ad2d025f5c50be9b0b21f5e93a99d167f5b05b4"
+    },
+    {
+      "slug": "how-sports-scouting-works",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every study claim checked against the abstract or full text opened. Johnston et al. 2018 (abstract): 20 studies; physical profiles 60%, male 65%, ages 10-20 60%; high variability; no clear set of variables that consistently predicts success; 'how little is known'. Gong et al. 2026 (Frontiers full text): 38 studies 1976-2024, early/developmental/active stages as described, European data-driven precision vs South American and African emphasis on latent potential in game-like settings, and the authors' own limitations (English-language only, heterogeneous designs, not registered in PROSPERO). Larkin & O'Connor 2017 (PLOS One): 20 Australian regional youth technical directors and coaches, three-stage modified Delphi, U13 representative level; first touch highest, striking, one-v-one, technique under pressure; decision-making; coachability and positive attitude; physiological, anthropometric and sociological attributes not emphasised. Guellich 2014 (abstract): turnover 24.5% academies / 41.0% national U-teams, <50% still in the programme three years later at any age, Bundesliga recruitment ages evenly spread, repeated selection and de-selection. Kelly et al. 2022 (PMC): 53 factors, 98 U9-U16 players, predicted adult height, lob pass and dribble completion, match-play hours and older relative age; 18 U18 players, PCDEQ factors incl. organising and engaging in quality practice; 'exploratory'; small-sample memorisation caveat. Sieghartsleitner et al. 2019 (JSSM): 117 U14 players, 20 (17.1%) professional at U19 five years later, AUC 0.71 / 0.82 / 0.85 / 0.93 with the stated significance pattern, summation and linear-statistics limitations, and the coach-assessment/criterion dependency caveat. Johnston & Baker 2020 (Frontiers): selection 'inaccurate, bias driven, and sometimes even illogical', talent wastage, sensitivity/specificity, 'nearly impossible to determine whether the right athletes were selected or de-selected'. Base-rate arithmetic (20 x 20/117 = 3.4) checked. Changed: recruiters were said to judge 'first touch ... rather than in isolated drills' - the paper says they assess technical skills in games and small-sided games (the drill contrast is the authors' discussion), corrected in body and FAQ; two sentences attributed our own explanation ('because a released player's alternative career is never run') to Johnston & Baker - now presented as the article's reasoning. App claims match the catalog (rugby: 1,000+ real-career pool from different eras, rotating, ratings and salaries unofficial estimates, 24-match season, $200M in-game cap; soccer: position fit, style and balance outweigh raw rating). Combine-article anchor checked against that article. No calculator link: the draft-order generator does not fit an article about evaluation accuracy. Mechanical: preflight-articles --only clean; audit-similarity-250 --release 2026-10-02 --only clean (closest pair 0.010 vs rugby-draft-and-squad-building); publish-batch --dry-run stops only at the missing review log, and every other publish check (release validation, batch collisions, linking plan) passes when run in memory.",
+      "contentHash": "sha256:1e98c5d8d282220b6dbb964a4cdee3e5886e591fb1526a8b6a8363845ac5cf07"
+    }
+  ]
+}

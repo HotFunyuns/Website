@@ -1,0 +1,312 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person's review.",
+  "entries": [
+    {
+      "slug": "rugby-union-rules-for-beginners",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Rules checked against World Rugby's Laws of the Game on passport.world.rugby as published 2026-10-02 (2026 laws incl. the 1 July 2026 updates): Law 1.3 dimensions (94-100 m, 68-70 m, in-goal 6-22 m), 2, 3.1/3.4-3.5/3.13, 4, 5.1/5.2/5.7 (half ends when ball next dead; penalty after time still taken), 7.1-7.3, 8.1 values, 9.29-9.30 (20-minute replacement 'Elite Rugby only'), 10.1-10.2, 11.3/11.5/11.7, 12.1-12.13, 13 principle quote, 14.1/14.5-14.8, 15.2/15.4/15.11/15.17, 16.2-16.4, 18 (penalty kick to touch keeps throw; free-kick to touch does not; 10 m at lineout), 19.5/19.12/19.31, 20.3/20.12/20.16, 21; Definitions (throw-forward quote, knock forward 'previously knock-on', elite rugby); 2024-07 law changes (loitering); 2026-07 Law updates (Council 17 June 2026: 20-minute red card full law from 1 July 2026 for competitions starting after that date; community tackle height). Edits: takeaway calling a knock-on 'the most routine offence' (unsupported superlative) reworded; red-card sentence and takeaway now state full law from 1 July 2026 for new competitions; added Laws 2, 4 and 21 as sources for the laws-by-number table. App claims match dump-catalog rugby-draft-pro-league (union scoring incl. drop goals and draws, position roles, fit/depth vs raw rating, unofficial ratings/salaries, no affiliation); the draft app is not called fictional. Links: app page, /sports/rugby/ once, cornerstone how-rugby-scoring-works, 3 published related articles, category page; no /tools/ links. Similarity max 0.018; preflight clean; full dry run clean against a scratch test log.",
+      "contentHash": "sha256:951383998429dda49f65e28d6c2e556b457377cefcb5f371ebd71906a28b379a"
+    },
+    {
+      "slug": "offside-in-rugby-union-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against World Rugby Laws (passport, 2026-10-02): 10.1-10.11 (10.4c 10-metre law, 10.8 charge-down exception, 10.10 five-metre release at phases), 14.8/14.10, 15.4-15.8/15.19, 16.4-16.7, 18.30-18.36, 19.27-19.33 (19.30 still marked Global Law Trial), 20.1 (mark at the offending team's offside line); Definitions (hindmost; loiter quote); 2024-07 law changes (removal of the run-5 m/pass release; loitering added 1 July 2024); 2025-01 global law trials (scrum-half rationale); Maul law application guideline June 2026 (new competitions from 1 June 2026; offside at lineout mauls); IFAB Law 11 2026/27 (offside position, indirect free kick). Correction: the article said 'in every version, standing offside is not the offence' - wrong at rucks, mauls, scrums and lineouts, where non-participants must retire immediately (15.8, 16.5, 19.31, 18.35); the intro, comparison table, FAQ and a takeaway now confine that point to open play. Worked kick example re-derived from 10.4c/10.7. App claim (position roles reward scrummaging, kicking, speed or defence) matches the catalog; app not called fictional. Links: app, hub once, cornerstone, 3 published related, blog category. Similarity max 0.015; preflight and full dry run clean.",
+      "contentHash": "sha256:4869c7144d9d5fde436dcda4ea6f0e45d262cda9436f271f3c4a4bf666a4356f"
+    },
+    {
+      "slug": "rugby-breakdown-tackle-ruck-maul",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against World Rugby Laws (passport, 2026-10-02): 13.1-13.4, 14.1-14.11 (shoulder line elite / waist or base of sternum community), 15.1-15.20 (15.18 still marked trial), 16.1-16.19, 9.13 and 9.20a/d/e, 19.1 scrum-award table; Definitions (jackler/stealer, crocodile roll, maul, ruck); 2024-07 law changes (crocodile roll); 2025-01 global law trials; 2026-06 community tackle-height wordings (Council 17 June 2026); Maul guideline June 2026 (lifter access, long-arm/shift-drive transfer, dominance, 'bound'); Clarification 1-2026 (dated 2 March 2026: most breakdown red cards under 9.20a), 2-2026 (quoted phrase verbatim; use-it reminder), 1-2025 (23 June 2025; 15.16b or 9.11); Wikipedia rugby union positions for the back-row breakdown role. Each row of the sanction table checked against its clause (penalty / free-kick / scrum). No factual changes needed. App claims (1,000+ rotating pool; fit, value and depth matter as much as raw rating) match the catalog; article says it does not describe how the game resolves a ruck. Links: app, hub once, cornerstone, 3 published related, category. Similarity max 0.018; preflight and full dry run clean.",
+      "contentHash": "sha256:7f4a860a3d0570eb8df40ffc19980e21b6890ab71c3a2ac8b9768e496393b5ed"
+    },
+    {
+      "slug": "rugby-scrum-and-lineout-rules",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against World Rugby Laws (passport, 2026-10-02): 19.1-19.38 (formation, crouch/bind/set, brake foot, feed, reset, use-it, end; offence table checked row by row for free-kick vs penalty), 18.3-18.25 (numbers, receiver, thrower's opponent, pre-grip, quick throw; 18.12 and 18.23 still marked Global Law Trial), 3.8-3.20 front-row table, 20.3; Definitions (brake foot quote, uncontested scrum); Law changes summary July 2022 (brake foot became a trial); 2026-07 updates (brake foot full law 'for all' from 1 July 2026); 2024-07 (scrum option removed from free-kicks); Uncontested Scrums guideline (3.17 marked 'Law updated in July 2026'; the worked example matches its Scenario 2 - 13 players for the rest of the yellow-card period, then the hooker leaves and three return). Edit: 'most often a knock forward' (unsupported frequency claim) changed to 'such as'. App claims match the catalog (position roles, fit/depth, 24-match season, unofficial ratings and salaries, no affiliation). Links: app, hub once, cornerstone, 3 published related, category. Similarity max 0.014; preflight and full dry run clean.",
+      "contentHash": "sha256:3a99a25d95e04f3bb056da7c5ec0a39f82e84366ddeefbc0e6aac92edb46844d"
+    },
+    {
+      "slug": "rugby-yellow-and-red-cards",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified: Law 9.29/9.30 ('Elite Rugby only' wording identical to the 2025 trial wording), 3.19/3.20/3.33f, 8.3, 9.10, 6.18; Definitions (elite rugby quote; yellow card 'usually for 10 minutes playing time'; sin-bin); 2025-01 global law trials page (14 Nov 2024 Council: 20-minute red decision deferred to 2025); 2025-07 trial page (Council 21 May 2025; wording into law assets 1 July 2025); World Rugby news release (WebFetch shows it dated 21 May 2025; WRWC 2025 and U20 use; two yellows = 20-minute red); Aug 2025 implementation guideline (off-field review, FPRO/TMO up to eight minutes, cannot recommend a permanent red, 20 minutes from the incident, two-yellow rule, replacement 'unused or otherwise'); 2026-07 updates (Council 17 June 2026; full law from 1 July 2026 for new competitions, mid-season competitions to check with their union); uncontested-scrum guideline Scenario 2. The article openly flags World Rugby's conflicting trial-approval dates (guideline: November 2024; other pages: 21 May 2025) and follows the latter. Edits: lead and description no longer imply the two kinds of red card began on 1 July 2026 (trial from 2025, full law since); the 20-minute red's crossed-arms signal is no longer described as 'above the head' (the guideline says that only for the yellow referral); Law 6.18 report is 'as soon as possible', not 'after the game', and an unsupported suspension clause was cut; added the sevens two-minute sin bin with the sevens Law 9 variation as a new source. Worked-example arithmetic checked. App claims (rotation, depth, morale, job security, 24-match campaign) match the catalog; the article says the app description does not cover cards. Similarity max 0.013; preflight and full dry run clean.",
+      "contentHash": "sha256:688d18f84da6fe09f452607c66552d4f8118c5b8540e7b467b0560254304f6f1"
+    },
+    {
+      "slug": "rugby-kicking-laws-50-22-and-drop-outs",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against World Rugby law pages as published Oct 2026: 50:22 conditions (own half, indirectly into touch in opposition 22, not if ball taken back into own half unless tackle/ruck/maul or opponent touch there, not from kick-off/restart) against Law 18.8a and the 50:22 definition; full who-throws-in table against Law 18.8a-e; lineout not within 5 m of try line (18.9); drop-out locations, sanction lines, causes and taking requirements against Laws 12.1, 12.11-12.19 and 21.11/21.16 (held up); mark against Law 17.1-17.7; 10-metre law, 10.8 and loitering against Law 10 and the 2024-07 change page (incl. removal of 5 m/pass releases); 2025-01 global trials (15.18, 16.18, 19.30a and rationale); 2026-07 update (22DO to try-line drop-out examples; newer trials kept a season); July 2022 summary (five GLTs incl. goal-line drop-out and 50:22 to full law 1 July 2022); RWC explainer (2021 trial, 'bounces inside the opposition 22' quote, backfield rationale). Changes: worked example now states a 100-metre field and '40 metres from Blue's try line' (no such marked line; makes the 45 m figure correct); added that the July 2026 restart change applies to competitions starting after 1 July 2026 (check with union mid-competition); takeaway 1 qualified to kicks from outside own 22; FAQ 1 now lists the restart and passed-back exclusions. App section matches catalog (goal kickers as specialists; kicking one of four role qualities) and says the listing does not mention 50:22s/drop-outs/marks. No /tools/ links; links published only. Preflight, similarity (max 0.012) and full dry run (scratch log) clean. Second pass: re-verified the five 50:22 conditions against Law 18.8a and the definition, the worked-example geometry (45 m swing on a 100 m field), the throw-in table rows against 18.8a-e, Law 17.1-17.7 (mark), and the RWC explainer quote.",
+      "contentHash": "sha256:a8ca073cd1f02d97fd1e48a31f6a845eddc2b454f569f8b6b157be36ef46d28e"
+    },
+    {
+      "slug": "rugby-bonus-points-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Each competition rule checked against that competition's own current document: men's Six Nations championship rules page (4/5 win, 0/1/2 loss, 2+1 draw, +3 Grand Slam; ties: points difference, tries incl. penalty tries, then placed equally) and its history page (bonus points first in 2017; points difference breaks ties since 1994); Super Rugby Pacific 2026 tournament format page (4-2-0, losing bonus within 7, bonus for 3+ more tries than opponent, up-to-10-minute golden point, golden-point case where a beaten side keeps both points; ties: most wins, points difference, most tries, try difference); LNR Livre 2 2026/2027 consolidated 1 July 2026, art. 2031.1 and 2034 (4-2-0, minus 2 for forfeit/disqualification with 5 to opponent, bonus for at least 3 more tries, losing bonus within 5; head-to-head points incl. bonuses first, then overall goal-average ... previous season's place). Wikipedia supports NPC 1995/Super 12 1996 origin, Super Rugby switch in 2016 and the Grand Slam-guarantee rationale. All worked-example scores, table points and Grand Slam arithmetic recomputed. Changes so no single scheme reads as universal: opening now says 'the scheme usually called the standard one' instead of 'in most competitions'; FAQ 1 'almost every major competition' replaced by the three competitions actually checked; Match 3 'almost everywhere' replaced by the named rule sets; late-game table no longer calls a relative try bonus 'already secured' at 3-0 (a conceded try cancels it). App section correctly says the listing does not state whether the game's table uses bonus points. Preflight, similarity (max 0.010) and full dry run (scratch log) clean. Second pass: re-verified Six Nations 4/5, 0/1/2, 2+1, +3 Grand Slam and its tie-break order; Super Rugby Pacific 2026 4-2-0, 7-point and 3-try-margin bonuses, most-wins-first tie-break and golden-point case; LNR 2026-27 art. 2031.1 (3-try margin, 5-point losing bonus, forfeit -2/+5) and art. 2034 head-to-head first; recomputed all three worked matches, the Grand Slam arithmetic and the season table. No single competition rule is presented as universal.",
+      "contentHash": "sha256:45bfbb1c25d437c811107a00ce9d1abf484d4400ae331ae63eb2678f14fb0b6b"
+    },
+    {
+      "slug": "rugby-sevens-vs-fifteens",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every row of the variations table checked against World Rugby's sevens variation pages (Oct 2026): 3.1 seven players, 3.4/3.5 up to five replacements, 5.1 two halves of up to 7 min, final up to 10-min halves, extra time after 1-min break in up-to-5-min periods, 5.2 two-minute half-time, 8.7/8.8c drop-kick conversion within 30 s, 8.14 defenders to own 10 m line, 8.21/8.24 penalty goal drop-kick within 30 s, 8.30 first score wins in extra time, 9.29 two-minute yellow card, 12.4 scoring team restarts within 30 s, 12.6/12.8 free-kick sanctions, 19.4 15-second scrum formation, 19.5 three-player scrum; fifteens side against Laws 1, 3, 5, 8, 9, 12, 19 and the 2025-01 GLT page (60-second conversion still labelled a trial). No sevens variation to Law 1; Springer 2014 review abstract supports the 'same field dimensions' quote, high-intensity running, 10-30 m speed parity with backs, superior intermittent aerobic endurance and backs/loose-forward crossover; PMC 2022 review supports per-minute tackles/carries finding. Area arithmetic (7,000 m2; 233 vs 500 m2) and 14%/12.5% recomputed. History: Wikipedia (1883 Melrose fund-raiser, Commonwealth Games 1998, Olympics 2016) and World Rugby history (Olympic return secured Oct 2009). Changes: lead no longer asserts the purpose of the variations (law gives none); contact row now says fifteens has more collisions per match in total (what the review found) instead of 'far more scrums, rucks and tackles'; added the review's note that sevens has fewer total collisions; Olympic sentence re-attributed correctly; 'shows why a draft format leans on the larger game' softened to 'suggests why fifteens suits a draft format' (catalog does not say the app models fifteens); takeaway 3 reworded. Catalog claims match; listing has no sevens mode. Preflight, similarity (max 0.013) and full dry run (scratch log) clean. Second pass: re-verified sevens variations 3.1/3.4/3.5, 5.1/5.2, 8.7/8.8c/8.14/8.21/8.24/8.30, 9.29, 12.4/12.6/12.8, 19.4/19.5 against the variation pages, and the 2022 PMC review per-minute finding; area and percentage arithmetic rechecked.",
+      "contentHash": "sha256:37b2c7a1c6254324fea10975e82b33c1da8a2035c2924f283beae4d3aeaa83bd"
+    },
+    {
+      "slug": "history-of-rugby-union",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Legend and documented fact are separated and each date checked: Webb Ellis (school 1816-1825, died 1872), Bloxam (at school 1813-1821; 10 Oct 1876 Meteor quote; Dec 1880 'with what result as to the game' quote; unnamed informant), Old Rugbeian sub-committee 1895 and 1897 report, plaque 1900, Thomas Hughes 1834 'not absolutely forbidden' and popularity 1838-39, Dunning and Sheard 2005 labelled as interpretation (Wikipedia William Webb Ellis); Rugby School history page quote; 1845 written rules, 1863 Blackheath withdrawal over hacking/running, 26 Jan 1871 RFU at Pall Mall restaurant (21 clubs, three lawyers, laws approved June 1871), 1877 20 to 15 a side, RFU amateur rules 1886, 29 Aug 1895 George Hotel split, wartime lifting of the ban on league players, scoring table 1891/1893/1971/1992, drop goal 4 points 1891-1948, 1883 Melrose sevens (Wikipedia History of rugby union); 27 Mar 1871 Raeburn Place 20-a-side match from five Scottish captains' challenge (Wikipedia 1871 match); NRFU renamed RFL 1922 (Wikipedia RFL); IRFB 1886, England 1890 with 6 of 12 votes, 1949 and 1978 members, 1987 RWC as catalyst, August 1995 professionalism, IRB 1998, Olympic return Oct 2009, World Rugby Nov 2014, 134 unions after Benin in Sept 2025 (World Rugby history); 1883 championship, France 1910, exclusion 1931-39, Italy 2000 (Six Nations history); women's RWC 6-14 April 1991, twelve teams, Cardiff, volunteers, shoestring, self-funded (World Rugby Museum); current Law 8 values. Ratio column recomputed. No player lists; named people are historical and cited. Only change: aiSearchQuestions entry 'Why did rugby split into union and league?' replaced, because rugby-union-vs-rugby-league owns that long-tail; the body keeps one paragraph on the split and links there. Draft-app section matches catalog (1,000+ pool across eras, rotating; ratings unofficial estimates). Preflight, similarity (max 0.012) and full dry run (scratch log) clean. Second pass: re-verified World Rugby history (IRFB 1886, England 1890 with six of 12 votes, 1949, 1978, 1987 catalyst, August 1995, IRB 1998, October 2009, November 2014, 134 unions after Benin), the Rugby School quote, Webb Ellis/Bloxam dates and quotes, the 1871 meeting details, the scoring-history values and the 1891-1948 drop goal.",
+      "contentHash": "sha256:8e6f66d963693e446124087434d4998ad66f239cb5676faa7351595f41f5183e"
+    },
+    {
+      "slug": "rugby-career-sim-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every app claim checked against `dump-catalog rugby-career-sim` (catalog entry now live in sports-gm.ts, lastVerified 2026-10-02; icon present): one player not a club; portrait + position; carry/tackle/support role; training toward one goal 'rather than trying to improve everything at once' (catalog wording); simulated matches followed on the field; carries, metres and tackles; prepare-follow-review loop; stats and training carry across matches and seasons; goals examples; audience list; free, ads, no in-app purchases listed, content rating Everyone. Draft-app comparison checked against `dump-catalog rugby-draft-pro-league` (24-match GM season, $200M in-game cap, contracts, rotation, payroll, morale, job security); draft app not called fictional; career sim called fictional per content-spec rule 10; no coach, player, club or league names from the app (avoids the generated coach name flagged in sports-data-provenance.md). Laws: ball-carrier and tackle-assist definitions, Law 14.1/14.4, Law 15 principle and 15.5/15.7, Law 19.5; gain line from Wikipedia glossary; forwards experience more impacts and tackles than backs (PMC 2022 review). Worked stats table labelled as made-up; 4.0 and 9.0 metres per carry recomputed. Changes: no longer asserts the app has no in-match control - now says the listing does not mention in-match controls (body and FAQ 2); the claim that 'simulated matches vary' (not in the catalog) reframed as a conditional pointing to the site's career-modes explainer; FAQ 3 stat meanings marked as the usual rugby sense. Non-affiliation sentence kept as a disclaimer (not a feature claim). Preflight, similarity (max 0.013) and full dry run (scratch log) clean. Second pass: re-read every app sentence against dump-catalog rugby-career-sim and rugby-draft-pro-league; no coach, player or club names from either app; only the career sim is called fictional; gain-line (Wikipedia glossary) and the 2022 Sports Medicine - Open review re-verified.",
+      "contentHash": "sha256:944275c6c403eb599b404a571d6232b557dd7f7f1175e4fa67d125ffaaeaf35a"
+    },
+    {
+      "slug": "tennis-tiebreak-rules",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against the ITF Rules of Tennis 2026 PDF (downloaded and read): Rule 5b (first to 7 by 2; 1-2-2 serve order; first server receives in the next set), Rule 6 (final-set format announced in advance), Rule 10 (ends every 6 points), Rule 17 (first tiebreak point from the right half, then alternate), Rule 29 (continuous play, no rest at tiebreak change of ends), Rule 3 (ball change delayed; tiebreak counts as one game), Rule 27d (serve-order errors), Appendix VI (no-ad deciding point incl. doubles/mixed rules; short sets at 4-4 or 3-3; 5-point short-set tiebreak; 7- and 10-point match tiebreaks; match-tiebreak note: service order continues, 120 s break, no ball change; final-set 10-point tiebreak at 6-6; alternative end change after point 1 then every 4). 2026 Grand Slam Rule Book Art. L (men best of five, others best of three; final set 10-point tie-break). 2026 ATP Rulebook 1.02B (singles best of three tie-break sets; doubles two tie-break sets plus 10-point match tiebreak, no-ad; applies to Tour and Challenger per 1.01) and 7.25 announcement \"Deuce, Deciding Point, Receiver's Choice\". 2026 WTA Rulebook (singles best of three tie-break sets; main-draw doubles no-ad plus 10-point match tiebreak). USTA scoring page (most common format; change ends after a 7-6 set; March 2022 majors announcement, AO since 2019, others from the 2022 French Open). Wikipedia glossary (mini-break, super tiebreak). Serve table and the \"cannot win on serve alone\" logic recomputed. Changes: FAQ on change of ends reworded (clumsy clause); short-set serve order attributed to the sanctioning body (was \"organiser\"); Grand Slam earlier-set sentence softened to what Art. L actually says. App claims match dump-catalog tennis-career-sim (decide serve/return/defend/attack; fictional, unaffiliated); in-game tour name absent; no /tools/ links. Body links only to published articles; hub, cornerstone and app linked. Borderline: tennis-scoring-for-beginners keeps a tiebreak FAQ and the long-tail \"how does a tiebreak work in tennis\"; this page serves the deeper serve-order/format intent and similarity is 0.009. Second pass: re-verified ITF 2026 Rule 5b wording, Rule 10 six-point change of ends, Rule 27d, Appendix VI match tie-break note (service order continues, 120-second break, no ball change), the alternative end change after point 1 then every four, and the 5-point short-set tie-break.",
+      "contentHash": "sha256:61259bbefc90931517aa13b4267e2b9f22dfd28d5583c39ae2c125b3a7baa82f"
+    },
+    {
+      "slug": "tennis-rules-for-beginners",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified every rule reference against the ITF Rules of Tennis 2026 PDF: Rule 1 (78 ft/23.77 m; 27 ft/8.23 m; 36 ft/10.97 m; net 3.5 ft/1.07 m at posts, 3 ft/0.914 m centre; service lines 21 ft/6.40 m; measurements to the outside of lines), Rule 8 Case 1, Rule 9 (toss options), Rules 10, 12, 16-24 (incl. 18 Cases 1-2, 19 Case 1, 22 with no cap on lets, 24 a-l = twelve ways, 24 Case 8), 25 (good returns), 26 (hindrance, bird case), 29 (25/90/120 s; no rest after the first game or in a tiebreak; 5-minute warm-up), 30 (no coaching during a point), Appendix VI no-let, Appendix VII (chair umpire on facts, referee on law; clay ball-mark inspection; three unsuccessful challenges per set plus one in the tiebreak), wheelchair two-bounce rule. 2026 ATP Rulebook 3.H (Live ELC mandatory at all ATP Tour events regardless of surface, on all match courts). Wikipedia glossary supports the terms used (double fault, alley, deuce court). Changes: corrected the Rule 11 statement (the ball is in play from the moment the server hits it, not once the serve lands); removed an unsupported frequency claim (\"the ones that come up most often\"); removed an invented causal link in the line-call FAQ (\"for the same reason\"). App paragraph matches the catalog (decisions, not racket swings; attributes/style/preparation; fictional and unaffiliated). Distinct from tennis-scoring-for-beginners (rules of play vs scoring). Links: cornerstone, hub, app, 3 published related articles, category. Second pass: re-verified the ITF 2026 Rule 24 a-l lettering (24e receiver volleying the serve, 24g touching the net), Rule 29e five-minute warm-up and the wheelchair two-bounce rule.",
+      "contentHash": "sha256:96342c106250b4a3b0cb89be3dcf0160c45da43d8eb8fb3e7066a7a3a328e5b5"
+    },
+    {
+      "slug": "tennis-code-violations-and-shot-clock",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against the 2026 Grand Slam Rule Book Art. III J-U (25/90/120 s definitions; receiver reasonable pace; time violation warning then server fault / receiver point penalty; Delay of Game for medical condition, refusal to play, not returning; offence definitions K-R; fines up to $50,000, unsportsmanlike up to $100,000; point penalty schedule; Referee with the GS Chief of Supervisors decides defaults after the third code violation; default = loss of event ranking points and prize money, fines still due; doubles penalties against the team), GS medical rule (evaluation; 3-minute MTO from when the physio is ready; one per distinct condition; heat illness and kinetic chain each count as one; two consecutive MTOs; no MTO for cramping; two change-of-ends cramp treatments; forfeit points to reach a changeover; bleeding 5 minutes; Delay of Game after an MTO) and men's toilet breaks; 2026 ATP Rulebook (Code point penalty schedule with Supervisor deciding defaults; doubles code violations against the team; 3.G shot clocks mandatory on each match court at all ATP Tour events from the first day of qualifying; 7.22 N 25-second procedure and receiver time violation before 25 s; Code time violations; case \"Time Violation + 25 Seconds = Code\"; 7.25 \"Time Violation, 2nd Service\"; medical rules incl. the $50,000/43,000 extension; cooling break at WBGT 30.1C before the third set); 2026 WTA Rulebook (point penalty schedule with Supervisor/Referee; serve clocks at WTA 1000 Mandatory/500/250 from the first day of qualifying; time violation fault / loss of point; no back-to-back time violations with heat-break/authorised-break exceptions; Delay of Game after MTO; MTO rules incl. consecutive MTOs and bleeding; 10-minute heat-rule break); ITF Rules 21 and 29. Changes: comparison table no longer implies the ATP server penalty differs (it is also a fault; only the call differs) and its heading was renamed; GS coaching conditions stated fully (hand signals allowed); abuse-of-balls definition restored \"intentionally\"; default sentence fixed (fines still apply); heat-illness exception to the cramping rule added and attributed to GS and WTA only (the ATP text has none); FAQ \"two full\" treatments corrected to two and WTA added after checking its text; non-treatable list attributed per rulebook; clock takeaway limited to main tour events; heat-break sentence made precise. Worked sequence is hypothetical; no real-player incidents. App paragraph matches the catalog. Links: cornerstone, hub, app, 2 published related articles, category. Second pass: re-verified the GS point penalty schedule (warning / point / game; Referee with the GS Chief of Supervisors on defaults), default consequences (ranking points and prize money lost, fines still due), $50,000 / $100,000 fine caps, ATP 3.G shot clocks at all ATP Tour events from the first day of qualifying, WTA serve clocks at WTA 1000 Mandatory/500/250, the ATP 10-minute cooling break at WBGT 30.1 C before a third set, and the medical time-out start (when the physio is ready) and $50,000/43,000 extension. Correction: the GS men's toilet-break sentence said the first break \"must come in the first three sets\"; the rule says only one may be taken during the first three sets and the second only after the third set - reworded.",
+      "contentHash": "sha256:808f156ab2b2c0e7a34a4a03812816f174401c26df09e2857efb9b53928161f3"
+    },
+    {
+      "slug": "how-tennis-seeding-works",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against the 2026 Grand Slam Rule Book Art. III (direct acceptance ranking about 42 days out; wild cards may be seeded; seeded draw with one list; seeding ranking about 7 days before; seedings official only at the final draw; remake if 2+ of the top 8 withdraw more than 48 h before; replacement chain for seeds 1-4 / 5-16 / 17-32; vacated line to the entry list or a lucky loser; lucky losers after the first-day order of play; minimum 16 seeds; placement procedure and the 128/32 line table), 2026 ATP Rulebook (7.14 most recent ranking, protected ranking excluded, official at the final draw; 7.15 seed numbers 8/8/16/16/32 for 28/32/48/56/96 draws; wild cards may be seeded; case: a qualifier can be seeded only if the main draw is made after qualifying; 7.16 96-draw line table identical to the GS 128/32 table; 7.09 remaining players incl. qualifiers drawn from the top; 7.18 byes; 7.19 remake with a 24 h threshold) and the 2026 WTA Rulebook (ranking as of the week prior; wild cards eligible, qualifiers and lucky losers not; seed numbers by draw size; bye table 96/56/48/30/28/24; withdrawal of a seed with and without a bye, before and after schedule release, and after play starts). Recomputed with a script: all 32 seed lines fall in distinct 4-line blocks, the top 16 in distinct 8-line blocks, the top 8 in distinct eighths and the top 4 in distinct quarters; random-draw figures 64/127, 1/127, 9.8% (0.0983) and 0.3% (0.0030) confirmed. Change: the withdrawal takeaway now limits the 5th/17th-seed move to top-16 seeds and the GS timing window (it implied every withdrawal triggers it). App paragraph matches the catalog (junior events to championship events, progressively stronger fields, ranking points expiring over a rolling window; fictional) and does not claim the game uses seeding. Distinct from how-tennis-qualifiers-work (entry vs draw arrangement). Links: cornerstone, hub, app, 3 published related articles, category. Second pass: re-verified the 2026 GS Rule Book 128-draw/32-seed line table, the 1-4 / 5-16 / 17-32 replacement chain, the lucky-loser rule after the first-day order of play and the 48-hour remake option; recomputed 64/127, 1/127, 9.83% and 0.30% and the block guarantees by script.",
+      "contentHash": "sha256:b594e5a108fe6d422f666784e4d019f5913d2e383f010b4437821cfe2f81ffd2"
+    },
+    {
+      "slug": "tennis-court-surfaces-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Opened all 4 sources. ITF 2026 technical booklet: COF/COR definitions, CS 01/02 test (30±2 m/s, 16±2°, spin ≤3 rev/s, 3 balls × 3 = 9 impacts, grass fired along the court), CPR = 100(1−COF) + 150(0.81−COR) with 23 °C temperature correction, ±5 CPR installation tolerance, ≤10-point variation between test locations, COF/COR 'medium' bands, CPCP replacing CSCS from January 2008, accredited labs, 3-year validity, not an endorsement — all confirmed. ITF Rules of Tennis 2026 Appendix I: CPR categories 0–29/30–34/35–39/40–44/45+ with the named surface types, the ball-to-surface Case 1, Type 1 rebound 138–151 cm vs 135–147 cm, Type 3 7.00–7.30 cm vs 6.54–6.86 cm, Type 3 recommended above 1,219 m — confirmed. Wikipedia 'Tennis court': surface descriptions and Grand Slam surface history (AO grass to hard 1988; USO grass to 1974, green clay 1975–77, hard since 1978) confirmed. Ingram (2019) text and Table 1: 2014 ATP season, ~64% of service points won overall, 67% grass, 62% clay; per-player surface skills; iid deviations small (Klaassen & Magnus) — confirmed. Recomputed the iid hold model: p=0.62 → 77.59% hold (2.24 breaks per 10), p=0.67 → 86.09% (1.39 per 10) — figures correct and labelled as arithmetic from the stated independence assumption, not a forecast. Worked CPR examples (17.5 / 38.5 / 54.5) recomputed — correct and labelled illustrative. Fixes: a takeaway put most grass in Category 5 alone (the ITF names grass for Categories 4–5 together) — corrected; 'friction still varies more from court to court' restated as an inference from the guide's bands (14 vs 7.5 rating points); cut an unsupported claim about what searchers find for 'court pace index'. App claims (training for the surface; styles respond differently to surfaces) match the tennis-career-sim catalog; called fictional and unaffiliated per the catalog FAQ; in-game tour name absent. Links: app page, /sports/tennis/ once, cornerstone tennis-scoring-for-beginners, 3 published related; no /tools/ links. Preflight clean; similarity max 0.010; full dry run (scratch test log) would publish. Second pass: recomputed the iid hold rates (62% -> 77.6%, 67% -> 86.1%) and the three CPR examples; re-verified the CPR constants (150, 0.81), the medium COF/COR bands, the ITF Appendix I category bands and ball-table columns (Type 1 rebound 138-151 cm; Type 3 7.00-7.30 cm) and Ingram 64/67/62%.",
+      "contentHash": "sha256:3764e0e75f634dbb5bc78609506805a35f330072f26c3e1b277fd29916e779e7"
+    },
+    {
+      "slug": "tennis-stats-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Opened all 4 sources. Wikipedia tennis glossary supports the ace, double fault, winner and break point (incl. 15–40 / 0–40) definitions, the forced/unforced error definitions, and that counting both is partly subjective. ITF Rules of Tennis 2026: Rule 24(a) two consecutive faults lose the point; Rule 22 a service let does not count and does not cancel a fault; the Rules contain no definition of an unforced error (searched). ATP stats leaderboard page: Serve, Return and Under Pressure columns as described, no error columns — confirmed. Ingram (2019): iid serve-point assumption, game/set/match probabilities derivable from serve-point probabilities, 2014 ATP season ~80 service points per match with ~51 won (~64%), deviations from iid small. Recomputed the iid hold model: p=0.60 → 73.57%, p=0.65 → 82.96% (shown as 73.6% / 83.0%; gap 9.4 = 'nearly ten') — correct and labelled as a model under the stated assumption. Recomputed worked examples: 0.60×0.75+0.40×0.50 = 65% and 0.50×0.80+0.50×0.50 = 65%; the invented stat line (labelled invented) gives X 67.5% and Y 61.2% on serve, and the 3/7 vs 1/9 break points are consistent with the text. Fixes: an FAQ said break points arise only at 30–40 or advantage — added 15–40 and 0–40; 'It is telling that' the ATP lists no errors changed to a neutral 'Notably'; the intro and an FAQ now state the independence assumption explicitly; the anchor text for tennis-scoring-for-beginners no longer claims that article explains edge amplification (it explains the win-by-a-margin rule). App claims match the tennis-career-sim catalog (decision game; attributes, style and preparation; results, form, records across seasons); fictional label allowed; in-game tour name absent. Links: app, /sports/tennis/ once, cornerstone, 3 published related; no /tools/ links. Preflight clean; similarity max 0.010; full dry run passes. Second pass: recomputed 60% -> 73.6% and 65% -> 83.0%, both 65% serve examples and the invented stat line (about 67% vs 61%; 1/9 and 3/7 break points); re-verified the ATP leaderboard columns including deciding sets won.",
+      "contentHash": "sha256:043d7b8b45dfd189c261fee9fa9402d6b954e2de06c5b768fea0521c23a3317e"
+    },
+    {
+      "slug": "tennis-rating-systems-ntrp-utr-wtn",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every system claim checked against its owner's current page. USTA 'Understanding NTRP Ratings': 1.5 (beginner) to 7.0 (touring pro) in 0.5 steps, the adult division list, some sections adding sanctioned tournaments and leagues, self-rating, 'slowly increase or decrease over time', the 1.5/3.0/6.0/6.5–7.0 descriptions — confirmed. UTR 'How UTR Rating Works' page, including its FAQ section (read from the page HTML): 1.00–16.50, the quote 'regardless of age, gender, geography or skill level' verbatim, modified elo, match rating plus match weight, up to 30 matches within 12 months, games won against expectation, daily recalculation and why a rating moves without play, the exclusions (>2.00 gap when the higher-rated player wins; fewer than 4 games before a withdrawal/retirement; walkovers and defaults not used), projected (P) rating after one match, Verified UTR from vetted events used by college coaches and providers, doubles comparing team averages — confirmed (also cross-read UTR's help-centre algorithm and doubles articles). WTN FAQ and Discover: 40–1 scale, separate singles/doubles algorithms, results since 2016, set-level analysis with game scores, weekly updates every Wednesday, decimals in some regions, confidence level from Glicko-2 rating deviation, the 15-sets-in-5-weeks example, Game zONe 35–65% and its singles ≥10 rule, the 90%-favourite three-set win example — confirmed. ATP 2026 rulebook: 'the objective merit-based method' for entry and seeding, 52-week ranking period, Slams + Masters 1000 + Finals plus best other results — confirmed. Fix: a takeaway and reading habit 3 said all three systems treat a thin record as less certain; the USTA page only says a level is established after a few matches — reworded system by system. disclaimer 'comparison' + researchDate kept: content-spec rule 6 applies because the article describes other organisations' products (UTR Rating, WTN, NTRP); borderline only in that the shared disclaimer copy is worded for app comparisons ('How we compare apps'). No disparagement; in-game tour name absent; app claims (junior events, qualifiers and draws, ranking points expiring over a rolling window) match the catalog. Links: app, /sports/tennis/ once, cornerstone, 3 published related. Preflight clean; similarity max 0.009; full dry run passes. Second pass: re-verified NTRP 1.5-7.0, divisions and \"slowly increase or decrease\"; UTR 1.00-16.50, the quoted phrase, 30 matches in 12 months, the 2.00 gap and four-game exclusions, walkovers, projected rating, modified Elo; WTN 40-1, 2016, Wednesday updates, Glicko-2, 15 sets in five weeks, 35-65% Game zONe - all against the pages published by the USTA, UTR Sports and the ITF.",
+      "contentHash": "sha256:e1d33f8b3e8f2c748384ce6960acda1e20395c4fe6584243854620d882f3987b"
+    }
+  ]
+}

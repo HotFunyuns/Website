@@ -1,0 +1,312 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person's review.",
+  "entries": [
+    {
+      "slug": "has-any-team-gone-162-0",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Sources opened 2026-10-02 (curl, browser UA). Verified: Baseball-Reference majors wins-records page (116 wins shared by 1906 Cubs and 2001 Mariners; Cubs 'in just 155 games'; 116-46 best 162-game record; 1998 Yankees 114-48 next); MLB.com best-season-by-club article dated 2026-09-27 (.763 highest since 1900, '152-game schedule' wording, 1954 Cleveland .721 AL record, 1927 Yankees .714 vs 1998 .704, 2022 Dodgers 111 most since 2001); MLB.com 2017 Cleveland streak article (22 = AL record, 1916 Giants 26); SABR 'Schedule Changes Since 1876' (1973 BRJ: 70/60/84-140 games, first 154 in 1892, 1904-60 traditional 154 broken only 1918-19, AL 162 in 1961, NL 1962, 1961 only unequal year, 168-game 1946 plan, 165-game 1968 NL plan, 1972 strike 153-156). Recomputed 0.763^162 = 9.3e-20 (about 1 in 10.7 quintillion) and the 26/162, 46/162 ratios. Changes: under new rule 10 named the record-holding clubs nominatively exactly as the cited sources name them (Cubs 1906, Mariners 2001, Yankees 1998/1927, Cleveland 1954/2017, Dodgers 2022, New York Giants 1916) in the intro, table, FAQs and takeaway; the no-affiliation line now covers club names. Corrected takeaway 'schedules have ranged from 140 to 162 games' (false: 60-, 125- and 140-game seasons exist) to 'the 154-game schedule was standard until 1960'. Replaced an unclear cornerstone anchor. Data rights: the record table is eight individually cited facts drawn from three sources; the schedule table is a 7-row summary of SABR's narrative, not its season-by-season grid. Catalog (dump-catalog) supports every app statement (draft nine plus a coach, compared stats, projection inputs, 162-0 'designed to be rare', no live results, real-player pool with own estimates; career sim fictional). No link to the perfect-season calculator (not on the allowed list). Similarity max 0.022; preflight clean; publish dry-run complains only of the missing log entry.",
+      "contentHash": "sha256:fb73de9fd50021d82919cf5192ba9457ba826dcd3f8a0aa87b91918cbf3537bc"
+    },
+    {
+      "slug": "baseball-rules-for-beginners",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every rule citation checked in the 2026 OBR PDF text: 7.01(a), 7.01(b)(2)(A)-(C), 5.08(a) exceptions, 5.09(a)(1)-(2), 5.09(b)(5) comment (foul tip), 5.09(c)(1) and comment quote, 5.06(b)(1) 2026 retouch amendment and Appendix 6, 5.05(a)(6), 4.05, 6.01(a) penalty, 5.05(b)(3); definitions of OUT, FORCE PLAY (quote and comment example), CATCH (quote), STRIKE, BALL, STRIKE ZONE, BASE ON BALLS (intentional walk); foreword on amateur use. MLB.com glossary: regulation game (15-out wording), force play, obstruction, ground rules (catwalk example), DH (1973, NL via 2022-26 CBA, pre-game designation, 2022 two-way flexibility). MLB ABS press release (two challenges, successful ones retained, pitcher/catcher/batter only, no help). MLB report of 2026-02-12 (no contact to draw obstruction; intentional interference in a rundown = out). Fixes: postseason exemption was cited as 'Rule 7.01(g)' - it is Rule 7.02(g); rewritten naming the four series. The force-play example relied on a runner on third that its setup omitted - now 'runners on first and third', matching the rulebook comment. Added one sourced sentence that ABS challenges are judged on a height-based zone (53.5%/27% of certified height), since the rulebook zone alone no longer describes 2026 MLB. Reworded a claim that two-way-players-explained 'covers' the 2022 DH change (it does not). Data rights: tables are original. Catalog claims (situations the sim models; fictional league; draft pool real-player with own estimates) match. No calculator link added (none fits).",
+      "contentHash": "sha256:12efc09f7b6afdbb6ade5e08cef7e4c12adf4ec2ce350b87b11ccaa706a48f37"
+    },
+    {
+      "slug": "infield-fly-rule",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every quotation and rule matched against the 2026 OBR text: INFIELD FLY definition and comment (ordinary effort not grass/base lines, outfielder catch, not an appeal play, 'Infield Fly, if Fair', untouched-ball bounce rules, interference ruling, 'The infield fly rule takes precedence'), 5.09(a)(5), 5.09(a)(12) and approved ruling, 5.09(b)(7) exception, 9.09(c)(1) putout, ORDINARY EFFORT and LINE DRIVE definitions, FORCE PLAY quote. MLB.com infield-fly glossary (purpose). Little League help-centre page (four elements, verified in full) and Rule 2.00 FAQ (rule unchanged by division but ordinary-effort judgement varies; many leagues skip it in lower Minor divisions; not used in Tee Ball; uncalled infield fly is a correctable error with runners at time-of-pitch bases). One attribution fix: two of the 'four points' credited to the official comment are in the definition itself - now 'the infield fly definition and its official comment'. Data rights: original tables. App statements match the catalog; the article explicitly does not claim how any simulator rules on plays.",
+      "contentHash": "sha256:47094fd9600c50581891c4fe3b4661a87ad0b6528a597e160e21cd25dd547e83"
+    },
+    {
+      "slug": "what-is-a-balk-in-baseball",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All 13 balk actions, the penalty, both approved rulings and the 6.02(a) comment (purpose quote, intent, straddling, full turn to second, legal feint to second, free-foot comment) checked in OBR 2026 6.02(a)-(b) and comment; also 5.07(a)(1)/(2) and comments (two positions, windup options, complete stop 'must be enforced', 'beat the rule', no stop needed with bases empty/quick pitch, presumed Set Position, drop hands, second step), 5.07(e) and comment, 5.04(b)(2) comment (batter-caused interruption), 5.02(a), 9.12(f), 9.16(a). MLB balk and pitch-timer glossary entries (first balk rules 1898, pitch waved off, two disengagements, reset on advance, failed third pickoff = runner advances, exclusions). Little League balk page (Intermediate 50/70, Junior, Senior only; illegal-pitch rule below). The writer's discrepancy note is accurate: MLB's balk and pitch-timer entries still say 'all five of its allotted mound visits' and cite 'section 8', while OBR 5.10(m)(1) says four. Strengthened the note with MLB's own pace-of-play entry ('As of 2024 ... four mound visits'), added as a source, so the current figure rests on the rulebook and a current MLB page. Data rights: the 13-row table paraphrases the rulebook list in our own words with an original 'what the runner is misled about' column; quotations are short and attributed - judged rule explanation, not reproduction.",
+      "contentHash": "sha256:eb8991fb806573d133d9a1e7937130e3b99af894c39c17ca8cb161e08afdff13"
+    },
+    {
+      "slug": "dropped-third-strike-rule",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified in the 2026 OBR text: 5.05(a)(2) and comment (dirt circle), 5.05(a)(3) (swing at a bounced pitch after two strikes 'cannot be caught'), 5.09(a)(2) comment (legally caught, umpire rebound), 5.09(a)(3), 5.09(a)(10), 5.06(c)(7) comment (deflection off umpire, lodged ball), 6.01(a)(1), 9.15(a)(1)-(3), 9.13(a)/(b) (strikeout plus WP/PB), 9.12(f)(2) (fielder's choice), 9.16(a) (wild pitch on third strike can be earned), 9.10(b)(1) (pitcher assist). MLB strikeout glossary ('if it is open or if there are two outs'; strikeout still credited), MLB passed-ball glossary (WP vs PB effect on ERA), Little League Rule 6.00 FAQ (batter who runs when already out is not interfering). Decision tables and the four-strikeout inning are internally consistent. No changes needed. Data rights: original tables. App statements (catcher and closer asked different questions; strikeouts/ERA/WHIP tracked) match the catalog; career-sim guide does describe catcher as a specialised, demanding first path.",
+      "contentHash": "sha256:61781a15c5edfdd0bf6d78af2db4e885f7426b6296ecb4e6308146defc0d993a"
+    },
+    {
+      "slug": "pitch-clock-rules",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Timer figures confirmed on two current MLB.com glossary pages (pitch timer; pace of play): 30 s between batters, 15 s with bases empty, 18 s with runners (20 in 2023, 18 from 2024), automatic ball/strike, batter alert by 8 s, reset on pickoff or step-off, two disengagements with reset on advance, umpire discretion. The OBR 2026 text has no timer (5.07(c) still a 12-second bases-empty rule) and the article says the figures come from MLB.com. MLB's 2026-02-12 rules report names ABS as the biggest 2026 change plus two umpire-guidance changes, so the 2024 timer stands; web search was unavailable in this session, so no further independent check. Mound visits: OBR 5.10(m)(1) four per nine plus one per extra inning; pace-of-play page confirms four 'as of 2024' plus a ninth-inning visit; the article correctly flags the stale 'all five' on the pitch-timer page. Shift rule 5.02(c)(i)-(iii), comment quote and 2025 penalty (OBR + shift glossary); 2.03 18-inch bases, 15-inch tradition, 4.5-inch shorter paths (base-sizes glossary); extra-innings runner 7.01(b)(2), earned-run treatment, 2020-22 history and permanence (designated-runner glossary); ABS release details. Fixes: postseason exemption 'Rule 7.01(g)' corrected to 7.02(g); FAQ and table said infielders must be 'on the infield dirt' - the rule is 'in front of the outer boundary of the infield dirt' (infield grass allowed), corrected; worked example no longer calls a pickoff the 'next pitch'. Data rights: original tables.",
+      "contentHash": "sha256:9d18af19370a4c65fea65971bc814ebf3b123b78703935ec18e4b525f7178d25"
+    },
+    {
+      "slug": "baseball-positions-by-number",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Position numbers, 6-3 and 7 examples and 'U' verified on MLB's scorekeeping glossary; 60 ft 6 in from the back point of home plate and the 90-ft square on the field-dimensions glossary; OBR 2026 5.02(a) (catcher 'directly back of the plate'), 5.02(c) ('anywhere in fair territory', positioning limits, comment), PITCHER and OUTFIELD definitions (quotes), infield-fly 'infielders', 3.04 (38 in / 15.5 in), 3.05 (13 x 8 in), 3.07 (colour rule), 9.09(b)(1), 9.10; MLB force-play and DH glossary quotes; shift glossary (2025 penalty, no four-outfielder alignments); FanGraphs positional-adjustment page (values, 1,458 innings, decade-old position-switch study, DH maybe too negative, catcher a bit too large, 'as guides more than as firm rules', no left-handed shortstops). Changes: 'catcher's putout column climbs with every strikeout' corrected to 'almost every' with the uncaught-third-strike exception. Data rights: the article reproduced FanGraphs' complete positional-adjustment table (all nine values); replaced with prose quoting the end points (catcher +12.5, shortstop +7.5, first base -12.5, DH -17.5) and the ordering of the middle positions, attributed. App statements (nine players and a coach, position fit in the projection, career positions, catcher/closer questions, fictional league) match the catalog.",
+      "contentHash": "sha256:f47c0d065f29ada689cad6697ca09ab14a50bc462739b920dfc0de12a8fc6114"
+    },
+    {
+      "slug": "how-to-keep-score-in-baseball",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Method, symbols, corner convention and circled-run notation checked against MLB's scorekeeping glossary (opening quote verified; the 'called out on strikes' cell is blank in MLB's table, so the backwards-K wording is accurate). OBR 2026: 9.01(a) (scorer appointed, 'sole authority', communication to data staff/press box/PA), 9.02(a)(1)(A)-(D) at-bat exclusions, 9.02 order (AB, R, H, RBI first) and pitcher records, 9.02(c)(1) comment (thirds of an inning), 9.03(b) comment (letters for substitutes), 9.03(c) proof ('balance'), 9.04 RBI on a sacrifice fly, 9.09(b), 9.10, 9.12(a)(1) comment (no touch needed; slow throw not an error), 9.15; MLB slash-line glossary. Recomputed the half-inning proof (3 AB + 1 BB + 1 SF = 1 R + 1 LOB + 3 PO = 5). Changes: box-score AB row now includes shift-violation awards (matches 9.02(a)(1)(D)); added one link to /tools/baseball/batting-average-calculator/ where the reader turns card totals into a slash line (calculator inputs checked in src/tools). Data rights: the marks table lists standard scorekeeping abbreviations (K, BB, SB, E, FC...) with our own notes - notation conventions rather than a data table; judged acceptable and kept.",
+      "contentHash": "sha256:56627d4f8727608659159bf703800020eb95345ea5f8cbac4b1f6bd72068192c"
+    },
+    {
+      "slug": "fip-vs-era",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "FanGraphs FIP page: formula, constant formula, constant 'solely to bring FIP onto an ERA scale' and 'generally around 3.10', McCracken/DIPS, weights from run-prevention value, ERA/RA9 'terrific job', long-run convergence, FIP-beating skills (running game, fly balls), season-sample caveat, not park-adjusted (FIP-), RA9-WAR. FanGraphs xFIP (Studeman, league HR/FB 9-10%, data from 2002, value vs ability, pitchers who control HR/FB). FanGraphs ERA-/FIP- (100 = average, lower better). FanGraphs pitcher WAR (ifFIP counts infield flies as strikeouts). MLB.com FIP (high BABIP -> FIP below ERA), ERA ('great defensive plays are not'; relievers) and WAR (fWAR FIP vs bWAR RA9). Formula attribution is to FanGraphs and MLB.com, which match; the article notes the publishers' WAR implementations differ. Recomputed worked examples: FIP 48/180 + 3.10 = 3.37; xFIP 22/180 + 3.10 = 3.22. Changes: removed the claim that the draft cards show ERA, WHIP and WAR 'rather than FIP' - a negative feature claim the catalog cannot support (the provenance audit lists a FIP field in that app's data); now catalog wording only. Added one link to /tools/baseball/era-calculator/ at the worked example (it computes FIP and derives the constant, per its meta). Data rights: the article reproduced FanGraphs' complete 7-row FIP rule-of-thumb chart; cut to three attributed values (average 4.20, excellent 3.20, awful 5.00).",
+      "contentHash": "sha256:a1b5b64532f6f841418ff6086fbb1eba1d53f94ee33a679be42a63660c3e9bae"
+    },
+    {
+      "slug": "babip-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "MLB.com BABIP glossary: formula, ~.300 league average, weak-contact and hard-hit skill. FanGraphs BABIP page: identical formula, ball-in-play exclusions, defence/luck/talent, sacrifice-bunt database note (quote verified), line drives > grounders > fly balls, ~800 BIP (hitters, ~2 seasons) and ~2,000 BIP (pitchers, ~3 seasons), .350 best / .260 weak hitters, .290-.310 pitchers, .380 ceiling for 4,000+ PA careers, career-baseline advice, fly-ball strikeout-pitcher exception (anonymised), 'almost always right around .300'. OBR 2026 9.02(a)(1)(A)-(C) quote. Recomputed worked example (150/520 = .288; 380 BIP; 125/380 = .329). Changes: a '.400 BABIP over a few weeks' attributed to FanGraphs did not match its example - now FanGraphs' actual .420 example and wording; removed the unsupported negative app claim 'Neither of our baseball games displays BABIP'; varied the cornerstone anchor; added one link to /tools/baseball/batting-average-calculator/ (computes BABIP) after the worked example. Data rights: only a few attributed benchmark values; the hitters-vs-pitchers table is our own synthesis. No overlapping article on the site (checked).",
+      "contentHash": "sha256:0c09d678e5f9c2a3307481140cfb1f600171276b1323945e75db74b29cc425eb"
+    },
+    {
+      "slug": "ops-plus-vs-wrc-plus",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "MLB.com: OPS+ formula and '150 = 50 percent better'; wRC+ 'will almost always look very similar' (quote verified); ERA+ formula and adjustments; park-factor method and 'ever-so-slightly adjusted' quote. FanGraphs wRC (100 = average for position players, 125/80 examples, formula, no position adjustment, context neutral), FanGraphs OPS (OBP x1.8 SLG, 'overrates power hitters' quote, FanGraphs does not house OPS+, recommends wRC+), FanGraphs wOBA (Tango, 2013 example weights, weights change yearly), FanGraphs ERA- page, Baseball-Reference batting glossary (PRO+, lgOBP*/lgSLG*, league RC with pitchers removed), MLB WAR glossary (positional adjustment). Formulas are attributed to the publishers that define them and the article explains where implementations differ (inputs, park factors, baselines). Recomputed: 100 x (1.10 + 1.10 - 1) = 120; ERA- 75 vs ERA+ 133, 50 vs 200; weight ratios 1.43 and 2.37. Changes: removed 'Both of our baseball games show raw rates rather than plus stats' (not in the catalog; the provenance audit lists OPS+ and ERA+ fields in the draft app's data, so it is probably false); removed an unsupported equivalence of a raw 1.10 park factor with '110 on the percentage scale FanGraphs uses'; varied the cornerstone anchor. Data rights: the article reproduced FanGraphs' complete 7-row wRC+ rule-of-thumb chart - cut to four attributed values; the six-weight 2013 wOBA list cut to the three weights the argument uses.",
+      "contentHash": "sha256:cc09f05fbd1347b72012a71f990a80aa27c8053f090d1390ce9ab0b72dcb18cf"
+    },
+    {
+      "slug": "how-is-war-calculated",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "FanGraphs position-player WAR page: overall formula, wRAA and batting-runs park/league corrections, BsR = UBR + wSB + wGDP, steal fixed at 0.2 runs with caught-stealing value recalculated yearly, UZR for non-catchers and rSB + RPP for catchers (the article attributes UZR to 'FanGraphs' library' and states both publishers revise fielding inputs - the library page itself still says UZR), positional-adjustment formula and 'empirically derived ... could change', league adjustment 0-5 runs, replacement level 1,000 WAR per 2,430 games, 57/43 split (570), runs per win usually 9-10 and the RS/9 x 1.5 + 3 formula. FanGraphs WAR overview: 6.4 vs 6.1 indistinguishable, 6.4 vs 4.1 distinguishable, defence and positional adjustment most uncertain, ~2 WAR average regular, 5-6 superstar, Baseball-Reference uses runs allowed with a team-defence correction. FanGraphs pitcher WAR: ifFIP, RA9 scaling, FIP park factor, dynamic runs per win weighted by IP/G, replacement 0.03/0.12, LI multiplier (1 + gmLI)/2 with chaining, final correction to 430. Baseball-Reference WAR explained: 'There is no one way to determine WAR', 'less than one to two wins' caution, .320 -> .294 after discussions with FanGraphs (retroactive), wRAA-based batting, DRS from 2003 (version notes). Runs-to-wins page: 'it would be 10', player-specific conversion and its reasoning. MLB.com WAR glossary (structure; fWAR FIP vs bWAR RA9). Recomputed worked example: (1,350/9)/162 x 7.5 = 6.94; 45.9 runs / 9.8 = 4.7 WAR; with -3 fielding 38.9 / 9.8 = 4.0. All formulas attributed to their publishers and where implementations differ is laid out step by step. Changes: added one link to /tools/multi-sport/pythagorean-expectation-calculator/ in the runs-to-wins step, with a sourced sentence that both publishers' conversions belong to the Pythagorean family (Pythagpat per FanGraphs; PythagenPat per Baseball-Reference's notes). Data rights: the article reproduced FanGraphs' complete positional-adjustment table - replaced with prose giving the four end-point values. Cannibalisation: baseball-stats-explained-for-beginners covers what WAR means in outline and owns 'why is war different on different websites'; this page stays on the calculation pipeline (primary 'how is war calculated in baseball'), and its duplicate planning long-tail 'why is war different on fangraphs and baseball reference' was removed (frontmatter only). App statements (WAR among compared stats; guide's 'sort on WAR, shortlist, decide on components' method verified in the guide; ratings are own estimates; two-way career in the sim) match the catalog.",
+      "contentHash": "sha256:fc705a0b24dbfbfb40a7b66989e2bc3410fda3bcd246e440040ef88ddb6a4cdd"
+    },
+    {
+      "slug": "types-of-pitches-in-baseball",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "MLB.com pitch-types index verified: 14 types with Statcast codes (incl. EP, FO, KC); starters 'often' three or more pitches, relievers one or two at maximum effort. Per-pitch glossary entries verified: four-seamer (quote 'almost always the fastest and straightest', ~94 mph average, 100+ fastest, high-spin 'rising' fastball, backspin 'ride'); sinker (two-seamer, arm-side and down, grounders, limits home runs, declining popularity); cutter (glove side, slightly slower, some like a hard slider, broken bats on opposite-handed hitters); slider (faster/less movement than curve, fastball-like spin, essential starter pitch, power relievers fastball + slider, 'hanger' = straight path and sub-fastball speed); sweeper (~15 in vs ~6 in break, slower, trend late 2021-early 2022, Statcast class 2023); curveball (quote 'more movement than just about any other pitch', 12-to-6); slurve (slider mid-80s, curve high 70s, slurve low 80s, 2023 class); changeup (almost every starter, fewer relievers, easy once identified, arm-side fade); splitter (Statcast off-speed despite name, slightly faster than changeup, NPB, low-spin tumble); screwball (arm side, rare, arm strain); knuckleball (little spin, used almost exclusively, hard to catch and call, easy if it does not move, little strain, pitchers into their 40s). Changes: the chart and text described the knuckle-curve, forkball and eephus with no cited source - opened MLB.com's three entries today (grip with raised knuckle; forkball jammed deeper with a wrist snap, bigger drop, more taxing; eephus very slow and high, easy for a hitter who keeps his weight back) and added them as sources. Takeaway 'a starter needs at least three pitches' softened to match MLB's 'often three or more'. App sentence said a pitching career is 'built on three attributes' - the catalog lists many; now 'the attributes the game develops include pitching control, velocity and stamina'. Data rights: the chart is our own synthesis, paraphrasing one short descriptor from each of 14 separate glossary entries plus an original 'what it attacks' column - not a reproduced table. No calculator fits; none added.",
+      "contentHash": "sha256:c2895b617659e4c400fcece321734b040478e2dd0fdb07dda369dcbef4d83222"
+    },
+    {
+      "slug": "platoon-advantage-baseball",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "FanGraphs splits library: 'a long history of research and observation' (quote verified), opposite-hand advantage, day-of-week splits trivial, 300 total PA -> 75-100 vs LHP quote, left-handed relievers face weaker right-handers, 'if you're terrible against left-handed pitching...' point, two causes (picking up the ball from same-side arm slots; pitches breaking away), slider vs same-handed / changeup vs opposite-handed. FanGraphs 'Estimating Hitter Platoon Skill' (Matt Klaassen, 2010): 2007-2009 MLB splits via wOBA described as a basic demonstration, ~8.6% LHH and ~6.1% RHH, The Book's regression (1,000 PA vs LHP for left-handed hitters, 2,200 for right-handed), more variation among lefties, quote 'splits in the retrospective mirror...', reverse example (-6.3% observed -> 2.7% after regression; player left unnamed). Recomputed the worked example: (0.20 x 300 + 0.061 x 2,200)/2,500 = 7.8%; (0.20 x 300 + 0.086 x 1,000)/1,300 = 11.2% - same method and PA-vs-LHP basis as Klaassen's examples. MLB three-batter-minimum glossary (purpose; one-batter rules through 2019); OBR 2026 5.10(g)(1) and 5.07(f); MLB cutter entry (switch-hitters and the cutter exception). The 2007-09 figures are labelled with their period throughout. Data rights: the article reproduced FanGraphs' complete 7-item platoon-by-pitch-type guide as a table - replaced with prose citing only the three items the argument uses (slider large normal; changeup and curveball small reverse). App statements: batting side and throwing hand at creation, GM Mode batting order/rotation/bullpen (catalog); the article says plainly the listing does not describe how handedness is simulated. No calculator fits.",
+      "contentHash": "sha256:c8a0ca6f3036101789bea463db8c1150d30e1b13499073725043cd9eeecd2208"
+    },
+    {
+      "slug": "minor-league-baseball-levels-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "MiLB about page: 120 full-season affiliated teams, four levels (Triple-A, Double-A, High-A, Single-A), 11 leagues, rookie leagues in Arizona, Florida and the Dominican Republic each summer, entry via draft or undrafted/international free agency, no open tryouts. MiLB teams-by-league page: league names per level (IL, PCL; Eastern, Southern, Texas; Midwest, Northwest, South Atlantic; California, Carolina, Florida State; ACL, FCL, DSL). Teams-by-affiliate page: every organisation has exactly one club per full-season level (30 x 4). MLB.com 'The MLB Farm System, explained' (2019: advanced Class A stepping stone, not every prospect stops at every level, Double-A 'biggest jump' separating true prospects, straight-to-majors jumps, Triple-A mix, rehab assignments) and MiLB 'How the Minor Leagues Work' (2016: mid-season draft reasoning, first spring training and 5+ month season, high-school vs college starting levels, Double-A 'upper minors' and major-league potential, Triple-A mix and skipped levels) - both are labelled in the text as older explainers written for an earlier structure, which they are. MLB.com 2026-03-17 article on minor-league experimental rules verified (pitch timer and ABS began in the minors; no imminent MLB arrival; per-level rules). Changes - data rights: the article re-presented essentially MLB.com's whole 2026 rundown as a 7-row table; reduced to three attributed examples (Double-A one disengagement, PCL check-swing challenge from May 5, Single-A batter timeouts) with a link to MLB.com for the full list. The ladder table lists only league names by level (structural facts, no team or stat data) and was kept. App statements: career stages and 'training and performance decide how quickly you move up' (catalog); the article states the listing does not map those stages to real levels; draft pool real-player with own estimates. Linked career-mode articles do cover progression and opportunity gating. No calculator fits.",
+      "contentHash": "sha256:f61bf3b492a93a2a57bd60251980917a7c9e912e2ed05859853d69a6224f023d"
+    },
+    {
+      "slug": "perfect-game-vs-no-hitter",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Hall of Fame 'Un-permanent records' page: 1991 Committee for Statistical Accuracy chaired by Fay Vincent, definition quote verified, three categories removed (rain-shortened, broken up in extra innings, eight-inning road losses), eight-member committee, 50 deleted, Haddix's 12 perfect innings on 26 May 1959 lost in the 13th, a rain-shortened five-inning no-hitter of September 1988. MLB.com 2020-08-05 seven-inning doubleheader article: Elias as MLB's official statistician, 'notable achievement' wording, Elias perfect-game definition (quote verified) and the placed runner 'is not a batter to reach safely'. MLB.com shutout glossary (complete game, extra innings, rain-shortened, team shutout, Rule 9.18 quote) and OBR 2026 9.18, 7.01(a), 5.05(a)(2), 9.15(a)(3). Perfect-game count: parsed Baseball-Reference's no-hitter list fetched today - exactly 24 rows flagged perfect, from 12 and 17 June 1880 to 28 June 2023, including the 1956 World Series game; the list carries 2026 no-hitter rows, so it is current and no perfect game has been added since June 2023. Official cross-check: MLB.com's page on the June 2023 game calls it 'the 24th perfect game in AL/NL history' (and its pitcher the 4th Yankee, a tally that includes the 1956 World Series game); added as a source. MLB.com's /glossary/standard-stats/perfect-game and /no-hitter URLs return empty templates and were not used. Changes: the body and FAQ now state what the count includes (two 1880 NL games, one postseason game) and excludes (games under nine innings, per 1991) and cite both counts; postseason exemption 'Rule 7.01(g)' corrected to 7.02(g). Edge-case table checked row by row against the definitions. Data rights: no list of perfect games or no-hitters is reproduced - one count with first and last dates. One historical athlete (Haddix) named nominatively for a cited record. App statements (career sim season record and fictional league; draft-guide ERA/WHIP/WAR) match the catalog; article disclaims how any sim labels hitless games.",
+      "contentHash": "sha256:83f6f7f8d4a66c0d3221ff8931d838fcf47f97b12c781b36db3af372993be8d6"
+    },
+    {
+      "slug": "is-bunting-good-in-baseball",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "FanGraphs RE24 page (Neil Weinberg, 2014): 24 base-out states, example matrix at 4.15 R/G 'roughly neutral for 2014' (extracted from the page HTML; every value the draft used matched), no adjustment for score or inning (verified). Recomputed every derived figure from that matrix: sacrifice costs -0.187/-0.203/-0.184/-0.021; squeeze +0.230 (one out) and -0.183 (nobody out), failed one-out squeeze -0.651 (2.8x the gain); steal of second break-evens 71.3/71.8/70.2%; steal of third 69.7/71.3/73.8% ('about 70 to 74'); intentional walks +0.264 and +0.168. Assumptions stated in the text: 2014-neutral 4.15 R/G environment, average hitter, no score/inning context, perfect execution; 2026 scoring (4.48 R/G, Baseball-Reference) noted as higher. Baseball-Reference year-by-year totals table verified: 2026 3,289 SB / 984 CS (77.0%), 2022 3,297 attempts at 75.4%, 2023 4,369 at 80.2%, declining each season since; sacrifice bunts 1,667 (2011), 766 (2021), 390 (2022), 682 (2026). MLB.com: sacrifice bunt and squeeze definitions, pitchers bunting in NL parks, SB% 75% rule of thumb and caught-stealing cost, intentional walk since 2017 and its purposes, win expectancy definition, base sizes (4.5 in), disengagement limit, DH via 2022-26 CBA. Data rights (main change): the draft reproduced 18 of the 24 cells of FanGraphs' run-expectancy matrix as a table plus three more in examples; the table was removed and only four matrix values are now quoted (0.831, 0.644, 1.068, 0.243) where an argument needs them, with all other figures shown as our own arithmetic and a link to FanGraphs for the full matrix; the 5-season Baseball-Reference stolen-base table was replaced by the few totals the argument uses. Accuracy: the bunt-total sentence implied a continuing decline; Baseball-Reference shows bunts rising every season since 2022, now stated. Linked articles verified (batting order matters less than roster quality; draft guide on speed and defence; beginners' SB-rate formula). App statements match the catalog and the article states the listing does not describe bunting or stealing controls.",
+      "contentHash": "sha256:11943c693a45a7bb7e0506ebfc46a25f45c8964ec02a8efeedac0e188e1feadf"
+    }
+  ]
+}

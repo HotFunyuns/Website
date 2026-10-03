@@ -1,0 +1,402 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person's review.",
+  "entries": [
+    {
+      "slug": "soccer-rules-for-beginners",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against the official IFAB Laws of the Game 2026/27 PDF (downloads.theifab.com, single pages, effective 1 July 2026) plus the online Law pages (which show deleted wording struck through; read with deletions marked) and the additional changes approved 28 April 2026: Law 1 dimensions (90-120 m x 45-90 m; international 100-110 m x 64-75 m), goal 7.32 m x 2.44 m, penalty/goal areas 16.5 m/5.5 m, mark 11 m, circle 9.15 m; Law 2 ball 68-70 cm, 410-450 g; Law 3 eleven max, fewer than seven cannot start/continue, up to five subs in official competitions, sent off after kick-off cannot be replaced; Law 4 compulsory kit; Law 5 facts final, advantage incl. the 2026/27 incorrectly-taken-restart extension, caution at next stoppage; Law 7 halves, 15-min interval, time-lost list, minimum added time can be increased not reduced, half extended for a penalty; Law 8/9/10/11/12/13/15/16/17 statements; 2026/27 changes (10-second substitution, 5-second throw-in/goal-kick countdown, one-minute off-field treatment, VAR second-yellow and mistaken identity) against the 140th AGM news page. Corrections: FAQ wrongly implied a direct free kick or penalty could score against the kicker's own team - Law 13 awards a corner for a direct free kick into the kicker's own goal, now stated; 'out of play only when...' omitted Law 9's match-official-contact case, added; substitute FAQ now notes competition rules may add an extra-time substitute and a concussion substitute. App claims match dump-catalog for soccer-draft-gm-xi and soccer-career-sim-xi (career sim called fictional, GM app not). Links: app page, hub once, cornerstone, 4 published related, category page. Preflight, dry-run (scratch log) and similarity audit (max 0.030) clean.",
+      "contentHash": "sha256:8318bf5fe26ad6648951c760f8b296d2ac86e72530d9d9764acbef72edc629a1"
+    },
+    {
+      "slug": "soccer-yellow-and-red-cards-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified line by line against the IFAB Laws of the Game 2026/27 PDF (Law 12.4 cautionable offences for players and substitutes, the two-cautions-in-proximity rule, every unsporting-behaviour item cited, goal-celebration cautions 'even if the goal is disallowed', the delaying-the-restart text after 2026/27, the sending-off list, DOGSO considerations incl. the new 'attackers', the penalty-area and handball exceptions in the DOGSO table, SPA, advantage incl. the 2026/27 no-sanction-when-a-goal-follows change, team-official warning/caution/sending-off examples, senior-coach rule, who may be shown cards, disciplinary authority incl. penalties; Law 3.6 replacement before/after kick-off; Law 10.3 cautions not carried into penalties and sent-off players excluded; sin-bin guidelines 10-15%, youth/veterans/disability/grassroots only). The two optional red cards (mouth covering; leaving the field in protest or inciting it) checked against the online Law 12 and the online Law changes page ('Additional change - approved on 28 April 2026', competition option) and the IFAB Special Meeting news item; the seven-player forfeit sentence against the same 28 April addition to Law 3.1. Changes: the opening said a sent-off player 'cannot be replaced' without qualification - now 'once the match has started' (Law 3.6 allows replacement before kick-off); one app sentence implied drafting happens inside club-management mode - reworded to keep the two catalog features separate. App claims match dump-catalog (club management: formations, squad depth, transfers, contracts, fitness; career sim fictional, Coach Trust, injuries and comebacks). Links: app page, hub once, cornerstone, 4 published related, category. Preflight, dry-run and similarity (max 0.019) clean.",
+      "contentHash": "sha256:4f80ccb84d22fc42b3be51366c6c740df52b1226566aeb19fdcf9161c1d864a0"
+    },
+    {
+      "slug": "handball-rule-in-soccer",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against the IFAB Laws of the Game 2026/27 PDF and the online Law 12 page read with deletions marked: the handling definition (armpit boundary; 'not every touch'; deliberate; 'unnaturally bigger' wording quoted exactly; scoring from hand/arm even if accidental, incl. goalkeeper), goalkeeper indirect-free-kick handling offences, Law 10 goalkeeper throw into the opponents' goal = goal kick, the card table (SPA, attempt to score, DOGSO deliberate/non-deliberate, 2026/27 advantage-and-goal = no sanction, and the deleted 'unsuccessful attempt to prevent a goal' caution). IFAB Law 12 Q&As on the online page confirm the shoulder goal, the arm-drawn-to-chest no-offence example restarting with a corner, and no caution for an attacker controlling with the hand unless attempting to score. History checked against the 2018 advisory-panel item, the 135th AGM item (2021/22 clarifications incl. armpit line for offside, team-mate goals after accidental touch) and the 138th AGM item (non-deliberate handball penalties treated like other fouls). Corrections: the 2018 item gives no meeting date, only that views go to the ABM 'scheduled for 22 November 2018', so 'November 2018' was replaced by that supported wording; unsupported months removed from the 2021/2024/2026 bullets (years kept, each supported by its cited page); an unsourced rationale for the offside armpit line replaced with the IFAB's 2021 confirmation; the formations cross-reference now describes what that published article actually covers (3-5-2 dropping into 5-3-2). App claims match dump-catalog. Links: app, hub once, cornerstone, 2 published related, category. Preflight, dry-run and similarity (max 0.021) clean.",
+      "contentHash": "sha256:0316a3dbda74729e57c0b4ca1c9ee87c65d4f1d2f66280627ad259b0a31e96bd"
+    },
+    {
+      "slug": "how-var-works-in-soccer",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against the VAR protocol in the official IFAB Laws of the Game 2026/27 PDF and the online protocol page (read with deletions marked: 'four' struck, 'five' added): exactly five reviewable categories in 2026/27 - goal/no goal, penalty/no penalty, red card incl. a clearly incorrect second caution, mistaken identity (either team), and a clearly incorrectly awarded corner kick as a competition option that is the stated exception to the principles; the sub-items listed for each; principles 2, 3, 4, 6 ('accuracy is more important than speed'); check, silent check, earpiece signal, review in a neutral situation, OFR vs VAR-only guidance and replay speeds, attacking-phase look-back, restart decisions unreviewable, post-restart reviews limited to mistaken identity and VC/spitting/biting/offensive actions, RRA/TV-signal caution and VOR sending-off, match validity. Law 5 (2026/27 technology clause incl. GLT and SAOT) and Law 6 (VAR and at least one AVAR) checked in the PDF. 'Infrequent but potentially match-changing errors' quote matches the change log. 2025/26 public-announcement option confirmed by the 139th AGM item. The set-piece offence review is correctly described as outside the Laws: the IFAB trial page (approved at the April 2026 Special Meeting, ongoing) and the World Cup clarification item. Changes: 'In May 2026' replaced by 'Ahead of the 2026 FIFA World Cup' plus the trial page's April 2026 Special Meeting (the cited item shows no date); the missed-second-yellow point (body and FAQ) reworded to state what the protocol's red-card category lists rather than an unsourced flat rule. App claims match dump-catalog. Links: app, hub once, cornerstone, 3 published related, category. Preflight, dry-run and similarity (max 0.031) clean.",
+      "contentHash": "sha256:32e0e5f039aec8197992b842a28c030927d1b3ad362a7b4d20c30088b57caefc"
+    },
+    {
+      "slug": "stoppage-time-and-extra-time-in-soccer",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against the IFAB Laws of the Game 2026/27 PDF and online pages: Law 7.1-7.5 (equal 45-minute halves, reduction only by agreement and competition rules, interval of no more than 15 minutes set by competition rules, the full time-lost list incl. drinks <=1 min and cooling 90 s-3 min, VAR delays and goal celebrations, fourth official shows the minimum at the end of the final minute, may be increased not reduced, no compensating for a first-half timekeeping error, half extended for a penalty, abandoned match replayed unless competition rules/organisers decide otherwise); Law 14 completion definition when time is extended (ball stops, goes out, played by anyone other than the defending goalkeeper, or offence by the kicker's team) incl. the halves of extra time; Law 10.2 three permitted procedures; Law 3 extra-time substitutions; the 28 April 2026 forfeit addition to Law 3.1; the time-limited substitution, countdown and off-field treatment protocols (one minute running clock, return at the start of the next period incl. before extra time and penalties). Worked example is labelled as assumed and illustrative (80+90+60+70 = 300 s). Changes: added the IFAB practical-guidelines statement that natural stoppages such as throw-ins and goal kicks earn an allowance only when delays are excessive (new source, opened today) - the current stoppage-time guidance the article lacked; removed 'February 2026' (the cited match-flow page carries no date); the formations cross-reference claimed it covered late substitutions, which that published article does not - now points to what it does cover (defending vs attacking shape). App claims match dump-catalog (career sim decision factors incl. energy and difficulty; GM club management fitness and squad depth). Links: app, hub once, cornerstone, 3 published related, category. Preflight, dry-run and similarity (max 0.030) clean.",
+      "contentHash": "sha256:201dde52f14c5dee228da9ab4432cf71ee09be6b5cb300c2314f466a8efd63fc"
+    },
+    {
+      "slug": "penalty-shootout-rules",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every procedural statement checked against Law 10.3 in the IFAB Laws of the Game 2026/27 PDF: taken after the match has ended; sent-off players excluded; cautions not carried forward; both coin tosses; eligibility (players on or temporarily off the field at the end, plus a substitute for an incapacitated goalkeeper); reducing to equate incl. 'before or during the kicks'; order not given to the referee; goalkeeper replacement rules incl. waiting for the next round; positions (centre circle, kicking team's goalkeeper at the goal line/penalty-area junction); completion; the 2026/27 accidental double-touch text; goalkeeper warning then caution; kicker offence = miss + caution; five each, early finish, sudden death, every eligible player before a second kick, order may change; no delay for a player who leaves; cards, goalkeeper sent off, no abandonment below seven. Law 14 kick details (ball touching/overhanging the centre of the mark, goalkeeper position and foot on/in line with/behind the line, forward kick and backheel, feinting) checked in the PDF; the incomplete-substitution-at-the-whistle point is the IFAB Law 3 Q&A on the online page; circular no. 31 (June 2025) and the deleted simultaneous-offence caution checked against the 140th AGM item and the change log (deletion marked). Probability box recomputed exactly and by 400,000-run simulation including the early-finish rule: level after five 27.16% / 29.02% / 31.98% for p = 0.70 / 0.75 / 0.80, decisive pair 42% / 37.5% / 32%, expected pairs 2.38 / 2.67 / 3.13 - all match; assumptions (independent kicks, equal p) are labelled and the box disclaims forecasting. No changes needed. App claims match dump-catalog. Links: app, hub once, cornerstone, 3 published related, category. Preflight, dry-run and similarity (max 0.026) clean.",
+      "contentHash": "sha256:c8671731ac23c55e6f38325e3fde56d1367246f0728c6fc11b1ca9c35938735b"
+    },
+    {
+      "slug": "soccer-substitution-rules",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Law 3 of the IFAB Laws of the Game 2026/27 PDF and the online Law 3 page: up to five used in official competitions, number set by FIFA/confederation/national FA, three to fifteen named, three opportunities plus half-time for top-division first teams and senior 'A' internationals, both-teams and same-stoppage counting, extra-time carry-over, additional substitute and opportunity, free changes before extra time and at its half-time; 2026/27 'A' international friendlies eight (eleven by agreement, three opportunities); other matches six unless agreed; return substitutes only in youth/veterans/disability/grassroots; naming before kick-off; the 2026/27 ten-second exit and the time-limited substitution protocol (one minute running clock, no cancelling, caution only if excessive, waiver for injury/safety); entry at the halfway line during a stoppage; substitution completed on entry; refusing to leave = play continues; goalkeeper changes and the both-players caution with its interval exception; Law 3.6 sent-off rules incl. named substitutes; seven-player floor and the 28 April 2026 forfeit addition. Concussion protocol checked in full (one per team, regardless of subs used, opponents' additional substitute/opportunity, opportunity rules, officials not deciding qualification); the injured-goalkeeper-with-no-subs and incomplete-substitution-at-full-time points are IFAB Law 3 Q&As; off-field treatment protocol says a substitution is not delayed. Worked example recounted (opportunities 0/1/2/2/3). Changes: added the youth-football exception to the five-substitute ceiling (General modifications, source added, opened today) in the FAQ and fixed/left-to-competitions table; worked example now states it is a top-division tie so the three-opportunity cap genuinely applies; concussion-protocol start phrased as IFAB phrases it ('following approval at the 138th AGM on 2 March 2024'). Medical framing stays procedural. App claims match dump-catalog. Links: app, hub once, cornerstone, 3 published related, category. Preflight, dry-run and similarity (max 0.022) clean.",
+      "contentHash": "sha256:4e96576a48f4c99bae35fa36dc95d358f97524e2e3d2e9cdb411c7b1c7770c74"
+    },
+    {
+      "slug": "direct-vs-indirect-free-kick",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every row of the offence-to-restart table checked against the IFAB Laws of the Game 2026/27 PDF: Law 12.1 direct offences (the seven physical offences, contact rule, handball except goalkeeper in own area, holding, impeding with contact, biting/spitting at someone on the team lists or a match official, throwing objects/held object), Law 12.2 indirect offences incl. goalkeeper handling and the deliberate trick, 12.3 (2026/27 numbering) goalkeeper eight seconds = corner kick, 12.5 physical offences against team-mates/officials direct and all verbal offences indirect, Law 11 offside IFK where the offence occurred, Law 13.1 signal, retake when the signal is forgotten, ball-enters-goal outcomes (own goal = corner for both kinds), 13.2 positions incl. the goal-area exceptions and off-field offences, stationary ball, in play when kicked and clearly moves, 9.15 m and goal-line exception, opponents outside the penalty area, 1 m wall rule for three or more, lifting with one or both feet, feinting, 13.3 quick kick and deliberate prevention caution, encroachment retake, second touch IFK/handball DFK. The 2025/26 six-second IFK to eight-second corner change checked against the 139th AGM item. Change: the penalty-kick sentence said every other player stands outside the area; Law 14 excludes the kicker and the defending goalkeeper - corrected. App claims match dump-catalog. Links: app, hub once, cornerstone, 3 published related, category. Preflight, dry-run and similarity (max 0.028) clean.",
+      "contentHash": "sha256:738ba802a12156b85f1862746441ae5996aead9c963887e5648db365cd25bf3d"
+    },
+    {
+      "slug": "soccer-restarts-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified the comparison table and every section against the IFAB Laws of the Game 2026/27 PDF: Law 8 (kick-off coin toss, positions, 9.15 m, stationary on the centre mark, in play when kicked and clearly moves, scoring only against the opponents; dropped ball for the goalkeeper inside the penalty area, otherwise for the team that would have retained/gained possession incl. the 2026/27 'from the restart' wording, fallback to the last team to touch it, dropped at the point of contact with an official or outside agent, 4 m, in play on touching the ground, no goal before two players touch it); Law 15 (delivery requirements, 2 m, in play on entering, ground-before-entering retaken by the same team, otherwise the opponents retake, throwing at an opponent, distracting/impeding the thrower cautioned, 2026/27 five-second countdown); Law 16 (any point in the goal area, in play when kicked and clearly moves, opponents outside the area and the no-time-to-leave rule, scoring against opponents only, countdown = corner kick); Law 17 (both 2025/26 and 2026/27 corner triggers listed in the current introduction, placement incl. the goalkeeper's position, flagpost, 9.15 m from the arc); second-touch and handball sanctions; Law 11 restart exemptions. Countdown details (same position, may start before possession, no penalty if already throwing, caution only for excessive further delay) checked against the countdown protocol. Change: 'the team that conceded takes it' was attached to every kick-off - now limited to kick-offs after a goal (Law 8 coin-toss rule for the halves). Cross-reference to the formations guide's width trade-offs confirmed in that published article. App claims match dump-catalog. Links: app, hub once, cornerstone, 3 published related, category. Preflight, dry-run and similarity (max 0.028) clean.",
+      "contentHash": "sha256:60d602bc140f10d8f089c7787f6c309f5dbc4bb0b6559d459f75f8f630b36a6c"
+    },
+    {
+      "slug": "soccer-rule-changes-2026-27",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked every row against the official 2026/27 sources: the 'Law changes 2026/27' section of the IFAB Laws of the Game 2026/27 PDF and the online Law changes page (deleted text marked), which adds the items labelled 'Additional change - approved on 28 April 2026' (Law 3.1 seven-player/forfeit, Law 7.5 forfeit, Law 12 competition-option red cards). Dates verified on the cited IFAB pages' own date stamps: 140th AGM item 28 FEB 26 (Hensol), Special Meeting item 28 APR 26 (Vancouver), World Cup VAR clarification 31 MAY 26, 139th AGM item 1 MAR 25 (Belfast). Verified: ten-second protocol details, five-second countdown (same spot, nearer-side corner, may start before possession), the three deleted delaying cautions and the quoted 'sufficient punishment' explanation, off-field treatment purposes and exceptions, the two optional red cards and their stated reasons, VAR four-to-five categories, the Law 5 technology clause and its 'prohibit any unofficial use' explanation, accessories quote, advantage after a faulty restart, dropped ball, penalty double touch (IFK in play, recorded miss in a shoot-out) and removed automatic caution, DOGSO/attackers, body cameras; trials correctly kept outside the Laws (VAR attacking-offence trial; goalkeeper-injury trial approved April 2026 with captain/coach-nominee variants; offside trials continuing); 'Only the captain' optional now and compulsory for competitions starting on or after 1 July 2027 (General modifications and the guidelines page). Changes: 'There are now five:' introduced a list of three items - now 'five, after three changes'; the Law 12 row now also lists the deleted caution for an unsuccessful hand/arm attempt to stop a goal after advantage, so the 'every change' description holds. App claims match dump-catalog. Links: app, hub once, cornerstone, 3 published related, category. Preflight, dry-run and similarity (max 0.031) clean.",
+      "contentHash": "sha256:2f5389e3803c7248d8f353837b7d7fe926863675b0ed550f3b069a230dc86886"
+    },
+    {
+      "slug": "handball-rule-in-soccer",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Supersedes the earlier entry. Verified against the IFAB Laws of the Game 2026/27 PDF and the online Law 12 page read with deletions marked: the handling definition (armpit boundary; 'not every touch'; deliberate; 'unnaturally bigger' wording quoted exactly; scoring from hand/arm even if accidental, incl. goalkeeper), goalkeeper indirect-free-kick handling offences, Law 10 goalkeeper throw into the opponents' goal = goal kick, the card table (SPA, attempt to score, DOGSO deliberate/non-deliberate, 2026/27 advantage-and-goal = no sanction, deleted 'unsuccessful attempt to prevent a goal' caution). IFAB Law 12 Q&As on the online page confirm the shoulder goal, the arm-drawn-to-chest no-offence example restarting with a corner, and no caution for an attacker controlling with the hand unless attempting to score. Timeline checked against the cited IFAB items and their own date stamps: advisory panels 6 NOV 18, 135th AGM 4 MAR 21 (2021/22 clarifications incl. armpit line for offside and team-mate goals after an accidental touch), 138th AGM 2 MAR 24 (non-deliberate handball penalties treated like other fouls), 140th AGM 28 FEB 26. Changes: an unsourced rationale for the offside armpit line replaced with the IFAB's 2021 confirmation; the formations cross-reference now describes what that published article covers (3-5-2 dropping into 5-3-2); the 140th AGM item added as a source and linked so the February 2026 bullet is supported (an interim edit that dropped the months was reverted once the pages' date stamps were confirmed). App claims match dump-catalog. Links: app, hub once, cornerstone, 2 published related, category. Preflight, dry-run and similarity clean.",
+      "contentHash": "sha256:5c696cc67850b2073ee3d410c6557329ae211befd7f9b923ffb76d08bb516abe"
+    },
+    {
+      "slug": "how-var-works-in-soccer",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Supersedes the earlier entry's notes (text and hash unchanged). Verified against the VAR protocol in the official IFAB Laws of the Game 2026/27 PDF and the online protocol page (read with deletions marked: 'four' struck, 'five' added): exactly five categories in 2026/27 - goal/no goal, penalty/no penalty, red card incl. a clearly incorrect second caution, mistaken identity (either team), and a clearly incorrectly awarded corner kick as a competition option that is the stated exception to the principles; the sub-items; principles 2, 3, 4, 6; check, silent check, earpiece signal, review in a neutral situation, OFR vs VAR-only guidance and replay speeds, attacking-phase look-back, restart decisions unreviewable, post-restart reviews limited to mistaken identity and VC/spitting/biting/offensive actions, RRA/TV-signal caution and VOR sending-off, match validity. Law 5 technology clause and Law 6 (VAR plus at least one AVAR) checked in the PDF. Change-log quote matches. 2025/26 public-announcement option confirmed by the 139th AGM item (dated 1 MAR 25). The set-piece offence review is correctly kept outside the Laws: trial page (approved at the April 2026 Special Meeting, ongoing) and the World Cup clarification item (dated 31 MAY 26). Edits: the set-piece paragraph now names the April 2026 Special Meeting from the trial page and frames the clarification as 'ahead of the 2026 FIFA World Cup' (the earlier 'May 2026' was also correct - the earlier note saying the item was undated was wrong); the missed-second-yellow point (body and FAQ) reworded to state what the protocol's red-card category lists rather than an unsourced flat rule. App claims match dump-catalog. Links: app, hub once, cornerstone, 3 published related, category. Preflight, dry-run and similarity clean.",
+      "contentHash": "sha256:32e0e5f039aec8197992b842a28c030927d1b3ad362a7b4d20c30088b57caefc"
+    },
+    {
+      "slug": "stoppage-time-and-extra-time-in-soccer",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Supersedes the earlier entry's notes (text and hash unchanged). Verified against the IFAB Laws of the Game 2026/27 PDF and online pages: Law 7.1-7.5 (halves, reduction only by agreement and competition rules, interval <= 15 min set by competition rules, the full time-lost list incl. drinks <= 1 min and cooling 90 s-3 min, VAR delays and celebrations, fourth official shows the minimum at the end of the final minute, may be increased not reduced, no compensating for a first-half timekeeping error, half extended for a penalty, abandoned match replayed unless competition rules/organisers decide otherwise, plus the 28 April 2026 forfeit addition); Law 14 completion definition when time is extended, incl. the halves of extra time; Law 10.2 three permitted procedures; Law 3 extra-time substitutions; time-limited substitution, countdown and off-field treatment protocols (one minute running clock, return at the start of the next period incl. before extra time and penalties). Worked example labelled as assumed and illustrative (80+90+60+70 = 300 s). Changes: added the IFAB practical-guidelines statement that natural stoppages such as throw-ins and goal kicks earn an allowance only when delays are excessive (new source opened today) - the current stoppage-time guidance the article lacked; the 140th AGM sentence reworded without the month (the earlier note saying the item was undated was wrong - it is dated 28 FEB 26 - but the reworded sentence is accurate either way); the formations cross-reference claimed it covered late substitutions, which that published article does not - now points to what it covers (defending vs attacking shape). App claims match dump-catalog. Links: app, hub once, cornerstone, 3 published related, category. Preflight, dry-run and similarity clean.",
+      "contentHash": "sha256:201dde52f14c5dee228da9ab4432cf71ee09be6b5cb300c2314f466a8efd63fc"
+    },
+    {
+      "slug": "pressing-in-soccer-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All four sources opened and read in full today. Spielverlagerung (Osmanbasic, 2017): the quoted pressing/pressure definition, the German FA six-zone model, access and its consequences (high line without pressure, compact block exposed by switches), the two no-access options incl. playing offside, the five trigger families, pressing traps, counterpressing as running the phase cycle backwards and its play-making pay-off. StatsBomb archive (Morgan, 20 May 2018): quoted counter-pressing definition, initial aim, five-second cut-off, pressure event radius (five yards, up to ten e.g. goalkeepers), counter-pressing fraction, and the causality caveat on its link with possession. Hudl/StatsBomb (Trainor, 30 Jul 2014): PPDA formula, the four defensive actions, the x>40 zone (attacking half plus a little of their own), lower = more intense, outcome not measured. arXiv 2501.04712 (Bekkers; full PDF read): PPDA lacks positional information for off-ball players, time-to-intercept from positions/velocities/reaction time, logistic transform, the stated naive independence assumption, active-pressing speed threshold, 'smart pressing' via energy expended. PPDA worked example labelled hypothetical; 240/40 = 6 and 150/15 = 10 verified. Changes: the 'nature of the pass' trigger had been embellished as 'slow or looping' (body) and 'slow or loose' (takeaway) - now the source's point that the ball cannot change direction in flight; a conclusion attributed to Trainor that he did not draw was separated from his statement; the unsupported claim that tracking data is not public for most matches replaced with what the paper says (needs full tracking data); the 'what it misses' cell for pressure events now reflects the paper's critique (speed, movement, other players' positions); the formations cross-reference claimed 4-3-3 pressing angles that published article does not discuss - now points to its high-line passage; intro made consistent with the body's attacking-third definition of a high press. App claims match dump-catalog (career sim decisions incl. press; energy, morale). Links: app, hub once, cornerstone, 3 published related, category. Preflight, dry-run and similarity (max 0.019) clean.",
+      "contentHash": "sha256:49f9049f7ed3db6ad1851fdd6eb22f78c686f6e19a0514ba730b1ea9b267cef8"
+    },
+    {
+      "slug": "low-block-vs-high-line",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All four sources opened today. Law 11 (IFAB Laws of the Game 2026/27 PDF): offside position relative to ball and second-last opponent, judged when a team-mate plays the ball, involvement required, own half exempt, no offside directly from goal kick/throw-in/corner, indirect free kick. Spielverlagerung (Osmanbasic, 2017): the quoted high-line-without-pressure sentence (exact), the drop-deeper alternative, the compactness types (spatial, tactical, staggered/synergistic), man-marking variants incl. flexible hand-overs, space-oriented man marking (zones that become man marking) and option-oriented zonal marking (ball's likely destination), and mixed schemes within one team. PLOS ONE (González-Rodenas et al., 2020): 1,971 possessions from 20 randomly selected 2017-18 Premier League matches, counterattacks 9.5%, OR 3.428 vs combinative for scoring opportunities, direct attacks OR 0.472, the quoted 'exploit imbalances' explanation and the authors' own no-extrapolation limitation. Biology of Sport via PMC (Prieto-Gonzalez, Martin, Sal-de-Rellan): ten LaLiga seasons 2013-14 to 2022-23, r = 0.410 touches, r = 0.358 possession, touches + shots conceded R2 = 0.255, set-piece metrics not significantly correlated; the article's correlation-not-cause caveat is presented as our reading, not the study's claim. Sweeper-keeper cross-reference matches the published formations article's wording. No changes needed. App claims match dump-catalog. Links: app, hub once, cornerstone, 3 published related, category. Preflight, dry-run and similarity (max 0.019) clean.",
+      "contentHash": "sha256:fbb57c259f4f54e38b1067f726a817cb92a4a8a384e91046e7b3766cfea5fb35"
+    },
+    {
+      "slug": "expected-goals-xg-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All six sources opened today. Opta Analyst xG explainer: 0-1 scale from similar past shots, the 0.1 = one-in-ten example, XGBoost on nearly one million shots from 40 competitions 2018-19 to 2021-22, 20+ variables and each listed factor, penalties a constant 0.79, the quoted 'only measuring chance quality' sentence (exact), and the gambler's-fallacy caution. Mead, O'Hare and McMenemy (PLOS ONE 2023): the listed modelling approaches (exact), predominant features distance/angle/shot type, poor prediction for above- and below-average teams, 2017-18 top-five-league data, roughly one goal every tenth shot. Davis and Robberechts (arXiv 2401.09940; abstract and full PDF): the three hypotheses and findings, AI-fairness multicalibration, and the 9%-of-shooters-over-50-shots figure. Stats Perform xGOT: post-shot, on-target only, goal-mouth location, corners credited more, goals prevented = xGOT faced minus goals conceded. Opta xA: likelihood a pass becomes an assist, regardless of whether the receiver shoots. Barthelemy et al. (J Hum Kinet via PMC): one Ligue 2 team, 71 matches, xGA 0.70 vs 1.24 in wins vs losses, p = 0.004. Worked example recomputed exactly (Poisson-binomial): totals 1.53 and 0.76, P(A scores 0) = 0.0872, P(B scores) = 0.6603, A wins 59.9% / draws 30.2% / loses 9.9% - matches; independence assumption and invented values are labelled. Changes: the study did not warn that its design 'cannot establish causation' - replaced with our own association-not-cause caveat plus the limitation the authors actually list (second-division team); the vague 'over a season or less' claim replaced with the paper's specific finding; grammar fix ('identify'); Stats Perform xGOT URL updated to the page it now redirects to (/insights/). No betting framing; app claims match dump-catalog. Links: app, hub once, cornerstone, 4 published related, category. Preflight, dry-run and similarity (max 0.018) clean.",
+      "contentHash": "sha256:0af32faaa29d9495d49e7b4975cc5a7a6863517e64699a13535c6f843d4cd637"
+    },
+    {
+      "slug": "soccer-stats-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All five sources opened today. Opta Event Definitions (Stats Perform): shot on target (quoted), last-line blocks counted on target, woodwork = off target unless it goes in, blocked shots separate, big chance (quoted; penalties always count), goal assist (quoted 'final touch from a teammate'), key pass, chances created = assists + key passes, tackle won/lost, interception, clearance, ball recovery, and sequence 'progress' in metres. Opta xA page: every completed pass valued 0-1, quoted 'regardless of whether the receiver takes a shot or not', logistic regression on hundreds of thousands of passes. Trainor's 2014 article (Hudl archive): PPDA formula, the four defensive actions, x = 40 zone and the quoted 'a little bit', lower = more intense, descriptive of intensity not success, pressing triggers. Opta xG explainer for the big-chance/xG contrast. Barthelemy et al. (J Hum Kinet via PMC): one Ligue 2 team, 71 matches, Opta data, xGA 0.70 vs 1.24 and xGCA 5.38 vs 10.92 (wins vs losses), no physical-running association, limitations as listed. Arithmetic checked: 180/20 = 9, 180/30 = 6; 30/15 = 2.00, 33/18 = 1.83. Changes: 'introduced in 2014' contradicted Trainor's own statement that he introduced PPDA in an article 'last October' (i.e. October 2013) - body and FAQ now say he floated it in October 2013 and published the zone-based version in 2014; 'no way to infer causation' is not in the study - replaced with the authors' own description (a descriptive, comparative analysis) and an association-not-cause caveat in our voice. App claims match dump-catalog (career sim chases goals, assists, clean sheets). Links: app, hub once, cornerstone, 4 published related, category. Preflight, dry-run and similarity (max 0.018) clean.",
+      "contentHash": "sha256:97b821cae2eb5bfc11ca77cddb88b588fcfb115332696318f0e81c1c4fb8c26e"
+    },
+    {
+      "slug": "how-the-fifa-world-ranking-works",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Both sources opened today. FIFA 'Revision of the FIFA/Coca-Cola World Ranking' PDF (the document the Inside FIFA procedure page currently links): SUM formula, all nine importance values, W values, We = 1/(10^(-dr/600)+1), the 1300-vs-1500 qualifier example (1317/1483), PSO W = 0.75/0.5 and the two-leg note, no negative points in knockout rounds of final competitions with its stated purpose, Elo description, the three removed problems (annual averaging, confederation weights, hosts without qualifiers), and seeding 1600 - (R-1)*4. Inside FIFA procedure page (client-rendered; confirmed in the raw page data): 'took effect in August 2018 after approval by the FIFA Council' and the reason for the name SUM. Recomputed every cell of the variation table (We = 0.31698 for the 1300 team): qualifier win +17.1, draw +4.6, window friendly +6.8, other friendly +3.4, World Cup group defeat -15.9/+15.9, quarter-final win +41.0 (loser protected), shoot-out win +26.0, shoot-out loss +11.0 with the winner +4.0; 60/5 = 12x; 600-point gap gives We = 0.909. 'No home term' is correctly limited to the published formula. Change: a takeaway said a World Cup 'knockout match' carries up to 12x a non-window friendly; I = 60 applies from the quarter-finals only (earlier knockout rounds are I = 50), so it now says that. FIFA named nominatively only; no logos or implied affiliation. App claims match dump-catalog (career sim includes international selection). Links: app, hub once, cornerstone, 3 published related, category. Preflight, dry-run and similarity (max 0.015) clean.",
+      "contentHash": "sha256:95ce7206fd35feffaa0a8ff292aea479a49b3bb171496697d92b10f5c3c98b48"
+    },
+    {
+      "slug": "promotion-and-relegation-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All four sources opened today. Premier League 'About': shareholders are the 20 member clubs plus The FA's special share; the 21-word quotation about relegated clubs transferring their shares at the AGM is exact; the 'equitable distribution of revenue' quotation is exact. Humphreys and Watanabe chapter (Springer via PMC): both quotations exact (CBA adopting the North American closed league model like the NBA; East Asian soccer leagues adopting promotion and relegation ladders like Europe and South America), and the J-League's 1999 two-tier J1/J2 system. Szymanski (2003, JEL, AEA page): abstract supports the contest framework covering prizes, revenue sharing, salary caps, draft rules and the North America/Europe comparison. Dietl, Grossmann, Hefti and Lang (2015, Scottish Journal of Political Economy 62(1), DOI 10.1111/sjpe.12060): the ZHAW handle now redirects to a client-rendered record, so the abstract was read from the same record through the repository's API - it supports all four spillover bullets, the theoretical contest-model framing and the policy-implications line. Worked illustration is explicitly hypothetical; the open/closed table and the 'should closed leagues adopt relegation' section are analysis, not reported facts. League names are nominative and cited, with no implied affiliation. No changes needed. App claims match dump-catalog. Links: app, hub once, cornerstone, 5 published related (within limits), category. Preflight, dry-run and similarity (max 0.015) clean.",
+      "contentHash": "sha256:6d60fb9fbd9f7437ddc5a531f7a4f434e36e80a5ea69a88b1c0e6ffbe27a3389"
+    },
+    {
+      "slug": "squad-depth-and-rotation-in-soccer",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Dupont et al. 2010 (Am J Sports Med 38(9):1752-1758, PMID 20400751, DOI 10.1177/0363546510361236) confirmed from its Europe PMC record: 32 players at one top-level Champions League team, 2007-08 and 2008-09, 52 home matches, no significant difference in total/high-intensity/sprint distance or sprints, injury rate 25.6 vs 4.1 per 1000 h (P < .001), the quoted 72-96 h conclusion (exact) and the rotation recommendation, level 3 cohort evidence. The cited source was a raw Europe PMC JSON API URL; replaced with the paper's DOI link (resolves to the SAGE article page; SAGE and PubMed block scripted clients, so the claims were checked against the Europe PMC record of the same paper). Allen et al. 2025 (BJSM via PMC): 3,750 games over ten seasons 2015/16-2024/25, congestion defined as the third game within 8 days, rising running loads and total/congested minutes, top-six clubs more exposed. Den Hollander et al. 2025 (Scand J Med Sci Sports via PMC): quoted injury-susceptibility sentence exact, 3 of 7 recovery studies (43%) found >= 72 h, consensus on a minimum 2 days between appearances and a weekly day off, 69% for a per-season match cap without consensus. Law 3 2026/27 substitution limits checked in the PDF. Changes: Delphi sample stated precisely (70 took part; 63 completed the final round, not '63 experts' overall); 'no more than five of the starting eleven can be replaced' now notes the extra-time and concussion allowances; the formations cross-reference now quotes what that published article says ('a single point of failure'). Medical framing stays general (explicit non-advice line). Depth-chart example is hypothetical. App claims match dump-catalog. Links: app, hub once, cornerstone, 4 published related, category. Preflight, dry-run and similarity (max 0.021) clean.",
+      "contentHash": "sha256:66740be99b9da42ebe8417ef7c4537cd1114af3977f9654c54a8be88e37d3fe1"
+    },
+    {
+      "slug": "how-soccer-academies-work",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Audience includes minors and parents: checked that there are no outcome promises, no scouting/trial tips or links, no paid-trial links, no unverifiable odds-of-making-it figures (the 0.012% figure quoted inside the McGlinchey paper is correctly not used), an explicit not-career-advice line, sensitive treatment of release with the researchers' own aftercare/counselling recommendations, and the career sim framed as fiction. Sources opened today: Premier League 'About' (EPPP sentence exact). Dugdale et al. (J Sports Sci, vol. 44, 2026; DOI 10.1080/02640414.2025.2545700) confirmed from its Europe PMC record: 604 attendees of seven SFA performance schools, 338 (56.0%) first-team professional contracts, 165 (27.3%) age-group caps, consistent by entry year and school, 'novel concept' framing, support for a centrally managed programme. The cited raw Europe PMC JSON API URL was replaced with the DOI link (resolves to the Taylor & Francis page) in sources and body. Kelly et al. 2022 (Sports, via PMC): 98 U9-U16 players over 2014-15 and 2015-16, 18 U18 (8 offered contracts, 10 not), predicted adult height, birth quarter, match-play hours, lob pass/dribble, PCDEQ Factor 3 (coping with pressure) and Factor 4 (organise and engage in quality practice), quoted conclusion exact, small-sample 'memorising' limitation. McGlinchey et al. 2022 (Frontiers, via PMC): four released former scholars in England, quoted title phrase, traumatic release meeting, marginalisation beforehand, limited aftercare, not wanting to burden parents, later growth, and the four applied recommendations. Gong et al. 2026 (Front Psychol, via PMC): 38 studies, the three stages and dates, regional emphases, quoted 'balance standardization with contextual sensitivity'. Change besides the DOI swap: added the review's own caveat that few of its studies came from the Americas (5.7%) or Africa (2.9%). App claims match dump-catalog (career stages, Coach Trust, everything fictional). Links: app, hub once, cornerstone, 4 published related, category. Preflight, dry-run and similarity (max 0.021) clean.",
+      "contentHash": "sha256:e940092ae6913925a67364ee51af54e2d99a177c2ee79fa4eefb4a152034cf48"
+    },
+    {
+      "slug": "unbeaten-league-seasons-in-soccer",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Flagged as thin; improved rather than rejected. Every record now cites an official league or club page opened today. Verified: Premier League records (fewest defeats in a season: 0, Arsenal 2003/04, sole entry; zero home and away defeats that season; longest unbeaten run 49, 7 May 2003 - 24 Oct 2004); Bayer 04 season history (quoted 'first club in the history of the Bundesliga to go a whole season unbeaten', 2-1 v Augsburg on matchday 34, 28 wins, 90 points, 89 scored, 24 conceded, 17 away unbeaten, title sealed 14 April 2024 v Werder Bremen, 51-game run ended in the 52nd match, the Europa League final); Juventus history ('ended the league campaign unbeaten' in Conte's first season, before 2012/13). Added three completed unbeaten seasons with official sources: Perugia 1978/79 (club history: second 'without ever losing a game', 11 wins, 19 draws, 41 points to Milan's 44) - now the real answer to the 'unbeaten but not champions' FAQ in place of a purely hypothetical one; Celtic 2016/17 (club historical table 38-34-4-0, 106-25, 106 pts, decoded from the page's embedded data; timeline quote 'dubbed The Invincibles...'); Rangers 2020/21 (club report of 15 May 2021: 38 Premiership fixtures 'without suffering a single defeat', 32 wins, 102 points). Preston 1888-89 still excluded: the club pages load content client-side and the EFL history/records pages do not state the unbeaten season. Removed: the unsupported 'only a handful' opening claim (replaced with the sourced Premier League/Bundesliga rarity) and Juventus's '30th' title count (the club's own tally, which differs from the official count). Added a points-gap table whose computed totals all match the published figures (90, 106, 102, 41). Probability box recomputed (0.9^38 = 1.82%, 0.95^38 = 14.2%, 0.97^38 = 31.4%, 0.75^38 = 0.0018%, 0.85^38 = 0.21%) with its independence assumptions labelled. App claims match dump-catalog, including the GM app's own FAQ on perfect vs unbeaten. Links: app, hub once, cornerstone, 4 published related, category. Preflight, dry-run and similarity (max 0.014) clean.",
+      "contentHash": "sha256:650e1f75001062a4c742a5224469939d74a2534735bab0fbd625206256d5d322"
+    }
+  ]
+}

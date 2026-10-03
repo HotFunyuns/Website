@@ -1,0 +1,312 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person's review.",
+  "entries": [
+    {
+      "slug": "nfl-kickoff-rules",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against the 2026 Official Playing Rules PDF linked from the cited operations.nfl.com 2026 rulebook page (2026 changes table: 6-1-3 setup-zone alignment, 6-1-5 touchback spot for kickoffs from the 50, 6-1-6 onside kick at any time; 19-2 is not a kickoff change): 6-1-1 note (tee, designated holder as 12th person who must leave), 6-1-2 restraining lines/setup zone/landing zone, 6-1-3 formation (five on the 35, six if more than nine; max four off the line, two per area; three outside the inbounds lines each side; returners behind the 20/30), 6-1-4, 6-1-5 (touchback 20 vs 35; 20 after any kickoff from the 50), 6-1-6 onside (declare before play clock; five per side; 10-yard receiving line; 8-9 in the 15-yard onside setup zone; untouched beyond the zone = unsportsmanlike, 15 yards and possession), 6-2-1 (no receiving block until landing-zone touch; double-team/wedge 15 yards), 6-2-4 (short/out-of-bounds kick: 25 yards from the spot of the kick), 6-2-5 illegal touching, 4-3-1 (clock starts on legal touch in the field of play), 10-2-1/10-2-4 and 11-4-3 (fair catch kick, receivers 10 yards away), 11-1 field goal 3 points. 2025 rows checked against the 2025 rulebook PDF (six on the 35/seven; max three off the line, one per area; onside any time if trailing; 35-yard touchback) and the Featured Rules page (still showing the 2025 changes); quotes checked verbatim against the 2025 and 2026 approved-rules summaries and the 2025 NFL.com report (332 more returns, 21.8% to 32.8%). Loophole arithmetic recomputed (kick from the 50 out of bounds = receiver's 25; 2025 touchback 35; 2026 touchback 20). Edits: 2024 onside described as 'fourth quarter onward' (per the NFL.com vote report), the 'every season' touchback sentence limited to balls downed in the end zone (the 2024 report spotted bounce-out-the-back touchbacks at the 30), takeaway on landing spots made precise. App claims (single fictional QB career; drives resolve with downs, distance, field position, turnovers, timeouts, clock) match dump-catalog football-career-sim; claims about the linked positions and GM-guide articles checked. Links: app, hub once, cornerstone, 2 published related, category. Similarity max 0.019; preflight clean; full dry run clean against a scratch log.",
+      "contentHash": "sha256:e5be7ddc08a27fe63e721cef3907f6b5d1e8578992c52bf12b85786c5a73ea20"
+    },
+    {
+      "slug": "nfl-overtime-rules-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Rule 16 of the 2026 Official Playing Rules (PDF linked from the cited operations.nfl.com page): 16-1-1/2 (coin toss, visiting captain calls), 16-1-3 regular season (3-minute intermission, one 10-minute period, both teams' opportunity, safety exception, next score wins, tie, two timeouts, fourth-quarter timing; 'a maximum of one 10-minute period' quoted verbatim), 16-1-4 postseason (15-minute periods, 'regardless of how many 15-minute periods are necessary' verbatim, 2-minute breaks, no halftime, ends changed after periods 1 and 3, three timeouts per half, second/fourth-period timing, third-period choice, coin toss after the fourth), 16-1-5 (defensive score on a turnover, 'applies only during kicking plays', recovered kickoff counts, replay official only, disqualified players). 2026 Record & Fact Book p.309 Overtime Procedures (half = two 15-minute periods; first possession can produce a winner on a defensive TD or safety; 2010/2012/2021/2022/2025 chronology) and Chronology pp.363-366 (1941 bylaws, 1958 first sudden-death championship game, 1974 regular-season period, 2017 cut to 10 minutes). NFL.com 2017 (player safety, short week) and 2022 (toss winners 10-2 in playoff OT since 2010) checked; 2025 approved-rules summary (Philadelphia proposal). College section checked against the 2026 NCAA Football Rules (May 2026) Rule 3-1-3 b-h. Edits: the 2025 quotation was 35 words, cut to two short quoted phrases (rule: <=25 words); worked-example table now allows Team B to go ahead after a Team A touchdown (two-point try) and states that A wins if B fails to answer a field goal; 'no game clock' (not in the NCAA text) replaced by 'no time limit: two possession series per period' (3-1-3-d). Receive-or-kick section is logic, not claims. App claims (overtime among the drive situations; fictional league) match dump-catalog football-career-sim. Links: app, hub once, cornerstone, 3 published related, category. Similarity max 0.016; preflight clean; full dry run clean against a scratch log.",
+      "contentHash": "sha256:4741663f9a2e40c649d820a8472038c6aa9eaa6fc9d428ae381247d92bf93f81"
+    },
+    {
+      "slug": "how-does-american-football-work",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against the 2026 Official Playing Rules PDF (linked from the cited operations.nfl.com page): 1-1-1 (360 x 160 feet, end zones 10 yards), 1-2-1/1-2-2 (yard lines every 5 yards, numerals in multiples of 10, inbounds lines 70 ft 9 in), 1-3-1 (crossbar in the plane of the end line, 18 ft 6 in, top 10 ft), 3-8-2/3-8-3 (series of downs; line to gain = 10 yards from the snap or the goal line), 4-1-1 (60 minutes, four 15-minute periods), 4-1-3 (13-minute halftime), 4-5 (three timeouts per half), 7-2-1(a) (down by contact, hands/feet), 7-5-1 (seven on the line, eligible receivers on both ends), 8-1-2 (one forward pass from behind the line), 11-1-2 (6/3/2/1-2), 11-3-1/11-3-2 (try spots 15 and 2; 'by either team' quoted verbatim), 11-5-1/11-5-2 (safety definition incl. the foul-in-end-zone case; free kick from the 20), 14-1-1 (declining), penalty summary (5/10/15 yards), 6-1-5 (35-yard touchback in the worked drive). Glossary (punt 'almost always' on fourth down; extra point from the 15 ~ 33-yard field goal) and the Formations page panel images ('consists of 11 players'; defense 11 in three units) checked. Worked drive recomputed play by play (own 35 to 4th and 2 at the opponent's 32; ~50-yard kick from 32+18). Edits: the field table and a takeaway said the goal posts stand on the end lines - rule 1-3-2 says they are offset from it, so both now place the crossbar in the plane of the end line; 'most defensive fouls' give an automatic first down replaced by the rule's actual structure (14-1-2 Item 5: first down unless one of the listed exceptions such as offside, encroachment, delay of game). App claims (fictional QB career; drive vocabulary; reads/targets/audibles/scrambles) match dump-catalog football-career-sim. Links: app, hub once, cornerstone, 3 published related, category. Similarity max 0.019; preflight clean; full dry run clean against a scratch log.",
+      "contentHash": "sha256:bda39460a01b5f7fdefc8903171f64cad4edeedafe9ddb0dc272ab9c69313d0b"
+    },
+    {
+      "slug": "nfl-penalties-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified clause by clause against the 2026 Official Playing Rules PDF (linked from the cited operations.nfl.com page): 7-4-2 false start (set position; interior lineman three-point stance; receiver moving forward after one full second; whistle immediately; 5 yards before the snap), 7-4-3/7-4-4/7-4-5 (encroachment, neutral zone infraction, offside at the snap), 8-2-1 intentional grounding (outside-pocket and spike exceptions; loss of down + 10 or the spot of the pass; safety from the end zone), 8-3-1 ineligible downfield (one yard; 5 from previous spot), 8-4-1..7 (chuck within five yards; illegal contact 5 + automatic first down; restrictions end when the QB leaves the pocket but holding does not), 8-5 PI (more than one yard beyond the line; defensive from the throw, offensive from the snap; uncatchable; OPI 10 from previous spot; DPI spot foul, end-zone 1-yard line or half the distance), 12-1-3(c) offensive holding (quote 'materially restrict or alter the defender's path or angle of pursuit' verbatim; inside/outside the frame; listed examples; blocking notes), 12-1-6 defensive holding, 14-1-1 declining, 14-1-2 Item 5 (the ten listed exceptions match the FAQ), 14-2-1 half the distance, 14-3-4/5/6 spots and three-and-one, 14-4-3 (multiple fouls; PF + DPI both enforced), 14-5-1 double fouls, penalty summary (5/10/15 lists incl. horse-collar, hip-drop, face mask, taunting). NCAA 2026 Rules 7-3-8 penalty (spot if fewer than 15 yards beyond the previous spot, otherwise 15 from it) and 7-3-10 (three yards) checked. All three walk-throughs recomputed (2nd and 12 at the 26; 1st and 10 at the 45; opponent's 25 vs opponent's 45). Edits: 'pass plays ... with two exceptions' was incomplete - 8-6-1 also excepts personal/unsportsmanlike fouls (and end-zone fouls), now stated; the three-and-one summary now gives the defensive exception when the run ends behind the line (14-3-6). App claims (QB career game; downs, distance, field position, timeouts, clock; fictional) match dump-catalog football-career-sim. No signal artwork reproduced. Links: app, hub once, cornerstone, 3 published related, category. Similarity max 0.007; preflight clean; full dry run clean against a scratch log.",
+      "contentHash": "sha256:861b4ae6958f43679fc69670c41bb1ab6c217935f348efd6da601063e524d319"
+    },
+    {
+      "slug": "how-do-nfl-playoffs-work",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against the 2026 Record & Fact Book (as of July 14, 2026; opened, 200): p.10 '2026 Postseason Schedule & Site Priorities' - every quoted phrase verbatim ('will receive the only bye'; seeds 2-4 and 5-7 sentence (24 words); 'no restrictions on intra-division games'; Divisional host 'to the lowest-seeded Wild Card survivor' and the other-game sentence; championship 'surviving playoff winners with the highest seeds') and the calendar (Wild Card from Sat Jan 16 2027; Divisional Jan 23-24; Championships Jan 31; Super Bowl LXI Feb 14 2027, SoFi Stadium); RFB tiebreak results ('.458 to Seahawks' .392'). NFL.com Tiebreaking Procedures: half-win/half-loss note quoted verbatim, the 12-step division list, wild-card list ('if applicable', common games minimum of four, net points in conference games), division-tiebreaker-first rule, head-to-head sweep, 'only one club advances' quote, combined-ranking example, home-field priority rules, and the selection-meeting order (1-18, 19-24, 25-28, 29-30, 31, 32). NFL.com 14-team report: 2020 start, 12 teams since 1990, 43.7 percent, the No.1-seed bye quote (21 words). Worked examples recomputed (10.5/17 = .618 vs 10/17 = .588; reseed bracket; both tiebreak examples). Edit: the claim that 'the record book's results show both top seeds entering in the Divisional round' was not found in the book; the body and FAQ now state the arithmetic the sources support (six teams per conference cut to four Divisional places = two Wild Card games, two teams resting). SOV/SOS descriptions consistent with the RFB's percentage figures and the selection procedure's opponents' aggregate percentage. App claims (Playoff Mode 'puts the whole roster under pressure'; VS Computer, Battle, Tournament; season simulator) match dump-catalog football-draft-gm-mode under its current name; pool described as built from real players' careers per content-spec rule 10, never as fictional; no app data. Links: app, hub once, cornerstone, 2 published related, category. Similarity max 0.022; preflight clean; full dry run clean against a scratch log.",
+      "contentHash": "sha256:d8649e07a85fba1be51729248285437e58db800af2ae9f79794e8e3f10401b09"
+    },
+    {
+      "slug": "has-any-team-gone-20-0",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "2026 Record & Fact Book confirmed: the URL opens (200, 22.8 MB PDF) and states 'All information in the printed version is as of July 14, 2026'. Verified in it: 1973 chronology quote ('a 17-0 season, the first perfect-record regular-season and postseason mark in NFL history') verbatim; 1972 standings block (MIAMI 20-14 Cleveland, 21-17 Pittsburgh, Super Bowl VII 14-7); 1923 Canton 11-0-1 'second consecutive undefeated season'; 2007 standings (New England 16-0 marked '#Top playoff seed'; Divisional 31-20 Jacksonville, AFC Championship 21-12 San Diego; Indianapolis entering at the Divisional round); Super Bowl XLII summary (TD pass with 35 seconds remaining; Patriots joined the 1934 and 1942 Bears as the only teams unbeaten in the regular season to lose the championship game); Most Games Won, Season (16, New England 2007); Most Consecutive Games Won, Season (13, 1934 Bears, entire season); 1934 Sneakers Game 30-13; 1942 Bears 11-0, lost 14-6; 2021 chronology (17 games, first schedule change since 1978); selection order quote. NFL.com Dolphins history ('all three playoff games, including Super Bowl VII'; 'carried an 18-0 record into Super Bowl XLII'), NFL.com 17-game report (quote verbatim), NFL.com 14-team report (bye quote), Hall of Fame ('unbeaten and untied') checked. Arithmetic recomputed (14+3, 16+3, 17+3, 17+4; 0.9^20 = 0.12, consistent with the published sim-probability article). Edits: 'scored with 35 seconds remaining' was presented as a quotation but is not the book's wording - now paraphrased; the near-miss table omitted the 1942 Bears, whom the book names with 1934 and 2007 - row and sentence added; the claim that the book shows the AFC's 'first and second seeds' entering at the Divisional round replaced by what it shows (New England, top seed, and Indianapolis). Teams named nominatively for records with citations (rule 10); no players named. App claims ('a complete run of 20 games without a single loss'; draft modes; season simulator) match dump-catalog football-draft-gm-mode under its current name; pool described as real players' careers, never fictional; no betting framing. Links: app, hub once, cornerstone, 2 published related, category. Similarity max 0.022; preflight clean; full dry run clean against a scratch log.",
+      "contentHash": "sha256:32bdbf9b0970a16e247ad3f6f5c7791f201ddbae9fbfeb81f88733d0e8cc9c25"
+    },
+    {
+      "slug": "how-does-the-nfl-salary-cap-work",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against the CBA PDF that nflpa.com/cba resolves to (March 15, 2020 executed copy): Art. 12 title and Sec. 9 (90% Minimum Team Cash Spending for 2024-26 and 2027-30), Art. 13 Sec. 1 ('the same amount for each Club', calculated under Art. 12) and Sec. 2, Sec. 5(a) ('has paid or is obligated to pay', current and former players), Sec. 6(a)(i) (year earned; top-51 rule), 6(b)(i) (both proration phrases verbatim; sole-control years excluded), 6(b)(ii)(1)-(4) (pre/post-June 1 acceleration, 'at the start of the next League Year' verbatim, two June 1 designations treated as terminated June 2, Final League Year rule, trades, contingency years), 6(b)(iii)(3) (modifications treated as signing bonus), 6(b)(v) (carry over: owner-signed notice received before 4 p.m. NYT the day after the final regular-season game; automatic reduction - matches the CBA's own example), 6(c)(i)-(iii) (LTBE on prior year; rookie year-one incentives; netting); definition 'Final League Year' = 2030; Art. 7 Sec. 3(d) (voidable years banned in rookie contracts) and 3(g) (rookie proration max four years); 'Automatic Voidable Year' quotation verbatim. NFL Football Operations: 2026 cap $301.2M, +$22M from $279.2M, first above $300M, $200M passed in 2022; contract-language page quotes ('has already paid or has committed to paying', 'must be accounted for against the salary cap', 'to create immediate cap relief'), June 1 designation, skill/cap/injury categories. All worked numbers recomputed (cap hits 12/18/22/24/24 and cash 28/14/18/20/20 = $100m; $12m dead vs $10m/$18m savings; restructure 12/29/29 and $18m dead; void-year $4m vs $10m; carry-over $9m to $6m). Edits: the guide says teams use roster bonuses to AVOID proration - the article's inference that teams 'prefer bonus structures that can be prorated' reversed it and was corrected; the guaranteed-salary bullet ('saved almost nothing') understated the effect - a guaranteed $18m would still count on top of the accelerated bonus; the carry-over takeaway now states the receipt deadline precisely; 'Most of it is signing bonus' softened to 'Typically'. Invented, labelled contract only; no real players. App claims (Salary Cap Draft quote; Franchise and GM Mode) match dump-catalog football-draft-gm-mode. Links: app, hub once, cornerstone, 3 published related, category. Similarity max 0.007; preflight clean; full dry run clean against a scratch log.",
+      "contentHash": "sha256:122c08086bf67b813cca2064bcfc5b456cae5b80826781118426bebbd346cce8"
+    },
+    {
+      "slug": "franchise-tag-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against CBA Article 10 (2020 executed copy via nflpa.com/cba): Sec. 1 (one designation; window from the 22nd day to 4 p.m. on the 8th day before the league year), 2(a)(i) (Cap Percentage Average method - five preceding years' tags over five caps times the coming cap - or 120% of Prior Year Salary; two first-round picks), 2(a)(ii) ('as of the end of the Restricted Free Agent Signing Period' verbatim; never below the non-exclusive figure), 2(b) (third tag: highest-position average, 120% of own-position top five, or 144%; the kicker-vs-quarterback example), 2(c) (skill/injury/cap guarantee), 2(d) (withdrawal -> UFA), 2(e) (Prior Year Salary definition), 2(k) (4 p.m. July 15, weekend rule, one-year only, no extension until after the last regular-season game), 3-5 (transition: one in lieu of franchise, top-ten average, five days to match, no compensation), 7(a) (the eleven positions; 'participated in the most plays' verbatim), 15(a) (Tuesday after week 10, hardship exception). NFL Football Operations franchise-tag page: 2026 window Feb 17 to 4 p.m. ET Mar 3, one franchise-or-transition tag, July 15 2026, sign tender before a trade, five-day match. Worked figures recomputed ($75m/$1.25bn = 6% x $300m = $18m; 120% floors $12m/$19.2m; second tag $21.6m; 144% = $31.1m). Edit: the cited franchise-tag page still says 2026 tag salaries would drop with a lower cap, contradicting the league's salary-cap page ($301.2M, +$22M); the article now states that conflict and which figure it uses. No real players; invented, labelled figures. App claims (QB career; contracts, trades, free agency; fictional league) match dump-catalog football-career-sim and the article disclaims any description of the game's contract model. Links: app, hub once, cornerstone, 3 published related, category. Similarity max 0.009; preflight clean; full dry run clean against a scratch log.",
+      "contentHash": "sha256:26447382e573d60b37dc96ee35a88cabce3d7a742357f6005699c4d3dab9bc75"
+    },
+    {
+      "slug": "nfl-rookie-contract-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against CBA Article 7 (2020 executed copy via nflpa.com/cba): 1(c) Total Rookie Compensation Pool quote verbatim; 1(e)-(h) club allocations ('number, round and position' quote verbatim), Year-One Formula Allotment agreed by NFL/NFLPA and shared with clubs, rookies and agents, Year-One Minimum Allotment; 2 (Baseline Year-One Pool grows with the cap's percentage increase, with a Minimum Year-One Pool Increase; no club may exceed its allocations; over-formula signing only with room; 'an absolute maximum limit' verbatim); 3(a) lengths (quote verbatim; compensatory picks included; undrafted three years); 3(b)/(c) permitted compensation incl. workout per diem from year two; 3(d) prohibited terms; 3(e) 25% Increase Rule and its $400k/$500k/$600k/$150k example; 3(g) four-year proration excluding year five; 3(k) renegotiation (quote verbatim; undrafted after year two); 4 PPE (mandatory rounds 2-7; 60%/35% Level One; 55% Level Two plus $250,000; Pro Bowl Level Three = second-round tender; highest escalator only); 7(a) 'unilateral right to extend' and the May 3 deadline; 7(e)-(g) option salary tiers (3rd-25th, 3rd-20th, transition, franchise; position from the third season) and guarantees (2018+ full on exercise, year-four shortfall guaranteed; 2016-17 injury-only). Art. 13 Sec. 5(b)(i) (unsigned draftee counts at the minimum) and 6(c)(i) (year-one incentives LTBE). NFL Football Operations contract-language page: deadline 'prior to May 1', incentive floors 35/45 and 15/30. The CBA-vs-operations-page conflict on the option deadline (May 3 vs May 1) is stated accurately with both sources. Edit: the PPE table called Level Three 'the largest of the three', which is false for second-round picks (Level Three = their own second-round tender, below Level Two = that tender + $250,000); table cell and the escalator paragraph corrected. No real players. App claims (QB career stages youth to draft; contracts, trades, free agency; fictional) match dump-catalog football-career-sim; the article claims none of the CBA figures for the game. Links: app, hub once, cornerstone, 3 published related, category. Similarity max 0.005; preflight clean; full dry run clean against a scratch log.",
+      "contentHash": "sha256:7b39a855a8e25972f11a8c8e63009f16d799d343f7967977d701f91f6e9cfd75"
+    },
+    {
+      "slug": "nfl-draft-pick-value-chart",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against NBER Working Paper 11270 (Massey and Thaler, April 2005; PDF opened): 276 draft-day trades 1988-2004; first pick = 10th + 11th = last four first-round picks; last first-round pick ~25% of the first; Table/text figures 60/39%, 41/22%, 29/15% (1988-96 vs 1997-2004); 'wrong' direction; 174% discount and the round-n/round-(n-1) rule with 'Eighteen of the 26' one-for-one future trades; 'value curve' 'caught on throughout the NFL in recent years', 'a former coach turned television commentator', ESPN.com 2003 curve matching their 1997-2004 estimate, an NFL team's 'everybody has one' (footnote 6) - all verbatim; surplus method (sixth-year compensation, first five years, 2000-2002 cap-charge sample); first pick ~60% more than the seventh; 8%/8%/9%; surplus rising through round one; 'the first pick, in fact, has an expected surplus lower than any pick in the second round' verbatim; six mid-second-round picks; loser's curse; overconfidence/winner's curse/false consensus. Ben Baldwin, Open Source Football (updated May 2, 2025): non-QB second-contract method, 4.1%/6.5%/2.4%, both quotes verbatim ('pre-2011 CBA...holds up now'; 'comes nowhere close to reflecting the true value of picks'), 'much too rosy', RB/S lowest and edge/OT highest, limits (second-contract proxy, fifth-year option, re-sign value). NFL Draft Rules page ('an asset', 'select a player or trade the pick', trades before and during the draft, seven picks plus compensatory picks at the end of rounds 3-7); CBA Art. 7 allocation quote. Hypothetical chart arithmetic recomputed (95 vs 100; 90). Edits: per the brief, the coach's name now appears only as the chart's common name (FAQ answer, origin paragraph and the 'original Johnson chart' reference reworded); no chart table reproduced. No betting framing. App claims (Franchise Mode and GM Mode extend control past draft day) match dump-catalog football-draft-gm-mode. Links: app, hub once, cornerstone, 3 published related, category. Similarity max 0.007; preflight clean; full dry run clean against a scratch log.",
+      "contentHash": "sha256:3ebe2608c1b3cf2bd5dcbb43c2e8c06a9e4ef248b251af559c910e279b8cb288"
+    },
+    {
+      "slug": "personnel-groupings-football",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "DATA RIGHTS: the article reported personnel shares and a defence cross-tab that the writer counted from the 2017 Big Data Bowl plays.csv (nfl-football-ops/Big-Data-Bowl on GitHub). Terms checked 2026-10-02: the repository has no licence (GitHub API license: null); its README says the contest closed January 25, 2019 and points to 'official rules' at ops.nfl.com/big-data-bowl, which now returns 404 (redirects to operations.nfl.com/page-not-found); the repo FAQ only says contest participants are 'invited to share ideas and findings', subject to those rules; the current operations.nfl.com Big Data Bowl page carries no data terms for the 2017 set. Nothing clearly permits publishing derived figures on a commercial site, so every figure derived from the file was removed (57.7%/19.3%/7.8% etc. usage table, the 11,557-play count, the defensive-backs cross-tab, 95.2%, the FAQ and takeaway figures), the 'NFL's own play data writes it as 1 RB, 1 TE, 3 WR' claim (format visible only in the data file, not the cited schema) was reworded as our own notation, and both Big Data Bowl sources were dropped. No citable published usage source could be verified, so the concept is now explained without figures: new section on the glossary's 'standard formation' (two backs, one TE, two WRs - quotes 'though some offenses call for two' and 'but some offenses use three or four at a time' verbatim) and a logic table of what each grouping invites; the FAQ 'Which grouping is most common?' became 'What does 21 personnel mean?'. Remaining claims verified: glossary (RB, FB, TE, WR, H-back, nickel back), Formations panel images (11 players; nickel package replaces a LB or DL with an extra DB when the offence uses additional WRs; beginner offence is 21), 2026 rulebook 7-5-1, 8-1-5, 5-3-1. Depth-chart cross-link description corrected to what that article says. App claims (lineup builder; Salary Cap Draft 'exposes the units you skimped on') match dump-catalog football-draft-gm-mode. Links: app, hub once, cornerstone, 3 published related, category. Similarity max 0.020; preflight clean; full dry run clean against a scratch log.",
+      "contentHash": "sha256:06f15d8f40340efed20f271c6fdb5491074457d862740c5ae4d05dffee4f210e"
+    },
+    {
+      "slug": "4-3-vs-3-4-defense",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "DATA RIGHTS: like personnel-groupings-football, this article reported figures the writer counted from the 2017 Big Data Bowl plays.csv (defensive-back distribution 33.7/51.4/12.6%, base groupings 17.8%/15.3%, 61.2% three-plus-receiver snaps, 11,557 plays, 'almost two to one', 64.8%). The repository has no licence (GitHub API license: null), its 'official rules' link (ops.nfl.com/big-data-bowl) is a 404, and its FAQ only invites contest participants to share findings subject to those rules; the contest closed January 25, 2019. Nothing clearly permits publishing derived figures on a commercial site, so all of them were removed (body section rewritten as 'Base fronts and the nickel package', intro sentence, takeaway, GM point 2, the FAQ 'How often...' replaced by 'Is a base 4-3 or 3-4 on the field for every snap?'), the description no longer promises frequencies, and both Big Data Bowl sources were dropped. Remaining claims verified against the NFL Football Operations Formations panel images (4-3: 'the pass rush is primarily generated by the down linemen'; 3-4: 'comes primarily from the linebackers as the defensive linemen occupy multiple offensive linemen' - both verbatim; 3-4 diagram with the outside linebackers wider than the ends; nickel package panel) and the glossary (defensive end, defensive tackle 'in a 4-3', linebacker three to five yards off, mike/sam/will roles, two cornerbacks and safeties, nickel back 'usually at the expense of a linebacker'). Strategy content is written as explanation, with no claims about specific teams. App claims (lineup builder; Salary Cap Draft wording; QB reads the defence in the career sim) match dump-catalog for both football apps. Links: app, hub once, cornerstone, 3 published related, category. Similarity max 0.020; preflight clean; full dry run clean against a scratch log.",
+      "contentHash": "sha256:bed505b7880d2c11509cbbb7bd36507bf17dfe23248d41bc0c83a01439687bc4"
+    },
+    {
+      "slug": "cover-2-vs-cover-3",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against the full texts of both cited arXiv papers (PDFs opened): Dutta, Yurko and Ventura (1906.11373, Carnegie Mellon) - the 'Cover-n' definition ('playing deep zone coverage', typically safeties, the rest man or zone closer to the line), man and zone definitions (eyes on the receiver vs the quarterback), the Cover 2 variant with cornerbacks in man and safeties in zone, Cover-1 in short yardage, Cover-4 when preventing deep passes matters most (3rd-and-20, two-minute drill); Song et al. (2603.25901, Amazon Web Services and NFL, March 2026) - conventional Cover 2 assignments (high safeties deep halves, outside corners flats, slot corners hook/curl), the rotated 'Invert Cover 2' example, ~70% of 2024 plays with every coverage defender correct at pass arrival, and the quick pass (released within 2 seconds) labelled Cover 4 by humans and Cover 2 by the model. NFL Football Operations Formations secondary panel (cornerbacks near the line opposite receivers; safeties 10-15 yards deep, last line of defense) and glossary checked; field width 160 ft = 53.3 yd (Rule 1-1-1). Zone-count table and 'thin spots' are labelled as geometry with a stated four-rusher assumption. Edits: the article twice said trained/expert labellers disagree with each other; the paper shows human labels disagreeing with the model, now stated that way (takeaway and body); unsupported 'common way' softened. App claims (single QB career; read the defence, choose the target, audible, escape pressure; archetypes offered different routes; fictional) match dump-catalog football-career-sim. Links: app, hub once, cornerstone, 3 published related, category. Similarity max 0.014; preflight clean; full dry run clean against a scratch log.",
+      "contentHash": "sha256:7da105b5062289f2a65d1018d92adc8af8cd9c597618a8a8d98f87cc7d7cdb18"
+    },
+    {
+      "slug": "rpo-vs-play-action",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against the 2026 Official Playing Rules PDF: 8-3-1 (entire body more than one yard beyond the line before the pass; legally downfield when carried while blocking an opponent engaged within one yard during the initial charge; 5 yards from the previous spot; applies on a play with a legal forward pass), 8-4-6 and 12-1-6(a) (a player who pretends to possess the ball, or to whom a teammate pretends to give it, may be tackled until he leaves the pocket area), 3-25 (pocket area: outside edges of the normal tackle positions back to the end line), 8-5-4(a) and OPI penalty (blocking more than one yard downfield clearly before the pass = offensive pass interference, 10 yards). 2026 NCAA Football Rules 7-3-10 (three yards beyond the neutral zone, any part of the body, until a legal forward pass that crosses the neutral zone; 5 yards from the previous spot). nflreadr FTN charting dictionary: is_play_action ('play-action pass') and is_rpo ('play is considered run-pass option', quoted verbatim); no charting data reproduced. Glossary handoff entry checked. The comparison and walk-throughs are labelled explanation built on those rules, with no claims about real teams or players. App claims (read the defence, choose the target, audibles, escape pressure, scramble for the first down; archetypes change the options; fictional league) match dump-catalog football-career-sim; quarterback-archetypes article does cover four archetypes. No edits needed. Links: app, hub once, cornerstone, 3 published related, category. Similarity max 0.014; preflight clean; full dry run clean against a scratch log.",
+      "contentHash": "sha256:af241997ad9c0923199d80603a52353c5bc9ab3e3f32578b9962124f4d64974f"
+    },
+    {
+      "slug": "two-point-conversion-chart",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against the 2026 Record & Fact Book (as of July 14, 2026): 'Two-Point Conversion Results, 1994-2025' (p.315) row by row for 2015-2025 - successes sum to 631 and attempts to 1,322 (47.7%), lowest 40.7% (55/135, 2024), highest 55.1% (70/127, 2023), 86 to 154 attempts a season, 2025 59/128 (46.1%); 'Games decided by 8 points or fewer' 2025 = 145 of 272 (53.3%); chronology 1994 (adoption of the two-point conversion) and 2015 (kick moved to the 15, two-point spot at the 2, defensive returns for two). 2026 rulebook 11-1-2, 11-3-1 and 11-3-2 (spots, 'by either team' two points, safety on a try = one point, no game clock during the try). Romer (2006, author's PDF): 98.4% of extra points in 1998-2000 and the quoted caveat ('is clearly not a good assumption late in a game') verbatim, with the 'excellent approximation' early. All arithmetic recomputed: margin bands, every row of both chart tables (kick/two/miss outcomes), the minus-9 case (0.94 x 0.48 = 0.48 x 0.94 = 0.45), 2 x 0.477 = 0.95 points and the ~95% break-even extra-point rate. Assumptions are stated (few possessions left, scores in 3/7/8, league-rate tries); the 94% extra-point rate is labelled illustrative. Edit: 'A try is worth gambling on' reworded to 'worth the risk' (no gambling language). App claims (late drives, red zone, timeouts, clock; fictional; own model, not a forecast) match dump-catalog football-career-sim. Links: app, hub once, cornerstone, 3 published related, category. Similarity max 0.010; preflight clean; full dry run clean against a scratch log.",
+      "contentHash": "sha256:26effbd2caa6240983dd94f3242640de97e85406f096a0cd56a5ae2ecd216039"
+    },
+    {
+      "slug": "when-to-go-for-it-on-4th-down",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Romer (2006, JPE, author's PDF): 1998-2000 first-quarter data and 11,112 situations, 2,560 kicking observations, only 118 go-for-it attempts (payoff estimated from third downs), risk-neutrality caveat, critical values (about 4 yards on own half; 6.5 at the opponent's 45; peak 9.8 at the 33; low 4.0 at the 21; always inside the 5), third-down conversion 64/44/34% at 1/5/10 yards, fourth-and-goal-from-the-2 example (about three-sevenths TD chance, indifference at ~18%, ~3 points of win probability, field goal all nine times), midfield fourth-and-3/4 example (50-50, ~6 yards, punt to about the 14), actual choices (9 of 1,604; 959 of 1,068), 0.23 points per game -> ~2.1 percentage points -> slightly more than one win every three seasons, momentum/risk-aversion checks, and the discussion of why teams kick (risk aversion over probabilities vs imperfect maximisation; little evidence to separate them). Lopez (arXiv 1909.10631v3, NFL & Skidmore College): 2017-2019 tracking distances (medians 0.70 vs 0.98 on 4th-and-1; 1.98 vs 2.06 on 4th-and-2), aggressive strategy 0.35 -> 0.22 wins per team-season, 3.8% -> 2.2% WPA per play (CI 0.6-3.4%, still positive), 'may have been overstated' verbatim. nflfastR calculate_expected_points (Details column list incl. season, home team, roof, half seconds, yard line, down, yards to go, both teams' timeouts; returns next-score probabilities) and Field Descriptions (per-play wp). The decision formulas are stated as logic; no calculator offered; outcomes framed as averages, not promises. Edit: 'after a failed gamble' reworded to 'after a failed attempt' (no gambling language). App claims (drive state: downs, distance, field position, turnovers, timeouts, red zone; fictional; not evidence or prediction) match dump-catalog football-career-sim. Links: app, hub once, cornerstone, 3 published related, category. Similarity max 0.016; preflight clean; full dry run clean against a scratch log.",
+      "contentHash": "sha256:ce8d2081f791d474c4008dacc5b355fdef5d4d811d95652467ad2fb584a1df3e"
+    },
+    {
+      "slug": "what-is-epa-in-football",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against nflfastR documentation: calculate_expected_points (Details column list: season, home team, possession team, roof, half seconds, yardline_100, down, ydstogo, both teams' timeouts; returns the probability of each next scoring event in the half and ep), Field Descriptions read from the page's data table (success = 'epa > 0'; epa; air_epa and yac_epa; qb_epa credits the passer up to a receiver's lost fumble; per-play wp and wpa; yardline_100 = distance from the opponent's end zone), the beginner's guide (success_rate = mean(success); 'EPA/play is similar for home teams and away teams because home is already built into the nflfastR EPA model'); Open Source Football model post by Ben Baldwin (xgboost decision trees, era splits 1999-2001 ... 2018 and beyond, leave-one-season-out calibration over 2000-2019 training on the other 19). Romer (2006): value of first-and-10 crosses zero around a team's own 15 and rises about a point every 18 yards, receiving a kickoff ~0.6 = first-and-10 at the 27, first-and-goal at the 1 = 5.55, 98.4% extra points -> touchdowns counted as 6.984, and the late-game caveat. Worked drive recomputed from Romer's scale (own 27 = 0.6; own 45 ~1.6; opponent first-and-10 at your 45 ~2.2 to them; interception EPA ~ -3.8; one-yard TD 6.98 - 0.6 - 5.55 = +0.8), and labelled as an illustration of the method, not current model output. No edits needed. App claims (QB career; season sheet of passing yards, TDs, interceptions, completion percentage, rushing production; drives through downs, distance, field position; fictional; own model) match dump-catalog football-career-sim. No betting framing. Links: app, hub once, cornerstone, 3 published related, category. Similarity max 0.016; preflight clean; full dry run clean against a scratch log.",
+      "contentHash": "sha256:40997b8243b9d68a72dd9a45ca88a2bacae5c53e2ff86266c4cd93f8dfb2b57b"
+    }
+  ]
+}

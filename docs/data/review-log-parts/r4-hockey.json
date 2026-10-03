@@ -1,0 +1,294 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person's review.",
+  "entries": [
+    {
+      "slug": "nhl-84-game-season",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified 2026-10-02 against the opened sources: NHL.com schedule release (16 Jul 2026: 1,344 games, 84 per team, opens 29 Sep, all 32 teams on Sat 10 Apr); NHL PR '10 things' (84 games first time in 33 years, third in 109 seasons after 1992-93 and 1993-94 with at least two neutral-site games per club and the listed cities, second September start after 2007-08, two extra games = one home and one road divisional game, matrix 28/24/32 with 42 home and 42 away); the 27 Jun 2025 MOU itself (OCR of the scanned PDF: item 1 term 16 Sep 2026 to 15 Sep 2030; item 39 / Attachment 39: s.16.1 'not more than 84 Regular Season Games', min 11 in first 30 days or 12 if the season starts before the second week of October, SPCs deemed to contemplate 84; s.15.4(b) max four exhibition games; s.15.3(a) camp 13 days for 50-game pension-credit players, 18 for others; signed 27 Jun 2025); NHL.com ratification (8 Jul 2025, 'today ratified', runs through 2029-30); Sabres CBA summary (82 since 1995-96, division rivals 3 or 4 times, max four preseason games, six Sabres exhibitions in fall 2025); NHL.com Flyers (35 games, 25-0-10, 14 Oct 1979 to 6 Jan 1980, 'longest in the history of North American major professional sports'); NHL.com Tocchet (17 straight, 9 Mar to 10 Apr 1993, record; Edmonton 16 in 2023-24); NHL.com Bruins recap (65-12-5, 135 points, NHL records for wins and points); NHL.com 1976-77 Canadiens (60-8-12, 132 points still the record in 2017, .825). Arithmetic recomputed (84/82 = +2.4%; 65/82 = .793, x84 = 66.6; 0.8^84 = 1 in 138.2M, 0.8^82 = 1 in 88.4M, ratio 1.5625). DATA RIGHTS: the NHL Terms of Service (updated 29 Oct 2025, s.7) allow use of NHL services only for non-commercial personal use and bar copying, compiling or entering NHL content into a database, so I removed every table/list derived from the api.nhle.com stats feed: the 1949-2027 schedule-length table, the 'sorted by fewest losses' list (Ottawa 1919-20, Boston 1929-30, Montreal 1943-44, Wanderers 1917-18, Chicago 2012-13), the 'fewest losses in a 70+ game season' record and the '.875 best points percentage' row, plus all four api.nhle.com sources. Kept only records the league itself publishes in NHL.com articles, each cited. Replaced schedule-history facts with single facts from Hockey-Reference season pages (48 games 1994-95 and 2012-13, 56 in 2020-21) and the 2026-27 rulebook (Rule 84: no ties, shootout). 'No team has gone unbeaten' now argued from the 35-game record (any unbeaten season would be an unbeaten run of the season's length), limited to 82/84-game schedules; takeaway and FAQ rewritten accordingly. Fixed 'has not added a new schedule length for three decades' (56 games in 2020-21 was new). App claims match dump-catalog (starting six plus coach, projected 84-game record, most rosters short of perfect, beat your best); pool described per rule 10; career sim called fictional per catalog; no affiliation stated. Teams named only for cited records. Preflight clean, dry-run clean except the missing log entry, similarity max 0.014.",
+      "contentHash": "sha256:0558a6e2860d17a1a2a48ed7e2e780fd90760c6f695223c2a4bcda1280ffcb69"
+    },
+    {
+      "slug": "hockey-rules-for-beginners",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Rules checked line by line against the NHL Official Rules 2026-2027 (current edition, downloaded and text-extracted): 1.2 rink 200 x 85 ft, 28 ft corner radius; 1.5 goal lines 11 ft from the ends, blue lines 64 ft out (diagram 11/64/50/64/11); 1.6 zone names; 1.7 light-blue crease; 1.9 and 76 nine faceoff spots; 5.1 twenty players (18 skaters, 2 goalkeepers); 74.1 change within five feet of the bench, bench minor for too many men; 77.1 three 20-minute periods; 77.2 intermission 18 minutes or as designated; 78.1 two points for a win, one for an overtime/shootout loss; 78.4-78.5 goal and disallowed-goal cases; 79 hand pass; 80 high stick; 81.1-81.4 icing race to the dots, attacking team picks the dot, no change; 82.1 visiting team changes first; 83.1 offside by the skates, 83.3 delayed offside; 15.1 delayed penalty; 16.1/16.2, 18.1, 20.1-20.2, 21.1-21.2, 22.1, 23.1 penalty lengths and expiry; 24.2/24.8 penalty shot from centre ice, fouled from behind; 84.1-84.5 overtime, shootout and playoff overtime; 87.1 one 30-second time-out. NHL video rulebook page opened (lists the infractions on video). Changes: removed the Olympics.com source (timed out twice, could not be verified); 'six per team' now cites Rule 84.3 instead of 'standard format'; cut two unsupported frequency claims ('most stoppages/most whistles in a first game come from offside'); 'five against three is the biggest advantage in the sport' narrowed to the biggest advantage penalties can create (Rule 26.1 floor of three skaters); split the 'game misconduct or match penalty' row because a match penalty also leaves the team short-handed for five minutes and does not end on a goal (21.2); replaced 'the playoffs drop the gimmicks' with neutral wording. App claims match dump-catalog (career sim: four positions, shoot/pass/defend/challenge/protect the net, fictional league; GM app: six positions plus coach, pool from real players' careers rated by the game per rule 10); no affiliation stated. Distinct from the icing/positions single-topic articles (overview linking to them). Preflight clean, dry-run clean except the log entry, similarity max 0.023.",
+      "contentHash": "sha256:6d5f25b5a0178d98ad98d3b196efd196ee8b9299b9fff77c70dde0c0363836a7"
+    },
+    {
+      "slug": "offside-in-hockey",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against the NHL Official Rules 2026-2027 (current edition): Rule 83.1 (quoted one-line rule, skates not stick, blade only, both skates over the leading edge = offside, skate touching the line or not past the vertical 'plane' = onside, puck-carrier possession-and-control exception, defending team carrying the puck back in = offside ignored), 83.3 (delayed offside: clear at the same instant by skate contact with the line or defenders move the puck to the neutral zone; whistle if an attacker touches, chases, forces back or is about to contact; clearing via the bench), 83.4 (shot creating a delayed offside cannot score unless the defenders put it in), 83.6 (raised non-whistle arm; faceoff locations for carried, shot/passed and intentional), 83.7 (intentional offside); Rule 38.2(a), 38.3/38.6 (Situation Room initiates reviews in the final minute and overtime), 38.7 (goal disallowed, clock reset), 38.8 (failed challenge minor, later failures double minor), 38.9 (puck must not leave the zone). IFAB Laws of the Game 2026/27 Law 11 opened: offside position by head/body/feet in the opponents' half relative to ball and second-last opponent, hands and arms not considered, position not an offence, judged when a team-mate plays the ball, no offence from goal kick/throw-in/corner, indirect free kick. NHL video rulebook page opened (has Off-Side, Delayed Off-Side and Possession-and-Control clips). Edits: cut three unsupported generalisations ('rarely mentioned in explainers', 'causes more confusion than any other rule in the sport', 'the blue line is where most attacks are won or lost') and clarified the category-link anchor sentence. App claims match dump-catalog; GM pool described per rule 10; no affiliation. Distinct from the soccer article how-the-offside-rule-works (no hockey content there; this page keeps 'hockey' in title and keyword and cross-links it). Preflight clean, dry-run clean except the log entry, similarity max 0.016.",
+      "contentHash": "sha256:e48379baf7df3c8f742caab45a6356c6a2d6ba7f22d5041d0b724e5ca450abb7"
+    },
+    {
+      "slug": "hockey-penalties-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every rule statement checked against the NHL Official Rules 2026-2027 (current edition): 15.1-15.2 (raised arm, minor not imposed if the non-offending team scores, majors/match still imposed), 16.1-16.2 (two minutes, least-time minor ends on a goal, not on a penalty-shot goal), 17.1 (coach designates any non-goalie), 18.1-18.2 (four minutes; half washed out on a delayed double minor), 19.1 (single coincidental minors played 4-on-4; otherwise substituted), 20.1-20.2, 20.4 (third major = automatic game misconduct), 20.6 (video review of every non-fighting major: confirm, reduce or rescind), 21.1-21.2 (deliberate injury, dressing room, five minutes served by a teammate, 15 PIM, suspended pending the Commissioner), 22.1, 23.1 (10 PIM), 23.3 (suspensions for repeated game misconducts), 24.2/24.8 (penalty-shot procedure, spin-o-rama banned, lacrosse lift below shoulder and crossbar, four conditions for a foul from behind), 25.1 (awarded goal with the goalie pulled), 26.1 (third-penalty 'delayed penalty', never fewer than three skaters), 41.5/42.5/45.5 (game misconduct with a face/head-injury major), 59.5 and 62.5 (cross-checking and spearing majors carry a game misconduct), 60.2-60.3 (high-stick minor; double minor for injury 'in the manner of drawing blood or otherwise', optional video review), 46.1-46.16 and 46.21 (fight definition, major for fighting, instigator minor + 10-min misconduct, aggressor game misconduct, third man in, helmet removal minor, taped hands / sucker punch match penalty, final-five-minutes instigator game misconduct + one-game suspension pending review + coach fine), 74.1-74.4 (five-foot rule, playing the puck during a change, goal disallowed, deliberate illegal substitution = penalty shot), 78.5(xi), 38.8; reference Tables 2 (30 minor entries), 3, 4, 7, 9 and 10; confirmed no 'double major' anywhere in the book. NHL video rulebook page opened. Edits: cut the unsupported 'the bench minor fans see most'; corrected 'that delay is pure upside ... can safely pull its goaltender' and the matching takeaway ('loses nothing'), since during a delayed penalty the non-offending team can still put the puck into its own empty net (78.5(xi)). App claims match dump-catalog; pool per rule 10; no affiliation. Distinct from power-play-and-penalty-kill (the man-advantage that follows); coordinator may still want to drop that article's 'hockey penalty types' secondary keyword as the research file recommended. Preflight clean, dry-run clean except the log entry, similarity max 0.020.",
+      "contentHash": "sha256:b70dff824b539845352b845311a3073360448136138672a4914b9cd5778cc489"
+    },
+    {
+      "slug": "how-does-nhl-overtime-work",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against the NHL Official Rules 2026-2027 (current edition): 84.1 (one point each when tied after regulation, five-minute 3-on-3, scorer wins the extra point, full-ice shovel, no intermission on the clock but ~2 minutes expected, players stay at benches, teams defend the second-period end), 84.2 (pulling the goalie forfeits the banked point on a loss unless pulled for a delayed penalty; no return on the fly, bench minor), 84.3 and Tables 15-16 (4-on-3 for a minor, coincidental minors stay 3-on-3, two-man advantage = 5 vs 3, 5-on-3 carries over, 4-on-4 becomes 3-on-3, a 5-on-4 at the end of regulation starts overtime 4-on-3, strength adjusted at stoppages, never fewer than three skaters), 84.4 (shootout: shovel, home team chooses, goalies at the goal nearest their bench, three shots then sudden death, nobody shoots twice until all eligible have, misconduct/game misconduct/match players ineligible, goalie replaced only if injured, winner credited one more goal, no goal credited to the scorer or charged to the goalie, refusal = shootout loss), 84.5 (15-minute intermission, 20-minute periods, change ends), 1.10(ii)-(iv) (shovelling; playoff-overtime snow removal at the first stoppage at or after 10:00), 24.2 (penalty-shot procedure, spin-o-rama banned), 78.1 (two points for a win, one for an OT/shootout loss), 86.3 (home team starts defending the goal nearest its bench when benches share a side; ends change each period). Tocchet NHL.com article opened (17-game streak ended with a 6-6 tie at New Jersey on 14 Apr 1993, the last day of the season). Beaudoin & Swartz paper opened (2007-08 data; five-minute 4-on-4 overtime then a three-round shootout, one point for an OT/shootout loss). DATA RIGHTS: removed the 'How the format got here' table built from the api.nhle.com season list (ties to 1998-99, loser point from 1999-2000, shootout from 2005-06) and its source, per the NHL Terms of Service (non-commercial personal use only; no compiling or derivative works); replaced with two cited facts (the 1993 tie, the paper's 2007-08 snapshot) and the current rule. App claims match dump-catalog; GM pool per rule 10; projection described as the game's own model; no affiliation. Preflight clean, dry-run clean except the log entry, similarity max 0.022.",
+      "contentHash": "sha256:b7526a47cd177956a346319e551c5dda1931d8e4f2f021815b1c8fd87039fecf"
+    },
+    {
+      "slug": "how-do-nhl-standings-work",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified: NHL Official Rules 2026-2027 Rule 78.1 (two points for any win; one for a loss decided in overtime or a shootout), 84.1 (both teams get a point when regulation ends tied) and 84.4 (shootout, so no ties); NHL.com Tie-Breaking Procedure page (rendered on 2026-10-02 with all seven steps: fewer games played 'i.e., superior points percentage', RW, ROW, total wins, head-to-head points with the 'odd game' exclusion and percentage of available points for 3+ teams, goal differential and goals scored 'including goals scored in Overtime or awarded for prevailing in Shootouts' for the entire regular season, shootout win = one goal for); NHL.com Playoff Format page (16 teams, top three per division, two wild cards per conference regardless of division, a division can send five, division winner with the best record vs the lesser wild card, second v third within the bracket, home ice in the conference finals and Final by regular-season record); Hockey-Reference glossary (PTS% = points / maximum possible points; RPt% counts 0 for an OT loss and shootout games as ties, 'the pre-2000 situation'); NHL.com 2026-27 schedule release (84 games). Worked examples recomputed (45-27-12 = 102 points in 84 games; .625 v .607). DATA RIGHTS: removed the 'How the points system got here' table built from the api.nhle.com season list (ties through 2003-04, loser point from 1999-2000, ties abolished 2005-06, ROW from 2010-11, wild card from 2013-14) and the two FAQ sentences that dated the loser point and ROW from that feed, per the NHL Terms of Service (non-commercial personal use only; no compiling or derivative works); replaced with the Hockey-Reference 'pre-2000' description and Rule 84.4, and swapped the API source for the NHL.com schedule release. Added one allowed tool link (/tools/hockey/points-percentage-calculator/) where points percentage is explained. App claims match dump-catalog (projected 84-game record, Franchise GM Mode across seasons, pool per rule 10, career sim fictional with standings/awards/playoffs); no affiliation. Distinct from how-soccer-league-tables-work and goal-difference-and-tiebreakers (both soccer). Preflight clean, dry-run clean except the log entry, similarity max 0.015.",
+      "contentHash": "sha256:8ffaf37026b12280bf1d1f6c8f48bbb43837e95873a38cc3a82629bd6a27bbd8"
+    },
+    {
+      "slug": "when-to-pull-the-goalie",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Read the whole Beaudoin & Swartz paper (SFU PDF, text-extracted) and checked every figure: 2007-08 data from all games; 25 game situations; Remark 3 (5-on-5 goal every 13.7 min), Remark 4 (6-on-5 every 8.5 min vs 28.6 road / 26.2 home at 5-on-5), Remark 5 (6-on-4 scores every 5.5, concedes every 4.8), Remark 6 (652.4 pulled-goalie minutes, 44 v 84 penalties, flagged as new); the 2007-08 norm (1:00 down one, 1:30 down two, almost never short-handed); 150 million simulated games; Tables 4-7 best strategy v current ANP (0.2527/0.2045, 0.0798/0.0512, 0.0761/0.0409, 0.0914/0.0661) and the strategy descriptions; Table 8 (83.7, 84.7, 85.2 points per 82 games); 13 teams seeded higher with 2.1 more points; quotes 'suggest that NHL coaches are too conservative' and Washburn's 'neither necessary nor sufficient for victory'; literature review (Morrison 1976, Morrison & Wheat 1986 with 2.67/7.83, Erkut 1987, Nydick & Weiss 1989, Washburn 1991, Zaman 2001 five to eight minutes); limits (single season, NHL-only scoring rates, exponential constant rates, 4- and 5-minute penalties omitted, points-based ANP, 4-on-4 overtime then). Rules checked in the 2026-27 NHL rulebook: 5.3 (any skater may replace the goalkeeper without his privileges), 25.1 (awarded goal with the net empty), 84.2 (forfeit of the banked point, delayed-penalty exception, own-goal ends the game), 15.1 and 78.5(xi) (delayed penalty). Edits: 'the most detailed study' / 'most detailed published simulation' / 'best-known study' were unsupported present-day superlatives, now 'one detailed study, which its authors described as the most comprehensive to date when they wrote it' and neutral wording; 'three-on-three changes how much a tie is worth' replaced with the supportable 'the overtime part of the model no longer matches the current game'. The paper's results are summarised selectively with attribution (two rows of each scenario table, restated in our own words), not reproduced as a table. App claims match dump-catalog and the GM guide's goaltending section; pool per rule 10; career sim fictional; no affiliation. Preflight clean, dry-run clean except the log entry, similarity max 0.020.",
+      "contentHash": "sha256:077120a74bbb1707b862fd2d94fcc0a8019cd5623b1fafa0f4e511301673e64a"
+    },
+    {
+      "slug": "what-is-corsi-in-hockey",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Sources opened 2026-10-02: Evolving-Hockey glossary (Corsi 'an unfortunate name for a standard concept: shot attempts' quoted exactly; Fenwick excludes blocked shots; xG built on unblocked shots because the NHL does not track blocked-shot locations; score/venue effects described as in the article, McCurdy's adjustment method; rate stats 'notably unstable' in low playing time with a TOI cutoff; on-ice data only from 2007-08); MoneyPuck glossary (Corsi and Fenwick definitions; on-ice credit for every event while the player is on the ice; shooting-talent-adjusted xG); Grantland 'Faker's Guide' (McIndoe, 19 Jul 2013: names not acronyms, 'only with shot attempts instead of goals', more shots than allowed = very probably more possession, PDO = on-ice Sv% + Sh% with values far from 1.000 'a red flag of especially good (or bad) luck', shot quality largely ignorable over the long term, Relative Corsi / QoT / QoC / zone starts, goals are rare so attempts give far more to work with). Worked example recomputed (FF% 59.1, CF% 58.3, Sh% 8.6, Sv% 92.0, PDO 100.6; 500/1,100 = 45.5%). DATA RIGHTS: removed the claim that 'NHL teams averaged about 28 shots on goal and about 3 goals per game in 2025-26' (the writer's own averages over the api.nhle.com team-summary feed, which the NHL Terms of Service limit to non-commercial personal use) and its API source; the 'goals are rare' point now rests on arithmetic (every goal is an attempt, so are saves, misses and blocks) and Grantland's stated rationale. Also aligned the MoneyPuck paraphrase with its wording, replaced 'the primer files them under possession statistics: nobody times possession directly' with the supported possession link, and stated PDO's 1.000/100 scale as arithmetic instead of an unsourced convention. No third-party table reproduced (all example numbers invented and labelled). App claims match dump-catalog (compare ratings and statistics, starting six plus coach, projected 84-game record; pool per rule 10; career sim fictional); no affiliation. Distinct from plus-minus-and-hockey-stats (no Corsi/Fenwick/PDO content there). Preflight clean, dry-run clean except the log entry, similarity max 0.016.",
+      "contentHash": "sha256:6604b56a1fb9027f8b88bf259184639a1029eab350c4881ed49ed99b6ea0b513"
+    },
+    {
+      "slug": "what-is-expected-goals-in-hockey",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Sources opened 2026-10-02 and every attributed statement checked: MoneyPuck glossary (xG = chance an unblocked attempt is a goal, slot rebound ~0.5 and short-handed blue-line shot ~0.01, blocked shots 0, average shooter assumed; GSAx = xGA minus goals allowed and the percentage version; xG% 0.6/0.4 = 60%); MoneyPuck About (gradient boosting, 50,000+ goals and 800,000 shots, 2007-08 to 2014-15; the 15 listed variables, regrouped in our own table; quick rebounds after a large angle change have the highest probability; the mis-recorded slap shot; flurry formula 'chance of not scoring in flurry yet x regular xG', never above 1.0 per flurry, more repeatable and predictive); Evolving-Hockey glossary (typical features, 'count the raw probability for every shot' instead of 1 as for Corsi, xG not standardised, EH/Natural Stat Trick/HockeyViz/MoneyPuck all built on NHL play-by-play, 'quite similar in aggregate' but never properly investigated, blocked-shot locations not tracked); Evolving-Hockey model write-up (Younggren & Younggren, 2018/2021: Ryder 2004 'shot quality', MacDonald 2012 Sloan, Sprigings & Toumi 2015 'became very popular', Perry, Tanner's gradient boosting vs earlier logistic regression, binary classification, four models with XGBoost trained on 7 seasons (EV, PP) and 10 (SH, EN), shot distance the first split 'the vast majority of the time', shooting-talent variable never used with 'our method was flawed' caveat and 'warrants additional research', cross-crease and stretch-pass goals with low xG because there is no passing data). Invented examples recomputed (0.46 xG; GSAx +4.0 at .913 v -3.0 at .930; flurry 0.80 x 0.50 = 0.40, total 0.60). No NHL stats-feed data and no named players; the model descriptions are methodology, not reproduced data. No edits needed. App claims match dump-catalog (starting six plus coach, projected 84-game record; pool per rule 10, game's own model, not a forecast; career sim fictional); no affiliation. Distinct from plus-minus-and-hockey-stats and hockey-goaltending-explained (neither covers xG or GSAx) and from the new Corsi article (attempts v shot quality; similarity 0.016). Preflight clean, dry-run clean except the log entry.",
+      "contentHash": "sha256:a5acebf383bc629abd0bd2e9a0701fbb784c6766f466e6d8228acf0290e3ed95"
+    },
+    {
+      "slug": "hockey-forecheck-systems",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Sources opened and text-extracted 2026-10-02. USA Hockey CEP 'Tactical: Defensive Team Play' (rev. 2/19): forechecking objective quoted exactly; 'many forechecking systems and no one system is the best', all adjustable, master at least one; personnel quality 'an important factor'; 'get an angle', 'never forecheck straight at the puck carrier', force the carrier down the side; 1-2-2 conservative and easy to teach, prevents 3-on-2 breakouts, controls the boards, encourages the defenceman to carry, off-side wing helps defensively, centre forechecks with wings wide and defence inside, puck-side point stays in as long as possible, 'should be able to beat one forechecker' with three open players; 1-1-3 two-man forecheck below the tops of the circles, centre and puck-side wing pressure, off-side wing high, RD may pinch, LD the middle, one forward back 'to prevent a three-on-two breakout', rotation with the centre's role constant, quick counter-attack from the slot. USA Hockey 'Offensive Positional Play': dump only 'as a last resort or as a pre-determined play', a forward 'must be in an advantaged position', 'doesn't make much sense'. USA Hockey Skill Progressions: teach the concepts within each system (why the player does it, what the opponent is forced to do). Los Angeles Times, Helene Elliott, 22 Jun 1995 (WebFetch is blocked for latimes.com, so opened with curl): trap mechanics (one forechecker, usually the centre, angles the carrier to the boards; four-corners/box; pass, icing before the red line or skating into traffic), 'before they gather speed', Milbury's call to ban it, Devils' scoring-chance reply, Fetisov's Sweden/Finland/Czechoslovakia recollection, Bowman adapting it with Montreal in the 1970s, New Jersey in the Final. NHL Official Rules 2026-2027: 1.6 zones, 83 offside at the attacking blue line (no two-line-pass rule in the book), 81.1/81.6 icing from own half unless short-handed. Edit: 'almost never being caught short of numbers' overstated the manual; now 'keeping enough players back to stop odd-man rushes'. People named (Milbury, Fetisov, Bowman) only as quoted in the cited 1995 report, no profiles. No team-specific claims beyond the cited history. App claims match dump-catalog (balance between scoring and defence, thin spots punished, Franchise GM Mode shores up weak positions; career sim includes challenging the puck carrier, fictional league; pool per rule 10); no affiliation. Distinct from hockey-line-combinations-explained (one passing mention of forechecking). Preflight clean, dry-run clean except the log entry, similarity max 0.013.",
+      "contentHash": "sha256:11cbdc964e0e97597b0f30f2e7c7fa51ab5f007beaf3e0e9ef56fd4908be1f22"
+    },
+    {
+      "slug": "faceoff-rules-hockey",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against the NHL Official Rules 2026-2027 (current edition), Rule 76 in full: 76.1 (goalkeeper may not take a faceoff), 76.2 (nine spots only; never within 15 ft of the goal or side boards; neutral-zone stoppages to the nearest spot outside the blue line; penalty on the clock = offending team's end zone with the three exceptions; power-play team picks the dot; scrum rule moving the faceoff to the neutral zone), 76.3 (whistle after the referee lowers his hand, five seconds, not enforced in the last two minutes or overtime; replacement for not set, no stick down, encroachment, contact, offside), 76.4 (square stance about a stick length apart, blade in the white area, defender's stick first at the eight non-centre spots and visitor's at centre; arriving late to game the clock = violation; after an icing the first violation brings a warning), 76.5 (centres may not hand the puck until a third player touches it), 76.6 (15 ft, attackers set first in the end zone), 76.7 (violation list, stick may be inside the circle without contact, minor for contact at the referee's discretion, two violations = bench minor 'Delay of Game - Face-off Violation', one warning a game for slow proceeding then a bench minor), 76.9 (clock starts at the drop); plus 1.9, 81.2/81.4/81.6, 83.6, 85.1, 86.1 and 38.4 for the location table. USA Hockey CEP 'Offensive Faceoffs' and 'Defensive Faceoffs' (rev. 2/19) opened: 60% objective, two best faceoff people on at critical times in case one is thrown out, left-handed centre in the right circle to draw to the backhand, possession v scoring off the draw, must-win draws with the goalie pulled. DATA RIGHTS: cut the '2025-26 every NHL team finished between 45.9 and 54.5 per cent, 24 of 32 between 47 and 53' range (the writer's own sort of the api.nhle.com team feed, which the NHL Terms of Service limit to non-commercial personal use) from the body, a takeaway and an FAQ, and removed the API source; the 50% point now rests on arithmetic. Also fixed a misattribution: USA Hockey's two-faceoff-players advice is about a centre being thrown out, not the NHL bench minor. App claims match dump-catalog (career sim positions incl. centre in a fictional league; centre is one of the six drafted slots; pool per rule 10); no affiliation. Distinct from hockey-positions-explained and plus-minus-and-hockey-stats (neither explains the faceoff rule). Preflight clean, dry-run clean except the log entry, similarity max 0.016.",
+      "contentHash": "sha256:afca5212fe1d22e2ed54e1274ada1c9e19dc93a4319afd4a4a53d19a58ea2ed4"
+    },
+    {
+      "slug": "how-does-the-nhl-salary-cap-work",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Current agreement and 2026-27 figures verified: NHL.com joint NHL/NHLPA release of 6 May 2026 (2026-27 Lower Limit $76.9M, Midpoint $90.4M, Upper Limit $104.0M); the 27 Jun 2025 MOU (OCR of the scanned PDF, key pages viewed as images): term 16 Sep 2026-15 Sep 2030; Attachment 3 (only two exceptions above the Upper Limit, LTI and the performance-bonus cushion; from 2028-29 Upper Limit = (HRR two years prior x 50% - projected benefits) / clubs x 115%, never below $104M, Midpoint and Lower Limit each $15M lower - confirmed on the page image); items 12, 13 and 17 'Available to Players' only; item 18 ELS deals two-way, minor-league cap $87,500 for 2026 draftees; item 19 European 25-27 rule deleted; item 24 no deferred compensation; item 25-A LTI replacement cap at prior-season average salary unless approved, then injured player out for the season incl. playoffs; 25-B playoff cap (18 skaters + 2 goalies, which bonuses count, retained salary, buyout/recapture/loan charges, Central Registry, review after the first playoffs, reopener after the second); item 26 minimum salary $850k/$900k/$950k/$1M; item 29 ELS max = greater of minimum + $175k ($1,025,000) or the draft-year figure ($1,000,000 for 2026); item 30 paper loans; item 33 ELS signing bonus 10%; item 36 bonuses 60%; item 37 variability 20%/71% (page image checked); item 38 seven/six-year terms; Illustration 6 ($850k + $375k). 2013 CBA (NHLPA PDF, text-extracted): 50.6 max 20% of the Upper Limit; 50.7 front-loaded test (first-half average above the whole-term average); 50.5(d)(i)(B)(6)-(7) buried one-way and two-way amounts; 50.10(d) LTIR (24 days and 10 games, injured salary still counts, relief up to his salary); SPC para. 13 buyout (windows, unconditional waivers, 1/3 under 26, 2/3 at 26+, Paragraph 1 salary only, twice the remaining term, UFA); 50.5(d)(iii) buyout cap method; 9.1-9.2 ELS ages, Sept 15 age date and the slide rule. 2020 MOU item 67: previous 25%/60%. Hurricanes transaction primer (LTIR room set by payroll on the day, does not accrue). Sabres CBA summary (paper loans; old LTIR-to-playoffs practice). NHLPA CBA page lists the 2013 CBA and the 2020 and 2025 MOUs. Worked examples recomputed ($8M AAV; front-loading pass/fail; buried $1,775,000; buyout $1M/yr for six years). Edits: removed the Sabres paraphrase 'a player's salary did not count while he was on LTIR', which contradicted the CBA and the article's own LTIR section; 'the cheapest roster spots the system allows' was inaccurate (a minimum-salary deal is cheaper than a maximum ELC) and is now 'a ceiling on a young player's pay'; slide rule marked 'generally' (CBA exception for some 19-year-olds). App claims match dump-catalog; pool per rule 10; career sim fictional; no affiliation. Distinct from salary-cap-basics-for-gm-games (generic, no LTIR). Preflight clean, dry-run clean except the log entry, similarity max 0.031 (with the offer-sheet article).",
+      "contentHash": "sha256:76c51eab9d5799637be69a4a2fc3e2fab433e3b992fc13ff85e27504d638c3d7"
+    },
+    {
+      "slug": "nhl-offer-sheet-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against the 2013 CBA text (NHLPA PDF, text-extracted), the 2020 MOU and the 27 Jun 2025 MOU (OCR, pages viewed): 10.1(a) Group 3 (27 by June 30 or seven accrued seasons); 10.2(a) Group 2 experience chart and how a year is earned, arbitration bars offer sheets except 12.3(a)/12.10, QO deadline (5 p.m. NY, later of June 25 or the first Monday after the draft), not open before July 1, expires 15 July unless extended, one-way QO test (180 games in three seasons, 60 last season, no waivers since 12 days before the prior season), no QO and no club arbitration = UFA; 10.2(c) players short of the experience test can only negotiate with their club; 10.3(a)-(h) seven days, right of first refusal not tradeable, one-year no-trade after matching, principal terms (term, Paragraph 1 salary, signing and reporting bonus) fixed and readily determinable, irrevocable, picks encumbered at once or the sheet is void, several sheets only with picks for all; 50.5 offer-sheet accounting (counts from issuance; payroll room and picks for all outstanding sheets); 10.4 compensation by total / lesser of years or five, the seven-tier 2013 chart (all six thresholds match), annual increase at the Average League Salary's rate from 2014-15, own picks only, availability rules; 11.4 December 1 deadline; 12.1 arbitration chart, 12.2 July 5 5 p.m., 12.3(a) club election above $1.75M (indexed) in lieu of a QO, 12.3(b)/12.4(b) 24 hours after the player deadline, 12.3(c)-(d) once per career, twice per league year. 2020 MOU item 68: QO capped at 120% of AAV, $3M/$6M/$9M -> $7.2M. 2025 MOU item 32: QO thresholds $1.25M/110%, to $1.75M/105% capped, $1.75M+/100%; item 38: six-year limit for a club without the player's rights since the trade deadline; items 12, 13, 17 player-only, as the article says. NHLPA CBA page lists all three documents. The compensation table is the CBA's own 2013 base chart, labelled as indexed: confirmed accurate; I could not find an official league or union publication of the current-year thresholds, so I tightened the label ('the thresholds in force today are not these figures', indexed from 2014-15) instead of the unprovable 'higher than these'. Also qualified the takeaway that arbitration ends offer-sheet eligibility (12.3(a)(iv) exception). Worked example ($48M over six years: $8M AAV, $9.6M for compensation) checked. App claims match dump-catalog; pool per rule 10; career sim fictional; no affiliation. Distinct from free-agency-explained (no offer sheet, QO or arbitration content). Preflight clean, dry-run clean except the log entry, similarity max 0.031.",
+      "contentHash": "sha256:eb00a7756da11ab433fe5076ed313f37f040fc8d2bfff459b018e324fcb0dbe0"
+    },
+    {
+      "slug": "how-do-nhl-waivers-work",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against the 2013 CBA (NHLPA PDF, text-extracted) and the 27 Jun 2025 MOU (OCR): 13.1-13.2 (regular and unconditional waivers; playing-season waiver period from 12 days before the season to the day after the club's last game; loan conditions), 13.4 exemption chart (skaters 5/4/3/3/3/3/2/1 seasons and 160/160/160/80/70/60/60 games; goalies 6/5/4/4/4/3/2/1 and 80/80/80/60/60/60/60; playoffs count; ends immediately at the limit; 18-19-year-old skater window cut to three years and goalie window to four after an 11-game season; age 20+ clock starts with the first pro game; 25+ exempt for the rest of that season), 13.5 (10 games or 30 days since clearing; emergency recall counts only games on emergency recall), 13.12(l)-(m) (four regular recalls after 3 p.m. on the 40th day before the season's end; emergency = below 2 G, 6 D, 12 F), 13.13(a) (daily NHLPA notice and read-only access for two users), 13.18 (noon processing, 24-hour period, no trade or loan meanwhile), 13.19 (priority by lowest points percentage at the request; previous season's final standing outside the season or before Nov 1; tie-breaks and the clause that they follow changes to the standings tiebreakers per game), 13.20(b) (claimed player's trade restriction), 16.4 (23-man active roster until the trade deadline; no loans below 18 skaters and 2 goalies), 16.5(d) (holiday freeze 11:59 p.m. Dec 19 to 12:01 a.m. Dec 28, recalls allowed), SPC para. 13 (buyout needs unconditional waivers; a claim pre-empts the buyout). MOU items 16 (five regular recalls, max four on the active roster), 30 (no paper loans, goalie exception), 82 (read-only waiver-system access raised to five users). Carolina Hurricanes transaction primer (Nov 1 priority switch; 6-game example: 3 more on regular recall, 9 more on emergency recall). Edits: the article credited the new agreement with giving the union same-day notice and read-only access, which already existed in the 2013 CBA; corrected to the actual change (two users to five). The tie-break order is now presented as the 2013 text plus the CBA's own clause that it tracks the league's current standings tiebreakers, since the standings order has changed since 2013. The exemption chart restates the CBA's own rule table (rules, not data). App claims match dump-catalog (Franchise GM Mode; career sim's fictional league with roster spots and promotions earned); pool per rule 10; no affiliation. Distinct topic (no waivers article exists; depth-charts-explained is generic). Preflight clean, dry-run clean except the log entry, similarity max 0.027.",
+      "contentHash": "sha256:6746c49d912be97beb097bb74e5a28112102ccfbe4584780e1fc60632a5b5245"
+    },
+    {
+      "slug": "types-of-hockey-shots",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "DATA RIGHTS (main change): the article's centrepiece was the writer's own 2025-26 shot-type table (shots, goals and shooting % for seven types, summed over the 32 teams of the api.nhle.com team shot-type report) plus shares and rates derived from it (45% of shots, 41% of goals, 71% wrist+snap, 16.0/13.3/12.2/10.0/8.4/12.8/7.0%, 'eleven shot types', the skater report's rare categories). The NHL Terms of Service (updated 29 Oct 2025, s.7) permit use of NHL services only for non-commercial personal use and bar copying, compiling or creating derivative works, so the table, every derived figure (body, two takeaways, three FAQs, description) and both API sources were removed. The section now explains how to read shot-type statistics (type tangled with location; scorer judgement) without any league data; one FAQ ('which shot scores the most') was replaced by 'does shot type affect the chance of scoring', answered from the cited models; aiSearchQuestions/longTail updated to match. Remaining claims verified 2026-10-02: USA Hockey Skill Progressions (8U wrist shot and backhand; 10U flip, screen, deflection, off rebound; 12U snap, slap, fake shots; 14U one-timers, stick position, shots in close; 16/18U adjust angle; 13 skills at the top level); USA Hockey 8U Practice Planner (sideways stance, puck behind the back foot, sweep, head up, follow through); NHL Official Rules 2026-2027 (10: blade curve max 3/4 inch; 60.1: normal wind-up/follow-through allowance, wild swing not covered; 78.4-78.5: skate/body deflections count, distinct kick and above-crossbar contact do not; 24.2: lacrosse move limits, spin-o-rama banned; 36.1: real-time scorers record all official statistics); MoneyPuck About (15 variables incl. 'Shot Type (Slap, Wrist, Backhand, etc)', distance, angle, prior event; highest-probability shots are quick rebounds near the net after a large angle change); Evolving-Hockey model write-up (distance the most important variable). Also softened 'the first shot players are taught' to match the guide (wrist shot and backhand together). App claims match dump-catalog (career sim: shooting among trained attributes, shoot/pass decisions move momentum, choices weighted by built attributes, fictional league; GM app: starting six, balance scoring and defence; pool per rule 10); no affiliation. Distinct from underrated-attributes-in-hockey-career-mode (no shot-technique content). Preflight clean, dry-run clean except the log entry, similarity max 0.017.",
+      "contentHash": "sha256:a6d1ffbd725aee5147d446ac08098265b27b3e02c647968f8aa91e8396b47cdf"
+    },
+    {
+      "slug": "how-does-the-nhl-draft-work",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against the 2013 CBA (NHLPA PDF, text-extracted): 8.1 (June draft, date set by the Commissioner), 8.2 (seven rounds, one choice per club in the following league year), 8.3 (compensatory second-round pick at the same number for an unsigned first-rounder who re-enters, becomes a UFA or dies; none for failing to make a bona fide offer; capped at the number of clubs; the CBA's third-pick example), 8.4(a)(i)-(v) (eligibility and the five exclusions incl. two prior drafts and the age-21/22 undrafted free agents), 8.5 (league sets the order within CBA limits), 8.6(a)-(e) (first June 1 / second with a bona fide offer, junior, college August 15 rules, players drafted from outside North America at 18-19 held to the fourth June 1, bona fide offer definition), 8.10 (age 18 = 18th birthday between Jan 1 before and Sept 15 after the draft, both included; 21 and 22 by Dec 31), 9.1 (entry-level lengths and slide rule; 'generally' added for the CBA's 19-year-old exception). 2025 MOU (OCR, page viewed): Attachment 31 (from the 2027 draft: fourth June 1 for an 18-year-old draftee, third for 19+, college extension to 30 days after notice to Central Registry) and item 21 (commitment to seek a CHL change for one 19-year-old AHL loan a year, not a finished rule). NHL.com, Tom Gulitti, 23 Mar 2021: Board of Governors approval, two drawings from 2021 (last place no lower than third, previously could fall to fourth), from 2022 a 10-place cap (bottom 11 eligible for No. 1, bottom 12 for No. 2) and no more than two wins in five years with pre-2022 wins not counted, stated purposes. NHL.com 2026-27 schedule release (32 clubs). Birth-date table and 7 x 32 = 224 recomputed. Edit: reworded the second-pick eligibility sentence to match NHL.com ('only the bottom 12 can win the second'). App claims match dump-catalog (GM app: starting six plus coach, projected 84-game record, pool per rule 10; career sim: young prospect through a career, everything fictional); no affiliation. Distinct from how-draft-lotteries-work and how-football-draft-order-works (generic; no NHL eligibility, rounds or rights rules). Preflight clean, dry-run clean except the log entry, similarity max 0.018.",
+      "contentHash": "sha256:8ed6fc6693bc8152a7d6ac62718f0b32a1206549cdb0aea9e2dfee478aacc270"
+    }
+  ]
+}

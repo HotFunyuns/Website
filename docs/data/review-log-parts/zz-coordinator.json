@@ -1,0 +1,61 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person's review.",
+  "entries": [
+    {
+      "slug": "does-reach-matter-in-boxing-and-mma",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "links-and-metadata"
+      ],
+      "notes": "Coordinator follow-up to the r7-combat-cross review: 1 source URL(s) changed from the NCBI E-utilities abstract record to the equivalent PubMed record page for the same PMID, so readers get a normal page instead of raw XML. Same records, no claim or other text changed; the earlier review's verdict and checks stand.",
+      "contentHash": "sha256:9c93e983c5e536ccb47e29c601cc5bae9d7005f3c9654a69423d26b3e0cc9423"
+    },
+    {
+      "slug": "home-advantage-in-sports",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "links-and-metadata"
+      ],
+      "notes": "Coordinator follow-up to the r7-combat-cross review: 3 source URL(s) changed from the NCBI E-utilities abstract record to the equivalent PubMed record page for the same PMID, so readers get a normal page instead of raw XML. Same records, no claim or other text changed; the earlier review's verdict and checks stand.",
+      "contentHash": "sha256:d16850cbe3409fd96578cd244948f189d4c0b4553a7e2078b4e35259e3ddedc2"
+    },
+    {
+      "slug": "how-sports-scouting-works",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "links-and-metadata"
+      ],
+      "notes": "Coordinator follow-up to the r7-combat-cross review: 2 source URL(s) changed from the NCBI E-utilities abstract record to the equivalent PubMed record page for the same PMID, so readers get a normal page instead of raw XML. Same records, no claim or other text changed; the earlier review's verdict and checks stand.",
+      "contentHash": "sha256:1e9c3e554f64d99fb8ec96c7da7f552a7eda30ebbfb31ed0468278008fe9062e"
+    },
+    {
+      "slug": "is-momentum-in-sports-real",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "links-and-metadata"
+      ],
+      "notes": "Coordinator follow-up to the r7-combat-cross review: 2 source URL(s) changed from the NCBI E-utilities abstract record to the equivalent PubMed record page for the same PMID, so readers get a normal page instead of raw XML. Same records, no claim or other text changed; the earlier review's verdict and checks stand.",
+      "contentHash": "sha256:82a4351bddc690a81ec01d0ae0c141114b5ae9c6d337ecf007f09be284e51c9d"
+    },
+    {
+      "slug": "relative-age-effect-in-sports",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-02",
+      "checks": [
+        "links-and-metadata"
+      ],
+      "notes": "Coordinator follow-up to the r7-combat-cross review: 4 source URL(s) changed from the NCBI E-utilities abstract record to the equivalent PubMed record page for the same PMID, so readers get a normal page instead of raw XML. Same records, no claim or other text changed; the earlier review's verdict and checks stand.",
+      "contentHash": "sha256:063f0dfc9dee6cd598a4246be5921547a180e50daa044e03ccd7c517edf5544d"
+    }
+  ]
+}
