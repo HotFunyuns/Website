@@ -4,6 +4,7 @@ export const actionArcadeApps: AppInfo[] = [
   {
     slug: 'space-shooter-classic-arcade',
     name: 'Space Galaxy Attack Arcade',
+    formerNames: ['Space Shooter - Galaxy Arcade'],
     tagline: 'Four abilities, one ship, and a screen full of enemy fire to weave through.',
     cardDescription:
       'Dodge projectile patterns, time your shield and Ultimate through escalating waves, then spend the rewards on a stronger ship.',
@@ -26,7 +27,7 @@ export const actionArcadeApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-02',
     features: [
       {
         title: 'Four abilities, four answers',

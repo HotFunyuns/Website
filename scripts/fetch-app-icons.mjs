@@ -57,6 +57,12 @@ const SLUGS = {
   'com.reigncreative.learnmarathilanguage': 'learn-marathi',
   'com.reigncreative.learnshanghaineselanguage': 'learn-shanghainese',
   'com.reigncreative.animecasinoslots': 'anime-casino-slots',
+  // Added 2026-10-02 after verifying each listing is publicly reachable signed-out.
+  'com.reigncreative.prorugbycareersim': 'rugby-career-sim',
+  'com.reigncreative.procarracingcareer': 'car-racing-pro-career',
+  'com.reigncreative.cutenotesjournal': 'kawaii-cute-notes-journal',
+  'com.reigncreative.pdftoolsallinone': 'pdf-all-in-one-tools',
+  'com.reigncreative.transcribeaudiototext': 'transcribe-audio-to-text',
 };
 
 // The Play CDN resizes via a trailing size directive on the image path. The -rw

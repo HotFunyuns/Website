@@ -11,9 +11,16 @@ import JsonLd from '@/components/JsonLd';
 import BlogCard from '@/components/blog/BlogCard';
 import { apps, companyInfo, getAppBySlug, getRelatedApps, getCategory } from '@/data/apps';
 import { getHubsForApp } from '@/data/hubs';
+import { getSportForApp, sportPath } from '@/data/sports';
 import { getPostsByApp, getPostsByHub } from '@/lib/blog';
 
 export const dynamicParams = false;
+
+/** "A", or "A and, before that, B" — most recent former title first. */
+function formerTitles(names: string[]): string {
+  const [latest, ...earlier] = names;
+  return earlier.length === 0 ? latest : `${latest} and, before that, ${earlier.join(', then ')}`;
+}
 
 export function generateStaticParams() {
   return apps.map((app) => ({ slug: app.slug }));
@@ -58,6 +65,9 @@ export default function AppPage({ params }: { params: { slug: string } }) {
   const related = getRelatedApps(app);
   const category = getCategory(app.categoryId);
   const categoryPath = `/apps/category/${app.categoryId}/`;
+  // Sports apps link their sport hub, which puts the app beside the rules,
+  // strategy guides and calculators for the same sport.
+  const appSport = getSportForApp(app.slug);
   const allGuides = getPostsByApp(app.slug);
   const appHubs = getHubsForApp(app.slug)
     .map((hub) => ({ ...hub, count: getPostsByHub(hub.id).length }))
@@ -77,6 +87,10 @@ export default function AppPage({ params }: { params: { slug: string } }) {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
     name: app.name,
+    // Earlier Google Play titles, shown on the page as well. Someone who knows
+    // the app by an old name — or a crawler holding an old link — can tell it is
+    // the same app rather than a second one.
+    ...(app.formerNames && app.formerNames.length > 0 ? { alternateName: app.formerNames } : {}),
     description: app.metaDescription,
     url: `${companyInfo.siteUrl}/apps/${app.slug}/`,
     installUrl: app.playStoreUrl,
@@ -159,6 +173,20 @@ export default function AppPage({ params }: { params: { slug: string } }) {
                 {app.name}
               </h1>
               <p className="mt-4 text-lg leading-relaxed text-ink-500">{app.tagline}</p>
+              {app.formerNames && app.formerNames.length > 0 && (
+                <p className="mt-3 text-sm leading-relaxed text-ink-500" data-former-names="">
+                  Previously listed on Google Play as {formerTitles(app.formerNames)}.
+                </p>
+              )}
+              {appSport && (
+                <p className="mt-3 text-sm leading-relaxed text-ink-500">
+                  Rules, strategy and statistics for {appSport.noun}:{' '}
+                  <Link href={sportPath(appSport)} className="link-accent">
+                    {appSport.label} guides
+                  </Link>
+                  .
+                </p>
+              )}
 
               <div className="mt-8 flex flex-wrap items-center gap-4">
                 <GooglePlayButton

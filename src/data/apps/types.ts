@@ -41,6 +41,15 @@ export interface VerifiedPlayFacts {
 export interface AppInfo extends VerifiedPlayFacts {
   slug: string;
   name: string;
+  /**
+   * Earlier Google Play titles, most recent first. Only titles a committed
+   * verification snapshot recorded on the live listing belong here — see
+   * docs/app-inventory-2026-10.md — never a name the site used on its own or a
+   * local project name that never shipped. Rendered as "Previously listed on
+   * Google Play as …" and emitted as `alternateName`, so a reader or crawler who
+   * knows the old title can tell it is the same app.
+   */
+  formerNames?: string[];
   tagline: string;
   cardDescription: string;
   longDescription: string[];
@@ -92,18 +101,18 @@ export const categories: CategoryInfo[] = [
     id: 'sports-gm',
     label: 'Sports Career & GM Games',
     shortLabel: 'Sports & GM',
-    blurb: 'Draft boards, franchise decisions, and full career arcs across nine sports.',
+    blurb: 'Draft boards, franchise decisions, and full career arcs across ten sports.',
     intro: [
       'Sports management games ask a different question than sports action games. Instead of "can you make the shot?", they ask "can you build the team that makes the shot?" — which turns a commute or a lunch break into a series of roster decisions, draft picks, and long-term bets.',
-      'Reign Creative builds this genre for Android with a consistent design goal: give you the parts of being a general manager that are genuinely fun — the draft board, the depth chart, the trade call — without demanding hours per session or a spreadsheet on the side. The range runs from basketball and football through baseball, soccer, hockey, golf and combat sports to tennis and rugby union.',
+      'Reign Creative builds this genre for Android with a consistent design goal: give you the parts of being a general manager that are genuinely fun — the draft board, the depth chart, the trade call — without demanding hours per session or a spreadsheet on the side. The range runs from basketball and football through baseball, soccer, hockey, golf and combat sports to tennis, rugby and motorsport, and the career sims follow a single player or driver rather than a whole club.',
     ],
     readingIntro: [
       'These articles cover the sports as much as the games: how drafts, salary caps and depth charts work, what the statistics actually measure, and where the rules of rugby, tennis, golf, hockey or mixed martial arts decide a result.',
-      'Around them sit guides to the simulators themselves — what a career mode or a GM mode asks of you, and what the simulation assumes. None of it uses real players or real league data, and none of it predicts a real game.',
+      'Around them sit guides to the simulators themselves — what a career mode or a GM mode asks of you, and what the simulation assumes. The guides do not profile real athletes, and none of them predicts a real game.',
     ],
     metaTitle: 'Sports Career & GM Games for Android',
     metaDescription:
-      'Draft simulators, franchise mode, and career sims for basketball, football, baseball, soccer, hockey, golf, tennis, rugby and combat sports.',
+      'Draft simulators, franchise modes and career sims for basketball, football, baseball, soccer, hockey, golf, tennis, rugby, combat sports and motorsport.',
   },
   {
     id: 'action-arcade',
@@ -126,10 +135,10 @@ export const categories: CategoryInfo[] = [
     id: 'anime-creative',
     label: 'Anime & Creative Games',
     shortLabel: 'Anime & Creative',
-    blurb: 'Coloring, trivia, word play, and original anime slots.',
+    blurb: 'Coloring, trivia, word play, and a virtual-coin slots game.',
     intro: [
       'Creative and trivia games occupy a useful middle ground: more engaging than scrolling, less demanding than a game that expects a real time commitment.',
-      'This category pairs relaxed digital coloring with anime knowledge, word puzzles, and an original anime slot collection — low-pressure formats you can pick up for two minutes or forty. The slots title is played with virtual coins only and offers no real-money gambling.',
+      'This category pairs relaxed digital coloring with anime knowledge and word puzzles, alongside a social-casino slots game — low-pressure formats you can pick up for two minutes or forty. The slots title is played with virtual coins only and offers no real-money gambling.',
     ],
     readingIntro: [
       'Coloring technique, anime knowledge and slot mechanics: how line art and flat colours work, how to fix a fill that leaks, how anime art styles and genres differ, and what the common slot-machine terms mean.',
@@ -137,7 +146,7 @@ export const categories: CategoryInfo[] = [
     ],
     metaTitle: 'Anime Coloring, Trivia & Slots Games for Android',
     metaDescription:
-      'Anime coloring, trivia, word games, and original anime slot machines for Android. Free on Google Play from Reign Creative LLC.',
+      'Anime coloring, trivia and word games, plus a slots game played with virtual coins, for Android. Free on Google Play from Reign Creative LLC.',
   },
   {
     id: 'language-learning',
@@ -160,10 +169,10 @@ export const categories: CategoryInfo[] = [
     id: 'education-brain',
     label: 'Education & Brain Games',
     shortLabel: 'Education',
-    blurb: 'History and mental arithmetic, structured so progress is visible.',
+    blurb: 'History and brain training, structured so progress is visible.',
     intro: [
-      'Learning apps work best when they make progress legible. A timeline you can move through shows you how much ground you have covered; a mental-math drill shows you a number that improves.',
-      'These titles turn two broad subjects — world history and everyday arithmetic — into sessions short enough to actually repeat daily.',
+      'Learning apps work best when they make progress legible. A timeline you can move through shows you how much ground you have covered; a mental-math drill or a memory game shows you a number that improves.',
+      'These titles turn two broad subjects — world history, and brain training across memory, logic and mental arithmetic — into sessions short enough to actually repeat daily.',
     ],
     readingIntro: [
       'Two large subjects share this category. World history — dating systems and chronology, empires, major events and the people involved — written to keep what is documented apart from what historians interpret.',
@@ -171,7 +180,7 @@ export const categories: CategoryInfo[] = [
     ],
     metaTitle: 'Education & Brain Training Apps for Android',
     metaDescription:
-      'Interactive world history and mental math training for Android. Free on Google Play from Reign Creative LLC.',
+      'Interactive world history, plus brain games for memory, logic and mental math, for Android. Free on Google Play from Reign Creative LLC.',
   },
   {
     id: 'health-nutrition',
@@ -180,7 +189,7 @@ export const categories: CategoryInfo[] = [
     blurb: 'Focused trackers and meal planning that make daily consistency stick.',
     intro: [
       'Nutrition tracking usually fails for a mundane reason: logging takes too long, so people stop. A tracker that does one thing quickly beats a comprehensive one you abandon in week two.',
-      'The trackers here each focus on a single number — daily protein, or net carbs — and optimise for the speed of entry rather than the breadth of the database. Alongside them sits a recipe and meal planner for the other half of the problem: deciding what to cook before the week gets away from you.',
+      'The trackers here each centre on a single number — daily protein, or net carbs — and are built so that logging a meal stays quick. Alongside them sits a recipe and meal planner for the other half of the problem: deciding what to cook before the week gets away from you.',
     ],
     readingIntro: [
       'Nutrition tracking explained from the label up: what protein, net-carb and sugar figures mean, how to turn a macro target into grams you can log, and why food databases disagree. Alongside them are practical guides to meal planning, pantry lists and batch cooking.',
@@ -197,7 +206,7 @@ export const categories: CategoryInfo[] = [
     blurb: 'Practical Android tools that stay out of your way.',
     intro: [
       'Utility apps are judged almost entirely on whether they do the job without friction — formats that just play, a camera match you can correct yourself, controls where you expect them, and no detour through a setup wizard.',
-      'This category covers Reign Creative’s practical Android tools: a local video player, and a trading-card scanner for identifying cards, checking market-value estimates and measuring centring.',
+      'This category covers Reign Creative’s practical Android tools: a local video player, a trading-card scanner for identifying cards, checking market-value estimates and measuring centring, an all-in-one PDF toolkit, an app that turns recorded speech into text, and a notes, journal and planner app.',
     ],
     readingIntro: [
       'Practical Android know-how: what is inside an MP4, MKV or MOV file, why a video will not play or its subtitles will not show, which codecs matter, and how picture-in-picture and app permissions work.',
@@ -205,7 +214,7 @@ export const categories: CategoryInfo[] = [
     ],
     metaTitle: 'Video Player & Utility Apps for Android',
     metaDescription:
-      'Practical Android utilities: a local video player for common formats and a trading-card scanner with centring measurement. Free on Google Play.',
+      'Practical Android utilities: a video player, a trading-card scanner, PDF tools, audio transcription and a notes journal. Free on Google Play.',
   },
 ];
 

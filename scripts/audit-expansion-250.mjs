@@ -214,12 +214,13 @@ for (const post of expansion) {
   }
 }
 
-// The two apps' unreleased local names must never reach the site.
+// The history app's unreleased local name must never reach the site. The
+// brain-training app's local name, "IQ Test & Brain Training Games", was banned
+// here too until it became that app's live Google Play title (verified
+// 2026-10-02, docs/app-inventory-2026-10.md); the IQ-claim rules above still
+// apply to anything written about it.
 for (const post of expansion) {
   const haystack = `${post.title} ${post.metaTitle} ${post.description} ${post.body}`;
-  if (/IQ Test & Brain Training Games/i.test(haystack)) {
-    fail(`${post.slug}: uses the unreleased name "IQ Test & Brain Training Games"`);
-  }
   if (/World History Simulator\b/i.test(haystack)) {
     fail(`${post.slug}: uses the unreleased name "World History Simulator"`);
   }

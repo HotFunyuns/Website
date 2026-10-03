@@ -106,14 +106,15 @@ export const educationBrainApps: AppInfo[] = [
   },
   {
     slug: 'mental-math-memory-games',
-    name: 'Mental Math & Memory Games',
-    tagline: 'Short arithmetic and memory drills that show you a number getting better.',
+    name: 'IQ Test & Brain Training Games',
+    formerNames: ['Mental Math & Memory Games'],
+    tagline: 'IQ-style test practice, brain games and mental math in one app, measured against your own history.',
     cardDescription:
-      'Timed math drills and memory challenges in sessions short enough to repeat daily, with scores, accuracy and response times tracked throughout.',
+      'An IQ-style test across seven reasoning areas plus games for memory, logic, focus, vocabulary and mental math. Results are estimates, not a clinical assessment.',
     longDescription: [
-      'Mental Math & Memory Games is a collection rather than a single drill. On the arithmetic side it covers addition, subtraction, multiplication and division practice, with rounds that scale up from simple warm-ups to harder problems as you improve. On the memory side there are number, grid, sequence and delayed-recall activities, which change what a session asks of you without changing how long it takes.',
-      'The formats do most of the work in keeping practice interesting. Timed sprints reward speed, accuracy rounds reward getting it right, survival challenges run until you slip, and boss quizzes put a marker at the end of a stretch of work. A daily math challenge gives you a reason to open the app on the days you had not planned a session.',
-      'Progress is the point, so scores, accuracy, streaks, response time and personal bests are all recorded, with a history you can look back through. Alongside the drills there are techniques to learn for percentages, estimation, number patterns and faster calculation, and the games are where you apply them. Sessions can be two minutes or a long training run, which is what makes doing it daily realistic.',
+      'IQ Test & Brain Training Games — listed on Google Play as Mental Math & Memory Games until its recent rename — brings several kinds of mental practice into one app. Its IQ-style test covers numerical reasoning, logic, patterns, vocabulary, working memory, spatial reasoning and processing speed, and afterwards it recommends brain-training practice for the areas you want to strengthen.',
+      'Around the test sit the games. Brain games span math, memory, language, logic, attention and speed; memory games use digit span, sequences, grids, colours, letters, symbols and mixed recall; logic games cover analogies, sequences, conditional reasoning and deduction; and vocabulary games work on synonyms, antonyms and context clues. Mental math still runs through it all — addition, subtraction, multiplication, division, percentages, ratios, estimation and money problems — alongside focus games, puzzle and mind games, a memory test and a reaction time test you can repeat to compare with your own history.',
+      'A personality test with original questions and dimension-based results, plus a Big Five profile, is offered for self-reflection rather than diagnosis. Daily challenges, XP, achievements, streaks, personal bests and charts track practice over time. The listing is explicit about what the numbers are: IQ test, personality test, memory test and other results are estimates based on app activities, not medical, psychological, clinical, educational-placement, employment or professional diagnostic assessments.',
     ],
     category: 'Education · Brain Training',
     categoryId: 'education-brain',
@@ -128,82 +129,82 @@ export const educationBrainApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-02',
     features: [
       {
-        title: 'Four operations in one place',
-        body: 'Addition, subtraction, multiplication and division practice, with difficulty that climbs from simple drills to harder rounds as you improve.',
+        title: 'An IQ-style test across seven areas',
+        body: 'Numerical reasoning, logic, patterns, vocabulary, working memory, spatial reasoning and processing speed, followed by practice recommendations for the areas you choose.',
       },
       {
-        title: 'Memory games with variety',
-        body: 'Number, grid, sequence and delayed-recall activities give recall practice a different shape from the arithmetic sessions.',
+        title: 'Brain games and memory games',
+        body: 'Quick play, daily, survival, boss and progression modes, with memory rounds built from digit span, sequences, grids, colours, letters, symbols and emojis.',
       },
       {
-        title: 'Formats that change the pressure',
-        body: 'Timed sprints, accuracy rounds, survival challenges and boss quizzes each reward something different, so practice does not flatten out.',
+        title: 'Logic, vocabulary and mental math',
+        body: 'Analogies, deduction and conditional reasoning, word-meaning games, and calculation practice from the four operations to ratios, estimation and money problems.',
       },
       {
-        title: 'Numbers that prove progress',
-        body: 'Scores, accuracy, streaks, response time and personal bests are all tracked, with a history that makes improvement visible.',
+        title: 'A personality test for self-reflection',
+        body: 'Original questions with dimension-based results about thinking style, communication, planning and decision making, plus a Big Five profile — presented as reflection, not diagnosis.',
       },
       {
-        title: 'Techniques, not only drills',
-        body: 'Methods for percentages, estimation, number patterns and faster calculation, with games to apply each one straight away.',
+        title: 'Progress against your own history',
+        body: 'Personal bests, accuracy, streaks, response speed, assessment history and charts show how your results change over time.',
       },
     ],
     audience: [
-      'Students drilling arithmetic outside of homework',
-      'Adults who want their mental math back',
+      'Players who enjoy reasoning puzzles and IQ-style questions',
       'Anyone building a short daily brain-training habit',
-      'Players who like chasing a personal best',
+      'Students practising mental math, vocabulary and logic',
+      'People curious about personality questionnaires as self-reflection',
     ],
     howItWorks: [
       {
-        title: 'Pick a game',
-        body: 'Choose an arithmetic drill in addition, subtraction, multiplication or division, or a number, grid, sequence or delayed-recall memory game.',
+        title: 'Take the IQ-style test',
+        body: 'Work through questions on reasoning, patterns, vocabulary, memory, spatial thinking and speed, then read the estimated result for what it is.',
       },
       {
-        title: 'Choose the pressure',
-        body: 'Run a timed sprint for speed, an accuracy round for precision, a survival challenge until you slip, or a boss quiz to close out a session.',
+        title: 'Practise what you choose',
+        body: 'Follow the brain-training recommendations, or pick memory, logic, focus, vocabulary or mental math games directly.',
       },
       {
-        title: 'Check the numbers',
-        body: 'Every round records score, accuracy and response time, then measures it against your personal bests and your recent history.',
+        title: 'Compare with yourself',
+        body: 'Repeat the memory test, reaction time test or brain test and check the result against your own history and personal bests.',
       },
       {
-        title: 'Come back tomorrow',
-        body: 'The daily math challenge and streak tracking give you a short, repeatable reason to open the app on days you had not planned to train.',
+        title: 'Come back for the daily',
+        body: 'Daily challenges, XP, achievements and streaks give you a short, repeatable reason to open the app again.',
       },
     ],
     faqs: [
       {
-        question: 'Is Mental Math & Memory Games free?',
+        question: 'Is IQ Test & Brain Training Games free?',
         answer:
           'Yes, it is free to download on Google Play. It is supported by ads and offers optional in-app purchases.',
       },
       {
-        question: 'How long is a session?',
+        question: 'Is the IQ test a professional assessment?',
         answer:
-          'As long as you want it to be. The games are built for a few spare minutes, but you can also string several together into a longer training run.',
+          'No. The listing states that IQ test, personality test, memory test and other results are estimates based on app activities — not medical, psychological, clinical, educational-placement, employment or professional diagnostic assessments. Treat a result as a record of how you did on the app’s own questions.',
       },
       {
-        question: 'Is it suitable for children?',
+        question: 'What does the IQ-style test cover?',
         answer:
-          'It is rated Everyone and covers the four basic operations across a range of difficulty levels, so students and adults can each find a level that fits.',
+          'Numerical reasoning, logic, patterns, vocabulary, working memory, spatial reasoning and processing speed. Afterwards the app recommends brain-training practice for the areas you want to strengthen.',
       },
       {
-        question: 'Does it teach methods or only test me?',
+        question: 'Is there still mental math practice?',
         answer:
-          'Both. There are techniques for percentages, estimation, number patterns and faster calculation, and the games give you somewhere to use them immediately.',
+          'Yes. Mental math covers addition, subtraction, multiplication, division, percentages, ratios, estimation and money problems. The app was previously listed on Google Play as Mental Math & Memory Games, and those activities now sit beside memory, logic, vocabulary, focus and personality activities.',
       },
       {
-        question: 'How do I know whether I am improving?',
+        question: 'What is the personality test?',
         answer:
-          'Scores, accuracy, streaks, response time and personal bests are recorded and kept as a history, so improvement shows up as a trend rather than a feeling.',
+          'A questionnaire with original questions and dimension-based results about thinking style, communication, planning and decision making, plus a Big Five profile. The listing presents it as self-reflection, not a diagnosis.',
       },
     ],
-    metaTitle: 'Mental Math & Memory Games for Android',
+    metaTitle: 'IQ Test & Brain Training Games for Android',
     metaDescription:
-      'Sharpen arithmetic and recall with timed drills, memory games and tracked personal bests in a few minutes a day. Free on Google Play from Reign Creative.',
+      'IQ-style test practice, brain games, memory and logic games, mental math and a personality test, with results tracked over time. Free on Google Play.',
   },
 ];

@@ -46,7 +46,11 @@ const VARIANTS = [
   [/Reign Collective(?! Apps)/, '"Reign Collective" without "Apps"'],
   [/ReignCreative(?!Support@)/, '"ReignCreative" run together'],
 ];
-const UNRELEASED = ['IQ Test & Brain Training Games', 'IQ Test &amp; Brain Training Games', 'World History Simulator'];
+// A local project name that has never been a Google Play title. "IQ Test & Brain
+// Training Games" used to be listed here too; it became the live title of
+// com.reigncreative.mentalmathchampion between the 2026-09-15 and 2026-10-02
+// verifications, so it is now the app's correct name (docs/app-inventory-2026-10.md).
+const UNRELEASED = ['World History Simulator'];
 
 const { apps } = loadSiteData();
 const packages = new Map(apps.map((a) => [a.packageId, a]));

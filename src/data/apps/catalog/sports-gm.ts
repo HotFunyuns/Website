@@ -106,6 +106,7 @@ export const sportsGmApps: AppInfo[] = [
   {
     slug: 'pro-basketball-draft-gm-mode',
     name: 'Pro Basketball GM Franchise',
+    formerNames: ['Basketball Draft GM Franchise'],
     tagline: 'Draft a roster, run the front office, and play out a full 82-game season.',
     cardDescription:
       'Draft a squad, set the rotation, and handle trades and contracts across a full 82-game season and the playoff race.',
@@ -129,7 +130,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-02',
     features: [
       {
         title: 'Draft board first',
@@ -202,6 +203,11 @@ export const sportsGmApps: AppInfo[] = [
         answer:
           'No. The draft is readable from your first run, though fans will get more out of judging value, comparing ratings and building for balance.',
       },
+      {
+        question: 'Does it use real players?',
+        answer:
+          'Its player pool is built from real-world players’ careers, with ratings that are the game’s own estimates rather than official statistics. The game is not affiliated with, endorsed by or licensed by any league, team, players’ association or athlete.',
+      },
     ],
     metaTitle: 'Pro Basketball GM Franchise for Android',
     metaDescription:
@@ -209,12 +215,13 @@ export const sportsGmApps: AppInfo[] = [
   },
   {
     slug: 'football-draft-gm-mode',
-    name: '20-0 Football Draft & GM Mode',
+    name: 'Football Franchise GM League',
+    formerNames: ['20-0 Football Draft & GM Mode'],
     tagline: 'Draft a roster, run the front office, and chase an unbeaten 20-0 finish.',
     cardDescription:
       'Draft a full roster position by position, then simulate the season and find out whether your team can finish 20-0.',
     longDescription: [
-      'Every run of 20-0 Football Draft starts on the draft board. You compare ratings, fill each slot with the lineup builder, and finish with a roster you are willing to defend. The season simulator then decides whether the plan actually holds up.',
+      'Every run of Football Franchise GM League starts on the draft board. You compare ratings, fill each slot with the lineup builder, and finish with a roster you are willing to defend. The season simulator then decides whether the plan actually holds up.',
       'Draft rules change the problem in front of you. Unlimited Draft lets you keep comparing options, Limited Draft removes refreshes so every pick has to count, Salary Cap Draft rewards spending well and exposes the units you skimped on, and Playoff Mode puts the whole roster under pressure.',
       'Beyond single drafts sit Franchise Mode and GM Mode, where control extends past draft day to the wider organisation. VS Computer, Battle and Tournament put your roster against an opponent, the Daily Challenge sets a goal to hit, and Gridiron IQ tests how well you actually read a team sheet.',
     ],
@@ -232,7 +239,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-02',
     features: [
       {
         title: 'Position-by-position drafting',
@@ -281,14 +288,14 @@ export const sportsGmApps: AppInfo[] = [
     ],
     faqs: [
       {
-        question: 'Is 20-0 Football Draft & GM Mode free?',
+        question: 'Is Football Franchise GM League free?',
         answer:
           'Yes. It is free to download on Google Play, it is supported by ads, and there are optional in-app purchases.',
       },
       {
-        question: 'What does 20-0 mean?',
+        question: 'What does 20-0 mean here?',
         answer:
-          'It is the perfect record the game is built around — a complete run of 20 games without a single loss. The season simulator decides whether your roster gets there.',
+          'It is the perfect record the game is built around — a complete run of 20 games without a single loss. The season simulator decides whether your roster gets there. The app was listed on Google Play as 20-0 Football Draft & GM Mode until its recent rename, and its store description still uses that name.',
       },
       {
         question: 'What is the difference between Unlimited and Limited Draft?',
@@ -305,8 +312,13 @@ export const sportsGmApps: AppInfo[] = [
         answer:
           'No, drafting a roster is straightforward from the first run. Fans will get more out of the salary-cap trade-offs and the Gridiron IQ challenges.',
       },
+      {
+        question: 'Does it use real players?',
+        answer:
+          'Its player pool is built from real-world players’ careers, with ratings that are the game’s own estimates rather than official statistics. The game is not affiliated with, endorsed by or licensed by any league, team, players’ association or athlete.',
+      },
     ],
-    metaTitle: '20-0 Football Draft & GM Mode for Android',
+    metaTitle: 'Football Franchise GM League for Android',
     metaDescription:
       'Draft a roster position by position, simulate the season and chase a perfect 20-0 record. Franchise and GM Mode included — free on Google Play.',
   },
@@ -405,7 +417,7 @@ export const sportsGmApps: AppInfo[] = [
       {
         question: 'Is it tied to a real baseball league?',
         answer:
-          'No. The game makes no claim of official league affiliation and is not connected to any real league or club.',
+          'No. The game is not affiliated with, endorsed by or licensed by any league, team, players’ association or athlete. Its player pool is built from real-world players’ careers, and the ratings are the game’s own estimates, not official statistics.',
       },
     ],
     metaTitle: '162-0 Baseball Draft & GM Team for Android',
@@ -415,6 +427,7 @@ export const sportsGmApps: AppInfo[] = [
   {
     slug: 'soccer-draft-gm-xi',
     name: 'Pro Football GM Club Soccer',
+    formerNames: ['38-0-0 Pro Football GM Soccer', '38-0 Football Draft XI Soccer'],
     tagline: 'Draft an XI position by position, then simulate the season and chase a perfect record.',
     cardDescription:
       'Build a starting XI position by position, then simulate a league campaign and see how close your side gets to a perfect season.',
@@ -436,7 +449,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-02',
     features: [
       {
         title: 'Build your XI',
@@ -508,6 +521,11 @@ export const sportsGmApps: AppInfo[] = [
         question: 'Is this football or soccer?',
         answer:
           'Both — it is the same game either way. You draft a full XI for the global game, whichever name you use for it.',
+      },
+      {
+        question: 'Does it use real players?',
+        answer:
+          'Its player pool is built from real-world players’ careers, with ratings that are the game’s own estimates rather than official statistics. The game is not affiliated with, endorsed by or licensed by any league, team, players’ association or athlete.',
       },
     ],
     metaTitle: 'Pro Football GM Club Soccer for Android',
@@ -612,6 +630,11 @@ export const sportsGmApps: AppInfo[] = [
         answer:
           'Yes. Replaying with a different approach and beating your best projected record is a core part of how the game is meant to be played.',
       },
+      {
+        question: 'Does it use real players?',
+        answer:
+          'Its player pool is built from real-world players’ careers, with ratings that are the game’s own estimates rather than official statistics. The game is not affiliated with, endorsed by or licensed by any league, team, players’ association or athlete.',
+      },
     ],
     metaTitle: '84-0 Hockey Draft & GM Manager for Android',
     metaDescription:
@@ -714,6 +737,11 @@ export const sportsGmApps: AppInfo[] = [
         question: 'What does GM Mode involve?',
         answer:
           'Signing fighters, managing contracts and guiding contenders toward title opportunities, with each decision affecting rankings.',
+      },
+      {
+        question: 'Does it use real players?',
+        answer:
+          'Its player pool is built from real-world players’ careers, with ratings that are the game’s own estimates rather than official statistics. The game is not affiliated with, endorsed by or licensed by any league, team, players’ association or athlete.',
       },
     ],
     metaTitle: '40-0 MMA & Boxing Fight Draft for Android',
@@ -1435,5 +1463,208 @@ export const sportsGmApps: AppInfo[] = [
     metaTitle: '24-0 Rugby Draft Pro League for Android',
     metaDescription:
       'Draft a rugby union squad from 1,000+ players, then manage contracts, rotation and a salary cap through a 24-match season. Free on Google Play.',
+  },
+  {
+    slug: 'rugby-career-sim',
+    name: 'Pro Rugby Career Sport Sim',
+    tagline: 'Create a rugby player, train the skills your position needs, and follow your career through a season.',
+    cardDescription:
+      'Choose a portrait and a position, train with a purpose, and track carries, metres and tackles as your rugby career builds across a season.',
+    longDescription: [
+      'Pro Rugby Career Sport Sim is a rugby game about one player rather than a whole club. You create the athlete — choosing a portrait and a position — and decide what kind of player they should become: someone who carries the ball, someone who makes the tackles, or someone whose value lies in supporting the players around them. Training is how that decision turns into skills that suit the role.',
+      'Matches are simulated on the field, and you follow your player through the action. The numbers the game tracks are the ones that describe an individual contribution to a team sport — carries, metres and tackles — so a performance reads as more than the final score, and those stats are what you use afterwards to judge how it went and what to work on next.',
+      'The rhythm is prepare, follow the action, review. Between matches you revisit your training priorities and keep developing the skills your career needs, and each new season gives the player you built another run of matches. The goals are yours to set, whether that is becoming more effective in your position, contributing more consistently, or simply learning what the match numbers mean.',
+    ],
+    category: 'Games · Rugby Career',
+    categoryId: 'sports-gm',
+    schemaCategory: 'GameApplication',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.reigncreative.prorugbycareersim',
+    packageId: 'com.reigncreative.prorugbycareersim',
+    icon: '/icons/rugby-career-sim.webp',
+    iconSmall: '/icons/rugby-career-sim-sm.webp',
+    accent: 'from-gold-500 to-crimson-500',
+    playCategory: 'GAME_SPORTS',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: false,
+    free: true,
+    lastVerified: '2026-10-02',
+    features: [
+      {
+        title: 'Your player, your position',
+        body: 'Choose a portrait and a position, then decide whether your athlete is built around carrying the ball, tackling or supporting the team.',
+      },
+      {
+        title: 'Training with a purpose',
+        body: 'Turn your next goal into a training plan and build the skills that suit your role, rather than trying to improve everything at once.',
+      },
+      {
+        title: 'Follow the match',
+        body: 'Watch the simulation unfold on the field and follow your own player through the action.',
+      },
+      {
+        title: 'Stats that describe a contribution',
+        body: 'Carries, metres and tackles show what your player actually did, which tells a fuller story than the score alone.',
+      },
+      {
+        title: 'A career across a season',
+        body: 'Training, results and stats carry from one match to the next, and each new season adds another stretch of rugby.',
+      },
+    ],
+    audience: [
+      'Rugby fans who want to follow one player rather than run a club',
+      'Players who enjoy training plans and steady character development',
+      'Anyone who likes reading match stats to see what improved',
+      'People who prefer short sessions that build into a longer career',
+    ],
+    howItWorks: [
+      {
+        title: 'Create your athlete',
+        body: 'Pick a portrait and a position, then decide what kind of rugby player you want to become.',
+      },
+      {
+        title: 'Train for your role',
+        body: 'Set a goal, choose the skills to work on, and prepare for the matches ahead.',
+      },
+      {
+        title: 'Follow the action',
+        body: 'Watch the simulated match on the field and track your carries, metres and tackles.',
+      },
+      {
+        title: 'Review and go again',
+        body: 'Use your stats to judge the performance, adjust your training priorities, and carry on through the season.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Pro Rugby Career Sport Sim free?',
+        answer:
+          'Yes, it is free to download on Google Play and supported by ads. Google Play does not list in-app purchases for it.',
+      },
+      {
+        question: 'How is it different from a rugby draft or GM game?',
+        answer:
+          'It is built around one player’s career. You create the athlete, train their skills and follow them through matches across a season, rather than drafting and managing a whole squad. For the squad-building side of rugby, Reign Creative also makes 24-0 Rugby Draft Pro League.',
+      },
+      {
+        question: 'Which stats does it track?',
+        answer:
+          'The listing highlights carries, metres and tackles — the numbers that describe an individual contribution in a match — and you use them to review each performance.',
+      },
+      {
+        question: 'Can I choose my position?',
+        answer:
+          'Yes. Creating your athlete includes choosing a portrait and a position, and the training you pick should suit that role.',
+      },
+      {
+        question: 'Do I need to know rugby well?',
+        answer:
+          'No. The listing suggests goals as simple as learning what the match numbers mean, so following your own stats doubles as a way into the sport.',
+      },
+    ],
+    metaTitle: 'Pro Rugby Career Sport Sim for Android',
+    metaDescription:
+      'Create a rugby player, train the skills your position needs, and track carries, metres and tackles across a season. Free on Google Play.',
+  },
+  {
+    slug: 'car-racing-pro-career',
+    name: 'Car Racing - Pro Career Racer',
+    tagline: 'Start in karting, make the race-day calls, and work your way up to a championship fight.',
+    cardDescription:
+      'A motorsport career sim: begin in karting, then manage tyres, fuel, pit stops and racing lines through live race decisions as you chase a championship.',
+    longDescription: [
+      'Car Racing - Pro Career Racer is a motorsport career game about the driver rather than the steering wheel. There are no complicated steering controls: races are simulated, and you make the decisions that change the result — when to attack, defend or hold position, whether to brake early, trail-brake or risk a late move, which line to take through a hairpin or a chicane, and when to pit.',
+      'The career starts in karting and junior racing and climbs through professional motorsport. Strong results bring better contracts and stronger teams, while mistakes and risky calls can cost positions, contracts and championships. Around the racing sit the relationships a driver has to manage — teammates, engineers and team management — along with rivals, media pressure, sponsors, contract negotiations, setbacks and comebacks.',
+      'Each race asks for its own plan. Tyre wear, fuel, grip, car condition and reliability all matter, and rain, cautions, traffic and safety periods change the picture mid-race. The race view tracks positions, time gaps, nearby cars and pit status, with standings, a minimap and commentary reacting to the same race state. Every circuit is fictional, with its own layout, corners, surface and climate, and speeds can be shown in mph or km/h.',
+    ],
+    category: 'Games · Motorsport Career',
+    categoryId: 'sports-gm',
+    schemaCategory: 'GameApplication',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.reigncreative.procarracingcareer',
+    packageId: 'com.reigncreative.procarracingcareer',
+    icon: '/icons/car-racing-pro-career.webp',
+    iconSmall: '/icons/car-racing-pro-career-sm.webp',
+    accent: 'from-crimson-500 to-ink-700',
+    playCategory: 'GAME_RACING',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: false,
+    free: true,
+    lastVerified: '2026-10-02',
+    features: [
+      {
+        title: 'Decisions, not steering',
+        body: 'Choose when to attack, defend or hold position, how to brake into a corner and which line to take, while the race simulation resolves the result.',
+      },
+      {
+        title: 'Karting to the front of the grid',
+        body: 'Begin in karting and junior racing, then earn contracts with stronger teams as your results improve.',
+      },
+      {
+        title: 'Race strategy that changes',
+        body: 'Manage tyres, fuel, grip and car condition, plan pit stops, and react to rain, cautions, traffic and mechanical problems.',
+      },
+      {
+        title: 'A career off the track',
+        body: 'Teammates, engineers, team management, rivals, the media, sponsors and contract negotiations all shape where your driver ends up.',
+      },
+      {
+        title: 'A live race view',
+        body: 'Positions, time gaps, nearby cars, pit status, standings, a minimap and commentary all follow the same race state.',
+      },
+    ],
+    audience: [
+      'Motorsport fans who enjoy race strategy more than steering',
+      'Career-mode players who like contracts, rivals and team politics',
+      'Anyone who wants each race to turn on a handful of decisions',
+      'Players who enjoy long careers that build season by season',
+    ],
+    howItWorks: [
+      {
+        title: 'Start in karting',
+        body: 'Begin as an unknown rookie in karting and junior racing, and develop your driver’s attributes.',
+      },
+      {
+        title: 'Make the race-day calls',
+        body: 'Decide when to push, defend, save tyres or fuel, and when to pit, as the race unfolds around you.',
+      },
+      {
+        title: 'Climb the ladder',
+        body: 'Earn better contracts and stronger teams, negotiate with team management, and deal with rivals and the media.',
+      },
+      {
+        title: 'Chase the championship',
+        body: 'Follow the standings, records and milestones across seasons, with post-race reports and a season history.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Car Racing - Pro Career Racer free?',
+        answer:
+          'Yes, it is free to download on Google Play and supported by ads. Google Play does not list in-app purchases for it.',
+      },
+      {
+        question: 'Do I steer the car?',
+        answer:
+          'No. It is built for strategic racing without complicated steering controls. During a live race simulation you make the decisions — attacking, defending, braking, racing lines, tyres, fuel and pit stops — and your choices, car and driver attributes influence the outcome.',
+      },
+      {
+        question: 'Are the circuits real?',
+        answer:
+          'No. The game races across fictional circuits with different layouts, corner types, surfaces, climates and strategic demands.',
+      },
+      {
+        question: 'Does the weather matter?',
+        answer:
+          'Yes. Dry and wet races, changing grip, rain, cautions, traffic and safety periods can all change which strategy is right.',
+      },
+      {
+        question: 'Can I change the speed units?',
+        answer: 'Yes. You can choose mph or km/h in Settings.',
+      },
+    ],
+    metaTitle: 'Car Racing - Pro Career Racer for Android',
+    metaDescription:
+      'Build a motorsport career from karting to the front of the grid, deciding tyres, fuel, pit stops and racing lines in live races. Free on Google Play.',
   },
 ];

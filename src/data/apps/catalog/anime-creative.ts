@@ -208,14 +208,15 @@ export const animeCreativeApps: AppInfo[] = [
   },
   {
     slug: 'anime-casino-slots',
-    name: 'Anime Casino Slot Machine Game',
-    tagline: 'Twenty-five original anime and manga slot machines, all unlocked, all virtual coins.',
+    name: 'Vegas Casino Slots JACKPOT WIN',
+    formerNames: ['Anime Casino Slot Machine Game'],
+    tagline: 'Slot machines played with virtual coins, for entertainment only.',
     cardDescription:
-      'Twenty-five original anime and manga-themed slot machines with wilds, free spins, bonus rounds and jackpot meters — virtual coins only, no real-money gambling.',
+      'Reel-based slot machine play with virtual coins and virtual jackpots in a social casino game — no real-money gambling, cash payouts or prizes.',
     longDescription: [
-      'Anime Casino Slot Machine Game is a social casino game: twenty-five original slot machines built around anime and manga art, played entirely with virtual coins. It does not offer real-money gambling, and coins cannot be transferred, sold or redeemed for money, merchandise or prizes. It is rated Teen on Google Play and is intended for an adult audience as entertainment.',
-      'Every machine is available from the start — there is no VIP lock keeping content behind a wall. The twenty-five slots differ in reel layout, volatility and mechanics: roaming wilds, split boards, expanding reels, cascading symbols, breakable layers, scrolling manga panels and interactive bonus games, each with its own artwork, music and symbol set. Five machines are built as manga pages with ink effects and page-turn bonus sequences; five more run a kawaii theme through cafés, pop festivals, dream clubs and prize worlds.',
-      'The presentation prioritises readability: decorative borders never cover the reels, paylines or controls, so the board stays legible while it animates. Mini, Major and Grand jackpot meters build locally as you play, and daily coins, gifts, player levels, experience and achievement rewards give a reason to come back without any of it involving real money.',
+      'Vegas Casino Slots JACKPOT WIN is a social casino game built around slot machines. You spin the reels with virtual coins and watch whether the symbols line up for a winning combination, with the atmosphere of a Las Vegas casino as the backdrop. Until its recent rename it was listed on Google Play as Anime Casino Slot Machine Game; the store link is unchanged.',
+      'Everything in it is played for the experience of the spin rather than for money. Wins and jackpots use virtual coins, there are no cash payouts or real-world prizes, and the coins have no monetary value and cannot be redeemed for cash. The game does not offer real-money gambling, and success in it does not imply future success in real-money gambling.',
+      'It is rated Teen on Google Play, and its listing describes it as entertainment for adults who enjoy simulated casino games. Sessions are as short or as long as you want them to be, whether you are relaxing at home or taking a break.',
     ],
     category: 'Games · Slots',
     categoryId: 'anime-creative',
@@ -231,82 +232,68 @@ export const animeCreativeApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: false,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-02',
     features: [
       {
-        title: '25 machines, none locked',
-        body: 'Every slot is playable from the start, each with its own artwork, music, symbols and reel mechanics.',
+        title: 'Slot machine play',
+        body: 'Spin the reels with virtual coins and follow each result as it unfolds, watching for symbols that line up into a winning combination.',
       },
       {
-        title: 'Varied reel mechanics',
-        body: 'Roaming wilds, split boards, expanding reels, cascading symbols, breakable layers and interactive bonus rounds change how each machine plays.',
+        title: 'Virtual jackpots',
+        body: 'Jackpot moments are part of the game, paid in virtual coins that have no cash value and cannot be redeemed.',
       },
       {
-        title: 'Manga and kawaii sets',
-        body: 'Five manga machines use comic panels, ink effects and page-turn bonus sequences; five kawaii machines run cafés, festivals and prize worlds.',
+        title: 'A Vegas casino atmosphere',
+        body: 'The presentation borrows the feel of a Las Vegas casino floor and puts it on your phone for a few spins at a time.',
       },
       {
-        title: 'Jackpot meters',
-        body: 'Mini, Major and Grand meters build locally as you spin, with celebration effects and no real-money prizes attached.',
-      },
-      {
-        title: 'Readable boards',
-        body: 'Decorative borders stay outside the reels, paylines and controls, so the game remains legible while it animates.',
+        title: 'No real-money gambling',
+        body: 'There are no cash payouts and no real-world prizes. The listing describes it as entertainment only.',
       },
     ],
     audience: [
       'Adults who enjoy social casino games as entertainment',
-      'Anime and manga fans who want the art style on a slot machine',
-      'Players who dislike content locked behind a VIP tier',
-      'Anyone who wants short sessions with daily rewards',
+      'Players who like the suspense of a slot machine spin',
+      'Anyone who wants short sessions with no real money involved',
     ],
     howItWorks: [
       {
-        title: 'Pick a machine',
-        body: 'Choose from twenty-five original slots, each with a different theme, reel layout and volatility.',
+        title: 'Spin the reels',
+        body: 'Play slot machines with virtual coins and follow each result as the reels settle.',
       },
       {
-        title: 'Spin with virtual coins',
-        body: 'Match symbols, land wilds and trigger free spins or bonus rounds using entertainment currency only.',
+        title: 'Watch for winning combinations',
+        body: 'Wins and jackpots are paid in virtual coins inside the game.',
       },
       {
-        title: 'Watch the meters',
-        body: 'Mini, Major and Grand jackpot meters build as you play, with celebration effects when one lands.',
-      },
-      {
-        title: 'Come back for the daily',
-        body: 'Daily coins, gifts, player levels and achievement rewards top up your balance between sessions.',
+        title: 'Keep it entertainment',
+        body: 'Coins have no real-world value and cannot be redeemed for cash, so nothing you win ever leaves the game.',
       },
     ],
     faqs: [
       {
         question: 'Is this real-money gambling?',
         answer:
-          'No. It is an entertainment-only social casino game. It does not offer real-money gambling or opportunities to win money, merchandise or physical prizes, and virtual coins cannot be transferred, sold or redeemed.',
+          'No. It is an entertainment-only social casino game. It does not offer real-money gambling or any opportunity to win real money or prizes, and virtual coins cannot be redeemed for cash.',
       },
       {
-        question: 'Is Anime Casino Slot Machine Game free?',
+        question: 'Is Vegas Casino Slots JACKPOT WIN free?',
         answer:
-          'Yes, it is free to download on Google Play and supported by ads.',
-      },
-      {
-        question: 'Are any machines locked?',
-        answer:
-          'No. All twenty-five slots are playable for everyone. The VIP tier changes the surrounding interface theme and removes ads; it does not lock any anime or manga machine.',
+          'Yes, it is free to download on Google Play and supported by ads. Google Play does not list in-app purchases for it.',
       },
       {
         question: 'Who is it intended for?',
         answer:
-          'It is rated Teen on Google Play and is intended for an adult audience for entertainment purposes. Success in these slots does not imply future success in real-money gambling.',
+          'It is rated Teen on Google Play, and its listing describes it as adult entertainment only. Success in the game does not imply future success in real-money gambling.',
       },
       {
-        question: 'Are the themes based on existing anime series?',
+        question: 'Was this app called something else before?',
         answer:
-          'No. All twenty-five machines use original themes and artwork, unaffiliated with any existing franchise.',
+          'Yes. Its Google Play title used to be Anime Casino Slot Machine Game. The store link and the address of this page have not changed.',
       },
     ],
-    metaTitle: 'Anime Casino Slot Machine Game for Android',
+    metaTitle: 'Vegas Casino Slots JACKPOT WIN for Android',
     metaDescription:
-      '25 original anime and manga slot machines with wilds, free spins, bonus rounds and jackpot meters. Virtual coins only — no real-money gambling.',
+      'Spin slot machines with virtual coins and chase virtual jackpots in a social casino game — no real-money gambling, cash payouts or prizes. Free on Google Play.',
   },
 ];

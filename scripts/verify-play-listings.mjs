@@ -60,6 +60,14 @@ const PACKAGES = [
   'com.reigncreative.learnmarathilanguage',
   'com.reigncreative.learnshanghaineselanguage',
   'com.reigncreative.animecasinoslots',
+  // Verified 2026-10-02: live listings surfaced by the "More by developer" block
+  // and Play search (docs/sports-app-inventory-2026-10.md), each probed
+  // signed-out before it was added to the catalog.
+  'com.reigncreative.prorugbycareersim',
+  'com.reigncreative.procarracingcareer',
+  'com.reigncreative.cutenotesjournal',
+  'com.reigncreative.pdftoolsallinone',
+  'com.reigncreative.transcribeaudiototext',
 ];
 
 // Owner-confirmed Draft / In Review / Internal Testing. Probed only to prove

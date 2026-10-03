@@ -111,14 +111,15 @@ export const healthNutritionApps: AppInfo[] = [
   },
   {
     slug: 'keto-diet-tracker',
-    name: 'Keto Diet Tracker: Low Carb',
-    tagline: 'A low-carb log that does the net carb math for you and keeps the day on one screen.',
+    name: 'Ketora: Keto Diet Carb Tracker',
+    formerNames: ['Keto Diet Tracker: Low Carb'],
+    tagline: 'Net carbs worked out for you, the whole day in one diary, and keto recipes that fit what you have left.',
     cardDescription:
-      'Track net carbs, fat and protein with a built-in calculator, barcode scanner and food database made for low-carb eating.',
+      'Track net carbs and macros with a barcode scanner and food diary, plan meals from keto recipes, and run an intermittent fasting timer alongside.',
     longDescription: [
-      'Keto Diet Tracker: Low Carb is built around the number low-carb eaters watch most closely: net carbs. Enter a food and the app subtracts fiber and sweeteners such as erythritol, allulose and monk fruit from total carbohydrate for you, so you are not doing arithmetic on a nutrition label in a supermarket aisle.',
-      'Logging is meant to be quick. A low-carb food database and a barcode scanner cover packaged items, custom foods and recipes handle anything you cook yourself, and a meal planner lets you set out breakfast, lunch, dinner and desserts ahead of time. A built-in macro calculator turns details you enter, such as age, height, weight and activity level, into starting fat, protein and net carb figures you are free to adjust.',
-      'Around the food log sit the other things low-carb eaters tend to record: ketone readings you have taken yourself with blood, urine strips or a breath meter, an intermittent fasting timer, water intake, and sodium, potassium and magnesium. Charts, body measurements, photo logs and weekly and monthly summaries turn all of it into a record you can look back over.',
+      'Ketora: Keto Diet Carb Tracker — listed on Google Play as Keto Diet Tracker: Low Carb until its recent rename — is built around the number low-carb eaters watch most closely: net carbs. Log a food and the app works them out for you, taking fiber and sugar alcohols away from total carbohydrate, and a progress ring shows how much of your daily limit is left, whether that limit is 20g or 50g.',
+      'Logging is meant to take seconds. The barcode scanner fills in nutrition from a label, favourite meals can be saved, yesterday’s entries copied and custom foods added, and the food diary shows the whole day at a glance. A few questions about your body and goals produce daily targets for fat, protein, carbs and calories, and you can switch between strict keto, lazy keto and a flexible low-carb approach.',
+      'Around the diary sit keto recipes with net carbs per serving, a meal planner that turns the week into a grocery list, and an intermittent fasting timer with 16:8, 18:6, 20:4, OMAD or custom windows. You can also record weight, body measurements, water and ketone readings you have taken from blood, breath or urine strips, with charts and weekly insights. The listing describes an AI coach that suggests low-carb swaps and recipes from your logs, and states that the app is informational, not medical advice.',
     ],
     category: 'Health & Fitness',
     categoryId: 'health-nutrition',
@@ -133,88 +134,83 @@ export const healthNutritionApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: false,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-02',
     features: [
       {
         title: 'Net carbs worked out for you',
-        body: 'Fiber and sweeteners such as erythritol, allulose and monk fruit come off total carbohydrate automatically, and the app can alert you when a day passes the limit you set.',
+        body: 'Fiber and sugar alcohols come off total carbohydrate automatically, net and total carbs show side by side, and a progress ring shows what is left today.',
       },
       {
-        title: 'Food database and barcode scanner',
-        body: 'Search a low-carb food database or scan a package to pull an item straight in, and save your own foods and recipes for anything you make.',
+        title: 'Barcode scanner and food diary',
+        body: 'Scan a label to fill in nutrition, save favourite meals, copy yesterday’s entries and add your own foods, with the whole day on one screen.',
       },
       {
-        title: 'A macro target to start from',
-        body: 'The built-in calculator turns details you enter, such as age, height, weight and activity level, into starting fat, protein and net carb figures you can change.',
+        title: 'Daily targets to start from',
+        body: 'Answer a few questions about your body and goals to get daily fat, protein, carb and calorie targets, then switch approach if you need to.',
       },
       {
-        title: 'Ketone and fasting logs',
-        body: 'Record readings you have taken from blood, urine strips or a breath meter, including GKI, and run an intermittent fasting timer next to your food log.',
+        title: 'Recipes and a meal planner',
+        body: 'Browse keto recipes with net carbs per serving, add them to the week, and let the meal planner turn the plan into a grocery list.',
       },
       {
-        title: 'The rest of the day in one place',
-        body: 'Water, sodium, potassium and magnesium, body measurements, photos, charts and weekly and monthly summaries all sit with your history.',
+        title: 'Fasting timer and progress',
+        body: 'Run 16:8, 18:6, 20:4, OMAD or custom fasting windows with reminders, and chart weight, measurements, water and ketone readings.',
       },
     ],
     audience: [
       'Low-carb eaters tired of doing net carb math by hand',
-      'People new to low-carb who want the calculations handled',
-      'Trackers who also log ketone readings and fasting windows',
-      'Home cooks who need custom foods and their own recipes',
+      'People new to keto who want daily targets to start from',
+      'Trackers who pair a keto diet with intermittent fasting',
+      'Home cooks who plan the week’s meals and shop from a list',
     ],
     howItWorks: [
       {
-        title: 'Set your starting macros',
-        body: 'Enter your details and let the calculator suggest fat, protein and net carb figures, or type in your own if you already know what you work to.',
+        title: 'Set your targets',
+        body: 'Answer a few questions about your body and goals, and choose strict keto, lazy keto or a flexible low-carb approach.',
       },
       {
         title: 'Log food fast',
-        body: 'Search the low-carb database, scan a barcode, or add a custom food or recipe. Net carbs are calculated as you go.',
+        body: 'Scan a barcode, reuse a saved meal or add a custom food. Net carbs, macros and calories update as you go.',
       },
       {
-        title: 'Track the rest of the day',
-        body: 'Add water, electrolytes, fasting windows and any ketone readings you have taken, so the whole day sits in one entry.',
+        title: 'Plan the week',
+        body: 'Pick keto recipes, add them to the meal planner, and take the grocery list it builds to the shop.',
       },
       {
-        title: 'Look at the week, not the day',
-        body: 'Charts, measurements, photo logs and weekly or monthly summaries show what your low-carb eating looks like over time.',
+        title: 'Watch the trend',
+        body: 'Track weight, measurements, water, ketone readings and fasting windows, and read the weekly insights.',
       },
     ],
     faqs: [
       {
-        question: 'Is Keto Diet Tracker: Low Carb free?',
+        question: 'Is Ketora: Keto Diet Carb Tracker free?',
         answer:
-          'Yes, it is free to download on Google Play. It is supported by ads, and there are no in-app purchases.',
+          'Yes, it is free to download on Google Play and supported by ads. The listing says the core tracker, barcode scanner, food diary, calorie counter and fasting timer stay free, and it describes an optional Ketora Premium for extras such as advanced ketosis charts and data export.',
       },
       {
         question: 'How does the app count net carbs?',
         answer:
-          'It takes total carbohydrate and subtracts fiber and sweeteners such as erythritol, allulose and monk fruit. That subtraction happens automatically each time you log a food.',
-      },
-      {
-        question: 'Do I have to set a carb limit?',
-        answer:
-          'You choose your own daily limit and the app can alert you when a day goes past it. The app does not pick the number for you.',
+          'It takes total carbohydrate and subtracts fiber and sugar alcohols. That happens automatically each time you log a food, and net and total carbs are shown side by side.',
       },
       {
         question: 'Can I log ketone readings?',
         answer:
-          'Yes. There is a place to record blood, urine strip and breath meter readings, including GKI. The app stores what you enter and does not measure anything itself.',
+          'Yes. You can record readings you have taken from blood, breath or urine strips. The app stores what you enter and does not measure anything itself.',
       },
       {
-        question: 'Can I add my own recipes?',
+        question: 'Does it support intermittent fasting?',
         answer:
-          'Yes. Custom foods and recipes let you save anything you cook so you are not re-entering the same meal every week, and the meal planner can schedule them in advance.',
+          'Yes. Choose a 16:8, 18:6, 20:4, OMAD or custom window, and the app reminds you when your eating window opens and closes.',
       },
       {
-        question: 'Do I need an account, and where is my data kept?',
+        question: 'Is it medical advice?',
         answer:
-          'No account is required. Your logs are stored locally on your device rather than on our servers, as set out in our privacy policy, and they remain there until you delete them or uninstall the app.',
+          'No. The listing describes Ketora as informational and not medical advice, and suggests talking to a doctor before starting any new diet, especially if you are pregnant, nursing or managing a medical condition.',
       },
     ],
-    metaTitle: 'Keto Diet Tracker: Low Carb for Android',
+    metaTitle: 'Ketora: Keto Diet Carb Tracker for Android',
     metaDescription:
-      'Log net carbs without the math, with fiber and sweeteners subtracted for you, plus a barcode scanner, food database and ketone log. Free on Google Play.',
+      'Track net carbs and macros with a barcode scanner, food diary, keto recipes, a meal planner and an intermittent fasting timer. Free on Google Play.',
   },
   {
     slug: 'easy-recipes-meal-planner',
