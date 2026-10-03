@@ -32,3 +32,31 @@ Pairs whose primary keywords share at least 60% of their content words. Overlap 
 - `learn-marathi-beginners-guide` ↔ `marathi-study-plan-first-month` (67%)
 - `malay-vs-indonesian-differences` ↔ `should-i-learn-malay-or-indonesian` (67%)
 - `aging-curves-in-career-sims` ↔ `how-player-career-modes-work` (60%)
+
+## Follow-ups from the 2026-10-02 expansion review
+
+Found by the AI editorial reviewers or the coordinator while checking the new sports
+articles. Each needs its source re-read before anything changes, and a meaning change
+gets a dated correction note (editorial policy).
+
+- `mma-weight-classes-explained` cites the Association of Boxing Commissions' unified
+  MMA rules as version 8.2025; the current version is 8.2026 (amended 2026-08-05,
+  with its own "requested implementation date"). Re-check the weight table and
+  citation.
+- `soccer-rule-changes-2026-27` describes one season's Law changes; refresh it when
+  IFAB publishes the 2027/28 changes (usually decided early in the year).
+- `tennis-scoring-for-beginners` keeps a tiebreak FAQ and long-tail phrase that
+  overlap the new `tennis-tiebreak-rules`; the FAQ is useful to beginners, so it
+  stays, linked to the new page.
+- Four MLB front-office topics (draft, arbitration and service time, the 40-man
+  roster and Rule 5, the competitive balance tax) were deferred until MLB's next
+  collective bargaining agreement (the current one expires 2026-12-01).
+- Some official sources disagree with each other or are stale (MLB.com glossary vs
+  the 2026 rulebook on mound visits; NFL operations pages vs the rulebook on
+  halftime; the fifth-year-option deadline in the NFL CBA vs the operations page;
+  World Rugby's pages on the 20-minute red card trial date). The articles state the
+  conflict; re-check when the publishers update.
+- Older articles that describe our apps' development history in the first person
+  ("we built…", "we cut…") need the owner to confirm each account; one that could
+  not be verified (`golf-tournament-formats`) was corrected on 2026-10-02. The list
+  is kept with the owner.

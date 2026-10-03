@@ -2,6 +2,39 @@
 
 All notable changes to the Reign Creative LLC website are documented here.
 
+## [1.4.0] — 2026-10-02
+
+### Sports expansion: 126 guides, nine sport hubs, 21 calculators, honest review labels
+
+Full account: `docs/expansion-2026-10-final-report.md`.
+
+- **Publishing model.** Articles published from 2026-10-02 say how they were checked:
+  "AI-assisted article … No person has reviewed it yet" (after automated checks and a
+  logged AI editorial review of that exact text, enforced by a content hash), or
+  "Reviewed by <name> on <date>", which needs a real reviewer record no script may
+  write. The one-article-a-day cap is gone: `npm run publish:batch` publishes every
+  ready article on the real Los Angeles day, and `npm run links:batch` adds reverse
+  links. The editorial policy, About and author pages describe both labels.
+- **126 sports articles** — rules, strategy, statistics and history across basketball,
+  baseball, American football, hockey, soccer, rugby union, MMA and boxing, tennis,
+  golf and cross-sport research — each reviewed against its sources (766 cited).
+- **Sport hubs** at `/sports/` and nine `/sports/<sport>/` pages, and **21 calculators**
+  at `/tools/<sport>/<tool>/`, with formulas from opened sources and tests that
+  reproduce the sources' own examples. Sports articles and app pages link their hub;
+  sports guides and calculators carry a no-affiliation note.
+- **Catalog refreshed against Google Play:** five renamed apps keep their URLs and show
+  their former names; five live apps added (44 in total). The draft/GM apps' entries
+  now say their player pools are built from real players' careers.
+- **Corrections, each with a dated note:** 59 sports articles that called the draft/GM
+  apps fictional; 116 other articles contradicted by the renamed apps' listings; two
+  golf articles (the par definition, and an unverifiable account of the game's formats).
+- **Technical:** the RSS feed lists the newest 50 articles (the sitemap stays
+  complete), is advertised with `rel="alternate"` and is linked from `/blog/`; the 404
+  page has one robots tag and no `og:url`; wide article tables scroll inside their own
+  box on phones; Tailwind now generates the classes calculators and the app catalog use.
+- **Blocked, and documented:** finance pages (the Stock Trading Simulator Game is not on
+  Google Play) and any Pokémon TCG catalogue (no licence).
+
 ## [1.3.0] — 2026-09-25
 
 ### Authorship, internal linking, the publishing queue and the refresh system
