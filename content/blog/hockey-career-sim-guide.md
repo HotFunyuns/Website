@@ -1,12 +1,14 @@
 ---
 {
-  "title": "Hockey Career Sim 2026: Choosing a Position and Building a Career",
-  "metaTitle": "Hockey Career Sim 2026: Position & Career Guide",
-  "description": "How forward, centre, defence and goalie careers differ in Hockey Career Sim 2026, which attributes each one actually uses, and how to earn a roster spot.",
+  "title": "Hockey Career Sim 2027: Choosing a Position and Building a Career",
+  "metaTitle": "Hockey Career Sim 2027: Position & Career Guide",
+  "description": "How forward, centre, defence and goalie careers differ in Hockey Career Sim 2027, which attributes each one actually uses, and how to earn a roster spot.",
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "hockey",
@@ -31,7 +33,7 @@
     "is there an offline hockey career game for android"
   ],
   "aiSearchQuestions": [
-    "What is Hockey Career Sim 2026?",
+    "What is Hockey Career Sim 2027?",
     "Can you play as a goalie in a hockey career simulator?",
     "Which attributes matter for each hockey position?",
     "Does the game work offline?"
@@ -60,7 +62,7 @@
   "featured": false,
   "faqs": [
     {
-      "question": "What is Hockey Career Sim 2026?",
+      "question": "What is Hockey Career Sim 2027?",
       "answer": "It is an Android game that follows a single hockey player's career. You choose a position and archetype, develop attributes through training, and make decisions during games while contracts, relationships and injuries play out around you."
     },
     {
@@ -103,7 +105,7 @@
 
 Hockey is unusually badly served by career games. The management side is well covered — rosters, cap sheets, draft boards — but the experience of being one player, in one role, across a decade of seasons is rarer, and the goaltender's version of it is rarer still.
 
-[Hockey Career Sim 2026](/apps/hockey-career-sim/) is built around that gap. This guide covers what each position path actually asks of you, how development is weighted, and where careers tend to stall.
+[Hockey Career Sim 2027](/apps/hockey-career-sim/) is built around that gap. This guide covers what each position path actually asks of you, how development is weighted, and where careers tend to stall.
 
 ## Four positions, four different games
 
@@ -168,4 +170,4 @@ Outcomes are sampled from a model using your attributes, the situation and the g
 
 If you would rather build the team than play on it, [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) is the front-office version, and [the hockey draft and GM guide](/blog/hockey-draft-gm-guide/) covers drafting and line construction. The same career structure in other sports is in [Baseball Career Sim 2026](/apps/baseball-career-sim/) — [its guide](/blog/baseball-career-sim-guide/) is the closest analogue for how development compounds.
 
-Everything we make here is listed under [sports career and GM games](/apps/category/sports-gm/). Hockey Career Sim 2026 is free to download on Google Play, supported by ads, with optional in-app purchases and an Everyone content rating.
+Everything we make here is listed under [sports career and GM games](/apps/category/sports-gm/). Hockey Career Sim 2027 is free to download on Google Play, supported by ads, with optional in-app purchases and an Everyone content rating.

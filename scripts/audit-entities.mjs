@@ -37,7 +37,6 @@ const VERIFIED_SAME_AS = new Set([DEVELOPER_PAGE]);
 /** Spellings that must never ship. Each is a second name for one entity. */
 const VARIANTS = [
   [/Reign Creative Team/, 'legacy byline "Reign Creative Team"'],
-  [/Reign Creative Editorial/, 'invented "Reign Creative Editorial" name'],
   [/Reign Creatives\b/, '"Reign Creatives"'],
   [/Reign Creative,\s*LLC/, '"Reign Creative, LLC"'],
   [/Reign Creative L\.L\.C/, '"Reign Creative L.L.C."'],
@@ -51,6 +50,18 @@ const VARIANTS = [
 // com.reigncreative.mentalmathchampion between the 2026-09-15 and 2026-10-02
 // verifications, so it is now the app's correct name (docs/app-inventory-2026-10.md).
 const UNRELEASED = ['World History Simulator'];
+
+/**
+ * "Reign Creative Editorial Team" is not a second name for the company; it is
+ * the reviewer label of the owner's company-level review attestation
+ * (src/data/review-attestations.ts, 2026-10-24), worded as the owner's brief
+ * specified. It may appear only where that label is shown or explained: inside
+ * an article's review notice, and on the three pages that describe the labels.
+ * Anywhere else — an article body, a title, structured data — it would be an
+ * invented entity, which is what this audit exists to stop.
+ */
+const ATTESTED_LABELS = [...readFileSync(join(ROOT, 'src', 'data', 'review-attestations.ts'), 'utf8').matchAll(/^    label: '([^']+)',/gm)].map((m) => m[1]);
+const LABEL_EXPLAINED_ON = new Set(['/editorial-policy/', '/about/', '/authors/reign-creative-llc/']);
 
 const { apps } = loadSiteData();
 const packages = new Map(apps.map((a) => [a.packageId, a]));
@@ -91,6 +102,14 @@ for (const file of walk(OUT_DIR)) {
     if (hit) fail(`${route}: ${label} — "…${text.slice(Math.max(0, hit.index - 40), hit.index + 40).replace(/\s+/g, ' ')}…"`);
   }
   for (const name of UNRELEASED) if (doc.includes(name)) fail(`${route}: unreleased app name "${decode(name)}"`);
+  for (const label of ATTESTED_LABELS) {
+    // Remove the one sanctioned use — the reviewer span inside the review
+    // notice — and the explanatory pages; any remaining mention is a stray.
+    const outsideNotice = text.replace(/<p\b[^>]*data-review-notice="organization"[\s\S]*?<\/p>/g, '');
+    if (!LABEL_EXPLAINED_ON.has(route) && outsideNotice.includes(label)) {
+      fail(`${route}: "${label}" used outside the review notice — it is an attestation label, not a company name`);
+    }
+  }
   counts.legal += (text.match(/Reign Creative LLC/g) ?? []).length;
   counts.developer += (text.match(/Reign Collective Apps/g) ?? []).length;
   counts.short += (text.match(/Reign Creative(?! LLC)/g) ?? []).length;

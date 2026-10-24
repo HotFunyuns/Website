@@ -237,14 +237,14 @@ export default function AuthorPage({ params }: { params: { author: string } }) {
                 its sources and the catalog, and its result is logged.
               </li>
               <li>
-                <strong className="text-ink-950">Each new article says how it was checked.</strong>{' '}
-                Since {labelsDate}, an article a person at {companyInfo.name} read in full and approved
-                says &ldquo;Reviewed by&rdquo; with their name and the date. An article labelled
-                &ldquo;AI-assisted&rdquo; was published after the automated checks and the AI editorial
-                review alone, and no person has reviewed it yet. Finished articles are published once
-                they pass every check rather than held to a release schedule. Articles published on or
-                before {gateDate} carry no label: they passed the automated checks, but not every one
-                of them was read in full by a person before it went live.
+                <strong className="text-ink-950">Each article says how it was checked.</strong>{' '}
+                Articles published up to {labelsDate} say &ldquo;Reviewed by Reign Creative Editorial
+                Team&rdquo;: the company has confirmed in writing that people at {companyInfo.name}
+                reviewed them. A newer article a person read in full and approved says &ldquo;Reviewed
+                by&rdquo; with their name and the date. An article labelled &ldquo;AI-assisted&rdquo; was
+                published after the automated checks and the AI editorial review alone, and no person has
+                reviewed it yet. Finished articles are published once they pass every check rather than
+                held to a release schedule.
               </li>
               <li>
                 <strong className="text-ink-950">No expert review is implied.</strong> No article is

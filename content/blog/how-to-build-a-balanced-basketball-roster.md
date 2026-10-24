@@ -9,10 +9,12 @@
   "corrections": [
     {
       "date": "2026-10-02",
-      "note": "An earlier version described Pro Basketball GM Franchise as a fictional simulation built on generated players. Its draft pool is built from real-world players' careers, with ratings that are the game's own estimates; Basketball Career Sim is fictional. The affected passages have been corrected."
+      "note": "An earlier version described Basketball Game Franchise GM as a fictional simulation built on generated players. Its draft pool is built from real-world players' careers, with ratings that are the game's own estimates; Basketball Career Sim is fictional. The affected passages have been corrected."
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "roster building",
@@ -83,12 +85,12 @@
       "answer": "Neither is better in general; they buy different things. A top-heavy roster raises your ceiling and concentrates risk in a few slots. A deep roster raises your floor and rarely produces a dominant unit. The right answer depends on the format you are playing and on what the simulation is scored on — which is worth finding out by running the same board both ways."
     },
     {
-      "question": "What does Pro Basketball GM Franchise reward?",
+      "question": "What does Basketball Game Franchise GM reward?",
       "answer": "The game is explicit that balance and depth carry more weight than any single marquee pick, and that the season is the verdict on how your team-building held up. It runs a full 82-game season with a playoff race, and its GM Mode covers contracts, trades and rotations, so the roster you draft is only the starting point."
     },
     {
       "question": "Are the players in these games real?",
-      "answer": "In one of them. Pro Basketball GM Franchise builds its draft pool from real players' careers, with ratings that are the game's own estimates; Basketball Career Sim is set in a fictional league with fictional players. Neither is affiliated with, endorsed by or licensed by any league, team or athlete, and the records they produce are model outputs rather than predictions about anything real."
+      "answer": "In one of them. Basketball Game Franchise GM builds its draft pool from real players' careers, with ratings that are the game's own estimates; Basketball Career Sim is set in a fictional league with fictional players. Neither is affiliated with, endorsed by or licensed by any league, team or athlete, and the records they produce are model outputs rather than predictions about anything real."
     }
   ],
   "sources": [
@@ -159,7 +161,7 @@ This is the mechanism behind the advice everyone repeats and few people follow: 
 
 Depth is misunderstood as "having more good players". It is better understood as **insurance against your worst minutes**.
 
-Every roster has a floor: the quality of the lineup you are forced to field when your preferred one is unavailable. Over a long season — 82 games in [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/), for instance — you will spend a meaningful share of the time somewhere other than your best five.
+Every roster has a floor: the quality of the lineup you are forced to field when your preferred one is unavailable. Over a long season — 82 games in [Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/), for instance — you will spend a meaningful share of the time somewhere other than your best five.
 
 Depth raises that floor. That is all it does, and it explains why depth looks wasteful when things go well and decisive when they do not. You are not buying more good minutes at the top. You are buying fewer bad ones at the bottom.
 
@@ -201,7 +203,7 @@ Drafting sets your ceiling. The front office decides how much of it you reach, a
 
 **Contracts add time.** A contract is not only a price but a duration, and committing years to a player also commits the flexibility you might have wanted later.
 
-Pro Basketball GM Franchise hands you all three across a full 82-game season and playoff race, and offers eight draft formats — Unlimited, Quick, Blind, Franchise and Salary Cap Draft plus VS Computer, Battle Mode and a Daily Challenge — which is enough variety that a roster built for one can genuinely fail in another.
+Basketball Game Franchise GM hands you all three across a full 82-game season and playoff race, and offers eight draft formats — Unlimited, Quick, Blind, Franchise and Salary Cap Draft plus VS Computer, Battle Mode and a Daily Challenge — which is enough variety that a roster built for one can genuinely fail in another.
 
 ## Diagnosing a season that went badly
 

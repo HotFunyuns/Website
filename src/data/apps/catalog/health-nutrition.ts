@@ -26,7 +26,7 @@ export const healthNutritionApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Protein, calories and macros together',
@@ -105,6 +105,11 @@ export const healthNutritionApps: AppInfo[] = [
           'No account is required. Your entries are stored locally on your device rather than on our servers, as set out in our privacy policy, and they stay there until you delete them or uninstall the app.',
       },
     ],
+    limitations: [
+      'It does not calculate a protein target for you; you set your own daily goals.',
+      'Entries are stored on your device with no account, so there is no cloud sync between phones.',
+      'It is a tracking tool, not medical or dietetic advice.',
+    ],
     metaTitle: 'Protein Diet Tracker for Android',
     metaDescription:
       'Log meals, workouts and body weight, then see your protein, calories and macros for the day in one clear total. Protein Diet Tracker is free on Google Play.',
@@ -134,7 +139,7 @@ export const healthNutritionApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: false,
     free: true,
-    lastVerified: '2026-10-02',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Net carbs worked out for you',
@@ -208,6 +213,11 @@ export const healthNutritionApps: AppInfo[] = [
           'No. The listing describes Ketora as informational and not medical advice, and suggests talking to a doctor before starting any new diet, especially if you are pregnant, nursing or managing a medical condition.',
       },
     ],
+    limitations: [
+      'It records ketone readings you take yourself; it does not measure ketones.',
+      'Net carbs are worked out from the food data you log, so they are only as accurate as that data.',
+      'It is informational, not medical advice; the listing suggests speaking to a doctor before starting a new diet.',
+    ],
     metaTitle: 'Ketora: Keto Diet Carb Tracker for Android',
     metaDescription:
       'Track net carbs and macros with a barcode scanner, food diary, keto recipes, a meal planner and an intermittent fasting timer. Free on Google Play.',
@@ -236,7 +246,7 @@ export const healthNutritionApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Weekly meal planner',
@@ -310,8 +320,140 @@ export const healthNutritionApps: AppInfo[] = [
           'Calories and macros are shown for supported recipes. Where a recipe has no nutrition data available, the app does not estimate one for it.',
       },
     ],
+    limitations: [
+      'Calories and macros appear only for supported recipes; where data is missing, the app does not estimate it.',
+      'Allergy flags depend on what you log and on each recipe’s ingredients, so treat them as a prompt to check, not a guarantee.',
+      'Ads support the free version, and Google Play lists in-app purchases.',
+    ],
     metaTitle: 'Easy Recipes & Meal Planner for Android',
     metaDescription:
       'Plan a week of meals, track what is in your pantry, and see calories and macros that scale with your serving size. Free on Google Play.',
+  },
+  {
+    slug: 'kawaii-breathe-relax',
+    name: 'Kawaii Cute Breathe Relax Care',
+    tagline: 'Breathe along with a cute animated guide and a timer — a short, friendly pause for relaxation.',
+    cardDescription:
+      'A guided breathing app with kawaii characters: follow an animated guide and timer through inhale, hold and exhale for a short relaxation break.',
+    longDescription: [
+      'Kawaii Cute Breathe Relax Care is a breathing app with animated guides and a timer for everyday relaxation. You breathe along with a character — a cloud that grows as you inhale and shrinks as you exhale, or one of several cute animals — while the timer and cues show the rhythm, including any hold in your pattern, so you do not have to count seconds yourself. Its in-app title reads Kawaii Cute Breathe Relax Calm.',
+      'The listing presents it as a gentle start to mindfulness and breath-focused meditation: a pause at your desk, a break during a stressful day, or a few minutes before sleep. No meditation experience is assumed, and there is no score to beat. The store screenshots show a choice of characters and matching scenes, a session timer, a breath counter, pause and resume, multi-step routines, gentle breath holds, equal breathing, a one-minute reset and a bedtime wind-down.',
+      'It is a relaxation tool, not a treatment. Anyone dealing with persistent anxiety, sleep problems or a breathing condition should speak to a health professional; the app does not diagnose or treat anything.',
+    ],
+    category: 'Wellness · Breathing',
+    categoryId: 'health-nutrition',
+    schemaCategory: 'LifestyleApplication',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.reigncreative.kawaiicutebreatherelax',
+    packageId: 'com.reigncreative.kawaiicutebreatherelax',
+    icon: '/icons/kawaii-breathe-relax.webp',
+    iconSmall: '/icons/kawaii-breathe-relax-sm.webp',
+    accent: 'from-gold-400 to-crimson-500',
+    playCategory: 'BEAUTY',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: false,
+    free: true,
+    lastVerified: '2026-10-24',
+    features: [
+      {
+        title: 'An animated breathing guide',
+        body: 'Watch the cloud or character grow on the inhale and shrink on the exhale.',
+      },
+      {
+        title: 'A timer that counts for you',
+        body: 'Cues for inhale, hold and exhale, so attention stays on the breath.',
+      },
+      {
+        title: 'Cute characters and scenes',
+        body: 'Choose a guide and a calming scene you enjoy returning to.',
+      },
+      {
+        title: 'Short routines',
+        body: 'Multi-step routines, a one-minute reset and a bedtime wind-down.',
+      },
+      {
+        title: 'No pressure',
+        body: 'No score and no perfect performance to achieve; pause and resume whenever you need.',
+      },
+    ],
+    audience: [
+      'Anyone who wants a short, structured breathing break',
+      'People who find a visual guide easier than counting',
+      'Fans of kawaii art who want a calmer app on their phone',
+      'Beginners curious about breath-focused meditation',
+    ],
+    howItWorks: [
+      {
+        title: 'Choose a guide',
+        body: 'Pick a character and scene.',
+      },
+      {
+        title: 'Start the timer',
+        body: 'Follow the animation through inhale, any hold and exhale.',
+      },
+      {
+        title: 'Stay with the rhythm',
+        body: 'Let the cues keep time while your attention rests on the breath.',
+      },
+      {
+        title: 'Return when you need it',
+        body: 'Use a short reset during the day or a wind-down before bed.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Kawaii Cute Breathe Relax Care free?',
+        answer:
+          'Yes. It is free to download on Google Play and supported by ads. Google Play does not list in-app purchases for it.',
+      },
+      {
+        question: 'Does it treat anxiety or insomnia?',
+        answer:
+          'No. It is a relaxation and breathing-practice app, not a medical or mental-health treatment, and it does not diagnose anything. If anxiety or sleep problems persist, speak to a health professional.',
+      },
+      {
+        question: 'Do I need meditation experience?',
+        answer:
+          'No. The listing says no experience is needed — a short pause can simply mean noticing your breath and how you feel.',
+      },
+      {
+        question: 'Why is it called Breathe Relax Calm inside the app?',
+        answer:
+          'Kawaii Cute Breathe Relax Calm is the title used in the app and its store images; the Google Play title is Kawaii Cute Breathe Relax Care. They are the same app.',
+      },
+      {
+        question: 'What breathing patterns are there?',
+        answer:
+          'The store screenshots show multi-step routines, gentle breath holds, equal breathing and a one-minute reset, each paced by the timer.',
+      },
+    ],
+    limitations: [
+      'It is not medical advice or a therapy, and it should not replace care for anxiety, sleep or breathing conditions.',
+      'If any pattern — especially a breath hold — makes you dizzy or uncomfortable, stop and breathe normally.',
+      'Ads support the free version; Google Play lists no in-app purchases.',
+    ],
+    screenshots: [
+      {
+        src: '/screenshots/kawaii-breathe-relax/1.webp',
+        width: 360,
+        height: 640,
+        alt: 'Kawaii Cute Breathe Relax Care store image of a breathing session with a cute whale guide inside a progress ring and a Breathe in prompt, headed Find your calm.',
+      },
+      {
+        src: '/screenshots/kawaii-breathe-relax/2.webp',
+        width: 360,
+        height: 640,
+        alt: 'Kawaii Cute Breathe Relax Care store image of a breathing session with a capybara guide in a garden scene, headed Your cutest calm break.',
+      },
+      {
+        src: '/screenshots/kawaii-breathe-relax/3.webp',
+        width: 360,
+        height: 640,
+        alt: 'Kawaii Cute Breathe Relax Care store image of a session with an axolotl guide, headed Find your focus, with options for study focus, gentle breath holds and a session timer.',
+      },
+    ],
+    metaTitle: 'Kawaii Cute Breathe Relax Care for Android',
+    metaDescription:
+      'Breathe along with a cute animated guide and a timer through inhale, hold and exhale. A relaxation tool, not medical advice. Free on Google Play.',
   },
 ];

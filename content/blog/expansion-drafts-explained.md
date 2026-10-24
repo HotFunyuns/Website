@@ -13,6 +13,8 @@
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "draft",
@@ -161,7 +163,7 @@ Each has a different design goal, and each produces a different kind of roster.
 
 Most draft games do not model expansion, because it is a one-off league event rather than a repeatable format. What our games model is the repeatable part: assembling a roster from a pool under a constraint.
 
-[84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) and [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) both offer multiple draft formats where the constraint changes — unlimited selection, restricted pools, salary-limited drafting — and each rewards a different approach. The expansion-draft lesson transfers directly: **when you are filling a whole roster rather than upgrading one slot, breadth is worth more than peak quality.**
+[84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) and [Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/) both offer multiple draft formats where the constraint changes — unlimited selection, restricted pools, salary-limited drafting — and each rewards a different approach. The expansion-draft lesson transfers directly: **when you are filling a whole roster rather than upgrading one slot, breadth is worth more than peak quality.**
 
 [What makes a good draft board](/blog/what-makes-a-good-draft-board/) covers preparing for a draft where the pool is unfamiliar, which is exactly the expansion team's problem.
 

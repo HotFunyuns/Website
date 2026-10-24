@@ -4,7 +4,8 @@
   "metaTitle": "Basketball Offense Types: Motion, Pace and Space, More",
   "description": "The main types of basketball offence, the problem each solves and the players it needs, plus the shot-value maths and league data behind the three-point era.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -213,6 +214,6 @@ The common thread is that every system leaves one job uncovered if the roster is
 
 ## Offence in our games
 
-In [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/), you draft and set rotations, and the game's own simulation plays an 82-game season with the roster you built. Nothing here describes how that model values a particular system; the useful habit is thinking about which jobs your roster covers before you worry about style. The [draft simulator guide](/blog/basketball-draft-gm-guide/) works through that, and [advanced stats explained](/blog/basketball-advanced-stats-explained/) covers the per-possession thinking behind the shot-value arithmetic.
+In [Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/), you draft and set rotations, and the game's own simulation plays an 82-game season with the roster you built. Nothing here describes how that model values a particular system; the useful habit is thinking about which jobs your roster covers before you worry about style. The [draft simulator guide](/blog/basketball-draft-gm-guide/) works through that, and [advanced stats explained](/blog/basketball-advanced-stats-explained/) covers the per-possession thinking behind the shot-value arithmetic.
 
 From the player's side, [Basketball Career Sim](/apps/pro-basketball-my-career-sim/), a fictional career game, puts the shot-selection question in your hands on key possessions: take the shot or move the ball on. The arithmetic above is the real-world reason that choice is not as simple as it looks. Further reading on the sport is on the [basketball hub](/sports/basketball/), and our sports titles are in the [sports GM category](/apps/category/sports-gm/).

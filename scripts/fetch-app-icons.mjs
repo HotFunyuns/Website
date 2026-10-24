@@ -63,6 +63,25 @@ const SLUGS = {
   'com.reigncreative.cutenotesjournal': 'kawaii-cute-notes-journal',
   'com.reigncreative.pdftoolsallinone': 'pdf-all-in-one-tools',
   'com.reigncreative.transcribeaudiototext': 'transcribe-audio-to-text',
+  // Added 2026-10-24 after verifying each listing is publicly reachable signed-out
+  // (docs/published-app-inventory-latest.md).
+  'com.reigncreative.basketballprocareerleague': 'basketball-career-pro-league',
+  'com.reigncreative.boxingprizefightercareer': 'boxing-prize-fighter-career',
+  'com.reigncreative.soccerprocareerleague': 'football-career-soccer-league',
+  'com.reigncreative.footballprocareerleague': 'football-career-pro-league',
+  'com.reigncreative.hockeyprocareerretroleague': 'hockey-career-pro-league',
+  'com.reigncreative.footballleaguesandbox': 'football-league-commissioner',
+  'com.reigncreative.basketballleaguesandbox': 'basketball-league-sandbox',
+  'com.reigncreative.procricketcareersim': 'cricket-career-simulator',
+  'com.reigncreative.animecraft': 'block-world-rpg',
+  'com.reigncreative.kawaiicutebreatherelax': 'kawaii-breathe-relax',
+  'com.reigncreative.discretemath': 'discrete-math-study-quiz',
+  'com.reigncreative.herotdidletowerdefense': 'hero-td-idle-tower-defense',
+  'com.reigncreative.stocktradingsim': 'learn-to-trade-stocks',
+  'com.reigncreative.animetowncitysim': 'life-simulator-city-builder',
+  'com.reigncreative.dragonpetevolvehatcheggs': 'dragon-pet-evolve',
+  'com.reigncreative.worldwargunshipattack': 'world-war-gunship-attack',
+  'com.reigncreative.casinoslotsmachine': 'big-jackpot-casino-slots',
 };
 
 // The Play CDN resizes via a trailing size directive on the image path. The -rw

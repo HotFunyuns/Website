@@ -7,6 +7,8 @@
   "publishedAt": "2026-09-22",
   "updatedAt": "2026-09-22",
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "hockey",
@@ -68,7 +70,7 @@
     },
     {
       "question": "Is goaltending really a separate career?",
-      "answer": "Yes. In Hockey Career Sim 2026 the goaltender is a full career path with its own attributes and its own in-game decisions rather than a variation on a skater. The decisions you are given, the attributes that develop and the way a game is won or lost all differ, which is why it plays as a different game rather than a different jersey."
+      "answer": "Yes. In Hockey Career Sim 2027 the goaltender is a full career path with its own attributes and its own in-game decisions rather than a variation on a skater. The decisions you are given, the attributes that develop and the way a game is won or lost all differ, which is why it plays as a different game rather than a different jersey."
     },
     {
       "question": "Can I change archetype part-way through a career?",
@@ -100,7 +102,7 @@
 
 An archetype is the commitment you make at the character-creation screen about what kind of player you are trying to become. A position is where you stand on the ice. A hockey career mode asks for both, and only one of them is easy to revise later.
 
-[Hockey Career Sim 2026](/apps/hockey-career-sim/) — our own app, built by Reign Creative — puts the choice first. Its catalog entry describes "Four ways to play: Forward, centre, defenceman or goalie, each with archetypes that push the career toward scoring, playmaking, defending or netminding," and the game's own guidance is blunt about the stakes: decide early whether you are building a scorer, a playmaker, a defensive leader or a goaltender, because the whole career follows from it.
+[Hockey Career Sim 2027](/apps/hockey-career-sim/) — our own app, built by Reign Creative — puts the choice first. Its catalog entry describes "Four ways to play: Forward, centre, defenceman or goalie, each with archetypes that push the career toward scoring, playmaking, defending or netminding," and the game's own guidance is blunt about the stakes: decide early whether you are building a scorer, a playmaker, a defensive leader or a goaltender, because the whole career follows from it.
 
 ## Position tells you the job; archetype tells you the trade
 
@@ -116,7 +118,7 @@ Both archetypes exist to produce goals, which is why they look interchangeable o
 
 A scoring build converts shooting and positioning into shots taken from places worth shooting from. Its failure mode is being in the right place with nothing to shoot, because nobody moved the puck there. A playmaking build converts passing, puck control and awareness into chances for other people. Its failure mode is being the player who makes the pass that the recipient cannot finish.
 
-Hockey Career Sim 2026 develops skating, shooting, passing, puck control, checking, positioning, stamina, awareness and goaltending through focused training, and the simulator weights what you attempt against what you have built. That is the mechanical reason the two forward archetypes diverge: they are drawing on different halves of the same list, and a point spent on shooting is a point not spent on awareness.
+Hockey Career Sim 2027 develops skating, shooting, passing, puck control, checking, positioning, stamina, awareness and goaltending through focused training, and the simulator weights what you attempt against what you have built. That is the mechanical reason the two forward archetypes diverge: they are drawing on different halves of the same list, and a point spent on shooting is a point not spent on awareness.
 
 If you are choosing between them purely on enjoyment, the useful question is which in-game decision you want to be offered repeatedly. A scorer is asked whether to shoot. A playmaker is asked who to give it to. Those are different games.
 
@@ -130,7 +132,7 @@ A defensive archetype in a career sim inherits that shape. You will be rewarded 
 
 ## Netminder is a separate career, not a fifth forward
 
-The single most common planning error is treating goaltender as another skater option. It is not. Goaltender is a full career path in Hockey Career Sim 2026 with its own attributes and its own in-game decisions, and the app's own FAQ says so directly rather than leaving it implied.
+The single most common planning error is treating goaltender as another skater option. It is not. Goaltender is a full career path in Hockey Career Sim 2027 with its own attributes and its own in-game decisions, and the app's own FAQ says so directly rather than leaving it implied.
 
 Everything about the loop changes. The decisions you are offered are about the net rather than the puck. The attribute that carries the career — goaltending — is one nobody else develops. Under the playing rules the goaltender is also treated as a distinct category of player with its own equipment and its own restrictions, which is why [the position tends to get ignored by roster-management games entirely](/blog/hockey-goaltending-explained/) and why a career sim that models it properly is doing something unusual.
 
@@ -140,7 +142,7 @@ The practical consequence for archetype choice: if netminding appeals to you, pi
 
 Three questions are worth more than any comparison chart.
 
-First, which decision do you want to be handed in the moments that matter? Hockey Career Sim 2026 gives you shoot, pass, defend, challenge the puck carrier or protect the net at the points in a game where the decision changes something. You will see your archetype's version of that prompt hundreds of times.
+First, which decision do you want to be handed in the moments that matter? Hockey Career Sim 2027 gives you shoot, pass, defend, challenge the puck carrier or protect the net at the points in a game where the decision changes something. You will see your archetype's version of that prompt hundreds of times.
 
 Second, how do you want to be measured? Scoring builds get immediate, legible feedback. Defensive and goaltending builds get feedback that arrives as an absence, and you have to learn to read it.
 

@@ -9,10 +9,12 @@
   "corrections": [
     {
       "date": "2026-10-02",
-      "note": "An earlier version described Pro Basketball GM Franchise and 162-0 Baseball Draft & GM Team as fictional simulations built on generated player pools. Both build their draft pools from real-world players' careers, with ratings that are the games' own estimates, and neither is affiliated with or endorsed by any league, team or athlete. The affected passages have been corrected."
+      "note": "An earlier version described Basketball Game Franchise GM and 162-0 Baseball Draft & GM Team as fictional simulations built on generated player pools. Both build their draft pools from real-world players' careers, with ratings that are the games' own estimates, and neither is affiliated with or endorsed by any league, team or athlete. The affected passages have been corrected."
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "draft formats",
@@ -82,11 +84,11 @@
     },
     {
       "question": "Do these games include auction drafting?",
-      "answer": "Pro Basketball GM Franchise includes a Salary Cap Draft, which constrains your picks with a budget rather than only with pick order. That is budget allocation, not a live auction — the catalogue does not describe bidding against other managers. 162-0 Baseball Draft & GM Team similarly includes payroll-focused drafting alongside its other modes."
+      "answer": "Basketball Game Franchise GM includes a Salary Cap Draft, which constrains your picks with a budget rather than only with pick order. That is budget allocation, not a live auction — the catalogue does not describe bidding against other managers. 162-0 Baseball Draft & GM Team similarly includes payroll-focused drafting alongside its other modes."
     },
     {
       "question": "Are these games connected to a real league?",
-      "answer": "No. Pro Basketball GM Franchise and 162-0 Baseball Draft & GM Team are not affiliated with, endorsed by or licensed by any league, team, players' association or athlete. Their draft pools are built from real players' careers, with ratings that are the games' own estimates, and any in-game salary or payroll figure is a simulation value with no real-world meaning."
+      "answer": "No. Basketball Game Franchise GM and 162-0 Baseball Draft & GM Team are not affiliated with, endorsed by or licensed by any league, team, players' association or athlete. Their draft pools are built from real players' careers, with ratings that are the games' own estimates, and any in-game salary or payroll figure is a simulation value with no real-world meaning."
     }
   ],
   "sources": []
@@ -199,7 +201,7 @@ And be honest about the group. Auctions are unforgiving of a table where half th
 
 It is worth being exact here rather than approximate.
 
-[Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) ships eight draft formats: Unlimited Draft, Quick Draft, Blind Draft, Franchise Draft, Salary Cap Draft, VS Computer, Battle Mode and a Daily Challenge. **Salary Cap Draft** is the budget-constrained one. Every pick has a price as well as a rating, and you have to complete a roster inside a limit — which exercises the same valuation muscle an auction demands. It is not an auction: the catalogue describes drafting under a cap, not live bidding against other managers.
+[Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/) ships eight draft formats: Unlimited Draft, Quick Draft, Blind Draft, Franchise Draft, Salary Cap Draft, VS Computer, Battle Mode and a Daily Challenge. **Salary Cap Draft** is the budget-constrained one. Every pick has a price as well as a rating, and you have to complete a roster inside a limit — which exercises the same valuation muscle an auction demands. It is not an auction: the catalogue describes drafting under a cap, not live bidding against other managers.
 
 [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/) includes payroll-focused drafting alongside Unlimited Draft, a ten-pick Limited Refresh Draft with no rerolls, VS Computer, Battle Mode, a Daily Challenge and Baseball IQ. Its Franchise GM Mode carries payroll review past draft day.
 

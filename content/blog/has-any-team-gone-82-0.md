@@ -4,7 +4,8 @@
   "metaTitle": "Has Any NBA Team Gone Undefeated? The 82-0 Question",
   "description": "No NBA team has gone 82-0. The best record is 73-9, the best start 24-0 and the longest streak 33 games. The record book, and why the season is 82 games.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -243,7 +244,7 @@ Run the same toy model over a 32-game season and an 89% team comes out unbeaten 
 
 ## Chasing a perfect record in a simulation
 
-The question also comes up in basketball management games, which let you play a whole season out yourself. In [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/), you draft a roster from a pool built from real players' careers, rated with the game's own estimates, then take it through a full 82-game season and the playoff race.
+The question also comes up in basketball management games, which let you play a whole season out yourself. In [Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/), you draft a roster from a pool built from real players' careers, rated with the game's own estimates, then take it through a full 82-game season and the playoff race.
 
 Whatever record that season produces is the simulation's verdict on your roster under the game's own assumptions. It is not a prediction about any real team, and an unusually good run tells you about the model and your team-building, not about basketball's record book. [How a basketball draft simulator works](/blog/basketball-draft-gm-guide/) covers reading a season result without over-reading it, and [how sports simulation engines work](/blog/how-sports-simulation-engines-work/) explains how ratings become results. If you would rather chase records from inside one career, [Basketball Career Sim](/apps/pro-basketball-my-career-sim/) tracks awards, records and a legacy score across a fictional player's career.
 

@@ -4,7 +4,8 @@
   "metaTitle": "What Is PER in Basketball? PER vs Win Shares vs BPM",
   "description": "What PER, Win Shares and Box Plus/Minus measure, how each is built from the box score, why they can disagree about one player, and which suits which question.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -192,6 +193,6 @@ Two habits prevent a lot of mistakes. First, never trust a rate stat without the
 
 ## Ratings in a simulation
 
-Game ratings are another all-in-one number with hidden weights. In [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/), the draft board shows a pool built from real players' careers with the game's own ratings, which are the game's estimates rather than any official statistic. Treat them the way you would treat PER: as a summary worth reading critically. The [basketball draft simulator guide](/blog/basketball-draft-gm-guide/) covers drafting against ratings, and [how sports simulation engines work](/blog/how-sports-simulation-engines-work/) explains how ratings turn into results.
+Game ratings are another all-in-one number with hidden weights. In [Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/), the draft board shows a pool built from real players' careers with the game's own ratings, which are the game's estimates rather than any official statistic. Treat them the way you would treat PER: as a summary worth reading critically. The [basketball draft simulator guide](/blog/basketball-draft-gm-guide/) covers drafting against ratings, and [how sports simulation engines work](/blog/how-sports-simulation-engines-work/) explains how ratings turn into results.
 
 If you prefer to build one player rather than read the numbers on many, [Basketball Career Sim](/apps/pro-basketball-my-career-sim/) follows a fictional career with its own stats, awards and legacy score. More basketball explainers are on the [basketball hub](/sports/basketball/), and our sports titles are listed in the [sports GM category](/blog/category/sports-gm/).

@@ -25,6 +25,21 @@ export interface AppStep {
 }
 
 /**
+ * A screenshot from the app's own Google Play listing, self-hosted under
+ * public/screenshots/<slug>/ (never hotlinked). Each one is checked by a person
+ * or the catalog review before it is added: no real athletes' names, no team or
+ * league branding and no third-party characters may be visible, because a
+ * screenshot republishes whatever is on the screen.
+ */
+export interface AppScreenshot {
+  src: string;
+  width: number;
+  height: number;
+  /** What the screenshot shows, for someone who cannot see it. */
+  alt: string;
+}
+
+/**
  * Fields under `verified` are copied from the app's live Google Play listing by
  * scripts/verify-play-listings.mjs. Nothing in this group may be hand-edited —
  * re-run the script instead, so the site can never drift from the store.
@@ -73,6 +88,15 @@ export interface AppInfo extends VerifiedPlayFacts {
   audience: string[];
   howItWorks: AppStep[];
   faqs: AppFaq[];
+  /**
+   * What the app does not do, or where its limits are — stated from the live
+   * listing and the store's structured fields, never guessed. Rendered as
+   * "Good to know before you install", so a reader can rule the app out as
+   * easily as in.
+   */
+  limitations?: string[];
+  /** Up to three listing screenshots; see AppScreenshot. */
+  screenshots?: AppScreenshot[];
   metaTitle: string;
   metaDescription: string;
 }

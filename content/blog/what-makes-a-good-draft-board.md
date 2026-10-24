@@ -9,10 +9,12 @@
   "corrections": [
     {
       "date": "2026-10-02",
-      "note": "An earlier version described Football Franchise GM League and Pro Basketball GM Franchise as fictional simulations built on generated player pools. Both build their draft pools from real-world players' careers, with ratings that are the games' own estimates, and neither is affiliated with or endorsed by any league, team or athlete. The affected passages have been corrected."
+      "note": "An earlier version described Football Franchise GM League and Basketball Game Franchise GM as fictional simulations built on generated player pools. Both build their draft pools from real-world players' careers, with ratings that are the games' own estimates, and neither is affiliated with or endorsed by any league, team or athlete. The affected passages have been corrected."
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "draft board",
@@ -83,7 +85,7 @@
     },
     {
       "question": "Do these games use real teams or players?",
-      "answer": "Football Franchise GM League and Pro Basketball GM Franchise build their draft pools from real players' careers, and some GM screens use real team names. Every rating you compare on the board is the game's own estimate rather than an official statistic, and neither game is affiliated with, endorsed by or licensed by any league, team, players' association or athlete."
+      "answer": "Football Franchise GM League and Basketball Game Franchise GM build their draft pools from real players' careers, and some GM screens use real team names. Every rating you compare on the board is the game's own estimate rather than an official statistic, and neither game is affiliated with, endorsed by or licensed by any league, team, players' association or athlete."
     }
   ],
   "sources": []

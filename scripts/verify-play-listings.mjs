@@ -68,6 +68,27 @@ const PACKAGES = [
   'com.reigncreative.cutenotesjournal',
   'com.reigncreative.pdftoolsallinone',
   'com.reigncreative.transcribeaudiototext',
+  // Verified 2026-10-24: the owner's Play Console inventory listed 61 apps; each
+  // candidate was probed signed-out (docs/published-app-inventory-latest.md).
+  // Two candidate package IDs were wrong and are recorded there with the live
+  // values below (hockey: ...hockeyprocareerretroleague, not ...hockeyprocareerleague).
+  'com.reigncreative.basketballprocareerleague',
+  'com.reigncreative.boxingprizefightercareer',
+  'com.reigncreative.soccerprocareerleague',
+  'com.reigncreative.footballprocareerleague',
+  'com.reigncreative.hockeyprocareerretroleague',
+  'com.reigncreative.footballleaguesandbox',
+  'com.reigncreative.basketballleaguesandbox',
+  'com.reigncreative.procricketcareersim',
+  'com.reigncreative.animecraft',
+  'com.reigncreative.kawaiicutebreatherelax',
+  'com.reigncreative.discretemath',
+  'com.reigncreative.herotdidletowerdefense',
+  'com.reigncreative.stocktradingsim',
+  'com.reigncreative.animetowncitysim',
+  'com.reigncreative.dragonpetevolvehatcheggs',
+  'com.reigncreative.worldwargunshipattack',
+  'com.reigncreative.casinoslotsmachine',
 ];
 
 // Owner-confirmed Draft / In Review / Internal Testing. Probed only to prove

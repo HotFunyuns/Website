@@ -4,7 +4,8 @@
   "metaTitle": "NFL Rookie Contracts Explained: The Fifth-Year Option",
   "description": "Why NFL rookie pay is set largely by draft slot, how long rookie deals run, what later-round picks can earn, and how the first-round fifth-year option works.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -171,6 +172,6 @@ For a mid-round player, the snap counts in the escalator table are the clearest 
 
 ## The same path in a career sim
 
-[Football Career Sim 2026](/apps/football-career-sim/) runs a single fictional quarterback's career through youth football, high school, college, combine preparation and the professional draft, with contracts, trades and free agency once he turns professional. None of the agreement's figures above are claimed for the game; the career's league, teams and players are invented. If you are playing a career, [what happens at a scouting combine](/blog/scouting-combine-drills-explained/) covers the event that precedes the draft, and [the quarterback career guide](/blog/football-career-sim-guide/) covers winning the job once you are there.
+[Football Career Sim 2027](/apps/football-career-sim/) runs a single fictional quarterback's career through youth football, high school, college, combine preparation and the professional draft, with contracts, trades and free agency once he turns professional. None of the agreement's figures above are claimed for the game; the career's league, teams and players are invented. If you are playing a career, [what happens at a scouting combine](/blog/scouting-combine-drills-explained/) covers the event that precedes the draft, and [the quarterback career guide](/blog/football-career-sim-guide/) covers winning the job once you are there.
 
 More from the [sports career and GM library](/apps/category/sports-gm/) sits alongside our [American football hub](/sports/football/).

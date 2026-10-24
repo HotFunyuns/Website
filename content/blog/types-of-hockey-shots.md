@@ -4,7 +4,8 @@
   "metaTitle": "Types of Hockey Shots: Wrist, Snap, Slap, Backhand",
   "description": "The main types of hockey shots, the trade-off each makes between release, power and accuracy, the order players learn them, and the rules that shape them.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -191,8 +192,8 @@ Control comes before power, and power before timing. A player who cannot place a
 3. **Is there traffic in front?** A redirection changes the puck's direction close to the net and leaves the goaltender almost no time to react, so a low, accurate shot a teammate can tip may be worth more than a hard one the goalie sees all the way.
 4. **Where is the goalie moving?** If he is moving across, a one-timer or a quick shot to the side he is leaving takes advantage.
 
-## Shooting in Hockey Career Sim 2026
+## Shooting in Hockey Career Sim 2027
 
-In [Hockey Career Sim 2026](/apps/hockey-career-sim/), shooting is one of the attributes you develop through training, alongside skating, passing, puck control and the rest, and choosing whether to shoot or pass is one of the decisions that moves momentum in a game. The career unfolds in a fictional league, and the game weights your choices by the attributes you have built. [Stamina, positioning and awareness](/blog/underrated-attributes-in-hockey-career-mode/) covers the attributes players tend to neglect, [hockey career archetypes explained](/blog/hockey-career-archetypes-explained/) covers the scorer and playmaker paths, and [hockey positions explained](/blog/hockey-positions-explained/) covers where each position tends to shoot from.
+In [Hockey Career Sim 2027](/apps/hockey-career-sim/), shooting is one of the attributes you develop through training, alongside skating, passing, puck control and the rest, and choosing whether to shoot or pass is one of the decisions that moves momentum in a game. The career unfolds in a fictional league, and the game weights your choices by the attributes you have built. [Stamina, positioning and awareness](/blog/underrated-attributes-in-hockey-career-mode/) covers the attributes players tend to neglect, [hockey career archetypes explained](/blog/hockey-career-archetypes-explained/) covers the scorer and playmaker paths, and [hockey positions explained](/blog/hockey-positions-explained/) covers where each position tends to shoot from.
 
 For the draft side, [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) has you fill a starting six from a pool built on real players' careers, rated by the game itself; [the hockey draft simulator guide](/blog/hockey-draft-gm-guide/) explains how to balance scoring against defence. Neither game is affiliated with any league. For more of the sport's rules and numbers, see the [hockey hub](/sports/hockey/); the full set of titles is under [sports career and GM games](/apps/category/sports-gm/).

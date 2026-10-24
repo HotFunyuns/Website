@@ -4,7 +4,8 @@
   "metaTitle": "When to Go for It on 4th Down: What the Research Says",
   "description": "What the landmark fourth-down studies found, the break-even yardage they estimated across the field, and why tracking data shrinks the case for aggression.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -174,6 +175,6 @@ That matters because earlier studies compared teams that went for it with teams 
 
 ## Fourth down in a career sim
 
-In [Football Career Sim 2026's single-quarterback career](/apps/football-career-sim/), drives resolve with downs, distance, field position, turnovers, timeouts and red-zone situations, the same kind of state the models above work from. The game's outcomes come from its own model of fictional players and teams, not from historical data, so a result in the sim is not evidence about real fourth downs, and nothing here is a prediction. What transfers is the habit of asking what each option leaves behind. [How sports simulation engines turn ratings into results](/blog/how-sports-simulation-engines-work/) and [understanding probability in sports sims](/blog/understanding-sports-sim-probability/) cover that from the simulation side, and [clock management in the final two minutes](/blog/two-minute-clock-management/) covers the end-of-half decisions where expected points stop being the right measure.
+In [Football Career Sim 2027's single-quarterback career](/apps/football-career-sim/), drives resolve with downs, distance, field position, turnovers, timeouts and red-zone situations, the same kind of state the models above work from. The game's outcomes come from its own model of fictional players and teams, not from historical data, so a result in the sim is not evidence about real fourth downs, and nothing here is a prediction. What transfers is the habit of asking what each option leaves behind. [How sports simulation engines turn ratings into results](/blog/how-sports-simulation-engines-work/) and [understanding probability in sports sims](/blog/understanding-sports-sim-probability/) cover that from the simulation side, and [clock management in the final two minutes](/blog/two-minute-clock-management/) covers the end-of-half decisions where expected points stop being the right measure.
 
 If you are more interested in building the roster than calling the play, [our football draft and GM guide](/blog/football-draft-gm-guide/) explains why football rosters are judged unit by unit. There are more [American football](/sports/football/) explainers on our hub and across the [sports career and GM section](/blog/category/sports-gm/).

@@ -4,7 +4,8 @@
   "metaTitle": "NBA Trade Rules: Salary Matching and Aprons, 2026-27",
   "description": "Is an NBA trade legal? A checklist for 2026-27: salary-matching bands, aggregation, apron limits, waiting periods for new signings, cash and draft-pick rules.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -203,4 +204,4 @@ A sign-and-trade lets a team re-sign its own free agent in order to trade him st
 
 Three quick checks catch the problems that are easiest to miss. Is a team that will be above the first apron taking back more salary than it sends? Has any player signed too recently to move? Is a second-apron team combining contracts, paying cash or sending its frozen pick? [Rebuild vs retool](/blog/rebuild-vs-retool/) covers the strategic question these rules sit inside, and [salary cap basics](/blog/salary-cap-basics-for-gm-games/) covers the general vocabulary.
 
-Trades are part of GM Mode in [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/), alongside contracts and rotations. This page is a guide to the real league's agreement, not to the game's mechanics. The [basketball draft simulator guide](/blog/basketball-draft-gm-guide/) explains how the app's front-office side works. For more on the sport, see the [basketball hub](/sports/basketball/) and the [sports GM category](/apps/category/sports-gm/).
+Trades are part of GM Mode in [Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/), alongside contracts and rotations. This page is a guide to the real league's agreement, not to the game's mechanics. The [basketball draft simulator guide](/blog/basketball-draft-gm-guide/) explains how the app's front-office side works. For more on the sport, see the [basketball hub](/sports/basketball/) and the [sports GM category](/apps/category/sports-gm/).

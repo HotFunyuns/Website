@@ -13,6 +13,8 @@
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "american football",
@@ -138,7 +140,7 @@ The catch is arithmetic. Development budgets are finite. Being very good at thro
 
 ## What actually changes in a decision-led game
 
-In [Football Career Sim 2026](/apps/football-career-sim/), the archetype affects which responses the simulator offers you when the pocket collapses, not merely how likely each is to succeed. That distinction matters more than it sounds.
+In [Football Career Sim 2027](/apps/football-career-sim/), the archetype affects which responses the simulator offers you when the pocket collapses, not merely how likely each is to succeed. That distinction matters more than it sounds.
 
 Consider the same situation — third down, pressure off the edge, primary read covered:
 
@@ -157,7 +159,7 @@ The useful question is not "which archetype is best?" It is **"which failure mod
 - If you want the game to reward reading the situation rather than reacting to it, take a field general.
 - If you have played a career already and want the widest range of situations, take dual-threat as a second run.
 
-[The Football Career Sim 2026 guide](/blog/football-career-sim-guide/) covers how those choices interact with coach trust and the depth chart, and [reading a defense: the basics](/blog/reading-a-defense-basics/) covers the pre-snap skill the field-general archetype is built around.
+[The Football Career Sim 2027 guide](/blog/football-career-sim-guide/) covers how those choices interact with coach trust and the depth chart, and [reading a defense: the basics](/blog/reading-a-defense-basics/) covers the pre-snap skill the field-general archetype is built around.
 
 ## The rest of the field matters too
 

@@ -7,6 +7,8 @@
   "publishedAt": "2026-08-09",
   "updatedAt": "2026-08-13",
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "language-learning",
   "tags": ["russian", "cyrillic", "alphabet", "pronunciation", "beginner"],
   "primaryKeyword": "learn russian cyrillic alphabet",

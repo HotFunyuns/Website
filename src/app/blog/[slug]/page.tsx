@@ -14,6 +14,7 @@ import ArticleSources from '@/components/blog/ArticleSources';
 import ArticleToc from '@/components/blog/ArticleToc';
 import AuthorBox from '@/components/blog/AuthorBox';
 import BlogCard from '@/components/blog/BlogCard';
+import BusinessInquiryCta from '@/components/partnerships/BusinessInquiryCta';
 import { companyInfo, getCategory } from '@/data/apps';
 import { authorPath } from '@/data/authors';
 import { getSportForPost, sportPath } from '@/data/sports';
@@ -110,6 +111,9 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
   // The sport hub this guide belongs to, if any. Guides that apply to every
   // sport (salary caps, career modes) return none and live on /sports/ itself.
   const postSport = getSportForPost(post);
+  // A partnership overview is written for businesses, not players: it sits in
+  // the /partnerships/ hub, and its calls to action are an email, not an install.
+  const isPartnership = post.kind === 'partnership';
 
   const html = await renderMarkdown(post.body);
   const [firstHalf, secondHalf] = splitAtMiddleHeading(html);
@@ -167,14 +171,22 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
         />
         <div className="container-narrow relative mx-auto px-5 sm:px-8">
           <Breadcrumbs
-            items={[
-              { label: 'Home', href: '/' },
-              { label: 'Blog', href: '/blog/' },
-              ...(category
-                ? [{ label: category.shortLabel, href: `/blog/category/${category.id}/` }]
-                : []),
-              { label: post.title },
-            ]}
+            items={
+              isPartnership
+                ? [
+                    { label: 'Home', href: '/' },
+                    { label: 'Partnerships', href: '/partnerships/' },
+                    { label: post.title },
+                  ]
+                : [
+                    { label: 'Home', href: '/' },
+                    { label: 'Blog', href: '/blog/' },
+                    ...(category
+                      ? [{ label: category.shortLabel, href: `/blog/category/${category.id}/` }]
+                      : []),
+                    { label: post.title },
+                  ]
+            }
           />
 
           <h1 className="display-title mt-10 text-balance text-4xl leading-[1.12] sm:text-5xl">
@@ -194,19 +206,30 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
             review={post.editorialReview}
             reviewerName={post.reviewerName}
             reviewDate={post.reviewDate}
+            reviewAttestation={post.reviewAttestation}
           />
 
           {/* The route to the rest of the cluster. Without it a reader who
               arrives from search on one article has no signal that forty
               related ones exist, and the hub page has no inbound link from the
               articles it collects. */}
-          {(postHubs.length > 0 || postSport) && (
+          {(postHubs.length > 0 || postSport || isPartnership) && (
             <nav aria-label="Topic hubs this article belongs to" className="mt-7">
               <ul className="flex list-none flex-wrap items-center gap-2 p-0">
                 <li className="text-xs font-semibold uppercase tracking-widest text-ink-400">
                   Part of
                 </li>
-                {postSport && (
+                {isPartnership && (
+                  <li>
+                    <Link
+                      href="/partnerships/"
+                      className="inline-flex items-center rounded-full border border-ink-200 bg-white px-3.5 py-1.5 text-xs font-medium text-ink-600 transition-all duration-300 hover:border-gold-400 hover:text-ink-950"
+                    >
+                      Partnerships
+                    </Link>
+                  </li>
+                )}
+                {postSport && !isPartnership && (
                   <li>
                     <Link
                       href={sportPath(postSport)}
@@ -262,7 +285,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
               dangerouslySetInnerHTML={{ __html: firstHalf }}
             />
 
-            {primaryApp && secondHalf && (
+            {primaryApp && secondHalf && !isPartnership && (
               <ArticleAppCta
                 app={primaryApp}
                 articleSlug={post.slug}
@@ -302,15 +325,20 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
               review={post.editorialReview}
               reviewerName={post.reviewerName}
               reviewDate={post.reviewDate}
+              reviewAttestation={post.reviewAttestation}
               publishedAt={post.publishedAt}
             />
+
+            {primaryApp && isPartnership && (
+              <BusinessInquiryCta app={primaryApp} buttonLocation="partnership_article_bottom" />
+            )}
 
             {primaryApp && (
               <ArticleAppCta
                 app={primaryApp}
                 articleSlug={post.slug}
                 buttonLocation="article_bottom"
-                heading={`Get ${primaryApp.name} free`}
+                heading={isPartnership ? `See ${primaryApp.name} on Google Play` : `Get ${primaryApp.name} free`}
               />
             )}
 
@@ -385,16 +413,27 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
 
             {primaryApp && (
               <div className="mt-6">
-                <ArticleAppCta
-                  app={primaryApp}
-                  articleSlug={post.slug}
-                  buttonLocation="article_top"
-                  compact
-                />
+                {isPartnership ? (
+                  <BusinessInquiryCta app={primaryApp} buttonLocation="partnership_article_top" compact />
+                ) : (
+                  <ArticleAppCta
+                    app={primaryApp}
+                    articleSlug={post.slug}
+                    buttonLocation="article_top"
+                    compact
+                  />
+                )}
               </div>
             )}
 
-            {category && (
+            {isPartnership ? (
+              <p className="mt-6 text-sm text-ink-500">
+                More{' '}
+                <Link href="/partnerships/" className="link-accent">
+                  partnership opportunities
+                </Link>
+              </p>
+            ) : category && (
               <p className="mt-6 text-sm text-ink-500">
                 More in{' '}
                 <Link href={`/blog/category/${category.id}/`} className="link-accent">

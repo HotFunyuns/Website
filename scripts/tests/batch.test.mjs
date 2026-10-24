@@ -15,7 +15,7 @@ import { spawnSync } from 'node:child_process';
 import { cpSync, mkdtempSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { CONTENT_DIR, ROOT, bodyTargets, parseArticle, setFrontmatterValue } from '../lib/content.mjs';
+import { CONTENT_DIR, ROOT, bodyTargets, deleteFrontmatterKey, parseArticle, setFrontmatterValue } from '../lib/content.mjs';
 import { BATCH_PER_SOURCE_CAP, MAX_RELATED, applyActions, planBatchLinks } from '../lib/linking.mjs';
 import { APPROVAL_GATE_AFTER, laDay } from '../lib/publishing.mjs';
 import {
@@ -207,6 +207,11 @@ const read = (slug) => parseArticle(join(dir, `${slug}.md`), readFileSync(join(d
 function edit(slug, changes) {
   let raw = readFileSync(join(dir, `${slug}.md`), 'utf8');
   for (const [key, value] of Object.entries(changes)) raw = setFrontmatterValue(raw, key, value, { after: 'status' });
+  // Fixtures are copies of published articles, which carry the company review
+  // attestation; an article relabelled for the test is no longer covered by it.
+  if (changes.editorialReview && changes.editorialReview !== 'organization' && /"reviewAttestation"/.test(raw)) {
+    raw = deleteFrontmatterKey(raw, 'reviewAttestation');
+  }
   writeFileSync(join(dir, `${slug}.md`), raw);
 }
 const snapshot = () => readdirSync(dir).map((f) => `${f}:${readFileSync(join(dir, f), 'utf8')}`).join('\n');

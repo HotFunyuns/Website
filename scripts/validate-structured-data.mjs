@@ -143,6 +143,9 @@ const EXPECTED_BY_PAGE_TYPE = {
   'blog-category': ['Organization', 'WebSite', 'CollectionPage', 'BreadcrumbList'],
   'blog-hub': ['Organization', 'WebSite', 'CollectionPage', 'BreadcrumbList'],
   'blog-index': ['Organization', 'WebSite', 'Blog'],
+  // Numbered pages 2…N of the blog index (added 2026-10-24 with pagination).
+  'blog-listing': ['Organization', 'WebSite', 'CollectionPage', 'BreadcrumbList'],
+  partnerships: ['Organization', 'WebSite', 'CollectionPage', 'BreadcrumbList'],
   'apps-index': ['Organization', 'WebSite', 'CollectionPage'],
   author: ['Organization', 'WebSite', 'ProfilePage', 'BreadcrumbList'],
   about: ['Organization', 'WebSite', 'AboutPage'],
@@ -161,6 +164,8 @@ function pageTypeOf(route) {
   if (route === '/') return 'home';
   if (route.startsWith('/404')) return 'error';
   if (route === '/blog/') return 'blog-index';
+  if (/^\/blog\/page\/\d+\/$/.test(route)) return 'blog-listing';
+  if (route === '/partnerships/') return 'partnerships';
   if (route === '/apps/') return 'apps-index';
   if (route === '/about/') return 'about';
   if (route.startsWith('/authors/')) return 'author';

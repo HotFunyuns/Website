@@ -4,7 +4,8 @@
   "metaTitle": "Two-Point Conversion Chart: When to Go for Two",
   "description": "A when-to-go-for-two chart rebuilt from scoring values, the expected-value test underneath it, and the NFL's official two-point success rates through 2025.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -183,6 +184,6 @@ Often. The 2026 Record & Fact Book counts 145 of the 272 games in the 2025 seaso
 
 ## Using it in a game you are playing
 
-In [Football Career Sim 2026, where you play one quarterback's whole career](/apps/football-career-sim/), the late drive and the red zone are where these margins get made: the game's drives model field position, timeouts, red-zone situations and clock management. The chart is worth knowing before that drive starts, because it tells you what score you are really driving towards. Everything in the game is fictional, and its results come from its own model rather than any forecast of real football. [Understanding probability in sports sims](/blog/understanding-sports-sim-probability/) explains why a 48 percent play still fails more often than it succeeds, and [clock management in the final two minutes](/blog/two-minute-clock-management/) covers the time side of the same late drives. The [career sim playing guide](/blog/football-career-sim-guide/) covers the rest of the season.
+In [Football Career Sim 2027, where you play one quarterback's whole career](/apps/football-career-sim/), the late drive and the red zone are where these margins get made: the game's drives model field position, timeouts, red-zone situations and clock management. The chart is worth knowing before that drive starts, because it tells you what score you are really driving towards. Everything in the game is fictional, and its results come from its own model rather than any forecast of real football. [Understanding probability in sports sims](/blog/understanding-sports-sim-probability/) explains why a 48 percent play still fails more often than it succeeds, and [clock management in the final two minutes](/blog/two-minute-clock-management/) covers the time side of the same late drives. The [career sim playing guide](/blog/football-career-sim-guide/) covers the rest of the season.
 
 If you prefer the front office to the huddle, [the football draft simulator guide](/blog/football-draft-gm-guide/) applies the same habit of reading a scoreboard as a target to roster building. More [American football](/sports/football/) explainers are on our hub, and the full set of [sports career and GM games](/apps/category/sports-gm/) is listed in the catalogue.

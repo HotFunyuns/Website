@@ -9,10 +9,12 @@
   "corrections": [
     {
       "date": "2026-10-02",
-      "note": "An earlier version said Pro Basketball GM Franchise uses generated players and that every player in our games is fictional. Its draft pool is built from real-world players' careers, with ratings that are the game's own estimates; only our career sims are fictional. The affected passages have been corrected."
+      "note": "An earlier version said Basketball Game Franchise GM uses generated players and that every player in our games is fictional. Its draft pool is built from real-world players' careers, with ratings that are the game's own estimates; only our career sims are fictional. The affected passages have been corrected."
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "basketball",
@@ -162,7 +164,7 @@ Hockey's plus/minus has the same fundamental problem in a cruder form — [plus/
 
 ## Using this in a simulation
 
-In [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/), the draft pool is built from real players' careers and the board ranks them by the game's own ratings — estimates that compress a career into a number, so treat them with the same care as the statistics above. These problems also return the moment your roster plays, because your own players' numbers are shaped by the roles you assigned.
+In [Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/), the draft pool is built from real players' careers and the board ranks them by the game's own ratings — estimates that compress a career into a number, so treat them with the same care as the statistics above. These problems also return the moment your roster plays, because your own players' numbers are shaped by the roles you assigned.
 
 Two practical rules:
 

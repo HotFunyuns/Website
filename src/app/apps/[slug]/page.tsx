@@ -5,6 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import FaqSection from '@/components/FaqSection';
 import RelatedApps from '@/components/RelatedApps';
 import GooglePlayButton from '@/components/GooglePlayButton';
+import AppScreenshots from '@/components/AppScreenshots';
 import GoldDivider from '@/components/GoldDivider';
 import Reveal from '@/components/Reveal';
 import JsonLd from '@/components/JsonLd';
@@ -12,7 +13,7 @@ import BlogCard from '@/components/blog/BlogCard';
 import { apps, companyInfo, getAppBySlug, getRelatedApps, getCategory } from '@/data/apps';
 import { getHubsForApp } from '@/data/hubs';
 import { getSportForApp, sportPath } from '@/data/sports';
-import { getPostsByApp, getPostsByHub } from '@/lib/blog';
+import { getPartnershipPostForApp, getPostsByApp, getPostsByHub } from '@/lib/blog';
 
 export const dynamicParams = false;
 
@@ -68,7 +69,10 @@ export default function AppPage({ params }: { params: { slug: string } }) {
   // Sports apps link their sport hub, which puts the app beside the rules,
   // strategy guides and calculators for the same sport.
   const appSport = getSportForApp(app.slug);
-  const allGuides = getPostsByApp(app.slug);
+  // Partnership and acquisition overviews are listed separately below, so the
+  // guide grid stays about using the app.
+  const partnershipPost = getPartnershipPostForApp(app.slug);
+  const allGuides = getPostsByApp(app.slug).filter((post) => post.kind !== 'partnership');
   const appHubs = getHubsForApp(app.slug)
     .map((hub) => ({ ...hub, count: getPostsByHub(hub.id).length }))
     .filter((hub) => hub.count > 0);
@@ -297,6 +301,42 @@ export default function AppPage({ params }: { params: { slug: string } }) {
         </div>
       </section>
 
+      <AppScreenshots appName={app.name} shots={app.screenshots ?? []} />
+
+      {/* Is it right for you? — the audience it was built for beside what it
+          does not do, so the page helps a reader rule the app out as well as in. */}
+      <section className="section-padding !pt-0" aria-labelledby="fit-heading">
+        <div className="container-wide mx-auto">
+          <h2 id="fit-heading" className="display-title text-2xl sm:text-3xl">
+            Is {app.name} right for you?
+          </h2>
+          <div className="mt-8 grid gap-6 lg:grid-cols-2">
+            <div className="card-premium p-7">
+              <h3 className="font-display text-lg font-semibold text-ink-950">Made for</h3>
+              <ul className="mt-4 space-y-2.5">
+                {app.audience.map((line) => (
+                  <li key={line} className="flex gap-3 text-sm leading-relaxed text-ink-600">
+                    <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold-500" />
+                    {line}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="card-premium p-7" data-limitations="">
+              <h3 className="font-display text-lg font-semibold text-ink-950">Good to know before you install</h3>
+              <ul className="mt-4 space-y-2.5">
+                {(app.limitations ?? []).map((line) => (
+                  <li key={line} className="flex gap-3 text-sm leading-relaxed text-ink-600">
+                    <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-crimson-500" />
+                    {line}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Features */}
       <section className="section-padding bg-cream-100" aria-labelledby="features-heading">
         <div className="container-wide mx-auto">
@@ -326,6 +366,26 @@ export default function AppPage({ params }: { params: { slug: string } }) {
               </Reveal>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* How a session works — the steps are app-specific, unlike the template. */}
+      <section className="section-padding" aria-labelledby="how-heading">
+        <div className="container-wide mx-auto">
+          <h2 id="how-heading" className="display-title text-2xl sm:text-3xl">
+            How {app.name} works
+          </h2>
+          <ol className="mt-8 grid list-none gap-6 p-0 sm:grid-cols-2 lg:grid-cols-4">
+            {app.howItWorks.map((step, i) => (
+              <li key={step.title} className="card-premium h-full p-6">
+                <span className="font-display text-sm font-semibold tracking-widest text-gold-600">
+                  Step {i + 1}
+                </span>
+                <h3 className="mt-2 font-display text-base font-semibold text-ink-950">{step.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-ink-500">{step.body}</p>
+              </li>
+            ))}
+          </ol>
         </div>
       </section>
 
@@ -414,6 +474,30 @@ export default function AppPage({ params }: { params: { slug: string } }) {
                 </ul>
               </nav>
             )}
+          </div>
+        </section>
+      )}
+
+      {partnershipPost && (
+        <section className="section-padding !pt-0" aria-labelledby="partner-heading">
+          <div className="container-narrow mx-auto">
+            <div className="card-premium p-7 sm:p-8" data-partnership-note="">
+              <h2 id="partner-heading" className="font-display text-xl font-semibold text-ink-950">
+                Partnerships, licensing and acquisition
+              </h2>
+              <p className="mt-3 text-sm leading-relaxed text-ink-600">
+                {companyInfo.name} is open to serious discussions about {app.name} — publishing,
+                licensing, co-development or an acquisition. Read{' '}
+                <Link href={`/blog/${partnershipPost.slug}/`} className="link-accent">
+                  {partnershipPost.title}
+                </Link>{' '}
+                or see{' '}
+                <Link href="/partnerships/" className="link-accent">
+                  every partnership opportunity
+                </Link>
+                .
+              </p>
+            </div>
           </div>
         </section>
       )}

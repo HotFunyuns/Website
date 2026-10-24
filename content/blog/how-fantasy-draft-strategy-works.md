@@ -9,10 +9,12 @@
   "corrections": [
     {
       "date": "2026-10-02",
-      "note": "An earlier version described Pro Basketball GM Franchise and Football Franchise GM League as fictional simulations with generated player pools. Both build their draft pools from real-world players' careers, with ratings that are the games' own estimates, and neither is affiliated with or endorsed by any league, team or athlete. The affected passages have been corrected."
+      "note": "An earlier version described Basketball Game Franchise GM and Football Franchise GM League as fictional simulations with generated player pools. Both build their draft pools from real-world players' careers, with ratings that are the games' own estimates, and neither is affiliated with or endorsed by any league, team or athlete. The affected passages have been corrected."
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "draft strategy",
@@ -81,7 +83,7 @@
     },
     {
       "question": "Do these games use real players and teams?",
-      "answer": "Pro Basketball GM Franchise and Football Franchise GM League build their draft pools from real players' careers, with ratings that are the games' own estimates rather than official statistics, and some GM screens use real team names. Neither is affiliated with, endorsed by or licensed by any league, team, players' association or athlete. Knowing the names does not turn it into a memory test, though: each pick still has to be judged on the attributes shown and on what your roster needs."
+      "answer": "Basketball Game Franchise GM and Football Franchise GM League build their draft pools from real players' careers, with ratings that are the games' own estimates rather than official statistics, and some GM screens use real team names. Neither is affiliated with, endorsed by or licensed by any league, team, players' association or athlete. Knowing the names does not turn it into a memory test, though: each pick still has to be judged on the attributes shown and on what your roster needs."
     },
     {
       "question": "How many drafts does it take to tell whether a strategy is working?",
@@ -181,7 +183,7 @@ In a simulation, there is a second limit worth stating plainly. When a game retu
 
 The reason drafting stays interesting after fifty runs is that changing the rules changes the correct answer with the same players on the board.
 
-[Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) includes eight draft formats — Unlimited Draft, Quick Draft, Blind Draft, Franchise Draft, Salary Cap Draft, VS Computer, Battle Mode and a Daily Challenge — and they pull in different directions:
+[Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/) includes eight draft formats — Unlimited Draft, Quick Draft, Blind Draft, Franchise Draft, Salary Cap Draft, VS Computer, Battle Mode and a Daily Challenge — and they pull in different directions:
 
 - **Unlimited Draft** gives you room to compare, which is where you learn what a board looks like.
 - **Quick Draft** removes deliberation time, so whatever tiers you built beforehand are the only structure you get.

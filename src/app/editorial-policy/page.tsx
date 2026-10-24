@@ -6,6 +6,7 @@ import Reveal from '@/components/Reveal';
 import { formatPostDate } from '@/components/blog/format';
 import { companyInfo } from '@/data/apps';
 import { DEFAULT_AUTHOR_ID, authorPath } from '@/data/authors';
+import { reviewAttestations } from '@/data/review-attestations';
 import { APPROVAL_GATE_AFTER, REVIEW_LABELS_INTRODUCED } from '@/lib/blog';
 
 export const metadata: Metadata = {
@@ -63,6 +64,9 @@ const contents = [
 export default function EditorialPolicyPage() {
   const gateDate = formatPostDate(APPROVAL_GATE_AFTER);
   const labelsDate = formatPostDate(REVIEW_LABELS_INTRODUCED);
+  // The company-level review confirmation behind "Reviewed by … Editorial Team".
+  const attestation = reviewAttestations[0];
+  const attestedDate = formatPostDate(attestation.attestedOn);
   const mail = (
     <a href={`mailto:${companyInfo.supportEmail}`} className="link-accent break-all" rel="noopener noreferrer">
       {companyInfo.supportEmail}
@@ -200,12 +204,22 @@ export default function EditorialPolicyPage() {
                     reading every sentence, and they cannot prove that a source says exactly what an
                     article says it does.
                   </p>
-                  <h3 className={`${h3} mt-5`}>Every new article says how it was checked</h3>
+                  <h3 className={`${h3} mt-5`}>Every article says how it was checked</h3>
                   <p className="mt-1.5">
-                    From {labelsDate}, each new article states under its byline, and again in its
-                    author box, which of these happened before it went live:
+                    Each article states under its byline, and again in its author box, which of these
+                    applies to it:
                   </p>
                   <ul className="ml-4 mt-3 list-disc space-y-2">
+                    <li>
+                      <strong className="text-ink-950">&ldquo;Reviewed by {attestation.label}.&rdquo;</strong>{' '}
+                      On {attestedDate}, {companyInfo.name} confirmed in writing that the articles then
+                      published — everything dated up to {formatPostDate(attestation.publishedOnOrBefore)}
+                      — had been reviewed by people at the company. Those articles carry this label. The
+                      confirmation covers that set of articles as a whole: it does not record who reviewed
+                      each one or on what day, and the label claims no more than that. Articles first
+                      published on {labelsDate} with the &ldquo;AI-assisted&rdquo; label below said at the
+                      time that no person had reviewed them yet; the confirmation was given afterwards.
+                    </li>
                     <li>
                       <strong className="text-ink-950">&ldquo;Reviewed by&rdquo; a named person, with a
                       date.</strong> A person at {companyInfo.name} read the complete article and approved
@@ -215,20 +229,22 @@ export default function EditorialPolicyPage() {
                     <li>
                       <strong className="text-ink-950">&ldquo;AI-assisted article.&rdquo;</strong> It was
                       drafted with AI tools and published after the automated checks and the AI editorial
-                      review alone. No person has reviewed it yet, and the article says so.
+                      review alone. No person has reviewed it yet, and the article says so. Every article
+                      published after {formatPostDate(attestation.publishedOnOrBefore)} starts with this
+                      label unless a person has reviewed it.
                     </li>
                   </ul>
                   <p className="mt-3">
                     We never describe an article as reviewed, approved or fact-checked by a person unless
-                    a named person did exactly that, and an article&apos;s label changes only when one
-                    does. A person&apos;s approval is an editorial check by the company that makes the
-                    apps. It is not independent review, third-party fact-checking or expert review.
+                    that happened and is recorded — on the article itself, or in the company&apos;s written
+                    confirmation — and a label changes only when it does. A review by the company is an
+                    editorial check by the business that makes the apps. It is not independent review,
+                    third-party fact-checking or expert review. Whatever the label, AI tools were used to
+                    research and draft our articles, as described above.
                   </p>
                   <p className="mt-3">
                     After {gateDate} and before {labelsDate}, our publishing system would not release an
                     article without a person&apos;s approval, and no article was published in that time.
-                    Articles published on or before {gateDate} carry no label: they passed the automated
-                    checks, but not every one of them was read in full by a person before it went live.
                     If you find a mistake in any article, tell us and we will fix it.
                   </p>
                 </div>

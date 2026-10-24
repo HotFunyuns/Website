@@ -3,12 +3,15 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { apps, categories, getAppBySlug, type CategoryId } from '@/data/apps';
 import { getAuthor, type AuthorInfo } from '@/data/authors';
+import { getReviewAttestation } from '@/data/review-attestations';
 import { hubIds, hubs as allHubs, type HubInfo } from '@/data/hubs';
 import { countWords, extractToc, readingMinutes } from './markdown';
 import { relevanceProfile, relevanceScore, type RelevanceProfile } from './relevance.mjs';
 import {
   APPROVAL_GATE_AFTER,
+  ARTICLE_KINDS,
   DEMAND_TIERS,
+  LISTING_PAGE_SIZE,
   DISCLAIMER_KINDS,
   EDITORIAL_REVIEWS,
   POST_STATUSES,
@@ -154,6 +157,20 @@ function parse(slug: string, raw: string): BlogPost {
       if (data[field] !== undefined) fail(slug, `"${field}" is only valid with "editorialReview": "person"`);
     }
   }
+  if (review === 'organization') {
+    // The label rests on a company attestation, so the article must name one
+    // that exists and fall inside its scope — and carries none of a person's
+    // per-article record, because none was given.
+    const attestation = getReviewAttestation(data.reviewAttestation);
+    if (!attestation) {
+      fail(slug, `"editorialReview": "organization" needs "reviewAttestation" naming an entry in src/data/review-attestations.ts`);
+    }
+    if (data.publishedAt > attestation.publishedOnOrBefore) {
+      fail(slug, `published ${data.publishedAt}, after the attestation "${attestation.id}" covers (${attestation.publishedOnOrBefore})`);
+    }
+  } else if (data.reviewAttestation !== undefined) {
+    fail(slug, '"reviewAttestation" is only valid with "editorialReview": "organization"');
+  }
   if (data.status === 'scheduled' && review !== 'person') {
     // Queuing an article is a person approving it for a given day; an article
     // with the automated label is published as soon as it passes, not queued.
@@ -196,6 +213,14 @@ function parse(slug: string, raw: string): BlogPost {
     for (const hub of data.hubs) {
       if (!hubIds.has(hub)) fail(slug, `hubs references unknown hub "${hub}"`);
     }
+  }
+  if (data.kind !== undefined && !ARTICLE_KINDS.includes(data.kind)) {
+    fail(slug, `"kind" must be one of ${ARTICLE_KINDS.join(', ')} when present`);
+  }
+  // A partnership overview and its nonbinding notice travel together: the notice
+  // is what stops the page reading as an offer, a valuation or a solicitation.
+  if ((data.kind === 'partnership') !== (data.disclaimer === 'partnership')) {
+    fail(slug, 'a "partnership" article needs "disclaimer": "partnership", and only a partnership article may use it');
   }
   if (data.disclaimer === 'comparison' && !data.researchDate) {
     fail(slug, 'comparison articles must record a "researchDate"');
@@ -257,6 +282,17 @@ function loadAll(): BlogPost[] {
     }
   }
 
+  // One business-development overview per app. A second would be the
+  // name-swapped duplicate the partnership pages exist to avoid.
+  const partnershipByApp = new Map<string, string>();
+  for (const post of posts) {
+    if (post.kind !== 'partnership') continue;
+    const app = post.relatedApps[0];
+    const owner = partnershipByApp.get(app);
+    if (owner) fail(post.slug, `is a second partnership article for "${app}" (first: "${owner}")`);
+    partnershipByApp.set(app, post.slug);
+  }
+
   // Two articles chasing one primary keyword compete with each other in the
   // same result set, so the collision is rejected at build time rather than
   // discovered months later in Search Console.
@@ -290,8 +326,38 @@ export function getPostBySlug(slug: string): BlogPost | undefined {
   return posts.find((post) => post.slug === slug);
 }
 
+/**
+ * Published articles in a category, newest first. Partnership overviews are
+ * left out: a category listing is a reading list for the people who use those
+ * apps, and the overviews have their own hub at /partnerships/.
+ */
 export function getPostsByCategory(categoryId: CategoryId): BlogPost[] {
-  return posts.filter((post) => post.category === categoryId);
+  return posts.filter((post) => post.category === categoryId && post.kind !== 'partnership');
+}
+
+/** Ordinary guides — every published article except partnership overviews. */
+export const guidePosts: BlogPost[] = posts.filter((post) => post.kind !== 'partnership');
+
+/** Published partnership overviews, by app name order of their primary app. */
+export function getPartnershipPosts(): BlogPost[] {
+  return posts.filter((post) => post.kind === 'partnership');
+}
+
+/** The published partnership overview for an app, if there is one. */
+export function getPartnershipPostForApp(appSlug: string): BlogPost | undefined {
+  return posts.find((post) => post.kind === 'partnership' && post.relatedApps[0] === appSlug);
+}
+
+/* ------------------------------------------------------------ pagination */
+
+/** How many listing pages a list of articles fills. Never fewer than one. */
+export function pageCount(items: readonly unknown[], size = LISTING_PAGE_SIZE): number {
+  return Math.max(1, Math.ceil(items.length / size));
+}
+
+/** One page (1-based) of a list. */
+export function pageOf<T>(items: readonly T[], page: number, size = LISTING_PAGE_SIZE): T[] {
+  return items.slice((page - 1) * size, page * size);
 }
 
 export function blogCategories() {
@@ -329,8 +395,11 @@ export function getRelatedPosts(post: BlogPost, count = 3): BlogPost[] {
     .filter((p): p is BlogPost => Boolean(p));
   const taken = new Set([post.slug, ...explicit.map((p) => p.slug)]);
 
+  // Guides recommend guides and partnership overviews recommend each other:
+  // a reader of a rules explainer is not looking for an acquisition page.
+  const sameKind = (p: BlogPost) => (p.kind === 'partnership') === (post.kind === 'partnership');
   const fallback = posts
-    .filter((p) => !taken.has(p.slug))
+    .filter((p) => !taken.has(p.slug) && sameKind(p))
     .map((p) => ({ post: p, score: postRelevance(post, p) }))
     .filter((candidate) => candidate.score >= 1)
     .sort(
@@ -439,9 +508,10 @@ for (const hub of allHubs) {
 
 /** Adjacent published posts for prev/next navigation. */
 export function getPostNeighbours(post: BlogPost) {
-  const index = posts.findIndex((p) => p.slug === post.slug);
+  const chain = posts.filter((p) => (p.kind === 'partnership') === (post.kind === 'partnership'));
+  const index = chain.findIndex((p) => p.slug === post.slug);
   return {
-    previous: index > 0 ? posts[index - 1] : undefined,
-    next: index >= 0 && index < posts.length - 1 ? posts[index + 1] : undefined,
+    previous: index > 0 ? chain[index - 1] : undefined,
+    next: index >= 0 && index < chain.length - 1 ? chain[index + 1] : undefined,
   };
 }

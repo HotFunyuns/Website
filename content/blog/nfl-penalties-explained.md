@@ -4,7 +4,8 @@
   "metaTitle": "NFL Penalties Explained: Yardage, Spots and First Downs",
   "description": "What common NFL fouls cost under the 2026 rulebook: 5, 10 or 15 yards, loss of down or an automatic first down, and when a team declines the penalty.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -187,6 +188,6 @@ Declining is common, and the decision is usually arithmetic. Holding against the
 
 ## Where a career sim fits
 
-A flag rarely decides a game on its own. What it does is knock a series off schedule. Second-and-12 asks a different question of a quarterback than second-and-2, and that is the part of this rulebook detail that carries over to [Football Career Sim 2026, the quarterback career game](/apps/football-career-sim/), whose drives are built from downs, distance, field position, timeouts and clock management. Its leagues, teams and players are fictional, but the down-and-distance arithmetic is the same.
+A flag rarely decides a game on its own. What it does is knock a series off schedule. Second-and-12 asks a different question of a quarterback than second-and-2, and that is the part of this rulebook detail that carries over to [Football Career Sim 2027, the quarterback career game](/apps/football-career-sim/), whose drives are built from downs, distance, field position, timeouts and clock management. Its leagues, teams and players are fictional, but the down-and-distance arithmetic is the same.
 
 For the situations penalties most often bend, see [clock management in the final two minutes](/blog/two-minute-clock-management/) and [reading a defence before the snap](/blog/reading-a-defense-basics/). If you would rather build a roster than play under centre, [the football drafting guide](/blog/football-draft-gm-guide/) explains why football is judged unit by unit, and [football positions explained](/blog/football-positions-explained-for-drafting/) covers who lines up where. More rules explainers sit on our [American football](/sports/football/) hub and across the [sports career and GM articles](/blog/category/sports-gm/).

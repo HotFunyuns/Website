@@ -4,7 +4,8 @@
   "metaTitle": "NBA Playoff Format and Play-In Tournament, Explained",
   "description": "How the NBA's postseason works in 2026-27: the Play-In bracket for seeds 7 to 10, four best-of-seven rounds played 2-2-1-1-1, and what the new lottery changes.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -213,4 +214,4 @@ The new system also bars any team's pick from going first overall in two consecu
 
 ## Postseason races in a simulation
 
-[Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) takes a drafted roster through an 82-game season and the playoff race, with contracts, trades and rotations to manage along the way. The format and lottery described here are the real league's; nothing in this article describes how the app runs its own postseason. The [basketball draft simulator guide](/blog/basketball-draft-gm-guide/) covers how to read a simulated season without over-reading it. More explainers are collected on the [basketball hub](/sports/basketball/), and our management games sit in the [sports GM category](/apps/category/sports-gm/).
+[Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/) takes a drafted roster through an 82-game season and the playoff race, with contracts, trades and rotations to manage along the way. The format and lottery described here are the real league's; nothing in this article describes how the app runs its own postseason. The [basketball draft simulator guide](/blog/basketball-draft-gm-guide/) covers how to read a simulated season without over-reading it. More explainers are collected on the [basketball hub](/sports/basketball/), and our management games sit in the [sports GM category](/apps/category/sports-gm/).

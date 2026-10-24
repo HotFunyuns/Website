@@ -4,7 +4,8 @@
   "metaTitle": "NHL Offer Sheet Explained: RFAs, Qualifying Offers, Picks",
   "description": "How an NHL offer sheet works: who is a restricted free agent, the qualifying offer, salary arbitration, the seven-day right to match and pick compensation.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -211,4 +212,4 @@ The general logic of restricted and unrestricted free agency in GM games is cove
 
 ## Contracts in our games
 
-In [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/), Franchise GM Mode carries a drafted club across seasons, organising forwards, defenders and goaltending and shoring up weak positions; its pool is built from real players' careers with the game's own ratings, and [the hockey draft simulator guide](/blog/hockey-draft-gm-guide/) covers the roster side. [Hockey Career Sim 2026](/apps/hockey-career-sim/) looks at contracts from the player's chair, as one of the choices in a fictional career; [the Hockey Career Sim 2026 guide](/blog/hockey-career-sim-guide/) explains how a career develops. Neither title is connected with the league or the players' association. The [hockey hub](/sports/hockey/) collects our other hockey explainers, and the catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+In [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/), Franchise GM Mode carries a drafted club across seasons, organising forwards, defenders and goaltending and shoring up weak positions; its pool is built from real players' careers with the game's own ratings, and [the hockey draft simulator guide](/blog/hockey-draft-gm-guide/) covers the roster side. [Hockey Career Sim 2027](/apps/hockey-career-sim/) looks at contracts from the player's chair, as one of the choices in a fictional career; [the Hockey Career Sim 2027 guide](/blog/hockey-career-sim-guide/) explains how a career develops. Neither title is connected with the league or the players' association. The [hockey hub](/sports/hockey/) collects our other hockey explainers, and the catalogue is under [sports career and GM games](/apps/category/sports-gm/).

@@ -4,7 +4,8 @@
   "metaTitle": "Zone vs Man Defense in Basketball: How Each Works",
   "description": "Man-to-man guards players, zone guards areas. How 2-3, 1-2-2 and 1-3-1 zones work, what each system concedes, and why zone defence is legal in the NBA.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -175,6 +176,6 @@ A defensive scheme is only as good as the players asked to run it, which makes i
 
 That is why balance matters in roster construction. [Building a balanced basketball roster](/blog/how-to-build-a-balanced-basketball-roster/) frames defence as jobs that must be owned, rim protection, rebounding and guarding the perimeter, and the scheme is simply the way those jobs are shared out. [What each of the five positions is for](/blog/basketball-positions-explained/) explains who traditionally does which.
 
-In [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/), those jobs are part of the draft board: you build a roster and the game's own simulation model plays the season with it. Nothing here describes how that model handles defensive schemes; the point is that the coverage problem starts with the players you pick, which the [basketball draft simulator guide](/blog/basketball-draft-gm-guide/) covers in detail.
+In [Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/), those jobs are part of the draft board: you build a roster and the game's own simulation model plays the season with it. Nothing here describes how that model handles defensive schemes; the point is that the coverage problem starts with the players you pick, which the [basketball draft simulator guide](/blog/basketball-draft-gm-guide/) covers in detail.
 
 On the court, [Basketball Career Sim](/apps/pro-basketball-my-career-sim/), a fictional career game, gives your player the man-to-man version of the choice on key possessions: lock down your matchup or call for help. The [career sim guide](/blog/basketball-career-sim-guide/) looks at how those choices add up. More rules and tactics are collected on the [basketball hub](/sports/basketball/), and our sports games are in the [sports GM category](/apps/category/sports-gm/).

@@ -13,6 +13,8 @@
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "career mode",
@@ -103,7 +105,7 @@
 
 **A player career mode is three systems working together: a progression curve that decides how fast you can improve, an opportunity gate that decides how often you get to, and a situational sampler that decides what happens when you do.** Almost every complaint about a career mode is really a complaint about one of those three, misattributed to another.
 
-This is a first-party explanation. We build career modes — [Baseball Career Sim 2026](/apps/baseball-career-sim/), [Football Career Sim 2026](/apps/football-career-sim/) and [Hockey Career Sim 2026](/apps/hockey-career-sim/) all use the structure described below — so this is a description of how the format works generally, written by people who have had to make the trade-offs.
+This is a first-party explanation. We build career modes — [Baseball Career Sim 2026](/apps/baseball-career-sim/), [Football Career Sim 2027](/apps/football-career-sim/) and [Hockey Career Sim 2027](/apps/hockey-career-sim/) all use the structure described below — so this is a description of how the format works generally, written by people who have had to make the trade-offs.
 
 ## System one: the progression curve
 

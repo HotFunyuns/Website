@@ -1,12 +1,14 @@
 ---
 {
-  "title": "Football Career Sim 2026: Playing a Quarterback Career Well",
-  "metaTitle": "Football Career Sim 2026: Quarterback Guide",
-  "description": "How archetype, reads, audibles and clock management decide a quarterback career in Football Career Sim 2026 — and which early decisions actually compound.",
+  "title": "Football Career Sim 2027: Playing a Quarterback Career Well",
+  "metaTitle": "Football Career Sim 2027: Quarterback Guide",
+  "description": "How archetype, reads, audibles and clock management decide a quarterback career in Football Career Sim 2027 — and which early decisions actually compound.",
   "status": "published",
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "american football",
@@ -30,7 +32,7 @@
     "how do you win the starting job in a football career game"
   ],
   "aiSearchQuestions": [
-    "What is Football Career Sim 2026?",
+    "What is Football Career Sim 2027?",
     "Which quarterback archetype should a beginner choose?",
     "How do in-game decisions work in a football career simulator?",
     "Can you play a position other than quarterback?"
@@ -59,7 +61,7 @@
   "featured": false,
   "faqs": [
     {
-      "question": "What is Football Career Sim 2026?",
+      "question": "What is Football Career Sim 2027?",
       "answer": "It is an Android game that follows one quarterback's career. You create a player, set an archetype and ratings, then progress through youth football, high school, college, the combine and the professional draft, making the reads and calls that decide drives."
     },
     {
@@ -102,7 +104,7 @@
 
 Most sports career games ask you to be good at a sport. A quarterback career game asks you to be good at a job — reading what the defence is showing, deciding what to do about it before the play begins, and then deciding again once it does not go to plan.
 
-[Football Career Sim 2026](/apps/football-career-sim/) is built around that narrow job. This guide covers what the archetype actually changes, how the drive-level model works, and the decisions that separate a career that stalls on a depth chart from one that ends with a starting job.
+[Football Career Sim 2027](/apps/football-career-sim/) is built around that narrow job. This guide covers what the archetype actually changes, how the drive-level model works, and the decisions that separate a career that stalls on a depth chart from one that ends with a starting job.
 
 ## Your archetype is a set of available options
 
@@ -167,4 +169,4 @@ Two seasons played identically will not produce identical results, and that is t
 
 The front-office version of the same sport is [Football Franchise GM League](/apps/football-draft-gm-mode/), where the question is which roster you assemble rather than which read you make; [the football draft and GM guide](/blog/football-draft-gm-guide/) covers that. The same career structure in other sports is in [Baseball Career Sim 2026](/apps/baseball-career-sim/) — see [its guide](/blog/baseball-career-sim-guide/) — and the general format distinction is in [career mode versus franchise mode](/blog/career-mode-vs-franchise-mode/).
 
-Everything we make in this space is listed under [sports career and GM games](/apps/category/sports-gm/). Football Career Sim 2026 is free to download on Google Play, supported by ads, with optional in-app purchases and an Everyone content rating.
+Everything we make in this space is listed under [sports career and GM games](/apps/category/sports-gm/). Football Career Sim 2027 is free to download on Google Play, supported by ads, with optional in-app purchases and an Everyone content rating.

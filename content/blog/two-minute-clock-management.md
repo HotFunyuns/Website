@@ -7,6 +7,8 @@
   "publishedAt": "2026-09-22",
   "updatedAt": "2026-09-22",
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "american football",
@@ -167,7 +169,7 @@ Put together, a workable sequence for the final two minutes with a lead to chase
 
 ## How a career sim models it
 
-[Football Career Sim 2026](/apps/football-career-sim/) is built by Reign Creative and puts you behind centre for a single quarterback's career rather than handing you a roster. Its drives are explicitly modelled on the variables above — downs, distance, field position, turnovers, timeouts, red-zone play, overtime and clock management all affect the outcome — which means the late-half decisions in this article are decisions the game actually asks you to make rather than animations it plays at you.
+[Football Career Sim 2027](/apps/football-career-sim/) is built by Reign Creative and puts you behind centre for a single quarterback's career rather than handing you a roster. Its drives are explicitly modelled on the variables above — downs, distance, field position, turnovers, timeouts, red-zone play, overtime and clock management all affect the outcome — which means the late-half decisions in this article are decisions the game actually asks you to make rather than animations it plays at you.
 
 The career runs through youth football, high school, college opportunities, combine preparation and the draft before any of that matters at a professional level, and [our guide to playing a quarterback career](/blog/football-career-sim-guide/) covers the earlier stages. Whether your archetype makes the two-minute drill easier or harder is a separate question, and [quarterback archetypes explained](/blog/quarterback-archetypes-explained/) is the piece for that; the short version is that a mobile quarterback and a pocket passer are offered different routes out of the same clock situation.
 

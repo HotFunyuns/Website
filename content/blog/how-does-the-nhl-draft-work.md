@@ -4,7 +4,8 @@
   "metaTitle": "How Does the NHL Draft Work? Age Cut-Off, Rounds, Lottery",
   "description": "How the NHL draft works: the September 15 age cut-off, who is eligible, seven rounds, the two-draw lottery and how long a team keeps a drafted player's rights.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -191,4 +192,4 @@ When a drafted player signs, his first contract is an entry-level deal. Its leng
 
 The entry draft assigns the rights to young players entering the league. The draft in a GM game is a different exercise. In [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) you pick a starting six and a coach from a pool built on real players' careers, rated by the game itself, and the simulator projects an 84-game record for your lineup — a team-building puzzle, not a prospect lottery. [The hockey draft simulator guide](/blog/hockey-draft-gm-guide/) explains how to approach it.
 
-[Hockey Career Sim 2026](/apps/hockey-career-sim/) starts somewhere closer to the real draft: you take one player from a young prospect through a full career, in a league, teams and roster that are entirely fictional, so its path follows the game's own rules rather than the NHL's eligibility dates. [The Hockey Career Sim 2026 guide](/blog/hockey-career-sim-guide/) covers choosing a position and building that career. Both games are independent of the league and its players' association. The [hockey hub](/sports/hockey/) gathers our other hockey explainers, and every title is under [sports career and GM games](/apps/category/sports-gm/).
+[Hockey Career Sim 2027](/apps/hockey-career-sim/) starts somewhere closer to the real draft: you take one player from a young prospect through a full career, in a league, teams and roster that are entirely fictional, so its path follows the game's own rules rather than the NHL's eligibility dates. [The Hockey Career Sim 2027 guide](/blog/hockey-career-sim-guide/) covers choosing a position and building that career. Both games are independent of the league and its players' association. The [hockey hub](/sports/hockey/) gathers our other hockey explainers, and every title is under [sports career and GM games](/apps/category/sports-gm/).

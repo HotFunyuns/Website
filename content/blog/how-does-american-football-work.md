@@ -4,7 +4,8 @@
   "metaTitle": "How Does American Football Work? A Beginner's Guide",
   "description": "American football from the first snap: 11 players a side, four downs to gain 10 yards, what each score is worth and why, and how the field is laid out.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -182,6 +183,6 @@ Fouls are enforced in yards; the rulebook's penalty summary groups its distance 
 
 ## Where to practise reading the game
 
-[Football Career Sim 2026](/apps/football-career-sim/) is a fictional quarterback career built on exactly this vocabulary: its drives resolve with downs, distance, field position, turnovers, timeouts, red-zone situations, overtime and clock management, and your decisions are reads, targets, audibles and scrambles. Playing a few drives is a quick way to make "third and 4 at the 34" mean something without memorising a rulebook.
+[Football Career Sim 2027](/apps/football-career-sim/) is a fictional quarterback career built on exactly this vocabulary: its drives resolve with downs, distance, field position, turnovers, timeouts, red-zone situations, overtime and clock management, and your decisions are reads, targets, audibles and scrambles. Playing a few drives is a quick way to make "third and 4 at the 34" mean something without memorising a rulebook.
 
 If you would rather build the team than play in it, the [football draft simulator guide](/blog/football-draft-gm-guide/) explains how football rosters break down into units. For more on the sport, start at our [American football](/sports/football/) page, and the full set of management and career titles is under [sports GM games](/apps/category/sports-gm/).

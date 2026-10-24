@@ -7,6 +7,8 @@
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "career mode",
@@ -99,7 +101,7 @@
 
 **In a sports career mode, playing time is not a reward for development — it is the mechanism of development.** Minutes produce situations, situations produce experience and attribute progress, and that progress produces the performances that earn more minutes. Everything else in a career is downstream of that loop.
 
-This is a first-party explanation of a system we build. [Football Career Soccer XI Sim](/apps/soccer-career-sim-xi/) calls it Coach Trust; [Football Career Sim 2026](/apps/football-career-sim/) and [Hockey Career Sim 2026](/apps/hockey-career-sim/) express the same idea through depth-chart position and roster competition. The shape is the same in all three.
+This is a first-party explanation of a system we build. [Football Career Soccer XI Sim](/apps/soccer-career-sim-xi/) calls it Coach Trust; [Football Career Sim 2027](/apps/football-career-sim/) and [Hockey Career Sim 2027](/apps/hockey-career-sim/) express the same idea through depth-chart position and roster competition. The shape is the same in all three.
 
 ## Why trust is separate from rating
 
@@ -168,4 +170,4 @@ Judge your decisions over a season. Judge the trust system over several. Do not 
 
 ## Where to read next
 
-[The Football Career Soccer XI Sim guide](/blog/soccer-career-sim-guide/) covers the trust ladder from prospect to club icon in the game that models it most explicitly, and [the Football Career Sim 2026 guide](/blog/football-career-sim-guide/) covers the depth-chart version of the same problem in American football. All of our career games are listed under [sports career and GM games](/apps/category/sports-gm/), and every league, team and player in them is fictional.
+[The Football Career Soccer XI Sim guide](/blog/soccer-career-sim-guide/) covers the trust ladder from prospect to club icon in the game that models it most explicitly, and [the Football Career Sim 2027 guide](/blog/football-career-sim-guide/) covers the depth-chart version of the same problem in American football. All of our career games are listed under [sports career and GM games](/apps/category/sports-gm/), and every league, team and player in them is fictional.

@@ -4,7 +4,8 @@
   "metaTitle": "When to Pull the Goalie in Hockey: What Research Shows",
   "description": "Why trailing hockey teams pull the goalie, what published research found about timing, how the trade-off works, and what the models cannot see.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -181,4 +182,4 @@ The probability reasoning behind all of this — why a small edge repeated over 
 
 ## In our games
 
-Goaltending is where small-roster drafting is most exposed, and [the hockey draft simulator guide](/blog/hockey-draft-gm-guide/) explains why in [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/), whose player pool is built from real players' careers with the game's own ratings and whose projections are the game's own model rather than forecasts. If you would rather be the one in the crease, [Hockey Career Sim 2026](/apps/hockey-career-sim/) treats goaltender as a full career path in a fictional league, with its own attributes and decisions; [hockey goaltending explained](/blog/hockey-goaltending-explained/) covers the position. Neither app is affiliated with any league. More hockey explainers are on the [hockey hub](/sports/hockey/), and the full catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+Goaltending is where small-roster drafting is most exposed, and [the hockey draft simulator guide](/blog/hockey-draft-gm-guide/) explains why in [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/), whose player pool is built from real players' careers with the game's own ratings and whose projections are the game's own model rather than forecasts. If you would rather be the one in the crease, [Hockey Career Sim 2027](/apps/hockey-career-sim/) treats goaltender as a full career path in a fictional league, with its own attributes and decisions; [hockey goaltending explained](/blog/hockey-goaltending-explained/) covers the position. Neither app is affiliated with any league. More hockey explainers are on the [hockey hub](/sports/hockey/), and the full catalogue is under [sports career and GM games](/apps/category/sports-gm/).

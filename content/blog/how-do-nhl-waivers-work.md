@@ -4,7 +4,8 @@
   "metaTitle": "How Do NHL Waivers Work? Exemptions, Priority, Claims",
   "description": "How NHL waivers work: the 24-hour process, which players are exempt, how claim priority is set, the 10-game and 30-day clock, and what changed in 2026-27.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -191,4 +192,4 @@ That makes the waiver table a planning tool:
 
 ## Roster spots in our games
 
-[84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) puts you in charge of a drafted club across seasons in Franchise GM Mode, organising forwards, defenders and goaltending and shoring up weak positions; its player pool is built from real players' careers with the game's own ratings, and [the hockey draft simulator guide](/blog/hockey-draft-gm-guide/) explains the roster logic. [Hockey Career Sim 2026](/apps/hockey-career-sim/) shows the other side of the table: in its fictional league, roster spots and promotions have to be earned rather than assumed. The league and the players' association have no involvement with either game. Our other hockey explainers are collected on the [hockey hub](/sports/hockey/), and every management title is listed under [sports GM](/blog/category/sports-gm/).
+[84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) puts you in charge of a drafted club across seasons in Franchise GM Mode, organising forwards, defenders and goaltending and shoring up weak positions; its player pool is built from real players' careers with the game's own ratings, and [the hockey draft simulator guide](/blog/hockey-draft-gm-guide/) explains the roster logic. [Hockey Career Sim 2027](/apps/hockey-career-sim/) shows the other side of the table: in its fictional league, roster spots and promotions have to be earned rather than assumed. The league and the players' association have no involvement with either game. Our other hockey explainers are collected on the [hockey hub](/sports/hockey/), and every management title is listed under [sports GM](/blog/category/sports-gm/).

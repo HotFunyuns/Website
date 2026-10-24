@@ -45,10 +45,19 @@ export function countByCategory(categoryId: CategoryId): number {
   return getAppsByCategory(categoryId).length;
 }
 
-/** Same-category apps first, then the rest, so cross-promotion stays relevant. */
+/**
+ * Same-category apps first, then the rest, so cross-promotion stays relevant.
+ * Within the category the list starts at the app that follows this one, so
+ * each page recommends a different set — with 24 sports apps, "the first three
+ * in the category" put the same three apps on every sports page.
+ */
 export function getRelatedApps(app: AppInfo, count = 3): AppInfo[] {
-  const sameCategory = apps.filter((a) => a.slug !== app.slug && a.categoryId === app.categoryId);
-  const others = apps.filter((a) => a.slug !== app.slug && a.categoryId !== app.categoryId);
+  const peers = apps.filter((a) => a.categoryId === app.categoryId);
+  const at = peers.findIndex((a) => a.slug === app.slug);
+  const sameCategory = [...peers.slice(at + 1), ...peers.slice(0, Math.max(at, 0))].filter(
+    (a) => a.slug !== app.slug
+  );
+  const others = apps.filter((a) => a.categoryId !== app.categoryId);
   return [...sameCategory, ...others].slice(0, count);
 }
 

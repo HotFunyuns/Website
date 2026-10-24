@@ -13,6 +13,8 @@
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "american football",
@@ -153,12 +155,12 @@ That second question is what separates the field-general archetype from the othe
 
 A decision-led game cannot show you a full defensive picture on a phone screen, and it should not try. What it does instead is present the *consequence structure* of a situation: down, distance, field position, time, and the options available given your build.
 
-In [Football Career Sim 2026](/apps/football-career-sim/), the skill being tested is the same one described above — recognising what the situation is conceding and taking it — compressed into a form that fits a handful of choices. Reading pressure, choosing the target, calling the audible, escaping and protecting the ball are all versions of the same underlying judgement.
+In [Football Career Sim 2027](/apps/football-career-sim/), the skill being tested is the same one described above — recognising what the situation is conceding and taking it — compressed into a form that fits a handful of choices. Reading pressure, choosing the target, calling the audible, escaping and protecting the ball are all versions of the same underlying judgement.
 
 The practical translation: **treat every prompt as a question about what the failure costs.** That single habit improves outcomes more than any specific football knowledge.
 
 ## Where to go next
 
-For what everyone else on the field is doing, [football positions explained](/blog/football-positions-explained-for-drafting/) covers the roles and their relative value. For how a career is built around these decisions, [the Football Career Sim 2026 guide](/blog/football-career-sim-guide/) is the practical companion. And if you would rather assemble the personnel that makes a defence hard to read in the first place, [Football Franchise GM League](/apps/football-draft-gm-mode/) puts you on that side — with [how football draft order works](/blog/how-football-draft-order-works/) covering how those players reach you.
+For what everyone else on the field is doing, [football positions explained](/blog/football-positions-explained-for-drafting/) covers the roles and their relative value. For how a career is built around these decisions, [the Football Career Sim 2027 guide](/blog/football-career-sim-guide/) is the practical companion. And if you would rather assemble the personnel that makes a defence hard to read in the first place, [Football Franchise GM League](/apps/football-draft-gm-mode/) puts you on that side — with [how football draft order works](/blog/how-football-draft-order-works/) covering how those players reach you.
 
 Real football's rules are published; the [NCAA playing rules](https://www.ncaa.org/sports/2013/11/21/playing-rules.aspx) are a freely readable example of the framework this article describes informally. Our career sims are set in fictional leagues with fictional teams and players; our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, team or athlete. The full catalogue is under [sports career and GM games](/apps/category/sports-gm/).

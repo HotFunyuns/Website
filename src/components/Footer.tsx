@@ -11,6 +11,7 @@ const exploreLinks = [
   { label: 'Calculators', href: '/tools/' },
   { label: 'About', href: '/about/' },
   { label: 'Press', href: '/press/' },
+  { label: 'Partnerships', href: '/partnerships/' },
   { label: 'Support', href: '/support/' },
 ];
 

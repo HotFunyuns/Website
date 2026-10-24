@@ -78,7 +78,13 @@ export const metadata: Metadata = {
   },
   referrer: 'strict-origin-when-cross-origin',
   icons: {
-    icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }],
+    // favicon.ico (16, 32 and 48 px renders of the crown mark) for browsers and
+    // crawlers that request /favicon.ico directly — Search Console reported it
+    // as a 404 until 2026-10-24 — then the SVG for browsers that prefer it.
+    icon: [
+      { url: '/favicon.ico', sizes: '48x48 32x32 16x16', type: 'image/x-icon' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
     apple: [{ url: '/apple-icon.png', sizes: '180x180', type: 'image/png' }],
   },
 };

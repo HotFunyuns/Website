@@ -342,13 +342,13 @@ export default function AboutPage() {
             <GoldDivider className="mt-5" />
             <p className="mt-6">
               We use AI tools to help research, draft and edit our articles. Automated checks run
-              before anything is published. Since {labelsDate}, every new article says under its
-              byline how it was checked: &ldquo;Reviewed by&rdquo; a named person, with the date, or
-              &ldquo;AI-assisted article&rdquo; — published after the automated checks and an AI
-              editorial review, with no person having reviewed it yet. Articles published on or before{' '}
-              {gateDate} carry no label: they passed the automated checks, but not every one was read in
-              full by a person. No article has been reviewed by an independent expert unless the
-              reviewer is named on it. The{' '}
+              before anything is published. Every article says under its byline how it was checked.
+              Articles published up to {labelsDate} say &ldquo;Reviewed by Reign Creative Editorial
+              Team&rdquo;, because the company has confirmed in writing that people at the company
+              reviewed them. Newer articles say &ldquo;Reviewed by&rdquo; a named person, with the date,
+              or &ldquo;AI-assisted article&rdquo; — published after the automated checks and an AI
+              editorial review, with no person having reviewed it yet. No article has been reviewed by an
+              independent expert unless the reviewer is named on it. The{' '}
               <Link href="/editorial-policy/#ai" className="link-accent">
                 editorial policy
               </Link>{' '}

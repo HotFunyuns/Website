@@ -6,9 +6,14 @@ import {
   blogCategories,
   getPostsByAuthor,
   getPostsByCategory,
+  getPartnershipPosts,
   getPostsByHub,
+  guidePosts,
+  pageCount,
+  pageOf,
   posts,
 } from '@/lib/blog';
+import { listingPath } from '@/components/blog/Pagination';
 import { sportPath } from '@/data/sports';
 import { toolPath, tools } from '@/tools/registry';
 import {
@@ -61,6 +66,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.6,
     },
+    {
+      // The partnerships hub lists every app and links each overview, so it
+      // changes when the catalog is re-verified or an overview is revised.
+      url: `${baseUrl}/partnerships/`,
+      lastModified: toDate(newest([appsUpdated, ...getPartnershipPosts().map((post) => post.updatedAt)])),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
     { url: `${baseUrl}/editorial-policy/`, changeFrequency: 'yearly', priority: 0.4 },
     { url: `${baseUrl}/app-support/`, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${baseUrl}/privacy/`, changeFrequency: 'yearly', priority: 0.4 },
@@ -87,6 +100,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'weekly',
     priority: 0.6,
   }));
+
+  // Numbered listing pages (2…N) of the blog index and of each category. Each
+  // is a self-canonical, indexable page; it changes when one of the articles it
+  // lists is revised, so it is dated by the newest of them.
+  const pagedLists = (basePath: string, list: typeof posts): MetadataRoute.Sitemap =>
+    Array.from({ length: Math.max(0, pageCount(list) - 1) }, (_, i) => i + 2).map((n) => ({
+      url: `${baseUrl}${listingPath(basePath, n)}`,
+      lastModified: toDate(newest(pageOf(list, n).map((post) => post.updatedAt))),
+      changeFrequency: 'weekly' as const,
+      priority: 0.4,
+    }));
+  const listingPages: MetadataRoute.Sitemap = [
+    ...pagedLists('/blog/', guidePosts),
+    ...blogCategories().flatMap((category) =>
+      pagedLists(`/blog/category/${category.id}/`, getPostsByCategory(category.id))
+    ),
+  ];
 
   const hubPages: MetadataRoute.Sitemap = activeHubs().map((hub) => ({
     url: `${baseUrl}/blog/topics/${hub.id}/`,
@@ -156,6 +186,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...categoryPages,
     ...appPages,
     ...blogCategoryPages,
+    ...listingPages,
     ...hubPages,
     ...sportPages,
     ...toolPages,

@@ -8,7 +8,7 @@ const NEW_SLUG = 'pro-basketball-draft-gm-mode';
 const NEW_PATH = `/apps/${NEW_SLUG}/`;
 // Read from the catalog so this page follows any future Play rename instead of
 // advertising a name the store no longer uses.
-const CURRENT_NAME = getAppBySlug(NEW_SLUG)?.name ?? 'Pro Basketball GM Franchise';
+const CURRENT_NAME = getAppBySlug(NEW_SLUG)?.name ?? 'Basketball Game Franchise GM';
 
 export const metadata: Metadata = {
   title: CURRENT_NAME,

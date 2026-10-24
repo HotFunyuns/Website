@@ -25,7 +25,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Create your player',
@@ -99,19 +99,24 @@ export const sportsGmApps: AppInfo[] = [
           'No. It is a fictional sports simulation and is not affiliated with, endorsed by or connected to any real league, team, school, athlete or organisation.',
       },
     ],
+    limitations: [
+      'You choose what your player does at key possessions; you do not move players around the court.',
+      'Every league, team and player is fictional.',
+      'The free version shows ads; an optional premium purchase removes them.',
+    ],
     metaTitle: 'Basketball Career Sim for Android',
     metaDescription:
       'Create a player and live out a full basketball career, deciding the key possessions yourself. Offline play, no account needed — free on Google Play.',
   },
   {
     slug: 'pro-basketball-draft-gm-mode',
-    name: 'Pro Basketball GM Franchise',
-    formerNames: ['Basketball Draft GM Franchise'],
+    name: 'Basketball Game Franchise GM',
+    formerNames: ['Pro Basketball GM Franchise', 'Basketball Draft GM Franchise'],
     tagline: 'Draft a roster, run the front office, and play out a full 82-game season.',
     cardDescription:
       'Draft a squad, set the rotation, and handle trades and contracts across a full 82-game season and the playoff race.',
     longDescription: [
-      'Pro Basketball GM Franchise starts at the draft board. You build a roster from the available pool, weigh value against fit, and put together a lineup that works as a unit rather than a list of high ratings. Balance and depth carry more weight here than any single marquee pick.',
+      'Basketball Game Franchise GM starts at the draft board. You build a roster from the available pool, weigh value against fit, and put together a lineup that works as a unit rather than a list of high ratings. Balance and depth carry more weight here than any single marquee pick.',
       'Once the roster is set, the season runs to 82 games. You follow the results, manage rotations, handle contracts and trades, and push for a playoff spot with the front-office decisions that come with it. The simulation is the verdict on how your team-building held up over a long year.',
       'Eight draft formats change the constraints. Unlimited Draft, Quick Draft, Blind Draft, Franchise Draft, Salary Cap Draft, VS Computer, Battle Mode and a Daily Challenge each ask for a different plan, so a roster that dominates one format can fall apart in the next. Finished drafts can be compared and shared, which is where the replay value lives.',
     ],
@@ -130,7 +135,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-10-02',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Draft board first',
@@ -179,7 +184,7 @@ export const sportsGmApps: AppInfo[] = [
     ],
     faqs: [
       {
-        question: 'Is Pro Basketball GM Franchise free to play?',
+        question: 'Is Basketball Game Franchise GM free to play?',
         answer:
           'Yes. It is free to download on Google Play, it is supported by ads, and it offers optional in-app purchases.',
       },
@@ -209,9 +214,14 @@ export const sportsGmApps: AppInfo[] = [
           'Its player pool is built from real-world players’ careers, with ratings that are the game’s own estimates rather than official statistics. The game is not affiliated with, endorsed by or licensed by any league, team, players’ association or athlete.',
       },
     ],
-    metaTitle: 'Pro Basketball GM Franchise for Android',
+    limitations: [
+      'Games are simulated from the roster you build; there is no on-court play.',
+      'Ratings are the game’s own estimates of real players’ careers, not official statistics.',
+      'Ads support the free version, and in-app purchases are optional.',
+    ],
+    metaTitle: 'Basketball Game Franchise GM for Android',
     metaDescription:
-      'Draft a roster, manage trades, contracts and rotations, then run an 82-game season. Eight draft modes in Pro Basketball GM Franchise — free on Google Play.',
+      'Draft a roster, manage trades, contracts and rotations, then run an 82-game season. Eight draft modes in Basketball Game Franchise GM — free on Google Play.',
   },
   {
     slug: 'football-draft-gm-mode',
@@ -239,7 +249,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-10-02',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Position-by-position drafting',
@@ -318,6 +328,10 @@ export const sportsGmApps: AppInfo[] = [
           'Its player pool is built from real-world players’ careers, with ratings that are the game’s own estimates rather than official statistics. The game is not affiliated with, endorsed by or licensed by any league, team, players’ association or athlete.',
       },
     ],
+    limitations: [
+      'Seasons are simulated from the roster you draft; you do not play the downs.',
+      'Ratings are the game’s own estimates of real players’ careers, not official statistics.',
+    ],
     metaTitle: 'Football Franchise GM League for Android',
     metaDescription:
       'Draft a roster position by position, simulate the season and chase a perfect 20-0 record. Franchise and GM Mode included — free on Google Play.',
@@ -346,7 +360,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Stat-led drafting',
@@ -420,6 +434,11 @@ export const sportsGmApps: AppInfo[] = [
           'No. The game is not affiliated with, endorsed by or licensed by any league, team, players’ association or athlete. Its player pool is built from real-world players’ careers, and the ratings are the game’s own estimates, not official statistics.',
       },
     ],
+    limitations: [
+      'There is no online multiplayer and no live results; every record is a projection from the roster you drafted.',
+      'A perfect 162-0 season is deliberately hard to reach.',
+      'Ratings are the game’s own estimates, not official statistics.',
+    ],
     metaTitle: '162-0 Baseball Draft & GM Team for Android',
     metaDescription:
       'Draft nine players and a coach, then get a projected 162-game record from the season simulator. Franchise GM Mode included — free on Google Play.',
@@ -449,7 +468,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-10-02',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Build your XI',
@@ -528,6 +547,10 @@ export const sportsGmApps: AppInfo[] = [
           'Its player pool is built from real-world players’ careers, with ratings that are the game’s own estimates rather than official statistics. The game is not affiliated with, endorsed by or licensed by any league, team, players’ association or athlete.',
       },
     ],
+    limitations: [
+      'Results are simulated from the XI you draft; there are no matches to play yourself.',
+      'Ratings are the game’s own estimates of real players’ careers, not official statistics.',
+    ],
     metaTitle: 'Pro Football GM Club Soccer for Android',
     metaDescription:
       'Build a starting XI and simulate a league campaign chasing a perfect record. Draft modes, club management and quizzes — free on Google Play.',
@@ -557,7 +580,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Draft a starting six',
@@ -636,6 +659,10 @@ export const sportsGmApps: AppInfo[] = [
           'Its player pool is built from real-world players’ careers, with ratings that are the game’s own estimates rather than official statistics. The game is not affiliated with, endorsed by or licensed by any league, team, players’ association or athlete.',
       },
     ],
+    limitations: [
+      'Records are projections from your lineup; you do not play the games.',
+      'Ratings are the game’s own estimates of real players’ careers, not official statistics.',
+    ],
     metaTitle: '84-0 Hockey Draft & GM Manager for Android',
     metaDescription:
       'Draft a starting six and a coach, then get a projected 84-game record back from the draft simulator. Franchise GM Mode included — free on Google Play.',
@@ -665,7 +692,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Two separate simulators',
@@ -744,6 +771,10 @@ export const sportsGmApps: AppInfo[] = [
           'Its player pool is built from real-world players’ careers, with ratings that are the game’s own estimates rather than official statistics. The game is not affiliated with, endorsed by or licensed by any league, team, players’ association or athlete.',
       },
     ],
+    limitations: [
+      'Fights are simulated; you draft and manage rather than throw punches.',
+      'Ratings are the game’s own estimates of real fighters’ careers, not official statistics.',
+    ],
     metaTitle: '40-0 MMA & Boxing Fight Draft for Android',
     metaDescription:
       'Draft fighters across eras and weight classes, with separate MMA and boxing simulators settling every bout. Free on Google Play from Reign Creative.',
@@ -772,7 +803,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Pick a position and a path',
@@ -846,18 +877,23 @@ export const sportsGmApps: AppInfo[] = [
           'Career totals, awards and season history stay on record, and Hall of Fame recognition closes out the run. You can then start again from a different position or archetype.',
       },
     ],
+    limitations: [
+      'Every league, team and player is fictional.',
+      'Ads support the free version, and in-app purchases are optional.',
+    ],
     metaTitle: 'Baseball Career Sim 2026 for Android',
     metaDescription:
       'Create a hitter, pitcher or two-way player and follow one baseball career from school through the draft to the Hall of Fame. Free on Google Play.',
   },
   {
     slug: 'football-career-sim',
-    name: 'Football Career Sim 2026',
+    name: 'Football Career Sim 2027',
+    formerNames: ['Football Career Sim 2026'],
     tagline: 'Play one quarterback’s career, from a youth prospect to a franchise starter.',
     cardDescription:
       'Create a quarterback, read defences, survive the draft and win the starting job across a full American football career.',
     longDescription: [
-      'Football Career Sim 2026 puts you behind centre for a single career rather than a whole roster. You build a quarterback — throwing hand, appearance, archetype and ratings such as throw power, accuracy, awareness, speed, leadership and clutch ability — and choose whether that player is a pocket passer, a scrambler, a field general or a dual-threat.',
+      'Football Career Sim 2027 puts you behind centre for a single career rather than a whole roster. You build a quarterback — throwing hand, appearance, archetype and ratings such as throw power, accuracy, awareness, speed, leadership and clutch ability — and choose whether that player is a pocket passer, a scrambler, a field general or a dual-threat.',
       'The career runs through youth football, high school, college opportunities, combine preparation and the professional draft. Once you are in a locker room, the questions get specific: read the defence, pick the target, call the audible, escape pressure, scramble for the first down, protect the ball, or lead the late drive. Those calls move the score, your statistics, your coach’s trust and the depth chart.',
       'Drives resolve with downs, distance, field position, turnovers, timeouts, red-zone situations, overtime and clock management, and the season keeps passing yards, touchdowns, interceptions, completion percentage, rushing production, records and awards. Around the field sit training, the playbook, injuries, media pressure, contracts, trades and free agency. Live decisions are there when you want control, and faster simulation is there when you want the season to move. Every league, team and player is fictional.',
     ],
@@ -874,7 +910,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Build the quarterback you want to play',
@@ -923,7 +959,7 @@ export const sportsGmApps: AppInfo[] = [
     ],
     faqs: [
       {
-        question: 'Is Football Career Sim 2026 free?',
+        question: 'Is Football Career Sim 2027 free?',
         answer:
           'Yes, it is free to download on Google Play. It is supported by ads and offers optional in-app purchases.',
       },
@@ -948,18 +984,23 @@ export const sportsGmApps: AppInfo[] = [
           'Yes. Accuracy, awareness, speed and clutch ratings weight different options, so a mobile quarterback and a pocket passer are offered different routes out of the same situation.',
       },
     ],
-    metaTitle: 'Football Career Sim 2026 for Android',
+    limitations: [
+      'You can only play as a quarterback.',
+      'Every league, team and player is fictional.',
+    ],
+    metaTitle: 'Football Career Sim 2027 for Android',
     metaDescription:
       'Create a quarterback, read defences, survive the draft and win the starting job across a full football career. Free on Google Play from Reign Creative.',
   },
   {
     slug: 'hockey-career-sim',
-    name: 'Hockey Career Sim 2026',
+    name: 'Hockey Career Sim 2027',
+    formerNames: ['Hockey Career Sim 2026'],
     tagline: 'One skater or goalie, one career, from a roster spot to a championship.',
     cardDescription:
       'Play a forward, centre, defenceman or goalie through a full hockey career of training, contracts, seasons and playoff runs.',
     longDescription: [
-      'Hockey Career Sim 2026 gives you control of one player’s journey rather than a front office. You pick a position and archetype — a scorer, a playmaker, a defensive leader or an elite netminder — and take that player from a young prospect through the seasons that decide whether the career amounts to anything.',
+      'Hockey Career Sim 2027 gives you control of one player’s journey rather than a front office. You pick a position and archetype — a scorer, a playmaker, a defensive leader or an elite netminder — and take that player from a young prospect through the seasons that decide whether the career amounts to anything.',
       'On the ice you shoot, pass, defend, challenge the puck carrier or protect the net, and those calls move momentum inside a game. Off it, skating, shooting, passing, puck control, checking, positioning, stamina, awareness and goaltending develop through training, so the attributes you invest in shape what the simulator lets you attempt later.',
       'A league season brings schedules, standings, statistics, awards, playoffs and rivals, and roster spots have to be earned rather than assumed. Relationships with coaches, teammates, agents, media and rivals sit alongside recovery, injuries, contracts and expectations, and strategic choices about contracts and team changes give the career a manager’s texture while keeping you in the player’s skates. The game supports offline play, so a season can continue without a connection. Every league, team and player is fictional.',
     ],
@@ -976,7 +1017,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Four ways to play',
@@ -1025,7 +1066,7 @@ export const sportsGmApps: AppInfo[] = [
     ],
     faqs: [
       {
-        question: 'Is Hockey Career Sim 2026 free?',
+        question: 'Is Hockey Career Sim 2027 free?',
         answer:
           'Yes, it is free to download on Google Play. It is supported by ads and offers optional in-app purchases.',
       },
@@ -1050,7 +1091,11 @@ export const sportsGmApps: AppInfo[] = [
           'Not quite. You are always the player, but contract, transfer and career choices add some of the strategic texture of a manager game around that.',
       },
     ],
-    metaTitle: 'Hockey Career Sim 2026 for Android',
+    limitations: [
+      'You are always the player; it is not a full front-office management game.',
+      'Every league, team and player is fictional.',
+    ],
+    metaTitle: 'Hockey Career Sim 2027 for Android',
     metaDescription:
       'Play a forward, centre, defenceman or goalie through a full hockey career of training, contracts, seasons and playoffs. Free on Google Play.',
   },
@@ -1078,7 +1123,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Six positions, real differences',
@@ -1152,6 +1197,10 @@ export const sportsGmApps: AppInfo[] = [
           'They matter. Contract value, playing time, team quality and your role all differ between offers, so a bigger club can mean fewer minutes.',
       },
     ],
+    limitations: [
+      'Every club, competition and player is fictional.',
+      'Playing time depends on Coach Trust, so a new career can start on the bench.',
+    ],
     metaTitle: 'Football Career Soccer XI Sim for Android',
     metaDescription:
       'Create a footballer, build Coach Trust and rise from academy prospect to club icon in a full soccer career simulator. Free on Google Play.',
@@ -1180,7 +1229,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Decisions instead of swing timing',
@@ -1254,6 +1303,10 @@ export const sportsGmApps: AppInfo[] = [
           'No, but it has consequences. Rankings and earnings decide which events you can enter next season, so a poor year narrows the schedule rather than ending it.',
       },
     ],
+    limitations: [
+      'There is no swing timing; shots are decided by your choices, your golfer’s skills and the conditions.',
+      'Every tour, event and golfer is fictional.',
+    ],
     metaTitle: 'Golf Career Simulator Pro Tour for Android',
     metaDescription:
       'Build a golfer, choose how to play every hole, and chase rankings and trophies across full tour seasons. Free on Google Play from Reign Creative.',
@@ -1283,7 +1336,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: false,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Six playing styles',
@@ -1357,6 +1410,10 @@ export const sportsGmApps: AppInfo[] = [
           'No. It is a fictional tennis simulation and is not affiliated with, endorsed by or connected to any real player, tour, tournament or governing body.',
       },
     ],
+    limitations: [
+      'You make the decisions on important points rather than swinging a racket.',
+      'It is a fictional simulation, not connected to any real player, tour or tournament.',
+    ],
     metaTitle: 'Tennis Career Simulator 2026 for Android',
     metaDescription:
       'Build a tennis player, pick a playing style, and climb from junior events to the world rankings one decision at a time. Free on Google Play.',
@@ -1386,7 +1443,7 @@ export const sportsGmApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'A pool of 1,000+ players',
@@ -1460,6 +1517,10 @@ export const sportsGmApps: AppInfo[] = [
           'No. Player names and historical details are used for informational game purposes, in-game ratings and salaries are unofficial estimates, and the app is not affiliated with or endorsed by any player, club, league, union or governing organisation.',
       },
     ],
+    limitations: [
+      'It is rugby union only, not rugby league.',
+      'Player ratings and salaries are unofficial in-game estimates.',
+    ],
     metaTitle: '24-0 Rugby Draft Pro League for Android',
     metaDescription:
       'Draft a rugby union squad from 1,000+ players, then manage contracts, rotation and a salary cap through a 24-match season. Free on Google Play.',
@@ -1486,9 +1547,9 @@ export const sportsGmApps: AppInfo[] = [
     playCategory: 'GAME_SPORTS',
     contentRating: 'Everyone',
     containsAds: true,
-    inAppPurchases: false,
+    inAppPurchases: true,
     free: true,
-    lastVerified: '2026-10-02',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Your player, your position',
@@ -1539,7 +1600,7 @@ export const sportsGmApps: AppInfo[] = [
       {
         question: 'Is Pro Rugby Career Sport Sim free?',
         answer:
-          'Yes, it is free to download on Google Play and supported by ads. Google Play does not list in-app purchases for it.',
+          'Yes, it is free to download on Google Play and supported by ads, and Google Play lists in-app purchases for it.',
       },
       {
         question: 'How is it different from a rugby draft or GM game?',
@@ -1561,6 +1622,10 @@ export const sportsGmApps: AppInfo[] = [
         answer:
           'No. The listing suggests goals as simple as learning what the match numbers mean, so following your own stats doubles as a way into the sport.',
       },
+    ],
+    limitations: [
+      'It follows one player’s career; there is no squad or club management.',
+      'Matches are simulated, and you follow your player rather than controlling every phase.',
     ],
     metaTitle: 'Pro Rugby Career Sport Sim for Android',
     metaDescription:
@@ -1588,9 +1653,9 @@ export const sportsGmApps: AppInfo[] = [
     playCategory: 'GAME_RACING',
     contentRating: 'Everyone',
     containsAds: true,
-    inAppPurchases: false,
+    inAppPurchases: true,
     free: true,
-    lastVerified: '2026-10-02',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Decisions, not steering',
@@ -1641,7 +1706,7 @@ export const sportsGmApps: AppInfo[] = [
       {
         question: 'Is Car Racing - Pro Career Racer free?',
         answer:
-          'Yes, it is free to download on Google Play and supported by ads. Google Play does not list in-app purchases for it.',
+          'Yes, it is free to download on Google Play and supported by ads, and Google Play lists in-app purchases for it.',
       },
       {
         question: 'Do I steer the car?',
@@ -1663,8 +1728,1026 @@ export const sportsGmApps: AppInfo[] = [
         answer: 'Yes. You can choose mph or km/h in Settings.',
       },
     ],
+    limitations: [
+      'There is no steering; races are simulated and you make the strategic calls.',
+      'Every circuit is fictional.',
+    ],
     metaTitle: 'Car Racing - Pro Career Racer for Android',
     metaDescription:
       'Build a motorsport career from karting to the front of the grid, deciding tyres, fuel, pit stops and racing lines in live races. Free on Google Play.',
+  },
+  {
+    slug: 'basketball-career-pro-league',
+    name: 'Basketball Career Pro League',
+    tagline: 'Take the controls on the court, train your player, and build a career one possession at a time.',
+    cardDescription:
+      'A hands-on basketball career game: control your player on the court, train shooting, passing and defense, and follow your stats through a league season.',
+    longDescription: [
+      'Basketball Career Pro League is a basketball career game you play with your thumbs. You create a player with a role to grow into, then take that player onto the court with on-screen controls: sprint into position, shoot or move the ball, look for steals and fight for rebounds. Guided tutorial steps introduce the controls before the games start to matter.',
+      'Between games, training is where the career is built. Shooting, passing and defense are the skills the listing names, and the box score after each game shows what your player actually contributed, so the next block of training can go where it is needed. League standings and your own stats keep the season in view, and the store screenshots describe a path from youth prospect through high school and college to the pro game.',
+      'You do not have to play every possession yourself. The game lets you play directly, watch AI-controlled basketball with Auto Play, or use its simulation options to move the season forward, and selectable camera views — including a wider Broadcast view — change how much of the court you can see. It sits beside Basketball Career Sim, which is built around decisions at key moments; this one puts the movement in your hands.',
+    ],
+    category: 'Games · Basketball Career',
+    categoryId: 'sports-gm',
+    schemaCategory: 'GameApplication',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.reigncreative.basketballprocareerleague',
+    packageId: 'com.reigncreative.basketballprocareerleague',
+    icon: '/icons/basketball-career-pro-league.webp',
+    iconSmall: '/icons/basketball-career-pro-league-sm.webp',
+    accent: 'from-gold-400 to-crimson-500',
+    playCategory: 'GAME_SPORTS',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: false,
+    free: true,
+    lastVerified: '2026-10-24',
+    features: [
+      {
+        title: 'On-court controls',
+        body: 'Move your player, shoot, pass, sprint, steal and rebound yourself, with guided tutorial steps to learn the controls.',
+      },
+      {
+        title: 'Training that feeds the next game',
+        body: 'Work on shooting, passing and defense between games, then see whether it shows up on the court.',
+      },
+      {
+        title: 'Box scores and standings',
+        body: 'A compact scoreboard during play, box score stats afterwards and league standings across the season.',
+      },
+      {
+        title: 'Play, watch or simulate',
+        body: 'Play directly, watch AI-controlled games with Auto Play, or use the simulation options to advance.',
+      },
+      {
+        title: 'Camera views',
+        body: 'Selectable views, including a wider Broadcast option for reading movement away from the ball.',
+      },
+    ],
+    audience: [
+      'Basketball fans who want to control their player rather than pick from menus',
+      'Players who like to see training turn into box-score numbers',
+      'Anyone who wants to switch between playing a game and simulating one',
+      'People who prefer a single career to running a whole franchise',
+    ],
+    howItWorks: [
+      {
+        title: 'Create your player',
+        body: 'Pick the role you want to grow into, then learn the controls through the guided tutorial.',
+      },
+      {
+        title: 'Play the games',
+        body: 'Take possessions yourself, or let Auto Play or simulation carry the parts you would rather watch.',
+      },
+      {
+        title: 'Read the box score',
+        body: 'Check scoring, shooting, passing and defensive numbers to see what your player contributed.',
+      },
+      {
+        title: 'Train and go again',
+        body: 'Put training into the skills that fit your role, then take them into the next league game.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Basketball Career Pro League free?',
+        answer:
+          'Yes. It is free to download on Google Play and supported by ads. Google Play does not list in-app purchases for it.',
+      },
+      {
+        question: 'How is it different from Basketball Career Sim?',
+        answer:
+          'Basketball Career Sim is built around choosing what your player does at key possessions and managing the career around the games. Basketball Career Pro League puts the on-court movement in your hands — you control the player directly, with Auto Play and simulation as options rather than the main mode.',
+      },
+      {
+        question: 'Do I have to play every game myself?',
+        answer:
+          'No. The listing says you can play directly, watch AI-controlled games with Auto Play, or use the supported simulation options to move the season along.',
+      },
+      {
+        question: 'Which skills can I train?',
+        answer:
+          'The listing names shooting, passing and defense, and it describes using your stats to decide what to train next.',
+      },
+      {
+        question: 'Can I change the camera?',
+        answer:
+          'Yes. There are selectable camera views, including a wider Broadcast option that shows more of the court.',
+      },
+    ],
+    limitations: [
+      'The listing and screenshots describe single-player play; no online or head-to-head multiplayer is mentioned.',
+      'It is a hands-on action game, so it asks for more attention per session than a menu-driven career sim.',
+      'Ads support the free version, and Google Play lists no in-app purchases to remove them.',
+    ],
+    screenshots: [
+      {
+        src: '/screenshots/basketball-career-pro-league/1.webp',
+        width: 360,
+        height: 640,
+        alt: 'Basketball Career Pro League store image showing an overhead court view with on-screen movement and action buttons, above feature tiles for live gameplay, training, multiple careers and camera options.',
+      },
+      {
+        src: '/screenshots/basketball-career-pro-league/2.webp',
+        width: 360,
+        height: 640,
+        alt: 'Basketball Career Pro League store image of the career menu, with tiles for player career, quick play, team play, season and GM, team development, and missions and daily rewards.',
+      },
+      {
+        src: '/screenshots/basketball-career-pro-league/3.webp',
+        width: 360,
+        height: 640,
+        alt: 'Basketball Career Pro League store image of the play menu listing career, team play and single-control quick play, beside a list that includes 82-game team seasons and playing any position.',
+      },
+    ],
+    metaTitle: 'Basketball Career Pro League for Android',
+    metaDescription:
+      'Control your player on the court, train shooting, passing and defense, and follow a basketball career through a league season. Free on Google Play.',
+  },
+  {
+    slug: 'boxing-prize-fighter-career',
+    name: 'Boxing Prize Fighter Career',
+    tagline: 'Create a fighter, manage your stamina, and work your way up a boxing career in pixel-art bouts.',
+    cardDescription:
+      'Pixel-art boxing with hands-on controls: build a fighter, train and spar, then manage stamina and distance through career bouts, challenges and a Boss Ladder.',
+    longDescription: [
+      'Boxing Prize Fighter Career is a boxing game with pixel-art fights and hands-on controls. You create a fighter, customise how they look, and take them into a career mode where results and preparation decide how far they go. In the ring you throw jabs, crosses, hooks and uppercuts, mix head and body punches, and block the reply.',
+      'The listing is clear about what the game rewards: stamina, distance and defense. An aggressive start still needs energy management, and a knockout attempt can leave you exposed if you forget to protect yourself. Training and sparring sit between bouts as places to work on a weakness without risking a career result, and Quick Play offers single fights without starting a new save.',
+      'Variety comes from opponents and challenges rather than from a story told in cut-scenes. Quick Play lets you change opponents, daily and weekly challenges rotate, and a Boss Ladder sets a run of tougher fights. The store screenshots also show weight classes, difficulty levels, custom rounds and timers, opponent profiles and a fighter comparison screen.',
+    ],
+    category: 'Games · Boxing Career',
+    categoryId: 'sports-gm',
+    schemaCategory: 'GameApplication',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.reigncreative.boxingprizefightercareer',
+    packageId: 'com.reigncreative.boxingprizefightercareer',
+    icon: '/icons/boxing-prize-fighter-career.webp',
+    iconSmall: '/icons/boxing-prize-fighter-career-sm.webp',
+    accent: 'from-crimson-600 to-ink-900',
+    playCategory: 'GAME_SPORTS',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: true,
+    free: true,
+    lastVerified: '2026-10-24',
+    features: [
+      {
+        title: 'Hands-on punching',
+        body: 'Jabs, crosses, hooks and uppercuts to head or body, linked into combinations, with blocking for the reply.',
+      },
+      {
+        title: 'Stamina and distance',
+        body: 'Energy management and range decide bouts as much as power; an all-out start can leave you open.',
+      },
+      {
+        title: 'Career mode with training',
+        body: 'Create and customise a fighter, then use training and sparring between bouts to fix what is costing you.',
+      },
+      {
+        title: 'Quick Play',
+        body: 'Single fights with changeable opponents, without starting a new career save.',
+      },
+      {
+        title: 'Challenges and a Boss Ladder',
+        body: 'Daily and weekly challenges plus a ladder of tougher opponents to climb.',
+      },
+    ],
+    audience: [
+      'Boxing fans who want to throw the punches rather than simulate them',
+      'Players who enjoy managing a stamina bar as much as landing combinations',
+      'Anyone who likes pixel-art sports games with short bouts',
+      'People who want a fighting career with a ladder to climb',
+    ],
+    howItWorks: [
+      {
+        title: 'Create a fighter',
+        body: 'Customise your boxer’s look and start a career, or jump into Quick Play for a single fight.',
+      },
+      {
+        title: 'Train and spar',
+        body: 'Practise combinations, body punches and defense before the bouts that count.',
+      },
+      {
+        title: 'Fight with a plan',
+        body: 'Manage stamina, control distance and pick your moment rather than throwing without a plan.',
+      },
+      {
+        title: 'Climb',
+        body: 'Take on daily and weekly challenges and work up the Boss Ladder as your fighter improves.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Boxing Prize Fighter Career free?',
+        answer:
+          'Yes. It is free to download on Google Play. It is supported by ads, and Google Play lists in-app purchases.',
+      },
+      {
+        question: 'Is it a boxing simulator or an arcade game?',
+        answer:
+          'It sits between the two. The fights are hands-on with pixel-art visuals, but the listing stresses simulator ideas — stamina, distance, defense and punch selection — over button-mashing.',
+      },
+      {
+        question: 'Does it include MMA?',
+        answer:
+          'No. It is a boxing game. For mixed martial arts and boxing drafting, Reign Creative makes 40-0 MMA & Boxing Fight Draft, which is a draft and management game rather than a fighting game.',
+      },
+      {
+        question: 'Can I play a single fight without a career?',
+        answer:
+          'Yes. Quick Play lets you explore the game and change opponents without starting a new save.',
+      },
+      {
+        question: 'What is the Boss Ladder?',
+        answer:
+          'A run of increasingly tough opponents, listed alongside daily and weekly challenges as the game’s main sources of variety.',
+      },
+    ],
+    limitations: [
+      'Boxing only: there are no MMA rules or kicks.',
+      'The art style is pixel-art, not realistic 3D, which some boxing fans will not want.',
+      'The listing describes single-player play against the game’s own opponents; no online multiplayer is mentioned.',
+    ],
+    screenshots: [
+      {
+        src: '/screenshots/boxing-prize-fighter-career/1.webp',
+        width: 360,
+        height: 640,
+        alt: 'Boxing Prize Fighter Career store image showing a pixel-art bout in the ring with on-screen punch buttons, above tiles for career, opponents, stamina, hooks and uppercuts, and blocking.',
+      },
+      {
+        src: '/screenshots/boxing-prize-fighter-career/2.webp',
+        width: 360,
+        height: 640,
+        alt: 'Boxing Prize Fighter Career store image of the main menu headed Create a fighter, build a legacy, with tiles for career mode, quick play, practice gym, daily and weekly challenges and the Boss Ladder.',
+      },
+      {
+        src: '/screenshots/boxing-prize-fighter-career/3.webp',
+        width: 360,
+        height: 640,
+        alt: 'Boxing Prize Fighter Career store image of the Quick Play setup screen, with tiles for weight classes, difficulty levels, custom rounds and timers, and head and body punches.',
+      },
+    ],
+    metaTitle: 'Boxing Prize Fighter Career for Android',
+    metaDescription:
+      'Pixel-art boxing with hands-on controls: build a fighter, manage stamina and distance, and climb a career, challenges and a Boss Ladder. Free on Google Play.',
+  },
+  {
+    slug: 'football-career-soccer-league',
+    name: 'Football Career Soccer League',
+    tagline: 'Play a soccer career on the pitch, or take control of the whole team, and follow it through a league season.',
+    cardDescription:
+      'A hands-on soccer career game with career mode, team control and quick play, player skills, match stats and a league season to follow.',
+    longDescription: [
+      'Football Career Soccer League is an association football game — soccer — built around your own career on the pitch. Its in-game title reads Soccer Career Pro League. You can follow one player in career mode, switch to team control for a wider view of the match, or start a quick play game when you only have a few minutes.',
+      'Matches are played rather than menu-driven: you find space, take players on and score goals, then check the match stats to set a target for the next game. Player skills develop across the league season, daily rewards give a reason to return, and you can spectate matches as well as play them. The camera can be adjusted for each match, and the store screenshots show a broadcast view, adjustable zoom and a choice of languages.',
+      'It complements Football Career Soccer XI Sim, which tells a career through decisions and squad life. This one is about playing the matches yourself, with the season as the frame around them.',
+    ],
+    category: 'Games · Soccer Career',
+    categoryId: 'sports-gm',
+    schemaCategory: 'GameApplication',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.reigncreative.soccerprocareerleague',
+    packageId: 'com.reigncreative.soccerprocareerleague',
+    icon: '/icons/football-career-soccer-league.webp',
+    iconSmall: '/icons/football-career-soccer-league-sm.webp',
+    accent: 'from-gold-500 to-gold-700',
+    playCategory: 'GAME_SPORTS',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: false,
+    free: true,
+    lastVerified: '2026-10-24',
+    features: [
+      {
+        title: 'Three ways in',
+        body: 'Career mode for one player, team control for the whole side, and quick play for a short match.',
+      },
+      {
+        title: 'Play the match',
+        body: 'Find space and score goals yourself instead of watching a simulation.',
+      },
+      {
+        title: 'Match stats after every game',
+        body: 'Review the numbers, set a target and take it into the next match.',
+      },
+      {
+        title: 'Spectate and adjust the camera',
+        body: 'Watch matches as well as play them, and change the camera for the way you like to follow play.',
+      },
+      {
+        title: 'Daily rewards',
+        body: 'A reason to come back between league games while your player skills develop.',
+      },
+    ],
+    audience: [
+      'Soccer fans who want to play matches, not only manage them',
+      'Players who like switching between one player and the whole team',
+      'Anyone with a few minutes for a quick match',
+      'People who follow their own numbers from game to game',
+    ],
+    howItWorks: [
+      {
+        title: 'Pick a mode',
+        body: 'Career mode, team control or quick play, depending on how much time and control you want.',
+      },
+      {
+        title: 'Play the match',
+        body: 'Take the pitch, create chances and score goals.',
+      },
+      {
+        title: 'Check the stats',
+        body: 'Review match stats and decide what to improve.',
+      },
+      {
+        title: 'Keep the season going',
+        body: 'Develop player skills, collect daily rewards and continue through the league season.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Football Career Soccer League free?',
+        answer:
+          'Yes. It is free to download on Google Play and supported by ads. Google Play does not list in-app purchases for it.',
+      },
+      {
+        question: 'Is this soccer or American football?',
+        answer:
+          'Soccer — association football. The in-game title reads Soccer Career Pro League. For American football, Reign Creative makes Football Career Pro League and Football Career Sim 2027.',
+      },
+      {
+        question: 'What is team control?',
+        answer:
+          'A mode that gives you a wider view of the match than following a single player in career mode. Quick play is the third option, for a shorter match.',
+      },
+      {
+        question: 'Can I watch instead of play?',
+        answer:
+          'Yes. The listing describes a Spectate option for watching the action before your next match.',
+      },
+      {
+        question: 'How does it differ from Football Career Soccer XI Sim?',
+        answer:
+          'Football Career Soccer XI Sim follows a career through decisions and squad life. Football Career Soccer League is built around playing the matches yourself.',
+      },
+    ],
+    limitations: [
+      'The listing does not describe online or head-to-head multiplayer.',
+      'The in-game title, Soccer Career Pro League, differs from the Google Play title, which can be confusing when you search for it.',
+      'Ads support the free version; Google Play lists no in-app purchases.',
+    ],
+    screenshots: [
+      {
+        src: '/screenshots/football-career-soccer-league/1.webp',
+        width: 360,
+        height: 640,
+        alt: 'Football Career Soccer League store image, titled Soccer Career Pro League in game, showing an overhead pitch with on-screen controls above tiles for career mode, quick play, team control and spectate matches.',
+      },
+      {
+        src: '/screenshots/football-career-soccer-league/2.webp',
+        width: 360,
+        height: 640,
+        alt: 'Football Career Soccer League store image of the career hub, with tiles for player career, team play, quick play, season and manager, and missions and rewards.',
+      },
+      {
+        src: '/screenshots/football-career-soccer-league/3.webp',
+        width: 360,
+        height: 640,
+        alt: 'Football Career Soccer League store image of the language selection screen, headed Your game, your language.',
+      },
+    ],
+    metaTitle: 'Football Career Soccer League for Android',
+    metaDescription:
+      'A hands-on soccer career with career mode, team control and quick play, match stats, daily rewards and a league season to follow. Free on Google Play.',
+  },
+  {
+    slug: 'football-career-pro-league',
+    name: 'Football Career Pro League',
+    tagline: 'Build an American football player, play the snaps yourself, and chase a championship across seasons.',
+    cardDescription:
+      'Arcade-style American football with a career at its centre: train your player, prepare for the draft, read the field and play offense and defense.',
+    longDescription: [
+      'Football Career Pro League is an American football game that combines a player career with on-field action. You create a player whose skills match your style, train passing, running and defense, prepare for the draft and work to earn a role on a team. On the field you read the defence as a quarterback, find space for passes, attack openings on running plays and switch to defense to stop the other side.',
+      'It is more than one mode. Career is the core, but the listing also names season, commissioner and Team Play modes, so you can approach the league from the team’s side as well as the player’s. You can study your depth chart, follow the draft, use training and equipment for player development, return for daily rewards and work toward trophies. The store screenshots describe the action as arcade 11-on-11 football with a 17-game season.',
+      'Standard, Wide and Full Field camera views change how much of the play you see, and you can save from the pause menu and keep separate career saves for different player journeys. It complements Football Career Sim 2027, a quarterback career told through decisions; here you are playing the downs.',
+    ],
+    category: 'Games · Football Career',
+    categoryId: 'sports-gm',
+    schemaCategory: 'GameApplication',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.reigncreative.footballprocareerleague',
+    packageId: 'com.reigncreative.footballprocareerleague',
+    icon: '/icons/football-career-pro-league.webp',
+    iconSmall: '/icons/football-career-pro-league-sm.webp',
+    accent: 'from-crimson-500 to-ink-700',
+    playCategory: 'GAME_SPORTS',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: false,
+    free: true,
+    lastVerified: '2026-10-24',
+    features: [
+      {
+        title: 'Play both sides of the ball',
+        body: 'Pass and run on offense, then switch your focus to defense, with your player’s movement and positioning at the centre.',
+      },
+      {
+        title: 'Career, season, commissioner and Team Play',
+        body: 'Follow one player or look at the league from a team’s point of view.',
+      },
+      {
+        title: 'Draft and depth chart',
+        body: 'Prepare for the draft, then study the depth chart to see where your player fits.',
+      },
+      {
+        title: 'Training and equipment',
+        body: 'Develop quarterback awareness, passing, running and defense, with equipment supporting player development.',
+      },
+      {
+        title: 'Three camera views',
+        body: 'Standard, Wide or Full Field framing to read passing options and running lanes.',
+      },
+    ],
+    audience: [
+      'Football fans who want to play the downs, not only call them',
+      'Players who like building one player across several seasons',
+      'Anyone who wants a commissioner or team view alongside the career',
+      'People who keep separate saves to try different paths',
+    ],
+    howItWorks: [
+      {
+        title: 'Build your player',
+        body: 'Create a player and choose how to develop passing, running and defense.',
+      },
+      {
+        title: 'Prepare for the draft',
+        body: 'Train, follow the draft and find your role on a team.',
+      },
+      {
+        title: 'Play the season',
+        body: 'Read the field, make the plays and compete for your place in the league.',
+      },
+      {
+        title: 'Chase the championship',
+        body: 'Carry your improved player into the next season, or start another career save.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Football Career Pro League free?',
+        answer:
+          'Yes. It is free to download on Google Play and supported by ads. Google Play does not list in-app purchases for it.',
+      },
+      {
+        question: 'Is this American football or soccer?',
+        answer:
+          'American football. For soccer, Reign Creative makes Football Career Soccer League and Football Career Soccer XI Sim.',
+      },
+      {
+        question: 'How is it different from Football Career Sim 2027?',
+        answer:
+          'Football Career Sim 2027 follows a quarterback career through the decisions on each drive and the career around it. Football Career Pro League is an action game: you control the player on the field, on offense and defense, and it adds season, commissioner and Team Play modes.',
+      },
+      {
+        question: 'Can I keep more than one career?',
+        answer:
+          'Yes. The listing says you can keep separate career saves, and save from the pause menu to resume later.',
+      },
+      {
+        question: 'Which camera views are there?',
+        answer: 'Standard, Wide and Full Field.',
+      },
+    ],
+    limitations: [
+      'It is arcade-style football, so it simplifies the playbook compared with a full coaching simulation.',
+      'No online multiplayer is described in the listing.',
+      'Ads support the free version; Google Play lists no in-app purchases.',
+    ],
+    screenshots: [
+      {
+        src: '/screenshots/football-career-pro-league/1.webp',
+        width: 360,
+        height: 640,
+        alt: 'Football Career Pro League store image showing an overhead field with on-screen controls above tiles for career mode, quick play, team play, offense and defense, and skill moves.',
+      },
+      {
+        src: '/screenshots/football-career-pro-league/2.webp',
+        width: 360,
+        height: 640,
+        alt: 'Football Career Pro League store image of the career hub, labelled arcade 11-on-11 football, with tiles for player career, quick play, season and playoffs, and team development.',
+      },
+      {
+        src: '/screenshots/football-career-pro-league/3.webp',
+        width: 360,
+        height: 640,
+        alt: 'Football Career Pro League store image headed Build your legacy, showing a side-on field view and tiles for playing offense and defense and training skills.',
+      },
+    ],
+    metaTitle: 'Football Career Pro League for Android',
+    metaDescription:
+      'Arcade-style American football with a player career: train, prepare for the draft, play offense and defense, and chase a championship. Free on Google Play.',
+  },
+  {
+    slug: 'hockey-career-pro-league',
+    name: 'Hockey Career Pro League Game',
+    tagline: 'Control your skater or the whole team, earn shift grades, and play through an 84-game season.',
+    cardDescription:
+      'A hands-on hockey career: switch between single-player and team control, chase coach objectives and A-to-F shift grades across a 32-team league.',
+    longDescription: [
+      'Hockey Career Pro League Game is a hockey game about one player’s career, played on the ice rather than from a menu. You choose between Career Single Control, where you play your own role, and Team Control, where you direct the wider action. Off-puck actions are part of it: you follow the puck, find your position as play moves, and contribute away from the puck as well as with it.',
+      'Each shift is measured. Coach objectives set what your player should do, and shift grades from A to F tell you how it went. Training and practice drills between games are where technique improves, and goals and assists in league matches build the case for a bigger role. The in-game title reads Hockey Pro Career League.',
+      'According to the listing, the league has 32 teams and an 84-game regular schedule, followed by playoffs and a championship chase. It sits alongside Hockey Career Sim 2027, which tells a career through decisions; this one asks you to play the shifts.',
+    ],
+    category: 'Games · Hockey Career',
+    categoryId: 'sports-gm',
+    schemaCategory: 'GameApplication',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.reigncreative.hockeyprocareerretroleague',
+    packageId: 'com.reigncreative.hockeyprocareerretroleague',
+    icon: '/icons/hockey-career-pro-league.webp',
+    iconSmall: '/icons/hockey-career-pro-league-sm.webp',
+    accent: 'from-gold-400 to-gold-600',
+    playCategory: 'GAME_SPORTS',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: true,
+    free: true,
+    lastVerified: '2026-10-24',
+    features: [
+      {
+        title: 'Single or team control',
+        body: 'Play your own role in Career Single Control, or direct the wider action in Team Control.',
+      },
+      {
+        title: 'Shift grades from A to F',
+        body: 'Coach objectives and a grade for every shift show whether you did your job, not just whether you scored.',
+      },
+      {
+        title: 'Off-puck play',
+        body: 'Follow the puck, find your position and stay involved when the puck is elsewhere.',
+      },
+      {
+        title: 'Training and practice drills',
+        body: 'Work on technique between games and see it change your approach on the ice.',
+      },
+      {
+        title: 'A full league season',
+        body: 'Thirty-two teams, an 84-game regular schedule, then the playoffs.',
+      },
+    ],
+    audience: [
+      'Hockey fans who want to play their position, not only manage it',
+      'Players who like being graded on their role rather than their points',
+      'Anyone who wants to switch between one skater and the whole team',
+      'People who enjoy a long regular season with a playoff race',
+    ],
+    howItWorks: [
+      {
+        title: 'Choose your control',
+        body: 'Career Single Control for your own player, or Team Control for the wider game.',
+      },
+      {
+        title: 'Play your shifts',
+        body: 'Chase coach objectives, support your teammates and create goals and assists.',
+      },
+      {
+        title: 'Read your grades',
+        body: 'Shift grades from A to F show what to work on.',
+      },
+      {
+        title: 'Train for the next game',
+        body: 'Use practice drills and training, then push for a playoff place across the 84-game season.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Hockey Career Pro League Game free?',
+        answer:
+          'Yes. It is free to download on Google Play. It is supported by ads, and Google Play lists in-app purchases.',
+      },
+      {
+        question: 'What are shift grades?',
+        answer:
+          'A grade from A to F for each shift, judged against coach objectives, so you can tell whether you did your job even on a shift without a goal or an assist.',
+      },
+      {
+        question: 'How long is the season?',
+        answer:
+          'The listing describes 32 teams and an 84-game regular schedule, followed by playoffs and a championship chase.',
+      },
+      {
+        question: 'How is it different from Hockey Career Sim 2027?',
+        answer:
+          'Hockey Career Sim 2027 is a career simulator built around decisions. Hockey Career Pro League Game puts you on the ice with direct control of your player or your team.',
+      },
+      {
+        question: 'Why does the game call itself Hockey Pro Career League?',
+        answer:
+          'That is the in-game title shown in its store images. The Google Play title is Hockey Career Pro League Game, and both refer to the same app.',
+      },
+    ],
+    limitations: [
+      'Its 32-team, 84-game season is the game’s own format, and the game is not affiliated with any real league, team or players’ association.',
+      'The listing does not describe online multiplayer.',
+      'It is an action game: controlling a skater well takes practice before the grades improve.',
+    ],
+    screenshots: [
+      {
+        src: '/screenshots/hockey-career-pro-league/1.webp',
+        width: 360,
+        height: 640,
+        alt: 'Hockey Career Pro League Game store image, titled Hockey Pro Career League in game, showing an overhead rink with on-screen controls above tiles for career and team control, 32 teams and 84-game seasons, and shift grades.',
+      },
+      {
+        src: '/screenshots/hockey-career-pro-league/2.webp',
+        width: 360,
+        height: 640,
+        alt: 'Hockey Career Pro League Game store image headed Own the ice, with a rink view and a list of features including practice drills, coach objectives and multiple career saves.',
+      },
+      {
+        src: '/screenshots/hockey-career-pro-league/3.webp',
+        width: 360,
+        height: 640,
+        alt: 'Hockey Career Pro League Game store image headed Own every shift, showing gameplay on the rink and tiles for coach objectives, shift grades and playoffs.',
+      },
+    ],
+    metaTitle: 'Hockey Career Pro League Game for Android',
+    metaDescription:
+      'Play a hockey career on the ice: single or team control, coach objectives and A-to-F shift grades, across a 32-team, 84-game season. Free on Google Play.',
+  },
+  {
+    slug: 'football-league-commissioner',
+    name: 'Football League Commissioner',
+    tagline: 'Run an American football league from the commissioner’s office: rules, owners, schedules, drafts and history.',
+    cardDescription:
+      'An American football league simulator: set the rules, handle owners and expansion, simulate weeks or whole seasons, and keep a record of every year.',
+    longDescription: [
+      'Football League Commissioner is an American football simulation built around running the league rather than one team. As commissioner you customise rules, explore expansion and relocation, and give your football world its own identity, while simulation shows how those decisions play out. A sandbox mode is there for experiments, and Unlimited Draft is a separate roster-building mode.',
+      'You can follow the action at whatever level interests you: simulate a game, a week, a season or the playoffs, then check standings, schedules and stats. Observer mode lets you follow favourite players and teams and watch storylines develop. The store screenshots show the office side in more detail — owners, media deals and league health, inbox proposals, votes and crises, schedule creation, transaction approvals and salary-cap settings.',
+      'History is kept as you go: a Yearbook, timelines, records and awards turn results into a league with a past, and multiple saves let you keep separate football worlds. According to the app’s own screenshots, the league uses real players from across football’s eras; their ratings and results are the simulation’s own estimates.',
+    ],
+    category: 'Games · Football League Sim',
+    categoryId: 'sports-gm',
+    schemaCategory: 'GameApplication',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.reigncreative.footballleaguesandbox',
+    packageId: 'com.reigncreative.footballleaguesandbox',
+    icon: '/icons/football-league-commissioner.webp',
+    iconSmall: '/icons/football-league-commissioner-sm.webp',
+    accent: 'from-gold-500 to-crimson-500',
+    playCategory: 'GAME_SPORTS',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: false,
+    free: true,
+    lastVerified: '2026-10-24',
+    features: [
+      {
+        title: 'Commissioner control',
+        body: 'Customise rules, explore expansion and relocation, and make the decisions that affect every team.',
+      },
+      {
+        title: 'Simulate at any level',
+        body: 'A single game, a week, a season or the playoffs, with standings, schedules and stats afterwards.',
+      },
+      {
+        title: 'Sandbox and Unlimited Draft',
+        body: 'Experiment freely in sandbox mode, or build a roster in the separate Unlimited Draft mode.',
+      },
+      {
+        title: 'Observer mode',
+        body: 'Follow favourite players and teams and watch league storylines develop.',
+      },
+      {
+        title: 'League history',
+        body: 'A Yearbook, timelines, records and awards, with multiple saves for separate leagues.',
+      },
+    ],
+    audience: [
+      'Football fans more interested in how a league works than in one roster',
+      'Players who enjoy rule changes and what-if experiments',
+      'Anyone who likes simulating seasons and reading the history afterwards',
+      'People who want to run several separate leagues side by side',
+    ],
+    howItWorks: [
+      {
+        title: 'Start a league',
+        body: 'Begin as commissioner, open the sandbox, or try Unlimited Draft.',
+      },
+      {
+        title: 'Set the rules',
+        body: 'Adjust rules, schedules and the league’s shape, including expansion and relocation.',
+      },
+      {
+        title: 'Simulate',
+        body: 'Move forward a game, a week or a season at a time and watch the playoff picture form.',
+      },
+      {
+        title: 'Look back',
+        body: 'Review the Yearbook, records and awards, then change direction for the next season.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Football League Commissioner free?',
+        answer:
+          'Yes. It is free to download on Google Play and supported by ads. Google Play does not list in-app purchases for it.',
+      },
+      {
+        question: 'Do I play the games?',
+        answer:
+          'No. It is a league simulation. You make the commissioner’s decisions and simulate games, weeks, seasons and playoffs, then follow the results, stats and history.',
+      },
+      {
+        question: 'Does it use real players?',
+        answer:
+          'The app’s store screenshots describe real players from across football’s eras. Their ratings and results are the simulation’s own estimates, not official statistics, and the game is not affiliated with, endorsed by or licensed by any league, team, players’ association or athlete.',
+      },
+      {
+        question: 'What is Unlimited Draft?',
+        answer:
+          'A separate roster-building mode where you choose players for a team and consider the balance of your selections, alongside the league side of the game.',
+      },
+      {
+        question: 'Can I keep more than one league?',
+        answer: 'Yes. Multiple saves let you keep separate football worlds.',
+      },
+    ],
+    limitations: [
+      'There is no on-field gameplay; results come from simulation.',
+      'Simulated results are the game’s own outcomes, not predictions of any real season.',
+      'Ads support the free version; Google Play lists no in-app purchases.',
+    ],
+    screenshots: [
+      {
+        src: '/screenshots/football-league-commissioner/1.webp',
+        width: 360,
+        height: 640,
+        alt: 'Football League Commissioner store image of the Run the League screen with commissioner and sandbox tabs, above tiles for owners and media deals, rules and schedules, and custom leagues.',
+      },
+      {
+        src: '/screenshots/football-league-commissioner/2.webp',
+        width: 360,
+        height: 640,
+        alt: 'Football League Commissioner store image of the Commissioner’s Office, showing league health, owner, player and fan scores, a commissioner agenda and a Simulate Week button.',
+      },
+      {
+        src: '/screenshots/football-league-commissioner/3.webp',
+        width: 360,
+        height: 640,
+        alt: 'Football League Commissioner store image of the operations menu, listing a schedule creator, special events, transaction approvals, league economics and expansion, relocation and realignment.',
+      },
+    ],
+    metaTitle: 'Football League Commissioner for Android',
+    metaDescription:
+      'Run an American football league: set rules, handle owners and expansion, simulate weeks or seasons, and keep a Yearbook of every year. Free on Google Play.',
+  },
+  {
+    slug: 'basketball-league-sandbox',
+    name: 'Basketball League Sandbox',
+    tagline: 'Build a basketball universe: run the league office, test what-if scenarios, and simulate seasons.',
+    cardDescription:
+      'A basketball league simulator with commissioner and sandbox modes, season simulation, game replays, an 18-step offseason and a league history to explore.',
+    longDescription: [
+      'Basketball League Sandbox is a basketball simulator for people who want to shape a whole league. Commissioner Mode puts you in charge of the rules, team finances, schedule fairness and the league’s future; Sandbox Mode is for asking “what if?” with scenario presets, a trigger builder and experiments; and Unlimited Draft is a separate way to build a team.',
+      'Seasons move forward through simulation, with a calendar of upcoming games, standings, power rankings and player and team stats. Game replays come with shot maps, momentum charts and adjustable playback speeds, and you can jump to the fourth quarter or the final two minutes. Between seasons, an 18-step offseason handles roster changes and player development, and players have contracts, health and relationships while teams have chemistry, coaching, rivalries and finances.',
+      'The world can extend past one competition, with connected leagues, transfers, loans, promotion and relegation, national teams and a tournament creator. History is preserved — championship runs, upsets, draft classes and franchise achievements — and a timeline and newsroom track the stories. According to the listing, leagues start with real-player rosters, and fictional players fill spots once expansion exhausts the available pool.',
+    ],
+    category: 'Games · Basketball League Sim',
+    categoryId: 'sports-gm',
+    schemaCategory: 'GameApplication',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.reigncreative.basketballleaguesandbox',
+    packageId: 'com.reigncreative.basketballleaguesandbox',
+    icon: '/icons/basketball-league-sandbox.webp',
+    iconSmall: '/icons/basketball-league-sandbox-sm.webp',
+    accent: 'from-crimson-400 to-gold-400',
+    playCategory: 'GAME_SPORTS',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: true,
+    free: true,
+    lastVerified: '2026-10-24',
+    features: [
+      {
+        title: 'Commissioner Mode',
+        body: 'Shape league rules, explore team finances and schedule fairness, and see how rule changes play out.',
+      },
+      {
+        title: 'Sandbox Mode',
+        body: 'Scenario presets, a trigger builder and what-if experiments for testing ideas.',
+      },
+      {
+        title: 'Replays with shot maps',
+        body: 'Momentum charts, adjustable playback speeds and a jump to the fourth quarter or final two minutes.',
+      },
+      {
+        title: 'An 18-step offseason',
+        body: 'Roster changes, player development and the decisions that shape the next contender.',
+      },
+      {
+        title: 'A connected world',
+        body: 'Connected leagues, transfers, loans, promotion and relegation, national teams and a tournament creator.',
+      },
+    ],
+    audience: [
+      'Basketball fans who want to run a league, not just a team',
+      'Players who enjoy what-if experiments and rule changes',
+      'Anyone who reads standings, power rankings and box scores for fun',
+      'People who want a league history that builds over many seasons',
+    ],
+    howItWorks: [
+      {
+        title: 'Create a league',
+        body: 'Start from real-player rosters, set the structure and keep as many saves as you like.',
+      },
+      {
+        title: 'Choose your role',
+        body: 'Run the office in Commissioner Mode, or experiment in Sandbox Mode.',
+      },
+      {
+        title: 'Simulate and review',
+        body: 'Advance the season, then check standings, stats and game replays.',
+      },
+      {
+        title: 'Work the offseason',
+        body: 'Go through the 18-step offseason and see which teams become dynasties.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Basketball League Sandbox free?',
+        answer:
+          'Yes. It is free to download on Google Play. It is supported by ads, and Google Play lists in-app purchases.',
+      },
+      {
+        question: 'Does it use real players?',
+        answer:
+          'According to the listing, leagues start with real-player rosters, and fictional players are added once expansion uses up the available pool. Ratings and results are the simulation’s own, and the game is not affiliated with, endorsed by or licensed by any league, team, players’ association or athlete.',
+      },
+      {
+        question: 'What can I do in Sandbox Mode?',
+        answer:
+          'Ask what-if questions with scenario presets, a trigger builder and experiments, and see how the league responds.',
+      },
+      {
+        question: 'Can I watch games?',
+        answer:
+          'Yes, as replays with shot maps, momentum charts and adjustable playback speeds, including a jump straight to the fourth quarter or the final two minutes.',
+      },
+      {
+        question: 'How is it different from Basketball Game Franchise GM?',
+        answer:
+          'Basketball Game Franchise GM is about drafting and running one franchise through a season. Basketball League Sandbox puts you in charge of the whole league — its rules, finances and history — with sandbox experiments on top.',
+      },
+    ],
+    limitations: [
+      'There is no hands-on gameplay; games are simulated and watched as replays.',
+      'Simulated outcomes are the game’s own and are not predictions of any real season.',
+      'The depth of options takes time to learn compared with a quick draft game.',
+    ],
+    screenshots: [
+      {
+        src: '/screenshots/basketball-league-sandbox/1.webp',
+        width: 360,
+        height: 640,
+        alt: 'Basketball League Sandbox store image of the League Office screen in Commissioner Mode, with season progress and the next game, beside labels for season calendar, league history and league expansion.',
+      },
+      {
+        src: '/screenshots/basketball-league-sandbox/2.webp',
+        width: 360,
+        height: 640,
+        alt: 'Basketball League Sandbox store image of the language selection screen, offering English, Spanish, French, Portuguese, Tagalog, Italian and Dutch.',
+      },
+      {
+        src: '/screenshots/basketball-league-sandbox/3.webp',
+        width: 360,
+        height: 640,
+        alt: 'Basketball League Sandbox store image of the start screen offering Start as Commissioner or Open the Sandbox, above tiles for chaos tools and editors, experiments and scenarios, and multiple saves.',
+      },
+    ],
+    metaTitle: 'Basketball League Sandbox for Android',
+    metaDescription:
+      'Run a basketball league: commissioner and sandbox modes, season simulation, replays with shot maps and an 18-step offseason. Free on Google Play.',
+  },
+  {
+    slug: 'cricket-career-simulator',
+    name: 'Cricket Sport Career Simulator',
+    tagline: 'Create a cricketer, build batting, bowling and fielding skills, and rise through a cricket career.',
+    cardDescription:
+      'A cricket career simulator: create your cricketer, develop batting, bowling and fielding, and make the match decisions that move a career forward.',
+    longDescription: [
+      'Cricket Sport Career Simulator is a player career game. You create a cricketer, improve their skills and progress through matches, with the player — not a team or a franchise — at the centre. The listing frames cricket the way a career is lived: batting and bowling, runs and wickets, and a career that takes more than one memorable performance.',
+      'The store screenshots fill in how it plays. Player creation covers your look, your role and style, overall rating and potential, strengths to develop, or a randomised player. Matches combine interactive decisions with a cricket field view, fast match simulation, live match stats, and energy, morale and momentum. Skills are split into batting technique and scoring, pace and spin bowling, fielding and wicket-keeping, athleticism and cricket IQ.',
+      'Around the matches sit a career command centre, coach and team choices, daily career goals, rewards and recognition, and rivals to face as you rise through the ranks. It is Reign Creative’s first cricket game, and the first app in its catalogue built around the sport.',
+    ],
+    category: 'Games · Cricket Career',
+    categoryId: 'sports-gm',
+    schemaCategory: 'GameApplication',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.reigncreative.procricketcareersim',
+    packageId: 'com.reigncreative.procricketcareersim',
+    icon: '/icons/cricket-career-simulator.webp',
+    iconSmall: '/icons/cricket-career-simulator-sm.webp',
+    accent: 'from-gold-500 to-crimson-500',
+    playCategory: 'GAME_SPORTS',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: true,
+    free: true,
+    lastVerified: '2026-10-24',
+    features: [
+      {
+        title: 'Create your cricketer',
+        body: 'Choose a look, a role and a style, or randomise a player, then build on their overall rating and potential.',
+      },
+      {
+        title: 'Interactive match decisions',
+        body: 'Make the calls in a match with a field view, live stats and fast simulation for the rest.',
+      },
+      {
+        title: 'Batting, bowling and fielding',
+        body: 'Batting technique and scoring, pace and spin bowling, fielding and keeping, athleticism and cricket IQ.',
+      },
+      {
+        title: 'Energy, morale and momentum',
+        body: 'A player’s condition and the flow of the match both affect how a performance goes.',
+      },
+      {
+        title: 'A career to climb',
+        body: 'Daily goals, coach and team choices, rewards and rivals as you rise through the ranks.',
+      },
+    ],
+    audience: [
+      'Cricket fans who want to follow one player’s career',
+      'Players who like developing a role, from opening batter to spin bowler',
+      'Anyone who enjoys making the key decisions and simulating the rest',
+      'People looking for a cricket game built around a career rather than a team',
+    ],
+    howItWorks: [
+      {
+        title: 'Create a player',
+        body: 'Set a look, a role and a playing style, or randomise one.',
+      },
+      {
+        title: 'Play the matches',
+        body: 'Make interactive decisions and let fast simulation handle the rest of the match.',
+      },
+      {
+        title: 'Develop your skills',
+        body: 'Improve batting, bowling, fielding and cricket IQ between matches.',
+      },
+      {
+        title: 'Rise through the ranks',
+        body: 'Meet daily goals, earn recognition and face your rivals as the career builds.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Cricket Sport Career Simulator free?',
+        answer:
+          'Yes. It is free to download on Google Play. It is supported by ads, and Google Play lists in-app purchases.',
+      },
+      {
+        question: 'Do I control a whole team?',
+        answer:
+          'No. It is a player career game: you create one cricketer, develop their skills and progress through matches.',
+      },
+      {
+        question: 'Which skills can I develop?',
+        answer:
+          'The store screenshots show batting technique and scoring, pace and spin bowling, fielding and wicket-keeping, athleticism, and cricket IQ.',
+      },
+      {
+        question: 'Is every ball played out?',
+        answer:
+          'The screenshots describe interactive match decisions alongside fast match simulation and live match stats, so you make the key calls rather than every delivery.',
+      },
+      {
+        question: 'Can I make an all-rounder?',
+        answer:
+          'Player creation includes choosing a role and style, and development covers both batting and bowling, so a player can work on both disciplines.',
+      },
+    ],
+    limitations: [
+      'The listing does not say which formats — Test, one-day or T20 — the matches follow, so check in the app if you want a specific format.',
+      'It is a career simulator, so you make decisions rather than playing every delivery with a bat-swing control.',
+      'No online multiplayer is described in the listing.',
+    ],
+    screenshots: [
+      {
+        src: '/screenshots/cricket-career-simulator/1.webp',
+        width: 360,
+        height: 640,
+        alt: 'Cricket Sport Career Simulator store image showing a match screen with an overhead cricket field and live stats, above tiles for interactive match decisions, field view, fast simulation and energy and morale.',
+      },
+      {
+        src: '/screenshots/cricket-career-simulator/2.webp',
+        width: 360,
+        height: 640,
+        alt: 'Cricket Sport Career Simulator store image of the Create your cricketer screen, with options for appearance, role and style, overall and potential, and randomising a player.',
+      },
+      {
+        src: '/screenshots/cricket-career-simulator/3.webp',
+        width: 360,
+        height: 640,
+        alt: 'Cricket Sport Career Simulator store image of a player profile with skill bars, above tiles for batting technique, pace and spin bowling, fielding and keeping, and cricket IQ.',
+      },
+    ],
+    metaTitle: 'Cricket Sport Career Simulator for Android',
+    metaDescription:
+      'Create a cricketer, develop batting, bowling and fielding, and make the match decisions that build a career. Free on Google Play from Reign Creative.',
   },
 ];

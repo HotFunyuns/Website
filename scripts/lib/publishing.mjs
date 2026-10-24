@@ -37,7 +37,7 @@ export const REVIEW_LABELS_INTRODUCED = '2026-10-02';
  *   automated  published after the automated checks and a logged AI editorial
  *              review only. No person has read it, and the article says so.
  */
-export const REVIEW_KINDS = ['person', 'automated'];
+export const REVIEW_KINDS = ['person', 'automated', 'organization'];
 
 /** The review record a person fills in. Nothing in this repository writes it. */
 export const REVIEW_RECORD_FIELDS = ['reviewerName', 'reviewDate', 'sourcesChecked', 'reviewNotes'];
@@ -128,7 +128,7 @@ export function reviewProblems(data, now = new Date()) {
   const today = laDay(now);
 
   if (review !== undefined && !REVIEW_KINDS.includes(review)) {
-    problems.push(`"editorialReview" must be "person" or "automated", not ${JSON.stringify(review)}`);
+    problems.push(`"editorialReview" must be "person", "automated" or "organization", not ${JSON.stringify(review)}`);
   }
   const postGate = data.status === 'published' && isIsoDay(data.publishedAt) && data.publishedAt > APPROVAL_GATE_AFTER;
   if ((postGate || data.status === 'scheduled') && review === undefined) {
@@ -173,6 +173,20 @@ export function reviewProblems(data, now = new Date()) {
         problems.push(`"${field}" belongs to a person's review record and is only valid with "editorialReview": "person"`);
       }
     }
+  }
+
+  // A company attestation (src/data/review-attestations.ts) covers articles
+  // already published; it is never a route to publication, so a new article
+  // cannot be released under it.
+  if (review === 'organization') {
+    if (typeof data.reviewAttestation !== 'string' || !data.reviewAttestation.trim()) {
+      problems.push('"editorialReview": "organization" needs "reviewAttestation" naming a company attestation');
+    }
+    if (data.status !== 'published') {
+      problems.push('"editorialReview": "organization" covers published articles only; a new article needs "automated" or "person"');
+    }
+  } else if (data.reviewAttestation !== undefined) {
+    problems.push('"reviewAttestation" is only valid with "editorialReview": "organization"');
   }
 
   if (data.status === 'scheduled' && review !== 'person') {

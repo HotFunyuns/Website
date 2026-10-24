@@ -5,8 +5,16 @@
   "description": "Two same-studio space shooters with near-identical names and genuinely different designs. A structured comparison of modes, ships, bosses and upgrades.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-10-24",
+  "corrections": [
+    {
+      "date": "2026-10-24",
+      "note": "This article said the Space Galaxy Attack Hardcore listing did not declare in-app purchases, and presented that as the one store difference between the two games. Re-checked on 24 October 2026, both listings declare in-app purchases, so store terms no longer separate them; the takeaway, the FAQ, the comparison table and the recommendation now say so."
+    }
+  ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "action-arcade",
   "tags": [
     "shmup",
@@ -19,8 +27,7 @@
     "which space galaxy attack game",
     "arcade shooter vs hardcore shooter",
     "vertical shooter comparison",
-    "space shooter with campaign",
-    "shooter with no in app purchases"
+    "space shooter with campaign"
   ],
   "intent": "commercial",
   "longTailKeywords": [
@@ -53,7 +60,7 @@
     "Space Galaxy Attack Arcade is wave-based: one ship, four abilities — FIRE, ALT, Ultimate and Shield — and rewards spent on weapons, systems and bonuses, with an Endless Mode alongside the waves.",
     "Space Galaxy Attack Hardcore is campaign-shaped: multiple ships with their own loadouts, ten connected sectors, bosses built from destructible modules, an eight-axis upgrade tree and three named difficulty modes.",
     "The clearest single split is boss design. Arcade bosses reward learning an attack pattern and finding the opening; Hardcore bosses additionally reward knowing which part of the boss to shoot.",
-    "Store terms differ: both are free and ad-supported and rated Everyone, but the Arcade listing declares in-app purchases and the Hardcore listing does not.",
+    "Store terms no longer separate them: both are free, ad-supported and rated Everyone, and since October 2026 both listings declare in-app purchases.",
     "If you have never played a shoot 'em up, the wave-based one is the gentler entry; if you want a difficulty ceiling and a campaign you can put down mid-sector, the other is built for that."
   ],
   "disclaimer": "comparison",
@@ -73,7 +80,7 @@
     },
     {
       "question": "Do either of them charge money?",
-      "answer": "Both are free to download on Google Play and both are supported by ads, and both are rated Everyone. They differ on one structured field: the Space Galaxy Attack Arcade listing declares in-app purchases, and the Space Galaxy Attack Hardcore listing does not. That is a verified store fact rather than a promise about future versions, so it is worth re-checking the listing at install time."
+      "answer": "Both are free to download on Google Play, both are supported by ads, and both are rated Everyone. Both listings also declare in-app purchases: the Hardcore listing added that declaration after this article was first published. Store fields can change between versions, so it is worth re-checking the listing at install time."
     }
   ],
   "sources": [
@@ -117,7 +124,7 @@ The table below sets out the differences that are visible in each game's own des
 | Upgrades | Weapons, unlocked upgrades, ship systems and chosen bonuses | Damage, firing speed, piercing, shields, hull durability, movement handling, cooldowns, ultimate charge |
 | Interruptible | Run-based | Campaign can be paused, saved and continued |
 | Art direction | Classic arcade space combat | Anime and manga-inspired |
-| Store terms | Free, ad-supported, declares in-app purchases, rated Everyone | Free, ad-supported, no in-app purchases declared, rated Everyone |
+| Store terms | Free, ad-supported, declares in-app purchases, rated Everyone | Free, ad-supported, declares in-app purchases (since October 2026), rated Everyone |
 
 ## Structure is the decision that matters most
 
@@ -159,7 +166,7 @@ Which of those is preferable is a question about the experience you want rather 
 
 If you have never played a vertical shooter, start with the wave-based one. Four labelled abilities and a single ship is the smallest amount of apparatus between you and the genre, and the general question of picking a vertical shooter worth learning is covered in [vertical shooters on Android](/blog/vertical-shooter-games-on-android/).
 
-If you want a campaign with a map, a save, and bosses that ask a targeting question as well as a dodging one, the Hardcore title is the one designed for that, and it is also the one whose store listing declares no in-app purchases.
+If you want a campaign with a map, a save, and bosses that ask a targeting question as well as a dodging one, the Hardcore title is the one designed for that.
 
 If you want both, they do not overlap as much as the names imply, and playing them alternately is a reasonable use of the varied-practice effect described above.
 

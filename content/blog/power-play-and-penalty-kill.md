@@ -13,6 +13,8 @@
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "hockey",
@@ -162,6 +164,6 @@ That is one of several reasons to treat plus/minus carefully, covered properly i
 
 ## In a simulation
 
-In [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/), special-teams capability is part of what a roster needs to cover, in the same way depth at each position is. In [Hockey Career Sim 2026](/apps/hockey-career-sim/), being trusted with penalty-kill or power-play minutes is a signal that your development is working — special-teams deployment is one of the clearest indications that a coaching model rates you.
+In [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/), special-teams capability is part of what a roster needs to cover, in the same way depth at each position is. In [Hockey Career Sim 2027](/apps/hockey-career-sim/), being trusted with penalty-kill or power-play minutes is a signal that your development is working — special-teams deployment is one of the clearest indications that a coaching model rates you.
 
 [Hockey positions explained](/blog/hockey-positions-explained/) covers the roles these units are built from. Our career sims are set in fictional leagues with fictional teams and players; our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, team or athlete. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).

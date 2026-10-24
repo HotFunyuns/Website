@@ -13,6 +13,8 @@
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "gm mode",
@@ -163,7 +165,7 @@ It also means a blocked path is a solvable problem rather than a dead career. Mo
 
 ## In a simulation
 
-[Football Franchise GM League](/apps/football-draft-gm-mode/) puts depth-chart construction at the centre, because American football's specialisation makes thin positions genuinely costly. [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) turns it into a rotation problem, where the constraint is minutes rather than slots.
+[Football Franchise GM League](/apps/football-draft-gm-mode/) puts depth-chart construction at the centre, because American football's specialisation makes thin positions genuinely costly. [Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/) turns it into a rotation problem, where the constraint is minutes rather than slots.
 
 In both, the same diagnostic works: after a poor simulated season, look at which positions you were forced to field weakly, rather than at whether your best player performed. [What makes a good draft board](/blog/what-makes-a-good-draft-board/) covers building the positional tiers that let you see those gaps before the draft rather than after the season, and [rebuild versus retool](/blog/rebuild-vs-retool/) covers what to do when the answer is "most of them".
 

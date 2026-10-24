@@ -7,6 +7,8 @@
   "publishedAt": "2026-09-22",
   "updatedAt": "2026-09-22",
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "health-nutrition",
   "tags": [
     "food allergies",

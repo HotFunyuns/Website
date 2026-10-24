@@ -7,6 +7,8 @@
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "language-learning",
   "tags": ["marathi", "study plan", "routine", "workflow"],
   "primaryKeyword": "how long to learn marathi",

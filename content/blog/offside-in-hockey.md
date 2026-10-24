@@ -4,7 +4,8 @@
   "metaTitle": "Offside in Hockey Explained: Blue Line, Skates, Tag-Up",
   "description": "Offside in hockey means entering the attacking zone before the puck. How the skates decide it, the delayed offside tag-up, video review and soccer's version.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -192,4 +193,4 @@ The positional side of this — who holds the blue line, who goes first — is c
 
 ## Where to go next
 
-[Hockey Career Sim 2026](/apps/hockey-career-sim/) puts you in the skates of one forward, centre, defenceman or goalie through a career in a fictional league, where the decisions you make in a game shape how it unfolds. For the team-building side of the sport, [the hockey draft simulator guide](/blog/hockey-draft-gm-guide/) covers drafting a balanced starting six in [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/), whose player pool is built from real players' careers and rated by the game itself. Neither app is connected with any league. More rules explainers are on the [hockey hub](/sports/hockey/), and more articles are listed under [sports GM](/blog/category/sports-gm/).
+[Hockey Career Sim 2027](/apps/hockey-career-sim/) puts you in the skates of one forward, centre, defenceman or goalie through a career in a fictional league, where the decisions you make in a game shape how it unfolds. For the team-building side of the sport, [the hockey draft simulator guide](/blog/hockey-draft-gm-guide/) covers drafting a balanced starting six in [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/), whose player pool is built from real players' careers and rated by the game itself. Neither app is connected with any league. More rules explainers are on the [hockey hub](/sports/hockey/), and more articles are listed under [sports GM](/blog/category/sports-gm/).

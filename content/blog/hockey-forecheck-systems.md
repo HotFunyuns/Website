@@ -4,7 +4,8 @@
   "metaTitle": "Hockey Forecheck Systems: 1-2-2, the Trap, Dump-and-Chase",
   "description": "How hockey forecheck systems work: what the 1-2-2, two-man pressure and the neutral-zone trap ask of each player, what they give up, and the roster each needs.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -190,4 +191,4 @@ The right-hand column matters most. Each system is a trade, and a coach chooses 
 
 [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) does not ask you to draw up a forecheck, but it does ask the roster question at the heart of this article. You draft a starting six and choose the coach who completes it, and the game rewards balance between scoring and defence while punishing thin spots; Franchise GM Mode then has you shore up weak positions across seasons. Its player pool is built from real players' careers with the game's own ratings, and its projections are the game's own model, not forecasts. [The hockey draft simulator guide](/blog/hockey-draft-gm-guide/) covers building that balance.
 
-From the player's side, [Hockey Career Sim 2026](/apps/hockey-career-sim/) — a career in a fictional league — includes challenging the puck carrier among the in-game decisions you make, and [hockey career archetypes explained](/blog/hockey-career-archetypes-explained/) covers which kinds of player suit which roles. Neither title has any affiliation with a league or team. The [hockey hub](/sports/hockey/) collects our other hockey explainers, and the full catalogue is under [sports GM](/apps/category/sports-gm/).
+From the player's side, [Hockey Career Sim 2027](/apps/hockey-career-sim/) — a career in a fictional league — includes challenging the puck carrier among the in-game decisions you make, and [hockey career archetypes explained](/blog/hockey-career-archetypes-explained/) covers which kinds of player suit which roles. Neither title has any affiliation with a league or team. The [hockey hub](/sports/hockey/) collects our other hockey explainers, and the full catalogue is under [sports GM](/apps/category/sports-gm/).

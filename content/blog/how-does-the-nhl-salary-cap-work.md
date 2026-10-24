@@ -4,7 +4,8 @@
   "metaTitle": "How Does the NHL Salary Cap Work? 2026-27 Explained",
   "description": "How the NHL salary cap works in 2026-27: the $104 million upper limit, cap hits, LTIR, buyouts, entry-level deals, and the playoff cap the new agreement adds.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -220,4 +221,4 @@ The mechanics add up to a few habits. Plan in cap hits, not cash. Leave room for
 
 ## In our games
 
-[84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) has you draft a starting six and a coach, then run the club across seasons in Franchise GM Mode, organising forwards, defenders and goaltending and shoring up weak positions. Its player pool is built from real players' careers with the game's own ratings; [the hockey draft simulator guide](/blog/hockey-draft-gm-guide/) explains the roster logic. In [Hockey Career Sim 2026](/apps/hockey-career-sim/), contracts and team changes are part of one fictional player's career. Neither game is affiliated with the league or the players' association. The [hockey hub](/sports/hockey/) collects our other hockey explainers, and every management title is under [sports career and GM games](/apps/category/sports-gm/).
+[84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) has you draft a starting six and a coach, then run the club across seasons in Franchise GM Mode, organising forwards, defenders and goaltending and shoring up weak positions. Its player pool is built from real players' careers with the game's own ratings; [the hockey draft simulator guide](/blog/hockey-draft-gm-guide/) explains the roster logic. In [Hockey Career Sim 2027](/apps/hockey-career-sim/), contracts and team changes are part of one fictional player's career. Neither game is affiliated with the league or the players' association. The [hockey hub](/sports/hockey/) collects our other hockey explainers, and every management title is under [sports career and GM games](/apps/category/sports-gm/).

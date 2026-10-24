@@ -13,6 +13,8 @@
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "gm mode",
@@ -176,6 +178,6 @@ The practical guard against this: **evaluate the decisions, not only the results
 
 In draft-and-simulate formats the timing pressure compresses — you build a roster and see the season immediately — but the underlying question survives. In a salary-limited draft, spending everything on immediate quality and leaving nothing for depth is the compressed version of a retool; spreading resources for balance is the compressed version of building sustainably.
 
-[Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/), [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/) and [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) all include formats that force this choice, and [salary cap basics for GM games](/blog/salary-cap-basics-for-gm-games/) covers the constraint that makes it a genuine dilemma rather than a preference.
+[Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/), [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/) and [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) all include formats that force this choice, and [salary cap basics for GM games](/blog/salary-cap-basics-for-gm-games/) covers the constraint that makes it a genuine dilemma rather than a preference.
 
 Our career sims are set in fictional leagues with fictional teams and players; our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, team or athlete. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).

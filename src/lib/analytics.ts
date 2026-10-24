@@ -113,3 +113,47 @@ export function trackPlayStoreClick({
     ...(linkText ? { link_text: linkText } : {}),
   });
 }
+
+/**
+ * Business inquiries (partnerships, licensing, acquisition). The event carries
+ * only what describes the click — which app, which kind of inquiry, where on the
+ * page — and never anything a visitor typed: no name, email, organisation or
+ * message reaches GA4. The mailto link opens the visitor's own email app, so the
+ * site never receives the message either.
+ */
+export type InquiryType =
+  | 'publishing'
+  | 'distribution'
+  | 'licensing'
+  | 'sponsorship'
+  | 'co_development'
+  | 'localization'
+  | 'integration'
+  | 'app_acquisition'
+  | 'portfolio_acquisition'
+  | 'other';
+
+export type InquiryLocation =
+  | 'partnership_article_top'
+  | 'partnership_article_bottom'
+  | 'partnerships_hub'
+  | 'partnerships_form'
+  | 'app_page';
+
+export function trackBusinessInquiryClick({
+  appSlug,
+  inquiryType,
+  buttonLocation,
+}: {
+  appSlug: string;
+  inquiryType: InquiryType;
+  buttonLocation: InquiryLocation;
+}): void {
+  if (!isAnalyticsEnabled()) return;
+  trackEvent('business_inquiry_click', {
+    app_slug: appSlug,
+    inquiry_type: inquiryType,
+    button_location: buttonLocation,
+    page_path: window.location.pathname,
+  });
+}

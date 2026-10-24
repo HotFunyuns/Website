@@ -74,6 +74,20 @@ for (const app of apps) {
       fail(`${app.slug}: ${field} has ${app[field]?.length ?? 0}, expected >= ${min}`);
     }
   }
+  // Every app page says what the app does not do (2026-10-24): it is the part of
+  // the page a reader cannot get from the store listing's own marketing copy.
+  if (!Array.isArray(app.limitations) || app.limitations.length < 2) {
+    fail(`${app.slug}: limitations has ${app.limitations?.length ?? 0}, expected >= 2`);
+  }
+  // Screenshots are self-hosted copies of the app's own listing images, each
+  // with real dimensions (no layout shift) and a description of what it shows.
+  for (const shot of app.screenshots ?? []) {
+    if (!/^\/screenshots\//.test(shot.src)) fail(`${app.slug}: screenshot ${shot.src} must be self-hosted under /screenshots/`);
+    else if (!existsSync(join(ROOT, 'public', shot.src))) fail(`${app.slug}: missing screenshot file public${shot.src}`);
+    if (!(shot.width > 0 && shot.height > 0)) fail(`${app.slug}: screenshot ${shot.src} needs width and height`);
+    if (typeof shot.alt !== 'string' || shot.alt.trim().length < 30) fail(`${app.slug}: screenshot ${shot.src} needs descriptive alt text`);
+  }
+  if ((app.screenshots ?? []).length > 3) fail(`${app.slug}: at most three screenshots per app page`);
   if (app.metaTitle.length > 60) fail(`${app.slug}: metaTitle ${app.metaTitle.length} chars (>60)`);
   if (app.metaDescription.length > 160) fail(`${app.slug}: metaDescription ${app.metaDescription.length} chars (>160)`);
   if (app.metaDescription.length < 70) fail(`${app.slug}: metaDescription only ${app.metaDescription.length} chars`);

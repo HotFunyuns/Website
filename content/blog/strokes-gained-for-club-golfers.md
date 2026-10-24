@@ -7,6 +7,8 @@
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": ["golf", "statistics", "strokes gained", "reference"],
   "primaryKeyword": "strokes gained explained",

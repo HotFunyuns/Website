@@ -4,7 +4,8 @@
   "metaTitle": "NFL Kickoff Rules Explained: What Changed for 2026",
   "description": "How the 2026 NFL kickoff works: where both teams line up, where the ball must land, where touchbacks are spotted, and when an onside kick can be declared.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -196,6 +197,6 @@ In every season of the format, a ball that landed in the landing zone and was th
 
 ## Where kickoffs meet a quarterback sim
 
-[Football Career Sim 2026](/apps/football-career-sim/) puts you in a single fictional quarterback's career, so kickoffs are someone else's job. What matters to a quarterback is where the drive starts: the game's drives resolve with downs, distance, field position, turnovers, timeouts and clock management. In real terms, a drive that begins on the 35 instead of the 20 has fifteen fewer yards to cover before the red-zone decisions start.
+[Football Career Sim 2027](/apps/football-career-sim/) puts you in a single fictional quarterback's career, so kickoffs are someone else's job. What matters to a quarterback is where the drive starts: the game's drives resolve with downs, distance, field position, turnovers, timeouts and clock management. In real terms, a drive that begins on the 35 instead of the 20 has fifteen fewer yards to cover before the red-zone decisions start.
 
 If you would rather build the roster than play behind centre, special teams are a unit like any other: [football positions explained](/blog/football-positions-explained-for-drafting/) covers who does what on kicks, and the [football draft simulator guide](/blog/football-draft-gm-guide/) explains why the weakest unit, not the strongest, tends to decide a simulated season. For more on the sport itself, see our [American football](/sports/football/) page, and the full set of management and career titles is under [sports GM games](/blog/category/sports-gm/).

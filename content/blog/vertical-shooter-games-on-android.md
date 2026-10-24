@@ -5,8 +5,16 @@
   "description": "Vertical scrolling shooters live or die on pattern readability and control feel. What to check before committing to one on a phone.",
   "status": "published",
   "publishedAt": "2026-09-15",
-  "updatedAt": "2026-09-15",
+  "updatedAt": "2026-10-24",
+  "corrections": [
+    {
+      "date": "2026-10-24",
+      "note": "This article said the Space Galaxy Attack Hardcore listing did not offer in-app purchases. Re-checked on 24 October 2026, the listing declares in-app purchases, and the sentence now says so."
+    }
+  ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "action-arcade",
   "tags": ["shmup", "android", "arcade", "decision guide"],
   "primaryKeyword": "vertical shooter games android",
@@ -145,7 +153,7 @@ The honest cost of all three: the game looks slightly flatter in screenshots tha
 
 Before installing anything, the listing gives you the "Contains ads" and "In-app purchases" labels and the Data safety section, and that is roughly the limit. There is no field for bullet readability, no field for control scheme, and no field for whether the game holds 60 frames per second on a mid-range phone in 2026.
 
-Our own listing states that the game is free, supported by adverts, and does not offer in-app purchases — which is a fact about the monetisation model rather than a claim about quality, and it is checkable in about four seconds. What it does not tell you is anything in the table above.
+Our own listing shows that the game is free and supported by adverts and, re-checked on 24 October 2026, that it offers in-app purchases — facts about the monetisation model rather than claims about quality, and checkable in about four seconds. What it does not tell you is anything in the table above.
 
 Which is the point: this genre has to be judged by playing it, and one run is enough. If offline behaviour is part of your decision, the airplane-mode method in [what "offline" actually means on Android](/blog/best-offline-arcade-games-android/) settles that in about ten minutes as well.
 

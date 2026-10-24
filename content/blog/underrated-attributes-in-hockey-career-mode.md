@@ -7,6 +7,8 @@
   "publishedAt": "2026-09-22",
   "updatedAt": "2026-09-22",
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "hockey",
@@ -48,7 +50,7 @@
     "how-does-the-nhl-draft-work"
   ],
   "takeaways": [
-    "Nine attributes develop through training in Hockey Career Sim 2026 — skating, shooting, passing, puck control, checking, positioning, stamina, awareness and goaltending — and most players pour everything into the first two.",
+    "Nine attributes develop through training in Hockey Career Sim 2027 — skating, shooting, passing, puck control, checking, positioning, stamina, awareness and goaltending — and most players pour everything into the first two.",
     "Third-period decline is not imagined. In an international game study, sprint counts fell by roughly 47 per cent and high-intensity activity by roughly 55 per cent from the first period to the third.",
     "Positioning and awareness create the situations that shooting converts, so a low-positioning build spends the whole game arriving at chances slightly too late to take them.",
     "Attributes are weighted by position: checking repays a defensive build far more than a playmaking one, and goaltending repays nobody except a goaltender.",
@@ -99,7 +101,7 @@
 
 Most people spend their first fifty training points on shooting, notice their player is still not dominating, and spend the next fifty on shooting. Then they fade out of third periods and conclude the simulator is unfair.
 
-[Hockey Career Sim 2026](/apps/hockey-career-sim/) — our own app, built by Reign Creative — lists nine attributes that develop through focused training: skating, shooting, passing, puck control, checking, positioning, stamina, awareness and goaltending. Its own guidance says the simulator weights what you attempt against what you have built. That sentence is the whole argument for spending carefully, because it means an unspent attribute is not neutral. It is a ceiling.
+[Hockey Career Sim 2027](/apps/hockey-career-sim/) — our own app, built by Reign Creative — lists nine attributes that develop through focused training: skating, shooting, passing, puck control, checking, positioning, stamina, awareness and goaltending. Its own guidance says the simulator weights what you attempt against what you have built. That sentence is the whole argument for spending carefully, because it means an unspent attribute is not neutral. It is a ceiling.
 
 ## The nine attributes, and the two that absorb everything
 

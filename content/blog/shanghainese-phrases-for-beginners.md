@@ -7,6 +7,8 @@
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "language-learning",
   "tags": ["shanghainese", "phrases", "vocabulary", "listicle"],
   "primaryKeyword": "common shanghainese phrases",

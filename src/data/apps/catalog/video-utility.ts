@@ -26,7 +26,7 @@ export const videoUtilityApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-10-02',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Common local formats',
@@ -100,6 +100,11 @@ export const videoUtilityApps: AppInfo[] = [
           'Yes. The sleep timer can end playback after a length of time you choose, or when the video you are currently watching finishes.',
       },
     ],
+    limitations: [
+      'It plays files stored on your device; it is not a streaming service.',
+      'Picture-in-Picture depends on your device and Android version.',
+      'The free version shows ads; an optional Premium purchase removes them.',
+    ],
     metaTitle: 'Video Player All Formats PRO for Android',
     metaDescription:
       'Play local MP4, MKV and MOV files with 0.1x to 3.0x speed control, resume, Picture-in-Picture, gestures and a sleep timer. Free on Google Play.',
@@ -128,7 +133,7 @@ export const videoUtilityApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Single Value Scan',
@@ -202,6 +207,11 @@ export const videoUtilityApps: AppInfo[] = [
           'No. The app is not affiliated with, endorsed by or sponsored by any card manufacturer, marketplace or professional grading company. All names and trademarks belong to their respective owners.',
       },
     ],
+    limitations: [
+      'Grading estimates are informational, not an official grade.',
+      'Card values are third-party market estimates that change and may be unavailable.',
+      'It is not affiliated with any card manufacturer, marketplace or grading company.',
+    ],
     metaTitle: 'TCG Card Grading Scanner Value for Android',
     metaDescription:
       'Scan trading cards to identify them, check variant-aware market value estimates, and measure border centring before grading. Free on Google Play.',
@@ -230,7 +240,7 @@ export const videoUtilityApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-10-02',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Annotate and edit',
@@ -304,6 +314,10 @@ export const videoUtilityApps: AppInfo[] = [
           'Yes. Merge tools join several files into one document, and split tools divide a large PDF or extract only the pages you need.',
       },
     ],
+    limitations: [
+      'Scanned pages are photographed with your phone camera, so lighting and focus affect the result.',
+      'Ads support the free version, and Google Play lists in-app purchases.',
+    ],
     metaTitle: 'PDF All in One Tool No Limit for Android',
     metaDescription:
       'Edit, scan, convert, merge, split, sign, compress and protect PDF files with one Android toolkit of 82 PDF tools. Free on Google Play.',
@@ -330,9 +344,9 @@ export const videoUtilityApps: AppInfo[] = [
     playCategory: 'TOOLS',
     contentRating: 'Everyone',
     containsAds: true,
-    inAppPurchases: false,
+    inAppPurchases: true,
     free: true,
-    lastVerified: '2026-10-02',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Audio to text',
@@ -383,7 +397,7 @@ export const videoUtilityApps: AppInfo[] = [
       {
         question: 'Is Transcribe Audio to Text PRO free?',
         answer:
-          'Yes, it is free to download on Google Play and supported by ads. Google Play does not list in-app purchases for it.',
+          'Yes, it is free to download on Google Play and supported by ads, and Google Play lists in-app purchases for it.',
       },
       {
         question: 'How accurate is the transcription?',
@@ -405,6 +419,10 @@ export const videoUtilityApps: AppInfo[] = [
         answer:
           'Check every quotation against the original audio first. The listing makes the same point for interview material that is going to be published.',
       },
+    ],
+    limitations: [
+      'Accuracy depends on recording quality, background noise and speech clarity; check names and numbers against the audio.',
+      'Keep the original recording for tone and context, especially before quoting anyone.',
     ],
     metaTitle: 'Transcribe Audio to Text PRO for Android',
     metaDescription:
@@ -434,7 +452,7 @@ export const videoUtilityApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: false,
     free: true,
-    lastVerified: '2026-10-02',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Notes that save themselves',
@@ -507,6 +525,10 @@ export const videoUtilityApps: AppInfo[] = [
         answer:
           'Notes autosave as you type, and the notepad also saves when you leave the editor, close the keyboard, switch apps or open a widget-created note. Saved drafts can be recovered.',
       },
+    ],
+    limitations: [
+      'Core notes, journal and planner features work offline; optional tools such as weather, backup and sharing ask for the permissions they need when you use them.',
+      'Ads support the free version; Google Play lists no in-app purchases.',
     ],
     metaTitle: 'Kawaii Cute Notes Journal Plan for Android',
     metaDescription:

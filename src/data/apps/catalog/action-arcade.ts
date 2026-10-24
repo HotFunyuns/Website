@@ -27,7 +27,7 @@ export const actionArcadeApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-10-02',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Four abilities, four answers',
@@ -101,6 +101,10 @@ export const actionArcadeApps: AppInfo[] = [
           'A mode with no end point. Waves keep coming and keep getting harder, so the only measure is how far your positioning and ability timing take you.',
       },
     ],
+    limitations: [
+      'It is run-based: upgrades carry over, but each run starts from the first wave.',
+      'Ads support the free version, and in-app purchases are optional.',
+    ],
     metaTitle: 'Space Galaxy Attack Arcade for Android',
     metaDescription:
       'Weave through enemy fire, time your ALT attack, Ultimate and Shield, then upgrade your ship between runs and test it in Endless Mode. Free on Google Play.',
@@ -130,7 +134,7 @@ export const actionArcadeApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'You move, the weapons fire',
@@ -204,6 +208,10 @@ export const actionArcadeApps: AppInfo[] = [
           'Early stages are approachable and the controls are simple. Waves get heavier and bosses get tougher the further you go, which is where the challenge sits.',
       },
     ],
+    limitations: [
+      'You control movement only; weapons fire automatically, so there is no manual aiming.',
+      'Ads support the free version, and in-app purchases are optional.',
+    ],
     metaTitle: 'Zombie Survival: Last Survivor for Android',
     metaDescription:
       'Keep moving while your weapons fire, level up mid-run and choose upgrades that build a survivor tough enough for the boss. Free on Google Play.',
@@ -231,9 +239,9 @@ export const actionArcadeApps: AppInfo[] = [
     playCategory: 'GAME_ACTION',
     contentRating: 'Everyone',
     containsAds: true,
-    inAppPurchases: false,
+    inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Three difficulty modes',
@@ -284,7 +292,7 @@ export const actionArcadeApps: AppInfo[] = [
       {
         question: 'Is Space Galaxy Attack Hardcore free?',
         answer:
-          'Yes, it is free to download on Google Play and supported by ads.',
+          'Yes, it is free to download on Google Play. It is supported by ads, and Google Play lists in-app purchases for it.',
       },
       {
         question: 'How is this different from Space Galaxy Attack Arcade?',
@@ -306,6 +314,10 @@ export const actionArcadeApps: AppInfo[] = [
         answer:
           'Yes. Gold collected in missions is spent on permanent ship upgrades, so a failed run still moves your fleet forward.',
       },
+    ],
+    limitations: [
+      'Hardcore mode raises enemy durability and projectile speed; it is built for a steep difficulty curve.',
+      'Ads support the free version, and Google Play lists in-app purchases.',
     ],
     metaTitle: 'Space Galaxy Attack Hardcore for Android',
     metaDescription:
@@ -335,7 +347,7 @@ export const actionArcadeApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Up to 100 rivals per run',
@@ -409,6 +421,10 @@ export const actionArcadeApps: AppInfo[] = [
           'It marks whoever currently holds first place on the live leaderboard. Hold the top spot and it is yours until something bigger takes it.',
       },
     ],
+    limitations: [
+      'The rivals are AI-controlled, not real players.',
+      'A standard run has up to 100 rivals; up to 200 needs Premium.',
+    ],
     metaTitle: 'Jellyfish Arena Survivor io for Android',
     metaDescription:
       'Eat, grow and survive against up to 100 AI rivals in a jellyfish io arena with snake-style movement, a live leaderboard and unlockable skins.',
@@ -438,7 +454,7 @@ export const actionArcadeApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: '50 levels, 10 worlds',
@@ -512,8 +528,266 @@ export const actionArcadeApps: AppInfo[] = [
           'Coins, gems, XP, stars, achievements and milestone rewards run alongside it, plus a Tower Collection to expand and an Encyclopedia that fills in as you meet new enemies.',
       },
     ],
+    limitations: [
+      'It is a single-player campaign; no multiplayer is described.',
+      'Ads support the free version, and Google Play lists in-app purchases.',
+    ],
     metaTitle: 'Regal Tower Defense: TD Game for Android',
     metaDescription:
       'A 50-level tower defence campaign across 10 worlds with seven tower types, support auras, player-placed build pads and world bosses. Free on Google Play.',
+  },
+  {
+    slug: 'hero-td-idle-tower-defense',
+    name: 'Hero TD Idle Tower Defense',
+    tagline: 'Defend your castle with towers and a hero, spend upgrades with a plan, and push through tougher waves.',
+    cardDescription:
+      'An idle tower defense game with a hero at the centre: build towers, choose upgrades, use spells and abilities, and hold the castle against escalating waves.',
+    longDescription: [
+      'Hero TD Idle Tower Defense is a tower defense game where a hero fights alongside your towers. Enemies come in waves, the waves get harder, and the question each run asks is how to turn the power you have into a better plan: which towers to strengthen, which upgrades to buy, and where the hero can help most.',
+      'The listing’s advice is to spend with a purpose rather than without a strategy, and to read the fight — watch how each tower performs against the enemies you face, then decide what matters next. A hard battle is framed as information: review your upgrades, rethink the setup and come back. The store screenshots show the pieces involved: hero skills, spells such as fireballs, ultimate abilities, combat items and loadouts, castle wall upgrades and emergency repairs.',
+      'Around the battles sit several modes and a roster. The screenshots show six modes, including a campaign, endless defense and daily and weekly challenges, a roster of heroes to discover, an armoury of weapons, armour, helmets, boots, rings and relics, and daily, weekly and lifetime missions.',
+    ],
+    category: 'Games · Tower Defense',
+    categoryId: 'action-arcade',
+    schemaCategory: 'GameApplication',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.reigncreative.herotdidletowerdefense',
+    packageId: 'com.reigncreative.herotdidletowerdefense',
+    icon: '/icons/hero-td-idle-tower-defense.webp',
+    iconSmall: '/icons/hero-td-idle-tower-defense-sm.webp',
+    accent: 'from-gold-500 to-crimson-500',
+    playCategory: 'GAME_STRATEGY',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: true,
+    free: true,
+    lastVerified: '2026-10-24',
+    features: [
+      {
+        title: 'A hero beside the towers',
+        body: 'Your hero fights in the defense, so placement and upgrades have to support both.',
+      },
+      {
+        title: 'Upgrades with a purpose',
+        body: 'Damage, attack speed, critical hits, range and castle defense, chosen for the enemies in front of you.',
+      },
+      {
+        title: 'Spells and ultimates',
+        body: 'Fireballs, hero skills and ultimate abilities for the moments a wave gets through.',
+      },
+      {
+        title: 'Several modes',
+        body: 'A campaign, endless defense, and daily and weekly challenges, according to the store screenshots.',
+      },
+      {
+        title: 'Heroes and an armoury',
+        body: 'A roster of heroes plus weapons, armour, helmets, boots, rings and relics.',
+      },
+    ],
+    audience: [
+      'Tower defense fans who like a controllable hero in the mix',
+      'Players who enjoy planning upgrades between attempts',
+      'Anyone who wants missions and challenges on top of a campaign',
+      'People who like games where a loss shows them what to change',
+    ],
+    howItWorks: [
+      {
+        title: 'Defend the castle',
+        body: 'Build towers and send your hero against the incoming wave.',
+      },
+      {
+        title: 'Read what happened',
+        body: 'See which towers held and where enemies broke through.',
+      },
+      {
+        title: 'Upgrade with a plan',
+        body: 'Spend on the towers, skills and gear that answer the problem.',
+      },
+      {
+        title: 'Push further',
+        body: 'Take on tougher waves, other modes and missions with a stronger setup.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Hero TD Idle Tower Defense free?',
+        answer:
+          'Yes. It is free to download on Google Play. It is supported by ads, and Google Play lists in-app purchases.',
+      },
+      {
+        question: 'What makes it different from a standard tower defense game?',
+        answer:
+          'The hero. A hero fights alongside the towers, with skills, spells and an ultimate, so your plan has to account for one mobile unit as well as fixed defences.',
+      },
+      {
+        question: 'What does idle mean here?',
+        answer:
+          'The listing calls it an idle tower defense game built around upgrades that add up over time; it emphasises planning upgrades between battles rather than constant tapping.',
+      },
+      {
+        question: 'How should I spend upgrades?',
+        answer:
+          'The listing’s own advice is to match upgrades to the enemies you face and avoid spending without a strategy — check which towers struggled before deciding.',
+      },
+      {
+        question: 'How is it different from Regal Tower Defense?',
+        answer:
+          'Regal Tower Defense is a lane-defence campaign built around tower types and placement. Hero TD adds a hero, spells and gear, with several modes and missions around the battles.',
+      },
+    ],
+    limitations: [
+      'The listing does not describe multiplayer or co-op.',
+      'Progress leans on upgrades, so later waves are much harder without them.',
+      'Ads support the free version, and Google Play lists in-app purchases.',
+    ],
+    screenshots: [
+      {
+        src: '/screenshots/hero-td-idle-tower-defense/1.webp',
+        width: 360,
+        height: 640,
+        alt: 'Hero TD Idle Tower Defense store image showing a battlefield map with a wave counter, above tiles for 50-wave battles, hero skills, powerful spells and ultimate abilities.',
+      },
+      {
+        src: '/screenshots/hero-td-idle-tower-defense/2.webp',
+        width: 360,
+        height: 640,
+        alt: 'Hero TD Idle Tower Defense store image of the mode select screen, headed Six modes, endless strategy, with tiles for campaign, endless defense and daily and weekly challenges.',
+      },
+      {
+        src: '/screenshots/hero-td-idle-tower-defense/3.webp',
+        width: 360,
+        height: 640,
+        alt: 'Hero TD Idle Tower Defense store image of the hero roster grid, headed Build your hero roster.',
+      },
+    ],
+    metaTitle: 'Hero TD Idle Tower Defense for Android',
+    metaDescription:
+      'Defend your castle with towers and a hero: choose upgrades, use spells and ultimates, and push through tougher waves and modes. Free on Google Play.',
+  },
+  {
+    slug: 'world-war-gunship-attack',
+    name: 'World War Gunship Attack',
+    tagline: 'Fly a gunship through mission-based air combat: dodge, aim, use special attacks and upgrade between sorties.',
+    cardDescription:
+      'An arcade aerial shooter: take a gunship through combat missions and boss fights, switch attacks, trigger ultimates and upgrade your aircraft.',
+    longDescription: [
+      'World War Gunship Attack is a fast arcade shooter set in a world-war-styled air war. You fly a gunship into battle zones, engage enemy aircraft and armoured targets, dodge incoming fire and strike before the enemy overwhelms you. The controls are easy to understand; mastering movement, aiming, attack timing and enemy patterns is where the practice goes.',
+      'Combat gives you more than one button to press. You switch between attack options, use alternative attacks at the right moment and unleash ultimate abilities when the screen gets crowded, timing strikes for elite enemies and bosses. Missions bring new enemy formations and tougher objectives as you progress.',
+      'Between missions you upgrade the aircraft to push further. The store screenshots show a hangar for weapon, armour and performance upgrades, a mission select across connected sectors, a choice of aircraft, and Normal, Hardcore and Prestige difficulty.',
+    ],
+    category: 'Games · Arcade Shooter',
+    categoryId: 'action-arcade',
+    schemaCategory: 'GameApplication',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.reigncreative.worldwargunshipattack',
+    packageId: 'com.reigncreative.worldwargunshipattack',
+    icon: '/icons/world-war-gunship-attack.webp',
+    iconSmall: '/icons/world-war-gunship-attack-sm.webp',
+    accent: 'from-crimson-600 to-ink-900',
+    playCategory: 'GAME_ACTION',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: true,
+    free: true,
+    lastVerified: '2026-10-24',
+    features: [
+      {
+        title: 'Mission-based air combat',
+        body: 'Battle zones with enemy formations, armoured targets, elite enemies and bosses.',
+      },
+      {
+        title: 'Switchable attacks',
+        body: 'Change between attack options and use alternative attacks when the moment calls for it.',
+      },
+      {
+        title: 'Ultimate abilities',
+        body: 'Powerful special attacks for when the battlefield gets crowded.',
+      },
+      {
+        title: 'Hangar upgrades',
+        body: 'Improve weapons, armour and performance between missions.',
+      },
+      {
+        title: 'Escalating difficulty',
+        body: 'Tougher opposition as missions progress, with Normal, Hardcore and Prestige settings shown in the store images.',
+      },
+    ],
+    audience: [
+      'Arcade shooter fans who like learning enemy patterns',
+      'Players who enjoy upgrading a craft between short missions',
+      'Anyone who likes boss fights with a special-attack meter',
+      'People who want simple controls with room to improve',
+    ],
+    howItWorks: [
+      {
+        title: 'Choose a mission',
+        body: 'Pick a sector and an aircraft.',
+      },
+      {
+        title: 'Fly and fight',
+        body: 'Dodge, aim and switch attacks against enemy formations.',
+      },
+      {
+        title: 'Beat the boss',
+        body: 'Time your ultimate for elite enemies and bosses.',
+      },
+      {
+        title: 'Upgrade and return',
+        body: 'Spend on weapons, armour and performance in the hangar.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is World War Gunship Attack free?',
+        answer:
+          'Yes. It is free to download on Google Play. It is supported by ads, and Google Play lists in-app purchases.',
+      },
+      {
+        question: 'Is it a flight simulator?',
+        answer:
+          'No. It is an arcade shooter with accessible controls, built around dodging, aiming and timing attacks rather than realistic flight.',
+      },
+      {
+        question: 'Is it historically accurate?',
+        answer:
+          'It uses a world-war setting and styling for an arcade game. It is entertainment, not a historical simulation.',
+      },
+      {
+        question: 'What can I upgrade?',
+        answer:
+          'Your aircraft’s combat power. The store screenshots show hangar upgrades for weapons, armour and performance.',
+      },
+      {
+        question: 'Are there boss fights?',
+        answer:
+          'Yes. Missions include elite opponents and major boss battles that reward well-timed special attacks.',
+      },
+    ],
+    limitations: [
+      'It is not a flight simulator or a historical recreation.',
+      'The listing describes single-player missions; no multiplayer is mentioned.',
+      'Ads support the free version, and Google Play lists in-app purchases.',
+    ],
+    screenshots: [
+      {
+        src: '/screenshots/world-war-gunship-attack/1.webp',
+        width: 360,
+        height: 640,
+        alt: 'World War Gunship Attack store image of an overhead air-combat mission with on-screen controls, headed Rule the skies.',
+      },
+      {
+        src: '/screenshots/world-war-gunship-attack/2.webp',
+        width: 360,
+        height: 640,
+        alt: 'World War Gunship Attack store image of the hangar upgrades screen, headed Upgrade your firepower, covering weapons, armour and performance.',
+      },
+      {
+        src: '/screenshots/world-war-gunship-attack/3.webp',
+        width: 360,
+        height: 640,
+        alt: 'World War Gunship Attack store image of the mission select screen, headed Choose your battlefield, with Normal, Hardcore and Prestige difficulty.',
+      },
+    ],
+    metaTitle: 'World War Gunship Attack for Android',
+    metaDescription:
+      'An arcade aerial shooter: fly a gunship through combat missions and boss fights, switch attacks, trigger ultimates and upgrade between sorties.',
   },
 ];

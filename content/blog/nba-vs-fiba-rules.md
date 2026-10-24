@@ -4,7 +4,8 @@
   "metaTitle": "NBA vs FIBA Rules: The Differences That Matter",
   "description": "NBA and FIBA rules side by side, with rule numbers: game length, the three-point line, foul limits, goaltending, defensive three seconds and FIBA's 2026 fouls.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -198,4 +199,4 @@ The common ground is as useful to know as the differences:
 
 A team built for the NBA's rules, with a shot-blocker who can only defend near the basket and shooters who live in the corners, is solving a slightly different problem from a FIBA team, where the same shot-blocker can stand in the lane all possession and the corners are barely closer than the top of the arc. Roles carry over; their value shifts. [Basketball positions explained](/blog/basketball-positions-explained/) covers what each role is for, and [building a balanced basketball roster](/blog/how-to-build-a-balanced-basketball-roster/) works through the minutes budget that the game length sets.
 
-Nothing above describes how our games simulate play. [Basketball Career Sim](/apps/pro-basketball-my-career-sim/) is a fictional career simulation with its own model, and [the guide to playing it](/blog/basketball-career-sim-guide/) describes what it asks of you. On the front-office side, [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) runs an 82-game season, which the [draft simulator guide](/blog/basketball-draft-gm-guide/) walks through. The rest of our basketball material lives on the [basketball page](/sports/basketball/), alongside the [sports GM category](/blog/category/sports-gm/).
+Nothing above describes how our games simulate play. [Basketball Career Sim](/apps/pro-basketball-my-career-sim/) is a fictional career simulation with its own model, and [the guide to playing it](/blog/basketball-career-sim-guide/) describes what it asks of you. On the front-office side, [Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/) runs an 82-game season, which the [draft simulator guide](/blog/basketball-draft-gm-guide/) walks through. The rest of our basketball material lives on the [basketball page](/sports/basketball/), alongside the [sports GM category](/blog/category/sports-gm/).

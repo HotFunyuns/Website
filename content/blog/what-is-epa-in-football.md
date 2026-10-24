@@ -4,7 +4,8 @@
   "metaTitle": "What Is EPA in Football? Expected Points Added Explained",
   "description": "Expected points put a value on every down, distance and yard line, and EPA measures how much one play changed it. A worked drive shows how success rate differs.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -177,6 +178,6 @@ The common mistake is reading either one off a handful of plays. Both are averag
 
 ## Reading your own games this way
 
-[Football Career Sim 2026](/apps/football-career-sim/), our game about one quarterback's career, keeps a season sheet of passing yards, touchdowns, interceptions, completion percentage and rushing production, and its drives move through downs, distance and field position. Those are box-score counts rather than expected points, but the expected-points habit is still a useful way to review a season you have played: protecting the ball on third-and-long while a makeable field goal is still available can be worth more than forcing a throw into coverage, and an interception near midfield costs far more than its single line in the box score. Everything in the game is fictional, and its results come from its own model rather than real NFL data.
+[Football Career Sim 2027](/apps/football-career-sim/), our game about one quarterback's career, keeps a season sheet of passing yards, touchdowns, interceptions, completion percentage and rushing production, and its drives move through downs, distance and field position. Those are box-score counts rather than expected points, but the expected-points habit is still a useful way to review a season you have played: protecting the ball on third-and-long while a makeable field goal is still available can be worth more than forcing a throw into coverage, and an interception near midfield costs far more than its single line in the box score. Everything in the game is fictional, and its results come from its own model rather than real NFL data.
 
 [Quarterback archetypes explained](/blog/quarterback-archetypes-explained/) covers how different styles trade risk for reward, and [how sports simulation engines turn ratings into results](/blog/how-sports-simulation-engines-work/) shows how a sim turns a situation into an outcome. If you would rather judge a whole roster, [the football draft simulator guide](/blog/football-draft-gm-guide/) applies the same thinking to units. Our [American football](/sports/football/) hub collects more explainers, and the [sports career and GM section](/blog/category/sports-gm/) has the rest.

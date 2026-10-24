@@ -5,14 +5,20 @@
   "description": "Virtual coins, no cash payout, a Teen rating: how a social casino game differs from real-money gambling in law and on the store, and what to check first.",
   "status": "published",
   "publishedAt": "2026-09-22",
-  "updatedAt": "2026-10-02",
+  "updatedAt": "2026-10-24",
   "corrections": [
+    {
+      "date": "2026-10-24",
+      "note": "This article said the Play listing for Vegas Casino Slots JACKPOT WIN did not declare in-app purchases and that there was nothing to buy with in the game. Re-checked on 24 October 2026, the listing declares in-app purchases, so real money can now be spent in the game while, according to the listing, nothing of monetary value can be won; the worked example now says so."
+    },
     {
       "date": "2026-10-02",
       "note": "This article said our app, then called Anime Casino Slot Machine Game, had twenty-five anime and manga machines, Mini, Major and Grand jackpot meters and coins that cannot be transferred, sold or redeemed for money, merchandise or prizes; the app, now Vegas Casino Slots JACKPOT WIN, has a listing that describes virtual jackpots, no cash payouts or real-world prizes and coins with no real-world monetary value that cannot be redeemed for cash, and the worked example now rests on those statements."
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "anime-creative",
   "tags": [
     "social casino",
@@ -131,9 +137,9 @@ Simulated gambling content — the policy names social casino apps and apps with
 
 Vegas Casino Slots JACKPOT WIN is our own app, built by Reign Creative, and it is a useful worked example because every relevant fact about it is public on its [app page](/apps/anime-casino-slots/) and on its store listing.
 
-It is a social casino game built around slot machines, played with virtual coins. Its listing states that it does not offer real-money gambling or an opportunity to win real money or prizes, that wins and jackpots use virtual coins with no cash payouts or real-world prizes, and that the coins have no real-world monetary value and cannot be redeemed for cash. It is free, supported by ads, and its verified Play listing does not declare in-app purchases — which is unusual for the category, since the standard social casino model sells coin packs. It is rated Teen on Google Play, and its listing states that it is intended for an adult audience for entertainment purposes and that success in it does not imply future success in real-money gambling.
+It is a social casino game built around slot machines, played with virtual coins. Its listing states that it does not offer real-money gambling or an opportunity to win real money or prizes, that wins and jackpots use virtual coins with no cash payouts or real-world prizes, and that the coins have no real-world monetary value and cannot be redeemed for cash. It is free and supported by ads, and its Play listing, re-checked on 24 October 2026, also declares in-app purchases — the usual arrangement in this category. The listing does not say what can be bought, and it gives the coins no real-world value. It is rated Teen on Google Play, and its listing states that it is intended for an adult audience for entertainment purposes and that success in it does not imply future success in real-money gambling.
 
-Read against the two tests above, that description resolves cleanly. There is no prize of money or money's worth, because the listing gives the coins no real-world monetary value and no route to cash or prizes. There is no wager of real money, because there is nothing to buy with. The jackpots are scores.
+Read against the two tests above, the prize test is the one that settles the legal question. There is no prize of money or money's worth, because the listing gives the coins no real-world monetary value and no route to cash or prizes, so the jackpots are scores. The other direction is no longer empty: because the listing declares in-app purchases, real money can go in even though none can come out. That is the arrangement the research above describes for paying players, and it is the reason the second check below exists — a purchase declaration tells you what playing can cost, even in a game that cannot pay.
 
 ## What an age rating does and does not tell you
 

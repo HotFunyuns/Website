@@ -4,7 +4,8 @@
   "metaTitle": "NBA Aprons Explained: Cap, Tax and Aprons in 2026-27",
   "description": "The NBA's 2026-27 cap, tax and apron figures as a ladder: what each threshold allows or takes away, plus Bird rights, the mid-level exception and the tax.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -203,4 +204,4 @@ Read as a ladder, the system offers a choice at each rung:
 
 That is the same contend-or-rebuild question [rebuild vs retool](/blog/rebuild-vs-retool/) frames, with prices attached, and it explains why [free agency](/blog/free-agency-explained/) looks so different for teams on different rungs.
 
-In [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/), Salary Cap Draft is one of eight draft formats, and GM Mode covers contracts and trades. Everything above describes the NBA's agreement, not the game's mechanics. What carries over is the habit of asking what a move costs in flexibility as well as in money. The [basketball draft simulator guide](/blog/basketball-draft-gm-guide/) covers drafting under a cap. More basketball explainers are on the [basketball hub](/sports/basketball/), and our management games are in the [sports GM category](/apps/category/sports-gm/).
+In [Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/), Salary Cap Draft is one of eight draft formats, and GM Mode covers contracts and trades. Everything above describes the NBA's agreement, not the game's mechanics. What carries over is the habit of asking what a move costs in flexibility as well as in money. The [basketball draft simulator guide](/blog/basketball-draft-gm-guide/) covers drafting under a cap. More basketball explainers are on the [basketball hub](/sports/basketball/), and our management games are in the [sports GM category](/apps/category/sports-gm/).

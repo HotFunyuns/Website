@@ -4,7 +4,8 @@
   "metaTitle": "NFL Overtime Rules Explained: Regular Season vs Playoffs",
   "description": "How NFL overtime works in 2026: a 10-minute regular-season period that can end tied, playoff periods that last until someone wins, and how college differs.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -215,6 +216,6 @@ The result is that college overtime cannot end in a tie and does not depend on a
 
 ## Overtime in a quarterback career sim
 
-[Football Career Sim 2026](/apps/football-career-sim/) lists overtime among the situations its drives model, alongside downs, distance, field position, timeouts and clock management. Its league, teams and players are fictional, so treat the real rules above as a guide to what the decisions mean rather than as a description of the game's exact procedure. The [guide to playing a quarterback career](/blog/football-career-sim-guide/) covers how drive-level decisions shape a season, and the [football draft simulator guide](/blog/football-draft-gm-guide/) covers the roster side.
+[Football Career Sim 2027](/apps/football-career-sim/) lists overtime among the situations its drives model, alongside downs, distance, field position, timeouts and clock management. Its league, teams and players are fictional, so treat the real rules above as a guide to what the decisions mean rather than as a description of the game's exact procedure. The [guide to playing a quarterback career](/blog/football-career-sim-guide/) covers how drive-level decisions shape a season, and the [football draft simulator guide](/blog/football-draft-gm-guide/) covers the roster side.
 
 For more on the sport, start at our [American football](/sports/football/) page; the full list of management and career titles is under [sports GM games](/apps/category/sports-gm/).

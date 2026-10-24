@@ -13,6 +13,8 @@
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "sports gm",
@@ -166,7 +168,7 @@ The short-session version is a complete loop: draft across every position on the
 
 ### Basketball: two different shapes
 
-Pro Basketball GM Franchise carries eight draft formats, and two of them exist specifically for short play — Quick Draft and Blind Draft — alongside Unlimited, Franchise and Salary Cap drafting, VS Computer, Battle Mode and a Daily Challenge, with a full 82-game season behind them.
+Basketball Game Franchise GM carries eight draft formats, and two of them exist specifically for short play — Quick Draft and Blind Draft — alongside Unlimited, Franchise and Salary Cap drafting, VS Computer, Battle Mode and a Daily Challenge, with a full 82-game season behind them.
 
 Basketball Career Sim goes the other way and produces the shortest unit in the whole catalogue: Live Sim hands you a single possession and asks what your player does. One decision is a complete interaction. It also supports offline play and needs no account, which makes it the least demanding of a bad connection.
 

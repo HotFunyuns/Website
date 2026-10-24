@@ -7,6 +7,8 @@
   "publishedAt": "2026-09-22",
   "updatedAt": "2026-09-22",
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "american football",
@@ -157,7 +159,7 @@ That last point is exactly the tension a draft board has to resolve, and [what m
 
 ## Where the combine sits in a career simulation
 
-[Football Career Sim 2026](/apps/football-career-sim/), which Reign Creative built, models a career in stages: youth football, high school, college, the combine and the draft, then professional seasons, playoffs, awards and retirement. The combine is a distinct stage with its own preparation rather than a cutscene between college and the draft.
+[Football Career Sim 2027](/apps/football-career-sim/), which Reign Creative built, models a career in stages: youth football, high school, college, the combine and the draft, then professional seasons, playoffs, awards and retirement. The combine is a distinct stage with its own preparation rather than a cutscene between college and the draft.
 
 Designing it that way is a defensible reading of the evidence above. The combine stage in a career game should feel like a period where you can change where you are picked — and where the thing you changed is not the same as the thing that will decide whether the career works. That gap is the interesting part of the stage, and it is also, judging by the published research, the accurate one.
 

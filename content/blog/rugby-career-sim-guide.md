@@ -4,9 +4,16 @@
   "metaTitle": "Rugby Career Simulator Guide: Pro Rugby Career Sport Sim",
   "description": "How Pro Rugby Career Sport Sim works: picking a position and role, training toward one goal at a time, and reading carries, metres and tackles after a match.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
-  "updatedAt": "2026-10-02",
+  "updatedAt": "2026-10-24",
+  "corrections": [
+    {
+      "date": "2026-10-24",
+      "note": "This article said Google Play listed no in-app purchases for Pro Rugby Career Sport Sim. Re-checked on 24 October 2026, the listing declares in-app purchases, and the article now says so."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": ["rugby", "career sim", "app guide", "training", "match stats"],
@@ -62,7 +69,7 @@
     },
     {
       "question": "Is it free, and does it have ads?",
-      "answer": "It is free to download on Google Play and supported by ads. Google Play does not list in-app purchases for it, and its content rating is Everyone."
+      "answer": "It is free to download on Google Play and supported by ads. Google Play also lists in-app purchases for it, and its content rating is Everyone."
     },
     {
       "question": "Should I play this or a rugby draft game?",
@@ -110,7 +117,7 @@
 }
 ---
 
-[Pro Rugby Career Sport Sim](/apps/rugby-career-sim/) is a rugby career simulator built around one player instead of a whole club. You create the athlete — a portrait and a position — and decide what kind of player they should become: one who carries the ball, one who makes the tackles, or one whose value lies in supporting the players around them. Then you train toward that, follow your player through simulated matches, and judge each performance by three numbers: **carries, metres and tackles**. It is free on Google Play, supported by ads, and Google Play lists no in-app purchases.
+[Pro Rugby Career Sport Sim](/apps/rugby-career-sim/) is a rugby career simulator built around one player instead of a whole club. You create the athlete — a portrait and a position — and decide what kind of player they should become: one who carries the ball, one who makes the tackles, or one whose value lies in supporting the players around them. Then you train toward that, follow your player through simulated matches, and judge each performance by three numbers: **carries, metres and tackles**. It is free on Google Play and supported by ads, and Google Play lists in-app purchases for it.
 
 That is the whole loop, and it is deliberately narrow. The useful questions are which role to pick, how to train without spreading yourself thin, and how to read three stats honestly. This guide takes them in that order.
 

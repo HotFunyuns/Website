@@ -4,7 +4,8 @@
   "metaTitle": "What Is Expected Goals in Hockey? xG and GSAx Explained",
   "description": "Expected goals gives every unblocked hockey shot a probability of scoring. How the models work, how goals saved above expected follows, and what xG can't see.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -205,4 +206,4 @@ The same reasoning — a model turning inputs into probabilities, then outcomes 
 
 ## Expected outcomes in a draft game
 
-[84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) also turns inputs into an output, at the scale of a season: you draft a starting six and a coach, and its simulator projects a full 84-game record for that lineup. The projection is the game's own model judging the roster you built, from a player pool drawn from real players' careers with the game's own ratings — not a forecast of real games and not anyone's official numbers. [The hockey draft simulator guide](/blog/hockey-draft-gm-guide/) is the place to start for reading that number. [Hockey Career Sim 2026](/apps/hockey-career-sim/), by contrast, follows one player through a career in an entirely fictional league. Neither game is affiliated with any league. The [hockey hub](/sports/hockey/) collects our other hockey explainers, and the full catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+[84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) also turns inputs into an output, at the scale of a season: you draft a starting six and a coach, and its simulator projects a full 84-game record for that lineup. The projection is the game's own model judging the roster you built, from a player pool drawn from real players' careers with the game's own ratings — not a forecast of real games and not anyone's official numbers. [The hockey draft simulator guide](/blog/hockey-draft-gm-guide/) is the place to start for reading that number. [Hockey Career Sim 2027](/apps/hockey-career-sim/), by contrast, follows one player through a career in an entirely fictional league. Neither game is affiliated with any league. The [hockey hub](/sports/hockey/) collects our other hockey explainers, and the full catalogue is under [sports career and GM games](/apps/category/sports-gm/).

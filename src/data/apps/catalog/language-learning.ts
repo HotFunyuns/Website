@@ -26,7 +26,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Twelve structured units',
@@ -100,6 +100,10 @@ export const languageLearningApps: AppInfo[] = [
           'No app can promise that. This one is built to give you a beginner foundation — pronunciation, core vocabulary, working grammar and enough phrases for a first real conversation.',
       },
     ],
+    limitations: [
+      'It teaches traditional characters with Jyutping; it does not teach Mandarin or simplified characters.',
+      'It builds a beginner foundation; no app can promise fluency on its own.',
+    ],
     metaTitle: 'Learn Cantonese for Beginners for Android',
     metaDescription:
       'Build a beginner Cantonese foundation across 12 units, with traditional characters, Jyutping and tone practice from the first lesson. Free on Google Play.',
@@ -128,7 +132,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'The Thai script from the start',
@@ -202,6 +206,10 @@ export const languageLearningApps: AppInfo[] = [
           'It is built to give you a beginner foundation — script, pronunciation, core grammar and the phrases you would realistically use — not to replace speaking with people.',
       },
     ],
+    limitations: [
+      'The Thai script comes early, which is slower at first for learners who only want romanised phrases.',
+      'It is a beginner foundation, not a replacement for conversation with fluent speakers.',
+    ],
     metaTitle: 'Regal - Learn Thai Language for Android',
     metaDescription:
       'Learn the Thai script, tones, grammar and travel phrases in short daily lessons, with an English track for Thai speakers. Free on Google Play.',
@@ -230,7 +238,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Vocabulary grouped by situation',
@@ -304,6 +312,10 @@ export const languageLearningApps: AppInfo[] = [
           'Yes. The Malay-to-English direction gives explanations in Malay and covers English vocabulary, grammar, pronunciation, reading, writing, listening and punctuation.',
       },
     ],
+    limitations: [
+      'It teaches Standard Malay; Indonesian differs in vocabulary and usage, even though the two are close.',
+      'It is a beginner course, not a route to fluency on its own.',
+    ],
     metaTitle: 'Learn Malay - Bahasa Melayu for Android',
     metaDescription:
       'Learn Standard Malay from zero with situation-based lessons in vocabulary, grammar, pronunciation and travel phrases. Free on Google Play from Reign Creative.',
@@ -332,7 +344,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Cyrillic first',
@@ -406,6 +418,10 @@ export const languageLearningApps: AppInfo[] = [
           'No app can promise that. The course aims at a solid beginner foundation — the alphabet, working grammar, useful vocabulary and phrases for everyday situations.',
       },
     ],
+    limitations: [
+      'It aims at a beginner foundation; no app can promise fluency on its own.',
+      'Some premium learning packs are paid in-app purchases.',
+    ],
     metaTitle: 'Regal - Learn Russian Language for Android',
     metaDescription:
       'Start Russian at the Cyrillic alphabet and build through vocabulary, grammar and pronunciation toward everyday conversation. Free on Google Play.',
@@ -434,7 +450,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'The Khmer script, properly',
@@ -508,6 +524,10 @@ export const languageLearningApps: AppInfo[] = [
           'Yes. The English track explains in Khmer and covers vocabulary, grammar, punctuation, school and workplace English, reading, writing, listening and conversation.',
       },
     ],
+    limitations: [
+      'It is a beginner course built around the script and everyday phrases, not a substitute for practice with fluent speakers.',
+      'Ads support the free version, and in-app purchases are optional.',
+    ],
     metaTitle: 'Learn Cambodian, Speak Khmer for Android',
     metaDescription:
       'Learn the Khmer alphabet, everyday vocabulary and Cambodia travel phrases, with audio you can slow down and repeat. Free on Google Play from Reign Creative.',
@@ -536,7 +556,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Tones treated as part of the word',
@@ -610,6 +630,10 @@ export const languageLearningApps: AppInfo[] = [
           'We do not claim native-speaker certification for the course. It is a structured beginner resource, and we recommend pairing it with conversation practice with fluent speakers.',
       },
     ],
+    limitations: [
+      'It teaches standard written Vietnamese; northern and southern accents differ noticeably, so add listening from the region you care about.',
+      'No native-speaker certification of the course is claimed.',
+    ],
     metaTitle: 'Learn Vietnamese Language Fast for Android',
     metaDescription:
       'Learn Vietnamese tones, topic vocabulary, grammar and travel phrases through structured beginner lessons. Free on Google Play from Reign Creative.',
@@ -638,7 +662,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: false,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'The Lao script from lesson one',
@@ -712,6 +736,10 @@ export const languageLearningApps: AppInfo[] = [
           'It is built to give you a beginner foundation in reading, vocabulary and everyday phrases. It is not a replacement for speaking with fluent Lao speakers.',
       },
     ],
+    limitations: [
+      'It teaches Lao, not Thai; the languages are related but use different scripts.',
+      'It is a beginner foundation, not a replacement for speaking with fluent speakers.',
+    ],
     metaTitle: 'Learn Lao Language Fast & Easy for Android',
     metaDescription:
       'Learn the Lao alphabet, everyday vocabulary, grammar and travel phrases with interactive beginner lessons. Free on Google Play from Reign Creative.',
@@ -740,7 +768,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'A course with a defined path',
@@ -814,6 +842,10 @@ export const languageLearningApps: AppInfo[] = [
           'It gives you a structured beginner foundation in vocabulary, grammar, listening and pronunciation. It is not a substitute for conversation practice with fluent speakers.',
       },
     ],
+    limitations: [
+      'Some lessons are part of an optional Premium purchase, which also removes ads.',
+      'It is not a substitute for conversation practice.',
+    ],
     metaTitle: 'Learn Italian for Beginners for Android',
     metaDescription:
       'A structured Italian course with 12 units, grammar in context, listening practice and travel phrases. Free on Google Play from Reign Creative.',
@@ -843,7 +875,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Devanagari from the start',
@@ -917,6 +949,10 @@ export const languageLearningApps: AppInfo[] = [
           'The topics cover travel, transport, directions, food, shopping and health, along with cultural notes and etiquette for Maharashtra.',
       },
     ],
+    limitations: [
+      'Romanised text helps you start, but reading real-world Marathi still means learning Devanagari.',
+      'Ads support the free version, and Google Play lists in-app purchases.',
+    ],
     metaTitle: 'Learn Marathi Language Fast for Android',
     metaDescription:
       'Learn Marathi from the Devanagari script up, with everyday vocabulary, grammar, pronunciation and ten kinds of practice. Free on Google Play.',
@@ -946,7 +982,7 @@ export const languageLearningApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'A 12-unit learning path',
@@ -1019,6 +1055,10 @@ export const languageLearningApps: AppInfo[] = [
         answer:
           'Yes. The learning direction can be switched at any time, with a full English course explained through Shanghainese.',
       },
+    ],
+    limitations: [
+      'It teaches Shanghainese, a Wu variety, not Mandarin or Cantonese.',
+      'Shanghainese has no single standard romanisation, so spellings in the app may differ from other resources.',
     ],
     metaTitle: 'Learn Shanghainese Wu Chinese for Android',
     metaDescription:

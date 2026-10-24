@@ -13,6 +13,8 @@
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "american football",
@@ -163,6 +165,6 @@ The formats change the constraint rather than the order:
 
 ## Why this matters for a career player too
 
-If you are on the player side rather than the front-office side, draft order decides which situation you land in — and landing behind an established starter is one of the more consequential things that can happen to a career. [Football Career Sim 2026](/apps/football-career-sim/) models the draft as a career stage for exactly that reason.
+If you are on the player side rather than the front-office side, draft order decides which situation you land in — and landing behind an established starter is one of the more consequential things that can happen to a career. [Football Career Sim 2027](/apps/football-career-sim/) models the draft as a career stage for exactly that reason.
 
 Our career sims are set in fictional leagues and our draft and GM games build their player pools from real athletes' careers; nothing here describes any real league's current rules — leagues change their ordering mechanisms regularly, and their own published rules are the only authority on what they do now. The full catalogue is under [sports career and GM games](/apps/category/sports-gm/).

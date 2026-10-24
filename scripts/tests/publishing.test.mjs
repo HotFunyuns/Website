@@ -117,7 +117,15 @@ test('an article published after the gate must say how it was checked', () => {
   assert.match(reviewProblems(postGate({}), NOW).join(' '), /must say how it was checked/);
   assert.deepEqual(reviewProblems(postGate({ editorialReview: 'automated' }), NOW), []);
   assert.deepEqual(reviewProblems(postGate({ ...PERSON }), NOW), []);
-  assert.match(reviewProblems(postGate({ editorialReview: 'robot' }), NOW).join(' '), /"person" or "automated"/);
+  assert.match(reviewProblems(postGate({ editorialReview: 'robot' }), NOW).join(' '), /"person", "automated" or "organization"/);
+});
+
+test('"organization" rests on a named company attestation and never publishes a new article', () => {
+  assert.match(reviewProblems(postGate({ editorialReview: 'organization' }), NOW).join(' '), /needs "reviewAttestation"/);
+  assert.deepEqual(reviewProblems(postGate({ editorialReview: 'organization', reviewAttestation: 'library-2026-10-24' }), NOW), []);
+  const unpublished = { status: 'review', publishedAt: '2026-10-05', editorialReview: 'organization', reviewAttestation: 'library-2026-10-24' };
+  assert.match(reviewProblems(unpublished, NOW).join(' '), /covers published articles only/);
+  assert.match(reviewProblems(postGate({ editorialReview: 'automated', reviewAttestation: 'x' }), NOW).join(' '), /only valid with "editorialReview": "organization"/);
 });
 
 test('nothing may be dated between the gate and the day labels were introduced', () => {
@@ -294,7 +302,7 @@ test('the scripts and the site agree on the gate date, the label date and the ti
   assert.match(types, new RegExp(`APPROVAL_GATE_AFTER = '${APPROVAL_GATE_AFTER}'`));
   assert.match(types, new RegExp(`REVIEW_LABELS_INTRODUCED = '${REVIEW_LABELS_INTRODUCED}'`));
   assert.match(types, /PUBLICATION_TIME_ZONE = 'America\/Los_Angeles'/);
-  assert.match(types, /export type EditorialReview = 'person' \| 'automated';/);
+  assert.match(types, /export type EditorialReview = 'person' \| 'automated' \| 'organization';/);
   assert.doesNotMatch(types, /DAILY_RELEASE_LIMIT/, 'the daily limit is gone from the site too');
   assert.match(types, new RegExp(`RSS_ITEM_LIMIT = ${FEED_ITEM_LIMIT};`), 'the feed length agrees');
   assert.ok(RELEASE_HOUR >= 0 && RELEASE_HOUR < 24);

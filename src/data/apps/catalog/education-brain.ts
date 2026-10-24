@@ -21,12 +21,12 @@ export const educationBrainApps: AppInfo[] = [
     iconSmall: '/icons/world-history-timeline-sim-sm.jpg',
     accent: 'from-gold-500 to-gold-700',
     featured: true,
-    playCategory: 'EDUCATION',
+    playCategory: 'GAME_EDUCATIONAL',
     contentRating: 'Everyone',
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-09-15',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'Interactive timelines',
@@ -100,6 +100,10 @@ export const educationBrainApps: AppInfo[] = [
           'None at all. Each scenario supplies its own background before it asks anything of you, so you can start anywhere and follow what interests you.',
       },
     ],
+    limitations: [
+      'Time Travel Mode is alternate history: its chains of consequences are simulations, not what happened.',
+      'It is built for curiosity-led learning and works as a companion to coursework, not a replacement for it.',
+    ],
     metaTitle: 'World History Timeline Sim for Android',
     metaDescription:
       'Explore more than 2,000 world history events through interactive timelines and maps, then change the turning points yourself. Free on Google Play.',
@@ -129,7 +133,7 @@ export const educationBrainApps: AppInfo[] = [
     containsAds: true,
     inAppPurchases: true,
     free: true,
-    lastVerified: '2026-10-02',
+    lastVerified: '2026-10-24',
     features: [
       {
         title: 'An IQ-style test across seven areas',
@@ -203,8 +207,266 @@ export const educationBrainApps: AppInfo[] = [
           'A questionnaire with original questions and dimension-based results about thinking style, communication, planning and decision making, plus a Big Five profile. The listing presents it as self-reflection, not a diagnosis.',
       },
     ],
+    limitations: [
+      'IQ, personality and memory results are estimates based on app activities, not clinical or psychological assessments.',
+      'Getting better at the app’s games is not evidence of a general change in intelligence.',
+    ],
     metaTitle: 'IQ Test & Brain Training Games for Android',
     metaDescription:
       'IQ-style test practice, brain games, memory and logic games, mental math and a personality test, with results tracked over time. Free on Google Play.',
+  },
+  {
+    slug: 'discrete-math-study-quiz',
+    name: 'Discrete Math: Study & Quiz',
+    tagline: 'Study discrete mathematics unit by unit — logic, proofs, sets, counting, probability and graphs — and quiz what you know.',
+    cardDescription:
+      'A study companion for discrete math: step-by-step lessons, quizzes and practice exams, plus tools such as a truth-table generator and an argument checker.',
+    longDescription: [
+      'Discrete Math: Study & Quiz is a study companion for the course that most computer science and mathematics students meet early: logic, proofs, sets, functions and relations, counting, probability and graphs. The listing is written for college students, computer science learners and anyone returning to the subject, and its approach is to learn the idea behind a symbol before practising with it.',
+      'The store screenshots show the course as a sequence of units — logic and reasoning; quantifiers and rules of inference; proof techniques; sets, functions and countability; number theory and modular arithmetic; induction and algorithms; combinatorics; probability; recurrences; and graph theory — each broken into topics and lessons with knowledge checks and a mastery measure.',
+      'Practice comes in several forms: quick practice, topic, timed and adaptive quizzes, review of missed questions, a custom homework mode and full-length practice exams. A tools section includes a truth-table generator, a logical-equivalence checker, a statement simplifier, a converse-inverse-contrapositive helper, quantifier negation and an argument-validity checker, and a progress screen tracks accuracy, streaks, weekly goals and focus time.',
+    ],
+    category: 'Education · Discrete Math',
+    categoryId: 'education-brain',
+    schemaCategory: 'EducationalApplication',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.reigncreative.discretemath',
+    packageId: 'com.reigncreative.discretemath',
+    icon: '/icons/discrete-math-study-quiz.webp',
+    iconSmall: '/icons/discrete-math-study-quiz-sm.webp',
+    accent: 'from-crimson-500 to-ink-700',
+    playCategory: 'EDUCATION',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: false,
+    free: true,
+    lastVerified: '2026-10-24',
+    features: [
+      {
+        title: 'Unit-by-unit lessons',
+        body: 'From logic and proof techniques through combinatorics, probability, recurrences and graph theory.',
+      },
+      {
+        title: 'Quizzes and practice exams',
+        body: 'Quick practice, topic, timed and adaptive quizzes, review of missed questions and full-length exams.',
+      },
+      {
+        title: 'Working tools',
+        body: 'Truth-table generator, logical-equivalence checker, statement simplifier and argument-validity checker.',
+      },
+      {
+        title: 'Custom homework mode',
+        body: 'Build a set of questions around what you are studying this week.',
+      },
+      {
+        title: 'Mastery and progress',
+        body: 'Mastery by unit, accuracy, streaks, weekly study goals and a focus timer.',
+      },
+    ],
+    audience: [
+      'College students taking a first discrete mathematics course',
+      'Computer science learners who need logic, proofs and graphs',
+      'Anyone returning to the subject before an exam or a job interview',
+      'Self-learners who want lessons and practice in one place',
+    ],
+    howItWorks: [
+      {
+        title: 'Pick a unit',
+        body: 'Start with a familiar idea and work toward the topics that challenge you.',
+      },
+      {
+        title: 'Learn the meaning',
+        body: 'Read the lesson and check understanding before you practise.',
+      },
+      {
+        title: 'Practise and quiz',
+        body: 'Use quizzes and tools, then review what you got wrong.',
+      },
+      {
+        title: 'Track mastery',
+        body: 'Follow progress by unit and set weekly goals as an exam approaches.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Discrete Math: Study & Quiz free?',
+        answer:
+          'Yes. It is free to download on Google Play and supported by ads. Google Play does not list in-app purchases for it.',
+      },
+      {
+        question: 'Which topics does it cover?',
+        answer:
+          'Logic and truth tables, quantifiers and inference, proof techniques including induction and contradiction, sets, functions and relations, number theory and modular arithmetic, combinatorics, probability, recurrences and graph theory.',
+      },
+      {
+        question: 'Is it a replacement for my course?',
+        answer:
+          'No. It is a study and revision companion. Your course’s definitions and notation take priority where they differ, and the app is not affiliated with any university.',
+      },
+      {
+        question: 'What do the tools do?',
+        answer:
+          'They work through mechanical steps for you — building a truth table, checking whether two statements are equivalent, simplifying a statement, forming a converse, inverse or contrapositive, negating a quantified statement and testing whether an argument is valid.',
+      },
+      {
+        question: 'Who is it designed for?',
+        answer:
+          'The listing names college students, computer science learners and anyone returning to the subject.',
+      },
+    ],
+    limitations: [
+      'It is a study aid: it does not grade proofs written in your own words the way an instructor would.',
+      'Notation varies between textbooks, so check symbols against your own course.',
+      'Ads support the free version; Google Play lists no in-app purchases.',
+    ],
+    screenshots: [
+      {
+        src: '/screenshots/discrete-math-study-quiz/1.webp',
+        width: 360,
+        height: 640,
+        alt: 'Discrete Math: Study & Quiz store image of the units list — logic and reasoning, quantifiers and rules of inference, proof techniques, sets, functions and countability, and number theory and modular arithmetic.',
+      },
+      {
+        src: '/screenshots/discrete-math-study-quiz/2.webp',
+        width: 360,
+        height: 640,
+        alt: 'Discrete Math: Study & Quiz store image of the practice screen, with quick practice, topic, timed and adaptive quizzes, review of missed questions and custom homework mode.',
+      },
+      {
+        src: '/screenshots/discrete-math-study-quiz/3.webp',
+        width: 360,
+        height: 640,
+        alt: 'Discrete Math: Study & Quiz store image of the tools list, including a truth-table generator, logical-equivalence checker, statement simplifier and argument-validity checker.',
+      },
+    ],
+    metaTitle: 'Discrete Math: Study & Quiz for Android',
+    metaDescription:
+      'Study discrete math unit by unit — logic, proofs, sets, counting, probability and graphs — with quizzes, practice exams and truth-table tools.',
+  },
+  {
+    slug: 'learn-to-trade-stocks',
+    name: 'Learn to Trade Stocks Beginner',
+    tagline: 'Learn how stock trading works with lessons and paper trading — virtual money only, no real brokerage.',
+    cardDescription:
+      'A beginner trading simulator: lessons on markets, orders, charts and risk, plus paper trading with a virtual balance. Educational; not financial advice.',
+    longDescription: [
+      'Learn to Trade Stocks Beginner is an educational trading simulator. You learn how buying and selling shares works, build a practice portfolio and connect each decision to its outcome — all with virtual money. The listing is explicit that it is for education and simulated trading: there are no real-money brokerage transactions, no personalised financial advice and no guaranteed profits.',
+      'The lessons start with the basics — a stock represents ownership in a company — and move on to order types, portfolios, risk, options and technical indicators. The listing frames those last two carefully: options are contracts with their own risks, including leverage and time decay, and technical indicators summarise price or volume information but cannot confirm a future outcome or remove uncertainty. The store screenshots describe an academy of chart-reading lessons, from candlestick and chart patterns to moving averages and momentum indicators.',
+      'Practice is where the simulator comes in. The store screenshots show a virtual starting balance, a guided first trade, buy and sell practice with market, limit and stop orders, tracked positions and profit and loss, chart replay with play, step and speed controls, simulated scenarios, daily challenges and a trading journal. Simulated results, the listing reminds you, cannot predict what will happen in the real market.',
+    ],
+    category: 'Education · Investing Basics',
+    categoryId: 'education-brain',
+    schemaCategory: 'EducationalApplication',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.reigncreative.stocktradingsim',
+    packageId: 'com.reigncreative.stocktradingsim',
+    icon: '/icons/learn-to-trade-stocks.webp',
+    iconSmall: '/icons/learn-to-trade-stocks-sm.webp',
+    accent: 'from-gold-500 to-gold-700',
+    playCategory: 'FINANCE',
+    contentRating: 'Everyone',
+    containsAds: true,
+    inAppPurchases: false,
+    free: true,
+    lastVerified: '2026-10-24',
+    features: [
+      {
+        title: 'Paper trading',
+        body: 'Buy and sell with a virtual balance and see how each decision changes the practice portfolio.',
+      },
+      {
+        title: 'Order types',
+        body: 'Practise market, limit and stop orders, and track positions, orders and profit and loss.',
+      },
+      {
+        title: 'Lessons from the basics up',
+        body: 'Ownership, portfolios, risk, options and technical indicators, with their limitations stated.',
+      },
+      {
+        title: 'Chart replay',
+        body: 'Play, step and change the speed of simulated price action to practise reading charts.',
+      },
+      {
+        title: 'Scenarios and a journal',
+        body: 'Simulated scenarios, daily challenges and a trading journal for reviewing decisions.',
+      },
+    ],
+    audience: [
+      'Complete beginners who want to understand how trading works before risking money',
+      'Students learning market vocabulary such as order types and portfolios',
+      'Anyone who wants to practise reviewing decisions in a journal',
+      'People refreshing their knowledge at their own pace',
+    ],
+    howItWorks: [
+      {
+        title: 'Learn a concept',
+        body: 'Start with what a stock is, then move to orders, portfolios and risk.',
+      },
+      {
+        title: 'Practise with virtual money',
+        body: 'Place simulated trades with a virtual balance.',
+      },
+      {
+        title: 'Review the outcome',
+        body: 'Compare the result with your reason for buying or selling.',
+      },
+      {
+        title: 'Build a routine',
+        body: 'Come back with one question at a time and keep a journal of what you learned.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Learn to Trade Stocks Beginner free?',
+        answer:
+          'Yes. It is free to download on Google Play and supported by ads. Google Play does not list in-app purchases for it.',
+      },
+      {
+        question: 'Does it use real money?',
+        answer:
+          'No. It is a simulator with virtual money. The listing states that there are no real-money brokerage transactions.',
+      },
+      {
+        question: 'Will it tell me what to buy?',
+        answer:
+          'No. The listing states that it does not give personalised financial advice and does not guarantee profits. It teaches how trading works so you can understand the ideas yourself.',
+      },
+      {
+        question: 'Do simulated results predict real results?',
+        answer:
+          'No. The listing says simulated trading results cannot predict what will happen in the real stock market, and real trading involves risks a simulation cannot reproduce.',
+      },
+      {
+        question: 'Does it cover options?',
+        answer:
+          'It introduces options terminology and stresses that options are contracts with different risks, including leverage, time decay and substantial potential losses.',
+      },
+    ],
+    limitations: [
+      'It is education and simulation only — not a brokerage, not investment advice and not a source of trading signals.',
+      'Simulated results cannot predict real markets, and practising with virtual money does not reproduce the emotions of real risk.',
+      'Rules such as trading restrictions and settlement can change; check current rules with your broker and official sources such as Investor.gov and FINRA.',
+    ],
+    screenshots: [
+      {
+        src: '/screenshots/learn-to-trade-stocks/1.webp',
+        width: 360,
+        height: 640,
+        alt: 'Learn to Trade Stocks Beginner store image of a practice portfolio with a price chart and a virtual starting balance, above tiles for a guided first trade, market, limit and stop orders, and tracking positions and profit and loss.',
+      },
+      {
+        src: '/screenshots/learn-to-trade-stocks/2.webp',
+        width: 360,
+        height: 640,
+        alt: 'Learn to Trade Stocks Beginner store image of a chart-reading lesson with a candlestick chart and worked examples, headed Read charts with confidence.',
+      },
+      {
+        src: '/screenshots/learn-to-trade-stocks/3.webp',
+        width: 360,
+        height: 640,
+        alt: 'Learn to Trade Stocks Beginner store image of the academy lesson list for charts and technical analysis, covering chart reading, trends and key levels, candlestick patterns and moving averages.',
+      },
+    ],
+    metaTitle: 'Learn to Trade Stocks Beginner for Android',
+    metaDescription:
+      'Learn how stock trading works with lessons and paper trading using virtual money. Educational and simulated only; not financial advice.',
   },
 ];

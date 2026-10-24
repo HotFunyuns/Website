@@ -9,10 +9,12 @@
   "corrections": [
     {
       "date": "2026-10-02",
-      "note": "An earlier version described 162-0 Baseball Draft & GM Team and Pro Basketball GM Franchise as fictional simulations built on generated player pools. Both build their draft pools from real-world players' careers, with ratings that are the games' own estimates, and neither is affiliated with or endorsed by any league, team or athlete. The affected passages have been corrected."
+      "note": "An earlier version described 162-0 Baseball Draft & GM Team and Basketball Game Franchise GM as fictional simulations built on generated player pools. Both build their draft pools from real-world players' careers, with ratings that are the games' own estimates, and neither is affiliated with or endorsed by any league, team or athlete. The affected passages have been corrected."
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "sports sim",
@@ -88,7 +90,7 @@
     },
     {
       "question": "Are these games based on real players or leagues?",
-      "answer": "Their player pools are. 162-0 Baseball Draft & GM Team and Pro Basketball GM Franchise build their draft pools from real players' careers, with ratings that are the games' own estimates rather than official statistics, and neither is affiliated with, endorsed by or licensed by any league, team, players' association or athlete."
+      "answer": "Their player pools are. 162-0 Baseball Draft & GM Team and Basketball Game Franchise GM build their draft pools from real players' careers, with ratings that are the games' own estimates rather than official statistics, and neither is affiliated with, endorsed by or licensed by any league, team, players' association or athlete."
     }
   ],
   "sources": [

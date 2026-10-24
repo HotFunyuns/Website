@@ -13,6 +13,8 @@
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "draft",
@@ -158,7 +160,7 @@ For the underlying intuition about why random draws produce runs that look suspi
 
 Most draft games, ours included, do not model a lottery, because a lottery is a solution to an incentive problem that only exists when a team plays a season it wants to lose. In a game where you draft first and play afterwards, there is nothing to tank.
 
-What our games model instead is the part that is interesting to play: evaluating a pool under a constraint. [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) offers eight draft formats, each changing the constraint rather than the order, and [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) does the same for hockey.
+What our games model instead is the part that is interesting to play: evaluating a pool under a constraint. [Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/) offers eight draft formats, each changing the constraint rather than the order, and [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) does the same for hockey.
 
 [What makes a good draft board](/blog/what-makes-a-good-draft-board/) covers preparing for any of them — and the preparation matters more than the position, because a board that identifies where the real quality gaps sit is worth more than a pick one place higher.
 

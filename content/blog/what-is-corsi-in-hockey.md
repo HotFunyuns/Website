@@ -4,7 +4,8 @@
   "metaTitle": "What Is Corsi in Hockey? Corsi, Fenwick and PDO",
   "description": "Corsi counts shot attempts, Fenwick drops the blocked ones and PDO adds shooting and save percentages. How each works, a worked example, and where they mislead.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -180,4 +181,4 @@ A five-step routine keeps the number honest:
 
 In [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/), you compare ratings and statistics while filling a starting six and choosing a coach, and the draft simulator projects an 84-game record from the lineup. The player pool is built from real players' careers, but the ratings are the game's own estimates and the projection is the game's model, not a forecast of anything real. The questions in this article still apply to any number you weigh there: how much of it is the player, how much is the role, and how big is the sample? [The hockey draft simulator guide](/blog/hockey-draft-gm-guide/) covers balancing a roster.
 
-If you would rather live inside the numbers than compare them, [Hockey Career Sim 2026](/apps/hockey-career-sim/) follows one player through seasons of statistics, standings and playoffs in a fictional league. Neither game is affiliated with any league. The [hockey hub](/sports/hockey/) gathers our other hockey explainers, and the full catalogue is under [sports GM](/blog/category/sports-gm/).
+If you would rather live inside the numbers than compare them, [Hockey Career Sim 2027](/apps/hockey-career-sim/) follows one player through seasons of statistics, standings and playoffs in a fictional league. Neither game is affiliated with any league. The [hockey hub](/sports/hockey/) gathers our other hockey explainers, and the full catalogue is under [sports GM](/blog/category/sports-gm/).

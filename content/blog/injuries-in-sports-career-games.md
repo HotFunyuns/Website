@@ -13,6 +13,8 @@
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "career mode",
@@ -157,9 +159,9 @@ That comparison favours playing only when the games in question are unusually im
 | Association football | Congested fixture periods, sprint volume | Rotation and training intensity |
 | American football | Contact by position; quarterback exposure to pressure | Decisions that reduce hits taken |
 
-In [Hockey Career Sim 2026](/apps/hockey-career-sim/), recovery and injuries sit alongside contracts and expectations as part of the career rather than as an interruption to it. In [Football Career Soccer XI Sim](/apps/soccer-career-sim-xi/), injuries and comebacks are an explicit part of the career arc, and the reputational systems around them react to how the recovery goes. In [Football Career Sim 2026](/apps/football-career-sim/), the exposure is tied more directly to decisions — holding the ball under pressure has a cost beyond the sack.
+In [Hockey Career Sim 2027](/apps/hockey-career-sim/), recovery and injuries sit alongside contracts and expectations as part of the career rather than as an interruption to it. In [Football Career Soccer XI Sim](/apps/soccer-career-sim-xi/), injuries and comebacks are an explicit part of the career arc, and the reputational systems around them react to how the recovery goes. In [Football Career Sim 2027](/apps/football-career-sim/), the exposure is tied more directly to decisions — holding the ball under pressure has a cost beyond the sack.
 
-[The Hockey Career Sim 2026 guide](/blog/hockey-career-sim-guide/) and [the Football Career Soccer XI Sim guide](/blog/soccer-career-sim-guide/) cover how each game structures the surrounding career, and [how player career modes work](/blog/how-player-career-modes-work/) covers why an absence hits the development curve so hard.
+[The Hockey Career Sim 2027 guide](/blog/hockey-career-sim-guide/) and [the Football Career Soccer XI Sim guide](/blog/soccer-career-sim-guide/) cover how each game structures the surrounding career, and [how player career modes work](/blog/how-player-career-modes-work/) covers why an absence hits the development curve so hard.
 
 ## An explicit limit
 

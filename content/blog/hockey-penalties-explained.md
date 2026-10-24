@@ -4,7 +4,8 @@
   "metaTitle": "Hockey Penalties Explained: Minor to Match, and Shots",
   "description": "Hockey penalties sorted by what they cost: minors, double minors, majors, misconducts, match penalties, penalty shots and delayed calls, per the NHL rulebook.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -194,4 +195,4 @@ Those answers drive real decisions. A team with a five-minute major to work with
 
 ## Penalties and the players who take them
 
-In [Hockey Career Sim 2026](/apps/hockey-career-sim/) you build one player's career in a fictional league — a scorer, playmaker, defensive leader or netminder — and [the Hockey Career Sim 2026 guide](/blog/hockey-career-sim-guide/) covers how each archetype develops. On the management side, [the hockey draft simulator guide](/blog/hockey-draft-gm-guide/) explains why every one of a starting six's slots matters in [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/), a draft game built on real players' careers with the game's own ratings; [hockey positions explained](/blog/hockey-positions-explained/) describes what each slot is responsible for. Neither game has any tie to the league whose rules are described here. The [hockey hub](/sports/hockey/) gathers our other rules explainers, and the full set of titles is under [sports career and GM games](/apps/category/sports-gm/).
+In [Hockey Career Sim 2027](/apps/hockey-career-sim/) you build one player's career in a fictional league — a scorer, playmaker, defensive leader or netminder — and [the Hockey Career Sim 2027 guide](/blog/hockey-career-sim-guide/) covers how each archetype develops. On the management side, [the hockey draft simulator guide](/blog/hockey-draft-gm-guide/) explains why every one of a starting six's slots matters in [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/), a draft game built on real players' careers with the game's own ratings; [hockey positions explained](/blog/hockey-positions-explained/) describes what each slot is responsible for. Neither game has any tie to the league whose rules are described here. The [hockey hub](/sports/hockey/) gathers our other rules explainers, and the full set of titles is under [sports career and GM games](/apps/category/sports-gm/).

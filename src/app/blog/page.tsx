@@ -4,10 +4,11 @@ import PageHeader from '@/components/PageHeader';
 import GoldDivider from '@/components/GoldDivider';
 import Reveal from '@/components/Reveal';
 import JsonLd from '@/components/JsonLd';
-import BlogCard, { type BlogCardPost } from '@/components/blog/BlogCard';
-import BlogExplorer from '@/components/blog/BlogExplorer';
+import BlogCard from '@/components/blog/BlogCard';
+import BlogSearch from '@/components/blog/BlogSearch';
+import Pagination from '@/components/blog/Pagination';
 import { companyInfo } from '@/data/apps';
-import { activeHubs, blogCategories, featuredPosts, posts } from '@/lib/blog';
+import { activeHubs, blogCategories, featuredPosts, guidePosts, pageCount, pageOf, posts } from '@/lib/blog';
 
 export const metadata: Metadata = {
   title: 'Blog — Android App Guides',
@@ -35,21 +36,12 @@ export default function BlogIndexPage() {
   const categories = blogCategories();
   const topicHubs = activeHubs();
   const featured = featuredPosts.slice(0, 3);
-  const featuredSlugs = new Set(featured.map((p) => p.slug));
-  // Projected to card fields before crossing into the client `BlogExplorer`.
-  // Passing whole posts serialises every article body into this page's RSC
-  // payload — see the note on `BlogCardPost`.
-  const rest: BlogCardPost[] = posts
-    .filter((p) => !featuredSlugs.has(p.slug))
-    .map(({ slug, title, description, category, publishedAt, readingMinutes, tags }) => ({
-      slug,
-      title,
-      description,
-      category,
-      publishedAt,
-      readingMinutes,
-      tags,
-    }));
+  // The newest guides, one page at a time. This page used to render every
+  // article as a card — over a megabyte of HTML at 651 articles — which also
+  // made each category listing a near-total subset of it. The full archive is
+  // reached through numbered pages, the categories and the topic hubs.
+  const pages = pageCount(guidePosts);
+  const latest = pageOf(guidePosts, 1);
 
   const blogSchema = {
     '@context': 'https://schema.org',
@@ -178,16 +170,21 @@ export default function BlogIndexPage() {
                 </ul>
               </nav>
 
-              <BlogExplorer
-                posts={rest}
-                filters={categories
-                  .map((category) => ({
-                    id: category.id,
-                    label: category.shortLabel,
-                    count: rest.filter((p) => p.category === category.id).length,
-                  }))
-                  .filter((f) => f.count > 0)}
-              />
+              <BlogSearch />
+
+              <section aria-labelledby="latest-articles-heading">
+                <h2 id="latest-articles-heading" className="eyebrow mb-6">
+                  Newest articles
+                </h2>
+                <ul className="grid list-none gap-6 p-0 sm:grid-cols-2 lg:grid-cols-3">
+                  {latest.map((post) => (
+                    <li key={post.slug} className="h-full">
+                      <BlogCard post={post} headingLevel="h3" />
+                    </li>
+                  ))}
+                </ul>
+                <Pagination basePath="/blog/" page={1} pages={pages} label="All articles, more pages" />
+              </section>
             </>
           )}
         </div>

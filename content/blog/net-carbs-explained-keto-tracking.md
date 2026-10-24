@@ -13,6 +13,8 @@
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "health-nutrition",
   "tags": ["net carbs", "low carb", "nutrition labels", "macro tracking", "dietary fiber"],
   "primaryKeyword": "net carbs explained",

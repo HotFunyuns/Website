@@ -4,7 +4,8 @@
   "metaTitle": "RPO vs Play Action: How Each Makes a Defense Guess",
   "description": "What an RPO and a play-action pass each ask one defender to decide, why the run is real in one and fake in the other, and the lineman rule that separates them.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -167,6 +168,6 @@ The rule that lets defenders tackle a player who pretends to have the ball appli
 
 An RPO rewards quick decisions and accurate short throws, because the window closes as soon as the linemen reach their limit. Play action rewards a quarterback who can sell the fake with his back to the defence and still deliver from the pocket. A quarterback who is also a running threat makes both harder to defend, because the read defender has one more thing to account for. [Quarterback archetypes explained](/blog/quarterback-archetypes-explained/) goes through the four common types and what each trades away.
 
-The decisions at the heart of both concepts, reading the defence and choosing the target, are the in-drive decisions in [our quarterback career game, Football Career Sim 2026](/apps/football-career-sim/), along with calling audibles, escaping pressure and scrambling for the first down. Its league is fictional, and your archetype changes which answers are on offer; the [guide to playing a quarterback career](/blog/football-career-sim-guide/) covers how those calls build a career. For the pre-snap half of the job, [reading a defence](/blog/reading-a-defense-basics/) covers the cues that tell you which defender to watch.
+The decisions at the heart of both concepts, reading the defence and choosing the target, are the in-drive decisions in [our quarterback career game, Football Career Sim 2027](/apps/football-career-sim/), along with calling audibles, escaping pressure and scrambling for the first down. Its league is fictional, and your archetype changes which answers are on offer; the [guide to playing a quarterback career](/blog/football-career-sim-guide/) covers how those calls build a career. For the pre-snap half of the job, [reading a defence](/blog/reading-a-defense-basics/) covers the cues that tell you which defender to watch.
 
 Building the roster rather than playing in it? The [football draft simulator guide](/blog/football-draft-gm-guide/) explains how units, not individual picks, decide a team, and the sport's rules are gathered on the [American football](/sports/football/) hub. More explainers are in the [sports GM collection](/blog/category/sports-gm/).

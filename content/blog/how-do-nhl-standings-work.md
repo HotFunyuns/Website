@@ -4,7 +4,8 @@
   "metaTitle": "How Do NHL Standings Work? Points, Tiebreakers, Wild Card",
   "description": "How NHL standings work: two points for a win, one for an overtime loss, the official tiebreak order, points percentage, and how the wild card sets the bracket.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -200,4 +201,4 @@ The soccer equivalent — a single points system with three for a win — is exp
 
 ## Standings in our games
 
-[84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) projects a complete 84-game regular-season record for a drafted starting six and a coach, and its Franchise GM Mode carries a club across multiple seasons. That record is the game's own model judging the roster you built, using a player pool drawn from real players' careers and rated by the game; it predicts nothing about any real standings. [The hockey draft simulator guide](/blog/hockey-draft-gm-guide/) explains how to read it. In [Hockey Career Sim 2026](/apps/hockey-career-sim/), a single player's career runs through schedules, standings, awards and playoffs in a fictional league. Neither game is connected with the NHL. Our other rules explainers are collected on the [hockey hub](/sports/hockey/), and every sports title is under [sports GM](/apps/category/sports-gm/).
+[84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) projects a complete 84-game regular-season record for a drafted starting six and a coach, and its Franchise GM Mode carries a club across multiple seasons. That record is the game's own model judging the roster you built, using a player pool drawn from real players' careers and rated by the game; it predicts nothing about any real standings. [The hockey draft simulator guide](/blog/hockey-draft-gm-guide/) explains how to read it. In [Hockey Career Sim 2027](/apps/hockey-career-sim/), a single player's career runs through schedules, standings, awards and playoffs in a fictional league. Neither game is connected with the NHL. Our other rules explainers are collected on the [hockey hub](/sports/hockey/), and every sports title is under [sports GM](/apps/category/sports-gm/).

@@ -7,6 +7,8 @@
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "career sim",
@@ -77,7 +79,7 @@
     },
     {
       "question": "Which lets me play a goalkeeper or goaltender?",
-      "answer": "Hockey Career Sim 2026 has goaltender as a full career path, and Football Career Soccer XI Sim includes goalkeeper among its six positions. Both are genuinely distinct careers rather than variants."
+      "answer": "Hockey Career Sim 2027 has goaltender as a full career path, and Football Career Soccer XI Sim includes goalkeeper among its six positions. Both are genuinely distinct careers rather than variants."
     },
     {
       "question": "Are any of these paid apps?",
@@ -117,8 +119,8 @@ In a team sport career sim, you play well and lose anyway, because ten other pla
 | --- | --- | --- | --- | --- |
 | [Golf Career Simulator Pro Tour](/apps/golf-career-simulator/) | Golf | Medium (a hole at a time) | Not at all | No swing meter; decisions only |
 | [Baseball Career Sim 2026](/apps/baseball-career-sim/) | Baseball | Long for pitchers, short for hitters | Moderate | Six genuinely different position paths |
-| [Football Career Sim 2026](/apps/football-career-sim/) | American football | Medium, dense | High | Quarterback only, reads and audibles |
-| [Hockey Career Sim 2026](/apps/hockey-career-sim/) | Ice hockey | Short | High | Goaltender is a full career path; plays offline |
+| [Football Career Sim 2027](/apps/football-career-sim/) | American football | Medium, dense | High | Quarterback only, reads and audibles |
+| [Hockey Career Sim 2027](/apps/hockey-career-sim/) | Ice hockey | Short | High | Goaltender is a full career path; plays offline |
 | [Football Career Soccer XI Sim](/apps/soccer-career-sim-xi/) | Association football | Short | High | Coach Trust ladder, six positions |
 | [Basketball Career Sim](/apps/pro-basketball-my-career-sim/) | Basketball | Short | High | Live Sim possessions |
 

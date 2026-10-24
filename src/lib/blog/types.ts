@@ -58,11 +58,16 @@ export const RSS_ITEM_LIMIT = 50;
  *              `reviewNotes`. Only a person writes these, never a script.
  *   automated  published after the automated checks and a logged AI editorial
  *              review only. No person has read it, and the article says so.
+ *   organization  covered by a company review attestation
+ *              (src/data/review-attestations.ts): the owner's written statement
+ *              that people at the company reviewed a defined set of articles.
+ *              Requires `reviewAttestation`; names no individual and records no
+ *              per-article detail that was not given.
  *
  * There is no daily limit: a finished article is published once it passes every
  * check, not held back to fit a release schedule.
  */
-export type EditorialReview = 'person' | 'automated';
+export type EditorialReview = 'person' | 'automated' | 'organization';
 
 /** The Los Angeles calendar day (YYYY-MM-DD) containing `now`. */
 export function publicationDay(now: Date = new Date()): string {
@@ -79,7 +84,20 @@ export function publicationDay(now: Date = new Date()): string {
 export type SearchIntent = 'informational' | 'commercial' | 'transactional' | 'navigational';
 
 /** Which standing disclaimer the article template must render above the body. */
-export type DisclaimerKind = 'none' | 'health' | 'language' | 'comparison';
+export type DisclaimerKind = 'none' | 'health' | 'language' | 'comparison' | 'partnership';
+
+/**
+ * What kind of page an article is. Absent means an ordinary guide written for
+ * the people who use, or might use, the app in its category.
+ *
+ *   partnership  a business-development overview of one app, for publishers,
+ *                licensees, partners and potential acquirers. Exactly one per
+ *                app at most; it carries the "partnership" disclaimer (the
+ *                nonbinding notice), lives in the /partnerships/ hub rather than
+ *                the consumer category listings, and its call to action is a
+ *                business inquiry rather than an install.
+ */
+export type ArticleKind = 'partnership';
 
 export interface PostFaq {
   question: string;
@@ -146,6 +164,8 @@ export interface PostFrontmatter {
   sourcesChecked?: string[];
   /** What the reviewer checked or changed. */
   reviewNotes?: string;
+  /** For `organization`: the id of the attestation in src/data/review-attestations.ts. */
+  reviewAttestation?: string;
   /**
    * For `scheduled` articles: the earliest Los Angeles day it may be released.
    * A plan, not a publication date — the release step stamps `publishedAt`
@@ -164,6 +184,8 @@ export interface PostFrontmatter {
   sources: PostSource[];
   takeaways: string[];
   disclaimer: DisclaimerKind;
+  /** See ArticleKind. Absent on ordinary guides. */
+  kind?: ArticleKind;
   featured?: boolean;
   noindex?: boolean;
   researchDate?: string;
@@ -204,8 +226,12 @@ export const SEARCH_INTENTS: SearchIntent[] = [
   'transactional',
   'navigational',
 ];
-export const DISCLAIMER_KINDS: DisclaimerKind[] = ['none', 'health', 'language', 'comparison'];
-export const EDITORIAL_REVIEWS: EditorialReview[] = ['person', 'automated'];
+export const DISCLAIMER_KINDS: DisclaimerKind[] = ['none', 'health', 'language', 'comparison', 'partnership'];
+export const ARTICLE_KINDS: ArticleKind[] = ['partnership'];
+
+/** Cards per page on the blog index and on each category listing. */
+export const LISTING_PAGE_SIZE = 24;
+export const EDITORIAL_REVIEWS: EditorialReview[] = ['person', 'automated', 'organization'];
 export const DEMAND_TIERS: DemandTier[] = [
   'unverified-high',
   'unverified-medium',

@@ -4,7 +4,8 @@
   "metaTitle": "Faceoff Rules in Hockey: Spots, Stick Order, Violations",
   "description": "Hockey faceoff rules from the NHL rulebook: the nine spots, where each stoppage restarts, who puts the stick down first and what gets a centre waved out.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -178,4 +179,4 @@ The rulebook explains why the faceoff counts for more on special teams. A short-
 
 ## Faceoffs in our games
 
-The centre's job — faceoffs, the middle lane and the defensive responsibility in front of the net — is described in [hockey positions explained](/blog/hockey-positions-explained/). In [Hockey Career Sim 2026](/apps/hockey-career-sim/) you can build a career as a centre or another position in a fictional league, and [hockey career archetypes explained](/blog/hockey-career-archetypes-explained/) covers which roles suit which players. In [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/), the centre is one of the six slots in the starting lineup you draft, from a pool built on real players' careers with the game's own ratings; [the hockey draft simulator guide](/blog/hockey-draft-gm-guide/) explains how to balance that lineup. Neither game is affiliated with any league. Our other rules explainers are on the [hockey hub](/sports/hockey/), and the catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+The centre's job — faceoffs, the middle lane and the defensive responsibility in front of the net — is described in [hockey positions explained](/blog/hockey-positions-explained/). In [Hockey Career Sim 2027](/apps/hockey-career-sim/) you can build a career as a centre or another position in a fictional league, and [hockey career archetypes explained](/blog/hockey-career-archetypes-explained/) covers which roles suit which players. In [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/), the centre is one of the six slots in the starting lineup you draft, from a pool built on real players' careers with the game's own ratings; [the hockey draft simulator guide](/blog/hockey-draft-gm-guide/) explains how to balance that lineup. Neither game is affiliated with any league. Our other rules explainers are on the [hockey hub](/sports/hockey/), and the catalogue is under [sports career and GM games](/apps/category/sports-gm/).

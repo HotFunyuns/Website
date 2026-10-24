@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { companyInfo } from '@/data/apps';
+import { NONBINDING_NOTICE } from '@/data/partnerships';
 import type { DisclaimerKind } from '@/lib/blog/types';
 
 /**
@@ -43,6 +45,19 @@ const COPY: Record<Exclude<DisclaimerKind, 'none'>, { title: string; body: React
           editorial policy
         </Link>{' '}
         explains the process.
+      </>
+    ),
+  },
+  partnership: {
+    title: 'About this page',
+    body: (
+      <>
+        {NONBINDING_NOTICE} It describes an app {companyInfo.name} owns and publishes; nothing here is
+        a statement about revenue, downloads or users. See{' '}
+        <Link href="/partnerships/" className="link-accent">
+          partnerships at Reign Creative
+        </Link>{' '}
+        for how discussions work.
       </>
     ),
   },

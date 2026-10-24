@@ -7,25 +7,26 @@ import PlayStoreLink from './PlayStoreLink';
  * The eight apps shown in the hero.
  *
  * Every slug here was re-verified against its live, signed-out Google Play
- * listing on 2026-09-15 (scripts/verify-play-listings.mjs -> play-verification.json).
- * `npm run audit:catalog` re-checks each catalog row against that file and fails
- * on any drift; it is NOT currently part of `npm run build`, so treat it as a
- * check to run, not a guarantee the build enforces.
+ * listing on 2026-10-24 (scripts/verify-play-listings.mjs -> play-verification.json),
+ * and `npm run build` runs scripts/audit-catalog.mjs, which fails on any drift
+ * between the catalog and that file.
  *
  * An unknown slug below throws at module scope, which does fail the build.
  *
- * Ordered so no two adjacent tiles on the ring come from the same category.
+ * Chosen 2026-10-24 to show the catalog's range and its newest additions — six
+ * of the eight were added to the site that day — with no two adjacent tiles from
+ * the same category and the two sports titles opposite each other.
  * The order IS the layout: index N sits at N x 45 degrees, starting at the top.
  */
 const HERO_APP_SLUGS = [
-  'soccer-career-sim-xi', //            0deg   Football Career Soccer XI Sim
-  'regal-video-player', //             45deg   Regal Video Player
-  'tennis-career-sim', //              90deg   Tennis Career Simulator 2026
-  'jellyfish-arena-survivor-io', //   135deg   Jellyfish Arena Survivor io
-  'pro-basketball-draft-gm-mode', //  180deg   Pro Basketball GM Franchise
-  'tcg-card-grading-scanner', //      225deg   TCG Card Grading Scanner Value
-  'hockey-career-sim', //             270deg   Hockey Career Sim 2026
-  'space-galaxy-attack-hardcore', //  315deg   Space Galaxy Attack Hardcore
+  'basketball-career-pro-league', //    0deg   Basketball Career Pro League (sports, added 2026-10-24)
+  'discrete-math-study-quiz', //       45deg   Discrete Math: Study & Quiz (education, added 2026-10-24)
+  'kawaii-breathe-relax', //           90deg   Kawaii Cute Breathe Relax Care (health, added 2026-10-24)
+  'block-world-rpg', //               135deg   Block World RPG Craft & Build (creative, added 2026-10-24)
+  'cricket-career-simulator', //      180deg   Cricket Sport Career Simulator (sports, added 2026-10-24)
+  'pdf-all-in-one-tools', //          225deg   PDF All in One Tool No Limit (utility)
+  'learn-cantonese', //               270deg   Learn Cantonese for Beginners (language)
+  'hero-td-idle-tower-defense', //    315deg   Hero TD Idle Tower Defense (arcade, added 2026-10-24)
 ] as const;
 
 /** Small, fixed tilts. Deterministic per slot — no randomness, so the build is stable. */

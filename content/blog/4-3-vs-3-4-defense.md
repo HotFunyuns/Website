@@ -4,7 +4,8 @@
   "metaTitle": "4-3 vs 3-4 Defense: Fronts and Roster Demands",
   "description": "How the 4-3 and 3-4 fronts line up, where each gets its pass rush, when a nickel package replaces them, and what each front asks of a roster.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -147,6 +148,6 @@ For anyone building a roster, real or simulated, the front is a budget decision 
 
 [Football Franchise GM League](/apps/football-draft-gm-mode/) has you fill a roster position by position with a lineup builder, and its Salary Cap Draft is described as rewarding spending well and exposing "the units you skimped on". The front seven is where that warning bites first, because a defence is only as sound as the unit you left thin. The [football draft simulator guide](/blog/football-draft-gm-guide/) makes the general version of the argument: a team is capped by its worst unit, not averaged across them.
 
-From the offence's side, the same alignment is a puzzle to read before the snap. [Reading a defence](/blog/reading-a-defense-basics/) covers what a quarterback looks for, and in [Football Career Sim 2026](/apps/football-career-sim/) reading the defence is one of the in-drive decisions you make as the quarterback rather than the general manager.
+From the offence's side, the same alignment is a puzzle to read before the snap. [Reading a defence](/blog/reading-a-defense-basics/) covers what a quarterback looks for, and in [Football Career Sim 2027](/apps/football-career-sim/) reading the defence is one of the in-drive decisions you make as the quarterback rather than the general manager.
 
 More on the rules and structure of [American football](/sports/football/) sits on the sport hub, and the rest of the roster-building library is under [sports GM games](/apps/category/sports-gm/).

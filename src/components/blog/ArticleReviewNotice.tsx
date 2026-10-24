@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { getReviewAttestation } from '@/data/review-attestations';
 import type { EditorialReview } from '@/lib/blog/types';
 import { formatPostDate } from './format';
 
@@ -19,11 +20,33 @@ export default function ArticleReviewNotice({
   review,
   reviewerName,
   reviewDate,
+  reviewAttestation,
 }: {
   review?: EditorialReview;
   reviewerName?: string;
   reviewDate?: string;
+  reviewAttestation?: string;
 }) {
+  const attestation = review === 'organization' ? getReviewAttestation(reviewAttestation) : undefined;
+  if (attestation) {
+    // A company attestation: the label says who reviewed, as the attestation
+    // names them, and nothing it does not say — no date, no "in full".
+    return (
+      <p
+        data-review-notice="organization"
+        className="mt-5 max-w-2xl rounded-xl border border-ink-200 bg-cream-50 px-4 py-3 text-sm leading-relaxed text-ink-600"
+      >
+        <strong className="font-semibold text-ink-950">
+          Reviewed by <span data-reviewer="">{attestation.label}</span>.
+        </strong>{' '}
+        <Link href="/editorial-policy/#ai" className="link-accent">
+          How articles are reviewed
+        </Link>
+        .
+      </p>
+    );
+  }
+
   if (review === 'automated') {
     return (
       <p

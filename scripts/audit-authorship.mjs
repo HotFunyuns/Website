@@ -170,6 +170,18 @@ for (const article of published) {
       if (approvalShown) fail(`${route}: an automated article claims a person's approval`);
     }
 
+    if (review === 'organization') {
+      // Backed by a company attestation (src/data/review-attestations.ts): the
+      // label names who reviewed as the attestation does, and claims nothing it
+      // does not — no reading "in full", no approval date, no individual.
+      if (!/^Reviewed by .+\./.test(noticeText)) fail(`${route}: the organization notice must say who reviewed it`);
+      if (!/were reviewed by people at the company/.test(statementText)) {
+        fail(`${route}: the author box must state the company's review confirmation`);
+      }
+      if (approvalShown) fail(`${route}: an attested article claims a person read it in full and approved it`);
+      if (!data.reviewAttestation) fail(`${route}: "organization" review without a reviewAttestation`);
+    }
+
     if (review === 'person') {
       const shownName = textOf(/data-reviewer=""[^>]*>([\s\S]*?)<\/span>/.exec(notice?.[2] ?? '')?.[1] ?? '');
       if (shownName !== data.reviewerName) fail(`${route}: the notice names "${shownName}", the review record "${data.reviewerName}"`);

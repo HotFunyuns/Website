@@ -13,6 +13,8 @@
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "salary cap",
@@ -85,7 +87,7 @@
     },
     {
       "question": "Which of these games include salary cap drafting?",
-      "answer": "Pro Basketball GM Franchise includes Salary Cap Draft as one of its eight formats, and its GM Mode covers contracts and trades. Football Franchise GM League includes a Salary Cap Draft alongside Unlimited, Limited and Playoff formats. 162-0 Baseball Draft & GM Team includes payroll-focused drafting, and payroll review is part of its Franchise GM Mode."
+      "answer": "Basketball Game Franchise GM includes Salary Cap Draft as one of its eight formats, and its GM Mode covers contracts and trades. Football Franchise GM League includes a Salary Cap Draft alongside Unlimited, Limited and Playoff formats. 162-0 Baseball Draft & GM Team includes payroll-focused drafting, and payroll review is part of its Franchise GM Mode."
     },
     {
       "question": "Is the money in these games real?",
@@ -170,7 +172,7 @@ The practical rule that survives contact with actual play: be more willing to ov
 
 ## How this shows up in play
 
-[Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) includes **Salary Cap Draft** as one of eight formats, alongside Unlimited, Quick, Blind and Franchise Drafts plus VS Computer, Battle Mode and a Daily Challenge. Running the same board twice — once unconstrained, once under the cap — is the fastest way to feel what a budget does. The rosters will not resemble each other, and the cap roster is usually the more interesting one to defend.
+[Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/) includes **Salary Cap Draft** as one of eight formats, alongside Unlimited, Quick, Blind and Franchise Drafts plus VS Computer, Battle Mode and a Daily Challenge. Running the same board twice — once unconstrained, once under the cap — is the fastest way to feel what a budget does. The rosters will not resemble each other, and the cap roster is usually the more interesting one to defend.
 
 Past draft day, its GM Mode covers **contracts, trades and rotations**, which is where the duration problem becomes real. Trades are also the only tool that genuinely fixes a structural allocation mistake: they convert a surplus you cannot use into coverage you need, at a price.
 

@@ -4,7 +4,8 @@
   "metaTitle": "NBA Draft Eligibility Rules: Age, Early Entry and More",
   "description": "Who can enter the NBA draft: the age-19 and one-year-after-high-school rule, the early-entry deadline, international players, and how draft rights work.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -199,4 +200,4 @@ None of these paths is the "right" one. The rule fixes the timing and leaves the
 
 [Basketball Career Sim](/apps/pro-basketball-my-career-sim/) runs a fictional career through youth basketball, high school, recruiting and college, then the draft and the pro years. It is a fictional simulation, so nothing above describes how its draft works. The real rule is still useful context, because it explains why the stages before the draft carry so much weight. [The recruiting stage](/blog/college-recruiting-in-basketball-career-mode/) covers how the game handles those years, and the [career sim guide](/blog/basketball-career-sim-guide/) covers the full arc.
 
-From the other side of the table, [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) starts with a draft board of its own, and [how a basketball draft simulator works](/blog/basketball-draft-gm-guide/) explains what that kind of board asks of you. More basketball explainers are on the [basketball hub](/sports/basketball/), and our sports titles are in the [sports GM category](/apps/category/sports-gm/).
+From the other side of the table, [Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/) starts with a draft board of its own, and [how a basketball draft simulator works](/blog/basketball-draft-gm-guide/) explains what that kind of board asks of you. More basketball explainers are on the [basketball hub](/sports/basketball/), and our sports titles are in the [sports GM category](/apps/category/sports-gm/).

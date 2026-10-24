@@ -4,7 +4,8 @@
   "metaTitle": "Basketball Player Archetypes Explained: Roles and Fits",
   "description": "The common basketball archetypes, from 3-and-D wings to rim protectors and stretch bigs: the skills behind each, how to spot it in the stats, and which fit.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -184,4 +185,4 @@ The poor fits mirror these: two non-shooting bigs on the floor together crowd th
 
 [Basketball Career Sim](/apps/pro-basketball-my-career-sim/) asks you to choose an archetype when you create your player, along with position, build and attributes, and then develop the player through training camp, attribute upgrades and signature moves. The game is a fictional career simulation, and its archetype list and what each option changes are its own, so the real-basketball labels in this article may not map one-to-one onto the in-game choices. The principle carries over: pick the job first, then make the build agree with it. [Height, weight and wingspan](/blog/player-body-metrics-in-career-sims/) covers matching body metrics to that choice.
 
-On the management side, [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) drafts from a pool built from real players' careers, with the game's own ratings, and its own description says balance and depth carry more weight than a single marquee pick. Thinking in archetypes is a fast way to check that balance as you draft, and [how a basketball draft simulator works](/blog/basketball-draft-gm-guide/) explains where that check fits in a draft. [Advanced stats explained](/blog/basketball-advanced-stats-explained/) goes deeper on usage and the rate statistics behind the signatures above. More on the sport is on the [basketball hub](/sports/basketball/), and our sports titles are listed in the [sports GM category](/blog/category/sports-gm/).
+On the management side, [Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/) drafts from a pool built from real players' careers, with the game's own ratings, and its own description says balance and depth carry more weight than a single marquee pick. Thinking in archetypes is a fast way to check that balance as you draft, and [how a basketball draft simulator works](/blog/basketball-draft-gm-guide/) explains where that check fits in a draft. [Advanced stats explained](/blog/basketball-advanced-stats-explained/) goes deeper on usage and the rate statistics behind the signatures above. More on the sport is on the [basketball hub](/sports/basketball/), and our sports titles are listed in the [sports GM category](/blog/category/sports-gm/).

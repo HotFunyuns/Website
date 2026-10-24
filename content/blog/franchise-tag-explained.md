@@ -4,7 +4,8 @@
   "metaTitle": "Franchise Tag Explained: Exclusive vs Transition Tags",
   "description": "What each NFL tag lets a team and rival clubs do, how the one-year salary is calculated, why repeat tags cost more, and how a club chooses between them.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -178,6 +179,6 @@ None of these is a prediction about how any real negotiation will go. They are t
 
 ## Seeing it from the player's side
 
-In [Football Career Sim 2026](/apps/football-career-sim/), contracts, trades and free agency sit around a single quarterback's career in a league where every team and player is fictional. Nothing in this article describes how the game values or structures its contracts; what carries across is the player's view of the trade-off above — one guaranteed year now, or the long-term security of a negotiated deal. [Our guide to playing a quarterback career](/blog/football-career-sim-guide/) covers the earlier stages, from the draft to winning the job.
+In [Football Career Sim 2027](/apps/football-career-sim/), contracts, trades and free agency sit around a single quarterback's career in a league where every team and player is fictional. Nothing in this article describes how the game values or structures its contracts; what carries across is the player's view of the trade-off above — one guaranteed year now, or the long-term security of a negotiated deal. [Our guide to playing a quarterback career](/blog/football-career-sim-guide/) covers the earlier stages, from the draft to winning the job.
 
 If you would rather sit on the other side of the table, the [football draft and GM guide](/blog/football-draft-gm-guide/) covers roster building under a budget. The rest of the [sports career and GM library](/blog/category/sports-gm/) and our [American football hub](/sports/football/) collect related reading.

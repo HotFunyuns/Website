@@ -13,6 +13,8 @@
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "career mode",
@@ -128,7 +130,7 @@ That last row is the most telling. When a career sim goes badly, it feels like s
 
 **Short sessions.** A decision is a complete unit. You can open the game, resolve one plate appearance, and close it without leaving anything unfinished.
 
-**Variety across replays.** Playing a different position is not a variation, it is a different game. [Hockey Career Sim 2026](/apps/hockey-career-sim/) as a goaltender bears very little resemblance to the same game as a winger.
+**Variety across replays.** Playing a different position is not a variation, it is a different game. [Hockey Career Sim 2027](/apps/hockey-career-sim/) as a goaltender bears very little resemblance to the same game as a winger.
 
 ## What career sims are bad at
 
@@ -161,10 +163,10 @@ If you are new to the sport, start with a career sim. If you already know the sp
 If you want to try both in the same sport, our catalogue is deliberately paired:
 
 - Baseball: [Baseball Career Sim 2026](/apps/baseball-career-sim/) and [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/)
-- American football: [Football Career Sim 2026](/apps/football-career-sim/) and [Football Franchise GM League](/apps/football-draft-gm-mode/)
-- Ice hockey: [Hockey Career Sim 2026](/apps/hockey-career-sim/) and [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/)
+- American football: [Football Career Sim 2027](/apps/football-career-sim/) and [Football Franchise GM League](/apps/football-draft-gm-mode/)
+- Ice hockey: [Hockey Career Sim 2027](/apps/hockey-career-sim/) and [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/)
 - Association football: [Football Career Soccer XI Sim](/apps/soccer-career-sim-xi/) and [Pro Football GM Club Soccer](/apps/soccer-draft-gm-xi/)
-- Basketball: [Basketball Career Sim](/apps/pro-basketball-my-career-sim/) and [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/)
+- Basketball: [Basketball Career Sim](/apps/pro-basketball-my-career-sim/) and [Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/)
 
 [Golf Career Simulator Pro Tour](/apps/golf-career-simulator/) is the one that has no manager counterpart, because golf has no team to manage — which makes it the purest version of the career format we build. [Its guide](/blog/golf-career-sim-guide/) is a good illustration of what a career sim looks like when the sport removes teammates from the equation entirely.
 

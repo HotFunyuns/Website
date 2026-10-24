@@ -4,7 +4,8 @@
   "metaTitle": "How Does NHL Overtime Work? 3-on-3, Shootout, Playoffs",
   "description": "How NHL overtime works in 2026-27: five minutes of three-on-three, penalties in overtime, the shootout's rules, and why playoff overtime is a different game.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -180,4 +181,4 @@ A few practical consequences follow from the rules alone:
 
 ## Overtime in our games
 
-In [Hockey Career Sim 2026](/apps/hockey-career-sim/) you play one skater or goalie through seasons of schedules, standings and playoffs in a fictional league, making the calls — shoot, pass, defend, challenge the puck carrier, protect the net — at the points of a game where they matter. [The Hockey Career Sim 2026 guide](/blog/hockey-career-sim-guide/) covers building that player. The draft side of the sport, where you assemble a starting six and a coach and get a projected 84-game record back, is covered in [the hockey draft simulator guide](/blog/hockey-draft-gm-guide/) for [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/); its pool is built from real players' careers, rated by the game itself, and its projection is the game's own model rather than a forecast. Neither title is affiliated with the league. Our other hockey rules explainers are on the [hockey hub](/sports/hockey/), and the catalogue is under [sports career and GM games](/apps/category/sports-gm/).
+In [Hockey Career Sim 2027](/apps/hockey-career-sim/) you play one skater or goalie through seasons of schedules, standings and playoffs in a fictional league, making the calls — shoot, pass, defend, challenge the puck carrier, protect the net — at the points of a game where they matter. [The Hockey Career Sim 2027 guide](/blog/hockey-career-sim-guide/) covers building that player. The draft side of the sport, where you assemble a starting six and a coach and get a projected 84-game record back, is covered in [the hockey draft simulator guide](/blog/hockey-draft-gm-guide/) for [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/); its pool is built from real players' careers, rated by the game itself, and its projection is the game's own model rather than a forecast. Neither title is affiliated with the league. Our other hockey rules explainers are on the [hockey hub](/sports/hockey/), and the catalogue is under [sports career and GM games](/apps/category/sports-gm/).

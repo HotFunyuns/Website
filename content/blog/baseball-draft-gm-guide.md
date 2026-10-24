@@ -13,6 +13,8 @@
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": ["baseball", "draft strategy", "statistics", "gm mode", "roster building"],
   "primaryKeyword": "baseball draft simulator app",

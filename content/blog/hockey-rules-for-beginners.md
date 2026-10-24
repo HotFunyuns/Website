@@ -4,7 +4,8 @@
   "metaTitle": "Hockey Rules for Beginners: A Plain-English Guide",
   "description": "New to hockey? How a game runs from the opening faceoff to the final horn: periods, line changes, offside, icing, penalties and overtime, per the NHL rulebook.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -181,6 +182,6 @@ The playoffs drop both the three-on-three and the shootout. After a 15-minute in
 
 ## From watching to playing
 
-Once the rules make sense on television, they make sense in a game. In [Hockey Career Sim 2026](/apps/hockey-career-sim/) you play one forward, centre, defenceman or goalie through a career in a fictional league, choosing when to shoot, pass, defend, challenge the puck carrier or protect the net. If you prefer building a team to playing in it, [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) asks you to fill the six positions described above and pick a coach — its player pool is drawn from real players' careers and rated by the game itself, and [the hockey draft simulator guide](/blog/hockey-draft-gm-guide/) explains how to approach it.
+Once the rules make sense on television, they make sense in a game. In [Hockey Career Sim 2027](/apps/hockey-career-sim/) you play one forward, centre, defenceman or goalie through a career in a fictional league, choosing when to shoot, pass, defend, challenge the puck carrier or protect the net. If you prefer building a team to playing in it, [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/) asks you to fill the six positions described above and pick a coach — its player pool is drawn from real players' careers and rated by the game itself, and [the hockey draft simulator guide](/blog/hockey-draft-gm-guide/) explains how to approach it.
 
 Neither game is affiliated with any league or team. The [hockey hub](/sports/hockey/) collects the rest of our rules explainers, and all of the studio's sports titles are listed under [sports career and GM games](/apps/category/sports-gm/).

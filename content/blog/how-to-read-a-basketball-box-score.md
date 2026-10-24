@@ -4,7 +4,8 @@
   "metaTitle": "How to Read a Basketball Box Score (With an Example)",
   "description": "A column-by-column guide to the basketball box score using the league's own stat definitions, a worked example line, and what a box score cannot tell you.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -206,4 +207,4 @@ Positions change what a good line looks like, which [basketball positions explai
 
 ## Box scores in our games
 
-In [Basketball Career Sim](/apps/pro-basketball-my-career-sim/), a fictional career game, the court view shows the score, player stats, momentum and positioning as each key possession resolves, so you watch your own line build up decision by decision. The [basketball career sim guide](/blog/basketball-career-sim-guide/) explains why the relationship read-outs matter as much as that stat line. [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) works at team level instead, across a full 82-game season; the [draft and GM guide](/blog/basketball-draft-gm-guide/) explains how to read a season's results without over-reading them. Simulated numbers come from each game's own model; they are not real-world statistics or predictions. More guides are on the [basketball hub](/sports/basketball/), and the full list of titles is in the [sports GM category](/apps/category/sports-gm/).
+In [Basketball Career Sim](/apps/pro-basketball-my-career-sim/), a fictional career game, the court view shows the score, player stats, momentum and positioning as each key possession resolves, so you watch your own line build up decision by decision. The [basketball career sim guide](/blog/basketball-career-sim-guide/) explains why the relationship read-outs matter as much as that stat line. [Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/) works at team level instead, across a full 82-game season; the [draft and GM guide](/blog/basketball-draft-gm-guide/) explains how to read a season's results without over-reading them. Simulated numbers come from each game's own model; they are not real-world statistics or predictions. More guides are on the [basketball hub](/sports/basketball/), and the full list of titles is in the [sports GM category](/apps/category/sports-gm/).

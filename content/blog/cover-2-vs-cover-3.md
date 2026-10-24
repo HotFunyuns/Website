@@ -4,7 +4,8 @@
   "metaTitle": "Cover 2 vs Cover 3: Pass Coverages Explained",
   "description": "What the number in Cover 1, 2, 3 and 4 counts, how each coverage splits the field between deep and underneath defenders, and where each one is thinnest.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -172,7 +173,7 @@ The practical lesson is the one [reading a defence](/blog/reading-a-defense-basi
 
 ## Reading it from the quarterback's seat
 
-[Football Career Sim 2026](/apps/football-career-sim/) puts you behind centre for a single quarterback's career, and its in-drive decisions are the ones above: read the defence, choose the target, call an audible or escape pressure. Your archetype changes which answers are on the menu, which [quarterback archetypes explained](/blog/quarterback-archetypes-explained/) covers in detail; a mobile quarterback and a pocket passer are offered different routes out of the same situation. The game's world is fictional, and the [guide to playing a quarterback career](/blog/football-career-sim-guide/) covers how the decisions add up across a season.
+[Football Career Sim 2027](/apps/football-career-sim/) puts you behind centre for a single quarterback's career, and its in-drive decisions are the ones above: read the defence, choose the target, call an audible or escape pressure. Your archetype changes which answers are on the menu, which [quarterback archetypes explained](/blog/quarterback-archetypes-explained/) covers in detail; a mobile quarterback and a pocket passer are offered different routes out of the same situation. The game's world is fictional, and the [guide to playing a quarterback career](/blog/football-career-sim-guide/) covers how the decisions add up across a season.
 
 From the general manager's side, the coverage family changes what a defensive back is worth. A defence that leans on man coverage needs cornerbacks who can win alone. One that lives in two-deep shells asks each safety to cover half the field's width. The [football draft simulator guide](/blog/football-draft-gm-guide/) explains why a roster is capped by its weakest unit, and a secondary built for the wrong coverage is one way to create one.
 

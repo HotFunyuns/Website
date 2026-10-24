@@ -7,6 +7,8 @@
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "language-learning",
   "tags": [
     "vietnamese",

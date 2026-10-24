@@ -4,7 +4,8 @@
   "metaTitle": "Pick and Roll Explained: Reads and Defensive Coverages",
   "description": "How the pick and roll works, what makes a screen legal, the reads for the ball-handler and screener, and what drop, switch, hedge, blitz and ice each give up.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -177,6 +178,6 @@ Six decisions in about six seconds, and each one was made possible by the screen
 
 From a front-office seat, the pick and roll is a personnel question. Running it well takes a ball-handler who can shoot off the dribble, so that drop coverage hurts; a screener who can either finish at the rim or shoot, so that the defence cannot sit in one coverage; and shooters around them, so that help defence costs something. Defending it takes at least one big who can move his feet in space, or a group similar enough in size to switch.
 
-That is the kind of coverage problem [Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) asks you to solve when you draft and set rotations. The game uses its own ratings and simulation model, and nothing here describes how it scores an individual action. [Building a balanced basketball roster](/blog/how-to-build-a-balanced-basketball-roster/) works through those jobs, and [what each position is for](/blog/basketball-positions-explained/) shows why the screener is usually a big.
+That is the kind of coverage problem [Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/) asks you to solve when you draft and set rotations. The game uses its own ratings and simulation model, and nothing here describes how it scores an individual action. [Building a balanced basketball roster](/blog/how-to-build-a-balanced-basketball-roster/) works through those jobs, and [what each position is for](/blog/basketball-positions-explained/) shows why the screener is usually a big.
 
 From the player's side, [Basketball Career Sim](/apps/pro-basketball-my-career-sim/) hands you the same two decisions this action creates, in a fictional career: on offence, take the shot or move the ball on; on defence, lock down your matchup or call for help. [How to play a basketball career sim](/blog/basketball-career-sim-guide/) covers those choices over a full career, and the [draft and GM guide](/blog/basketball-draft-gm-guide/) covers the front office. More tactics and rules are on the [basketball hub](/sports/basketball/), and our other sports titles are in the [sports GM category](/apps/category/sports-gm/).

@@ -13,6 +13,8 @@
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "free agency",
@@ -156,7 +158,7 @@ In association football the equivalent market works differently, because contrac
 
 Our draft and GM games are built around the selection problem rather than around a full free-agency calendar, but the reasoning transfers directly to how you allocate a constrained budget.
 
-[Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) includes a salary-cap draft format where every selection has a price as well as a rating, which reproduces the core free-agency tension: the best player is not always the best purchase. [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/) includes payroll-focused drafting and payroll review in its GM mode.
+[Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/) includes a salary-cap draft format where every selection has a price as well as a rating, which reproduces the core free-agency tension: the best player is not always the best purchase. [162-0 Baseball Draft & GM Team](/apps/baseball-draft-gm-team/) includes payroll-focused drafting and payroll review in its GM mode.
 
 The practical skill in both is the same one free agency demands: **knowing what a marginal upgrade is actually worth to your roster, and refusing to pay more than that.** [What makes a good draft board](/blog/what-makes-a-good-draft-board/) covers finding those values before you are under time pressure.
 

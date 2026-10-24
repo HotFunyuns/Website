@@ -13,6 +13,8 @@
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "career mode",
@@ -158,7 +160,7 @@ Around that sit the systems that make a career a career: coach trust, team chemi
 
 ### The franchise shape
 
-[Pro Basketball GM Franchise](/apps/pro-basketball-draft-gm-mode/) is the other pattern. Every run begins on the draft board, the roster then plays a full 82-game season and a playoff race, and contracts, trades and rotations are yours. Eight draft formats — Unlimited, Quick, Blind, Franchise and Salary Cap drafts, plus VS Computer, Battle Mode and a Daily Challenge — change the constraints, so a roster that dominates one format can fall apart in another.
+[Basketball Game Franchise GM](/apps/pro-basketball-draft-gm-mode/) is the other pattern. Every run begins on the draft board, the roster then plays a full 82-game season and a playoff race, and contracts, trades and rotations are yours. Eight draft formats — Unlimited, Quick, Blind, Franchise and Salary Cap drafts, plus VS Computer, Battle Mode and a Daily Challenge — change the constraints, so a roster that dominates one format can fall apart in another.
 
 The same shape recurs across the other sports with different vocabulary. Football has Franchise Mode and GM Mode extending control past draft day to the wider organisation. Hockey has Franchise GM Mode for organising forwards, defenders and goaltending across seasons. Baseball has Franchise GM Mode covering the batting order, rotation, bullpen and payroll. Soccer calls it club management and includes formations, squad depth, transfers, contracts, fitness and season progress. Combat sports has GM Mode, where you sign fighters, manage contracts and move contenders toward title shots with your decisions feeding the rankings.
 

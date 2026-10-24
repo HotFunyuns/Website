@@ -4,7 +4,8 @@
   "metaTitle": "NHL 84-Game Season: What Changed and Why",
   "description": "The NHL plays 84 games in 2026-27, its first 84-game season since 1993-94. What changed, why, what it does to records, and whether any team has gone unbeaten.",
   "status": "published",
-  "editorialReview": "automated",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
   "author": "reign-creative-llc",
@@ -237,4 +238,4 @@ A one-line illustration: suppose a team had an 80 per cent chance of winning eve
 
 Read the projection for what it is: the game's own model scoring the roster you assembled. Its player pool is built from real players' careers, with ratings that are the game's own estimates, but the projected record forecasts no real game, team or season, and the game has no connection with the league or its players. [How sports simulation engines turn ratings into results](/blog/how-sports-simulation-engines-work/) explains the general mechanism, and [the hockey draft simulator guide](/blog/hockey-draft-gm-guide/) covers how to read an 84-game projection and use it to improve a roster.
 
-If you would rather play a season than project one, [Hockey Career Sim 2026](/apps/hockey-career-sim/) follows one player through schedules, standings and playoffs in an entirely fictional league. More rules and history explainers live on the [hockey hub](/sports/hockey/), and every management title is listed under [sports career and GM games](/apps/category/sports-gm/).
+If you would rather play a season than project one, [Hockey Career Sim 2027](/apps/hockey-career-sim/) follows one player through schedules, standings and playoffs in an entirely fictional league. More rules and history explainers live on the [hockey hub](/sports/hockey/), and every management title is listed under [sports career and GM games](/apps/category/sports-gm/).

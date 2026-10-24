@@ -13,6 +13,8 @@
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "hockey",
@@ -82,7 +84,7 @@
     },
     {
       "question": "Can you play a goalie career in a hockey game?",
-      "answer": "Rarely, which is much of the appeal. Hockey Career Sim 2026 includes goaltender as one of four full position paths with its own attributes and its own in-game decisions."
+      "answer": "Rarely, which is much of the appeal. Hockey Career Sim 2027 includes goaltender as one of four full position paths with its own attributes and its own in-game decisions."
     }
   ],
   "sources": [
@@ -144,7 +146,7 @@ The specifics vary between competitions, which is why the freely readable [USA H
 
 ## What a goalie career actually plays like
 
-In [Hockey Career Sim 2026](/apps/hockey-career-sim/), goaltender is one of four full position paths rather than a variant of a skater's career. Three things differ concretely:
+In [Hockey Career Sim 2027](/apps/hockey-career-sim/), goaltender is one of four full position paths rather than a variant of a skater's career. Three things differ concretely:
 
 **A different attribute tree.** Goaltending, positioning and awareness carry the position; skating and shooting are close to irrelevant. Development points spent as though you were a skater are wasted.
 
@@ -152,7 +154,7 @@ In [Hockey Career Sim 2026](/apps/hockey-career-sim/), goaltender is one of four
 
 **A different relationship with the team.** Your results depend more heavily on the quality of the defence in front of you than any skater's do on their linemates. A good season on a poor team reads worse than it was, and the game reflects that honestly rather than flattering you.
 
-If you are picking a first position, [hockey positions explained](/blog/hockey-positions-explained/) covers all four, and [the Hockey Career Sim 2026 guide](/blog/hockey-career-sim-guide/) covers development budgeting for each.
+If you are picking a first position, [hockey positions explained](/blog/hockey-positions-explained/) covers all four, and [the Hockey Career Sim 2027 guide](/blog/hockey-career-sim-guide/) covers development budgeting for each.
 
 ## Practical habits for playing the position well
 

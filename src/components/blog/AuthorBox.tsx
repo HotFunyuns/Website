@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { authorPath, type AuthorInfo } from '@/data/authors';
+import { getReviewAttestation } from '@/data/review-attestations';
 import type { EditorialReview } from '@/lib/blog/types';
 import { formatPostDate } from './format';
 
@@ -21,14 +22,17 @@ export default function AuthorBox({
   review,
   reviewerName,
   reviewDate,
+  reviewAttestation,
   publishedAt,
 }: {
   author: AuthorInfo;
   review?: EditorialReview;
   reviewerName?: string;
   reviewDate?: string;
+  reviewAttestation?: string;
   publishedAt: string;
 }) {
+  const attestation = review === 'organization' ? getReviewAttestation(reviewAttestation) : undefined;
   const company = author.kind === 'organization' ? author.name : 'Reign Creative LLC';
   return (
     <section
@@ -55,6 +59,13 @@ export default function AuthorBox({
           {reviewerName} at {company} read this article in full and approved it on{' '}
           <time dateTime={reviewDate}>{formatPostDate(reviewDate)}</time>
           {reviewDate <= publishedAt ? ', before it was published.' : ', after it was first published.'}
+        </p>
+      )}
+      {attestation && (
+        <p className="mt-3 text-sm leading-relaxed text-ink-600" data-review-statement="organization">
+          {company} confirmed on <time dateTime={attestation.attestedOn}>{formatPostDate(attestation.attestedOn)}</time>{' '}
+          that its published articles, this one included, were reviewed by people at the company. That is an
+          editorial check by the company that makes the apps, not independent or expert review.
         </p>
       )}
       {review === 'automated' && (

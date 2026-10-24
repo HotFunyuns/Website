@@ -13,6 +13,8 @@
     }
   ],
   "author": "reign-creative-llc",
+  "editorialReview": "organization",
+  "reviewAttestation": "library-2026-10-24",
   "category": "sports-gm",
   "tags": [
     "hockey",
@@ -164,8 +166,8 @@ Two practical implications for anyone playing the sport or a simulation of it:
 
 ## In a simulation
 
-In [Hockey Career Sim 2026](/apps/hockey-career-sim/) and [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/), rules like this sit inside the model rather than being adjudicated shift by shift. What surfaces to you is their effect: stamina matters, defensive-zone starts are harder than offensive-zone ones, and a tired defensive pairing concedes more.
+In [Hockey Career Sim 2027](/apps/hockey-career-sim/) and [84-0 Hockey Draft & GM Manager](/apps/hockey-draft-gm-manager/), rules like this sit inside the model rather than being adjudicated shift by shift. What surfaces to you is their effect: stamina matters, defensive-zone starts are harder than offensive-zone ones, and a tired defensive pairing concedes more.
 
-Understanding why those effects exist makes the model's behaviour legible instead of arbitrary. [Hockey positions explained](/blog/hockey-positions-explained/) covers who is responsible for what when the puck is in your own end, and [the Hockey Career Sim 2026 guide](/blog/hockey-career-sim-guide/) covers how deployment shapes a career.
+Understanding why those effects exist makes the model's behaviour legible instead of arbitrary. [Hockey positions explained](/blog/hockey-positions-explained/) covers who is responsible for what when the puck is in your own end, and [the Hockey Career Sim 2027 guide](/blog/hockey-career-sim-guide/) covers how deployment shapes a career.
 
 Our career sims are set in fictional leagues with fictional teams and players; our draft and GM games build their player pools from real-world athletes' careers, with ratings that are the games' own estimates. None of them is affiliated with or endorsed by any league, team or athlete. The catalogue is under [sports career and GM games](/apps/category/sports-gm/).
