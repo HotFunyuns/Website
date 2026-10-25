@@ -53,7 +53,8 @@
   "relatedArticles": [
     "what-a-brain-training-subscription-buys",
     "do-brain-training-apps-work",
-    "brain-games-for-older-adults"
+    "brain-games-for-older-adults",
+    "mental-math-memory-games-partnership-opportunities"
   ],
   "takeaways": [
     "This comparison uses only each publisher's own official pages, read on 21 September 2026, with our own app's listing re-read on 2 October 2026 after it changed. No third-party reviews, no ratings, no install figures and no prices are used, because none of those establish what a product contains.",

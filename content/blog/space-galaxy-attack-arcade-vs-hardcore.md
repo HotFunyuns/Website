@@ -53,7 +53,8 @@
     "shmup-difficulty-tiers",
     "vertical-shooter-games-on-android",
     "boss-weak-points-and-module-targeting",
-    "endless-mode-vs-campaign-shooters"
+    "endless-mode-vs-campaign-shooters",
+    "space-galaxy-attack-hardcore-partnership-opportunities"
   ],
   "takeaways": [
     "They are separate games, not two difficulty settings on one game. The names are close enough to cause genuine confusion and the designs diverge on structure, ships, bosses, upgrades and store terms.",

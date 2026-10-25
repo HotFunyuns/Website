@@ -49,7 +49,8 @@
   "relatedArticles": [
     "what-caused-the-bronze-age-collapse",
     "why-rome-fell",
-    "how-to-study-history-on-your-own"
+    "how-to-study-history-on-your-own",
+    "feudalism-explained"
   ],
   "takeaways": [
     "'Collapse' bundles at least four separable outcomes — political fragmentation, urban abandonment, demographic decline and cultural discontinuity — and they frequently do not occur together.",

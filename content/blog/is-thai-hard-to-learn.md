@@ -47,7 +47,9 @@
     "learn-thai-script-beginners-guide",
     "thai-tones-explained",
     "how-long-does-it-take-to-learn-russian",
-    "spaced-repetition-for-language-learning"
+    "spaced-repetition-for-language-learning",
+    "learn-thai-partnership-opportunities",
+    "thai-classifiers"
   ],
   "takeaways": [
     "Thai difficulty is concentrated rather than spread: the writing system and the tone rules account for most of it, and the grammar is unusually forgiving.",

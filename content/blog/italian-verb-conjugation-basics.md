@@ -45,7 +45,9 @@
     "learn-italian-beginners-guide",
     "italian-articles-and-gender",
     "how-long-to-learn-italian",
-    "russian-cases-explained-for-beginners"
+    "russian-cases-explained-for-beginners",
+    "italian-essere-vs-avere",
+    "italian-greetings-formal-informal"
   ],
   "takeaways": [
     "Italian verbs fall into three families by infinitive ending — -are, -ere and -ire — each with its own set of endings.",

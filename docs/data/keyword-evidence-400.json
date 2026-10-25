@@ -1,0 +1,6676 @@
+{
+ "provider": "Google Autocomplete (suggestqueries.google.com, client=firefox)",
+ "geography": "US",
+ "language": "en",
+ "measures": "phrasing only — not search volume, difficulty or CPC",
+ "collectedAt": "2026-10-25T00:03:49.015Z",
+ "keywords": [
+  {
+   "slug": "discrete-math-study-quiz-guide",
+   "keyword": "discrete math study app",
+   "ok": true,
+   "status": 200,
+   "exact": false,
+   "close": null,
+   "suggestions": []
+  },
+  {
+   "slug": "what-is-discrete-math",
+   "keyword": "what is discrete math",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "what is discrete math",
+    "what is discrete mathematics",
+    "what is discrete math used for",
+    "what is discrete math for computer science",
+    "what is discrete mathematics in computer science",
+    "what is discrete math in college",
+    "what is discrete math in high school",
+    "what is discrete mathematics used for",
+    "what is discrete math class",
+    "what is discrete mathematics in college"
+   ]
+  },
+  {
+   "slug": "how-to-make-a-truth-table",
+   "keyword": "how to make a truth table",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to make a truth table",
+    "how to make a truth table in latex",
+    "how to make a truth table with 3 variables",
+    "how to make a truth table with 2 variables",
+    "how to make a truth table with 4 variables",
+    "how to make a truth table with 5 variables",
+    "how to make a truth table in multisim",
+    "how to make a truth table in excel",
+    "how to make a truth table from a logic circuit",
+    "how to make a truth table in logisim"
+   ]
+  },
+  {
+   "slug": "converse-inverse-contrapositive",
+   "keyword": "converse inverse contrapositive",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "converse inverse contrapositive",
+    "converse inverse contrapositive biconditional",
+    "converse inverse contrapositive examples",
+    "converse inverse contrapositive meaning",
+    "converse inverse contrapositive worksheet with answers pdf",
+    "converse inverse contrapositive worksheet",
+    "converse inverse contrapositive negation",
+    "converse inverse contrapositive biconditional examples",
+    "converse inverse contrapositive biconditional worksheet",
+    "converse inverse contrapositive quizlet"
+   ]
+  },
+  {
+   "slug": "de-morgans-laws-explained",
+   "keyword": "de morgans laws",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "de morgans laws",
+    "de morgans laws for sets",
+    "de morgan's laws explained",
+    "de morgan's laws probability",
+    "de morgan's laws venn diagram",
+    "de morgans laws proof",
+    "de morgans laws set theory",
+    "de morgan's laws in boolean algebra",
+    "de morgan's laws for quantifiers",
+    "de morgan's laws logic"
+   ]
+  },
+  {
+   "slug": "tautology-contradiction-contingency",
+   "keyword": "tautology contradiction contingency",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "tautology contradiction contingency",
+    "tautology contradiction contingency truth table",
+    "tautology contradiction contingency truth table example",
+    "tautology contradiction contingency examples",
+    "tautology contradiction contingent",
+    "tautology contradiction and contingency in discrete mathematics",
+    "tautology contradiction and contingency pdf",
+    "tautology contradiction and contingency meaning",
+    "tautology contradiction and contingency definition",
+    "tautology self contradiction contingency"
+   ]
+  },
+  {
+   "slug": "logical-equivalence-explained",
+   "keyword": "logical equivalence discrete math",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "logical equivalence discrete math",
+    "logical equivalence in discrete mathematics examples",
+    "logical equivalence in discrete mathematics questions",
+    "logical equivalence in discrete mathematics truth table",
+    "logical equivalence in discrete mathematics pdf",
+    "logical equivalence in discrete mathematics formula",
+    "logical equivalence in discrete mathematics problems",
+    "logical equivalence definition discrete math",
+    "logical equivalence laws discrete math",
+    "logical equivalence symbol in discrete mathematics"
+   ]
+  },
+  {
+   "slug": "predicates-and-quantifiers",
+   "keyword": "universal and existential quantifiers",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "universal and existential quantifiers",
+    "universal and existential quantifiers examples pdf",
+    "universal and existential quantifiers examples",
+    "universal and existential quantifiers symbols",
+    "universal and existential quantifiers in discrete mathematics",
+    "universal and existential quantifiers in ai",
+    "universal and existential quantifiers examples pdf with solutions",
+    "universal and existential quantifiers difference",
+    "universal and existential quantifiers exercises",
+    "universal and existential quantifiers definition"
+   ]
+  },
+  {
+   "slug": "negating-quantified-statements",
+   "keyword": "negating quantifiers",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "negating quantifiers",
+    "negation quantifiers examples",
+    "negating nested quantifiers",
+    "negating multiple quantifiers",
+    "negating logical quantifiers",
+    "negating nested quantifiers examples",
+    "negating statements with quantifiers",
+    "what are quantifiers",
+    "10 examples of quantifiers"
+   ]
+  },
+  {
+   "slug": "rules-of-inference-explained",
+   "keyword": "rules of inference",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "rules of inference",
+    "rules of inference discrete math",
+    "rules of inference for quantified statements",
+    "rules of inference for propositional logic",
+    "rules of inference logic",
+    "rules of inference examples",
+    "rules of inference table",
+    "rules of inference practice problems",
+    "rules of inference with quantifiers",
+    "rules of inference chart"
+   ]
+  },
+  {
+   "slug": "valid-vs-sound-arguments",
+   "keyword": "valid vs sound argument",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "valid vs sound argument",
+    "valid vs sound argument philosophy",
+    "valid vs sound argument examples",
+    "valid vs sound argument logic",
+    "valid vs strong argument",
+    "valid or sound argument",
+    "valid vs sound reasoning",
+    "valid vs sound deductive argument",
+    "valid or sound reasoning",
+    "valid argument vs sound argument"
+   ]
+  },
+  {
+   "slug": "how-to-write-a-direct-proof",
+   "keyword": "how to write a direct proof",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to write a direct proof",
+    "how to do a direct proof",
+    "what is direct proof"
+   ]
+  },
+  {
+   "slug": "proof-by-contradiction-explained",
+   "keyword": "proof by contradiction",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "proof by contradiction",
+    "proof by contradiction examples",
+    "proof by contradiction vs proof by contrapositive",
+    "proof by contradiction sqrt 2 is irrational",
+    "proof by contradiction definition",
+    "proof by contradiction discrete math",
+    "proof by contradiction and contrapositive",
+    "proof by contradiction logic",
+    "proof by contradiction p and q",
+    "proof by contradiction steps"
+   ]
+  },
+  {
+   "slug": "proof-by-contrapositive-explained",
+   "keyword": "proof by contrapositive",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "proof by contrapositive",
+    "proof by contrapositive vs proof by contradiction",
+    "proof by contrapositive examples",
+    "proof by contrapositive meaning",
+    "proof by contrapositive examples and solutions",
+    "proof by contrapositive and contradiction",
+    "proof by contrapositive questions",
+    "proof by contrapositive pdf",
+    "proof by contrapositive discrete math",
+    "proof by contrapositive worksheet"
+   ]
+  },
+  {
+   "slug": "proof-by-induction-step-by-step",
+   "keyword": "proof by induction",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "proof by induction",
+    "proof by induction examples",
+    "proof by induction steps",
+    "proof by induction practice problems",
+    "proof by induction meaning",
+    "proof by induction format",
+    "proof by induction with inequalities",
+    "proof by induction problems",
+    "proof by induction explained",
+    "proof by induction practice"
+   ]
+  },
+  {
+   "slug": "strong-induction-vs-weak-induction",
+   "keyword": "strong induction vs weak induction",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "strong induction vs weak induction",
+    "strong induction vs weak induction example",
+    "when to use strong induction vs weak induction",
+    "strong induction weak induction",
+    "strong induction vs normal induction",
+    "strong induction vs induction"
+   ]
+  },
+  {
+   "slug": "set-operations-explained",
+   "keyword": "set operations",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "set operations python",
+    "set operations",
+    "set operations c++",
+    "set operations in sql",
+    "set operations symbols",
+    "set operations java",
+    "set operations math",
+    "set operations calculator",
+    "set operations latex",
+    "set operations venn diagram"
+   ]
+  },
+  {
+   "slug": "power-set-explained",
+   "keyword": "power set",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "power set",
+    "power set definition",
+    "power set of the empty set",
+    "power set symbol",
+    "power setter",
+    "power settings windows 11",
+    "power settings explorer",
+    "power set of 1 2 3",
+    "power set notation",
+    "power set of 1 2 3 4"
+   ]
+  },
+  {
+   "slug": "cartesian-product-explained",
+   "keyword": "cartesian product of sets",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "cartesian product of sets",
+    "cartesian product of sets definition",
+    "cartesian product of sets example",
+    "cartesian product of sets class 11",
+    "cartesian product of sets formula",
+    "cartesian product of sets pdf",
+    "cartesian product of sets venn diagram",
+    "cartesian product of sets meaning",
+    "cartesian product of sets questions",
+    "cartesian product of sets python"
+   ]
+  },
+  {
+   "slug": "inclusion-exclusion-principle",
+   "keyword": "inclusion exclusion principle",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "inclusion exclusion principle",
+    "inclusion exclusion principle for 3 sets",
+    "inclusion exclusion principle probability",
+    "inclusion exclusion principle formula",
+    "inclusion exclusion principle for 4 sets",
+    "inclusion exclusion principle proof",
+    "inclusion exclusion principle for n sets",
+    "inclusion exclusion principle general formula",
+    "inclusion exclusion principle examples",
+    "inclusion exclusion principle stats"
+   ]
+  },
+  {
+   "slug": "injective-surjective-bijective",
+   "keyword": "injective surjective bijective",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "injective surjective bijective",
+    "injective surjective bijective examples",
+    "injective surjective bijective functions",
+    "injective surjective bijective meaning",
+    "injective surjective bijective definition",
+    "injective surjective bijective mapping",
+    "injective surjective bijective questions and answers",
+    "injective surjective bijective diagram",
+    "injective surjective bijective exercises",
+    "injective surjective bijective difference"
+   ]
+  },
+  {
+   "slug": "function-composition-and-inverses",
+   "keyword": "inverse function discrete math",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "inverse function discrete math",
+    "inverse function examples in discrete mathematics",
+    "inverse function definition in discrete mathematics",
+    "how to find inverse function discrete math",
+    "inverse and composite function in discrete mathematics",
+    "what is inverse in discrete mathematics",
+    "inverse function in discrete mathematics",
+    "inverse function of"
+   ]
+  },
+  {
+   "slug": "properties-of-relations",
+   "keyword": "reflexive symmetric transitive",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "reflexive symmetric transitive",
+    "reflexive symmetric transitive relations examples",
+    "reflexive symmetric transitive antisymmetric",
+    "reflexive symmetric transitive definition",
+    "reflexive symmetric transitive examples",
+    "reflexive symmetric transitive worksheet",
+    "reflexive symmetric transitive antisymmetric examples",
+    "reflexive symmetric transitive discrete math",
+    "reflexive symmetric transitive and equivalence relations",
+    "reflexive symmetric transitive relations"
+   ]
+  },
+  {
+   "slug": "equivalence-relations-and-classes",
+   "keyword": "equivalence relation",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "equivalence relation",
+    "equivalence relation definition",
+    "equivalence relation properties",
+    "equivalence relation examples",
+    "equivalence relation latex",
+    "equivalence relation on a set",
+    "equivalence relation and equivalence class",
+    "equivalence relation proof",
+    "equivalence relation axioms",
+    "equivalence relations aba"
+   ]
+  },
+  {
+   "slug": "partial-orders-and-hasse-diagrams",
+   "keyword": "hasse diagram",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "hasse diagram",
+    "hasse diagram generator",
+    "hasse diagram poset",
+    "hasse diagram maker",
+    "hasse diagram discrete mathematics",
+    "hasse diagram pronunciation",
+    "hasse diagram examples",
+    "hasse diagram of d24",
+    "hasse diagram questions",
+    "hasse diagram in discrete mathematics examples"
+   ]
+  },
+  {
+   "slug": "countable-vs-uncountable-sets",
+   "keyword": "countable vs uncountable sets",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "countable and uncountable sets",
+    "countable and uncountable sets examples",
+    "countable and uncountable sets in discrete mathematics",
+    "countable and uncountable sets pdf",
+    "countable and uncountable sets in real analysis",
+    "countable and uncountable sets in real analysis pdf",
+    "countable vs uncountable sets",
+    "countable and uncountable sets definition",
+    "countable vs uncountable nouns",
+    "countable vs uncountable nouns exercises"
+   ]
+  },
+  {
+   "slug": "permutations-vs-combinations",
+   "keyword": "permutations vs combinations",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "permutations vs combinations",
+    "permutations vs combinations formula",
+    "permutations vs combinations examples",
+    "permutations vs combinations act",
+    "permutations vs combinations worksheet",
+    "permutations vs combinations when to use",
+    "combinations vs permutations",
+    "permutations and combinations",
+    "permutations and combinations class 11",
+    "permutations and combinations formula"
+   ]
+  },
+  {
+   "slug": "binomial-theorem-and-pascals-triangle",
+   "keyword": "binomial theorem",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "binomial theorem",
+    "binomial theorem formula",
+    "binomial theorem proof",
+    "binomial theorem probability",
+    "binomial theorem worksheet",
+    "binomial theorem calculator",
+    "binomial theorem worksheet pdf",
+    "binomial theorem pascal's triangle",
+    "binomial theorem explained",
+    "binomial theorem example"
+   ]
+  },
+  {
+   "slug": "pigeonhole-principle-examples",
+   "keyword": "pigeonhole principle",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "pigeonhole principle",
+    "pigeonhole principle problems",
+    "pigeonhole principle formula",
+    "pigeonhole principle proof",
+    "pigeonhole principle discrete math",
+    "pigeonhole principle example",
+    "pigeonhole principle meaning",
+    "pigeonhole principle math",
+    "pigeonhole principle applications",
+    "pigeonhole principle explained"
+   ]
+  },
+  {
+   "slug": "stars-and-bars-explained",
+   "keyword": "stars and bars",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "stars and bars",
+    "stars and bars formula",
+    "stars and bars flag",
+    "stars and bars method",
+    "stars and bars math",
+    "stars and bars combinatorics",
+    "stars and bars fairy lamp",
+    "stars and bars confederate flag",
+    "stars and bars movie",
+    "stars and bars flag meaning"
+   ]
+  },
+  {
+   "slug": "derangements-explained",
+   "keyword": "derangements",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "derangements",
+    "derangements formula",
+    "derangements meaning",
+    "derangements math",
+    "derangements medical",
+    "derangements wod",
+    "derangements v20",
+    "derangements combinatorics",
+    "derangements of my contemporaries",
+    "derangements play"
+   ]
+  },
+  {
+   "slug": "catalan-numbers-explained",
+   "keyword": "catalan numbers",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "catalan numbers",
+    "catalan numbers formula",
+    "catalan numbers generating function",
+    "catalan numbers list",
+    "catalan numbers oeis",
+    "catalan numbers proof",
+    "catalan numbers language",
+    "catalan numbers binary trees",
+    "catalan numbers parentheses",
+    "catalan numbers lattice paths"
+   ]
+  },
+  {
+   "slug": "conditional-probability-and-bayes",
+   "keyword": "conditional probability bayes theorem",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "conditional probability bayes theorem",
+    "conditional probability bayes theorem examples",
+    "conditional probability bayes theorem pdf",
+    "conditional expectation bayes theorem",
+    "bayes rule and conditional probability",
+    "conditional probability bayes formula",
+    "conditional probability vs bayes theorem",
+    "conditional probability and bayes theorem questions and answers pdf",
+    "conditional probability formula bayes theorem",
+    "conditional probability and bayes theorem difference"
+   ]
+  },
+  {
+   "slug": "expected-value-explained",
+   "keyword": "expected value discrete math",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "expected value discrete math",
+    "expected value and variance in discrete mathematics",
+    "discrete expected value",
+    "what is expected value in math"
+   ]
+  },
+  {
+   "slug": "binomial-distribution-explained",
+   "keyword": "binomial distribution",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "binomial distribution",
+    "binomial distribution calculator",
+    "binomial distribution formula",
+    "binomial distribution variance",
+    "binomial distribution vs normal distribution",
+    "binomial distribution graph",
+    "binomial distribution notation",
+    "binomial distribution table",
+    "binomial distribution examples",
+    "binomial distribution histogram"
+   ]
+  },
+  {
+   "slug": "birthday-problem-explained",
+   "keyword": "birthday problem",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "birthday problem",
+    "birthday problem statistics",
+    "birthday problem explained",
+    "birthday problem calculator",
+    "birthday problem probability",
+    "birthday problem formula",
+    "birthday problem math",
+    "birthday problem 23 people",
+    "birthday problem solution",
+    "birthday problem wikipedia"
+   ]
+  },
+  {
+   "slug": "monty-hall-problem-explained",
+   "keyword": "monty hall problem",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "monty hall problem",
+    "monty hall problem explained",
+    "monty hall problem probability",
+    "monty hall problem simulation",
+    "monty hall problem reddit",
+    "monty hall problem marilyn vos savant",
+    "monty hall problem game",
+    "monty hall problem solution",
+    "monty hall problem is wrong",
+    "monty hall problem explained simply"
+   ]
+  },
+  {
+   "slug": "recurrence-relations-explained",
+   "keyword": "recurrence relations",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "recurrence relations",
+    "recurrence relationship",
+    "recurrence relations exponential idle",
+    "recurrence relations in discrete mathematics",
+    "recurrence relations a level maths",
+    "recurrence relations higher maths",
+    "recurrence relations formula",
+    "recurrence relations in daa",
+    "recurrence relations questions",
+    "recurrence relations a level further maths"
+   ]
+  },
+  {
+   "slug": "generating-functions-explained",
+   "keyword": "generating functions",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "generating functions",
+    "generating functions evan chen",
+    "generating functions combinatorics",
+    "generating functions aops",
+    "generating functions probability",
+    "generating functions problems",
+    "generating functions aime",
+    "generating functions in discrete mathematics",
+    "generating functions pdf",
+    "generating functions codeforces"
+   ]
+  },
+  {
+   "slug": "big-o-notation-explained",
+   "keyword": "big o notation",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "big o notation",
+    "big o notation cheat sheet",
+    "big o notation examples",
+    "big o notation graph",
+    "big o notation definition",
+    "big o notation explained",
+    "big o notation latex",
+    "big o notation chart",
+    "big o notation math",
+    "big o notation practice problems"
+   ]
+  },
+  {
+   "slug": "modular-arithmetic-explained",
+   "keyword": "modular arithmetic",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "modular arithmetic",
+    "modular arithmetic rules",
+    "modular arithmetic properties",
+    "modular arithmetic calculator",
+    "modular arithmetic examples and solutions",
+    "modular arithmetic python",
+    "modular arithmetic in cryptography",
+    "modular arithmetic formulas",
+    "modular arithmetic for dummies",
+    "modular arithmetic theorems"
+   ]
+  },
+  {
+   "slug": "euclidean-algorithm-explained",
+   "keyword": "euclidean algorithm",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "euclidean algorithm",
+    "euclidean algorithm for gcd",
+    "euclidean algorithm proof",
+    "euclidean algorithm example",
+    "euclidean algorithm calculator",
+    "euclidean algorithm python",
+    "euclidean algorithm vs extended euclidean algorithm",
+    "euclidean algorithm gcf",
+    "euclidean algorithm to find inverse modulo",
+    "euclidean algorithm formula"
+   ]
+  },
+  {
+   "slug": "modular-inverse-explained",
+   "keyword": "modular inverse",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "modular inverse",
+    "modular inverse calculator",
+    "modular inverse formula",
+    "modular inverse meaning",
+    "modular inverse python",
+    "modular inverse c++",
+    "modular inverse of 7 mod 26",
+    "modular inverse of a number",
+    "modular inverse of 1/3 mod 26",
+    "modular inverse of 17 mod 43"
+   ]
+  },
+  {
+   "slug": "chinese-remainder-theorem-explained",
+   "keyword": "chinese remainder theorem",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "chinese remainder theorem",
+    "chinese remainder theorem example",
+    "chinese remainder theorem formula",
+    "chinese remainder theorem calculator",
+    "chinese remainder theorem aops",
+    "chinese remainder theorem proof",
+    "chinese remainder theorem for rings",
+    "chinese remainder theorem problems",
+    "chinese remainder theorem algorithm",
+    "chinese remainder theorem for ideals"
+   ]
+  },
+  {
+   "slug": "fundamental-theorem-of-arithmetic",
+   "keyword": "fundamental theorem of arithmetic",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "fundamental theorem of arithmetic",
+    "fundamental theorem of arithmetic proof",
+    "fundamental theorem of arithmetic class 10",
+    "fundamental theorem of arithmetic definition",
+    "fundamental theorem of arithmetic in hindi",
+    "fundamental theorem of arithmetic example",
+    "fundamental theorem of arithmetic class 10th",
+    "fundamental theorem of arithmetic progression",
+    "fundamental theorem of arithmetic formula",
+    "fundamental theorem of arithmetic statement"
+   ]
+  },
+  {
+   "slug": "fermats-little-theorem-and-rsa",
+   "keyword": "fermats little theorem",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "fermat's little theorem",
+    "fermat's little theorem proof",
+    "fermat's little theorem example",
+    "fermat's little theorem practice problems",
+    "fermat's little theorem problems with solutions pdf",
+    "fermat's little theorem modular arithmetic",
+    "fermat's little theorem calculator",
+    "fermat's little theorem and euler's theorem",
+    "fermat's little theorem for modular inverse",
+    "fermat's little theorem in cryptography"
+   ]
+  },
+  {
+   "slug": "number-bases-and-binary",
+   "keyword": "converting number bases",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "converting number bases",
+    "changing number bases",
+    "converting number systems",
+    "converting between number bases",
+    "conversion of number bases",
+    "conversion of number bases jss2",
+    "conversion of number bases pdf"
+   ]
+  },
+  {
+   "slug": "boolean-algebra-and-logic-gates",
+   "keyword": "boolean algebra laws",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "boolean algebra laws",
+    "boolean algebra laws and theorems",
+    "boolean algebra laws pdf",
+    "boolean algebra laws cheat sheet",
+    "boolean algebra laws in digital electronics",
+    "boolean algebra laws proof",
+    "boolean algebra laws with examples",
+    "boolean algebra laws in hindi",
+    "boolean algebra laws questions",
+    "boolean algebra laws and theorems pdf"
+   ]
+  },
+  {
+   "slug": "graph-theory-basics",
+   "keyword": "graph theory basics",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "graph theory basics",
+    "graph theory basics pdf",
+    "graph theory basics ppt",
+    "graph theory basic definitions",
+    "graph theory basic terminology",
+    "graph theory basic problems",
+    "graph theory basic questions",
+    "graph theory basic book",
+    "graph theory basic concepts pdf",
+    "graph theory basic terms"
+   ]
+  },
+  {
+   "slug": "euler-path-vs-euler-circuit",
+   "keyword": "euler path vs euler circuit",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "euler path vs euler circuit",
+    "euler path and euler circuit",
+    "euler trail vs euler circuit",
+    "euler path and euler circuit example",
+    "euler path and euler circuit difference",
+    "euler tour vs euler circuit",
+    "euler path and euler circuit definition",
+    "euler path vs euler cycle",
+    "euler trail and euler circuit",
+    "euler path and euler cycle"
+   ]
+  },
+  {
+   "slug": "hamiltonian-path-explained",
+   "keyword": "hamiltonian path",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "hamiltonian path",
+    "hamiltonian path problem",
+    "hamiltonian path puzzle",
+    "hamiltonian path algorithm",
+    "hamiltonian path vs cycle",
+    "hamiltonian path and circuit",
+    "hamiltonian path solver",
+    "hamiltonian path definition",
+    "hamiltonian path vs circuit",
+    "hamiltonian path puzzle solver"
+   ]
+  },
+  {
+   "slug": "trees-in-graph-theory",
+   "keyword": "trees graph theory",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "trees graph theory",
+    "trees graph theory pdf",
+    "tree graph theory definition",
+    "tree graph theory example",
+    "tree graph theory wikipedia",
+    "spanning trees graph theory",
+    "trees in graph theory pdf notes",
+    "trees in graph theory ppt",
+    "counting trees graph theory",
+    "trees formula graph theory"
+   ]
+  },
+  {
+   "slug": "minimum-spanning-tree-explained",
+   "keyword": "minimum spanning tree",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "minimum spanning tree",
+    "minimum spanning tree algorithm",
+    "minimum spanning tree leetcode",
+    "minimum spanning tree definition",
+    "minimum spanning tree problem",
+    "minimum spanning tree (mst)",
+    "minimum spanning tree python",
+    "minimum spanning tree kruskal algorithm",
+    "minimum spanning tree example",
+    "minimum spanning tree directed graph"
+   ]
+  },
+  {
+   "slug": "dijkstras-algorithm-explained",
+   "keyword": "dijkstras algorithm",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "dijkstra's algorithm",
+    "dijkstra's algorithm python",
+    "dijkstra's algorithm runtime",
+    "dijkstra's algorithm time complexity",
+    "dijkstra's algorithm beaten",
+    "dijkstra's algorithm explained",
+    "dijkstra's algorithm pseudocode",
+    "dijkstra's algorithm code",
+    "dijkstra's algorithm example",
+    "dijkstra's algorithm table"
+   ]
+  },
+  {
+   "slug": "graph-coloring-explained",
+   "keyword": "graph coloring chromatic number",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "graph coloring chromatic number",
+    "graph coloring problem chromatic number",
+    "graph coloring and chromatic number ppt",
+    "explain graph coloring and chromatic number",
+    "explain graph coloring and chromatic number give an example",
+    "difference between graph coloring and chromatic number",
+    "chromatic number of a graph"
+   ]
+  },
+  {
+   "slug": "bipartite-graphs-explained",
+   "keyword": "bipartite graph",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "bipartite graph",
+    "bipartite graph leetcode",
+    "bipartite graph meaning",
+    "bipartite graph example",
+    "bipartite graph algorithm",
+    "bipartite graph theory",
+    "bipartite graph matching",
+    "bipartite graph properties",
+    "bipartite graph matching algorithm",
+    "bipartite graph notation"
+   ]
+  },
+  {
+   "slug": "planar-graphs-and-eulers-formula",
+   "keyword": "planar graph euler formula",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "planar graph euler formula",
+    "planar graph euler formula proof",
+    "planar graph formula",
+    "state and prove euler's formula for planar graph"
+   ]
+  },
+  {
+   "slug": "graph-isomorphism-explained",
+   "keyword": "graph isomorphism",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "graph isomorphism",
+    "graph isomorphism problem",
+    "graph isomorphism network",
+    "graph isomorphism in quasipolynomial time",
+    "graph isomorphism network (gin)",
+    "graph isomorphism checker",
+    "graph isomorphism algorithm",
+    "graph isomorphism definition",
+    "graph isomorphism in discrete mathematics",
+    "graph isomorphism example"
+   ]
+  },
+  {
+   "slug": "adjacency-matrix-explained",
+   "keyword": "adjacency matrix",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "adjacency matrix",
+    "adjacency matrix vs adjacency list",
+    "adjacency matrix interior design",
+    "adjacency matrix maker",
+    "adjacency matrix of a graph",
+    "adjacency matrix architecture",
+    "adjacency matrix for directed graph",
+    "adjacency matrix generator",
+    "adjacency matrix template",
+    "adjacency matrix example"
+   ]
+  },
+  {
+   "slug": "how-to-study-for-a-discrete-math-exam",
+   "keyword": "discrete math exam",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "discrete math examples",
+    "discrete math example problem",
+    "discrete math exam",
+    "discrete math example question",
+    "discrete math exam 1 review",
+    "discrete math exam 1 cheat sheet",
+    "discrete math exam 1",
+    "discrete math exam 1 practice",
+    "discrete math examples with answers",
+    "discrete math examples in real life"
+   ]
+  },
+  {
+   "slug": "discrete-math-cheat-sheet",
+   "keyword": "discrete math cheat sheet",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "discrete math cheat sheet",
+    "discrete math cheat sheet pdf",
+    "discrete math cheat sheet reddit",
+    "discrete structures cheat sheet",
+    "discrete math reference sheet",
+    "discrete structures cheat sheet pdf",
+    "discrete math symbols cheat sheet",
+    "discrete math proofs cheat sheet",
+    "discrete math notation cheat sheet",
+    "discrete math counting cheat sheet"
+   ]
+  },
+  {
+   "slug": "sequences-and-summation-notation",
+   "keyword": "summation notation",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "summation notation",
+    "summation notation formulas",
+    "summation notation calculator",
+    "summation notation meaning",
+    "summation notation latex",
+    "summation notation explained",
+    "summation notation examples",
+    "summation notation for integrals",
+    "summation notation examples with answers",
+    "summation notation rules"
+   ]
+  },
+  {
+   "slug": "finite-state-machines-explained",
+   "keyword": "finite state machine",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "finite state machine",
+    "finite state machine vs state machine",
+    "finite state machine diagram",
+    "finite state machine example",
+    "finite state machine designer",
+    "finite state machine vs behavior tree",
+    "finite state machine godot",
+    "finite state machine diagram maker",
+    "finite state machine definition",
+    "finite state machine vs markov chain"
+   ]
+  },
+  {
+   "slug": "learn-to-trade-stocks-guide",
+   "keyword": "learn to trade stocks app",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "learn to trade stocks app",
+    "best app to learn to trade stocks",
+    "learn how to trade stocks",
+    "learn how to trade stocks for free"
+   ]
+  },
+  {
+   "slug": "what-is-a-stock",
+   "keyword": "what is a stock",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "what is a stock corporation - ca - general",
+    "what is a stock",
+    "what is a stock corporation in california",
+    "what is a stock buyback and why do companies do it",
+    "what is a stocking team associate at walmart",
+    "what is a stock the bar party",
+    "what is a stock buyback",
+    "what is a stock cooperative condo",
+    "what is a stock split",
+    "what is a stockbroker"
+   ]
+  },
+  {
+   "slug": "how-the-stock-market-works",
+   "keyword": "how does the stock market work",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how does the stock market work",
+    "how does the stock market work in cookie clicker",
+    "how does the stock market work for beginners",
+    "how does the stock market work in gta 5",
+    "how does the stock market work in simple terms",
+    "how does the stock market work in gta 5 story mode",
+    "how does the stock market work for dummies",
+    "how does the stock market work in hydroneer",
+    "how does the stock market work after hours",
+    "how does the stock market work in cruelty squad"
+   ]
+  },
+  {
+   "slug": "market-order-vs-limit-order",
+   "keyword": "market order vs limit order",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "market order vs limit order",
+    "market order vs limit order vs stop order",
+    "market order vs limit order fidelity",
+    "market order vs limit order vs stop loss",
+    "market order vs limit order example",
+    "market order vs limit order in hindi",
+    "market order vs limit order which is better",
+    "market order vs limit order reddit",
+    "market order vs limit order stockbit",
+    "market order vs limit order etf"
+   ]
+  },
+  {
+   "slug": "stop-order-vs-stop-limit-order",
+   "keyword": "stop order vs stop limit order",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "stop order vs stop limit order",
+    "stop order vs stop limit order robinhood",
+    "stop order vs stop limit order reddit",
+    "stop order vs stop limit order example",
+    "stop order vs stop limit order buy",
+    "stop order and stop limit order",
+    "stop order vs stop loss order",
+    "stop order and stop limit order difference",
+    "stop order vs stop limit sell",
+    "stop loss order vs stop limit order"
+   ]
+  },
+  {
+   "slug": "bid-ask-spread-explained",
+   "keyword": "bid ask spread",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "bid ask spread",
+    "bid ask spread explained",
+    "bid ask spread formula",
+    "bid ask spread meaning",
+    "bid ask spread example",
+    "bid ask spread percentage",
+    "bid ask spread calculation",
+    "bid ask spread definition",
+    "bid ask spread options",
+    "bid ask spread bonds"
+   ]
+  },
+  {
+   "slug": "how-to-read-a-stock-quote",
+   "keyword": "how to read a stock quote",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to read a stock quote",
+    "how to read a stock quote medium",
+    "how to read a stock quote article",
+    "how to read a stock quote chart",
+    "how to read a stock quote activity sheet",
+    "how to read a stock quote stock performance nike",
+    "how to read a stock table quote",
+    "how to read a stock ticker",
+    "how to read a stock price",
+    "how to read a stock price chart"
+   ]
+  },
+  {
+   "slug": "what-is-paper-trading",
+   "keyword": "what is paper trading",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "what is paper trading",
+    "what is paper trading on tradingview",
+    "what is paper trading in stock market",
+    "what is paper trading account",
+    "what is paper trading mean",
+    "what is paper trading and how does it work",
+    "what is paper trading on webull",
+    "what is paper trading options",
+    "what is paper trading stocks",
+    "what is paper trading and how to do it"
+   ]
+  },
+  {
+   "slug": "stock-market-hours-explained",
+   "keyword": "stock market hours",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "stock market hours",
+    "stock market hours today",
+    "stock market hours pst",
+    "stock market hours california",
+    "stock market hours central time",
+    "stock market hours labor day",
+    "stock market hours of operation",
+    "stock market hours changing",
+    "stock market hours cst",
+    "stock market hours on columbus day"
+   ]
+  },
+  {
+   "slug": "cash-account-vs-margin-account",
+   "keyword": "cash account vs margin account",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "cash account vs margin account",
+    "cash account vs margin account robinhood",
+    "cash account vs margin account webull",
+    "cash account vs margin account day trading",
+    "cash account vs margin account ibkr",
+    "cash account vs margin account questrade",
+    "cash account vs margin account reddit",
+    "cash account vs margin account moomoo",
+    "cash account vs margin account fidelity",
+    "cash account vs margin account schwab"
+   ]
+  },
+  {
+   "slug": "margin-call-explained",
+   "keyword": "margin call",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "margin call",
+    "margin call movie",
+    "margin call meaning",
+    "margin call cast",
+    "margin call where to watch",
+    "margin call movie based on true story",
+    "margin call definition",
+    "margin call trailer",
+    "margin call imdb",
+    "margin call korea"
+   ]
+  },
+  {
+   "slug": "short-selling-explained",
+   "keyword": "how short selling works",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how short selling works",
+    "how short selling works stock market",
+    "how short selling works on robinhood",
+    "how short selling works in zerodha",
+    "how short selling works with example",
+    "how short selling works in forex",
+    "how short selling works in crypto",
+    "how short sale works",
+    "how long selling works",
+    "how short selling stock works"
+   ]
+  },
+  {
+   "slug": "etf-vs-mutual-fund",
+   "keyword": "etf vs mutual fund",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "etf vs mutual fund",
+    "etf vs mutual fund vs index fund",
+    "etf vs mutual fund which is better for long-term",
+    "etf vs mutual fund which is better",
+    "etf vs mutual fund for roth ira",
+    "etf vs mutual fund pros and cons",
+    "etf vs mutual fund vs money market",
+    "etf vs mutual fund vs stock",
+    "etf vs mutual fund tax efficiency",
+    "etf vs mutual fund vs index fund vs stock"
+   ]
+  },
+  {
+   "slug": "index-funds-explained",
+   "keyword": "what is an index fund",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "what is an index fund",
+    "what is an index fund and how does it work",
+    "what is an index fund vs etf",
+    "what is an index fund in simple terms",
+    "what is an index fund vs mutual fund",
+    "what is an index fund and how to invest",
+    "what is an index fund expense ratio",
+    "what is an index fund etf",
+    "what is an index fund for dummies",
+    "what is an index fund fidelity"
+   ]
+  },
+  {
+   "slug": "diversification-explained",
+   "keyword": "diversification investing",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "diversification investing",
+    "diversification investing definition",
+    "investing diversification strategy morningstar",
+    "investing diversification strategy",
+    "portfolio diversification investing styles",
+    "diversification in investing helps in",
+    "diversification in investing is important for",
+    "diversification in investing examples",
+    "diversification in investing simple definition",
+    "diversification in investing is important because ____"
+   ]
+  },
+  {
+   "slug": "how-dividends-work",
+   "keyword": "how do dividends work",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how do dividends work",
+    "how do dividends work in stocks",
+    "how do dividends work in a roth ira",
+    "how do dividends work with etfs",
+    "how do dividends work on robinhood",
+    "how do dividends work in 401k",
+    "how do dividends work credit union",
+    "how do dividends work with options",
+    "how do dividends work in accounting",
+    "how do dividends work in an ira"
+   ]
+  },
+  {
+   "slug": "stock-splits-explained",
+   "keyword": "stock split explained",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "stock split explained",
+    "stock split explained for dummies",
+    "reverse split explained",
+    "share split explained",
+    "stock split definition",
+    "stock split definition economics",
+    "stock split definition finance",
+    "stock split definition simple",
+    "stock split analysis",
+    "stock split analysis nvda"
+   ]
+  },
+  {
+   "slug": "market-capitalization-explained",
+   "keyword": "market capitalization",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "market capitalization",
+    "market capitalization meaning",
+    "market capitalization ranking",
+    "market capitalization definition",
+    "market capitalization of nvidia",
+    "market capitalization rate",
+    "market capitalization of apple",
+    "market capitalization of tesla",
+    "market capitalization calculation",
+    "market capitalization equation"
+   ]
+  },
+  {
+   "slug": "pe-ratio-explained",
+   "keyword": "price to earnings ratio",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "price to earnings ratio",
+    "price to earnings ratio meaning",
+    "price to earnings ratio s&p 500",
+    "price to earnings ratio formula",
+    "price to earnings ratio nvidia",
+    "price to earnings ratio spacex",
+    "price to earnings ratio what is good",
+    "price to earnings ratio explained",
+    "price to earnings ratio tesla",
+    "price to earnings ratio definition"
+   ]
+  },
+  {
+   "slug": "earnings-per-share-explained",
+   "keyword": "earnings per share",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "earnings per share",
+    "earnings per share formula",
+    "earnings per share meaning",
+    "earnings per share calculation",
+    "earnings per share ratio",
+    "earnings per share equation",
+    "earnings per share example",
+    "earnings per share explained",
+    "earnings per share (eps)",
+    "earnings per share on income statement"
+   ]
+  },
+  {
+   "slug": "how-to-read-an-earnings-report",
+   "keyword": "how to read an earnings report",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to read an earnings report",
+    "how to read an earnings statement",
+    "how to read an earnings call",
+    "how to read earnings report pdf",
+    "how to read earnings report reddit",
+    "how to read airbnb earnings report",
+    "how do you read an earnings report",
+    "how to read a quality of earnings report",
+    "how to read military earnings statement",
+    "how to read adp earnings statement"
+   ]
+  },
+  {
+   "slug": "how-to-read-candlestick-charts",
+   "keyword": "how to read candlestick charts",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to read candlestick charts",
+    "how to read candlestick charts for day trading",
+    "how to read candlestick charts for beginners",
+    "how to read candlestick charts fast",
+    "how to read candlestick charts for stocks",
+    "how to read candlestick charts pdf",
+    "how to read candlestick charts fast beginner's guide",
+    "how to read candlestick charts with zero experience",
+    "how to read candlestick chart for day trading pdf",
+    "how to read candle chart in trading"
+   ]
+  },
+  {
+   "slug": "moving-averages-explained",
+   "keyword": "moving average stocks",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "moving average stocks",
+    "moving average stocks meaning",
+    "moving average stock screener",
+    "moving average stock market",
+    "moving average stock chart",
+    "moving average stock price",
+    "moving average stock trading strategy",
+    "moving average stock indicator",
+    "moving average stock price calculator",
+    "moving average stock analysis"
+   ]
+  },
+  {
+   "slug": "rsi-indicator-explained",
+   "keyword": "rsi indicator",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "rsi indicator",
+    "rsi indicator buy and sell signals",
+    "rsi indicator explained",
+    "rsi indicator meaning",
+    "rsi indicator today",
+    "rsi indicator tradingview",
+    "rsi indicator settings",
+    "rsi indicator stocks",
+    "rsi indicator formula",
+    "rsi indicator chart"
+   ]
+  },
+  {
+   "slug": "macd-explained",
+   "keyword": "macd indicator",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "macd indicator",
+    "macd indicator explained",
+    "macd indicator how to use",
+    "macd indicator settings",
+    "macd indicator tradingview",
+    "macd indicator meaning",
+    "macd indicator formula",
+    "macd indicator best settings",
+    "macd indicator today",
+    "macd indicator 12 26 9"
+   ]
+  },
+  {
+   "slug": "trading-volume-explained",
+   "keyword": "trading volume",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "trading volume",
+    "trading volume chart",
+    "trading volume meaning",
+    "trading volume today",
+    "trading volume profile",
+    "trading volume analysis pdf",
+    "trading volume indicator",
+    "trading volume alpha",
+    "trading volume analysis",
+    "trading volume graph"
+   ]
+  },
+  {
+   "slug": "support-and-resistance-explained",
+   "keyword": "support and resistance",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "support and resistance",
+    "support and resistance trading",
+    "support and resistance vs supply and demand",
+    "support and resistance indicator",
+    "support and resistance meaning in trading",
+    "support and resistance levels",
+    "support and resistance trading strategy",
+    "support and resistance in stock market",
+    "support and resistance indicator tradingview",
+    "support and resistance lines"
+   ]
+  },
+  {
+   "slug": "technical-vs-fundamental-analysis",
+   "keyword": "technical vs fundamental analysis",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "technical vs fundamental analysis",
+    "technical vs fundamental analysis series 7",
+    "technical vs fundamental analysis trading",
+    "technical vs fundamental analysis finance",
+    "technical vs fundamental analysis of stocks",
+    "technical vs fundamental analysis reddit",
+    "technical vs fundamental analysis which is better",
+    "technical vs fundamental analysis forex",
+    "technical vs fundamental analysis cfa",
+    "technical vs fundamental analysis emh"
+   ]
+  },
+  {
+   "slug": "what-is-volatility",
+   "keyword": "stock volatility",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "stock volatility",
+    "stock volatility index",
+    "stock volatility meaning",
+    "stock volatility calculator",
+    "stock volatility indicator",
+    "stock volatility formula",
+    "stock volatility measures",
+    "stock volatility tracker",
+    "stock volatility chart",
+    "stock volatility screener"
+   ]
+  },
+  {
+   "slug": "bull-vs-bear-market",
+   "keyword": "bull vs bear market",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "bull vs bear market",
+    "bull vs bear market meaning",
+    "bull vs bear market when to buy",
+    "bull vs bear market chart",
+    "bull vs bear market history",
+    "bull vs bear market how to remember",
+    "bull vs bear market name origin",
+    "bull vs bear market origin",
+    "bull vs bear market graph",
+    "bull vs bear market statue"
+   ]
+  },
+  {
+   "slug": "what-is-an-ipo",
+   "keyword": "what is an ipo",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "what is an ipo",
+    "what is an ipod",
+    "what is an ipo in business",
+    "what is an ipo in stocks",
+    "what is an ipod nano",
+    "what is an ipod touch",
+    "what is an ipo in finance",
+    "what is an ipo in a health organization",
+    "what is an ipod used for",
+    "what is an ipo company"
+   ]
+  },
+  {
+   "slug": "trade-settlement-t-plus-1",
+   "keyword": "t+1 settlement",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "t+1 settlement rule",
+    "t+1 settlement",
+    "t+1 settlement example",
+    "t+1 settlement cycle",
+    "t+1 settlement time of day",
+    "t+1 settlement meaning",
+    "t+1 settlement does not apply to which type of securities",
+    "t+1 settlement europe",
+    "t+1 settlement time",
+    "t+1 settlement change"
+   ]
+  },
+  {
+   "slug": "pattern-day-trader-rule",
+   "keyword": "pattern day trader rule",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "pattern day trader rule",
+    "pattern day trader rule change",
+    "pattern day trader rule robinhood",
+    "pattern day trader rule change robinhood",
+    "pattern day trader rule fidelity",
+    "pattern day trader rule change schwab",
+    "pattern day trader rule cash account",
+    "pattern day trader rule schwab",
+    "pattern day trader rule gone",
+    "pattern day trader rule change ibkr"
+   ]
+  },
+  {
+   "slug": "call-and-put-options-explained",
+   "keyword": "call and put options",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "call and put options",
+    "call and put options explained",
+    "call and put options explained for dummies",
+    "call and put options examples",
+    "call and put options chart",
+    "call and put options meaning",
+    "call and put options calculator",
+    "call and put options for beginners",
+    "call and put options examples pdf",
+    "call and put options examples in hindi"
+   ]
+  },
+  {
+   "slug": "wash-sale-rule-explained",
+   "keyword": "wash sale rule",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "wash sale rule",
+    "wash sale rule 30 days",
+    "wash sale rule 30 or 31 days",
+    "wash sale rule explained",
+    "wash sale rule examples",
+    "wash sale rule for options",
+    "wash sale rules stocks",
+    "wash sale rule only applies to losses",
+    "wash sale rule crypto",
+    "wash sale rule 30 days before example"
+   ]
+  },
+  {
+   "slug": "capital-gains-tax-on-stocks",
+   "keyword": "capital gains tax on stocks",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "capital gains tax on stocks",
+    "capital gains tax on stocks held over a year",
+    "capital gains tax on stocks long term",
+    "capital gains tax on stocks held less than a year",
+    "capital gains tax on stocks short term",
+    "capital gains tax on stocks sold",
+    "capital gains tax on stocks in california",
+    "capital gains tax on stocks in usa",
+    "capital gains tax on stocks 2026",
+    "capital gains tax on stocks calculator"
+   ]
+  },
+  {
+   "slug": "investment-fraud-red-flags",
+   "keyword": "investment fraud red flags",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "investment fraud red flags",
+    "what should you do if you suspect fraud"
+   ]
+  },
+  {
+   "slug": "sipc-protection-explained",
+   "keyword": "sipc protection",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "sipc protection",
+    "sipc protection limits",
+    "sipc protection meaning",
+    "sipc protection vs fdic",
+    "sipc protection fidelity",
+    "sipc protection amount",
+    "sipc protection per account",
+    "sipc protection robinhood",
+    "sipc protection schwab",
+    "sipc protection singapore"
+   ]
+  },
+  {
+   "slug": "compound-interest-explained",
+   "keyword": "compound interest explained",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "compound interest explained",
+    "compound interest explained simply",
+    "compound interest explained for kids",
+    "compound interest explained for dummies",
+    "compound interest explained for teens",
+    "compound interest explained in simple terms",
+    "compound interest explained easily",
+    "compound interest explained math",
+    "compound interest explained in one minute",
+    "compound interest explained with example"
+   ]
+  },
+  {
+   "slug": "dollar-cost-averaging-explained",
+   "keyword": "dollar cost averaging",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "dollar cost averaging",
+    "dollar cost averaging vs lump sum",
+    "dollar cost averaging calculator",
+    "dollar cost averaging meaning",
+    "dollar cost averaging strategy",
+    "dollar cost averaging vs lump sum investing",
+    "dollar cost averaging investing",
+    "dollar cost averaging fidelity",
+    "dollar cost averaging stocks",
+    "dollar cost averaging explained"
+   ]
+  },
+  {
+   "slug": "stocks-vs-bonds",
+   "keyword": "stocks vs bonds",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "stocks vs bonds",
+    "stocks vs bonds vs mutual funds",
+    "stocks vs bonds vs mutual funds vs etf",
+    "stocks vs bonds vs etf",
+    "stocks vs bonds by age",
+    "stocks vs bonds 401k",
+    "stocks vs bonds vs cds",
+    "stocks vs bonds in retirement",
+    "stocks vs bonds right now",
+    "stocks vs bonds vs cash"
+   ]
+  },
+  {
+   "slug": "fractional-shares-explained",
+   "keyword": "fractional shares",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "fractional shares of real estate",
+    "fractional shares",
+    "fractional shares schwab",
+    "fractional shares of real estate pros and cons",
+    "fractional shares fidelity",
+    "fractional shares etrade",
+    "fractional shares meaning",
+    "fractional shares of stock",
+    "fractional shares vs whole shares",
+    "fractional shares robinhood"
+   ]
+  },
+  {
+   "slug": "market-circuit-breakers-explained",
+   "keyword": "stock market circuit breakers",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "stock market circuit breakers",
+    "stock market circuit breakers today",
+    "stock market circuit breakers history",
+    "stock exchange circuit breakers",
+    "equity market circuit breakers",
+    "stock market circuit breaker rules",
+    "stock market circuit breaker levels",
+    "stock market circuit breaker meaning",
+    "stock market circuit breaker 2020",
+    "stock market circuit breaker percentage"
+   ]
+  },
+  {
+   "slug": "stock-buybacks-explained",
+   "keyword": "stock buyback",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "stock buyback",
+    "stock buyback meaning",
+    "stock buybacks illegal",
+    "stock buyback vs dividend",
+    "stock buyback excise tax",
+    "stock buybacks 2026",
+    "stock buyback explained",
+    "stock buyback tax",
+    "stock buyback history",
+    "stock buybacks should be illegal"
+   ]
+  },
+  {
+   "slug": "risk-tolerance-explained",
+   "keyword": "risk tolerance investing",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "risk tolerance investing",
+    "risk tolerance investing test",
+    "risk tolerance investing quiz",
+    "risk tolerance definition investing",
+    "risk appetite investing",
+    "risk tolerance investment questionnaire",
+    "high risk tolerance investing",
+    "risk tolerance for investing in crypto",
+    "risk tolerance levels for investing",
+    "best risk tolerance for investing"
+   ]
+  },
+  {
+   "slug": "trading-journal-how-to",
+   "keyword": "trading journal",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "trading journal",
+    "trading journal free",
+    "trading journal template",
+    "trading journal app",
+    "trading journal template google sheets",
+    "trading journal software",
+    "trading journal examples",
+    "trading journal that connects to tradingview",
+    "trading journal excel",
+    "trading journal template excel"
+   ]
+  },
+  {
+   "slug": "cricket-career-simulator-guide",
+   "keyword": "cricket career game",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "cricket career game",
+    "cricket career game download",
+    "cricket career games for android",
+    "cricket career game online",
+    "cricket career game murali vijay",
+    "cricket career game play store",
+    "cricket career game 2016",
+    "cricket career game for ios",
+    "cricket career games for android free",
+    "cricket career game free"
+   ]
+  },
+  {
+   "slug": "cricket-rules-for-beginners",
+   "keyword": "cricket rules for beginners",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "cricket rules for beginners",
+    "basic cricket rules for beginners",
+    "cricket darts rules for beginners",
+    "cricket rules for dummies",
+    "5 basic rules of cricket",
+    "how to play cricket rules",
+    "rules about cricket",
+    "cricket rules simple",
+    "what are the 10 basic rules of cricket"
+   ]
+  },
+  {
+   "slug": "how-cricket-scoring-works",
+   "keyword": "how does cricket scoring work",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how does cricket scoring work",
+    "how does cricket scoring work darts",
+    "how does cricket scoring work t20",
+    "how does cricket scoring work for beginners",
+    "how does cricket scoring work ashes",
+    "how does cricket scoring work overs",
+    "how does cricket points work",
+    "how do cricket points work darts",
+    "how does test cricket scoring work",
+    "how does county cricket scoring work"
+   ]
+  },
+  {
+   "slug": "cricket-formats-explained",
+   "keyword": "test vs odi vs t20",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "test vs odi vs t20",
+    "test vs odi vs t20 reddit",
+    "test vs odi vs t20 cricket",
+    "test cricket vs t20",
+    "test vs odi cricket"
+   ]
+  },
+  {
+   "slug": "ways-to-get-out-in-cricket",
+   "keyword": "ways to get out in cricket",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "ways to get out in cricket",
+    "ways to get out in cricket wikipedia",
+    "ways to get out in cricket quiz",
+    "how to get out in cricket",
+    "ways to go out in cricket",
+    "how to get out in cricket lbw",
+    "10 ways to get out in cricket",
+    "11 ways to get out in cricket",
+    "all ways to get out in cricket",
+    "12 ways to get out in cricket"
+   ]
+  },
+  {
+   "slug": "lbw-rule-explained",
+   "keyword": "lbw rule",
+   "ok": true,
+   "status": 200,
+   "exact": false,
+   "close": "lbw rule in cricket",
+   "suggestions": [
+    "lbw rules",
+    "lbw rule in cricket",
+    "lbw rules with images",
+    "lbw rule pitching outside leg stump",
+    "lbw rule explained",
+    "lbw rules pitching",
+    "lbw rule outside the line",
+    "lbw rule pitching outside off stump",
+    "lbw rules not offering a shot",
+    "lbw rules for left handed batsman"
+   ]
+  },
+  {
+   "slug": "how-drs-works-in-cricket",
+   "keyword": "drs in cricket",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "drs in cricket",
+    "drs in cricket meaning",
+    "drs in cricket full form",
+    "drs in cricket introduced in which year",
+    "drs in cricket calculator",
+    "drs in cricket price",
+    "drs in cricket cost",
+    "drs in cricket start date",
+    "drs in cricket rules",
+    "drs in cricket stands for"
+   ]
+  },
+  {
+   "slug": "no-ball-and-wide-rules",
+   "keyword": "no ball rule cricket",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "no ball rule cricket",
+    "no ball rule cricket height",
+    "no ball rules cricket front foot",
+    "no ball in cricket",
+    "no ball in cricket meaning",
+    "no ball in cricket height",
+    "no ball in cricket signal",
+    "no ball in cricket waist height",
+    "no ball law cricket",
+    "no ball in cricket scoring"
+   ]
+  },
+  {
+   "slug": "cricket-fielding-positions",
+   "keyword": "cricket fielding positions",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "cricket fielding positions",
+    "cricket fielding positions map",
+    "cricket fielding positions 11 players",
+    "cricket fielding positions chart",
+    "cricket fielding positions name",
+    "cricket fielding positions editor",
+    "cricket fielding positions in powerplay",
+    "cricket fielding positions 11 players pdf",
+    "cricket fielding positions diagram",
+    "cricket fielding positions poster"
+   ]
+  },
+  {
+   "slug": "pace-vs-spin-bowling",
+   "keyword": "pace vs spin bowling",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "pace vs spin bowling",
+    "pace or spin bowler",
+    "pace bowler vs spin bowler",
+    "difference between fast bowling and pace bowling",
+    "can a bowler bowl both spin and pace",
+    "can you bowl spin and pace in the same over",
+    "can a bowler bowl both spin and pace in the same match"
+   ]
+  },
+  {
+   "slug": "spin-bowling-variations",
+   "keyword": "types of spin bowling",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "types of spin bowling",
+    "types of spin bowling in cricket",
+    "types of spin bowling deliveries",
+    "types of spin bowling in cricket crossword clue",
+    "types of hook bowling balls",
+    "all types of spin bowling grip",
+    "all types of spin bowling in cricket",
+    "all types of spin bowling",
+    "four types of spin bowling",
+    "types of off spin bowling"
+   ]
+  },
+  {
+   "slug": "cricket-batting-shots",
+   "keyword": "cricket batting shots",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "cricket batting shots",
+    "cricket batting shots names",
+    "cricket batting shots types",
+    "cricket batting shots list",
+    "cricket batting shots tips",
+    "cricket batting shots video",
+    "cricket batting shots images",
+    "cricket batting shots pdf",
+    "cricket batting shots map",
+    "cricket batting shots sound"
+   ]
+  },
+  {
+   "slug": "net-run-rate-explained",
+   "keyword": "net run rate",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "net run rate",
+    "net run rate calculator",
+    "net run rate formula",
+    "net run rate calculator cricket",
+    "net run rate in cricket",
+    "net run rate in the hundred",
+    "net run rate formula in cricket",
+    "net run rate meaning",
+    "net run rate calculator with wickets",
+    "net run rate calculator hundred"
+   ]
+  },
+  {
+   "slug": "duckworth-lewis-stern-method",
+   "keyword": "duckworth lewis stern method",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "duckworth lewis stern method",
+    "duckworth lewis stern method calculator",
+    "duckworth lewis stern method is related to which sport",
+    "duckworth lewis stern method in hindi",
+    "duckworth lewis stern method in cricket",
+    "duckworth-lewis-stern method meaning in bengali",
+    "duckworth lewis stern method meaning in hindi",
+    "duckworth lewis stern dls method",
+    "duckworth lewis stern dls method calculator",
+    "the duckworth lewis stern method is used in"
+   ]
+  },
+  {
+   "slug": "powerplays-in-cricket",
+   "keyword": "powerplay in cricket",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "powerplay in cricket",
+    "powerplay in cricket odi",
+    "powerplay in cricket meaning",
+    "powerplay in cricket t20",
+    "powerplay in cricket odi rules",
+    "powerplay in cricket ipl",
+    "powerplay in cricket ipl highest score",
+    "powerplay in cricket rules",
+    "powerplay in cricket how many overs",
+    "powerplay in cricket t20 rules"
+   ]
+  },
+  {
+   "slug": "follow-on-rule-cricket",
+   "keyword": "follow on rule cricket",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "follow on rule cricket",
+    "follow on rule cricket test",
+    "follow on in cricket",
+    "follow on in cricket calculation",
+    "follow on in cricket means",
+    "follow on in cricket hindi",
+    "follow on in cricket county championship",
+    "follow on in cricket test match",
+    "follow on in cricket test",
+    "follow on in cricket which format"
+   ]
+  },
+  {
+   "slug": "cricket-stats-explained",
+   "keyword": "cricket batting average strike rate",
+   "ok": true,
+   "status": 200,
+   "exact": false,
+   "close": "cricket batting average vs strike rate",
+   "suggestions": [
+    "cricket batting average vs strike rate",
+    "what is batting strike rate in cricket",
+    "how to calculate batting strike rate in cricket"
+   ]
+  },
+  {
+   "slug": "cricket-player-roles",
+   "keyword": "cricket player roles",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "cricket player roles",
+    "cricket player positions",
+    "cricket playing role",
+    "roles in cricket",
+    "cricket players in a team",
+    "what are cricket positions"
+   ]
+  },
+  {
+   "slug": "how-a-test-match-ends-in-a-draw",
+   "keyword": "how can a test match be a draw",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how can a test match be a draw",
+    "how can a test cricket match be a draw",
+    "how can a test match be drawn",
+    "how can a cricket test match be drawn",
+    "how can a test match end in a draw",
+    "how does a test match become a draw",
+    "how does a test match draw",
+    "how does a test match get drawn",
+    "how does a cricket test match draw",
+    "how does a test match tie"
+   ]
+  },
+  {
+   "slug": "cricket-umpire-signals",
+   "keyword": "cricket umpire signals",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "cricket umpire signals",
+    "cricket umpire signals pdf",
+    "cricket umpire signals images",
+    "cricket umpire signals explained",
+    "cricket umpire signals video",
+    "cricket umpire signals pdf download",
+    "cricket umpire signals chart",
+    "cricket umpire signals meaning",
+    "cricket umpire signals penalty runs",
+    "cricket umpire signals leg bye"
+   ]
+  },
+  {
+   "slug": "super-over-rules",
+   "keyword": "super over rules",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "super over rules",
+    "super over rules in cricket",
+    "super over rules in hindi",
+    "super over rules in t20",
+    "super over rules in odi",
+    "super over rules in ipl",
+    "super over rules in t20 cricket",
+    "super over rules wicket",
+    "super over rules in cricket in hindi",
+    "super over rules in asia cup 2025"
+   ]
+  },
+  {
+   "slug": "how-cricket-pitches-affect-play",
+   "keyword": "cricket pitch conditions",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "cricket pitch conditions",
+    "cricket pitch conditions explained",
+    "cricket pitch conditions around the world",
+    "australia cricket pitch conditions",
+    "zimbabwe cricket pitch conditions",
+    "england cricket pitch conditions",
+    "cricket 24 pitch conditions",
+    "indian cricket pitch conditions",
+    "pakistan cricket pitch conditions",
+    "namibia cricket pitch conditions"
+   ]
+  },
+  {
+   "slug": "car-racing-pro-career-guide",
+   "keyword": "racing career game",
+   "ok": true,
+   "status": 200,
+   "exact": false,
+   "close": "racing game career mode",
+   "suggestions": [
+    "racing career games",
+    "racing career games for mobile",
+    "racing career games pc",
+    "racing career games online",
+    "racing game career mode",
+    "motorsport career game",
+    "driving career game",
+    "best racing career games",
+    "my racing career game",
+    "car racing career game"
+   ]
+  },
+  {
+   "slug": "racing-line-explained",
+   "keyword": "racing line explained",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "racing line explained",
+    "racing line meaning",
+    "racing line definition",
+    "racing line explanation",
+    "racing line meaning f1",
+    "racing line analysis",
+    "f1 racing line explained",
+    "assetto corsa racing line explained",
+    "what is a racing line",
+    "racing line theory"
+   ]
+  },
+  {
+   "slug": "racing-tire-strategy",
+   "keyword": "tyre strategy",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "tyre strategy f1",
+    "tyre strategy f1 today",
+    "tyre strategy",
+    "tyre strategy madring",
+    "tyre strategy baku",
+    "tyre strategy hungaroring",
+    "tyre strategy monza",
+    "tyre strategy f1 madrid",
+    "tyre strategy monza 2026",
+    "tyre strategy baku 2026"
+   ]
+  },
+  {
+   "slug": "undercut-vs-overcut",
+   "keyword": "undercut vs overcut",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "undercut vs overcut",
+    "undercut vs overcut f1",
+    "undercut vs overcut haircut",
+    "undercut vs overcut welding",
+    "undercut vs overcut racing",
+    "undercut vs overcut machining",
+    "undercut and overcut f1",
+    "undercut and overcut",
+    "undercut and overcut f1 meaning",
+    "undercut and overcut meaning"
+   ]
+  },
+  {
+   "slug": "motorsport-career-ladder",
+   "keyword": "how to become a racing driver",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to become a racing driver",
+    "how to become a racing driver uk",
+    "how to become a racing driver in south africa",
+    "how to become a racing driver in india",
+    "how to become a racing driver at 13",
+    "how to become a racing driver instructor",
+    "how to become a racing driver in australia",
+    "how to become a racing driver in bitlife",
+    "how to become a racing driver at 20",
+    "how to be a racing driver piero taruffi"
+   ]
+  },
+  {
+   "slug": "racing-flags-explained",
+   "keyword": "racing flags meaning",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "racing flags meaning",
+    "racing flags meaning nascar",
+    "racing flags meaning sailing",
+    "racing flags meaning uk",
+    "racing flags meaning australia",
+    "racing flags meaning f1",
+    "racing flags meaning meme",
+    "racing flag meanings funny",
+    "racing flag meanings shirt",
+    "motorsport flags meaning"
+   ]
+  },
+  {
+   "slug": "safety-car-explained",
+   "keyword": "safety car rules",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "safety car rules f1",
+    "safety car rules",
+    "safety car rules f1 pit stop",
+    "safety car rules f1 2021",
+    "safety car rules 2021",
+    "safety car rules f1 speed",
+    "safety car rules le mans",
+    "car safety rules for kids",
+    "car safety rules ontario",
+    "safety car requirements"
+   ]
+  },
+  {
+   "slug": "how-racing-qualifying-works",
+   "keyword": "how does qualifying work in racing",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how does qualifying work in racing",
+    "how does qualifying work in endurance racing",
+    "how does qualifying work in drag racing",
+    "how does qualifying work in f1 racing",
+    "how does qualifying work in nascar",
+    "how does nascar do qualifying",
+    "how qualifying works in f1"
+   ]
+  },
+  {
+   "slug": "slipstream-and-drafting",
+   "keyword": "slipstream in racing",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "slipstream in racing",
+    "slipstream in racing meaning",
+    "slipstream in racing games",
+    "slipstream in car racing",
+    "slipstream in horse racing",
+    "slipstream in uma racing",
+    "slipstream racing cafe",
+    "slipstream racing paint pack",
+    "slipstream racing league",
+    "slipstream racing events"
+   ]
+  },
+  {
+   "slug": "racing-points-systems",
+   "keyword": "racing points system",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "racing points system",
+    "race points system f1",
+    "motorsport points systems",
+    "racing scoring systems",
+    "horse racing points system",
+    "racing league points system",
+    "drag racing points system",
+    "arca racing points system",
+    "harness racing points system",
+    "motor racing points system"
+   ]
+  },
+  {
+   "slug": "wet-weather-racing",
+   "keyword": "racing in the rain",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "racing in the rain",
+    "racing in the rain cast",
+    "racing in the rain book",
+    "racing in the rain my life as a dog",
+    "racing in the rain trailer",
+    "racing in the rain netflix",
+    "racing in the rain streaming",
+    "racing in the rain dog movie",
+    "racing in the rain movie netflix",
+    "racing in the rain movie cast"
+   ]
+  },
+  {
+   "slug": "racing-car-setup-basics",
+   "keyword": "race car setup guide",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "race car setup guide",
+    "race car setup guide pdf",
+    "stock car setup guide",
+    "race car tuning guide",
+    "race car suspension setup guide",
+    "dirt race car setup guide",
+    "ultimate race car setup guide",
+    "sim racing car setup guide",
+    "imca stock car setup guide",
+    "race car suspension tuning guide"
+   ]
+  },
+  {
+   "slug": "basketball-career-pro-league-guide",
+   "keyword": "basketball career pro league",
+   "ok": true,
+   "status": 200,
+   "exact": false,
+   "close": null,
+   "suggestions": []
+  },
+  {
+   "slug": "basketball-career-games-compared",
+   "keyword": "basketball career game android",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "basketball career game android",
+    "career games for android",
+    "career mode sports games",
+    "basketball games for android"
+   ]
+  },
+  {
+   "slug": "basketball-shot-selection",
+   "keyword": "basketball shot selection",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "basketball shot selection",
+    "basketball shot selection chart",
+    "basketball shot selection scale",
+    "basketball shot selection drills",
+    "illinois basketball shot selection",
+    "transforming basketball shot selection",
+    "shot selection basketball meaning",
+    "how to shoot s basketball"
+   ]
+  },
+  {
+   "slug": "football-career-pro-league-guide",
+   "keyword": "football career pro league",
+   "ok": true,
+   "status": 200,
+   "exact": false,
+   "close": "football pro league career",
+   "suggestions": [
+    "football pro league career",
+    "how to become a pro in football",
+    "professional sports league minimum salary"
+   ]
+  },
+  {
+   "slug": "football-career-games-compared",
+   "keyword": "american football career game",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "american football career game",
+    "american football career simulator game",
+    "american football career mode games",
+    "american football player career game",
+    "mobile american football career games",
+    "american football career mode games online",
+    "best american football game career mode",
+    "best mobile american football career games",
+    "american football mobile games with career mode",
+    "how to play american football"
+   ]
+  },
+  {
+   "slug": "how-does-the-nfl-draft-work",
+   "keyword": "how does the nfl draft work",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how does the nfl draft work",
+    "how does the nfl draft work for players",
+    "how does the nfl draft work for college players",
+    "how does the nfl draft work salary",
+    "how does the nfl draft work for dummies",
+    "how does the nfl draft work reddit",
+    "how does the nfl draft work 2026",
+    "how does the nfl draft work today",
+    "how does the nfl draft work days",
+    "how does the nfl combine work"
+   ]
+  },
+  {
+   "slug": "football-career-soccer-league-guide",
+   "keyword": "soccer career pro league",
+   "ok": true,
+   "status": 200,
+   "exact": false,
+   "close": "pro league soccer career mode",
+   "suggestions": [
+    "pro league soccer career mode",
+    "pro league soccer career mode download",
+    "pro league soccer career",
+    "soccer pro salary",
+    "what is the best professional soccer league",
+    "canadian professional soccer league salary",
+    "soccer league jobs",
+    "national professional soccer league teams"
+   ]
+  },
+  {
+   "slug": "soccer-career-games-compared",
+   "keyword": "soccer career game android",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "soccer career game android",
+    "football career game android",
+    "football career android game tips",
+    "football career soccer games android",
+    "best football career game android",
+    "football player career game android",
+    "football career mode games android",
+    "football career mode games android download",
+    "soccer games for android",
+    "career soccer games"
+   ]
+  },
+  {
+   "slug": "hockey-career-pro-league-guide",
+   "keyword": "hockey career pro league",
+   "ok": true,
+   "status": 200,
+   "exact": false,
+   "close": null,
+   "suggestions": []
+  },
+  {
+   "slug": "how-long-is-a-hockey-shift",
+   "keyword": "how long is a hockey shift",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how long is a hockey shift",
+    "how long is a hockey shift nhl",
+    "how long is a hockey shift usually",
+    "how long is a typical hockey shift",
+    "how long is a hockey line shift",
+    "how long is a hockey players shift",
+    "how long is a typical nhl hockey shift",
+    "how long is a typical ice hockey shift",
+    "how long should a hockey shift be",
+    "how long is an ice hockey shift"
+   ]
+  },
+  {
+   "slug": "hockey-career-games-compared",
+   "keyword": "hockey career game",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "hockey career game",
+    "hockey career game ice legend",
+    "hockey career game online",
+    "hockey player game",
+    "hockey player game day outfits",
+    "hockey player game day suits",
+    "hockey player game day routine",
+    "hockey player game day fit",
+    "hockey player game stats",
+    "hockey player game score"
+   ]
+  },
+  {
+   "slug": "boxing-prize-fighter-career-guide",
+   "keyword": "boxing career game",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "boxing career game",
+    "boxing career games pc",
+    "boxing career game mobile",
+    "boxing career game android",
+    "boxing career game online",
+    "boxer career game",
+    "boxing game career mode",
+    "fighting career games",
+    "best boxing career games",
+    "fighting game career mode"
+   ]
+  },
+  {
+   "slug": "boxing-punches-explained",
+   "keyword": "types of boxing punches",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "types of boxing punches",
+    "types of boxing punches for beginners",
+    "types of boxing punches with pictures",
+    "types of boxing punching bags",
+    "types of boxing punch combos",
+    "all types of boxing punches",
+    "4 types of boxing punches",
+    "3 types of boxing punches",
+    "6 types of boxing punches",
+    "5 types of boxing punches"
+   ]
+  },
+  {
+   "slug": "amateur-vs-professional-boxing",
+   "keyword": "amateur vs professional boxing",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "amateur vs professional boxing",
+    "how many amatuer fights to become pro boxing",
+    "australian amatuer boxing rankings"
+   ]
+  },
+  {
+   "slug": "football-league-commissioner-guide",
+   "keyword": "football league commissioner game",
+   "ok": true,
+   "status": 200,
+   "exact": false,
+   "close": null,
+   "suggestions": []
+  },
+  {
+   "slug": "what-does-a-sports-commissioner-do",
+   "keyword": "what does a sports commissioner do",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "what does a sports commissioner do",
+    "what does a league commissioner do",
+    "what does a sports league commissioner do",
+    "what does a little league commissioner do",
+    "what does a fantasy league commissioner do",
+    "what does a fantasy football league commissioner do",
+    "what does an athletic commissioner do",
+    "what is a sports commissioner"
+   ]
+  },
+  {
+   "slug": "how-sports-schedules-are-made",
+   "keyword": "how are sports schedules made",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how are sports schedules made",
+    "how are professional sports schedules made",
+    "how nfl schedules are made",
+    "how are football schedules determined"
+   ]
+  },
+  {
+   "slug": "basketball-league-sandbox-guide",
+   "keyword": "basketball league simulator",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "basketball league simulator",
+    "basketball tournament simulator",
+    "custom basketball league simulator",
+    "college basketball simulator league",
+    "how much is a sports simulator",
+    "basketball cost"
+   ]
+  },
+  {
+   "slug": "league-sandbox-vs-franchise-gm",
+   "keyword": "basketball gm game",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "basketball gm game",
+    "basketball gm game online",
+    "basketball gm game reddit",
+    "basketball gm game. tips",
+    "basketball gm gameplay",
+    "basketball gm game steam",
+    "basketball gm game pc",
+    "basketball gm games free",
+    "basketball gm game rosters",
+    "basketball gm game mobile"
+   ]
+  },
+  {
+   "slug": "how-the-nba-offseason-works",
+   "keyword": "nba offseason calendar",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "nba offseason calendar",
+    "nba offseason calendar 2026",
+    "nba free agency calendar",
+    "nba offseason dates",
+    "nba offseason dates 2026",
+    "nba offseason schedule 2025",
+    "nba offseason dates 2025",
+    "nba offseason schedule",
+    "nba offseason timeline"
+   ]
+  },
+  {
+   "slug": "how-the-mlb-draft-works",
+   "keyword": "how does the mlb draft work",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how does the mlb draft work",
+    "how does the mlb draft work for college players",
+    "how does the mlb draft work for high school",
+    "how does the mlb draft work now",
+    "how does the mlb draft work for dummies",
+    "how does the mlb draft work for a juco player",
+    "how does the mlb draft work order",
+    "how does the baseball draft work",
+    "how does the mlb draft lottery work",
+    "how does the mlb draft league work"
+   ]
+  },
+  {
+   "slug": "what-does-a-sports-agent-do",
+   "keyword": "what does a sports agent do",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "what does a sports agent do",
+    "what does a sports agent do on a daily basis",
+    "what does a sports management do",
+    "what does a sports agent make",
+    "what does a sports management degree do",
+    "what does a sports management major do",
+    "what does a sports management company do",
+    "what does a sports management consultant do",
+    "what does a sports management person do",
+    "what does sports management do in college"
+   ]
+  },
+  {
+   "slug": "rugby-career-paths",
+   "keyword": "how to become a professional rugby player",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to become a professional rugby player",
+    "how to become a professional rugby player in south africa",
+    "how to become a professional rugby player uk",
+    "how to become a professional rugby player in australia",
+    "how to become a professional women's rugby player",
+    "how to become a professional rugby league player",
+    "how to become a professional rugby union player",
+    "how to become a professional rugby league coach",
+    "how hard is it to become a professional rugby player",
+    "how long does it take to become a professional rugby player"
+   ]
+  },
+  {
+   "slug": "block-world-rpg-guide",
+   "keyword": "block world rpg game",
+   "ok": true,
+   "status": 200,
+   "exact": false,
+   "close": null,
+   "suggestions": []
+  },
+  {
+   "slug": "creative-vs-survival-mode",
+   "keyword": "creative vs survival mode",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "creative vs survival mode minecraft",
+    "creative vs survival mode",
+    "creative or survival mode",
+    "minecraft creative or survival mode",
+    "is survival or creative better in minecraft",
+    "minecraft survival vs creative vs adventure"
+   ]
+  },
+  {
+   "slug": "how-crafting-systems-work",
+   "keyword": "crafting system games",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "crafting system games",
+    "best crafting system in games"
+   ]
+  },
+  {
+   "slug": "kawaii-breathe-relax-guide",
+   "keyword": "breathing app for relaxation",
+   "ok": true,
+   "status": 200,
+   "exact": false,
+   "close": "best app for breathing relaxation",
+   "suggestions": [
+    "best app for breathing relaxation",
+    "what is calm breathing",
+    "how to relax breathing exercises"
+   ]
+  },
+  {
+   "slug": "box-breathing-explained",
+   "keyword": "box breathing",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "box breathing",
+    "box breathing technique",
+    "box breathing for anxiety",
+    "box breathing exercise",
+    "box breathing gif",
+    "box breathing video",
+    "box breathing pdf",
+    "box breathing benefits",
+    "box breathing method",
+    "box breathing for sleep"
+   ]
+  },
+  {
+   "slug": "4-7-8-breathing-explained",
+   "keyword": "4 7 8 breathing",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "4 7 8 breathing",
+    "4 7 8 breathing technique",
+    "4 7 8 breathing technique for sleep",
+    "4 7 8 breathing for sleep",
+    "4 7 8 breathing vs box breathing",
+    "4 7 8 breathing for anxiety",
+    "4 7 8 breathing benefits",
+    "4 7 8 breathing for blood pressure",
+    "4 7 8 breathing technique vs box breathing",
+    "4 7 8 breathing how many times"
+   ]
+  },
+  {
+   "slug": "diaphragmatic-breathing-explained",
+   "keyword": "diaphragmatic breathing",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "diaphragmatic breathing",
+    "diaphragmatic breathing exercises",
+    "diaphragmatic breathing benefits",
+    "diaphragmatic breathing pelvic floor",
+    "diaphragmatic breathing exercises pdf",
+    "diaphragmatic breathing for pelvic floor relaxation",
+    "diaphragmatic breathing for gerd",
+    "diaphragmatic breathing for acid reflux",
+    "diaphragmatic breathing pdf",
+    "diaphragmatic breathing video"
+   ]
+  },
+  {
+   "slug": "slow-breathing-and-relaxation",
+   "keyword": "slow breathing benefits",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "slow breathing benefits",
+    "slow breathing benefits reddit",
+    "slow breathing benefits in hindi",
+    "shallow breathing benefits",
+    "slow deep breathing benefits",
+    "slow breathing exercise benefits",
+    "slow breathing health benefits",
+    "slow breathing meditation benefits",
+    "slow paced breathing benefits",
+    "is slow breathing healthy"
+   ]
+  },
+  {
+   "slug": "hero-td-idle-tower-defense-guide",
+   "keyword": "hero td idle tower defense",
+   "ok": true,
+   "status": 200,
+   "exact": false,
+   "close": "idle hero td tower defense",
+   "suggestions": [
+    "idle hero td tower defense",
+    "idle hero td tower defense rpg",
+    "idle hero td tower defense cheat engine",
+    "idle hero td tower defense cheat",
+    "idle hero td tower defense guide",
+    "idle hero td tower defense codes",
+    "idle hero td tower defense rpg tier list",
+    "idle hero td tower defense rpg discord",
+    "idle hero td fantasy tower defense"
+   ]
+  },
+  {
+   "slug": "what-are-idle-games",
+   "keyword": "what are idle games",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "what are idle games",
+    "what are idle games reddit",
+    "what are idle games on steam",
+    "what are incremental games",
+    "what are clicker games",
+    "what are incremental games roblox",
+    "what are incremental games on steam",
+    "what are good idle games",
+    "what are idle rpg games",
+    "what are idle clicker games"
+   ]
+  },
+  {
+   "slug": "tower-defense-upgrade-priority",
+   "keyword": "idle tower defense upgrade guide",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "idle tower defense upgrade guide",
+    "idle tower defense guide",
+    "fastest way to level up in tower defense simulator"
+   ]
+  },
+  {
+   "slug": "life-simulator-city-builder-guide",
+   "keyword": "life sim city builder",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "life sim city builder"
+   ]
+  },
+  {
+   "slug": "city-builder-tips-for-beginners",
+   "keyword": "city builder tips",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "city builder tips",
+    "city building tips minecraft",
+    "city building tips",
+    "city building tips dnd",
+    "city builder guide",
+    "urbek city builder tips",
+    "urbek city builder tips and tricks",
+    "openttd city builder tips",
+    "city skylines building tips",
+    "lego city building tips"
+   ]
+  },
+  {
+   "slug": "what-are-cozy-games",
+   "keyword": "what are cozy games",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "what are cozy games",
+    "what are cozy games reddit",
+    "what are cozy games to play",
+    "what are cozy games examples",
+    "what are cozy games on ps5",
+    "what are cozy games on steam",
+    "what are some cozy games",
+    "what are cozy video games",
+    "what are cozy horror games",
+    "what are good cozy games"
+   ]
+  },
+  {
+   "slug": "dragon-pet-evolve-guide",
+   "keyword": "dragon pet game",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "dragon pet game",
+    "dragon pet games online free",
+    "dragon pet game online",
+    "dragon virtual pet game",
+    "my dragon pet game",
+    "dragon pet mobile game",
+    "dragon pet android game",
+    "dragon pet ds game",
+    "old dragon pet game",
+    "pet dragon girl game"
+   ]
+  },
+  {
+   "slug": "virtual-pet-games-explained",
+   "keyword": "virtual pet games",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "virtual pet games",
+    "virtual pet games online free",
+    "virtual pet games online free adopt",
+    "virtual pet games pc",
+    "virtual pet games online",
+    "virtual pet games on steam",
+    "virtual pet games 2000s",
+    "virtual pet games reddit",
+    "virtual pet games mobile",
+    "virtual pet games browser"
+   ]
+  },
+  {
+   "slug": "elemental-type-advantages",
+   "keyword": "type advantage chart",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "type advantage chart",
+    "type advantage chart pokemon",
+    "type advantage chart palworld",
+    "type advantage chart pokemon go",
+    "type advantage chart dbl",
+    "type advantage chart fire red",
+    "type advantage chart gen 4",
+    "type advantage chart gen 3",
+    "type advantage chart pokemon violet",
+    "type advantage chart pokemon leaf green"
+   ]
+  },
+  {
+   "slug": "world-war-gunship-attack-guide",
+   "keyword": "gunship game",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "gunship game",
+    "gunship games pc",
+    "gunship game download",
+    "gunship games android",
+    "gunship games online",
+    "gunship games events",
+    "gunship gameplay",
+    "gunship game steam",
+    "gunship games free",
+    "gunship game awards"
+   ]
+  },
+  {
+   "slug": "what-is-a-gunship-aircraft",
+   "keyword": "what is a gunship plane",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "what is a gunship plane",
+    "what is the best gunship plane",
+    "what is a helicopter gunship",
+    "what is the principle of helicopter flying",
+    "what is a pby plane",
+    "is it harder to fly a plane or helicopter"
+   ]
+  },
+  {
+   "slug": "big-jackpot-casino-slots-guide",
+   "keyword": "big jackpot casino slots",
+   "ok": true,
+   "status": 200,
+   "exact": false,
+   "close": "jackpot big win slots casino tm",
+   "suggestions": [
+    "jackpot big win slots casino tm",
+    "big fish casino jackpot magic slots",
+    "largest slot machine jackpot",
+    "biggest slot jackpot"
+   ]
+  },
+  {
+   "slug": "progressive-jackpots-explained",
+   "keyword": "how progressive jackpots work",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how progressive jackpots work",
+    "how progressive slots work",
+    "how do progressive jackpots work on slot machines",
+    "how do progressive jackpots work at a casino",
+    "how do progressive jackpots work at sky river casino",
+    "how do progressive jackpots work in casino poker",
+    "how progressive jackpot slots work",
+    "how does lotto progressive jackpot work",
+    "how does draftkings progressive jackpot work",
+    "how do progressive slot jackpots work in casinos"
+   ]
+  },
+  {
+   "slug": "pdf-all-in-one-tools-guide",
+   "keyword": "pdf tools app android",
+   "ok": true,
+   "status": 200,
+   "exact": false,
+   "close": "best pdf tools app android",
+   "suggestions": [
+    "pdf editor app android",
+    "pdf editor app android free",
+    "pdf editor app android reddit",
+    "pdf editor android app free download",
+    "best pdf tools app android",
+    "pdf editor android app github",
+    "best pdf editor app android",
+    "free pdf editor app android reddit",
+    "pdf editor app for android apk",
+    "pdf editor app for android tablet"
+   ]
+  },
+  {
+   "slug": "how-to-merge-pdf-files-on-android",
+   "keyword": "how to merge pdf files on android",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to merge pdf files on android",
+    "how to merge pdf files on android phone",
+    "how to combine pdf files on android for free",
+    "how to merge 2 pdf files on android",
+    "how to merge pdf files into one on android",
+    "how to merge pdf files in wps office android",
+    "how to combine pdf files into one document on android phone",
+    "how to combine multiple images into a pdf file on android",
+    "how to merge pdf files in mobile",
+    "how to merge pdf on android"
+   ]
+  },
+  {
+   "slug": "how-to-compress-a-pdf",
+   "keyword": "how to compress a pdf",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to compress a pdf on mac",
+    "how to compress a pdf",
+    "how to compress a pdf in adobe",
+    "how to compress a pdf file",
+    "how to compress a pdf to send via email",
+    "how to compress a pdf on windows",
+    "how to compress a pdf on iphone",
+    "how to compress a pdf in adobe acrobat",
+    "how to compress a pdf for free",
+    "how to compress a pdf in acrobat"
+   ]
+  },
+  {
+   "slug": "how-to-sign-a-pdf-on-android",
+   "keyword": "how to sign a pdf on android",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to sign a pdf on android",
+    "how to sign a pdf on android free",
+    "how to sign a pdf on android samsung",
+    "how to sign a pdf document on android",
+    "how to sign a pdf file on android",
+    "how to electronically sign a pdf on android",
+    "how to sign a pdf document on android samsung",
+    "how to sign a pdf form on android",
+    "how to sign a pdf document on android for free",
+    "how to digitally sign a pdf on android phone"
+   ]
+  },
+  {
+   "slug": "how-to-scan-documents-to-pdf",
+   "keyword": "scan documents to pdf with phone",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "scan documents to pdf with phone",
+    "how to scan documents to pdf with your android phone's camera",
+    "how to scan as pdf on phone",
+    "how to scan document into pdf using phone"
+   ]
+  },
+  {
+   "slug": "pdf-vs-pdf-a",
+   "keyword": "pdf vs pdf/a",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "pdf vs pdf/a",
+    "pdf and pdf add",
+    "pdf and pdf adder",
+    "pdf and adobe pdf",
+    "pdf x and pdf a"
+   ]
+  },
+  {
+   "slug": "how-to-password-protect-a-pdf",
+   "keyword": "password protect pdf",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "password protect pdf",
+    "password protect pdf on mac",
+    "password protect pdf free",
+    "password protect pdf file",
+    "password protect pdf adobe",
+    "password protect pdf iphone",
+    "password protect pdf windows",
+    "password protect pdf adobe acrobat",
+    "password protect pdf preview",
+    "password protect pdf acrobat"
+   ]
+  },
+  {
+   "slug": "ocr-explained",
+   "keyword": "what is ocr",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "what is ocr",
+    "what is ocr in ai",
+    "what is ocr scanning",
+    "what is ocrevus",
+    "what is ocr pdf",
+    "what is okra",
+    "what is ocr model",
+    "what is okr",
+    "what is ocrevus used for",
+    "what is ocrevus zunovo used for"
+   ]
+  },
+  {
+   "slug": "how-to-fill-in-a-pdf-form",
+   "keyword": "how to fill out a pdf form on phone",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to fill out a pdf form on phone",
+    "how to fill out a pdf document on phone",
+    "how to fill out a pdf form on android phone",
+    "how to fill out a pdf form on mobile",
+    "how to fill in a pdf form on samsung phone",
+    "how to fill in pdf form on phone for free",
+    "how to write in a pdf document on phone",
+    "how do i fill out a pdf form on my phone",
+    "what app can i use to fill out a pdf form",
+    "how to fill out a pdf form on android"
+   ]
+  },
+  {
+   "slug": "how-to-split-a-pdf",
+   "keyword": "how to split a pdf",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to split a pdf into multiple files",
+    "how to split a pdf into two",
+    "how to split a pdf into multiple files in adobe",
+    "how to split a pdf",
+    "how to split a pdf in adobe",
+    "how to split a pdf into multiple pdfs",
+    "how to split a pdf into individual pages",
+    "how to split a pdf into two files",
+    "how to split a pdf in adobe acrobat",
+    "how to split a pdf in half"
+   ]
+  },
+  {
+   "slug": "transcribe-audio-to-text-guide",
+   "keyword": "audio to text app android",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "audio to text app android",
+    "transcribe audio to text app android",
+    "best audio to text app android",
+    "audio to text converter android app",
+    "free audio to text app for android",
+    "free transcribe audio to text android app",
+    "free audio to text converter android app",
+    "best free audio to text app for android",
+    "audio file to text converter android app",
+    "best audio to text converter app for android"
+   ]
+  },
+  {
+   "slug": "how-to-transcribe-a-voice-memo",
+   "keyword": "how to transcribe a voice memo",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to transcribe a voice memo on iphone",
+    "how to transcribe a voice memo",
+    "how to transcribe a voice memo recording on iphone",
+    "how to transcribe a voice memo on ipad",
+    "how to transcribe a voice memo on mac",
+    "how to transcribe a voice memo to text",
+    "how to transcribe a voice memo to text on iphone",
+    "how to transcribe a voice memo in word",
+    "how to transcribe a voice memo on macbook",
+    "is there a way to transcribe voice memos"
+   ]
+  },
+  {
+   "slug": "speech-to-text-accuracy-tips",
+   "keyword": "improve speech to text accuracy",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "improve speech to text accuracy",
+    "how to improve speech to text on iphone"
+   ]
+  },
+  {
+   "slug": "verbatim-vs-clean-transcription",
+   "keyword": "verbatim vs clean verbatim",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "verbatim vs clean verbatim",
+    "verbatim vs clean verbatim medical transcription",
+    "verbatim or clean verbatim",
+    "full verbatim vs clean verbatim",
+    "strict verbatim vs clean verbatim",
+    "verbatim dialogue vs clean verbatim dialogue",
+    "full verbatim and clean verbatim",
+    "strict verbatim and clean verbatim",
+    "clean verbatim vs full verbatim in. transcription",
+    "non verbatim vs verbatim"
+   ]
+  },
+  {
+   "slug": "how-to-transcribe-lectures",
+   "keyword": "how to transcribe lectures",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to transcribe lectures",
+    "transcribe lectures free",
+    "how to transcribe lecture videos",
+    "how to transcribe lecture recordings",
+    "how to transcribe a lecture on word",
+    "how to transcribe your lecture videos",
+    "how to learn to transcribe"
+   ]
+  },
+  {
+   "slug": "how-to-transcribe-an-interview",
+   "keyword": "how to transcribe an interview",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to transcribe an interview",
+    "how to transcribe an interview qualitative research example",
+    "how to transcribe an interview for qualitative research",
+    "how to transcribe an interview for research",
+    "how to transcribe an interview in apa format",
+    "how to transcribe an interview example",
+    "how to transcribe an interview verbatim",
+    "how to transcribe an interview in premiere pro",
+    "how to transcribe an interview on teams",
+    "how to transcribe an interview on word"
+   ]
+  },
+  {
+   "slug": "kawaii-cute-notes-journal-guide",
+   "keyword": "cute notes app",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "cute notes app",
+    "cute notes app for windows",
+    "cute notes app for mac",
+    "cute notes app icon",
+    "cute notes app free",
+    "cute notes app for ipad",
+    "cute notes app for laptop",
+    "cute notes app for android",
+    "cute notes app for iphone",
+    "cute notes app for windows free"
+   ]
+  },
+  {
+   "slug": "bullet-journaling-for-beginners",
+   "keyword": "bullet journal for beginners",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "bullet journal for beginners",
+    "bullet journal for beginners with pictures",
+    "bullet journal ideas for beginners",
+    "bullet journal voor beginners",
+    "simple bullet journal ideas for beginners",
+    "bullet journal tips for beginners"
+   ]
+  },
+  {
+   "slug": "mood-tracking-journal",
+   "keyword": "mood tracker journal",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "mood tracker journal",
+    "mood tracker journal ideas",
+    "mood tracker journal pdf",
+    "mood tracker journal page",
+    "mood tracker journal app",
+    "mood tracker journal template",
+    "mood tracker journal printable",
+    "mood tracker journal pinterest",
+    "mood tracker journal free",
+    "mood tracker journal book"
+   ]
+  },
+  {
+   "slug": "daily-planner-vs-to-do-list",
+   "keyword": "planner vs to do list",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "planner vs to do list",
+    "planner or to do list",
+    "microsoft planner vs to do list",
+    "daily planner vs to do list",
+    "daily planner or to do list",
+    "microsoft planner or to do list",
+    "todoist vs to do list schedule planner",
+    "planner vs lists",
+    "planner and to do list app"
+   ]
+  },
+  {
+   "slug": "journaling-prompts-for-beginners",
+   "keyword": "journaling prompts",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "journaling prompts",
+    "journaling prompts for mental health",
+    "journaling prompts for self discovery",
+    "journaling prompts for anxiety",
+    "journaling prompts for beginners",
+    "journaling prompts to get to know yourself",
+    "journaling prompts for healing",
+    "journaling prompts for teens",
+    "journaling prompts for self reflection",
+    "journaling prompts for kids"
+   ]
+  },
+  {
+   "slug": "audio-out-of-sync-on-android",
+   "keyword": "audio out of sync video android",
+   "ok": true,
+   "status": 200,
+   "exact": false,
+   "close": "bluetooth audio out of sync with video android",
+   "suggestions": [
+    "bluetooth audio out of sync with video android",
+    "audio video out of sync android",
+    "prime video audio out of sync android",
+    "instagram video audio out of sync android",
+    "youtube video and audio out of sync android",
+    "why is audio and video out of sync"
+   ]
+  },
+  {
+   "slug": "hdr-video-on-android",
+   "keyword": "hdr video android",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "hdr video android",
+    "hdr android video player",
+    "hdr video editor android",
+    "hdr video player android apk",
+    "hdr video player android reddit",
+    "hdr video recording android",
+    "android instagram hdr video",
+    "prime video android hdr",
+    "hdr video player android tv",
+    "hdr video playback android"
+   ]
+  },
+  {
+   "slug": "how-to-store-trading-cards",
+   "keyword": "how to store trading cards",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to store trading cards",
+    "how to store trading cards long term",
+    "best way to store trading cards",
+    "how to store baseball cards",
+    "best way to store trading cards long term",
+    "best way to store trading cards reddit",
+    "how to keep trading cards in mint condition",
+    "how to preserve trading cards",
+    "how to keep trading cards from bending",
+    "how to store baseball cards in toploaders"
+   ]
+  },
+  {
+   "slug": "how-to-spot-fake-trading-cards",
+   "keyword": "how to tell if a card is fake",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to tell if a card is fake",
+    "how to tell if a card is fake pokemon",
+    "how to tell if a card is fake mtg",
+    "how to tell if a card is fake by ripping it",
+    "how to tell if a card is fake on ebay",
+    "how to tell if a card is fake or real pokemon",
+    "how to tell if a card is fake or real",
+    "how to tell if a card is fake without ripping it",
+    "how to tell if a card is fake one piece",
+    "how to know if a card is fake or real"
+   ]
+  },
+  {
+   "slug": "thai-consonant-classes",
+   "keyword": "thai consonant classes",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "thai consonant classes",
+    "thai consonant classes chart",
+    "thai consonant classes explained",
+    "thai consonant classes quiz",
+    "thai alphabet classes",
+    "thai consonant clusters",
+    "thai alphabet consonant classes",
+    "how to remember thai consonant classes",
+    "list of thai consonants"
+   ]
+  },
+  {
+   "slug": "thai-vowels-explained",
+   "keyword": "thai vowels",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "thai vowels",
+    "thai vowels chart",
+    "thai vowels and consonants",
+    "thai vowels pronunciation",
+    "thai vowels pdf",
+    "thai vowels list",
+    "thai vowels how many",
+    "thai vowels worksheet pdf",
+    "thai vowels and consonants chart",
+    "thai vowels in english"
+   ]
+  },
+  {
+   "slug": "thai-numbers",
+   "keyword": "thai numbers",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "thai numbers",
+    "thai numbers 1-10",
+    "thai numbers 1 to 100",
+    "thai numbers symbols",
+    "thai numbers 1-20",
+    "thai numbers pronunciation",
+    "thai numbers in english",
+    "thai numbers 0-10",
+    "thai numbers 1 to 10",
+    "thai numbers 1 100 pronunciation"
+   ]
+  },
+  {
+   "slug": "thai-polite-particles",
+   "keyword": "khrap and kha",
+   "ok": true,
+   "status": 200,
+   "exact": false,
+   "close": "khrap and kha in thai",
+   "suggestions": [
+    "krub and kha",
+    "khrap and kha in thai",
+    "krub and kha in thai",
+    "khawp khun khrap meaning",
+    "khop khun mak kha meaning"
+   ]
+  },
+  {
+   "slug": "thai-greetings",
+   "keyword": "thai greetings",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "thai greetings",
+    "thai greetings female",
+    "thai greetings pronunciation",
+    "thai greetings good morning",
+    "thai greetings words",
+    "thai greetings happy birthday",
+    "thai greetings thank you",
+    "thai greetings for men",
+    "thai greetings and gestures",
+    "thai greetings for women"
+   ]
+  },
+  {
+   "slug": "vietnamese-numbers",
+   "keyword": "vietnamese numbers",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "vietnamese numbers",
+    "vietnamese numbers 1-10",
+    "vietnamese numbers 1 to 100",
+    "vietnamese numbers 1-20",
+    "vietnamese numbers 1 to 10",
+    "vietnamese numbers rap",
+    "vietnamese numbers symbols",
+    "vietnamese numbers 1 1000",
+    "vietnamese numbers phone",
+    "vietnamese numbers spelling"
+   ]
+  },
+  {
+   "slug": "northern-vs-southern-vietnamese",
+   "keyword": "northern vs southern vietnamese",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "northern vs southern vietnamese",
+    "northern vs southern vietnamese pho",
+    "northern vs southern vietnamese food",
+    "northern vs southern vietnamese words",
+    "northern vs southern vietnamese people",
+    "northern vs southern vietnamese face",
+    "northern vs southern vietnamese accent",
+    "northern vs southern vietnamese dialect",
+    "northern vs southern vietnamese pronunciation",
+    "northern vs southern vietnamese cuisine"
+   ]
+  },
+  {
+   "slug": "vietnamese-greetings",
+   "keyword": "vietnamese greetings",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "vietnamese greetings",
+    "vietnamese greetings pronunciation",
+    "vietnamese greetings to elders",
+    "vietnamese greetings and goodbyes",
+    "vietnamese greetings thank you",
+    "vietnamese greetings in english",
+    "vietnamese greetings for new year",
+    "vietnamese greetings for tet",
+    "vietnamese greetings and phrases",
+    "vietnamese greetings words"
+   ]
+  },
+  {
+   "slug": "vietnamese-classifiers",
+   "keyword": "vietnamese classifiers",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "vietnamese classifiers",
+    "vietnamese classifiers list",
+    "vietnamese noun classifiers",
+    "all vietnamese classifiers",
+    "types of snakes in vietnam"
+   ]
+  },
+  {
+   "slug": "cantonese-numbers",
+   "keyword": "cantonese numbers",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "cantonese numbers",
+    "cantonese numbers 1-10",
+    "cantonese numbers 1-10 pronunciation",
+    "cantonese numbers 1 to 100",
+    "cantonese numbers pronunciation",
+    "cantonese numbers tones",
+    "cantonese numbers jyutping",
+    "cantonese numbers 1 to 20",
+    "cantonese numbers 1-20",
+    "cantonese numbers 1-100"
+   ]
+  },
+  {
+   "slug": "jyutping-explained",
+   "keyword": "jyutping",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "jyutping",
+    "jyutping converter",
+    "jyutping chart",
+    "jyutping vs yale",
+    "jyutping tones",
+    "jyutping pronunciation",
+    "jyutping cantonese",
+    "jyutping vs pinyin",
+    "jyutping dictionary",
+    "jyutping translator"
+   ]
+  },
+  {
+   "slug": "cantonese-greetings",
+   "keyword": "cantonese greetings",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "cantonese greetings",
+    "cantonese greetings phrases",
+    "cantonese greetings for mid autumn festival",
+    "cantonese greetings for chinese new year",
+    "cantonese greetings cny",
+    "cantonese greetings new year",
+    "cantonese greetings for birthday",
+    "basic cantonese greetings",
+    "cantonese christmas greetings",
+    "common cantonese greetings"
+   ]
+  },
+  {
+   "slug": "cantonese-measure-words",
+   "keyword": "cantonese measure words",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "cantonese measure words",
+    "cantonese measure words list",
+    "cantonese measure word for car",
+    "how to say look in cantonese",
+    "how to say outside in cantonese"
+   ]
+  },
+  {
+   "slug": "italian-pronunciation-guide",
+   "keyword": "italian pronunciation",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "italian pronunciation",
+    "italian pronunciation audio",
+    "italian pronunciation guide",
+    "italian pronunciation c cc ch",
+    "italian pronunciation google translate",
+    "italian pronunciation of bruschetta",
+    "italian pronunciation of gnocchi",
+    "italian pronunciation rules",
+    "italian pronunciation generator",
+    "italian pronunciation of mozzarella"
+   ]
+  },
+  {
+   "slug": "italian-numbers",
+   "keyword": "italian numbers",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "italian numbers",
+    "italian numbers 1-10",
+    "italian numbers 1-100",
+    "italian numbers 1-20",
+    "italian numbers pronunciation",
+    "italian numbers 1-20 pronunciation",
+    "italian numbers 1 to 100",
+    "italian numbers 1-30",
+    "italian numbers 1 to 10",
+    "italian numbers to 100"
+   ]
+  },
+  {
+   "slug": "italian-greetings-formal-informal",
+   "keyword": "italian greetings",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "italian greetings",
+    "italian greetings and goodbyes",
+    "italian greetings by time of day",
+    "italian greetings based on time of day",
+    "italian greetings in english",
+    "italian greetings quizlet",
+    "italian greetings throughout the day",
+    "italian greetings with pronunciation",
+    "italian greetings to know",
+    "italian greetings good afternoon"
+   ]
+  },
+  {
+   "slug": "italian-prepositions-explained",
+   "keyword": "italian prepositions",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "italian prepositions",
+    "italian prepositions chart",
+    "italian prepositions explained",
+    "italian prepositions list",
+    "italian prepositions exercises",
+    "italian prepositions practice",
+    "italian prepositions pdf",
+    "italian prepositions quiz",
+    "italian prepositions meaning",
+    "italian prepositions chart printable"
+   ]
+  },
+  {
+   "slug": "passato-prossimo-vs-imperfetto",
+   "keyword": "passato prossimo vs imperfetto",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "passato prossimo vs imperfetto",
+    "passato prossimo vs imperfetto italian",
+    "passato prossimo vs imperfetto practice",
+    "passato prossimo vs imperfetto esercizi",
+    "passato prossimo vs imperfetto quiz",
+    "passato prossimo vs imperfetto exercises",
+    "passato prossimo vs imperfetto pdf",
+    "passato prossimo vs imperfetto english",
+    "passato prossimo vs imperfetto italiano",
+    "passato prossimo vs imperfetto esercizi online"
+   ]
+  },
+  {
+   "slug": "russian-numbers",
+   "keyword": "russian numbers",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "russian numbers",
+    "russian numbers 1-10",
+    "russian numbers 1-100",
+    "russian numbers station",
+    "russian numbers 1-20",
+    "russian numbers pronunciation",
+    "russian numbers symbols",
+    "russian numbers phone",
+    "russian numbers 1-10 pronunciation",
+    "russian numbers 0-10"
+   ]
+  },
+  {
+   "slug": "russian-greetings",
+   "keyword": "russian greetings",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "russian greetings",
+    "russian greetings and phrases",
+    "russian greetings pronunciation",
+    "russian greetings formal",
+    "russian greetings in english",
+    "russian greetings and responses",
+    "russian greetings words",
+    "russian greetings meme",
+    "russian greetings and farewells",
+    "russian greetings english pronunciation"
+   ]
+  },
+  {
+   "slug": "russian-adjective-endings",
+   "keyword": "russian adjective endings",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "russian adjective endings",
+    "russian adjective endings chart",
+    "russian adjective endings by case",
+    "russian genitive adjective endings",
+    "russian prepositional adjective endings",
+    "russian nominative adjective endings",
+    "russian dative adjective endings",
+    "russian accusative adjective endings",
+    "russian plural adjective endings",
+    "russian instrumental adjective endings"
+   ]
+  },
+  {
+   "slug": "russian-personal-pronouns",
+   "keyword": "russian pronouns",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "russian pronouns",
+    "russian pronouns chart",
+    "russian pronouns in all cases",
+    "russian pronouns cases",
+    "russian pronouns declension chart",
+    "russian pronouns table",
+    "russian pronouns declension",
+    "russian pronouns pronunciation",
+    "russian pronouns in english",
+    "russian pronouns cases chart"
+   ]
+  },
+  {
+   "slug": "khmer-numbers",
+   "keyword": "khmer numbers",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "khmer numbers",
+    "khmer numbers 1-10",
+    "khmer numbers 1-100",
+    "khmer numbers pronunciation",
+    "khmer numbers by 10",
+    "khmer numbers in english",
+    "khmer numbers 1-20",
+    "khmer numbers 1-12",
+    "khmer numbers vs thai numbers",
+    "khmer numbers phone"
+   ]
+  },
+  {
+   "slug": "khmer-consonant-series",
+   "keyword": "khmer consonants",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "khmer consonants",
+    "khmer consonants and vowels",
+    "khmer consonants pronunciation",
+    "khmer consonants flashcards",
+    "khmer consonants list",
+    "khmer consonants in. english",
+    "khmer consonants chart",
+    "khmer sub consonants",
+    "khmer alphabet consonants",
+    "khmer 33 consonants"
+   ]
+  },
+  {
+   "slug": "khmer-vowels-explained",
+   "keyword": "khmer vowels",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "khmer vowels",
+    "khmer vowels pronunciation",
+    "khmer vowels and consonants",
+    "khmer vowels chart",
+    "khmer vowels in english",
+    "khmer vowels pdf",
+    "khmer vowels ipa",
+    "khmer vowels flashcards",
+    "khmer vowels how many",
+    "khmer independent vowels"
+   ]
+  },
+  {
+   "slug": "lao-vowels-explained",
+   "keyword": "lao vowels",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "lao vowels",
+    "lao vowels chart",
+    "laotian vowels",
+    "lao alphabet vowels",
+    "lao script vowels",
+    "lao consonants and vowels",
+    "bo de lao to la ai",
+    "what are the weak vowels in spanish"
+   ]
+  },
+  {
+   "slug": "italian-plural-nouns",
+   "keyword": "italian plural nouns",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "italian plural nouns",
+    "italian plural nouns exercises",
+    "italian plural noun rules",
+    "italian plural forms",
+    "italian plural words",
+    "italian irregular plural nouns",
+    "italian singular and plural nouns",
+    "how to make nouns plural in italian"
+   ]
+  },
+  {
+   "slug": "marathi-postpositions",
+   "keyword": "marathi postpositions",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "marathi postpositions",
+    "marathi sentence structure",
+    "marathi sentence types",
+    "marathi common sentence",
+    "marathi sentence meaning in english"
+   ]
+  },
+  {
+   "slug": "marathi-pronouns",
+   "keyword": "marathi pronouns",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "marathi pronouns",
+    "marathi pronouns worksheet",
+    "marathi pronouns list",
+    "marathi pronouns sentences",
+    "marathi pronouns in english",
+    "marathi pronouns examples",
+    "pronouns marathi meaning",
+    "pronouns marathi translation",
+    "marathi personal pronouns",
+    "all marathi pronouns"
+   ]
+  },
+  {
+   "slug": "malay-numbers",
+   "keyword": "malay numbers",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "malay numbers",
+    "malay numbers 1-10",
+    "malay numbers 1 to 20",
+    "malay numbers 1 to 100",
+    "malay numbers 1 1000",
+    "malay numbers in english",
+    "malay numbers in words",
+    "malay numbers symbols"
+   ]
+  },
+  {
+   "slug": "malay-pronouns",
+   "keyword": "malay pronouns",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "malay pronouns",
+    "pronounce malaysia",
+    "malay possessive pronouns",
+    "malay nouns",
+    "malay english names",
+    "malay to malay translate",
+    "malaysia malay name"
+   ]
+  },
+  {
+   "slug": "malay-question-words",
+   "keyword": "malay question words",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "malay question words",
+    "famous malay words",
+    "malay common words",
+    "malay words list"
+   ]
+  },
+  {
+   "slug": "how-to-practise-speaking-alone",
+   "keyword": "how to practice speaking a language alone",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to practice speaking a language alone",
+    "how to practice speaking a language alone reddit",
+    "how to practice speaking a foreign language alone",
+    "how to start practicing speaking a language by yourself",
+    "how to practice speaking a language by yourself",
+    "how to practice a language alone"
+   ]
+  },
+  {
+   "slug": "protein-in-common-foods",
+   "keyword": "protein in common foods",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "protein in common foods",
+    "protein in common foods chart",
+    "protein in common foods list",
+    "protein in common foods sunnybrook",
+    "protein in common foods uk",
+    "protein amounts in common foods",
+    "protein content in common foods",
+    "protein grams in common foods",
+    "protein values in common foods",
+    "protein count in common foods"
+   ]
+  },
+  {
+   "slug": "how-to-read-protein-powder-labels",
+   "keyword": "protein powder label",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "protein powder label",
+    "protein powder label design",
+    "protein powder label padhega india",
+    "protein powder label template",
+    "protein shake label",
+    "protein powder ingredients",
+    "protein powder ingredients list",
+    "protein powder ingredients to avoid",
+    "protein powder ingredients at home",
+    "protein powder ingredients insects"
+   ]
+  },
+  {
+   "slug": "high-protein-breakfast-ideas",
+   "keyword": "high protein breakfast",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "high protein breakfast",
+    "high protein breakfast ideas",
+    "high protein breakfast meal prep",
+    "high protein breakfast without eggs or dairy",
+    "high protein breakfast on the go",
+    "high protein breakfast burrito",
+    "high protein breakfast recipes",
+    "high protein breakfast ideas no eggs",
+    "high protein breakfast casserole",
+    "high protein breakfast for weight loss"
+   ]
+  },
+  {
+   "slug": "low-carb-vegetables-list",
+   "keyword": "low carb vegetables",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "low carb vegetables",
+    "low carb vegetables list",
+    "low carb vegetables and fruits",
+    "low carb vegetables keto",
+    "low carb vegetables for diabetics",
+    "low carb vegetables for keto",
+    "low carb vegetables recipe",
+    "low carb vegetables for keto diet",
+    "low carb vegetables for dogs",
+    "low carb vegetables for soup"
+   ]
+  },
+  {
+   "slug": "low-carb-fruits-list",
+   "keyword": "low carb fruits",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "low carb fruits",
+    "low carb fruits and vegetables",
+    "low carb fruits list",
+    "low carb fruits for weight loss",
+    "low carb fruits and vegetables list",
+    "low carb fruits and vegetables printable list",
+    "low carb fruits for diabetics",
+    "low carb fruits and vegetables printable list pdf",
+    "low carb fruits and vegetables for weight loss",
+    "low carb fruits keto"
+   ]
+  },
+  {
+   "slug": "food-storage-times",
+   "keyword": "how long does food last in the fridge",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how long does food last in the fridge",
+    "how long does food last in the fridge without power",
+    "how long does food last in the fridge during a power outage",
+    "how long does food last in the fridge after a power outage",
+    "how long does food last in the fridge when power goes out",
+    "how long does food last in the fridge when the power is out",
+    "how long does food last in the fridge and freezer without power",
+    "how long does food last in the fridge in a power outage",
+    "how long does food last in the fridge after cooking",
+    "how long does food last in the fridge without power reddit"
+   ]
+  },
+  {
+   "slug": "safe-cooking-temperatures",
+   "keyword": "safe cooking temperatures",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "safe cooking temperatures",
+    "safe cooking temperatures for different foods",
+    "safe cooking temperatures for meat",
+    "safe cooking temperatures canada",
+    "safe cooking temperatures uk",
+    "safe cooking temperatures for various meat",
+    "safe cooking temperatures for chicken",
+    "safe cooking temperatures health canada",
+    "safe cooking temperatures and times",
+    "safe food temperatures"
+   ]
+  },
+  {
+   "slug": "kitchen-measurement-conversions",
+   "keyword": "kitchen measurement conversions",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "kitchen measurement conversions",
+    "cooking measurement conversions",
+    "baking measurement conversions",
+    "food measurement conversions",
+    "recipe measurement conversions",
+    "cooking measurement conversions calculator",
+    "culinary measurement conversions",
+    "kitchen measurement conversion calculator",
+    "kitchen measurement conversion magnet",
+    "kitchen measurement conversion table"
+   ]
+  },
+  {
+   "slug": "meal-prep-food-safety",
+   "keyword": "meal prep food safety",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "meal prep food safety",
+    "meal prep food safety reddit",
+    "is meal prep food safe",
+    "frive meal prep food hygiene rating",
+    "does meal prepping food go bad",
+    "how to meal prep food"
+   ]
+  },
+  {
+   "slug": "how-to-color-skin-tones-digitally",
+   "keyword": "how to color skin digitally",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to color skin digitally",
+    "how to shade skin digitally",
+    "how to color skin photoshop",
+    "how to color realistic skin digitally",
+    "how to color anime skin digitally",
+    "how to make skin color digitally",
+    "how to color skin digital art"
+   ]
+  },
+  {
+   "slug": "the-crusades-explained",
+   "keyword": "the crusades explained",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "the crusades explained",
+    "the crusades explained simply",
+    "the crusades explained for dummies",
+    "the crusades explained for kids",
+    "the crusades explained youtube",
+    "the crusades explained video",
+    "the crusades explained reddit",
+    "the crusades definition",
+    "the crusades summary",
+    "the crusades meaning in history"
+   ]
+  },
+  {
+   "slug": "the-renaissance-explained",
+   "keyword": "what was the renaissance",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "what was the renaissance",
+    "what was the renaissance era",
+    "what was the renaissance a rebirth of",
+    "what was the renaissance period",
+    "what was the renaissance known for",
+    "what was the renaissance like",
+    "what was the renaissance era like",
+    "what was the renaissance era known for",
+    "what was the renaissance time period",
+    "what was the renaissance and where did it begin"
+   ]
+  },
+  {
+   "slug": "the-protestant-reformation",
+   "keyword": "protestant reformation",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "protestant reformation",
+    "protestant reformation definition",
+    "protestant reformation date",
+    "protestant reformation summary",
+    "protestant reformation apush definition",
+    "protestant reformation timeline",
+    "protestant reformation year",
+    "protestant reformation map",
+    "protestant reformation apush",
+    "protestant reformation in england"
+   ]
+  },
+  {
+   "slug": "the-enlightenment-explained",
+   "keyword": "what was the enlightenment",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "what was the enlightenment",
+    "what was the enlightenment and what ideas did it promote",
+    "what was the enlightenment period",
+    "what was the enlightenment in simple terms",
+    "what was the enlightenment in the 1700s",
+    "what was the enlightenment and how did it change views about nature and god",
+    "what was the enlightenment in america",
+    "what was the enlightenment movement",
+    "what was the enlightenment simple definition",
+    "what was the enlightenment era about"
+   ]
+  },
+  {
+   "slug": "causes-of-the-american-revolution",
+   "keyword": "causes of the american revolution",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "causes of the american revolution",
+    "causes of the american revolution timeline",
+    "causes of the american revolution for kids",
+    "causes of the american revolution worksheet pdf",
+    "causes of the american revolutionary war",
+    "causes of the american revolution french and indian war",
+    "causes of the american revolution quiz",
+    "causes of the american revolution apush",
+    "causes of the american revolution activity",
+    "causes of the american revolution dbq"
+   ]
+  },
+  {
+   "slug": "causes-of-world-war-2",
+   "keyword": "causes of world war 2",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "causes of world war 2",
+    "causes of world war 2 in points",
+    "causes of world war 2 pdf",
+    "causes of world war 2 in simple words",
+    "causes of world war 2 class 10",
+    "causes of world war 2 pictures",
+    "causes of world war 2 upsc",
+    "causes of world war 2 pdf notes",
+    "causes of world war 2 for kids",
+    "what were the major causes of world war ii"
+   ]
+  },
+  {
+   "slug": "the-cold-war-explained",
+   "keyword": "cold war explained",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "cold war explained",
+    "cold war explained for kids",
+    "cold war explained simply",
+    "cold war explained for dummies",
+    "cold war explained in 15 minutes",
+    "cold war explained in 5 minutes",
+    "cold war explained simple",
+    "cold war explained youtube",
+    "cold war explained reddit",
+    "cold war explained in simple terms"
+   ]
+  },
+  {
+   "slug": "the-great-depression-explained",
+   "keyword": "great depression explained",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "great depression explained",
+    "great depression explained for kids",
+    "great depression explained simply",
+    "great depression explained in spanish",
+    "great recession explained",
+    "great recession explained simply",
+    "major depression explained",
+    "economic depression explained",
+    "great depression meaning",
+    "great depression summary"
+   ]
+  },
+  {
+   "slug": "the-vikings-explained",
+   "keyword": "who were the vikings",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "who were the vikings and where did they come from",
+    "who were the vikings",
+    "who were the vikings and what did they do",
+    "who were the vikings qbs last year",
+    "who were the vikings before they were vikings",
+    "who were the vikings descended from",
+    "who were the vikings in history",
+    "who were the vikings purple people eaters",
+    "who were the vikings enemies",
+    "who were the vikings afraid of"
+   ]
+  },
+  {
+   "slug": "napoleon-rise-and-fall",
+   "keyword": "napoleon rise and fall",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "napoleon rise and fall",
+    "napoleon's rise and fall movie",
+    "napoleon rise and fall civil code of 1804",
+    "napoleon's rise and fall assignment",
+    "napoleon's rise and fall quiz",
+    "napoleon's rise and fall quizlet",
+    "napoleon rise and fall timeline",
+    "napoleon bonaparte rise and fall",
+    "napoleon bonaparte rise and fall in hindi",
+    "discuss napoleon's rise and fall"
+   ]
+  },
+  {
+   "slug": "unification-of-germany",
+   "keyword": "unification of germany",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "unification of germany",
+    "unification of germany 1871",
+    "reunification of germany after the fall of the berlin wall",
+    "reunification of germany",
+    "unification of germany and italy",
+    "unification of germany class 10",
+    "unification of germany 1989",
+    "unification of germany map",
+    "reunification of germany after the fall of the berlin wall bias",
+    "unification of germany date"
+   ]
+  },
+  {
+   "slug": "unification-of-italy",
+   "keyword": "unification of italy",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "unification of italy",
+    "unification of italy date",
+    "unification of italy and germany",
+    "unification of italy timeline",
+    "unification of italy map",
+    "unification of italy 1861",
+    "unification of italy class 10",
+    "unification of italy year",
+    "unification of italy map before and after",
+    "unification of italy summary"
+   ]
+  },
+  {
+   "slug": "the-space-race-explained",
+   "keyword": "space race explained",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "space race explained",
+    "space race explained for kids",
+    "space race definition",
+    "space race summary",
+    "space race definition cold war",
+    "space race meaning tagalog",
+    "space race definition simple",
+    "space race definition ap world history",
+    "space race meaning in history",
+    "space race meaning in hindi"
+   ]
+  },
+  {
+   "slug": "fall-of-the-berlin-wall",
+   "keyword": "fall of the berlin wall",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "fall of the berlin wall",
+    "fall of the berlin wall date",
+    "fall of the berlin wall 1989",
+    "fall of the berlin wall summary",
+    "fall of the berlin wall significance",
+    "fall of the berlin wall explained",
+    "fall of the berlin wall video",
+    "fall of the berlin wall footage",
+    "fall of the berlin wall wikipedia",
+    "fall of the berlin wall newspaper"
+   ]
+  },
+  {
+   "slug": "apartheid-explained",
+   "keyword": "apartheid explained",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "apartheid explained",
+    "apartheid explained for kids",
+    "apartheid explained simply",
+    "apartheid explained nelson mandela's battle",
+    "apartheid explained youtube",
+    "apartheid explained video",
+    "apartheid explained south africa",
+    "apartheid explained reddit",
+    "apartheid explained aj+",
+    "apartheid explained in english"
+   ]
+  },
+  {
+   "slug": "chinese-revolutions-1911-1949",
+   "keyword": "1911 revolution china",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "1911 revolution china",
+    "1911 revolution china summary",
+    "1911 china revolution in hindi",
+    "1911 revolution chinese",
+    "1911 revolution in china studocu",
+    "1911 revolution in china ignou",
+    "1911 revolution in china pdf",
+    "1911 revolution of china resulted in",
+    "1911 revolution in china causes",
+    "1911 chinese revolution leader"
+   ]
+  },
+  {
+   "slug": "the-aztec-empire-explained",
+   "keyword": "aztec empire",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "aztec empire",
+    "aztec empire map",
+    "aztec empire timeline",
+    "aztec empire flag",
+    "aztec empire founded",
+    "aztec empire location",
+    "aztec empire symbol",
+    "aztec empire capital",
+    "aztec empire definition",
+    "aztec empire dates"
+   ]
+  },
+  {
+   "slug": "feudalism-explained",
+   "keyword": "feudalism explained",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "feudalism explained",
+    "feudalism explained simply",
+    "feudalism explained for kids",
+    "feudalism explained through minecraft",
+    "medieval feudalism explained",
+    "japanese feudalism explained",
+    "neo feudalism explained",
+    "bastard feudalism explained",
+    "feudalism hierarchy explained",
+    "feudalism system explained"
+   ]
+  },
+  {
+   "slug": "magna-carta-explained",
+   "keyword": "magna carta",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "magna carta",
+    "magna carta meaning",
+    "magna carta date",
+    "magna carta definition",
+    "magna carta ps2",
+    "magna carta 1215",
+    "magna carta pens",
+    "magna carta holy grail",
+    "magna carta tears of blood",
+    "magna carta 2"
+   ]
+  },
+  {
+   "slug": "hundred-years-war-explained",
+   "keyword": "hundred years war",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "hundred years war",
+    "hundred years war on palestine",
+    "hundred years war dates",
+    "hundred years war map",
+    "hundred years war definition",
+    "hundred years warfare mod",
+    "hundred years war battles",
+    "hundred years war timeline",
+    "hundred years war book",
+    "hundred years warfare"
+   ]
+  },
+  {
+   "slug": "the-1918-influenza-pandemic",
+   "keyword": "1918 flu pandemic",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "1918 flu pandemic",
+    "1918 flu pandemic compared to covid 19",
+    "1918 flu pandemic death toll",
+    "1918 flu pandemic book",
+    "1918 flu pandemic origin",
+    "1918 flu pandemic mortality rate",
+    "1918 flu pandemic documentary",
+    "1918 flu pandemic timeline",
+    "1918 flu pandemic vs 2020 coronavirus",
+    "1918 flu pandemic deaths"
+   ]
+  },
+  {
+   "slug": "cuban-missile-crisis-explained",
+   "keyword": "cuban missile crisis",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "cuban missile crisis",
+    "cuban missile crisis movie",
+    "cuban missile crisis summary",
+    "cuban missile crisis date",
+    "cuban missile crisis bay of pigs",
+    "cuban missile crisis president",
+    "cuban missile crisis timeline",
+    "cuban missile crisis vs bay of pigs",
+    "cuban missile crisis year",
+    "cuban missile crisis 1962"
+   ]
+  },
+  {
+   "slug": "the-korean-war-explained",
+   "keyword": "korean war explained",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "korean war explained",
+    "korean war explained simply",
+    "korean war explained for kids",
+    "korean war explained reddit",
+    "korean war explained youtube",
+    "korean conflict explained",
+    "korean war summary",
+    "korean war definition",
+    "korean war definition us history",
+    "korean war explanation"
+   ]
+  },
+  {
+   "slug": "athenian-democracy-explained",
+   "keyword": "athenian democracy",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "athenian democracy",
+    "athenian democracy definition",
+    "athenian democracy vs american democracy",
+    "athenian democracy structure",
+    "athenian democracy timeline",
+    "athenian democracy vs roman republic",
+    "athenian democracy vs modern democracy",
+    "athenian democracy in the age of demosthenes",
+    "athenian democracy explained",
+    "athenian democracy painting"
+   ]
+  },
+  {
+   "slug": "roman-republic-vs-empire",
+   "keyword": "roman republic vs roman empire",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "roman republic vs roman empire",
+    "roman republic vs roman empire timeline",
+    "roman republic vs roman empire map",
+    "roman republic vs roman empire which was better",
+    "roman republic vs roman empire reddit",
+    "roman republic vs roman empire vs holy roman empire",
+    "roman republic vs roman empire vs roman kingdom",
+    "roman republic and roman empire",
+    "roman republic and roman empire differences",
+    "roman republic and roman empire timeline"
+   ]
+  },
+  {
+   "slug": "alexander-the-great-explained",
+   "keyword": "alexander the great",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "alexander the great",
+    "alexander the great physical build",
+    "alexander the great movie",
+    "alexander the great empire",
+    "alexander the great death",
+    "alexander the great quotes",
+    "alexander the great volkanovski",
+    "alexander the great height",
+    "alexander the great cause of death",
+    "alexander the great tomb"
+   ]
+  },
+  {
+   "slug": "the-han-dynasty-explained",
+   "keyword": "han dynasty",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "han dynasty",
+    "han dynasty time period",
+    "han dynasty clothing",
+    "han dynasty restaurant",
+    "han dynasty philadelphia",
+    "han dynasty armor",
+    "han dynasty hanfu",
+    "han dynasty technology",
+    "han dynasty china",
+    "han dynasty significance"
+   ]
+  },
+  {
+   "slug": "the-age-of-exploration",
+   "keyword": "age of exploration",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "age of exploration",
+    "age of exploration map",
+    "age of exploration timeline",
+    "age of exploration definition",
+    "age of exploration time period",
+    "age of exploration ships",
+    "age of exploration dates",
+    "age of exploration years",
+    "age of exploration for kids",
+    "age of exploration book"
+   ]
+  },
+  {
+   "slug": "google-play-refund-guide",
+   "keyword": "google play refund",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "google play refund",
+    "google play refund request",
+    "google play refund status",
+    "google play refund subscription",
+    "google play refund customer service phone number",
+    "google play refund phone number",
+    "google play refund policy",
+    "google play refund to bank",
+    "google play refund customer service",
+    "google play refund customer service chat"
+   ]
+  },
+  {
+   "slug": "in-app-purchases-explained",
+   "keyword": "in app purchases meaning",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "in app purchases meaning",
+    "in app purchases meaning in app store",
+    "in app purchases meaning in hindi",
+    "in app purchases meaning in bengali",
+    "in app purchases meaning in urdu",
+    "in app purchases meaning in tamil",
+    "in app purchases meaning in telugu",
+    "in app purchases meaning in marathi",
+    "in app purchases meaning in punjabi",
+    "in app purchases meaning in hindi instagram"
+   ]
+  },
+  {
+   "slug": "google-play-content-ratings",
+   "keyword": "google play content rating",
+   "ok": true,
+   "status": 200,
+   "exact": false,
+   "close": "google play content rating questionnaire",
+   "suggestions": [
+    "google play content rating questionnaire",
+    "google play content rating questionnaire reddit",
+    "google play content ratings",
+    "google play content rating questionnaire template",
+    "google play content ratings for apps and",
+    "google play age ratings",
+    "google play age rating system",
+    "google play console content rating",
+    "google play store content rating",
+    "google play store age ratings"
+   ]
+  },
+  {
+   "slug": "how-to-update-apps-on-android",
+   "keyword": "how to update apps on android",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to update apps on android",
+    "how to update apps on android phone",
+    "how to update apps on android tablet",
+    "how to update apps on android without play store",
+    "how to update apps on android samsung",
+    "how to update apps on android tv",
+    "how to update apps on android auto",
+    "how to update apps on android without google play",
+    "how to update apps on android tv box",
+    "how to update apps on android box"
+   ]
+  },
+  {
+   "slug": "move-apps-to-a-new-android-phone",
+   "keyword": "transfer apps to new android phone",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "transfer apps to new android phone",
+    "transfer apps to new android phone after setup",
+    "transfer apps to another android phone",
+    "transfer all apps to new android phone",
+    "transfer apps data to new android phone",
+    "transfer installed apps to new android phone",
+    "transfer app passwords to new android phone",
+    "transfer app settings to new android phone",
+    "transfer files and apps to new android phone",
+    "do apps transfer to new android phone"
+   ]
+  },
+  {
+   "slug": "clear-app-cache-android",
+   "keyword": "clear cache android app",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "clear cache android app",
+    "clear cache android app download",
+    "clear cache app android samsung",
+    "remove cache android app",
+    "clear cache app android tv",
+    "reset cache android app",
+    "clear cache app android phone",
+    "clear cache android auto app",
+    "clear cache android all apps",
+    "clear cache data android app"
+   ]
+  },
+  {
+   "slug": "cricket-ball-types",
+   "keyword": "red vs white vs pink cricket ball",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "red vs white vs pink cricket ball",
+    "red white and pink cricket ball",
+    "red ball vs white ball vs pink ball",
+    "difference between pink and white ball cricket",
+    "is a white cricket ball different to a red one"
+   ]
+  },
+  {
+   "slug": "cricket-bat-rules",
+   "keyword": "cricket bat size rules",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "cricket bat size rules",
+    "cricket bat dimension rules",
+    "cricket bat size limit",
+    "cricket bat size law",
+    "icc cricket bat size rules",
+    "cricket bat size regulations",
+    "what size should a cricket bat be",
+    "legal cricket bat dimensions"
+   ]
+  },
+  {
+   "slug": "how-long-is-a-cricket-match",
+   "keyword": "how long does a cricket match last",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how long does a cricket match last",
+    "how long does a cricket match last on average",
+    "how long does a cricket match last t20",
+    "how long does a cricket game last",
+    "how long can a cricket match last",
+    "how many hours does a cricket match last",
+    "how long does a cricket game last on average",
+    "how long does a 100 cricket match last",
+    "how long does a hundred cricket match last",
+    "how long does a test cricket match last"
+   ]
+  },
+  {
+   "slug": "cricket-milestones-explained",
+   "keyword": "what is a century in cricket",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "what is a century in cricket",
+    "what is a maiden century in cricket",
+    "what is a half century in cricket",
+    "what is a double century in cricket",
+    "what is a triple century in cricket",
+    "what is a test century in cricket",
+    "what is list a century in cricket",
+    "what is a hundred in cricket",
+    "what is a first class century in cricket",
+    "what is a maiden half century in cricket"
+   ]
+  },
+  {
+   "slug": "the-ming-dynasty-explained",
+   "keyword": "ming dynasty",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "ming dynasty",
+    "ming dynasty clothing",
+    "ming dynasty emperors",
+    "ming dynasty map",
+    "ming dynasty in 1566",
+    "ming dynasty time period",
+    "ming dynasty years",
+    "ming dynasty vase",
+    "ming dynasty drama",
+    "ming dynasty hanfu"
+   ]
+  },
+  {
+   "slug": "the-mexican-revolution-explained",
+   "keyword": "mexican revolution",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "mexican revolution",
+    "mexican revolution 1910",
+    "mexican revolutionaries",
+    "mexican revolution leaders",
+    "mexican revolutionary war",
+    "mexican revolution dates",
+    "mexican revolution summary",
+    "mexican revolution day",
+    "mexican revolution movies",
+    "mexican revolution timeline"
+   ]
+  },
+  {
+   "slug": "the-boxer-rebellion-explained",
+   "keyword": "boxer rebellion",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "boxer rebellion",
+    "boxer rebellion in china",
+    "boxer rebellion summary",
+    "boxer rebellion in chinese",
+    "boxer rebellion tour",
+    "boxer rebellion band",
+    "boxer rebellion photos",
+    "boxer rebellion movie",
+    "boxer rebellion deaths",
+    "boxer rebellion death toll"
+   ]
+  },
+  {
+   "slug": "world-war-1-timeline",
+   "keyword": "world war 1 timeline",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "world war 1 timeline",
+    "world war 1 timeline major events",
+    "world war 1 timeline of events",
+    "world war 1 timeline map",
+    "world war 1 timeline for kids",
+    "world war 1 timeline 1914 to 1918",
+    "world war 1 timeline pdf",
+    "world war 1 timeline tagalog",
+    "world war 1 timeline project",
+    "world war 1 timeline activity"
+   ]
+  },
+  {
+   "slug": "d-day-explained",
+   "keyword": "d-day explained",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "d-day explained",
+    "d-day explained simply",
+    "d day explained for kids",
+    "d day explained for dummies",
+    "d day explained simple",
+    "d-day explained in spanish",
+    "d day explained imperial war museum",
+    "d day explained video",
+    "d day meaning",
+    "d day meaning slang"
+   ]
+  },
+  {
+   "slug": "the-marshall-plan-explained",
+   "keyword": "marshall plan",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "marshall plan",
+    "marshall plane crash",
+    "marshall plane crash victims list",
+    "marshall plan cost",
+    "marshall plan definition",
+    "marshall plan president",
+    "marshall plane crash site",
+    "marshall plan vs truman doctrine",
+    "marshall plane crash movie",
+    "marshall plan ww2"
+   ]
+  },
+  {
+   "slug": "founding-of-the-united-nations",
+   "keyword": "founding of the united nations",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "founding of the united nations",
+    "founding of the united nations 1945",
+    "founders of the united nations",
+    "history of the united nations",
+    "formation of the united nations",
+    "history of the united nations pdf",
+    "founding members of the united nations",
+    "51 founding members of the united nations",
+    "established of united nations",
+    "original founding members of united nations"
+   ]
+  },
+  {
+   "slug": "ancient-egypt-timeline",
+   "keyword": "ancient egypt timeline",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "ancient egypt timeline",
+    "ancient egypt timeline for kids",
+    "ancient egypt timeline pdf",
+    "ancient egypt timeline in order",
+    "ancient egypt timeline printable",
+    "ancient egypt timeline important events",
+    "ancient egypt timeline of pharaohs",
+    "ancient egypt timeline ks2",
+    "ancient egypt timeline in chronological order",
+    "ancient egypt timeline activity"
+   ]
+  },
+  {
+   "slug": "the-persian-wars-explained",
+   "keyword": "persian wars",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "persian wars",
+    "persian wars timeline",
+    "persian wars definition",
+    "persian wars greece",
+    "persian wars summary",
+    "persian wars map",
+    "persian wars dates",
+    "persian wars ancient greece",
+    "persian wars in order",
+    "persian warships"
+   ]
+  },
+  {
+   "slug": "the-punic-wars-explained",
+   "keyword": "punic wars",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "punic wars",
+    "punic wars definition",
+    "punic wars timeline",
+    "punic wars between rome and carthage",
+    "punic wars map",
+    "punic wars dates",
+    "punic wars book",
+    "punic wars hannibal",
+    "punic wars oversimplified",
+    "punic wars movies"
+   ]
+  },
+  {
+   "slug": "charlemagne-explained",
+   "keyword": "charlemagne",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "charlemagne",
+    "charlemagne rapper",
+    "charlemagne empire",
+    "charlemagne the great",
+    "charlemagne pronunciation",
+    "charlamagne tha god",
+    "charlemagne fgo",
+    "charlemagne sword",
+    "charlemagne meaning",
+    "charlemagne fate"
+   ]
+  },
+  {
+   "slug": "norman-conquest-1066",
+   "keyword": "norman conquest 1066",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "norman conquest 1066",
+    "norman conquest 1066 summary",
+    "norman conquest 1066 map",
+    "norman conquest 1066 common law",
+    "norman conquest 1066 ad",
+    "norman conquest 1066 facts",
+    "norman conquest 1066 ad or bc",
+    "norman conquest 1066 illustration",
+    "norman conquest 1066 wiki",
+    "norman invasion 1066"
+   ]
+  },
+  {
+   "slug": "causes-of-the-american-civil-war",
+   "keyword": "causes of the american civil war",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "causes of the american civil war",
+    "causes of the american civil war gcse history",
+    "causes of the american civil war of 1861 to 1865",
+    "causes of the american civil war commonlit answers",
+    "causes of the american civil war pdf",
+    "causes of the american civil war by mike kubic",
+    "causes of the american civil war commonlit",
+    "causes of the american civil war slavery",
+    "causes of the american civil war for kids",
+    "causes of the american civil war book"
+   ]
+  },
+  {
+   "slug": "the-taiping-rebellion-explained",
+   "keyword": "taiping rebellion",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "taiping rebellion",
+    "taiping rebellion in china",
+    "taiping rebellion death toll",
+    "taiping rebellion reddit",
+    "taiping rebellion in chinese",
+    "taiping rebellion casualties",
+    "taiping rebellion leader",
+    "taiping rebellion jesus brother",
+    "taiping rebellion summary",
+    "taiping rebellion map"
+   ]
+  },
+  {
+   "slug": "the-thirty-years-war-explained",
+   "keyword": "thirty years war",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "thirty years war",
+    "thirty years war summary",
+    "thirty years war map",
+    "thirty years war book",
+    "thirty years war treaty",
+    "thirty years war definition",
+    "thirty years war peter wilson",
+    "thirty years war paintings",
+    "thirty years war cv wedgwood",
+    "thirty years war dates"
+   ]
+  },
+  {
+   "slug": "how-to-add-a-language-keyboard-on-android",
+   "keyword": "add language keyboard android",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "add language keyboard android",
+    "multiple language keyboard android",
+    "add keyboard language android auto",
+    "install language keyboard android",
+    "add other language keyboard android",
+    "add second language keyboard android",
+    "add new language keyboard android",
+    "add keyboard layout android",
+    "add language to samsung keyboard android",
+    "add arabic language to samsung keyboard android"
+   ]
+  },
+  {
+   "slug": "thai-classifiers",
+   "keyword": "thai classifiers",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "thai classifiers",
+    "thai classifiers list",
+    "thai classifiers list pdf",
+    "thai classifiers for food",
+    "thai language classifiers",
+    "thai noun classifiers",
+    "all thai classifiers",
+    "common thai classifiers",
+    "how many thai classifiers are there",
+    "what are classifiers in bsl"
+   ]
+  },
+  {
+   "slug": "italian-essere-vs-avere",
+   "keyword": "essere vs avere",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "essere vs avere",
+    "essere vs avere passato prossimo",
+    "essere vs avere italian",
+    "essere vs avere conjugation",
+    "essere vs avere passato prossimo practice",
+    "essere vs avere quiz",
+    "essere vs avere english",
+    "essere vs avere verbs",
+    "essere vs avere when to use",
+    "essere vs avere and stare"
+   ]
+  },
+  {
+   "slug": "italian-restaurant-phrases",
+   "keyword": "italian restaurant phrases",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "italian restaurant phrases",
+    "italian restaurant phrases pdf",
+    "italian phrases restaurant ordering",
+    "italian dining phrases",
+    "italian cafe phrases",
+    "italian restaurant vocabulary",
+    "italian restaurant words",
+    "italian restaurant sentences",
+    "italian restaurant expressions",
+    "basic italian restaurant phrases"
+   ]
+  },
+  {
+   "slug": "russian-soft-and-hard-signs",
+   "keyword": "russian soft sign",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "russian soft sign",
+    "russian soft sign and hard sign",
+    "russian soft sign pronunciation",
+    "russian soft sign and hard sign pronunciation",
+    "russian soft sign name",
+    "russian soft sign example",
+    "russian soft sign meaning",
+    "russian soft sign explained",
+    "russian soft sign words",
+    "soft sign russian"
+   ]
+  },
+  {
+   "slug": "malay-days-and-time",
+   "keyword": "malay days of the week",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "malay days of the week",
+    "malaysia days of the week",
+    "malaysia first day of the week",
+    "bahasa melayu days of the week",
+    "malaysia working days in a week",
+    "malaysia school days in a week",
+    "days of the week in malay language",
+    "days of the week in malay song",
+    "7 days of the week in malay",
+    "7 days after friday"
+   ]
+  },
+  {
+   "slug": "cantonese-dim-sum-phrases",
+   "keyword": "dim sum names in cantonese",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "dim sum names in cantonese",
+    "dim sum food names in cantonese",
+    "how to say dim sum in cantonese",
+    "how to say dim sum in chinese"
+   ]
+  },
+  {
+   "slug": "how-to-convert-images-to-pdf",
+   "keyword": "convert images to pdf android",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "convert images to pdf android",
+    "convert image to pdf android free",
+    "convert image to pdf android app",
+    "convert jpg to pdf android",
+    "convert jpg to pdf android free",
+    "convert jpg to pdf android phone",
+    "convert photo to pdf android phone",
+    "convert jpg to pdf android app",
+    "convert jpg to pdf android online",
+    "turn images to pdf android"
+   ]
+  },
+  {
+   "slug": "how-to-annotate-a-pdf",
+   "keyword": "how to annotate a pdf",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to annotate a pdf on mac",
+    "how to annotate a pdf",
+    "how to annotate a pdf in chrome",
+    "how to annotate a pdf on ipad",
+    "how to annotate a pdf in google drive",
+    "how to annotate a pdf on windows",
+    "how to annotate a pdf on iphone",
+    "how to annotate a pdf on canvas",
+    "how to annotate a pdf in preview",
+    "how to annotate a pdf free"
+   ]
+  },
+  {
+   "slug": "how-to-print-a-pdf-from-android",
+   "keyword": "print pdf from android",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "print pdf from android",
+    "print pdf from android phone",
+    "print pdf from android chrome",
+    "print pdf from android tablet",
+    "how to print pdf from android free",
+    "print booklet from pdf android",
+    "can't print pdf from android phone",
+    "print pdf bluetooth android",
+    "how to print pdf file from android phone",
+    "can i print pdf from my phone"
+   ]
+  },
+  {
+   "slug": "how-to-add-timestamps-to-a-transcript",
+   "keyword": "transcript timestamps",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "transcript timestamps",
+    "transcript with timestamps free",
+    "transcript with timestamps youtube",
+    "transcript without timestamps",
+    "transcript with timestamps example",
+    "remove transcript timestamps",
+    "transcript with timestamps generator",
+    "transcript without timestamps youtube",
+    "audio transcript with timestamps",
+    "transcript generator with timestamps free"
+   ]
+  },
+  {
+   "slug": "how-to-cast-video-to-tv-from-android",
+   "keyword": "cast video from android to tv",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "cast video from android to tv",
+    "play video from android to tv",
+    "stream video from android to tv",
+    "play video from android to tv via usb",
+    "cast video from android phone to tv",
+    "cast video from android to samsung tv",
+    "cast video from android to google tv",
+    "cast video from android to roku tv",
+    "cast video from android to fire tv",
+    "cast prime video from android to tv"
+   ]
+  },
+  {
+   "slug": "how-to-make-a-habit-tracker",
+   "keyword": "habit tracker journal",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "habit tracker journal",
+    "habit tracker journal ideas",
+    "habit tracker journal template",
+    "habit tracker journal nearby",
+    "habit tracker journal layout",
+    "habit tracker journal app",
+    "habit tracker journal reddit",
+    "habit tracker journal pdf",
+    "habit tracker journal diy",
+    "habit tracker journal amazon"
+   ]
+  },
+  {
+   "slug": "dietary-fiber-explained",
+   "keyword": "dietary fiber explained",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "dietary fiber explained",
+    "dietary fiber meaning",
+    "dietary fiber meaning in hindi",
+    "dietary fiber meaning in urdu",
+    "dietary fiber meaning in tamil",
+    "dietary fiber meaning in bengali",
+    "dietary fiber meaning in telugu",
+    "dietary fiber meaning in marathi",
+    "dietary fiber meaning in malayalam",
+    "dietary fiber analysis"
+   ]
+  },
+  {
+   "slug": "meal-planning-on-a-budget",
+   "keyword": "meal planning on a budget",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "meal planning on a budget for 4",
+    "meal planning on a budget for 2",
+    "meal planning on a budget",
+    "meal planning on a budget for 3",
+    "meal planning on a budget for 1",
+    "meal planning on a budget for 5",
+    "meal planning on a budget for 6",
+    "meal planning on a budget template",
+    "meal planning on a budget pdf",
+    "meal planning on a budget book"
+   ]
+  },
+  {
+   "slug": "double-double-triple-double",
+   "keyword": "double double triple double",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "double double triple double",
+    "double double triple double basketball",
+    "double double vs triple double",
+    "double double and triple double meaning",
+    "nba double double triple double",
+    "double double double 3",
+    "double double triple double quadruple double",
+    "basket double double triple double",
+    "does a triple double count as a double double",
+    "what is a double doubles"
+   ]
+  },
+  {
+   "slug": "quality-start-baseball",
+   "keyword": "quality start baseball",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "quality start baseball",
+    "quality start baseball definition",
+    "quality start baseball prizepicks",
+    "quality start baseball underdog",
+    "quality start baseball meaning",
+    "quality start baseball fantasy",
+    "quality start baseball leaders",
+    "quality start baseball 9",
+    "quality start baseball stat",
+    "quality starts baseball reference"
+   ]
+  },
+  {
+   "slug": "links-vs-parkland-golf-courses",
+   "keyword": "links vs parkland golf course",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "links vs parkland golf course",
+    "difference between links and parkland golf courses",
+    "parkland vs links golf",
+    "links golf vs parkland golf"
+   ]
+  },
+  {
+   "slug": "what-does-a-boxing-corner-do",
+   "keyword": "boxing cornerman",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "boxing cornerman",
+    "boxing cornerman kit",
+    "boxing cornerman jacket",
+    "boxing cornerman gif",
+    "boxing cornerman license",
+    "boxing cornerman equipment",
+    "boxing cornerman supplies",
+    "boxing cornerman wristband",
+    "boxing cornerman bag",
+    "boxing cornerman shirt"
+   ]
+  },
+  {
+   "slug": "how-to-color-anime-eyes",
+   "keyword": "how to color anime eyes",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "how to color anime eyes",
+    "how to color anime eyes ibispaint",
+    "how to color anime eyes procreate",
+    "how to color anime eyes with colored pencils",
+    "how to color anime eyes digitally",
+    "how to color anime eyes with alcohol markers",
+    "how to color anime eyes clip studio paint",
+    "how to color anime eyes digital art",
+    "how to color anime eyes krita",
+    "how to shade anime eyes"
+   ]
+  },
+  {
+   "slug": "block-game-starter-base",
+   "keyword": "starter base ideas",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "starter base ideas minecraft",
+    "starter base ideas",
+    "starter base ideas palworld",
+    "starter base ideas terraria",
+    "starter base ideas mc",
+    "starter base ideas valheim",
+    "starter base ideas vintage story",
+    "beginner base ideas minecraft",
+    "beginner base ideas palworld",
+    "beginner base ideas"
+   ]
+  },
+  {
+   "slug": "turn-off-personalized-ads-android",
+   "keyword": "turn off personalized ads android",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "turn off personalized ads android",
+    "turn off personalized ads android tv",
+    "turn off targeted ads android",
+    "turn on personalized ads android",
+    "how to turn off personalized ads on google",
+    "how to turn off personalized ads",
+    "how to disable personalized ads"
+   ]
+  },
+  {
+   "slug": "stop-apps-using-mobile-data",
+   "keyword": "stop apps using mobile data android",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "stop apps using mobile data android",
+    "stop apps updating on mobile data android",
+    "block apps from using mobile data android",
+    "stop apps using mobile data",
+    "how to stop apps from using data android"
+   ]
+  },
+  {
+   "slug": "free-up-storage-on-android",
+   "keyword": "free up storage android",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "free up storage android",
+    "free up storage android phone",
+    "free up storage android tv",
+    "free up space android samsung",
+    "free up space android google photos",
+    "free up space android tablet",
+    "free up space android app",
+    "free up space android photos",
+    "free up space android reddit",
+    "free up space android onedrive"
+   ]
+  },
+  {
+   "slug": "knights-and-knaves-puzzles",
+   "keyword": "knights and knaves puzzles",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "knights and knaves puzzles",
+    "knights and knaves puzzles with answers",
+    "knights and knaves puzzles pdf",
+    "knights and knaves puzzles book",
+    "knights and knaves puzzles with answers pdf",
+    "knights and knaves puzzle generator",
+    "knights and knaves puzzle solution",
+    "knights and knaves puzzle origin",
+    "knights and knaves logic puzzles",
+    "knights and knaves riddle"
+   ]
+  },
+  {
+   "slug": "lattice-paths-counting",
+   "keyword": "lattice paths",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "lattice paths",
+    "lattice paths formula",
+    "lattice paths combinatorics",
+    "lattice paths project euler",
+    "lattice paths conference",
+    "lattice paths discrete math",
+    "lattice paths leetcode",
+    "lattice paths problem",
+    "lattice paths vienna",
+    "lattice paths problem 15"
+   ]
+  },
+  {
+   "slug": "ramsey-numbers-introduction",
+   "keyword": "ramsey numbers",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "ramsey numbers",
+    "ramsey numbers openai",
+    "ramsey numbers formula",
+    "ramsey numbers of trees",
+    "ramsey numbers explained",
+    "ramsey numbers pdf",
+    "ramsey numbers breakthrough",
+    "ramsey numbers r 5 5",
+    "ramsey numbers list",
+    "ramsey numbers and the zarankiewicz problem"
+   ]
+  },
+  {
+   "slug": "dividend-yield-explained",
+   "keyword": "dividend yield",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "dividend yield",
+    "dividend yield formula",
+    "dividend yield of s&p 500",
+    "dividend yield calculator",
+    "dividend yield meaning",
+    "dividend yield for schd",
+    "dividend yield stocks",
+    "dividend yield voo",
+    "dividend yield etf",
+    "dividend yield vs 30 day sec yield"
+   ]
+  },
+  {
+   "slug": "what-is-a-stock-market-index",
+   "keyword": "what is a stock market index",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "what is a stock market index",
+    "what is a stock market index fund",
+    "what is a stock market index used for",
+    "what is a stock market index definition",
+    "what is a security market index",
+    "what is a stock exchange index",
+    "what is a financial market index",
+    "what is a share market index",
+    "what is a stock market indices",
+    "what is a total stock market index fund"
+   ]
+  },
+  {
+   "slug": "time-in-force-order-types",
+   "keyword": "day order vs good til canceled",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "day order vs good til canceled",
+    "day order or good till cancelled",
+    "day vs good til cancelled",
+    "day only vs good until cancelled",
+    "what is a good till cancelled order"
+   ]
+  },
+  {
+   "slug": "what-is-a-brokerage-account",
+   "keyword": "what is a brokerage account",
+   "ok": true,
+   "status": 200,
+   "exact": true,
+   "close": null,
+   "suggestions": [
+    "what is a brokerage account",
+    "what is a brokerage account and how does it work",
+    "what is a brokerage account used for",
+    "what is a brokerage account on fidelity",
+    "what is a brokerage account vs roth ira",
+    "what is a brokerage account in vanguard",
+    "what is a brokerage account number",
+    "what is a brokerage account with charles schwab",
+    "what is a brokerage account statement",
+    "what is a brokerage account considered"
+   ]
+  }
+ ],
+ "b2bSeeds": [
+  {
+   "seed": "mobile app acquisition",
+   "ok": true,
+   "status": 200,
+   "suggestions": [
+    "mobile app acquisition",
+    "mobile app acquisition strategies",
+    "mobile app.acquired by facebook in 2013",
+    "mobile.app.acquired by facebook",
+    "mobile app user acquisition",
+    "top mobile app acquisitions",
+    "mobile app user acquisition strategy"
+   ]
+  },
+  {
+   "seed": "buy a mobile app",
+   "ok": true,
+   "status": 200,
+   "suggestions": [
+    "buy a mobile app",
+    "buy a phone apple",
+    "buy a phone apple store",
+    "buy a phone app",
+    "get a mobile app",
+    "buy mobile app source code",
+    "buy mobile apps online",
+    "buy mobile app templates",
+    "buy mobile application",
+    "buy mobile app business"
+   ]
+  },
+  {
+   "seed": "android app acquisition",
+   "ok": true,
+   "status": 200,
+   "suggestions": [
+    "android app acquired by facebook in 2014"
+   ]
+  },
+  {
+   "seed": "app portfolio acquisition",
+   "ok": true,
+   "status": 200,
+   "suggestions": []
+  },
+  {
+   "seed": "mobile game acquisition",
+   "ok": true,
+   "status": 200,
+   "suggestions": [
+    "mobile game acquisitions",
+    "mobile game purchases",
+    "mobile game purchases crossword clue",
+    "mobile game purchase addiction",
+    "mobile game purchases nyt",
+    "mobile game user acquisition",
+    "mobile game user acquisition cost",
+    "mobile game revenue",
+    "mobile game strategy"
+   ]
+  },
+  {
+   "seed": "mobile game publisher partnership",
+   "ok": true,
+   "status": 200,
+   "suggestions": []
+  },
+  {
+   "seed": "app publishing partnership",
+   "ok": true,
+   "status": 200,
+   "suggestions": []
+  },
+  {
+   "seed": "app licensing",
+   "ok": true,
+   "status": 200,
+   "suggestions": [
+    "application licensing",
+    "power app licensing",
+    "nevada licensing app"
+   ]
+  },
+  {
+   "seed": "white label mobile app",
+   "ok": true,
+   "status": 200,
+   "suggestions": [
+    "white label mobile app",
+    "white label mobile application",
+    "white label mobile app development",
+    "white label mobile app builder",
+    "white label mobile app development services",
+    "white label mobile app meaning",
+    "white label mobile app gohighlevel",
+    "white label mobile app ghl",
+    "white label mobile app reseller",
+    "white label mobile app base offer typically"
+   ]
+  },
+  {
+   "seed": "mobile game co-development",
+   "ok": true,
+   "status": 200,
+   "suggestions": [
+    "mobile game development company in india",
+    "mobile game development company in usa",
+    "mobile game development company in uk",
+    "mobile game development company in saudi arabia",
+    "mobile game development company in jaipur",
+    "mobile game development company gamesdapp",
+    "mobile game app development company",
+    "best mobile game development company"
+   ]
+  },
+  {
+   "seed": "sports game publishing",
+   "ok": true,
+   "status": 200,
+   "suggestions": [
+    "sports game publishing",
+    "sports game example",
+    "sports games categories"
+   ]
+  },
+  {
+   "seed": "educational app partnership",
+   "ok": true,
+   "status": 200,
+   "suggestions": []
+  },
+  {
+   "seed": "language learning app partnership",
+   "ok": true,
+   "status": 200,
+   "suggestions": [
+    "language learning partner app",
+    "language speaking apps",
+    "language courses app",
+    "what is language learning and language acquisition"
+   ]
+  },
+  {
+   "seed": "app distribution partnership",
+   "ok": true,
+   "status": 200,
+   "suggestions": [
+    "delivery app partnership",
+    "what is a distribution partnership",
+    "partnership distribution rules"
+   ]
+  },
+  {
+   "seed": "google play app transfer",
+   "ok": true,
+   "status": 200,
+   "suggestions": [
+    "google play app transfer",
+    "google play app transfer time",
+    "google play app transfer process",
+    "google play apps transfer to new phone",
+    "google play store transfer money",
+    "how to transfer google play store",
+    "google play store transfer account owner",
+    "google play store transfer ownership",
+    "google play store transfer subscription",
+    "google play console app transfer time"
+   ]
+  },
+  {
+   "seed": "transfer app to another developer account",
+   "ok": true,
+   "status": 200,
+   "suggestions": [
+    "transfer app to another developer account apple",
+    "transfer app to another developer account",
+    "transfer app to another developer account google play",
+    "transfer ios app to another developer account",
+    "transfer android app to another developer account",
+    "transfer app to new developer account",
+    "transfer app developer account",
+    "transfer app from one developer account to another apple",
+    "transfer app from one developer account to another google",
+    "can you transfer an app from one device to another"
+   ]
+  },
+  {
+   "seed": "app localization partnership",
+   "ok": true,
+   "status": 200,
+   "suggestions": []
+  },
+  {
+   "seed": "game licensing deal",
+   "ok": true,
+   "status": 200,
+   "suggestions": [
+    "game dealer license",
+    "game dealing licence",
+    "how much does a game license cost"
+   ]
+  }
+ ]
+}

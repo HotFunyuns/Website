@@ -47,7 +47,8 @@
     "zombie-survival-roguelike-guide",
     "wave-survival-game-design",
     "history-of-shoot-em-up-games",
-    "space-shooter-arcade-guide"
+    "space-shooter-arcade-guide",
+    "zombie-survival-last-survivor-partnership-opportunities"
   ],
   "takeaways": [
     "The word names a specific 1980 game and a loose family of descendants at the same time, which is why every argument about it is really two arguments.",

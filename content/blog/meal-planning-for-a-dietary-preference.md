@@ -47,7 +47,8 @@
     "tracking-food-allergies-and-reactions",
     "recipe-scaling-and-serving-sizes",
     "what-allergy-flags-in-recipe-apps-miss",
-    "why-meal-plans-fail-midweek"
+    "why-meal-plans-fail-midweek",
+    "easy-recipes-meal-planner-partnership-opportunities"
   ],
   "takeaways": [
     "Planning for a mixed household is a structural problem rather than a recipe problem: the aim is one cooking process with a branch near the end, not two parallel dinners.",

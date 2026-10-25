@@ -48,7 +48,9 @@
     "how-to-build-a-balanced-basketball-roster",
     "basketball-positions-explained",
     "basketball-advanced-stats-explained",
-    "basketball-draft-gm-guide"
+    "basketball-draft-gm-guide",
+    "basketball-league-sandbox-guide",
+    "league-sandbox-vs-franchise-gm"
   ],
   "takeaways": [
     "Pick an offence by the problem it solves and the players you have, not by fashion: motion needs passers and cutters, isolation needs one elite scorer, pace and space needs shooters at several positions.",

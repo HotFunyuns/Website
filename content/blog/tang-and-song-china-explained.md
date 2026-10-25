@@ -46,7 +46,9 @@
   "relatedArticles": [
     "why-rome-fell",
     "the-silk-road-for-beginners",
-    "world-history-timeline-guide"
+    "world-history-timeline-guide",
+    "the-boxer-rebellion-explained",
+    "the-taiping-rebellion-explained"
   ],
   "takeaways": [
     "Columbia University's Asia for Educators timeline dates the Tang dynasty to 618-906 CE, with capitals at Chang'an and Luoyang, and the Song to 960-1279, split into a Northern Song ruling from Kaifeng and a Southern Song ruling from present-day Hangzhou after 1127.",

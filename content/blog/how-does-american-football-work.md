@@ -4,10 +4,15 @@
   "metaTitle": "How Does American Football Work? A Beginner's Guide",
   "description": "American football from the first snap: 11 players a side, four downs to gain 10 yards, what each score is worth and why, and how the field is laid out.",
   "status": "published",
-  "editorialReview": "organization",
-  "reviewAttestation": "library-2026-10-24",
+  "editorialReview": "automated",
   "publishedAt": "2026-10-02",
-  "updatedAt": "2026-10-02",
+  "updatedAt": "2026-10-25",
+  "corrections": [
+    {
+      "date": "2026-10-25",
+      "note": "Rechecked against the 2026 NFL rulebook. The safety is now defined as the rulebook defines it, rather than as \"usually\" a ball carrier downed in his own end zone; a quotation attributed to the NFL formations guide, which could not be found in that page’s text, was replaced with the rulebook’s rule that each team has 11 players; the statement that \"one score\" usually means a lead of 8 points or fewer was replaced with the arithmetic behind it; the kickoff, penalty and overtime detail was shortened and now links to the dedicated guides."
+    }
+  ],
   "author": "reign-creative-llc",
   "category": "sports-gm",
   "tags": [
@@ -44,17 +49,18 @@
     "football-draft-gm-mode"
   ],
   "relatedArticles": [
-    "football-positions-explained-for-drafting",
-    "two-minute-clock-management",
-    "reading-a-defense-basics",
+    "nfl-kickoff-rules",
     "nfl-penalties-explained",
-    "nfl-kickoff-rules"
+    "when-to-go-for-it-on-4th-down",
+    "two-minute-clock-management",
+    "nfl-overtime-rules-explained",
+    "football-positions-explained-for-drafting"
   ],
   "takeaways": [
     "Each team has 11 players on the field, and the offense gets four downs to move the ball 10 yards; reach that line and the count resets to first down.",
-    "On fourth down a team usually punts or tries a field goal, because failing to reach the line to gain hands the ball to the opponent where the play ends.",
+    "On fourth down a team chooses between running a play, punting and trying a field goal, because failing to reach the line to gain hands the ball to the opponent where the play ends.",
     "A touchdown is worth 6, a field goal 3 and a safety 2; after a touchdown the scoring team tries for 1 more with a kick from the 15 or 2 more with a play from the 2.",
-    "The field is 100 yards between the goal lines plus a 10-yard end zone at each end, 53 and a third yards wide, with each crossbar set above an end line.",
+    "The field is 100 yards between the goal lines plus a 10-yard end zone at each end, 53 and a third yards wide, with each crossbar set in the plane of an end line.",
     "Read every situation as down, distance and field position, because those three numbers decide what a sensible next play looks like."
   ],
   "disclaimer": "none",
@@ -66,19 +72,19 @@
     },
     {
       "question": "How many points is a safety in football?",
-      "answer": "Two. A safety is usually scored when the ball carrier is downed in his own end zone, or when the offense commits a foul there and the defense chooses to enforce it at that spot. The team that gave up the safety must then kick the ball away with a free kick from its own 20-yard line."
+      "answer": "Two. Under the NFL rulebook a safety is scored when the ball becomes dead in a team’s possession on or behind its own goal line and that team supplied the impetus that sent it there, or when the offense fouls behind its own goal line and the defense chooses to enforce the penalty at that spot. The team that gave up the safety must then kick the ball away with a free kick from its own 20-yard line."
     },
     {
       "question": "How long is an American football field?",
       "answer": "Under the NFL rulebook the whole field is 360 feet long and 160 feet wide, which is 120 yards by 53 and a third yards. That includes a 100-yard field of play between the goal lines and a 10-yard end zone at each end."
     },
     {
-      "question": "Why do teams usually kick on fourth down?",
-      "answer": "Because failing to gain the yards needed on fourth down gives the opponent the ball at the spot where the play ended. A punt moves the ball much further away first, and a field goal turns a stalled drive into three points. Whether to go for it instead is a field-position and risk calculation that changes with the distance needed and where the ball is."
+      "question": "What are a team’s options on fourth down?",
+      "answer": "Three: run a play and try to reach the line to gain, punt the ball away, or attempt a field goal. Failing on a fourth-down play gives the opponent the ball at the spot where the play ended, which is the risk a punt or a field goal avoids. The right call changes with the distance needed, the field position, the score and the clock."
     },
     {
       "question": "How long is an NFL game?",
-      "answer": "Sixty minutes of game time, divided into four 15-minute periods, with a 13-minute halftime under the 2026 rulebook. Each team has three timeouts per half. The clock stops for some plays and not others, which is why real games last much longer than an hour."
+      "answer": "Sixty minutes of game time, divided into four 15-minute periods, with a 13-minute halftime under the 2026 rulebook. Each team has three timeouts per half. The clock stops after some plays, such as an incomplete pass, and keeps running after others, which is why a game takes much longer than an hour to play."
     }
   ],
   "sources": [
@@ -86,33 +92,33 @@
       "title": "2026 NFL Rulebook (Official Playing Rules of the National Football League)",
       "publisher": "NFL Football Operations",
       "url": "https://operations.nfl.com/rules-officiating/2026-nfl-rulebook",
-      "accessed": "2026-10-02"
+      "accessed": "2026-10-25"
     },
     {
       "title": "NFL Football Basics: Football Terms",
       "publisher": "NFL Football Operations",
       "url": "https://operations.nfl.com/rules-officiating/nfl-football-basics/football-terms",
-      "accessed": "2026-10-02"
+      "accessed": "2026-10-25"
     },
     {
       "title": "NFL Football Basics: Formations",
       "publisher": "NFL Football Operations",
       "url": "https://operations.nfl.com/rules-officiating/nfl-football-basics/formations",
-      "accessed": "2026-10-02"
+      "accessed": "2026-10-25"
     }
   ]
 }
 ---
 
-American football is a game of territory gained in short, separate plays. Each team has 11 players on the field. The team with the ball, the offense, gets four attempts, called **downs**, to move it 10 yards. Make the 10 yards and the count resets to first down; fall short after four and the ball goes to the other side. Points come from carrying or catching the ball in the opponent's end zone (a touchdown, 6 points), kicking it through the goal posts (a field goal, 3 points), or trapping the opponent in its own end zone (a safety, 2 points).
+American football is a game of territory gained in short, separate plays. Each team has 11 players on the field. The team with the ball, the offense, gets four attempts, called **downs**, to move it 10 yards. Make the 10 yards and the count resets to first down; fall short after four and the ball goes to the other side. Points come from carrying or catching the ball in the opponent's end zone (a touchdown, 6 points), kicking it through the goal posts (a field goal, 3 points), or tackling the opponent's ball carrier in his own end zone (one way to score a safety, 2 points).
 
-That is the whole skeleton. The rest of this guide puts flesh on it by following one drive from start to finish, using the professional rules in the NFL's 2026 rulebook as the reference.
+That is the whole skeleton. This guide is the beginner's tour: it follows one invented drive from start to finish, then sets out the scores, the field and the people on it, using the professional rules in the NFL's 2026 rulebook as the reference. Each of the trickier rule areas has its own guide, linked where it comes up.
 
 ## Follow one drive
 
 Every situation in football is described by three numbers: the down, the distance still needed for a first down, and where the ball is. "Second and 6 at your own 39" tells a coach almost everything about what comes next.
 
-Here is an invented drive, play by play. It starts after a kickoff that reaches the end zone on the fly and is downed there, which under the 2026 kickoff rules puts the ball on the receiving team's own 35.
+Here is the drive, play by play. It starts at the offense's own 35, the spot the rulebook gives for a kickoff that reaches the end zone on the fly and is downed there. Kickoffs have their own set of landing zones and touchback spots, explained in [NFL kickoff rules](/blog/nfl-kickoff-rules/); this drive simply begins at the 35.
 
 | Play | Situation before the snap | What happens | Result |
 | --- | --- | --- | --- |
@@ -124,23 +130,23 @@ Here is an invented drive, play by play. It starts after a kickoff that reaches 
 | 6 | 2nd and 15, opponent's 45 | Pass caught for 11 yards | 3rd and 4 |
 | 7 | 3rd and 4, opponent's 34 | Run for 2 yards | 4th and 2 |
 
-A few rules are doing the work in that table.
+Three ideas are doing the work in that table.
 
-**The line to gain.** The rulebook defines it as the spot 10 yards beyond the snap that starts a series, or the goal line if that is closer. After play 3 the offense passed its own 45, so it earned a new series and a new target 10 yards further on.
+**The line to gain.** The rulebook defines it as the spot 10 yards beyond the snap that starts a series, or the goal line if that is closer. The series began at the own 35, so the target was the own 45. Play 3 ended at the 48, past it, so the offense earned a new series and a new target 10 yards further on.
 
-**A down ends when the ball is dead.** The most common endings are a runner being brought down (touching the ground with anything other than hands or feet after contact), a runner going out of bounds, and a forward pass falling incomplete. The offense may throw only one forward pass per down, and only from behind the line of scrimmage.
+**A down ends when the ball is dead.** The everyday endings are a runner being brought down (after contact, touching the ground with any part of the body other than the hands or feet), a runner going out of bounds, and a forward pass falling incomplete. The offense may throw one forward pass per down, from behind the line of scrimmage.
 
-**Losing yards counts against you.** The sack on play 5 pushed the ball back, so the distance needed grew from 10 to 15.
+**Lost yards count against you.** The sack on play 5 pushed the ball back 5 yards, so the distance needed grew from 10 to 15.
 
 ### The fourth-down decision
 
 Now the offense faces fourth and 2 at the opponent's 32, and it has three options.
 
 1. **Go for it.** Run a play; gain 2 yards and the drive continues, fall short and the opponent takes over right there.
-2. **Punt.** Kick the ball away to push the opponent back. The league's own glossary notes that a punt almost always happens on fourth down.
-3. **Kick a field goal.** The ball is snapped back to a holder, so the kick is longer than the yard line suggests. The glossary says an extra point snapped from the 15 is equivalent to about a 33-yard field goal, which means roughly 18 yards get added to the line of scrimmage. From the 32, that is about a 50-yard attempt.
+2. **Punt.** Kick the ball away to push the opponent back. The league's own glossary describes the punt as almost always happening on fourth down.
+3. **Kick a field goal.** The ball is snapped back to a holder, so the kick is longer than the yard line suggests. The glossary says an extra-point kick snapped from the 15 is equivalent to about a 33-yard field goal, which puts the gap at about 18 yards. From the 32, that is about a 50-yard attempt.
 
-There is no single right answer; the choice weighs the distance, the kicker, the score and the clock. Say the team kicks and makes it: 3 points, and the ball goes back to the other side with a kickoff.
+The choice weighs the distance, the kicker, the score and the clock; [when to go for it on fourth down](/blog/when-to-go-for-it-on-4th-down/) looks at what the published research says about it. In this drive, say the team kicks and makes it: 3 points, and the ball goes back to the other side with a kickoff.
 
 ## What each score is worth
 
@@ -150,11 +156,11 @@ There is no single right answer; the choice weighs the distance, the kicker, the
 | Try by kick | 1 | After a touchdown, a kick through the goal posts from a snap at the 15 |
 | Try by run or pass | 2 | After a touchdown, the ball is carried or caught in the end zone from a snap at the 2 |
 | Field goal | 3 | A kick from the field of play over the crossbar and between the uprights |
-| Safety | 2 | Usually, the ball carrier is downed in his own end zone, or the offense fouls there |
+| Safety | 2 | The ball is dead in a team's possession in its own end zone after that team sent it there, or the offense fouls in its own end zone and the defense takes the penalty at that spot |
 
-The try after a touchdown is a single play, and the rulebook says that if a try ends in a touchdown "by either team", two points are awarded, so a defense that returns a fumble or interception the length of the field on a try scores 2. After most scores the ball changes hands with a kickoff. After a safety, the team that gave up the points must also kick the ball away, with a free kick from its own 20.
+The try after a touchdown is a single play, and the rulebook says that if a try ends in a touchdown "by either team", two points are awarded, so a defense that returns a fumble or interception the length of the field on a try scores 2. After a try or a field goal the ball changes hands with a kickoff. After a safety, the team that gave up the points must kick the ball away too, with a free kick from its own 20.
 
-The values explain a lot of strategy. A touchdown plus a kicked try is worth 7, which is why "one score" usually means a lead of 8 points or fewer: a touchdown and a two-point try can erase it.
+The values shape the arithmetic of a close game. A touchdown plus a kicked try is worth 7, and a touchdown plus a two-point try is worth 8, so a lead of 8 points or fewer can be wiped out by a single possession that ends in the end zone.
 
 ## The field, in numbers
 
@@ -167,19 +173,19 @@ The values explain a lot of strategy. A touchdown plus a kicked try is worth 7, 
 | Inbounds lines (hash marks) | 70 feet 9 inches in from each sideline |
 | Yard-line markings | Every 5 yards, with numbers every 10 |
 
-Yard lines count up from each goal line to the 50, so "the opponent's 32" means 32 yards from the end zone you are attacking. Because the crossbar sits in the plane of the end line, a field goal always has the 10-yard end zone to cover as well, which is part of why the 18-yard adjustment above exists.
+Yard lines count up from each goal line to the 50, so "the opponent's 32" means 32 yards from the end zone you are attacking. Because the crossbar sits in the plane of the end line, every field goal also has to cover the 10-yard end zone, which accounts for 10 of the roughly 18 yards in the adjustment above; the remaining 8 or so is the gap between the line of scrimmage and the spot where the holder places the ball.
 
 ## Who is on the field
 
-The NFL's own guide to formations starts with the basics: an offense "consists of 11 players". At the snap it must have at least seven on the line of scrimmage, with eligible receivers on both ends. The interior linemen block and generally cannot catch a forward pass; the players on the ends of the line and those set behind it, such as tight ends, wide receivers and running backs, can. A defense also fields 11, built from linemen, linebackers and defensive backs.
+The rulebook's starting point is that the game is played by two teams of 11 players each. At the snap the offense must have at least seven players on the line of scrimmage, with eligible receivers on both ends of it; everyone on the line between those two ends is an ineligible receiver. In practice that means the interior linemen block, while tight ends, wide receivers and running backs are the players who can catch a forward pass. The defense's 11 are built from linemen, linebackers and defensive backs, the groups the NFL's formations guide walks through.
 
 What each position actually does, and why some are worth more on a draft board than others, is covered in [football positions explained](/blog/football-positions-explained-for-drafting/). [Reading a defense](/blog/reading-a-defense-basics/) explains what a quarterback looks at before the snap.
 
-## The clock, the halves and the referees
+## The clock and the referees, briefly
 
-An NFL game is 60 minutes long, in four 15-minute periods, with a 13-minute halftime under the 2026 rulebook. Each team has three timeouts per half. Some plays stop the clock (an incomplete pass, for one) and others let it run, which is the basis of end-of-half strategy; [clock management in the final two minutes](/blog/two-minute-clock-management/) covers it in detail. A game tied after four periods goes to overtime.
+An NFL game is 60 minutes long, in four 15-minute periods, with a 13-minute halftime under the 2026 rulebook. Each team has three timeouts per half. Some plays stop the clock (an incomplete pass, for one) and others let it run, which is the basis of end-of-half strategy covered in [clock management in the final two minutes](/blog/two-minute-clock-management/). A game tied after four periods goes to overtime, whose regular-season and playoff formats differ; [NFL overtime rules](/blog/nfl-overtime-rules-explained/) sets them side by side.
 
-Fouls are enforced in yards; the rulebook's penalty summary groups its distance penalties into 5, 10 and 15 yards. The team that was fouled may decline a penalty if the play itself went better, and a defensive foul also gives the offense a new first down unless it is one of the rulebook's listed exceptions, such as offside, encroachment or delay of game.
+Fouls are punished in yards. The rulebook's penalty summary groups its distance penalties into losses of 5, 10 and 15 yards, and the team that was fouled may decline a penalty when the play itself went better. Which foul costs what, and how the yards are walked off, is in [NFL penalties explained](/blog/nfl-penalties-explained/).
 
 ## Where to practise reading the game
 

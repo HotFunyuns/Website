@@ -51,7 +51,8 @@
     "basketball-career-sim-guide",
     "basketball-advanced-stats-explained",
     "basketball-draft-gm-guide",
-    "nba-vs-fiba-rules"
+    "nba-vs-fiba-rules",
+    "cricket-rules-for-beginners"
   ],
   "takeaways": [
     "Sort every whistle into one of two boxes: a violation costs the ball, while a foul can also give the other team free throws.",

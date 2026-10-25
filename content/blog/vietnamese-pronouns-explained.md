@@ -45,7 +45,9 @@
     "learn-vietnamese-beginners-guide",
     "vietnamese-tones-explained",
     "cantonese-vs-mandarin-differences",
-    "learn-khmer-beginners-guide"
+    "learn-khmer-beginners-guide",
+    "vietnamese-classifiers",
+    "vietnamese-greetings"
   ],
   "takeaways": [
     "Vietnamese does not have a single neutral 'I' and 'you'. The terms used depend on the relationship between the speakers.",

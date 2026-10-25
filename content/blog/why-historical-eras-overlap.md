@@ -46,7 +46,8 @@
   "relatedArticles": [
     "major-eras-of-world-history",
     "why-rome-fell",
-    "world-history-timeline-guide"
+    "world-history-timeline-guide",
+    "world-war-1-timeline"
   ],
   "takeaways": [
     "Era boundaries are analytical conveniences invented by later historians, not events that happened, so they can be drawn in several defensible places at once.",

@@ -37,7 +37,8 @@
     "batting-order-strategy-explained",
     "understanding-sports-sim-probability",
     "baseball-stats-explained-for-beginners",
-    "baseball-draft-gm-guide"
+    "baseball-draft-gm-guide",
+    "quality-start-baseball"
   ],
   "takeaways": [
     "Expect a routine sacrifice bunt to lower your expected runs for the inning; in FanGraphs' run expectancy table, a successful bunt from first base with nobody out costs about 0.19 runs.",

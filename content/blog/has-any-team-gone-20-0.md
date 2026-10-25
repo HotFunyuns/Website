@@ -47,7 +47,9 @@
   "relatedArticles": [
     "understanding-sports-sim-probability",
     "football-draft-gm-guide",
-    "how-football-draft-order-works"
+    "how-football-draft-order-works",
+    "how-does-the-nfl-draft-work",
+    "football-league-commissioner-guide"
   ],
   "takeaways": [
     "Through the 2025 season, no NFL team has finished 20-0; the league's only perfect season is the 1972 team that went 14-0 and then won three playoff games.",

@@ -45,7 +45,9 @@
     "learn-italian-beginners-guide",
     "italian-verb-conjugation-basics",
     "how-long-to-learn-italian",
-    "spaced-repetition-for-language-learning"
+    "spaced-repetition-for-language-learning",
+    "italian-plural-nouns",
+    "italian-prepositions-explained"
   ],
   "takeaways": [
     "Italian has multiple forms of 'the' because the article varies with gender, number and the sound that starts the following word.",

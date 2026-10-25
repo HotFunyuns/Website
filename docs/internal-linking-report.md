@@ -16,22 +16,22 @@ count editorial links for articles. Click depth is the shortest path from the ho
 
 | Measure | Count |
 | --- | --- |
-| Exported HTML pages | 764 |
-| Indexable pages (in the sitemap) | 762 |
-| Articles | 651 |
-| Editorial links (article prose + "Keep reading") | 12101 |
+| Exported HTML pages | 1264 |
+| Indexable pages (in the sitemap) | 1262 |
+| Articles | 1051 |
+| Editorial links (article prose + "Keep reading") | 19644 |
 | Broken internal links | 0 |
 | Links through a redirect or non-canonical form | 0 |
 | Articles linking unpublished or missing articles | 0 |
 | Orphan pages (no inbound link at all) | 0 |
 | Articles with no editorial inbound link | 0 |
-| Articles with exactly one editorial inbound link | 27 |
-| Pages with exactly one inbound link of any kind | 0 |
-| Important pages more than three clicks from the homepage | 0 (deepest: 2) |
-| Body anchors repeated 10+ times for one target | 113 |
+| Articles with exactly one editorial inbound link | 38 |
+| Pages with exactly one inbound link of any kind | 2 |
+| Important pages more than three clicks from the homepage | 0 (deepest: 3) |
+| Body anchors repeated 10+ times for one target | 145 |
 | Articles whose prose does not link their own app page | 0 |
-| Apps with no article | 4 |
-| Category and hub pages under 60 words of standing copy | 0 |
+| Apps with no article | 0 |
+| Category and hub pages under 60 words of standing copy | 37 |
 | Hub articles that do not link their hub's cornerstone | 0 |
 
 ## Broken internal links
@@ -64,37 +64,49 @@ None.
 
 ## Articles with exactly one editorial inbound link
 
+- `/blog/car-racing-pro-career-partnership-opportunities/` — could also be linked from `motorsport-career-ladder`, `racing-car-setup-basics`, `racing-tire-strategy`
+- `/blog/discrete-math-study-quiz-partnership-opportunities/` — could also be linked from `big-o-notation-explained`, `cartesian-product-explained`, `discrete-math-cheat-sheet`
 - `/blog/how-does-nhl-overtime-work/` — could also be linked from `hockey-career-sim-guide`, `hockey-goaltending-explained`, `underrated-attributes-in-hockey-career-mode`
 - `/blog/how-does-the-nhl-draft-work/` — could also be linked from `hockey-career-archetypes-explained`, `hockey-career-sim-guide`, `hockey-goaltending-explained`
-- `/blog/how-sports-scouting-works/` — could also be linked from `drafting-a-goal-kicker-in-rugby`, `how-rugby-scoring-works`, `rugby-draft-and-squad-building`
 - `/blog/how-the-fifa-world-ranking-works/` — could also be linked from `how-soccer-league-tables-work`, `style-fit-vs-rating-in-squad-building`, `best-sports-manager-games-for-short-sessions`
 - `/blog/infield-fly-rule/` — could also be linked from `two-way-players-explained`, `aging-curves-in-career-sims`, `baseball-career-sim-guide`
 - `/blog/is-momentum-in-sports-real/` — could also be linked from `club-distance-gapping`, `golf-career-sim-guide`, `golf-course-management-basics`
 - `/blog/low-block-vs-high-line/` — could also be linked from `clean-sheets-explained`, `how-the-offside-rule-works`, `best-sports-manager-games-for-short-sessions`
+- `/blog/monty-hall-problem-explained/` — could also be linked from `birthday-problem-explained`, `binomial-distribution-explained`, `expected-value-explained`
+- `/blog/nba-vs-fiba-rules/` — could also be linked from `basketball-positions-explained`, `player-body-metrics-in-career-sims`, `basketball-career-sim-guide`
+- `/blog/nfl-penalties-explained/` — could also be linked from `scouting-combine-drills-explained`, `two-minute-clock-management`, `football-career-sim-guide`
 - `/blog/nhl-84-game-season/` — could also be linked from `hockey-draft-gm-guide`, `hockey-line-combinations-explained`, `hockey-positions-explained`
-- `/blog/offside-in-hockey/` — could also be linked from `hockey-career-archetypes-explained`, `hockey-career-sim-guide`, `hockey-goaltending-explained`
+- `/blog/pattern-day-trader-rule/` — could also be linked from `margin-call-explained`, `short-selling-explained`, `what-is-paper-trading`
 - `/blog/perfect-game-vs-no-hitter/` — could also be linked from `baseball-pitching-roles-explained`, `aging-curves-in-career-sims`, `baseball-career-sim-guide`
+- `/blog/personnel-groupings-football/` — could also be linked from `football-draft-gm-guide`, `how-football-draft-order-works`, `what-makes-a-good-draft-board`
 - `/blog/pitch-clock-rules/` — could also be linked from `aging-curves-in-career-sims`, `baseball-career-sim-guide`, `baseball-pitching-roles-explained`
+- `/blog/player-efficiency-rating-explained/` — could also be linked from `basketball-advanced-stats-explained`, `how-to-build-a-balanced-basketball-roster`, `free-agency-explained`
 - `/blog/pressing-in-soccer-explained/` — could also be linked from `press-conferences-in-career-mode`, `soccer-positions-explained`, `coach-trust-and-playing-time`
 - `/blog/promotion-and-relegation-explained/` — could also be linked from `best-sports-manager-games-for-short-sessions`, `clean-sheets-explained`, `goal-difference-and-tiebreakers`
 - `/blog/regression-to-the-mean-in-sports/` — could also be linked from `clean-sheets-explained`, `best-sports-manager-games-for-short-sessions`, `goal-difference-and-tiebreakers`
-- `/blog/rugby-bonus-points-explained/` — could also be linked from `rugby-positions-and-numbers`, `drafting-a-goal-kicker-in-rugby`, `rugby-forwards-and-backs`
-- `/blog/rugby-career-sim-guide/` — could also be linked from `rugby-draft-and-squad-building`, `baseball-career-sim-guide`, `drafting-a-goal-kicker-in-rugby`
+- `/blog/relative-age-effect-in-sports/` — could also be linked from `energy-and-morale-in-match-decisions`, `press-conferences-in-career-mode`, `soccer-career-sim-guide`
 - `/blog/rugby-scrum-and-lineout-rules/` — could also be linked from `rugby-union-vs-rugby-league`, `how-rugby-scoring-works`, `rugby-forwards-and-backs`
 - `/blog/rugby-yellow-and-red-cards/` — could also be linked from `how-rugby-scoring-works`, `drafting-a-goal-kicker-in-rugby`, `rotating-draft-pools-explained`
 - `/blog/soccer-restarts-explained/` — could also be linked from `clean-sheets-explained`, `goal-difference-and-tiebreakers`, `how-soccer-league-tables-work`
 - `/blog/soccer-yellow-and-red-cards-explained/` — could also be linked from `clean-sheets-explained`, `how-the-offside-rule-works`, `style-fit-vs-rating-in-squad-building`
+- `/blog/the-enlightenment-explained/` — could also be linked from `a-daily-history-study-routine`, `achaemenid-persia-administration`, `andean-civilizations-in-order`
+- `/blog/the-space-race-explained/` — could also be linked from `a-daily-history-study-routine`, `achaemenid-persia-administration`, `andean-civilizations-in-order`
 - `/blog/tournament-formats-explained/` — could also be linked from `boxing-scoring-explained`, `how-mma-judging-criteria-work`, `how-boxing-records-are-written`
+- `/blog/transcribe-audio-to-text-partnership-opportunities/` — could also be linked from `how-to-transcribe-a-voice-memo`, `how-to-transcribe-an-interview`, `how-to-transcribe-lectures`
 - `/blog/two-point-conversion-chart/` — could also be linked from `scouting-combine-drills-explained`, `two-minute-clock-management`, `football-career-sim-guide`
 - `/blog/types-of-hockey-shots/` — could also be linked from `hockey-career-archetypes-explained`, `hockey-career-sim-guide`, `underrated-attributes-in-hockey-career-mode`
+- `/blog/types-of-pitches-in-baseball/` — could also be linked from `baseball-pitching-roles-explained`, `aging-curves-in-career-sims`, `baseball-career-sim-guide`
 - `/blog/types-of-submissions-in-mma/` — could also be linked from `striking-vs-grappling-in-mma`, `boxing-scoring-explained`, `how-fight-cards-are-built`
 - `/blog/unbeaten-league-seasons-in-soccer/` — could also be linked from `goal-difference-and-tiebreakers`, `how-soccer-league-tables-work`, `soccer-draft-xi-guide`
+- `/blog/unification-of-italy/` — could also be linked from `byzantium-a-thousand-years`, `a-daily-history-study-routine`, `achaemenid-persia-administration`
 - `/blog/what-is-a-balk-in-baseball/` — could also be linked from `baseball-pitching-roles-explained`, `two-way-players-explained`, `aging-curves-in-career-sims`
-- `/blog/why-golf-has-18-holes/` — could also be linked from `golf-scoring-explained`, `golf-handicap-for-beginners`, `golf-career-sim-guide`
+- `/blog/what-is-discrete-math/` — could also be linked from `ramsey-numbers-introduction`, `logical-equivalence-explained`, `pigeonhole-principle-examples`
+- `/blog/zone-vs-man-defense-basketball/` — could also be linked from `college-recruiting-in-basketball-career-mode`, `basketball-career-sim-guide`, `player-body-metrics-in-career-sims`
 
 ## Pages with exactly one inbound link of any kind
 
-None.
+- `/blog/category/action-arcade/page/2/` (blog-category)
+- `/blog/category/anime-creative/page/2/` (blog-category)
 
 ## Important pages more than three clicks from the homepage
 
@@ -106,47 +118,47 @@ None.
 
 Identical anchor text from many articles to one page. Not an error — these are mostly the target's own title — but new links should vary the wording where the prose allows. Existing prose is not rewritten just to vary an anchor.
 
-- "sports career and gm games" → `/apps/category/sports-gm/` × 96
-- "world history timeline sim" → `/apps/world-history-timeline-sim/` × 75
+- "world history timeline sim" → `/apps/world-history-timeline-sim/` × 119
+- "sports career and gm games" → `/apps/category/sports-gm/` × 98
+- "education apps" → `/apps/category/education-brain/` × 93
 - "education and brain training articles" → `/blog/category/education-brain/` × 68
+- "discrete math: study & quiz" → `/apps/discrete-math-study-quiz/` × 67
+- "discrete math hub" → `/blog/topics/discrete-math/` × 65
+- "sports career games" → `/apps/category/sports-gm/` × 63
 - "iq test & brain training games app page" → `/apps/mental-math-memory-games/` × 61
+- "how historians date events" → `/blog/how-historians-date-events/` × 61
+- "partnerships page" → `/partnerships/` × 61
 - "education and brain training section" → `/blog/category/education-brain/` × 60
-- "how historians date events" → `/blog/how-historians-date-events/` × 58
-- "primary and secondary sources" → `/blog/primary-vs-secondary-sources/` × 48
+- "video and utility apps" → `/apps/category/video-utility/` × 55
+- "primary and secondary sources" → `/blog/primary-vs-secondary-sources/` × 52
+- "learn to trade stocks beginner" → `/apps/learn-to-trade-stocks/` × 52
+- "language-learning apps" → `/apps/category/language-learning/` × 50
+- "investing basics hub" → `/blog/topics/investing-basics/` × 49
+- "iq test & brain training games" → `/apps/mental-math-memory-games/` × 46
+- "education and brain training" → `/apps/category/education-brain/` × 45
 - "sports gm" → `/apps/category/sports-gm/` × 44
-- "iq test & brain training games" → `/apps/mental-math-memory-games/` × 42
-- "why rome fell" → `/blog/why-rome-fell/` × 35
+- "why rome fell" → `/blog/why-rome-fell/` × 36
 - "language learning apps" → `/apps/category/language-learning/` × 35
-- "pro football gm club soccer" → `/apps/soccer-draft-gm-xi/` × 33
+- "pro football gm club soccer" → `/apps/soccer-draft-gm-xi/` × 34
+- "hockey career sim 2027" → `/apps/hockey-career-sim/` × 33
+- "football career soccer xi sim" → `/apps/soccer-career-sim-xi/` × 33
 - "the major eras of world history" → `/blog/major-eras-of-world-history/` × 31
 - "what caused the bronze age collapse" → `/blog/what-caused-the-bronze-age-collapse/` × 31
+- "basketball game franchise gm" → `/apps/pro-basketball-draft-gm-mode/` × 31
+- "84-0 hockey draft & gm manager" → `/apps/hockey-draft-gm-manager/` × 31
 - "education and brain category" → `/blog/category/education-brain/` × 30
-- "84-0 hockey draft & gm manager" → `/apps/hockey-draft-gm-manager/` × 30
-- "hockey career sim 2026" → `/apps/hockey-career-sim/` × 30
-- "football career soccer xi sim" → `/apps/soccer-career-sim-xi/` × 30
 - "162-0 baseball draft & gm team" → `/apps/baseball-draft-gm-team/` × 29
+- "protein diet tracker" → `/apps/protein-diet-tracker/` × 28
 - "language learning" → `/apps/category/language-learning/` × 28
-- "pro basketball gm franchise" → `/apps/pro-basketball-draft-gm-mode/` × 27
+- "baseball career sim 2026" → `/apps/baseball-career-sim/` × 27
+- "basketball career sim" → `/apps/pro-basketball-my-career-sim/` × 26
+- "cricket sport career simulator" → `/apps/cricket-career-simulator/` × 26
 - "working memory and training" → `/blog/working-memory-and-training/` × 25
 - "do brain training apps work" → `/blog/do-brain-training-apps-work/` × 25
-- "baseball career sim 2026" → `/apps/baseball-career-sim/` × 25
-- "protein diet tracker" → `/apps/protein-diet-tracker/` × 23
-- "civilizations and empires" → `/blog/topics/civilizations-and-empires/` × 22
-- "basketball career sim" → `/apps/pro-basketball-my-career-sim/` × 22
-- "sports gm" → `/blog/category/sports-gm/` × 22
-- "ketora: keto diet carb tracker" → `/apps/keto-diet-tracker/` × 21
-- "football franchise gm league" → `/apps/football-draft-gm-mode/` × 20
-- "what iq tests actually measure" → `/blog/what-iq-tests-actually-measure/` × 20
-- "iq tests and reasoning hub" → `/blog/topics/iq-tests-and-reasoning/` × 20
-- "major historical events hub" → `/blog/topics/major-historical-events/` × 20
-- "world history timeline sim app page" → `/apps/world-history-timeline-sim/` × 20
-- "football career sim 2026" → `/apps/football-career-sim/` × 19
-- "education and brain training" → `/blog/category/education-brain/` × 19
-- "action & arcade games" → `/apps/category/action-arcade/` × 19
-- "sports gm category" → `/apps/category/sports-gm/` × 19
-- "40-0 mma & boxing fight draft" → `/apps/mma-boxing-fight-draft/` × 19
-- "soccer hub" → `/sports/soccer/` × 19
-- … and 73 more (see `docs/data/link-graph.json`)
+- "ketora: keto diet carb tracker" → `/apps/keto-diet-tracker/` × 25
+- "video player all formats pro" → `/apps/regal-video-player/` × 25
+- "sports and gm games" → `/apps/category/sports-gm/` × 24
+- … and 105 more (see `docs/data/link-graph.json`)
 
 ### Generic anchors
 
@@ -164,52 +176,67 @@ None.
 
 | App | Articles | Linked from app page | Hubs linked |
 | --- | --- | --- | --- |
-| `/apps/space-shooter-classic-arcade/` | 9 | 9 | 0 |
-| `/apps/zombie-survival-last-survivor/` | 6 | 6 | 0 |
-| `/apps/space-galaxy-attack-hardcore/` | 6 | 6 | 0 |
-| `/apps/jellyfish-arena-survivor-io/` | 6 | 6 | 0 |
-| `/apps/regal-tower-defense/` | 9 | 9 | 0 |
-| `/apps/anime-coloring-book/` | 10 | 10 | 0 |
-| `/apps/anime-trivia-word-games/` | 8 | 8 | 0 |
-| `/apps/anime-casino-slots/` | 3 | 3 | 0 |
-| `/apps/world-history-timeline-sim/` | 113 | 6 | 5 |
-| `/apps/mental-math-memory-games/` | 111 | 6 | 5 |
-| `/apps/protein-diet-tracker/` | 14 | 14 | 0 |
-| `/apps/keto-diet-tracker/` | 10 | 10 | 0 |
-| `/apps/easy-recipes-meal-planner/` | 10 | 10 | 0 |
-| `/apps/learn-cantonese/` | 7 | 7 | 0 |
-| `/apps/learn-thai/` | 4 | 4 | 0 |
-| `/apps/learn-malay/` | 9 | 9 | 0 |
-| `/apps/learn-russian/` | 9 | 9 | 0 |
-| `/apps/learn-cambodian-khmer/` | 8 | 8 | 0 |
-| `/apps/learn-vietnamese/` | 6 | 6 | 0 |
-| `/apps/learn-lao/` | 10 | 10 | 0 |
-| `/apps/learn-italian/` | 8 | 8 | 0 |
-| `/apps/learn-marathi/` | 10 | 10 | 0 |
-| `/apps/learn-shanghainese/` | 9 | 9 | 0 |
-| `/apps/pro-basketball-my-career-sim/` | 13 | 13 | 0 |
-| `/apps/pro-basketball-draft-gm-mode/` | 15 | 15 | 0 |
-| `/apps/football-draft-gm-mode/` | 12 | 12 | 0 |
-| `/apps/baseball-draft-gm-team/` | 13 | 13 | 0 |
-| `/apps/soccer-draft-gm-xi/` | 27 | 27 | 0 |
-| `/apps/hockey-draft-gm-manager/` | 16 | 16 | 0 |
-| `/apps/mma-boxing-fight-draft/` | 22 | 22 | 0 |
-| `/apps/baseball-career-sim/` | 18 | 18 | 0 |
-| `/apps/football-career-sim/` | 16 | 16 | 0 |
-| `/apps/hockey-career-sim/` | 13 | 13 | 0 |
-| `/apps/soccer-career-sim-xi/` | 9 | 9 | 0 |
-| `/apps/golf-career-simulator/` | 23 | 23 | 0 |
-| `/apps/tennis-career-sim/` | 17 | 17 | 0 |
-| `/apps/rugby-draft-pro-league/` | 18 | 18 | 0 |
-| `/apps/rugby-career-sim/` | 1 | 1 | 0 |
-| `/apps/car-racing-pro-career/` | 0 | 0 | 0 |
-| `/apps/regal-video-player/` | 14 | 14 | 0 |
-| `/apps/tcg-card-grading-scanner/` | 9 | 9 | 0 |
-| `/apps/pdf-all-in-one-tools/` | 0 | 0 | 0 |
-| `/apps/transcribe-audio-to-text/` | 0 | 0 | 0 |
-| `/apps/kawaii-cute-notes-journal/` | 0 | 0 | 0 |
-
-Apps with no article at all: `car-racing-pro-career`, `pdf-all-in-one-tools`, `transcribe-audio-to-text`, `kawaii-cute-notes-journal`.
+| `/apps/space-shooter-classic-arcade/` | 11 | 11 | 0 |
+| `/apps/zombie-survival-last-survivor/` | 7 | 7 | 0 |
+| `/apps/space-galaxy-attack-hardcore/` | 7 | 7 | 0 |
+| `/apps/jellyfish-arena-survivor-io/` | 7 | 7 | 0 |
+| `/apps/regal-tower-defense/` | 10 | 10 | 0 |
+| `/apps/hero-td-idle-tower-defense/` | 4 | 4 | 0 |
+| `/apps/world-war-gunship-attack/` | 3 | 3 | 0 |
+| `/apps/anime-coloring-book/` | 13 | 13 | 0 |
+| `/apps/anime-trivia-word-games/` | 10 | 10 | 0 |
+| `/apps/anime-casino-slots/` | 4 | 4 | 0 |
+| `/apps/block-world-rpg/` | 5 | 5 | 0 |
+| `/apps/life-simulator-city-builder/` | 4 | 4 | 0 |
+| `/apps/dragon-pet-evolve/` | 4 | 4 | 0 |
+| `/apps/big-jackpot-casino-slots/` | 3 | 3 | 0 |
+| `/apps/world-history-timeline-sim/` | 157 | 7 | 5 |
+| `/apps/mental-math-memory-games/` | 112 | 7 | 5 |
+| `/apps/discrete-math-study-quiz/` | 67 | 7 | 1 |
+| `/apps/learn-to-trade-stocks/` | 51 | 7 | 1 |
+| `/apps/protein-diet-tracker/` | 19 | 19 | 0 |
+| `/apps/keto-diet-tracker/` | 14 | 14 | 0 |
+| `/apps/easy-recipes-meal-planner/` | 16 | 16 | 0 |
+| `/apps/kawaii-breathe-relax/` | 6 | 6 | 0 |
+| `/apps/learn-cantonese/` | 13 | 13 | 0 |
+| `/apps/learn-thai/` | 11 | 11 | 0 |
+| `/apps/learn-malay/` | 14 | 14 | 0 |
+| `/apps/learn-russian/` | 15 | 15 | 0 |
+| `/apps/learn-cambodian-khmer/` | 12 | 12 | 0 |
+| `/apps/learn-vietnamese/` | 12 | 12 | 0 |
+| `/apps/learn-lao/` | 12 | 12 | 0 |
+| `/apps/learn-italian/` | 18 | 18 | 0 |
+| `/apps/learn-marathi/` | 13 | 13 | 0 |
+| `/apps/learn-shanghainese/` | 10 | 10 | 0 |
+| `/apps/pro-basketball-my-career-sim/` | 15 | 15 | 0 |
+| `/apps/pro-basketball-draft-gm-mode/` | 16 | 16 | 0 |
+| `/apps/football-draft-gm-mode/` | 13 | 13 | 0 |
+| `/apps/baseball-draft-gm-team/` | 14 | 14 | 0 |
+| `/apps/soccer-draft-gm-xi/` | 28 | 28 | 0 |
+| `/apps/hockey-draft-gm-manager/` | 17 | 17 | 0 |
+| `/apps/mma-boxing-fight-draft/` | 23 | 23 | 0 |
+| `/apps/baseball-career-sim/` | 21 | 21 | 0 |
+| `/apps/football-career-sim/` | 17 | 17 | 0 |
+| `/apps/hockey-career-sim/` | 14 | 14 | 0 |
+| `/apps/soccer-career-sim-xi/` | 10 | 10 | 0 |
+| `/apps/golf-career-simulator/` | 25 | 25 | 0 |
+| `/apps/tennis-career-sim/` | 18 | 18 | 0 |
+| `/apps/rugby-draft-pro-league/` | 19 | 19 | 0 |
+| `/apps/rugby-career-sim/` | 3 | 3 | 0 |
+| `/apps/car-racing-pro-career/` | 13 | 13 | 0 |
+| `/apps/basketball-career-pro-league/` | 5 | 5 | 0 |
+| `/apps/boxing-prize-fighter-career/` | 5 | 5 | 0 |
+| `/apps/football-career-soccer-league/` | 3 | 3 | 0 |
+| `/apps/football-career-pro-league/` | 4 | 4 | 0 |
+| `/apps/hockey-career-pro-league/` | 4 | 4 | 0 |
+| `/apps/football-league-commissioner/` | 4 | 4 | 0 |
+| `/apps/basketball-league-sandbox/` | 4 | 4 | 0 |
+| `/apps/cricket-career-simulator/` | 27 | 27 | 0 |
+| `/apps/regal-video-player/` | 21 | 21 | 0 |
+| `/apps/tcg-card-grading-scanner/` | 12 | 12 | 0 |
+| `/apps/pdf-all-in-one-tools/` | 16 | 16 | 0 |
+| `/apps/transcribe-audio-to-text/` | 8 | 8 | 0 |
+| `/apps/kawaii-cute-notes-journal/` | 8 | 8 | 0 |
 
 ## Category and hub pages: standing context
 
@@ -217,41 +244,82 @@ Words of copy written for the page itself, excluding cards, navigation, header a
 
 | Page | Type | Words |
 | --- | --- | --- |
-| `/apps/category/action-arcade/` | app-category | 201 |
-| `/apps/category/anime-creative/` | app-category | 172 |
-| `/apps/category/education-brain/` | app-category | 163 |
-| `/apps/category/health-nutrition/` | app-category | 182 |
-| `/apps/category/language-learning/` | app-category | 154 |
-| `/apps/category/sports-gm/` | app-category | 239 |
-| `/apps/category/video-utility/` | app-category | 181 |
+| `/apps/category/action-arcade/` | app-category | 274 |
+| `/apps/category/anime-creative/` | app-category | 243 |
+| `/apps/category/education-brain/` | app-category | 217 |
+| `/apps/category/health-nutrition/` | app-category | 233 |
+| `/apps/category/language-learning/` | app-category | 207 |
+| `/apps/category/sports-gm/` | app-category | 282 |
+| `/apps/category/video-utility/` | app-category | 230 |
 | `/blog/category/action-arcade/` | blog-category | 135 |
+| `/blog/category/action-arcade/page/2/` | blog-category | 58 ⚠ |
 | `/blog/category/anime-creative/` | blog-category | 121 |
-| `/blog/category/education-brain/` | blog-category | 126 |
+| `/blog/category/anime-creative/page/2/` | blog-category | 58 ⚠ |
+| `/blog/category/education-brain/` | blog-category | 137 |
+| `/blog/category/education-brain/page/10/` | blog-category | 54 ⚠ |
+| `/blog/category/education-brain/page/11/` | blog-category | 54 ⚠ |
+| `/blog/category/education-brain/page/12/` | blog-category | 54 ⚠ |
+| `/blog/category/education-brain/page/13/` | blog-category | 54 ⚠ |
+| `/blog/category/education-brain/page/14/` | blog-category | 54 ⚠ |
+| `/blog/category/education-brain/page/15/` | blog-category | 54 ⚠ |
+| `/blog/category/education-brain/page/16/` | blog-category | 54 ⚠ |
+| `/blog/category/education-brain/page/2/` | blog-category | 54 ⚠ |
+| `/blog/category/education-brain/page/3/` | blog-category | 54 ⚠ |
+| `/blog/category/education-brain/page/4/` | blog-category | 54 ⚠ |
+| `/blog/category/education-brain/page/5/` | blog-category | 54 ⚠ |
+| `/blog/category/education-brain/page/6/` | blog-category | 54 ⚠ |
+| `/blog/category/education-brain/page/7/` | blog-category | 54 ⚠ |
+| `/blog/category/education-brain/page/8/` | blog-category | 54 ⚠ |
+| `/blog/category/education-brain/page/9/` | blog-category | 54 ⚠ |
 | `/blog/category/health-nutrition/` | blog-category | 116 |
+| `/blog/category/health-nutrition/page/2/` | blog-category | 53 ⚠ |
+| `/blog/category/health-nutrition/page/3/` | blog-category | 53 ⚠ |
 | `/blog/category/language-learning/` | blog-category | 111 |
-| `/blog/category/sports-gm/` | blog-category | 139 |
+| `/blog/category/language-learning/page/2/` | blog-category | 52 ⚠ |
+| `/blog/category/language-learning/page/3/` | blog-category | 52 ⚠ |
+| `/blog/category/language-learning/page/4/` | blog-category | 52 ⚠ |
+| `/blog/category/language-learning/page/5/` | blog-category | 52 ⚠ |
+| `/blog/category/sports-gm/` | blog-category | 140 |
+| `/blog/category/sports-gm/page/10/` | blog-category | 59 ⚠ |
+| `/blog/category/sports-gm/page/11/` | blog-category | 59 ⚠ |
+| `/blog/category/sports-gm/page/12/` | blog-category | 59 ⚠ |
+| `/blog/category/sports-gm/page/13/` | blog-category | 59 ⚠ |
+| `/blog/category/sports-gm/page/2/` | blog-category | 59 ⚠ |
+| `/blog/category/sports-gm/page/3/` | blog-category | 59 ⚠ |
+| `/blog/category/sports-gm/page/4/` | blog-category | 59 ⚠ |
+| `/blog/category/sports-gm/page/5/` | blog-category | 59 ⚠ |
+| `/blog/category/sports-gm/page/6/` | blog-category | 59 ⚠ |
+| `/blog/category/sports-gm/page/7/` | blog-category | 59 ⚠ |
+| `/blog/category/sports-gm/page/8/` | blog-category | 59 ⚠ |
+| `/blog/category/sports-gm/page/9/` | blog-category | 59 ⚠ |
 | `/blog/category/video-utility/` | blog-category | 101 |
+| `/blog/category/video-utility/page/2/` | blog-category | 54 ⚠ |
+| `/blog/category/video-utility/page/3/` | blog-category | 54 ⚠ |
 | `/blog/topics/brain-training-games/` | topic-hub | 317 |
 | `/blog/topics/civilizations-and-empires/` | topic-hub | 309 |
+| `/blog/topics/discrete-math/` | topic-hub | 314 |
 | `/blog/topics/historical-people/` | topic-hub | 289 |
 | `/blog/topics/history-learning-methods/` | topic-hub | 303 |
+| `/blog/topics/investing-basics/` | topic-hub | 340 |
 | `/blog/topics/iq-tests-and-reasoning/` | topic-hub | 365 |
 | `/blog/topics/logic-and-pattern-puzzles/` | topic-hub | 304 |
 | `/blog/topics/major-historical-events/` | topic-hub | 297 |
 | `/blog/topics/memory-and-attention/` | topic-hub | 311 |
 | `/blog/topics/mental-math/` | topic-hub | 321 |
-| `/blog/topics/world-history-timelines/` | topic-hub | 311 |
-| `/sports/` | sports-index | 578 |
+| `/blog/topics/world-history-timelines/` | topic-hub | 382 |
+| `/sports/` | sports-index | 559 |
 | `/sports/baseball/` | sport-hub | 703 |
 | `/sports/basketball/` | sport-hub | 698 |
 | `/sports/combat-sports/` | sport-hub | 537 |
+| `/sports/cricket/` | sport-hub | 549 |
 | `/sports/football/` | sport-hub | 725 |
 | `/sports/golf/` | sport-hub | 544 |
 | `/sports/hockey/` | sport-hub | 653 |
+| `/sports/motorsport/` | sport-hub | 489 |
 | `/sports/rugby/` | sport-hub | 676 |
 | `/sports/soccer/` | sport-hub | 638 |
 | `/sports/tennis/` | sport-hub | 463 |
-| `/tools/` | tools-index | 234 |
+| `/tools/` | tools-index | 483 |
 
 ## Release cohorts: links from older articles
 
@@ -259,10 +327,11 @@ For each publication date, how many of its articles are linked (prose or "Keep r
 
 | Published | Articles | With a link from an older article | Without |
 | --- | --- | --- | --- |
-| 2026-10-02 | 126 | 111 | 15 |
-| 2026-09-22 | 250 | 75 | 175 |
-| 2026-09-15 | 100 | 26 | 74 |
-| 2026-09-04 | 139 | 42 | 97 |
+| 2026-10-25 | 400 | 185 | 215 |
+| 2026-10-02 | 126 | 109 | 17 |
+| 2026-09-22 | 250 | 65 | 185 |
+| 2026-09-15 | 100 | 19 | 81 |
+| 2026-09-04 | 139 | 27 | 112 |
 | 2026-08-13 | 15 | 15 | 0 |
 | 2026-08-09 | 21 | 0 | — (first release) |
 
@@ -280,765 +349,1265 @@ None.
 
 | Page | Type | App | Category / hubs | Inbound (all) | Inbound (editorial) | Outbound | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `/` | home |  |  | 763 |  | 34 | 0 |
-| `/about/` | static |  |  | 763 |  | 19 | 1 |
-| `/app-support/` | static |  |  | 763 |  | 62 | 1 |
-| `/apps/` | apps-index |  |  | 763 |  | 62 | 1 |
-| `/apps/anime-casino-slots/` | app |  |  | 10 |  | 25 | 2 |
-| `/apps/anime-coloring-book/` | app |  |  | 21 |  | 35 | 1 |
-| `/apps/anime-trivia-word-games/` | app |  |  | 19 |  | 34 | 2 |
-| `/apps/baseball-career-sim/` | app |  |  | 39 |  | 52 | 2 |
-| `/apps/baseball-draft-gm-team/` | app |  |  | 50 |  | 60 | 2 |
-| `/apps/car-racing-pro-career/` | app |  |  | 5 |  | 22 | 2 |
-| `/apps/category/action-arcade/` | app-category |  |  | 763 |  | 30 | 1 |
-| `/apps/category/anime-creative/` | app-category |  |  | 763 |  | 28 | 1 |
-| `/apps/category/education-brain/` | app-category |  |  | 763 |  | 27 | 1 |
-| `/apps/category/health-nutrition/` | app-category |  |  | 763 |  | 28 | 1 |
-| `/apps/category/language-learning/` | app-category |  |  | 763 |  | 35 | 1 |
-| `/apps/category/sports-gm/` | app-category |  |  | 763 |  | 41 | 1 |
-| `/apps/category/video-utility/` | app-category |  |  | 763 |  | 30 | 1 |
-| `/apps/easy-recipes-meal-planner/` | app |  |  | 17 |  | 32 | 2 |
-| `/apps/football-career-sim/` | app |  |  | 36 |  | 50 | 2 |
-| `/apps/football-draft-gm-mode/` | app |  |  | 57 |  | 57 | 2 |
-| `/apps/golf-career-simulator/` | app |  |  | 35 |  | 48 | 2 |
-| `/apps/hockey-career-sim/` | app |  |  | 38 |  | 50 | 1 |
-| `/apps/hockey-draft-gm-manager/` | app |  |  | 41 |  | 55 | 2 |
-| `/apps/jellyfish-arena-survivor-io/` | app |  |  | 15 |  | 28 | 1 |
-| `/apps/kawaii-cute-notes-journal/` | app |  |  | 4 |  | 22 | 2 |
-| `/apps/keto-diet-tracker/` | app |  |  | 31 |  | 44 | 2 |
-| `/apps/learn-cambodian-khmer/` | app |  |  | 16 |  | 33 | 2 |
-| `/apps/learn-cantonese/` | app |  |  | 27 |  | 34 | 1 |
-| `/apps/learn-italian/` | app |  |  | 17 |  | 34 | 2 |
-| `/apps/learn-lao/` | app |  |  | 17 |  | 33 | 2 |
-| `/apps/learn-malay/` | app |  |  | 25 |  | 33 | 2 |
-| `/apps/learn-marathi/` | app |  |  | 15 |  | 32 | 2 |
-| `/apps/learn-russian/` | app |  |  | 21 |  | 35 | 2 |
-| `/apps/learn-shanghainese/` | app |  |  | 14 |  | 31 | 2 |
-| `/apps/learn-thai/` | app |  |  | 25 |  | 33 | 2 |
-| `/apps/learn-vietnamese/` | app |  |  | 16 |  | 33 | 2 |
-| `/apps/mental-math-memory-games/` | app |  |  | 124 |  | 33 | 2 |
-| `/apps/mma-boxing-fight-draft/` | app |  |  | 33 |  | 45 | 2 |
-| `/apps/pdf-all-in-one-tools/` | app |  |  | 8 |  | 22 | 2 |
-| `/apps/pro-basketball-draft-gm-mode/` | app |  |  | 58 |  | 54 | 1 |
-| `/apps/pro-basketball-my-career-sim/` | app |  |  | 51 |  | 45 | 2 |
-| `/apps/protein-diet-tracker/` | app |  |  | 39 |  | 47 | 1 |
-| `/apps/regal-tower-defense/` | app |  |  | 14 |  | 31 | 2 |
-| `/apps/regal-video-player/` | app |  |  | 26 |  | 38 | 1 |
-| `/apps/rugby-career-sim/` | app |  |  | 8 |  | 24 | 2 |
-| `/apps/rugby-draft-pro-league/` | app |  |  | 29 |  | 44 | 2 |
-| `/apps/soccer-career-sim-xi/` | app |  |  | 40 |  | 54 | 1 |
-| `/apps/soccer-draft-gm-xi/` | app |  |  | 44 |  | 57 | 2 |
-| `/apps/space-galaxy-attack-hardcore/` | app |  |  | 16 |  | 28 | 1 |
-| `/apps/space-shooter-classic-arcade/` | app |  |  | 26 |  | 38 | 1 |
-| `/apps/tcg-card-grading-scanner/` | app |  |  | 19 |  | 31 | 1 |
-| `/apps/tennis-career-sim/` | app |  |  | 28 |  | 42 | 1 |
-| `/apps/transcribe-audio-to-text/` | app |  |  | 7 |  | 22 | 2 |
-| `/apps/world-history-timeline-sim/` | app |  |  | 125 |  | 33 | 1 |
-| `/apps/zombie-survival-last-survivor/` | app |  |  | 24 |  | 37 | 2 |
-| `/authors/reign-creative-llc/` | author |  |  | 653 |  | 42 | 2 |
-| `/blog/` | blog-index |  |  | 763 |  | 687 | 1 |
-| `/blog/4-3-vs-3-4-defense/` | article | football-draft-gm-mode | sports-gm | 15 | 7 | 31 | 2 |
-| `/blog/a-daily-history-study-routine/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 16 | 9 | 31 | 2 |
-| `/blog/abstract-reasoning-tests-explained/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 18 | 11 | 33 | 2 |
-| `/blog/accessibility-in-brain-training-apps/` | article | mental-math-memory-games | education-brain, brain-training-games | 13 | 8 | 31 | 2 |
-| `/blog/accuracy-before-speed/` | article | mental-math-memory-games | education-brain, brain-training-games | 16 | 10 | 33 | 2 |
-| `/blog/achaemenid-persia-administration/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 9 | 3 | 31 | 2 |
-| `/blog/added-sugars-vs-total-sugars/` | article | keto-diet-tracker | health-nutrition | 12 | 6 | 31 | 2 |
-| `/blog/adding-a-list-of-numbers-mentally/` | article | mental-math-memory-games | education-brain, mental-math | 13 | 7 | 31 | 2 |
-| `/blog/aging-curves-in-career-sims/` | article | baseball-career-sim | sports-gm | 15 | 9 | 31 | 2 |
-| `/blog/ai-opponents-vs-real-players-in-io-games/` | article | jellyfish-arena-survivor-io | action-arcade | 10 | 4 | 30 | 2 |
-| `/blog/analogy-puzzles-explained/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 11 | 6 | 33 | 2 |
-| `/blog/andean-civilizations-in-order/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 10 | 5 | 31 | 2 |
-| `/blog/android-app-permissions-explained/` | article | regal-video-player | video-utility | 11 | 5 | 31 | 2 |
-| `/blog/android-video-player-guide/` | article | regal-video-player | video-utility | 15 | 10 | 30 | 2 |
-| `/blog/android-video-players-compared/` | article | regal-video-player | video-utility | 10 | 5 | 30 | 2 |
-| `/blog/anime-art-styles-explained/` | article | anime-coloring-book | anime-creative | 9 | 4 | 32 | 2 |
-| `/blog/anime-coloring-app-guide/` | article | anime-coloring-book | anime-creative | 16 | 11 | 31 | 2 |
-| `/blog/anime-genres-explained/` | article | anime-trivia-word-games | anime-creative | 15 | 9 | 31 | 2 |
-| `/blog/anime-hair-colour-meanings/` | article | anime-coloring-book | anime-creative | 8 | 3 | 30 | 2 |
-| `/blog/anime-terminology-glossary/` | article | anime-trivia-word-games | anime-creative | 11 | 5 | 30 | 2 |
-| `/blog/anime-trivia-quiz-guide/` | article | anime-trivia-word-games | anime-creative | 16 | 11 | 31 | 2 |
-| `/blog/are-online-iq-tests-accurate/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 12 | 7 | 33 | 2 |
-| `/blog/arithmetic-sequences-explained/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 9 | 4 | 33 | 2 |
-| `/blog/armenian-genocide-explained/` | article | world-history-timeline-sim | education-brain, major-historical-events | 8 | 3 | 32 | 2 |
-| `/blog/ashoka-and-the-rock-edicts/` | article | world-history-timeline-sim | education-brain, historical-people | 14 | 9 | 32 | 2 |
-| `/blog/atlantic-slave-trade-and-abolition/` | article | world-history-timeline-sim | education-brain, major-historical-events | 8 | 3 | 31 | 2 |
-| `/blog/attention-span-exercises/` | article | mental-math-memory-games | education-brain, memory-and-attention | 9 | 5 | 33 | 2 |
-| `/blog/audio-codecs-explained/` | article | regal-video-player | video-utility | 9 | 4 | 30 | 2 |
-| `/blog/aura-towers-and-support-stacking/` | article | regal-tower-defense | action-arcade | 10 | 5 | 30 | 2 |
-| `/blog/auto-fire-and-touch-controls/` | article | zombie-survival-last-survivor | action-arcade | 13 | 7 | 31 | 2 |
-| `/blog/av1-on-android-explained/` | article | regal-video-player | video-utility | 14 | 9 | 30 | 2 |
-| `/blog/babip-explained/` | article | baseball-draft-gm-team | sports-gm | 15 | 5 | 33 | 2 |
-| `/blog/backward-digit-span/` | article | mental-math-memory-games | education-brain, memory-and-attention | 13 | 9 | 30 | 2 |
-| `/blog/bantu-migrations-explained/` | article | world-history-timeline-sim | education-brain, major-historical-events | 12 | 7 | 31 | 2 |
-| `/blog/baseball-career-sim-guide/` | article | baseball-career-sim | sports-gm | 27 | 21 | 33 | 2 |
-| `/blog/baseball-draft-gm-guide/` | article | baseball-draft-gm-team | sports-gm | 38 | 29 | 32 | 2 |
-| `/blog/baseball-pitching-roles-explained/` | article | baseball-career-sim | sports-gm | 18 | 10 | 31 | 2 |
-| `/blog/baseball-positions-by-number/` | article | baseball-career-sim | sports-gm | 15 | 6 | 32 | 2 |
-| `/blog/baseball-rules-for-beginners/` | article | baseball-career-sim | sports-gm | 12 | 3 | 32 | 2 |
-| `/blog/baseball-stats-explained-for-beginners/` | article | baseball-draft-gm-team | sports-gm | 31 | 22 | 30 | 2 |
-| `/blog/basketball-advanced-stats-explained/` | article | pro-basketball-draft-gm-mode | sports-gm | 20 | 10 | 32 | 2 |
-| `/blog/basketball-career-sim-guide/` | article | pro-basketball-my-career-sim | sports-gm | 24 | 16 | 32 | 2 |
-| `/blog/basketball-draft-gm-guide/` | article | pro-basketball-draft-gm-mode | sports-gm | 36 | 27 | 31 | 1 |
-| `/blog/basketball-fouls-explained/` | article | pro-basketball-my-career-sim | sports-gm | 13 | 4 | 32 | 2 |
-| `/blog/basketball-offense-types/` | article | pro-basketball-draft-gm-mode | sports-gm | 14 | 5 | 32 | 2 |
-| `/blog/basketball-player-archetypes/` | article | pro-basketball-my-career-sim | sports-gm | 12 | 5 | 32 | 2 |
-| `/blog/basketball-positions-explained/` | article | pro-basketball-my-career-sim | sports-gm | 21 | 16 | 33 | 2 |
-| `/blog/basketball-rules-for-beginners/` | article | pro-basketball-my-career-sim | sports-gm | 12 | 5 | 32 | 2 |
-| `/blog/batch-cooking-for-the-week/` | article | easy-recipes-meal-planner | health-nutrition | 12 | 6 | 30 | 2 |
-| `/blog/battery-and-performance-in-mobile-games/` | article | space-shooter-classic-arcade | action-arcade | 17 | 10 | 33 | 2 |
-| `/blog/batting-order-strategy-explained/` | article | baseball-draft-gm-team | sports-gm | 17 | 9 | 33 | 2 |
-| `/blog/bce-and-ce-explained/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 9 | 4 | 31 | 2 |
-| `/blog/best-offline-arcade-games-android/` | article | space-shooter-classic-arcade | action-arcade | 18 | 12 | 31 | 2 |
-| `/blog/best-offline-sports-games-android/` | article | football-draft-gm-mode | sports-gm | 11 | 2 | 32 | 2 |
-| `/blog/best-sports-manager-games-for-short-sessions/` | article | soccer-draft-gm-xi | sports-gm | 15 | 6 | 32 | 2 |
-| `/blog/black-death-explained/` | article | world-history-timeline-sim | education-brain, major-historical-events | 9 | 4 | 31 | 2 |
-| `/blog/boss-pattern-recognition/` | article | space-shooter-classic-arcade | action-arcade | 20 | 14 | 31 | 2 |
-| `/blog/boss-weak-points-and-module-targeting/` | article | space-galaxy-attack-hardcore | action-arcade | 10 | 4 | 30 | 2 |
-| `/blog/boxing-belts-and-sanctioning-bodies/` | article | mma-boxing-fight-draft | sports-gm | 9 | 4 | 30 | 2 |
-| `/blog/boxing-rules-for-beginners/` | article | mma-boxing-fight-draft | sports-gm | 11 | 5 | 30 | 2 |
-| `/blog/boxing-scoring-explained/` | article | mma-boxing-fight-draft | sports-gm | 22 | 15 | 30 | 2 |
-| `/blog/boxing-styles-explained/` | article | mma-boxing-fight-draft | sports-gm | 9 | 3 | 31 | 2 |
-| `/blog/boxing-vs-mma-rules/` | article | mma-boxing-fight-draft | sports-gm | 16 | 11 | 30 | 2 |
-| `/blog/boxing-weight-classes-explained/` | article | mma-boxing-fight-draft | sports-gm | 9 | 3 | 30 | 2 |
-| `/blog/brain-games-for-older-adults/` | article | mental-math-memory-games | education-brain, brain-training-games | 11 | 6 | 32 | 2 |
-| `/blog/brain-games-for-the-whole-family/` | article | mental-math-memory-games | education-brain, brain-training-games | 9 | 6 | 32 | 2 |
-| `/blog/brain-training-apps-compared/` | article | mental-math-memory-games | education-brain, brain-training-games | 10 | 5 | 31 | 2 |
-| `/blog/brain-training-for-busy-adults/` | article | mental-math-memory-games | education-brain, brain-training-games | 11 | 6 | 31 | 2 |
-| `/blog/brain-training-questions-answered/` | article | mental-math-memory-games | education-brain, brain-training-games | 9 | 4 | 31 | 2 |
-| `/blog/browsing-history-by-region-and-era/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 11 | 6 | 32 | 2 |
-| `/blog/budget-math-in-your-head/` | article | mental-math-memory-games | education-brain, mental-math | 9 | 4 | 32 | 2 |
-| `/blog/build-pads-and-custom-tower-positions/` | article | regal-tower-defense | action-arcade | 11 | 5 | 30 | 2 |
-| `/blog/building-a-daily-practice-habit/` | article | mental-math-memory-games | education-brain, brain-training-games | 28 | 21 | 33 | 2 |
-| `/blog/building-a-lao-course-from-scratch/` | article | learn-lao | language-learning | 12 | 7 | 32 | 2 |
-| `/blog/bulk-scanning-a-card-collection/` | article | tcg-card-grading-scanner | video-utility | 14 | 8 | 30 | 2 |
-| `/blog/bullet-hell-vs-classic-shmup/` | article | space-shooter-classic-arcade | action-arcade | 14 | 8 | 31 | 2 |
-| `/blog/byzantium-a-thousand-years/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 11 | 6 | 31 | 2 |
-| `/blog/can-practice-raise-an-iq-score/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 12 | 7 | 33 | 2 |
-| `/blog/cantonese-sentence-final-particles/` | article | learn-cantonese | language-learning | 9 | 3 | 30 | 2 |
-| `/blog/cantonese-tones-explained/` | article | learn-cantonese | language-learning | 14 | 10 | 30 | 2 |
-| `/blog/cantonese-vs-mandarin-differences/` | article | learn-cantonese | language-learning | 13 | 9 | 32 | 2 |
-| `/blog/card-condition-grading-scales/` | article | tcg-card-grading-scanner | video-utility | 11 | 6 | 29 | 2 |
-| `/blog/card-grading-costs-and-tiers/` | article | tcg-card-grading-scanner | video-utility | 12 | 7 | 29 | 2 |
-| `/blog/career-mode-vs-franchise-mode/` | article | pro-basketball-my-career-sim | sports-gm | 17 | 10 | 31 | 2 |
-| `/blog/career-sim-vs-manager-game/` | article | baseball-career-sim | sports-gm | 13 | 4 | 40 | 2 |
-| `/blog/careless-arithmetic-mistakes/` | article | mental-math-memory-games | education-brain, mental-math | 9 | 4 | 31 | 2 |
-| `/blog/category/action-arcade/` | blog-category |  |  | 45 |  | 66 | 2 |
-| `/blog/category/anime-creative/` | blog-category |  |  | 30 |  | 49 | 2 |
-| `/blog/category/education-brain/` | blog-category |  |  | 243 |  | 261 | 2 |
-| `/blog/category/health-nutrition/` | blog-category |  |  | 42 |  | 61 | 2 |
-| `/blog/category/language-learning/` | blog-category |  |  | 89 |  | 115 | 2 |
-| `/blog/category/sports-gm/` | blog-category |  |  | 243 |  | 273 | 2 |
-| `/blog/category/video-utility/` | blog-category |  |  | 33 |  | 52 | 2 |
-| `/blog/cause-and-effect-in-history/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 9 | 4 | 32 | 2 |
-| `/blog/cefr-levels-explained/` | article | learn-italian | language-learning | 15 | 8 | 32 | 2 |
-| `/blog/change-detection-tasks/` | article | mental-math-memory-games | education-brain, memory-and-attention | 8 | 3 | 33 | 2 |
-| `/blog/chinas-deadliest-rebellions/` | article | world-history-timeline-sim | education-brain, major-historical-events | 7 | 2 | 31 | 2 |
-| `/blog/chinese-dynasties-in-chronological-order/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 11 | 6 | 32 | 2 |
-| `/blog/chola-empire-maritime-power/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 8 | 3 | 31 | 2 |
-| `/blog/choosing-a-difficulty-level/` | article | mental-math-memory-games | education-brain, brain-training-games | 12 | 7 | 31 | 2 |
-| `/blog/choosing-a-history-app-for-students/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 9 | 4 | 33 | 2 |
-| `/blog/choosing-russian-verb-aspect/` | article | learn-russian | language-learning | 12 | 7 | 30 | 2 |
-| `/blog/clean-sheets-explained/` | article | soccer-draft-gm-xi | sports-gm | 17 | 10 | 34 | 2 |
-| `/blog/cleopatra-beyond-the-legend/` | article | world-history-timeline-sim | education-brain, historical-people | 10 | 5 | 31 | 2 |
-| `/blog/club-distance-gapping/` | article | golf-career-simulator | sports-gm | 13 | 7 | 31 | 2 |
-| `/blog/coach-trust-and-playing-time/` | article | soccer-career-sim-xi | sports-gm | 17 | 8 | 32 | 2 |
-| `/blog/college-recruiting-in-basketball-career-mode/` | article | pro-basketball-my-career-sim | sports-gm | 9 | 3 | 31 | 2 |
-| `/blog/color-palettes-for-anime-art/` | article | anime-coloring-book | anime-creative | 10 | 5 | 30 | 2 |
-| `/blog/color-theory-for-beginners/` | article | anime-coloring-book | anime-creative | 13 | 7 | 31 | 2 |
-| `/blog/columbian-exchange-explained/` | article | world-history-timeline-sim | education-brain, major-historical-events | 8 | 3 | 31 | 2 |
-| `/blog/common-history-myths-corrected/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 11 | 6 | 33 | 2 |
-| `/blog/common-reasoning-mistakes/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 14 | 9 | 32 | 2 |
-| `/blog/comparing-fractions-mentally/` | article | mental-math-memory-games | education-brain, mental-math | 8 | 3 | 32 | 2 |
-| `/blog/compensation-strategy-in-arithmetic/` | article | mental-math-memory-games | education-brain, mental-math | 9 | 4 | 33 | 2 |
-| `/blog/complete-vs-incomplete-proteins/` | article | protein-diet-tracker | health-nutrition | 11 | 6 | 30 | 2 |
-| `/blog/comprehensible-input-explained/` | article | learn-italian | language-learning | 16 | 9 | 35 | 2 |
-| `/blog/conditional-reasoning-if-then/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 9 | 4 | 33 | 2 |
-| `/blog/contested-legacies-in-history/` | article | world-history-timeline-sim | education-brain, historical-people | 8 | 3 | 33 | 2 |
-| `/blog/cooking-from-what-is-in-the-pantry/` | article | easy-recipes-meal-planner | health-nutrition | 9 | 3 | 31 | 2 |
-| `/blog/counterfactual-history-and-what-if-scenarios/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 9 | 4 | 32 | 2 |
-| `/blog/countering-armoured-and-flying-enemies/` | article | regal-tower-defense | action-arcade | 10 | 5 | 30 | 2 |
-| `/blog/counting-up-subtraction/` | article | mental-math-memory-games | education-brain, mental-math | 9 | 4 | 31 | 2 |
-| `/blog/cover-2-vs-cover-3/` | article | football-career-sim | sports-gm | 11 | 4 | 32 | 2 |
-| `/blog/cross-multiplication-in-one-pass/` | article | mental-math-memory-games | education-brain, mental-math | 13 | 8 | 31 | 2 |
-| `/blog/daily-challenge-formats-explained/` | article | mental-math-memory-games | education-brain, brain-training-games | 9 | 4 | 31 | 2 |
-| `/blog/dating-north-america-before-columbus/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 7 | 2 | 31 | 2 |
-| `/blog/dating-southeast-asian-history/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 8 | 3 | 31 | 2 |
-| `/blog/deductive-reasoning-examples/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 10 | 5 | 33 | 2 |
-| `/blog/deep-time-on-a-history-timeline/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 7 | 2 | 31 | 2 |
-| `/blog/delayed-recall-explained/` | article | mental-math-memory-games | education-brain, memory-and-attention | 10 | 5 | 31 | 2 |
-| `/blog/deliberate-practice-in-brain-games/` | article | mental-math-memory-games | education-brain, brain-training-games | 8 | 3 | 33 | 2 |
-| `/blog/depth-charts-explained/` | article | football-draft-gm-mode | sports-gm | 16 | 8 | 33 | 2 |
-| `/blog/designing-memory-games-beyond-matching-pairs/` | article | mental-math-memory-games | education-brain, memory-and-attention | 10 | 5 | 30 | 2 |
-| `/blog/dictation-practice-in-a-new-script/` | article | learn-lao | language-learning | 9 | 2 | 31 | 2 |
-| `/blog/did-people-think-the-earth-was-flat/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 7 | 2 | 32 | 2 |
-| `/blog/difficulty-curves-explained/` | article | space-shooter-classic-arcade | action-arcade | 17 | 11 | 32 | 2 |
-| `/blog/digit-span-explained/` | article | mental-math-memory-games | education-brain, memory-and-attention | 13 | 8 | 33 | 2 |
-| `/blog/digital-coloring-techniques/` | article | anime-coloring-book | anime-creative | 13 | 7 | 31 | 2 |
-| `/blog/direct-vs-indirect-free-kick/` | article | soccer-draft-gm-xi | sports-gm | 14 | 7 | 32 | 2 |
-| `/blog/do-brain-training-apps-work/` | article | mental-math-memory-games | education-brain, brain-training-games | 49 | 44 | 31 | 2 |
-| `/blog/does-reach-matter-in-boxing-and-mma/` | article | mma-boxing-fight-draft | sports-gm | 8 | 2 | 31 | 2 |
-| `/blog/drafting-a-goal-kicker-in-rugby/` | article | rugby-draft-pro-league | sports-gm | 10 | 4 | 31 | 2 |
-| `/blog/dropped-third-strike-rule/` | article | baseball-career-sim | sports-gm | 12 | 5 | 32 | 2 |
-| `/blog/eat-and-grow-arena-strategy/` | article | jellyfish-arena-survivor-io | action-arcade | 10 | 5 | 30 | 2 |
-| `/blog/electrolytes-on-low-carb/` | article | keto-diet-tracker | health-nutrition | 11 | 6 | 31 | 2 |
-| `/blog/endless-mode-vs-campaign-shooters/` | article | space-galaxy-attack-hardcore | action-arcade | 10 | 4 | 30 | 2 |
-| `/blog/energy-and-morale-in-match-decisions/` | article | soccer-career-sim-xi | sports-gm | 11 | 5 | 31 | 2 |
-| `/blog/estimating-sales-tax/` | article | mental-math-memory-games | education-brain, mental-math | 12 | 7 | 32 | 2 |
-| `/blog/estimation-techniques-explained/` | article | mental-math-memory-games | education-brain, mental-math | 26 | 21 | 32 | 2 |
-| `/blog/expansion-drafts-explained/` | article | hockey-draft-gm-manager | sports-gm | 12 | 3 | 34 | 2 |
-| `/blog/expected-goals-xg-explained/` | article | soccer-draft-gm-xi | sports-gm | 12 | 4 | 32 | 2 |
-| `/blog/faceoff-rules-hockey/` | article | hockey-career-sim | sports-gm | 14 | 7 | 32 | 2 |
-| `/blog/famous-explorers-in-history/` | article | world-history-timeline-sim | education-brain, historical-people | 7 | 2 | 31 | 2 |
-| `/blog/fibonacci-and-recursive-sequences/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 8 | 3 | 32 | 2 |
-| `/blog/finding-the-original-price-before-a-discount/` | article | mental-math-memory-games | education-brain, mental-math | 10 | 5 | 32 | 2 |
-| `/blog/finding-the-rule-in-a-number-pattern/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 10 | 5 | 33 | 2 |
-| `/blog/fip-vs-era/` | article | baseball-draft-gm-team | sports-gm | 11 | 3 | 33 | 2 |
-| `/blog/fixing-fill-tool-mistakes-in-coloring-apps/` | article | anime-coloring-book | anime-creative | 15 | 9 | 30 | 2 |
-| `/blog/fluid-and-crystallized-intelligence/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 7 | 2 | 32 | 2 |
-| `/blog/football-career-sim-guide/` | article | football-career-sim | sports-gm | 19 | 11 | 33 | 2 |
-| `/blog/football-draft-gm-guide/` | article | football-draft-gm-mode | sports-gm | 32 | 27 | 31 | 2 |
-| `/blog/football-positions-explained-for-drafting/` | article | football-draft-gm-mode | sports-gm | 20 | 13 | 32 | 2 |
-| `/blog/fraction-decimal-percent-conversions/` | article | mental-math-memory-games | education-brain, mental-math | 8 | 3 | 33 | 2 |
-| `/blog/frame-rate-and-resolution-explained/` | article | regal-video-player | video-utility | 9 | 4 | 30 | 2 |
-| `/blog/franchise-tag-explained/` | article | football-career-sim | sports-gm | 9 | 2 | 32 | 2 |
-| `/blog/free-agency-explained/` | article | pro-basketball-draft-gm-mode | sports-gm | 19 | 11 | 32 | 2 |
-| `/blog/free-relief-in-golf/` | article | golf-career-simulator | sports-gm | 10 | 5 | 30 | 2 |
-| `/blog/french-revolution-causes-and-phases/` | article | world-history-timeline-sim | education-brain, major-historical-events | 9 | 4 | 32 | 2 |
-| `/blog/fun-iq-quizzes-versus-real-assessments/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 14 | 9 | 33 | 2 |
-| `/blog/geometric-sequences-explained/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 9 | 4 | 31 | 2 |
-| `/blog/ghana-mali-songhai-empires/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 11 | 6 | 30 | 2 |
-| `/blog/glycemic-index-and-load/` | article | keto-diet-tracker | health-nutrition | 9 | 3 | 31 | 2 |
-| `/blog/goal-difference-and-tiebreakers/` | article | soccer-draft-gm-xi | sports-gm | 23 | 16 | 32 | 2 |
-| `/blog/golf-career-sim-guide/` | article | golf-career-simulator | sports-gm | 16 | 10 | 33 | 2 |
-| `/blog/golf-course-management-basics/` | article | golf-career-simulator | sports-gm | 23 | 15 | 29 | 2 |
-| `/blog/golf-handicap-for-beginners/` | article | golf-career-simulator | sports-gm | 15 | 7 | 30 | 2 |
-| `/blog/golf-penalty-areas-red-vs-yellow-stakes/` | article | golf-career-simulator | sports-gm | 9 | 4 | 30 | 2 |
-| `/blog/golf-playoffs-and-tie-breaks/` | article | golf-career-simulator | sports-gm | 9 | 3 | 31 | 2 |
-| `/blog/golf-rules-for-beginners/` | article | golf-career-simulator | sports-gm | 11 | 4 | 31 | 2 |
-| `/blog/golf-scoring-explained/` | article | golf-career-simulator | sports-gm | 26 | 18 | 30 | 2 |
-| `/blog/golf-stats-to-track/` | article | golf-career-simulator | sports-gm | 9 | 3 | 31 | 2 |
-| `/blog/golf-tournament-formats/` | article | golf-career-simulator | sports-gm | 16 | 9 | 30 | 2 |
-| `/blog/google-play-data-safety-explained/` | article | protein-diet-tracker | video-utility | 9 | 2 | 32 | 2 |
-| `/blog/great-zimbabwe-and-mutapa/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 10 | 6 | 31 | 2 |
-| `/blog/grid-and-position-memory/` | article | mental-math-memory-games | education-brain, memory-and-attention | 13 | 9 | 31 | 2 |
-| `/blog/growing-sequence-memory-games/` | article | mental-math-memory-games | education-brain, memory-and-attention | 9 | 5 | 32 | 2 |
-| `/blog/haitian-revolution-explained/` | article | world-history-timeline-sim | education-brain, major-historical-events | 7 | 2 | 32 | 2 |
-| `/blog/handball-rule-in-soccer/` | article | soccer-draft-gm-xi | sports-gm | 13 | 6 | 32 | 2 |
-| `/blog/hardware-vs-software-decoding/` | article | regal-video-player | video-utility | 13 | 8 | 31 | 2 |
-| `/blog/has-any-team-gone-162-0/` | article | baseball-draft-gm-team | sports-gm | 10 | 2 | 32 | 2 |
-| `/blog/has-any-team-gone-20-0/` | article | football-draft-gm-mode | sports-gm | 10 | 3 | 32 | 2 |
-| `/blog/has-any-team-gone-82-0/` | article | pro-basketball-draft-gm-mode | sports-gm | 11 | 3 | 32 | 2 |
-| `/blog/helping-a-child-with-math-facts/` | article | mental-math-memory-games | education-brain, mental-math | 7 | 2 | 31 | 2 |
-| `/blog/heritage-language-learners-shanghainese/` | article | learn-shanghainese | language-learning | 10 | 4 | 30 | 2 |
-| `/blog/hijri-calendar-and-historical-dating/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 10 | 5 | 32 | 2 |
-| `/blog/history-apps-compared-for-self-study/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 9 | 4 | 31 | 2 |
-| `/blog/history-of-inventions-timeline/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 9 | 4 | 31 | 2 |
-| `/blog/history-of-rugby-union/` | article | rugby-draft-pro-league | sports-gm | 11 | 5 | 31 | 2 |
-| `/blog/history-of-shoot-em-up-games/` | article | space-shooter-classic-arcade | action-arcade | 13 | 7 | 31 | 2 |
-| `/blog/history-timeline-tools-compared/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 7 | 2 | 31 | 2 |
-| `/blog/hockey-career-archetypes-explained/` | article | hockey-career-sim | sports-gm | 12 | 6 | 32 | 2 |
-| `/blog/hockey-career-sim-guide/` | article | hockey-career-sim | sports-gm | 17 | 11 | 33 | 2 |
-| `/blog/hockey-draft-gm-guide/` | article | hockey-draft-gm-manager | sports-gm | 36 | 27 | 33 | 2 |
-| `/blog/hockey-forecheck-systems/` | article | hockey-draft-gm-manager | sports-gm | 12 | 5 | 32 | 2 |
-| `/blog/hockey-goaltending-explained/` | article | hockey-career-sim | sports-gm | 15 | 7 | 30 | 2 |
-| `/blog/hockey-line-combinations-explained/` | article | hockey-draft-gm-manager | sports-gm | 15 | 10 | 31 | 2 |
-| `/blog/hockey-penalties-explained/` | article | hockey-career-sim | sports-gm | 14 | 8 | 31 | 2 |
-| `/blog/hockey-positions-explained/` | article | hockey-draft-gm-manager | sports-gm | 21 | 14 | 31 | 2 |
-| `/blog/hockey-rules-for-beginners/` | article | hockey-career-sim | sports-gm | 10 | 4 | 31 | 2 |
-| `/blog/holding-first-place-in-io-leaderboards/` | article | jellyfish-arena-survivor-io | action-arcade | 11 | 5 | 30 | 2 |
-| `/blog/home-advantage-in-sports/` | article | soccer-draft-gm-xi | sports-gm | 11 | 4 | 32 | 2 |
-| `/blog/horde-survival-vs-wave-shooter/` | article | zombie-survival-last-survivor | action-arcade | 13 | 7 | 34 | 2 |
-| `/blog/how-a-golf-cut-works/` | article | golf-career-simulator | sports-gm | 15 | 9 | 31 | 2 |
-| `/blog/how-african-history-is-dated/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 7 | 2 | 31 | 2 |
-| `/blog/how-boxing-records-are-written/` | article | mma-boxing-fight-draft | sports-gm | 12 | 6 | 31 | 2 |
-| `/blog/how-calendars-and-dating-systems-work/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 16 | 11 | 31 | 2 |
-| `/blog/how-decolonisation-happened/` | article | world-history-timeline-sim | education-brain, major-historical-events | 8 | 3 | 31 | 2 |
-| `/blog/how-do-nfl-playoffs-work/` | article | football-draft-gm-mode | sports-gm | 10 | 2 | 32 | 2 |
-| `/blog/how-do-nhl-standings-work/` | article | hockey-draft-gm-manager | sports-gm | 13 | 4 | 32 | 2 |
-| `/blog/how-do-nhl-waivers-work/` | article | hockey-draft-gm-manager | sports-gm | 12 | 6 | 32 | 2 |
-| `/blog/how-does-american-football-work/` | article | football-career-sim | sports-gm | 15 | 8 | 33 | 2 |
-| `/blog/how-does-nhl-overtime-work/` | article | hockey-career-sim | sports-gm | 8 | 1 | 32 | 2 |
-| `/blog/how-does-the-nfl-salary-cap-work/` | article | football-draft-gm-mode | sports-gm | 12 | 5 | 32 | 2 |
-| `/blog/how-does-the-nhl-draft-work/` | article | hockey-career-sim | sports-gm | 9 | 1 | 32 | 2 |
-| `/blog/how-does-the-nhl-salary-cap-work/` | article | hockey-draft-gm-manager | sports-gm | 13 | 6 | 32 | 2 |
-| `/blog/how-draft-lotteries-work/` | article | pro-basketball-draft-gm-mode | sports-gm | 17 | 7 | 31 | 2 |
-| `/blog/how-fantasy-draft-strategy-works/` | article | pro-basketball-draft-gm-mode | sports-gm | 15 | 6 | 31 | 2 |
-| `/blog/how-fight-cards-are-built/` | article | mma-boxing-fight-draft | sports-gm | 14 | 8 | 30 | 2 |
-| `/blog/how-football-draft-order-works/` | article | football-draft-gm-mode | sports-gm | 21 | 12 | 32 | 2 |
-| `/blog/how-golf-q-school-works/` | article | golf-career-simulator | sports-gm | 9 | 3 | 31 | 2 |
-| `/blog/how-historians-date-events/` | article | world-history-timeline-sim | education-brain, world-history-timelines, history-learning-methods | 74 | 68 | 32 | 2 |
-| `/blog/how-iq-scores-are-calculated/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 9 | 4 | 32 | 2 |
-| `/blog/how-is-war-calculated/` | article | baseball-draft-gm-team | sports-gm | 9 | 2 | 33 | 2 |
-| `/blog/how-long-a-brain-training-session-should-be/` | article | mental-math-memory-games | education-brain, brain-training-games | 12 | 7 | 33 | 2 |
-| `/blog/how-long-does-it-take-to-learn-russian/` | article | learn-russian | language-learning | 13 | 9 | 31 | 2 |
-| `/blog/how-long-people-have-lived-in-australia/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 7 | 2 | 31 | 2 |
-| `/blog/how-long-to-learn-italian/` | article | learn-italian | language-learning | 12 | 7 | 30 | 2 |
-| `/blog/how-many-words-to-be-conversational/` | article | learn-italian | language-learning | 11 | 5 | 31 | 2 |
-| `/blog/how-mma-judging-criteria-work/` | article | mma-boxing-fight-draft | sports-gm | 14 | 7 | 31 | 2 |
-| `/blog/how-much-protein-per-day/` | article | protein-diet-tracker | health-nutrition | 15 | 9 | 31 | 2 |
-| `/blog/how-par-is-determined/` | article | golf-career-simulator | sports-gm | 10 | 3 | 32 | 2 |
-| `/blog/how-player-career-modes-work/` | article | baseball-career-sim | sports-gm | 21 | 12 | 32 | 2 |
-| `/blog/how-quiz-difficulty-works/` | article | anime-trivia-word-games | anime-creative | 17 | 12 | 31 | 2 |
-| `/blog/how-rugby-scoring-works/` | article | rugby-draft-pro-league | sports-gm | 23 | 16 | 32 | 2 |
-| `/blog/how-soccer-academies-work/` | article | soccer-career-sim-xi | sports-gm | 10 | 3 | 32 | 2 |
-| `/blog/how-soccer-league-tables-work/` | article | soccer-draft-gm-xi | sports-gm | 25 | 16 | 32 | 2 |
-| `/blog/how-sports-scouting-works/` | article | rugby-draft-pro-league | sports-gm | 9 | 1 | 31 | 2 |
-| `/blog/how-sports-simulation-engines-work/` | article | baseball-draft-gm-team | sports-gm | 30 | 19 | 32 | 2 |
-| `/blog/how-tennis-qualifiers-work/` | article | tennis-career-sim | sports-gm | 12 | 7 | 30 | 2 |
-| `/blog/how-tennis-ranking-points-work/` | article | tennis-career-sim | sports-gm | 16 | 9 | 30 | 2 |
-| `/blog/how-tennis-seeding-works/` | article | tennis-career-sim | sports-gm | 11 | 5 | 31 | 2 |
-| `/blog/how-the-fifa-world-ranking-works/` | article | soccer-draft-gm-xi | sports-gm | 10 | 1 | 32 | 2 |
-| `/blog/how-the-mughal-empire-expanded/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 7 | 2 | 31 | 2 |
-| `/blog/how-the-offside-rule-works/` | article | soccer-draft-gm-xi | sports-gm | 22 | 15 | 32 | 2 |
-| `/blog/how-to-analyse-a-primary-source/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 11 | 6 | 31 | 2 |
-| `/blog/how-to-build-a-balanced-basketball-roster/` | article | pro-basketball-draft-gm-mode | sports-gm | 28 | 18 | 32 | 2 |
-| `/blog/how-to-build-a-country-history-timeline/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 7 | 2 | 31 | 2 |
-| `/blog/how-to-check-a-historical-superlative/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 12 | 7 | 31 | 2 |
-| `/blog/how-to-choose-a-sports-career-sim/` | article | golf-career-simulator | sports-gm | 16 | 4 | 39 | 2 |
-| `/blog/how-to-count-centuries-correctly/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 8 | 3 | 32 | 2 |
-| `/blog/how-to-hit-a-protein-goal/` | article | protein-diet-tracker | health-nutrition | 12 | 6 | 32 | 2 |
-| `/blog/how-to-improve-concentration/` | article | mental-math-memory-games | education-brain, memory-and-attention | 9 | 5 | 32 | 2 |
-| `/blog/how-to-keep-score-in-baseball/` | article | baseball-career-sim | sports-gm | 12 | 5 | 33 | 2 |
-| `/blog/how-to-meal-plan-for-the-week/` | article | easy-recipes-meal-planner | health-nutrition | 14 | 8 | 30 | 2 |
-| `/blog/how-to-measure-card-centring/` | article | tcg-card-grading-scanner | video-utility | 10 | 5 | 30 | 2 |
-| `/blog/how-to-memorize-numbers/` | article | mental-math-memory-games | education-brain, memory-and-attention | 8 | 3 | 30 | 2 |
-| `/blog/how-to-play-mkv-files-on-android/` | article | regal-video-player | video-utility | 13 | 8 | 32 | 2 |
-| `/blog/how-to-read-a-basketball-box-score/` | article | pro-basketball-my-career-sim | sports-gm | 11 | 2 | 33 | 2 |
-| `/blog/how-to-remember-historical-dates/` | article | world-history-timeline-sim | education-brain, history-learning-methods, memory-and-attention | 12 | 6 | 33 | 2 |
-| `/blog/how-to-shade-anime-hair/` | article | anime-coloring-book | anime-creative | 9 | 4 | 30 | 2 |
-| `/blog/how-to-spot-bias-in-history-writing/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 7 | 2 | 31 | 2 |
-| `/blog/how-to-study-history-on-your-own/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 43 | 37 | 33 | 2 |
-| `/blog/how-to-track-practice-progress/` | article | mental-math-memory-games | education-brain, brain-training-games | 14 | 9 | 33 | 2 |
-| `/blog/how-to-track-protein-intake/` | article | protein-diet-tracker | health-nutrition | 19 | 12 | 31 | 1 |
-| `/blog/how-to-write-a-history-essay/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 8 | 3 | 31 | 2 |
-| `/blog/how-var-works-in-soccer/` | article | soccer-draft-gm-xi | sports-gm | 10 | 3 | 32 | 2 |
-| `/blog/how-we-know-what-historical-figures-did/` | article | world-history-timeline-sim | education-brain, historical-people | 20 | 15 | 31 | 2 |
-| `/blog/ibn-battuta-and-the-rihla/` | article | world-history-timeline-sim | education-brain, historical-people | 8 | 3 | 31 | 2 |
-| `/blog/indian-history-periodisation-debate/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 8 | 3 | 31 | 2 |
-| `/blog/indian-ocean-trade-before-europeans/` | article | world-history-timeline-sim | education-brain, major-historical-events | 7 | 2 | 31 | 2 |
-| `/blog/indigenous-resistance-wars-compared/` | article | world-history-timeline-sim | education-brain, major-historical-events | 8 | 3 | 31 | 2 |
-| `/blog/inductive-reasoning-examples/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 9 | 4 | 33 | 2 |
-| `/blog/indus-valley-civilization-explained/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 8 | 3 | 32 | 2 |
-| `/blog/infield-fly-rule/` | article | baseball-career-sim | sports-gm | 8 | 1 | 32 | 2 |
-| `/blog/injuries-in-sports-career-games/` | article | hockey-career-sim | sports-gm | 15 | 6 | 32 | 2 |
-| `/blog/interference-and-forgetting/` | article | mental-math-memory-games | education-brain, memory-and-attention | 10 | 5 | 32 | 2 |
-| `/blog/interleaving-versus-blocked-practice/` | article | mental-math-memory-games | education-brain, brain-training-games | 9 | 4 | 33 | 2 |
-| `/blog/intermittent-fasting-windows-explained/` | article | keto-diet-tracker | health-nutrition | 10 | 4 | 31 | 2 |
-| `/blog/io-games-without-a-connection/` | article | jellyfish-arena-survivor-io | action-arcade | 10 | 5 | 30 | 2 |
-| `/blog/iq-and-emotional-intelligence/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 12 | 7 | 32 | 2 |
-| `/blog/iq-score-ranges-and-bands/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 9 | 4 | 32 | 2 |
-| `/blog/is-bunting-good-in-baseball/` | article | baseball-career-sim | sports-gm | 10 | 3 | 32 | 2 |
-| `/blog/is-khmer-hard-to-learn/` | article | learn-cambodian-khmer | language-learning | 12 | 7 | 32 | 2 |
-| `/blog/is-lao-hard-to-learn/` | article | learn-lao | language-learning | 9 | 4 | 30 | 2 |
-| `/blog/is-malay-easy-to-learn/` | article | learn-malay | language-learning | 9 | 4 | 31 | 2 |
-| `/blog/is-marathi-hard-to-learn/` | article | learn-marathi | language-learning | 14 | 9 | 32 | 2 |
-| `/blog/is-momentum-in-sports-real/` | article | golf-career-simulator | sports-gm | 8 | 1 | 32 | 2 |
-| `/blog/is-my-card-worth-grading/` | article | tcg-card-grading-scanner | video-utility | 12 | 7 | 30 | 2 |
-| `/blog/is-shanghainese-a-dialect-or-a-language/` | article | learn-shanghainese | language-learning | 13 | 8 | 30 | 2 |
-| `/blog/is-thai-hard-to-learn/` | article | learn-thai | language-learning | 10 | 6 | 30 | 2 |
-| `/blog/is-vietnamese-hard-to-learn/` | article | learn-vietnamese | language-learning | 15 | 10 | 33 | 2 |
-| `/blog/italian-articles-and-gender/` | article | learn-italian | language-learning | 8 | 4 | 31 | 2 |
-| `/blog/italian-verb-conjugation-basics/` | article | learn-italian | language-learning | 7 | 3 | 30 | 2 |
-| `/blog/japan-from-yamato-to-meiji/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 7 | 2 | 31 | 2 |
-| `/blog/judging-your-own-recall/` | article | mental-math-memory-games | education-brain, memory-and-attention | 9 | 4 | 31 | 2 |
-| `/blog/junior-circuit-to-pro-tour-path/` | article | tennis-career-sim | sports-gm | 11 | 5 | 31 | 2 |
-| `/blog/keto-flu-explained/` | article | keto-diet-tracker | health-nutrition | 10 | 6 | 29 | 2 |
-| `/blog/keto-macros-explained/` | article | keto-diet-tracker | health-nutrition | 11 | 6 | 30 | 2 |
-| `/blog/khmer-empire-at-angkor/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 9 | 4 | 31 | 2 |
-| `/blog/khmer-fonts-on-android/` | article | learn-cambodian-khmer | language-learning | 7 | 3 | 30 | 2 |
-| `/blog/khmer-greetings-and-honorifics/` | article | learn-cambodian-khmer | language-learning | 7 | 3 | 28 | 2 |
-| `/blog/khmer-phrases-for-cambodia-travel/` | article | learn-cambodian-khmer | language-learning | 7 | 3 | 28 | 2 |
-| `/blog/khmer-rouge-and-cambodian-genocide/` | article | world-history-timeline-sim | education-brain, major-historical-events | 7 | 2 | 31 | 2 |
-| `/blog/khmer-script-explained/` | article | learn-cambodian-khmer | language-learning | 14 | 9 | 30 | 2 |
-| `/blog/khmer-vs-thai-script/` | article | learn-cambodian-khmer | language-learning | 8 | 4 | 30 | 2 |
-| `/blog/kingdom-of-aksum-explained/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 9 | 4 | 31 | 2 |
-| `/blog/ko-vs-tko-how-fights-end/` | article | mma-boxing-fight-draft | sports-gm | 11 | 4 | 31 | 2 |
-| `/blog/korean-dynasties-explained/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 7 | 2 | 31 | 2 |
-| `/blog/kush-and-the-nubian-pharaohs/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 7 | 2 | 31 | 2 |
-| `/blog/language-learning-apps-compared/` | article | learn-cantonese | language-learning | 16 | 9 | 32 | 2 |
-| `/blog/language-learning-plateau/` | article | learn-russian | language-learning | 11 | 4 | 32 | 2 |
-| `/blog/lao-alphabet-explained/` | article | learn-lao | language-learning | 16 | 11 | 30 | 2 |
-| `/blog/lao-greetings-and-politeness/` | article | learn-lao | language-learning | 7 | 3 | 30 | 2 |
-| `/blog/lao-numbers-and-prices/` | article | learn-lao | language-learning | 12 | 6 | 30 | 2 |
-| `/blog/lao-phrases-for-travellers/` | article | learn-lao | language-learning | 7 | 3 | 29 | 2 |
-| `/blog/lao-tone-rules/` | article | learn-lao | language-learning | 12 | 7 | 30 | 2 |
-| `/blog/lao-vs-thai-differences/` | article | learn-lao | language-learning | 11 | 6 | 30 | 2 |
-| `/blog/latin-american-independence-wars/` | article | world-history-timeline-sim | education-brain, major-historical-events | 7 | 2 | 31 | 2 |
-| `/blog/lattice-and-line-multiplication/` | article | mental-math-memory-games | education-brain, mental-math | 10 | 5 | 31 | 2 |
-| `/blog/learn-cantonese-beginners-guide/` | article | learn-cantonese | language-learning | 16 | 11 | 31 | 1 |
-| `/blog/learn-italian-beginners-guide/` | article | learn-italian | language-learning | 11 | 5 | 32 | 2 |
-| `/blog/learn-khmer-beginners-guide/` | article | learn-cambodian-khmer | language-learning | 15 | 12 | 28 | 2 |
-| `/blog/learn-lao-beginners-guide/` | article | learn-lao | language-learning | 17 | 11 | 32 | 2 |
-| `/blog/learn-malay-beginners-guide/` | article | learn-malay | language-learning | 18 | 15 | 29 | 2 |
-| `/blog/learn-marathi-beginners-guide/` | article | learn-marathi | language-learning | 14 | 9 | 32 | 2 |
-| `/blog/learn-russian-cyrillic-beginners-guide/` | article | learn-russian | language-learning | 13 | 9 | 30 | 2 |
-| `/blog/learn-shanghainese-beginners-guide/` | article | learn-shanghainese | language-learning | 13 | 8 | 32 | 2 |
-| `/blog/learn-thai-script-beginners-guide/` | article | learn-thai | language-learning | 22 | 18 | 30 | 2 |
-| `/blog/learn-vietnamese-beginners-guide/` | article | learn-vietnamese | language-learning | 12 | 6 | 31 | 2 |
-| `/blog/learning-a-language-without-a-teacher/` | article | learn-malay | language-learning | 9 | 2 | 34 | 2 |
-| `/blog/learning-english-from-marathi/` | article | learn-marathi | language-learning | 15 | 9 | 30 | 2 |
-| `/blog/left-to-right-addition/` | article | mental-math-memory-games | education-brain, mental-math | 7 | 2 | 31 | 2 |
-| `/blog/limitations-of-iq-testing/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 9 | 4 | 32 | 2 |
-| `/blog/line-art-and-flats-explained/` | article | anime-coloring-book | anime-creative | 9 | 4 | 30 | 2 |
-| `/blog/listening-practice-in-a-new-language/` | article | learn-thai | language-learning | 15 | 8 | 34 | 2 |
-| `/blog/logic-grid-puzzles/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 14 | 9 | 31 | 2 |
-| `/blog/low-block-vs-high-line/` | article | soccer-draft-gm-xi | sports-gm | 8 | 1 | 32 | 2 |
-| `/blog/low-carb-tracking-apps-compared/` | article | keto-diet-tracker | health-nutrition | 14 | 8 | 31 | 2 |
-| `/blog/mainland-southeast-asian-kingdoms/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 8 | 3 | 31 | 2 |
-| `/blog/major-eras-of-world-history/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 47 | 42 | 31 | 2 |
-| `/blog/malay-affixes-guide/` | article | learn-malay | language-learning | 9 | 5 | 29 | 2 |
-| `/blog/malay-phrases-for-travel/` | article | learn-malay | language-learning | 8 | 4 | 30 | 2 |
-| `/blog/malay-pronunciation-guide/` | article | learn-malay | language-learning | 11 | 6 | 30 | 2 |
-| `/blog/malay-reduplication-explained/` | article | learn-malay | language-learning | 14 | 8 | 30 | 2 |
-| `/blog/malay-vs-indonesian-differences/` | article | learn-malay | language-learning | 14 | 9 | 30 | 2 |
-| `/blog/managing-a-fight-stable/` | article | mma-boxing-fight-draft | sports-gm | 11 | 5 | 31 | 2 |
-| `/blog/manga-vs-anime-differences/` | article | anime-trivia-word-games | anime-creative | 10 | 5 | 30 | 2 |
-| `/blog/mansa-musa-and-the-hajj-of-1324/` | article | world-history-timeline-sim | education-brain, historical-people | 7 | 2 | 31 | 2 |
-| `/blog/marathi-alphabet-and-devanagari/` | article | learn-marathi | language-learning | 11 | 7 | 29 | 2 |
-| `/blog/marathi-numbers-and-counting/` | article | learn-marathi | language-learning | 8 | 5 | 28 | 2 |
-| `/blog/marathi-phrases-with-meaning/` | article | learn-marathi | language-learning | 7 | 3 | 29 | 2 |
-| `/blog/marathi-study-plan-first-month/` | article | learn-marathi | language-learning | 8 | 4 | 31 | 2 |
-| `/blog/marathi-verb-basics/` | article | learn-marathi | language-learning | 7 | 4 | 28 | 2 |
-| `/blog/marathi-vs-hindi-differences/` | article | learn-marathi | language-learning | 10 | 6 | 30 | 2 |
-| `/blog/match-play-scoring-explained/` | article | golf-career-simulator | sports-gm | 11 | 4 | 32 | 2 |
-| `/blog/math-anxiety-in-adults/` | article | mental-math-memory-games | education-brain, mental-math | 8 | 3 | 32 | 2 |
-| `/blog/matrix-reasoning-puzzles/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 8 | 3 | 32 | 2 |
-| `/blog/maurya-and-gupta-empires-compared/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 7 | 2 | 32 | 2 |
-| `/blog/maya-long-count-calendar-explained/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 9 | 4 | 32 | 2 |
-| `/blog/meal-planning-for-a-dietary-preference/` | article | easy-recipes-meal-planner | health-nutrition | 14 | 8 | 30 | 2 |
-| `/blog/meiji-restoration-explained/` | article | world-history-timeline-sim | education-brain, major-historical-events | 7 | 2 | 32 | 2 |
-| `/blog/memory-techniques-that-work/` | article | mental-math-memory-games | education-brain, memory-and-attention | 24 | 19 | 32 | 2 |
-| `/blog/mental-division-tricks/` | article | mental-math-memory-games | education-brain, mental-math | 18 | 13 | 31 | 2 |
-| `/blog/mental-math-training-guide/` | article | mental-math-memory-games | education-brain, mental-math | 57 | 51 | 31 | 2 |
-| `/blog/mental-math-tricks-that-work/` | article | mental-math-memory-games | education-brain, mental-math | 24 | 19 | 31 | 2 |
-| `/blog/mesoamerica-before-the-aztecs/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 7 | 2 | 31 | 2 |
-| `/blog/minor-league-baseball-levels-explained/` | article | baseball-career-sim | sports-gm | 9 | 2 | 32 | 2 |
-| `/blog/missing-number-problems/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 7 | 2 | 31 | 2 |
-| `/blog/mma-boxing-fight-draft-guide/` | article | mma-boxing-fight-draft | sports-gm | 14 | 5 | 34 | 2 |
-| `/blog/mma-fantasy-draft-strategy/` | article | mma-boxing-fight-draft | sports-gm | 13 | 6 | 33 | 2 |
-| `/blog/mma-weight-classes-explained/` | article | mma-boxing-fight-draft | sports-gm | 16 | 9 | 31 | 2 |
-| `/blog/mnemonic-systems-for-numbers/` | article | mental-math-memory-games | education-brain, memory-and-attention | 7 | 2 | 31 | 2 |
-| `/blog/momentum-steering-in-snake-style-games/` | article | jellyfish-arena-survivor-io | action-arcade | 10 | 4 | 30 | 2 |
-| `/blog/mongol-conquests-explained/` | article | world-history-timeline-sim | education-brain, major-historical-events | 7 | 2 | 33 | 2 |
-| `/blog/multiplication-shortcuts-explained/` | article | mental-math-memory-games | education-brain, mental-math | 20 | 15 | 32 | 2 |
-| `/blog/multiplying-by-five-and-twenty-five/` | article | mental-math-memory-games | education-brain, mental-math | 10 | 6 | 32 | 2 |
-| `/blog/multiplying-by-nine-and-ninety-nine/` | article | mental-math-memory-games | education-brain, mental-math | 12 | 8 | 31 | 2 |
-| `/blog/n-back-tasks-explained/` | article | mental-math-memory-games | education-brain, memory-and-attention | 8 | 3 | 32 | 2 |
-| `/blog/nba-apron-explained/` | article | pro-basketball-draft-gm-mode | sports-gm | 10 | 4 | 31 | 2 |
-| `/blog/nba-draft-eligibility-rules/` | article | pro-basketball-my-career-sim | sports-gm | 9 | 2 | 32 | 2 |
-| `/blog/nba-playoff-format/` | article | pro-basketball-draft-gm-mode | sports-gm | 10 | 3 | 31 | 2 |
-| `/blog/nba-trade-rules/` | article | pro-basketball-draft-gm-mode | sports-gm | 9 | 3 | 31 | 2 |
-| `/blog/nba-vs-fiba-rules/` | article | pro-basketball-my-career-sim | sports-gm | 10 | 3 | 32 | 2 |
-| `/blog/neolithic-agricultural-revolution/` | article | world-history-timeline-sim | education-brain, major-historical-events | 9 | 4 | 31 | 2 |
-| `/blog/net-carbs-explained-keto-tracking/` | article | keto-diet-tracker | health-nutrition | 21 | 15 | 32 | 2 |
-| `/blog/nfl-draft-pick-value-chart/` | article | football-draft-gm-mode | sports-gm | 9 | 2 | 32 | 2 |
-| `/blog/nfl-kickoff-rules/` | article | football-career-sim | sports-gm | 11 | 5 | 32 | 2 |
-| `/blog/nfl-overtime-rules-explained/` | article | football-career-sim | sports-gm | 9 | 3 | 31 | 2 |
-| `/blog/nfl-penalties-explained/` | article | football-career-sim | sports-gm | 10 | 4 | 32 | 2 |
-| `/blog/nfl-rookie-contract-explained/` | article | football-career-sim | sports-gm | 9 | 2 | 32 | 2 |
-| `/blog/nhl-84-game-season/` | article | hockey-draft-gm-manager | sports-gm | 9 | 1 | 32 | 2 |
-| `/blog/nhl-offer-sheet-explained/` | article | hockey-draft-gm-manager | sports-gm | 11 | 4 | 32 | 2 |
-| `/blog/nonverbal-reasoning-tests-explained/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 11 | 6 | 34 | 2 |
-| `/blog/number-bonds-and-making-tens/` | article | mental-math-memory-games | education-brain, mental-math | 8 | 3 | 31 | 2 |
-| `/blog/number-sequence-puzzles-explained/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 23 | 17 | 36 | 2 |
-| `/blog/numerical-reasoning-tests-explained/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 11 | 6 | 33 | 2 |
-| `/blog/odd-one-out-puzzles/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 8 | 3 | 33 | 2 |
-| `/blog/offline-brain-training-apps/` | article | mental-math-memory-games | education-brain, brain-training-games | 11 | 6 | 31 | 2 |
-| `/blog/offline-tower-defence-on-android/` | article | regal-tower-defense | action-arcade | 8 | 3 | 30 | 2 |
-| `/blog/offside-in-hockey/` | article | hockey-career-sim | sports-gm | 8 | 1 | 32 | 2 |
-| `/blog/offside-in-rugby-union-explained/` | article | rugby-draft-pro-league | sports-gm | 13 | 7 | 31 | 2 |
-| `/blog/opium-wars-and-unequal-treaties/` | article | world-history-timeline-sim | education-brain, major-historical-events | 7 | 2 | 32 | 2 |
-| `/blog/ops-and-slugging-explained/` | article | baseball-draft-gm-team | sports-gm | 13 | 5 | 32 | 2 |
-| `/blog/ops-plus-vs-wrc-plus/` | article | baseball-draft-gm-team | sports-gm | 10 | 2 | 32 | 2 |
-| `/blog/ottoman-empire-rise-and-decline/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 8 | 3 | 31 | 2 |
-| `/blog/out-of-bounds-lost-ball-provisional/` | article | golf-career-simulator | sports-gm | 9 | 3 | 31 | 2 |
-| `/blog/paired-associate-learning/` | article | mental-math-memory-games | education-brain, memory-and-attention | 10 | 5 | 31 | 2 |
-| `/blog/pantry-inventory-and-grocery-lists/` | article | easy-recipes-meal-planner | health-nutrition | 10 | 5 | 30 | 2 |
-| `/blog/partition-of-india-1947/` | article | world-history-timeline-sim | education-brain, major-historical-events | 7 | 2 | 31 | 2 |
-| `/blog/penalty-shootout-rules/` | article | soccer-draft-gm-xi | sports-gm | 10 | 2 | 32 | 2 |
-| `/blog/percentages-in-your-head/` | article | mental-math-memory-games | education-brain, mental-math | 21 | 15 | 34 | 2 |
-| `/blog/percentiles-and-standard-scores/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 8 | 3 | 32 | 2 |
-| `/blog/perfect-game-vs-no-hitter/` | article | baseball-career-sim | sports-gm | 8 | 1 | 32 | 2 |
-| `/blog/periodisation-in-history-explained/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 14 | 9 | 31 | 2 |
-| `/blog/personnel-groupings-football/` | article | football-draft-gm-mode | sports-gm | 9 | 2 | 32 | 2 |
-| `/blog/photographing-cards-for-centring/` | article | tcg-card-grading-scanner | video-utility | 13 | 7 | 30 | 2 |
-| `/blog/pick-and-roll-explained/` | article | pro-basketball-my-career-sim | sports-gm | 10 | 3 | 32 | 2 |
-| `/blog/picture-in-picture-on-android/` | article | regal-video-player | video-utility | 12 | 6 | 30 | 2 |
-| `/blog/pitch-clock-rules/` | article | baseball-career-sim | sports-gm | 8 | 1 | 32 | 2 |
-| `/blog/plant-vs-animal-protein/` | article | protein-diet-tracker | health-nutrition | 12 | 6 | 32 | 2 |
-| `/blog/platoon-advantage-baseball/` | article | baseball-career-sim | sports-gm | 11 | 4 | 32 | 2 |
-| `/blog/player-body-metrics-in-career-sims/` | article | pro-basketball-my-career-sim | sports-gm | 10 | 4 | 31 | 2 |
-| `/blog/player-efficiency-rating-explained/` | article | pro-basketball-draft-gm-mode | sports-gm | 11 | 2 | 32 | 2 |
-| `/blog/playing-the-big-points-in-tennis/` | article | tennis-career-sim | sports-gm | 12 | 5 | 31 | 2 |
-| `/blog/plus-minus-and-hockey-stats/` | article | hockey-draft-gm-manager | sports-gm | 17 | 9 | 33 | 2 |
-| `/blog/polynesian-voyaging-and-pacific-settlement/` | article | world-history-timeline-sim | education-brain, major-historical-events | 9 | 4 | 31 | 2 |
-| `/blog/power-play-and-penalty-kill/` | article | hockey-draft-gm-manager | sports-gm | 15 | 8 | 32 | 2 |
-| `/blog/power-ups-and-build-design/` | article | zombie-survival-last-survivor | action-arcade | 12 | 6 | 32 | 2 |
-| `/blog/press-conferences-in-career-mode/` | article | soccer-career-sim-xi | sports-gm | 9 | 3 | 31 | 2 |
-| `/blog/pressing-in-soccer-explained/` | article | soccer-career-sim-xi | sports-gm | 8 | 1 | 32 | 2 |
-| `/blog/pressure-and-nerves-in-golf-sims/` | article | golf-career-simulator | sports-gm | 13 | 7 | 31 | 2 |
-| `/blog/primary-vs-secondary-sources/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 58 | 53 | 31 | 2 |
-| `/blog/printing-press-impact-explained/` | article | world-history-timeline-sim | education-brain, major-historical-events | 8 | 3 | 31 | 2 |
-| `/blog/promotion-and-relegation-explained/` | article | soccer-draft-gm-xi | sports-gm | 9 | 1 | 33 | 2 |
-| `/blog/protein-for-older-adults/` | article | protein-diet-tracker | health-nutrition | 8 | 4 | 29 | 2 |
-| `/blog/protein-per-meal-explained/` | article | protein-diet-tracker | health-nutrition | 12 | 7 | 30 | 2 |
-| `/blog/protein-sources-compared/` | article | protein-diet-tracker | health-nutrition | 13 | 8 | 30 | 2 |
-| `/blog/protein-tracking-apps-compared/` | article | protein-diet-tracker | health-nutrition | 14 | 9 | 30 | 2 |
-| `/blog/quarterback-archetypes-explained/` | article | football-career-sim | sports-gm | 12 | 5 | 31 | 2 |
-| `/blog/queen-nzinga-of-ndongo-and-matamba/` | article | world-history-timeline-sim | education-brain, historical-people | 7 | 2 | 31 | 2 |
-| `/blog/rapa-nui-and-the-collapse-myth/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 7 | 2 | 31 | 2 |
-| `/blog/ratios-and-proportions-mentally/` | article | mental-math-memory-games | education-brain, mental-math | 8 | 3 | 32 | 2 |
-| `/blog/reading-a-defense-basics/` | article | football-career-sim | sports-gm | 17 | 10 | 31 | 2 |
-| `/blog/reading-a-history-dataset-critically/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 7 | 2 | 32 | 2 |
-| `/blog/reading-nutrition-labels/` | article | protein-diet-tracker | health-nutrition | 16 | 10 | 31 | 2 |
-| `/blog/reading-response-time-numbers/` | article | mental-math-memory-games | education-brain, brain-training-games | 9 | 4 | 33 | 2 |
-| `/blog/reading-shanghainese-characters/` | article | learn-shanghainese | language-learning | 9 | 4 | 30 | 2 |
-| `/blog/rebuild-vs-retool/` | article | pro-basketball-draft-gm-mode | sports-gm | 24 | 13 | 32 | 2 |
-| `/blog/recipe-nutrition-figures-and-why-they-move/` | article | easy-recipes-meal-planner | health-nutrition | 6 | 2 | 29 | 2 |
-| `/blog/recipe-scaling-and-serving-sizes/` | article | easy-recipes-meal-planner | health-nutrition | 11 | 7 | 29 | 2 |
-| `/blog/recognition-versus-recall/` | article | mental-math-memory-games | education-brain, memory-and-attention | 8 | 3 | 32 | 2 |
-| `/blog/regnal-years-and-dynastic-dating/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 7 | 2 | 32 | 2 |
-| `/blog/regression-to-the-mean-in-sports/` | article | soccer-draft-gm-xi | sports-gm | 10 | 1 | 32 | 2 |
-| `/blog/relative-age-effect-in-sports/` | article | soccer-career-sim-xi | sports-gm | 10 | 2 | 31 | 2 |
-| `/blog/reliability-and-validity-in-testing/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 14 | 9 | 33 | 2 |
-| `/blog/remembering-a-long-number/` | article | mental-math-memory-games | education-brain, memory-and-attention | 10 | 5 | 31 | 2 |
-| `/blog/remuxing-vs-transcoding/` | article | regal-video-player | video-utility | 12 | 7 | 31 | 2 |
-| `/blog/reverse-holo-vs-holo/` | article | tcg-card-grading-scanner | video-utility | 10 | 5 | 30 | 2 |
-| `/blog/rotating-draft-pools-explained/` | article | rugby-draft-pro-league | sports-gm | 11 | 6 | 31 | 2 |
-| `/blog/rpo-vs-play-action/` | article | football-career-sim | sports-gm | 9 | 2 | 32 | 2 |
-| `/blog/rugby-bonus-points-explained/` | article | rugby-draft-pro-league | sports-gm | 7 | 1 | 31 | 2 |
-| `/blog/rugby-breakdown-tackle-ruck-maul/` | article | rugby-draft-pro-league | sports-gm | 10 | 4 | 31 | 2 |
-| `/blog/rugby-career-sim-guide/` | article | rugby-career-sim | sports-gm | 8 | 1 | 33 | 2 |
-| `/blog/rugby-draft-and-squad-building/` | article | rugby-draft-pro-league | sports-gm | 12 | 6 | 32 | 2 |
-| `/blog/rugby-forwards-and-backs/` | article | rugby-draft-pro-league | sports-gm | 17 | 13 | 29 | 2 |
-| `/blog/rugby-kicking-laws-50-22-and-drop-outs/` | article | rugby-draft-pro-league | sports-gm | 8 | 2 | 31 | 2 |
-| `/blog/rugby-positions-and-numbers/` | article | rugby-draft-pro-league | sports-gm | 16 | 12 | 30 | 2 |
-| `/blog/rugby-scrum-and-lineout-rules/` | article | rugby-draft-pro-league | sports-gm | 7 | 1 | 31 | 2 |
-| `/blog/rugby-sevens-vs-fifteens/` | article | rugby-draft-pro-league | sports-gm | 9 | 3 | 30 | 2 |
-| `/blog/rugby-squad-rotation-over-a-season/` | article | rugby-draft-pro-league | sports-gm | 11 | 6 | 31 | 2 |
-| `/blog/rugby-union-rules-for-beginners/` | article | rugby-draft-pro-league | sports-gm | 9 | 4 | 31 | 2 |
-| `/blog/rugby-union-vs-rugby-league/` | article | rugby-draft-pro-league | sports-gm | 14 | 7 | 30 | 2 |
-| `/blog/rugby-yellow-and-red-cards/` | article | rugby-draft-pro-league | sports-gm | 7 | 1 | 31 | 2 |
-| `/blog/russian-cases-explained-for-beginners/` | article | learn-russian | language-learning | 17 | 12 | 31 | 2 |
-| `/blog/russian-cursive-handwriting-guide/` | article | learn-russian | language-learning | 9 | 5 | 29 | 2 |
-| `/blog/russian-peasant-multiplication/` | article | mental-math-memory-games | education-brain, mental-math | 8 | 3 | 31 | 2 |
-| `/blog/russian-revolutions-of-1917/` | article | world-history-timeline-sim | education-brain, major-historical-events | 9 | 4 | 31 | 2 |
-| `/blog/russian-verbs-of-motion/` | article | learn-russian | language-learning | 8 | 5 | 28 | 2 |
-| `/blog/russian-vowel-reduction/` | article | learn-russian | language-learning | 9 | 6 | 29 | 2 |
-| `/blog/russian-word-order-and-emphasis/` | article | learn-russian | language-learning | 8 | 3 | 29 | 2 |
-| `/blog/salary-cap-basics-for-gm-games/` | article | pro-basketball-draft-gm-mode | sports-gm | 25 | 16 | 32 | 2 |
-| `/blog/scholars-of-the-islamic-golden-age/` | article | world-history-timeline-sim | education-brain, historical-people | 6 | 2 | 31 | 2 |
-| `/blog/scientists-who-changed-the-record/` | article | world-history-timeline-sim | education-brain, historical-people | 7 | 2 | 30 | 2 |
-| `/blog/score-attack-strategy/` | article | space-shooter-classic-arcade | action-arcade | 11 | 5 | 34 | 2 |
-| `/blog/scouting-combine-drills-explained/` | article | football-career-sim | sports-gm | 11 | 5 | 31 | 2 |
-| `/blog/scramble-for-africa-explained/` | article | world-history-timeline-sim | education-brain, major-historical-events | 8 | 3 | 31 | 2 |
-| `/blog/second-world-war-death-toll-range/` | article | world-history-timeline-sim | education-brain, major-historical-events | 10 | 5 | 31 | 2 |
-| `/blog/sequences-with-more-than-one-answer/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 13 | 8 | 31 | 2 |
-| `/blog/serve-and-volley-strategy/` | article | tennis-career-sim | sports-gm | 13 | 6 | 31 | 2 |
-| `/blog/serving-size-vs-portion-size/` | article | protein-diet-tracker | health-nutrition | 13 | 7 | 31 | 2 |
-| `/blog/shadowing-technique-explained/` | article | learn-italian | language-learning | 13 | 6 | 33 | 2 |
-| `/blog/shanghainese-phrases-for-beginners/` | article | learn-shanghainese | language-learning | 6 | 2 | 29 | 2 |
-| `/blog/shanghainese-romanisation-choices/` | article | learn-shanghainese | language-learning | 7 | 3 | 28 | 2 |
-| `/blog/shanghainese-tones-and-tone-sandhi/` | article | learn-shanghainese | language-learning | 9 | 6 | 29 | 2 |
-| `/blog/shanghainese-vs-mandarin-differences/` | article | learn-shanghainese | language-learning | 11 | 7 | 29 | 2 |
-| `/blog/ship-loadouts-and-upgrade-priority/` | article | space-galaxy-attack-hardcore | action-arcade | 9 | 5 | 29 | 2 |
-| `/blog/shmup-difficulty-tiers/` | article | space-galaxy-attack-hardcore | action-arcade | 8 | 4 | 29 | 2 |
-| `/blog/shonen-vs-seinen/` | article | anime-trivia-word-games | anime-creative | 9 | 4 | 30 | 2 |
-| `/blog/short-term-versus-working-memory/` | article | mental-math-memory-games | education-brain, memory-and-attention | 8 | 3 | 33 | 2 |
-| `/blog/should-i-learn-malay-or-indonesian/` | article | learn-malay | language-learning | 9 | 4 | 30 | 2 |
-| `/blog/simplifying-fractions-quickly/` | article | mental-math-memory-games | education-brain, mental-math | 9 | 4 | 32 | 2 |
-| `/blog/slot-reel-mechanics-explained/` | article | anime-casino-slots | anime-creative | 7 | 2 | 29 | 2 |
-| `/blog/slot-volatility-explained/` | article | anime-casino-slots | anime-creative | 6 | 2 | 28 | 2 |
-| `/blog/snake-draft-vs-auction-draft/` | article | pro-basketball-draft-gm-mode | sports-gm | 14 | 5 | 31 | 2 |
-| `/blog/soccer-career-sim-guide/` | article | soccer-career-sim-xi | sports-gm | 16 | 10 | 34 | 2 |
-| `/blog/soccer-draft-xi-guide/` | article | soccer-draft-gm-xi | sports-gm | 20 | 13 | 33 | 2 |
-| `/blog/soccer-formations-explained/` | article | soccer-draft-gm-xi | sports-gm | 39 | 32 | 32 | 2 |
-| `/blog/soccer-positions-explained/` | article | soccer-career-sim-xi | sports-gm | 17 | 10 | 31 | 2 |
-| `/blog/soccer-restarts-explained/` | article | soccer-draft-gm-xi | sports-gm | 8 | 1 | 32 | 2 |
-| `/blog/soccer-rule-changes-2026-27/` | article | soccer-draft-gm-xi | sports-gm | 9 | 2 | 32 | 2 |
-| `/blog/soccer-rules-for-beginners/` | article | soccer-draft-gm-xi | sports-gm | 9 | 2 | 32 | 2 |
-| `/blog/soccer-stats-explained/` | article | soccer-draft-gm-xi | sports-gm | 10 | 3 | 32 | 2 |
-| `/blog/soccer-substitution-rules/` | article | soccer-draft-gm-xi | sports-gm | 9 | 2 | 32 | 2 |
-| `/blog/soccer-yellow-and-red-cards-explained/` | article | soccer-draft-gm-xi | sports-gm | 8 | 1 | 32 | 2 |
-| `/blog/social-casino-vs-real-money-gambling/` | article | anime-casino-slots | anime-creative | 7 | 2 | 29 | 2 |
-| `/blog/southpaw-vs-orthodox/` | article | mma-boxing-fight-draft | sports-gm | 9 | 4 | 31 | 2 |
-| `/blog/space-galaxy-attack-arcade-vs-hardcore/` | article | space-galaxy-attack-hardcore | action-arcade | 10 | 4 | 31 | 2 |
-| `/blog/space-shooter-arcade-guide/` | article | space-shooter-classic-arcade | action-arcade | 19 | 13 | 31 | 2 |
-| `/blog/spaced-repetition-for-history-dates/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 7 | 2 | 32 | 2 |
-| `/blog/spaced-repetition-for-language-learning/` | article | learn-cantonese | language-learning | 31 | 24 | 33 | 2 |
-| `/blog/spatial-reasoning-and-number-sense/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 7 | 2 | 34 | 2 |
-| `/blog/spoken-vs-written-cantonese/` | article | learn-cantonese | language-learning | 9 | 4 | 30 | 2 |
-| `/blog/sports-gm-games-without-internet/` | article | hockey-draft-gm-manager | sports-gm | 14 | 5 | 32 | 2 |
-| `/blog/squad-depth-and-rotation-in-soccer/` | article | soccer-draft-gm-xi | sports-gm | 10 | 3 | 32 | 2 |
-| `/blog/squares-cubes-and-roots/` | article | mental-math-memory-games | education-brain, mental-math | 7 | 2 | 33 | 2 |
-| `/blog/srivijaya-and-majapahit/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 7 | 2 | 31 | 2 |
-| `/blog/stoppage-time-and-extra-time-in-soccer/` | article | soccer-draft-gm-xi | sports-gm | 9 | 2 | 32 | 2 |
-| `/blog/strategy-for-timed-reasoning-tests/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 8 | 3 | 33 | 2 |
-| `/blog/striking-vs-grappling-in-mma/` | article | mma-boxing-fight-draft | sports-gm | 14 | 9 | 30 | 2 |
-| `/blog/strokes-gained-for-club-golfers/` | article | golf-career-simulator | sports-gm | 11 | 4 | 31 | 2 |
-| `/blog/style-fit-vs-rating-in-squad-building/` | article | soccer-draft-gm-xi | sports-gm | 12 | 6 | 32 | 2 |
-| `/blog/style-matchups-in-a-fight-simulator/` | article | mma-boxing-fight-draft | sports-gm | 14 | 6 | 31 | 2 |
-| `/blog/subtitle-formats-explained/` | article | regal-video-player | video-utility | 8 | 3 | 30 | 2 |
-| `/blog/subtitles-not-working-on-android/` | article | regal-video-player | video-utility | 9 | 4 | 30 | 2 |
-| `/blog/subtraction-without-borrowing/` | article | mental-math-memory-games | education-brain, mental-math | 9 | 4 | 31 | 2 |
-| `/blog/sugar-alcohols-explained/` | article | keto-diet-tracker | health-nutrition | 10 | 4 | 31 | 2 |
-| `/blog/sumer-and-the-first-cities/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 7 | 2 | 31 | 2 |
-| `/blog/swahili-coast-city-states/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 8 | 3 | 31 | 2 |
-| `/blog/syllogisms-explained/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 8 | 3 | 33 | 2 |
-| `/blog/tang-and-song-china-explained/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 7 | 2 | 31 | 2 |
-| `/blog/tdee-and-energy-balance/` | article | protein-diet-tracker | health-nutrition | 8 | 2 | 31 | 2 |
-| `/blog/tennis-career-sim-guide/` | article | tennis-career-sim | sports-gm | 15 | 9 | 32 | 2 |
-| `/blog/tennis-coaching-teams-explained/` | article | tennis-career-sim | sports-gm | 10 | 4 | 31 | 2 |
-| `/blog/tennis-code-violations-and-shot-clock/` | article | tennis-career-sim | sports-gm | 10 | 4 | 31 | 2 |
-| `/blog/tennis-court-surfaces-explained/` | article | tennis-career-sim | sports-gm | 8 | 3 | 30 | 2 |
-| `/blog/tennis-playing-styles/` | article | tennis-career-sim | sports-gm | 12 | 7 | 30 | 2 |
-| `/blog/tennis-ranking-decay-and-scheduling/` | article | tennis-career-sim | sports-gm | 13 | 7 | 32 | 2 |
-| `/blog/tennis-rating-systems-ntrp-utr-wtn/` | article | tennis-career-sim | sports-gm | 9 | 4 | 30 | 2 |
-| `/blog/tennis-rules-for-beginners/` | article | tennis-career-sim | sports-gm | 12 | 7 | 30 | 2 |
-| `/blog/tennis-scoring-for-beginners/` | article | tennis-career-sim | sports-gm | 18 | 11 | 31 | 2 |
-| `/blog/tennis-stats-explained/` | article | tennis-career-sim | sports-gm | 9 | 3 | 30 | 2 |
-| `/blog/tennis-tiebreak-rules/` | article | tennis-career-sim | sports-gm | 10 | 3 | 31 | 2 |
-| `/blog/texture-palettes-in-coloring-apps/` | article | anime-coloring-book | anime-creative | 15 | 9 | 30 | 2 |
-| `/blog/thai-tones-explained/` | article | learn-thai | language-learning | 11 | 6 | 31 | 2 |
-| `/blog/the-early-caliphates/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 9 | 4 | 31 | 2 |
-| `/blog/the-silk-road-for-beginners/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 32 | 27 | 31 | 2 |
-| `/blog/timed-and-survival-quiz-modes/` | article | anime-trivia-word-games | anime-creative | 15 | 9 | 30 | 2 |
-| `/blog/times-tables-memorisation/` | article | mental-math-memory-games | education-brain, mental-math | 12 | 7 | 31 | 2 |
-| `/blog/topics/brain-training-games/` | topic-hub |  |  | 33 |  | 50 | 2 |
-| `/blog/topics/civilizations-and-empires/` | topic-hub |  |  | 39 |  | 56 | 2 |
-| `/blog/topics/historical-people/` | topic-hub |  |  | 29 |  | 46 | 2 |
-| `/blog/topics/history-learning-methods/` | topic-hub |  |  | 35 |  | 52 | 2 |
-| `/blog/topics/iq-tests-and-reasoning/` | topic-hub |  |  | 33 |  | 50 | 2 |
-| `/blog/topics/logic-and-pattern-puzzles/` | topic-hub |  |  | 31 |  | 48 | 2 |
-| `/blog/topics/major-historical-events/` | topic-hub |  |  | 40 |  | 57 | 2 |
-| `/blog/topics/memory-and-attention/` | topic-hub |  |  | 35 |  | 52 | 2 |
-| `/blog/topics/mental-math/` | topic-hub |  |  | 45 |  | 62 | 2 |
-| `/blog/topics/world-history-timelines/` | topic-hub |  |  | 36 |  | 53 | 2 |
-| `/blog/tour-eligibility-and-schedules/` | article | golf-career-simulator | sports-gm | 8 | 2 | 31 | 2 |
-| `/blog/tournament-formats-explained/` | article | mma-boxing-fight-draft | sports-gm | 9 | 1 | 31 | 2 |
-| `/blog/toussaint-louverture-and-the-haitian-generals/` | article | world-history-timeline-sim | education-brain, historical-people | 8 | 3 | 31 | 2 |
-| `/blog/tower-defense-camera-controls/` | article | regal-tower-defense | action-arcade | 11 | 6 | 30 | 2 |
-| `/blog/tower-defense-strategy-basics/` | article | regal-tower-defense | action-arcade | 12 | 8 | 29 | 2 |
-| `/blog/tower-types-and-what-they-counter/` | article | regal-tower-defense | action-arcade | 10 | 6 | 29 | 2 |
-| `/blog/tracing-practice-for-new-scripts/` | article | learn-cambodian-khmer | language-learning | 11 | 6 | 30 | 2 |
-| `/blog/tracking-food-allergies-and-reactions/` | article | easy-recipes-meal-planner | health-nutrition | 9 | 4 | 30 | 2 |
-| `/blog/transfers-and-contracts-explained/` | article | soccer-career-sim-xi | sports-gm | 10 | 3 | 33 | 2 |
-| `/blog/twentieth-century-liberation-leaders/` | article | world-history-timeline-sim | education-brain, historical-people | 8 | 3 | 31 | 2 |
-| `/blog/two-minute-clock-management/` | article | football-career-sim | sports-gm | 14 | 8 | 31 | 2 |
-| `/blog/two-point-conversion-chart/` | article | football-career-sim | sports-gm | 8 | 1 | 32 | 2 |
-| `/blog/two-way-players-explained/` | article | baseball-career-sim | sports-gm | 16 | 9 | 32 | 2 |
-| `/blog/types-of-hockey-shots/` | article | hockey-career-sim | sports-gm | 8 | 1 | 32 | 2 |
-| `/blog/types-of-pitches-in-baseball/` | article | baseball-career-sim | sports-gm | 10 | 3 | 32 | 2 |
-| `/blog/types-of-submissions-in-mma/` | article | mma-boxing-fight-draft | sports-gm | 7 | 1 | 31 | 2 |
-| `/blog/unbeaten-league-seasons-in-soccer/` | article | soccer-draft-gm-xi | sports-gm | 8 | 1 | 32 | 2 |
-| `/blog/undefeated-records-in-boxing-and-mma/` | article | mma-boxing-fight-draft | sports-gm | 10 | 4 | 31 | 2 |
-| `/blog/underrated-attributes-in-hockey-career-mode/` | article | hockey-career-sim | sports-gm | 9 | 3 | 31 | 2 |
-| `/blog/understanding-sports-sim-probability/` | article | baseball-draft-gm-team | sports-gm | 49 | 35 | 31 | 2 |
-| `/blog/unified-rules-of-mma-explained/` | article | mma-boxing-fight-draft | sports-gm | 10 | 4 | 31 | 2 |
-| `/blog/unit-price-comparison/` | article | mental-math-memory-games | education-brain, mental-math | 10 | 5 | 32 | 2 |
-| `/blog/unplayable-lie-options/` | article | golf-career-simulator | sports-gm | 9 | 3 | 31 | 2 |
-| `/blog/using-what-if-scenarios-to-learn-history/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 7 | 2 | 31 | 2 |
-| `/blog/verbal-reasoning-question-types/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 9 | 4 | 33 | 2 |
-| `/blog/vertical-shooter-games-on-android/` | article | space-galaxy-attack-hardcore | action-arcade | 9 | 4 | 30 | 2 |
-| `/blog/video-codecs-explained/` | article | regal-video-player | video-utility | 10 | 6 | 29 | 2 |
-| `/blog/video-file-formats-explained/` | article | regal-video-player | video-utility | 13 | 9 | 29 | 2 |
-| `/blog/vietnamese-alphabet-explained/` | article | learn-vietnamese | language-learning | 9 | 4 | 30 | 2 |
-| `/blog/vietnamese-pronouns-explained/` | article | learn-vietnamese | language-learning | 7 | 4 | 28 | 2 |
-| `/blog/vietnamese-tones-explained/` | article | learn-vietnamese | language-learning | 11 | 6 | 30 | 2 |
-| `/blog/visual-pattern-puzzles/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 7 | 2 | 32 | 2 |
-| `/blog/warming-up-before-focused-work/` | article | mental-math-memory-games | education-brain, brain-training-games | 8 | 3 | 32 | 2 |
-| `/blog/wave-survival-game-design/` | article | zombie-survival-last-survivor | action-arcade | 12 | 6 | 31 | 2 |
-| `/blog/west-and-central-african-kingdoms/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 7 | 2 | 31 | 2 |
-| `/blog/what-a-brain-age-score-means/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 9 | 4 | 32 | 2 |
-| `/blog/what-a-brain-training-subscription-buys/` | article | mental-math-memory-games | education-brain, brain-training-games | 7 | 2 | 33 | 2 |
-| `/blog/what-allergy-flags-in-recipe-apps-miss/` | article | easy-recipes-meal-planner | health-nutrition | 9 | 3 | 30 | 2 |
-| `/blog/what-are-io-games/` | article | jellyfish-arena-survivor-io | action-arcade | 10 | 5 | 30 | 2 |
-| `/blog/what-caused-the-bronze-age-collapse/` | article | world-history-timeline-sim | education-brain, major-historical-events | 41 | 35 | 31 | 2 |
-| `/blog/what-does-td-mean-in-games/` | article | regal-tower-defense | action-arcade | 8 | 3 | 30 | 2 |
-| `/blog/what-iq-tests-actually-measure/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 26 | 20 | 32 | 2 |
-| `/blog/what-is-a-balk-in-baseball/` | article | baseball-career-sim | sports-gm | 8 | 1 | 32 | 2 |
-| `/blog/what-is-a-ketone-reading/` | article | keto-diet-tracker | health-nutrition | 11 | 5 | 31 | 2 |
-| `/blog/what-is-a-tonal-language/` | article | learn-vietnamese | language-learning | 20 | 13 | 34 | 2 |
-| `/blog/what-is-corsi-in-hockey/` | article | hockey-draft-gm-manager | sports-gm | 10 | 3 | 32 | 2 |
-| `/blog/what-is-epa-in-football/` | article | football-career-sim | sports-gm | 11 | 3 | 32 | 2 |
-| `/blog/what-is-era-in-baseball/` | article | baseball-draft-gm-team | sports-gm | 15 | 7 | 32 | 2 |
-| `/blog/what-is-expected-goals-in-hockey/` | article | hockey-draft-gm-manager | sports-gm | 11 | 3 | 32 | 2 |
-| `/blog/what-is-icing-in-hockey/` | article | hockey-draft-gm-manager | sports-gm | 12 | 5 | 32 | 2 |
-| `/blog/what-is-whip-in-baseball/` | article | baseball-draft-gm-team | sports-gm | 11 | 3 | 32 | 2 |
-| `/blog/what-late-antiquity-means/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 8 | 3 | 31 | 2 |
-| `/blog/what-makes-a-good-draft-board/` | article | football-draft-gm-mode | sports-gm | 22 | 14 | 32 | 2 |
-| `/blog/what-makes-a-roguelike/` | article | zombie-survival-last-survivor | action-arcade | 14 | 8 | 31 | 2 |
-| `/blog/what-makes-an-event-a-turning-point/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 7 | 2 | 31 | 2 |
-| `/blog/what-processing-speed-means/` | article | mental-math-memory-games | education-brain, memory-and-attention | 7 | 2 | 31 | 2 |
-| `/blog/what-started-the-first-world-war/` | article | world-history-timeline-sim | education-brain, major-historical-events | 9 | 4 | 31 | 2 |
-| `/blog/what-the-average-iq-score-means/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 9 | 4 | 33 | 2 |
-| `/blog/what-was-happening-elsewhere-when-rome-ruled/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 7 | 2 | 31 | 2 |
-| `/blog/when-a-card-scanner-picks-the-wrong-card/` | article | tcg-card-grading-scanner | video-utility | 11 | 6 | 30 | 2 |
-| `/blog/when-to-go-for-it-on-4th-down/` | article | football-career-sim | sports-gm | 10 | 3 | 32 | 2 |
-| `/blog/when-to-pull-the-goalie/` | article | hockey-career-sim | sports-gm | 10 | 2 | 32 | 2 |
-| `/blog/when-two-sources-disagree-on-a-date/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 8 | 3 | 32 | 2 |
-| `/blog/where-marathi-is-spoken/` | article | learn-marathi | language-learning | 10 | 5 | 30 | 2 |
-| `/blog/who-built-the-great-monuments/` | article | world-history-timeline-sim | education-brain, historical-people | 7 | 2 | 31 | 2 |
-| `/blog/who-invented-the-iq-test/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 8 | 3 | 33 | 2 |
-| `/blog/why-am-i-slow-at-mental-math/` | article | mental-math-memory-games | education-brain, mental-math | 10 | 5 | 33 | 2 |
-| `/blog/why-card-price-estimates-disagree/` | article | tcg-card-grading-scanner | video-utility | 9 | 3 | 30 | 2 |
-| `/blog/why-civilizations-collapse/` | article | world-history-timeline-sim | education-brain, major-historical-events | 9 | 4 | 31 | 2 |
-| `/blog/why-divisibility-rules-work/` | article | mental-math-memory-games | education-brain, mental-math | 7 | 2 | 31 | 2 |
-| `/blog/why-food-databases-disagree/` | article | protein-diet-tracker | health-nutrition | 12 | 6 | 31 | 2 |
-| `/blog/why-free-android-games-show-ads/` | article | space-shooter-classic-arcade | action-arcade | 11 | 5 | 31 | 2 |
-| `/blog/why-golf-has-18-holes/` | article | golf-career-simulator | sports-gm | 7 | 1 | 31 | 2 |
-| `/blog/why-historical-eras-overlap/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 12 | 7 | 31 | 2 |
-| `/blog/why-is-history-important-to-study/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 8 | 3 | 31 | 2 |
-| `/blog/why-meal-plans-fail-midweek/` | article | easy-recipes-meal-planner | health-nutrition | 13 | 7 | 31 | 2 |
-| `/blog/why-practice-progress-plateaus/` | article | mental-math-memory-games | education-brain, brain-training-games | 8 | 3 | 33 | 2 |
-| `/blog/why-rome-fell/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 47 | 41 | 32 | 2 |
-| `/blog/why-the-industrial-revolution-started-in-britain/` | article | world-history-timeline-sim | education-brain, major-historical-events | 9 | 4 | 31 | 2 |
-| `/blog/women-who-ruled-empires/` | article | world-history-timeline-sim | education-brain, historical-people | 7 | 2 | 31 | 2 |
-| `/blog/word-game-strategy-guide/` | article | anime-trivia-word-games | anime-creative | 9 | 4 | 31 | 2 |
-| `/blog/working-backwards-problems/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 10 | 5 | 31 | 2 |
-| `/blog/working-memory-and-training/` | article | mental-math-memory-games | education-brain, memory-and-attention | 50 | 44 | 31 | 2 |
-| `/blog/world-boss-waves-in-tower-defense/` | article | regal-tower-defense | action-arcade | 9 | 4 | 31 | 2 |
-| `/blog/world-history-timeline-guide/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 43 | 37 | 32 | 2 |
-| `/blog/wu-chinese-and-where-shanghainese-sits/` | article | learn-shanghainese | language-learning | 13 | 8 | 30 | 2 |
-| `/blog/wu-zetian-and-hostile-sources/` | article | world-history-timeline-sim | education-brain, historical-people | 8 | 4 | 32 | 2 |
-| `/blog/zheng-he-treasure-voyages/` | article | world-history-timeline-sim | education-brain, historical-people | 7 | 2 | 31 | 2 |
-| `/blog/zombie-survival-roguelike-guide/` | article | zombie-survival-last-survivor | action-arcade | 14 | 9 | 30 | 2 |
-| `/blog/zone-vs-man-defense-basketball/` | article | pro-basketball-my-career-sim | sports-gm | 9 | 2 | 32 | 2 |
-| `/editorial-policy/` | static |  |  | 763 |  | 19 | 1 |
-| `/press/` | static |  |  | 763 |  | 62 | 1 |
-| `/privacy/` | static |  |  | 763 |  | 18 | 1 |
-| `/sports/` | sports-index |  |  | 763 |  | 91 | 1 |
-| `/sports/baseball/` | sport-hub |  |  | 42 |  | 67 | 2 |
-| `/sports/basketball/` | sport-hub |  |  | 36 |  | 65 | 2 |
-| `/sports/combat-sports/` | sport-hub |  |  | 34 |  | 55 | 2 |
-| `/sports/football/` | sport-hub |  |  | 39 |  | 61 | 2 |
-| `/sports/golf/` | sport-hub |  |  | 36 |  | 54 | 2 |
-| `/sports/hockey/` | sport-hub |  |  | 40 |  | 62 | 2 |
-| `/sports/rugby/` | sport-hub |  |  | 31 |  | 50 | 2 |
-| `/sports/soccer/` | sport-hub |  |  | 43 |  | 68 | 2 |
-| `/sports/tennis/` | sport-hub |  |  | 29 |  | 47 | 2 |
-| `/support/` | static |  |  | 763 |  | 18 | 1 |
-| `/terms/` | static |  |  | 763 |  | 18 | 1 |
-| `/tools/` | tools-index |  |  | 763 |  | 47 | 1 |
-| `/tools/baseball/batting-average-calculator/` | tool |  |  | 7 |  | 29 | 2 |
-| `/tools/baseball/era-calculator/` | tool |  |  | 5 |  | 28 | 2 |
-| `/tools/basketball/four-factors-calculator/` | tool |  |  | 4 |  | 29 | 2 |
-| `/tools/basketball/per-36-calculator/` | tool |  |  | 4 |  | 29 | 2 |
-| `/tools/basketball/true-shooting-percentage-calculator/` | tool |  |  | 7 |  | 29 | 2 |
-| `/tools/combat-sports/fight-scorecard/` | tool |  |  | 4 |  | 28 | 2 |
-| `/tools/combat-sports/weight-class-finder/` | tool |  |  | 4 |  | 27 | 2 |
-| `/tools/football/passer-rating-calculator/` | tool |  |  | 4 |  | 28 | 2 |
+| `/` | home |  |  | 1263 |  | 35 | 0 |
+| `/about/` | static |  |  | 1263 |  | 20 | 1 |
+| `/app-support/` | static |  |  | 1263 |  | 80 | 1 |
+| `/apps/` | apps-index |  |  | 1263 |  | 80 | 1 |
+| `/apps/anime-casino-slots/` | app |  |  | 14 |  | 29 | 2 |
+| `/apps/anime-coloring-book/` | app |  |  | 25 |  | 39 | 1 |
+| `/apps/anime-trivia-word-games/` | app |  |  | 22 |  | 37 | 2 |
+| `/apps/baseball-career-sim/` | app |  |  | 45 |  | 56 | 2 |
+| `/apps/baseball-draft-gm-team/` | app |  |  | 53 |  | 64 | 2 |
+| `/apps/basketball-career-pro-league/` | app |  |  | 15 |  | 29 | 1 |
+| `/apps/basketball-league-sandbox/` | app |  |  | 16 |  | 31 | 2 |
+| `/apps/big-jackpot-casino-slots/` | app |  |  | 11 |  | 26 | 2 |
+| `/apps/block-world-rpg/` | app |  |  | 14 |  | 28 | 1 |
+| `/apps/boxing-prize-fighter-career/` | app |  |  | 15 |  | 29 | 2 |
+| `/apps/car-racing-pro-career/` | app |  |  | 23 |  | 37 | 2 |
+| `/apps/category/action-arcade/` | app-category |  |  | 1263 |  | 33 | 1 |
+| `/apps/category/anime-creative/` | app-category |  |  | 1263 |  | 33 | 1 |
+| `/apps/category/education-brain/` | app-category |  |  | 1263 |  | 30 | 1 |
+| `/apps/category/health-nutrition/` | app-category |  |  | 1263 |  | 30 | 1 |
+| `/apps/category/language-learning/` | app-category |  |  | 1263 |  | 36 | 1 |
+| `/apps/category/sports-gm/` | app-category |  |  | 1263 |  | 50 | 1 |
+| `/apps/category/video-utility/` | app-category |  |  | 1263 |  | 31 | 1 |
+| `/apps/cricket-career-simulator/` | app |  |  | 38 |  | 51 | 1 |
+| `/apps/discrete-math-study-quiz/` | app |  |  | 77 |  | 31 | 1 |
+| `/apps/dragon-pet-evolve/` | app |  |  | 13 |  | 28 | 2 |
+| `/apps/easy-recipes-meal-planner/` | app |  |  | 24 |  | 39 | 2 |
+| `/apps/football-career-pro-league/` | app |  |  | 13 |  | 28 | 2 |
+| `/apps/football-career-sim/` | app |  |  | 44 |  | 55 | 2 |
+| `/apps/football-career-soccer-league/` | app |  |  | 13 |  | 27 | 2 |
+| `/apps/football-draft-gm-mode/` | app |  |  | 49 |  | 62 | 2 |
+| `/apps/football-league-commissioner/` | app |  |  | 15 |  | 29 | 2 |
+| `/apps/golf-career-simulator/` | app |  |  | 40 |  | 51 | 2 |
+| `/apps/hero-td-idle-tower-defense/` | app |  |  | 13 |  | 27 | 1 |
+| `/apps/hockey-career-pro-league/` | app |  |  | 14 |  | 28 | 2 |
+| `/apps/hockey-career-sim/` | app |  |  | 45 |  | 55 | 2 |
+| `/apps/hockey-draft-gm-manager/` | app |  |  | 46 |  | 58 | 2 |
+| `/apps/jellyfish-arena-survivor-io/` | app |  |  | 15 |  | 30 | 2 |
+| `/apps/kawaii-breathe-relax/` | app |  |  | 15 |  | 29 | 1 |
+| `/apps/kawaii-cute-notes-journal/` | app |  |  | 17 |  | 32 | 2 |
+| `/apps/keto-diet-tracker/` | app |  |  | 34 |  | 49 | 2 |
+| `/apps/learn-cambodian-khmer/` | app |  |  | 24 |  | 39 | 2 |
+| `/apps/learn-cantonese/` | app |  |  | 28 |  | 42 | 1 |
+| `/apps/learn-italian/` | app |  |  | 30 |  | 45 | 2 |
+| `/apps/learn-lao/` | app |  |  | 23 |  | 37 | 2 |
+| `/apps/learn-malay/` | app |  |  | 25 |  | 40 | 2 |
+| `/apps/learn-marathi/` | app |  |  | 21 |  | 36 | 2 |
+| `/apps/learn-russian/` | app |  |  | 27 |  | 42 | 2 |
+| `/apps/learn-shanghainese/` | app |  |  | 18 |  | 33 | 2 |
+| `/apps/learn-thai/` | app |  |  | 26 |  | 41 | 2 |
+| `/apps/learn-to-trade-stocks/` | app |  |  | 60 |  | 31 | 2 |
+| `/apps/learn-vietnamese/` | app |  |  | 25 |  | 40 | 2 |
+| `/apps/life-simulator-city-builder/` | app |  |  | 12 |  | 27 | 2 |
+| `/apps/mental-math-memory-games/` | app |  |  | 130 |  | 35 | 2 |
+| `/apps/mma-boxing-fight-draft/` | app |  |  | 42 |  | 51 | 2 |
+| `/apps/pdf-all-in-one-tools/` | app |  |  | 26 |  | 40 | 1 |
+| `/apps/pro-basketball-draft-gm-mode/` | app |  |  | 51 |  | 60 | 1 |
+| `/apps/pro-basketball-my-career-sim/` | app |  |  | 43 |  | 52 | 2 |
+| `/apps/protein-diet-tracker/` | app |  |  | 40 |  | 53 | 1 |
+| `/apps/regal-tower-defense/` | app |  |  | 19 |  | 34 | 2 |
+| `/apps/regal-video-player/` | app |  |  | 32 |  | 47 | 2 |
+| `/apps/rugby-career-sim/` | app |  |  | 14 |  | 27 | 2 |
+| `/apps/rugby-draft-pro-league/` | app |  |  | 35 |  | 47 | 2 |
+| `/apps/soccer-career-sim-xi/` | app |  |  | 46 |  | 58 | 2 |
+| `/apps/soccer-draft-gm-xi/` | app |  |  | 49 |  | 60 | 2 |
+| `/apps/space-galaxy-attack-hardcore/` | app |  |  | 15 |  | 30 | 2 |
+| `/apps/space-shooter-classic-arcade/` | app |  |  | 28 |  | 42 | 1 |
+| `/apps/tcg-card-grading-scanner/` | app |  |  | 20 |  | 35 | 2 |
+| `/apps/tennis-career-sim/` | app |  |  | 31 |  | 44 | 2 |
+| `/apps/transcribe-audio-to-text/` | app |  |  | 16 |  | 31 | 2 |
+| `/apps/world-history-timeline-sim/` | app |  |  | 171 |  | 35 | 1 |
+| `/apps/world-war-gunship-attack/` | app |  |  | 11 |  | 26 | 2 |
+| `/apps/zombie-survival-last-survivor/` | app |  |  | 24 |  | 39 | 2 |
+| `/authors/reign-creative-llc/` | author |  |  | 1053 |  | 45 | 2 |
+| `/blog/` | blog-index |  |  | 1263 |  | 107 | 1 |
+| `/blog/4-3-vs-3-4-defense/` | article | football-draft-gm-mode | sports-gm | 12 | 5 | 33 | 3 |
+| `/blog/4-7-8-breathing-explained/` | article | kawaii-breathe-relax | health-nutrition | 9 | 4 | 30 | 2 |
+| `/blog/a-daily-history-study-routine/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 14 | 9 | 32 | 3 |
+| `/blog/abstract-reasoning-tests-explained/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 18 | 12 | 34 | 3 |
+| `/blog/accessibility-in-brain-training-apps/` | article | mental-math-memory-games | education-brain, brain-training-games | 13 | 9 | 32 | 3 |
+| `/blog/accuracy-before-speed/` | article | mental-math-memory-games | education-brain, brain-training-games | 14 | 9 | 34 | 3 |
+| `/blog/achaemenid-persia-administration/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 11 | 6 | 32 | 3 |
+| `/blog/added-sugars-vs-total-sugars/` | article | keto-diet-tracker | health-nutrition | 15 | 9 | 32 | 2 |
+| `/blog/adding-a-list-of-numbers-mentally/` | article | mental-math-memory-games | education-brain, mental-math | 12 | 7 | 32 | 3 |
+| `/blog/adjacency-matrix-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 13 | 6 | 32 | 2 |
+| `/blog/aging-curves-in-career-sims/` | article | baseball-career-sim | sports-gm | 16 | 10 | 32 | 3 |
+| `/blog/ai-opponents-vs-real-players-in-io-games/` | article | jellyfish-arena-survivor-io | action-arcade | 10 | 5 | 31 | 3 |
+| `/blog/alexander-the-great-explained/` | article | world-history-timeline-sim | education-brain | 16 | 10 | 31 | 2 |
+| `/blog/amateur-vs-professional-boxing/` | article | boxing-prize-fighter-career | sports-gm | 14 | 6 | 33 | 2 |
+| `/blog/analogy-puzzles-explained/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 8 | 3 | 34 | 3 |
+| `/blog/ancient-egypt-timeline/` | article | world-history-timeline-sim | education-brain | 10 | 5 | 31 | 2 |
+| `/blog/andean-civilizations-in-order/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 10 | 5 | 32 | 3 |
+| `/blog/android-app-permissions-explained/` | article | regal-video-player | video-utility | 13 | 7 | 32 | 2 |
+| `/blog/android-video-player-guide/` | article | regal-video-player | video-utility | 24 | 17 | 31 | 2 |
+| `/blog/android-video-players-compared/` | article | regal-video-player | video-utility | 10 | 5 | 31 | 3 |
+| `/blog/anime-art-styles-explained/` | article | anime-coloring-book | anime-creative | 11 | 6 | 33 | 2 |
+| `/blog/anime-casino-slots-partnership-opportunities/` | article | anime-casino-slots | anime-creative | 8 | 4 | 29 | 2 |
+| `/blog/anime-coloring-app-guide/` | article | anime-coloring-book | anime-creative | 18 | 11 | 31 | 2 |
+| `/blog/anime-coloring-book-partnership-opportunities/` | article | anime-coloring-book | anime-creative | 8 | 5 | 29 | 2 |
+| `/blog/anime-genres-explained/` | article | anime-trivia-word-games | anime-creative | 17 | 10 | 32 | 2 |
+| `/blog/anime-hair-colour-meanings/` | article | anime-coloring-book | anime-creative | 8 | 3 | 31 | 2 |
+| `/blog/anime-terminology-glossary/` | article | anime-trivia-word-games | anime-creative | 13 | 7 | 31 | 2 |
+| `/blog/anime-trivia-quiz-guide/` | article | anime-trivia-word-games | anime-creative | 20 | 13 | 32 | 2 |
+| `/blog/anime-trivia-word-games-partnership-opportunities/` | article | anime-trivia-word-games | anime-creative | 6 | 3 | 29 | 2 |
+| `/blog/apartheid-explained/` | article | world-history-timeline-sim | education-brain | 7 | 3 | 31 | 2 |
+| `/blog/are-online-iq-tests-accurate/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 13 | 8 | 34 | 3 |
+| `/blog/arithmetic-sequences-explained/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 11 | 6 | 34 | 3 |
+| `/blog/armenian-genocide-explained/` | article | world-history-timeline-sim | education-brain, major-historical-events | 9 | 4 | 33 | 3 |
+| `/blog/ashoka-and-the-rock-edicts/` | article | world-history-timeline-sim | education-brain, historical-people | 14 | 9 | 33 | 3 |
+| `/blog/athenian-democracy-explained/` | article | world-history-timeline-sim | education-brain | 9 | 5 | 32 | 2 |
+| `/blog/atlantic-slave-trade-and-abolition/` | article | world-history-timeline-sim | education-brain, major-historical-events | 10 | 5 | 32 | 3 |
+| `/blog/attention-span-exercises/` | article | mental-math-memory-games | education-brain, memory-and-attention | 9 | 5 | 34 | 3 |
+| `/blog/audio-codecs-explained/` | article | regal-video-player | video-utility | 10 | 5 | 31 | 3 |
+| `/blog/audio-out-of-sync-on-android/` | article | regal-video-player | video-utility | 10 | 5 | 31 | 2 |
+| `/blog/aura-towers-and-support-stacking/` | article | regal-tower-defense | action-arcade | 12 | 7 | 31 | 3 |
+| `/blog/auto-fire-and-touch-controls/` | article | zombie-survival-last-survivor | action-arcade | 12 | 6 | 32 | 2 |
+| `/blog/av1-on-android-explained/` | article | regal-video-player | video-utility | 12 | 7 | 31 | 3 |
+| `/blog/babip-explained/` | article | baseball-draft-gm-team | sports-gm | 13 | 5 | 34 | 3 |
+| `/blog/backward-digit-span/` | article | mental-math-memory-games | education-brain, memory-and-attention | 13 | 9 | 31 | 3 |
+| `/blog/bantu-migrations-explained/` | article | world-history-timeline-sim | education-brain, major-historical-events | 11 | 6 | 32 | 3 |
+| `/blog/baseball-career-sim-guide/` | article | baseball-career-sim | sports-gm | 30 | 24 | 34 | 3 |
+| `/blog/baseball-career-sim-partnership-opportunities/` | article | baseball-career-sim | sports-gm | 10 | 6 | 31 | 2 |
+| `/blog/baseball-draft-gm-guide/` | article | baseball-draft-gm-team | sports-gm | 41 | 30 | 33 | 2 |
+| `/blog/baseball-draft-gm-team-partnership-opportunities/` | article | baseball-draft-gm-team | sports-gm | 9 | 5 | 30 | 2 |
+| `/blog/baseball-pitching-roles-explained/` | article | baseball-career-sim | sports-gm | 20 | 12 | 32 | 3 |
+| `/blog/baseball-positions-by-number/` | article | baseball-career-sim | sports-gm | 13 | 6 | 33 | 3 |
+| `/blog/baseball-rules-for-beginners/` | article | baseball-career-sim | sports-gm | 11 | 4 | 33 | 3 |
+| `/blog/baseball-stats-explained-for-beginners/` | article | baseball-draft-gm-team | sports-gm | 33 | 24 | 31 | 3 |
+| `/blog/basketball-advanced-stats-explained/` | article | pro-basketball-draft-gm-mode | sports-gm | 23 | 13 | 33 | 2 |
+| `/blog/basketball-career-games-compared/` | article | basketball-career-pro-league | sports-gm | 16 | 8 | 34 | 2 |
+| `/blog/basketball-career-pro-league-guide/` | article | basketball-career-pro-league | sports-gm | 13 | 7 | 32 | 2 |
+| `/blog/basketball-career-pro-league-partnership-opportunities/` | article | basketball-career-pro-league | sports-gm | 11 | 7 | 31 | 2 |
+| `/blog/basketball-career-sim-guide/` | article | pro-basketball-my-career-sim | sports-gm | 24 | 16 | 33 | 2 |
+| `/blog/basketball-draft-gm-guide/` | article | pro-basketball-draft-gm-mode | sports-gm | 40 | 29 | 32 | 1 |
+| `/blog/basketball-fouls-explained/` | article | pro-basketball-my-career-sim | sports-gm | 9 | 2 | 33 | 2 |
+| `/blog/basketball-league-sandbox-guide/` | article | basketball-league-sandbox | sports-gm | 14 | 7 | 34 | 2 |
+| `/blog/basketball-league-sandbox-partnership-opportunities/` | article | basketball-league-sandbox | sports-gm | 6 | 2 | 30 | 2 |
+| `/blog/basketball-offense-types/` | article | pro-basketball-draft-gm-mode | sports-gm | 10 | 3 | 33 | 2 |
+| `/blog/basketball-player-archetypes/` | article | pro-basketball-my-career-sim | sports-gm | 11 | 4 | 33 | 2 |
+| `/blog/basketball-positions-explained/` | article | pro-basketball-my-career-sim | sports-gm | 22 | 17 | 34 | 2 |
+| `/blog/basketball-rules-for-beginners/` | article | pro-basketball-my-career-sim | sports-gm | 9 | 2 | 33 | 2 |
+| `/blog/basketball-shot-selection/` | article | basketball-career-pro-league | sports-gm | 13 | 6 | 33 | 2 |
+| `/blog/batch-cooking-for-the-week/` | article | easy-recipes-meal-planner | health-nutrition | 16 | 10 | 31 | 2 |
+| `/blog/battery-and-performance-in-mobile-games/` | article | space-shooter-classic-arcade | action-arcade | 15 | 8 | 34 | 2 |
+| `/blog/batting-order-strategy-explained/` | article | baseball-draft-gm-team | sports-gm | 17 | 9 | 34 | 3 |
+| `/blog/bce-and-ce-explained/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 9 | 4 | 32 | 3 |
+| `/blog/best-offline-arcade-games-android/` | article | space-shooter-classic-arcade | action-arcade | 19 | 12 | 32 | 2 |
+| `/blog/best-offline-sports-games-android/` | article | football-draft-gm-mode | sports-gm | 11 | 2 | 33 | 2 |
+| `/blog/best-sports-manager-games-for-short-sessions/` | article | soccer-draft-gm-xi | sports-gm | 16 | 7 | 33 | 2 |
+| `/blog/bid-ask-spread-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 14 | 8 | 32 | 2 |
+| `/blog/big-jackpot-casino-slots-guide/` | article | big-jackpot-casino-slots | anime-creative | 13 | 7 | 32 | 2 |
+| `/blog/big-jackpot-casino-slots-partnership-opportunities/` | article | big-jackpot-casino-slots | anime-creative | 7 | 4 | 29 | 2 |
+| `/blog/big-o-notation-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 15 | 9 | 33 | 2 |
+| `/blog/binomial-distribution-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 10 | 5 | 31 | 2 |
+| `/blog/binomial-theorem-and-pascals-triangle/` | article | discrete-math-study-quiz | education-brain, discrete-math | 13 | 8 | 31 | 2 |
+| `/blog/bipartite-graphs-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 10 | 4 | 32 | 2 |
+| `/blog/birthday-problem-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 10 | 5 | 32 | 2 |
+| `/blog/black-death-explained/` | article | world-history-timeline-sim | education-brain, major-historical-events | 11 | 6 | 32 | 3 |
+| `/blog/block-game-starter-base/` | article | block-world-rpg | anime-creative | 10 | 6 | 30 | 2 |
+| `/blog/block-world-rpg-guide/` | article | block-world-rpg | anime-creative | 10 | 6 | 30 | 2 |
+| `/blog/block-world-rpg-partnership-opportunities/` | article | block-world-rpg | anime-creative | 6 | 3 | 29 | 2 |
+| `/blog/boolean-algebra-and-logic-gates/` | article | discrete-math-study-quiz | education-brain, discrete-math | 9 | 4 | 32 | 2 |
+| `/blog/boss-pattern-recognition/` | article | space-shooter-classic-arcade | action-arcade | 23 | 15 | 32 | 2 |
+| `/blog/boss-weak-points-and-module-targeting/` | article | space-galaxy-attack-hardcore | action-arcade | 9 | 4 | 31 | 3 |
+| `/blog/box-breathing-explained/` | article | kawaii-breathe-relax | health-nutrition | 10 | 5 | 31 | 2 |
+| `/blog/boxing-belts-and-sanctioning-bodies/` | article | mma-boxing-fight-draft | sports-gm | 11 | 5 | 32 | 3 |
+| `/blog/boxing-prize-fighter-career-guide/` | article | boxing-prize-fighter-career | sports-gm | 12 | 6 | 33 | 2 |
+| `/blog/boxing-prize-fighter-career-partnership-opportunities/` | article | boxing-prize-fighter-career | sports-gm | 7 | 3 | 31 | 2 |
+| `/blog/boxing-punches-explained/` | article | boxing-prize-fighter-career | sports-gm | 12 | 6 | 32 | 3 |
+| `/blog/boxing-rules-for-beginners/` | article | mma-boxing-fight-draft | sports-gm | 13 | 6 | 32 | 3 |
+| `/blog/boxing-scoring-explained/` | article | mma-boxing-fight-draft | sports-gm | 25 | 18 | 31 | 3 |
+| `/blog/boxing-styles-explained/` | article | mma-boxing-fight-draft | sports-gm | 11 | 5 | 32 | 3 |
+| `/blog/boxing-vs-mma-rules/` | article | mma-boxing-fight-draft | sports-gm | 17 | 12 | 32 | 3 |
+| `/blog/boxing-weight-classes-explained/` | article | mma-boxing-fight-draft | sports-gm | 11 | 4 | 31 | 3 |
+| `/blog/brain-games-for-older-adults/` | article | mental-math-memory-games | education-brain, brain-training-games | 11 | 6 | 33 | 3 |
+| `/blog/brain-games-for-the-whole-family/` | article | mental-math-memory-games | education-brain, brain-training-games | 9 | 5 | 33 | 3 |
+| `/blog/brain-training-apps-compared/` | article | mental-math-memory-games | education-brain, brain-training-games | 10 | 5 | 33 | 3 |
+| `/blog/brain-training-for-busy-adults/` | article | mental-math-memory-games | education-brain, brain-training-games | 11 | 6 | 32 | 3 |
+| `/blog/brain-training-questions-answered/` | article | mental-math-memory-games | education-brain, brain-training-games | 9 | 4 | 32 | 3 |
+| `/blog/browsing-history-by-region-and-era/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 9 | 4 | 33 | 3 |
+| `/blog/budget-math-in-your-head/` | article | mental-math-memory-games | education-brain, mental-math | 9 | 4 | 33 | 3 |
+| `/blog/build-pads-and-custom-tower-positions/` | article | regal-tower-defense | action-arcade | 11 | 6 | 31 | 3 |
+| `/blog/building-a-daily-practice-habit/` | article | mental-math-memory-games | education-brain, brain-training-games | 28 | 21 | 34 | 2 |
+| `/blog/building-a-lao-course-from-scratch/` | article | learn-lao | language-learning | 10 | 5 | 33 | 3 |
+| `/blog/bulk-scanning-a-card-collection/` | article | tcg-card-grading-scanner | video-utility | 12 | 7 | 31 | 3 |
+| `/blog/bull-vs-bear-market/` | article | learn-to-trade-stocks | education-brain, investing-basics | 8 | 2 | 32 | 3 |
+| `/blog/bullet-hell-vs-classic-shmup/` | article | space-shooter-classic-arcade | action-arcade | 15 | 9 | 32 | 2 |
+| `/blog/bullet-journaling-for-beginners/` | article | kawaii-cute-notes-journal | video-utility | 12 | 7 | 31 | 3 |
+| `/blog/byzantium-a-thousand-years/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 14 | 9 | 32 | 3 |
+| `/blog/call-and-put-options-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 10 | 4 | 32 | 3 |
+| `/blog/can-practice-raise-an-iq-score/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 12 | 7 | 34 | 3 |
+| `/blog/cantonese-dim-sum-phrases/` | article | learn-cantonese | language-learning | 8 | 4 | 30 | 2 |
+| `/blog/cantonese-greetings/` | article | learn-cantonese | language-learning | 7 | 3 | 30 | 2 |
+| `/blog/cantonese-measure-words/` | article | learn-cantonese | language-learning | 9 | 5 | 30 | 2 |
+| `/blog/cantonese-numbers/` | article | learn-cantonese | language-learning | 11 | 7 | 30 | 2 |
+| `/blog/cantonese-sentence-final-particles/` | article | learn-cantonese | language-learning | 11 | 6 | 31 | 2 |
+| `/blog/cantonese-tones-explained/` | article | learn-cantonese | language-learning | 16 | 12 | 31 | 2 |
+| `/blog/cantonese-vs-mandarin-differences/` | article | learn-cantonese | language-learning | 17 | 13 | 33 | 2 |
+| `/blog/capital-gains-tax-on-stocks/` | article | learn-to-trade-stocks | education-brain, investing-basics | 12 | 6 | 32 | 3 |
+| `/blog/car-racing-pro-career-guide/` | article | car-racing-pro-career | sports-gm | 18 | 12 | 38 | 3 |
+| `/blog/car-racing-pro-career-partnership-opportunities/` | article | car-racing-pro-career | sports-gm | 5 | 1 | 30 | 2 |
+| `/blog/card-condition-grading-scales/` | article | tcg-card-grading-scanner | video-utility | 13 | 8 | 30 | 2 |
+| `/blog/card-grading-costs-and-tiers/` | article | tcg-card-grading-scanner | video-utility | 10 | 6 | 30 | 3 |
+| `/blog/career-mode-vs-franchise-mode/` | article | pro-basketball-my-career-sim | sports-gm | 19 | 12 | 32 | 2 |
+| `/blog/career-sim-vs-manager-game/` | article | baseball-career-sim | sports-gm | 12 | 3 | 41 | 2 |
+| `/blog/careless-arithmetic-mistakes/` | article | mental-math-memory-games | education-brain, mental-math | 8 | 3 | 32 | 3 |
+| `/blog/cartesian-product-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 11 | 6 | 32 | 3 |
+| `/blog/cash-account-vs-margin-account/` | article | learn-to-trade-stocks | education-brain, investing-basics | 13 | 7 | 32 | 3 |
+| `/blog/catalan-numbers-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 8 | 3 | 32 | 3 |
+| `/blog/category/action-arcade/` | blog-category |  |  | 129 |  | 60 | 2 |
+| `/blog/category/action-arcade/page/2/` | blog-category |  |  | 1 |  | 45 | 3 |
+| `/blog/category/anime-creative/` | blog-category |  |  | 123 |  | 61 | 2 |
+| `/blog/category/anime-creative/page/2/` | blog-category |  |  | 1 |  | 39 | 3 |
+| `/blog/category/education-brain/` | blog-category |  |  | 482 |  | 84 | 2 |
+| `/blog/category/education-brain/page/10/` | blog-category |  |  | 15 |  | 65 | 3 |
+| `/blog/category/education-brain/page/11/` | blog-category |  |  | 15 |  | 65 | 3 |
+| `/blog/category/education-brain/page/12/` | blog-category |  |  | 15 |  | 65 | 3 |
+| `/blog/category/education-brain/page/13/` | blog-category |  |  | 15 |  | 65 | 3 |
+| `/blog/category/education-brain/page/14/` | blog-category |  |  | 15 |  | 65 | 3 |
+| `/blog/category/education-brain/page/15/` | blog-category |  |  | 15 |  | 65 | 3 |
+| `/blog/category/education-brain/page/16/` | blog-category |  |  | 15 |  | 64 | 3 |
+| `/blog/category/education-brain/page/2/` | blog-category |  |  | 15 |  | 65 | 3 |
+| `/blog/category/education-brain/page/3/` | blog-category |  |  | 15 |  | 65 | 3 |
+| `/blog/category/education-brain/page/4/` | blog-category |  |  | 15 |  | 65 | 3 |
+| `/blog/category/education-brain/page/5/` | blog-category |  |  | 15 |  | 65 | 3 |
+| `/blog/category/education-brain/page/6/` | blog-category |  |  | 15 |  | 65 | 3 |
+| `/blog/category/education-brain/page/7/` | blog-category |  |  | 15 |  | 65 | 3 |
+| `/blog/category/education-brain/page/8/` | blog-category |  |  | 15 |  | 65 | 3 |
+| `/blog/category/education-brain/page/9/` | blog-category |  |  | 15 |  | 65 | 3 |
+| `/blog/category/health-nutrition/` | blog-category |  |  | 137 |  | 59 | 2 |
+| `/blog/category/health-nutrition/page/2/` | blog-category |  |  | 2 |  | 52 | 3 |
+| `/blog/category/health-nutrition/page/3/` | blog-category |  |  | 2 |  | 30 | 3 |
+| `/blog/category/language-learning/` | blog-category |  |  | 207 |  | 67 | 2 |
+| `/blog/category/language-learning/page/2/` | blog-category |  |  | 4 |  | 54 | 3 |
+| `/blog/category/language-learning/page/3/` | blog-category |  |  | 4 |  | 54 | 3 |
+| `/blog/category/language-learning/page/4/` | blog-category |  |  | 4 |  | 54 | 3 |
+| `/blog/category/language-learning/page/5/` | blog-category |  |  | 4 |  | 54 | 3 |
+| `/blog/category/sports-gm/` | blog-category |  |  | 386 |  | 89 | 2 |
+| `/blog/category/sports-gm/page/10/` | blog-category |  |  | 12 |  | 62 | 3 |
+| `/blog/category/sports-gm/page/11/` | blog-category |  |  | 12 |  | 62 | 3 |
+| `/blog/category/sports-gm/page/12/` | blog-category |  |  | 12 |  | 62 | 3 |
+| `/blog/category/sports-gm/page/13/` | blog-category |  |  | 12 |  | 48 | 3 |
+| `/blog/category/sports-gm/page/2/` | blog-category |  |  | 12 |  | 62 | 3 |
+| `/blog/category/sports-gm/page/3/` | blog-category |  |  | 12 |  | 62 | 3 |
+| `/blog/category/sports-gm/page/4/` | blog-category |  |  | 12 |  | 62 | 3 |
+| `/blog/category/sports-gm/page/5/` | blog-category |  |  | 12 |  | 62 | 3 |
+| `/blog/category/sports-gm/page/6/` | blog-category |  |  | 12 |  | 62 | 3 |
+| `/blog/category/sports-gm/page/7/` | blog-category |  |  | 12 |  | 62 | 3 |
+| `/blog/category/sports-gm/page/8/` | blog-category |  |  | 12 |  | 62 | 3 |
+| `/blog/category/sports-gm/page/9/` | blog-category |  |  | 12 |  | 62 | 3 |
+| `/blog/category/video-utility/` | blog-category |  |  | 148 |  | 61 | 2 |
+| `/blog/category/video-utility/page/2/` | blog-category |  |  | 2 |  | 52 | 3 |
+| `/blog/category/video-utility/page/3/` | blog-category |  |  | 2 |  | 41 | 3 |
+| `/blog/cause-and-effect-in-history/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 11 | 6 | 33 | 3 |
+| `/blog/causes-of-the-american-civil-war/` | article | world-history-timeline-sim | education-brain | 9 | 5 | 30 | 3 |
+| `/blog/causes-of-the-american-revolution/` | article | world-history-timeline-sim | education-brain | 7 | 4 | 31 | 3 |
+| `/blog/causes-of-world-war-2/` | article | world-history-timeline-sim | education-brain | 14 | 10 | 31 | 3 |
+| `/blog/cefr-levels-explained/` | article | learn-italian | language-learning | 13 | 6 | 34 | 3 |
+| `/blog/change-detection-tasks/` | article | mental-math-memory-games | education-brain, memory-and-attention | 8 | 3 | 34 | 3 |
+| `/blog/charlemagne-explained/` | article | world-history-timeline-sim | education-brain | 6 | 2 | 32 | 3 |
+| `/blog/chinas-deadliest-rebellions/` | article | world-history-timeline-sim | education-brain, major-historical-events | 8 | 3 | 32 | 3 |
+| `/blog/chinese-dynasties-in-chronological-order/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 16 | 11 | 33 | 3 |
+| `/blog/chinese-remainder-theorem-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 8 | 3 | 32 | 3 |
+| `/blog/chinese-revolutions-1911-1949/` | article | world-history-timeline-sim | education-brain | 12 | 8 | 31 | 3 |
+| `/blog/chola-empire-maritime-power/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 8 | 3 | 32 | 3 |
+| `/blog/choosing-a-difficulty-level/` | article | mental-math-memory-games | education-brain, brain-training-games | 12 | 7 | 32 | 3 |
+| `/blog/choosing-a-history-app-for-students/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 9 | 4 | 34 | 3 |
+| `/blog/choosing-russian-verb-aspect/` | article | learn-russian | language-learning | 10 | 5 | 31 | 3 |
+| `/blog/city-builder-tips-for-beginners/` | article | life-simulator-city-builder | anime-creative | 10 | 5 | 31 | 3 |
+| `/blog/clean-sheets-explained/` | article | soccer-draft-gm-xi | sports-gm | 17 | 10 | 35 | 3 |
+| `/blog/clear-app-cache-android/` | article | regal-video-player | video-utility | 12 | 7 | 31 | 3 |
+| `/blog/cleopatra-beyond-the-legend/` | article | world-history-timeline-sim | education-brain, historical-people | 12 | 7 | 32 | 3 |
+| `/blog/club-distance-gapping/` | article | golf-career-simulator | sports-gm | 14 | 8 | 32 | 3 |
+| `/blog/coach-trust-and-playing-time/` | article | soccer-career-sim-xi | sports-gm | 19 | 10 | 33 | 2 |
+| `/blog/college-recruiting-in-basketball-career-mode/` | article | pro-basketball-my-career-sim | sports-gm | 11 | 5 | 32 | 3 |
+| `/blog/color-palettes-for-anime-art/` | article | anime-coloring-book | anime-creative | 14 | 8 | 31 | 2 |
+| `/blog/color-theory-for-beginners/` | article | anime-coloring-book | anime-creative | 14 | 8 | 32 | 2 |
+| `/blog/columbian-exchange-explained/` | article | world-history-timeline-sim | education-brain, major-historical-events | 9 | 4 | 32 | 3 |
+| `/blog/common-history-myths-corrected/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 14 | 9 | 34 | 3 |
+| `/blog/common-reasoning-mistakes/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 15 | 10 | 33 | 3 |
+| `/blog/comparing-fractions-mentally/` | article | mental-math-memory-games | education-brain, mental-math | 8 | 3 | 33 | 3 |
+| `/blog/compensation-strategy-in-arithmetic/` | article | mental-math-memory-games | education-brain, mental-math | 9 | 4 | 34 | 3 |
+| `/blog/complete-vs-incomplete-proteins/` | article | protein-diet-tracker | health-nutrition | 12 | 7 | 31 | 2 |
+| `/blog/compound-interest-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 10 | 5 | 32 | 3 |
+| `/blog/comprehensible-input-explained/` | article | learn-italian | language-learning | 14 | 7 | 36 | 3 |
+| `/blog/conditional-probability-and-bayes/` | article | discrete-math-study-quiz | education-brain, discrete-math | 11 | 6 | 32 | 3 |
+| `/blog/conditional-reasoning-if-then/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 11 | 6 | 34 | 3 |
+| `/blog/contested-legacies-in-history/` | article | world-history-timeline-sim | education-brain, historical-people | 9 | 4 | 34 | 3 |
+| `/blog/converse-inverse-contrapositive/` | article | discrete-math-study-quiz | education-brain, discrete-math | 12 | 7 | 32 | 3 |
+| `/blog/cooking-from-what-is-in-the-pantry/` | article | easy-recipes-meal-planner | health-nutrition | 9 | 4 | 32 | 3 |
+| `/blog/countable-vs-uncountable-sets/` | article | discrete-math-study-quiz | education-brain, discrete-math | 9 | 4 | 32 | 3 |
+| `/blog/counterfactual-history-and-what-if-scenarios/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 10 | 5 | 33 | 3 |
+| `/blog/countering-armoured-and-flying-enemies/` | article | regal-tower-defense | action-arcade | 11 | 6 | 31 | 3 |
+| `/blog/counting-up-subtraction/` | article | mental-math-memory-games | education-brain, mental-math | 8 | 3 | 32 | 3 |
+| `/blog/cover-2-vs-cover-3/` | article | football-career-sim | sports-gm | 12 | 5 | 33 | 3 |
+| `/blog/creative-vs-survival-mode/` | article | block-world-rpg | anime-creative | 10 | 5 | 31 | 2 |
+| `/blog/cricket-ball-types/` | article | cricket-career-simulator | sports-gm | 16 | 11 | 31 | 2 |
+| `/blog/cricket-bat-rules/` | article | cricket-career-simulator | sports-gm | 11 | 7 | 30 | 2 |
+| `/blog/cricket-batting-shots/` | article | cricket-career-simulator | sports-gm | 12 | 8 | 31 | 2 |
+| `/blog/cricket-career-simulator-guide/` | article | cricket-career-simulator | sports-gm | 8 | 2 | 36 | 2 |
+| `/blog/cricket-career-simulator-partnership-opportunities/` | article | cricket-career-simulator | sports-gm | 6 | 2 | 30 | 2 |
+| `/blog/cricket-fielding-positions/` | article | cricket-career-simulator | sports-gm | 14 | 9 | 33 | 2 |
+| `/blog/cricket-formats-explained/` | article | cricket-career-simulator | sports-gm | 20 | 14 | 32 | 2 |
+| `/blog/cricket-milestones-explained/` | article | cricket-career-simulator | sports-gm | 8 | 3 | 31 | 2 |
+| `/blog/cricket-player-roles/` | article | cricket-career-simulator | sports-gm | 11 | 7 | 32 | 2 |
+| `/blog/cricket-rules-for-beginners/` | article | cricket-career-simulator | sports-gm | 19 | 13 | 31 | 2 |
+| `/blog/cricket-stats-explained/` | article | cricket-career-simulator | sports-gm | 14 | 8 | 32 | 2 |
+| `/blog/cricket-umpire-signals/` | article | cricket-career-simulator | sports-gm | 11 | 5 | 32 | 2 |
+| `/blog/cross-multiplication-in-one-pass/` | article | mental-math-memory-games | education-brain, mental-math | 13 | 8 | 32 | 3 |
+| `/blog/cuban-missile-crisis-explained/` | article | world-history-timeline-sim | education-brain | 9 | 5 | 31 | 3 |
+| `/blog/d-day-explained/` | article | world-history-timeline-sim | education-brain | 6 | 2 | 31 | 3 |
+| `/blog/daily-challenge-formats-explained/` | article | mental-math-memory-games | education-brain, brain-training-games | 9 | 4 | 32 | 3 |
+| `/blog/daily-planner-vs-to-do-list/` | article | kawaii-cute-notes-journal | video-utility | 11 | 6 | 31 | 3 |
+| `/blog/dating-north-america-before-columbus/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 7 | 2 | 32 | 3 |
+| `/blog/dating-southeast-asian-history/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 8 | 3 | 32 | 3 |
+| `/blog/de-morgans-laws-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 12 | 7 | 33 | 3 |
+| `/blog/deductive-reasoning-examples/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 12 | 7 | 34 | 3 |
+| `/blog/deep-time-on-a-history-timeline/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 7 | 2 | 32 | 3 |
+| `/blog/delayed-recall-explained/` | article | mental-math-memory-games | education-brain, memory-and-attention | 10 | 5 | 32 | 3 |
+| `/blog/deliberate-practice-in-brain-games/` | article | mental-math-memory-games | education-brain, brain-training-games | 8 | 3 | 34 | 3 |
+| `/blog/depth-charts-explained/` | article | football-draft-gm-mode | sports-gm | 17 | 9 | 34 | 2 |
+| `/blog/derangements-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 7 | 2 | 32 | 3 |
+| `/blog/designing-memory-games-beyond-matching-pairs/` | article | mental-math-memory-games | education-brain, memory-and-attention | 10 | 5 | 31 | 3 |
+| `/blog/diaphragmatic-breathing-explained/` | article | kawaii-breathe-relax | health-nutrition | 10 | 5 | 30 | 2 |
+| `/blog/dictation-practice-in-a-new-script/` | article | learn-lao | language-learning | 8 | 2 | 32 | 2 |
+| `/blog/did-people-think-the-earth-was-flat/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 7 | 2 | 33 | 3 |
+| `/blog/dietary-fiber-explained/` | article | keto-diet-tracker | health-nutrition | 11 | 7 | 31 | 3 |
+| `/blog/difficulty-curves-explained/` | article | space-shooter-classic-arcade | action-arcade | 16 | 10 | 33 | 2 |
+| `/blog/digit-span-explained/` | article | mental-math-memory-games | education-brain, memory-and-attention | 13 | 8 | 34 | 3 |
+| `/blog/digital-coloring-techniques/` | article | anime-coloring-book | anime-creative | 18 | 10 | 32 | 2 |
+| `/blog/dijkstras-algorithm-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 9 | 4 | 32 | 3 |
+| `/blog/direct-vs-indirect-free-kick/` | article | soccer-draft-gm-xi | sports-gm | 14 | 7 | 33 | 3 |
+| `/blog/discrete-math-cheat-sheet/` | article | discrete-math-study-quiz | education-brain, discrete-math | 8 | 4 | 31 | 3 |
+| `/blog/discrete-math-study-quiz-guide/` | article | discrete-math-study-quiz | education-brain, discrete-math | 75 | 68 | 52 | 2 |
+| `/blog/discrete-math-study-quiz-partnership-opportunities/` | article | discrete-math-study-quiz | education-brain | 5 | 1 | 30 | 2 |
+| `/blog/diversification-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 13 | 8 | 33 | 3 |
+| `/blog/dividend-yield-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 9 | 4 | 32 | 3 |
+| `/blog/do-brain-training-apps-work/` | article | mental-math-memory-games | education-brain, brain-training-games | 50 | 44 | 32 | 2 |
+| `/blog/does-reach-matter-in-boxing-and-mma/` | article | mma-boxing-fight-draft | sports-gm | 8 | 2 | 32 | 3 |
+| `/blog/dollar-cost-averaging-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 9 | 4 | 32 | 3 |
+| `/blog/double-double-triple-double/` | article | basketball-career-pro-league | sports-gm | 13 | 6 | 33 | 2 |
+| `/blog/drafting-a-goal-kicker-in-rugby/` | article | rugby-draft-pro-league | sports-gm | 11 | 5 | 32 | 3 |
+| `/blog/dragon-pet-evolve-guide/` | article | dragon-pet-evolve | anime-creative | 11 | 6 | 31 | 3 |
+| `/blog/dragon-pet-evolve-partnership-opportunities/` | article | dragon-pet-evolve | anime-creative | 7 | 3 | 30 | 2 |
+| `/blog/dropped-third-strike-rule/` | article | baseball-career-sim | sports-gm | 11 | 4 | 33 | 3 |
+| `/blog/duckworth-lewis-stern-method/` | article | cricket-career-simulator | sports-gm | 10 | 4 | 32 | 2 |
+| `/blog/earnings-per-share-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 10 | 5 | 32 | 3 |
+| `/blog/easy-recipes-meal-planner-partnership-opportunities/` | article | easy-recipes-meal-planner | health-nutrition | 7 | 3 | 30 | 2 |
+| `/blog/eat-and-grow-arena-strategy/` | article | jellyfish-arena-survivor-io | action-arcade | 11 | 6 | 31 | 3 |
+| `/blog/electrolytes-on-low-carb/` | article | keto-diet-tracker | health-nutrition | 10 | 5 | 32 | 3 |
+| `/blog/elemental-type-advantages/` | article | dragon-pet-evolve | anime-creative | 11 | 6 | 31 | 3 |
+| `/blog/endless-mode-vs-campaign-shooters/` | article | space-galaxy-attack-hardcore | action-arcade | 9 | 4 | 31 | 3 |
+| `/blog/energy-and-morale-in-match-decisions/` | article | soccer-career-sim-xi | sports-gm | 11 | 5 | 32 | 3 |
+| `/blog/equivalence-relations-and-classes/` | article | discrete-math-study-quiz | education-brain, discrete-math | 9 | 4 | 32 | 3 |
+| `/blog/estimating-sales-tax/` | article | mental-math-memory-games | education-brain, mental-math | 12 | 7 | 33 | 3 |
+| `/blog/estimation-techniques-explained/` | article | mental-math-memory-games | education-brain, mental-math | 26 | 21 | 33 | 3 |
+| `/blog/etf-vs-mutual-fund/` | article | learn-to-trade-stocks | education-brain, investing-basics | 10 | 5 | 32 | 3 |
+| `/blog/euclidean-algorithm-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 13 | 8 | 34 | 3 |
+| `/blog/euler-path-vs-euler-circuit/` | article | discrete-math-study-quiz | education-brain, discrete-math | 8 | 3 | 32 | 3 |
+| `/blog/expansion-drafts-explained/` | article | hockey-draft-gm-manager | sports-gm | 15 | 6 | 35 | 2 |
+| `/blog/expected-goals-xg-explained/` | article | soccer-draft-gm-xi | sports-gm | 13 | 5 | 33 | 2 |
+| `/blog/expected-value-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 12 | 7 | 32 | 3 |
+| `/blog/faceoff-rules-hockey/` | article | hockey-career-sim | sports-gm | 12 | 5 | 33 | 3 |
+| `/blog/fall-of-the-berlin-wall/` | article | world-history-timeline-sim | education-brain | 10 | 6 | 31 | 3 |
+| `/blog/famous-explorers-in-history/` | article | world-history-timeline-sim | education-brain, historical-people | 9 | 4 | 32 | 3 |
+| `/blog/fermats-little-theorem-and-rsa/` | article | discrete-math-study-quiz | education-brain, discrete-math | 8 | 3 | 32 | 3 |
+| `/blog/feudalism-explained/` | article | world-history-timeline-sim | education-brain | 7 | 3 | 32 | 3 |
+| `/blog/fibonacci-and-recursive-sequences/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 10 | 5 | 33 | 3 |
+| `/blog/finding-the-original-price-before-a-discount/` | article | mental-math-memory-games | education-brain, mental-math | 10 | 5 | 33 | 3 |
+| `/blog/finding-the-rule-in-a-number-pattern/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 10 | 5 | 34 | 3 |
+| `/blog/finite-state-machines-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 7 | 2 | 32 | 3 |
+| `/blog/fip-vs-era/` | article | baseball-draft-gm-team | sports-gm | 12 | 4 | 34 | 3 |
+| `/blog/fixing-fill-tool-mistakes-in-coloring-apps/` | article | anime-coloring-book | anime-creative | 9 | 4 | 31 | 2 |
+| `/blog/fluid-and-crystallized-intelligence/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 7 | 2 | 33 | 3 |
+| `/blog/follow-on-rule-cricket/` | article | cricket-career-simulator | sports-gm | 10 | 4 | 32 | 2 |
+| `/blog/food-storage-times/` | article | easy-recipes-meal-planner | health-nutrition | 14 | 9 | 31 | 3 |
+| `/blog/football-career-games-compared/` | article | football-career-pro-league | sports-gm | 16 | 8 | 35 | 3 |
+| `/blog/football-career-pro-league-guide/` | article | football-career-pro-league | sports-gm | 11 | 6 | 34 | 3 |
+| `/blog/football-career-pro-league-partnership-opportunities/` | article | football-career-pro-league | sports-gm | 9 | 6 | 30 | 2 |
+| `/blog/football-career-sim-guide/` | article | football-career-sim | sports-gm | 21 | 13 | 34 | 3 |
+| `/blog/football-career-sim-partnership-opportunities/` | article | football-career-sim | sports-gm | 6 | 3 | 29 | 2 |
+| `/blog/football-career-soccer-league-guide/` | article | football-career-soccer-league | sports-gm | 11 | 5 | 32 | 3 |
+| `/blog/football-career-soccer-league-partnership-opportunities/` | article | football-career-soccer-league | sports-gm | 9 | 5 | 31 | 2 |
+| `/blog/football-draft-gm-guide/` | article | football-draft-gm-mode | sports-gm | 34 | 28 | 32 | 2 |
+| `/blog/football-draft-gm-mode-partnership-opportunities/` | article | football-draft-gm-mode | sports-gm | 8 | 4 | 30 | 2 |
+| `/blog/football-league-commissioner-guide/` | article | football-league-commissioner | sports-gm | 13 | 6 | 33 | 3 |
+| `/blog/football-league-commissioner-partnership-opportunities/` | article | football-league-commissioner | sports-gm | 7 | 3 | 30 | 2 |
+| `/blog/football-positions-explained-for-drafting/` | article | football-draft-gm-mode | sports-gm | 22 | 15 | 33 | 3 |
+| `/blog/founding-of-the-united-nations/` | article | world-history-timeline-sim | education-brain | 7 | 3 | 31 | 3 |
+| `/blog/fraction-decimal-percent-conversions/` | article | mental-math-memory-games | education-brain, mental-math | 9 | 4 | 34 | 3 |
+| `/blog/fractional-shares-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 9 | 4 | 32 | 3 |
+| `/blog/frame-rate-and-resolution-explained/` | article | regal-video-player | video-utility | 9 | 4 | 31 | 3 |
+| `/blog/franchise-tag-explained/` | article | football-career-sim | sports-gm | 9 | 2 | 33 | 3 |
+| `/blog/free-agency-explained/` | article | pro-basketball-draft-gm-mode | sports-gm | 21 | 13 | 33 | 2 |
+| `/blog/free-relief-in-golf/` | article | golf-career-simulator | sports-gm | 9 | 3 | 31 | 3 |
+| `/blog/free-up-storage-on-android/` | article | pdf-all-in-one-tools | video-utility | 13 | 7 | 32 | 2 |
+| `/blog/french-revolution-causes-and-phases/` | article | world-history-timeline-sim | education-brain, major-historical-events | 12 | 7 | 33 | 3 |
+| `/blog/fun-iq-quizzes-versus-real-assessments/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 14 | 9 | 34 | 3 |
+| `/blog/function-composition-and-inverses/` | article | discrete-math-study-quiz | education-brain, discrete-math | 7 | 2 | 32 | 3 |
+| `/blog/fundamental-theorem-of-arithmetic/` | article | discrete-math-study-quiz | education-brain, discrete-math | 9 | 4 | 32 | 3 |
+| `/blog/generating-functions-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 10 | 5 | 32 | 3 |
+| `/blog/geometric-sequences-explained/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 10 | 5 | 32 | 3 |
+| `/blog/ghana-mali-songhai-empires/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 10 | 5 | 31 | 3 |
+| `/blog/glycemic-index-and-load/` | article | keto-diet-tracker | health-nutrition | 11 | 5 | 32 | 2 |
+| `/blog/goal-difference-and-tiebreakers/` | article | soccer-draft-gm-xi | sports-gm | 23 | 16 | 33 | 3 |
+| `/blog/golf-career-sim-guide/` | article | golf-career-simulator | sports-gm | 18 | 12 | 34 | 3 |
+| `/blog/golf-career-simulator-partnership-opportunities/` | article | golf-career-simulator | sports-gm | 8 | 4 | 30 | 2 |
+| `/blog/golf-course-management-basics/` | article | golf-career-simulator | sports-gm | 24 | 17 | 30 | 3 |
+| `/blog/golf-handicap-for-beginners/` | article | golf-career-simulator | sports-gm | 15 | 7 | 31 | 3 |
+| `/blog/golf-penalty-areas-red-vs-yellow-stakes/` | article | golf-career-simulator | sports-gm | 10 | 5 | 32 | 3 |
+| `/blog/golf-playoffs-and-tie-breaks/` | article | golf-career-simulator | sports-gm | 10 | 4 | 32 | 3 |
+| `/blog/golf-rules-for-beginners/` | article | golf-career-simulator | sports-gm | 11 | 4 | 32 | 3 |
+| `/blog/golf-scoring-explained/` | article | golf-career-simulator | sports-gm | 25 | 18 | 31 | 3 |
+| `/blog/golf-stats-to-track/` | article | golf-career-simulator | sports-gm | 9 | 3 | 32 | 3 |
+| `/blog/golf-tournament-formats/` | article | golf-career-simulator | sports-gm | 16 | 9 | 31 | 3 |
+| `/blog/google-play-content-ratings/` | article | anime-trivia-word-games | anime-creative | 9 | 5 | 30 | 3 |
+| `/blog/google-play-data-safety-explained/` | article | protein-diet-tracker | video-utility | 10 | 3 | 33 | 2 |
+| `/blog/google-play-refund-guide/` | article | pdf-all-in-one-tools | video-utility | 7 | 3 | 30 | 2 |
+| `/blog/graph-coloring-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 9 | 4 | 32 | 3 |
+| `/blog/graph-isomorphism-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 8 | 4 | 31 | 3 |
+| `/blog/graph-theory-basics/` | article | discrete-math-study-quiz | education-brain, discrete-math | 17 | 14 | 32 | 3 |
+| `/blog/great-zimbabwe-and-mutapa/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 9 | 5 | 32 | 3 |
+| `/blog/grid-and-position-memory/` | article | mental-math-memory-games | education-brain, memory-and-attention | 13 | 9 | 32 | 3 |
+| `/blog/growing-sequence-memory-games/` | article | mental-math-memory-games | education-brain, memory-and-attention | 9 | 5 | 33 | 3 |
+| `/blog/haitian-revolution-explained/` | article | world-history-timeline-sim | education-brain, major-historical-events | 10 | 5 | 33 | 3 |
+| `/blog/hamiltonian-path-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 9 | 5 | 31 | 3 |
+| `/blog/handball-rule-in-soccer/` | article | soccer-draft-gm-xi | sports-gm | 13 | 6 | 33 | 3 |
+| `/blog/hardware-vs-software-decoding/` | article | regal-video-player | video-utility | 15 | 10 | 32 | 3 |
+| `/blog/has-any-team-gone-162-0/` | article | baseball-draft-gm-team | sports-gm | 11 | 3 | 33 | 3 |
+| `/blog/has-any-team-gone-20-0/` | article | football-draft-gm-mode | sports-gm | 11 | 4 | 33 | 3 |
+| `/blog/has-any-team-gone-82-0/` | article | pro-basketball-draft-gm-mode | sports-gm | 11 | 3 | 33 | 2 |
+| `/blog/hdr-video-on-android/` | article | regal-video-player | video-utility | 9 | 4 | 31 | 3 |
+| `/blog/helping-a-child-with-math-facts/` | article | mental-math-memory-games | education-brain, mental-math | 7 | 2 | 32 | 3 |
+| `/blog/heritage-language-learners-shanghainese/` | article | learn-shanghainese | language-learning | 10 | 5 | 31 | 3 |
+| `/blog/hero-td-idle-tower-defense-guide/` | article | hero-td-idle-tower-defense | action-arcade | 13 | 7 | 32 | 2 |
+| `/blog/hero-td-idle-tower-defense-partnership-opportunities/` | article | hero-td-idle-tower-defense | action-arcade | 7 | 3 | 30 | 2 |
+| `/blog/high-protein-breakfast-ideas/` | article | protein-diet-tracker | health-nutrition | 13 | 8 | 31 | 2 |
+| `/blog/hijri-calendar-and-historical-dating/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 10 | 5 | 33 | 3 |
+| `/blog/history-apps-compared-for-self-study/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 8 | 3 | 32 | 3 |
+| `/blog/history-of-inventions-timeline/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 10 | 5 | 32 | 3 |
+| `/blog/history-of-rugby-union/` | article | rugby-draft-pro-league | sports-gm | 10 | 4 | 32 | 3 |
+| `/blog/history-of-shoot-em-up-games/` | article | space-shooter-classic-arcade | action-arcade | 15 | 9 | 32 | 2 |
+| `/blog/history-timeline-tools-compared/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 7 | 2 | 32 | 3 |
+| `/blog/hockey-career-archetypes-explained/` | article | hockey-career-sim | sports-gm | 13 | 7 | 33 | 3 |
+| `/blog/hockey-career-games-compared/` | article | hockey-career-pro-league | sports-gm | 13 | 6 | 33 | 3 |
+| `/blog/hockey-career-pro-league-guide/` | article | hockey-career-pro-league | sports-gm | 11 | 5 | 32 | 3 |
+| `/blog/hockey-career-pro-league-partnership-opportunities/` | article | hockey-career-pro-league | sports-gm | 8 | 5 | 30 | 2 |
+| `/blog/hockey-career-sim-guide/` | article | hockey-career-sim | sports-gm | 19 | 13 | 34 | 3 |
+| `/blog/hockey-career-sim-partnership-opportunities/` | article | hockey-career-sim | sports-gm | 8 | 5 | 30 | 2 |
+| `/blog/hockey-draft-gm-guide/` | article | hockey-draft-gm-manager | sports-gm | 38 | 28 | 34 | 2 |
+| `/blog/hockey-draft-gm-manager-partnership-opportunities/` | article | hockey-draft-gm-manager | sports-gm | 9 | 5 | 30 | 2 |
+| `/blog/hockey-forecheck-systems/` | article | hockey-draft-gm-manager | sports-gm | 12 | 5 | 33 | 3 |
+| `/blog/hockey-goaltending-explained/` | article | hockey-career-sim | sports-gm | 15 | 7 | 31 | 3 |
+| `/blog/hockey-line-combinations-explained/` | article | hockey-draft-gm-manager | sports-gm | 18 | 13 | 32 | 3 |
+| `/blog/hockey-penalties-explained/` | article | hockey-career-sim | sports-gm | 12 | 5 | 33 | 3 |
+| `/blog/hockey-positions-explained/` | article | hockey-draft-gm-manager | sports-gm | 23 | 16 | 32 | 3 |
+| `/blog/hockey-rules-for-beginners/` | article | hockey-career-sim | sports-gm | 11 | 4 | 33 | 3 |
+| `/blog/holding-first-place-in-io-leaderboards/` | article | jellyfish-arena-survivor-io | action-arcade | 10 | 5 | 31 | 3 |
+| `/blog/home-advantage-in-sports/` | article | soccer-draft-gm-xi | sports-gm | 11 | 4 | 33 | 3 |
+| `/blog/horde-survival-vs-wave-shooter/` | article | zombie-survival-last-survivor | action-arcade | 13 | 7 | 35 | 2 |
+| `/blog/how-a-golf-cut-works/` | article | golf-career-simulator | sports-gm | 15 | 9 | 32 | 3 |
+| `/blog/how-a-test-match-ends-in-a-draw/` | article | cricket-career-simulator | sports-gm | 11 | 5 | 32 | 2 |
+| `/blog/how-african-history-is-dated/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 7 | 2 | 32 | 3 |
+| `/blog/how-boxing-records-are-written/` | article | mma-boxing-fight-draft | sports-gm | 12 | 6 | 32 | 3 |
+| `/blog/how-calendars-and-dating-systems-work/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 16 | 11 | 32 | 3 |
+| `/blog/how-crafting-systems-work/` | article | block-world-rpg | anime-creative | 12 | 7 | 31 | 2 |
+| `/blog/how-cricket-pitches-affect-play/` | article | cricket-career-simulator | sports-gm | 12 | 6 | 32 | 2 |
+| `/blog/how-cricket-scoring-works/` | article | cricket-career-simulator | sports-gm | 13 | 7 | 32 | 2 |
+| `/blog/how-decolonisation-happened/` | article | world-history-timeline-sim | education-brain, major-historical-events | 11 | 6 | 32 | 3 |
+| `/blog/how-dividends-work/` | article | learn-to-trade-stocks | education-brain, investing-basics | 16 | 11 | 32 | 3 |
+| `/blog/how-do-nfl-playoffs-work/` | article | football-draft-gm-mode | sports-gm | 10 | 2 | 33 | 3 |
+| `/blog/how-do-nhl-standings-work/` | article | hockey-draft-gm-manager | sports-gm | 13 | 4 | 33 | 3 |
+| `/blog/how-do-nhl-waivers-work/` | article | hockey-draft-gm-manager | sports-gm | 12 | 6 | 33 | 3 |
+| `/blog/how-does-american-football-work/` | article | football-career-sim | sports-gm | 15 | 8 | 35 | 3 |
+| `/blog/how-does-nhl-overtime-work/` | article | hockey-career-sim | sports-gm | 8 | 1 | 33 | 3 |
+| `/blog/how-does-the-nfl-draft-work/` | article | football-career-pro-league | sports-gm | 14 | 7 | 34 | 3 |
+| `/blog/how-does-the-nfl-salary-cap-work/` | article | football-draft-gm-mode | sports-gm | 13 | 6 | 33 | 3 |
+| `/blog/how-does-the-nhl-draft-work/` | article | hockey-career-sim | sports-gm | 9 | 1 | 33 | 3 |
+| `/blog/how-does-the-nhl-salary-cap-work/` | article | hockey-draft-gm-manager | sports-gm | 13 | 6 | 33 | 3 |
+| `/blog/how-draft-lotteries-work/` | article | pro-basketball-draft-gm-mode | sports-gm | 20 | 10 | 32 | 2 |
+| `/blog/how-drs-works-in-cricket/` | article | cricket-career-simulator | sports-gm | 10 | 4 | 32 | 2 |
+| `/blog/how-fantasy-draft-strategy-works/` | article | pro-basketball-draft-gm-mode | sports-gm | 16 | 7 | 32 | 2 |
+| `/blog/how-fight-cards-are-built/` | article | mma-boxing-fight-draft | sports-gm | 13 | 7 | 31 | 3 |
+| `/blog/how-football-draft-order-works/` | article | football-draft-gm-mode | sports-gm | 21 | 12 | 33 | 3 |
+| `/blog/how-golf-q-school-works/` | article | golf-career-simulator | sports-gm | 9 | 3 | 32 | 3 |
+| `/blog/how-historians-date-events/` | article | world-history-timeline-sim | education-brain, world-history-timelines, history-learning-methods | 78 | 70 | 33 | 2 |
+| `/blog/how-iq-scores-are-calculated/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 9 | 4 | 33 | 3 |
+| `/blog/how-is-war-calculated/` | article | baseball-draft-gm-team | sports-gm | 10 | 3 | 34 | 3 |
+| `/blog/how-long-a-brain-training-session-should-be/` | article | mental-math-memory-games | education-brain, brain-training-games | 12 | 7 | 34 | 3 |
+| `/blog/how-long-does-it-take-to-learn-russian/` | article | learn-russian | language-learning | 10 | 6 | 32 | 3 |
+| `/blog/how-long-is-a-cricket-match/` | article | cricket-career-simulator | sports-gm | 10 | 4 | 33 | 2 |
+| `/blog/how-long-is-a-hockey-shift/` | article | hockey-career-pro-league | sports-gm | 12 | 5 | 33 | 3 |
+| `/blog/how-long-people-have-lived-in-australia/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 7 | 2 | 32 | 3 |
+| `/blog/how-long-to-learn-italian/` | article | learn-italian | language-learning | 11 | 6 | 33 | 3 |
+| `/blog/how-many-words-to-be-conversational/` | article | learn-italian | language-learning | 11 | 5 | 32 | 3 |
+| `/blog/how-mma-judging-criteria-work/` | article | mma-boxing-fight-draft | sports-gm | 14 | 7 | 32 | 3 |
+| `/blog/how-much-protein-per-day/` | article | protein-diet-tracker | health-nutrition | 18 | 11 | 32 | 2 |
+| `/blog/how-par-is-determined/` | article | golf-career-simulator | sports-gm | 11 | 4 | 33 | 3 |
+| `/blog/how-player-career-modes-work/` | article | baseball-career-sim | sports-gm | 22 | 13 | 33 | 2 |
+| `/blog/how-quiz-difficulty-works/` | article | anime-trivia-word-games | anime-creative | 16 | 10 | 32 | 2 |
+| `/blog/how-racing-qualifying-works/` | article | car-racing-pro-career | sports-gm | 15 | 9 | 32 | 3 |
+| `/blog/how-rugby-scoring-works/` | article | rugby-draft-pro-league | sports-gm | 24 | 17 | 33 | 3 |
+| `/blog/how-soccer-academies-work/` | article | soccer-career-sim-xi | sports-gm | 11 | 4 | 33 | 3 |
+| `/blog/how-soccer-league-tables-work/` | article | soccer-draft-gm-xi | sports-gm | 28 | 19 | 33 | 3 |
+| `/blog/how-sports-schedules-are-made/` | article | football-league-commissioner | sports-gm | 12 | 4 | 32 | 2 |
+| `/blog/how-sports-scouting-works/` | article | rugby-draft-pro-league | sports-gm | 10 | 2 | 32 | 2 |
+| `/blog/how-sports-simulation-engines-work/` | article | baseball-draft-gm-team | sports-gm | 29 | 18 | 33 | 2 |
+| `/blog/how-tennis-qualifiers-work/` | article | tennis-career-sim | sports-gm | 12 | 7 | 31 | 3 |
+| `/blog/how-tennis-ranking-points-work/` | article | tennis-career-sim | sports-gm | 17 | 10 | 31 | 3 |
+| `/blog/how-tennis-seeding-works/` | article | tennis-career-sim | sports-gm | 11 | 5 | 32 | 3 |
+| `/blog/how-the-fifa-world-ranking-works/` | article | soccer-draft-gm-xi | sports-gm | 10 | 1 | 33 | 2 |
+| `/blog/how-the-mlb-draft-works/` | article | baseball-career-sim | sports-gm | 10 | 3 | 33 | 3 |
+| `/blog/how-the-mughal-empire-expanded/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 9 | 4 | 32 | 3 |
+| `/blog/how-the-nba-offseason-works/` | article | basketball-league-sandbox | sports-gm | 13 | 6 | 34 | 2 |
+| `/blog/how-the-offside-rule-works/` | article | soccer-draft-gm-xi | sports-gm | 24 | 17 | 33 | 3 |
+| `/blog/how-the-stock-market-works/` | article | learn-to-trade-stocks | education-brain, investing-basics | 14 | 9 | 33 | 3 |
+| `/blog/how-to-add-a-language-keyboard-on-android/` | article | learn-vietnamese | language-learning | 11 | 2 | 35 | 2 |
+| `/blog/how-to-add-timestamps-to-a-transcript/` | article | transcribe-audio-to-text | video-utility | 10 | 5 | 31 | 3 |
+| `/blog/how-to-analyse-a-primary-source/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 21 | 16 | 32 | 3 |
+| `/blog/how-to-annotate-a-pdf/` | article | pdf-all-in-one-tools | video-utility | 10 | 5 | 31 | 2 |
+| `/blog/how-to-build-a-balanced-basketball-roster/` | article | pro-basketball-draft-gm-mode | sports-gm | 30 | 20 | 33 | 2 |
+| `/blog/how-to-build-a-country-history-timeline/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 8 | 3 | 32 | 3 |
+| `/blog/how-to-cast-video-to-tv-from-android/` | article | regal-video-player | video-utility | 11 | 6 | 31 | 3 |
+| `/blog/how-to-check-a-historical-superlative/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 13 | 8 | 32 | 3 |
+| `/blog/how-to-choose-a-sports-career-sim/` | article | golf-career-simulator | sports-gm | 16 | 4 | 40 | 2 |
+| `/blog/how-to-color-anime-eyes/` | article | anime-coloring-book | anime-creative | 10 | 6 | 30 | 2 |
+| `/blog/how-to-color-skin-tones-digitally/` | article | anime-coloring-book | anime-creative | 10 | 6 | 30 | 2 |
+| `/blog/how-to-compress-a-pdf/` | article | pdf-all-in-one-tools | video-utility | 13 | 8 | 30 | 2 |
+| `/blog/how-to-convert-images-to-pdf/` | article | pdf-all-in-one-tools | video-utility | 7 | 3 | 29 | 2 |
+| `/blog/how-to-count-centuries-correctly/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 9 | 4 | 33 | 3 |
+| `/blog/how-to-fill-in-a-pdf-form/` | article | pdf-all-in-one-tools | video-utility | 18 | 14 | 31 | 2 |
+| `/blog/how-to-hit-a-protein-goal/` | article | protein-diet-tracker | health-nutrition | 13 | 7 | 33 | 2 |
+| `/blog/how-to-improve-concentration/` | article | mental-math-memory-games | education-brain, memory-and-attention | 9 | 5 | 33 | 3 |
+| `/blog/how-to-keep-score-in-baseball/` | article | baseball-career-sim | sports-gm | 9 | 2 | 34 | 3 |
+| `/blog/how-to-make-a-habit-tracker/` | article | kawaii-cute-notes-journal | video-utility | 11 | 6 | 31 | 3 |
+| `/blog/how-to-make-a-truth-table/` | article | discrete-math-study-quiz | education-brain, discrete-math | 16 | 11 | 33 | 3 |
+| `/blog/how-to-meal-plan-for-the-week/` | article | easy-recipes-meal-planner | health-nutrition | 16 | 10 | 31 | 2 |
+| `/blog/how-to-measure-card-centring/` | article | tcg-card-grading-scanner | video-utility | 11 | 6 | 31 | 3 |
+| `/blog/how-to-memorize-numbers/` | article | mental-math-memory-games | education-brain, memory-and-attention | 8 | 3 | 31 | 3 |
+| `/blog/how-to-merge-pdf-files-on-android/` | article | pdf-all-in-one-tools | video-utility | 17 | 12 | 31 | 2 |
+| `/blog/how-to-password-protect-a-pdf/` | article | pdf-all-in-one-tools | video-utility | 10 | 5 | 31 | 2 |
+| `/blog/how-to-play-mkv-files-on-android/` | article | regal-video-player | video-utility | 12 | 7 | 34 | 3 |
+| `/blog/how-to-practise-speaking-alone/` | article | learn-italian | language-learning | 8 | 3 | 31 | 3 |
+| `/blog/how-to-print-a-pdf-from-android/` | article | pdf-all-in-one-tools | video-utility | 10 | 5 | 31 | 2 |
+| `/blog/how-to-read-a-basketball-box-score/` | article | pro-basketball-my-career-sim | sports-gm | 14 | 5 | 34 | 2 |
+| `/blog/how-to-read-a-stock-quote/` | article | learn-to-trade-stocks | education-brain, investing-basics | 8 | 3 | 32 | 3 |
+| `/blog/how-to-read-an-earnings-report/` | article | learn-to-trade-stocks | education-brain, investing-basics | 11 | 6 | 32 | 3 |
+| `/blog/how-to-read-candlestick-charts/` | article | learn-to-trade-stocks | education-brain, investing-basics | 12 | 7 | 32 | 3 |
+| `/blog/how-to-read-protein-powder-labels/` | article | protein-diet-tracker | health-nutrition | 11 | 6 | 32 | 2 |
+| `/blog/how-to-remember-historical-dates/` | article | world-history-timeline-sim | education-brain, history-learning-methods, memory-and-attention | 13 | 7 | 34 | 3 |
+| `/blog/how-to-scan-documents-to-pdf/` | article | pdf-all-in-one-tools | video-utility | 13 | 8 | 31 | 2 |
+| `/blog/how-to-shade-anime-hair/` | article | anime-coloring-book | anime-creative | 10 | 5 | 31 | 2 |
+| `/blog/how-to-sign-a-pdf-on-android/` | article | pdf-all-in-one-tools | video-utility | 9 | 4 | 31 | 2 |
+| `/blog/how-to-split-a-pdf/` | article | pdf-all-in-one-tools | video-utility | 10 | 5 | 31 | 2 |
+| `/blog/how-to-spot-bias-in-history-writing/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 14 | 9 | 32 | 3 |
+| `/blog/how-to-spot-fake-trading-cards/` | article | tcg-card-grading-scanner | video-utility | 13 | 9 | 30 | 3 |
+| `/blog/how-to-store-trading-cards/` | article | tcg-card-grading-scanner | video-utility | 8 | 4 | 30 | 3 |
+| `/blog/how-to-study-for-a-discrete-math-exam/` | article | discrete-math-study-quiz | education-brain, discrete-math | 9 | 4 | 32 | 3 |
+| `/blog/how-to-study-history-on-your-own/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 43 | 37 | 34 | 2 |
+| `/blog/how-to-track-practice-progress/` | article | mental-math-memory-games | education-brain, brain-training-games | 14 | 9 | 34 | 3 |
+| `/blog/how-to-track-protein-intake/` | article | protein-diet-tracker | health-nutrition | 24 | 14 | 32 | 1 |
+| `/blog/how-to-transcribe-a-voice-memo/` | article | transcribe-audio-to-text | video-utility | 11 | 6 | 31 | 3 |
+| `/blog/how-to-transcribe-an-interview/` | article | transcribe-audio-to-text | video-utility | 10 | 7 | 29 | 3 |
+| `/blog/how-to-transcribe-lectures/` | article | transcribe-audio-to-text | video-utility | 11 | 7 | 30 | 3 |
+| `/blog/how-to-update-apps-on-android/` | article | kawaii-cute-notes-journal | video-utility | 16 | 11 | 31 | 3 |
+| `/blog/how-to-write-a-direct-proof/` | article | discrete-math-study-quiz | education-brain, discrete-math | 15 | 10 | 32 | 3 |
+| `/blog/how-to-write-a-history-essay/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 8 | 3 | 32 | 3 |
+| `/blog/how-var-works-in-soccer/` | article | soccer-draft-gm-xi | sports-gm | 10 | 3 | 33 | 3 |
+| `/blog/how-we-know-what-historical-figures-did/` | article | world-history-timeline-sim | education-brain, historical-people | 24 | 19 | 32 | 2 |
+| `/blog/hundred-years-war-explained/` | article | world-history-timeline-sim | education-brain | 9 | 5 | 31 | 3 |
+| `/blog/ibn-battuta-and-the-rihla/` | article | world-history-timeline-sim | education-brain, historical-people | 7 | 2 | 32 | 3 |
+| `/blog/in-app-purchases-explained/` | article | regal-video-player | video-utility | 10 | 5 | 31 | 3 |
+| `/blog/inclusion-exclusion-principle/` | article | discrete-math-study-quiz | education-brain, discrete-math | 11 | 6 | 32 | 3 |
+| `/blog/index-funds-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 9 | 4 | 32 | 3 |
+| `/blog/indian-history-periodisation-debate/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 8 | 3 | 32 | 3 |
+| `/blog/indian-ocean-trade-before-europeans/` | article | world-history-timeline-sim | education-brain, major-historical-events | 8 | 3 | 32 | 3 |
+| `/blog/indigenous-resistance-wars-compared/` | article | world-history-timeline-sim | education-brain, major-historical-events | 9 | 4 | 32 | 3 |
+| `/blog/inductive-reasoning-examples/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 9 | 4 | 35 | 3 |
+| `/blog/indus-valley-civilization-explained/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 8 | 3 | 33 | 3 |
+| `/blog/infield-fly-rule/` | article | baseball-career-sim | sports-gm | 8 | 1 | 33 | 3 |
+| `/blog/injective-surjective-bijective/` | article | discrete-math-study-quiz | education-brain, discrete-math | 11 | 6 | 33 | 3 |
+| `/blog/injuries-in-sports-career-games/` | article | hockey-career-sim | sports-gm | 15 | 6 | 33 | 2 |
+| `/blog/interference-and-forgetting/` | article | mental-math-memory-games | education-brain, memory-and-attention | 10 | 5 | 33 | 3 |
+| `/blog/interleaving-versus-blocked-practice/` | article | mental-math-memory-games | education-brain, brain-training-games | 11 | 6 | 34 | 3 |
+| `/blog/intermittent-fasting-windows-explained/` | article | keto-diet-tracker | health-nutrition | 12 | 6 | 32 | 2 |
+| `/blog/investment-fraud-red-flags/` | article | learn-to-trade-stocks | education-brain, investing-basics | 14 | 9 | 33 | 3 |
+| `/blog/io-games-without-a-connection/` | article | jellyfish-arena-survivor-io | action-arcade | 11 | 6 | 31 | 3 |
+| `/blog/iq-and-emotional-intelligence/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 12 | 7 | 33 | 3 |
+| `/blog/iq-score-ranges-and-bands/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 9 | 4 | 33 | 3 |
+| `/blog/is-bunting-good-in-baseball/` | article | baseball-career-sim | sports-gm | 9 | 2 | 33 | 3 |
+| `/blog/is-khmer-hard-to-learn/` | article | learn-cambodian-khmer | language-learning | 10 | 5 | 33 | 3 |
+| `/blog/is-lao-hard-to-learn/` | article | learn-lao | language-learning | 9 | 4 | 31 | 3 |
+| `/blog/is-malay-easy-to-learn/` | article | learn-malay | language-learning | 8 | 3 | 32 | 3 |
+| `/blog/is-marathi-hard-to-learn/` | article | learn-marathi | language-learning | 15 | 10 | 33 | 3 |
+| `/blog/is-momentum-in-sports-real/` | article | golf-career-simulator | sports-gm | 8 | 1 | 33 | 3 |
+| `/blog/is-my-card-worth-grading/` | article | tcg-card-grading-scanner | video-utility | 16 | 9 | 31 | 2 |
+| `/blog/is-shanghainese-a-dialect-or-a-language/` | article | learn-shanghainese | language-learning | 13 | 8 | 31 | 3 |
+| `/blog/is-thai-hard-to-learn/` | article | learn-thai | language-learning | 10 | 6 | 32 | 3 |
+| `/blog/is-vietnamese-hard-to-learn/` | article | learn-vietnamese | language-learning | 13 | 7 | 36 | 3 |
+| `/blog/italian-articles-and-gender/` | article | learn-italian | language-learning | 14 | 10 | 32 | 3 |
+| `/blog/italian-essere-vs-avere/` | article | learn-italian | language-learning | 9 | 4 | 31 | 3 |
+| `/blog/italian-greetings-formal-informal/` | article | learn-italian | language-learning | 10 | 6 | 30 | 3 |
+| `/blog/italian-numbers/` | article | learn-italian | language-learning | 12 | 8 | 30 | 3 |
+| `/blog/italian-plural-nouns/` | article | learn-italian | language-learning | 11 | 7 | 30 | 3 |
+| `/blog/italian-prepositions-explained/` | article | learn-italian | language-learning | 10 | 6 | 30 | 3 |
+| `/blog/italian-pronunciation-guide/` | article | learn-italian | language-learning | 11 | 7 | 32 | 3 |
+| `/blog/italian-restaurant-phrases/` | article | learn-italian | language-learning | 9 | 4 | 30 | 3 |
+| `/blog/italian-verb-conjugation-basics/` | article | learn-italian | language-learning | 14 | 10 | 31 | 3 |
+| `/blog/japan-from-yamato-to-meiji/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 7 | 2 | 32 | 3 |
+| `/blog/jellyfish-arena-survivor-io-partnership-opportunities/` | article | jellyfish-arena-survivor-io | action-arcade | 10 | 6 | 30 | 2 |
+| `/blog/journaling-prompts-for-beginners/` | article | kawaii-cute-notes-journal | video-utility | 12 | 7 | 31 | 3 |
+| `/blog/judging-your-own-recall/` | article | mental-math-memory-games | education-brain, memory-and-attention | 9 | 4 | 32 | 3 |
+| `/blog/junior-circuit-to-pro-tour-path/` | article | tennis-career-sim | sports-gm | 12 | 6 | 32 | 3 |
+| `/blog/jyutping-explained/` | article | learn-cantonese | language-learning | 13 | 8 | 31 | 2 |
+| `/blog/kawaii-breathe-relax-guide/` | article | kawaii-breathe-relax | health-nutrition | 10 | 5 | 31 | 2 |
+| `/blog/kawaii-breathe-relax-partnership-opportunities/` | article | kawaii-breathe-relax | health-nutrition | 6 | 3 | 30 | 2 |
+| `/blog/kawaii-cute-notes-journal-guide/` | article | kawaii-cute-notes-journal | video-utility | 11 | 6 | 31 | 3 |
+| `/blog/kawaii-cute-notes-journal-partnership-opportunities/` | article | kawaii-cute-notes-journal | video-utility | 7 | 3 | 29 | 2 |
+| `/blog/keto-diet-tracker-partnership-opportunities/` | article | keto-diet-tracker | health-nutrition | 8 | 4 | 30 | 2 |
+| `/blog/keto-flu-explained/` | article | keto-diet-tracker | health-nutrition | 9 | 5 | 30 | 3 |
+| `/blog/keto-macros-explained/` | article | keto-diet-tracker | health-nutrition | 11 | 6 | 31 | 2 |
+| `/blog/khmer-consonant-series/` | article | learn-cambodian-khmer | language-learning | 10 | 5 | 30 | 3 |
+| `/blog/khmer-empire-at-angkor/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 8 | 3 | 32 | 3 |
+| `/blog/khmer-fonts-on-android/` | article | learn-cambodian-khmer | language-learning | 10 | 5 | 32 | 3 |
+| `/blog/khmer-greetings-and-honorifics/` | article | learn-cambodian-khmer | language-learning | 8 | 4 | 30 | 3 |
+| `/blog/khmer-numbers/` | article | learn-cambodian-khmer | language-learning | 8 | 5 | 32 | 3 |
+| `/blog/khmer-phrases-for-cambodia-travel/` | article | learn-cambodian-khmer | language-learning | 9 | 5 | 30 | 3 |
+| `/blog/khmer-rouge-and-cambodian-genocide/` | article | world-history-timeline-sim | education-brain, major-historical-events | 7 | 2 | 32 | 3 |
+| `/blog/khmer-script-explained/` | article | learn-cambodian-khmer | language-learning | 17 | 12 | 31 | 3 |
+| `/blog/khmer-vowels-explained/` | article | learn-cambodian-khmer | language-learning | 8 | 3 | 30 | 3 |
+| `/blog/khmer-vs-thai-script/` | article | learn-cambodian-khmer | language-learning | 9 | 5 | 32 | 3 |
+| `/blog/kingdom-of-aksum-explained/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 9 | 4 | 32 | 3 |
+| `/blog/kitchen-measurement-conversions/` | article | easy-recipes-meal-planner | health-nutrition | 12 | 7 | 31 | 3 |
+| `/blog/knights-and-knaves-puzzles/` | article | discrete-math-study-quiz | education-brain, discrete-math | 9 | 4 | 33 | 3 |
+| `/blog/ko-vs-tko-how-fights-end/` | article | mma-boxing-fight-draft | sports-gm | 10 | 3 | 32 | 3 |
+| `/blog/korean-dynasties-explained/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 8 | 3 | 32 | 3 |
+| `/blog/kush-and-the-nubian-pharaohs/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 8 | 3 | 32 | 3 |
+| `/blog/language-learning-apps-compared/` | article | learn-cantonese | language-learning | 12 | 5 | 33 | 2 |
+| `/blog/language-learning-plateau/` | article | learn-russian | language-learning | 12 | 5 | 33 | 2 |
+| `/blog/lao-alphabet-explained/` | article | learn-lao | language-learning | 18 | 13 | 31 | 3 |
+| `/blog/lao-greetings-and-politeness/` | article | learn-lao | language-learning | 9 | 5 | 31 | 3 |
+| `/blog/lao-numbers-and-prices/` | article | learn-lao | language-learning | 12 | 7 | 31 | 3 |
+| `/blog/lao-phrases-for-travellers/` | article | learn-lao | language-learning | 8 | 4 | 30 | 3 |
+| `/blog/lao-tone-rules/` | article | learn-lao | language-learning | 12 | 7 | 31 | 3 |
+| `/blog/lao-vowels-explained/` | article | learn-lao | language-learning | 10 | 5 | 31 | 3 |
+| `/blog/lao-vs-thai-differences/` | article | learn-lao | language-learning | 12 | 7 | 31 | 3 |
+| `/blog/latin-american-independence-wars/` | article | world-history-timeline-sim | education-brain, major-historical-events | 9 | 4 | 32 | 3 |
+| `/blog/lattice-and-line-multiplication/` | article | mental-math-memory-games | education-brain, mental-math | 10 | 5 | 32 | 3 |
+| `/blog/lattice-paths-counting/` | article | discrete-math-study-quiz | education-brain, discrete-math | 8 | 3 | 32 | 3 |
+| `/blog/lbw-rule-explained/` | article | cricket-career-simulator | sports-gm | 11 | 5 | 32 | 2 |
+| `/blog/league-sandbox-vs-franchise-gm/` | article | basketball-league-sandbox | sports-gm | 14 | 7 | 34 | 2 |
+| `/blog/learn-cambodian-khmer-partnership-opportunities/` | article | learn-cambodian-khmer | language-learning | 8 | 4 | 30 | 2 |
+| `/blog/learn-cantonese-beginners-guide/` | article | learn-cantonese | language-learning | 24 | 17 | 32 | 1 |
+| `/blog/learn-cantonese-partnership-opportunities/` | article | learn-cantonese | language-learning | 9 | 5 | 30 | 2 |
+| `/blog/learn-italian-beginners-guide/` | article | learn-italian | language-learning | 19 | 13 | 33 | 3 |
+| `/blog/learn-italian-partnership-opportunities/` | article | learn-italian | language-learning | 9 | 6 | 30 | 2 |
+| `/blog/learn-khmer-beginners-guide/` | article | learn-cambodian-khmer | language-learning | 19 | 15 | 29 | 2 |
+| `/blog/learn-lao-beginners-guide/` | article | learn-lao | language-learning | 18 | 12 | 33 | 3 |
+| `/blog/learn-lao-partnership-opportunities/` | article | learn-lao | language-learning | 7 | 3 | 29 | 2 |
+| `/blog/learn-malay-beginners-guide/` | article | learn-malay | language-learning | 23 | 18 | 30 | 2 |
+| `/blog/learn-malay-partnership-opportunities/` | article | learn-malay | language-learning | 8 | 4 | 30 | 2 |
+| `/blog/learn-marathi-beginners-guide/` | article | learn-marathi | language-learning | 17 | 12 | 33 | 3 |
+| `/blog/learn-marathi-partnership-opportunities/` | article | learn-marathi | language-learning | 7 | 4 | 29 | 2 |
+| `/blog/learn-russian-cyrillic-beginners-guide/` | article | learn-russian | language-learning | 17 | 13 | 31 | 2 |
+| `/blog/learn-russian-partnership-opportunities/` | article | learn-russian | language-learning | 7 | 4 | 29 | 2 |
+| `/blog/learn-shanghainese-beginners-guide/` | article | learn-shanghainese | language-learning | 13 | 8 | 33 | 3 |
+| `/blog/learn-shanghainese-partnership-opportunities/` | article | learn-shanghainese | language-learning | 7 | 3 | 30 | 2 |
+| `/blog/learn-thai-partnership-opportunities/` | article | learn-thai | language-learning | 8 | 4 | 30 | 2 |
+| `/blog/learn-thai-script-beginners-guide/` | article | learn-thai | language-learning | 29 | 23 | 31 | 2 |
+| `/blog/learn-to-trade-stocks-guide/` | article | learn-to-trade-stocks | education-brain, investing-basics | 59 | 52 | 41 | 2 |
+| `/blog/learn-to-trade-stocks-partnership-opportunities/` | article | learn-to-trade-stocks | education-brain | 7 | 3 | 30 | 2 |
+| `/blog/learn-vietnamese-beginners-guide/` | article | learn-vietnamese | language-learning | 13 | 7 | 33 | 3 |
+| `/blog/learn-vietnamese-partnership-opportunities/` | article | learn-vietnamese | language-learning | 9 | 5 | 30 | 2 |
+| `/blog/learning-a-language-without-a-teacher/` | article | learn-malay | language-learning | 10 | 3 | 35 | 3 |
+| `/blog/learning-english-from-marathi/` | article | learn-marathi | language-learning | 14 | 9 | 31 | 3 |
+| `/blog/left-to-right-addition/` | article | mental-math-memory-games | education-brain, mental-math | 7 | 2 | 32 | 3 |
+| `/blog/life-simulator-city-builder-guide/` | article | life-simulator-city-builder | anime-creative | 10 | 5 | 31 | 3 |
+| `/blog/life-simulator-city-builder-partnership-opportunities/` | article | life-simulator-city-builder | anime-creative | 9 | 5 | 30 | 2 |
+| `/blog/limitations-of-iq-testing/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 9 | 4 | 33 | 3 |
+| `/blog/line-art-and-flats-explained/` | article | anime-coloring-book | anime-creative | 9 | 4 | 31 | 2 |
+| `/blog/links-vs-parkland-golf-courses/` | article | golf-career-simulator | sports-gm | 9 | 3 | 32 | 3 |
+| `/blog/listening-practice-in-a-new-language/` | article | learn-thai | language-learning | 12 | 5 | 35 | 3 |
+| `/blog/logic-grid-puzzles/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 15 | 10 | 32 | 3 |
+| `/blog/logical-equivalence-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 13 | 8 | 32 | 3 |
+| `/blog/low-block-vs-high-line/` | article | soccer-draft-gm-xi | sports-gm | 8 | 1 | 33 | 3 |
+| `/blog/low-carb-fruits-list/` | article | keto-diet-tracker | health-nutrition | 10 | 6 | 30 | 3 |
+| `/blog/low-carb-tracking-apps-compared/` | article | keto-diet-tracker | health-nutrition | 14 | 8 | 32 | 2 |
+| `/blog/low-carb-vegetables-list/` | article | keto-diet-tracker | health-nutrition | 9 | 5 | 30 | 3 |
+| `/blog/macd-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 8 | 3 | 32 | 3 |
+| `/blog/magna-carta-explained/` | article | world-history-timeline-sim | education-brain | 7 | 3 | 33 | 3 |
+| `/blog/mainland-southeast-asian-kingdoms/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 8 | 3 | 32 | 3 |
+| `/blog/major-eras-of-world-history/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 47 | 42 | 32 | 3 |
+| `/blog/malay-affixes-guide/` | article | learn-malay | language-learning | 11 | 7 | 31 | 3 |
+| `/blog/malay-days-and-time/` | article | learn-malay | language-learning | 8 | 4 | 30 | 3 |
+| `/blog/malay-numbers/` | article | learn-malay | language-learning | 8 | 5 | 30 | 3 |
+| `/blog/malay-phrases-for-travel/` | article | learn-malay | language-learning | 11 | 7 | 31 | 3 |
+| `/blog/malay-pronouns/` | article | learn-malay | language-learning | 7 | 4 | 29 | 3 |
+| `/blog/malay-pronunciation-guide/` | article | learn-malay | language-learning | 12 | 7 | 31 | 3 |
+| `/blog/malay-question-words/` | article | learn-malay | language-learning | 11 | 7 | 31 | 3 |
+| `/blog/malay-reduplication-explained/` | article | learn-malay | language-learning | 10 | 5 | 31 | 3 |
+| `/blog/malay-vs-indonesian-differences/` | article | learn-malay | language-learning | 17 | 12 | 32 | 3 |
+| `/blog/managing-a-fight-stable/` | article | mma-boxing-fight-draft | sports-gm | 11 | 5 | 32 | 3 |
+| `/blog/manga-vs-anime-differences/` | article | anime-trivia-word-games | anime-creative | 9 | 4 | 31 | 3 |
+| `/blog/mansa-musa-and-the-hajj-of-1324/` | article | world-history-timeline-sim | education-brain, historical-people | 7 | 2 | 32 | 3 |
+| `/blog/marathi-alphabet-and-devanagari/` | article | learn-marathi | language-learning | 12 | 8 | 30 | 3 |
+| `/blog/marathi-numbers-and-counting/` | article | learn-marathi | language-learning | 8 | 5 | 29 | 3 |
+| `/blog/marathi-phrases-with-meaning/` | article | learn-marathi | language-learning | 9 | 5 | 30 | 3 |
+| `/blog/marathi-postpositions/` | article | learn-marathi | language-learning | 9 | 5 | 30 | 3 |
+| `/blog/marathi-pronouns/` | article | learn-marathi | language-learning | 7 | 3 | 30 | 3 |
+| `/blog/marathi-study-plan-first-month/` | article | learn-marathi | language-learning | 9 | 4 | 32 | 3 |
+| `/blog/marathi-verb-basics/` | article | learn-marathi | language-learning | 9 | 6 | 30 | 3 |
+| `/blog/marathi-vs-hindi-differences/` | article | learn-marathi | language-learning | 9 | 5 | 31 | 3 |
+| `/blog/margin-call-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 9 | 4 | 32 | 3 |
+| `/blog/market-capitalization-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 11 | 6 | 32 | 3 |
+| `/blog/market-circuit-breakers-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 10 | 5 | 32 | 3 |
+| `/blog/market-order-vs-limit-order/` | article | learn-to-trade-stocks | education-brain, investing-basics | 13 | 8 | 32 | 3 |
+| `/blog/match-play-scoring-explained/` | article | golf-career-simulator | sports-gm | 11 | 3 | 33 | 3 |
+| `/blog/math-anxiety-in-adults/` | article | mental-math-memory-games | education-brain, mental-math | 8 | 3 | 33 | 3 |
+| `/blog/matrix-reasoning-puzzles/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 8 | 3 | 33 | 3 |
+| `/blog/maurya-and-gupta-empires-compared/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 8 | 3 | 33 | 3 |
+| `/blog/maya-long-count-calendar-explained/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 9 | 4 | 33 | 3 |
+| `/blog/meal-planning-for-a-dietary-preference/` | article | easy-recipes-meal-planner | health-nutrition | 11 | 6 | 31 | 3 |
+| `/blog/meal-planning-on-a-budget/` | article | easy-recipes-meal-planner | health-nutrition | 11 | 6 | 31 | 3 |
+| `/blog/meal-prep-food-safety/` | article | easy-recipes-meal-planner | health-nutrition | 9 | 4 | 31 | 3 |
+| `/blog/meiji-restoration-explained/` | article | world-history-timeline-sim | education-brain, major-historical-events | 7 | 2 | 33 | 3 |
+| `/blog/memory-techniques-that-work/` | article | mental-math-memory-games | education-brain, memory-and-attention | 24 | 19 | 33 | 3 |
+| `/blog/mental-division-tricks/` | article | mental-math-memory-games | education-brain, mental-math | 18 | 13 | 32 | 3 |
+| `/blog/mental-math-memory-games-partnership-opportunities/` | article | mental-math-memory-games | education-brain | 6 | 2 | 30 | 2 |
+| `/blog/mental-math-training-guide/` | article | mental-math-memory-games | education-brain, mental-math | 58 | 51 | 32 | 2 |
+| `/blog/mental-math-tricks-that-work/` | article | mental-math-memory-games | education-brain, mental-math | 24 | 19 | 32 | 3 |
+| `/blog/mesoamerica-before-the-aztecs/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 8 | 3 | 32 | 3 |
+| `/blog/minimum-spanning-tree-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 7 | 2 | 32 | 3 |
+| `/blog/minor-league-baseball-levels-explained/` | article | baseball-career-sim | sports-gm | 10 | 3 | 33 | 3 |
+| `/blog/missing-number-problems/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 7 | 2 | 32 | 3 |
+| `/blog/mma-boxing-fight-draft-guide/` | article | mma-boxing-fight-draft | sports-gm | 14 | 5 | 35 | 3 |
+| `/blog/mma-boxing-fight-draft-partnership-opportunities/` | article | mma-boxing-fight-draft | sports-gm | 7 | 3 | 31 | 2 |
+| `/blog/mma-fantasy-draft-strategy/` | article | mma-boxing-fight-draft | sports-gm | 13 | 6 | 34 | 3 |
+| `/blog/mma-weight-classes-explained/` | article | mma-boxing-fight-draft | sports-gm | 16 | 9 | 32 | 3 |
+| `/blog/mnemonic-systems-for-numbers/` | article | mental-math-memory-games | education-brain, memory-and-attention | 7 | 2 | 32 | 3 |
+| `/blog/modular-arithmetic-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 16 | 12 | 32 | 3 |
+| `/blog/modular-inverse-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 9 | 5 | 31 | 3 |
+| `/blog/momentum-steering-in-snake-style-games/` | article | jellyfish-arena-survivor-io | action-arcade | 8 | 3 | 31 | 3 |
+| `/blog/mongol-conquests-explained/` | article | world-history-timeline-sim | education-brain, major-historical-events | 8 | 3 | 34 | 3 |
+| `/blog/monty-hall-problem-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 6 | 1 | 32 | 3 |
+| `/blog/mood-tracking-journal/` | article | kawaii-cute-notes-journal | video-utility | 10 | 5 | 31 | 3 |
+| `/blog/motorsport-career-ladder/` | article | car-racing-pro-career | sports-gm | 10 | 4 | 32 | 3 |
+| `/blog/move-apps-to-a-new-android-phone/` | article | protein-diet-tracker | health-nutrition | 9 | 3 | 32 | 2 |
+| `/blog/moving-averages-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 11 | 6 | 32 | 3 |
+| `/blog/multiplication-shortcuts-explained/` | article | mental-math-memory-games | education-brain, mental-math | 20 | 15 | 33 | 3 |
+| `/blog/multiplying-by-five-and-twenty-five/` | article | mental-math-memory-games | education-brain, mental-math | 10 | 6 | 33 | 3 |
+| `/blog/multiplying-by-nine-and-ninety-nine/` | article | mental-math-memory-games | education-brain, mental-math | 12 | 8 | 32 | 3 |
+| `/blog/n-back-tasks-explained/` | article | mental-math-memory-games | education-brain, memory-and-attention | 8 | 3 | 33 | 3 |
+| `/blog/napoleon-rise-and-fall/` | article | world-history-timeline-sim | education-brain | 9 | 5 | 31 | 3 |
+| `/blog/nba-apron-explained/` | article | pro-basketball-draft-gm-mode | sports-gm | 10 | 4 | 32 | 2 |
+| `/blog/nba-draft-eligibility-rules/` | article | pro-basketball-my-career-sim | sports-gm | 10 | 3 | 33 | 2 |
+| `/blog/nba-playoff-format/` | article | pro-basketball-draft-gm-mode | sports-gm | 9 | 2 | 32 | 2 |
+| `/blog/nba-trade-rules/` | article | pro-basketball-draft-gm-mode | sports-gm | 8 | 2 | 32 | 2 |
+| `/blog/nba-vs-fiba-rules/` | article | pro-basketball-my-career-sim | sports-gm | 8 | 1 | 33 | 2 |
+| `/blog/negating-quantified-statements/` | article | discrete-math-study-quiz | education-brain, discrete-math | 10 | 5 | 32 | 3 |
+| `/blog/neolithic-agricultural-revolution/` | article | world-history-timeline-sim | education-brain, major-historical-events | 9 | 4 | 32 | 3 |
+| `/blog/net-carbs-explained-keto-tracking/` | article | keto-diet-tracker | health-nutrition | 26 | 18 | 33 | 2 |
+| `/blog/net-run-rate-explained/` | article | cricket-career-simulator | sports-gm | 11 | 5 | 32 | 2 |
+| `/blog/nfl-draft-pick-value-chart/` | article | football-draft-gm-mode | sports-gm | 10 | 3 | 33 | 3 |
+| `/blog/nfl-kickoff-rules/` | article | football-career-sim | sports-gm | 9 | 2 | 34 | 3 |
+| `/blog/nfl-overtime-rules-explained/` | article | football-career-sim | sports-gm | 9 | 2 | 34 | 3 |
+| `/blog/nfl-penalties-explained/` | article | football-career-sim | sports-gm | 8 | 1 | 33 | 3 |
+| `/blog/nfl-rookie-contract-explained/` | article | football-career-sim | sports-gm | 12 | 5 | 33 | 3 |
+| `/blog/nhl-84-game-season/` | article | hockey-draft-gm-manager | sports-gm | 9 | 1 | 33 | 3 |
+| `/blog/nhl-offer-sheet-explained/` | article | hockey-draft-gm-manager | sports-gm | 11 | 4 | 33 | 3 |
+| `/blog/no-ball-and-wide-rules/` | article | cricket-career-simulator | sports-gm | 13 | 7 | 32 | 2 |
+| `/blog/nonverbal-reasoning-tests-explained/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 11 | 6 | 35 | 3 |
+| `/blog/norman-conquest-1066/` | article | world-history-timeline-sim | education-brain | 8 | 4 | 32 | 3 |
+| `/blog/northern-vs-southern-vietnamese/` | article | learn-vietnamese | language-learning | 10 | 5 | 31 | 3 |
+| `/blog/number-bases-and-binary/` | article | discrete-math-study-quiz | education-brain, discrete-math | 9 | 4 | 32 | 3 |
+| `/blog/number-bonds-and-making-tens/` | article | mental-math-memory-games | education-brain, mental-math | 8 | 3 | 32 | 3 |
+| `/blog/number-sequence-puzzles-explained/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 23 | 17 | 37 | 3 |
+| `/blog/numerical-reasoning-tests-explained/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 11 | 6 | 34 | 3 |
+| `/blog/ocr-explained/` | article | pdf-all-in-one-tools | video-utility | 9 | 4 | 31 | 2 |
+| `/blog/odd-one-out-puzzles/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 7 | 2 | 34 | 3 |
+| `/blog/offline-brain-training-apps/` | article | mental-math-memory-games | education-brain, brain-training-games | 11 | 6 | 32 | 3 |
+| `/blog/offline-tower-defence-on-android/` | article | regal-tower-defense | action-arcade | 8 | 3 | 31 | 3 |
+| `/blog/offside-in-hockey/` | article | hockey-career-sim | sports-gm | 9 | 2 | 33 | 3 |
+| `/blog/offside-in-rugby-union-explained/` | article | rugby-draft-pro-league | sports-gm | 12 | 6 | 32 | 3 |
+| `/blog/opium-wars-and-unequal-treaties/` | article | world-history-timeline-sim | education-brain, major-historical-events | 9 | 4 | 33 | 3 |
+| `/blog/ops-and-slugging-explained/` | article | baseball-draft-gm-team | sports-gm | 13 | 5 | 33 | 3 |
+| `/blog/ops-plus-vs-wrc-plus/` | article | baseball-draft-gm-team | sports-gm | 10 | 2 | 33 | 3 |
+| `/blog/ottoman-empire-rise-and-decline/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 8 | 3 | 32 | 3 |
+| `/blog/out-of-bounds-lost-ball-provisional/` | article | golf-career-simulator | sports-gm | 8 | 2 | 32 | 3 |
+| `/blog/pace-vs-spin-bowling/` | article | cricket-career-simulator | sports-gm | 14 | 8 | 32 | 2 |
+| `/blog/page/10/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/11/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/12/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/13/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/14/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/15/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/16/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/17/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/18/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/19/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/2/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/20/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/21/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/22/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/23/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/24/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/25/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/26/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/27/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/28/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/29/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/3/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/30/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/31/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/32/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/33/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/34/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/35/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/36/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/37/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/38/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/39/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/4/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/40/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/41/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/42/` | blog-index |  |  | 41 |  | 73 | 2 |
+| `/blog/page/5/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/6/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/7/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/8/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/page/9/` | blog-index |  |  | 41 |  | 91 | 2 |
+| `/blog/paired-associate-learning/` | article | mental-math-memory-games | education-brain, memory-and-attention | 10 | 5 | 32 | 3 |
+| `/blog/pantry-inventory-and-grocery-lists/` | article | easy-recipes-meal-planner | health-nutrition | 12 | 7 | 31 | 3 |
+| `/blog/partial-orders-and-hasse-diagrams/` | article | discrete-math-study-quiz | education-brain, discrete-math | 8 | 3 | 32 | 3 |
+| `/blog/partition-of-india-1947/` | article | world-history-timeline-sim | education-brain, major-historical-events | 7 | 2 | 32 | 3 |
+| `/blog/passato-prossimo-vs-imperfetto/` | article | learn-italian | language-learning | 9 | 4 | 31 | 3 |
+| `/blog/pattern-day-trader-rule/` | article | learn-to-trade-stocks | education-brain, investing-basics | 6 | 1 | 32 | 3 |
+| `/blog/pdf-all-in-one-tools-guide/` | article | pdf-all-in-one-tools | video-utility | 19 | 13 | 36 | 2 |
+| `/blog/pdf-all-in-one-tools-partnership-opportunities/` | article | pdf-all-in-one-tools | video-utility | 8 | 4 | 30 | 2 |
+| `/blog/pdf-vs-pdf-a/` | article | pdf-all-in-one-tools | video-utility | 9 | 4 | 30 | 2 |
+| `/blog/pe-ratio-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 11 | 6 | 32 | 3 |
+| `/blog/penalty-shootout-rules/` | article | soccer-draft-gm-xi | sports-gm | 10 | 2 | 33 | 2 |
+| `/blog/percentages-in-your-head/` | article | mental-math-memory-games | education-brain, mental-math | 22 | 16 | 35 | 2 |
+| `/blog/percentiles-and-standard-scores/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 9 | 4 | 33 | 3 |
+| `/blog/perfect-game-vs-no-hitter/` | article | baseball-career-sim | sports-gm | 8 | 1 | 33 | 3 |
+| `/blog/periodisation-in-history-explained/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 21 | 16 | 32 | 3 |
+| `/blog/permutations-vs-combinations/` | article | discrete-math-study-quiz | education-brain, discrete-math | 17 | 12 | 31 | 3 |
+| `/blog/personnel-groupings-football/` | article | football-draft-gm-mode | sports-gm | 8 | 1 | 33 | 3 |
+| `/blog/photographing-cards-for-centring/` | article | tcg-card-grading-scanner | video-utility | 8 | 3 | 31 | 3 |
+| `/blog/pick-and-roll-explained/` | article | pro-basketball-my-career-sim | sports-gm | 9 | 2 | 33 | 2 |
+| `/blog/picture-in-picture-on-android/` | article | regal-video-player | video-utility | 8 | 3 | 31 | 3 |
+| `/blog/pigeonhole-principle-examples/` | article | discrete-math-study-quiz | education-brain, discrete-math | 11 | 7 | 32 | 3 |
+| `/blog/pitch-clock-rules/` | article | baseball-career-sim | sports-gm | 8 | 1 | 33 | 3 |
+| `/blog/planar-graphs-and-eulers-formula/` | article | discrete-math-study-quiz | education-brain, discrete-math | 10 | 5 | 33 | 3 |
+| `/blog/plant-vs-animal-protein/` | article | protein-diet-tracker | health-nutrition | 10 | 4 | 33 | 2 |
+| `/blog/platoon-advantage-baseball/` | article | baseball-career-sim | sports-gm | 12 | 5 | 33 | 3 |
+| `/blog/player-body-metrics-in-career-sims/` | article | pro-basketball-my-career-sim | sports-gm | 10 | 4 | 32 | 3 |
+| `/blog/player-efficiency-rating-explained/` | article | pro-basketball-draft-gm-mode | sports-gm | 10 | 1 | 33 | 2 |
+| `/blog/playing-the-big-points-in-tennis/` | article | tennis-career-sim | sports-gm | 12 | 5 | 32 | 3 |
+| `/blog/plus-minus-and-hockey-stats/` | article | hockey-draft-gm-manager | sports-gm | 17 | 9 | 34 | 3 |
+| `/blog/polynesian-voyaging-and-pacific-settlement/` | article | world-history-timeline-sim | education-brain, major-historical-events | 7 | 2 | 32 | 3 |
+| `/blog/power-play-and-penalty-kill/` | article | hockey-draft-gm-manager | sports-gm | 15 | 8 | 33 | 3 |
+| `/blog/power-set-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 12 | 7 | 32 | 3 |
+| `/blog/power-ups-and-build-design/` | article | zombie-survival-last-survivor | action-arcade | 13 | 7 | 33 | 2 |
+| `/blog/powerplays-in-cricket/` | article | cricket-career-simulator | sports-gm | 12 | 6 | 32 | 2 |
+| `/blog/predicates-and-quantifiers/` | article | discrete-math-study-quiz | education-brain, discrete-math | 11 | 6 | 32 | 3 |
+| `/blog/press-conferences-in-career-mode/` | article | soccer-career-sim-xi | sports-gm | 10 | 4 | 32 | 3 |
+| `/blog/pressing-in-soccer-explained/` | article | soccer-career-sim-xi | sports-gm | 8 | 1 | 33 | 3 |
+| `/blog/pressure-and-nerves-in-golf-sims/` | article | golf-career-simulator | sports-gm | 13 | 7 | 32 | 3 |
+| `/blog/primary-vs-secondary-sources/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 65 | 58 | 32 | 2 |
+| `/blog/printing-press-impact-explained/` | article | world-history-timeline-sim | education-brain, major-historical-events | 10 | 5 | 32 | 3 |
+| `/blog/pro-basketball-draft-gm-mode-partnership-opportunities/` | article | pro-basketball-draft-gm-mode | sports-gm | 9 | 5 | 29 | 2 |
+| `/blog/pro-basketball-my-career-sim-partnership-opportunities/` | article | pro-basketball-my-career-sim | sports-gm | 13 | 11 | 30 | 2 |
+| `/blog/progressive-jackpots-explained/` | article | big-jackpot-casino-slots | anime-creative | 12 | 6 | 32 | 3 |
+| `/blog/promotion-and-relegation-explained/` | article | soccer-draft-gm-xi | sports-gm | 9 | 1 | 34 | 2 |
+| `/blog/proof-by-contradiction-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 16 | 12 | 31 | 3 |
+| `/blog/proof-by-contrapositive-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 7 | 3 | 32 | 3 |
+| `/blog/proof-by-induction-step-by-step/` | article | discrete-math-study-quiz | education-brain, discrete-math | 16 | 11 | 32 | 3 |
+| `/blog/properties-of-relations/` | article | discrete-math-study-quiz | education-brain, discrete-math | 10 | 5 | 32 | 3 |
+| `/blog/protein-diet-tracker-partnership-opportunities/` | article | protein-diet-tracker | health-nutrition | 7 | 3 | 29 | 2 |
+| `/blog/protein-for-older-adults/` | article | protein-diet-tracker | health-nutrition | 7 | 3 | 30 | 2 |
+| `/blog/protein-in-common-foods/` | article | protein-diet-tracker | health-nutrition | 10 | 5 | 31 | 2 |
+| `/blog/protein-per-meal-explained/` | article | protein-diet-tracker | health-nutrition | 13 | 8 | 32 | 2 |
+| `/blog/protein-sources-compared/` | article | protein-diet-tracker | health-nutrition | 14 | 9 | 31 | 2 |
+| `/blog/protein-tracking-apps-compared/` | article | protein-diet-tracker | health-nutrition | 12 | 7 | 31 | 2 |
+| `/blog/quality-start-baseball/` | article | baseball-career-sim | sports-gm | 13 | 6 | 33 | 3 |
+| `/blog/quarterback-archetypes-explained/` | article | football-career-sim | sports-gm | 12 | 5 | 32 | 3 |
+| `/blog/queen-nzinga-of-ndongo-and-matamba/` | article | world-history-timeline-sim | education-brain, historical-people | 7 | 2 | 32 | 3 |
+| `/blog/racing-car-setup-basics/` | article | car-racing-pro-career | sports-gm | 12 | 6 | 31 | 3 |
+| `/blog/racing-flags-explained/` | article | car-racing-pro-career | sports-gm | 14 | 9 | 31 | 3 |
+| `/blog/racing-line-explained/` | article | car-racing-pro-career | sports-gm | 10 | 5 | 32 | 3 |
+| `/blog/racing-points-systems/` | article | car-racing-pro-career | sports-gm | 12 | 7 | 31 | 3 |
+| `/blog/racing-tire-strategy/` | article | car-racing-pro-career | sports-gm | 13 | 8 | 31 | 3 |
+| `/blog/ramsey-numbers-introduction/` | article | discrete-math-study-quiz | education-brain, discrete-math | 8 | 3 | 32 | 3 |
+| `/blog/rapa-nui-and-the-collapse-myth/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 7 | 2 | 32 | 3 |
+| `/blog/ratios-and-proportions-mentally/` | article | mental-math-memory-games | education-brain, mental-math | 8 | 3 | 33 | 3 |
+| `/blog/reading-a-defense-basics/` | article | football-career-sim | sports-gm | 17 | 10 | 32 | 3 |
+| `/blog/reading-a-history-dataset-critically/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 10 | 5 | 33 | 3 |
+| `/blog/reading-nutrition-labels/` | article | protein-diet-tracker | health-nutrition | 19 | 11 | 32 | 2 |
+| `/blog/reading-response-time-numbers/` | article | mental-math-memory-games | education-brain, brain-training-games | 9 | 4 | 34 | 3 |
+| `/blog/reading-shanghainese-characters/` | article | learn-shanghainese | language-learning | 9 | 4 | 31 | 3 |
+| `/blog/rebuild-vs-retool/` | article | pro-basketball-draft-gm-mode | sports-gm | 24 | 13 | 33 | 2 |
+| `/blog/recipe-nutrition-figures-and-why-they-move/` | article | easy-recipes-meal-planner | health-nutrition | 6 | 2 | 30 | 3 |
+| `/blog/recipe-scaling-and-serving-sizes/` | article | easy-recipes-meal-planner | health-nutrition | 12 | 8 | 30 | 3 |
+| `/blog/recognition-versus-recall/` | article | mental-math-memory-games | education-brain, memory-and-attention | 8 | 3 | 33 | 3 |
+| `/blog/recurrence-relations-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 13 | 8 | 32 | 3 |
+| `/blog/regal-tower-defense-partnership-opportunities/` | article | regal-tower-defense | action-arcade | 8 | 4 | 30 | 2 |
+| `/blog/regal-video-player-partnership-opportunities/` | article | regal-video-player | video-utility | 9 | 5 | 30 | 2 |
+| `/blog/regnal-years-and-dynastic-dating/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 9 | 4 | 33 | 3 |
+| `/blog/regression-to-the-mean-in-sports/` | article | soccer-draft-gm-xi | sports-gm | 10 | 1 | 33 | 2 |
+| `/blog/relative-age-effect-in-sports/` | article | soccer-career-sim-xi | sports-gm | 9 | 1 | 32 | 2 |
+| `/blog/reliability-and-validity-in-testing/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 13 | 8 | 34 | 3 |
+| `/blog/remembering-a-long-number/` | article | mental-math-memory-games | education-brain, memory-and-attention | 10 | 5 | 32 | 3 |
+| `/blog/remuxing-vs-transcoding/` | article | regal-video-player | video-utility | 11 | 6 | 32 | 3 |
+| `/blog/reverse-holo-vs-holo/` | article | tcg-card-grading-scanner | video-utility | 10 | 5 | 31 | 3 |
+| `/blog/risk-tolerance-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 19 | 14 | 32 | 3 |
+| `/blog/roman-republic-vs-empire/` | article | world-history-timeline-sim | education-brain | 8 | 4 | 33 | 3 |
+| `/blog/rotating-draft-pools-explained/` | article | rugby-draft-pro-league | sports-gm | 12 | 7 | 32 | 3 |
+| `/blog/rpo-vs-play-action/` | article | football-career-sim | sports-gm | 9 | 2 | 33 | 3 |
+| `/blog/rsi-indicator-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 9 | 4 | 32 | 3 |
+| `/blog/rugby-bonus-points-explained/` | article | rugby-draft-pro-league | sports-gm | 8 | 2 | 32 | 3 |
+| `/blog/rugby-breakdown-tackle-ruck-maul/` | article | rugby-draft-pro-league | sports-gm | 11 | 5 | 32 | 3 |
+| `/blog/rugby-career-paths/` | article | rugby-career-sim | sports-gm | 10 | 3 | 33 | 3 |
+| `/blog/rugby-career-sim-guide/` | article | rugby-career-sim | sports-gm | 10 | 3 | 34 | 3 |
+| `/blog/rugby-career-sim-partnership-opportunities/` | article | rugby-career-sim | sports-gm | 8 | 4 | 30 | 2 |
+| `/blog/rugby-draft-and-squad-building/` | article | rugby-draft-pro-league | sports-gm | 12 | 6 | 33 | 3 |
+| `/blog/rugby-draft-pro-league-partnership-opportunities/` | article | rugby-draft-pro-league | sports-gm | 8 | 5 | 31 | 2 |
+| `/blog/rugby-forwards-and-backs/` | article | rugby-draft-pro-league | sports-gm | 18 | 14 | 30 | 3 |
+| `/blog/rugby-kicking-laws-50-22-and-drop-outs/` | article | rugby-draft-pro-league | sports-gm | 8 | 2 | 32 | 3 |
+| `/blog/rugby-positions-and-numbers/` | article | rugby-draft-pro-league | sports-gm | 17 | 13 | 31 | 3 |
+| `/blog/rugby-scrum-and-lineout-rules/` | article | rugby-draft-pro-league | sports-gm | 7 | 1 | 32 | 3 |
+| `/blog/rugby-sevens-vs-fifteens/` | article | rugby-draft-pro-league | sports-gm | 9 | 3 | 31 | 3 |
+| `/blog/rugby-squad-rotation-over-a-season/` | article | rugby-draft-pro-league | sports-gm | 11 | 6 | 32 | 3 |
+| `/blog/rugby-union-rules-for-beginners/` | article | rugby-draft-pro-league | sports-gm | 8 | 3 | 32 | 3 |
+| `/blog/rugby-union-vs-rugby-league/` | article | rugby-draft-pro-league | sports-gm | 14 | 7 | 31 | 3 |
+| `/blog/rugby-yellow-and-red-cards/` | article | rugby-draft-pro-league | sports-gm | 7 | 1 | 32 | 3 |
+| `/blog/rules-of-inference-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 11 | 6 | 32 | 3 |
+| `/blog/russian-adjective-endings/` | article | learn-russian | language-learning | 9 | 4 | 31 | 3 |
+| `/blog/russian-cases-explained-for-beginners/` | article | learn-russian | language-learning | 21 | 15 | 32 | 2 |
+| `/blog/russian-cursive-handwriting-guide/` | article | learn-russian | language-learning | 9 | 4 | 31 | 3 |
+| `/blog/russian-greetings/` | article | learn-russian | language-learning | 9 | 4 | 30 | 3 |
+| `/blog/russian-numbers/` | article | learn-russian | language-learning | 9 | 6 | 30 | 3 |
+| `/blog/russian-peasant-multiplication/` | article | mental-math-memory-games | education-brain, mental-math | 9 | 4 | 32 | 3 |
+| `/blog/russian-personal-pronouns/` | article | learn-russian | language-learning | 11 | 8 | 29 | 3 |
+| `/blog/russian-revolutions-of-1917/` | article | world-history-timeline-sim | education-brain, major-historical-events | 11 | 6 | 32 | 3 |
+| `/blog/russian-soft-and-hard-signs/` | article | learn-russian | language-learning | 10 | 6 | 30 | 3 |
+| `/blog/russian-verbs-of-motion/` | article | learn-russian | language-learning | 7 | 2 | 31 | 3 |
+| `/blog/russian-vowel-reduction/` | article | learn-russian | language-learning | 10 | 6 | 31 | 3 |
+| `/blog/russian-word-order-and-emphasis/` | article | learn-russian | language-learning | 10 | 5 | 30 | 3 |
+| `/blog/safe-cooking-temperatures/` | article | easy-recipes-meal-planner | health-nutrition | 10 | 5 | 31 | 3 |
+| `/blog/safety-car-explained/` | article | car-racing-pro-career | sports-gm | 12 | 6 | 32 | 3 |
+| `/blog/salary-cap-basics-for-gm-games/` | article | pro-basketball-draft-gm-mode | sports-gm | 26 | 17 | 33 | 2 |
+| `/blog/scholars-of-the-islamic-golden-age/` | article | world-history-timeline-sim | education-brain, historical-people | 7 | 3 | 32 | 3 |
+| `/blog/scientists-who-changed-the-record/` | article | world-history-timeline-sim | education-brain, historical-people | 9 | 4 | 31 | 3 |
+| `/blog/score-attack-strategy/` | article | space-shooter-classic-arcade | action-arcade | 11 | 5 | 35 | 2 |
+| `/blog/scouting-combine-drills-explained/` | article | football-career-sim | sports-gm | 11 | 5 | 32 | 3 |
+| `/blog/scramble-for-africa-explained/` | article | world-history-timeline-sim | education-brain, major-historical-events | 8 | 3 | 32 | 3 |
+| `/blog/second-world-war-death-toll-range/` | article | world-history-timeline-sim | education-brain, major-historical-events | 13 | 8 | 32 | 3 |
+| `/blog/sequences-and-summation-notation/` | article | discrete-math-study-quiz | education-brain, discrete-math | 8 | 3 | 32 | 3 |
+| `/blog/sequences-with-more-than-one-answer/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 13 | 8 | 32 | 3 |
+| `/blog/serve-and-volley-strategy/` | article | tennis-career-sim | sports-gm | 13 | 6 | 32 | 3 |
+| `/blog/serving-size-vs-portion-size/` | article | protein-diet-tracker | health-nutrition | 13 | 7 | 32 | 2 |
+| `/blog/set-operations-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 12 | 7 | 32 | 3 |
+| `/blog/shadowing-technique-explained/` | article | learn-italian | language-learning | 13 | 6 | 35 | 2 |
+| `/blog/shanghainese-phrases-for-beginners/` | article | learn-shanghainese | language-learning | 6 | 2 | 30 | 3 |
+| `/blog/shanghainese-romanisation-choices/` | article | learn-shanghainese | language-learning | 8 | 4 | 29 | 3 |
+| `/blog/shanghainese-tones-and-tone-sandhi/` | article | learn-shanghainese | language-learning | 10 | 7 | 30 | 3 |
+| `/blog/shanghainese-vs-mandarin-differences/` | article | learn-shanghainese | language-learning | 11 | 7 | 30 | 3 |
+| `/blog/ship-loadouts-and-upgrade-priority/` | article | space-galaxy-attack-hardcore | action-arcade | 9 | 5 | 30 | 3 |
+| `/blog/shmup-difficulty-tiers/` | article | space-galaxy-attack-hardcore | action-arcade | 9 | 5 | 30 | 3 |
+| `/blog/shonen-vs-seinen/` | article | anime-trivia-word-games | anime-creative | 9 | 4 | 31 | 3 |
+| `/blog/short-selling-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 9 | 4 | 32 | 3 |
+| `/blog/short-term-versus-working-memory/` | article | mental-math-memory-games | education-brain, memory-and-attention | 8 | 3 | 34 | 3 |
+| `/blog/should-i-learn-malay-or-indonesian/` | article | learn-malay | language-learning | 8 | 3 | 31 | 3 |
+| `/blog/simplifying-fractions-quickly/` | article | mental-math-memory-games | education-brain, mental-math | 10 | 5 | 33 | 3 |
+| `/blog/sipc-protection-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 7 | 2 | 32 | 3 |
+| `/blog/slipstream-and-drafting/` | article | car-racing-pro-career | sports-gm | 11 | 5 | 32 | 3 |
+| `/blog/slot-reel-mechanics-explained/` | article | anime-casino-slots | anime-creative | 9 | 5 | 30 | 3 |
+| `/blog/slot-volatility-explained/` | article | anime-casino-slots | anime-creative | 9 | 6 | 29 | 3 |
+| `/blog/slow-breathing-and-relaxation/` | article | kawaii-breathe-relax | health-nutrition | 10 | 5 | 31 | 2 |
+| `/blog/snake-draft-vs-auction-draft/` | article | pro-basketball-draft-gm-mode | sports-gm | 14 | 5 | 32 | 2 |
+| `/blog/soccer-career-games-compared/` | article | football-career-soccer-league | sports-gm | 13 | 5 | 34 | 3 |
+| `/blog/soccer-career-sim-guide/` | article | soccer-career-sim-xi | sports-gm | 17 | 11 | 35 | 3 |
+| `/blog/soccer-career-sim-xi-partnership-opportunities/` | article | soccer-career-sim-xi | sports-gm | 9 | 5 | 31 | 2 |
+| `/blog/soccer-draft-gm-xi-partnership-opportunities/` | article | soccer-draft-gm-xi | sports-gm | 6 | 2 | 31 | 2 |
+| `/blog/soccer-draft-xi-guide/` | article | soccer-draft-gm-xi | sports-gm | 20 | 13 | 34 | 3 |
+| `/blog/soccer-formations-explained/` | article | soccer-draft-gm-xi | sports-gm | 41 | 32 | 33 | 2 |
+| `/blog/soccer-positions-explained/` | article | soccer-career-sim-xi | sports-gm | 17 | 10 | 32 | 3 |
+| `/blog/soccer-restarts-explained/` | article | soccer-draft-gm-xi | sports-gm | 8 | 1 | 33 | 3 |
+| `/blog/soccer-rule-changes-2026-27/` | article | soccer-draft-gm-xi | sports-gm | 9 | 2 | 33 | 3 |
+| `/blog/soccer-rules-for-beginners/` | article | soccer-draft-gm-xi | sports-gm | 9 | 2 | 33 | 3 |
+| `/blog/soccer-stats-explained/` | article | soccer-draft-gm-xi | sports-gm | 10 | 3 | 33 | 3 |
+| `/blog/soccer-substitution-rules/` | article | soccer-draft-gm-xi | sports-gm | 9 | 2 | 33 | 3 |
+| `/blog/soccer-yellow-and-red-cards-explained/` | article | soccer-draft-gm-xi | sports-gm | 8 | 1 | 33 | 3 |
+| `/blog/social-casino-vs-real-money-gambling/` | article | anime-casino-slots | anime-creative | 11 | 7 | 30 | 3 |
+| `/blog/southpaw-vs-orthodox/` | article | mma-boxing-fight-draft | sports-gm | 9 | 4 | 32 | 3 |
+| `/blog/space-galaxy-attack-arcade-vs-hardcore/` | article | space-galaxy-attack-hardcore | action-arcade | 11 | 5 | 32 | 2 |
+| `/blog/space-galaxy-attack-hardcore-partnership-opportunities/` | article | space-galaxy-attack-hardcore | action-arcade | 8 | 4 | 30 | 2 |
+| `/blog/space-shooter-arcade-guide/` | article | space-shooter-classic-arcade | action-arcade | 20 | 12 | 32 | 2 |
+| `/blog/space-shooter-classic-arcade-partnership-opportunities/` | article | space-shooter-classic-arcade | action-arcade | 7 | 3 | 30 | 2 |
+| `/blog/spaced-repetition-for-history-dates/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 7 | 2 | 33 | 3 |
+| `/blog/spaced-repetition-for-language-learning/` | article | learn-cantonese | language-learning | 30 | 21 | 34 | 2 |
+| `/blog/spatial-reasoning-and-number-sense/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 7 | 2 | 35 | 3 |
+| `/blog/speech-to-text-accuracy-tips/` | article | transcribe-audio-to-text | video-utility | 12 | 7 | 31 | 3 |
+| `/blog/spin-bowling-variations/` | article | cricket-career-simulator | sports-gm | 12 | 6 | 32 | 2 |
+| `/blog/spoken-vs-written-cantonese/` | article | learn-cantonese | language-learning | 9 | 4 | 32 | 2 |
+| `/blog/sports-gm-games-without-internet/` | article | hockey-draft-gm-manager | sports-gm | 14 | 5 | 33 | 2 |
+| `/blog/squad-depth-and-rotation-in-soccer/` | article | soccer-draft-gm-xi | sports-gm | 10 | 3 | 33 | 3 |
+| `/blog/squares-cubes-and-roots/` | article | mental-math-memory-games | education-brain, mental-math | 8 | 3 | 34 | 3 |
+| `/blog/srivijaya-and-majapahit/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 7 | 2 | 32 | 3 |
+| `/blog/stars-and-bars-explained/` | article | discrete-math-study-quiz | education-brain, discrete-math | 9 | 4 | 33 | 3 |
+| `/blog/stock-buybacks-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 7 | 2 | 32 | 3 |
+| `/blog/stock-market-hours-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 10 | 5 | 32 | 3 |
+| `/blog/stock-splits-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 11 | 6 | 32 | 3 |
+| `/blog/stocks-vs-bonds/` | article | learn-to-trade-stocks | education-brain, investing-basics | 10 | 5 | 32 | 3 |
+| `/blog/stop-apps-using-mobile-data/` | article | regal-video-player | video-utility | 10 | 5 | 31 | 3 |
+| `/blog/stop-order-vs-stop-limit-order/` | article | learn-to-trade-stocks | education-brain, investing-basics | 13 | 8 | 32 | 3 |
+| `/blog/stoppage-time-and-extra-time-in-soccer/` | article | soccer-draft-gm-xi | sports-gm | 9 | 2 | 33 | 3 |
+| `/blog/strategy-for-timed-reasoning-tests/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 8 | 3 | 34 | 3 |
+| `/blog/striking-vs-grappling-in-mma/` | article | mma-boxing-fight-draft | sports-gm | 14 | 9 | 31 | 3 |
+| `/blog/strokes-gained-for-club-golfers/` | article | golf-career-simulator | sports-gm | 11 | 4 | 32 | 3 |
+| `/blog/strong-induction-vs-weak-induction/` | article | discrete-math-study-quiz | education-brain, discrete-math | 8 | 3 | 32 | 3 |
+| `/blog/style-fit-vs-rating-in-squad-building/` | article | soccer-draft-gm-xi | sports-gm | 11 | 5 | 33 | 3 |
+| `/blog/style-matchups-in-a-fight-simulator/` | article | mma-boxing-fight-draft | sports-gm | 14 | 6 | 32 | 3 |
+| `/blog/subtitle-formats-explained/` | article | regal-video-player | video-utility | 7 | 2 | 31 | 3 |
+| `/blog/subtitles-not-working-on-android/` | article | regal-video-player | video-utility | 11 | 6 | 31 | 3 |
+| `/blog/subtraction-without-borrowing/` | article | mental-math-memory-games | education-brain, mental-math | 9 | 4 | 32 | 3 |
+| `/blog/sugar-alcohols-explained/` | article | keto-diet-tracker | health-nutrition | 9 | 3 | 32 | 2 |
+| `/blog/sumer-and-the-first-cities/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 7 | 2 | 32 | 3 |
+| `/blog/super-over-rules/` | article | cricket-career-simulator | sports-gm | 11 | 5 | 32 | 2 |
+| `/blog/support-and-resistance-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 10 | 5 | 32 | 3 |
+| `/blog/swahili-coast-city-states/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 7 | 2 | 32 | 3 |
+| `/blog/syllogisms-explained/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 10 | 5 | 34 | 3 |
+| `/blog/tang-and-song-china-explained/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 10 | 5 | 32 | 3 |
+| `/blog/tautology-contradiction-contingency/` | article | discrete-math-study-quiz | education-brain, discrete-math | 11 | 6 | 33 | 3 |
+| `/blog/tcg-card-grading-scanner-partnership-opportunities/` | article | tcg-card-grading-scanner | video-utility | 6 | 2 | 30 | 2 |
+| `/blog/tdee-and-energy-balance/` | article | protein-diet-tracker | health-nutrition | 8 | 2 | 32 | 2 |
+| `/blog/technical-vs-fundamental-analysis/` | article | learn-to-trade-stocks | education-brain, investing-basics | 11 | 6 | 33 | 3 |
+| `/blog/tennis-career-sim-guide/` | article | tennis-career-sim | sports-gm | 16 | 10 | 33 | 3 |
+| `/blog/tennis-career-sim-partnership-opportunities/` | article | tennis-career-sim | sports-gm | 6 | 2 | 30 | 2 |
+| `/blog/tennis-coaching-teams-explained/` | article | tennis-career-sim | sports-gm | 10 | 4 | 32 | 3 |
+| `/blog/tennis-code-violations-and-shot-clock/` | article | tennis-career-sim | sports-gm | 10 | 4 | 32 | 3 |
+| `/blog/tennis-court-surfaces-explained/` | article | tennis-career-sim | sports-gm | 8 | 3 | 31 | 3 |
+| `/blog/tennis-playing-styles/` | article | tennis-career-sim | sports-gm | 12 | 7 | 31 | 3 |
+| `/blog/tennis-ranking-decay-and-scheduling/` | article | tennis-career-sim | sports-gm | 13 | 7 | 33 | 3 |
+| `/blog/tennis-rating-systems-ntrp-utr-wtn/` | article | tennis-career-sim | sports-gm | 9 | 4 | 31 | 3 |
+| `/blog/tennis-rules-for-beginners/` | article | tennis-career-sim | sports-gm | 11 | 6 | 31 | 3 |
+| `/blog/tennis-scoring-for-beginners/` | article | tennis-career-sim | sports-gm | 18 | 11 | 32 | 3 |
+| `/blog/tennis-stats-explained/` | article | tennis-career-sim | sports-gm | 9 | 3 | 31 | 3 |
+| `/blog/tennis-tiebreak-rules/` | article | tennis-career-sim | sports-gm | 10 | 3 | 32 | 3 |
+| `/blog/texture-palettes-in-coloring-apps/` | article | anime-coloring-book | anime-creative | 10 | 5 | 31 | 2 |
+| `/blog/thai-classifiers/` | article | learn-thai | language-learning | 11 | 7 | 30 | 3 |
+| `/blog/thai-consonant-classes/` | article | learn-thai | language-learning | 9 | 6 | 29 | 3 |
+| `/blog/thai-greetings/` | article | learn-thai | language-learning | 10 | 7 | 29 | 3 |
+| `/blog/thai-numbers/` | article | learn-thai | language-learning | 13 | 10 | 29 | 3 |
+| `/blog/thai-polite-particles/` | article | learn-thai | language-learning | 10 | 6 | 30 | 3 |
+| `/blog/thai-tones-explained/` | article | learn-thai | language-learning | 13 | 8 | 32 | 3 |
+| `/blog/thai-vowels-explained/` | article | learn-thai | language-learning | 10 | 5 | 31 | 3 |
+| `/blog/the-1918-influenza-pandemic/` | article | world-history-timeline-sim | education-brain | 7 | 3 | 31 | 3 |
+| `/blog/the-age-of-exploration/` | article | world-history-timeline-sim | education-brain | 7 | 4 | 31 | 3 |
+| `/blog/the-aztec-empire-explained/` | article | world-history-timeline-sim | education-brain | 6 | 3 | 31 | 3 |
+| `/blog/the-boxer-rebellion-explained/` | article | world-history-timeline-sim | education-brain | 7 | 3 | 31 | 3 |
+| `/blog/the-cold-war-explained/` | article | world-history-timeline-sim | education-brain | 11 | 7 | 35 | 3 |
+| `/blog/the-crusades-explained/` | article | world-history-timeline-sim | education-brain | 8 | 4 | 32 | 3 |
+| `/blog/the-early-caliphates/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 9 | 4 | 32 | 3 |
+| `/blog/the-enlightenment-explained/` | article | world-history-timeline-sim | education-brain | 5 | 1 | 31 | 3 |
+| `/blog/the-great-depression-explained/` | article | world-history-timeline-sim | education-brain | 7 | 3 | 31 | 3 |
+| `/blog/the-han-dynasty-explained/` | article | world-history-timeline-sim | education-brain | 8 | 4 | 31 | 3 |
+| `/blog/the-korean-war-explained/` | article | world-history-timeline-sim | education-brain | 9 | 5 | 31 | 3 |
+| `/blog/the-marshall-plan-explained/` | article | world-history-timeline-sim | education-brain | 6 | 2 | 31 | 3 |
+| `/blog/the-mexican-revolution-explained/` | article | world-history-timeline-sim | education-brain | 6 | 2 | 31 | 3 |
+| `/blog/the-ming-dynasty-explained/` | article | world-history-timeline-sim | education-brain | 9 | 5 | 32 | 3 |
+| `/blog/the-persian-wars-explained/` | article | world-history-timeline-sim | education-brain | 6 | 2 | 32 | 3 |
+| `/blog/the-protestant-reformation/` | article | world-history-timeline-sim | education-brain | 8 | 4 | 32 | 3 |
+| `/blog/the-punic-wars-explained/` | article | world-history-timeline-sim | education-brain | 7 | 3 | 32 | 3 |
+| `/blog/the-renaissance-explained/` | article | world-history-timeline-sim | education-brain | 7 | 3 | 33 | 3 |
+| `/blog/the-silk-road-for-beginners/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 33 | 28 | 32 | 3 |
+| `/blog/the-space-race-explained/` | article | world-history-timeline-sim | education-brain | 5 | 1 | 31 | 3 |
+| `/blog/the-taiping-rebellion-explained/` | article | world-history-timeline-sim | education-brain | 7 | 3 | 31 | 3 |
+| `/blog/the-thirty-years-war-explained/` | article | world-history-timeline-sim | education-brain | 7 | 3 | 31 | 3 |
+| `/blog/the-vikings-explained/` | article | world-history-timeline-sim | education-brain | 8 | 4 | 32 | 3 |
+| `/blog/time-in-force-order-types/` | article | learn-to-trade-stocks | education-brain, investing-basics | 9 | 4 | 33 | 3 |
+| `/blog/timed-and-survival-quiz-modes/` | article | anime-trivia-word-games | anime-creative | 12 | 7 | 31 | 3 |
+| `/blog/times-tables-memorisation/` | article | mental-math-memory-games | education-brain, mental-math | 12 | 7 | 32 | 3 |
+| `/blog/topics/brain-training-games/` | topic-hub |  |  | 35 |  | 53 | 2 |
+| `/blog/topics/civilizations-and-empires/` | topic-hub |  |  | 41 |  | 59 | 2 |
+| `/blog/topics/discrete-math/` | topic-hub |  |  | 81 |  | 99 | 2 |
+| `/blog/topics/historical-people/` | topic-hub |  |  | 31 |  | 49 | 2 |
+| `/blog/topics/history-learning-methods/` | topic-hub |  |  | 37 |  | 55 | 2 |
+| `/blog/topics/investing-basics/` | topic-hub |  |  | 65 |  | 83 | 2 |
+| `/blog/topics/iq-tests-and-reasoning/` | topic-hub |  |  | 35 |  | 53 | 2 |
+| `/blog/topics/logic-and-pattern-puzzles/` | topic-hub |  |  | 33 |  | 51 | 2 |
+| `/blog/topics/major-historical-events/` | topic-hub |  |  | 42 |  | 60 | 2 |
+| `/blog/topics/memory-and-attention/` | topic-hub |  |  | 37 |  | 55 | 2 |
+| `/blog/topics/mental-math/` | topic-hub |  |  | 47 |  | 65 | 2 |
+| `/blog/topics/world-history-timelines/` | topic-hub |  |  | 38 |  | 56 | 2 |
+| `/blog/tour-eligibility-and-schedules/` | article | golf-career-simulator | sports-gm | 8 | 2 | 32 | 3 |
+| `/blog/tournament-formats-explained/` | article | mma-boxing-fight-draft | sports-gm | 9 | 1 | 32 | 2 |
+| `/blog/toussaint-louverture-and-the-haitian-generals/` | article | world-history-timeline-sim | education-brain, historical-people | 8 | 3 | 32 | 3 |
+| `/blog/tower-defense-camera-controls/` | article | regal-tower-defense | action-arcade | 11 | 6 | 31 | 3 |
+| `/blog/tower-defense-strategy-basics/` | article | regal-tower-defense | action-arcade | 16 | 11 | 30 | 2 |
+| `/blog/tower-defense-upgrade-priority/` | article | hero-td-idle-tower-defense | action-arcade | 12 | 7 | 31 | 2 |
+| `/blog/tower-types-and-what-they-counter/` | article | regal-tower-defense | action-arcade | 14 | 9 | 30 | 2 |
+| `/blog/tracing-practice-for-new-scripts/` | article | learn-cambodian-khmer | language-learning | 8 | 3 | 32 | 3 |
+| `/blog/tracking-food-allergies-and-reactions/` | article | easy-recipes-meal-planner | health-nutrition | 8 | 3 | 31 | 3 |
+| `/blog/trade-settlement-t-plus-1/` | article | learn-to-trade-stocks | education-brain, investing-basics | 9 | 4 | 32 | 3 |
+| `/blog/trading-journal-how-to/` | article | learn-to-trade-stocks | education-brain, investing-basics | 10 | 5 | 33 | 3 |
+| `/blog/trading-volume-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 9 | 4 | 32 | 3 |
+| `/blog/transcribe-audio-to-text-guide/` | article | transcribe-audio-to-text | video-utility | 11 | 6 | 32 | 3 |
+| `/blog/transcribe-audio-to-text-partnership-opportunities/` | article | transcribe-audio-to-text | video-utility | 5 | 1 | 30 | 2 |
+| `/blog/transfers-and-contracts-explained/` | article | soccer-career-sim-xi | sports-gm | 10 | 3 | 34 | 3 |
+| `/blog/trees-in-graph-theory/` | article | discrete-math-study-quiz | education-brain, discrete-math | 10 | 5 | 32 | 3 |
+| `/blog/turn-off-personalized-ads-android/` | article | space-shooter-classic-arcade | action-arcade | 9 | 4 | 31 | 2 |
+| `/blog/twentieth-century-liberation-leaders/` | article | world-history-timeline-sim | education-brain, historical-people | 9 | 4 | 32 | 3 |
+| `/blog/two-minute-clock-management/` | article | football-career-sim | sports-gm | 14 | 8 | 32 | 3 |
+| `/blog/two-point-conversion-chart/` | article | football-career-sim | sports-gm | 8 | 1 | 33 | 3 |
+| `/blog/two-way-players-explained/` | article | baseball-career-sim | sports-gm | 16 | 9 | 33 | 3 |
+| `/blog/types-of-hockey-shots/` | article | hockey-career-sim | sports-gm | 8 | 1 | 33 | 3 |
+| `/blog/types-of-pitches-in-baseball/` | article | baseball-career-sim | sports-gm | 8 | 1 | 33 | 3 |
+| `/blog/types-of-submissions-in-mma/` | article | mma-boxing-fight-draft | sports-gm | 7 | 1 | 32 | 3 |
+| `/blog/unbeaten-league-seasons-in-soccer/` | article | soccer-draft-gm-xi | sports-gm | 8 | 1 | 33 | 3 |
+| `/blog/undefeated-records-in-boxing-and-mma/` | article | mma-boxing-fight-draft | sports-gm | 9 | 3 | 32 | 3 |
+| `/blog/undercut-vs-overcut/` | article | car-racing-pro-career | sports-gm | 11 | 5 | 32 | 3 |
+| `/blog/underrated-attributes-in-hockey-career-mode/` | article | hockey-career-sim | sports-gm | 9 | 3 | 32 | 3 |
+| `/blog/understanding-sports-sim-probability/` | article | baseball-draft-gm-team | sports-gm | 51 | 35 | 32 | 2 |
+| `/blog/unification-of-germany/` | article | world-history-timeline-sim | education-brain | 6 | 3 | 30 | 3 |
+| `/blog/unification-of-italy/` | article | world-history-timeline-sim | education-brain | 4 | 1 | 30 | 3 |
+| `/blog/unified-rules-of-mma-explained/` | article | mma-boxing-fight-draft | sports-gm | 9 | 3 | 32 | 3 |
+| `/blog/unit-price-comparison/` | article | mental-math-memory-games | education-brain, mental-math | 10 | 5 | 33 | 3 |
+| `/blog/unplayable-lie-options/` | article | golf-career-simulator | sports-gm | 8 | 2 | 32 | 3 |
+| `/blog/using-what-if-scenarios-to-learn-history/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 7 | 2 | 32 | 3 |
+| `/blog/valid-vs-sound-arguments/` | article | discrete-math-study-quiz | education-brain, discrete-math | 9 | 4 | 32 | 3 |
+| `/blog/verbal-reasoning-question-types/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 9 | 4 | 34 | 3 |
+| `/blog/verbatim-vs-clean-transcription/` | article | transcribe-audio-to-text | video-utility | 11 | 6 | 31 | 3 |
+| `/blog/vertical-shooter-games-on-android/` | article | space-galaxy-attack-hardcore | action-arcade | 8 | 3 | 31 | 3 |
+| `/blog/video-codecs-explained/` | article | regal-video-player | video-utility | 11 | 7 | 30 | 3 |
+| `/blog/video-file-formats-explained/` | article | regal-video-player | video-utility | 14 | 9 | 30 | 2 |
+| `/blog/vietnamese-alphabet-explained/` | article | learn-vietnamese | language-learning | 11 | 5 | 32 | 3 |
+| `/blog/vietnamese-classifiers/` | article | learn-vietnamese | language-learning | 11 | 7 | 31 | 3 |
+| `/blog/vietnamese-greetings/` | article | learn-vietnamese | language-learning | 8 | 5 | 29 | 3 |
+| `/blog/vietnamese-numbers/` | article | learn-vietnamese | language-learning | 9 | 5 | 30 | 3 |
+| `/blog/vietnamese-pronouns-explained/` | article | learn-vietnamese | language-learning | 11 | 6 | 30 | 3 |
+| `/blog/vietnamese-tones-explained/` | article | learn-vietnamese | language-learning | 17 | 12 | 32 | 2 |
+| `/blog/virtual-pet-games-explained/` | article | dragon-pet-evolve | anime-creative | 9 | 4 | 31 | 3 |
+| `/blog/visual-pattern-puzzles/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 7 | 2 | 33 | 3 |
+| `/blog/warming-up-before-focused-work/` | article | mental-math-memory-games | education-brain, brain-training-games | 8 | 3 | 33 | 3 |
+| `/blog/wash-sale-rule-explained/` | article | learn-to-trade-stocks | education-brain, investing-basics | 7 | 2 | 32 | 3 |
+| `/blog/wave-survival-game-design/` | article | zombie-survival-last-survivor | action-arcade | 14 | 8 | 32 | 2 |
+| `/blog/ways-to-get-out-in-cricket/` | article | cricket-career-simulator | sports-gm | 16 | 10 | 32 | 2 |
+| `/blog/west-and-central-african-kingdoms/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 7 | 2 | 32 | 3 |
+| `/blog/wet-weather-racing/` | article | car-racing-pro-career | sports-gm | 12 | 6 | 32 | 3 |
+| `/blog/what-a-brain-age-score-means/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 9 | 4 | 33 | 3 |
+| `/blog/what-a-brain-training-subscription-buys/` | article | mental-math-memory-games | education-brain, brain-training-games | 7 | 2 | 34 | 3 |
+| `/blog/what-allergy-flags-in-recipe-apps-miss/` | article | easy-recipes-meal-planner | health-nutrition | 7 | 2 | 31 | 3 |
+| `/blog/what-are-cozy-games/` | article | life-simulator-city-builder | anime-creative | 14 | 8 | 32 | 3 |
+| `/blog/what-are-idle-games/` | article | hero-td-idle-tower-defense | action-arcade | 13 | 8 | 31 | 2 |
+| `/blog/what-are-io-games/` | article | jellyfish-arena-survivor-io | action-arcade | 10 | 5 | 31 | 3 |
+| `/blog/what-caused-the-bronze-age-collapse/` | article | world-history-timeline-sim | education-brain, major-historical-events | 41 | 35 | 32 | 2 |
+| `/blog/what-does-a-boxing-corner-do/` | article | boxing-prize-fighter-career | sports-gm | 13 | 6 | 33 | 3 |
+| `/blog/what-does-a-sports-agent-do/` | article | pro-basketball-my-career-sim | sports-gm | 10 | 2 | 32 | 2 |
+| `/blog/what-does-a-sports-commissioner-do/` | article | football-league-commissioner | sports-gm | 15 | 7 | 32 | 2 |
+| `/blog/what-does-td-mean-in-games/` | article | regal-tower-defense | action-arcade | 8 | 3 | 31 | 3 |
+| `/blog/what-iq-tests-actually-measure/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 26 | 20 | 33 | 3 |
+| `/blog/what-is-a-balk-in-baseball/` | article | baseball-career-sim | sports-gm | 8 | 1 | 33 | 3 |
+| `/blog/what-is-a-brokerage-account/` | article | learn-to-trade-stocks | education-brain, investing-basics | 12 | 7 | 32 | 3 |
+| `/blog/what-is-a-gunship-aircraft/` | article | world-war-gunship-attack | action-arcade | 7 | 2 | 31 | 3 |
+| `/blog/what-is-a-ketone-reading/` | article | keto-diet-tracker | health-nutrition | 11 | 5 | 32 | 2 |
+| `/blog/what-is-a-stock-market-index/` | article | learn-to-trade-stocks | education-brain, investing-basics | 10 | 5 | 33 | 3 |
+| `/blog/what-is-a-stock/` | article | learn-to-trade-stocks | education-brain, investing-basics | 12 | 7 | 32 | 3 |
+| `/blog/what-is-a-tonal-language/` | article | learn-vietnamese | language-learning | 19 | 12 | 35 | 2 |
+| `/blog/what-is-an-ipo/` | article | learn-to-trade-stocks | education-brain, investing-basics | 7 | 2 | 32 | 3 |
+| `/blog/what-is-corsi-in-hockey/` | article | hockey-draft-gm-manager | sports-gm | 9 | 2 | 33 | 3 |
+| `/blog/what-is-discrete-math/` | article | discrete-math-study-quiz | education-brain, discrete-math | 6 | 1 | 34 | 3 |
+| `/blog/what-is-epa-in-football/` | article | football-career-sim | sports-gm | 12 | 4 | 33 | 3 |
+| `/blog/what-is-era-in-baseball/` | article | baseball-draft-gm-team | sports-gm | 14 | 6 | 33 | 3 |
+| `/blog/what-is-expected-goals-in-hockey/` | article | hockey-draft-gm-manager | sports-gm | 11 | 3 | 33 | 3 |
+| `/blog/what-is-icing-in-hockey/` | article | hockey-draft-gm-manager | sports-gm | 13 | 6 | 33 | 3 |
+| `/blog/what-is-paper-trading/` | article | learn-to-trade-stocks | education-brain, investing-basics | 10 | 5 | 33 | 3 |
+| `/blog/what-is-volatility/` | article | learn-to-trade-stocks | education-brain, investing-basics | 15 | 10 | 32 | 3 |
+| `/blog/what-is-whip-in-baseball/` | article | baseball-draft-gm-team | sports-gm | 11 | 3 | 33 | 3 |
+| `/blog/what-late-antiquity-means/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 8 | 3 | 33 | 3 |
+| `/blog/what-makes-a-good-draft-board/` | article | football-draft-gm-mode | sports-gm | 22 | 14 | 33 | 2 |
+| `/blog/what-makes-a-roguelike/` | article | zombie-survival-last-survivor | action-arcade | 15 | 9 | 32 | 2 |
+| `/blog/what-makes-an-event-a-turning-point/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 15 | 10 | 32 | 3 |
+| `/blog/what-processing-speed-means/` | article | mental-math-memory-games | education-brain, memory-and-attention | 7 | 2 | 32 | 3 |
+| `/blog/what-started-the-first-world-war/` | article | world-history-timeline-sim | education-brain, major-historical-events | 10 | 5 | 33 | 3 |
+| `/blog/what-the-average-iq-score-means/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 9 | 4 | 34 | 3 |
+| `/blog/what-was-happening-elsewhere-when-rome-ruled/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 9 | 4 | 33 | 3 |
+| `/blog/when-a-card-scanner-picks-the-wrong-card/` | article | tcg-card-grading-scanner | video-utility | 11 | 6 | 31 | 3 |
+| `/blog/when-to-go-for-it-on-4th-down/` | article | football-career-sim | sports-gm | 10 | 3 | 33 | 3 |
+| `/blog/when-to-pull-the-goalie/` | article | hockey-career-sim | sports-gm | 10 | 2 | 33 | 3 |
+| `/blog/when-two-sources-disagree-on-a-date/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 14 | 9 | 33 | 3 |
+| `/blog/where-marathi-is-spoken/` | article | learn-marathi | language-learning | 8 | 3 | 31 | 3 |
+| `/blog/who-built-the-great-monuments/` | article | world-history-timeline-sim | education-brain, historical-people | 7 | 2 | 32 | 3 |
+| `/blog/who-invented-the-iq-test/` | article | mental-math-memory-games | education-brain, iq-tests-and-reasoning | 8 | 3 | 34 | 3 |
+| `/blog/why-am-i-slow-at-mental-math/` | article | mental-math-memory-games | education-brain, mental-math | 10 | 5 | 34 | 3 |
+| `/blog/why-card-price-estimates-disagree/` | article | tcg-card-grading-scanner | video-utility | 10 | 5 | 31 | 3 |
+| `/blog/why-civilizations-collapse/` | article | world-history-timeline-sim | education-brain, major-historical-events | 9 | 4 | 32 | 3 |
+| `/blog/why-divisibility-rules-work/` | article | mental-math-memory-games | education-brain, mental-math | 11 | 6 | 32 | 3 |
+| `/blog/why-food-databases-disagree/` | article | protein-diet-tracker | health-nutrition | 12 | 6 | 32 | 2 |
+| `/blog/why-free-android-games-show-ads/` | article | space-shooter-classic-arcade | action-arcade | 14 | 8 | 32 | 2 |
+| `/blog/why-golf-has-18-holes/` | article | golf-career-simulator | sports-gm | 8 | 2 | 32 | 3 |
+| `/blog/why-historical-eras-overlap/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 10 | 5 | 32 | 3 |
+| `/blog/why-is-history-important-to-study/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 8 | 3 | 32 | 3 |
+| `/blog/why-meal-plans-fail-midweek/` | article | easy-recipes-meal-planner | health-nutrition | 10 | 5 | 32 | 3 |
+| `/blog/why-practice-progress-plateaus/` | article | mental-math-memory-games | education-brain, brain-training-games | 8 | 3 | 34 | 3 |
+| `/blog/why-rome-fell/` | article | world-history-timeline-sim | education-brain, civilizations-and-empires | 49 | 43 | 33 | 2 |
+| `/blog/why-the-industrial-revolution-started-in-britain/` | article | world-history-timeline-sim | education-brain, major-historical-events | 9 | 4 | 32 | 3 |
+| `/blog/women-who-ruled-empires/` | article | world-history-timeline-sim | education-brain, historical-people | 7 | 2 | 32 | 3 |
+| `/blog/word-game-strategy-guide/` | article | anime-trivia-word-games | anime-creative | 10 | 5 | 32 | 3 |
+| `/blog/working-backwards-problems/` | article | mental-math-memory-games | education-brain, logic-and-pattern-puzzles | 9 | 4 | 32 | 3 |
+| `/blog/working-memory-and-training/` | article | mental-math-memory-games | education-brain, memory-and-attention | 50 | 44 | 32 | 3 |
+| `/blog/world-boss-waves-in-tower-defense/` | article | regal-tower-defense | action-arcade | 8 | 3 | 32 | 3 |
+| `/blog/world-history-timeline-guide/` | article | world-history-timeline-sim | education-brain, world-history-timelines | 43 | 37 | 33 | 2 |
+| `/blog/world-history-timeline-sim-partnership-opportunities/` | article | world-history-timeline-sim | education-brain | 7 | 3 | 30 | 2 |
+| `/blog/world-war-1-timeline/` | article | world-history-timeline-sim | education-brain | 11 | 7 | 32 | 3 |
+| `/blog/world-war-gunship-attack-guide/` | article | world-war-gunship-attack | action-arcade | 10 | 4 | 32 | 2 |
+| `/blog/world-war-gunship-attack-partnership-opportunities/` | article | world-war-gunship-attack | action-arcade | 6 | 2 | 30 | 2 |
+| `/blog/wu-chinese-and-where-shanghainese-sits/` | article | learn-shanghainese | language-learning | 12 | 7 | 31 | 3 |
+| `/blog/wu-zetian-and-hostile-sources/` | article | world-history-timeline-sim | education-brain, historical-people | 8 | 3 | 33 | 3 |
+| `/blog/zheng-he-treasure-voyages/` | article | world-history-timeline-sim | education-brain, historical-people | 9 | 4 | 33 | 3 |
+| `/blog/zombie-survival-last-survivor-partnership-opportunities/` | article | zombie-survival-last-survivor | action-arcade | 6 | 3 | 29 | 2 |
+| `/blog/zombie-survival-roguelike-guide/` | article | zombie-survival-last-survivor | action-arcade | 16 | 10 | 31 | 2 |
+| `/blog/zone-vs-man-defense-basketball/` | article | pro-basketball-my-career-sim | sports-gm | 8 | 1 | 33 | 2 |
+| `/editorial-policy/` | static |  |  | 1263 |  | 20 | 1 |
+| `/partnerships/` | static |  |  | 1263 |  | 80 | 1 |
+| `/press/` | static |  |  | 1263 |  | 80 | 1 |
+| `/privacy/` | static |  |  | 1263 |  | 19 | 1 |
+| `/sports/` | sports-index |  |  | 1263 |  | 98 | 1 |
+| `/sports/baseball/` | sport-hub |  |  | 46 |  | 72 | 2 |
+| `/sports/basketball/` | sport-hub |  |  | 47 |  | 78 | 2 |
+| `/sports/combat-sports/` | sport-hub |  |  | 41 |  | 63 | 2 |
+| `/sports/cricket/` | sport-hub |  |  | 38 |  | 57 | 2 |
+| `/sports/football/` | sport-hub |  |  | 47 |  | 72 | 2 |
+| `/sports/golf/` | sport-hub |  |  | 39 |  | 58 | 2 |
+| `/sports/hockey/` | sport-hub |  |  | 46 |  | 69 | 2 |
+| `/sports/motorsport/` | sport-hub |  |  | 24 |  | 43 | 2 |
+| `/sports/rugby/` | sport-hub |  |  | 34 |  | 54 | 2 |
+| `/sports/soccer/` | sport-hub |  |  | 48 |  | 74 | 2 |
+| `/sports/tennis/` | sport-hub |  |  | 31 |  | 50 | 2 |
+| `/support/` | static |  |  | 1263 |  | 19 | 1 |
+| `/terms/` | static |  |  | 1263 |  | 19 | 1 |
+| `/tools/` | tools-index |  |  | 1263 |  | 48 | 1 |
+| `/tools/baseball/batting-average-calculator/` | tool |  |  | 7 |  | 30 | 2 |
+| `/tools/baseball/era-calculator/` | tool |  |  | 5 |  | 29 | 2 |
+| `/tools/basketball/four-factors-calculator/` | tool |  |  | 4 |  | 30 | 2 |
+| `/tools/basketball/per-36-calculator/` | tool |  |  | 4 |  | 30 | 2 |
+| `/tools/basketball/true-shooting-percentage-calculator/` | tool |  |  | 7 |  | 30 | 2 |
+| `/tools/combat-sports/fight-scorecard/` | tool |  |  | 4 |  | 29 | 2 |
+| `/tools/combat-sports/weight-class-finder/` | tool |  |  | 4 |  | 28 | 2 |
+| `/tools/football/passer-rating-calculator/` | tool |  |  | 4 |  | 29 | 2 |
 | `/tools/golf/course-handicap-calculator/` | tool |  |  | 7 |  | 28 | 2 |
-| `/tools/golf/handicap-index-calculator/` | tool |  |  | 5 |  | 28 | 2 |
-| `/tools/golf/stableford-calculator/` | tool |  |  | 3 |  | 28 | 2 |
-| `/tools/hockey/points-percentage-calculator/` | tool |  |  | 4 |  | 30 | 2 |
-| `/tools/hockey/save-percentage-calculator/` | tool |  |  | 4 |  | 29 | 2 |
-| `/tools/multi-sport/draft-lottery-simulator/` | tool |  |  | 4 |  | 28 | 2 |
-| `/tools/multi-sport/draft-order-generator/` | tool |  |  | 14 |  | 26 | 2 |
-| `/tools/multi-sport/elo-rating-calculator/` | tool |  |  | 7 |  | 27 | 2 |
-| `/tools/multi-sport/magic-number-calculator/` | tool |  |  | 7 |  | 28 | 2 |
-| `/tools/multi-sport/perfect-season-calculator/` | tool |  |  | 10 |  | 28 | 2 |
-| `/tools/multi-sport/pythagorean-expectation-calculator/` | tool |  |  | 20 |  | 27 | 2 |
-| `/tools/rugby/world-rankings-calculator/` | tool |  |  | 3 |  | 26 | 2 |
-| `/tools/tennis/win-probability-calculator/` | tool |  |  | 4 |  | 29 | 2 |
+| `/tools/golf/handicap-index-calculator/` | tool |  |  | 5 |  | 29 | 2 |
+| `/tools/golf/stableford-calculator/` | tool |  |  | 4 |  | 29 | 2 |
+| `/tools/hockey/points-percentage-calculator/` | tool |  |  | 4 |  | 31 | 2 |
+| `/tools/hockey/save-percentage-calculator/` | tool |  |  | 4 |  | 30 | 2 |
+| `/tools/multi-sport/draft-lottery-simulator/` | tool |  |  | 4 |  | 29 | 2 |
+| `/tools/multi-sport/draft-order-generator/` | tool |  |  | 14 |  | 27 | 2 |
+| `/tools/multi-sport/elo-rating-calculator/` | tool |  |  | 7 |  | 28 | 2 |
+| `/tools/multi-sport/magic-number-calculator/` | tool |  |  | 7 |  | 29 | 2 |
+| `/tools/multi-sport/perfect-season-calculator/` | tool |  |  | 10 |  | 29 | 2 |
+| `/tools/multi-sport/pythagorean-expectation-calculator/` | tool |  |  | 19 |  | 28 | 2 |
+| `/tools/rugby/world-rankings-calculator/` | tool |  |  | 3 |  | 27 | 2 |
+| `/tools/tennis/win-probability-calculator/` | tool |  |  | 4 |  | 30 | 2 |

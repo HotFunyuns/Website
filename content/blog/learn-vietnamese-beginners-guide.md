@@ -46,7 +46,9 @@
     "vietnamese-tones-explained",
     "vietnamese-alphabet-explained",
     "what-is-a-tonal-language",
-    "learn-thai-script-beginners-guide"
+    "learn-thai-script-beginners-guide",
+    "thai-consonant-classes",
+    "learn-vietnamese-partnership-opportunities"
   ],
   "takeaways": [
     "Vietnamese uses a Latin-based alphabet, which removes the script barrier that Thai, Khmer and Russian put in front of a beginner.",

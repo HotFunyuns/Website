@@ -40,7 +40,9 @@
     "how-to-meal-plan-for-the-week",
     "recipe-scaling-and-serving-sizes",
     "pantry-inventory-and-grocery-lists",
-    "added-sugars-vs-total-sugars"
+    "added-sugars-vs-total-sugars",
+    "food-storage-times",
+    "meal-prep-food-safety"
   ],
   "takeaways": [
     "Dishes that batch well are the ones where the texture is already soft and integrated — stews, braises, sauces, soups, pulses — because reheating cannot make them worse.",

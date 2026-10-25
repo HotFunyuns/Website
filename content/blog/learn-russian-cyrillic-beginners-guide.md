@@ -39,7 +39,9 @@
     "learn-cantonese-beginners-guide",
     "learn-thai-script-beginners-guide",
     "learn-malay-beginners-guide",
-    "russian-cursive-handwriting-guide"
+    "russian-cursive-handwriting-guide",
+    "russian-soft-and-hard-signs",
+    "learn-russian-partnership-opportunities"
   ],
   "takeaways": [
     "The modern Russian alphabet has 33 letters: ten vowel letters, twenty-one consonant letters and two signs that spell no sound of their own.",

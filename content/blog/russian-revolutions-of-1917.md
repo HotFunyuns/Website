@@ -48,7 +48,9 @@
   "relatedArticles": [
     "what-caused-the-bronze-age-collapse",
     "how-calendars-and-dating-systems-work",
-    "how-historians-date-events"
+    "how-historians-date-events",
+    "hundred-years-war-explained",
+    "causes-of-the-american-revolution"
   ],
   "takeaways": [
     "1917 contained two revolutions, not one: the February revolution that ended the monarchy, and the October seizure of power by the Bolsheviks roughly eight months later, with a contested period of divided authority in between.",

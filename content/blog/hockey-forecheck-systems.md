@@ -45,7 +45,8 @@
     "hockey-line-combinations-explained",
     "hockey-positions-explained",
     "hockey-career-archetypes-explained",
-    "hockey-draft-gm-guide"
+    "hockey-draft-gm-guide",
+    "hockey-draft-gm-manager-partnership-opportunities"
   ],
   "takeaways": [
     "Judge a forecheck by what it asks the first player in: in every system, the first forechecker should take an angle that pushes the puck carrier to one side rather than skating straight at him.",

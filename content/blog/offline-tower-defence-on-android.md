@@ -41,7 +41,8 @@
     "best-offline-sports-games-android",
     "tower-defense-strategy-basics",
     "why-free-android-games-show-ads",
-    "what-does-td-mean-in-games"
+    "what-does-td-mean-in-games",
+    "regal-tower-defense-partnership-opportunities"
   ],
   "takeaways": [
     "Tower defence punishes interruption harder than most arcade genres, because the unit you lose to a stall is a ten-minute level rather than a thirty-second run.",

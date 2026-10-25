@@ -39,7 +39,8 @@
     "lao-vs-thai-differences",
     "learn-lao-beginners-guide",
     "lao-tone-rules",
-    "is-vietnamese-hard-to-learn"
+    "is-vietnamese-hard-to-learn",
+    "lao-vowels-explained"
   ],
   "takeaways": [
     "Lao grammar is genuinely easy: no conjugation, no declension, no plural marking, no articles, and a familiar subject-verb-object order.",

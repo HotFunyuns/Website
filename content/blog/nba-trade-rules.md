@@ -46,7 +46,8 @@
     "salary-cap-basics-for-gm-games",
     "how-football-draft-order-works",
     "rebuild-vs-retool",
-    "basketball-draft-gm-guide"
+    "basketball-draft-gm-guide",
+    "how-the-nba-offseason-works"
   ],
   "takeaways": [
     "Start every trade check by placing each team's post-trade payroll on the ladder: under the cap, over it, above the first apron or above the second.",

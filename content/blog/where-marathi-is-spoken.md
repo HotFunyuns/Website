@@ -45,7 +45,8 @@
     "learn-marathi-beginners-guide",
     "marathi-vs-hindi-differences",
     "is-marathi-hard-to-learn",
-    "learning-english-from-marathi"
+    "learning-english-from-marathi",
+    "learn-marathi-partnership-opportunities"
   ],
   "takeaways": [
     "Marathi is one of the twenty-two languages listed in the Eighth Schedule to the Constitution of India, where the Department of Official Language records it at number twelve.",

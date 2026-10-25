@@ -46,7 +46,9 @@
     "coach-trust-and-playing-time",
     "soccer-career-sim-guide",
     "transfers-and-contracts-explained",
-    "energy-and-morale-in-match-decisions"
+    "energy-and-morale-in-match-decisions",
+    "football-career-soccer-league-guide",
+    "football-career-soccer-league-partnership-opportunities"
   ],
   "takeaways": [
     "Media duty in professional football is a contractual obligation, not colour. Major competition regulations require clubs to provide a press conference room, a mixed zone and substantial working facilities for accredited media at every match.",

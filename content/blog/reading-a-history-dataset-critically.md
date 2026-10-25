@@ -46,7 +46,8 @@
   "relatedArticles": [
     "choosing-a-history-app-for-students",
     "primary-vs-secondary-sources",
-    "how-to-study-history-on-your-own"
+    "how-to-study-history-on-your-own",
+    "world-history-timeline-sim-partnership-opportunities"
   ],
   "takeaways": [
     "Five questions cover most of it: does the content cite anything, does it separate speculation from record, does it label uncertainty, does it disclose who made it, and does it say what it is not for.",

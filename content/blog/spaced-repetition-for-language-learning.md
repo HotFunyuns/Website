@@ -51,7 +51,9 @@
   "relatedArticles": [
     "learn-cantonese-beginners-guide",
     "learn-russian-cyrillic-beginners-guide",
-    "russian-cases-explained-for-beginners"
+    "russian-cases-explained-for-beginners",
+    "cantonese-greetings",
+    "jyutping-explained"
   ],
   "takeaways": [
     "Spaced repetition combines two separate findings — that reviews spread over time beat reviews packed together, and that recalling something is a stronger learning event than rereading it.",

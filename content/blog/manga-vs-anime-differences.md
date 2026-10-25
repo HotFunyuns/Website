@@ -40,7 +40,8 @@
     "anime-terminology-glossary",
     "anime-genres-explained",
     "shonen-vs-seinen",
-    "anime-trivia-quiz-guide"
+    "anime-trivia-quiz-guide",
+    "anime-trivia-word-games-partnership-opportunities"
   ],
   "takeaways": [
     "The root cause of most divergence is scheduling: televised episodes are generally published faster than the manga chapters they adapt.",

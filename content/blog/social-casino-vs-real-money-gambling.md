@@ -54,7 +54,9 @@
   "relatedArticles": [
     "slot-volatility-explained",
     "slot-reel-mechanics-explained",
-    "why-free-android-games-show-ads"
+    "why-free-android-games-show-ads",
+    "anime-casino-slots-partnership-opportunities",
+    "big-jackpot-casino-slots-guide"
   ],
   "takeaways": [
     "The legal test is not how a game looks but whether a prize of money or money's worth can be won; the Gambling Act 2005 defines gaming as playing a game of chance for a prize, and defines that prize as money or money's worth.",

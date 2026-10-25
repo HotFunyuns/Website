@@ -52,7 +52,9 @@
   "relatedArticles": [
     "android-video-player-guide",
     "language-learning-apps-compared",
-    "protein-tracking-apps-compared"
+    "protein-tracking-apps-compared",
+    "stop-apps-using-mobile-data",
+    "free-up-storage-on-android"
   ],
   "takeaways": [
     "Swapping player apps rarely fixes a file that will not play, because on Android most decoding is done by the device rather than by the app.",

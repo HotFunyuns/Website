@@ -53,7 +53,8 @@
   "relatedArticles": [
     "net-carbs-explained-keto-tracking",
     "protein-sources-compared",
-    "how-much-protein-per-day"
+    "how-much-protein-per-day",
+    "how-to-read-protein-powder-labels"
   ],
   "takeaways": [
     "Serving size on a US label is a Reference Amount Customarily Consumed — a description of what people typically eat in one sitting, set by regulation, not a recommendation for you.",

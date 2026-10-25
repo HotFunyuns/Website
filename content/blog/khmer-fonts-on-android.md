@@ -47,7 +47,8 @@
     "learn-khmer-beginners-guide",
     "android-app-permissions-explained",
     "khmer-vs-thai-script",
-    "tracing-practice-for-new-scripts"
+    "tracing-practice-for-new-scripts",
+    "how-to-add-a-language-keyboard-on-android"
   ],
   "takeaways": [
     "Empty boxes mean the renderer found no font containing those characters — a font problem, not a corrupted file or a broken app.",

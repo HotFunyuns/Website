@@ -47,7 +47,9 @@
     "cefr-levels-explained",
     "spaced-repetition-for-language-learning",
     "comprehensible-input-explained",
-    "how-long-to-learn-italian"
+    "how-long-to-learn-italian",
+    "italian-prepositions-explained",
+    "learn-italian-partnership-opportunities"
   ],
   "takeaways": [
     "Word frequency is extremely uneven: a small set of very common words accounts for a large share of everyday speech, and the returns fall away sharply after that.",

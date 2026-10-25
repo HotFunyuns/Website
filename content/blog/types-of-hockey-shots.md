@@ -45,7 +45,8 @@
     "underrated-attributes-in-hockey-career-mode",
     "hockey-career-archetypes-explained",
     "hockey-positions-explained",
-    "hockey-draft-gm-guide"
+    "hockey-draft-gm-guide",
+    "hockey-career-games-compared"
   ],
   "takeaways": [
     "Choose a shot by the time you have: the less time and space, the shorter the release you can afford, so a quick wrist or snap shot beats a slap shot that never gets away.",

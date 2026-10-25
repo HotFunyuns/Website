@@ -46,7 +46,9 @@
   "relatedArticles": [
     "learn-cantonese-beginners-guide",
     "cantonese-tones-explained",
-    "spaced-repetition-for-language-learning"
+    "spaced-repetition-for-language-learning",
+    "cantonese-dim-sum-phrases",
+    "cantonese-numbers"
   ],
   "takeaways": [
     "Cantonese and Mandarin are separate spoken varieties within the Chinese family and are not mutually intelligible in conversation, so a course in one does not teach the other.",

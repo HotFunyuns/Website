@@ -1,0 +1,708 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person's review.",
+  "entries": [
+    {
+      "slug": "amateur-vs-professional-boxing",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All dates and figures checked against Wikipedia Amateur boxing and Professional boxing (3x3 rounds, 2009/2016 changes, headgear 1982-2016, 15-round era and WBC 12 rounds from 1983, 10-point must 1968, 1992/2011 scoring systems, 1960/1988/1996 controversies, IBA 1946 / IOC suspension 2019, World Boxing 2023 and provisional IOC recognition Feb 2025, Olympics 1904 except 1912, amateurs or professionals at Olympics, purse and sanctioning bodies). Recomputed card 38-37 and 37-37 draw. Replaced unsourced pacing generalisations with sourced 3-minute rounds (36 vs 9 minutes) and rest-between-bouts point; reordered so the worked example sits under a specific scoring H2; softened 10-9 \"most common\" to \"commonly seen\"; cut \"surprises many fans\".",
+      "contentHash": "sha256:71116127e8a9c259ad2967a733e72aea569e07fdf051e93cb33879ee259d7a5a"
+    },
+    {
+      "slug": "basketball-career-games-compared",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All four apps checked against appfacts (names exact incl. 'Basketball Game Franchise GM'; ads/IAP per catalog; Career Sim fictional, Franchise GM pool from real players' careers with the game's own ratings, Sandbox real-player rosters plus fictional expansion players per its live listing). Offline/no-account and fictional-money claims confirmed in the live Career Sim listing (probe61). Added the missing primary-app link /apps/basketball-career-pro-league/; recredited catalog-only facts (on-screen controls, single-player limitation, attention-per-session) from 'the listing' to the app page; cut an unsourced 'a single draft can be quick' comparison; intro now says listings and app pages; replaced secondary keyword 'best basketball career game'. Only own apps compared, so disclaimer none kept.",
+      "contentHash": "sha256:d7cdcf340f0620d4803b6ee45eff279470cdcff27b48b72e978920b117012dee"
+    },
+    {
+      "slug": "basketball-career-pro-league-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "App claims checked against appfacts and the live listing text (training in shooting/passing/defense, Auto Play, simulation, Broadcast camera, tutorial, box score, standings); screenshot-derived menus match catalog alt text; no IAP per catalog. Cut unsourced basketball generalisations (box score 'judges' roles, a 20-pt/2-ast vs 10/8 comparison, turnovers 'likely basket the other way', Auto Play 'teaches spacing') and replaced them with what the listing says about roles and comparing scoring/shooting/passing contributions.",
+      "contentHash": "sha256:30d76a0f5144ffac1352b8464503e5f36d8c000390b4cde9c1b020c4747872f0"
+    },
+    {
+      "slug": "basketball-league-sandbox-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every feature checked against appfacts and the live listing (Commissioner/Sandbox/Unlimited Draft, presets, trigger builder, replays with shot maps/momentum/Q4/final two minutes, 18-step offseason, connected leagues, real-player rosters with fictional expansion players, languages from catalog alt text). Removed unsourced generalisation 'Most basketball management games give you one franchise'; turned unsourced assertions about rule/finance/relegation effects into open questions for the player; 'default rosters' changed to the real-player rosters the listing describes. NBA named only via links to real-rules explainers.",
+      "contentHash": "sha256:cd151d22500b34458b7fba30cd02e2b38e1bfa75ba430914aca01e7d94385555"
+    },
+    {
+      "slug": "basketball-shot-selection",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia texts: eFG% and TS% formulas (0.5x3P; PTS/(2(FGA+0.44FTA))), NBA arc 23 ft 9 in and 22 ft corners since 1997-98, Morey favouring threes and layups over mid-range and co-establishing the Sloan conference, Curry credited with heavier three-point use, big men's high TS% via free throws. Recomputed all expected-points figures (1.20/0.80/1.08/1.17, 0.267 break-even, 1.00/1.05) and the eFG worked example (50% vs 10/14=71.4%). Fixed an error: 'down three, only a three ties' (an and-one two also ties). Cut unsourced claims ('game looks different from 30 years ago', corner threes 'in so many offensive designs', 'crowded at the rim' shot chart, FG% 'flatters'); added Wikipedia's mid-2015 three-point trend and its eFG rationale with a recomputed example; title changed from 'Why the Mid-Range Faded' (unsupported) to 'the Case Against Long Twos'.",
+      "contentHash": "sha256:8dc3e28b2da6016bf0097f57756f296498b90f12343df690457ec719080ecc75"
+    },
+    {
+      "slug": "boxing-prize-fighter-career-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "App claims checked against appfacts and the live listing fullDescription in scripts/play-verification.json. Removed an invented feature (\"some punches work from range and others only up close\") and replaced it with the listing text on moving into range; fixed statements credited to the listing that are catalog-only (\"over button-mashing\", \"between an arcade game and a simulator\", \"rather than cut-scenes\"); cut outcome-flavoured \"make you a better fighter\" and unsourced \"same three things real fights turn on\". Ads/IAP and limitations match catalog. Distinct intent from the partnership article.",
+      "contentHash": "sha256:4734851d73c4cdc35f7873a7df9f141324bf7ff0c508c85ae1585187ac7720df"
+    },
+    {
+      "slug": "boxing-punches-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Eight basic punches, power-punch definition, numbering 1-6, orthodox/southpaw, jab/cross/hook (rip)/uppercut (lift)/overhand (drop, overcut, defensive roll) mechanics, one-two as most common, rear uppercut + lead hook combination, haymaker and prohibited blows (rabbit punch, kidneys, below belt) checked against Wikipedia Boxing and Punch (combat). Cut unsourced \"rear punches carry more power\", \"trainers give numbers so a corner can shout\" and the corner-calls-combinations link text; jab purpose aligned to source.",
+      "contentHash": "sha256:70dcc26e476731b19c84d2edccd716b53753a55d3cdb8a46758f001a02151936"
+    },
+    {
+      "slug": "car-racing-pro-career-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All app claims checked against appfacts car-racing-pro-career and the live Play fullDescription (no steering, karting/junior start, decision list, career-mode list, fictional circuits, mph/km/h, ads + IAP). Rewrote an inaccurate undercut sentence (\"gap smaller than a pit stop's cost\") to a correct, linked description, and credited the track-type list (long straights, technical tracks, heavy braking zones, fast sweepers) to the listing instead of unsourced advice. No real series or drivers named. check.mjs clean (top 0.033), preflight clean.",
+      "contentHash": "sha256:f56fa616c59f98a0546b57416475a3658fc0a765526fbd6cd2f7ae95a050e7a9"
+    },
+    {
+      "slug": "double-double-triple-double",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All records checked against saved Wikipedia Double-double text: definition and five categories, most common combinations, four official quadruple-doubles (Thurmond 1974, A. Robertson 1986, Olajuwon 1990, D. Robinson 1994), steals/blocks recorded from 1973-74, Chamberlain 968 and 227 streak (Elias), Westbrook 209, season triple-double averages (Robertson once, Jokic twice, Westbrook four), 46 to 75 in 2015-16. Records table now dated 'as checked October 2026' since active totals change. Cut unsourced 'guards who rebound and big men who pass' and 'analysts pair' generalisations; replaced the position claim with Wikipedia's most-common-combination fact. Worked eFG example recomputed (8/20=40%; (6+1.5)/10=75%; 18 points each) and added the 2 free throws needed for player C's 18.",
+      "contentHash": "sha256:18885c08e5d936bcbb91fd6a32602c182fdeb024983e6fc11ff0930571a4192e"
+    },
+    {
+      "slug": "football-career-games-compared",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Compares only Reign Creative's own four football apps; all statements checked against appfacts for football-career-pro-league, football-career-sim, football-draft-gm-mode and football-league-commissioner (names exact: Football Franchise GM League is the current catalog name). Draft/GM app described as the game's own ratings of real players' careers; Football League Commissioner's real players credited to its screenshots per catalog; career sim fictional; non-affiliation stated; ads/IAP per catalog. Fixed: unsourced 'big enough to support four kinds' opener; 'most narrative' opinion and listing credit for Sim 2027's coach-trust line (catalog text, now credited to its page); 'consequences are visible' inference -> what the screenshot shows; replaced unsourced 'which skills each rewards / game film' paragraph with a catalog-grounded one; playbook limitation credited to the app's page; two headings retitled. check.mjs clean (top 0.046), preflight clean.",
+      "contentHash": "sha256:9db27c2f81fabbf4829a881e37ef2e116ad71d9a57674f8c5067e339d71db551"
+    },
+    {
+      "slug": "football-career-pro-league-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All app claims checked against appfacts football-career-pro-league and the live listing fullDescription: create a player, train passing/running/defense, prepare for the draft, earn a role, career/season/commissioner/Team Play modes, depth chart, training and equipment, daily rewards, trophies, three camera views, pause-menu saves and separate career saves (listing); 11-on-11 arcade, 17-game season, quick play and skill moves (store screenshots, now labelled as such); ads, no IAP. Cover 2/3 counting checked against the site's cover-2-vs-cover-3 article. Removed invented mechanics: 'coach's trust' (a Football Career Sim 2027 feature, not this app), 'careers turn on earning snaps', 'thumbs', the claim that the game reads defences 'the same as a real field', unsourced after-the-snap coaching tips, and 'try a quarterback and a defender' (catalog does not say positions are selectable). Commissioner mode now described only as far as the listing goes. Headings made specific. check.mjs clean (top 0.044 vs football-career-games-compared), preflight clean.",
+      "contentHash": "sha256:be99bbaf81211a9ff0a2abf3aac8b3cb431d53c343a1f60c2983b2f9a1d456fe"
+    },
+    {
+      "slug": "football-career-soccer-league-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "App claims checked against appfacts football-career-soccer-league and the live listing (career mode, team control, quick play, Spectate, match stats \"set your next target\", daily rewards, camera, no IAP, in-game title). Removed invented mechanics: off-ball decisions, camera-width advice, a gradual-growth design claim, AI width learning, position choice (not in catalog), offside implied as a game feature, and \"the career echoes\" academies. Credited \"played rather than menu-driven\" to the app page (catalog only). Added a mode-choice table drawn from catalog modes and audiences to restore the word count. No real clubs or players named.",
+      "contentHash": "sha256:db4322a9e4bd56d4a3da59cb4367538cd2592742cec10e6795e49106ed154804"
+    },
+    {
+      "slug": "football-league-commissioner-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All app claims checked against appfacts football-league-commissioner, its three store-image alt texts (Commissioner's Office scores/agenda/Simulate Week; operations menu with schedule creator, special events, transaction approvals, league economics, expansion/relocation/realignment; owners and media deals) and the live listing fullDescription (rules, expansion, relocation, sandbox, Unlimited Draft, game/week/season/playoff simulation, observer mode, Yearbook/timelines/records/awards, multiple saves); quoted listing phrases verified verbatim. Real players credited to the screenshots, ratings as the simulation's own estimates, non-affiliation stated; ads/no IAP. Replaced an unsourced 'Thinking like a commissioner' section (claims about expansion fees, talent dilution, relocation anger) with a catalog-grounded method for testing one decision using saves and history; cut 'most football games' opener, 'fair picture of what real commissioners balance', invented sandbox description and 'standard league' start option. Headings made specific. check.mjs clean (top 0.042), preflight clean.",
+      "contentHash": "sha256:2f2ef3adc7a849b98d6bb36ff960ff409600f93d2e40266838155f36c81d866f"
+    },
+    {
+      "slug": "hockey-career-games-compared",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Compares only Reign Creative's own three hockey apps (no competitor claims, so disclaimer none is correct). Every app statement checked against appfacts for hockey-career-pro-league, hockey-career-sim and hockey-draft-gm-manager; names exact. Draft/GM app described per the catalog as a pool built from real-world players' careers with the game's own estimated ratings (never as fictional); career sim described as fictional; non-affiliation stated. Fixed: 'coach trust' (not in catalog) -> statistics, awards, relationships with coaches; 'take a risk' and listing-credited balance claim reworded to the app pages' own wording; 'takes practice' credited to the app page, not the listing; replaced an unsourced filler section (backchecking forwards, 'reading a real game differently', power-play claims) with a short grounded one; removed the 'hockey games tend to' generalisation; added catalog facts (offline play; quizzes/challenges) to reach the word floor; retitled two headings. check.mjs clean (top 0.030), preflight clean.",
+      "contentHash": "sha256:8ccd6277f7e695727cb18199a17989087195c7d36c829ff0e9d41b5dc8811ac2"
+    },
+    {
+      "slug": "hockey-career-pro-league-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All app claims checked against appfacts hockey-career-pro-league and the live listing fullDescription (scripts/play-verification.json): Career Single Control/Team Control and switching, off-puck play, coach objectives, A-F shift grades, training and practice drills, 32 teams and 84-game schedule (listing); multiple career saves (store image alt text); Hockey Pro Career League in-game title; ads + IAP; names Hockey Career Sim 2027 and 84-0 Hockey Draft & GM Manager exact. Removed invented mechanics (defenceman earning top grades by holding position, forwards graded poorly for chasing points, grades as a sign of 'earning trust', Team Control 'closer to a traditional game'); cut unsourced real-hockey claims ('most of a shift is spent without the puck', offside 'stops most early attacks'); moved 'controlling a skater takes practice' credit from the listing to the app's page (catalog-only). Non-affiliation stated; league format called the game's own. Headings made specific. Distinct from the partnership and games-compared articles. check.mjs clean, preflight clean.",
+      "contentHash": "sha256:3d612444f9cf677c0218740bc81035ade394909016935038b52f79451d4b81ad"
+    },
+    {
+      "slug": "how-does-the-nfl-draft-work",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Origin (Kostka 1935, 1936 Ritz-Carlton 8 Feb), Mara/Strong $6,000->$3,200, three-years-out eligibility and redshirt rule, Combine, Pro Days, all-star games, 7x32 + 32 compensatory, 2026 dates (fourth Thursday-Saturday of April), 2010 three-day format, New York 1965-2015, pick clock (8/7/5/4; 15->10->8 min), three-cycle trading, Mr. Irrelevant/Salata 1976 checked against Wikipedia 'NFL draft'; 17 games, 18 weeks, 272 matchups against NFL Football Operations. The official 'rules of the draft' page now 404s, so Wikipedia remains the rules source; article now states it describes the 2026 draft. Recomputed 7x32=224, +32=256, 32x8=256 min. Changes: 256 qualified as 'before extra awards' and added Resolution JC-2A picks per Wikipedia; 'underclassmen' corrected to juniors since the 2024 draft; cut an unsourced editorial claim about bargaining power and 'many teams pick sooner'; undrafted/rookie-contract lines now match Wikipedia (rookie salary cap set in the CBA with the NFLPA); schedule line corrected to the NFL's own wording; all six headings made topic-specific. App claim (prepare for the draft, earn a role) matches catalog. Distinct from how-football-draft-order-works (order/tiebreakers). check.mjs clean, preflight clean.",
+      "contentHash": "sha256:ef609e4301b7ee544cfc15ff4150ba6e629ed9b4d3f2054a6c35f9bc5f731e35"
+    },
+    {
+      "slug": "how-long-is-a-hockey-shift",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every study figure checked against the saved PubMed abstracts: Green 1976 (10 games, 20.7-28.0 min, 14-21 shifts, 85.4 s/shift, 2.3 stoppages of 27.1 s, 39.7 s continuous), Montgomery 1988 (15-20 min, 30-80 s shifts, 4-5 min recovery, >90%/~85% HRmax, lactate, glycogen), Vigh-Larsen & Mohr 2024 (30-80 s, 15-25 min, ~50% distance at high intensity, forwards vs defensemen, PCr, glycogen, late-game decline). Line change/on-the-fly and NHL four lines/three pairs against Wikipedia 'Ice hockey'; icing no-change rule against Wikipedia 'Glossary of ice hockey terms' (fetched 2026-10-25). Recomputed 20x45 s = 15 min, 25x50 s = 20.8 min, 1976-2024 = 48 years. Replaced unsourced causal claims ('energy runs out so coaches send fresh players', 'managing shift length matters most late on', 'fresh legs keep the pace high', 'short by the standards of almost any other sport') with the reviews' own wording; cut an unsourced coaching-advice paragraph; added the glossary's note that not all leagues use the icing rule; retitled four headings. App claims (shift grades A-F against coach objectives) and name 'Hockey Career Pro League Game' match catalog. check.mjs clean, preflight clean.",
+      "contentHash": "sha256:1bfab33f3c8e80fce412fddde3887a0cda0d92aba7226f3a1ec4f18fdad44cc5"
+    },
+    {
+      "slug": "how-racing-qualifying-works",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified Q1/Q2/Q3 18/15/13 min, 7-min breaks, six eliminated per stage at 22 cars (5 at 20, 7 at 24), times deleted, classification 1-10/11-16/17-22, identical-time and no-time ordering, 107% rule, stewards' discretion, control-line rule, SQ1/2/3 12/10/8 and 2-3 h after FP3 against FIA 2026 F1 Sporting Regulations Section B Issue 09 (B2.2, B2.4); history (pre-1996 two sessions, 2003 single lap, knockout since 2006, FP format) against Wikipedia Formula One race weekend. Named the edition (Issue 09, 1 Oct 2026) in the intro; cut unsourced \"most motorsport\" and grid-advantage lines; noted the grid is formed under B2.5 after grid penalties and relabelled the table as qualifying positions; replaced the unsourced fresh-tyres/low-fuel bullet with the B6.3 allocation (max 13 dry sets, Q3 set held back); re-sourced the parc ferme start to Article B3.5. Recomputed 80.000 x 1.07 = 85.600 s.",
+      "contentHash": "sha256:9de80e8fec7df6cb6ff346b8a38aa206620aca1832fe6a1a48de8a6e70d874f1"
+    },
+    {
+      "slug": "how-sports-schedules-are-made",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Circle-method table verified programmatically (5 rounds, 15 unique pairs, each team once per round); round-robin arithmetic recomputed (190/380, 19/38 rounds; 272 NFL games). NFL formula, 17 games/18 weeks, every-division-every-four-years rotation, January club information, thousands of cloud computers, nine 2026 international games incl. Melbourne/Paris/Rio, 2006 flex scheduling, Week 18 timing and 9/8 home-game alternation all checked against the saved NFL Football Operations page; dummy-competitor bye and fairness wording against Wikipedia. Removed 'increasingly' and the unsourced 'usually home and away' double round-robin claim, softened 'tends to bring tougher opponents' to the formula's same-rank matching, fixed the round-robin takeaway.",
+      "contentHash": "sha256:88cb2a6ec7e568ae3659f084dc69e23a08f694276efc5e35781d1a7e676d00f6"
+    },
+    {
+      "slug": "how-the-mlb-draft-works",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "History (1964 bonus war, Reichardt $200,000, 8-9 June 1965, Monday $104,000), eligibility table, re-draft rule, undrafted free agency, round history (50/40/5/20 + 2021 compensatory picks), PPI picks and Bill James quote checked against Wikipedia 'Major League Baseball draft'; lottery (18 clubs, six picks, 16.5% bottom three, repeat-winner limits, ineligible club no higher than 10th) and 75% physical guarantee against MLB.com Rule 4 glossary and 'draft rule changes with new CBA'; 2026 eligibility (15 of 18; Rockies, Nationals, Angels) against MLB.com 2026 lottery odds; bonus-pool tiers against Rule 4 glossary. Recomputed tax examples (0.75x400k=300k, 0.75x800k=600k) and 104/200 = 0.52. Added that the rules are those for the 2026 draft under the 2022 CBA; dated the NBA/NHL/NFL lottery comparison to 2022 as MLB.com wrote it; replaced unsourced 'most draftees start in the minors' with Wikipedia's wording; cut unsourced 'lotteries exist to blunt tanking' and 'teams now weigh both'; attributed the young-draftee finding to Jazayerli/Baseball Prospectus; retitled three generic headings. check.mjs clean, preflight clean.",
+      "contentHash": "sha256:2f3c01017306b7d2a95027ccd15377fa7d0dc74b6bdbbfac4189aef8140b7739"
+    },
+    {
+      "slug": "how-the-nba-offseason-works",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every date checked against saved NBA.com 2026-27 key dates (early entry 24 Apr, lottery 10 May, combine 10-17 May, NCAA withdrawal 27 May, 13 Jun withdrawal/Finals G5, draft 23-24 Jun, camps 22 Sep/28-29 Sep, preseason 3 Oct, rosters 19 Oct, opener 20 Oct, summer leagues), the Starting 5 primer (14 Jun own-FA window, 29 Jun options, 30 Jun 6 p.m., 6 Jul 12:01 p.m.), the free agency explainer (QO window and 1 Oct expiry, moratorium rules and allowed signings, non-binding agreements) and the 2026-27 cap release (all six figures). Knicks title from NBA.com; Jordan 2015, moratorium 10 to 5 days and the 15 December trade rule from Wikipedia. Fixed one misattribution: the no-affiliation statement is on the Sandbox app page, not its listing. Current season stated (2026 offseason / 2026-27).",
+      "contentHash": "sha256:4946e9e1745743093fa43efafbc83a58e6c6974a3a6d80e95a1fb995b6d338be"
+    },
+    {
+      "slug": "league-sandbox-vs-franchise-gm",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Recredited many catalog-only claims (Franchise GM's eight formats, value vs fit, 'readable from your first run', long-term-plan wording; Sandbox's 'takes time to learn' and audience) from 'its listing' to the app pages; listing-supported Sandbox claims kept. Wikipedia GM definition corrected ('often' hiring coaches -> 'may also'). ZenGM's Basketball GM is described from basketball-gm.com (free single-player GM game, since 2008) as a disambiguation; because that is a claim about another company's product, set disclaimer to 'comparison' with researchDate 2026-10-24 per content-spec rule 6. Draft app described as built from real players' careers with the game's own ratings; never called fictional.",
+      "contentHash": "sha256:e3ae6fda5e2949641dcf156c8a86f831e7b59f3ea465023494c7b68203bfa430"
+    },
+    {
+      "slug": "links-vs-parkland-golf-courses",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Links facts (oldest style, hlinc, browntop bent/red fescue, running game, landing short, few trees/water, hand-shaped, pot bunkers, wind, outward/inward nines, Open always on links, Whistling Straits 2004, Chambers Bay 2015) checked against Wikipedia Links (golf); parkland/heathland/true links/Augusta against GOLF.com six types; drainage, clay/silt, heathland dryness and wind drying against Golf Monthly. Re-attributed Whistling Straits in the FAQ to Wikipedia (GOLF.com does not say it); replaced an unsourced opener. PGA Tour mention is GOLF.com-attributed and nominative (preflight note acceptable). App claims match appfacts golf-career-simulator (decision-based shots incl. wind and course conditions; fictional tours/events/golfers).",
+      "contentHash": "sha256:45af0ef2305d007254e323f4dc8c83a52dbdcfd6b4b35111d00d4bcd6f8f0e16"
+    },
+    {
+      "slug": "motorsport-career-ladder",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Super Licence requirements (age 18/17, 40 points over three seasons, 80% of two seasons, June 2024 road-licence change, FP-only licence criteria, Macau bonus points, categorisation split, 5 events/3 circuits) and the points table (F2 40/40/40/30/20/10, F3 30/25/20/15/12/9, FRECA 25/20/15/10/7/5, F4 12/10/7/5/3/2; \"as of March 2026\") checked against Wikipedia FIA Super Licence; F4 claims against Wikipedia Formula 4; karting against Wikipedia Kart racing. Added FIA 2026 F1 Regulations Section A Issue 03 (Licences) as source for the Super Licence requirement. Corrected the 30-point discretion, which Wikipedia ties to a COVID-19 amendment, in body and FAQ; removed unsourced \"most careers\", \"every F1 driver\" and \"each faster\" generalisations. Recomputed 15+15+10=40 and 15+15+8=38.",
+      "contentHash": "sha256:55740b27a46d8aa7147f4dddd61fc3b6f7aabd81f0e42bb17adfe21bb40c4fa8"
+    },
+    {
+      "slug": "quality-start-baseball",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Definition, Lowe/1985 origin, tough loss/cheap win checked against MLB.com Quality Start glossary; ER and ERA formula (9 x ER / IP) against MLB.com Earned Run and ERA glossaries (added the Earned Run glossary URL as a source); criticisms, Bill James 1984-91 average 1.91, Erskine quote, The Athletic 'garbage', records against Wikipedia 'Quality start'. Recomputed 3/6x9=4.50, 4/9x9=4.00, 4/21x9=1.71. Corrected the outdated single-season streak record (Framber Valdez 25 in 2022 per Wikipedia, not deGrom 24); labelled Maddux/Gooden figure 'as of end of 2014' as the source does; replaced 'best-known criticism since it appeared' with the source's 'early criticism' (Moss Klein) that persisted; cut unsourced claims (widely quoted on broadcasts; wins depend on run support). Retitled generic headings. App line now limited to catalog stats (ERA, WHIP, strikeouts, wins, saves); career sim described as fictional. Distinct from what-is-era-in-baseball and fip-vs-era. check.mjs clean (top 0.011), preflight clean.",
+      "contentHash": "sha256:7f674f4b2d4ec66d5ed43e208d9b58dbbefc087532dcd0354d331a4845acb4a6"
+    },
+    {
+      "slug": "racing-car-setup-basics",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Downforce (compromise with drag, square of speed, minimum speed, unstable aero on some cars, track-dependent setup), anti-roll bar balance, camber (contact patch, wear, straight-line traction) and understeer/oversteer push/loose checked against the saved Wikipedia pages. Parc ferme section rewritten to the current FIA 2026 Sporting Regulations Issue 09 Article B3.5 (no part replaced/modified, no setup change except Appendix B2 work or Technical Delegate approval; pit-lane start on breach), because the Wikipedia climatic-change exception is not in the 2026 text; same fix in the FAQ. Appendix B2 items verified. Cut an unsourced opener, \"braking stability\" and \"slow hairpins rely on mechanical grip\". Recomputed (200/100)^2 = 4.",
+      "contentHash": "sha256:7522fddebb7843c22f13a4cd0be8f163d84933914fb0814817ec1a7bffe520b1"
+    },
+    {
+      "slug": "racing-flags-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every flag meaning and procedure (20 cm red-flag line, pointless speeding, invalid lap after red, black flag max four laps and stewards' decision, orange disc, diagonal warning, single/double yellow wording, braked earlier, yellow-red stripes, blue flag by session, white, green, Code 60 at 60 km/h, FCY/VSC boards, SC waved yellows + SC boards + orange lights) checked against FIA Appendix H 2026 (saved text). US differences (white = final lap, single yellow caution, NASCAR green+yellow) checked against Wikipedia Racing flags. Removed unsourced \"300 km/h\" and \"every circuit uses\" (Appendix H is recommendations), separated the lap-validity point from the speeding rationale, and replaced an unsourced red-flag-resets-tyres line with a link to the safety-car article. NASCAR/IndyCar named nominatively with citation.",
+      "contentHash": "sha256:26f96333899dff73a2066f365030628dc6669a294455730044f2c1cb9e77766c"
+    },
+    {
+      "slug": "racing-line-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Line shape, apex, late/early apex (\"largely considered a beginner mistake\"), Ross Bentley rule of thumb (paraphrased), Maggots/Becketts compound corners, optimisation and Euler spiral, skid marks checked against Wikipedia Racing line; trail braking against Wikipedia Trail braking; v^2/r against Centripetal force. Recomputed sqrt(1.5 x 9.80665 x r): 27.1/38.4/54.2 m/s = 98/138/195 km/h; sqrt 2 = 1.41. Replaced an unsourced opener and rubber-stripe line, a \"drivers often\" takeaway and invented defending/attacking techniques; added the sourced trail-braking release point and over-braking caution, keeping the word count above the gate.",
+      "contentHash": "sha256:5295cf8c086308eeec193a5d4088752a1ef332824b0c143d9b21e877624ed233"
+    },
+    {
+      "slug": "racing-points-systems",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Points tables, sprint scale, two-green-lap minimum and dead-heat checked against FIA 2026 Section A Issue 03 (A2.2) in pdf_f1gen.txt; count-back tie-break is A2.1.4c (same document). History (top 5/6/8/10, 8/9/10/25 per win, fastest-lap point 1950-59 and 2019-2024, abolished 2025, 2014 double points, 1950-57 shared points, best-results counting) checked against Wikipedia points-systems list. Recomputed 3x25=75 vs 5x18=90 and the 7-point 1st-2nd gap. No edits needed. App claim (standings, records, milestones across seasons) matches catalog.",
+      "contentHash": "sha256:eca61defbd54a1e0e1b8dd22fc3b7feea6eaa867c4bbd97cbcee78e49b27259b"
+    },
+    {
+      "slug": "racing-tire-strategy",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Corrected a factual error: article said a driver may use no more than 12 dry sets at a standard event; FIA 2026 Section B Issue 09 B6.2.4/B6.3.4 gives 13 at a Standard Format event (2H/3M/8S) and 12 at alternative-format/ICTT events - fixed body and FAQ, added sprint split. Replaced inaccurate claim that sets used in practice/qualifying cannot be used in the race with the actual rule (used once it leaves pit lane; sets returned after each FP). Removed unsourced overheating claims for inters/wets from the table. Verified B6.1.1 supply, B6.1.2b mandatory race spec two weeks prior, B6.3.7 two-compound rule; Wikipedia F1 tyres for colours, C1-C5, grip/durability, Q3 soft set history. Recomputed 30x0.5=15 vs 22 and 30x0.9=27.",
+      "contentHash": "sha256:fc9a3d4f18abdc7c4734aee347df222c992f9e7f5dd9169c15206e1aef3c11c3"
+    },
+    {
+      "slug": "rugby-career-paths",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against saved RFU pages (boys pathway: nomination, showcase, regional sessions, U13 club-address criterion, non-linear quote, entry/exit points, Development selection, U18 academy league; MPGP: phases 15-16/17-18/19-20, eight-year term, 25-player Enhanced EPS, 50-player U20 EPS, four England A matches, salary cap from 25/26, Yorkshire academy, two state-school partnerships; girls PDG; age grade), World Rugby Reg 8 text, the birthright (1 Jan 2022, 36 months, once, approval) and 1 Aug 2024 registration notices, World Rugby history (August 1995), Wikipedia PWR (semi-professional, nine clubs) and England women (31 Jul 2026, 32 + 6 contracts). Corrected girls' hubs from eight to nine (the RFU lists nine centres, named after Red Roses); replaced unsupported \"captured from 18 since 2022\" with the guideline age-of-majority (18th birthday) wording. Worked example re-checked (17 + 60 months = 22; a transfer needs an 8.1(a)/(b) link). App claims match appfacts rugby-career-sim.",
+      "contentHash": "sha256:4084d900837634c92764f8c736727bfc418ffb931f9765d907f1da6f3a88cb83"
+    },
+    {
+      "slug": "safety-car-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every VSC/SC rule checked line by line against FIA 2026 Section B Issue 09 B5.12/B5.13 (deployment messages, minimum ECU time, penalties, overtaking exceptions, tyre-change-only pit entry, VSC ENDING 10-15 s, 10/20 car lengths, lapped cars, pit-lane routing drive-through, restart pace, last-lap rule, laps counted). Wikipedia Safety car: 1993 introduction after 1992 trials, VSC 2015 and first use Monaco 2015, bunching effect, pit-stop advantage. Cut unsourced \"other series often resemble\" and \"teams react within seconds\"; replaced unsupported VSC \"gaps kept\" table cell.",
+      "contentHash": "sha256:ef69291b9dffb1432839f7f9dfc0cb16c3e97f76b96f6bdbd69df26e5e6aa908"
+    },
+    {
+      "slug": "slipstream-and-drafting",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Wikipedia Drafting (aerodynamics) checked for definition, low-pressure wake, less drag for both cars, F1/IndyCar straight-line pass, dirty air in fast corners, downforce balance, radiator overheating, NASCAR restrictor-plate tracks (Talladega, Daytona, Atlanta) and post-2020 Newman crash changes. Overtake/Detection Gap/activation and enabling/disabling rules and Straight/Corner Mode bodywork checked against FIA 2026 Section B Issue 09 B7.1-B7.2. Cut unsourced qualifying-tow claim and filler \"most misunderstood\" line (replaced with sourced 1960 Daytona 500 discovery); rewrote three tips so each rests on a sourced point.",
+      "contentHash": "sha256:48920ba42a2305a587b66d9a0f251e7774685defc4c9209a6d97a379e8e3af9c"
+    },
+    {
+      "slug": "soccer-career-games-compared",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Three-app comparison checked against appfacts for football-career-soccer-league, soccer-career-sim-xi and soccer-draft-gm-xi (modes, Coach Trust tiers, career stages, draft formats, ads/IAP flags, short-session claim from the GM app FAQ). Added the missing primary-app body link to /apps/football-career-soccer-league/. Corrected the GM app description to the provenance wording (pool built from real-world players' careers, game's own estimated ratings) in the table and takeaway; replaced invented \"created player\", \"eleven forwards\" and XI Sim session-length claims; removed the implication that Soccer League implements offside. Compares own apps only, so disclaimer none is appropriate.",
+      "contentHash": "sha256:aad8f50c4adae732baef38d27593f19e375fcde5277c14c43aeabb84eaaa3ac4"
+    },
+    {
+      "slug": "undercut-vs-overcut",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Undercut/overcut definitions, traffic failure modes, overcut as less common and tyre warm-up checked against Wikipedia Pit stop and Glossary of motorsport terms; 80 km/h pit limit and fine per km/h against FIA 2026 Section B Issue 09. Recomputed 400 m at 80 km/h = 18 s vs 6 s at 240 km/h, and both worked scenarios (1.2 s, 0.4 s). Cut unsourced \"overtaking in the pit lane is often easier\" and \"teams calculate pit loss\"; replaced \"will usually stop\" with the sourced two-compound reason for at least one stop.",
+      "contentHash": "sha256:3bf5ea2c03689ceba4201963a97b51e53263b2cb8ec79152730cd199d72e0df9"
+    },
+    {
+      "slug": "wet-weather-racing",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Corrected an error: step 4 said every lap behind the safety car at a wet start counts toward distance; FIA 2026 B2.5.2a/B5.10 says race laps are reduced by SC laps minus one - fixed. Verified rear lights, two-compound exemption (B6.3.7), B5.10 messages at 10/5 minutes and 10/20 car lengths, 107% wet exemption, 5 inters/2 wets allocation, A2.2 shortened-race points, Appendix H yellow/red-striped flag and 4-lap display (pdf_apph.txt), Wikipedia tyres and Aquaplaning. Removed cliche opening, unsourced \"teams call it the crossover\" and \"worse than\" aquaplaning claim. Recomputed 15x2=30 vs 22, 8x2=16 vs 22.",
+      "contentHash": "sha256:31a346c3a590b4db37233ad4017a9c244c0155970e87dcde6b8894d47828fa42"
+    },
+    {
+      "slug": "what-does-a-boxing-corner-do",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Updated the World Boxing source to the current edition (Competition Rules in force November 2024; the article cited the February 2024 edition) and re-verified seconds count, apron/ring limits, towel retirement except during a count, ABD, Enswell/ice/gauze, adrenaline 1/1000 and non-petroleum jelly, no inciting spectators (rules 3.1-3.2, 9.4). Minnesota professional rules checked for 3/4 seconds, round/rest-period duties, 10-second whistle, apron signal not towels, referee-only stoppage, pre-bout duties, disqualification for corner conduct. Wikipedia Cornerman/Cutman checked. Recomputed 60-10=50 s and 11 breaks in 12 rounds. Cut \"good corners prioritise\" and \"most visible skill\"; reframed the pros section heading.",
+      "contentHash": "sha256:05770adea1803459efe539d730e73356ca83a92fd672070e986f14043b271ba6"
+    },
+    {
+      "slug": "what-does-a-sports-agent-do",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Fee rules checked against the saved NFLPA Regulations Governing Contract Advisors (3% max; 2%/1.5%/1% tender tiers; 1.5% SRA default unless both initial) and the NBPA Regulations Governing Player Agents as amended September 2025 (4%, 2% minimum seasons judged per season with its three-year example, first-round rookie-scale greater-of rule, compensation definition). All fee arithmetic recomputed (300k, 150k, 1.44m, 400k, 24k; rookie illustration 40k vs 200k vs 24k). Wikipedia sports agent claims (definition, UAAA, certification, FIFA 2015 intermediary rules, EU AML from 10 July 2029) confirmed. Body now names the NFLPA edition the union hosts (amended through August 2016; no newer edition found by web search). Cut 'most professional contracts' generalisation and the implication that the career sims model agents (they model contracts/brand deals/free agency per catalog). App name 'Football Career Sim 2027' matches the current catalog.",
+      "contentHash": "sha256:ed32b874fbfee90854b674aba604aec00d3e69b4e127db723679f2a82ccfbc71"
+    },
+    {
+      "slug": "what-does-a-sports-commissioner-do",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against saved Wikipedia commissioner articles (MLB, NFL, NBA): chief executive role, owners' vote, Landis and 'best interests of baseball', Black Sox, non-baseball men, NFL title change 17 Jan 1941, Bell's three-year $20,000 contract, Rozelle after 23 ballots, Stern's 2-3-2 Finals format (1985), Silver's Sterling ban and $2.5m maximum fine, Stern's Oct 2012 announcement and Silver as deputy commissioner/COO, current holders and start dates, Manfred elected 14 Aug 2014. Removed unsourced 'person at the microphone', 'NFL has often looked inside' and 'NBA has favoured internal succession' generalisations; replaced unsourced scheduling/expansion table rows with the umpiring and marketing/labour/TV contract duties Wikipedia gives for MLB's office; softened interpretation of the Sterling ruling; corrected takeaway and FAQ to match.",
+      "contentHash": "sha256:ca364fc130543fce2e4ca3e54ffd7077a69acda86de5650d43ea0ffef44bac74"
+    }
+  ]
+}

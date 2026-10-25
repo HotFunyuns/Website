@@ -50,7 +50,9 @@
     "major-eras-of-world-history",
     "how-historians-date-events",
     "what-caused-the-bronze-age-collapse",
-    "primary-vs-secondary-sources"
+    "primary-vs-secondary-sources",
+    "the-aztec-empire-explained",
+    "athenian-democracy-explained"
   ],
   "takeaways": [
     "The explanations sort into four families — gradual malaise, a single dominant cause, catastrophic collapse, and transformation rather than fall — and they disagree about what needs explaining, not only about the answer.",

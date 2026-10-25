@@ -38,7 +38,9 @@
   "relatedArticles": [
     "learn-thai-script-beginners-guide",
     "learn-khmer-beginners-guide",
-    "learn-russian-cyrillic-beginners-guide"
+    "learn-russian-cyrillic-beginners-guide",
+    "jyutping-explained",
+    "learn-cantonese-partnership-opportunities"
   ],
   "takeaways": [
     "Cantonese and Mandarin are not mutually intelligible when spoken, so study material written for Mandarin will not teach you Cantonese.",

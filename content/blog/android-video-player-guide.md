@@ -46,7 +46,9 @@
   "relatedArticles": [
     "mental-math-training-guide",
     "world-history-timeline-guide",
-    "picture-in-picture-on-android"
+    "picture-in-picture-on-android",
+    "audio-out-of-sync-on-android",
+    "hdr-video-on-android"
   ],
   "takeaways": [
     "MP4, MKV and MOV are containers — boxes that hold tracks. H.264, H.265, VP9 and AV1 are codecs — the way the picture inside is compressed. The file extension names the box, not the contents.",

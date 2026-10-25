@@ -37,7 +37,8 @@
   "relatedArticles": [
     "golf-scoring-explained",
     "golf-course-management-basics",
-    "golf-career-sim-guide"
+    "golf-career-sim-guide",
+    "golf-career-simulator-partnership-opportunities"
   ],
   "takeaways": [
     "Take free relief only when the condition touches your ball or physically interferes with your stance or swing; something that merely distracts you, or sits on your line off the green, does not qualify.",

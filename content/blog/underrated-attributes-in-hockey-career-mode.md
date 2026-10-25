@@ -47,7 +47,8 @@
     "plus-minus-and-hockey-stats",
     "hockey-career-sim-guide",
     "faceoff-rules-hockey",
-    "how-does-the-nhl-draft-work"
+    "how-does-the-nhl-draft-work",
+    "hockey-career-pro-league-partnership-opportunities"
   ],
   "takeaways": [
     "Nine attributes develop through training in Hockey Career Sim 2027 — skating, shooting, passing, puck control, checking, positioning, stamina, awareness and goaltending — and most players pour everything into the first two.",

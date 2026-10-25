@@ -49,7 +49,9 @@
   "relatedArticles": [
     "why-rome-fell",
     "the-silk-road-for-beginners",
-    "primary-vs-secondary-sources"
+    "primary-vs-secondary-sources",
+    "causes-of-the-american-civil-war",
+    "the-aztec-empire-explained"
   ],
   "takeaways": [
     "These five states had different constitutions, economies, religions and lifespans, and collapsing them into one undifferentiated 'precolonial Africa' loses everything that makes each one interesting.",

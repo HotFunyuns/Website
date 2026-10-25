@@ -40,7 +40,8 @@
     "russian-cases-explained-for-beginners",
     "choosing-russian-verb-aspect",
     "russian-verbs-of-motion",
-    "russian-vowel-reduction"
+    "russian-vowel-reduction",
+    "russian-numbers"
   ],
   "takeaways": [
     "Case endings mark who does what to whom, which frees word order from that job and leaves it free to do a different one.",

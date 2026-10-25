@@ -1,0 +1,672 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person's review.",
+  "entries": [
+    {
+      "slug": "bullet-journaling-for-beginners",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against Wikipedia 'Bullet journal' (saved text + wikitext): Ryder Carroll, late-1990s origin, shared online 2013, single notebook, dotted journals, 2018 book, daily log takes most of journal, index front/back, key at beginning, image-caption notation (bullet incomplete, x completed, > migrated), hour-a-day vs few-minutes styles. Masicampo & Baumeister 2011 abstract (PMID 21688924) checked: intrusive thoughts, specific plans eliminated effects, mediated by earnestness. Fixed 'most journals share these parts' (Wikipedia: daily/monthly/future commonly included, many have an index, usually a key) and replaced the unsourced 'Where' column (future/monthly log placement) with Wikipedia's placements or 'Not specified'; labelled the do/move/drop routine as this guide's suggestion; 'Writing plans down' -> 'Making specific plans'; cut unsourced 'more likely to survive' and 'one of the most popular' trackers; sourced the intimidation/social-media line to Wikipedia; renamed generic 'Mistakes beginners make' heading. App suggestions (checkboxes, pinned-note widget, planner due dates, journal calendar) match catalog.",
+      "contentHash": "sha256:87bb14319a91548c4c2286ad38022aaf8504c802aa63245c4839ad275b201596"
+    },
+    {
+      "slug": "daily-planner-vs-to-do-list",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against Wikipedia 'Time management'/'To-do list' saved text: Ivy Lee numbered list, Lakein ABC 1973, Eisenhower quadrants (now / end date / delegate / drop), David Allen quote (attributed, under 25 words). Timeboxing: 'maximum unit of time', deadline fixed so scope reduced. Planning fallacy: Kahneman & Tversky 1979, 1994 study of 37 students, 33.9 vs 55.5 days, about 30% on time. Recomputed 55.5/33.9 = 1.637 and 5 h x 1.637 = 8.19 h; corrected '8 hours 10 minutes' to 'just over 8 hours (5 x 1.64 = 8.2)'. Softened 'even when we know' to the source's 'sometimes ... regardless of knowledge'; 'main technique' to 'one technique'; Masicampo conclusion to the abstract's 'may free cognitive resources'; FAQ 'Usually not' to 'Not necessarily'. Renamed generic headings (Side by side, Combining them, When each one works). App features (due dates, priorities, recurring tasks, checklists, reminders opening notes, to-do and calendar widgets) match catalog.",
+      "contentHash": "sha256:fe90c4ab150f595fe2f1f897fee4c879595a98cdd07d4d0c9831c07e857eb406"
+    },
+    {
+      "slug": "how-to-make-a-habit-tracker",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against Gardner, Lally & Wardle 2012 (PMC3505409 saved text): 21-day plastic-surgery myth, 66-day average plateau with considerable variation, around 10 weeks, water vs 50 sit-ups, simple daily action, time and place encountered every day, fruit example plan quote, tick-sheet Weeks 1-10 x Monday-Sunday, 'Done on >5 days', automaticity 1-10, missed opportunity did not seriously impair, stability phase, use until automatic. Wikipedia 'Habit' (text + wikitext): definition, Wood 2002 ~43% of daily behaviours, consistent context, Lally 18-254 day range, review finding most digital habit tools poorly designed. Recomputed 10x7 = 70 boxes and 24/28 = 85.7%; week-1 '5 days = No' is correct for '>5'. Cut unsourced 'usually because it tracks too much', 'Missed days are part of every tracker', 'Why many trackers fail' heading and 'quickly turns into a page of guilt'. Distinct from building-a-daily-practice-habit (study habit). App features (recurring tasks, reminders, checklists, journal streaks/goals, streak widget) match catalog.",
+      "contentHash": "sha256:60e4f650dab9168af203e84c7d9ce0d451019c45cfda4a7dcdfe21921101bdee"
+    },
+    {
+      "slug": "journaling-prompts-for-beginners",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked Emmons & McCullough 2003 abstract (PMID 12585811): random assignment to hassles/gratitude/neutral or social comparison, weekly or daily records, higher well-being on several though not all measures, positive affect most robust. Masicampo & Baumeister 2011 abstract checked (earnestness mediation). Expressive-writing claims checked against Wikipedia 'Writing therapy' (fetched 2026-10-25; same section text as 'Expressive writing'): Pennebaker late 1980s, past trauma, 15 minutes a day for 4 consecutive days, many upset but found it valuable, theory has mixed empirical support. NHS low-mood page: see a GP if low mood more than 2 weeks, struggling to cope, or self-help not helping. Recomputed 30/6 = 5 rotations. Softened 'A prompt that ends in a dated next step is doing exactly this' to say it asks for the same kind of plan but is not the lab task. App features (prompts, streaks, goals, calendar, diary/gratitude/reflection, lock where supported) match catalog.",
+      "contentHash": "sha256:24bd06af9bd2bd0857dbad20c0ffe7d8b82365a8a00b3662dc9acd589d9da624"
+    },
+    {
+      "slug": "kawaii-cute-notes-journal-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every app statement checked against appfacts and the live listing (play-verification fullDescription): autosave while typing / leaving editor / closing keyboard / switching apps / widget-created note, recoverable drafts, journal prompts/streaks/goals/calendar, mood tracker fields and history/trends, planner due dates/priorities/recurring tasks, checklist/shopping list, reminders open exact note, widget list, lock where supported, hide private text, offline core features, 'every customization feature is available with ads', ads and no IAP. Cut 'when you use them' from a listing-attributed sentence (listing says only that the tools 'explain permissions'); replaced non-catalog 'named notebooks' in the index mapping. Bullet-journal paragraph checked against Wikipedia; 'often with an index' -> 'in many journals'. Reworded two FAQ questions that duplicated the app page's own FAQ questions word for word. Play URL only in sources.",
+      "contentHash": "sha256:1261c3466067c52052813694964229164637e5057142ed81c8c2686b38acb7d8"
+    },
+    {
+      "slug": "mood-tracking-journal",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked NHS low-mood page: 'if you know what's causing your low mood it might be easier to find ways to manage it', example causes (work, family, financial, health, bereavement), 2 weeks or more could be a sign of depression, see-a-GP criteria, Samaritans 116 123. NIMH: sad feelings usually pass with time, depression is different, call or text 988. Wikipedia 'Affect labeling': 'putting feelings into words', reduction of experience, journal example (wikitext), early stage of research, open question whether lab findings apply in real life. Recomputed the worked-example table: 46/14 = 3.29, 27/7 = 3.86, 19/7 = 2.71, 15/6 = 2.50, 31/8 = 3.88; subgroups 21/5 = 4.20, 10/3 = 3.33, 6/2 = 3.00, 9/4 = 2.25, all mutually consistent. 'lists common causes' -> NHS's 'examples of things that may cause'; replaced 'mostly done in laboratories' with the source's real-world-applicability caveat (body and FAQ); softened 'or it will not survive' / 'you will stop using'; renamed generic 'Common mistakes' heading. No diagnosis; signposts NHS/NIMH. App features match catalog.",
+      "contentHash": "sha256:d9e00a684fdb458c16439d6fe40196a2b304d7322920d73e98f5011742c6094d"
+    },
+    {
+      "slug": "how-to-transcribe-a-voice-memo",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked Wikipedia 'Words per minute': audiobooks 150-160 wpm comfortable range, slide presentations 100-125. Recomputed 5 x 150 = 750, 5 x 160 = 800, 1.5 x 150 = 225, 1500/150 = 10 min. Google Live Transcribe help: 'hold your device microphone near the person or sound'. Wikipedia 'Speech recognition': volume, speed, noise, echoes, recording characteristics, accent, pronunciation. Listing checked: voice notes into journal entries, project planning or a first draft. Cut unsourced 'Speaking is faster than typing' / 'fastest way to capture an idea' (replaced with the listing's 'when typing was inconvenient'); softened 'spoken drafts repeat themselves', 'often contain', 'pile up quickly', 'often easier'; replaced 'recording laws ... expect consent' with 'ask first; rules vary by place'. Kawaii app: audio in note editor and note-to-checklist match catalog.",
+      "contentHash": "sha256:a5639088ce6ea4c89942105d02453743de75bbc82d06322bd77c9a07b7285a39"
+    },
+    {
+      "slug": "how-to-transcribe-an-interview",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked Wikipedia 'Telephone call recording laws': US laws vary by state; all-party list includes California, Connecticut (electronic only), Florida, Hawaii (device in a private place), Maryland, Massachusetts, Montana (notification only), New Hampshire, Oregon (in-person), Pennsylvania, Washington; Germany criminal offence under s.201. ATLAS.ti research-transcripts guide: speaker identifiers, verbatim / clean verbatim / intelligent definitions, cross-check with recording, anonymise if necessary, slow playback and shortcut keys, human slower than automated. Cut legal-assurance phrasing ('covers most situations', 'Asking on the recording settles it') in favour of check-the-local-rule wording; article keeps its not-legal-advice line. Replaced unsourced 'clean verbatim is the usual working style' with ATLAS.ti's 'usually preferred when the focus is on content'; 'far faster' with ATLAS.ti's slower-than-automated statement; softened 'most likely to slip on short words' and 'often have formal rules'. Listing checked for quotation-check and tone/context statements.",
+      "contentHash": "sha256:a0ef9f02fb5f68d41ad32bca674071fcf754e1b43d51d648d1f33f6aea5f902c"
+    },
+    {
+      "slug": "how-to-transcribe-lectures",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked Wikipedia 'Words per minute' (100-125 slide presentations; 150-160 audiobooks; recomputed 60 x 100 = 6,000 and 60 x 125 = 7,500), 'Speech recognition' (noise, echoes, recording characteristics; error rates rise with vocabulary size), Google Live Transcribe help (preinstalled on Pixel and select other Android phones; internet needed unless using an offline language; mic near the speaker). Main correction: the study section led with summaries and said rereading 'feels productive but is slow' without a source; added Dunlosky et al. 2013 (PMID 26173288, saved abstract) and rewrote it to the review's findings (practice testing and distributed practice high utility; rereading, summarisation, highlighting low utility; summarisation helps some students on some tasks), reordering the steps around self-testing, with FAQ and takeaway updated to match. Cut unsourced claims that 'many' institutions provide recordings or accessibility adjustments, 'lecture halls supply all three', 'exactly the vocabulary speech recognition finds hardest', 'the part that actually improves learning', 'usually easiest'.",
+      "contentHash": "sha256:afda716cd43d5187d3a2760582b78bcc80614205053a7a0f7fda08d245995a7d"
+    },
+    {
+      "slug": "speech-to-text-accuracy-tips",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked Wikipedia 'Speech recognition': voice variation list, noise/echoes/recording characteristics, accuracy factors (vocabulary size and confusability, speaker dependence, isolated vs continuous, read vs spontaneous with um/uh and false starts, environmental noise, echoes, room acoustics), WER as usual measure. Wikipedia 'Word error rate': S+D+I over N reference words, can exceed 1. Recomputed worked example: 7 reference words, 2 substitutions + 1 deletion = 3/7 = 42.9%. Google Live Transcribe mic-near advice checked. Corrected factor-table rows that went beyond the source (speaker dependence, isolated vs continuous, 'distance'); cut unsourced intro claims that 'most' errors are predictable and preventable, 'Overlapping speech confuses software and people alike', 'which recognition handles worst', 'Names are often outside the vocabulary', 'Most gains come before transcription'. Listing statement on checking names/numbers/quotations verified.",
+      "contentHash": "sha256:9023f395a382fa273c36438f7a000eebbc1ec9880a64221203e3fdf0f4ca8f30"
+    },
+    {
+      "slug": "transcribe-audio-to-text-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All app statements checked against appfacts and the live listing: four uses (lectures, voice notes, meetings, interviews), meeting use (check what was said about a task, proposal or decision), accuracy depends on recording quality, background noise and speech clarity, review names/numbers/details, check quotations before publishing, keep the original for tone and context, ads + IAP. Wikipedia 'Speech recognition': WER usual measure, variation and distortion factors, 2017 Microsoft human-parity result on Switchboard; 'Word error rate' definition. Added Wikipedia 'Words per minute' to sources for the 150 wpm audiobook figure; recomputed 30 x 150 = 4,500 and 5% = 225. Cut 'improved enormously', 'Most will be harmless', 'the one people skip', 'Most of the quality is decided before you transcribe', 'overlapping speech is hard for people and software alike', 'which few people will read'; tied recording tips to Wikipedia's adverse-conditions list; renamed generic headings 'The workflow' and 'Limits worth knowing'. Play URL only in sources.",
+      "contentHash": "sha256:205f58118eec8342b61c0338b585a4c5d48e15a5e740bb72f426c6d3497a7556"
+    },
+    {
+      "slug": "how-to-annotate-a-pdf",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against saved Wikipedia Redaction (black-rectangle overlay text remains; effective redaction removes all text/image data), Wikipedia PDF and the FAS page. Cut the unsupported claim that Wikipedia lists annotations among interactive elements; replaced with what the PDF article does say (owner-password permissions list adding/modifying text notes separately; XFDF carries forms and annotations). The FAS page does not say 'removed, not visually hidden': rewrote the NSA reference to the FAS summary of the 13 Dec 2005 guidance and its quoted warning that converting Word to PDF does not remove all sensitive metadata; replaced the matching takeaway with the Wikipedia removal point. App: tool list matches catalog; 'listing describes as marking up' corrected to the listing's 'review a document before sending it'. Added a menus-vary note; cut the invented 'ten minutes' in the worked example. check.mjs and preflight clean.",
+      "contentHash": "sha256:32defe2eb3a00777e66fb38e8a0d73e63032405d83c47690a51eb388e066a7b7"
+    },
+    {
+      "slug": "how-to-compress-a-pdf",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified JPEG 'typically 10:1 ... perceptible ... widely agreed acceptable' and adjustable trade-off (Wikipedia JPEG), Gmail personal 25 MB limit and Drive-link behaviour (Gmail Help), PPI recording (Wikipedia DPI). Recomputed 8.5x11 at 300/150 ppi = 8.415/2.104 MP, 12/2.104 = 5.7x ('about six times' ok). Removed unsourced generalisations (usually/most/often/enormously); '150 ppi usually readable; 300 common for print' now framed as this example's assumption; 'resolution has done most of the work' corrected to 'cut pixel count by more than five times'; DPI sentence restated to what Wikipedia says. FAQs reworded to match sources. App claim matches catalog compress FAQ; added note that settings vary between apps/versions. Gates clean.",
+      "contentHash": "sha256:7e8ac05158db3f64bac158782c1463c9d6d5dc17cb985a310b7e1ca436c47dc3"
+    },
+    {
+      "slug": "how-to-convert-images-to-pdf",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Wikipedia JPEG (smooth tones; not well suited to line drawings/text; JPEG/Exif most common camera format), Wikipedia PNG (lossless; improved non-patented GIF replacement; JPEG smaller for photographs) and Google Drive Android scan help (blue outline for crop, Crop & Rotate, Filter incl. greyscale, Clean, save as .pdf or .jpg). Corrected 'pages saved as a PDF' to PDF or JPG; FAQ claiming the scanner 'detects edges and straightens' rewritten to the help page's actual features; cut 'usually gives cleaner pages', 'many apps', 'screenshots are often PNG' (now hedged: check extension). Added device/app-version variation notes. Arithmetic: 10 x 12 MP = 120 MP; 1275x1650 = 2.1 MP. App claim (create PDFs from images, photos, text) matches catalog. Gates clean.",
+      "contentHash": "sha256:1ff4c05163d9d4f065eadccb43e6d33b4a10e9730f7e0cf77e34b7e2830d0543"
+    },
+    {
+      "slug": "how-to-fill-in-a-pdf-form",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified Wikipedia PDF: AcroForms PDF 1.2 and all later versions, text boxes/radio buttons, submit/reset/import, submit action sends field names and values to a URL; XFA introduced PDF 1.5, incompatible with AcroForms, deprecated in PDF 2.0, most PDF processors do not handle XFA. Adobe fill-and-sign: text, checkmarks, signatures; interactive forms have highlighted fields (now cited for the tap test). Replaced unsourced 'blank page / asks for Adobe software' XFA symptom with the Wikipedia processor statement; cut 'which most PDF apps mirror', 'phone apps do not always support it', 'can break a certificate-based signature' (no source); softened 'usually'/'many'. App claims match catalog fill-and-sign card. Added menus-vary note. Gates clean.",
+      "contentHash": "sha256:77dacac4c38add94100e2e0c276baf22039512cf93bcaf7d95b5c2616e4cfff7"
+    },
+    {
+      "slug": "how-to-merge-pdf-files-on-android",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified Adobe combine-files help (preview, arrange, move or delete pages before creating a single sequential PDF) and Gmail 25 MB / Drive-link rule; 9+8+10 = 27 MB > 25 recomputed. Cut unsourced 'the PDF job people most often need', 'common sequence', 'US usually letter / Europe often A4', 'prints correctly'. App steps (merge, page tools rearrange/rotate/remove/extract, PDF manager review/organise/rename) match catalog; added that screens and labels vary by app version and Android device. Unused Wikipedia PDF source left in sources (harmless). Gates clean.",
+      "contentHash": "sha256:892a23a481be5a6aa7c56e93485c10607d7666c1d67f304c7c45f6e7467812c4"
+    },
+    {
+      "slug": "how-to-password-protect-a-pdf",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified Wikipedia PDF (user vs owner password; owner password does not encrypt, relies on client software, easily removed by software including some free online services; most freeware/open-source readers ignore permissions; Acrobat displays a warning; PDF 2.0 defines 256-bit AES), Adobe help (Viewing or Editing; advanced options encrypt with password or certificate), NIST SP 800-63B (SHALL min 15 for single-factor, SHOULD permit at least 64, SHALL NOT impose composition rules), LoC (PDF/A does not permit encryption). Corrected 'free online services' to 'some', 'many free readers' to Wikipedia's 'most freeware or open-source', cut unsourced 'older versions supported weaker methods', removed reasoning ('archive must open without a key') falsely attributed to LoC, softened 'usually means a lost document'. App: only catalog 'protection tools help you manage sensitive paperwork' is claimed; no password feature asserted. Gates clean.",
+      "contentHash": "sha256:21b1add1e525dbe066df8412ff2a00752782ddc93f02bc57a2514cd6877c920d"
+    },
+    {
+      "slug": "pdf-vs-pdf-a",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against LoC PDF/A format description: constraints for A-1/2/3 (audio/video/3D forbidden, JavaScript and executable launches prohibited, fonts embedded and legally embeddable, device-independent colour, encryption disallowed, standards-based metadata mandated), versions and base PDFs (19005-1:2005/PDF 1.4, -2:2011/PDF 1.7, -3:2012, -4:2020/PDF 2.0), PDF/A-4 drops levels, 4f/4e, JavaScript stored not executed, RFS preferred formats incl. musical scores, European mandates; Wikipedia ISO 32000-2:2020 Dec 2020. Fixed: 'original intent' to LoC's 'intent expressed by many proponents'; unsupported B/U/A glosses (searchable text, reading order/tags) replaced with LoC's text and PDF Association names, plus level B typical for scans; FAQ reasoning attributed to LoC removed; 'Why it matters' column labelled as our reading; worked example dropped the 'linked logo' and the wrong 'slightly larger' (dropping video shrinks it). App claims generic and catalog-consistent. Gates clean.",
+      "contentHash": "sha256:b9ffae5cd7f8cd4e960b01f6a7b35d9e520a128b1693c18c4a3db9e95c18523c"
+    },
+    {
+      "slug": "how-to-add-timestamps-to-a-transcript",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified ATLAS.ti guide (time stamps among elements typically included; help locate specific parts of the audio; can be very helpful during analysis; researcher may add them during review/cross-check) and Wikipedia SubRip (sequential numbering, appear --> disappear, hh:mm:ss,mmm with two-digit units and three-digit fractions, blank line; example 00:02:16,612 --> 00:02:19,376 matches). Corrected 'core elements' and 'invaluable' to the source's wording, removed an embellishment attributed to ATLAS.ti in FAQ 1, softened the subtitle-drift cause, renamed the generic 'Common timestamp mistakes' heading. Worked example recomputed: 8+12+5 = 25, 90/25 = 3.6 min, 90/2 = 45. App: listing does not mention automatic timestamps and the article says so; no invented feature. Gates clean.",
+      "contentHash": "sha256:99b625739e2bbd74c6cb27b85b4effe90ed1ab28dafaac6a94331c1dd9eb1c96"
+    },
+    {
+      "slug": "verbatim-vs-clean-transcription",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified ATLAS.ti definitions of verbatim (every word, fillers 'um, uh, you know', false starts, repetitions, even non-verbal cues), clean verbatim (omits fillers, stutters, false starts), intelligent/edited (removes fillers and repetitions, corrects grammar, may rephrase; typically for publication) and its purpose guidance; Wikipedia transcription (systematic representation; phonetics, conversation analysis, sociolinguistics; court and medical examples). Hedged to source modality ('might be sufficient', 'might be more appropriate'); FAQ claim 'suits reading rather than analysis' replaced with ATLAS.ti's publication statement; cut 'most people never notice', 'most interviews', 'usually land', 'no single standard'; rules of thumb and bracket conventions labelled as this guide's own. Example word counts recomputed (15/10/8). App: listing advises checking names, numbers and quotations against audio, confirmed in live listing. Gates clean.",
+      "contentHash": "sha256:8251b0bae0d2f82d67bb208fab34fbd6950e4ab41db0bc81b43381078fa245e8"
+    },
+    {
+      "slug": "how-to-print-a-pdf-from-android",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked the Settings > Connected devices > Connection preferences > Printing path, Add service, the Menu/More/Share > Print wording and the screenshot workaround against the saved Pixel help (3473588) and Android help (10177839) texts; Cloud Print deprecation (Dec 2020, unsupported from 1 Jan 2021) matches 10177839. Made the article say menus vary by maker and Android version; noted that the Pixel page is for Pixel phones (Android 14+) and the Android page says Android 9+. Replaced 'often from the printer maker' with Google's own example (HP). Cut unsourced generalisations: the opening 'many people emailed files', 'Most printing problems are connection problems', 'usually same Wi-Fi', 'many printers sleep', 'Most print dialogs', 'US printers usually hold letter'. A4 210x297 mm vs Letter 8.5x11 in (216x279 mm) and US/Canada use of Letter now cited to Wikipedia 'Paper size' (source added, accessed 2026-10-25). Print-option list softened to 'depends on app, printer and service'. Worked example arithmetic rechecked (40/20 sheets, 3 pages/2 sheets). App sentence (rotate, remove, extract, fill, sign) matches catalog. check.mjs and preflight clean.",
+      "contentHash": "sha256:3286f0011d2541a09440fe069699eae06128b22dd8becd81488d642db55ee63f"
+    },
+    {
+      "slug": "how-to-scan-documents-to-pdf",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Drive scanner steps (blue outline, manual/auto capture, Crop & Rotate, Filter, Clean, Add, Retake, PDF/JPG, searchable PDFs) verified against the saved Google Drive Android help text; now framed as one app's steps, with other apps labelled differently. OCR pre-processing (de-skew, despeckle, binarisation) verified against Wikipedia OCR and reworded so it no longer claims scanner apps do OCR pre-processing. The PPI definition was reworded to match Wikipedia 'Dots per inch'. Arithmetic rechecked: 4000x3000 = 12 MP (4:3 frame now stated), 4000/11 = 364, 3000/8.5 = 353, half-frame about 176-180. Cut 'more than enough for crisp text', 'phone has replaced the flatbed scanner for most paperwork', 'camera matters less than conditions', 'several megabytes per page', 'Usually because' and 'Most scanners' (FAQ), plus the unsourced window-light tip. The 'lighting and focus affect the result' line had been credited to the listing; it is catalog-only, so it is now credited to the app's page. Scanner claim matches catalog. Gates clean.",
+      "contentHash": "sha256:c2a7799822b686ba785d491aeeaa2e80ca920dc40ea6768ca421a515617459a4"
+    },
+    {
+      "slug": "how-to-sign-a-pdf-on-android",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "ESIGN 15 USC 7001(a) wording and the 'does not require any person to accept' clause verified against the saved LII text. Section 7003 exceptions checked line by line: the UCC item was corrected to 'other than a few listed sections and Articles 2 and 2A'; insurance, recall (health/safety) and hazmat items were tightened; 'States can have their own rules' was replaced with the statute's own state-law reference. Wikipedia PDF supports digital signing/ISO 32000-2/PAdES (ETSI). Added Wikipedia 'Digital signature' (accessed 2026-10-25) for the claims that it is public-key cryptography bound to the content, shows tampering, and that not all e-signatures are digital; also added the PDF article's caveat about post-signing manipulation. Rewrote the worked example, which had given unsourced legal-ish judgements ('normally expected', 'usually acceptable'), as statute-based reasoning (7001(b), 7003(b)(2)(B), 7003(a)(1)). Cut 'takes under a minute', 'Most phone PDF apps', 'For most everyday business... legally usable', and stylus/landscape tips; the steps no longer imply app features beyond the catalog's fill/add text/sign. The not-legal-advice line is kept. Gates clean.",
+      "contentHash": "sha256:d859aec13b46983c1d0c610abfd0a6ed6a77a73d84f97aaf56b4c86716c0b168"
+    },
+    {
+      "slug": "how-to-split-a-pdf",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "The Gmail 25 MB personal limit and Drive-link behaviour were verified against the saved Gmail help (6584). The fixed-layout description was verified against Wikipedia PDF and reworded to its wording. Removed the unsourced claim that the parts 'add up to roughly the size of the original' (shared resources such as fonts can repeat), and softened the quality FAQ to 'should not'. Cut 'Most PDF tools', 'usually written', 'many documents', 'Tools usually count physical pages', 'Often the better rule' and 'often needs to go out in pieces'; readers are now told to follow their tool's own page-range example. Added a direct-answer first sentence. Worked example rechecked: 60x40/120 = 20, x35 = 17.5, x45 = 22.5 MB. Split/extract and PDF manager claims match catalog. Distinct from the merge article. Gates clean.",
+      "contentHash": "sha256:9cbd473a390ed8dd15af907afa1c6efbc23c3f4d04c4c7b9bbb38a8255589234"
+    },
+    {
+      "slug": "pdf-all-in-one-tools-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every app claim was checked against appfacts and the live listing (listing-util pdftools). '82 tools' and the paperwork list are in the listing; the four-step flow and the camera lighting/focus limit are catalog-only, so they are now credited to the app's page, not the listing ('The listing is honest about one limit' was wrong). Removed the invented 'most-used tools' heading and 'Most PDF problems are page problems'. Protection: the table row 'Keep a file private' was reworded to 'Protect sensitive paperwork', and the password article is linked as a general guide, so no password feature is implied (catalog says only 'protection tools help you manage sensitive documents'). Replaced an unsourced size claim ('easily run well over... usually a few megabytes') with a labelled hypothetical: 30x1.5 = 45 MB; 25/30 = 0.83 MB/page. Cut 'the file never leaves the app between steps'. Added the Gmail help source (accessed 2026-10-25) for the 25 MB figure. Wikipedia PDF facts (Adobe 1993, ISO 32000, device independence) verified. Ads/IAP wording matches appfacts. Play URL appears only in sources. Gates clean.",
+      "contentHash": "sha256:a98fc0c8938ba9706bb15352bdd177d46265c1e3c4d2df35d382eb954404151c"
+    },
+    {
+      "slug": "ocr-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against the saved Wikipedia OCR text: the definition, the uses (passports, invoices, searchable PDFs), pre-processing techniques, segmentation, feature extraction, the two-pass approach (now 'Cuneiform and Tesseract', as the source says), the lexicon caveat, 'not 100% accurate even with clear imaging', the 81-99% newspaper study, and the 1% char vs 5% word error figure (now with the source's condition that no lexicon is used). ICR/IWR definitions match. Replaced 'invisible layer behind' with the source's 'original image plus searchable textual representation'. Replaced unsourced handwriting/'clean modern pages do much better' claims with the source's 'still the subject of active research' and 'total accuracy can be achieved by human review'. Cut 'usually works in stages', 'often using a dictionary' and 'Most OCR problems start with the image'. Worked example rechecked: 2000x1% = 20; 2000/6 = 333 words; 20/333 = 6%. The Drive searchable-PDF claim was verified. The pdf-vs-pdf-a link claim (levels and searchable text) was checked against that article. Gates clean.",
+      "contentHash": "sha256:613089d895e1eba06a24350bc5793047c7d585c48a6061e387c498aaf9bdd5a3"
+    },
+    {
+      "slug": "how-to-spot-fake-trading-cards",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Weights (1.7-1.8 g, foil 1.9-2 g, proxies about 2 g, set-specific to about 0.03 g), the rosette explanation, solid text and batch variation were verified against the saved Magic Judges Europe East guide part 3. The light-test section was unsourced ('Collectors often...'), so it was rewritten from part 2 of the same guide (blue-core stock, bluish light, fakes usually black/white core), with part 2 added as a source (accessed 2026-10-25); 'comparison is the most reliable check' is now attributed to part 2 ('by far the most important test'). The Halftone sentence was corrected to the source's wording ('single colour', rosettes from standard angles). Cut 'Counterfeit cards follow money', 'oldest warning sign' and the claim that a professional service is 'the final word'. Stated that the figures are Magic-specific. App: no authentication claim; it is described as matching, value estimates and centring per catalog, and the listing quote on informational grading estimates was verified in the live listing. No card art, no prices, no database content. Gates clean.",
+      "contentHash": "sha256:754c6f1572e0a2d5dd816c7753a4cace435bd95cdce3b84ec9f05fa4b7674e61"
+    },
+    {
+      "slug": "how-to-store-trading-cards",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against the saved NARA family-archives storing page and the photographs holdings-maintenance page: below 75F, RH below 65% and not below 15%, leaks/food, flat or upright containers, lignin-free/acid-free board, spacer, no overstuffing, sleeves larger than the original, one item per sleeve, stable plastics, edges/gloves, removing clips, bands and notes, soft brush or puff blower, avoiding canned air. Significant correction: 'PVC generates acids that can fade photographs and can stick and transfer the image' is not on either cited page (checked live too), so it was cut. It now says what NARA says: unknown plastics/PVC are listed as materials to avoid, and the photographs page says not to use plastics containing PVC (body, takeaway, FAQ). Removed unsourced claims ('value depends heavily on condition... mostly decided by storage', 'single most important choice', the attic/basement 'Usually not', 'garage often above 75F'). The worked example now uses stated hypothetical readings checked against the NARA limits. The article says NARA does not address cards specifically. App claims (single/bulk scan, reviewable matches, front/back centring, informational grading) match the catalog. Gates clean.",
+      "contentHash": "sha256:a7274fea0caefc42ea34dbe96633d448adcc065eb805a062696330ba6491fbb8"
+    },
+    {
+      "slug": "audio-out-of-sync-on-android",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked the lip-sync sign convention, ITU 45/125 ms, EBU R37 +40/-60 ms, ATSC 15/45 ms, film 22 ms, flat-panel video delay, consumer audio-delay adjustments and interleave/timestamp sync against Wikipedia Audio-to-video synchronization; aptX LL 32 ms, standard Bluetooth latency 'varies greatly' and SBC <40 ms against Wikipedia aptX. Recomputed frame maths (33.3 ms/frame; 40 ms = 1.2 frames, 60 ms = 1.8, 200 ms = 6 at 30 fps and 12 at 60). Corrected a false claim that 'a tenth of a second is easily visible' (100 ms is below the ITU 125 ms lag threshold) and replaced it with a statement the table supports. Removed unsourced 'Bluetooth is the most/a common cause', 'typical culprits', 'usually' and 'many TVs' wording. Added the aptX article's note that aptX Low Latency was retired, since the article suggests low-latency codecs. App claims (formats, 0.1x-3.0x speed, playback depends on container/codec/Android version/decoders) match the catalog and the live listing. Distinct from the subtitles and video-player articles.",
+      "contentHash": "sha256:0346f7fd44d3d28c5f2f6822bdd35b2c582f2a5bdf72081be20c90c5e11ae2f3"
+    },
+    {
+      "slug": "clear-app-cache-android",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked clear cache (temporary data, some apps may be slow next time), clear storage (permanently deletes all app data; delete within the app first), the short-term-solution/builds-up-again wording, the Pixel path Settings > Apps > See all apps > app > Storage & cache, and the troubleshooting order (restart after each step, update, force stop, cache, data, uninstall, contact developer) against Google Android Help 7431795 and 2668665 and Pixel Help 9454904. The Pixel path was presented as near-universal ('usually', 'on many phones'); I reworded the takeaway, FAQ and steps so they say these are Pixel steps and that Google says settings vary by phone. Cut an unsourced explanation of what apps cache (thumbnails etc.), the claim that thumbnails 'will be regenerated', the 'fresh install' framing and 'part of how apps stay fast'. Reworked the worked example so it uses only catalog facts (Video Player All Formats PRO stores recents, history, saved positions and favourites locally and plays files already on the device).",
+      "contentHash": "sha256:d5c2f861860ba0c4d648b8ea2c41d3364524f50b4de4978b06895c239bcc856a"
+    },
+    {
+      "slug": "free-up-storage-on-android",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked storage vs memory, the Free up space steps (Select files/Browse, Move files to Trash), Smart Storage, the Android 14 note, deleting Google Photos backed-up copies, USB transfer, removing downloads in Google TV/YouTube Music, reinstalling without paying again, the cache/storage wording and automatic archiving against Google Android Help 7431795; Gmail attachments counting toward Google storage against Gmail Help 6584. Fixed step 3, which had merged the automatic Smart Storage route (Menu > Settings > Smart Storage) into the manual list. Added Google's caveat that archived apps can be redownloaded only while still on Google Play. Cut unsourced claims: photos/videos 'usually the biggest category', scanned PDFs 'several megabytes per page', compression 'often many times over' and 'a few long recordings can outweigh thousands of photos'. Labelled the worked example hypothetical; arithmetic rechecked (3+1.5+1.5 = 6 GB freed; 2+6 = 8 GB). The PDF compression claim matches the PDF All in One Tool No Limit catalog.",
+      "contentHash": "sha256:006b56b2d970ad288709ccdd08aee1c9333555f10d792bd859c745df18b7f515"
+    },
+    {
+      "slug": "google-play-refund-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked every rule against Google Play Help 2479637 (policy varies by item, time, payment and location; contacting the developer is often quickest; 120-day unauthorised-charge window; accidental purchases by family members; no-refund cases; nonprofit donations; EEA/UK from 28 March 2018), 15574897 (48-hour developer rule; web steps via Payments & subscriptions > Budget & order history > Report a problem; decision usually within one day, up to four; duplicate requests do not speed it up), 15576193 (timelines) and 7018481 (Google's $10 yearly example; access until 31 December; uninstalling does not cancel). Corrected card timing to Google's 3-5 business days, sometimes up to 10; Play balance to about 1 business day, occasionally up to 3; and the FAQ's decision wording. Reworded the closing line to say what Google's help says (contact the developer for undelivered items or after 48 hours) instead of claiming Google recommends contacting us. PDF All in One Tool No Limit: free download with IAP listed, which matches the catalog. No legal advice; the article points to the official pages.",
+      "contentHash": "sha256:0ad3563ecac36a1b56ec59c5993fe2f958f561d7d35df90397187e33633e73be"
+    },
+    {
+      "slug": "hdr-video-on-android",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked SDR ~100 nits vs HDR ~1,000-10,000 nits, darker blacks and saturated colour, formats since 2014, HDR10 (CTA, 27 Aug 2015, most widespread, not SDR-compatible), HDR10+ (Samsung dynamic metadata, 20 April 2017), Dolby Vision (end-to-end ecosystem, dynamic, up to 10,000 nits), HLG (no metadata, compatible with SDR UHDTV only), PQ10, static and dynamic metadata, the display-adjustment sentence and the dark-viewing-environment standard against Wikipedia High-dynamic-range television; the Android 7.0 technologies and codecs, Android 9 metadata reporting and the 'HDR-capable decoder and display' requirement against AOSP HDR video playback. Removed 'licensed' for Dolby Vision (not stated), 'a process called tone mapping', the unsourced 'washed out/flat and grey' cause statements and the 'phones increasingly record HDR' opening; the washed-out section now hedges ('may differ from what the creator intended') and builds on what the sources say. Rewrote the worked example's no-HDR-phone bullet so it no longer claims the player 'must convert to SDR'. App claims match the catalog. Borderline: the description still says HDR 'can look washed out'; the body supports this only as a hedged possibility. Coordinator follow-up: meta description changed from 'why HDR files can look washed out' to 'why HDR may look duller than intended' to match the hedged body.",
+      "contentHash": "sha256:2be73428a2435f6cca8959e50f12d1abe35d3c398e37a0b4cc6d61d2b093d403"
+    },
+    {
+      "slug": "how-to-cast-video-to-tv-from-android",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked the Pixel cast path (Settings > Connected devices > Connection preferences > Google Cast; single app or whole screen; Quick Settings tip; Disconnect) and Pixel 8+ USB-C mirroring to DisplayPort/HDMI displays against Pixel Help 2865484; Miracast (Wi-Fi Alliance, Wi-Fi Direct, up to 1080p H.264, optional 5.1) against Wikipedia Miracast; USB-C as a connector, not a protocol, and its alternate modes against Wikipedia USB-C, adding its note that USB-C-to-HDMI adapters using DisplayPort Alternate Mode need active conversion; TV video delay against Wikipedia AV sync. Added Google Chromecast setup help (2998456, accessed 2026-10-25) to support the Wi-Fi network requirement in the table. Made the Pixel steps say they are Pixel steps and cut 'searching Settings for cast usually finds it'. Removed the unsourced 'often/usually' lag causes and the TV 'low-latency mode' claim from the takeaway and FAQ. 'Its listing is clear it is not a streaming service' is now credited to the app page (catalog limitation).",
+      "contentHash": "sha256:c021cb3714296f203efe0f795009e456e1599b8705068550339ab79dd4f00ce4"
+    },
+    {
+      "slug": "how-to-update-apps-on-android",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked the reasons to update, the critical-security-updates note, manual steps, permission and restart tips, the four auto-update options, the per-app Enable auto update path and the sign-in error tip against Google Play Help 113412; the Play Store self-update against 15747876; notifications, 'most system updates and security patches install automatically', Settings > System > Software updates, the 75% charge and 'update schedules vary by device, manufacturer and carrier' against Android Help 7680439. The Data Saver/Play Store claim came from Play Help 1663315, which was not cited, so I added it (accessed 2026-10-25). Cut unsourced generalisations ('most people either accept them all or ignore them all', 'for most people Wi-Fi auto-update is the best default', 'many developers describe changes in What's new'). Added Google's caveat that the limited-mobile-data option is available only to a limited group and tries Wi-Fi first. Kawaii Cute Notes Journal Plan autosave and recoverable-draft claims match the catalog exactly; the catalog puts the app in video-utility.",
+      "contentHash": "sha256:85da3da17bfe312da85a9a80ce686de59e19e1f5012cdb4cfa1046ec92eb7c30"
+    },
+    {
+      "slug": "in-app-purchases-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked the definition and its three examples (sword, key, virtual currency), the purchase verification tip, label placement (by the Price/Install button; 'Offers in-app purchases' on the web), the checkout, promotion and promo-code steps, and pre-orders against Google Play Help 1061913; indefinite-term subscriptions and uninstall-does-not-cancel against 7018481. Added Play Help 15574897 (accessed 2026-10-25) for 'Budget & order history' in the table. Cut unsourced claims: 'most apps are free', 'one of the least read labels', 'almost anything sold inside an app counts', 'prices are usually listed...', 'free apps commonly fund themselves...', 'many apps sell an ad-removal upgrade' and 'matters most on phones children use'. The worked example's figures are labelled illustrative; recomputed $2x36 = $72, $10x3 = $30, $20. Reworded 'the lifetime option wins' so it applies to this example only. Video Player All Formats PRO's free version with ads and its Premium monthly/yearly/lifetime options match the catalog FAQ. Distinct intent from the refund guide (refunds) and what-a-brain-training-subscription-buys.",
+      "contentHash": "sha256:94f44ba31fb37f2deaea422e49a5db556ce4f4da92d6fe196bc68d8048377869"
+    },
+    {
+      "slug": "stop-apps-using-mobile-data",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked the data-usage definition, the Pixel App data usage path, warning and limit behaviour, 'some features won't work', auto-sync, roaming charges and carriers measuring differently against Pixel Help 2819524; Data Saver behaviour, the status-bar icon and Settings notice, the Quick Settings tip and Unrestricted data against Pixel Help 7055392; Wi-Fi-only auto-update against Play Help 113412. The Play Store/Data Saver sentence relied on Play Help 1663315, which was not cited, so I added it (accessed 2026-10-25). Pixel paths are now explicitly Pixel steps, with Google's note to check with the manufacturer on custom Android versions. Cut the unsourced 'usually one or two apps account for most', 'streaming is often the biggest user', 'an app update can reset a preference' and the 'messaging or navigation' examples. Corrected 'local playback uses no mobile data at all': the player's free version is ad-supported, so the text now says only that a stored file need not be streamed, and suggests checking App data usage. Worked example labelled hypothetical; 3 GB/week x 4 = 12 GB rechecked.",
+      "contentHash": "sha256:f16c483ddd1e77f17a240fcf2eb505e405da2f2c231fedf2c38c27ee70d7215f"
+    }
+  ]
+}

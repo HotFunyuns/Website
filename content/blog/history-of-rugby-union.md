@@ -39,7 +39,9 @@
     "rugby-union-vs-rugby-league",
     "how-rugby-scoring-works",
     "rotating-draft-pools-explained",
-    "rugby-positions-and-numbers"
+    "rugby-positions-and-numbers",
+    "rugby-career-sim-partnership-opportunities",
+    "rugby-draft-pro-league-partnership-opportunities"
   ],
   "takeaways": [
     "Treat the Webb Ellis story as a legend: it was first published in 1876, four years after his death, by a former pupil who had left Rugby School before 1823.",

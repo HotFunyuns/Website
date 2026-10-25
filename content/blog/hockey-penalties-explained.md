@@ -47,7 +47,9 @@
     "power-play-and-penalty-kill",
     "hockey-positions-explained",
     "hockey-career-sim-guide",
-    "hockey-draft-gm-guide"
+    "hockey-draft-gm-guide",
+    "hockey-career-pro-league-guide",
+    "how-long-is-a-hockey-shift"
   ],
   "takeaways": [
     "To judge a penalty's real cost, ask three questions: is my team short-handed, for how long at most, and does a goal against end it?",

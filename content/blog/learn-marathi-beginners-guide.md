@@ -40,7 +40,9 @@
     "marathi-alphabet-and-devanagari",
     "marathi-phrases-with-meaning",
     "language-learning-apps-compared",
-    "is-marathi-hard-to-learn"
+    "is-marathi-hard-to-learn",
+    "marathi-postpositions",
+    "marathi-pronouns"
   ],
   "takeaways": [
     "Start Devanagari in the first week, but start speaking on day one. Waiting for the script to be solid before you say anything is the most common way to stall.",

@@ -1,0 +1,906 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person's review.",
+  "entries": [
+    {
+      "slug": "bid-ask-spread-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified bid/ask/spread definitions (Investor.gov glossary), internalisation and market makers (Executing an Order). Corrected misattribution: 'at or near the ask/bid' is from Investor.gov Types of Orders, not bulletin 14; added that source. Replaced unsourced claims about why spreads widen with Wikipedia Bid-ask spread (liquidity measure, % of midpoint, liquidity supplier earns spread); added source. Removed claim that the app shows a quote screen. Recomputed 0.25%, 2.0%, 0.04%, x8 and $5 round trip.",
+      "contentHash": "sha256:ae8be55aeddeb3570fcdab775c63fbf9a765498354682109ce991f659a87ef8a"
+    },
+    {
+      "slug": "bull-vs-bear-market",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Investor.gov 20%/two-month bull and bear thresholds verified. Correction threshold and closing-high measurement now attributed to Wikipedia Market correction (the saved Investor.gov correction page was empty). Replaced unsourced 'pullback, dip' label, 'often include corrections', 'plenty of stocks rise in bear markets' and '10% rallies' with Wikipedia Market trend content (bear market rally of 5%+, secular trends 5-25 years, VIX rising in bear territory, terms apply to sectors/securities). Etymology checked against Wikipedia. Recomputed -12%, -22%, +15.4%, +20.5%.",
+      "contentHash": "sha256:7c33703a0fa105dba40472761a0b2ab9406781a6ded2cba5684a02d3c4e07696"
+    },
+    {
+      "slug": "call-and-put-options-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Rules checked against FINRA Options page: American/European style, auto-exercise of ITM options, monthly third Friday, weekly, LEAPS 2y8m, 0DTE, assignment and dividend risk, binary options, approval levels, 100-share contract, uncovered call unlimited loss. SEC margin bulletin on options and margin verified. Cut unsourced 'options one tap away', 'theta grows as expiry nears' and 'catch beginners out'; replaced put-as-protection claim with FINRA's 'manage risk' wording; aligned app framing to catalog (leverage, time decay, substantial potential losses). Recomputed call and put P/L tables.",
+      "contentHash": "sha256:f69342918de03eb3d40cae8b734609db5650b90ce06421b9de0e5df857fdbd37"
+    },
+    {
+      "slug": "capital-gains-tax-on-stocks",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against IRS Topic 409 (page reviewed 24-Sep-2026, still lists tax-year 2025 thresholds): 0/15/20% bands for all four filing statuses, one-year rule, day counting, $3,000/$1,500 loss limit, 28% collectibles, NIIT, Form 8949/Schedule D. Basis-includes-commissions claim was attributed to Pub 550 but is in Pub 551: fixed attribution and added Pub 551 source. Replaced unsourced 'broker reports many sales and their basis' with Pub 550's Form 1099-B basis instruction. Qualified-dividend rates and SEC fund-distribution/IRA statements verified. Recomputed $1,495 gain, $4,000 net loss, $3,000/$1,000 split, holding-period dates.",
+      "contentHash": "sha256:4c9d1c8aed618f95e67140c5ea3c7a940a8ed2bb0ef65ec89f25a85d6869aaec"
+    },
+    {
+      "slug": "cash-account-vs-margin-account",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against SEC bulletin Understanding Margin Accounts (default-margin warning, $50/$75/$15 example, $2,000 minimum, 50% Reg T, 25% maintenance, 30-40% house, interest), Investor.gov cash-account glossary (free-riding, 90-day freeze), FINRA frequent intraday trading page (good-faith violations, $2,000 minimum, intraday margin effective 4 June 2026 with phase-in to 20 Oct 2027). Margin-interest wording reattributed to the main bulletin; short-selling table row reworded and sourced to SEC Key Points About Regulation SHO (added); options-need-margin sourced to the bulletin. Softened 'often more' and 'a good way'.",
+      "contentHash": "sha256:357d42c54e8325f4e859bd55c78f0fafd68f7467ece565cabaad912af7dea841"
+    },
+    {
+      "slug": "compound-interest-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Fixed misstatement of the Investor.gov candy-bar example ($465.84 is one year's $365 invested once, not $365 a year). Debt-vs-investment claim sourced to Investor.gov Ten Building Blocks (added). Rule of 72 range and divisors, effective annual rate disclosure and inflation halving checked against Wikipedia. Replaced an unsupported fraud '1% a day test' with arithmetic (doubling in about 70 days). Recomputed every table: simple vs compound, 6.168%/6.183% EAR, doubling times, $46,204/$100,452, $1,268; 1-in-3 losing years verified (Investor.gov).",
+      "contentHash": "sha256:da4a715cbbf98b748ca30763c9b0e5c52e4ac055fe7895b4715f834723632a09"
+    },
+    {
+      "slug": "diversification-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Rewrote the systematic/unsystematic risk section from Wikipedia Diversification (finance) (added source), which supports diversifiable vs non-diversifiable risk and the reduced benefit with positive correlation. Fund paragraph reattributed to Investor.gov Asset Allocation text (funds pool money; narrow funds may not diversify; check top holdings). Fixed 'some people rebalance' to 'some financial experts advise'. Removed 'oldest advice in investing' and an app claim not in the catalog. Recomputed 80% x 1/20 = 4%.",
+      "contentHash": "sha256:c557ae6d4665efb805409fb1d27bd48abbfe7fb69c30b0997e0ef842cbfc6ad0"
+    },
+    {
+      "slug": "dividend-yield-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Formula, trailing/forward/indicated examples, special-dividend treatment, yield trap (MSCI via Wikipedia), payout ratio and buyback caveat (Wikipedia), fund distribution cautions, 19(a) notice and SEC yield (Investor.gov Fund Distributions) verified. Cut an unsourced 'most quoted number' line and the claim that a >100% payout 'cannot last'; softened special-dividend wording. Recomputed all yields, the 37.5% fall and payout ratios.",
+      "contentHash": "sha256:ddfc6e41212f6480ad38ebf755e1f55d313ede45b9bceac4833c158c4a44d02b"
+    },
+    {
+      "slug": "dollar-cost-averaging-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Investor.gov definition and Ten Building Blocks automation advice verified; harmonic mean, $20 fee example, Vanguard two-thirds result and the lump-sum vs income distinction checked against Wikipedia. Removed a 'most people who invest' generalisation, reworded an FAQ that read as advice on frequency into Wikipedia's 'can be made in line with income', and re-sourced the takeaway on discipline. Recomputed $7.62 vs $8.25, 64.17 shares, $6.23 average, $256.67, 4% fee.",
+      "contentHash": "sha256:da170c64e18235e5a5fe19912772703f1475a244a587fa07c1aca4eaecdf2e40"
+    },
+    {
+      "slug": "earnings-per-share-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "FINRA EPS description, SEC beginners' guide distribution statement, IAS 33 weighted average and equal-prominence rule, and Investor.gov non-GAAP reconciliation verified. Removed an unsourced claim about US 10-K presentation, a 'beating/missing consensus' bullet and 'many companies' wording; app sentence aligned to catalog lessons. Recomputed $2.00/$1.92, weighted 24m shares, $1.05/$1.11 and the 11% rise.",
+      "contentHash": "sha256:8055c63ec5dea45bf5342bd7dae84d4499711732fe92c8ce63ffc960bf4da516"
+    },
+    {
+      "slug": "etf-vs-mutual-fund",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against the SEC Characteristics of Mutual Funds and ETFs bulletin (registration, prospectus, names, NAV, premium/discount, retail purchase routes, in-kind exchanges, no tax difference in IRA/401k, fees regardless of performance) and fee bulletin (5% load = $500 of $10,000, 12b-1 typically not ETFs, zero-expense warning). Fixed misattribution of 'fees regardless of performance', replaced an unsourced 'Common' distributions cell and a wrapper-matters-less opinion, softened an app claim about order fills. Recomputed fee illustration ($31,472 vs $26,533, gap about $4,939).",
+      "contentHash": "sha256:d4fac4d7a01f245fe24974cced63d4bd8db8fdebb0977ab9b93e1544faae59cf"
+    },
+    {
+      "slug": "fractional-shares-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every broker-practice point checked against the SEC bulletin Fractional Share Investing (availability, aggregation, market-only orders, voting, fees, liquidity, transfer, $1,000/0.1 and 0.75 x $10 examples). Changed 'many brokers' to 'some'; separated a tax remark from the SEC attribution; removed a 'position sizing' app claim not in the catalog. Recomputed 0.25-share P/L and fee percentages.",
+      "contentHash": "sha256:90fda666ae9d38ff7ee63d4401c8c41742b2693614d6301d26f56169ab692631"
+    },
+    {
+      "slug": "how-dividends-work",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Investor.gov ex-dividend page verified: record/ex-date rule, 2026 XYZ example dates (16 and 13 March), 25% rule, stock dividends and due bills, price may fall by a significant dividend. Two-for-one split dividend statement sourced to the Investor.gov stock-split glossary (added). Reworded an unsupported causal claim linking ex-date to T+1, removed 'rarely works the way people expect' and 'many companies pay none', changed heading 'often drops' to 'may drop'.",
+      "contentHash": "sha256:4fd51315cfa465507188604124c3332e91abdf4973b285cd2e6a430887647784"
+    },
+    {
+      "slug": "how-the-stock-market-works",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Order routing, payment for order flow, best execution, ECNs, internalisation (Investor.gov Executing an Order), at-or-near bid/ask (Types of Orders), T+1 (FINRA) and NYSE 9:30-4:00 verified. Primary/secondary market section had no source: rewrote from Wikipedia Secondary market (added). Replaced an unsourced 'news, earnings, rates and sentiment' sentence with Wikipedia's supply-and-demand statement (Market trend, added). Softened 'news-site price is usually the last trade'.",
+      "contentHash": "sha256:ef1893a4594c128cd58bc65c7bc743c68dfa25cb11c50599060c510f4cfcd847"
+    },
+    {
+      "slug": "how-to-read-a-stock-quote",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Bid/ask (Investor.gov), official 4 p.m. close and extended-hours risks (FINRA), P/E description and ratio comparison across industries (FINRA Evaluating Stocks) verified; last-trade warning now cited to SEC bulletin 14 (added). Removed 'most beginners read only the biggest number' and 'some free quotes are delayed' generalisations; FAQ on differing quotes re-sourced to FINRA (venues not linked in extended hours). Renamed the generic heading 'Practising'. Recomputed +1.47% and the 4-cent spread.",
+      "contentHash": "sha256:bbd3007378b50dd4727282f7aedc06ce985077a10a8ea126eb62fa77295760c6"
+    },
+    {
+      "slug": "how-to-read-an-earnings-report",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "10-K/10-Q timing, set order of topics, SEC does not vouch, CEO/CFO certification, Items 1/1A/7/8/9 and unqualified-opinion advice checked against Investor.gov How to Read a 10-K/10-Q; press release + 8-K + conference call now cited to How to Read an 8-K; cash-flow quote from the SEC beginners' guide. Earnings-in-extended-hours now cited to FINRA (added). Removed a headline-number opener and 'press releases often lead with non-GAAP'; reworded seasonality and industry-comparison lines to match sources.",
+      "contentHash": "sha256:a3fe7b777b439c62e21397702171c7bf46b99340a521ab547c7525b3c11637be"
+    },
+    {
+      "slug": "how-to-read-candlestick-charts",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against ChartSchool Introduction to Candlesticks: OHLC, body, shadows, hollow/filled pressure, Marubozu, doji, hammer, shooting star, context dependence, need for confirmation. Removed unsourced 'most apps default to candlesticks', 'long-running free reference', 'most common patterns', 'patterns often fail' and 'most people find patterns less reliable'; replaced with ChartSchool's confirmation caveats. Replaced app wording not in the catalog ('inform a hypothesis', 'misleading signals') with catalog text. Green/red now presented as an app variation of hollow/filled.",
+      "contentHash": "sha256:5eae00599eda1e8bfd8116f9b39d9aa22f4af05719586de4f3a72be5c51f77d1"
+    },
+    {
+      "slug": "index-funds-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Investor.gov index-fund glossary (UIT/mutual fund/ETF, before fees, derivatives, representative sample, passive cost and tax advantages) and SEC fund bulletins verified. The tracking-difference section had unsourced claims; rewrote it using Investor.gov wording and Wikipedia Tracking error (near-zero for index funds; added source). Replaced an unsourced 'most funds employ a manager' with the SEC's active-strategy definition and removed the 'full replication' label and 'many indexes tracked by both'.",
+      "contentHash": "sha256:caad862e294afe0bfd7063e6c47c910dc4019f6eafb39c87fcd6ede1f18608e9"
+    },
+    {
+      "slug": "investment-fraud-red-flags",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against Investor.gov Protect Your Money and the SEC social-media fraud alert: guaranteed returns, urgency, can't-miss, hype phrases, relationship and affinity scams, impersonation, payment red flags, personal-information list, pump-and-dump mechanics, HYIPs, sec.gov/tcr and help.sec.gov. Reworded overstated lines ('designed to stop you researching', 'is not a real investment product', HYIP 'treat as likely fraud') to match the sources; removed an unsourced brokerage-funding claim. Recomputed 1.012^30 = 1.43 and 1.012^365 = 77.8.",
+      "contentHash": "sha256:6cefba8602dbec552c393dd35012c6e94fd9f2cdbb86e869a6aa5378b5c16bfd"
+    },
+    {
+      "slug": "learn-to-trade-stocks-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every app statement checked against the catalog (appfacts). Removed claims not in the catalog: a '$10,000' starting balance, 'quick practice and review', 'other practice tools', 'short' lessons, indicators that 'inform a hypothesis', screenshots of 'protective stops', and listing advice about 'stocks that moved against you'. Replaced with the catalog routine (learn, practise, compare result with reason, one question at a time). Retitled the lesson-topic table so it no longer implies the app teaches each topic. IQ Test & Brain Training Games name and percentages feature confirmed in catalog; free, ads, no IAP confirmed.",
+      "contentHash": "sha256:dcddd352b58b0d82284d44036fc9d77a45ea5a6ad05d097c1c7444533990cc3b"
+    },
+    {
+      "slug": "macd-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "ChartSchool MACD page verified: Appel late 1970s, 12/26/9, histogram, signal-line and centerline crossovers, eight crossovers in six months, seven centerline whipsaws, due diligence, divergences. Technical-analysis lateness criticism now cites the ChartSchool overview (added). App framing aligned to catalog wording; opener de-hyped. Recomputed 1.30 and 0.35.",
+      "contentHash": "sha256:3c495877eab85ab06f3b1cf05441bf85c8b0c81b3a83f33eb4d3b377247a0f2e"
+    },
+    {
+      "slug": "margin-call-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "SEC margin bulletin ($16,000/$8,000/$12,000 example, $3,000 vs $4,800, $800 call, sale without notice, no choice of securities) and Investor.gov margin-call glossary verified; 25% floor checked against FINRA Rule 4210 text. Recomputed trigger values ($10,667, $11,429, $13,333) and falls (33%, 29%, 17%). Removed the opinion that this 'matters more than any other detail' and unsourced 'common practical steps'; replaced with an arithmetic illustration ($6,000 loan triggers at $10,000).",
+      "contentHash": "sha256:ff464e60387e814183950bd4f78b142439ca4846bf33afce81049c283d7abaca"
+    },
+    {
+      "slug": "market-capitalization-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "FINRA Market Cap page verified including size bands, the $50 share A/B example, S&P 500/Russell 2000, the stability tendency with its no-guarantee caveat, and perceived value. Replaced an unsourced opinion section with FINRA's perceived-value discussion; fixed 'mega-cap usually long established' and 'many funds'; sourced the pump-and-dump microcap point to the SEC alert and penny-stock speculation to Investor.gov Stocks FAQ (both added). Removed a quote-screen claim. Recomputed the table.",
+      "contentHash": "sha256:7f5d97ff26f0d019412ca4996acbd6a517b2e47e5f3e172a4e2c7a07d0e6c5ae"
+    },
+    {
+      "slug": "market-circuit-breakers-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Investor.gov circuit-breaker glossary (7/13/20%, 3:25 p.m., 15 minutes, LULD five-minute average, 15 seconds, five-minute pause, tiers, doubling in last 25 minutes) and LULD Plan band table and $25 example verified; history checked against Wikipedia Trading curb. Rewrote the purpose sentence to sourced wording, softened the halt-reopening claim, removed 'rare events', and reframed an FAQ so it does not assert that March 2020 was definitively the last trigger. Recomputed 5,580/5,220/4,800 and $26.25/$23.75.",
+      "contentHash": "sha256:d9f5ad6beee27ccae80f01fcc398eb726ea1393d7a25d09503dfa68d76bff2dc"
+    },
+    {
+      "slug": "market-order-vs-limit-order",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "SEC bulletin 14 (market order price not guaranteed, 1,000-share partial fill example, $10 limit example, day and GTC orders), Types of Orders (at or near bid/ask) and the market-order glossary (default) verified. Removed 'choice most beginners skip' and changed 'most orders are day orders' to the SEC's 'orders are day orders unless specified'.",
+      "contentHash": "sha256:1769adb76f199f89937c8cf2e6363859f1d569fa9736336847c8db490edcaa6c"
+    },
+    {
+      "slug": "moving-averages-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "ChartSchool moving-average page verified: does not predict direction, 11-17 SMA example, 18.18% multiplier, SMA seed, speedboat/tanker, golden/death cross, whipsaws without a trend, 50/200-day popularity. Removed unsourced 'most widely used chart indicator' and 'widely misunderstood'; app framing aligned to catalog; added ChartSchool's popular-lengths point (sourced). Recomputed SMA and EMA examples.",
+      "contentHash": "sha256:3682d6987430845bc5271a29e8eddd786bf6df842e38bfff451a193324e6e110"
+    },
+    {
+      "slug": "pattern-day-trader-rule",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked the rule is current as of 2026-10-24: FINRA Regulatory Notice 26-10 (published 20 April 2026) replaced the day-trading margin requirements, including the PDT designation and $25,000 minimum, effective 4 June 2026 with phase-in to 20 October 2027; intraday margin deficit, single calculation permitted, 90-day freeze, 5%/$1,000 exemption verified. Old-rule details (4 trades in 5 days, >6%, $25,000, 4x buying power) verified against the SEC bulletin and framed as historical. FINRA June 2026 frequent-trading page verified ($2,000 minimum, satisfying deficits, not appropriate for limited resources). Softened 'many customers and firms considered' to FINRA's wording; replaced a 'no margin' app claim with catalog wording.",
+      "contentHash": "sha256:df119221e493f08319d94c8e7c827131178862ac808dfd9ad8b4c7a23c6b734a"
+    },
+    {
+      "slug": "pe-ratio-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "FINRA Evaluating Stocks verified (P/E definition, 25 vs 20 example, P/S, D/E, comparing with the market and industry because averages vary); Investor.gov value-stock qualifier verified. Removed a 'most quoted and most misread' opener and a quote-screen claim; earnings-yield caveat now cites the SEC beginners' guide; comparison-table wording aligned to FINRA. Recomputed 20x, 5% earnings yield and the trailing/forward table.",
+      "contentHash": "sha256:bf395c58a990e873d8e295d5fd96e5e0060413b24922fe2d7b4b8a8a5ef02a32"
+    },
+    {
+      "slug": "risk-tolerance-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Investor.gov risk-tolerance glossary, Gauge Your Risk Tolerance (35 years, five years or less, frequent mistake), Asset Allocation (questionnaire bias), FINRA Rule 2111 profile list and Reg BI carve-out verified. Could not verify an attributed Investor.gov 'never invest in what you do not understand' rule (saved Five Questions page truncated; live page returned 403), so removed the attribution. Removed 'people often pass one test and fail the other' and 'the lower of the two is the safer guide'. Recomputed the drawdown table (11.1%, 25%, 49.3%, 100%).",
+      "contentHash": "sha256:75b4b3810cb35b0553cd227d747ca6d781c03ee17abded4fe314e225baa5897c"
+    },
+    {
+      "slug": "rsi-indicator-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "ChartSchool RSI page verified: Wilder 1978 book, 14-period default, smoothing, 250 data points, 80/20 and 2-period variants, mid-September example, overbought can persist, works best in ranges, divergences. Removed an unsourced 'one of the most common lines' and an app-colour claim; app framing aligned to catalog. Recomputed RS = 2 giving 66.7.",
+      "contentHash": "sha256:5267f3c094f9aca0764617c3edea3a7e0e4dc5f0b776ab0fafb8c1c79bc40892"
+    },
+    {
+      "slug": "short-selling-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Investor.gov short-sale glossary, SEC Key Points About Regulation SHO (borrowing sources, interest and margin rules, locate Rule 203(b), Rule 201 10% price test, purposes of short selling) and FINRA Rule 4210 short maintenance ($5/30%, $2.50/100%) verified. The short-squeeze section had no source: rewrote it from Wikipedia Short squeeze (added). Removed unsourced borrow-fee, collateral and share-recall claims. Recomputed the short P/L table.",
+      "contentHash": "sha256:7e12e3530f6b6200963b81fef2e6ba36098e7d49ee07dc2fa796110acdce641b"
+    },
+    {
+      "slug": "sipc-protection-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against SIPC What SIPC Protects ($500,000/$250,000, custody function, exclusions, crypto, non-citizens), SIPC multiple-accounts examples (Mary/Joe), the Investor.gov SIPC glossary (trustee, written complaints, payments) and the cash-sweep bulletin. Replaced an unsourced opener about the logo near sign-up buttons and a 'classic sign of fraud' line.",
+      "contentHash": "sha256:20062dc3b1f9791dffb13904c5433a3add11cfb160c36eda54bafc68fca4afdb"
+    },
+    {
+      "slug": "stock-buybacks-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Wikipedia Share repurchase (six methods, almost 95% open market, 1981 Dutch auction, dividend-cut vs buyback perception, criticisms incl. 'virtually unregulated' and executives selling after announcements), 17 CFR 240.10b-18 (one broker, 10/30-minute windows with $1m ADTV/$150m float, price, 25% ADTV, block exception) and 26 USC 4501 (1%, covered corporation, netting of issuance, $1m de minimis, after 31 Dec 2022, Pub. L. 117-169). No edits needed. Recomputed EPS $2.22, ownership 0.0020% to 0.0022%, $8m tax.",
+      "contentHash": "sha256:4ba0ea2c8b1663b138fec86e15a997bcfd8b5628b3b418b6c28799c1b562aecf"
+    },
+    {
+      "slug": "stock-market-hours-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "NYSE calendar verified for 2026 (Good Friday 3 April, Juneteenth 19 June, 1 p.m. early closes 27 Nov and 24 Dec, sessions) and FINRA extended-hours risks verified. Replaced 'many retail investors' and 'companies often release earnings' with FINRA wording; reworded advice-like bullets ('most beginners have no need', 'use limit orders') into FINRA's disclosure guidance; corrected the FAQ on how far ahead the NYSE calendar runs (2025-2027); renamed a generic heading.",
+      "contentHash": "sha256:673be0e89368912bed5e95381196baaf2b880f912f336fd4a7fd87d9c79c6c2c"
+    },
+    {
+      "slug": "stock-splits-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Investor.gov stock-split glossary (two-for-one example, no dilution, dividends fall proportionately) and reverse-split glossary (one-for-ten example, reasons, cash-outs, state law, 8-K/10-Q/10-K, Schedule 14A/13E-3) verified. Removed an unsupported attributed claim that investors 'may lose money from price fluctuations after a reverse split' (body and FAQ), plus unsourced 'many brokers offer fractions', 'splits remain common' and 'sign of management confidence'. Added the sourced Schedule 14A/13E-3 point. Recomputed split tables.",
+      "contentHash": "sha256:c6bae7967095dc324edfdd0e67bb486085060134161f6413fe739c4cc751d1a4"
+    },
+    {
+      "slug": "stocks-vs-bonds",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Investor.gov Bonds FAQ (issuers, six-month interest, T-bills to 52 weeks, 30-year bonds, TIPS, muni tax exemption, investment-grade vs high-yield, five risks) and Stocks FAQ (liquidation order, 15-year line, 1-in-3 years) verified. Removed an unverifiable quoted Investor.gov line about young investors holding more stocks, and unsourced 'most portfolios', 'most investors hold both' and 'generally less volatile' claims. Recomputed bond prices ($962.81, $845.57, $1,089.83).",
+      "contentHash": "sha256:9dea5cb1c2efcd5d973c971dd5e0b54798702d690b3bcb9a1da0bfce63007612"
+    },
+    {
+      "slug": "stop-order-vs-stop-limit-order",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "SEC bulletin 15 verified (stop becomes market order, stop price not guaranteed, $3.00/$2.50 stop-limit example, intraday triggers vs close, last-sale vs quote triggers, availability, trailing stop $24/$23 example); deviation wording sourced to bulletin 14 (added). Removed 'they work well in calm markets', 'similar names hide different rules' and a screenshot claim not in the catalog.",
+      "contentHash": "sha256:43312ee546107e30802fa66bbd62865d84602562583ec110d7cf89d5d5be6213"
+    },
+    {
+      "slug": "support-and-resistance-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against ChartSchool Support & Resistance (saved copy of the cited URL): junctures of supply and demand, 'thought to be' wording, reaction highs/lows, 1/8 tolerance and zones, role reversal and its supply/demand rationale; moving averages as potential S/R from the ChartSchool MA page (added). Replaced an unsourced break-even behavioural explanation (body and FAQ), removed 'heavy-volume breakouts more significant', changed 'widely used' and 'break regularly' to sourced wording, aligned app framing to catalog.",
+      "contentHash": "sha256:8f09275b98c355a8599a0da459eb64a9969601bb9fc71ae6d84f6264fb5c9c21"
+    },
+    {
+      "slug": "technical-vs-fundamental-analysis",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "ChartSchool Fundamental Analysis (underlying forces, top-down, tide and boats, fair value, telecom comparison), Technical Analysis (OHLCV, prices trend, too late, not all signals work, charts useful to fundamental analysts) and FINRA ratio/industry guidance verified. Removed an unsourced time-frame row, 'widely taught' and 'many investors'; app wording no longer implies fundamental-analysis lessons.",
+      "contentHash": "sha256:3e25827de0e92257d86cabfb596b5eb6f2e90c93c3f9c2b563cd940f150f18e7"
+    },
+    {
+      "slug": "time-in-force-order-types",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "SEC bulletin 14 (day, GTC, IOC, FOK, AON, on open/on close) and FINRA extended-hours page verified; FINRA Rule 5330 text checked for the open-order definition, Do Not Reduce/Increase, rounding, sub-one-cent exception, reverse-split cancellation and exclusions. Minor softening of advice-like phrasing. Recomputed $49.60 and 200 at $25.",
+      "contentHash": "sha256:6f819c7e7dc9680c5b4a64ed714813e2795c7fd10518adb661dc649dcab7ca54"
+    },
+    {
+      "slug": "trade-settlement-t-plus-1",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "SEC T+1 bulletin (adopted 15 Feb 2023, compliance 28 May 2024, T+2 since 2017, covered securities) and FINRA Understanding Settlement Cycles (definitions, options and government securities, ACH on trade date, certificates) verified; current as of 2026-10-24. Removed an unsourced 'why shorter is safer' counterparty-risk section, 'as most are', 'fraction of a second' and 'many brokers let you buy with unsettled proceeds' (FINRA says many require funds first). Dividend-date link rewritten from the Investor.gov ex-dividend page (added).",
+      "contentHash": "sha256:f87ef35466d05458af4c17d2fd92bf2a7d5673ba1a8d880decd85eb22fe0ff49"
+    },
+    {
+      "slug": "trading-journal-how-to",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "IRS Topic 305 (property records, 3-year and 6-year periods), SEC How to Open a Brokerage Account (check statements, contact firm by phone and in writing) and the FINRA frequent-trading cost/tax warning verified. Replaced listing paraphrases not in the catalog (goal/exit advice, 'stocks that moved against you', 'trading tools') with catalog wording; removed 'parts most people skip'; worked example is now a hypothetical practice balance. Recomputed $80 risk (0.8%), $84 loss, expectancy +$12 and -$10.",
+      "contentHash": "sha256:982bbe0849e88931e459b74340d12b0b9144a26a5a8b2f1e8ae276cc654b2b3f"
+    },
+    {
+      "slug": "trading-volume-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "ChartSchool OBV (Granville 1963, earliest volume-flow measure, scale not relevant, volume precedes price), the ChartSchool Technical Analysis overview (liquidity of heavily vs thinly traded stocks, volume indicators for buying/selling pressure) and FINRA extended-hours verified. Removed an unsourced table of typical volume patterns, 'common interpretations' bullets and a screenshot claim; added a worked relative-volume example; pump-and-dump point sourced to the SEC alert and the spread point to Wikipedia (both added). Recomputed OBV 16,300/8,000 and relative volume 3.",
+      "contentHash": "sha256:dfc2e7d09cf1d99d148e179758e84f739a7f9d501196d6cf55c1d84b38a55c0a"
+    },
+    {
+      "slug": "wash-sale-rule-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against IRS Publication 550 (2025) Wash Sales: four triggers, spouse/controlled corporation, basis adjustment except IRA/Roth, holding period, X example, M partial example with $500/$250 allocation, matching order, same-day block rule, substantially-identical guidance, options vs commodity futures, Form 1099-B box 1g conditions, code W. Fixed a misleading line about selling replacement shares for '$1,050 or less' with a computed $800 sale. Recomputed $250, $1,050, $750/$250, $3,250, $1,375 and the 61-day window.",
+      "contentHash": "sha256:6a1119afeaa5397ba47bf148ed6fded57f7861a0a1de649adba2190f6be4d700"
+    },
+    {
+      "slug": "what-is-a-brokerage-account",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "SEC How to Open a Brokerage Account verified point by point (default margin warning, information list, objective terms, cash-management options and incentives, statements, discretionary authority, fee families, transfers) and the Investor.gov Brokerage Accounts definition. Removed an unverified detail about trusted-contact usage. Recomputed fee percentages.",
+      "contentHash": "sha256:546a77cb09d5d98c69a64981be53dd60f51cb0bb58ae16d4ff47f83a44917c4b"
+    },
+    {
+      "slug": "what-is-a-stock",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Investor.gov Stocks FAQ verified (definition, equities, voting, preferred priority, liquidation order, categories, 1-in-3 years, penny stocks) and the FINRA 10-Q/10-K audit statement. Removed an unsourced election-of-directors detail and 'many companies do not pay dividends'; softened a 'best way' opinion.",
+      "contentHash": "sha256:548dbe29219298a0f721c977bb54edee63f63c7e58144cef284aee6c29766689"
+    },
+    {
+      "slug": "what-is-a-stock-market-index",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "SEC Index Funds bulletin (basket, cannot invest directly, S&P 500/Russell 2000/Wilshire 5000), Wikipedia Stock market index (equal weight least concentrated, tilts to small caps, higher volatility), S&P 500 (committee, 1957, float weighting 2005, 503 constituents) and DJIA (1896, 12 stocks, divisor 0.16824816528350 since 29 June 2026) verified. Corrected points-per-dollar from 5.95 to Wikipedia's 5.94; removed an unsupported 'net total return' version claim (body and FAQ). Recomputed all weighting tables.",
+      "contentHash": "sha256:1b7ae07a5967cb39d3e27f87b5e86286fad2e338e4ffce13129c336bac69560f"
+    },
+    {
+      "slug": "what-is-an-ipo",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "SEC Investing in an IPO bulletin (registration, S-1, staff review is not merit approval, indications of interest, issuer sets price, allocations to institutional/high-net-worth clients, aftermarket route, 424B3/424B4, dilution, EGC $1.235bn and five years, lock-ups) and the Pre-IPO Scams alert verified. Changed 'common setting for scams' to the SEC's warning.",
+      "contentHash": "sha256:4916daf39117adbacaf33fcc38ccb788476bcf02ec6e7427ac491b773a3d0b85"
+    },
+    {
+      "slug": "what-is-paper-trading",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Investor.gov Executing an Order and FINRA cost/tax warnings verified. Removed listing paraphrases not in the catalog and a generalisation that 'people often' abandon plans; the emotion point now cites catalog limitation text; the simulator table is relabelled 'may' with a note that simulators differ; 'many people decide' changed to 'some people find'.",
+      "contentHash": "sha256:444fca4566c9ab3f98f171bbce14734553486a69eb4f1ec29d1efe803a030d5f"
+    },
+    {
+      "slug": "what-is-volatility",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "OpenStax 2.7 standard-deviation wording verified (fetched); Cboe VIX page (leading measure, 1993, inverse relationship, futures/options behave differently) and Wikipedia Beta verified. Replaced an unsourced 'fear gauge' nickname and 'cannot buy directly' with Cboe wording; stop-trigger point now sourced to SEC bulletin 15 (added); removed an unsourced spread-widening claim and app lesson claims not in the catalog. Recomputed means (0.1%) and SDs (0.25 vs 2.75).",
+      "contentHash": "sha256:b0b3934d50343e1aa0b8f0f761a4cdb7be0d10b3c57d87c2018b052cfe56031b"
+    }
+  ]
+}

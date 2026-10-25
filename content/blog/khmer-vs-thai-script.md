@@ -39,7 +39,9 @@
     "khmer-script-explained",
     "learn-thai-script-beginners-guide",
     "lao-vs-thai-differences",
-    "khmer-fonts-on-android"
+    "khmer-fonts-on-android",
+    "khmer-consonant-series",
+    "khmer-vowels-explained"
   ],
   "takeaways": [
     "The Thai script is derived from Old Khmer, which in turn came from the South Indian Pallava script, so the relationship is direct rather than parallel.",

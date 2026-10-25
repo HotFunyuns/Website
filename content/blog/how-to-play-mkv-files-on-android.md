@@ -41,7 +41,8 @@
     "video-codecs-explained",
     "hardware-vs-software-decoding",
     "android-video-players-compared",
-    "frame-rate-and-resolution-explained"
+    "frame-rate-and-resolution-explained",
+    "clear-app-cache-android"
   ],
   "takeaways": [
     "MKV is a container, explicitly not a compression format, so an MKV that will not play is almost never a problem with the MKV part.",

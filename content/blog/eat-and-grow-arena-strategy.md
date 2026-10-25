@@ -40,7 +40,8 @@
     "what-are-io-games",
     "io-games-without-a-connection",
     "score-attack-strategy",
-    "horde-survival-vs-wave-shooter"
+    "horde-survival-vs-wave-shooter",
+    "jellyfish-arena-survivor-io-partnership-opportunities"
   ],
   "takeaways": [
     "Mid-size is the most dangerous stage of a run: large enough to be a worthwhile target, too small to threaten anything back.",

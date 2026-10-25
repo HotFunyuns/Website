@@ -45,7 +45,8 @@
   "relatedArticles": [
     "basketball-draft-gm-guide",
     "rebuild-vs-retool",
-    "how-draft-lotteries-work"
+    "how-draft-lotteries-work",
+    "pro-basketball-draft-gm-mode-partnership-opportunities"
   ],
   "takeaways": [
     "Count the postseason as 20 teams, not 16: the top six in each conference qualify directly and seeds 7 to 10 play the Play-In for the last two places.",

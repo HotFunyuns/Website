@@ -104,6 +104,11 @@ for (const file of files) {
 
   const needed = DISCLAIMER_REQUIRED[data.category];
   if (needed && data.disclaimer === 'none') fail(`category ${data.category} but disclaimer "none"`);
+  // Every article built around the trading simulator explains markets, so it
+  // carries the finance notice: education, not advice; no recommendation.
+  if ((data.relatedApps ?? [])[0] === 'learn-to-trade-stocks' && data.kind !== 'partnership' && data.disclaimer !== 'finance') {
+    fail('an investing article must carry disclaimer "finance"');
+  }
   if (data.disclaimer === 'comparison' && !data.researchDate) fail('comparison without researchDate');
 
   // `aiSearchQuestions` holds questions a *reader* might type — "What is the

@@ -51,7 +51,9 @@
     "keto-flu-explained",
     "keto-macros-explained",
     "net-carbs-explained-keto-tracking",
-    "what-is-a-ketone-reading"
+    "what-is-a-ketone-reading",
+    "keto-diet-tracker-partnership-opportunities",
+    "low-carb-vegetables-list"
   ],
   "takeaways": [
     "Reducing carbohydrate intake is associated with a shift in fluid and sodium handling early on, which is the usual explanation for rapid initial weight change.",

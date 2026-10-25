@@ -48,7 +48,9 @@
   "relatedArticles": [
     "what-caused-the-bronze-age-collapse",
     "the-silk-road-for-beginners",
-    "how-historians-date-events"
+    "how-historians-date-events",
+    "the-korean-war-explained",
+    "unification-of-germany"
   ],
   "takeaways": [
     "China prohibited opium completely in 1796, according to The National Archives, and British merchants went on smuggling it in at volumes the archive puts at over 1,000 tonnes a year by the early nineteenth century.",

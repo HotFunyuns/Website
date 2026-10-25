@@ -209,22 +209,22 @@ export const hubs: HubInfo[] = [
     cornerstone: 'world-history-timeline-guide',
     relatedHubs: ['major-historical-events', 'civilizations-and-empires', 'history-learning-methods'],
     intro: [
-      'A timeline is an argument disguised as a neutral list. Choosing where a period begins, which events are large enough to mark, and whether to run one line or several are all interpretive decisions, and they change what the reader concludes. A single line running from Mesopotamia to the present implies a relay race; parallel lines for different regions imply something much closer to what actually happened.',
-      'Used carefully, though, chronology is the most useful tool in the subject. It is what turns a pile of remembered facts into an account with causes in it, and it is what exposes the surprises — that the Great Pyramid is older to Cleopatra than Cleopatra is to us, that Oxford was teaching before the Aztec Empire existed.',
-      'These articles cover era boundaries and why they are contested, dating systems and calendar reform, how historians establish a date at all, and how to read comparative timelines without importing their assumptions.',
+      'A timeline looks like a neutral list, but it is built from decisions: where a period starts, which events are big enough to mark, and whether to draw one line or several. This hub is about those decisions and the evidence underneath them, so that a date on a screen can be read for what it is rather than taken on trust.',
+      'Some of the questions are arithmetic: why the 1400s are the fifteenth century, or why a Hijri year, about eleven days shorter than a Gregorian one, almost always straddles two Common Era years. Some are method: what stratigraphy, radiocarbon, tree rings and written records can each fix, and how tightly. And some are framing: who decided that Late Antiquity sits between Rome and the Middle Ages, and what was happening in Han China, the Basin of Mexico and the Red Sea while Rome dominated the Mediterranean.',
+      'A useful habit to take from these articles is to ask two things of any date you meet: what evidence fixes it, and how wide the honest range is.',
     ],
     orientation: [
       {
-        title: 'Start with the era map',
-        body: 'The cornerstone guide lays out the conventional periods, what each is named for, and where the boundaries are genuinely disputed.',
+        title: 'Start with how to read a timeline',
+        body: 'The cornerstone guide explains how to use a timeline app without mistaking its layout for the past. The major-eras article then sets out the conventional periods and where their boundaries are disputed.',
       },
       {
-        title: 'Learn the dating conventions',
-        body: 'BCE/CE, regnal years, Julian-to-Gregorian conversion and archaeological dating each introduce their own precision limits. The dating articles cover them.',
+        title: 'Work through one calendar at a time',
+        body: 'BCE and CE, century counting, regnal years, the Julian and Gregorian calendars, the Hijri calendar and the Maya Long Count each have their own conversion rules, and the calendar articles take them one at a time.',
       },
       {
         title: 'Read across regions, not just along one line',
-        body: 'The comparative-timeline articles put simultaneous events side by side, which is where most of the useful surprises live.',
+        body: 'The comparative articles cover Rome and its contemporaries, the Chinese dynasties, and how Southeast Asian, African and pre-Columbian North American history is dated, so the European sequence is not the only line on the page.',
       },
     ],
     metaTitle: 'World History Timelines — Chronology Guides',
@@ -362,6 +362,74 @@ export const hubs: HubInfo[] = [
     metaTitle: 'How to Study History — Methods and Source Skills',
     metaDescription:
       'Retrieval practice, spacing, anchor dates, note-taking and source criticism — the study methods that actually work for learning history.',
+  },
+  // ---------------------------------------------------------------- mathematics (2026-10-24)
+  {
+    id: 'discrete-math',
+    label: 'Discrete Mathematics',
+    shortLabel: 'Discrete Math',
+    blurb:
+      'Logic, proofs, sets, functions, counting, probability, number theory and graphs, explained with worked examples you can check by hand.',
+    appSlug: 'discrete-math-study-quiz',
+    categoryId: 'education-brain',
+    cornerstone: 'discrete-math-study-quiz-guide',
+    relatedHubs: ['logic-and-pattern-puzzles', 'mental-math'],
+    intro: [
+      'Discrete mathematics is the mathematics of things you can count: true-or-false statements, finite sets, integers, arrangements and networks. For many students it is also where mathematics changes from calculating answers to proving statements, and that change is a large part of what makes it feel new.',
+      'The subject is held together by a small number of habits. Write the definition down before you use it. Check a claim on a tiny case before you try to prove it in general. Know which proof technique a statement is asking for. A skipped definition or an unchecked case undoes more arguments than a forgotten formula does.',
+      'These guides follow a common teaching order — logic, proof, sets and functions, number theory, induction, counting, probability, recurrences and graphs — and every worked example in them can be checked with pencil and paper.',
+    ],
+    orientation: [
+      {
+        title: 'Start with logic and proof',
+        body: 'Truth tables, implications and the main proof techniques come up in every later topic. Read the cornerstone guide, then the logic and proof articles, before anything else.',
+      },
+      {
+        title: 'Then counting and probability together',
+        body: 'Permutations, combinations, inclusion–exclusion and the pigeonhole principle are the tools; discrete probability is the same counting with a denominator.',
+      },
+      {
+        title: 'Practise on small cases',
+        body: 'The worked examples are small enough to check by writing every case out. If a formula disagrees with a list you wrote out by hand, trust the list and find the mistake.',
+      },
+    ],
+    metaTitle: 'Discrete Math Guides: Logic, Proofs, Graphs',
+    metaDescription:
+      'Discrete mathematics explained with worked examples: logic and truth tables, proofs, sets, counting, probability, number theory and graph theory.',
+  },
+  // ---------------------------------------------------------------- investing basics (2026-10-24)
+  {
+    id: 'investing-basics',
+    label: 'Investing Basics',
+    shortLabel: 'Investing Basics',
+    blurb:
+      'How shares, orders, accounts, charts and risk work, explained for beginners — education, not advice, with US rules cited and dated.',
+    appSlug: 'learn-to-trade-stocks',
+    categoryId: 'education-brain',
+    cornerstone: 'learn-to-trade-stocks-guide',
+    relatedHubs: ['mental-math'],
+    intro: [
+      'The first time someone looks at a trading screen, the useful questions are practical ones: what am I buying, what happens when I press buy, what can go wrong, and what do these numbers mean? A strategy pitch or a list of jargon answers none of them.',
+      'These guides answer those questions in the order a beginner meets them — ownership and exchanges, then order types and accounts, then the figures on a quote and in an earnings report, then charts and indicators and their limits, and finally the rules, taxes and frauds worth knowing about. Where a rule is involved, the guide cites the regulator that wrote it and the date it was checked.',
+      'Nothing here is advice. The guides explain how things work; they do not say what anyone should buy, and they treat charts and indicators as descriptions of the past rather than forecasts. The trading app they link to is a simulator that uses virtual money only.',
+    ],
+    orientation: [
+      {
+        title: 'Start with what a share is and how a trade happens',
+        body: 'Ownership, exchanges, brokers and the bid–ask spread explain most of what a trading screen shows. Read those before any article about charts.',
+      },
+      {
+        title: 'Learn the order types before you place a practice trade',
+        body: 'Market, limit and stop orders behave differently when prices move fast. Practising them in a simulator shows the difference without costing anything.',
+      },
+      {
+        title: 'Treat indicators as descriptions, not predictions',
+        body: 'Every chart and indicator article says what the measure is calculated from and where it fails. None of them is a signal to buy or sell.',
+      },
+    ],
+    metaTitle: 'Investing Basics: Stocks, Orders and Risk',
+    metaDescription:
+      'Beginner guides to how shares, orders, accounts, charts and risk work, with US rules cited and dated. Education only, not investment advice.',
   },
 ];
 

@@ -47,7 +47,9 @@
     "cefr-levels-explained",
     "comprehensible-input-explained",
     "how-many-words-to-be-conversational",
-    "listening-practice-in-a-new-language"
+    "listening-practice-in-a-new-language",
+    "how-to-practise-speaking-alone",
+    "italian-greetings-formal-informal"
   ],
   "takeaways": [
     "A plateau is usually a measurement problem, not a progress problem: the levels get larger, so the same rate of improvement produces less visible change.",

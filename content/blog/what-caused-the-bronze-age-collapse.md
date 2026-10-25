@@ -50,7 +50,9 @@
     "major-eras-of-world-history",
     "world-history-timeline-guide",
     "how-historians-date-events",
-    "why-rome-fell"
+    "why-rome-fell",
+    "athenian-democracy-explained",
+    "alexander-the-great-explained"
   ],
   "takeaways": [
     "No single explanation has achieved consensus, and the framing most scholars now work within is that several stresses combined rather than one cause acting alone.",

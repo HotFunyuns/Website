@@ -46,7 +46,9 @@
     "learn-italian-beginners-guide",
     "cefr-levels-explained",
     "how-long-does-it-take-to-learn-russian",
-    "how-many-words-to-be-conversational"
+    "how-many-words-to-be-conversational",
+    "learn-italian-partnership-opportunities",
+    "italian-numbers"
   ],
   "takeaways": [
     "Any single number answering this question is hiding its assumptions: which level, which skills, what kind of study and what prior languages.",

@@ -46,7 +46,9 @@
     "hockey-positions-explained",
     "what-is-icing-in-hockey",
     "power-play-and-penalty-kill",
-    "hockey-draft-gm-guide"
+    "hockey-draft-gm-guide",
+    "hockey-career-pro-league-guide",
+    "how-long-is-a-hockey-shift"
   ],
   "takeaways": [
     "An NHL game is three 20-minute periods of actual playing time, so the clock stops at every whistle and a game takes far longer than an hour of real time.",

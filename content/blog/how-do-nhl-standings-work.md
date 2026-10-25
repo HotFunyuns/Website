@@ -45,7 +45,8 @@
   "relatedArticles": [
     "how-soccer-league-tables-work",
     "goal-difference-and-tiebreakers",
-    "hockey-draft-gm-guide"
+    "hockey-draft-gm-guide",
+    "hockey-draft-gm-manager-partnership-opportunities"
   ],
   "takeaways": [
     "Read an NHL record as wins, regulation losses and overtime losses, and compute points as two per win plus one per overtime or shootout loss.",

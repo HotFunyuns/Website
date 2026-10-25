@@ -41,7 +41,8 @@
     "tower-defense-strategy-basics",
     "aura-towers-and-support-stacking",
     "boss-pattern-recognition",
-    "tower-defense-camera-controls"
+    "tower-defense-camera-controls",
+    "tower-defense-upgrade-priority"
   ],
   "takeaways": [
     "Armour taxes each individual hit, so fast weak shots lose most of their value and slow heavy shots keep most of theirs — the answer is rarely more of the same tower.",

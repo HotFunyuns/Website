@@ -45,7 +45,9 @@
   "relatedArticles": [
     "is-my-card-worth-grading",
     "card-grading-costs-and-tiers",
-    "reverse-holo-vs-holo"
+    "reverse-holo-vs-holo",
+    "how-to-spot-fake-trading-cards",
+    "how-to-store-trading-cards"
   ],
   "takeaways": [
     "A value estimate is a claim about a market at a moment, not a property of the object, so two tools reading different slices of that market can disagree without either being wrong.",

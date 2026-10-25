@@ -38,7 +38,9 @@
   "relatedArticles": [
     "learn-cantonese-beginners-guide",
     "learn-khmer-beginners-guide",
-    "learn-malay-beginners-guide"
+    "learn-malay-beginners-guide",
+    "thai-greetings",
+    "thai-polite-particles"
   ],
   "takeaways": [
     "Thai romanisation systems generally do not encode tone, so a learner who works only from romanised text cannot tell from the page which of five tones a word takes.",

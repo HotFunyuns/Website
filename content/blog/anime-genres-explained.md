@@ -49,7 +49,8 @@
     "anime-coloring-app-guide",
     "color-theory-for-beginners",
     "manga-vs-anime-differences",
-    "shonen-vs-seinen"
+    "shonen-vs-seinen",
+    "google-play-content-ratings"
   ],
   "takeaways": [
     "Shōnen, shōjo, seinen and josei describe the readership a magazine was aimed at, not the content of the story, which is why a violent tragedy can be shōnen and a gentle comedy can be seinen.",

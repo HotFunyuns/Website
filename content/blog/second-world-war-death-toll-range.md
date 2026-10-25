@@ -48,7 +48,9 @@
   "relatedArticles": [
     "what-caused-the-bronze-age-collapse",
     "how-historians-date-events",
-    "major-eras-of-world-history"
+    "major-eras-of-world-history",
+    "the-1918-influenza-pandemic",
+    "the-punic-wars-explained"
   ],
   "takeaways": [
     "The National WWII Museum gives worldwide figures of 15,000,000 battle deaths, 25,000,000 battle wounded and 45,000,000 civilian deaths, and immediately cautions that worldwide casualty estimates vary widely in several sources.",

@@ -48,7 +48,9 @@
   "relatedArticles": [
     "what-caused-the-bronze-age-collapse",
     "why-rome-fell",
-    "how-to-study-history-on-your-own"
+    "how-to-study-history-on-your-own",
+    "apartheid-explained",
+    "fall-of-the-berlin-wall"
   ],
   "takeaways": [
     "The General Act signed in Berlin on 26 February 1885 is a real document with a real date, but it did not allocate territory to European powers; the partition was carried out afterwards by treaty-making, company charters and war.",

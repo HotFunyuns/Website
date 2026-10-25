@@ -84,7 +84,7 @@ export function publicationDay(now: Date = new Date()): string {
 export type SearchIntent = 'informational' | 'commercial' | 'transactional' | 'navigational';
 
 /** Which standing disclaimer the article template must render above the body. */
-export type DisclaimerKind = 'none' | 'health' | 'language' | 'comparison' | 'partnership';
+export type DisclaimerKind = 'none' | 'health' | 'wellness' | 'language' | 'comparison' | 'partnership' | 'finance';
 
 /**
  * What kind of page an article is. Absent means an ordinary guide written for
@@ -226,7 +226,7 @@ export const SEARCH_INTENTS: SearchIntent[] = [
   'transactional',
   'navigational',
 ];
-export const DISCLAIMER_KINDS: DisclaimerKind[] = ['none', 'health', 'language', 'comparison', 'partnership'];
+export const DISCLAIMER_KINDS: DisclaimerKind[] = ['none', 'health', 'wellness', 'language', 'comparison', 'partnership', 'finance'];
 export const ARTICLE_KINDS: ArticleKind[] = ['partnership'];
 
 /** Cards per page on the blog index and on each category listing. */

@@ -1,0 +1,78 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person’s review.",
+  "entries": [
+    {
+      "slug": "how-does-american-football-work",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Search Console remediation row 2. Downloaded the 2026 NFL rulebook PDF linked from the cited operations.nfl.com page and checked each rule: 11 players (5-1-1), line to gain (3-8-3), dead-ball contact rule (7-2-1a), one forward pass from behind the line (8-1-2), seven on the line and ineligible interior linemen (7-5-1), scoring values (11-1-2), try spots at the 15 and 2 and two points for a touchdown by either team on a try (11-3), safety definition and free kick from the 20 (11-5), kickoff after try and field goal, touchback at the 35 for a ball downed in the end zone on the fly (6-1-5), field 360 x 160 ft, hash marks 70 ft 9 in, crossbar in the end-line plane 10 ft high and 18 ft 6 in wide, 5-yard markings and 10-yard numerals (Rule 1), 60 minutes, 15-minute periods, 13-minute halftime, three timeouts per half, incomplete pass stops the clock, 5/10/15-yard penalty groups and refusal of penalties. Glossary checked for the punt and the 15-yard extra point being about a 33-yard kick. Drive arithmetic recomputed. Removed a formations-guide quotation not present in that page’s text, the “usually” safety wording and the “one score usually means 8 points” generalisation; trimmed kickoff, penalty-enforcement and overtime detail in favour of links to nfl-kickoff-rules, nfl-penalties-explained, nfl-overtime-rules-explained and when-to-go-for-it-on-4th-down. Football Career Sim 2027 claims match the catalog. check.mjs top similarity 0.017 (nfl-kickoff-rules); preflight clean, one NFL nominative-use note.",
+      "contentHash": "sha256:f68cfad5b35e7157c944f0d4206266e1e54b0feb072ae323ed11a8cacc8a5492"
+    },
+    {
+      "slug": "malay-reduplication-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Search Console remediation row 4. WALS 27 and 33 quotations re-verified verbatim (Rubino definitions; Dryer rumah-rumah and “not obligatory”). PRPM queried: gunung-ganang (Kamus Dewan Edisi Keempat: berbagai-bagai gunung, banyak gunung), kuih-muih (bermacam-macam jenis kuih), kanak-kanak (defined under kanak, which has no definition of its own; age gloss 7 or 8), buku-buku (not in the current dictionary). Wiktionary kanak-kanak and kanak checked (kanak formal, used in the plural). Wikipedia Malay grammar used for the four types, dedaunan, gerak-gerik, sayur-mayur, no grammatical plural, numerals/beberapa/semua, seribu orang, lima buah rumah, dua buah meja, beberapa kupu-kupu, biri-biri, kura-kura, labah-labah, hati-hati, orang-orangan; added as sources with Wikipedia Reduplication and Wiktionary. Corrected: the claim that reduplication leaves word class alone (hati-hati contradicts it); the number rule now uses sourced classifier examples instead of unsourced dua buku; removed unsourced claim about separate standard-language authorities and “trips up learners”. No native-speaker review claimed. Learn Malay - Bahasa Melayu claims (reduplication taught, sentence building, dictation) match the catalog. Distinct from malay-phrases-for-travel. check.mjs top 0.006; preflight clean.",
+      "contentHash": "sha256:4e6f2b2516ae8623f19839bb25ea938d774da3466935670ecf99a3e1e20041de"
+    },
+    {
+      "slug": "how-to-track-protein-intake",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Search Console remediation row 13 (overlap with how-much-protein-per-day). Reference-intake section cut to one paragraph linking how-much-protein-per-day; removed the FAQs “How much protein should I eat per day?” (duplicate of that article) and the 50 g Daily Value question, the secondary keywords “how much protein per day” and “daily protein intake calculator”, the per-kg long-tail and the RDA aiSearchQuestions. Verified: MedlinePlus 10% to 35% and 4 calories per gram; FDA DV table protein 50 g. Worked example uses USDA SR Legacy values (chicken breast roasted 31.02 g/100 g, egg 12.56 g with 50 g large egg, Greek yogurt nonfat 10.19 g with 170 g container, lentils boiled 9.02 g with 198 g cup, 2% milk 3.48 g with 245 g cup); all products, the 83 g total (82.6 unrounded), 37 g at 120 g, 330 kcal, and the week sum 531 / mean 75.9 / spread 33 recomputed with node. Old “mid-teens” yogurt figure corrected to 17 g. Softened or removed “most tracking habits die”, “snacks are where the unaccounted intake usually is”, “you eat maybe 30 regularly”, “most comparison guides”. Removed catalog-absent app claims (“rather than breadth of database”, “nothing central is held back”). Dropped the superseded Dietary Guidelines 2020–2025 source (unused). Health disclaimer kept; no target recommended. check.mjs top 0.012, no duplicate FAQs; preflight clean.",
+      "contentHash": "sha256:31201e5aafbe44c117b3b581bfc3e6e725f6f3a529e6c0ed5b347949ee966026"
+    },
+    {
+      "slug": "anime-coloring-app-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Search Console remediation row 14. The body contains no images and no third-party artwork, screenshots or character/series names; no image to replace (public/screenshots holds none for this app). Every app statement checked against appfacts anime-coloring-book and the catalog contentRating (Everyone): fill, brush, two erasers, zoom/move/center, palette list, Recently Used, Continue Coloring on device, no account, Get Random Artwork via rewarded ad, free with ads and IAP, artwork subjects. Removed the catalog-absent claim that the line art is original work made for the app and the FAQ built on it. Cut unsourced generalisations (“almost everyone”, coloring vs scrolling attention, “twenty minutes”, “most people stall”, “most results will be muddy”, “most phone hobbies”). Anime-style section reduced to three coloring decisions with links to anime-art-styles-explained and how-to-shade-anime-hair; hair FAQ replaced with a page-order FAQ to avoid that article’s intent. No clinical claims. check.mjs top 0.028 (anime-art-styles-explained); preflight clean. No external sources are cited because no external facts are stated.",
+      "contentHash": "sha256:e8cfe837da794ba523c280d4843abd217e41e1f2b33d457b1e119337207b4bc9"
+    }
+  ]
+}

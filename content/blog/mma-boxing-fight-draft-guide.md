@@ -54,7 +54,8 @@
     "hockey-draft-gm-guide",
     "basketball-draft-gm-guide",
     "baseball-draft-gm-guide",
-    "ko-vs-tko-how-fights-end"
+    "ko-vs-tko-how-fights-end",
+    "mma-boxing-fight-draft-partnership-opportunities"
   ],
   "takeaways": [
     "Combat sports drafting is not positional coverage — it is matchup coverage, because a style advantage can outweigh a ratings advantage.",

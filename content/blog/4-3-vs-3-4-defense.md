@@ -45,7 +45,9 @@
     "football-positions-explained-for-drafting",
     "depth-charts-explained",
     "reading-a-defense-basics",
-    "football-draft-gm-guide"
+    "football-draft-gm-guide",
+    "football-league-commissioner-guide",
+    "football-draft-gm-mode-partnership-opportunities"
   ],
   "takeaways": [
     "A 4-3 lines up four down linemen and three linebackers, a 3-4 three linemen and four linebackers, and both keep four defensive backs.",

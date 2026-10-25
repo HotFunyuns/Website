@@ -46,7 +46,9 @@
   "relatedArticles": [
     "learn-thai-script-beginners-guide",
     "is-thai-hard-to-learn",
-    "cantonese-tones-explained"
+    "cantonese-tones-explained",
+    "thai-consonant-classes",
+    "thai-numbers"
   ],
   "takeaways": [
     "Standard Thai distinguishes five tones — mid, low, falling, high and rising — and has only four tone marks, which is why the marks alone cannot identify a tone.",

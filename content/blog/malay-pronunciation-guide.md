@@ -46,7 +46,9 @@
   "relatedArticles": [
     "learn-malay-beginners-guide",
     "malay-vs-indonesian-differences",
-    "spaced-repetition-for-language-learning"
+    "spaced-repetition-for-language-learning",
+    "malay-numbers",
+    "malay-days-and-time"
   ],
   "takeaways": [
     "Malay spelling is close to phonemic, so most letters map to one sound and a written word usually tells you how to say it.",

@@ -47,7 +47,9 @@
     "learn-russian-cyrillic-beginners-guide",
     "russian-cases-explained-for-beginners",
     "is-thai-hard-to-learn",
-    "spaced-repetition-for-language-learning"
+    "spaced-repetition-for-language-learning",
+    "learn-russian-partnership-opportunities",
+    "russian-greetings"
   ],
   "takeaways": [
     "The US Foreign Service Institute places Russian in Category III at approximately 44 weeks of full-time instruction, or 1,100 class hours, for its own students.",

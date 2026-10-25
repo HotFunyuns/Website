@@ -46,7 +46,9 @@
     "learn-vietnamese-beginners-guide",
     "vietnamese-tones-explained",
     "lao-alphabet-explained",
-    "khmer-script-explained"
+    "khmer-script-explained",
+    "vietnamese-classifiers",
+    "vietnamese-greetings"
   ],
   "takeaways": [
     "Vietnamese is written in chữ Quốc ngữ, a Latin-based alphabet, which is why it looks approachable and reads unfamiliarly.",

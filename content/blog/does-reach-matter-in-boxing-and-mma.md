@@ -37,7 +37,8 @@
     "player-body-metrics-in-career-sims",
     "mma-weight-classes-explained",
     "boxing-scoring-explained",
-    "southpaw-vs-orthodox"
+    "southpaw-vs-orthodox",
+    "mma-boxing-fight-draft-partnership-opportunities"
   ],
   "takeaways": [
     "Treat a reach advantage as a small, conditional edge: in most MMA divisions studied, armspan did not separate winners from losers.",

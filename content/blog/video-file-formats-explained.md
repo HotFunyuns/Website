@@ -45,7 +45,9 @@
   ],
   "relatedArticles": [
     "android-video-player-guide",
-    "video-codecs-explained"
+    "video-codecs-explained",
+    "regal-video-player-partnership-opportunities",
+    "in-app-purchases-explained"
   ],
   "takeaways": [
     "A container stores tracks, timing and an index — it does not compress anything, which is why changing container does not change quality.",

@@ -41,7 +41,8 @@
     "malay-pronunciation-guide",
     "malay-affixes-guide",
     "is-malay-easy-to-learn",
-    "should-i-learn-malay-or-indonesian"
+    "should-i-learn-malay-or-indonesian",
+    "learn-malay-partnership-opportunities"
   ],
   "takeaways": [
     "Six words carry an unreasonable share of the load: boleh, ada, tolong, berapa, di mana and terima kasih.",

@@ -47,7 +47,9 @@
     "comprehensible-input-explained",
     "shadowing-technique-explained",
     "language-learning-plateau",
-    "what-is-a-tonal-language"
+    "what-is-a-tonal-language",
+    "thai-vowels-explained",
+    "learn-thai-partnership-opportunities"
   ],
   "takeaways": [
     "Listening is harder than reading because speech has no spaces, no punctuation, no rereading and no control over pace.",

@@ -49,7 +49,8 @@
   "relatedArticles": [
     "why-rome-fell",
     "what-caused-the-bronze-age-collapse",
-    "how-to-study-history-on-your-own"
+    "how-to-study-history-on-your-own",
+    "the-great-depression-explained"
   ],
   "takeaways": [
     "There is no consensus single cause. Economic historians argue over at least four families of explanation — relative prices and coal, institutions, useful knowledge, and colonial markets and raw materials — and most working accounts combine several.",

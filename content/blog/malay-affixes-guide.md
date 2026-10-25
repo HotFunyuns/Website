@@ -40,7 +40,9 @@
     "learn-malay-beginners-guide",
     "malay-pronunciation-guide",
     "malay-vs-indonesian-differences",
-    "is-malay-easy-to-learn"
+    "is-malay-easy-to-learn",
+    "malay-question-words",
+    "malay-pronouns"
   ],
   "takeaways": [
     "Malay puts almost no grammar on the ends of words for tense, number or gender, and puts a great deal of it into affixes attached to a root.",

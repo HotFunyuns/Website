@@ -47,7 +47,9 @@
     "basketball-advanced-stats-explained",
     "basketball-career-sim-guide",
     "basketball-positions-explained",
-    "basketball-draft-gm-guide"
+    "basketball-draft-gm-guide",
+    "basketball-shot-selection",
+    "double-double-triple-double"
   ],
   "takeaways": [
     "Read shooting as made-attempted pairs (9-17, 3-7, 4-5) before looking at any percentage, because the attempts tell you how big the sample is.",

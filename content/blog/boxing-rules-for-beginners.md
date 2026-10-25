@@ -37,7 +37,9 @@
   "relatedArticles": [
     "boxing-scoring-explained",
     "how-boxing-records-are-written",
-    "managing-a-fight-stable"
+    "managing-a-fight-stable",
+    "boxing-prize-fighter-career-guide",
+    "boxing-prize-fighter-career-partnership-opportunities"
   ],
   "takeaways": [
     "Before arguing about a stoppage, check whose rules governed the bout: where a commission regulates it, the commission's rules generally govern, and a sanctioning body's own rulebook can differ.",

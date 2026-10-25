@@ -82,10 +82,37 @@ export const toolsIndexCopy = {
     'Results describe performance that has already happened. They are not predictions, and they are not betting guidance.',
     'The explanations were drafted with AI assistance and have not been reviewed by a person.',
   ],
+  /**
+   * The questions people bring to these calculators, mapped to the one that
+   * answers each — navigation by what you want to know rather than by sport.
+   */
+  questions: [
+    { question: 'How good was a quarterback’s game, by the NFL’s own formula?', tool: 'passer-rating-calculator' },
+    { question: 'Is a hitter’s average propped up by luck on balls in play?', tool: 'batting-average-calculator' },
+    { question: 'Does a pitcher’s ERA overstate how well he pitched?', tool: 'era-calculator' },
+    { question: 'Who scores most efficiently once threes and free throws count properly?', tool: 'true-shooting-percentage-calculator' },
+    { question: 'What would a bench player produce over starter’s minutes?', tool: 'per-36-calculator' },
+    { question: 'Did a team win on shooting, turnovers, rebounds or free throws?', tool: 'four-factors-calculator' },
+    { question: 'How often does a goalie stop the shots he faces?', tool: 'save-percentage-calculator' },
+    { question: 'Is a hockey team on pace for a playoff spot?', tool: 'points-percentage-calculator' },
+    { question: 'How many more wins does a leader need to clinch?', tool: 'magic-number-calculator' },
+    { question: 'Was a team’s record better or worse than its scoring suggests?', tool: 'pythagorean-expectation-calculator' },
+    { question: 'How much should one result move two teams’ ratings?', tool: 'elo-rating-calculator' },
+    { question: 'What are the real odds of an unbeaten season?', tool: 'perfect-season-calculator' },
+    { question: 'Who is most likely to win a weighted draft lottery?', tool: 'draft-lottery-simulator' },
+    { question: 'How do I set a fair draft order for my own league?', tool: 'draft-order-generator' },
+    { question: 'What is my golf Handicap Index from my recent scores?', tool: 'handicap-index-calculator' },
+    { question: 'How many strokes do I get from these tees, in this format?', tool: 'course-handicap-calculator' },
+    { question: 'How many Stableford points did my round earn?', tool: 'stableford-calculator' },
+    { question: 'Which boxing or MMA weight class am I in?', tool: 'weight-class-finder' },
+    { question: 'How would three judges score this fight?', tool: 'fight-scorecard' },
+    { question: 'How likely is a tennis player to hold serve and win the match?', tool: 'win-probability-calculator' },
+    { question: 'How many ranking points does a rugby result exchange?', tool: 'world-rankings-calculator' },
+  ],
   metaTitle: 'Sports Calculators: Stats, Ratings and Handicaps',
   metaDescription:
     'Free sports calculators with sourced formulas: passer rating, batting and pitching stats, shooting efficiency, goalie stats, golf handicaps and more.',
-  updatedAt: '2026-10-02',
+  updatedAt: '2026-10-24',
 };
 
 // Consistency checks at module load: a typo fails the build rather than

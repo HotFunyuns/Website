@@ -46,7 +46,9 @@
     "learn-vietnamese-beginners-guide",
     "vietnamese-tones-explained",
     "is-thai-hard-to-learn",
-    "what-is-a-tonal-language"
+    "what-is-a-tonal-language",
+    "learn-vietnamese-partnership-opportunities",
+    "vietnamese-numbers"
   ],
   "takeaways": [
     "Vietnamese is unusually lopsided: the grammar is among the simplest a European-language speaker will meet, and the pronunciation is among the hardest.",

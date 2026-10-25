@@ -52,7 +52,9 @@
   "relatedArticles": [
     "mental-math-training-guide",
     "building-a-daily-practice-habit",
-    "multiplication-shortcuts-explained"
+    "multiplication-shortcuts-explained",
+    "learn-to-trade-stocks-guide",
+    "discrete-math-study-quiz-guide"
   ],
   "takeaways": [
     "Practise a small set of facts often rather than a large set occasionally: five to ten minutes on a handful of facts beats a long session covering everything.",

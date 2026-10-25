@@ -49,7 +49,9 @@
   "relatedArticles": [
     "why-rome-fell",
     "the-silk-road-for-beginners",
-    "major-eras-of-world-history"
+    "major-eras-of-world-history",
+    "roman-republic-vs-empire",
+    "the-crusades-explained"
   ],
   "takeaways": [
     "The three caliphates are separated most easily by capital: Umayyad Damascus, Abbasid Baghdad and Samarra, Fatimid Cairo — three cities, three ruling families, three political projects.",

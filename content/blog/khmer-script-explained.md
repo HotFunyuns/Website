@@ -50,7 +50,9 @@
     "learn-khmer-beginners-guide",
     "learn-thai-script-beginners-guide",
     "is-thai-hard-to-learn",
-    "spaced-repetition-for-language-learning"
+    "spaced-repetition-for-language-learning",
+    "khmer-consonant-series",
+    "khmer-vowels-explained"
   ],
   "takeaways": [
     "Khmer is an abugida, so the unit that matters is the syllable cluster, not the individual letter.",

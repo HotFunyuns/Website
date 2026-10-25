@@ -38,7 +38,9 @@
     "boxing-scoring-explained",
     "how-mma-judging-criteria-work",
     "striking-vs-grappling-in-mma",
-    "mma-boxing-fight-draft-guide"
+    "mma-boxing-fight-draft-guide",
+    "amateur-vs-professional-boxing",
+    "what-does-a-boxing-corner-do"
   ],
   "takeaways": [
     "Compare total fighting time rather than round counts: a twelve-round boxing match holds 36 minutes of action, a five-round MMA fight 25.",

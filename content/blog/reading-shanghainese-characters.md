@@ -45,7 +45,8 @@
     "shanghainese-romanisation-choices",
     "shanghainese-vs-mandarin-differences",
     "wu-chinese-and-where-shanghainese-sits",
-    "heritage-language-learners-shanghainese"
+    "heritage-language-learners-shanghainese",
+    "learn-shanghainese-partnership-opportunities"
   ],
   "takeaways": [
     "A Chinese character encodes a written unit, not a single sound, and the same character is read differently by speakers of different Sinitic varieties and by Japanese, Korean and Vietnamese readers of the same script.",

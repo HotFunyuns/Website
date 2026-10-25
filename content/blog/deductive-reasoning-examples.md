@@ -54,7 +54,8 @@
   "relatedArticles": [
     "inductive-reasoning-examples",
     "syllogisms-explained",
-    "primary-vs-secondary-sources"
+    "primary-vs-secondary-sources",
+    "valid-vs-sound-arguments"
   ],
   "takeaways": [
     "A deductive argument claims that its conclusion cannot be false while its premises are true. That claim is about the form of the argument, not about whether anything in it is actually the case.",

@@ -40,7 +40,8 @@
     "is-my-card-worth-grading",
     "how-to-measure-card-centring",
     "card-condition-grading-scales",
-    "when-a-card-scanner-picks-the-wrong-card"
+    "when-a-card-scanner-picks-the-wrong-card",
+    "tcg-card-grading-scanner-partnership-opportunities"
   ],
   "takeaways": [
     "Grading is priced on two axes at once: how much the card is insured or declared for, and how fast you want it back.",

@@ -54,7 +54,8 @@
   "relatedArticles": [
     "syllogisms-explained",
     "deductive-reasoning-examples",
-    "mental-math-tricks-that-work"
+    "mental-math-tricks-that-work",
+    "valid-vs-sound-arguments"
   ],
   "takeaways": [
     "From 'if P then Q' there are exactly two valid moves: given P, conclude Q; and given not-Q, conclude not-P. Everything else is a guess.",

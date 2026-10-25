@@ -47,7 +47,8 @@
     "comprehensible-input-explained",
     "shadowing-technique-explained",
     "listening-practice-in-a-new-language",
-    "spaced-repetition-for-language-learning"
+    "spaced-repetition-for-language-learning",
+    "passato-prossimo-vs-imperfetto"
   ],
   "takeaways": [
     "Self-study handles knowledge acquisition well: vocabulary, grammar explanations, reading and listening practice all work without a teacher.",

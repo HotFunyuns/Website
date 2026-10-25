@@ -46,7 +46,8 @@
     "reading-a-defense-basics",
     "quarterback-archetypes-explained",
     "football-career-sim-guide",
-    "football-draft-gm-guide"
+    "football-draft-gm-guide",
+    "football-career-pro-league-partnership-opportunities"
   ],
   "takeaways": [
     "The number in a coverage's name counts the defenders playing deep zones: two deep halves in Cover 2, three deep thirds in Cover 3, one deep defender in Cover 1 and four in Cover 4.",

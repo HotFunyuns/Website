@@ -1,0 +1,600 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person's review.",
+  "entries": [
+    {
+      "slug": "how-to-write-a-direct-proof",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Levin sec_logic-proofs text: 'simplest (from a logic perspective) style of proof', the 'Assume P. Explain, explain, ..., explain. Therefore Q.' format, and the n^2 - n + 41 counterexample at n = 41. Hammack page confirms AIM Open Textbook Initiative approval and separate chapters for direct, contrapositive and contradiction proofs. Recomputed with node: n^2 - n + 41 prime for n = 1..40, 41^2 = 1681; n^2 - 1 for n = 3, 5, 7 gives 8, 24, 48; all five proofs checked. Changed: app paragraph cut invented unit content ('covers how proofs are structured and how to choose a method', 'knowledge check after each lesson') to the catalog's proof techniques unit with lessons and knowledge checks; softened FAQ generalisation about impossibility statements 'usually' needing contradiction.",
+      "contentHash": "sha256:0053d7107c978da10feb3421247875d9c814dad75893547f46da81bbd5575d32"
+    },
+    {
+      "slug": "inclusion-exclusion-principle",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified Levin sec_counting-addmult ('adding in, then taking out, then adding back in ... PIE') and sec_advPIE (distributions with a cap); MathWorld Inclusion-Exclusion page confirms the general form and Nicholas Bernoulli/derangements note. Recomputed with node: 1-100 divisible by 2, 3 or 5 = 74 (26 none); totient(30) = 8; 8-bit strings 160; onto functions 5->3 = 150; capped distribution 66 - 63 + 3 = 6 and its listing; Venn region counts. Changed: app paragraph removed invented 'unit 7 ... covers counting rules, pigeonhole, ... inclusion-exclusion' detail, now catalog wording (combinatorics unit, lessons, knowledge checks, topic and timed quizzes).",
+      "contentHash": "sha256:0a41eb2202689671485ab647e55afea605b2d5c6fffacca09efe390483cd8f7e"
+    },
+    {
+      "slug": "injective-surjective-bijective",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified Levin sec_intro-functions (onto = everything in the codomain is in the range), ADS properties of functions (definition a != b => f(a) != f(b), with f(a) = f(b) => a = b noted as equivalent and often more convenient; surjective = range equals codomain), MathWorld Bijection ('one-to-one and a surjection'). Corrected the ADS attribution, which had said ADS states injectivity 'in exactly this form'. Added MathWorld Bijection as a source (it was quoted but not cited). Recomputed all tables and counts (5^3 = 125, 5*4*3 = 60 injections, 150 surjections). App paragraph reduced to catalog wording (sets, functions and countability unit).",
+      "contentHash": "sha256:90d51250b59d693b6bf97f7cd01676b751bccda5157f2dd932af2b4680e00568"
+    },
+    {
+      "slug": "knights-and-knaves-puzzles",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified Levin sec_intro-statements trolls-guarding-a-bridge framing and OpenStax 2.3 truth-table method. Recomputed in node all 8 rows of the three-person table (unique solution A, B knights, C knave) and confirmed puzzles 1 and 2 have unique consistent assignments. App claims checked against catalog for discrete-math-study-quiz (truth-table generator, logic unit) and mental-math-memory-games (name 'IQ Test & Brain Training Games'; replaced vague 'quick reasoning practice' with the catalog's logic games covering conditional reasoning and deduction). Cut the unsourced claim that such puzzles are 'a favourite of logic courses'.",
+      "contentHash": "sha256:956d1eb12696f48583c426784bbc5f47c33bf088f170a63f13e23c701eff665d"
+    },
+    {
+      "slug": "lattice-paths-counting",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified Levin sec_counting-binom (lattice path definition as a shortest path moving horizontally/vertically; subsets, bit strings, lattice paths and binomial coefficients as one counting problem) and MathWorld Lattice Path (binomial count for east/north steps). Recomputed with node: C(7,3) = 35, 18 through (2,1), 17 avoiding it, every cell of the filled-in grid, C(10,5) = 252, Catalan C3 = 5, 6!/(2!2!2!) = 90, exercises 21, 400, 8. App paragraph: removed 'unit 7 ... Counting and Combinatorics' naming, now catalog wording.",
+      "contentHash": "sha256:8e679ebec3d06d7b29c8b28364a94847086c7435fe12be654656f750a0be99b5"
+    },
+    {
+      "slug": "logical-equivalence-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified OpenStax 2.5 (equivalent when the biconditional's truth-table column is all true; p -> q equivalent to ~p v q) and ADS logic laws (law names incl. Null, Involution, Conditional Equivalence; 1/0 notation). Checked all three law-based proofs and the non-equivalence row by truth table. Changed: cut 'most courses expect you to be able to do both' and FAQ 'Many courses expect both' (unsourced generalisations); app paragraph had invented tool behaviour ('shows exactly where their truth values differ', 'laws that justify it') - now catalog wording: logical-equivalence checker and statement simplifier.",
+      "contentHash": "sha256:95f3c7611fe27f7fc2734cc424e4917042d8e088002e79e22804bef413819660"
+    },
+    {
+      "slug": "minimum-spanning-tree-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified Sedgewick & Wayne algs4 4.3 text (Kruskal: edges in order of weight, smallest to largest, stopping after V-1 edges; Prim 'attaching a new edge to a single growing tree'; cut property with distinct weights; MST uniqueness exercise). Brute-forced all 4-edge spanning trees in node: unique MST weight 10; Kruskal and Prim tables, A-E path lengths 10 vs 9, and exercise 1 (total 11) all recomputed. App paragraph: 'unit 10 ... Relations, Orders and Graph Theory' is not the catalog unit name (catalog: graph theory) - corrected.",
+      "contentHash": "sha256:7f4958fa37a26e16626dc2ef3c2f624a79438b69e893eea00370a41d0fcc2ff6"
+    },
+    {
+      "slug": "modular-arithmetic-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified Levin sec_addtops-numbth (remainder definition; 'Many books define congruence ... n | a - b'; trial vs algebra for small congruences) and ADS gcds-and-zsubn (Z_n, additive inverse n - a, multiplicative group U_n of k with gcd(n,k) = 1, mod 12 clock and mod 24 military-time example). Recomputed with node: 1234*5678 mod 9 = 8, 7^100 mod 10 = 1, 3^13 mod 7 = 3, 2^50 mod 7 = 4, -17 mod 6 = 1, 3x = 5 mod 8 -> 7, 4x = 3 mod 7 -> 6, day-of-week. Changed: cut unsourced intro claim ('main tool ... most used ideas in computing') and the unsourced hashing and check-digit bullets ('catches most single-digit errors'); RSA bullet now cites MathWorld RSA Encryption (added as source); log2 k sentence reworded without the computing claim; FAQ about negative remainders now gives a verifiable JavaScript example; ADS group statement corrected; app paragraph reduced to catalog wording.",
+      "contentHash": "sha256:0a49151886a31ee5895379a221233913ac5685bf70580117a7e34876d9a1ec72"
+    },
+    {
+      "slug": "modular-inverse-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified MathWorld Modular Inverse (inverse exists iff relatively prime; mod 5 inverses 1, 3, 2, 4), ADS Bezout's lemma, Levin's 3x + 2 = 4 (mod 5) example. Recomputed with node: inverse of 17 mod 43 = 38 and both back-substitutions, 7 mod 26 = 15, 3^5 mod 7 = 5, 17x = 5 mod 43 -> 18, 6x = 9 mod 15 -> {4, 9, 14}, 6x = 5 mod 15 none, exercises 5, 19, none, 5. Changed: removed the unsourced affine-cipher claim; MathWorld mod-4 example restated as reader-checkable reasoning; cut 'usually just as fast' and 'hundreds of digits ... only practical route'; RSA bullet now follows MathWorld (source added); app paragraph to catalog wording.",
+      "contentHash": "sha256:531ed4f1d548f3a87289ea845c0a6b1eb055c42c957ce9ce11c5d010110defea"
+    },
+    {
+      "slug": "monty-hall-problem-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified MathWorld Monty Hall (Let's Make a Deal naming, stick 1/3 vs switch 2/3, 'counterintuitive', the four-door generalisation table with 3/8). Recomputed Bayes: P(H) = 1/2, P(C2|H) = 2/3, P(C1|H) = 1/3; random-host case 1/2; n-door formula (n-1)/(n(n-2)) = 3/8 for n = 4. Changed: cut 'Almost everyone's first instinct' and 'much of the arguing ... people often disagree' (unsourced generalisations), replaced with MathWorld's own 'counterintuitive' and a statement about differing host rules; app paragraph removed invented 'Unit 8 ... covers conditional probability and Bayes' theorem', now catalog wording (probability unit).",
+      "contentHash": "sha256:3bb0d7f2a37a60ff540b0d2af2c423825461f523e0c81682f37ce3415f548575"
+    },
+    {
+      "slug": "negating-quantified-statements",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified ADS quantifiers (negation of a universal is existential and vice versa; mixed quantifiers) and Levin sec_propositional ('All primes greater than 2 are odd' as forall x((P(x) and x > 2) -> O(x))). Checked every negation step, including the limit definition. Changed: title dropped 'the Order Mistake Everyone Makes' (unsourced generalisation) for 'Without Changing the Order of the Quantifiers'; rewrote the opening to answer the question directly instead of 'one of the most practised skills'; softened 'often called De Morgan's laws for quantifiers', 'universal statements usually contain an arrow' and the 'Calculus students meet this in real analysis' line; app tool description cut to the catalog's quantifier-negation tool (removed invented 'one layer at a time' behaviour).",
+      "contentHash": "sha256:af9b7cc88f0d61dd4f398e65a07b50a449ca875fac7994ae723c3d97c0653a89"
+    },
+    {
+      "slug": "number-bases-and-binary",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified OpenStax 4.3 (place values as powers of the base), ADS binary representation (repeated division, attaching each remainder on the left). Recomputed with node: 101101_2 = 45, 2F_16 = 47, 3752_8 = 2026, 156 = 10011100_2, 41 = 101001_2, 2026 = 11111101010_2 = 7EA_16, 110110_2 = 66_8 = 54, 0.1 binary expansion, 0.1 + 0.2 = 0.30000000000000004 in JavaScript. Changed: removed invented app feature 'Prerequisite Foundations practice mode with a short diagnostic' (not in catalog), replaced with catalog facts; cut unsourced intro claims (ten fingers, programmers, file permissions), the hex 'memory addresses and colour codes' claim and 'well-known source of surprising output'; FAQ 'Why do computers use binary?' now sourced to ADS switching theory (ON = 1, OFF = 0), added as a source.",
+      "contentHash": "sha256:c482e989622f3c359f54a791e631b21271092784edf159c2ec2a30df63a8c30d"
+    },
+    {
+      "slug": "partial-orders-and-hasse-diagrams",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified ADS properties-of-relations partial ordering definition, MathWorld Hasse Diagram (cover relation, implied upward orientation), ADS posets-revisited exercise that D30 and the power set of a 3-set give structurally the same diagram. Recomputed: divides relation on divisors of 12 has 18 pairs incl. 6 loops, 7 cover lines; lub/glb examples; exercises (covers of 3 in D18 are 6 and 9; lub(6,10) = 30, glb = 2). Changed: 'the one examiners test' cut; linear extension restricted to finite sets; prerequisite-scheduling sentence softened; app paragraph removed invented 'unit 10 ... alongside closures and equivalence relations', now catalog wording.",
+      "contentHash": "sha256:68078fc022fa5f85d10f7dbbaeb37874617254bcc529d0e2aa0b9663603c841c"
+    },
+    {
+      "slug": "permutations-vs-combinations",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified OpenStax 7.2/7.3 (race results and selection of club officers are permutations; card hands are combinations) and Levin sec_counting-combperm (P(n,k) = n!/(n-k)!, select-then-arrange derivation). Recomputed: P(8,3) = 336, C(8,3) = 56, C(10,2) = 45, P(20,3) = 6840, C(52,5) = 2598960, C(49,6) = 13983816, C(7,3) = 35, MISSISSIPPI 34650, 15 x 10 = 150. Changed: opening 'Most counting problems ... come down to one question' softened; corrected 'election' to OpenStax's 'selection' of club officers; 'Passwords and PINs usually allow repeats' softened; app paragraph removed invented unit-7 contents. Lottery example is pure combinatorics with no gambling framing.",
+      "contentHash": "sha256:84c1cd985963e1f7de44e6ee62a91fea45ab7388e8913d0750418ded785dd01e"
+    },
+    {
+      "slug": "pigeonhole-principle-examples",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified ADS properties of functions (pigeonhole as an 'obvious, common-sense statement' with 'numerous applications'; 'Never underestimate the importance of simple ideas'; Theorem 7.2.13 function form |X| > n|Y|) and Levin's proof by contradiction. Recomputed all seven examples (pairs to 11, remainders mod 7, sqrt(2)/2, handshake values, 2^n vs 2^n - 1 shorter strings) and the birthday figure (23 people -> 0.507). Changed: removed unsourced 'Real compressors shrink typical files by making others longer' (replaced with the pigeonhole consequence) and FAQ 'underlies many impossibility proofs'; app paragraph removed invented unit-7 contents.",
+      "contentHash": "sha256:374f4dd02951ed6372aacb6eaf2717b08ed0c93465a215204f3c7c5083faa1ac"
+    },
+    {
+      "slug": "planar-graphs-and-eulers-formula",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified Levin sec_planar (Euler's formula 'connection between the number of vertices, edges and faces'; spike/circuit build-up proof; K5 contradiction; exercise that every planar graph has a vertex of degree <= 5), Levin sec_coloring (Four Color Theorem, added as a source), MathWorld Polyhedral Formula (Euler 1752 and Descartes), MathWorld Planar Graph (Kuratowski 1930). Recomputed all V - E + F rows, K5 (21 <= 20 false), K3,3 (20 <= 18 false), Petersen (F <= 6 vs 7), K6 minus an edge (14 > 12), cubic graph on 10 vertices F = 7. Changed: cut unsourced 'circuit boards, road layouts' and 'standard exam proof'; five-colour sentence rewritten to what Levin states; app paragraph corrected (not 'Relations, Orders and Graph Theory').",
+      "contentHash": "sha256:c11573757d18aa1866b4bc00482a4cb3688f2df79d6c057cce1e8936b1159be8"
+    },
+    {
+      "slug": "power-set-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified MathWorld Power Set ('set of all subsets', order 2^n, 'Power sets are larger than the sets associated with them'), Levin binomial coefficients as subset counts, OpenStax 1.2 subsets. Corrected an FAQ error: it claimed some textbooks exclude the empty set from proper subsets; OpenStax says the empty set is a proper subset of every set except itself - FAQ now says that, OpenStax 1.2 added as a source. Recomputed 2^3 = 8 listing, bitmask table, row sum 1+3+3+1, exercises (2^9 = 512, C(6,2) = 15). Also softened 'Programmers list subsets exactly this way', 'causes most of the mistakes', 'most often left out'; app paragraph to catalog wording.",
+      "contentHash": "sha256:a4ccc56f71ac5cdcd8910f85098a194c2011bba386d38f4766d6c185eb7d2d79"
+    },
+    {
+      "slug": "predicates-and-quantifiers",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified Levin sec_intro-statements ('A sentence that contains variables is called a predicate'; free variable means not a statement) and ADS quantifiers (domain written as a subscript; mixed quantifiers 'cannot be exchanged without possibly changing the meaning'; positive-reals ab = 1 example true/false). Checked every domain example (x^2 = 2; x^2 >= x fails at 0.5) and the five integer exercises. Changed: cut 'most of the statements in a discrete math course ... are written with them'; removed 'for exactly this reason' interpretation of ADS's subscript; reattributed the same-kind/mixed rule accurately; app paragraph to catalog wording (quantifiers and rules of inference unit, quantifier-negation tool).",
+      "contentHash": "sha256:9da965cf6a3df0c52db655b2f8419c7d380d45e5ef0d956f30114a3875678b8e"
+    },
+    {
+      "slug": "proof-by-contradiction-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified Levin sec_logic-proofs ('if it is impossible for P to be false, P must be true'; infinitely-many-primes proof is one of its contradiction examples), MathWorld Reductio ad Absurdum (definition; Hardy 'one of a mathematician's finest weapons', 7 words, attributed), ADS proof review ('Indirectly (or by contradiction)'). Recomputed 2*3*5*7*11*13 + 1 = 30031 = 59 x 509; checked sqrt 2, log2 3 and a + b odd proofs. Changed: removed unsourced 'usually credited to Euclid' (body and takeaway); cut 'recurs constantly', 'The most common error', 'Mathematicians use the two names interchangeably' (replaced with MathWorld's definition); app paragraph to catalog wording plus the catalog limitation that it does not grade proofs written in your own words.",
+      "contentHash": "sha256:757a5f8c661e96edb1b0ff6c33b26728620f819b60623f65c8bea174f9569272"
+    },
+    {
+      "slug": "proof-by-contrapositive-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified OpenStax 2.5 ('The contrapositive is logically equivalent to the conditional'), Levin ('statements ... whose contrapositive can easily be proved directly'), Hammack contents (separate Contrapositive Proof and Proof by Contradiction chapters). Checked all five proofs and the sqrt2 x sqrt2 converse counterexample. Changed: 'often confused' softened; removed 'for this reason' interpretation of Hammack's chapter split; app paragraph removed invented 'covers this method next to direct proof and contradiction', kept the catalog's converse-inverse-contrapositive helper.",
+      "contentHash": "sha256:032b31a721acce302cbaca0a087a6abd843482c40e3dac726771b41727e5861d"
+    },
+    {
+      "slug": "proof-by-induction-step-by-step",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified Levin sec_seq-induction (dominoes; 'a little bit clever ... to locate' the old expression 'is what can make inductive proofs challenging'), ADS induction (Theorem 3.7.7 generalised principle from any k0; course-of-values principle 'also sometimes called strong induction'). Recomputed: odd-number sum, 4^n - 1 divisible by 3, n! vs 2^n for n = 3..6, a_n = 2^n - 1 recurrence. Changed: cut unsourced claim that induction is 'the proof method computer scientists use to show that loops ... are correct'; app paragraph corrected unit name ('Induction, Recursion and Algorithms' -> catalog 'induction and algorithms') and 'Review Missed list' -> catalog 'review of missed questions'.",
+      "contentHash": "sha256:02bbec6c9393e76452c1bca2a9374912d3fb8d0b54d83d7fa4d88b770c992b13"
+    },
+    {
+      "slug": "properties-of-relations",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified ADS properties-of-relations: definition of antisymmetry (whenever aRb and a != b, bRa is false) with aRb and bRa => a = b given as the equivalent condition 'often more convenient to prove' - the draft had this the wrong way round, corrected; 'Surprisingly, equality is also an antisymmetric relation'; example 'Random Relations usually have no properties'; equivalence relation definition (also MathWorld). Brute-forced all four properties for the five relations in node (table correct) and the transitive closure of R5. Also fixed takeaway/body that named only antisymmetry and transitivity as vacuous if-then conditions while also calling the empty relation symmetric - symmetry added. App paragraph removed invented unit-10 contents.",
+      "contentHash": "sha256:ad55e762d0a45e0859b8ef8c66166bb801442901700cc7a29e223f92f8e046ee"
+    },
+    {
+      "slug": "ramsey-numbers-introduction",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified MathWorld Ramsey Number (party problem definition; known values R(3,3) = 6, R(3,4) = 9, R(4,4) = 18, R(4,5) = 25 McKay and Radziszowski 1995; Exoo 1989 and Angeltveit and McKay 2024 giving 43 <= R(5,5) <= 46) and a fresh fetch of Wikipedia's Ramsey's theorem (handshaking-lemma strengthening when both terms even; Paley graph of order 17 as the unique (4,4,17) graph; Erdos alien quote attributed to Joel Spencer; lower bounds by exhibiting a Ramsey graph). Opened the Radziszowski DS1 survey page (resolves, dynamic survey version Apr 24 2026). Recomputed 2^903 has 272 digits; pentagon colouring; recursive bounds. Changed: muddled 'counterexample construction ... as in proof by contradiction' sentence replaced with Wikipedia's Ramsey-graph point; cut unsourced claims about monotone subsequences and computer-science lower bounds; 'first result of Ramsey theory' softened; app paragraph removed unit numbers.",
+      "contentHash": "sha256:ac2c28ccae7778f95ef4909dad7df7f347791b24042504b2a7ee1f30918dea4a"
+    },
+    {
+      "slug": "recurrence-relations-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified Levin sec_recurrence (characteristic root technique; F0 = 0, F1 = 1; 'often easier to find recursive definitions than closed formulas') and ADS recurrence relations (finite order linear relations with constant coefficients). Recomputed in node: a_n = 2*3^n - 2^n and a_n = (1 + 2n)2^n against their recurrences for n <= 7, no-consecutive-1s counts 2, 3, 5, 8, 13, Binet's formula for n < 20, Hanoi 2^10 - 1 = 1023. Changed: merge-sort/master-theorem paragraph (unsourced) rewritten as a reader-checkable divide-and-conquer recurrence with T(8) = 24; cut 'appear throughout counting, algorithm analysis and computer science', 'The most common type', 'the most common error'; app paragraph removed invented 'Unit 9 ... covers modelling with recurrences'.",
+      "contentHash": "sha256:54345c549584cee6ff864682ac048c367c0b5a5c9f3675cacdd31988af82c2ee"
+    },
+    {
+      "slug": "rules-of-inference-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified ADS logic laws (Detachment AKA Modus Ponens, Indirect Reasoning AKA Modus Tollens, Disjunctive Addition, Conjunctive and Disjunctive Simplification, Chain Rule) and Levin sec_propositional (deduction rule = argument form always valid; modus ponens 'a particularly famous rule'; truth-table test). Brute-forced the worked server/cache derivation's validity in node and the affirming-the-consequent counter-row. Changed: cut 'a first course ... usually asks you', 'These two do most of the work', 'the most famous argument in logic', 'where mistakes happen'; app paragraph now uses the catalog's argument-validity checker wording and removed invented unit-content claims.",
+      "contentHash": "sha256:a21ca80dcfb0e41d8ef8440e240eb9447cf8b92530ca662c31ed9e7ce8bc6ed9"
+    },
+    {
+      "slug": "sequences-and-summation-notation",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified ADS summation notation (index, initial index, terminal index) and Levin sec_seq-arithgeom ('Reverse and Add'; 'Multiply, Shift and Subtract'); confirmed the sec_seq_intro URL is the live one. Recomputed in node every example, closed-form check at n = 4, 3*385 - 2*55 = 1045, telescoping n = 9 -> 0.9, exercises 210 and 3069, and the k^2 inductive algebra. Changed: intro generalisations cut ('Sums appear everywhere', 'surprising amount of later material'); 'frequent source of off-by-one errors' and 'powerful trick' softened; added the |x| < 1 condition to the infinite geometric series; app paragraph removed invented unit-6 naming.",
+      "contentHash": "sha256:1d61922584d7df1fe6b8185a27cdfdaf2bf776c5891a8aaf83a02259400aa260"
+    },
+    {
+      "slug": "set-operations-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified ADS basic set operations (B - A as the complement of A relative to B) and OpenStax 1.4 (intersection a logical AND, union a logical inclusive OR; cardinality of a union = n(A) + n(B) - n(A and B)). Checked every operation on the worked U, A, B and the element-chasing proof of A - (B u C) = (A - B) n (A - C). Changed: removed the 'Sets in code' section (Python operator and SQL claims had no source); heading 'Mistakes that come up in every course' renamed (unsourced generalisation); softened the Venn-diagram 'not usually accepted as a proof' and 'most frequently used identity' claims; app paragraph to catalog wording.",
+      "contentHash": "sha256:a084d6da390cbe9405ee52c01d0e42ee5d7060f4918ae4111aac431638d21f4f"
+    },
+    {
+      "slug": "stars-and-bars-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified Levin sec_stars-and-bars (7 cookies to 4 kids), Levin sec_advPIE (cookies with no kid getting more than 4 - draft wrongly said 'pies', corrected), MathWorld Multichoose (multisets; 'bars and stars'). Brute-forced every count in node: 120 (three ways), 36, 126, 84, 36 with minimums, 55 positive solutions, 10 bounded solutions, C(6,2) = 15, 4^10. Changed: 'integer partitions ... no simple closed formula' softened in body and FAQ; app paragraph removed unit naming, kept catalog features (combinatorics unit, topic quizzes, review of missed questions).",
+      "contentHash": "sha256:e681d86bd312bfab23f0f383f2f90197c05922dee2ca018eaf83a9dba686e4d2"
+    },
+    {
+      "slug": "strong-induction-vs-weak-induction",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified Levin sec_seq-induction (chocolate bar puzzle, n - 1 breaks; minimal-counterexample justification 'some first n0 for which P(n0) was false') and ADS induction (course-of-values principle 'also sometimes called strong induction'; Theorem 3.7.10 existence of prime factorisations). Checked stamp base cases (8, 9, 10; 7 impossible), the Fibonacci bound, exercise base cases 12-15 and the odd-terms recurrence. Changed: 'Other books say complete induction' softened; 'Most sum formulas' softened; app paragraph corrected unit name and removed 'induction in its several forms alongside recursive definitions'.",
+      "contentHash": "sha256:21b32af5a09b733104c91d233ac30f963f665737d09ff987a29e46039f101390"
+    },
+    {
+      "slug": "tautology-contradiction-contingency",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified MathWorld Tautology ('truth table contains only T'), MathWorld Contingency ('at least one T and at least one F'), ADS (contradiction = false for all cases; 1 and 0 notation; (p v q) ^ ~p ^ ~q as a contradiction; equivalence and implication defined via tautologies; 'All tautologies are equivalent to one another'; contradiction implies any proposition exercise). Classified every example and exercise by brute force in node (T, C, T for the exercises; examples 1-3 and the shortcut examples). Changed: the opening attribution now says which source defines which term; cut FAQ 'Most statements you meet are contingencies' and the unsourced everyday-meaning line (replaced with ADS's all-tautologies-equivalent point); app tool wording ('for any compound proposition') reduced to catalog.",
+      "contentHash": "sha256:6687979bb2088601cac51c2d3619d14c64897ca659470c80b86d7e1fba51a200"
+    },
+    {
+      "slug": "trees-in-graph-theory",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified Levin sec_trees ('a connected forest is a tree'; unique-path proposition; 'Any tree with at least two vertices has at least two vertices of degree one'), ADS tree chapter (rooted and binary trees), MathWorld Catalan Number (full binary trees with n internal vertices; added as a source). Recomputed exercises (9 edges, degree sum 18; L = 5 leaves; 4 trees in the forest). Changed: cut unsourced claims about file systems, organisation charts, recursive computations and 'most first proofs'; 'key to almost every proof' and 'standard way' softened; binary search tree and recursive-algorithm claims removed; Catalan statement restated to match MathWorld; FAQ examples replaced with sourced content; app paragraph unit name corrected.",
+      "contentHash": "sha256:c90a37405d0be359dcb4a97fced53c13a80b7fc8e7f175c5aacf06d9e426332e"
+    },
+    {
+      "slug": "valid-vs-sound-arguments",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified IEP Validity and Soundness (both definitions, quoted within 25 words; 'both invalid, as well as valid but unsound, arguments can nevertheless have true conclusions'; cannot reject a conclusion merely because an argument for it is flawed) and Levin's validity principle. OpenStax 2.7 defines sound simply as 'all its premises are true' and says a proven-true argument must be valid and sound - the draft's paraphrase ('sound if it is valid and all premises true') misreported it; corrected. Recomputed the chain-rule truth table (critical rows 1, 5, 7, 8) and the denying-the-antecedent counter-row. Cut unsourced 'often used to mean convincing', 'catalogued for exactly this reason', 'Many common reasoning mistakes'; app wording reduced to the catalog's argument-validity checker.",
+      "contentHash": "sha256:b11bbad19d15ba954b6471f05c0062f7132ae0f5760765b7a28e76174b65b559"
+    },
+    {
+      "slug": "what-is-discrete-math",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified Levin sec_intro-intro (dictionary definition 'Individually separate and distinct'; range of x^2 as [0, inf); four main topics plus others under the discrete umbrella) and MIT OCW 6.042J description (three-part coverage incl. discrete probability theory; use in algorithms, computability theory, software engineering and computer systems), ADS simple undirected graph definition (restated precisely). Recomputed handshakes 28, PIN 10^4, dice 6/36, odd sums. This article carried the most unsourced generalisations; changed: rewrote the 'Why computer science leans on it' bullets to drop unsourced claims (induction proving loops correct, hashing, checksums, 'remarkable amount of computing'), with RSA now sourced to MathWorld (added); rewrote the 'Is it hard?' section, two takeaways and two FAQs that asserted what 'most students' find hard or how schools schedule courses. App claim (ten units from logic to graph theory) matches the catalog.",
+      "contentHash": "sha256:ff32535b4e8a55970724c41c4542fd8c8ce784ccdb63dea02643716cebdf116d"
+    }
+  ]
+}

@@ -5,10 +5,9 @@ import FaqSection from '@/components/FaqSection';
 import JsonLd from '@/components/JsonLd';
 import Reveal from '@/components/Reveal';
 import BlogCard from '@/components/blog/BlogCard';
-import ToolCard from '@/components/tools/ToolCard';
 import { apps, companyInfo } from '@/data/apps';
-import { getSportApps, getSportForApp, sportPath, sportsIndexCopy } from '@/data/sports';
-import { tools, toolsForSport } from '@/tools/registry';
+import { getSportApps, getSportExtraApps, getSportForApp, sportPath, sportsIndexCopy } from '@/data/sports';
+import { toolPath, tools, toolsForSport } from '@/tools/registry';
 import { activeSports, getCrossSportPosts, hubPostList } from '@/lib/sports';
 
 const canonical = '/sports/';
@@ -144,7 +143,9 @@ export default function SportsIndexPage() {
                         {guides} {guides === 1 ? 'guide' : 'guides'}
                         {calculators > 0 && ` · ${calculators} ${calculators === 1 ? 'calculator' : 'calculators'}`}
                         {' · '}
-                        {[apps.draft?.name, apps.career?.name].filter(Boolean).join(' · ')}
+                        {[apps.draft?.name, apps.career?.name, ...getSportExtraApps(sport).map((extra) => extra.app.name)]
+                          .filter(Boolean)
+                          .join(' · ')}
                       </p>
                     </article>
                   </Reveal>
@@ -260,17 +261,23 @@ export default function SportsIndexPage() {
             <h2 id="calculators-heading" className="display-title text-2xl sm:text-3xl">
               Calculators
             </h2>
+            {/* Names only. The descriptions live on /tools/, the calculators'
+                own index; repeating all of them here made /tools/ a near-total
+                subset of this page (Search Console grouped the two as
+                duplicates in October 2026). */}
             <p className="mt-4 max-w-3xl leading-relaxed text-ink-600">
-              Work out the statistics the guides explain. Every calculator cites where its formula comes from.{' '}
+              Work out the statistics the guides explain. Every calculator cites where its formula comes from, and{' '}
               <Link href="/tools/" className="link-accent">
-                See how they are built
-              </Link>
-              .
+                the calculators index
+              </Link>{' '}
+              describes what each one measures and helps you pick the right one.
             </p>
-            <ul className="mt-8 grid list-none gap-6 p-0 sm:grid-cols-2 lg:grid-cols-4">
+            <ul className="mt-8 grid list-none gap-x-8 gap-y-3 p-0 sm:grid-cols-2 lg:grid-cols-3">
               {tools.map((tool) => (
-                <li key={tool.id} className="h-full">
-                  <ToolCard tool={tool} />
+                <li key={tool.id}>
+                  <Link href={toolPath(tool)} className="link-accent text-sm">
+                    {tool.shortTitle}
+                  </Link>
                 </li>
               ))}
             </ul>

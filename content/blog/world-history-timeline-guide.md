@@ -47,7 +47,8 @@
     "world-history-timelines"
   ],
   "relatedArticles": [
-    "mental-math-training-guide"
+    "mental-math-training-guide",
+    "world-war-1-timeline"
   ],
   "takeaways": [
     "A timeline app is a tool for orientation and breadth — it teaches you where things sit relative to each other, which is the scaffolding depth later attaches to.",

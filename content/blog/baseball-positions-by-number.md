@@ -37,7 +37,9 @@
     "baseball-pitching-roles-explained",
     "two-way-players-explained",
     "baseball-draft-gm-guide",
-    "baseball-career-sim-guide"
+    "baseball-career-sim-guide",
+    "how-the-mlb-draft-works",
+    "baseball-career-sim-partnership-opportunities"
   ],
   "takeaways": [
     "Learn the nine numbers as a sequence around the field — 1 pitcher, 2 catcher, 3 first, 4 second, 5 third, 6 shortstop, 7 left, 8 center, 9 right — and remember that shortstop is the one out of geographic order.",

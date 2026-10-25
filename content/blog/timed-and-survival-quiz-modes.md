@@ -46,7 +46,8 @@
   "relatedArticles": [
     "how-quiz-difficulty-works",
     "anime-trivia-quiz-guide",
-    "word-game-strategy-guide"
+    "word-game-strategy-guide",
+    "anime-trivia-word-games-partnership-opportunities"
   ],
   "takeaways": [
     "A clock and a one-life rule reward opposite behaviour, so playing both modes the same way means you are playing at least one of them badly.",

@@ -53,7 +53,8 @@
     "football-positions-explained-for-drafting",
     "reading-a-defense-basics",
     "how-player-career-modes-work",
-    "franchise-tag-explained"
+    "franchise-tag-explained",
+    "football-career-sim-partnership-opportunities"
   ],
   "takeaways": [
     "An archetype is a description of what you do when a play breaks down — that is the moment where the categories actually differ.",

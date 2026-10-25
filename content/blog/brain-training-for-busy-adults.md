@@ -54,7 +54,8 @@
     "do-brain-training-apps-work",
     "building-a-daily-practice-habit",
     "mental-math-training-guide",
-    "daily-challenge-formats-explained"
+    "daily-challenge-formats-explained",
+    "mental-math-memory-games-partnership-opportunities"
   ],
   "takeaways": [
     "Ten minutes is enough for a session that does something, provided you split it across four different activities rather than repeating one drill for ten minutes.",

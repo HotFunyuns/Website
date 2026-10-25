@@ -53,7 +53,8 @@
   "relatedArticles": [
     "keto-macros-explained",
     "net-carbs-explained-keto-tracking",
-    "intermittent-fasting-windows-explained"
+    "intermittent-fasting-windows-explained",
+    "low-carb-vegetables-list"
   ],
   "takeaways": [
     "Ketones are acids the body produces when it breaks down fat for energy, and the body makes three of them — which is why different test methods can disagree about the same moment.",

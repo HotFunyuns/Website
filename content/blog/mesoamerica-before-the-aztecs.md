@@ -48,7 +48,8 @@
     "what-caused-the-bronze-age-collapse",
     "how-calendars-and-dating-systems-work",
     "the-early-caliphates",
-    "west-and-central-african-kingdoms"
+    "west-and-central-african-kingdoms",
+    "the-mexican-revolution-explained"
   ],
   "takeaways": [
     "The Aztec state is a late arrival in a very long sequence: UNESCO dates the construction of Teotihuacan to between the 1st and 7th centuries CE, and Monte Alban was inhabited over a period of 1,500 years by a succession of peoples.",

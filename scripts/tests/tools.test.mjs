@@ -389,6 +389,21 @@ test('goalie validation', () => {
 
 /* --------------------------------------------------------------------- golf */
 
+test('course and playing handicap reproduce Rule 6.2a/1’s double-rounding example', () => {
+  // Course Rating 71.0, Slope 125, par 71, four-ball stroke play at 85%.
+  const tees = { slopeRating: 125, courseRating: 71.0, par: 71 };
+  const a = courseHandicap({ ...tees, handicapIndex: 8.6 });
+  const b = courseHandicap({ ...tees, handicapIndex: 10.3 });
+  close(a.exact, 9.5133, 1e-4);
+  close(b.exact, 11.3938, 1e-4);
+  // Rounding the course handicap first gives both players 9 — the problem the rule describes.
+  assert.equal(playingHandicap({ courseHandicapExact: a.rounded, percent: 85 }).rounded, 9);
+  assert.equal(playingHandicap({ courseHandicapExact: b.rounded, percent: 85 }).rounded, 9);
+  // Applying the allowance to the unrounded value gives 8 and 10, the rule's published answer.
+  assert.equal(playingHandicap({ courseHandicapExact: a.exact, percent: 85 }).rounded, 8);
+  assert.equal(playingHandicap({ courseHandicapExact: b.exact, percent: 85 }).rounded, 10);
+});
+
 test('score differential follows Rule 5.1a, including .5 rounding up', () => {
   const r = scoreDifferential({ adjustedGrossScore: 92, courseRating: 71.5, slopeRating: 128, pcc: 0 });
   close(r.exact, (113 / 128) * 20.5);

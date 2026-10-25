@@ -17,7 +17,7 @@
   "longTailKeywords": ["how do soccer academies work", "what do academies look for in young players", "what happens when a player is released from an academy", "how many academy players turn professional", "what is the elite player performance plan"],
   "aiSearchQuestions": ["How do professional soccer players get started?", "What do soccer academies look for?", "How many academy players get professional contracts?", "What happens to players released by academies?", "Is a soccer career sim realistic?"],
   "relatedApps": ["soccer-career-sim-xi", "soccer-draft-gm-xi"],
-  "relatedArticles": ["soccer-career-sim-guide", "junior-circuit-to-pro-tour-path", "coach-trust-and-playing-time", "aging-curves-in-career-sims", "soccer-formations-explained"],
+  "relatedArticles": ["soccer-career-sim-guide", "junior-circuit-to-pro-tour-path", "coach-trust-and-playing-time", "aging-curves-in-career-sims", "soccer-formations-explained", "soccer-career-sim-xi-partnership-opportunities"],
   "takeaways": [
     "Treat the academy route as a series of selection points, each decided on more than technical skill.",
     "Read any contract-attainment figure in light of who was studied — a pre-selected national programme is not the same as all young players.",

@@ -46,7 +46,8 @@
     "protein-sources-compared",
     "protein-per-meal-explained",
     "how-much-protein-per-day",
-    "protein-for-older-adults"
+    "protein-for-older-adults",
+    "high-protein-breakfast-ideas"
   ],
   "takeaways": [
     "A 'complete' protein contains all nine essential amino acids in useful proportions; an 'incomplete' one is low in at least one of them.",

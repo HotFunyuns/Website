@@ -38,7 +38,9 @@
     "managing-a-fight-stable",
     "how-boxing-records-are-written",
     "how-fight-cards-are-built",
-    "boxing-scoring-explained"
+    "boxing-scoring-explained",
+    "boxing-punches-explained",
+    "amateur-vs-professional-boxing"
   ],
   "takeaways": [
     "Ask which organisation a 'world champion' belongs to: the WBA, WBC, IBF and WBO each recognise their own champion in every division.",

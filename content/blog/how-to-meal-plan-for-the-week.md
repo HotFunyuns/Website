@@ -40,7 +40,9 @@
     "pantry-inventory-and-grocery-lists",
     "batch-cooking-for-the-week",
     "recipe-scaling-and-serving-sizes",
-    "protein-tracking-apps-compared"
+    "protein-tracking-apps-compared",
+    "meal-planning-on-a-budget",
+    "easy-recipes-meal-planner-partnership-opportunities"
   ],
   "takeaways": [
     "Plan fewer meals than there are days. A plan with slack survives a bad Wednesday; a plan that fills every slot fails on the first disruption and gets abandoned.",

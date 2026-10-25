@@ -40,7 +40,8 @@
     "anime-genres-explained",
     "anime-terminology-glossary",
     "manga-vs-anime-differences",
-    "anime-trivia-quiz-guide"
+    "anime-trivia-quiz-guide",
+    "google-play-content-ratings"
   ],
   "takeaways": [
     "The label is a fact about where a series was published, not a description of what is in it — it is set by the magazine, not by the story.",

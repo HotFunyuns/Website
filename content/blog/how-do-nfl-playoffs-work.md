@@ -46,7 +46,9 @@
   "relatedArticles": [
     "how-football-draft-order-works",
     "football-draft-gm-guide",
-    "goal-difference-and-tiebreakers"
+    "goal-difference-and-tiebreakers",
+    "how-does-the-nfl-draft-work",
+    "football-draft-gm-mode-partnership-opportunities"
   ],
   "takeaways": [
     "Seven teams per conference make the playoffs: the four division winners are seeded 1 to 4 and the three best remaining records are seeded 5 to 7.",

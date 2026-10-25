@@ -36,7 +36,8 @@
     "how-fight-cards-are-built",
     "boxing-scoring-explained",
     "understanding-sports-sim-probability",
-    "managing-a-fight-stable"
+    "managing-a-fight-stable",
+    "boxing-prize-fighter-career-partnership-opportunities"
   ],
   "takeaways": [
     "Check a record for draws and no contests: both leave a fighter unbeaten, but only a record without them is perfect.",

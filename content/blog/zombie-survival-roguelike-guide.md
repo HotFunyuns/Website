@@ -46,7 +46,8 @@
   "relatedArticles": [
     "space-shooter-arcade-guide",
     "anime-trivia-quiz-guide",
-    "anime-coloring-app-guide"
+    "anime-coloring-app-guide",
+    "zombie-survival-last-survivor-partnership-opportunities"
   ],
   "takeaways": [
     "Replay value in a survival roguelike comes from the choices you were forced to decline, not from the randomness of what you were offered.",

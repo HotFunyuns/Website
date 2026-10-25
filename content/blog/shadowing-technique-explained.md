@@ -47,7 +47,9 @@
     "comprehensible-input-explained",
     "listening-practice-in-a-new-language",
     "what-is-a-tonal-language",
-    "learning-a-language-without-a-teacher"
+    "learning-a-language-without-a-teacher",
+    "how-to-practise-speaking-alone",
+    "italian-numbers"
   ],
   "takeaways": [
     "Shadowing means speaking along with a recording almost simultaneously, without waiting for a pause to repeat.",

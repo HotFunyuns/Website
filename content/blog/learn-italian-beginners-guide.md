@@ -46,7 +46,9 @@
     "italian-verb-conjugation-basics",
     "italian-articles-and-gender",
     "how-long-to-learn-italian",
-    "how-many-words-to-be-conversational"
+    "how-many-words-to-be-conversational",
+    "passato-prossimo-vs-imperfetto",
+    "italian-pronunciation-guide"
   ],
   "takeaways": [
     "Italian spelling is close to phonemic, so you can read aloud accurately within days — a genuine head start over French or English.",

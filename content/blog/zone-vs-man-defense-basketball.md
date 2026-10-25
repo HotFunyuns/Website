@@ -47,7 +47,8 @@
     "basketball-positions-explained",
     "how-to-build-a-balanced-basketball-roster",
     "basketball-career-sim-guide",
-    "basketball-draft-gm-guide"
+    "basketball-draft-gm-guide",
+    "what-does-a-sports-agent-do"
   ],
   "takeaways": [
     "Name the responsibility first: in man-to-man each defender owns a player, in a zone each defender owns an area.",

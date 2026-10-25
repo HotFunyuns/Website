@@ -39,7 +39,9 @@
     "learn-khmer-beginners-guide",
     "khmer-phrases-for-cambodia-travel",
     "khmer-script-explained",
-    "is-khmer-hard-to-learn"
+    "is-khmer-hard-to-learn",
+    "khmer-numbers",
+    "thai-polite-particles"
   ],
   "takeaways": [
     "Khmer has two everyday greetings at different registers: chum reap suor is formal, suosdei is informal, and they are not interchangeable.",

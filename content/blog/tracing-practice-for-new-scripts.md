@@ -46,7 +46,8 @@
   "relatedArticles": [
     "khmer-script-explained",
     "learn-khmer-beginners-guide",
-    "khmer-vs-thai-script"
+    "khmer-vs-thai-script",
+    "learn-cambodian-khmer-partnership-opportunities"
   ],
   "takeaways": [
     "Recognising a letter and producing it are separate skills with separate failure modes, and a learner who only ever reads Khmer will stall the first time they are asked to write a word down.",

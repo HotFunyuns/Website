@@ -39,7 +39,9 @@
     "learn-marathi-beginners-guide",
     "marathi-phrases-with-meaning",
     "is-marathi-hard-to-learn",
-    "marathi-vs-hindi-differences"
+    "marathi-vs-hindi-differences",
+    "marathi-postpositions",
+    "marathi-pronouns"
   ],
   "takeaways": [
     "Marathi is subject–object–verb, so the verb lands last and you have to plan the whole clause before you can finish it.",

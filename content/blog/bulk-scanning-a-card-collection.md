@@ -47,7 +47,8 @@
     "reverse-holo-vs-holo",
     "is-my-card-worth-grading",
     "why-card-price-estimates-disagree",
-    "photographing-cards-for-centring"
+    "photographing-cards-for-centring",
+    "tcg-card-grading-scanner-partnership-opportunities"
   ],
   "takeaways": [
     "Cataloguing a large collection rarely fails at the camera. It fails at bookkeeping: duplicate counts drift, variants get flattened together, and one wrong match sits unnoticed in the middle of 300 entries.",

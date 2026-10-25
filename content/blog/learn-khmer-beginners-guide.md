@@ -39,7 +39,9 @@
     "learn-thai-script-beginners-guide",
     "learn-cantonese-beginners-guide",
     "learn-malay-beginners-guide",
-    "khmer-phrases-for-cambodia-travel"
+    "khmer-phrases-for-cambodia-travel",
+    "khmer-numbers",
+    "vietnamese-numbers"
   ],
   "takeaways": [
     "Khmer is not a tonal language, which removes the single feature that most discourages beginners from Thai, Vietnamese and Cantonese.",

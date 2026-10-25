@@ -1,0 +1,28 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person's review.",
+  "entries": [
+    {
+      "slug": "football-career-games-compared",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "links-and-metadata"
+      ],
+      "notes": "Coordinator follow-up to the r400-sports review: publish-batch held this article because its body no longer linked its primary app page. Linked the existing mention of Football Career Pro League in the decision list to /apps/football-career-pro-league/. No claim or other text changed; the r400-sports verdict and checks stand.",
+      "contentHash": "sha256:5398a72c23d0f0a456414556c65efb5c34f1eaf923e971ec9463c54b2e9e5bf4"
+    },
+    {
+      "slug": "hockey-career-games-compared",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "links-and-metadata"
+      ],
+      "notes": "Coordinator follow-up to the r400-sports review: publish-batch held this article because its body no longer linked its primary app page. Linked the existing mention of Hockey Career Pro League Game in the decision list to /apps/hockey-career-pro-league/. No claim or other text changed; the r400-sports verdict and checks stand.",
+      "contentHash": "sha256:16543cd11f6d084cee0bd6580206bf2a39c8c5e4e46cb670455fecfb0f2b1147"
+    }
+  ]
+}

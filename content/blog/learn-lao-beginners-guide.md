@@ -47,7 +47,8 @@
     "lao-vs-thai-differences",
     "learn-thai-script-beginners-guide",
     "what-is-a-tonal-language",
-    "building-a-lao-course-from-scratch"
+    "building-a-lao-course-from-scratch",
+    "thai-numbers"
   ],
   "takeaways": [
     "Lao is an under-resourced language for learners: the scarcity of materials is a bigger practical obstacle than the language's own difficulty.",

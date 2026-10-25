@@ -39,7 +39,8 @@
     "golf-course-management-basics",
     "club-distance-gapping",
     "golf-tournament-formats",
-    "golf-handicap-for-beginners"
+    "golf-handicap-for-beginners",
+    "cricket-rules-for-beginners"
   ],
   "takeaways": [
     "When you are unsure what you may do, fall back on Rule 1.1: play the course as you find it and play the ball as it lies.",

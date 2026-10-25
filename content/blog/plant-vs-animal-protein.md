@@ -53,7 +53,8 @@
     "protein-sources-compared",
     "how-to-hit-a-protein-goal",
     "how-much-protein-per-day",
-    "protein-for-older-adults"
+    "protein-for-older-adults",
+    "protein-diet-tracker-partnership-opportunities"
   ],
   "takeaways": [
     "The differences are in amino acid profile, protein density per calorie, and what else arrives with the protein — not in whether the protein 'works'.",

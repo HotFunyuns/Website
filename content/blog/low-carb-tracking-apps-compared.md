@@ -61,7 +61,8 @@
     "how-to-track-protein-intake",
     "protein-tracking-apps-compared",
     "electrolytes-on-low-carb",
-    "keto-flu-explained"
+    "keto-flu-explained",
+    "low-carb-fruits-list"
   ],
   "takeaways": [
     "The feature that separates a low-carb tracker from a general calorie counter is the subtraction — whether the app takes fiber and sweeteners off total carbohydrate for you, and which ones it takes off.",

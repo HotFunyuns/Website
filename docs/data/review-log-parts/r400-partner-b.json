@@ -1,0 +1,546 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person's review.",
+  "entries": [
+    {
+      "slug": "learn-marathi-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Opening claim that the listing 'puts family and life in Maharashtra ahead of certificates' is catalog text with a 'most learners' generalisation: replaced with the audience the live Play listing names (heritage learners, families, new residents). Course description and limitations re-credited from 'the listing' to the app's page on this site. Cut the unsourced 'those groups often gather around a mandal' generalisation. Audience list reworded to match the live listing. Softened 'downloads them first' to 'may want to download' per the help page. Ten practice formats, two-way course, ads + in-app purchases (Play IAP true) verified against appfacts and live listing. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:706a0371f160873451f94694ffdac6666fbcc7acf6648a341260873dfd75325c"
+    },
+    {
+      "slug": "learn-russian-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "'Does not run out of road', the grammar FAQ ('instead of only marking it'), the premium-packs FAQ and the fluency/beginner-foundation limitations are catalog text: re-credited from 'the listing' to the app's page on this site. Distribution example changed from 'hotel, restaurant and transport' to the restaurants/airports/hotels the live listing names. Contact warning reworded to name confidential, financial or personal information. Cyrillic-first course, cases/gender/agreement/verb forms, stories/documents/roleplays, two-way course, ads + IAP (Play IAP true) verified. Transfer facts (US$25 fee, transaction IDs, upload key, orders stay, test groups, 2 business days) match the help page. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:28e6704872bc5961a990ef85bf71cbf91650d63efe74d9701fd42a1390e2f7d9"
+    },
+    {
+      "slug": "learn-italian-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Cut the unsourced opening generalisation ('Plenty of people start Italian because...') and replaced it with the audience the live Play listing names. 'In a set order' (catalog-only) removed; 12 structured units / 192 core lessons, lesson formats, Review area, travel situations, culture/idioms/business content, two-way course and Premium removing ads verified against the live listing and appfacts. Limitations section re-credited from 'the listing' to the app's page on this site; cut the unsourced 'oversold material tends to disappoint learners' claim and the inaccurate 'none of these require the traveller to pay anything' (Premium exists). Default-currency transfer sentence rewritten to match the help page exactly (IAP app unpublished until new prices verified and republished). Contact warning and nonbinding wording made explicit. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:c88b8c6328bffe4ebbbd89062119b91724c6c1b3063b4d5668162a3e77711674"
+    },
+    {
+      "slug": "world-history-timeline-sim-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Cut the unverifiable opening generalisation about what history institutions and games want; replaced with the live listing's own 'made for curious learners' line. Cut 'the app's material carries no citations of its own' and the takeaway's 'not a substitute for primary sources' (neither is in the catalog or the live listing). 'Simulations, not what happened' and 'companion to coursework, not a replacement' re-credited from the listing to the app's page on this site (catalog limitations) in a takeaway, an FAQ and two body sections. 2,000+ events, 2,000+ what-if scenarios, browse modes, Time Travel/Civilization Survival/Timeline Detective/museum, students/teachers/homeschoolers, ads + IAP verified against the live listing and appfacts. Six-week pilot is a labelled hypothetical with no figures. Transfer facts match. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:4264c8765904ba0b00c495169977e8a37c4262a2aa37fda728a3ce862cd2a70a"
+    },
+    {
+      "slug": "mental-math-memory-games-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Former name 'Mental Math & Memory Games' is catalog text, not in the live listing: re-credited in the intro and FAQ to the app's page on this site. 'Not evidence of a general change in intelligence' is a catalog limitation: re-credited in a takeaway and the claims section. Rewrote the unverifiable opening ('partners from all three worlds ask similar questions') and the generalisation that libraries and clubs run puzzle sessions. Results-are-estimates disclaimer, test domains, game modes, memory/logic/vocabulary/mental-math content, personality test and ads + IAP verified against the live listing (name matches the live Play title). Ad SDK sentence corrected to 'ad traffic is credited to the correct account' per the help page (was 'ad revenue reaches the new owner'). 12 weeks x 10 min = 120 min recomputed. Contact warning and nonbinding wording made explicit. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:0e427b168d034357c5277634ae7a468cb1feb9e0a2da72a1119339cd7da0ca29"
+    },
+    {
+      "slug": "discrete-math-study-quiz-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Unit list, tools list, 'not a replacement for a course', 'not affiliated with any university' and the does-not-grade-proofs limitation are catalog/screenshot-derived text not in the live listing: re-credited from 'the listing' to the app's page on this site (takeaway, two FAQs, three body passages). Cut unsourced generalisations (gateway-course opening, 'large first-year courses create predictable pressure points', 'tutors spend time producing practice questions'); opening now quotes the audience the live listing names. Ads with no IAP (Play IAP false) verified. 14 x 15 = 210 min = 3.5 h recomputed. 'Should download them first' softened to 'may want to' per the help page. Contact warning and nonbinding wording made explicit. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:b855e4cd29ab6401e7a05b54ff1284f7e631ef0a2ab05dde3116d84a95b2e6db"
+    },
+    {
+      "slug": "learn-to-trade-stocks-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Education-only framing verified against the live listing ('For education and simulated trading. No real-money brokerage transactions, personalized financial advice, or guaranteed profits'); not-investment-advice statement present. Safeguards list mixed listing and catalog text: re-credited to 'the listing and the app's page on this site' (virtual money/emotions and Investor.gov/FINRA rules are catalog limitations); options risk wording corrected to the listing's 'substantial risk'. Cut the unsourced generalisation that financial-literacy programmes 'often teach budgeting and saving before investing'. Ads with no IAP (Play IAP false) verified. Ad SDK sentence corrected to 'credited to the correct account'; US$25 fee and 2 business days match the help page. Four-session module contains no figures beyond session counts. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:7317156307f9bdbc6c93023a532f45d87b8c400207c9036ed0f3e50e81674e71"
+    },
+    {
+      "slug": "protein-diet-tracker-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Cut the unsourced opening generalisation that clients 'abandon trackers all the time'; opening now quotes the live listing ('without complicated screens or confusing tools'). Daily-log description, no-account/local-storage, no-cloud-sync and the limitations list are catalog text, not in the live listing: re-credited from 'the listing' to the app's page on this site (and the privacy policy, linked, for local storage) in the body and an FAQ. Softened 'member data is a liability as much as an asset'. Not-medical/dietetic-advice wording present; no targets or outcome promises. Ads + IAP (Play IAP true) verified. 30 days / 7 = 4.29 weeks recomputed. Contact warning and nonbinding wording made explicit. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:dc0e0016dccb68e2bde6cfd0b507470219963793f5652c70b061abc1e272932d"
+    },
+    {
+      "slug": "keto-diet-tracker-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Former name 'Keto Diet Tracker: Low Carb' is catalog text, not in the live listing: re-credited in the body and FAQ to the app's page on this site; the ketone-measurement and data-accuracy limits likewise re-credited. Net-carb method (total minus fibre and sugar alcohols), progress ring, 20 g/50 g, barcode scanner, recipes, meal planner, fasting windows, AI coach, optional Ketora Premium and informational/not-medical-advice wording verified against the live listing; Play lists ads and no IAP flag, and the article states monetisation exactly as the listing and appfacts do. Cut unsourced generalisations ('people buying it tend to count net carbs', 'diet apps attract bold marketing'). Reworded the brand-data idea so it no longer implies brands can edit the food database. No weight-loss or ketosis promises. 14 - 5 = 9 g recomputed. Ad SDK sentence and contact warning corrected. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:1f6a77142fe9e9a54443bec2ee1b87ef10c924ec335e44ab8a09486d7dd912c7"
+    },
+    {
+      "slug": "easy-recipes-meal-planner-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Cut the unverifiable comparative opening ('Most recipe apps stop at the recipe'). The 'planner knows what you own' quote and the allergy-flags-are-prompts limitation are catalog text: re-credited from the listing to the app's page on this site (body and FAQ). Softened generalisations about meal-kit companies and publishers. Worked example rewritten: the catalog does not say the pantry tracks quantities, so the 500 g pantry-quantity step and the unsupported 'a planner people trust is one they keep opening' marketing claim were cut; 3 x 75 = 225 g recomputed. One-serving scaling, pantry 'what may be missing', allergy log with notes/timestamps, nutrition for supported recipes and ads + IAP (Play IAP true) verified against the live listing. Default-currency transfer sentence rewritten to match the help page. Contact warning and nonbinding wording made explicit. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:b8120c05eb9ee6bc9e40bd3648b70e97deeddeb1b9a5e9b12767469ac44afa76"
+    },
+    {
+      "slug": "kawaii-breathe-relax-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "'Relaxation tool, not a treatment', the stop-if-dizzy breath-hold warning and the in-app-title explanation are catalog text: re-credited from 'the listing' to the app's page on this site (takeaway, two FAQs, claims section). Cloud/animal guides, timer cues including holds, desk/stress/sleep framing and no-experience-needed verified against the live listing; routines, whale/capybara/axolotl guides from the store-image descriptions in the catalog. Not-medical-advice statement present; no treatment, sleep or blood-pressure claims. Ads with no IAP (Play IAP false) verified. 2 x one-minute reset = two minutes. Transfer facts match; ad SDK wording aligned to 'correct account'. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:f9ba506d52cc93ea981ecd193a2e1967e3acef01caa093ebd0ef9c9cbe81fbad"
+    },
+    {
+      "slug": "regal-video-player-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Cut the unsourced opening ('every Android phone ships with some way to watch video, and the experience varies widely'). Former name credited to the app's page on this site (the live description does still say 'Regal Video Player', verified). Decoder sentence and an FAQ now quote the live listing's wording (container, codec, Android version, device hardware, system decoders). 'Not a streaming service' re-credited to the app's page. Premium options softened to the listing's 'may be available'; transfer paragraph no longer asserts the app 'sells subscriptions and a lifetime option'. Integration idea reframed as conditional on existing capabilities or new work. Formats, codecs, 0.1x-3.0x speed, PiP, local storage, no account, ads + IAP (Play IAP true) verified. 90/1.5 = 60 and 90/1.2 = 75 recomputed. Contact warning and nonbinding wording made explicit. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:ee59f26def7d7a628457c090d4761cc83a8e01012ab82a947486cd6302f02ee1"
+    },
+    {
+      "slug": "pdf-all-in-one-tools-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "82-tool count, document types, annotation, page tools, merge/split, scanner, fill and sign, compression, PDF manager, protection tools and ads + IAP (Play IAP true) verified against the live listing; name matches the live Play title. Scan lighting/focus limitation re-credited from the listing to the app's page on this site. Signing and protection kept to the listing's wording (no certified e-signature or security guarantee). Worked example no longer promises compression will get a file under 10 MB (outcome claim softened). Softened generalisations about productivity suites and workflow firms; the integration idea no longer implies an unlisted round-trip capability. Transfer facts (translation projects, payments profile, 2 business days) match. Contact warning wording fixed. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:ccf258f472f7ebee5b5670f05231eb094febb739c4e64b2a5b236b70b84c10b0"
+    },
+    {
+      "slug": "transcribe-audio-to-text-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Four uses, accuracy caveat (recording quality, background noise, speech clarity), checking quotations before publishing and keeping the original audio verified against the live listing; the four-step workflow re-credited to the app's page on this site. Words-per-minute example checked against the saved Wikipedia text (audiobooks recommended at 150-160 wpm): reworded so 150 wpm is the lower end of that audiobook range, not a claim about interview pace; 150 x 60 = 9,000 and x 12 = 108,000 recomputed. Consent statement checked against the linked interview article (Wikipedia: some US states require all-party consent). Cut 'unusually candid' comparison and softened creator/accessibility generalisations; accessibility framed as not a substitute for professional captioning. Ads + IAP (Play IAP true) verified. 'Should download' softened to 'may want to'. Contact warning and nonbinding wording made explicit. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:25720793bde120980eb99ae309ccf1980da37f3e0f8b55025b2d3ae1a77a4c8a"
+    },
+    {
+      "slug": "kawaii-cute-notes-journal-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Opening generalisation ('paper stationery and digital journalling share an audience') and the catalog quote 'as much the point as the function' credited to the listing were replaced with the live listing's own 'feel like cute stationery' line. The audience quote re-credited to the app's page on this site. Themes, stickers, covers, backgrounds and widget themes; widgets incl. countdown; lock where supported and hidden previews; offline core features; 'every customization feature is available with ads' and no IAP (Play IAP false) verified against the live listing. Hypothetical sticker-pack example has no market figures. Transfer facts match; ad SDK wording aligned. Contact warning and nonbinding wording made explicit. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:a44c39ae83d0248f7cd256f4288565f5696b1e049bb4d9b533747491f5dfb3b5"
+    },
+    {
+      "slug": "tcg-card-grading-scanner-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Single/Bulk/Centering scans, ranked alternatives, variants, combined value, values-are-third-party-estimates, grades-are-informational and the no-affiliation statement all verified against the live listing text. Removed the catalog-only 'rather than being averaged' and the unsourced opening generalisation; softened generalisations about shops and collection services; 'the app does not assess corners/edges' narrowed to what the centring scan measures. No card art, logos or proprietary data; no figures. 55/45 vs 62/38 (5 vs 12 points off even) recomputed. Default-currency transfer sentence rewritten to match the help page. Ads + IAP (Play IAP true) verified; contact warning names confidential, financial or personal information. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:e53e53713e6c1d13956cde9a582d032f3364cb30aa45796c4d289e195fb08c36"
+    },
+    {
+      "slug": "anime-coloring-book-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "'Nothing is timed and nothing can be failed' and the pre-drawn-line-art/not-a-drawing-app limitation are catalog text: re-credited from the listing to the app's page on this site (body and FAQ). Line art, fill/brush/eraser/background eraser, zoom/move/center, palette styles, Recently Used, Continue Coloring, no account, on-device progress and the rewarded-ad Get Random Artwork verified against the live listing; name matches the live Play title; ads + IAP (Play IAP true). Softened the palette idea so it no longer implies colour-accurate try-before-you-buy. Rights section requires documented permission for third-party characters; no third-party art. Ad SDK wording aligned to the help page; contact warning and nonbinding wording made explicit. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:2f046395590e7852623e396b3e5980b8342f05c36ee955e9af8126e06306ab0e"
+    },
+    {
+      "slug": "anime-trivia-word-games-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "The live listing carries no independence statement (it names third-party series); 'independent fan quiz, not affiliated with any studio, publisher or rights holder' is catalog text, so it is now credited to the app's page on this site (body and FAQ) and the article itself still names no series and uses no logos or key art. 'Drawn from across the medium' (catalog) replaced with the listing's 'wide range of anime genres'; the new-fans/longtime-viewers line now matches the live listing wording. Cut generalisations ('quiz nights are a staple of fan culture', clubs 'often run quizzes', 'nobody sits out the first hour') and the unsupported 'comfortable for a two-hour slot'. Bracket 8 + 2 + 1 = 11 rounds recomputed. Modes, points/streaks/achievements, daily challenges, ads + IAP (Play IAP true) verified. Contact warning fixed. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:7c77fd91bfad23194a2a38b7d3861a7163f58bbb4b7f60ee395cf11dd90a84f1"
+    },
+    {
+      "slug": "anime-casino-slots-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Virtual-coin-only framing verified line by line against the live listing (no cash payouts or real-world prizes, coins have no monetary value and cannot be redeemed, no real-money gambling, success does not imply real-money success, adults who enjoy simulated casino entertainment); Teen rating from the saved Play probe; IAP disclosed as spending without any winnings. Google Play gambling-policy quotes checked against the saved policy text (x_gplaygamble) and the 1-800-MY-RESET helpline against the saved NCPG page. Former name (catalog only) re-credited to the app's page on this site in body and FAQ; 'sessions as short or as long as a player likes' (catalog) replaced with the listing's 'relaxing at home or taking a break'. Real-money operators and affiliates explicitly excluded. Ad SDK wording aligned to the help page; nonbinding and contact warning present. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:a5fa9b6072b9e424375a7dfb41494eff3d272062b019791a7a9c541c0c99abe2"
+    },
+    {
+      "slug": "big-jackpot-casino-slots-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "50 original machines and themes, volatility tiers, three progressive meters, daily rewards and the full no-real-money notice (adult audience, entertainment only, no real money or physical prizes, virtual coins/jackpots/rewards with no monetary value, no implication for real-money gambling) verified against the live listing; Teen rating from the saved Play probe; IAP spend-without-winnings disclosed. The volatility 'quote' was not the listing's wording ('rarer'): replaced with the listing's exact phrases. Cut the unsupported 'shared goal across machines' for the jackpot meters. Google Play gambling-policy quote checked against the saved policy text. Betting operators and affiliates excluded. 17 + 17 + 16 = 50 recomputed (labelled hypothetical). Ad SDK wording, contact warning and nonbinding wording made exact. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:3513842249965b489565203cf7825d6db82a23fd2b57602d9749f22d8f797e83"
+    },
+    {
+      "slug": "block-world-rpg-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Sandbox + RPG loop, gather/craft/build, monsters, dungeons, dragons and EXP verified against the live listing. Stats/skills, modes, quest journal, map, pets, regions and multiple worlds come from the catalog's description of the store screenshots: now credited to the app's page on this site. The audience description, the not-affiliated statement (body and FAQ) and the boundaries list re-credited from 'the listing' to the app's page on this site; the live listing indeed describes no multiplayer. Softened the 'unusually open to co-developed content' generalisation. Hypothetical festival-region package has no market figures. Ads + IAP (Play IAP true) verified; transfer facts match. Contact warning and nonbinding wording made explicit. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:7a783aac75bf39bdc2124f25df7a73f6922cabf81034a68b50ed5c285e434ebd"
+    },
+    {
+      "slug": "life-simulator-city-builder-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Town building, residents, quests/chapters/episodes/events, farming, orders, upgrades and sandbox (instant construction when enabled, normal costs apply) verified against the live listing. 'Relaxed rather than punishing', the deep-economics/traffic limitation (takeaway, FAQ, body) and the screenshot-derived wellbeing/budget/services/achievements/multiple saves are catalog text: re-credited from 'the listing'/'store screenshots' to the app's page on this site. Softened the opening generalisation and the unsupported claim that resident stories 'carry humour and culture'. Harvest-festival example arithmetic (five orders within fourteen days) checked. Ads + IAP (Play IAP true) verified; ad SDK wording aligned; contact warning fixed. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:a2a26a1f51a85bcaaeea08a54a73a594f4baeb4c03291cb820b935851e877271"
+    },
+    {
+      "slug": "dragon-pet-evolve-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Seven elements, hatching, care speeding growth, evolution, breeding cave, album, seasonal events, island, idle production, turn-based battles/arena and offline core features verified against the live listing. 'Rare and legendary eggs depend on chance, a particular dragon is not guaranteed' is a catalog limitation: re-credited from the listing to the app's page on this site (body and FAQ); 'long-term collection game' replaced with the listing's own 'secret forms only dedicated trainers will see'. Worked example no longer asserts event content works offline (the listing's offline claim covers core features only). Softened the opening ('speaks it fluently'). Game-services transfer line corrected to the help page ('contact our support team'); ad SDK wording aligned. Ads + IAP (Play IAP true) verified; nonbinding wording made explicit. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:9c9f8c710e3dc0de7ba9b060193f2041c8163c1edd468628cb6fd41e3ec99744"
+    },
+    {
+      "slug": "space-shooter-classic-arcade-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Four abilities (FIRE, ALT, Ultimate, Shield), run rewards into weapons/upgrades/systems/bonuses, distinct enemy models, bosses and Endless Mode verified against the live listing (live Play title matches). 'Safe route changes every few seconds', 'controls take seconds to learn', the audience list and the run-based limitation are catalog text: re-credited from 'the listing' to the app's page on this site. Cut the opening generalisation and the unsupported 'little text to localise'/'limited interface text' claims. Sibling-game description now matches the Hardcore catalog entry (sector campaign, Hardcore mode raising durability, projectile speed, formation complexity) rather than an unsourced 'steeper difficulty curve'. 14-day, once-a-day cap = at most 14 impressions recomputed. Ads + IAP (Play IAP true) verified; ad SDK and contact wording fixed. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:02793289b6b3f5417501ddcdc2694cdfc4bf2616cc56cd7dd36e5c05bd72db82"
+    },
+    {
+      "slug": "space-galaxy-attack-hardcore-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Vertical shooter, anime/manga art, named sectors to the Galactic Core, minibosses, multi-phase bosses with destructible modules, multiple ships and loadouts, upgrade tree, Normal/Hardcore/Endless and pause-save-continue verified against the live listing; both FAQ 'according to the listing' claims confirmed. The live listing describes a growing campaign with more sector types than the five in the list, so 'five sectors'/'sixth sector' wording was removed. 'Steep difficulty curve' and 'harder difficulty curve' re-credited to the app's page on this site, with the listing's own 'demanding but fair' quoted. Opening rewritten to the listing's 'designed for experienced players'. (3+1+1) x 3 = 15 recomputed. Upload-key and key-upgrade transfer facts match. Ads + IAP (Play IAP true) verified; contact and nonbinding wording made explicit. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:29d77dd549211f297c8800cc950110c7e75287e4ddf204c47d0525264cdeaa8a"
+    },
+    {
+      "slug": "world-war-gunship-attack-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Gunship missions, enemy aircraft/armoured targets, switchable and alternative attacks, ultimates, elites/bosses and upgrades verified against the live listing; hangar, sectors, aircraft choice and Normal/Hardcore/Prestige from the catalog's store-image descriptions. 'World-war-styled air war' and the not-a-flight-simulator/not-historical statements are catalog text: re-credited from 'the listing' to the app's page on this site (body and FAQ). The live listing never says 'single-player', so takeaway, FAQ and body now say only that it does not mention multiplayer. Softened the Normal/Hardcore/Prestige marketing claim. Historical theme handled as fictional styling; no real insignia or units. US$25 fee matches; 'should be downloaded' softened to 'may want to'. Ads + IAP (Play IAP true) verified; contact and nonbinding wording made explicit. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:5792d36f9ea29c3c2aa33ac7f3f7e252b3c52f1389a024b9de7f90b389d69bd0"
+    },
+    {
+      "slug": "zombie-survival-last-survivor-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Dead-city stages (dark streets, infected zones, abandoned areas), enemy types, bosses with unique patterns, mid-run levelling with weapon/damage/survival/ability upgrades, short-or-long sessions and ads + IAP (Play IAP true) verified against the live listing. Auto-fire/movement-only, 'no two runs end up the same shape', the audience list and the no-manual-aiming limitation are catalog text: re-credited from 'the listing' to the app's page on this site (body and FAQ), with the listing's 'every battle feels different' quoted. Opening generalisation about horde-survival games rewritten; 'co-development is usually a better fit' softened. 4 x 3 = 12 recomputed. Ad SDK wording aligned; contact and nonbinding wording made explicit. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:7a5eb8275d97a4915a69cb9bf2fea6b705c2d728a3b292f3e1085d0ae4d33c16"
+    },
+    {
+      "slug": "jellyfish-arena-survivor-io-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Eat-and-grow io gameplay, snake-style movement, up to 100 AI rivals (200 with Premium), solo play that is 'multiplayer-style', top-ten leaderboard and crown, minimap, pearls and skins verified against the live listing; the AI-rivals honesty rule is stated and backed by the listing. 'Explains itself in about ten seconds' and the instant-start/five-minute/no-real-time-multiplayer audience points are catalog text: re-credited from 'the listing' to the app's page on this site. Cut unsupported claims ('minimal text makes new markets straightforward', 'a common casual profile') and the opening generalisation. Default-currency transfer sentence rewritten to match the help page. Ads + IAP (Play IAP true) verified; contact wording fixed. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:a23a6579b1237b0c793efa6bde507a0cb1c4328c853193ae44e42718dc150e55"
+    },
+    {
+      "slug": "regal-tower-defense-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "50 levels across 10 named worlds, named towers, Aura Towers, purchasable Build Pads on valid terrain, enemy roster, camera controls, Tower Collection and Encyclopedia verified against the live listing. The live listing names seven towers 'and other specialized towers', so they are now 'seven named attacking towers'. 'Wrong tower in the right place' re-credited from the listing to the app's page on this site. The live listing never says 'single-player': takeaway and limits section now say only that no multiplayer is mentioned. Opening generalisation about tower-defence players replaced with the listing's 'a tower game where placement matters'; 'tower defence carries modest text' narrowed to this game. 50/10 = 5 and 7 + 1 = 8 recomputed. Transfer facts match; ads + IAP (Play IAP true); contact wording fixed. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:3ebb4aba50d34aeedbdc460ccf1831a7e27ee07b65aa17e730cd5cad17f870a0"
+    },
+    {
+      "slug": "hero-td-idle-tower-defense-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Hero beside the towers, harder waves, 'turn the power you have into a better battle plan', spend-with-a-purpose, read-the-fight and setbacks-as-information advice verified against the live listing. Hero skills/spells/ultimates, six modes, missions, roster and armoury come from the catalog's description of the store screenshots: now credited to the app's page on this site. Audience and the no-co-op/upgrade-dependence limitations re-credited from 'the listing' to the app's page; FAQ on the idle side rewritten to the listing's own 'small decisions add up' wording (cut catalog-only 'rather than constant tapping'). Cut the opening generalisation about idle games and the 'overlaps with idle-strategy catalogues' claim. 4 x 7 = 28 recomputed. Ads + IAP (Play IAP true) verified; transfer wording softened/aligned; contact and nonbinding wording made explicit. Common to all 30 overviews (no hand-written Google Play URL in any body; the listing stays in sources). Every \"the listing\" attribution was checked against the saved live Play text (probe61.json); catalog-only statements were re-credited to the page for the app on this site or cut. Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:335310992a283429cff9da1d2d7c7d7d85db56d5bda673318ed4369acb5b80cd"
+    }
+  ]
+}

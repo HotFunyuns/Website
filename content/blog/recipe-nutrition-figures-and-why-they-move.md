@@ -40,7 +40,8 @@
     "why-food-databases-disagree",
     "added-sugars-vs-total-sugars",
     "recipe-scaling-and-serving-sizes",
-    "low-carb-tracking-apps-compared"
+    "low-carb-tracking-apps-compared",
+    "safe-cooking-temperatures"
   ],
   "takeaways": [
     "A recipe figure is built from three separate assumptions — which ingredient entry was used, what the batch weighed after cooking, and how the batch was divided — and two calculators can differ on all three.",

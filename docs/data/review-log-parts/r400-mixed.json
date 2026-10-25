@@ -1,0 +1,690 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person's review.",
+  "entries": [
+    {
+      "slug": "dietary-fiber-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "FDA fibre definition, the seven qualifying isolated/synthetic fibres, the intended additions and enforcement discretion checked against the saved FDA Q&A on dietary fiber; 28 g DV against FDA's Daily Value page; soluble/insoluble descriptions, 21-38 g recommendation, 16 g average intake, ~half of 4 kcal/g and the add-gradually advice checked against MedlinePlus 002470/002136. Corrected: the claim that labels do not split soluble and insoluble fibre (21 CFR 101.9 allows voluntary soluble/insoluble lines, required when a claim is made) - rewritten and 21 CFR 101.9 added as a source; worked example recomputed from SR Legacy 'Bread, whole-wheat, commercially prepared' (42.71 g carb, 6 g fibre per 100 g, 32 g slice): net 11.75 g, article said 11.7, now 'about 11.8 g' with the entry named. Cut unsourced 'needs vary with age, sex and calorie intake' (replaced with MedlinePlus's note on younger children and a not-a-personal-target line) and 'richest fibre sources per net carb are often vegetables and berries'; 'most plant foods contain both' changed to MedlinePlus's 'most high-fibre foods'. Takeaway 'proven health benefits' changed to FDA's 'determined to have beneficial physiological effects'. Ketora claims (subtracts fibre and sugar alcohols, net and total side by side) match appfacts. check.mjs and preflight clean.",
+      "contentHash": "sha256:cb8a6c413b19f7f4f37380294bcd8f35000c61986ad49908e66eb5f784d1e504"
+    },
+    {
+      "slug": "high-protein-breakfast-ideas",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every row recomputed with SR Legacy per-100 g values and USDA portion weights (per-portion basis, now stated in the intro with the entry names). Corrected: bagel/cream cheese/smoked salmon row 22.7 g/430 kcal -> 22.6 g/429 kcal; burrito row 30.5 g/557 kcal/5.5 -> 30.2 g/556 kcal/5.4 (using 'Cheese, cheddar' 28.35 g per oz) in table and FAQ. Tofu row (15.4 g, 179 kcal) verified only against 'Tofu, firm, prepared with calcium sulfate and magnesium chloride (nigari)', now named. All other figures (7.2, 13.4, 15.1, 16.2, 23.3, 24.7 g; milk 8.1 g/cup; fortified soymilk 6.3 g; Greek yogurt 17.3 g; whole-wheat vs white slice 4.0/2.6 g; worked example 14.7 g/380 kcal and 21.8 g/~570 kcal; 'seven of nine clear 15 g, four clear 22 g') recomputed and correct. FDA protein DV 50 g checked against FDA Daily Value page; cut unsourced 'needs vary with body size, age and activity' (now labelled a labelling reference, not a personal target) and the opening generalisation about common advice. Protein Diet Tracker claim matches appfacts. check/preflight clean.",
+      "contentHash": "sha256:31c1a74042ca8577dc46b7157eb1fd5f2b6624268e2f93e6aa4fc9e93b20b3ee"
+    },
+    {
+      "slug": "how-to-read-protein-powder-labels",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against saved eCFR 21 CFR 101.36 (Supplement Facts title, proprietary blend total weight and descending-order rule, protein %DV via corrected protein) and 21 CFR 101.9(c)(7) (nearest gram, %DV optional unless protein claim, PDCAAS capped at 1.00, 50 g DRV for adults and children 4+); DSHEA responsibilities and post-market action against FDA's Dietary Supplements page; nine major allergens and sesame from 1 Jan 2023 against FDA Food Allergies page. Changes: 50 g DV now qualified as for adults and children 4+ and a labelling reference not a personal target; 'supplement labels follow the same corrected method' sharpened to the 101.36 wording; cut unsourced 'milk and soy are common protein sources' and replaced with FDA's rule that the allergen source appears in parentheses or a Contains statement. Worked example arithmetic (80%, 62.5%, 720 g/625 g, ~5.6 cents/g) recomputed; prices are hypothetical, not app prices. App claim matches appfacts. check/preflight clean.",
+      "contentHash": "sha256:2ca5a2ea789abb27a77816d143bf7a740d1654411ab0ed0d0061961fbc92104a"
+    },
+    {
+      "slug": "low-carb-fruits-list",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All 17 fruits recomputed from SR Legacy per-100 g carbohydrate and fibre and USDA portion weights; the article gives both per-portion and per-100 g (now stated, with an entry named). Corrected: pear used 177 g and wrong values - USDA medium pear is 178 g: 27.1 g carb, 5.5 g fibre, 21.6 g net, 12.1 g/100 g (was 26.6/21.1/11.9), table re-ordered; orange net 12.2 -> 12.3 g and 9.3 -> 9.4 g/100 g. Others (lemon 3.8, blackberries 6.2, raspberries 6.7, strawberries 8.6, banana 23.9 and 20.2 per 100 g, grapes 26.0, half-cup raspberries 3.3, apple 20.8, savings 12-18 g) verified. Cut unsourced 'most low-carb trackers', 'melons are mostly water', 'fruit varies more than most foods' and FAQ 'many low-carb eaters include some'. FDA label lines (Total Carbohydrate, Dietary Fiber, no net line) per FDA label guide. Ketora claim matches appfacts. check/preflight clean.",
+      "contentHash": "sha256:e00785d7d24d62e066916c8e6e789c3e74aff28d283fb8771949276c2d6e5b8c"
+    },
+    {
+      "slug": "low-carb-vegetables-list",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All 19 vegetables and avocado recomputed from SR Legacy per-100 g values and USDA portion weights; every figure matched (per-serving and per-100 g, now stated with entry names). Worked example corrected for rounding: 7.5 g (7.4 g unrounded) and 13.0 -> about 13 g (12.9 g unrounded). Cut/softened unsourced claims: 'backbone of most low-carb eating', 'as trackers usually count them', 'cooking concentrates vegetables... usually holds more carbohydrate' (replaced by pointer to cooked SR Legacy entries), takeaway 'most non-starchy vegetables' (now limited to this list's table), FAQ 'higher than most', heading 'often used in small amounts', and '20 to 50 g often quoted in low-carb writing' (now the 20 g/50 g examples from the Ketora app page, explicitly not recommendations, any limit set with a health professional). Ketora net-carb claims match appfacts. check/preflight clean.",
+      "contentHash": "sha256:8791f557cad58b5ff6a50f592e0d46191a5e61c00315b958ceeed8337c709f61"
+    },
+    {
+      "slug": "protein-in-common-foods",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All 27 rows recomputed from SR Legacy per-100 g protein and energy with USDA portion weights (per-serving basis now stated); every value matched, including staples-day total 35.4 g, pasta/rice ratio 1.7 and per-100 g 5.8 vs 2.7 g. Clarified: almonds 1 oz is 28.35 g (was 28 g), pasta row is spaghetti not packed (124 g), tofu row is 'Tofu, firm, prepared with calcium sulfate and magnesium chloride (nigari)' (the 11.4 g/98 kcal values only fit that entry). FDA protein DV 50 g checked against FDA Daily Value page; cut 'needs vary with body size, age and activity' and 'individual needs differ' in favour of 'labelling reference, not a personal target'. Removed unsourced generalisations ('more protein than people expect', 'most protein lists start with chicken', 'easy to forget'). Distinct intent from protein-sources-compared (staple-food reference table vs how to read high-protein lists). App claim matches appfacts. check/preflight clean.",
+      "contentHash": "sha256:57e1728aac5a3f461633012b2fcfb6a98c0cfe6909ed8398f55f4bbb5f4b3473"
+    },
+    {
+      "slug": "kitchen-measurement-conversions",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "NIST Metric Kitchen equivalencies table, culinary measurement tips and legacy oven-temperature table checked line by line against the saved NIST pages; FDA labelling definitions (5/15/240/30 mL, 28 g) against 21 CFR 101.9(b)(5)(viii); every cup weight (flour 125, brown sugar 145/220, raw white rice 185, sugar 200, olive oil 216, butter 227, salt 292, honey 339 g) against SR Legacy portions. Every conversion recomputed with node: added an exact-US-value column from NIST Guide to the SI Appendix B.9 factors (new source, accessed 2026-10-24), e.g. cup 236.6 mL, quart 946.4 mL, gallon 3.785 L (NIST kitchen 3.84 L is ~55 mL high), oz 28.35 g, lb 453.6 g, 2.2 lb = 0.998 kg; added that NIST's oven figures are rounded (350F = 177C, 375F = 191C by formula). Brown sugar 52% difference verified. Cut 'trips up most cooks', 'older recipes often', unsourced fluid-ounce/water claim (replaced with NIST's two-ounce-units note), and reworded food-safety line to NIST's internal-temperature guidance. App claim qualified to 'nutrition where available' per appfacts. check/preflight clean.",
+      "contentHash": "sha256:6fc6d1d172de243c0287ccab6621b34cbd89a1f1a2823e8eabf25369b64603a6"
+    },
+    {
+      "slug": "food-storage-times",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked every fridge/freezer time in all three tables, row by row, against the saved FoodSafety.gov Cold Food Storage Chart (x_fscold). The lean-fish 1-3 days figure comes from a rowspan cell that the text dump dropped, so I confirmed it in the live HTML. Recomputed 40F/4C and 0F/-18C with node. Checked the FSIS leftovers rules (3-4 days / 3-4 months, 2 h or 1 h above 90F, shallow containers, cover/seal) against x_fsisleft and confirmed FoodKeeper covers 650+ items. Recomputed the worked-example dates (Sun+3/4 = Wed/Thu). Changes: the first paragraph now answers the question; cut the unsourced 'most common question' opener; corrected how the site relates to the agencies (managed by HHS, with USDA/FDA/CDC as partners); moved the moisture/flavour loss claim to FSIS and softened it to 'can lose' for frozen leftovers (takeaway and FAQ); sourced the fridge-thermometer line to the FSIS freezing page (x_fsisfreeze); cut the app sentence back to the catalog's pantry/recipe facts (it had implied the app tracks the leftover window); renamed a generic heading.",
+      "contentHash": "sha256:79769e7031e5a6de8a69aa1eb697ff4766835f75e05bca856d67d3f9a989336e"
+    },
+    {
+      "slug": "safe-cooking-temperatures",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked all 11 chart rows, the rest times and the visual doneness rules against x_fstemp. Recomputed every F/C pair with node (165->73.9, 160->71.1, 145->62.8, 140->60.0, 74C->165.2F). Checked the thermometer claims against x_fsistherm: colour and firmness are not indicators, the USDA study's 21%, 2-4F accuracy, thickest part, thin foods through the side, each piece, and three places on a whole bird. 212F at sea level comes from FSIS and 100C from NIST (x_nistculinary). Checked the danger zone (40-140F, doubling in 20 min), the 140F hot hold, 2 h/1 h and the rolling boil against x_fsisdanger and x_fsisleft. Changes: the first paragraph now gives the key temperatures; reworded the fish takeaway to the source's 'separates easily with a fork'; replaced the unsourced claim that scaling a recipe changes heating time with FSIS-sourced advice; renamed two generic headings. App claims (serving/nutrition scaling) match the catalog.",
+      "contentHash": "sha256:4a7dc91d3f812975e994e45ac09c42a414b45dcb4710b69d4878dc331e7cd047"
+    },
+    {
+      "slug": "meal-prep-food-safety",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against x_fsisleft and x_fsisdanger: the danger zone and 20-minute doubling; improper cooling as 'one of the most common causes'; 2 h, or 1 h above 90F; shallow containers; cutting up roasts; hot food straight into the fridge or into an ice/cold-water bath; cover/airtight; 3-4 days / 3-4 months; the three thaw methods and refreeze rules; reheat to 165F; rolling boil; microwave cover/rotate/vent. Cross-checked the temperatures with x_fstemp and re-checked the five-day worked example. Changes: the opener now answers the question; removed the unsourced 'this is where most meal prep goes wrong' and 'only reliable way'; corrected the 3-minute rest (it applies to steaks, roasts and chops, not fish); the packed-lunch paragraph now uses FSIS's 2-hour/40F wording instead of unsourced practical advice; cut the app sentence back to the catalog's planner slots (it had implied a storage-window feature).",
+      "contentHash": "sha256:708b198503040a5da20d146836dc81ab5ec6c9de0d6a1e7812f27785d5533562"
+    },
+    {
+      "slug": "meal-planning-on-a-budget",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified the Thrifty Food Plan rows against both pdf_tfp.txt and the FNS/FNA page table (x_fnsfoodplans). The PDF's labels are shifted one row; I resolved this with the reference-family sum 73.60+58.60+48.30+55.80=236.30. All six individual rows, the monthly figures and the $236.30/$1,024.00 reference family match. The household-size adjustments and the SNAP role come from the PDF footnotes. Recomputed with node: 236.30/84=2.81; (73.60+58.60)x1.1=145.42, /42=3.46; 58.60x1.2=70.32, /21=3.35; 1.5/1.44 = +4.2%. Checked the NIST unit-pricing claims (Purdue 2024's 82%, ice cream at 1.44 vs 1.5 qt, the shrinkflation definition) against x_nistshrink. Changes: the first paragraph now gives the benchmark; corrected the NIST paraphrase to NIST's own words ('the best tool a consumer has when shopping', quoted) in the body, FAQ and takeaway; changed the publisher to 'USDA Food and Nutrition Administration', the name both saved pages print, and pointed the monthly-reports URL at its final fna.usda.gov address; replaced 'prices vary by region' with the sourced US-average/Alaska-Hawaii note; cut unsourced generalisations ('cheapest ingredients', 'often have shorter windows', 'money spent twice'); added the FoodSafety.gov Cold Food Storage Chart as the source for the 1-2 day raw poultry/ground meat figure; renamed two headings.",
+      "contentHash": "sha256:8f6ed175d2ad5c2cabb91719cf6ad5e6bb13bc4b46bd4cd19384232acec72b27"
+    },
+    {
+      "slug": "4-7-8-breathing-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked the steps, tongue position, ratio rule, four-breath first-month limit, twice-a-day advice and lightheadedness against Dr Weil's handout (x_weil478). Checked the 2015 popularisation, pranayama, lying in bed, three cycles twice a day and the lightheadedness explanation against Cleveland Clinic (x_cc478). Checked the study claims against the PubMed abstract 35822447 (x_breathstudies): 43 healthy participants aged 19-25, groups of 22/21, six cycles x three sets, HR and systolic BP fell in both groups, HRV improved particularly in those without sleep deprivation. Checked the 12-15/min resting rate against x_wikiresprate. Recomputed the timing (19 s, 76 s, 3.16/min, 9.5 s, 38 s). Changes: added the Wikipedia source that the body already cited; cut the unsourced 'far less research than its popularity suggests'; rewrote the sleep FAQ without 'often recommended' or 'evidence is thin'; the lightheadedness section now reports what each source says. Dropped an unsourced pregnancy/heart-lung instruction and put wellness framing in its place (not a treatment; see a professional). Credited the app routines to the store screenshots; renamed two headings.",
+      "contentHash": "sha256:4e9325133c080137a2947c78dc69a034040f36ff3646e9c40400f403f81c368e"
+    },
+    {
+      "slug": "box-breathing-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked the Cleveland Clinic claims against x_ccbox: sama vritti pranayama, Navy SEALs, four sides, the opening exhale, comfort-level advice, the mantra-meditation quote, once or twice a day, practising when calm. Checked Balban 2023 against the PubMed 36630953 abstract, 12-15/min against x_wikiresprate and the NHS 'at least 5 minutes' against x_nhsbreath. Recomputed the timing (16 s, 3.75/min, 300/16=18.75). Correction: NHS inform's controlled breathing exercise does include a second 3-second hold (x_nhsicontrol), but the draft called it a hold-free, three-sided version. It is now described accurately, with its 12 s / 5-per-minute cycle. Re-hedged the trial claims to match the abstract in the body, FAQ and takeaway: box breathing was one of the techniques tested, and the abstract singles out cyclic sighing. Removed 'promising', 'best-known trial', 'not for everyone', 'drop the second hold' and the unsourced 'reviews find similar, modest effects'. App claims match appfacts (screenshots: gentle holds, equal breathing). Renamed two headings.",
+      "contentHash": "sha256:40e3dd720c7958eeeb7a5e39ba6e7b03ebad6f8a6a8b26d7b77bb656a51e9514"
+    },
+    {
+      "slug": "diaphragmatic-breathing-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked the lying and sitting steps, the diaphragm description, 5-10 min 3-4 times a day, tiring at first and the COPD/asthma/anxiety advice against x_ccdia. Checked the NHS inform belly exercise (hand placement, in through the nose, out through pursed lips, 3-5 minutes, build up, count 1-5, tummy not chest) against x_nhsibelly. Checked Ma 2017 against PubMed 28626434: 40 participants, 20 sessions over 8 weeks, 4 breaths/min, a within-group decrease in negative affect, attention, and cortisol vs the control group. Checked Hopper 2019 against PubMed 31436595: three studies, no pooling, limitations, 'may decrease stress'. Rechecked the 15/40 min arithmetic. Changes: cut the unsourced 'often called', 'foundation of many relaxation exercises' and 'base for box and 4-7-8'; restated the study results with the abstracts' own hedging ('could improve', 'may decrease', ongoing research needed) in place of 'promising rather than conclusive' and 'looks helpful'; changed the COPD wording to 'may prevent'; reframed the treatment line: a relaxation practice that does not replace provider-recommended care. Quoted the NHS wording accurately; credited equal breathing in the app to the screenshots; renamed three headings.",
+      "contentHash": "sha256:9c16ca1b9e370631dbdd7a5d1ee0bcdeb0b5498c2324c02bc3dba2cbe7adad35"
+    },
+    {
+      "slug": "slow-breathing-and-relaxation",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked Zaccaro 2018, Fincham 2023, Balban 2023, Ma 2017 and Vierra 2022 against the PubMed abstracts in x_breathstudies. Zaccaro: <10 breaths/min, MEDLINE+SCOPUS, 2,461 abstracts, 15 studies, HRV/RSA, EEG alpha up and theta down, the listed psychological outputs, healthy subjects. Fincham: 12 RCTs, 785 adults, g=-0.35 (small-to-medium), anxiety k=20, depression k=18, moderate risk of bias, both quotes. Checked the resting rate and the 2 s/3 s rhythm against x_wikiresprate, and the NHS daily-routine and 5-minute advice against x_nhsbreath. Recomputed the table (12, 6, 3.75, 3.16 per minute). Changes: the first paragraph now states the findings and the caution; narrowed 'research usually defines' to the 2018 review; removed 'dose is usually small, which is encouraging'; narrowed the claim that no study tested dose-response to what the abstracts report; replaced the closing 'what the evidence does support' with the NHS's own description; re-hedged the FAQ and takeaway on treatment and on a best technique; renamed four headings.",
+      "contentHash": "sha256:959b8c9ba9c46afbe4c9dcbe0b65af19f0b2bb9f236967b67627bf6b37a02bd0"
+    },
+    {
+      "slug": "kawaii-breathe-relax-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked every app statement against `node appfacts.mjs kawaii-breathe-relax` and the live listing fullDescription in scripts/play-verification.json; the name is exact (Kawaii Cute Breathe Relax Care; the catalog gives the in-app title as Calm). Changes: claims credited to 'the listing' now cover only what the listing text says (a start to mindfulness/meditation, a desk pause, before sleep, no experience needed, 'no perfect performance to achieve'). 'No score', the four steps and the list of limits are catalog-only, so they are now credited to the app's page on this site. Removed invented mechanics: the breath counter 'keeps track of breaths', equal breathing 'with no holds', the reset as 'the shortest option', multi-step routines as a 'longer session', and FAQ advice that equal breathing has no holds. The Cleveland Clinic habit quote is now correctly attributed as advice about 4-7-8 breathing; the NHS takeaway now says it is about the NHS's own exercise; re-hedged the meta-analysis paragraph ('may be effective'). Ads yes / no IAP matches appfacts. Rechecked the 10/70/21-minute arithmetic. Top similarity is 0.039, against the app's partnership article, which serves a distinct commercial-partnership intent. Renamed four headings.",
+      "contentHash": "sha256:a8fd253db073483b687531897d2827d16cb17823116bca1aa9a118406fd00c59"
+    },
+    {
+      "slug": "block-world-rpg-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "App claims checked against appfacts block-world-rpg and the live listing (probe61). Re-credited catalog/screenshot facts (modes, table, how-it-works loop, build bigger/travel further) to our app page instead of 'the listing'; quoted listing lines verified verbatim (sessions for building/exploration; build a base before heading farther; step into dungeons ready for combat). Cut invented mechanics: storage room for what the backpack cannot carry, backpack-full limit, 'close combat', 'craft better gear'; base/trip tips now marked as general advice. Sandbox definition corrected to Wikipedia's 'may minimize predetermined objectives'; survival-crafting tools-to-better-resources claim verified in x_wikisurvival. Ads/IAP as appfacts.",
+      "contentHash": "sha256:08427f69304d00f5c7cdceb7d5db0a4a4d59632a6d9e2655697ad407da6e08a9"
+    },
+    {
+      "slug": "city-builder-tips-for-beginners",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against x_wikicitybuild and x_wikisimcity: 1989 SimCity, positive budget balance and citizen satisfaction, balance between sectors, Sims' factors (traffic, power, crime, proximity; 'seldom'), Caesar walkers vs radius coverage, Settlers chain, 2010s 'produce and upgrade'. Recomputed block table with node (12/21=43%, 9/25=36%, 13/49=27%; 0/4/16 interior lots). Rewrote overgeneralised takeaway/FAQ ('since SimCity the core measures of success in city builders') to SimCity-specific wording; softened 'usually', 'often', 'many builders' and an unsourced intro claim. Life Simulator limitation re-credited from 'its listing' to our app page (catalog limitation).",
+      "contentHash": "sha256:0fa5a9a78bf55fc112bbd2541e3c361d77c33c81c8346d8ea098b9e07748e7eb"
+    },
+    {
+      "slug": "dragon-pet-evolve-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All app claims checked against appfacts dragon-pet-evolve and live listing. Fixed misattributions: chance/no-guarantee and 'long-term collection game' are catalog (now credited to our app page); listing quote on secret forms for dedicated trainers used verbatim; evolution-path planning now quotes the listing. Cut invented inferences: short daily visit beats long one, evolving whatever is ready first, breeding growing the collection beyond eggs, single-element team sharing weaknesses (now generic type-battle advice); habitats holding more dragons corrected to upgraded habitats per listing. Virtual pet claims checked in x_wikivpet ('often' not 'usually'; goal-oriented keep alive/higher forms; does not usually reproduce).",
+      "contentHash": "sha256:446e304a1d3a1f558495e7a56fa7fffe86dae7aeb3f5232ecf9727ff05be1da5"
+    },
+    {
+      "slug": "hero-td-idle-tower-defense-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against appfacts hero-td-idle-tower-defense, regal-tower-defense and the live listing. The four-step loop, table, ultimate/spells framing, 'built around upgrades that add up' and the upgrade-dependency limit were catalog facts credited to 'the listing' - re-credited to our app page; listing quotes verified verbatim (difficult battle can teach more than an easy win; look at how your towers perform; small decisions add up). Upgrade symptom bullets labelled general TD reasoning; removed claim that armoury gear shapes the hero; mode descriptions limited to names. TD definition corrected to Wikipedia's 'essential strategy' wording (x_wikitd). Regal named 'Regal Tower Defense: TD Game' per catalog; removed 'we make two tower defense games'.",
+      "contentHash": "sha256:f252f40a6dd1fdd457d80eca1cc7576711789fbd16f86b10a24ed4f8922cb50f"
+    },
+    {
+      "slug": "how-to-color-anime-eyes",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against x_wikianime (exaggerated eye size convention, Tezuka, light shade/tone colour/dark shade, cornea shading), x_wikiiris (pupil circular black spot, white sclera, eye colour defined by iris), x_wikicatch, x_wikispecular (3D graphics shape cue). Recomputed colour maths with node (#3A7BD5 x0.6 = #234A80; 40% to white = #89B0E6). Softened unsourced generalisations (most common flaw, rarely pure white, cross-eyed, usually enough; lid shadow presented as a shading choice). App tools (fill, brush, zoom/move/center, gradient palettes, Recently Used, eraser) match appfacts anime-coloring-book. No third-party characters or art.",
+      "contentHash": "sha256:c190c94aa618d6f5ef4a87b9efe4fe09247d21cc6b2cca19797e159c171babd7"
+    },
+    {
+      "slug": "how-to-color-skin-tones-digitally",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against x_wikiskincolor (melanin/melanocytes, two types, bluish-white connective tissue, hemoglobin in dermis), x_wikiblend (multiply 0-1 channel product, basic darkening mode), x_wikisss (light penetrates and scatters; without SSS may look like plastic or metal - wording corrected). Recomputed multiply table with node (188,133,147; 192,160,136; 94,53,52). Softened unsourced claims ('most often goes wrong', 'most common mistake', skin 'always' has undertone, sweat/shine, anime-specific blush, 'often the difference'). Replaced 'rather than layers' (not in catalog) with 'our app page does not list layers or blend modes'. Tools/palettes match appfacts.",
+      "contentHash": "sha256:c0c12cc571495d32c1f2de6406e6e8c709b319969d03cf4269997c30ae1ee4fb"
+    },
+    {
+      "slug": "life-simulator-city-builder-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against appfacts life-simulator-city-builder and live listing. The four 'start small / farm and fill orders / follow the story / design freely' steps and the traffic/economics limitation are catalog facts - re-credited from 'the listing' to our app page; listing quotes verified ('your city starts small', residents 'connect the story to the places you create'). Removed invented routine detail (plant again before you leave); compact-neighbourhood advice marked general. Wikipedia city-builder definition and SimCity success indicators verified in x_wikicitybuild. Dragon link text now uses the catalog name.",
+      "contentHash": "sha256:d70ebb62664bbdcc386e0b12f3c70806ba4181deec7fecbfc9e81657871edb19"
+    },
+    {
+      "slug": "tower-defense-upgrade-priority",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Recomputed all arithmetic with node (110 base DPS; +20% dmg/speed 132; crit chance 10->20% = 120 (+9%); multiplier 2->2.5 = 115 (+5%); at 50% bracket 1.5->1.75 = +17%; 1.44x vs 1.4x; 2r chord). Critical-hit facts verified in x_wikicrit (lucky hit, almost always random, Dragon Quest 1986, 1/64 ~1.56%); replaced unsourced 'modern games usually let you raise both' with Wikipedia's 'may have ways of increasing the likelihood'. Listing quotes verified verbatim. Added stacking assumption; symptom table labelled general reasoning; removed implication that armoury gear upgrades the hero; softened 'logic carries over to most of the genre' and 'Often'.",
+      "contentHash": "sha256:b1cab6fee87f4c79c3fdb7652725cad0f4827066456770480e0cafefca4b78f2"
+    },
+    {
+      "slug": "virtual-pet-games-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against x_wikivpet (definition, alternative to real pet, Neko/desktop pet, Dogz 1995, Catz 1996, Petz, Tamagotchi/Digimon fad, software toys, breeding sites, sub-class of life sim, constant-need point) and x_wikitamagotchi (Bandai since 1996, Yokoi/Maita, 23 Nov 1996, worldwide 1997, egg-shaped three buttons, ~40M incl. ~12M US/Canada, struggled with demand, 98M+ as of 2025, 1997 Ig Nobel economics, life stages of set days, sickness causes, death causes incl. predators). Corrected 'usually' to 'often'; replaced unsourced 'durable idea' line and the 'common additions ... often' generalisation - list now attributed to Wikipedia (breeding) and the Dragon Pet Evolve Hatch Eggs listing. App claims match appfacts.",
+      "contentHash": "sha256:96515f83c79dab498982a917ca316dc7424a68b157eba5426ca59790da2e12e3"
+    },
+    {
+      "slug": "what-are-cozy-games",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified every attributed statement in x_wikicozy (definition, Commonwealth spelling, Campbell/Velocci/Strampe/Rutland, life-sim origins incl. Harvest Moon, Stardew 2016, ACNH 2020 lockdowns, 'handful' of 'dozens' on Steam, Vice 2018, fan confusion, Short Hike, Rutland on accessibility, LEGO/Puma/Build-A-Bear, Sims merch sold out in under a day, #CozyDeskSetup, Stroukoff quote). Cut unsourced 'one of the most-used labels' and 'never about survival'; PC Gamer claim limited to its headline as cited by Wikipedia (article itself not opened); origins and fan-disagreement causation hedged to the sources. App descriptions match appfacts and the listings ('cozy', 'relaxing simulation').",
+      "contentHash": "sha256:bca38831f5b193bb0d1d97dc0cf33025480a601ed93c098b671f0313f0d899f6"
+    },
+    {
+      "slug": "what-are-idle-games",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against x_wikiidle (definition, clicker vs idle, typical start, factories/farms, exponential tier costs, 1T notation, prestige/New Game Plus, multiple prestige layers, Pecorella GDC history: Progress Quest 2002, Kongregate Chat, Cow Clicker, AdVenture Capitalist offline earnings, Cookie Clicker 2013, Make It Rain, 2015 Steam/Clicker Heroes, Candy Box!/Universal Paperclips endings, Grayson, Davis, monetisation incl. time-warps, genre influence). Recomputed 1.15^n costs with node (352; 94,231; ~102M). Corrected takeaway misattribution ('critics' -> Pecorella; 'creators' -> Cookie Clicker's creator). Hero TD claim now quotes the listing and credits planning-vs-tapping to our app page; removed unsourced 'fits naturally' claim and tied tower defense to Wikipedia's definition.",
+      "contentHash": "sha256:028923437ec29878b9af7f97c753985c84981e5ed4599b7aba2356bc60b1ec21"
+    },
+    {
+      "slug": "progressive-jackpots-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia 'Progressive jackpot' text: definition (increases each play not won, resets to predetermined value), contribution set by the casino, prominent meter, reset to preset minimum, linked machines grow faster, trigger is usually the highest-paying combination, 1986 introduction, Megabucks/IGT first progressive slot, first jackpot 1 Feb 1987 $4,988,842.17, 5% edge / 1% contribution example, max-credit qualifying and 10- vs 5-credit comparison, must-hit-by RNG value and $1,000-$3,000 range, mystery-jackpot naming and proportional odds, break-even unknown payback/unpublished reel layout, 'tens of thousands of plays', jackpot funded by previous non-winners. Arithmetic rechecked with node (500x$1x1%=$5/h; x200=$1,000/h; x168=$168,000) and now labelled hypothetical. NCPG helpline 1-800-MY-RESET checked on the saved NCPG page. BIG JACKPOT claims (three progressive meters, virtual-only, no real-world value) match the live listing notice. Changed: removed unsourced opener ('most recognisable sights', 'many slot apps'); 'pays before the maximum' -> 'pays by the published maximum' to match the source; takeaway/FAQ now say Wikipedia dates progressives to 1986 and the first progressive jackpot (not 'first Megabucks jackpot'); added 'relative to break-even level' qualifier; removed the invented claim that the app's virtual meter resets when it pays. Distinct from slot-reel-mechanics-explained (one short meter paragraph). Note Wikipedia flags the page for original research/citations; claims kept attributed to Wikipedia.",
+      "contentHash": "sha256:c809301bee351c04e1e6ab8aa46759f49f42d3f68e1f15671c1305ee7c614090"
+    },
+    {
+      "slug": "big-jackpot-casino-slots-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked every app claim against appfacts big-jackpot-casino-slots and the live listing (probe61): 50 original machines, listed themes, low/medium/high volatility, three progressive meters, daily rewards/free coins/levels/goals, adjustable virtual bets, adult-audience/entertainment-only notice, no real-money gambling or prizes, no real-world monetary value, Google Play Teen, ads and IAP. Changed: statements that were catalog-only (sound per machine, 'not aimed at children', 'real money can be spent though none won', high volatility 'less often') are now credited to the app's page on this site or reworded to the listing's own words; listing wording used for prizes ('real money or physical prizes', 'monetary value'); real-casino progressive description attributed to Wikipedia and that source added. Worked example rechecked (10,000/100=100 spins, 10,000/250=40). Virtual-coin only, no route to real money; NCPG helpline 1-800-MY-RESET with call/text/chat verified on saved NCPG page. Vegas Casino Slots JACKPOT WIN name matches catalog. Distinct intent (app guide) from the partnership article and the slot mechanics/volatility explainers; check.mjs top 0.032.",
+      "contentHash": "sha256:1f094f69486c3461218fb1effe4eb5a2257500cda71647e625b6ee88d5f7ea99"
+    },
+    {
+      "slug": "what-is-a-gunship-aircraft",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia texts 'Gunship', 'Boeing YB-40 Flying Fortress' and 'Douglas AC-47 Spooky': definition (loitering base of fire, airstrike or close air support), mid-19th-century gunboat synonym and Civil War ironclads, side-mounted guns aimed at the apex of the pylon-turn cone, circling vs strafing; 1942-43 lack of escort fighter, YB-40 with up to 16 guns and bomb bay as ammunition magazine, 'flying destroyer gunships'; ~4,000 lb heavier, B-17F 20,000 ft in 25 min vs YB-40 48 min (rates recomputed: 800 and 416.7 ft/min, ~half, matching 'nearly cut the climb rate in half'); 59 dispatched/48 credited, loss on 22 June, Galland 'insignificant', chin turret to B-17G; 405 B-25Gs with 75 mm cannon, B-25J eighteen .50-cal guns; AC-47 1964, three miniguns, nicknames; AC-119, AC-130 as modern origin of the term; vulnerability/air superiority; helicopter gunships. Changed: kill claim now 'five confirmed and two probable' per source; takeaway 'too heavy and slow' softened to 'struggled to keep up'; generic H2 'The definition' renamed; removed unsourced 'familiar word from films'; 'its listing is clear' -> 'its page here' (not-a-simulator wording is catalog-only). App description matches appfacts. Distinct from the game guide and WWII history articles; no aircraft imagery.",
+      "contentHash": "sha256:06e4b6fc1620b44bab288ccd13a4870a4bc77138cee142ec0ad2fc1989f0593b"
+    },
+    {
+      "slug": "world-war-gunship-attack-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All app claims checked against appfacts world-war-gunship-attack and the live listing (probe61): battle zones, enemy aircraft/armoured targets, easy controls with mastery in movement/aiming/timing/patterns, switchable and alternative attacks, ultimate abilities for crowded screens, elite enemies and bosses, tougher missions; hangar weapons/armour/performance, sector mission select, aircraft choice and Normal/Hardcore/Prestige from the catalog's screenshot descriptions; ads + IAP. Changed: wrong app name 'Space Shooter Classic Arcade' corrected to catalog name 'Space Galaxy Attack Arcade'; 'boss battles reward well-timed special attacks' (catalog wording) attributed as listing -> replaced with the listing's actual line (time attacks to deal major damage to elite enemies and bosses); cut invented 'formations repeat' and the implied attack-to-target matching mechanic; 'single-player missions' (not in listing) -> 'mentions no multiplayer'; 'not a flight simulator or historical recreation' credited to the app's page here; 'often the better first buy' softened. Worked example (100/1.25=80 s, one fifth less) rechecked and labelled made-up. Distinct intent from what-is-a-gunship-aircraft (history) and the partnership page.",
+      "contentHash": "sha256:7da833616560d85a5587660fc7702169de03906d9731dae93616ee85f604ce63"
+    },
+    {
+      "slug": "google-play-content-ratings",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Google Play Help 'Apps & Games content ratings' (6209544) and IARC FAQ text: developers + IARC responsible, GRAC in South Korea, use to inform and to block/filter, minimum maturity level but not 'designed for a specific age', Read more for reasons and interactive features; every row of the region table (ESRB, PEGI incl. Parental Guidance, USK, ACB games-only, ClassInd, GRAC games, IARC generic) and the IARC generic and ESRB descriptions; IARC single questionnaire, per-authority logic, immediate issue without prior authority review, post-release modification, rating check, free to developers 'at this time' with storefront licence fee. Changed: 'Every app carries' -> where the rating is shown; unsourced claim that listings show ads/IAP labels replaced with Google Help 1061913 wording (IAP shown by Price/Install button), source added; worked example now notes PEGI 12 covers simulated gambling per Google; 'free for developers' qualified 'at this time'; 'like every other app' cut. Anime Trivia & Word Games name and ads/optional IAP match appfacts. No other ratings explainer on the site.",
+      "contentHash": "sha256:eec7a9f66db56a88e61b62e19042c1028cf2b7ea4975467c008311865df6d145"
+    },
+    {
+      "slug": "move-apps-to-a-new-android-phone",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Google Android Help 13761358 (copy apps & data) and 6193424 (switch to a new device): preparation list (charge, unlock method, Google sign-in for most data, back up, Wi-Fi/internet, minutes-to-hours, storage choice), QR pairing and PIN step, cable/wireless support the same data, transfer only once and best during setup, managed devices, and both columns of the copies/won't-copy table line by line. App claims: Protein Diet Tracker (no account, local storage, no cloud sync) and PDF All in One Tool No Limit (compress) match appfacts. Changed: replaced the unsourced three-kind app-data taxonomy ('account-based apps such as email or banking restore when you sign in') with Google's Android-backup line and its WhatsApp example (cloud restore only if backups were on); FAQ 'check your phone maker's tools' -> Google's Samsung Smart Switch note; removed filler ('a week of overlap costs nothing'). Note for coordinator: category health-nutrition / disclaimer health is driven by the CTA app (Protein Diet Tracker) though the topic is Android setup; left as is. No other new-phone article on the site.",
+      "contentHash": "sha256:365a329abd70dc7f2d23fdb7dda2e1806889318a95e5fb7ccd5f4f18369341e8"
+    },
+    {
+      "slug": "turn-off-personalized-ads-android",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Play Console Help 'Advertising ID' (6048248) and My Ad Center Help 12155656 (Android): resettable/deletable ID from Google Play services, policy requiring it in place of other identifiers for advertising, Privacy > Ads and older Privacy > Advanced > Ads paths, string of zeros after deletion (late-2021 to 1 April 2022 rollout), 'apps may have their own settings'; My Ad Center activity sources, EEA linked-services note, topic/brand choices only affect Google services, partner ad settings, non-personalised contextual factors and the lunch/plumber/patio-umbrella examples, Google Display Network and 'millions of sites and apps'. Changed: worked example and a takeaway corrected - Google says turning off personalised ads in My Ad Center while signed in also turns them off on partner sites/apps, and signed-out partner settings are per browser/device (the draft implied three independent switches); added Google's note that partner settings don't affect non-Google ad platforms; unsourced opener ('often paid for by ads, many personalised') replaced with Google's own statement; 'many free apps sell an ad-free upgrade' -> 'some'. Space Galaxy Attack Arcade name/ads/optional IAP match appfacts. Distinct from why-free-android-games-show-ads (funding model) and data-safety/permissions articles.",
+      "contentHash": "sha256:3d0384cee27297edaf882e80b7f6d741e687889026628283401d99cf95b125ff"
+    },
+    {
+      "slug": "elemental-type-advantages",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia texts: 'Intransitive game' (cycle definition, transitivity would require A beat C, RPS as prototypical example), 'Rock paper scissors' (odd-number variants where each move beats exactly half, up to 101 moves, tie probability 1/n, RPSLS by Kass and Bryla with each move 2 wins/2 losses - checked against the move list, French 'well' variant and its optimal 1/3 strategy) and 'Gameplay of Pokémon' (rock-paper-scissors-style types, double/half damage, special properties). Seven-element worked example recomputed: {0,4,1} beats {1,2,3}u{5,6,0}u{2,3,4} = all 7; 2x3=6<7 so three is minimal. Changed: fixed a logic error (a single-element team was said to have 'three it can never beat and three that beat it' - it beats 3, loses to 3, ties itself; FAQ corrected to 'no advantage over the other four'); removed unsourced generalisations ('heart of many games', 'battle games rarely make type an instant win', 'many games turn advantage into multipliers', 'popular' variant) and restated them as the Pokémon example; French-variant strategy now matches the source. Dragon Pet Evolve Hatch Eggs: seven elements, turn-based elemental battles, bosses, arena match appfacts/listing; article correctly says the listing gives no match-up chart. No Pokémon art or branding beyond nominative mention.",
+      "contentHash": "sha256:60a2769788a6ff3f98fc24b0dd2c4ab04683ca64defc1f234c60b5d8108fcbec"
+    },
+    {
+      "slug": "how-crafting-systems-work",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia texts: Glossary of video game terms (crafting definition and 'most MMOGs'; grinding definition and 'annoying waste of time or enjoyable necessity'; creative mode stripping progression gates and dangers), Survival game (two-or-more resources, Subnautica single-resource example, gather-craft-better-resources loop, wooden/stone pickaxe example, weapons/armour from harder materials, durability, recipes learned by experiment or guides), Technology tree (hierarchical upgrades, tiers). Worked recipe example recomputed (5 planks -> 2 logs = 8 planks, 3 spare; 4 sticks split 2/2; 3 stone). Changed: unsourced opener ('one of the most familiar loops', 'drives survival games...') replaced with Wikipedia's 'many survival games'/'most MMOGs'; 'Every crafting system has the same three parts' softened; 'in many survival games' -> Wikipedia's 'a common example' (body, FAQ, takeaways); clarified that 'pickaxe ladder' is this guide's label; removed opinion 'can frustrate newcomers'; a catalog step credited to 'the listing' now credited to the app's page. Block World RPG Craft & Build claims (gather, craft tools/weapons, base, dungeons/monsters/dragons, EXP, stats and skills) match appfacts. Distinct from creative-vs-survival-mode and block-game-starter-base (check.mjs top 0.019).",
+      "contentHash": "sha256:b1e0964d34bccf692aafc69b8d2d4ccd7af006ba072e8bfc70de8427a6e8e9b3"
+    },
+    {
+      "slug": "creative-vs-survival-mode",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia texts: Glossary (creative mode definition), Minecraft (survival: wood/stone, difficulty-dependent spawning, health and hunger bars, hunger not needing refilling on peaceful; hardcore locks Hard + permadeath, delete world or spectate; creative: infinite almost-all items, instant place/mine, flight, usually no damage or hunger; Beta 1.8 of 14 September 2011 added creative mode), Sandbox game (Minecraft 'most successful example', survival core, digital Lego comparison, creative mode added after players built freely), Survival game (last as long as possible). Hut arithmetic recomputed: 4x5-4=16 per layer x3=48, +25 roof, -2 doorway = 71. Changed: removed unsourced 'flight in many games' and 'two common variations'; intro no longer asserts Minecraft's world-creation prompt; FAQ no longer claims peaceful means 'without combat pressure' in general (source only says spawning depends on difficulty) - restated with the hunger-bar fact; added the catalog's non-affiliation statement since Minecraft is named throughout (nominative only, no imagery). Block World RPG claims (creative with unlimited blocks and flight, survival, peaceful option, multiple saved worlds, EXP/stats/skills) match appfacts.",
+      "contentHash": "sha256:3b532840924a4864f9fbd18e32b01f63f128ee5cfaeea5ffb528d51a09e2deb8"
+    },
+    {
+      "slug": "block-game-starter-base",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia texts: Sandbox game (Minecraft as 'most successful example', survival core with shelters against hostile creatures), Survival game (crude shelters then massive structures 'often modeling real-world and fictional buildings'), Minecraft (monsters spawn in darker areas outside a radius depending on difficulty; shelter to survive the night). All block counts recomputed with node: 5x5 = 16x3 + 25 - 2 = 71; 4x4 = 36 + 16 = 52, 50 with doorway; 7x7 = 72 + 49 - 2 = 119; 119/71 = 1.68 ('about 1.7'), interior 25 vs 9 = 2.8x ('almost three times'). Changed: 'the genre's best-known example' -> Wikipedia's 'most successful example of a sandbox game'; takeaway claiming a backpack 'limits' carrying (not in catalog) rewritten; loop and inventory/backpack credited to the app's page/store screenshots; added the catalog's non-affiliation statement since Minecraft is the reference point. Lighting advice hedged to Minecraft with 'check your game'. Block World RPG Craft & Build claims match appfacts. Distinct from creative-vs-survival-mode (shares the 71-block hut example but different intent; check.mjs top 0.034).",
+      "contentHash": "sha256:c455ebcdab6e24a830dffcc032a2344a952c97b022277b5e647a6e5ce16ab748"
+    }
+  ]
+}

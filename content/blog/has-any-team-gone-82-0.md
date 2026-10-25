@@ -48,7 +48,9 @@
   "relatedArticles": [
     "understanding-sports-sim-probability",
     "basketball-draft-gm-guide",
-    "how-sports-simulation-engines-work"
+    "how-sports-simulation-engines-work",
+    "how-the-nba-offseason-works",
+    "pro-basketball-draft-gm-mode-partnership-opportunities"
   ],
   "takeaways": [
     "No NBA team has finished a regular season unbeaten; the best record is 73-9 and no team has started better than 24-0.",

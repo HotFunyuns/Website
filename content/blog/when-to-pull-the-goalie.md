@@ -46,7 +46,8 @@
     "hockey-goaltending-explained",
     "understanding-sports-sim-probability",
     "power-play-and-penalty-kill",
-    "hockey-draft-gm-guide"
+    "hockey-draft-gm-guide",
+    "hockey-career-sim-partnership-opportunities"
   ],
   "takeaways": [
     "Judge a goalie pull by points, not goals: a loss by three costs no more than a loss by one, while a tying goal can earn at least one point.",

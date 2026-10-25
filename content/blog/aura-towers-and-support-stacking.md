@@ -40,7 +40,9 @@
     "tower-types-and-what-they-counter",
     "tower-defense-strategy-basics",
     "countering-armoured-and-flying-enemies",
-    "power-ups-and-build-design"
+    "power-ups-and-build-design",
+    "hero-td-idle-tower-defense-guide",
+    "regal-tower-defense-partnership-opportunities"
   ],
   "takeaways": [
     "An aura tower contributes nothing by itself; its output is entirely the extra damage the towers around it produce, which makes it the most position-dependent purchase on the board.",

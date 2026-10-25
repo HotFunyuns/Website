@@ -46,7 +46,9 @@
     "how-to-track-protein-intake",
     "protein-sources-compared",
     "plant-vs-animal-protein",
-    "protein-per-meal-explained"
+    "protein-per-meal-explained",
+    "how-to-read-protein-powder-labels",
+    "move-apps-to-a-new-android-phone"
   ],
   "takeaways": [
     "Most people miss a protein target because breakfast and snacks contribute almost nothing, not because dinner was too small.",

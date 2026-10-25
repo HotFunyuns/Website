@@ -4,7 +4,7 @@ const roh = (title: string, page: string) => ({
   title: `Rules of Handicapping — ${title}`,
   publisher: 'USGA',
   url: `https://www.usga.org/handicapping/roh/Content/rules/${page}`,
-  accessed: '2026-10-02',
+  accessed: '2026-10-24',
 });
 
 const meta: ToolMeta = {
@@ -27,12 +27,11 @@ const meta: ToolMeta = {
     '{app} is our golf career game: you make the course-management decision on every shot and chase rankings across tour seasons, rather than timing a swing.',
   relatedArticles: [
     'how-par-is-determined',
-    'golf-handicap-for-beginners',
+    'match-play-scoring-explained',
     'golf-tournament-formats',
-    'golf-scoring-explained',
-    'golf-course-management-basics',
+    'golf-handicap-for-beginners',
   ],
-  relatedTools: ['handicap-index-calculator', 'pythagorean-expectation-calculator'],
+  relatedTools: ['handicap-index-calculator', 'stableford-calculator'],
   faqs: [
     {
       question: 'What is the difference between course handicap and playing handicap?',
@@ -40,9 +39,9 @@ const meta: ToolMeta = {
         'A course handicap is the number of strokes you receive from a particular set of tees. A playing handicap applies the handicap allowance for the format being played — 95% for individual stroke play and 100% for individual match play are the USGA’s recommendations — to the unrounded course handicap.',
     },
     {
-      question: 'What do Course Rating and Slope Rating mean?',
+      question: 'Which course handicap do I use for net double bogey?',
       answer:
-        'The Course Rating is the score a scratch golfer is expected to shoot from those tees. The Slope Rating reflects how much harder the course plays for a bogey golfer than for a scratch golfer, and 113 is the rating of a course of standard relative difficulty.',
+        'The rounded one. Rule 6.1a rounds the course handicap, with .5 rounded up, when it is used to apply the maximum hole score for handicap purposes or to deal with a hole that was not played. For a playing handicap, the unrounded value is kept until the allowance has been applied.',
     },
     {
       question: 'Why can my course handicap be higher than my Handicap Index?',
@@ -67,7 +66,7 @@ const meta: ToolMeta = {
     roh('Appendix G: The Golf Course, Course Rating and Slope Rating', 'Appendix%20G%20Golf%20Course%20CourseRatingSlopeRating.htm'),
   ],
   publishedAt: '2026-10-02',
-  updatedAt: '2026-10-02',
+  updatedAt: '2026-10-24',
 };
 
 export default meta;

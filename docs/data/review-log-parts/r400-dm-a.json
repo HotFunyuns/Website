@@ -1,0 +1,600 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person's review.",
+  "entries": [
+    {
+      "slug": "adjacency-matrix-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Recomputed A², A³ diagonal (2,2,2,0; trace 6 => 1 triangle), K4 trace(A³)=24, C4 A² with node. Definitions checked against MathWorld Adjacency Matrix (connection matrix, zero diagonal, symmetric) and Walk (closed k-walks = trace of A^k); ADS 9.2 checked for the three data structures and edge-list remark. Replaced unsourced road-map/social-network sparsity claims with ADS's own airport estimate (75×4,500/2 = 168,750 vs 4,500², recomputed); dropped ADS's ASCII example because its edge count (3,584) is an arithmetic slip in the source (128·28/2 = 1,792). Replaced non-catalog unit name 'unit 10, Relations, Orders and Graph Theory' with the catalog's graph theory unit.",
+      "contentHash": "sha256:398709db0b8ca49fed050b4dcdb3c7f681ba039aa8a64488f0f0bb57ebbf619c"
+    },
+    {
+      "slug": "big-o-notation-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Definition, n²+3n+4 < 2n² for n>10, 3n+4 is O(n²), 'misused to mean equal to' checked against NIST DADS; Sedgewick & Wayne 1.4 checked (few order-of-growth functions, brute-force 3-sum ~N³/2, faster N² log N method). Recomputed 8n² bound, log2(1000)≈9.97, 2^1000 has 302 digits. Fixed disproof (n = max(k, ⌈c⌉+1) so n is an integer). Replaced unsourced 'people usually mean Θ' and 'better algorithm usually beats faster computer' with NIST's quicksort-vs-supercomputer example; sourced Euclid step bound to MathWorld (Lamé) and added that source. Unit name changed to catalog wording.",
+      "contentHash": "sha256:249576bd4881c464d45b4955c6aff4ae2e87d2788cf283adf41b8998c5e6aa8d"
+    },
+    {
+      "slug": "binomial-distribution-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All probabilities recomputed (P(X=3)=0.2503, (0.75)^10=0.0563, P(X≥5)=0.0781, P(X≥6)=0.0197, free-throw 0.328/0.737, de Méré 0.518/0.491, C(10,5)/2^10=0.246, sd 1.369). OpenStax Intro Stats 4.3 checked for the three characteristics, μ=np, σ²=npq and Jacob Bernoulli late 1600s; MathWorld for the normal approximation. Cut unsourced 'most important distribution' superlative; removed a non-catalog claim that the app's probability unit covers expectation and variance.",
+      "contentHash": "sha256:1e61f1582c62770a44670110fddfa4127adf344983c92a2f374957da12f015c5"
+    },
+    {
+      "slug": "binomial-theorem-and-pascals-triangle",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Recomputed (2x−3)^4 coefficients, x^5 coefficient in (x+2)^8 = 448, C(12,6)=924, hockey-stick example, (1.01)^10. Levin 1.2 checked for Pascal's rule and C(12,6) via the triangle; MathWorld Pascal's Triangle for the Fibonacci shallow diagonals. Cut 'the step most often got wrong'; removed non-catalog claim that the app's unit covers pigeonhole and inclusion–exclusion.",
+      "contentHash": "sha256:3b8949d143c5c0dd7e25be908f20e6a425ad3413043cd866b5895e88054be7e6"
+    },
+    {
+      "slug": "bipartite-graphs-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked MathWorld (bipartite = two-colorable, acyclic graphs bipartite, even-cycle criterion), Levin 4.4 (K2,3 chromatic number 2) and 4.6 (Hall's theorem, Philip Hall 1935, 'avoid the obvious counterexamples' paraphrase). Verified the 6-vertex 2-colouring example and the Hall worker/job matching by hand; exercise answers checked. Cut an unsourced recommendation-systems bullet; unit name changed to catalog wording.",
+      "contentHash": "sha256:9d7e1aabfa191359435d36ccc3538af867b6f82370c5802e33610068a0bd59bb"
+    },
+    {
+      "slug": "birthday-problem-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Recomputed the whole table (10: 11.7%, 20: 41.1%, 23: 50.7%, 30: 70.6%, 40: 89.1%, 50: 97.0%, 57: 99.0%, 70: 99.9%), 253 for own-birthday, 253/365, 1.1774√365=22.5, √(2ln2·2^32)≈77,163. MathWorld checked for uniform model, 88/187 for 3/4 sharing, >6% September excess. Corrected a false claim that the e^(−n(n−1)/730) approximation matches the exact answer to two decimals (0.500 vs exact 0.493); removed the unsourced 'most people guess 180' and the 'only slightly' hedge in the FAQ (non-uniformity can only raise the probability); softened the hash-length causal claim.",
+      "contentHash": "sha256:931009d2e548ab10f6b6c79bfead1d77e720d8c3b5b5de2d5023fff9b4164315"
+    },
+    {
+      "slug": "boolean-algebra-and-logic-gates",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Majority-function sum of products and simplification verified over all 8 inputs; half-adder and NAND constructions checked. ADS 13.7 checked (Shannon, switching circuits, gates miniaturised, XOR/NAND/NOR notation, simplification example, Exercise 7 XOR); MathWorld Boolean Algebra (bounded distributive complemented lattice, Boolean algebra of sets). Rewrote opening to what ADS actually says instead of an unsourced 'every digital device' claim; cut 'De Morgan used most'; replaced the app's 'Statement Simplifier ... with the laws that justify it' (not in catalog) with catalog tools.",
+      "contentHash": "sha256:b1e95e862543587a99bfcc589c8906bae37cafd9b8216cce2f105d4009e85032"
+    },
+    {
+      "slug": "cartesian-product-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked ADS 1.3 (definition, A={1,2,3}, B={4,5} example and the reason for the × symbol) and Levin 0.3 (Cartesian plane as all ordered pairs of reals). Counting examples recomputed. Cut an unsourced SQL CROSS JOIN bullet and the 'most important use' superlative; fixed an FAQ example; replaced 'relations returning in unit 10' (not in catalog) with the catalog's sets, functions and countability unit.",
+      "contentHash": "sha256:2b9a7a2155b2a5939bbf35c04b81c13b93523d602b57d8dc062a0d675df2d8e6"
+    },
+    {
+      "slug": "catalan-numbers-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Recomputed C0..C10 and C20 = 6,564,120,420, the reflection count 70−56=14, the convolution for C4, the handshake and stack-sequence answers. MathWorld checked for Euler's polygon division problem, Segner 1761, ballot sequences, Dyck paths, binary bracketings and round-table handshakes; OEIS A000108 saved. Softened 'the best example'; unit references changed to catalog wording.",
+      "contentHash": "sha256:3ff8a9f8faf05a69f1e6962b71465e77d2df042b4d5ecd9bc63ebc3b6fdd2a6a"
+    },
+    {
+      "slug": "chinese-remainder-theorem-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified x≡23 (mod 105) construction table (inverses 2,1,1; 140+63+30=233), sieving, x≡11 (mod 12), exercises (17 mod 20, 88 mod 105, third has no solution). MathWorld CRT checked for the two-moduli statement and general formula; Levin 5.2 for the trial-and-error approach to small congruences. Corrected the RSA bullet and FAQ: the linked RSA article uses the CRT in the proof that decryption works, not as a speed-up (the unsourced optimisation claim was removed). Unit reference changed to catalog wording.",
+      "contentHash": "sha256:0030ff2c076243fea8d5c4b9c5c76be108fdaf477333d97c9b77ebb18a9b0b69"
+    },
+    {
+      "slug": "conditional-probability-and-bayes",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Recomputed P(T)=0.0293, P(F|T)=0.324, counts table, second test 0.958, aces 1/221, dice 1/6. OpenStax 7.9 checked for the opening dice example (3/36, then 1/6 after a 5); MathWorld Bayes for 'conditional probability in terms of its reverse and marginal probabilities'. Cut unsourced 'most common mistake' and 'which is why confirmation tests exist'; removed non-catalog unit contents (sample spaces, Bayes, expectation).",
+      "contentHash": "sha256:30822e0018cd74192a79358ea2461223af8e3db22f601c06caaa3444ecb3c4af"
+    },
+    {
+      "slug": "converse-inverse-contrapositive",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Truth table checked; OpenStax 2.5 checked for the equivalences (contrapositive ≡ conditional, converse ≡ inverse). Softened 'most common mistakes' and 'trips people up'; corrected the FAQ's loose 'negation of and is or' to the De Morgan form; rewrote the app tool description to the catalog's 'converse-inverse-contrapositive helper' (the 'shows which are equivalent' feature is not in the catalog).",
+      "contentHash": "sha256:4ba2dd4354a07a834595e2d75f9bf8b567e97a01590b46af0867c419b262abf2"
+    },
+    {
+      "slug": "countable-vs-uncountable-sets",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked ADS 7.2 (countable definition, ℙ×ℙ as a seemingly larger countable set, Cantor's listing 0,1,1/2,2,3,1/3,1/4,2/3,3/2,4 then negatives) and MathWorld (countable = finite or denumerable; diagonal method completely general, power set). Verified the integer enumeration formula and the diagonal construction digits. Cut 'final topic of most courses'; replaced unsourced 'most functions' / halting-problem claim with the cardinality argument itself; unit wording per catalog.",
+      "contentHash": "sha256:9029508390528eca6786da438c9c527deb61ea8e16601fbf7c0e9b75e8a339be"
+    },
+    {
+      "slug": "de-morgans-laws-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Fixed an error: the summary table paired ¬(p∧q) ≡ ¬p∨¬q with (A∪B)ᶜ = Aᶜ∩Bᶜ; the set column now matches the logic column. Set example recomputed. OpenStax 2.6 checked (De Morgan and Boole as a bridge to computers) and MathWorld (Boolean algebra generality, Venn description). Softened unsourced claims ('constantly', 'nobody thinks', 'standard first exercise', 'most languages'); removed non-catalog app feature ('checker shows the row where two statements differ').",
+      "contentHash": "sha256:d77a641ad0ad85fa595ec64a1a818f0b8147d5e21b9ca0a39d427fb3beded8aa"
+    },
+    {
+      "slug": "derangements-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Recomputed D0..D8, probabilities for n=2..10, 720/e, the D5 inclusion–exclusion and recurrence checks, exactly-k and at-least-one variants. MathWorld checked: Montmort formulated it 1708 and solved 1713 (text now says so precisely), Nicholas Bernoulli's inclusion–exclusion solution, close to 1/e for as few as four, 'rencontres numbers' named after rencontres solitaire. Replaced an unsourced description of the rencontres card game with MathWorld's wording; Levin's five-professor nameplate example confirmed; unit wording per catalog.",
+      "contentHash": "sha256:9582d4d6a9e82399e5e39c4c98a3d7bd2767033b8695eaf3555c8dacb4dca522"
+    },
+    {
+      "slug": "dijkstras-algorithm-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Re-ran Dijkstra in node on the worked graph (S:0 A:3 B:2 C:8 D:10 T:12), the exercise from A (B1 S3 C5 D7 T9) and with the extra S–T edge; checked the negative-edge and MST-vs-SPT triangles. Sedgewick & Wayne 4.4 checked (nonnegative weights, E log V worst case, Bellman–Ford); MathWorld (shortest-path tree). Removed unsourced 'navigation apps/routers' framing and a claim that ADS treats shortest paths (its optimisation section covers TSP, flows, MST); unit wording per catalog.",
+      "contentHash": "sha256:05e3a3d3e8d1fc30fc40630acee9cc6a1e03245b0521cf32b0951cc483d8aa8b"
+    },
+    {
+      "slug": "discrete-math-cheat-sheet",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Formulas checked against the other sources in this cluster (ADS logic/set laws, Levin P(n,k)=C(n,k)·k!). Fixed the Euler path/circuit line to require connectedness; softened 'cover most problems' and 'best way to revise'. Corrected the app paragraph, which claimed the app 'follows the same ten-unit order as this page' (it does not: the page puts probability before number theory) and 'quizzes by unit' (not in catalog).",
+      "contentHash": "sha256:05c3dd6e612eb63b9148155d259163071f413bbc5643b40701db0383ed997ae6"
+    },
+    {
+      "slug": "discrete-math-study-quiz-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Substantial correction. The body described app details taken from store screenshots that are not in the catalog (capitalised unit names such as 'Relations, Orders and Graph Theory', unit-card descriptions, Learn/Practice/Tools/Progress tabs, 'generated and validated questions, no repeats', cumulative/format-specific quizzes, Prerequisite Foundations, tool behaviours, Pomodoro, 12-week grid, level). Rewrote those sections strictly from the catalog (ten units in catalog wording, catalog practice modes, catalog tool list, progress screen per catalog). Also fixed a false source claim: Levin's book does NOT put logic before induction (its order is counting, sequences incl. induction, then logic and proofs) and a misattribution to the interleaving guide (which says interleaving is not spacing). Removed 'most students find' and other unsourced generalisations. Free/ads/no IAP and IQ Test & Brain Training Games name match the catalog.",
+      "contentHash": "sha256:95a5ad9bc31e398b7072b95c605491075f4a325b8f81d918b4a96c81514b784a"
+    },
+    {
+      "slug": "equivalence-relations-and-classes",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked ADS 6.3 (equality the classic example, behave like equality, equivalent fractions, Theorem 6.3.14 partition with all three properties used) and MathWorld. Verified mod-3 classes, the 14-pair count, the 5 and 15 partition counts (enumerated 1+4+3+6+1). Removed an unsourced programming/hash-table bullet, the unsourced 'Bell numbers' naming and an 'everyday relations often fail' generalisation; replaced 'unit 10, Relations, Orders and Graph Theory' (not in catalog).",
+      "contentHash": "sha256:9d01a2417c295472801601b988329bd6ff1733f03b1d41d0e6387b6a3c9d3f6f"
+    },
+    {
+      "slug": "euclidean-algorithm-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Recomputed gcd(1071,462)=21, gcd(252,198)=18, lcm 2,772, Bézout 7·462−3·1071=21, Fibonacci 89/55 nine divisions, gcd(391,299)=23. ADS 11.4 checked (quote about Euclid's time, Bézout's lemma Theorem 11.4.10); MathWorld (Book VII, Lamé's five-times-digits bound, Fibonacci worst case). Cut 'still the method computers use', 'quickest way', 'sizes used in cryptography' and 'most important use'; unit wording per catalog.",
+      "contentHash": "sha256:cc17c7b2cde9ae0622a1ec63f320d3bf210b8f32ef0242cd6b9748dca15cf914"
+    },
+    {
+      "slug": "euler-path-vs-euler-circuit",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified the envelope path (A–B–C–D–E–C–A–D–B uses all 8 edges once), Königsberg degrees 5,3,3,3, K5/K4 exercise and the two-bridge answer. ADS 9.4 checked (legend, Eulerian-definition warning, general theorem); Levin 4.5 (odd vertices must be the ends; bridge-builder exercise: one bridge for a path, two for a circuit). Replaced an unsourced snowplough example with OpenStax's delivery-route/Chinese postman framing and added OpenStax 12.6 (Fleury's algorithm) as a source; cut 'the method computers use'; unit wording per catalog.",
+      "contentHash": "sha256:e44b442b7fbd8cb30c1e84e39f37aa27786d0cdef70cadad783312e8471ff3a3"
+    },
+    {
+      "slug": "expected-value-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Recomputed −1/6, 10·0.9^10 = 3.49, 253/365, coupon collector 14.7, fixed-point expectation 1. OpenStax 7.11 checked for the 3.5 die example; MathWorld Expectation Value for linearity. Replaced an unverifiable attribution to MIT 6.042J notes with MathWorld's 'expectation is a linear operator'; softened 'single most useful' and 'usual way'; removed non-catalog unit contents.",
+      "contentHash": "sha256:01d86d671a449470ceb8e1afe16cc550d3b2800c5a51a5eb82cdf56f09b22ec2"
+    },
+    {
+      "slug": "fermats-little-theorem-and-rsa",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Recomputed every modular power in node: 2^10≡1 (11), powers of 3 mod 7, 3^100≡4 (7), 2^2026≡10 (13), 2^340≡1 and 3^340≡56 (341), 561 passing several bases, 7^3≡13 and 13^27≡7 (55), 5^200≡1 (11), 7^6≡12 (13). MathWorld checked (Carmichael numbers, smallest 561; RSA uses factorisation as trapdoor, cracking needs factoring n, p−1/q−1 with large prime factors). Replaced unsourced claims about real key sizes and 'practical primality tests' with what MathWorld says; retitled the security paragraph; unit wording per catalog.",
+      "contentHash": "sha256:88545e879b0b4d1274d12b240d476453e8069423e5e3aa4da312167cc1cfcf89"
+    },
+    {
+      "slug": "finite-state-machines-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Traced every example (parity, divisible-by-3 incl. 110 and 101, ends-in-01). ADS 14.3 checked (vending machine dispensing gum, parity checker, binary adder, output alphabet); MathWorld (DFA components, NFAs recognise the same regular languages); MIT 6.042J course description (state machines listed among discrete structures). Removed unsourced claims about compilers/text search, 'simplest model of computation', regular expressions and 'which is why languages are parsed with more powerful models'; replaced 'most languages' with the precise cardinality statement; app wording per catalog.",
+      "contentHash": "sha256:7c9246772917d9409d2e3981e1a5ac2463d0697c9fb56f1091e25d298433db9f"
+    },
+    {
+      "slug": "function-composition-and-inverses",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified the composition table, f(n)=n+1/g(n)=2n example, 5x−3 inverse, x↦3x mod 7 inverse x↦5x. ADS 7.3 checked: composition theorems are stated with proofs left as exercises (text said 'proves', corrected), inverse example f(1)=2,f(2)=3,f(3)=1. MathWorld bijection definition. Renamed a generic 'Common errors' heading; cut 'most common mistake'; unit wording per catalog.",
+      "contentHash": "sha256:edc2753facd856309fd2d356f2131694edf3f5776d1a5174604d22ce88f30987"
+    },
+    {
+      "slug": "fundamental-theorem-of-arithmetic",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Recomputed 360 divisors (24), gcd/lcm of 360 and 84 (12, 2,520), Hilbert-style 441 = 9×49 = 21×21, 1,001 and 1,024, gcd(756,1080)=108. MathWorld checked (statement, unique factorization theorem, corollary of Euclid's first theorem); ADS 3.7 (existence of prime factorizations via course-of-values/strong induction); OpenStax 3.1 (statement, factor trees). Minor softening ('usual proof'); unit wording per catalog.",
+      "contentHash": "sha256:44f4075788782899c83254c6f7569686861996fee2906b8c9d9feaed894aa150"
+    },
+    {
+      "slug": "generating-functions-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Recomputed the coin-change count (10) and exercise 3 (18) by enumeration; Hanoi partial fractions checked. Levin 5.1 headings checked; MathWorld 'formal power series'. Softened the convergence takeaway to match MathWorld; replaced non-catalog description of the recurrences unit.",
+      "contentHash": "sha256:d13bbe016706c3f3c710c2b264ddf924d9a1e90fd9fd54bcedd5a5bbb31379cf"
+    },
+    {
+      "slug": "graph-coloring-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified the exam timetable colouring edge by edge, wheel exercises, C(6,2)=15 > 10 hint. Levin 4.4 checked (K6, K2,3, 'best known theorem', 633 reducible configurations); MathWorld (clique-number bound, Brooks' theorem); ADS 9.6 (five-colour theorem and degree-5 lemma, now cited correctly instead of 'common exercise'). Removed an unsourced claim that 3-colourability has no known efficient algorithm and the 'scheduling software heuristics' claim; rewrote that section; softened 'for most graphs' in a takeaway; unit wording per catalog.",
+      "contentHash": "sha256:5a1bd19f78ac5cec78ce88f35dbdafe118863b7c41f1faab8406a56d7d48cdf2"
+    },
+    {
+      "slug": "graph-isomorphism-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified the C4 bijection, both exercise answers (path mapping 4-2-5-3-1; K3,3 vs prism), 10! = 3,628,800, 4 graphs on 3 vertices. MathWorld checked (definition, no known P algorithm, not shown NP-complete, 'graph isomorphism complete'); OpenStax 12.3 (informal definition, check obvious differences first); Levin 4.1. Cut 'every course tests' and unsourced 'software handles large graphs well'; unit wording per catalog.",
+      "contentHash": "sha256:47cf1f9178e1dbf2e2c45d708244a8210fce11a298ff4b37940603556d690d2e"
+    },
+    {
+      "slug": "graph-theory-basics",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Degree sums and exercise answers checked (degree sequences 3,2,2,2,1 construction; 3,3,3,1 impossible). ADS 9.1 checked (simple undirected graph definition, directed graphs first, multigraph definition); Levin 4.1 (handshake lemma wording); MathWorld Handshaking Lemma (name from people and handshakes; odd-degree count even). Cut 'large part of most courses' and softened 'most of a first course'; unit wording per catalog.",
+      "contentHash": "sha256:4cd18d12991ae16071dc3653dea0d289e9ccc2d3027c413eb8c0dd22099a722a"
+    },
+    {
+      "slug": "hamiltonian-path-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Recomputed (n−1)!/2 for n=4,10,20; checked the 3-bit Gray code. ADS 9.4 checked (no simple characterisation, four-vertex connected non-Hamiltonian graph, widely held belief no faster algorithm, a-d conversion Gray code); MathWorld (NP-complete, Petersen among exactly five known connected non-Hamiltonian vertex-transitive graphs; Dirac 1952; Ore). Replaced 'one of the hardest problems in computer science' and 'most famous' superlatives, an unverified claim that MathWorld lists both theorems on the Hamiltonian Cycle page, and an exponential-time claim; added MathWorld Ore's Theorem and OpenStax 12.9 (brute force and nearest neighbour for TSP) as sources; unit wording per catalog.",
+      "contentHash": "sha256:c85a256f168a370449b690b9513460e9664d9d63443d8404e31cbacb13c3e6e5"
+    },
+    {
+      "slug": "how-to-make-a-truth-table",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All tables re-derived. OpenStax 2.2 checked for the dominance of connectives (and/or equal, left to right; conditional; biconditional) and added as a source; OpenStax 2.3/2.4 for row order and the conditional; ADS 3.2 for 1/0 notation (it lists rows in the opposite, binary-counting order, now noted for readers). Removed unsourced 'many computer science texts', 'most textbooks agree', 'most common source of a wrong column' and 'usually first proved'; tool description changed to the catalog's truth-table generator.",
+      "contentHash": "sha256:0cc8994d778dfc13e360523f2dbe7d82aa7d63854d6fd44e0a95deae85120d02"
+    },
+    {
+      "slug": "how-to-study-for-a-discrete-math-exam",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-24",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Fetched the Dunlosky et al. 2013 abstract (PMID 26173288) since the saved page was a cookie wall: confirmed 10 techniques, high utility for practice testing and distributed practice, moderate for elaborative interrogation, self-explanation and interleaving, low for rereading. Aligned wording ('rated low utility' rather than 'does little'; 'rather than' instead of 'beat'); rewrote the unsourced takeaway that 'most marks are lost' to definitions; checked Levin 3.2's proof subsections. App paragraph rewritten to catalog terms (topic quizzes, review of missed questions, custom homework mode, progress screen).",
+      "contentHash": "sha256:3ed837385ab4f492fc0a858c31e149aeece24b8874b688fbcd73971392e38f75"
+    }
+  ]
+}

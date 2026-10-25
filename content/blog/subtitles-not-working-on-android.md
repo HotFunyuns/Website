@@ -41,7 +41,8 @@
     "android-video-players-compared",
     "how-to-play-mkv-files-on-android",
     "video-file-formats-explained",
-    "frame-rate-and-resolution-explained"
+    "frame-rate-and-resolution-explained",
+    "audio-out-of-sync-on-android"
   ],
   "takeaways": [
     "Step zero is checking whether your player advertises subtitle support at all, because a missing feature looks exactly like a broken file.",

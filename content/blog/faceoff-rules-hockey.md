@@ -45,7 +45,9 @@
     "hockey-positions-explained",
     "plus-minus-and-hockey-stats",
     "hockey-career-archetypes-explained",
-    "hockey-draft-gm-guide"
+    "hockey-draft-gm-guide",
+    "hockey-career-pro-league-partnership-opportunities",
+    "hockey-career-sim-partnership-opportunities"
   ],
   "takeaways": [
     "Remember the stick order: at the eight spots away from centre ice the defending player puts his stick down first; at centre ice the visiting player does.",

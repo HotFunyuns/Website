@@ -53,7 +53,8 @@
   "relatedArticles": [
     "how-to-track-protein-intake",
     "net-carbs-explained-keto-tracking",
-    "low-carb-tracking-apps-compared"
+    "low-carb-tracking-apps-compared",
+    "protein-diet-tracker-partnership-opportunities"
   ],
   "takeaways": [
     "The decision is not really about protein — every tracker adds grams the same way. It is about how food gets into the app, and whether that path suits what you actually eat.",

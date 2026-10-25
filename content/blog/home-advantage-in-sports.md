@@ -37,7 +37,8 @@
     "understanding-sports-sim-probability",
     "how-soccer-league-tables-work",
     "how-sports-simulation-engines-work",
-    "how-rugby-scoring-works"
+    "how-rugby-scoring-works",
+    "soccer-draft-gm-xi-partnership-opportunities"
   ],
   "takeaways": [
     "Expect a home edge in any team sport, but judge a team's home record against the league's own home share rather than against 50%.",

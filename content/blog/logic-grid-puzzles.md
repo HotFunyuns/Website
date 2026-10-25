@@ -54,7 +54,8 @@
   "relatedArticles": [
     "mental-math-tricks-that-work",
     "working-memory-and-training",
-    "estimation-techniques-explained"
+    "estimation-techniques-explained",
+    "knights-and-knaves-puzzles"
   ],
   "takeaways": [
     "A logic grid puzzle is a constraint satisfaction problem: a set of variables, a domain of possible values for each, and clues that rule combinations out until exactly one arrangement survives.",

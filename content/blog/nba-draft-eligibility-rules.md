@@ -48,7 +48,8 @@
     "how-football-draft-order-works",
     "how-draft-lotteries-work",
     "basketball-career-sim-guide",
-    "basketball-draft-gm-guide"
+    "basketball-draft-gm-guide",
+    "pro-basketball-my-career-sim-partnership-opportunities"
   ],
   "takeaways": [
     "Check two things for any prospect: is he at least 19 during the calendar year of the draft, and, if not an international player, has a full NBA season passed since his high-school class graduated?",

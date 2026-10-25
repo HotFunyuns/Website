@@ -7,7 +7,7 @@ import {
   sports,
   type SportInfo,
 } from '@/data/sports';
-import { posts, type BlogPost } from '@/lib/blog';
+import { guidePosts, posts, type BlogPost } from '@/lib/blog';
 import { tools, toolsForSport, toolsIndexCopy, type ToolMeta } from '@/tools/registry';
 
 /**
@@ -19,7 +19,9 @@ import { tools, toolsForSport, toolsIndexCopy, type ToolMeta } from '@/tools/reg
  *   related  — about this sport, but led by another sport's app
  *
  * Every rule reads existing frontmatter only. Unpublished articles cannot
- * appear: every candidate comes from `posts`.
+ * appear: every candidate comes from `guidePosts`, the published guides. A
+ * partnership overview is written for businesses and lives in /partnerships/,
+ * so it never appears on a sport hub even when its tags name the sport.
  */
 export interface SportPosts {
   own: BlogPost[];
@@ -31,7 +33,7 @@ export function getSportPosts(sport: SportInfo): SportPosts {
   const own: BlogPost[] = [];
   const general: BlogPost[] = [];
   const related: BlogPost[] = [];
-  for (const post of posts) {
+  for (const post of guidePosts) {
     const primarySport = getSportForApp(post.relatedApps[0] ?? '');
     if (primarySport?.id === sport.id) {
       (isAboutSport(post, sport) ? own : general).push(post);
@@ -47,7 +49,7 @@ export function getSportPosts(sport: SportInfo): SportPosts {
 
 /** Sports guides that apply to every sport — listed on the /sports/ index. */
 export function getCrossSportPosts(): BlogPost[] {
-  return posts.filter((post) => getSportForApp(post.relatedApps[0] ?? '') && !getSportForPost(post));
+  return guidePosts.filter((post) => getSportForApp(post.relatedApps[0] ?? '') && !getSportForPost(post));
 }
 
 /* ---------------------------------------------------------------- grouping */

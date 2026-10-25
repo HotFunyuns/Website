@@ -1,0 +1,402 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person's review.",
+  "entries": [
+    {
+      "slug": "causes-of-the-american-revolution",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Office of the Historian (parliamentary taxation milestone, saved text), National Archives Declaration transcript and Wikipedia American Revolution (wikitext re-fetched): Seven Years' War debts; GBP 133m debt, 5m of an 8m budget, 360,000 a year; Royal Proclamation of 1763 and its effects; Sugar Act 6d to 3d; Currency Act 1764; Stamp Act as first direct tax incl. playing cards; Virginia resolutions, stamp distributor's house, 9 colonies Oct 1765, 'a common cause to unite the 13 colonies'; taxes actually low; Grenville 1 vs 26 shillings; virtual representation and Otis; repeal 21 Feb 1766, Declaratory Act 'in all cases whatsoever'; Townshend duties and internal/external theory; troops 1768; Boston Massacre 5 March 1770, 11 hit, 5 died, Adams; tea duty retained 1770; Tea Party 16 Dec 1773; four Intolerable Acts; Gage removed; boycott from 1 Dec; Lexington 19 Apr 1775; Declaration grievance wording. Changed: dropped attribution of the debt figures to Middlekauff (Wikipedia cites him for an adjacent quote); vice-admiralty wording now matches source (Crown-appointed judges rather than local juries); cut the enslaved-population 'skewed comparison' claim (Wikipedia flags it citation needed) in body and FAQ and noted the 1-shilling figure excludes local taxes; replaced unsourced 'Twelve colonies' with the OOH wording (colonial legislatures sent representatives); softened molasses table row from 'close to nothing' to lax enforcement per OOH. Arithmetic (50% cut, 12 years) rechecked. Distinct intent: no other American Revolution article. check.mjs clean (top 0.015), preflight clean.",
+      "contentHash": "sha256:eb3c0bd0e240962e1fc4f2eb429a3ee6ec2cd4580cce3f537df57acc34095830"
+    },
+    {
+      "slug": "causes-of-the-american-civil-war",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Wikipedia Origins of the American Civil War (saved text) and Yale Avalon South Carolina declaration (adopted December 24, 1860; all three quotations verbatim): 'overwhelmingly agree', 2011 panel quote, proslavery and antislavery features, 11/11 states in 1819, 36 30 line, fire bell, Compromise of 1850, Kansas-Nebraska 'all questions pertaining to slavery', firestorm, Republican Party 1854, Lecompton vote fraud, Dred Scott quote, Harpers Ferry and hanging by Virginia, martyr, Yancey $2.8bn, 1860 electoral table 180/72/39/12 with 40/18/13/30%, ten Southern ballots, Mississippi quote, six cotton states by February, Lipset 72/60/37%, states'-rights consensus, McPherson, Lost Cause negationist, Randall 'blundering generation', Shelden 4 million, Fort Sumter 12 April 1861, 75,000 militia, four states seceding. Arithmetic: 303 total, majority 152, 59.4%. Changed: 'legal across much of the country' replaced by Wikipedia wording (prevalent from 1776 to 1865, predominantly in the South); unsourced 'reignited Northern anger' replaced by an attributed Foner quote (14 words); Dred Scott wording aligned with source; electoral inference now attributed to Wikipedia (South had fewer electoral votes). Distinct intent; no other Civil War article. check clean (top 0.011), preflight clean.",
+      "contentHash": "sha256:d02c29ac903d9ed9ad5e3d858b3abe279aa0a050246962be80f19c138f856aa7"
+    },
+    {
+      "slug": "napoleon-rise-and-fall",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Fondation Napoleon timeline (saved text) and Wikipedia Napoleon: birth 15 Aug 1769 Ajaccio, Italian origin, 1779, 1785, Toulon 1793, 13 Vendemiaire 1795, national hero, springboard; Brumaire 9 Nov 1799 details and Directory quote verbatim; constitution 13 Dec 1799 powers; Consulate institutions surviving today; Marengo 1800, Louisiana 1803; slavery abolished Feb 1794, reintroduced May 1802; Empire 18 May 1804, coronation 2 Dec 1804 with over 12,000; Austerlitz/HRE, Jena-Auerstedt, Friedland, Wagram; titles incl. King of Italy 1805; Spain 1808; 1812 force 480,000 + 120,000 (Fondation) vs ~450,000 (Wikipedia) disagreement stated, 75,000 remnant, Russian losses up to 300,000, total up to one million; Leipzig nearly 200,000 vs 300,000+; 31 Mar, 2 Apr, 6 Apr 1814; 1 Mar and 20 Mar 1815, 124,000 vs 130,000 disagreement stated, 5th Regiment joining him, 18 Jun, 22 Jun, 14 Jul, 17 Oct 1815; death 5 May 1821; autopsies, arsenic, 2021 study. Arithmetic 16.7% and 15.6% rechecked. Changed: slavery reintroduction now notes the Saint-Domingue/Guadeloupe exception; arsenic hair samples corrected from 'relatives' to 'his son and Josephine' (body and FAQ). Distinct from french-revolution-causes-and-phases. check clean (top 0.012), preflight clean.",
+      "contentHash": "sha256:58a4583b15235e01766c578394c351ecfe6b5b50df65bbb10c923ccbb6745498"
+    },
+    {
+      "slug": "unification-of-italy",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Office of the Historian Italy page (1861 House of Savoy; Venetia and Papal States by 1871; prior relations with Sardinia, Two Sicilies and Papal States; consulates at seaports) and Wikipedia Unification of Italy (saved text plus re-fetched wikitext): Napoleonic legacy; Mazzini prison, 1831, Young Italy; Garibaldi 1834 death sentence and fourteen years in South America; Custoza 24 July 1848; Roman Republic 9 Feb 1849 and French restoration; lessons list (France paid, pope an enemy, republicanism too weak); Cavour PM 1852; Crimean War 1855; 140,000 vs 70,000; Magenta 4 June; Villafranca 12 July; annexations 22 March and Treaty of Turin 24 March 1860; a quarter of Nicard Italians; 6 May, Marsala, Calatafimi 13 May, 4,000, dictator; Naples by train 7 Sept; excommunication threat; settlement rested with Napoleon III; objective Naples not Rome; Teano; 17 March 1861; Cavour died June 1861; Custoza 24 June and Lissa 20 July 1866; 19 Oct; referendum 21-22 Oct with 69 of 642,000+ and the military-pressure caveat (0.011% rechecked); August 1870 garrison recall; Porta Pia 20 Sept with 49 soldiers + 4 officers and 19 papal troops dead; 2 Oct plebiscite; July 1871 capital; prisoner in the Vatican; 1918/Rapallo 1920 endpoint debate; Clark quote; savage insurrections. No changes needed. Distinct intent; no other Italian-unification article. check clean (top 0.015), preflight clean.",
+      "contentHash": "sha256:6738ef0b12686019e7848ea820a5f00c2ba1f7192fe8a9c7cc3f89bdb0271f00"
+    },
+    {
+      "slug": "unification-of-germany",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Office of the Historian Germany and North German Confederation pages (300+ states; 21 states plus Prussia; the five states outside; made obsolete in 1871; US recognition 1871) and Wikipedia Unification of Germany (saved text): 18 Aug 1866 treaty; dualism and Klein-/Grossdeutsch; 1806 dissolution; Zollverein 1818 and Rhineland/Saar/Ruhr; 27 March 1849 constitution and crown of clay; kleindeutsch solution; Bismarck 1862; 30 Sept 1862 speech quote verbatim; misreading caveat; Roon/Moltke; needle gun five shots prone; Peace of Vienna 30 Oct 1864; Koniggratz and Peace of Prague; constitution 1 July 1867; southern alliance treaties; Hohenzollern-Sigmaringen 1870; ambassador at Ems; Havas; Sedan 1 Sept 1870; the four 1871 dates; Alsace and German-speaking Lorraine; master-plan debate and post-1945 opportunism; Napoleonic Wars memory. 129 days (1 Jan-10 May 1871) recomputed. Changed: app sentence aligned to catalog wording (Time Travel Mode consequences are simulations; companion to coursework, not a replacement). Distinct from what-started-the-first-world-war, which it links. check clean (top 0.015), preflight clean.",
+      "contentHash": "sha256:e3d4911f47b1936594e6d395ae772ebbba41beeae001d1690a0a32112ed5a841"
+    },
+    {
+      "slug": "world-war-1-timeline",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia World War I text, National Archives Zimmermann Telegram page and Office of the Historian: 15-22 million deaths (range kept); 28 July, 1 August (ultimatum expiry), 2-3 August Luxembourg/France, 4 August and midnight British ultimatum; Marne, Race to the Sea, Channel-to-Switzerland trench line; Ottoman entry November 1914; Treaty of London April 1915 and Italy 23 May; chlorine at Second Ypres; Lusitania; Verdun 700,000-975,000; Somme 57,500/19,200, 420,000/200,000/500,000; Jutland; Zimmermann January / 24 Feb / 1 March, quote verbatim; 2, 4, 6 April 1917; <300,000, 667,000, 2 million; armistice December 1917, Brest-Litovsk 3 March 1918; Michael 21 March, 60 km; 15 July, 8 August; Max of Baden 3 October; Wilhelmshaven/Kiel; 9 November; Versailles 28 June 1919, Knox-Porter 2 July 1921; four dynasties. Arithmetic rechecked (1,567 days; 33%; 38,300). Changed: takeaway now says Germany and Russia were at war from 1 August (source dates the ultimatum expiry, not a declaration); Russia 'then' mobilised (source sequence); FAQ's unsupported claim that memorials give 1919 because of Knox-Porter replaced with Wikipedia's stated reason (treaty signing, troops returning). Distinct from what-started-the-first-world-war (sequence, links out for causes). App text matches catalog. check.mjs clean (top 0.012), preflight clean.",
+      "contentHash": "sha256:f9d65db786ce3d271678d1a7683ab3924134339dd8ece51d1102497f3b15d232"
+    },
+    {
+      "slug": "the-1918-influenza-pandemic",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against the archived CDC 1918 Pandemic page and saved Wikipedia Spanish flu text: H1N1 avian genes, 500 million infected, at least 50 million / 675,000 US; Haskell County March 1918, indeterminate origin; censorship/neutral Spain; Times quote 'Everybody thinks of it as the Spanish influenza' (late June, 3 weeks after 2 June); 75,000 v 63,000; second half of August, October peak, 292,000 v 26,000; Boston Navy Yard/Camp Devens; Philadelphia 4,597; 99% under 65; 1889-90 partial protection; 'has been contested'; estimate table 1927/1991/2005/2018; 1.8-1.9 billion, 1-6%; India 12-17 million and 1917 caveat; Russia 450,000 'shot in the dark' v 2.7 million; US 500,000-850,000 v CDC 675,000 (disagreement stated); Samoa 22% of 38,000, Tahiti 13%; non-pharmaceutical measures quote. Arithmetic rechecked (0.9%, 5.6%, 2.8%, 8,360). Changed: added John M. Barry's 2021 'well above 100 million' estimate that Wikipedia gives, so the heading, description, takeaway and table no longer cap the range at 100 million; CDC age wording aligned ('65 and older', high mortality 'in healthy people, including' 20-40, not 'died in large numbers'). History framing only, with an explicit not-medical-guidance line; no advice. App text matches catalog (disease pressure in Civilization Survival Mode; companion to coursework). check.mjs clean (top 0.014), preflight clean.",
+      "contentHash": "sha256:145211031f1a074f0ddde35f018c6979deb771dbf1c8207f00178a57eda550f9"
+    },
+    {
+      "slug": "the-mexican-revolution-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Library of Congress exhibition pages (overview, timeline, Constitution of 1917) and Wikipedia Mexican Revolution: 20 Nov 1910-1 Dec 1920, 'defining event' quote, around one million dead mostly non-combatants; Díaz 1876-80/1884-1911 (31 years rechecked); Creelman 1908; Madero jailed, San Antonio, Plan of San Luis Potosí; Ciudad Juárez May 1911 and treaty 21 May; Madero in office November 1911, Plan of Ayala November 1911; Katz quote; Félix Díaz and Henry Lane Wilson; February 1913 coup and killings; Carranza First Chief, Obregón; Veracruz April 1914; Aguascalientes; Celaya April 1915; US recognition October 1915; Columbus 8 soldiers + 10 civilians; Querétaro delegates (half degrees, 30% fought); 5 February 1917; articles 3, 27 (100 km/50 km), 123; Agua Prieta; 1920-1940, PRI to 2000, 'not well defined'. Changed: Huerta's resignation now gives both dates — Wikipedia mid-July 1914 v LoC timeline 15 June 1914 — and says they disagree; the end-date section and takeaway now note the LoC contradicts itself (overview 'lasting until 1917', constitution page 'culmination', timeline 'The Revolution is over' on 30 Nov 1920) v Wikipedia/Matute 1 Dec 1920; added the LoC timeline page as its own source and retitled the overview source to its real title. App text matches catalog. check.mjs clean (top 0.013), preflight clean.",
+      "contentHash": "sha256:6b9503102ba4f8757def0783a529de8fcde07e6a73dec2427b664aa70cdd6c8a"
+    },
+    {
+      "slug": "the-great-depression-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Federal Reserve History essay and Wikipedia Great Depression: 'longest and deepest downturn' quote, August 1929 start, 1941 end, sequence of crises, March 1933 bottom and banking holiday, 1928-29 and fall 1931 rate rises via the gold standard, lender-of-last-resort failure, 'nearly 30 percent' money supply quote and equivalent price fall, real bills/liquidationist and Mellon, Bernanke 2002 quote, 'well intentioned' / 'too little and too late', reform acts, 1937 double dip; Wikipedia 15%/30%/>50%, Black Thursday 11%, Monday 12%, Tuesday 11%, 85% to 8 July 1932, Bank of United States, 608 banks/$550m, 25% / one-third farmers / 9,000 of 25,000, Smoot-Hawley 17 June 1930 and consensus with disagreement on extent, Creditanstalt May 1931, crop prices up to 60%, Congo peanuts 125 to 25 centimes, no consensus on recovery, ~15% in 1940, 1929-1939 end date (disagreement with FRH 1941 stated). Arithmetic rechecked (567%, 36%). Changed: removed invented gloss 'speculation, loose lending and falling spending' on the non-monetary camp; cut unsourced 'unusually for an institution'; German unemployment note corrected (the Germany section gives both 25% and nearly 30% in 1932, not just 25%); FAQ no longer credits Smoot-Hawley alone with the >50% trade fall. App text matches catalog (trade collapse pressure; alongside coursework). check.mjs clean (top 0.014), preflight clean.",
+      "contentHash": "sha256:d4d3cc1dad578fd659c87686db765219c1e148997ef5eee5b173d4bf21c336be"
+    },
+    {
+      "slug": "causes-of-world-war-2",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia (Causes of World War II) and Avalon Project texts: Versailles 12% land/population and 'strong currents of revanchism' verbatim; 'neither lenient enough' criticism; Articles 231/232 quotations verbatim from Avalon; Depression 'lost faith in liberal democracy'; Nazi ideology list incl. 'subhumans'; timeline rows (Mukden 1931, Ethiopia annexed May 1936, Rhineland 7 March 1936 with no French/British action, Spain 1936-39 with German/Italian and Soviet sides, Marco Polo Bridge 1937, Anschluss 1938); 'proved helpless' quote; Sudetenland >3 million Germans; Munich 29 Sept 1938 evacuation 1-10 October and zones I-IV dates checked line by line in the Avalon text; March 1939 Prague and end of appeasement; Hitler 23 May 1939 quote verbatim; non-aggression clause and 'ten years' verbatim from Avalon; secret protocol countries; 17 September; Mason-Overy debate, 'flight into war', 'always bent' quote verbatim, Overy's 'choices made by the Nazi leadership'. Arithmetic (9 days, <2 years) rechecked. App sentence matches catalog (simulation, companion to coursework). Distinct from second-world-war-death-toll-range (casualties) and what-started-the-first-world-war (links to both). No edits needed. check.mjs clean (top 0.013), preflight clean.",
+      "contentHash": "sha256:ac01a600e67597cd0775bed5eb2e271ad828546cfe37fe0a3dabed866236e71e"
+    },
+    {
+      "slug": "d-day-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia (Normandy landings) and U.S. Army D-Day history text: 'largest seaborne invasion in history' verbatim; 80 km front; 875,000 by end of June; casualties given exactly as sourced with ranges (Allied at least 10,000 incl. 4,414 confirmed dead; German 4,000-9,000; civilians ~3,000 D-Day and D+1); second-front background, planning from 1943, Eisenhower SHAEF; four candidate sites and isthmus rationale; Bodyguard/Fortitude; Rommel 18 per cent in some areas; tide/moon criteria; 5 June chosen, 4 June weather, Stagg, 18-20 June alternative, 19-22 June storm, Luftwaffe two-week storm forecast, Rommel away; Army: up to 80 percent airborne casualties, Newbury, 101st; 2,200 bombers, 24,000 airborne, 00:16 bridges, c.06:30 landings, Gold 07:25, Sword infantry 07:30, winds pushing craft east, Utah progress, house-to-house fighting; Army 'most defensible beach' quote verbatim and intelligence failure re nearly full-strength division; ineffective bombing and lost armour at Omaha; 'fewer casualties than expected'; beachheads linked 12 June, Caen 21 July; success factors. Arithmetic 44.1% and 6.25% rechecked, with the article's caveat that 10,000 is a minimum. App wording matches catalog. No other D-Day article exists; distinct from causes and death-toll pages. No edits needed. check.mjs clean, preflight clean.",
+      "contentHash": "sha256:ff59dda9906f87a55aa29614ecf05d54da186ae6108f98352a3957c3fe30941b"
+    },
+    {
+      "slug": "founding-of-the-united-nations",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved UN pages (Preparatory Years; History of the UN) and Wikipedia (History of the United Nations): St James's Palace 12 June 1941, nine exiled governments, quotation verbatim; Atlantic Charter 14 August 1941 (UN) vs Atlantic Conference 9-12 August (Wikipedia) - disagreement already stated; eighth-paragraph quote; 1 Jan 1942 declaration, 26 states, 21 later adherents (26+21=47 rechecked), Roosevelt coined name; Moscow 18 Oct-1 Nov 1943 quote verbatim, Wikipedia 30 October declarations; Tehran 28 Nov-1 Dec quote; Dumbarton Oaks rounds and 9 October 1944 proposals; Yalta 4-11 Feb 1945, voting gap, 25 April summons, invitations 5 March, Roosevelt death 12 April, Truman; Wikipedia veto/Stalin/'fatal weakness', Brazil and Syria, France at Churchill's insistence; 50 signatories + Poland = 51; P5 + majority of 46 others (24, total 29) and 120 days 26 June-24 Oct rechecked; first GA 10 Jan 1946, League dissolved 18 April 1946. Changed: added that Wikipedia dates the Dumbarton Oaks Big Four meetings from 21 September against the UN's 21 August, so the source disagreement is stated. App wording matches catalog. check.mjs clean, preflight clean.",
+      "contentHash": "sha256:5f3e925e6bb44e553500ec9462c816cde47535e2a46c7f3d0c2f781c1ce931ac"
+    },
+    {
+      "slug": "the-marshall-plan-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved National Archives milestone page (incl. speech transcript), Office of the Historian page and Wikipedia (Marshall Plan): 5 June 1947 Harvard, 19 Dec 1947 Truman message, 3 April 1948 signing, $13.3 billion over four years and 'much needed capital' quote verbatim; 'less serious than the dislocation...', town-country trade breakdown, 'so much greater than her present ability to pay', 'directed not against any country or doctrine...' all checked against the transcript; OH winter 1946-47, 'over $12 billion', 'stimulant to the U.S. economy', Soviet concern and 'secret society', 'applied solely to Western Europe', 'debated the precise impact', 'great humanitarian effort', only general with Nobel Peace Prize; Wikipedia UK 26%/France 18%/W. Germany 11%, per-capita allocation, CRS 83% spent in US, 'some eighteen' countries, $13.3bn to 17 countries vs $17bn body figure plus separate $17bn pre-plan aid, Mutual Security Act 1951, 3% of national income / <0.5 point GDP growth, Republican Congress, 12 July Paris meeting, Molotov, Czechoslovak/Polish delegations, Finland, COMECON. Share arithmetic ($3.46bn, $2.39bn, $1.46bn, 55%) rechecked. The total-figure disagreement is stated explicitly. App wording matches catalog. No edits needed. check.mjs clean, preflight clean.",
+      "contentHash": "sha256:b41ca6c7aff3554ae0336866b95e15e6d1c794b582a21584ee3b4997982e8057"
+    },
+    {
+      "slug": "apartheid-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia (Apartheid), South African History Online and the DOJ TRC page: definition 1948-1994, 'separateness', first recorded use 1929, racial hierarchy; SAHO quotes 'did not differ that much', 'made segregation part of the law', 'obviously not a justification' verbatim, superiority/fear reasons, post-WW2 timing; 1797 Khoikhoi pass laws; law table rows (Mixed Marriages 1949 as first law, Population Registration 1950 as SAHO's 'basis', Group Areas 1950, Bantu Authorities 1951, Bantu Education 1953 'labouring class', Self-Government 1959); 1956 four Coloured MPs, 1969 abolition; pass laws/ID/employment; 3.5 million removed 1960-83 and 'largest mass evictions' quote; SAHO District Six/Sophiatown/Lady Selborne, rent only, land owned for years; 20 homelands (10+10), only country to recognise; ten times education spending (10/11 = 91% rechecked); ANC 1912, Programme of Action 1949, Defiance Campaign 1952, PAC 1959; Sharpeville 21 March 1960, 69 killed, >18,000 arrested; Soweto official 23, usually 176, estimates up to 700 - given as a range as sourced (176/23 >7x rechecked); 1987 talks, 2 Feb 1990, 30-year ban, legislation abolished 1991, CODESA Dec 1991, 69% referendum March 1992, 27 April 1994, 62.65%, 252/400; TRC Act 34 of 1995, three committees, 'from all sides'. Changed: replaced an unsourced '267 seats two-thirds' calculation with Wikipedia's own statement that 62.65% was below the 66.7% needed to rewrite the constitution. No other apartheid article on site. App wording matches catalog. check.mjs clean, preflight clean.",
+      "contentHash": "sha256:8111cc939e863bc615754c4d0174f215d0081ae1ca0c265f53a4b665a06a5b3d"
+    },
+    {
+      "slug": "the-cold-war-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia 'Cold War' text and Office of the Historian pages (Truman Doctrine, Kennan, Fall of Communism, the last fetched and read): Orwell 19 Oct 1945, Baruch 16 Apr 1947 and Swope quote, Lippmann; X-Article quote verbatim and Lippmann critique; Churchill 5 March 1946; 12 March 1947 joint session and 'reoriented' wording; satellites by 1949, first Soviet test 1949 four years after Hiroshima, PRC 1949, NATO 1949, Warsaw Pact 1955, Hungary 1956, Sputnik 1957, Cuba 1959, Sino-Soviet split by 1961, 1962 'closest' quote, decolonisation quotes, Vietnam 1955-75, Czechoslovakia 1968, 1969 border conflict, 1972, 1979, Gorbachev 1985; 'pre-ordained', 1953/1956/1968, 'tear down this wall', 1990 'whole again'; Malta 3 Dec 1989, Zubok, Gorbachev quote; 25 Dec 1991, fifteen states; three schools. Changed: Long Telegram was misattributed to the Office of the Historian (its page only covers the 1947 X-Article) - now credited to Wikipedia; 'Most writing combines more than one' softened to Wikipedia's 'much ... weaves together two or all three'. Overview links to, and does not duplicate, the Korea/Cuba/Space/Berlin pieces. App line matches catalog. check.mjs clean (top 0.022), preflight clean.",
+      "contentHash": "sha256:afff0df18ac99d5ae0017803aa617f128a5ba9b64a94747e634bed546d0c4f22"
+    },
+    {
+      "slug": "the-korean-war-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia 'Korean War', Office of the Historian Korean War page and the National Archives armistice page: 35-year colony, temporary 38th-parallel division, 1948 governments, Jeju/Yeosu-Suncheon, US not making Korea key and the 'Assuming...' quote; 25/27/28 June, Pusan, Inchon 15 Sept, Pyongyang October, Yalu 19 Oct, December retreat, 21 countries/~90%, 'police action'; Seoul Jan 1951, MacArthur 11 April 1951 and reasons; talks July 1951 at Kaesong/Panmunjom, bombing, POW issue, India's proposal 3 Dec 1952 / NNRC; NARA 10 a.m., Harrison, Nam Il, 18 copies, 'scarcely acknowledging', 158 meetings/2 years 17 days quote, 10 p.m., 4,000 m DMZ, MAC, 'purely a military document'; Rhee refused to sign; frozen conflict, 1966-69; 1953 mutual security treaty, 'peripheral region' quote. Casualties given as Wikipedia's range (around one million military; 1.5 to 3 million civilian). Arithmetic rechecked: 10 Jul 1951 to 27 Jul 1953 = 748 days, 4.7 days/meeting. Cut: unsupported claim that Stalin's death on 5 March 1953 eased the deadlock (not in any cited source); tied the 10 July 1951 start date to Wikipedia; added Resolution 610. check.mjs clean, preflight clean.",
+      "contentHash": "sha256:6590690d202c50fb446164bc0c1cdde6e1bb57199caabd4ba73d176c9d0ac6e3"
+    },
+    {
+      "slug": "cuban-missile-crisis-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against the saved Office of the Historian page and Wikipedia 'Cuban Missile Crisis' (JFK Library page returned 403, as the article discloses): 'closest' quote, 16-28 Oct and '13-day', 14 Oct U-2 and next-day presentation, Thor 1959 / Jupiter 1961, China drift, July 1962 meeting, Joint Chiefs/'middle course', quarantine vs blockade and OAS, 24 Oct 'act of aggression', ships turned back 24-25 Oct, DEFCON 3 and 2, Scali, the 'rope... knot' quote verbatim, second letter and Turkey, Anderson ~noon shot down on order of two Soviet generals, B-59/Savitsky/Arkhipov, RFK-Dobrynin quotes verbatim, 28 Oct, IL-28s and 20 Nov, April 1963 Jupiters, Mikoyan 22 Nov tactical rockets, Khrushchev embarrassment, Hotline and Test Ban. Day counts rechecked (13 inclusive from 16 Oct, 15 from 14 Oct). Changed: Kennedy's 22 October quotation exceeded 25 words - paraphrased with only the closing clause quoted and attributed to the Office of the Historian; 'US forces went to DEFCON 3' aligned to 'the Joint Chiefs announced DEFCON 3'. check.mjs clean, preflight clean.",
+      "contentHash": "sha256:798583e70b0642993bcc2aa9f43cc58a14753fa9c527aea263fae15a5040dd44"
+    },
+    {
+      "slug": "the-space-race-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved NASA pages (Dawn of the Space Age, 65 Years Ago: Sputnik, Apollo 11) and Wikipedia 'Space Race': 29 July 1955 and Soviet reply five days later, missile-race origin; Sputnik 58 cm, 83.6 kg/183.9 lb, 98 min vs 90 min and Vanguard 3.5 lb vs 3 lb (article already flags the NASA-vs-NASA discrepancy), core stage, beep; Sputnik 2 3 Nov, 1,121 lb, Laika few hours; Vanguard TV3 6 Dec 4 ft; Juno 84 days, Explorer 1 31 Jan 1958, Van Allen, JPL women mathematicians; Space Act 16 July / signed 29 July / NASA 1 Oct 1958; Gagarin 12 Apr 1961 108 min, Shepard 5 May 1961, Glenn 20 Feb 1962, Kennedy 25 May quote, Leonov March 1965, Luna 9 1966; Apollo 11 16/20/24 July and quote; N1 cancelled, five more crews; April 1972 ASTP, July 1975, 1993. Arithmetic rechecked with node: 119 days, 184/3.5 = 52.6, 1121/184 = 6.1, 2,978 days and 164 days. Added: Wikipedia's own count to splashdown (2,982 days, 161 to spare) so the two counts are reconciled. check.mjs clean, preflight clean.",
+      "contentHash": "sha256:63783d05315599d705b31e939054c03c41089000322081bc57b4e56f5b7d9cda"
+    },
+    {
+      "slug": "fall-of-the-berlin-wall",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against the saved Berlin Wall Foundation victims page, Office of the Historian fall-of-communism page and Wikipedia 'Fall of the Berlin Wall': 13 Aug 1961 / 9 Nov 1989 (Foundation), OH 'jubilant'/'its fall came to represent' quotes, 4 m walls, 155 km, death strip, 302 watchtowers; victims table 101+30+1+8 = 140 'at least', 251 travellers, 'unknown numbers', and the article distinguishes Wikipedia's 'hundreds' for the whole Iron Curtain; 'pre-ordained', 1953/56/68, Gorbachev abandoning intervention, Poland 6 Feb and 4 June 1989; Hungary fence May, picnic 19 Aug 'chain reaction', tens of thousands, Genscher 30 Sept and cheers; Honecker 18 Oct/Krenz, 4 Nov Alexanderplatz, 6 Nov draft 'complete trash' (Momper), 7 Nov Stoph and two-thirds of Politburo; Schabowski 18:00 hour-long, note, 18:53 Ehrman, 'immediately' quote, 19:00, dpa 19:04, six checkpoints, Jaeger 22:45 'alternatively 23:30', Schaefer/Waltersdorf-Rudow; dismantling 13 June 1990, 1.7 million tonnes, spring 1990 elections, DM July, 3 Oct 1990 five states and Berlin 16th; 339 days = under eleven months. Changed: removed invented app feature ('browse by month') - catalog browsing is by year, era, region, country or category. check.mjs clean, preflight clean.",
+      "contentHash": "sha256:bfe37ecf42899d1f59cbbc9b8469a14d47a46a88ac4dee8f4c82a70ea861dce3"
+    },
+    {
+      "slug": "the-taiping-rebellion-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia (Taiping Rebellion) text and Columbia Asia for Educators page: 1850-1864 dating in both; AfE 'no other event devastated China as much', third exam failure 1847 + 30 days delirium vs Wikipedia 1837 third / 1843 fourth failure (disagreement already stated in the article); Roberts 1847; God Worshipping Society 1844; 10,000 at Jintian early January 1851; Heavenly King 11 January 1851; Wuchang Dec 1852, Anqing Feb 1853, Nanjing 19 March 1853 renamed Tianjing; Manchu massacre and Qing massacre of Nanjing civilians; Northern Expedition 'complete failure'; 1856 Tianjing Incident; Shi Dakai to Sichuan; Xiang Army recruiting/paying/drilling; Wuchang Dec 1856, Jiujiang May 1858; 1860 siege broken, Hangzhou/Changzhou/Suzhou; Shanghai June 1861 repulsed after 15 months, Ward/Gordon; Anqing 1861; Nanjing besieged May 1862; Hong died June 1864 after 20-day illness, suicide possible; 15-year-old son executed; Wang Haiyang 29 Jan 1866; Meyer-Fong/Platt 2013, Osterhammel; death-toll ranges 20-30m to 73-100m (Wikipedia) and 'more than twenty million' (AfE) given as stated. Land-per-person arithmetic rechecked. Distinct from chinas-deadliest-rebellions (that page is about death-toll evidence; this one is the narrative of the war and explicitly defers the toll question to it). App wording matches catalog (simulations, companion to study). No edits needed. check.mjs clean (top 0.013), preflight clean.",
+      "contentHash": "sha256:1a0cf92a605524d4e818b32b4b4acd14dd32110462b04c4733ff64086bbaee13"
+    },
+    {
+      "slug": "the-boxer-rebellion-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia (Boxer Rebellion) and Office of the Historian (Hay and the Open Door) texts: Esherick 'misnomer'/'never rebelled'/'support the Qing, destroy the Foreign' and 'range of professional interpretation' quotes verbatim; Klein 'posthumous interpretations'; Grace Newton Sept 1899 letter; causes (spheres of influence, missionaries, 1898 Yellow River floods/drought); Cixi January 1900 edicts; 5 June railway cut; Dagu 17 June; 21 June decree de facto war; Prince Qing, Ronglu blocked artillery, southern officials; siege 20 June-14 August 1900 (55 days recomputed); 473/409/~3,000; International Gun; Beitang 43 soldiers/~3,200 Catholics; Tianjin 14 July, ~120 km, 20,000 troops; victim estimates 136/53/47/30,000/2,000 and OH 'hundreds ... thousands' both given; Protocol 7 Sept 1901, 450m taels, 982,238,150 with 4% interest, 668,661,220 paid 1901-1939, ratios 2.18 / 68% / 1.49 recomputed; Tsinghua; Hay circular 3 July 1900 'territorial and administrative integrity'. Changed: FAQ no longer says 'American missionaries' coined 'Boxer' (source: probably Arthur Henderson Smith or Henry Porter); Juye Incident corrected from 'killed two German missionaries' to source wording (looking for Father Stenz, killed two other missionaries; East Asia Squadron to Jiaozhou Bay); Sun Yat-sen 'bandits' dated 'at the time' with 'spirit of resistance' rather than an unsourced '1900'. Distinct from opium-wars-and-unequal-treaties (different event, 1899-1901). check.mjs clean (top 0.017), preflight clean.",
+      "contentHash": "sha256:cef2e6a245e369c7336fd2d2c960c2581fb220d6c2582aa74e97985d560c8585"
+    },
+    {
+      "slug": "chinese-revolutions-1911-1949",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia (1911 Revolution, Chinese Civil War) and Office of the Historian (Chinese Revolution of 1949) texts: 'over two millennia of imperial rule' and OH 'long process of governmental upheaval...' quotes verbatim; Tongmenghui Aug 1905 Tokyo; '267-year reign' vs '268 years of rule' both in the 1911 article (disagreement stated); Ming 1368-1644; timeline rows 10 Oct 1911, 1 Nov 1911, 1 Jan 1912, 12 Feb 1912 six-year-old Xuantong Emperor, 10 Mar 1912, Dec 1915 Hongxian, abdication March / death June 1916; 'led to decades of political division and warlordism'; CCP 1921 Shanghai study group, Northern Expedition 1926-27, White Terror 1927; civil war 1 Aug 1927 - 7 Dec 1949 (intermittent); Long March Oct 1934, Mao's 12,500 km estimate (34 km/day rechecked, flagged as rough); Xi'an Incident 12 Dec 1936 (Wikipedia) vs OH 'in 1937' (disagreement stated); OH on wartime suppression of dissent, 1945 talks, Marshall, all-out war by 1946, Communist advantages; Liaoshen 12 Sept 1948, Huaihai largest operation, Pingjin; no armistice, tacit halt 1979; Xinhai sexagenary name, 10 October National Day. Changed: 'encircled in the south' made specific (Jiangxi base, blockhouse ring); 'mass defections' softened to source wording (large numbers of well-trained KMT troops) and 'agents inside the command' to 'intelligence agents inside Nationalist operational planning'; 267-vs-268 explanation reworded to plain arithmetic. No existing Chinese civil war/revolution article, so distinct intent. check.mjs clean (top 0.017), preflight clean.",
+      "contentHash": "sha256:065b19c085fe96ba5c5270f42c55467523ef30b6e02996bbe6736d5fe6ffb3d6"
+    }
+  ]
+}

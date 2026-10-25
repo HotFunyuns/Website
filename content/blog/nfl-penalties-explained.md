@@ -50,7 +50,9 @@
     "reading-a-defense-basics",
     "two-minute-clock-management",
     "football-positions-explained-for-drafting",
-    "football-draft-gm-guide"
+    "football-draft-gm-guide",
+    "football-career-pro-league-guide",
+    "football-career-games-compared"
   ],
   "takeaways": [
     "Read every flag as two parts: the distance (usually 5, 10 or 15 yards) and what comes with it, such as a loss of down or an automatic first down.",

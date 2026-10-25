@@ -1,0 +1,726 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person's review.",
+  "entries": [
+    {
+      "slug": "cantonese-dim-sum-phrases",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified yum cha definition, regions, 食點心, 早茶/下午茶/飲夜茶, 嘆茶, the push-cart method, bill-card marking and tea etiquette (pour for others, 80% and the proverb, finger kowtow and Qianlong story, lid signal, dessert any time, declining carts, lazy Susan, chopsticks, insisting on paying, traditional bill reckoning) against the Yum cha wikitext; Four Heavenly Kings, spellings and haa1 gaau2 siu1 maai2 against Har gow; family-style three-or-four pieces, 燒賣 and 腸粉 descriptions against Dim sum; Jyutping for 蝦餃, 燒賣 siu1 maai6-2, 叉燒包, 腸粉 coeng4-2 fan2, 鳳爪, 點心 (四五籠 example), 斟茶 zam1 caa4, the 籠 classifier and 埋單 against Wiktionary. Recomputed 2 x 4 = 8. Changed: cut unsourced claims that 'dim sum' comes from the Cantonese pronunciation and covers cakes, and that 蝦餃 is also called 水晶蝦餃 with a flour wrapper (replaced with Wikipedia's wheat/tapioca starch and translucent-skin description and Wiktionary's senses of 點心); 'many restaurants now use' paper ordering changed to Wikipedia's 'other restaurants may'. Added six Wiktionary sources. App claims match catalog.",
+      "contentHash": "sha256:c4e67bdc223a9e91bb435b69d14b81d3987c97bcb71a6265841b6dfbfa68eaf9"
+    },
+    {
+      "slug": "cantonese-greetings",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified every Jyutping reading and gloss against Wiktionary entries in wikt_log: 你好 nei5 hou2 (attention usage note), 早晨 zou2 san4 Cantonese 'good morning' with the 王小姐 example, 早敨 zou2 tau2 including the rude sense, 唔該 m4 goi1 three senses, examples and 'may be offensive' note, 多謝 do1 ze6 usage note, 對唔住, 唔好意思 (alt ji3 si3), 再見 polite, 拜拜 baai3-1 baai3 informal, phono-semantic match of bye-bye and Hong Kong euphemism 'to die', 得閒飲茶 under 飲茶; 唔 m4 negation and 唔好 negative imperative against Wikipedia Cantonese grammar. Changed: added Wiktionary's usage note that 你好嗎 is a literal translation not commonly used among native speakers (body and takeaway had presented it as the normal question); reworded an unsupported 'therefore' inference about 唔好意思; fixed the worked-example count (six moments use six distinct phrases, not five); 'a light sorry' replaced with the Wiktionary gloss; added eight Wiktionary sources the text cites. App claims match catalog.",
+      "contentHash": "sha256:15fd2eea4c09856ace74d9c3004de95bb4c168314bf7d06071818325ec88b8ce"
+    },
+    {
+      "slug": "cantonese-measure-words",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified each classifier reading and use against Wiktionary (個 go3 incl. money; 隻 zek3 one of a pair, birds and certain animals, body parts, utensils, with 兩隻豬 and 一隻鞋/一雙鞋; 條 tiu4 incl. 一條毛, lives, Cantonese derogatory 嗰條女 and 三條九 = 999; 張 zoeng1 incl. 幾張凳, 兩張紙, Cantonese knives and ages 三張嘢; 本 bun2; 架 gaa3 incl. dialectal vehicles; 對 deoi3 兩對鞋; 啲 di1). Demonstrative + classifier rule, 呢/依 in fast speech, 嗰本書, 呢啲車, 佢本書 possession and 架車撻唔著 definiteness checked against Wikipedia Cantonese grammar; 張 vs 條 for 櫈 in Cantonese, Yue 隻 for people, 我本書 and classifier variability against Chinese classifier. Changed: 'many animals' to 'certain animals' per Wiktionary; corrected the worked-example summary (the plural swaps 本 for 啲, so it is not true that only the word in front changes); added six Wiktionary sources cited in the text. App claims match catalog.",
+      "contentHash": "sha256:3f190845c608b0f21a9e02178cdd6518c68afa7dee6dd79e0e82bdd1f6e3985b"
+    },
+    {
+      "slug": "cantonese-numbers",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified 0-10, 100, 1,000, 萬 maan6 and 億 jik1 Jyutping against the Chinese numerals comparison table; 兩 before a classifier, 廿 jaa6 / 卅 saa1-aa6 / 卌 sei3-aa6 / 呀 aa6 contractions, 二百/兩百, 2,362 and colloquial 一萬二 against the same article; 四十四 sei3 a6 sei3 and entering-tone numbering against the Jyutping article; 圓/元, 蚊, 毫, 仙 and the HK$7.80 / 6.75 / 7.08 patterns against the Hong Kong dollar article (Yale-to-Jyutping conversion checked); Wiktionary 蚊 man4-1 money classifier, 個 go3 money classifier, 兩 loeng5. Changed: the 兩隻豬 example was attributed to Wiktionary's 兩 entry but is in the 隻 entry, so re-attributed and added 隻 and 蚊 Wiktionary sources; replaced the unsourced 'a million is 一百萬' framing with arithmetic (100,000 = 10 x 10,000) and cut an unsourced claim that Thai and Khmer share the ten-thousand grouping; 仙 'survives mainly' changed to 'used only' in the stock market per source; FAQ no longer says two is always ji6 inside longer numbers (Wikipedia accepts 兩百). App claims (12 units, numbers/money/dates, characters with Jyutping, tone contrasts, ads plus optional IAP) match the catalog.",
+      "contentHash": "sha256:560c98b07ab2cc08f8e01e9f7a35947c7c6b88de0f924601902df5e56d0a4ba5"
+    },
+    {
+      "slug": "how-to-add-a-language-keyboard-on-android",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Fetched all three cited Gboard help pages (saved sources/x_gb1, x_gb2, x_gb3): keyboard and Settings-app routes, layout and Done steps, device language unaffected, Android 7.0 note, Android 8 Go edition warning, Open features menu > More > Settings, space-bar and language-switch-key methods incl. the greyed-out tip, troubleshooting order (restart, update, clear cache/data, force stop), Personalization and text correction, 'stick to one or two active languages'; the supported-language list confirms Vietnamese, Thai, Khmer, Khmer Surin, Lao, Lao Transliteration, five Malay Brunei/Malaysia/Singapore entries, Chinese Cantonese Traditional and Burmese. Gboard Jyutping support checked against Wikipedia Jyutping. Recomputed 5 Malay entries and 2 + 5 = 7. Changed: 'your menus stay in English' to device menus keep their current language; replaced the unsourced 'makes switching quicker' claim with arithmetic tied to Google's one-or-two advice; accessed dates updated to 2026-10-25 after re-opening. App mentions (Learn Vietnamese Language Fast dictation, sentence building, tones; the other four courses exist) match catalog. Distinct from khmer-fonts-on-android (input vs display).",
+      "contentHash": "sha256:ffae3bc8edf79090b7962ce77ab35af00ddee16d088189bc7317c25f4959a4da"
+    },
+    {
+      "slug": "how-to-practise-speaking-alone",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Comprehensible output text (Swain; noticing, hypothesis-testing with interlocutor feedback, metalinguistic functions; Krashen's 'output is rare' criticism and preference for more comprehensible input; speaking at the top of students' anxiety list; pushing students to speak may hamper acquisition), Private speech text (definition, audible but not directed at others, Vygotsky and Piaget, young-adult self-report questionnaire) and the two PubMed abstracts (Jiang et al. 2025: 64 Chinese-speaking L2 English learners, picture-description task, private speech facilitates L2 oral production, 32 users in the fNIRS experiment, proficiency-dependent role; Takeuchi et al. 2021: 4-week shadowing and reading-aloud training, tendency towards greater digit-span increases and significantly greater n-back reaction-time decreases). Speech shadowing text: a technique to practise speech, tasks of incremental difficulty. Changed: the Takeuchi comparison groups were 'training groups without speaking' (compressed-speech listening and an active L2 control), not 'groups who only listened'; corrected in body, FAQ and takeaway. Cut the claim that the shadowing article warns errors become habits (not in the source). Session arithmetic 4+6+6+4=20 and 20x5=100 checked. Distinct from shadowing-technique-explained and learning-a-language-without-a-teacher. App claims (audio, pronunciation practice, dictation, roleplay, not a substitute for conversation) match catalog.",
+      "contentHash": "sha256:2b48263b03dd1a2262490b653c52e6840b055937c45e5b4988354f18b1450c30"
+    },
+    {
+      "slug": "italian-essere-vs-avere",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Italian conjugation text (x_itconj: 'all transitive verbs and most intransitive verbs' take avere; 'small number of intransitive verbs' with essere incl. venire/andare/arrivare; avere/arrivare paradigms; l'ho vista; reflexives mi sono lavato/-a, ci siamo visti), Italian grammar wikitext (passive Il cancello è stato appena aperto; 'a reliable rule cannot be given'; vivere ho/sono vissuto; egli è partito/ella è partita; l'ho mangiata; optional agreement non mi ha chiamato/a; stato shared with stare; leggere -> letto) and Unaccusative verb text (È arrivato vs Ha telefonato; be/have split; variation by meaning/region). Worked example re-derived (3 essere, 2 avere). Changed: the 'Where the rule runs out' sentence misread the citation-needed tag, which sits on the reflexive/unaccusative sentence, not on the rule of thumb (that one cites the Accademia della Crusca); rewrote to match the wikitext. Distinct from passato-prossimo-vs-imperfetto (tense choice) and italian-verb-conjugation-basics (present tense). App claims (verbs, agreement, common tenses, past-events unit) match catalog.",
+      "contentHash": "sha256:38458245db2824d2343e551e1b4d67389c44117d3be45c1cb2b65f6c50889ef6"
+    },
+    {
+      "slug": "italian-greetings-formal-informal",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Ciao article (hello and goodbye; mainly informal, with those addressed as tu; s-ciào vostro '(I am) your slave'; shortened and lost servile connotations; adopted in northern Italy late 19th/early 20th c.), Italian grammar wikitext (tu/Lei since the Renaissance, Sie/vous, Lei takes third-person forms, Lei è alto, voi formal in Campania, formal Loro very rarely used) and T-V wikitext (dare del tu / dare del Lei); Wiktionary log for buongiorno (good day/morning, good afternoon only very early afternoon, syn buon pomeriggio), buondì (colloquial), buonasera usage note (~5pm, far south), salve (syn ciao/buongiorno/buonasera; 'too stiff even for formal occasions'), arrivederla (formal, Lei; ci vediamo informal), come stai/come sta, piacere. Changed: table row now says buongiorno covers the 'very early afternoon' per Wiktionary, and the 15:30 worked step now uses buon pomeriggio (the 5pm line divides pomeriggio from sera, not buongiorno from buonasera). Arithmetic 19-17=2 checked. App claims (greetings in core path, culture and etiquette, roleplay) match catalog.",
+      "contentHash": "sha256:29869d31a9b86f2bd3dae4e9e77f1fc634162f70c53410ea741af8bd0af3a35b"
+    },
+    {
+      "slug": "italian-numbers",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified every cardinal 0-99, the 100 to 1,000,000,000 rows, 101 centouno/centuno, 108 centootto/centotto, 180 centottanta, ordinals primo-decimo and -esimo forms incl. ventitreesimo, the -tré rule, mille/mila, milione/miliardo + di (miliardi di lire), due mila variant, 25.000 thousands separator, 860.789 split, 3,5 tre virgola cinque, più/meno/per/diviso, cento e una pagina, il trenta di maggio against the saved Wiktionary Appendix:Italian numbers text. Lira/euro dates (unit of account 1999, cash 2002) and 100 cents checked against saved Italian lira and Euro pages. Recomputed 860x1000+789=860,789 and 1000+900+84=1984. Changed: cut the unsourced 'about thirty pieces' estimate; il Trecento now glossed as 1301-1400, the 14th century, as the source states (was 'the 1300s'). App claims (numbers unit, audio, dictation) match catalog.",
+      "contentHash": "sha256:ec3636f9b6f6709e710b2be75cbb538437340d927a94e98bc001e434e441c8aa"
+    },
+    {
+      "slug": "italian-plural-nouns",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Italian grammar wikitext: general endings table (cappello nero, bella macchina, comandante, atleta, specie, città, manager), -io -> -i (esempio, funzionario), invariables (gru, città, caffè, film), -co/-go rules of thumb with the Serianni quote, funghi/fuochi/medici/comici, the -logo split, exceptions amico/greco/valico, -ca/-ga, -cia/-gia rule and farmacia, poeta/poeti, cane/parete, masculine-singular/feminine-plural nouns (uovo, braccio, ginocchio, dito), braccia/bracci and corna/corni meaning split, irregulars uomo, dio/dei with gli, bue, tempio (mostly from Vulgar Latin). Orthography wikitext confirms camicia/valigia/provincia and 'established since the 1950s'. Worked five-noun example re-derived (1 invariable, 4 change). No changes needed. App claims (articles, agreement, 12 units) match catalog.",
+      "contentHash": "sha256:b227e096176a1a427ac92d2a52a4a19569dc76b75fab0185f170d5341cdd9daa"
+    },
+    {
+      "slug": "italian-prepositions-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Italian grammar wikitext: closed class; tra/fra interchangeable by euphony (tra fratelli, fra i tralicci); mandatory contraction of di/a/da/in/su and the full 35-cell table (5x7 recomputed); optional con/per forms archaic except col/coi; article-less phrases a capo, da capo, di colpo, in bicicletta, per strada; su di before pronouns, and before u 'regarded as incorrect by grammarians'. Wiktionary texts (x_it_di, x_it_da, x_it_in, x_it_su) confirm every quoted example: coda del cane, Monreale, più alto di sua moglie, dell'acqua, ira di Apollo, Divina Commedia, libri di matematica, collana d'oro, dalla terra alla luna, da Giovanni, dal dottore, da quando, dai ladri, macchina da scrivere, libro da leggere, panetteria, in autobus, sulla tavola. Changed: the su proportion example 'uno su cinque' is not in the source; replaced with Wiktionary's own 'un europeo su cinque', 'one European in five'. App claims match catalog.",
+      "contentHash": "sha256:6bdc24dde685870f14886f13e8bc16261cd926e64579b39fe933cbc1ae70babd"
+    },
+    {
+      "slug": "italian-pronunciation-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Italian orthography and phonology wikitext: 'almost completely phonemic' and its listed exceptions; 21 letters (5 vowels, 16 consonants), j/k/w/x/y in loanwords, names and scientific terms (weekend, jeans, km); open/closed e and o only in stressed syllables, closed only when unstressed; accents generally found only in dictionaries, pèsca/pésca limited to didactic texts; glides with exceptions fatuo, viaggio; hard/soft c and g table (china, Cina, caramella, ciaramella, ghiro, giro, gallo, giallo); camicia vs farmacia; sc/sci/sch (scerno, scialo, scherno); gli/gn long between vowels (aglio, ogni); silent h (ho/o etc.); s rules (Sara, sbranare, always voiced in the north); z (canzone, zanzara); r trill with one or two contacts / tap; fato/fatto and the minimal pairs; syntactic gemination triggers and a casa, central/southern use vs inconsistent northern use; lexical stress with penult preferred; accent compulsory only on a final stressed vowel (sanità, perché, morì); IPA of occhi, giallo, aglio, zoccolo, canzone, passato. 21+5=26 and giallo six letters / five sounds checked. No changes needed. App claims (audio, dictation, pronunciation practice) match catalog.",
+      "contentHash": "sha256:b925fc690faed912b69c106fd4e6932d57432aaf479450aad234d149f3087112"
+    },
+    {
+      "slug": "italian-restaurant-phrases",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified Wiktionary texts: vorrei (first-person conditional of volere; polite requests), per favore/per piacere, prenotazione, tavolo, frizzante, cameriere/cameriera, conto (calculation; bank account; bill for a meal, hotel), scusi (formal second-person singular, see also scusa), coperto (cover, cover charge, place at dining table). Italian cuisine wikitext: course table (aperitivo examples, antipasto, primo most frequent, secondo, contorno with salad alongside the main course, formaggio e frutta, dolce, caffè, digestivo), full-course meals mainly for special events, food-establishment descriptions (trattoria, osteria, ristorante, pizzeria, tavola calda). Cover charge page: pane e coperto nearly ubiquitous in Italy; Lazio 1995, EU ruling 1998. Worked bill recomputed: 22+16+5+3+5 = 51, order before coperto 46. Changed: cut 'most regions serve bread at the table', which the saved cuisine text does not say. Prices are labelled as invented for illustration. App claims (food unit, restaurant travel material, audio) match catalog.",
+      "contentHash": "sha256:fa2e60878f4ba71e1e4efea4425616577cf7bbec358e569ff40de2b55c7cc40e"
+    },
+    {
+      "slug": "jyutping-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Fetched lshk.org/jyutping-scheme (saved sources/x_lshk.txt): 1993 design, alphanumeric without diacritics, null initial 呀 = aa, fu1-fu6 examples, 2018 addition of a and oet, ASCII-digit tone numbers and acceptance of bold/italic/colour all confirmed. Wikipedia Jyutping wikitext confirms the initials table with IPA and example characters (渣, 叉, 也, 牙, 瓜, 誇), finals examples (三, 心, 鋸, 商, 詢, 需, 書), syllabic m/ng 唔 吳, nine tones in six contours with entering tones written 1/3/6 (識 sik1, 錫 sek3, 食 sik6), ILE 1-9, the name contraction, the z/c and y-to-j innovation, j before bare yu, the Yale differences, the gwong2 zau1 waa2 / jyut6 jyu5 / nei5 hou2 examples and Gboard. Recomputed 2 + 2 + 3 = 7. No changes needed. Distinct from cantonese-tones-explained (reads the spelling, defers tone sounds). App claims match catalog.",
+      "contentHash": "sha256:055050baede8191bccbc320477bcb0df3e24ef15160c8f300b6fd9697ac44234"
+    },
+    {
+      "slug": "khmer-consonant-series",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Khmer script wikitext: 35 symbols/33 used, ឝ ឞ obsolete, inherent â/ô, voiceless/voiced origin and Middle Khmer sound changes, ណ adapted as a-series counterpart of ន, ឋ ឌ ឍ rare, ប [ɓ]/[p], subscripts (none for ឡ, cheung âksâr), dominance rule and ត្រា example, musĕkâtônd (ង ញ ម យ រ វ; ប to p), treisăpt (ស ហ ប អ), kbiĕs kraôm, supplementary consonants under ហ, final ដ/ឌ [t], k-letters glottal after [aː]/[iə], រ silent, ស [h], one final consonant. Series table recounted with node (15 + 18 = 33). Wiktionary ក (neck) and គ (mute; deaf) confirmed. No changes needed; app claims match catalog.",
+      "contentHash": "sha256:3477f3f1c4523f91b2ef2a2122d6d81c4fabdea3ef32b6d2abdbbd702279224d"
+    },
+    {
+      "slug": "khmer-numbers",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All Khmer words, digits and UNGEGN forms match saved Khmer numerals wikitext; verified biquinary description, proto-Austroasiatic 1-5, Sanskrit zero, reduced mə, pəm in 6-9, colloquial dândáb teens (15 = ប្រាំដណ្ដប់), mphey contraction, 30-90 borrowed from southern Middle Chinese via Thai and not decomposable, informal 81 pêt muŏy, Thai-origin rôy/poăn/mœn/sên/léan and Sanskrit/Pali kaôdĕ with its billion ambiguity and dáb léan, dáb poăn alternative, ordinals with ទី compared to Thai thi and Vietnamese thứ, digits since the early 7th century and earliest zero evidence. Riel infobox and text confirm banknotes, rare coins, dollar use and the 4,000-riel retail rate with riel change; Wiktionary ប៉ុន្មាន confirms 'how much?, how many?' and the time example. Recomputed 27, 36, 4,100, 15,000 and 2.50 x 4,000 = 10,000. App claims (script, numbers, currency, market bargaining, ads + optional IAP) match catalog. No net changes.",
+      "contentHash": "sha256:cd1eba2eacdf69c55df24092afbdf7afdd9e7dd4830726f835727f225a38b6f6"
+    },
+    {
+      "slug": "khmer-vowels-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Dependent vowel table checked row by row against the saved Khmer script wikitext (both series IPA and UNGEGN for all 16 signs, Battambang-based values, dialect variation), plus srăk nĭssăy/phsâm, pronounced after the consonant, nĭkkôhĕt/reăhmŭkh combinations (អុំ អំ អាំ អះ values, ធំ [tʰom]/[tʰum]), bânták effects, yŭkôlpĭntŭ, independent vowels (sră pénh tuŏ, glottal/liquid, mostly Indic, ឥឡូវ ឪពុក ឬ ឮ glosses) and the លា léa [liə] and ត្រា examples. Khmer language wikitext confirms the *kaa/*gaa breathy-voice history ending in [kaː]/[kiə] and that written words never begin with a regular vowel. App claims (vowels with pronunciation help, romanised spelling, tracing, slowed audio) match catalog. No changes needed.",
+      "contentHash": "sha256:c93d8b2989351c1ff6f206962c06a900b20c8ccf06915f06bccb45d0df5a43a6"
+    },
+    {
+      "slug": "lao-vowels-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Vowel table checked row by row against saved Lao script wikitext (final/medial forms, IPA, BGN/PCGN), special vowels with old alternatives, Luang Prabang [aɰ] and Houaphanh [ɯ] notes, silent ອ base, sala naming and named marks, 1975 spelling reform, ◌ະ glottal stop. Lao language wikitext confirms all vowels make a length distinction, a short vowel must be followed by a coda, ʔ only after a short vowel, ຫັກ/ຮັກ/ຫາກ/ຮາກ with tones and glosses, four tones before p/t/k and two before ʔ. App claims (script first, character recognition, sounds, reading words, free with ads, no IAP) match catalog. Fixed: short diphthong and ɤ IPA now carry the glottal stop as in the source (iaʔ, ɯaʔ, uaʔ, ɤʔ) so short and long no longer look identical; heading now uses the source's ◌ໍາ/ເ◌ົາ forms; corrected the description of the Lao tone rules article, which lists four inputs, not three.",
+      "contentHash": "sha256:3422150716657e5c6162d85d6bc89861713cbc3ea0e9c950a47cccb9ae214d6d"
+    },
+    {
+      "slug": "malay-days-and-time",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Wiktionary: Isnin (Arabic, alt Senin, syn Hari Satu), Selasa, Rabu (Classical Malay from an Arabic form), Khamis (alt Kamis), Jumaat, Sabtu, Ahad (syn Minggu), minggu 'week' from Portuguese domingo, the month template list, Januari/Ogos from English, Mac/Ogos vs Indonesian Maret/Agustus, bulan moon/month with example, pukul (hit; hour; pukul tiga), jam, setengah (se- + tengah), suku (Sekarang satu suku), pagi, petang (syn sore), malam (Selamat malam), tengah hari. Wikipedia comparison: Sunday Ahad vs Minggu/Ahad, pukul tujuh setengah = 7.30 vs Indonesian setengah tujuh = 6.30 from Dutch half zeven, Malaysia 12-hour standard vs Indonesia/Brunei/Singapore 24-hour. Day-names article: Arabic al-ithnayn/al-khamis and the 'gather' and 'Sabbath' notes for Jumaat and Sabtu. Arithmetic 7+0.5 and 7-0.5 checked. No edits needed.",
+      "contentHash": "sha256:1d7f5722cfb303d58753cbf3557a9174b0c10d2382bc2c3062d92249aa89089a"
+    },
+    {
+      "slug": "malay-numbers",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Wiktionary entries checked: belas (combining word 11-19, lapan belas tahun example), puluh (Kedukan Bukit 683 CE, sapulu/sepuluh), ratus and ribu (inherited; seribu current spelling), sebelas (se- + belas, alt satu belas), sifar (formal, from Arabic, syn kosong informal, Indonesian nol), kosong ('empty'), berapa (amount/value/time/measurement, pukul berapa, umur berapa). Wikipedia comparison of Indonesian and Standard Malay: 1,234,567.89 read with perpuluhan lapan vs 1.234.567,89 with koma delapan. Malaysian ringgit wikitext: banknotes and 5-50 sen coins in frequent use, 1 sen discontinued but legal tender, rounding of the total bill to the nearest 5 sen since 1 April 2008, kupang in Kedah/northern Peninsula. Recomputed RM12.43 -> 12.45 and RM12.42 -> 12.40 with node. Changed: 'one is usually the prefix se-' (unsourced 'usually') to 'can be'.",
+      "contentHash": "sha256:bf0e134d09d636899253128c067d107545185c683d0d663ab8401f167c0acbd8"
+    },
+    {
+      "slug": "malay-pronouns",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Common-pronoun table, saya/aku usage, kami/kita (confused in colloquial Indonesian but not Malay), sa(ha)ya sekalian, beta/patik, anda/kamu/kalian, engkau/kau, awak, encik/cik, ia/dia (ia recently used for animals), beliau, baginda, mereka vs dia orang, possessive enclitics -ku/-mu/-kau/-nya with the meja examples, proclitics ku-/kau-, and the shop assistant's 'Boleh dibantu?' all checked against Wikipedia Malay grammar wikitext; korang/kitorang/diorang against Malaysian Malay. Changed: cut the unsourced generalisation 'many speakers avoid a second-person pronoun' to a neutral lead-in to Wikipedia's statement.",
+      "contentHash": "sha256:e2c6ffc5043781f9309398cf94c326e75b8ac59319c010b555f47f7e2f3df731"
+    },
+    {
+      "slug": "malay-question-words",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All table examples and glosses checked against Wiktionary entries for apa (apakah formal interrogative; derived siapa/berapa/mengapa/apabila; bare Apa? often considered impolite, Maaf? preferred), siapa (who/whose; Siapa nama kamu?), mana (incomplete without di/ke/dari; 'which' with optional yang; macam mana), di mana and yang mana (relative use proscribed by DBP), bila (conjunction use proscribed, apabila prescribed), mengapa (syn kenapa, apa hal, apa pasal), kenapa (informal; mengapa formal), bagaimana, berapa and -kah (modal verbs/adverbs in questions; emphasis on question words; examples). Wikipedia Malay grammar: focused element first, followed by a slight pause. Added Wiktionary's usage note that -kah is usually only used in formal or literary speech or writing.",
+      "contentHash": "sha256:5ad622ca531e55bb5acbc57948178d2c2e904c67eeb163c082d2d98fff7232fa"
+    },
+    {
+      "slug": "marathi-postpositions",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against Wikipedia Marathi grammar wikitext: shabdayogi avyaya = preposition; saamaanya ruup with घोडा -> घोड्यावर; the two-case direct/oblique analysis with rām-ā-lā and the oblique suffix depending on gender and final vowel; the eight vibhakti suffixes and every example sentence (घराला रंग दिला, लेखणीने, मुलाला ओळखतो, गावाहून, घराचा दरवाजा, घरात, मुलांनो शांत बसा); -hūna after vowels and -ūna on the direct form (घरून); -त vs -ई connotation (well-defined area vs less well-defined place, gharāt/gharī) and obligatory सकाळी; differential object marking dagaḍa/dagaḍālā; ergative मुलाने पुरी खाल्ली; genitive agreeing with the governing noun; Wiktionary मी for माझ्यासाठी. 7 + 1 = 8 checked. No edits needed.",
+      "contentHash": "sha256:207932b7beda738ea2cab8d16dfe2234734f2e22a4a1b9da19318850f85a16d2"
+    },
+    {
+      "slug": "marathi-pronouns",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Fetched Wiktionary for तू, तुम्ही, आपण, आम्ही, मी, तो and तुला: formality ranking and grammatical number, आपण as inclusive we and polite you with both examples, आम्ही exclusive, तो distal with both examples and हा/ही/हे, मी declension (मला, माझ्याने/माझ्याशी, ablative, माझ्यासाठी, माझ्यात, alt मज/माझ्यास), तुला acc/dat of तू. Wikipedia Marathi grammar: pronoun table glosses (formal, extremely formal), gender on verbs not pronouns in 1st/2nd person, demonstrative table, possessive table and agreement with the modified noun; दरवाजा/तब्येत/पत्रक genders from its case examples; 6 x 3 = 18 recomputed. Changed: an FAQ called मज/माझ्यास 'more formal or written' (unsourced) - now 'alternative forms'; added the Wiktionary तुला entry to sources (accessed 2026-10-25), since तुला is not given in the तू entry.",
+      "contentHash": "sha256:77b5db960e22ced6e600afe70ddb4c5a561c7b13a833ee8cd51f4fc496c915ee"
+    },
+    {
+      "slug": "northern-vs-southern-vietnamese",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified the 45/10/45 regions, Hanoi-based standard, 1954 migration figures (about a million south, 150,000 north), d/gi/r, ch-tr, s-x and v correspondences, vocabulary rows (vâng/dạ, thìa/muỗng, bát/chén, ô tô/xe hơi, dĩa/nĩa, đĩa/dĩa, này/nè, đấy/đó), dạ vâng mixing and ông ấy -> ổng / bà ấy -> bả against Vietnamese language wikitext; HCMC final merger, qu-/hu-/u- -> [w] and the hỏi-ngã merger against Vietnamese phonology; nghìn/ngàn and 101 against Vietnamese numerals; muỗng/thìa against Wiktionary. Changed: '45% of speakers' (source gives only percentages) to plain percentages; 'all mutually intelligible' now carries Wikipedia's caveat that North-Central/Central varieties are less intelligible; cut a lip-rounding claim presented as southern (source describes it generally); 'rice bowl' to 'bowl'; removed unsourced 'learners often ask', 'r varies by speaker' and 'many materials follow Hanoi ... neither is more correct'. App claims match catalog.",
+      "contentHash": "sha256:b9db553d73d8ad53dd4e178385a63784bf7285339bc80b4776d27bfb1d103f6e"
+    },
+    {
+      "slug": "passato-prossimo-vs-imperfetto",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Italian conjugation text: present perfect for single actions/events and change of state, with all four examples (stamattina sono andato a scuola, si è arrabbiato..., andavo in bicicletta..., si arrabbiava...); three imperfect uses incl. weather, time, age; sapevo/ho saputo la verità; imperfect formation stem + thematic vowel + v + endings; essere the only irregular imperfect; dicevo, facevo, bevevo. Italian grammar wikitext glosses facevo as 'I used to do / I was doing'. Imperfect article: stavo parlando and 'I eat' vs 'I am eating'. Preterite article: passato remoto for an action completed far in the past; colloquial use increases north to south; Northern Italians and Sardinians use the passato prossimo in any perfective situation. Worked story re-derived (3 imperfetti + 2 passati prossimi = 5; arrivare and uscire take essere, usciti agrees). No changes needed. Distinct from italian-essere-vs-avere (auxiliary choice). App claims (common tenses, past-events unit) match catalog.",
+      "contentHash": "sha256:d3a45d8e42efed961d8069ee27345340ef47b5fb75a15988cb300a4c64084b4c"
+    },
+    {
+      "slug": "russian-adjective-endings",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Hard-stem новый, soft-stem синий, высокий, хороший and большой tables checked against Wikipedia Russian declension wikitext; rules (и after sibilant/velar, stressed -ой, хорошее rule, animacy accusative, -ою variant, -ого/-его read -ово/-ево) all match; short forms нов/нова/ново/новы only in the nominative and predicative (Russian grammar); relational adjectives unlikely to have short forms. Recounted 24 cells and 12 distinct endings; checked the four worked phrases and their хороший versions. No edits needed.",
+      "contentHash": "sha256:e8d3f3e88c59a5124a24b2fd264e3f368c21491f7d1f2ef62c877975e06b5da5"
+    },
+    {
+      "slug": "russian-greetings",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Fetched Wiktionary entries for здравствуйте, здравствуй, привет, здорово, доброе утро, добрый день, добрый вечер, с добрым утром, как дела, очень приятно, до свидания, пока, до встречи: registers (formal/plural, informal, colloquial, familiar), привет's antonym пока, до встречи as synonym of до свидания, приятно познакомиться as synonym, imperative of здравствовать all match. T-V distinction wikitext: вы the unmarked norm, ты narrowly reserved for intimates or insults, Вы capitalised in formal correspondence, быть на 'ты'/'вы'. East Slavic name wikitext: patronymic follows the given name and is not a middle name, obligatory with higher social standing and at business meetings, the Марья Ивановна example, omission considered offensive, Ivan Ivanych truncation not colloquial, patronymic table rows. Letter count 12 vs 6 recomputed. No edits needed; no other Russian greetings article exists.",
+      "contentHash": "sha256:387b8ba407f7321714dc92ef6d2f63317e537e9c8669bb56abb510555f10e366"
+    },
+    {
+      "slug": "russian-numbers",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia Russian declension wikitext (Numerals): 0-10 table incl. ноль/нуль, один/одна/одно/одни, два/две; last-word rule with its 'most numbers' wording and examples двадцать одна машина, три собаки, сорок два окна, пять яблок, десять рублей, сто одиннадцать метров; nominative plural only without numerals (эти дома / три дома); 4 года vs 5 лет and 3 человека; сто пятьдесят три рыбы; тысяча/миллион/миллиард as nouns and omissible 'one' (тысяча и одна ночь); ordinal 153,001st with only last word declined; полтора/полторы with genitive, полторы тысячи; 3,14. Ruble page: 100 kopecks, kopeck coins rarely used due to inflation. Recomputed the mod-100/mod-10 rule with node for 1, 3, 5, 21, 111, 2024. Changed: раз was described as 'colloquial' and used 'when counting aloud'; the source says only that it 'is used for counting' - reworded in body and FAQ. App claims match catalog (numbers unit, cases/agreement, exercises that explain answers).",
+      "contentHash": "sha256:34d81d5f951d8ce6531df90f6f275d32a2610b8964a10a0ab0318e72ba7485bb"
+    },
+    {
+      "slug": "russian-personal-pronouns",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Full pronoun table checked cell by cell against Wikipedia Russian grammar wikitext (incl. мною/тобою/ею/собою variants and себя with no nominative); н- rule with у него/с неё and prepositional always with н-; со мной/ко мне/во мне/обо мне unstressed; г in его read as в; оно vs это with это хорошо and кто это; Вы capitalised in personal letters, official papers and questionnaires. Wiktionary меня зовут: literally 'they call me', accusative, как вас/тебя зовут. Count of 4 distinct forms over 6 cases recomputed. No edits needed; distinct from russian-cases-explained-for-beginners.",
+      "contentHash": "sha256:e19ceedf636da3ab7ac8f671ff0c0cd3987de931f22ff8309de5e3015fe91a54"
+    },
+    {
+      "slug": "russian-soft-and-hard-signs",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Wikipedia wikitext for Russian alphabet (33 letters = 20 consonants + 10 vowels + й + 2 modifier signs; брат/брать; palatalisation phonemic; original yer sounds lost by 1400; grammatical uses of ь after ж ш ч щ; тушь/туш; Марья/Мария), Soft sign (iotation, льют/лют, yers front/back), Hard sign (no phonetic value, сесть/съесть IPA, softening and unimplemented proposals, pre-1918 final ъ котъ, Baltic Fleet sailors confiscating 'parasite letters', apostrophe с’езд, Kommersant, ъ after щ in most Cyrillic alphabets) and Russian orthography (дочь/меч rule). Changed: 'both articles cite тушь/туш' was wrong (only the Russian alphabet article does) and туш was glossed 'a fanfare' where the source says 'flourish after a toast' - fixed; reworded the worked-example summary, which implied ь in Марья does not soften the consonant.",
+      "contentHash": "sha256:f6b89871c165a0f1e18fd87082e038737364a27e4d5f697c51b0f0e0847a11a7"
+    },
+    {
+      "slug": "thai-classifiers",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Thai language wikitext (khru ha khon interlinear, 'classifier is almost always used', chair four item/beer two bottle, kaew nueng bai vs kaew bai nueng, thuk/bang khon, mai mi + noun, noun-classifier-demonstrative with หมาตัวนี้, แมวตัวไหน), Thai numerals (no hierarchy, variations occur), Classifier (linguistics) (classifier vs measure word, 'head of cattle', absent or marginal in European languages, East/Southeast Asian incl. Chinese, Korean, Japanese, Vietnamese) and Wiktionary classifier senses re-fetched for คน ตัว อัน เล่ม คัน หลัง ลูก ใบ แผ่น (ตัว labelled derogatory and offensive if applied to humans) plus กี่ (followed by classifier or common noun; กี่บาท, กี่โมง), ขวด, หนังสือ, รถ. All Thai strings matched source codepoints. Changed: renamed generic 'Mistakes to avoid' heading; replaced unsourced 'sounds incomplete'/'rude'/'guessing wildly' bullets with Wikipedia/Wiktionary-attributed wording. App claim (classifiers, numbers, time, questions, negation in grammar lessons) matches catalog.",
+      "contentHash": "sha256:0e0e49caaa0e3db6c6001dde32e46837278c79ab7593fa7d4ee9f740a3df69e6"
+    },
+    {
+      "slug": "thai-consonant-classes",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Class lists checked letter by letter against saved Thai Wikipedia ไตรยางศ์ (11 high, 9 mid, 24 low; 14 paired and 10 single low; 7 pairs table; คา-ข่า-ข้า/ค่า-ค้า-ขา and นา series; no words with หณ/หฬ; Chindamani, Ayutthaya) and recounted with node (9+11+24=44, 14+10=24, all 44 Unicode consonants covered). English Wikipedia Thai script confirms Old Thai class phonetics, ฃ/ฅ obsolete, kho khai acrophony, letter names/meanings, ho nam, the four อ-led words, base tone table and mai tri/chattawa only with mid class. Worked tones (กา mid, ขา rising, หนา rising) recomputed from the table. Fixed: 'which is why two identical-sounding letters can exist' (source attributes duplicates to Old Thai and Sanskrit/Pali) to 'one reason they are not interchangeable'; corrected the live/dead definition (an open short-vowel syllable is dead, a sonorant final is live). Distinct from thai-tones-explained (rules) and the script beginner's guide.",
+      "contentHash": "sha256:dce85d4f19aa73d7057fd7a7f884a17ea635d6b88caf40fc9b9ad30e552f6c0d"
+    },
+    {
+      "slug": "thai-greetings",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wai (gesture) wikitext (sawatdi coined mid-1930s by Phraya Upakit Silapasan, Sanskrit svasti, kha/khrap usage, higher hands/lower bow, return wais, not waiing someone younger, cashiers acknowledged with smile or nod, entering a house and asking to leave, sampeah/sabaidee/mingalaba), Thai honorifics (given name + surname, khun mid tone vs ขุน, nicknames take no title, คะ high-tone interrogative) and Wiktionary สวัสดี (greeting/farewell/phone/attention, first used 1933, officially 1943, slang หวัดดี), ลาก่อน (only by one leaving), ขอบคุณ/ขอโทษ (equal or lower status), อรุณสวัสดิ์, ราตรีสวัสดิ์, สบายดี(ไหม). Cut unsourced 'if your hands are full' wai rule and 'she will usually return it'; changed 'the usual reply' to Wiktionary's gloss; cut filler from intro; added a sourced sentence (inscriptions, Phibunsongkhram's early-1940s promotion) from the same Wai article to keep the word count above the gate.",
+      "contentHash": "sha256:aa604bb9324838d8ae5594ac49c3c3c4d3c7ee122baedfa4473a3497f09506ed"
+    },
+    {
+      "slug": "thai-numbers",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All digits, words and RTGS forms match saved Thai numerals wikitext; rules verified (et for final one, Royal Thai Navy nueng, yi for tens digit of the twenties, roi/phan/muen/saen take a numeral with nueng optional, nueng never precedes sip, multiplier before lan, chut, nai, khrueng, lop, thi, khru ha khon). Baht facts (100 satang, banknotes 20-1000 baht, coins 25/50 satang and 1-10 baht) from Thai baht infobox; เท่าไร/เท่าไหร่ colloquial from Wiktionary. Recomputed 45,250, 1,280,000, 121, 350 and 1,250 with node. Fixed: yip contraction limited to 21-29 as the source says (body and FAQ); 'Thai, Lao and Khmer numerals are similar in shape' corrected to the source wording (numbers similar, numerals vary in shape and pronunciation); Hokkien to Min Nan; RTGS 'official system' now attributed to Wikipedia's Thai language article, added as a source (accessed 2026-10-25).",
+      "contentHash": "sha256:e66e944efd42f42fc004ad294ee57928251f5d28b28cc74cdfc87bcf4c4ab6d3"
+    },
+    {
+      "slug": "thai-polite-particles",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Thai language wikitext (particles often untranslatable, end of sentence, not used in elegant written Thai, khrap high tone for a male speaker, kha falling tone for a female speaker, คะ in questions/requests; na, cha, si, la table) and Thai honorifics (particles show respect to addressee; table of ขอรับ/ครับ/เจ้าขา/ค่ะ/คะ with gender, status and force; polite particles emerging in the Bangkok period) and Wiktionary ครับ (from ขอรับ, affirmation/assent, Genesis ใช่ครับ example, alternative spellings คับ/ค้าบ), ค่ะ (from ข้า in เจ้าข้า, formerly used by noblemen), ขอบคุณ (ขอบพระคุณ more formal). Fixed: Wiktionary says only ค่ะ was formerly used by noblemen (article had ค่ะ and คะ); cut unsourced 'sounds abrupt', 'says khrap to everyone' and 'whoever they are talking to' (the table lists an equal/superior addressee); rewrote the chat FAQ that claimed casual spellings are used in chat; renamed generic 'Common mistakes' heading.",
+      "contentHash": "sha256:88bc0285a31b3d3ae1cf25600cb9e9324f1f838c276c4cee8fe394cc5603a88c"
+    },
+    {
+      "slug": "thai-vowels-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Counts verified against saved Thai Wikipedia ความยาวสระ (32 = 18 short + 14 long; 9 simple pairs, 3 diphthong pairs, ฤ-ฤๅ/ฦ-ฦๅ, 4 unpaired อำ ไอ ใอ เอา; misleading-length examples ช่าง เก่ง แท่น ป้อม / น้ำ ไม้ ใต้ เช้า). English Wikipedia Thai script vowel chart confirms every sign, the English comparisons, final-consonant forms (◌ั◌, เ◌็◌, แ◌็◌, ◌◌, ◌ว◌, เ◌ิ◌), 21 named elements, ฦ obsolete, positions and cluster wrapping, inherent a/o with ถนน, mai malai vs mai muan (twenty words). Fixed: the chart's comparisons were described as British pronunciation (only 'goose' is marked RP) - reworded; เฉพาะ was presented as Wikipedia's example but is not in the source - re-fetched Wiktionary (specific; particular; pronounced ฉะ-เพาะ), reworded and added that source (accessed 2026-10-25).",
+      "contentHash": "sha256:c02a07644926471f661224cc2f8e9346aab2a22c5de3bc7b0aac57fc0c8c7cc1"
+    },
+    {
+      "slug": "vietnamese-classifiers",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Vietnamese grammar wikitext: cái/con definitions, the bốn con gà dialogue, con with dao, đường, mắt, sông, vít, the list of common classifiers and their glosses, the quả/trái and quyển/cuốn pairs, noun-phrase order and the cả hai cuốn từ điển Việt Anh này của nó example (seven slots checked), các quả cam, non-classified nouns (phút, tỉnh, Sino-Vietnamese compounds), the 200-classifier count and Thompson's note on cái, cái con, and the demonstratives with bà này / người nào; Classifier (linguistics) for the definition, 'three blades of grass' and ba bộ áo dài. Changed: cut an unsourced comparison claiming the Thai system uses a different order (now a plain pointer to the Thai article). App claims (classifiers in grammar lessons, sentence building, ads plus IAP) match catalog.",
+      "contentHash": "sha256:c85851b3ca32e586a97be915c59dc13e41f06617ce52c5273b38a6ceee430057"
+    },
+    {
+      "slug": "vietnamese-greetings",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Wiktionary (wikt_log): xin chào etymology and modern-coinage note, 'rather artificial' usage note, kính chào / xin kính chào, a-lô; chào + kinship term, (Cháu) chào chú (ạ), Chào mọi người hello/bye, the quý vị example; tạm biệt 'almost never used', bai with nhé/nha; dạ senses incl. 'yes?' and attention, vâng northern polite, Dạ vâng; cảm ơn 1992 standardisation and cám ơn as predominant spoken form; xin lỗi literal sense and excuse-me example; hẹn gặp lại translation note. Kinship table and the formal / very-old-person rules checked against Vietnamese pronouns wikitext. Changed: removed the unsourced opener ('Phrasebooks open with xin chào ... understood everywhere'); the rất tiếc note now matches Wiktionary ('translators may use', with its twin-room example) instead of a paraphrased 'sorry, we're full'; cut an invented app claim ('teaches standard written Vietnamese') and changed 'starting with greetings' to 'including greetings'; added five Wiktionary sources. Worked-example ages are flagged in the text as illustrations.",
+      "contentHash": "sha256:22a1486e4836941c850dd5d069f36ffb7243486e8f3fc69a573f47456883d3bf"
+    },
+    {
+      "slug": "vietnamese-numbers",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified 0-10, bảy/bẩy, native vs Sino-Vietnamese sets, chục, the mươi/mốt/tư/lăm rules (lăm vs năm 'year', the 05 exception, nhăm), 101 linh/lẻ, 1,001 không trăm, nghìn/ngàn, triệu, tỷ, thousands grouping with the 123,123,123 example, the comma decimal separator and ordinals against Vietnamese numerals wikitext; đồng subunits obsolete, 1,000-500,000 frequent notes, polymer since 2003 and coin withdrawal (April 2011) against Vietnamese đồng; bao nhiêu against Wiktionary. Recomputed the four price readings. Changed: takeaway 'prices are whole numbers of thousands' (unsourced) replaced with subunits unused, coins withdrawn 2011, frequent notes from 1,000₫; 'banknotes only' now attributed to the 2011 withdrawal; ordinals softened to 'more commonly' / 'occasionally' per source; intro claim that every number's tone is 'marked in the spelling' corrected (the level tone is unmarked), with Vietnamese phonology added as a source. App claims match catalog.",
+      "contentHash": "sha256:4f4dc6e47137cc5a70b4ea0e71fe047109a60ad441ff1c198912090f44e2f830"
+    }
+  ]
+}

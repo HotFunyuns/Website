@@ -38,7 +38,8 @@
     "mma-weight-classes-explained",
     "how-fight-cards-are-built",
     "mma-fantasy-draft-strategy",
-    "boxing-scoring-explained"
+    "boxing-scoring-explained",
+    "what-does-a-boxing-corner-do"
   ],
   "takeaways": [
     "Use 105, 108, 112, 115, 118, 122, 126, 130, 135, 140, 147, 154, 160, 168, 175 and 200 pounds as the division limits all four major sanctioning bodies share.",

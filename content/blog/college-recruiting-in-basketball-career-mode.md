@@ -47,7 +47,8 @@
     "basketball-career-sim-guide",
     "player-body-metrics-in-career-sims",
     "basketball-fouls-explained",
-    "pick-and-roll-explained"
+    "pick-and-roll-explained",
+    "basketball-career-pro-league-guide"
   ],
   "takeaways": [
     "A career that begins at the draft skips roughly a third of the story. Basketball Career Sim runs youth development, high school, recruiting and college before the draft, and states that each stage sets up the next.",

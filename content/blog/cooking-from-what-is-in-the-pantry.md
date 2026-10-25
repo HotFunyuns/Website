@@ -40,7 +40,9 @@
     "pantry-inventory-and-grocery-lists",
     "how-to-meal-plan-for-the-week",
     "batch-cooking-for-the-week",
-    "recipe-scaling-and-serving-sizes"
+    "recipe-scaling-and-serving-sizes",
+    "food-storage-times",
+    "kitchen-measurement-conversions"
   ],
   "takeaways": [
     "Sort a recipe's ingredients into structural, flavour and optional before deciding whether a gap matters — a missing structural ingredient is a different dish, a missing garnish is nothing.",

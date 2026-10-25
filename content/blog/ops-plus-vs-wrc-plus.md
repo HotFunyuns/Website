@@ -37,7 +37,8 @@
     "ops-and-slugging-explained",
     "baseball-stats-explained-for-beginners",
     "what-is-era-in-baseball",
-    "baseball-draft-gm-guide"
+    "baseball-draft-gm-guide",
+    "baseball-draft-gm-team-partnership-opportunities"
   ],
   "takeaways": [
     "Read any plus stat as a percentage of league average after park and league adjustments: 100 is average, 120 is about 20 points better.",

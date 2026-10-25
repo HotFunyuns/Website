@@ -23,7 +23,9 @@ export type SportId =
   | 'rugby'
   | 'combat-sports'
   | 'tennis'
-  | 'golf';
+  | 'golf'
+  | 'cricket'
+  | 'motorsport';
 
 export interface SportStep {
   title: string;
@@ -47,6 +49,13 @@ export interface SportInfo {
    * and in the catalog — the check at the bottom of this file enforces it.
    */
   apps: { draft?: string; career?: string };
+  /**
+   * Further apps for the sport, each with the role it plays — a hands-on career
+   * game beside a decision-led career sim, or a league sandbox beside a draft
+   * game (added 2026-10-24, when the catalog grew to 61 apps). Copy never names
+   * them; the hub lists them as cards.
+   */
+  also?: { slug: string; role: string }[];
   /** The published article to read first. Checked against the blog at build time. */
   cornerstone: string;
   /**
@@ -88,6 +97,10 @@ export const sports: SportInfo[] = [
     blurb:
       'Positions, rotations, shooting efficiency, draft lotteries and salary caps — plus how a basketball GM game and a career sim each model the sport.',
     apps: { draft: 'pro-basketball-draft-gm-mode', career: 'pro-basketball-my-career-sim' },
+    also: [
+      { slug: 'basketball-career-pro-league', role: 'Hands-on career game' },
+      { slug: 'basketball-league-sandbox', role: 'League sandbox' },
+    ],
     cornerstone: 'basketball-draft-gm-guide',
     keywords: ['basketball'],
     intro: [
@@ -210,6 +223,10 @@ export const sports: SportInfo[] = [
     blurb:
       'Positions, depth charts, passer rating, clock management and the draft — plus how a football GM game and a quarterback career sim model the sport.',
     apps: { draft: 'football-draft-gm-mode', career: 'football-career-sim' },
+    also: [
+      { slug: 'football-career-pro-league', role: 'Hands-on career game' },
+      { slug: 'football-league-commissioner', role: 'League commissioner sim' },
+    ],
     cornerstone: 'football-draft-gm-guide',
     keywords: ['american football', 'football'],
     intro: [
@@ -271,6 +288,7 @@ export const sports: SportInfo[] = [
     blurb:
       'Icing, power plays, line combinations, positions and goaltending statistics — plus how a hockey draft game and a career sim model the sport.',
     apps: { draft: 'hockey-draft-gm-manager', career: 'hockey-career-sim' },
+    also: [{ slug: 'hockey-career-pro-league', role: 'Hands-on career game' }],
     cornerstone: 'hockey-draft-gm-guide',
     keywords: ['hockey'],
     intro: [
@@ -332,6 +350,7 @@ export const sports: SportInfo[] = [
     blurb:
       'Offside, league tables, positions, formations and transfers — plus how a soccer draft game and a career sim model association football.',
     apps: { draft: 'soccer-draft-gm-xi', career: 'soccer-career-sim-xi' },
+    also: [{ slug: 'football-career-soccer-league', role: 'Hands-on career game' }],
     cornerstone: 'soccer-formations-explained',
     keywords: ['soccer'],
     intro: [
@@ -460,6 +479,7 @@ export const sports: SportInfo[] = [
     blurb:
       'Judging and the 10-point must system, weight classes, fight records, stances and style matchups — plus our MMA and boxing draft game.',
     apps: { draft: 'mma-boxing-fight-draft' },
+    also: [{ slug: 'boxing-prize-fighter-career', role: 'Boxing career game' }],
     cornerstone: 'boxing-scoring-explained',
     keywords: ['mma', 'boxing', 'combat sports'],
     intro: [
@@ -611,16 +631,126 @@ export const sports: SportInfo[] = [
           'A Handicap Index describes your ability on a course of standard difficulty. A course handicap converts it into the number of strokes you receive from a particular set of tees, using that course’s Slope Rating, Course Rating and par.',
       },
     ],
-    relatedSports: ['tennis', 'combat-sports', 'baseball'],
+    relatedSports: ['tennis', 'combat-sports', 'motorsport'],
     metaTitle: 'Golf Guides: Handicaps, Scoring, Career Sims',
     metaDescription:
       'Golf guides from Reign Creative LLC: scoring, World Handicap System calculations, course management, cuts and tour formats, plus our golf career sim.',
     updatedAt: '2026-10-02',
   },
+  // ----------------------------------------------------------------- cricket
+  {
+    id: 'cricket',
+    label: 'Cricket',
+    shortLabel: 'Cricket',
+    noun: 'cricket',
+    heading: 'Cricket rules, formats, statistics and roles',
+    blurb:
+      'The Laws, dismissals, scoring, formats from Tests to T20, statistics and player roles — plus our cricket career simulator.',
+    apps: { career: 'cricket-career-simulator' },
+    cornerstone: 'cricket-rules-for-beginners',
+    keywords: ['cricket'],
+    intro: [
+      'Cricket is governed by the Laws of Cricket, written by the MCC, and by playing conditions that the ICC publishes for each international format. A match is played between two sides of eleven players, and almost everything else — how runs are scored, the ten ways a batter can be dismissed, what counts as a no-ball or a wide, how long a match lasts — depends on the Law or playing condition in force. These guides explain the rules first, then the formats, the statistics and the roles players take.',
+      'They sit alongside {career}, our cricket career game, in which you create one cricketer, choose their role and style, and develop batting, bowling and fielding skills as the career builds.',
+    ],
+    appsRelation:
+      '{career} follows one player rather than a team: you make the key decisions in a match while fast simulation handles the rest, and develop skills from batting technique and scoring to pace and spin bowling, fielding and cricket IQ between matches.',
+    orientation: [
+      {
+        title: 'Start with the rules',
+        body: 'The beginner’s guide to the rules covers the basics; the scoring guide explains runs and extras, and the guide to ways of getting out walks through every dismissal, with LBW, no-balls and wides covered on their own.',
+      },
+      {
+        title: 'Then the formats',
+        body: 'The formats guide compares Test, one-day and T20 cricket, and the guides to the follow-on, draws, powerplays, the super over, net run rate and the DLS method explain the rules each format adds.',
+      },
+      {
+        title: 'Then the players',
+        body: 'The guides to player roles, fielding positions, batting shots, pace and spin bowling and cricket statistics explain what each player does and how their contribution is measured.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'What is {career}?',
+        answer:
+          'A cricket career game built around one player. You create a cricketer, choose a look, a role and a style or randomise one, and develop batting, bowling, fielding, athleticism and cricket IQ. Matches combine interactive decisions with fast simulation and live stats, and the career brings daily goals, coach and team choices, rewards and rivals.',
+      },
+      {
+        question: 'Who writes the rules of cricket?',
+        answer:
+          'The Laws of Cricket are written by the MCC. International matches are played under the ICC’s playing conditions for each format, which build on the Laws and set format rules such as fielding restrictions and the number of overs.',
+      },
+      {
+        question: 'How many ways can a batter be out in cricket?',
+        answer:
+          'Ten under the 2026 edition of the Laws: bowled, caught, hit the ball twice, hit wicket, leg before wicket, obstructing the field, run out, stumped and timed out, plus retired out. Handled the ball was a separate dismissal until 2017 and is now part of obstructing the field. The dismissals guide explains each one.',
+      },
+    ],
+    relatedSports: ['baseball', 'rugby', 'tennis'],
+    metaTitle: 'Cricket Guides: Rules, Formats, Stats, Career Sim',
+    metaDescription:
+      'Cricket guides from Reign Creative LLC: the Laws, dismissals, scoring, Test, ODI and T20 formats, statistics and player roles, plus our cricket career sim.',
+    updatedAt: '2026-10-24',
+  },
+  // -------------------------------------------------------------- motorsport
+  {
+    id: 'motorsport',
+    label: 'Motorsport',
+    shortLabel: 'Motorsport',
+    noun: 'motorsport',
+    heading: 'Motorsport rules, race strategy and the career ladder',
+    blurb:
+      'Flags, safety cars, qualifying, points, tyre strategy, racing lines and the path from karting — plus our racing career game.',
+    apps: { career: 'car-racing-pro-career' },
+    cornerstone: 'racing-flags-explained',
+    keywords: ['motorsport'],
+    intro: [
+      'A motor race is decided as much by rules and strategy as by speed. Flags and safety cars control the track, qualifying sets the grid, a points system turns finishing positions into a championship, and tyres, pit stops and the weather decide how a race unfolds. These guides explain those rules, mostly as Formula 1’s regulations set them out, and the techniques behind them: the racing line, slipstreaming and car setup.',
+      'They sit alongside {career}, our motorsport career game, which starts in karting and junior racing and leaves the steering to a race simulation while you make the race-day calls.',
+    ],
+    appsRelation:
+      '{career} is a decision game, not a driving game: during a simulated race you choose when to attack, defend or hold position, how to brake into a corner, which line to take and when to pit, while tyres, fuel, weather and cautions change the picture. Every circuit is fictional.',
+    orientation: [
+      {
+        title: 'Start with the flags',
+        body: 'The flags guide explains what each flag tells a driver, and the safety car guide covers what happens when the race is neutralised.',
+      },
+      {
+        title: 'Then the weekend',
+        body: 'The qualifying guide explains how the grid is set, and the points-systems guide how results become a championship.',
+      },
+      {
+        title: 'Then strategy and technique',
+        body: 'The guides to tyre strategy, the undercut and overcut, wet-weather racing, the racing line, slipstreaming and car setup explain the choices that decide a race, and the career-ladder guide shows how drivers rise from karting.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'What is {career}?',
+        answer:
+          'A motorsport career game without steering controls. Races are simulated and you make the decisions that change the result — attacking, defending, braking, racing lines, tyres, fuel and pit stops — while the career climbs from karting and junior racing through professional motorsport, with contracts, teammates, rivals, the media and sponsors along the way.',
+      },
+      {
+        question: 'Are the circuits in {career} real?',
+        answer:
+          'No. The game races on fictional circuits, each with its own layout, corner types, surface and climate, and speeds can be shown in mph or km/h.',
+      },
+      {
+        question: 'Do these guides follow one championship’s rules?',
+        answer:
+          'Mostly Formula 1’s, because the FIA publishes its sporting regulations in full, and each guide cites the regulations it relies on. Other series set their own rules, so check the regulations of the championship you follow.',
+      },
+    ],
+    relatedSports: ['golf', 'tennis', 'combat-sports'],
+    metaTitle: 'Motorsport Guides: Rules, Strategy, Career Sim',
+    metaDescription:
+      'Motorsport guides from Reign Creative LLC: flags, safety cars, qualifying, points, tyres, pit strategy and racing lines, plus our racing career game.',
+    updatedAt: '2026-10-24',
+  },
 ];
 
 /** The day the /sports/ index's own copy last changed. */
-export const SPORTS_INDEX_UPDATED_AT = '2026-10-02';
+export const SPORTS_INDEX_UPDATED_AT = '2026-10-24';
 
 /** Standing copy for /sports/. App names never appear here; the page reads them from the catalog. */
 export const sportsIndexCopy = {
@@ -652,7 +782,7 @@ export const sportsIndexCopy = {
   ] as AppFaq[],
   metaTitle: 'Sports Guides, Calculators and Sim Games',
   metaDescription:
-    'Rules, statistics and strategy guides for nine sports, free sports calculators, and how Reign Creative’s draft and career sims fit together, by sport.',
+    'Rules, statistics and strategy guides for eleven sports, free sports calculators, and how Reign Creative’s draft and career sims fit together, by sport.',
 };
 
 export const sportIds = new Set<string>(sports.map((sport) => sport.id));
@@ -667,7 +797,19 @@ export function sportPath(sport: Pick<SportInfo, 'id'>): string {
 
 /** The sport an app belongs to, by its catalog slug. */
 export function getSportForApp(appSlug: string): SportInfo | undefined {
-  return sports.find((sport) => sport.apps.draft === appSlug || sport.apps.career === appSlug);
+  return sports.find(
+    (sport) =>
+      sport.apps.draft === appSlug ||
+      sport.apps.career === appSlug ||
+      (sport.also ?? []).some((extra) => extra.slug === appSlug)
+  );
+}
+
+/** A sport's further apps (see SportInfo.also), with their roles. */
+export function getSportExtraApps(sport: SportInfo): { app: AppInfo; role: string }[] {
+  return (sport.also ?? [])
+    .map((extra) => ({ app: getAppBySlug(extra.slug), role: extra.role }))
+    .filter((entry): entry is { app: AppInfo; role: string } => Boolean(entry.app));
 }
 
 /** The catalog records behind a sport's roles. */
@@ -720,6 +862,11 @@ for (const sport of sports) {
   for (const [role, slug] of Object.entries(sport.apps)) {
     if (slug && !getAppBySlug(slug)) {
       throw new Error(`src/data/sports.ts — "${sport.id}" lists ${role} app "${slug}", which is not in the catalog`);
+    }
+  }
+  for (const extra of sport.also ?? []) {
+    if (!getAppBySlug(extra.slug)) {
+      throw new Error(`src/data/sports.ts — "${sport.id}" lists app "${extra.slug}", which is not in the catalog`);
     }
   }
   const copy = [

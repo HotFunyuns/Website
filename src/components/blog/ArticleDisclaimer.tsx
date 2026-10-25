@@ -48,6 +48,33 @@ const COPY: Record<Exclude<DisclaimerKind, 'none'>, { title: string; body: React
       </>
     ),
   },
+  wellness: {
+    title: 'Not medical advice',
+    body: (
+      <>
+        This article is general information about relaxation and breathing practice, not medical or
+        mental-health advice, and it is not written or reviewed by a doctor or therapist. Breathing
+        exercises are not a treatment for anxiety, sleep problems or any medical condition. Stop and
+        breathe normally if an exercise makes you dizzy or uncomfortable, and talk to a qualified
+        healthcare professional before starting breath-holding exercises if you are pregnant or have a
+        heart, lung or other medical condition, or if symptoms persist. Sources are listed at the end
+        of the article.
+      </>
+    ),
+  },
+  finance: {
+    title: 'Education, not advice',
+    body: (
+      <>
+        This article explains how markets and trading work in general. It is not investment, tax or
+        legal advice, it does not recommend any security or strategy, and nothing in it predicts prices
+        or returns. Investing involves risk, including the loss of the money you invest. Rules and
+        figures here are US-focused and dated where they appear, and they change: check current rules
+        with official sources such as Investor.gov and FINRA, and talk to a licensed professional about
+        decisions involving your own money. Our trading app is a simulator that uses virtual money only.
+      </>
+    ),
+  },
   partnership: {
     title: 'About this page',
     body: (

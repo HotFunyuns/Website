@@ -45,7 +45,9 @@
   "relatedArticles": [
     "why-rome-fell",
     "major-eras-of-world-history",
-    "why-historical-eras-overlap"
+    "why-historical-eras-overlap",
+    "the-vikings-explained",
+    "roman-republic-vs-empire"
   ],
   "takeaways": [
     "Late antiquity is a twentieth-century addition to the period scheme, covering roughly the third or fourth century to the seventh or eighth, depending on the region and the question.",

@@ -1,0 +1,474 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person's review.",
+  "entries": [
+    {
+      "slug": "cricket-ball-types",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Law 4.1 Size 1/2/3 weights and circumferences, 4.3/4.4 new ball and 80 overs and 4.6 governing body checked against the 2026 Laws text (final Law, not the strikethrough draft in the changes PDF); MCC ten-changes PDF for uniform tolerances; Wikipedia Cricket ball for floodlight colour, white-ball swing (flagged citation needed, now said so), pink ball July 2009 Wormsley / Nov 2015, construction, six rows of stitches, SG/Dukes/Kookaburra and white Kookaburra. ICC ODI PC 4.3 two balls to over 34. Fixed: saliva sanction now matches ODI PC 41.3 (replace unless deliberate); removed unsourced 'most amateur cricket' and the opening generalisation.",
+      "contentHash": "sha256:08511ddfa0d734466fcdd45bd195e8c59f36c87381f4a41b17a089cc9d115163"
+    },
+    {
+      "slug": "cricket-bat-rules",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All Law 5.7 limits (38 in, 4.25/2.64/1.56 in, 52% handle except size 6 and less, 0.04 and 0.12 in), 5.8 Types A-D and Appendix B.7/B.8 gauge (4.33/2.68/1.61 in) verified against the 2026 Laws; laminated Type D rationale from MCC ten-changes PDF; Wikipedia Cricket bat for willow, Richardson splice, Lillee 1979 ComBat, Kookaburra 2005 carbon bat. Cut the unsourced opening causal claim and 'thicker edge turns mishits into boundaries' (replaced with the Preface's bat-and-ball balance objective); corrected '52% for adult sizes' to 'larger than size 6'; gauge sentence now says only what B.8 says.",
+      "contentHash": "sha256:d2fb2b100bcb44c5cb5f357ed30d84b8d85a19fbf5da8e1db0e1b589b69f79d6"
+    },
+    {
+      "slug": "cricket-batting-shots",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against Wikipedia Batting (cricket): front/back foot heights, glance, flick, drives by direction, cut/late cut/upper cut, pull/hook, sweep, reverse sweep, switch hit ICC clearance, helicopter, scoop; Law 36.3 off side for the switch hit. Fixed: square drive had been listed as a straight-bat drive (Wikipedia says it is a horizontal-bat shot); unsourced bat-path table cells; unsourced claim that lofted shots are lower-risk in powerplays (replaced with Wikipedia's Test vs ODI risk passage); intro generalisation.",
+      "contentHash": "sha256:b3ed24b1abf5b23609e9ff46487a3a090fb83c3d35fef8554d85772161cfecc5"
+    },
+    {
+      "slug": "cricket-career-simulator-guide",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every app statement checked against appfacts and the live listing fullDescription (probe61.json). Listing-credited lines now match listing text; catalog-only facts (player not team at centre, screenshots) credited to the app page on this site. Removed unsourced 'most cricket games put you in charge of a team', an implied milestones feature, an athleticism 'season' gloss and opinionated role tips; 'playing is free' corrected to 'free to download'. Limitations (formats not stated, no multiplayer described) kept as the catalog states.",
+      "contentHash": "sha256:0714d93dd113ee9da218af98979ba851650bbf187059d2fae34906cc7b59f506"
+    },
+    {
+      "slug": "cricket-fielding-positions",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Laws 28.4, 28.5, 28.6 and 27.3 (2026) verified; Wikipedia Fielding (cricket) for polar-coordinate naming, off/leg side, silly, sweeper, cow corner, on the 45, 7-2/6-3/5-4 fields; ICC ODI/T20I 30-yard circle. Fixed a rules error: unfair fielder movement under Law 28.6 is dead ball plus 5 penalty runs, not a no ball. Keeper 2026 change reworded to the MCC summary; helmet claims softened to 'permitted to wear a helmet and face guard'; left/right-hander point now attributed.",
+      "contentHash": "sha256:212242579ffc824fe5f409891a250695df72e390f5e12d86d03354bb7c9e87d2"
+    },
+    {
+      "slug": "cricket-formats-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Test PC 12.7.1 (6 h, 90 overs, 15/h, 30 min), 13 five days, 14 follow-on 200; four-day PC 98 overs in 6.5 h; ODI PC 13.6/13.9 (50 overs, 10 per bowler), 4.3 two balls to over 34, 4.3.3 one ball at 25 overs or fewer, 16.1 20-over minimum, 16.3.1 Super Over; T20I 13.9 four overs, 28.7 six-over powerplay, five-over minimum. First-played dates from Wikipedia (Test, ODI, T20I) - ODI and T20I pages added to sources. 'Since October 2026' two-ball wording corrected to 'Under'; unsourced tactics bullets replaced with sourced Wikipedia Batting points (source added).",
+      "contentHash": "sha256:9be6fa59831a7754a6dfac986208398246f8de164c6e0bf028e26ee060280463"
+    },
+    {
+      "slug": "cricket-milestones-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Wikipedia Century: definitions incl. double/triple/quadruple still counted as centuries, Grace 1895, Hobbs 199, Amiss 103 on 24 Aug 1972, Tendulkar 51. Five-wicket haul: 5wI/fifer, honours boards, Muralitharan 67, Waqar 13, Naseem Shah 2019 aged 16, McGrath ball-raising 2001. Hat-trick, duck (golden/silver/bronze, Bradman 30 Dec 1932) and maiden definitions checked. Removed an unsourced 'wides and no balls count in a maiden' clause, 'one of the most famous double centuries' and a generalisation; added pair/king pair rows from the duck article (restores the 760-word gate).",
+      "contentHash": "sha256:999f5b615a76163cdcb60f7cdfdd8bb8a2d31f632a84c181e73091e056afba30"
+    },
+    {
+      "slug": "cricket-player-roles",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Wikipedia Batting order (positions, openers and the new ball, middle order, nightwatchman Gillespie 201*, Buttler/Stokes 2020, no rules on changes, keepers at 6-7), All-rounder (definitions, Bacher 2013, 42 genuine), Wicket-keeper (gloves and external leg guards, standing up), Fast bowling (strike bowlers), Captain (toss, selection); ICC 10/4-over caps. Fixed: '11 specialists' intro, 'favourite example' wording, an unsourced 'rest of the attack' description; keeper-batter promotion now matches the source.",
+      "contentHash": "sha256:85f886fd7ea64836f869d034ff6c966cfa27a58dc57a0cd0661d0472ba7b255e"
+    },
+    {
+      "slug": "cricket-rules-for-beginners",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Laws 1, 6 (22 yd x 10 ft), 8 (28 in, 9 in), 13 (innings, completed innings), 15, 16, 17 (6 valid balls, no consecutive overs), 19 (4/6) checked in the 2026 text; Laws in force from 1 Oct 2026. Win-by-runs table row rewritten to Law 16.7; draw definitions now follow Law 16.5.2 instead of 'typically / multi-day only'. Worked results (250 v 220 = 30 runs; 252/6 = 4 wickets) recomputed.",
+      "contentHash": "sha256:bdb9e9affbfc5b6bd4738f66af6ed60d736716d2456ac1a909707b0bc6b14e52"
+    },
+    {
+      "slug": "cricket-stats-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Recomputed with node: 612/15=40.80, 612/18=34.00, 612/480x100=127.50, 62.4 overs=376 balls=62.667 overs, 318/14=22.71, 318/62.667=5.07, 376/14=26.86. Definitions, Bradman 99.94, 20-innings qualification, Patterson 144, SR>150 in T20, economy conversion example (51/16.1667) checked against Wikipedia. Replaced unsourced claims (lower-order flattering averages, T20/Test bowling opinions, 'quick 30') with Wikipedia's Tufnell example and its economy and bowling-average statements.",
+      "contentHash": "sha256:b52b54aebe8069fdd761c51565646f9d3904c3b3733e6c4e53ef67faa1aed814"
+    },
+    {
+      "slug": "cricket-umpire-signals",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every Law 2.13 signal, scorer acknowledgement, ordering and short-run allocation verified in the 2026 Laws; ICC ODI PC 2.13 free hit and powerplay signals, DRS TV-screen and T signs, revoke before reversal. Fixed a rules error in the worked ODI sequence: front-foot no balls in ICC ODIs are judged by the third umpire from replays, who advises the bowler's end umpire (ODI PC 21.5). ICC-specific signals now scoped to the ODI conditions. 1+6=7 runs recomputed.",
+      "contentHash": "sha256:d95d8ff51654edf3bdd2cddd53cb709711acb9bf66d8623bb1f02e58c3fe9e93"
+    },
+    {
+      "slug": "duckworth-lewis-stern-method",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Wikipedia DLS: 1992 semi-final 22 off 13 to 21 off 1, earlier methods' flaws, resources, Professional Edition formula, 254x90%=228.6 (recomputed), target 229, tie 228, values not public, first use 1 Jan 1997, ICC 1999, Stern and Nov 2014 rename. ICC ODI PC A.1.14, 16.4.1 (whole-number target, one less ties), 16.4.2 par on termination, 16.1 20-over minimum, 16.10.2 NRR credits; T20I five-over minimum. No changes needed.",
+      "contentHash": "sha256:fce8605995c3a9987af172661b1c5d7552030a57f3b17cc484d2261a0673ab32"
+    },
+    {
+      "slug": "follow-on-rule-cricket",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Law 14 (200/150/100/75, notification, first day lost) and ICC Test (200) / four-day Test (150) PC 14 verified. Wikipedia Follow-on for purpose, factors, India in Sri Lanka 2017 (304 runs; 622/9d v 183 and 386, innings and 53 recomputed), four wins after following on. Worked example recomputed (lead 220; target 81). Fixed: Headingley margin now 18 runs (Australia set 130, all out 111, from the source's figures) instead of 'fewer than 20'; removed unsourced 'often decline', 'declining is common', a wearing-pitch spin claim and a 'classic' label; factors now follow Wikipedia.",
+      "contentHash": "sha256:b82e65a585249dfd9dd5aa05a666757f2fbe94c985cb3d69e81076aeb80f420c"
+    },
+    {
+      "slug": "how-a-test-match-ends-in-a-draw",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Laws 15 and 16 (2026), Test PC 12.7.1/12.7.6 (90 overs; 75 before the last hour plus 15 in it; no make-up after the last hour starts), WTC 2025-27 PC 16.10 (12/6/4/0) and 16.12 points percentage, Wikipedia Tied Test (two ties, 1960 Brisbane, 1986 Madras). 75+15=90 overs = 540 balls and 4/12 recomputed. Removed unsourced 'draws are routine', 'declare boldly', 'typically' wording and a flat-pitch claim (replaced with Wikipedia Cricket pitch: crumbling surface, 2010 heavy-roller ban; source added). Intro no longer implies football has no draws.",
+      "contentHash": "sha256:53d820f9e3483558a88c061ffc3c42f0fdb14ee36bda7e960f813e2a688d4e5a"
+    },
+    {
+      "slug": "how-cricket-pitches-affect-play",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Law 6 (dimensions, umpires sole judges), 9.1.1 (7 minutes rolling), 9.4 (no watering), 10.1 (Ground Authority covers), 41.11 protected area (5 ft, 1 ft) and 41.13 caution/final warning/suspension verified; ICC pitch-ratings page for match-referee ratings and substandard sanctions. Rewrote the pitch-type table: removed the unsourced 'road' type, a 'typical plan' column and toss logic Wikipedia does not state; the day-by-day arc now matches Wikipedia (batting easier as moisture goes, later crumbling); footmark sentence attributed; one FAQ question changed to a green-top definition.",
+      "contentHash": "sha256:d46caba82103bfc3a8bc0fbf3c809739849ee34c30449996236731c4fa2b2e56"
+    },
+    {
+      "slug": "how-cricket-scoring-works",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Laws 18.3/18.4 (short runs, boundary disregard unless overthrow), 19.7 (4/6, greater of boundary or runs), 19.8 overthrow definition (2026), 21.14 no-ball penalty, 22.1.3 head-height wide, 22.7, 23 leg byes, 28.2 illegal fielding 5 runs, 18.5.2 deliberate short running verified; MCC ten-changes PDF for the overthrow overhaul; Wikipedia Scoring for 6/250 order in Australia. Worked over recomputed: 16 runs, batters 14, 2 extras, 8 deliveries. Minor: source title corrected, 'often missed' softened.",
+      "contentHash": "sha256:d72bec42d8c1aac43b8719967495d6dc5810581e9b8f72cbe7f8e4f0c17a73f1"
+    },
+    {
+      "slug": "how-drs-works-in-cricket",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Checked against ICC Test PC Appendix D: umpire-review scope and red/green lights, third umpire's feet check, player-review eligibility (not timed out), who may review, T sign, 15 s with 10 s prompt, LBW genuine-attempt question, no withdrawal, 3 unsuccessful per innings (ODI and T20I PCs: 2), categorisation table, reinstatement rule, approved technologies, removal clause, umpire's call wicket zone, 300 cm and 250-300 cm/40 cm rule, revoke signal. No changes needed.",
+      "contentHash": "sha256:4f7850b952042b38e0e2e31b539a0b931d01918202fca4595b996c62b311f9ff"
+    },
+    {
+      "slug": "how-long-is-a-cricket-match",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "ODI PC 12.7.1 (two 3.5 h sessions, 30 min), 12.8 14.28/h; T20I 1 h 25 min sessions, 15 min interval reducible to 10, 14.11/h, drinks 2:30, extra minute for 6th-9th wickets, over rate shown every four overs, reserve day 13.6, Super Over five minutes; Test 12.7 and intervals (lunch 40, tea 20, 10 between innings); four-day 98 overs in 6.5 h; WTC one point per penalty over. Recomputed 50/14.28=3.50 h, 20/14.11x60=85.0 min, 98/6.5=15.08, 9.5 overs/14.11 = 40.4 min. Softened 'session lengths come from over rates' to 'line up with'; filled the four-day interval cell from the PC. Borderline: the four-day PC's duration clause still reads 'five days' scheduled duration' (apparent drafting carry-over); the article follows the document title and its 98-over/150-run four-day figures.",
+      "contentHash": "sha256:bd6c57792ef0abdf173959a843f980757e8464a25a19c44102a5ff3b977a72ee"
+    },
+    {
+      "slug": "lbw-rule-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Law 36.1-36.3 (2026 wording incl. 'lands', above the bails, simultaneous bat-pad, path assumed to continue, off side when the ball comes into play) and Test PC Appendix D 3.4 (fairness then bat check, landing/impact/wicket zones, umpire's call definitions, 300 cm and 250-300 cm/40 cm rule, review retained on umpire's call) verified. Removed unsourced 'most argued-about dismissal', a rationale for the distance rule and a spinner generalisation.",
+      "contentHash": "sha256:2b92cb284e8d08aef0b0bdefacc14a13da026c1be235a0f449d08ab03ac1074b"
+    },
+    {
+      "slug": "net-run-rate-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "T20I PC 16.10.1 (2/1/0 points; wins, then head-to-head wins, then NRR; no result not applicable) and 16.10.2 (definition, all-out full quota, results only, DLS crediting) verified; Wikipedia for 1/6 overs, the 30.5 = 30.833 example and criticisms. Recomputed: 320/40=8.000, 291/36.333=8.009, NRR -0.009; wrong-overs variant +0.486. Softened 'often settled' and 'most common mistake'.",
+      "contentHash": "sha256:303531249d1c1585fc1cfd169e588aa0151b7085bf2309e7d9574ec125507346"
+    },
+    {
+      "slug": "no-ball-and-wide-rules",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Laws 21.1-21.17 (mode, underarm, throwing warnings and suspension, feet, breaking the wicket, bouncing/landing off the pitch, no ball overrides wide, penalty, out from a no ball), 22 (incl. 2026 22.1.3 head height and 22.9 out from a wide), 41.7 waist-high full toss; ICC ODI 21.5 third-umpire feet, 21.18 free hit, 22.1.4 strict interpretation; Test 22.1.4/22.1.5 leg-side rough; added ICC 41.6 fast-short limits (two per over in Tests/ODIs, one in T20Is). Fixed: a takeaway said every no ball in ICC internationals brings a free hit (Tests have none) - now ODIs and T20Is; removed an unsourced club-cricket comparison, 'most often' and run-up filler.",
+      "contentHash": "sha256:497b67d15f936157874d1672cd2227ae0ec552bd3dc5818d090ee88b9cedc2f6"
+    },
+    {
+      "slug": "pace-vs-spin-bowling",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Wikipedia Fast bowling (86 mph/138 km/h, speed categories, seamer, strike bowling, inswinging yorker), Swing bowling (conventional with a newer ball, reverse towards the shiny side, grip and polishing), Spin bowling (70-90 km/h, rotation, Magnus drift, four types, no overlap, worn ball and later pitch, openers in T20); ICC illegal-action page (15 degrees, accredited testing, suspension until retest); Law 21.2. Removed an unsupported run-up row, a 100 km/h claim credited to the wrong article, 'swing-friendly weather', 'last two days' and the intro generalisation; table rows now sourced (Cricket pitch added to sources).",
+      "contentHash": "sha256:73c3e2d5153138822884744397126baf80bffff0ffc95059529f567908069434"
+    },
+    {
+      "slug": "powerplays-in-cricket",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "ODI PC 28.7.2 (30 yd/27.43 m circles, 5-yard dots, 2/4/5 over overs 1-10/11-40/41-50, reduced-overs table, 8.3->32 and 18.5->22 illustrations, signals); T20I 28.7 (6 overs, 2 then 5, reduced table - the PDF table text is offset by two rows; values matched to overs 5-19 and confirmed by the 30% pattern; 28.7.7 mid-over rule); free-hit field-change limit 21.18.3.2. Replaced unsourced tactics bullets with Wikipedia Batting order (aggressive openers after fielding restrictions) and Over (harder maidens) points (sources added) plus arithmetic on fielders inside the circle; intro no longer claims a Test captain can put every fielder on the boundary.",
+      "contentHash": "sha256:feec8cf48892c94fb1816e33217238828076d777594508a2f1392ea15a201eb6"
+    },
+    {
+      "slug": "spin-bowling-variations",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Wikipedia Leg spin / Off spin / Spin bowling: four types and left-arm definitions, directions, left-handers and off breaks, leg-spin repertoire (googly, top spinner, flipper, slider), Warne's Ball of the Century 1993 and revival, Warne/Kumble 2nd/4th, arm ball, doosra and Saqlain, why off spin is easier, drift/Magnus, 70-90 and 100 km/h (Leg spin article); ICC 15-degree page. Fixed: the 'legspin is the whole set' quote is now attributed to ESPNcricinfo's style sheet as cited by Wikipedia; removed 'look alike from the hand', 'classic' and a pace/flight opinion, replaced with sourced off-spin statements.",
+      "contentHash": "sha256:a17de956fc835907cd1a4b396c27a9cc7b29205b639c79b00dcfab51be7cc201"
+    },
+    {
+      "slug": "super-over-rules",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Every procedural point checked against T20I PC Appendix F paragraphs 1-26 and extra-time Example 1 (10.20/10.35/10.40/45 min/10.50-11.00/35 min/11.15), and ODI PC 16.3.1.1; Wikipedia Super Over for 2008 first use replacing the bowl-out, the 2019 final and boundary count-back, the October 2019 change. Worked example logic checked. Only change: 'widely criticised' replaced with Wikipedia's 'many former cricketers and fans'.",
+      "contentHash": "sha256:807438ae7579c9d5872a8cee19c50a20a52f440231bfc6330eeee79f0192fd78"
+    },
+    {
+      "slug": "ways-to-get-out-in-cricket",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Laws 25.4 (retired out), 32-40 (incl. 32.2 bowled precedence, 39 stumped, 40 three minutes, 34.5/37.6/38.6/40.2 bowler gets no credit), 21.17 and 22.9 out from a no ball/wide, 2026 19.5.2 boundary catches and 35 hit wicket from the MCC ten-changes PDF; Wikipedia Dismissal for 63,584 Test dismissals 1877-2012 (56.9/40.6/16.3/21.4/14.3/3.5/2.0; 98.2% sum recomputed) and pre-2017 handled the ball. No changes needed.",
+      "contentHash": "sha256:df51213a62969f712d9e4c012c0bed71b2cd366b470a92db85f78327cc348f16"
+    }
+  ]
+}

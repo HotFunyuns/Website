@@ -1,0 +1,564 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person's review.",
+  "entries": [
+    {
+      "slug": "pro-basketball-my-career-sim-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Audience quotes ('story behind the stat line', 'decisions with long-term consequences') and 'early decisions show up seasons later' re-attributed from the Play listing to the app's page on this site (they are catalog text). Live Sim, five career stages, offline/no account, ads + optional premium purchase (removes ads, unlocks themes) and fictional leagues verified against appfacts and the saved Play listing text. 10/5=2 recomputed. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:b13794a32fd5a5046a7f549fd06a0a6d1cbb5ef556ef12c8ec2971d2466778cb"
+    },
+    {
+      "slug": "basketball-career-pro-league-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Cut the unsupported 'text-light' claim from the localisation table row; softened a 'usually' generalisation about media partners. On-screen controls, Auto Play, Broadcast camera, ads with no in-app purchases (Play IAP flag false) match appfacts and the listing. 6x3=18 recomputed. Transfer facts (test groups, Play App Signing keys, ad SDKs, 2 business days) match. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:fca09339081fb88337e10399d739c0e27ab3f39c502d3fcda54ad33b30999152"
+    },
+    {
+      "slug": "pro-basketball-draft-gm-mode-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Eight draft formats, 'where the replay value lives', the fantasy-audience quote and the real-player-pool/not-affiliated statement are catalog text not found in the Play listing: six attributions changed from 'the listing' to 'the app's page'. Ratings described as the game's own estimates; no affiliation implied. 8x82=656 recomputed; 'six other sports' checked against the draft-gm portfolio group. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:b2e5670ee63f337c2a6c0e03e06e278502a7c1ea3c1a16b35023477b2eb2ba7e"
+    },
+    {
+      "slug": "basketball-league-sandbox-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Limitations list, not-affiliated and not-predictions statements re-attributed to the app page (the listing supports only the real-player rosters with fictional fill-ins); removed an internal 'portfolio plan' reference. Offseason arithmetic (18-12=6; 9 weeks with 3 spare) recomputed. NBA appears only in an existing explainer link title, nominatively. Transaction-ID and integrated-services transfer facts match. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:19d309cee5c19439c03d601843f3ce3cf7877deb9963641a1ccc17d50f9dbc27"
+    },
+    {
+      "slug": "football-career-sim-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "'Its FAQ'/'listing's FAQ' and the limits paragraph re-attributed to the app page; replaced the legal-sounding 'free of licensing obligations' with 'uses no real league, team or player identity'. Archetypes, stages (4x5=20), ads + optional IAP and fictional leagues verified. Play App Signing, App content declarations and pre-transfer orders match the Google help page. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:2bfb5798c467dedbfd0f095b37a3b498837a079a0a04fe28828a7f20176ec5ca"
+    },
+    {
+      "slug": "football-career-pro-league-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All app claims (four modes, 11-on-11 and 17-game season from screenshots via the catalog, three cameras, separate saves, ads, no IAP, no multiplayer described) verified; free-app payments-profile tip correctly applied. 17 days = 2 weeks 3 days recomputed. No change beyond removing the hand-written Play URL. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:738f7f94ded0aae4ff88548f588a07a5d4bb695878ccc13b4b741c9f8ed1a16d"
+    },
+    {
+      "slug": "football-draft-gm-mode-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Rename note, Gridiron IQ description and 'you do not play the downs' re-attributed to the app page (four places); replaced the unsourced 'the question sports media ask most' and changed 'Reign Creative's own judgement' to the catalog's 'the game's own estimates rather than official statistics'. Bracket arithmetic (16-1=15, 2^4=16) checked. NFL appears only in existing explainer link titles. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:de6f00d5769635d842d961931fe72bbc7b0f7b50460b95b09c869bbb702ba3d2"
+    },
+    {
+      "slug": "football-league-commissioner-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Not-affiliated and not-predictions statements re-attributed to the app page (body and two FAQs); 'We can license what we own' softened to 'We can discuss licensing'. 5x10=50 recomputed. Monetisation (ads, no IAP listed) and screenshot-sourced office features match appfacts; transfer facts match. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:11f2a5e68090ce7e03987071596c9d2b925a6a30f1105abfba26cfe9f35483ce"
+    },
+    {
+      "slug": "soccer-career-sim-xi-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Transfer-dilemma FAQ reference and goalkeeper-audience quote re-attributed to the app page. Nine career phases confirmed in the Play listing (6x9=54). Coach Trust ladder, six positions, ads + optional IAP and fictional clubs verified. Transfer facts (reports, subscriptions, IAP currency unpublish, AdMob) match. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:f1b729f49f3107729bad4e81aa747edb5a0e8d04add61398df712fca1c5a6b9a"
+    },
+    {
+      "slug": "football-career-soccer-league-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "In-game-title mismatch note re-attributed to the app page (body and FAQ). Spectate, three modes, broadcast view/zoom/languages from screenshots, ads with no IAP verified. 4x5=20 recomputed. The translation-service transfer rule matches the Google help page. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:567f08a743e97c160dc8f93b5ead13f3decc4390b15cc6fd3ee29e3340cc05ab"
+    },
+    {
+      "slug": "soccer-draft-gm-xi-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Perfect-season definition, audience quote and not-affiliated statement re-attributed to the app page; 'Reign Creative's estimates' changed to 'the game's own estimates, not official statistics'; softened one 'usually'. 11/2=5.5 recomputed. Formats and club management match the listing and catalog. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:62e517968ea90554ca78193490929f8de7b1fe9fe7348bbfc9ee3a827e6ecb70"
+    },
+    {
+      "slug": "baseball-career-sim-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "All claims (six paths, position-aware simulator, attribute and stat lists, fictional leagues, ads + optional IAP) supported by appfacts and the Play listing; 162/540=.300 recomputed; the four transfer preparation steps match the Google help page. Only change: hand-written Play URL unlinked. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:78f12fdf398a5839f843de71374c27c1374d5a8aa94f7c359144f5ecccc17572"
+    },
+    {
+      "slug": "baseball-draft-gm-team-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Ratings/affiliation paragraph re-attributed to the app page, 'Reign Creative's estimates' changed to the game's own estimates, and the sentence naming Major League Baseball replaced with the catalog's no-affiliation wording. 0.6x162=97.2 recomputed. Ads with a premium ad-free option matches appfacts and the listing. Orders/refund transfer facts match. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:db88b2202a5051111c6800237ee1b20b2701000fda7d0d48e4f10cab969dce9b"
+    },
+    {
+      "slug": "hockey-career-sim-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Goalie-audience quote and not-affiliated confirmation re-attributed to the app page; 'We can license' and 'can license what it owns' softened to discussion wording. Offline play confirmed in the listing. 4x4=16 recomputed (hedged in the text). Transfer facts match. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:ad1a210183f20eb926ce1189649b7010c7ad8b20d84d9e32b945de1c1e03c33b"
+    },
+    {
+      "slug": "hockey-career-pro-league-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "No saved Play listing text exists for this package (the probe used a different id), so claims were checked against appfacts only; catalog-only items (shift-grade FAQ point, affiliation, audience, limitations, in-game title) re-attributed to the app page; removed an unverifiable competitor comparison ('sets it apart from other arcade hockey games'). 84/7=12 and 84/28=3 recomputed. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:682e3ea99f41b78db5d658777f34b91a67b5c3d9bc64085cea11c43ccc3a160f"
+    },
+    {
+      "slug": "hockey-draft-gm-manager-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Opening audience quote, 'rather the point', affiliation and short-session audience re-attributed to the app page. Starting six, two rulesets, Franchise GM Mode, ads + optional IAP verified. 56/84=0.667 recomputed. The account-readiness detail ('Why can't I publish') matches the Google help page. NHL appears only in an existing explainer link title. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:2b786e95b7a60ec5f26ae6c08510c5ac9e168963d8edc7f0a333c459099b7637"
+    },
+    {
+      "slug": "golf-career-simulator-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Replaced an unsourced generalisation about what coaches spend their time on; audience quote and no-swing-timing FAQ re-attributed to the app page. Seven skills, cuts/ties/playoffs, fictional tours, ads + optional IAP verified. 7x2=14 recomputed. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:7de833fc82b8da7c76ecd865041494bcdd3168ae87c62e731ca38438df225582"
+    },
+    {
+      "slug": "tennis-career-sim-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Monetisation checked carefully: appfacts and the Play listing show in-app purchases and no Contains ads badge, and the article says exactly that (and correctly omits the ad-SDK transfer step). 'Rolling window' attributed to the listing changed to the listing's 'realistic window'; affiliation, 'not cosmetic' and audience quote re-attributed to the app page; cut 'roughly a school term'. 6x2=12 recomputed. The IAP-only unpublish rule matches the Google help page. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:ecea28c3f3d597b0104f9c37ce497c83ae5e3ce7869f7f20e35e6c590607eadb"
+    },
+    {
+      "slug": "rugby-career-sim-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Audience, FAQ-derived and limitations statements re-attributed to the app page (five places). Carries/metres/tackles, the prepare-follow-review rhythm and 'learning what the match numbers mean' confirmed in the listing. 60/12=5 recomputed. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:1126bc648405f221cfc816c29fe23e6b1c4b0e3af621947b805e0a9a7e10916a"
+    },
+    {
+      "slug": "rugby-draft-pro-league-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Opening audience quote and 'union only' limitation re-attributed to the app page; replaced the unsourced 'first question from rugby people is usually'. Pool of 1,000+, union scoring, unofficial ratings/salaries and the no-affiliation disclaimer confirmed in the listing; the in-game cap is mentioned without its figure. 3x5+2x2+2x3=25 recomputed. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:0e0871fcf22b061588077aa82dbac85a2a7af1ba8da16a6903142addb3757a64"
+    },
+    {
+      "slug": "car-racing-pro-career-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Audience list re-attributed to the app page; replaced the legal claim 'free of track licences' with the listing's 'fictional motorsport world'. Decisions-not-steering, mph/km/h, ads + IAP verified. 200/1.609344=124.3 recomputed. Translation-service transfer rule matches. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:362357c9008cbe849ccada9b5321f4447d9a01ec0328f6487142646229a01cf8"
+    },
+    {
+      "slug": "boxing-prize-fighter-career-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Audience, limitations and 3D note re-attributed to the app page; removed a generalisation about what gym members hear; clarified the challenge-count example (7x4+4=32 recomputed). Stamina/distance/defense, Quick Play, Boss Ladder, ads + IAP verified; fitness and technique claims are explicitly disclaimed. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:87f99d34f0feafc037dd50f9bc783deac29998c823af9dcdb6d9fa79a3789114"
+    },
+    {
+      "slug": "mma-boxing-fight-draft-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Opening audience quote and the ratings/affiliation statement re-attributed to the app page; licence wording softened to discussion. Two simulators, seven draft formats, GM Mode, ads + optional IAP verified; no promotion or athlete named. 4x10=40 and 40/5=8 recomputed. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:706a85e3cd5356b93556d167c190bace9a7009cd87e96b6f9c7eb08fc230b74a"
+    },
+    {
+      "slug": "cricket-career-simulator-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "First-cricket-game claim, format limitation and audience quotes re-attributed to the app page; removed an invented 'six groups' count of skills; extended the branding bullet so the plan title's 'boards and leagues' is addressed (an official edition would need their own licence). 45/30x100=150 recomputed. Transaction-ID prefix removal and Android developer verification transfer facts match. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:20ccc326bfbb56d0ef0ac7d3809b281fd30e2d9db5414af994b490d9a8d571a1"
+    },
+    {
+      "slug": "learn-cantonese-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Premise and the Mandarin/simplified limitation re-attributed to the app page. 12 units, Jyutping with traditional characters, no hearts, ads + optional IAP + rewarded-ad unlocks verified against appfacts and listing. 36/12=3 recomputed. No native-speaker review claimed. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:d713063d226358d292d4c36b81c728345dd04564b1797292e1a2150c2876b656"
+    },
+    {
+      "slug": "learn-shanghainese-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Removed two unverifiable competitor claims ('almost no learning app', 'material most courses skip'); audience quote and romanisation caveat re-attributed to the app page; added explicit nonbinding wording and an explicit confidential/financial/personal warning (both were only implicit). 12x2=24 recomputed. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:3e93d72cc0c7da47b4fb06d764dfe48f03d0d931337c3b583a36b7b846dd59ca"
+    },
+    {
+      "slug": "learn-thai-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Script-first limitation and beginner-foundation statements re-attributed to the app page (four places). Situation-grouped travel content, English track, ads + optional IAP verified. 20x5x4=400 recomputed. The live Play short description says 'become fluent fast'; the article does not repeat it. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:5354a4a4e547cd937c2503c477969629a6b3e1e9a8c7583d5765ff3d1af7751a"
+    },
+    {
+      "slug": "learn-lao-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Removed the unverifiable 'very few apps cover at all' opening quote; Lao-not-Thai and audience statements re-attributed to the app page; no-IAP stated as what Google Play lists (IAP flag false in the listing probe). 2x5x6=60 recomputed. Free-app payments-profile tip applied correctly. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:d795c6b64ce1a752b3bdb2754c87ff2a4a32eeb38c0d6b1a40b05cbcdf69369a"
+    },
+    {
+      "slug": "learn-cambodian-khmer-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Audience list (catalog) and beginner-course limitation re-attributed to the app page. Seven named destinations, tracing, slow playback, English track, ads + optional IAP verified against the listing. Integrated-services transfer steps (Developers Console owner, Firebase relink, Analytics permissions) match the Google help page. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:ce8a5be3d2861e910ed9d449e89b7a65d836f15555649347a5dbdebc1b183636"
+    },
+    {
+      "slug": "learn-vietnamese-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Opening tone point and the certification/foundation statements re-attributed to the app page; the contact paragraph now carries the explicit confidential/financial/personal warning. Topics, grammar list, English direction, ads + optional IAP verified. 10x3=30 recomputed. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:b5f52a6be8bec97ca141d40e0854dff4e377592cd6783a9752f4f2ba3c7a6126"
+    },
+    {
+      "slug": "learn-malay-partnership-opportunities",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Two catalog quotes and the Indonesian limitation re-attributed to the app page; contact warning made explicit. Standard Malay, Latin script, affix system, no hearts, ads + optional IAP verified against the listing. Registration-fee refund detail is stated without the figure and matches the Google help page. Common to all 31 overviews: removed the hand-written Google Play URL from the body (content-spec: the CTA adds the tracked link; the listing stays in sources). Checks passed: kind and disclaimer partnership; /partnerships/ link plus ReignCreativeSupport@gmail.com with the do-not-send-confidential warning; nonbinding, due-diligence and signed-agreement wording; no prices, valuations, revenue, user, download or rating figures; transfer facts checked against the saved Google help page (play-transfer.txt); app claims checked against appfacts and the saved Play listing text; body links and relatedArticles resolve to existing files; check.mjs clean (top similarity < 0.05); preflight clean.",
+      "contentHash": "sha256:a80157b465b83d0aeadd2528ffc8d8eec9ebbc22ea73cd65f9a6f93e91f4125d"
+    }
+  ]
+}

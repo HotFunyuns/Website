@@ -48,7 +48,8 @@
     "what-makes-a-good-draft-board",
     "scouting-combine-drills-explained",
     "understanding-sports-sim-probability",
-    "soccer-career-sim-guide"
+    "soccer-career-sim-guide",
+    "football-career-soccer-league-guide"
   ],
   "takeaways": [
     "When judging a youth player, check where their birthday falls relative to the cut-off date before reading anything into a physical edge.",

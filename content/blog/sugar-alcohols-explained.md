@@ -53,7 +53,8 @@
     "reading-nutrition-labels",
     "added-sugars-vs-total-sugars",
     "keto-macros-explained",
-    "glycemic-index-and-load"
+    "glycemic-index-and-load",
+    "dietary-fiber-explained"
   ],
   "takeaways": [
     "Sugar alcohols (polyols) are carbohydrates used as sweeteners; they appear under 'Total Carbohydrate' on a Nutrition Facts label.",

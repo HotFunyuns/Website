@@ -47,7 +47,8 @@
     "player-body-metrics-in-career-sims",
     "how-to-build-a-balanced-basketball-roster",
     "basketball-advanced-stats-explained",
-    "basketball-draft-gm-guide"
+    "basketball-draft-gm-guide",
+    "basketball-career-pro-league-guide"
   ],
   "takeaways": [
     "Define an archetype by two or three skills and the job they let a team do, not by height or position.",

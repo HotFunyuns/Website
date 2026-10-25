@@ -50,7 +50,9 @@
   "relatedArticles": [
     "slot-volatility-explained",
     "social-casino-vs-real-money-gambling",
-    "anime-terminology-glossary"
+    "anime-terminology-glossary",
+    "big-jackpot-casino-slots-partnership-opportunities",
+    "progressive-jackpots-explained"
   ],
   "takeaways": [
     "A wild is a substitution rule, not a bonus. It stands in for other symbols to complete a combination, and the variants — roaming, expanding, sticky — differ only in where it goes and how long it stays.",

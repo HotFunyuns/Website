@@ -138,22 +138,30 @@ export default function AboutPage() {
                 design, build and publish our own catalog of Android apps, from{' '}
                 <Link href="/apps/category/action-arcade/" className="link-accent">
                   arcade games
+                </Link>
+                ,{' '}
+                <Link href="/apps/category/sports-gm/" className="link-accent">
+                  sports career and management games
                 </Link>{' '}
                 and{' '}
-                <Link href="/apps/category/sports-gm/" className="link-accent">
-                  sports simulations
+                <Link href="/apps/category/anime-creative/" className="link-accent">
+                  creative and casual games
                 </Link>{' '}
                 to{' '}
                 <Link href="/apps/category/education-brain/" className="link-accent">
-                  history and mental-math apps
+                  history, mathematics and investing-basics apps
                 </Link>
                 ,{' '}
                 <Link href="/apps/category/language-learning/" className="link-accent">
                   language courses
+                </Link>
+                ,{' '}
+                <Link href="/apps/category/health-nutrition/" className="link-accent">
+                  nutrition and wellbeing apps
                 </Link>{' '}
                 and{' '}
-                <Link href="/apps/category/health-nutrition/" className="link-accent">
-                  nutrition trackers
+                <Link href="/apps/category/video-utility/" className="link-accent">
+                  practical utilities
                 </Link>
                 .
               </p>
@@ -385,6 +393,23 @@ export default function AboutPage() {
           </Reveal>
 
           <Reveal>
+            <h2 className={h2}>Working with us</h2>
+            <GoldDivider className="mt-5" />
+            <p className="mt-6">
+              We own every app in the catalog and we are open to serious discussions about them —
+              publishing and distribution partnerships, licensing, co-development, localization,
+              educational partnerships, and the acquisition of an individual app, several apps or the
+              portfolio. The{' '}
+              <Link href="/partnerships/" className="link-accent">
+                partnerships page
+              </Link>{' '}
+              explains how a discussion works and links an overview of each app. Nothing on this site is
+              an offer to sell or a valuation; any arrangement depends on diligence and a written
+              agreement.
+            </p>
+          </Reveal>
+
+          <Reveal>
             <h2 className={h2}>Contact and support</h2>
             <GoldDivider className="mt-5" />
             <ul className="ml-5 mt-6 list-disc space-y-2">
@@ -405,6 +430,12 @@ export default function AboutPage() {
                   Press kit
                 </Link>{' '}
                 — company facts, approved icons and boilerplate
+              </li>
+              <li>
+                <Link href="/partnerships/" className="link-accent">
+                  Partnerships and acquisitions
+                </Link>{' '}
+                — publishing, licensing, co-development or acquiring an app
               </li>
               <li>
                 <Link href="/editorial-policy/" className="link-accent">

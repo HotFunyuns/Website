@@ -140,3 +140,23 @@ other.
 | `regression-to-the-mean-in-sports` | regression to the mean sports | understanding-sports-sim-probability | partial — that article covers variance and sample size; reg… | Explains regression to the mean with a worked example, then how upset frequency differs between sports (the "most competitive sport" analysis), and how to read a GM season after an outlier year. Absorbs luck vs skill so… |
 | `relative-age-effect-in-sports` | relative age effect in sports | aging-curves-in-career-sims | distinct — ageing curves are about decline late in careers;… | Explains annual age-grouping, what the meta-analyses found (effect sizes vary by sport and level), proposed fixes such as bio-banding, and what it implies for evaluating young players in a draft or career game. |
 | `tournament-formats-explained` | tournament formats explained | golf-tournament-formats | distinct — the golf article covers golf scoring formats (st… | Compares formats by games needed, fairness to the best entrant, and how much luck survives, with a small probability example for each. Links to the round-robin and league-table tools. |
+
+---
+
+## 2026-10-25 addendum — the 400-article release
+
+The 400 new articles (339 consumer, 61 partnership) each own one primary keyword that no
+other article on the site uses (build-enforced). Per-article intent, nearest existing
+article and resolution: [cannibalization-audit-400.md](./cannibalization-audit-400.md).
+Keyword-to-URL map for the release: [keyword-to-url-map-400.md](./keyword-to-url-map-400.md);
+for the whole site: [keyword-to-url-map-latest.md](./keyword-to-url-map-latest.md).
+
+Intent splits decided in this release:
+- *how much protein per day* (reference numbers) vs *how to track protein intake* (method) —
+  the tracking article was refocused and no longer targets the reference-number queries.
+- Partnership overviews (commercial, B2B: "<app> licensing / partnership / acquisition")
+  vs the app's consumer guide (informational) — different audience, separate listing.
+- World War I: `world-war-1-timeline` (chronology) vs `what-started-the-first-world-war` (causes);
+  Taiping: narrative vs death-toll evidence (`chinas-deadliest-rebellions`).
+- Sports comparison pages (`*-career-games-compared`) compare our apps; the per-app guides
+  explain one app.

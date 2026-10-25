@@ -73,7 +73,7 @@ const routeOf = (file) => `/${file.slice(OUT_DIR.length + 1).split('\\').join('/
 function pageType(route) {
   if (route === '/') return 'home';
   if (route === '/404.html') return 'error';
-  if (route === '/blog/') return 'blog-index';
+  if (route === '/blog/' || route.startsWith('/blog/page/')) return 'blog-index';
   if (route === '/apps/') return 'apps-index';
   if (route.startsWith('/blog/category/')) return 'blog-category';
   if (route.startsWith('/blog/topics/')) return 'topic-hub';

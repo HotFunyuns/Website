@@ -45,7 +45,8 @@
     "score-attack-strategy",
     "shmup-difficulty-tiers",
     "boss-weak-points-and-module-targeting",
-    "space-galaxy-attack-arcade-vs-hardcore"
+    "space-galaxy-attack-arcade-vs-hardcore",
+    "space-galaxy-attack-hardcore-partnership-opportunities"
   ],
   "takeaways": [
     "The two modes train different things. An endless run is dense, varied exposure to the general dodging problem; a campaign sector is the only place the specific enemy sequence and the specific boss exist.",

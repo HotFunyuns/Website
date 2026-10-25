@@ -41,7 +41,7 @@
   ],
   "demandTier": "unverified-high",
   "relatedApps": ["keto-diet-tracker", "protein-diet-tracker"],
-  "relatedArticles": ["how-to-track-protein-intake"],
+  "relatedArticles": ["how-to-track-protein-intake", "dietary-fiber-explained", "low-carb-fruits-list"],
   "takeaways": [
     "\"Net carbs\" is not a term defined in US Nutrition Facts labeling — the label declares Total Carbohydrate, Dietary Fiber, Total Sugars and Added Sugars, and the subtraction is something you or your app performs afterwards.",
     "On US labels total carbohydrate is calculated by difference, which is why dietary fiber sits inside it rather than beside it.",

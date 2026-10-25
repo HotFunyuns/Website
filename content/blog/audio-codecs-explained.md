@@ -45,7 +45,8 @@
     "video-codecs-explained",
     "hardware-vs-software-decoding",
     "remuxing-vs-transcoding",
-    "video-file-formats-explained"
+    "video-file-formats-explained",
+    "how-to-cast-video-to-tv-from-android"
   ],
   "takeaways": [
     "Lossy codecs discard information permanently to reduce size; lossless codecs compress without discarding anything.",

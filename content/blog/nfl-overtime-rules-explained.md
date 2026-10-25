@@ -45,7 +45,9 @@
   "relatedArticles": [
     "two-minute-clock-management",
     "football-career-sim-guide",
-    "reading-a-defense-basics"
+    "reading-a-defense-basics",
+    "football-career-pro-league-guide",
+    "football-career-games-compared"
   ],
   "takeaways": [
     "Under the 2026 rules, both teams get an opportunity to possess the ball in overtime in the regular season and the playoffs, even if the first team scores a touchdown.",

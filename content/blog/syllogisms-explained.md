@@ -54,7 +54,9 @@
   "relatedArticles": [
     "deductive-reasoning-examples",
     "conditional-reasoning-if-then",
-    "working-memory-and-training"
+    "working-memory-and-training",
+    "negating-quantified-statements",
+    "predicates-and-quantifiers"
   ],
   "takeaways": [
     "Categorical statements come in exactly four forms, traditionally labelled A, E, I and O: all S are P, no S is P, some S are P, and some S are not P.",

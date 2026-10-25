@@ -47,7 +47,8 @@
     "soccer-formations-explained",
     "soccer-positions-explained",
     "soccer-draft-xi-guide",
-    "how-the-offside-rule-works"
+    "how-the-offside-rule-works",
+    "soccer-career-games-compared"
   ],
   "takeaways": [
     "A rating is a single number standing in for a player's whole profile, and the moment eleven of them have to function together, the detail the number discarded is the thing that decides the result.",

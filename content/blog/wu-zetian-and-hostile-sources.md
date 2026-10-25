@@ -51,7 +51,9 @@
     "how-we-know-what-historical-figures-did",
     "primary-vs-secondary-sources",
     "major-eras-of-world-history",
-    "women-who-ruled-empires"
+    "women-who-ruled-empires",
+    "chinese-revolutions-1911-1949",
+    "the-ming-dynasty-explained"
   ],
   "takeaways": [
     "Wu Zhao, known to history as Wu Zetian, is the only woman to have ruled China as emperor in her own right, proclaiming the Zhou dynasty in 690 and reigning until a palace coup forced her out in 705.",

@@ -39,7 +39,8 @@
     "tennis-scoring-for-beginners",
     "how-tennis-qualifiers-work",
     "how-tennis-ranking-points-work",
-    "tennis-ranking-decay-and-scheduling"
+    "tennis-ranking-decay-and-scheduling",
+    "tennis-career-sim-partnership-opportunities"
   ],
   "takeaways": [
     "Seeds are taken straight from the ranking list shortly before the event, roughly a week before at the Grand Slams and the WTA, and the most recent list at the ATP.",

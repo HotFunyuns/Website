@@ -45,7 +45,9 @@
   "relatedArticles": [
     "two-minute-clock-management",
     "football-positions-explained-for-drafting",
-    "depth-charts-explained"
+    "depth-charts-explained",
+    "racing-flags-explained",
+    "ways-to-get-out-in-cricket"
   ],
   "takeaways": [
     "Under the 2026 rules, the kicker kicks from his own 35 while his ten teammates stand still on the receiving team's 40, and at least nine receivers set up between their own 35 and 30.",

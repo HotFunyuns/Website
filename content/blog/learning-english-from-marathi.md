@@ -44,7 +44,8 @@
   "relatedArticles": [
     "marathi-alphabet-and-devanagari",
     "learning-a-language-without-a-teacher",
-    "where-marathi-is-spoken"
+    "where-marathi-is-spoken",
+    "learn-marathi-partnership-opportunities"
   ],
   "takeaways": [
     "A bidirectional course does not simply swap the two word lists: it changes which language carries the explanation, which is the part that decides whether a grammar point lands.",

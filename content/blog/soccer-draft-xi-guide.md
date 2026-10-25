@@ -55,7 +55,8 @@
     "basketball-draft-gm-guide",
     "hockey-draft-gm-guide",
     "soccer-rule-changes-2026-27",
-    "soccer-rules-for-beginners"
+    "soccer-rules-for-beginners",
+    "soccer-draft-gm-xi-partnership-opportunities"
   ],
   "takeaways": [
     "Soccer is scored in wins, draws and losses, so a perfect campaign requires converting draws as well as avoiding defeats — a defensively excellent but blunt side caps out early.",

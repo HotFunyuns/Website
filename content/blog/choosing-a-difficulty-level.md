@@ -54,7 +54,8 @@
     "do-brain-training-apps-work",
     "how-quiz-difficulty-works",
     "mental-math-training-guide",
-    "daily-challenge-formats-explained"
+    "daily-challenge-formats-explained",
+    "learn-to-trade-stocks-guide"
   ],
   "takeaways": [
     "Pick the level where you get most answers right but not all of them. As a working rule of ours — not a research constant — aim for roughly four correct in five, and move when you are reliably above that.",

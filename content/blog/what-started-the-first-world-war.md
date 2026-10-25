@@ -48,7 +48,9 @@
   "relatedArticles": [
     "what-caused-the-bronze-age-collapse",
     "how-historians-date-events",
-    "primary-vs-secondary-sources"
+    "primary-vs-secondary-sources",
+    "causes-of-world-war-2",
+    "the-thirty-years-war-explained"
   ],
   "takeaways": [
     "The assassination of Archduke Franz Ferdinand in Sarajevo on 28 June 1914 was the trigger; the preconditions were the alliance system, the arms race, Balkan instability after Ottoman decline, and mobilisation plans built around railway timetables.",

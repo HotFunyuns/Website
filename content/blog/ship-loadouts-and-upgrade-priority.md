@@ -40,7 +40,8 @@
     "power-ups-and-build-design",
     "shmup-difficulty-tiers",
     "vertical-shooter-games-on-android",
-    "boss-pattern-recognition"
+    "boss-pattern-recognition",
+    "tower-defense-upgrade-priority"
   ],
   "takeaways": [
     "Survivability upgrades are worth more than damage early, because an extra thirty seconds of run time earns more currency than a slightly faster kill does.",

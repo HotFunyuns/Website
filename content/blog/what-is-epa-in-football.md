@@ -46,7 +46,9 @@
     "how-sports-simulation-engines-work",
     "understanding-sports-sim-probability",
     "quarterback-archetypes-explained",
-    "football-draft-gm-guide"
+    "football-draft-gm-guide",
+    "cricket-stats-explained",
+    "net-run-rate-explained"
   ],
   "takeaways": [
     "EPA is the change in a team's expected points from the start of a play to the end of it, so it credits a play for the situation it leaves behind as well as any points it scores.",

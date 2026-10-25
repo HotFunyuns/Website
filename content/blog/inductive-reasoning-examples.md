@@ -54,7 +54,8 @@
   "relatedArticles": [
     "deductive-reasoning-examples",
     "conditional-reasoning-if-then",
-    "do-brain-training-apps-work"
+    "do-brain-training-apps-work",
+    "proof-by-induction-step-by-step"
   ],
   "takeaways": [
     "An inductive argument supports its conclusion to some degree rather than guaranteeing it, so it is judged on strength along a scale instead of being valid or invalid.",

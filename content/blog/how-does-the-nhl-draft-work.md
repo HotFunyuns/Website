@@ -45,7 +45,8 @@
     "how-draft-lotteries-work",
     "how-football-draft-order-works",
     "hockey-career-sim-guide",
-    "hockey-draft-gm-guide"
+    "hockey-draft-gm-guide",
+    "hockey-career-games-compared"
   ],
   "takeaways": [
     "Check the September 15 cut-off before projecting a prospect's draft year: a player must turn 18 by September 15 after the draft, so some draftees are still 17 on draft day.",

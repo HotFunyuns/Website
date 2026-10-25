@@ -47,7 +47,9 @@
   "relatedArticles": [
     "how-much-protein-per-day",
     "reading-nutrition-labels",
-    "how-to-track-protein-intake"
+    "how-to-track-protein-intake",
+    "protein-in-common-foods",
+    "high-protein-breakfast-ideas"
   ],
   "takeaways": [
     "Most high protein food lists silently mix three different rankings — protein per serving, protein per calorie, and protein per dollar — and the order changes depending on which one you meant.",

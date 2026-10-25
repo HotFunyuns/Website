@@ -48,7 +48,9 @@
     "anime-coloring-app-guide",
     "color-theory-for-beginners",
     "anime-genres-explained",
-    "how-to-shade-anime-hair"
+    "how-to-shade-anime-hair",
+    "how-to-color-skin-tones-digitally",
+    "how-to-color-anime-eyes"
   ],
   "takeaways": [
     "The pale outline left by a fill is anti-aliasing, not a bug — the edge pixels of the line art are partly transparent, so the fill only partly covers them.",

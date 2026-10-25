@@ -49,7 +49,8 @@
     "how-the-offside-rule-works",
     "rugby-forwards-and-backs",
     "rugby-positions-and-numbers",
-    "rugby-union-rules-for-beginners"
+    "rugby-union-rules-for-beginners",
+    "rugby-career-sim-partnership-opportunities"
   ],
   "takeaways": [
     "Identify the phase first: open play, the tackle, the ruck, the maul, the scrum and the lineout each have their own offside rule, and at tackles, rucks, mauls and scrums the try line is the furthest back the line can go.",

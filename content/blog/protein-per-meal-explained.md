@@ -46,7 +46,8 @@
     "how-much-protein-per-day",
     "how-to-track-protein-intake",
     "complete-vs-incomplete-proteins",
-    "how-to-hit-a-protein-goal"
+    "how-to-hit-a-protein-goal",
+    "protein-in-common-foods"
   ],
   "takeaways": [
     "The claim that the body 'can only use' a fixed amount of protein per meal is a simplification of a narrower finding about the muscle-building response.",

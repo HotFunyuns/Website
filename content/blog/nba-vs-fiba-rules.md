@@ -48,7 +48,9 @@
     "basketball-positions-explained",
     "basketball-career-sim-guide",
     "how-to-build-a-balanced-basketball-roster",
-    "basketball-draft-gm-guide"
+    "basketball-draft-gm-guide",
+    "basketball-shot-selection",
+    "double-double-triple-double"
   ],
   "takeaways": [
     "Budget minutes differently by rulebook: an NBA game holds 240 player-minutes per team and a FIBA game 200.",

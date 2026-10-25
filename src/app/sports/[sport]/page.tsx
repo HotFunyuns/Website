@@ -10,7 +10,7 @@ import BlogCard from '@/components/blog/BlogCard';
 import SportAppCard from '@/components/sports/SportAppCard';
 import ToolCard from '@/components/tools/ToolCard';
 import { companyInfo } from '@/data/apps';
-import { fillAppNames, getSport, getSportApps, sportPath, type SportInfo } from '@/data/sports';
+import { fillAppNames, getSport, getSportApps, getSportExtraApps, sportPath, type SportInfo } from '@/data/sports';
 import { toolsForSport } from '@/tools/registry';
 import { getPostBySlug } from '@/lib/blog';
 import { activeSports, getSportPosts, groupGuides, hubPostList } from '@/lib/sports';
@@ -72,6 +72,7 @@ export default function SportHubPage({ params }: { params: { sport: string } }) 
   const appCards = [
     apps.draft && { app: apps.draft, role: 'Draft & GM game' },
     apps.career && { app: apps.career, role: 'Career sim' },
+    ...getSportExtraApps(sport),
   ].filter((card): card is NonNullable<typeof card> => Boolean(card));
   const fill = (text: string) => fillAppNames(text, sport);
   const faqs = sport.faqs.map((faq) => ({ question: fill(faq.question), answer: fill(faq.answer) }));

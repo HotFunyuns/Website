@@ -39,7 +39,8 @@
     "lao-greetings-and-politeness",
     "learn-lao-beginners-guide",
     "lao-vs-thai-differences",
-    "lao-alphabet-explained"
+    "lao-alphabet-explained",
+    "learn-lao-partnership-opportunities"
   ],
   "takeaways": [
     "The repair phrases — I don't understand, please speak more slowly, please say that again — are worth more on a trip than another twenty nouns.",

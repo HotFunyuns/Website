@@ -45,7 +45,9 @@
     "av1-on-android-explained",
     "video-codecs-explained",
     "remuxing-vs-transcoding",
-    "battery-and-performance-in-mobile-games"
+    "battery-and-performance-in-mobile-games",
+    "hdr-video-on-android",
+    "how-to-cast-video-to-tv-from-android"
   ],
   "takeaways": [
     "Hardware decoding uses dedicated silicon built for one codec; software decoding uses the general-purpose processor.",

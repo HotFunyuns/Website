@@ -40,7 +40,8 @@
     "learn-russian-cyrillic-beginners-guide",
     "russian-vowel-reduction",
     "russian-word-order-and-emphasis",
-    "russian-cases-explained-for-beginners"
+    "russian-cases-explained-for-beginners",
+    "russian-greetings"
   ],
   "takeaways": [
     "The difficulty is not that cursive is a second alphabet; it is that several lowercase letters are built from the same repeated hook, so a word can become a row of identical strokes.",

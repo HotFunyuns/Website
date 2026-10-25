@@ -47,7 +47,9 @@
     "vietnamese-tones-explained",
     "cantonese-tones-explained",
     "thai-tones-explained",
-    "learn-lao-beginners-guide"
+    "learn-lao-beginners-guide",
+    "thai-greetings",
+    "thai-vowels-explained"
   ],
   "takeaways": [
     "In a tonal language, pitch distinguishes words: the same sequence of consonants and vowels with a different pitch pattern is a different word.",

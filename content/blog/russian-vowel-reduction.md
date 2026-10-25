@@ -40,7 +40,9 @@
     "learn-russian-cyrillic-beginners-guide",
     "russian-cursive-handwriting-guide",
     "choosing-russian-verb-aspect",
-    "how-long-does-it-take-to-learn-russian"
+    "how-long-does-it-take-to-learn-russian",
+    "russian-soft-and-hard-signs",
+    "italian-pronunciation-guide"
   ],
   "takeaways": [
     "Unstressed о is not pronounced as о: it merges with а, which is the single fact that explains most of the gap between Russian spelling and Russian speech.",

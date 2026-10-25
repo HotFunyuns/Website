@@ -307,3 +307,25 @@ then run `npm run report:search-console`.
   strengthen internal links to the best pages, and improve or merge weak ones. The
   recovery move is consolidation, not more pages.
 - Record what changed, with dates, in this file's §2 — observations only.
+
+---
+
+## 8. Lessons from the 2026-10-24/25 release (400 articles)
+
+- **Write with parallel agents, review with different ones.** Writers and reviewers were
+  separate agents working from `SP/BRIEF.md` and `docs/data/review-brief-400.md`. Every
+  reviewer found real errors in every cluster: invented app features (unit names, tools,
+  modes), claims credited to "the Google Play listing" that exist only in our catalog,
+  outdated rules (F1 tyre allocations, NFL draft eligibility), arithmetic slips and
+  unsourced generalisations. Budget review effort equal to writing effort.
+- **Credit facts to where they actually are.** Live listing text (`scripts/play-verification.json`
+  `fullDescription`) is "the listing"; catalog-only facts are "the app's page on this site".
+- **No hand-written Google Play URLs in bodies**; the article template adds the tracked link.
+- **publish-batch holds whole link chains.** One article missing its primary-app body link
+  held 24 others that linked to it. Run `--dry-run` on the full batch and fix the root.
+- **Partnership overviews never appear in consumer listings** (category pages, app guide
+  lists, sport hubs read `guidePosts`).
+- **Editing an attested (human-reviewed) article moves it to the AI label** with a dated
+  correction note; the attestation covers only the text the owner attested.
+- **Day 14 / day 28:** follow §7 and `docs/search-console-indexing-remediation.md` §5; add
+  the 400 new URLs as a separate segment so their indexing rate is visible.

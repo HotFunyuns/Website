@@ -48,7 +48,9 @@
   "relatedArticles": [
     "how-historians-date-events",
     "world-history-timeline-guide",
-    "mental-math-training-guide"
+    "mental-math-training-guide",
+    "ancient-egypt-timeline",
+    "alexander-the-great-explained"
   ],
   "takeaways": [
     "Period labels are analytic conventions invented afterwards by historians. Nobody living in 1200 thought of themselves as medieval, and no boundary year was experienced as a boundary.",

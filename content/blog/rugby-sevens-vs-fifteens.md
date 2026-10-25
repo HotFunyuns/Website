@@ -39,7 +39,8 @@
     "rugby-union-vs-rugby-league",
     "rugby-positions-and-numbers",
     "rugby-forwards-and-backs",
-    "how-rugby-scoring-works"
+    "how-rugby-scoring-works",
+    "rugby-career-paths"
   ],
   "takeaways": [
     "Sevens is rugby union played under World Rugby's Laws of the Game with a published list of variations, so read it as the same sport with different numbers rather than a separate code.",

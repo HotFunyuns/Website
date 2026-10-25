@@ -45,7 +45,9 @@
   "relatedArticles": [
     "cantonese-tones-explained",
     "learn-cantonese-beginners-guide",
-    "spoken-vs-written-cantonese"
+    "spoken-vs-written-cantonese",
+    "cantonese-measure-words",
+    "cantonese-greetings"
   ],
   "takeaways": [
     "Sentence-final particles sit at the end of an utterance and change its force, attitude or evidential status without changing what it literally says.",

@@ -38,7 +38,9 @@
     "golf-course-management-basics",
     "golf-scoring-explained",
     "pressure-and-nerves-in-golf-sims",
-    "club-distance-gapping"
+    "club-distance-gapping",
+    "links-vs-parkland-golf-courses",
+    "golf-career-simulator-partnership-opportunities"
   ],
   "takeaways": [
     "Check the stake colour at the point where your ball last crossed the edge, not where it finished, because that point decides whether lateral relief exists.",

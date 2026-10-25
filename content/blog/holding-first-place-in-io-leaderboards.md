@@ -45,7 +45,8 @@
     "eat-and-grow-arena-strategy",
     "score-attack-strategy",
     "momentum-steering-in-snake-style-games",
-    "ai-opponents-vs-real-players-in-io-games"
+    "ai-opponents-vs-real-players-in-io-games",
+    "jellyfish-arena-survivor-io-partnership-opportunities"
   ],
   "takeaways": [
     "First place is the only rank with no upside. Every subsequent risk you take can lower your position and cannot raise it, so the arithmetic of a contested cluster changes the moment the crown lands.",

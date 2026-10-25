@@ -40,7 +40,9 @@
     "russian-cases-explained-for-beginners",
     "choosing-russian-verb-aspect",
     "learn-russian-cyrillic-beginners-guide",
-    "russian-word-order-and-emphasis"
+    "russian-word-order-and-emphasis",
+    "russian-adjective-endings",
+    "russian-personal-pronouns"
   ],
   "takeaways": [
     "Russian has paired motion verbs: one for motion in progress in a single direction, one for general, habitual or round-trip motion.",

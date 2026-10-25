@@ -47,7 +47,9 @@
     "subtitles-not-working-on-android",
     "android-video-player-guide",
     "android-app-permissions-explained",
-    "how-to-play-mkv-files-on-android"
+    "how-to-play-mkv-files-on-android",
+    "free-up-storage-on-android",
+    "regal-video-player-partnership-opportunities"
   ],
   "takeaways": [
     "Picture-in-picture is conditional by design. Three separate things have to be true — the app declares support, the device qualifies, and the per-app switch is on — and any one of them failing produces the same silent nothing.",

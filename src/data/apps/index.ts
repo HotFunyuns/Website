@@ -63,6 +63,21 @@ export function getRelatedApps(app: AppInfo, count = 3): AppInfo[] {
 
 export const featuredApps = apps.filter((app) => app.featured);
 
+// Each category's "which app fits?" guide must name only that category's apps,
+// and every app in the category must appear in it exactly once — so adding an
+// app without placing it in the guide fails the build.
+for (const category of categories) {
+  const listed = category.chooser.flatMap((choice) => choice.apps);
+  const members = apps.filter((app) => app.categoryId === category.id).map((app) => app.slug);
+  for (const slug of listed) {
+    if (!members.includes(slug)) throw new Error(`categories["${category.id}"].chooser lists "${slug}", which is not an app in that category`);
+  }
+  for (const slug of members) {
+    const times = listed.filter((s) => s === slug).length;
+    if (times !== 1) throw new Error(`categories["${category.id}"].chooser lists "${slug}" ${times} times (expected once)`);
+  }
+}
+
 /** Categories that actually contain at least one published app. */
 export const activeCategories: CategoryInfo[] = categories.filter(
   (c) => countByCategory(c.id) > 0

@@ -53,7 +53,8 @@
     "football-career-sim-guide",
     "football-positions-explained-for-drafting",
     "how-football-draft-order-works",
-    "cover-2-vs-cover-3"
+    "cover-2-vs-cover-3",
+    "football-career-sim-partnership-opportunities"
   ],
   "takeaways": [
     "Three pre-snap cues carry most of the information: how many deep safeties there are, which side of the receiver each defender is standing on, and what moves after you set.",

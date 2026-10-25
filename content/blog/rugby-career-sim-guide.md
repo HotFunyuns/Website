@@ -43,7 +43,8 @@
     "how-to-choose-a-sports-career-sim",
     "career-mode-vs-franchise-mode",
     "rugby-positions-and-numbers",
-    "rugby-forwards-and-backs"
+    "rugby-forwards-and-backs",
+    "rugby-career-paths"
   ],
   "takeaways": [
     "Decide the role before the position: whether your player is built to carry, to tackle or to support decides which numbers you should judge them by.",

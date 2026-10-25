@@ -50,7 +50,9 @@
     "why-rome-fell",
     "major-eras-of-world-history",
     "primary-vs-secondary-sources",
-    "west-and-central-african-kingdoms"
+    "west-and-central-african-kingdoms",
+    "the-cold-war-explained",
+    "napoleon-rise-and-fall"
   ],
   "takeaways": [
     "The empire began as a small Anatolian principality; UNESCO records Bursa as its first capital, shaped in the early fourteenth century around public endowment complexes founded by five successive sultans.",

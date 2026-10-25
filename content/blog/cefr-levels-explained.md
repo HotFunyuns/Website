@@ -47,7 +47,9 @@
     "how-long-to-learn-italian",
     "how-many-words-to-be-conversational",
     "how-long-does-it-take-to-learn-russian",
-    "language-learning-plateau"
+    "language-learning-plateau",
+    "italian-restaurant-phrases",
+    "italian-essere-vs-avere"
   ],
   "takeaways": [
     "CEFR describes what a learner can do, not what they have studied — the descriptors are phrased as 'can do' statements about real tasks.",

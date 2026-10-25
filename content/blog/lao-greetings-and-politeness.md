@@ -40,7 +40,8 @@
     "lao-phrases-for-travellers",
     "lao-tone-rules",
     "lao-alphabet-explained",
-    "building-a-lao-course-from-scratch"
+    "building-a-lao-course-from-scratch",
+    "learn-lao-partnership-opportunities"
   ],
   "takeaways": [
     "Sabaidee covers hello at any time of day, and time-specific greetings are built by adding a period word to it rather than by using separate formulas.",

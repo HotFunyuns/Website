@@ -46,7 +46,9 @@
   "relatedArticles": [
     "learn-russian-cyrillic-beginners-guide",
     "spaced-repetition-for-language-learning",
-    "malay-vs-indonesian-differences"
+    "malay-vs-indonesian-differences",
+    "russian-adjective-endings",
+    "russian-numbers"
   ],
   "takeaways": [
     "A Russian case is a job label: the ending on a noun tells you what role it plays, which is work English does with word order and prepositions.",

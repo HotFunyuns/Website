@@ -47,7 +47,8 @@
     "tower-types-and-what-they-counter",
     "boss-pattern-recognition",
     "tower-defense-camera-controls",
-    "what-does-td-mean-in-games"
+    "what-does-td-mean-in-games",
+    "hero-td-idle-tower-defense-guide"
   ],
   "takeaways": [
     "A boss wave rarely beats you on total damage. It beats you because the wave in front of it mixes armoured, flying and elite units, and a layout tuned for one enemy type has no answer for three arriving together.",

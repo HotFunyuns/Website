@@ -37,7 +37,9 @@
     "style-matchups-in-a-fight-simulator",
     "southpaw-vs-orthodox",
     "boxing-scoring-explained",
-    "striking-vs-grappling-in-mma"
+    "striking-vs-grappling-in-mma",
+    "boxing-punches-explained",
+    "boxing-prize-fighter-career-guide"
   ],
   "takeaways": [
     "Identify a boxer's style by asking two questions: what distance they want the fight at, and how fast they want it to go.",

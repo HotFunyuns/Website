@@ -45,7 +45,9 @@
     "learn-vietnamese-beginners-guide",
     "what-is-a-tonal-language",
     "vietnamese-alphabet-explained",
-    "cantonese-tones-explained"
+    "cantonese-tones-explained",
+    "northern-vs-southern-vietnamese",
+    "how-to-add-a-language-keyboard-on-android"
   ],
   "takeaways": [
     "Standard (northern) Vietnamese is usually described as having six tones; several southern varieties merge two of them, so the working count in the south is commonly five.",

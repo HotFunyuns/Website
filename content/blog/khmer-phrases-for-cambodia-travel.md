@@ -39,7 +39,9 @@
     "khmer-greetings-and-honorifics",
     "learn-khmer-beginners-guide",
     "khmer-script-explained",
-    "khmer-vs-thai-script"
+    "khmer-vs-thai-script",
+    "learn-cambodian-khmer-partnership-opportunities",
+    "italian-restaurant-phrases"
   ],
   "takeaways": [
     "Learn the formal greeting rather than the informal one, because as a visitor you will usually be addressing someone whose standing you cannot read.",

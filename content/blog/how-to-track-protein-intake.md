@@ -2,70 +2,88 @@
 {
   "title": "How to Track Your Daily Protein Intake (Without Quitting in Week Two)",
   "metaTitle": "How to Track Your Daily Protein Intake on Android",
-  "description": "A practical guide to logging protein on Android: what the official intake references say, why tracking habits collapse, and how to build one that lasts.",
+  "description": "How to track protein intake: log meals as you eat, use USDA FoodData Central figures, add up a worked example day and read weekly averages.",
   "status": "published",
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-13",
+  "updatedAt": "2026-10-25",
+  "corrections": [
+    {
+      "date": "2026-10-25",
+      "note": "Refocused on the tracking method. The explanation of the RDA, the AMDR and the Daily Value was shortened to a summary that links to our guide on how much protein per day, and the two questions about those figures were removed. The approximate food figures were replaced with a worked example using exact USDA FoodData Central values (the Greek yogurt figure is about 17 g per 170 g container, not the mid-teens). Unsourced generalisations about why tracking habits fail and where unlogged intake is found were removed or reworded, as was a claim about the app that is not in its catalog entry. The Dietary Guidelines 2020–2025 source, which no statement relied on, was removed."
+    }
+  ],
   "author": "reign-creative-llc",
-  "editorialReview": "organization",
-  "reviewAttestation": "library-2026-10-24",
+  "editorialReview": "automated",
   "category": "health-nutrition",
-  "tags": ["protein", "macro tracking", "nutrition logging", "android apps"],
+  "tags": [
+    "protein",
+    "macro tracking",
+    "nutrition logging",
+    "android apps"
+  ],
   "primaryKeyword": "how to track protein intake",
   "secondaryKeywords": [
     "protein tracker app android",
-    "daily protein intake calculator",
-    "how much protein per day",
-    "macro tracking app free",
     "log protein and calories",
-    "protein tracking app no subscription"
+    "protein tracking app no subscription",
+    "how to log protein without weighing food",
+    "food log weekly average",
+    "macro tracking app free"
   ],
   "intent": "informational",
   "longTailKeywords": [
     "how to track protein intake without weighing food",
-    "best free protein tracker app for android",
     "why do i keep quitting food tracking",
-    "how many grams of protein per kg of body weight"
+    "how to count grams of protein in a meal",
+    "how to restart a food log after missing a day"
   ],
-  "comparisonKeywords": ["protein tracker vs calorie counter"],
+  "comparisonKeywords": [
+    "protein tracker vs calorie counter"
+  ],
   "aiSearchQuestions": [
-    "How much protein should an adult eat per day?",
-    "What is the RDA for protein?",
+    "How do I track how much protein I eat in a day?",
+    "Do I need to weigh food to track macros accurately?",
     "Is there a free protein tracking app that does not need an account?",
-    "Do I need to weigh food to track macros accurately?"
+    "How do I work out the protein in a portion from a per-100 g figure?"
   ],
   "demandTier": "unverified-high",
-  "relatedApps": ["protein-diet-tracker", "keto-diet-tracker"],
-  "relatedArticles": ["net-carbs-explained-keto-tracking"],
+  "relatedApps": [
+    "protein-diet-tracker",
+    "keto-diet-tracker"
+  ],
+  "relatedArticles": [
+    "how-much-protein-per-day",
+    "net-carbs-explained-keto-tracking"
+  ],
   "takeaways": [
-    "The official adult reference intake for protein is 0.8 grams per kilogram of body weight per day — a minimum to prevent deficiency, not a performance target.",
-    "Tracking fails on friction, not motivation. The habit survives when a typical entry takes seconds, not minutes.",
-    "Log as you eat rather than reconstructing the day at midnight; recalled meals lose the snacks first.",
-    "A week of ordinary days tells you more than one perfect day you could not repeat.",
-    "Protein has 4 calories per gram, so a protein target and a calorie target are not independent decisions."
+    "Track protein by logging each meal and snack as you eat it, giving it a gram figure from FoodData Central or the label, and adding up the day.",
+    "Portion weight drives the total: multiply the protein per 100 g by the grams you ate, and weigh your most common portions once to calibrate.",
+    "Judge your intake by weekly averages and spread, not by any single day.",
+    "Tracking fails on friction more than motivation, so choose a tool where a repeat meal takes seconds to log.",
+    "Protein supplies 4 calories per gram, so a protein goal and a calorie goal need to fit together."
   ],
   "disclaimer": "health",
   "featured": true,
   "faqs": [
     {
-      "question": "How much protein should I eat per day?",
-      "answer": "That is a question for you and a qualified healthcare professional, because the answer depends on your body weight, age, health status and activity. The published reference point is the Recommended Dietary Allowance of 0.8 grams of protein per kilogram of body weight per day for adults, which the National Academies set as the amount sufficient to meet the needs of most healthy people. It is a floor designed to prevent deficiency, not a recommendation tuned to athletic or clinical goals."
-    },
-    {
-      "question": "Why does the protein number on food labels say 50 grams?",
-      "answer": "That is the FDA Daily Value for protein used on Nutrition Facts labels, based on a 2,000 calorie reference diet. Daily Values exist so that different products can be compared on a common scale. They are a labelling convention, not a personal recommendation, and the FDA notes the reference diet may not match your own calorie needs."
-    },
-    {
       "question": "Do I need to weigh my food to track protein usefully?",
-      "answer": "No, and insisting on it is one of the fastest ways to abandon tracking. Weighing gives you precision; consistent estimating gives you a trend. If your goal is to find out whether your intake is roughly where you thought it was, a consistent estimate answers that. Weigh the foods you eat most often a few times to calibrate your eye, then estimate the rest."
+      "answer": "No. Weighing gives you precision; consistent estimating gives you a trend. Weigh the five or six foods you eat most often once to calibrate your eye, then estimate the rest the same way each day. If your aim is to find out roughly where your intake sits, a consistent estimate answers that."
+    },
+    {
+      "question": "How do I work out the protein in a portion?",
+      "answer": "Take the protein per 100 grams from USDA FoodData Central or the Nutrition Facts label, multiply by the weight you ate, and divide by 100. For example, roasted chicken breast at 31.02 g per 100 g gives about 26 g for an 85 g portion. Round to the nearest gram; across a day the rounding barely moves the total."
+    },
+    {
+      "question": "What should I do after missing a day of logging?",
+      "answer": "Log the next meal as normal and leave the gap. A weekly average built from six days still shows where your intake sits, while trying to reconstruct a forgotten day from memory tends to miss snacks and extra helpings. Treat a missed day as missing data, not as a reason to restart."
     },
     {
       "question": "Is a free protein tracker good enough?",
-      "answer": "For daily totals and a history you can look back over, yes. Totalling protein is addition, and paying for an app does not make addition more accurate — so if you are weighing up a paid tier, look at exactly what it adds for you and decide whether that is worth a recurring cost. Protein Diet Tracker is free to download on Google Play, contains ads, and offers optional in-app purchases."
+      "answer": "For daily totals and a history you can look back over, yes. Totalling protein is addition, so if you are weighing up a paid tier, look at exactly what it adds for you and decide whether that is worth a recurring cost. Protein Diet Tracker is free to download on Google Play, contains ads, and offers optional in-app purchases."
     },
     {
       "question": "What happens to my logging data?",
-      "answer": "In Protein Diet Tracker, entries are stored locally on your device rather than on our servers, and no account is required. Other apps differ, so it is worth reading the data safety section of any tracker's Play listing before you commit months of entries to it."
+      "answer": "In Protein Diet Tracker, entries are stored locally on your device rather than on our servers, and no account is required, so there is no cloud sync between phones. Other apps differ, so it is worth reading the Data safety section of any tracker’s Play listing before you commit months of entries to it."
     }
   ],
   "sources": [
@@ -73,152 +91,128 @@
       "title": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids",
       "publisher": "National Academies of Sciences, Engineering, and Medicine",
       "url": "https://nap.nationalacademies.org/catalog/10490/dietary-reference-intakes-for-energy-carbohydrate-fiber-fat-fatty-acids-cholesterol-protein-and-amino-acids",
-      "accessed": "2026-08-09"
+      "accessed": "2026-10-25"
     },
     {
       "title": "FoodData Central",
       "publisher": "U.S. Department of Agriculture, Agricultural Research Service",
       "url": "https://fdc.nal.usda.gov/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-10-25"
     },
     {
       "title": "Daily Value on the Nutrition and Supplement Facts Labels",
       "publisher": "U.S. Food and Drug Administration",
       "url": "https://www.fda.gov/food/nutrition-facts-label/daily-value-nutrition-and-supplement-facts-labels",
-      "accessed": "2026-08-09"
-    },
-    {
-      "title": "Dietary Guidelines for Americans, 2020–2025",
-      "publisher": "U.S. Departments of Agriculture and Health and Human Services",
-      "url": "https://www.dietaryguidelines.gov/",
-      "accessed": "2026-08-09"
+      "accessed": "2026-10-25"
     },
     {
       "title": "Protein in diet",
       "publisher": "MedlinePlus, U.S. National Library of Medicine",
       "url": "https://medlineplus.gov/ency/article/002467.htm",
-      "accessed": "2026-08-09"
+      "accessed": "2026-10-25"
     }
   ]
 }
 ---
 
-Food tracking does not usually end with a decision to stop. It ends with one meal that did not get logged — because logging it would have taken ninety seconds and you were holding a fork — and then a second one, because the first gap had already put a hole in the week.
+Tracking protein comes down to four steps: write down each meal and snack as you eat it, give each one a protein figure in grams from a reference such as USDA FoodData Central, add the day up, and judge the result by the week rather than the day. The arithmetic is simple addition. Keeping it going is the hard part, and it depends far more on how quickly you can log a meal than on how precise each entry is.
 
-That is worth saying plainly at the start, because it changes what a good tracking setup looks like. The problem to solve is not accuracy. It is friction.
+This guide is about the method: how to log, how to estimate, how to read the totals and how to choose a tool. How much protein to aim for is a separate question, covered below only briefly.
 
-## What the official numbers actually say
+## The reference numbers, in one paragraph
 
-Before you can decide whether you are eating enough protein, it helps to know what "enough" means in the published references, and what those references were built to do.
+You will meet three official figures while tracking: the adult **Recommended Dietary Allowance**, set by the National Academies per kilogram of body weight; the **Acceptable Macronutrient Distribution Range**, which MedlinePlus gives as 10% to 35% of total calorie needs for healthy adults; and the **50 g Daily Value** that the FDA uses on Nutrition Facts labels. They answer different questions, and none of them is a personal target. What each one means, and why they differ, is worked through in [how much protein per day](/blog/how-much-protein-per-day/). Choosing a number to eat to is a conversation for a doctor or registered dietitian, particularly if you have a health condition.
 
-The **Recommended Dietary Allowance (RDA)** for protein for adults is **0.8 grams per kilogram of body weight per day**. That figure comes from the National Academies' Dietary Reference Intakes report, and it is defined as the amount sufficient to meet the nutrient requirements of nearly all healthy people in a group.
+> This article is general information about keeping a food log. It is not medical or dietetic advice, and requirements vary with age, body weight, pregnancy, activity, kidney function and medication.
 
-Two things follow from that definition, and both get lost in the way the number is usually repeated:
+### One unit worth knowing while you log
 
-- It is a **floor, not a target**. The RDA answers "how little can most healthy people eat without becoming deficient," which is a different question from "how much serves my goals."
-- It is **per kilogram of body weight**, so it scales. For a 70 kg adult it works out at roughly 56 grams per day. For a 90 kg adult, roughly 72 grams.
+MedlinePlus states that one gram of protein supplies 4 calories. That makes a protein figure and a calorie figure linked rather than independent: 100 grams of protein is 400 calories. If you set goals for both, check that they fit together before you start, because a log will show the clash within a day or two.
 
-The same report sets an **Acceptable Macronutrient Distribution Range** for protein of **10 to 35 percent of daily calories** for adults. That is a wide band, and deliberately so — it describes a range associated with adequate intake of other nutrients, not a single correct answer.
+## A worked example: one day in the log
 
-Separately, you will see **50 grams** printed on food packaging. That is the FDA's Daily Value for protein on Nutrition Facts labels, based on a 2,000 calorie reference diet. It exists so two products can be compared on the same scale. It is not a personal recommendation, and the FDA is explicit that the reference diet may not match your own calorie needs.
+Here is a single day logged with figures from USDA FoodData Central (SR Legacy entries, protein per 100 g multiplied by the portion weight). The foods and the day are invented for the example.
 
-> None of these figures are advice for you specifically. Requirements vary with age, body weight, pregnancy, activity, kidney function and medication. This article is general information — talk to a doctor or registered dietitian before setting a target you intend to eat to.
+| Entry | Portion | Protein per 100 g | Protein logged |
+| --- | --- | --- | --- |
+| Two large eggs | 100 g (2 × 50 g) | 12.56 g | 13 g |
+| Plain nonfat Greek yogurt | 1 container, 170 g | 10.19 g | 17 g |
+| Roasted chicken breast, meat only | 85 g (3 oz) | 31.02 g | 26 g |
+| Boiled lentils | 1 cup, 198 g | 9.02 g | 18 g |
+| Reduced-fat (2%) milk | 1 cup, 245 g | 3.48 g | 9 g |
+| **Day total** | | | **83 g** |
 
-### Why the units matter more than they sound like they do
+Three things the example shows:
 
-Protein contains roughly **4 calories per gram**. If you decide on 150 grams of protein a day, you have also decided that about 600 calories of your day are spoken for. People who set a protein target and a calorie target independently and then find the two impossible to satisfy at once have usually just run into this arithmetic.
+- **The sum is the easy part.** 13 + 17 + 26 + 18 + 9 = 83 grams. The unrounded figures come to 82.6 grams, so rounding each line to the nearest gram costs almost nothing.
+- **Portion weight drives the answer.** The chicken line is 85 g × 31.02 g per 100 g = 26.4 g. Had the portion been 120 g, the same food would log as 37 g. That is why weighing your most common portions once matters more than weighing everything.
+- **A goal turns the total into a gap.** Against a goal of 100 grams, a figure picked here purely for the arithmetic, the day is 17 grams short; at 4 calories per gram, the 83 grams logged supply about 330 calories.
 
-This is the first genuinely useful thing tracking does: it turns two abstract intentions into one concrete constraint you can see.
+Now stretch it to a week. Suppose the seven daily totals are 83, 64, 91, 70, 58, 88 and 77 grams. They sum to 531, an average of about 76 grams a day, with a 33-gram spread between the lowest and highest days. No single day in that list is the "real" one; the average and the spread are what tell you where a normal week sits.
 
-## Why most tracking habits die
+## How a log falls apart
 
-Look at how a typical failure actually plays out.
+A tracking habit can collapse without any decision to stop. Picture the sequence: on day one you search a database, scroll near-identical entries, adjust serving sizes and save, four times over. By day four a sandwich at a desk gets left for later. On day five you cannot remember Tuesday's lunch, and by day six the week has a hole in it that makes the weekly view hard to trust.
 
-Day one, you log everything. You search a database, scroll a list of near-identical entries, pick one, adjust the serving size, save. Four times over. It takes eight minutes and it feels productive because it is new.
+Each step in that sequence is a reasonable choice in the moment. The process made a small lapse hard to recover from. So the useful design questions are narrow:
 
-Day four, you are at a desk with a sandwich and you decide to log it later. Day five you cannot remember what Tuesday's lunch was. Day six the history has a hole in it, the hole makes the weekly view meaningless, and the meaninglessness makes opening the app pointless.
+1. **How long does a repeat meal take to log?** The foods you eat regularly are the entries you will make most often, so they need to be the fastest.
+2. **Can you log in the moment?** Entry at the table beats reconstruction at midnight, because a snack or a second helping is easy to forget when you rebuild a day from memory.
+3. **Does a missed day break anything?** If one gap spoils the weekly view, gaps become reasons to stop.
 
-Nothing about that sequence is a motivation problem. Each individual decision was reasonable. The design of the process made a small lapse unrecoverable.
-
-So the useful design questions are narrow:
-
-1. **How long does a repeat meal take to log?** You do not eat 400 different foods. You eat maybe 30 regularly. If those 30 take one tap each, the habit survives ordinary days.
-2. **Can you log in the moment?** Entry at the table beats reconstruction at midnight, because recalled days lose snacks first — and snacks are where the unaccounted intake usually is.
-3. **Does a missed day break anything?** If a gap invalidates the view, gaps become exits.
-
-## A tracking method that survives contact with a normal week
-
-Here is the approach that tends to hold up, stated as a process rather than a product.
+## A tracking method for an ordinary week
 
 ### Start by measuring, not by targeting
 
-Spend the first week logging what you already eat, without changing anything and without setting a goal. You are collecting a baseline.
-
-This feels like a wasted week and it is the most valuable one, because a target chosen before you know your starting point is a guess. If your baseline is 70 grams a day, a jump to 160 is a different project than a move to 90.
+Spend the first week logging what you already eat, without changing anything and without setting a goal. You are collecting a baseline. A target chosen before you know your starting point is a guess: if your baseline turns out to be 70 grams a day, moving to 160 is a different project from moving to 90.
 
 ### Calibrate a handful of foods, then estimate the rest
 
-Weigh the five or six foods you eat most often — once, on a kitchen scale, so you know what your normal portion actually weighs. After that, estimate.
+Weigh the five or six foods you eat most often, once, on a kitchen scale, so you know what your normal portion actually weighs. After that, estimate.
 
-USDA's **FoodData Central** is the public reference database for what is in those foods, and it is free to search. Approximate figures from it, purely to give you a sense of scale: a 3-ounce (85 g) cooked chicken breast portion lands around 26 grams of protein, a large egg around 6 grams, a small container of plain nonfat Greek yogurt in the mid-teens, and half a cup of cooked lentils around 9 grams. Treat those as orientation, not gospel — brands and preparation move the numbers, and the FoodData Central entry for the exact food you ate is the one to trust over any figure quoted here.
+USDA's **FoodData Central** is the public reference database for what is in those foods, and it is free to search. The figures in the worked example above come from it. Brands and preparation change the numbers, so the entry for the exact food you ate, or the food's own Nutrition Facts label, is the one to use over any figure quoted here.
 
-Consistency beats precision here. An estimate you make the same way every day produces a trend you can read. A precise measurement you take three days out of ten produces nothing.
+Consistency matters more than precision. An estimate you make the same way every day produces a trend you can read; a precise measurement taken on three days out of ten does not.
 
 ### Log at the moment of eating
 
-This is the single highest-leverage habit in the whole exercise. Log before the first bite or immediately after the last one. Not at bedtime.
-
-[Protein Diet Tracker](/apps/protein-diet-tracker/) is built around this specifically: meals and snacks go in as the day goes, and they roll into protein, calorie, carbohydrate and fat totals on one screen. The design brief was speed of entry rather than breadth of database, because the tracker you actually open beats the comprehensive one you abandoned.
+Log before the first bite or straight after the last one, not at bedtime. [Protein Diet Tracker](/apps/protein-diet-tracker/) is built around this: meals and snacks go in as the day goes, and they roll into protein, calorie, carbohydrate and fat totals on one screen. Fast entry was the design brief.
 
 ### Read weeks, not days
 
-A single day tells you almost nothing. You had a big lunch, or you skipped breakfast, or it was someone's birthday.
-
-Seven ordinary days tell you what your intake genuinely looks like. That is the level at which trends and nutrition history earn their place — you are looking for the shape of a normal week, and whether that shape is moving.
+A single day can be skewed by a big lunch, a skipped breakfast or a birthday. Seven ordinary days, as in the worked example, show what a normal week looks like, which is where progress trends and nutrition history earn their place.
 
 ### Keep training in the same record
 
-If you train, log it in the same place as your food. Not because the app can compute anything profound from the combination, but because two separate histories never get compared, and one combined history does. Weight, workouts and intake in one timeline is a record you will actually look back over.
+If you train, log it in the same place as your food. Two separate histories are hard to compare; one combined history of weight, workouts and intake is a record you can look back over in one place.
 
 ## What tracking will not do for you
 
-Being direct about the limits is part of making the tool useful.
-
-- **It will not tell you your correct protein target.** Protein Diet Tracker deliberately does not calculate one. You set your own daily goals and the app measures the day against the numbers you chose. Any app that hands you a personalised number is running a formula, not assessing you.
+- **It will not tell you your correct protein target.** Protein Diet Tracker deliberately does not calculate one. You set your own daily goals and the app measures the day against the numbers you chose.
 - **It will not diagnose anything.** Nutrition tracking is not a clinical assessment, and no logging app substitutes for a healthcare professional.
-- **It will not guarantee an outcome.** No app can promise weight loss, muscle gain, or any specific result, and anything claiming otherwise is selling.
+- **It will not guarantee an outcome.** No app can promise weight loss, muscle gain or any specific result.
 - **It will not make estimated data exact.** If you estimate portions, your totals are estimates. That is fine for spotting trends and unhelpful for anything requiring precision.
 
-What it does do is replace a belief with a number. "I get plenty of protein" becomes a figure you can check, and that is usually the entire value.
+What it does do is replace a belief with a number: "I get plenty of protein" becomes a figure you can check.
 
 ## Choosing a tracker: the questions worth asking
 
-Most comparison guides list features. These four questions predict whether you will still be logging in a month better than any feature list.
+**How many taps is a repeat meal?** Try logging the same breakfast three days running before committing. That is the interaction you will repeat most.
 
-**How many taps is a repeat meal?** Try logging the same breakfast three days running before committing. That is the interaction you will perform hundreds of times.
+**What does it cost, and when does it start asking?** Free to install and free to keep using are not the same thing. Read the pricing and any subscription terms on the Play listing before you invest weeks of entries. Protein Diet Tracker is free to download, contains ads and offers optional in-app purchases.
 
-**What does it cost, and when does it start asking?** Free to install and free to keep using are not the same thing, and the difference is not always visible on day one. Read the pricing and any subscription terms on the Play listing before you invest weeks of entries in something. Protein Diet Tracker is free to download, contains ads, and has optional in-app purchases; nothing central is held back.
+**Where does your data live?** The Data safety section on any Google Play listing states what an app collects and shares. In Protein Diet Tracker, entries stay on your device and no account is required, which also means there is no cloud sync between phones and an uninstall removes the history.
 
-**Where does your data live?** The Data safety section on any Google Play listing states what an app collects and shares. In Protein Diet Tracker, entries stay on your device and no account is required, which also means you are responsible for them — an uninstall takes the history with it.
-
-**Does it require a whole philosophy?** Some trackers assume a specific diet. If you are counting one number, an app that totals what you enter without pushing a plan will annoy you less. If you are specifically eating low-carb, a dedicated tool like [Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) that handles [net carb arithmetic](/blog/net-carbs-explained-keto-tracking/) for you is the better fit than a general tracker you have to do mental maths around. Both sit alongside the rest of our [health and nutrition apps](/apps/category/health-nutrition/) if you want to compare them.
+**Does it require a whole philosophy?** Some trackers assume a specific diet. If you are counting one number, an app that totals what you enter without pushing a plan is the simpler fit. If you are specifically eating low-carb, a dedicated tool like [Ketora: Keto Diet Carb Tracker](/apps/keto-diet-tracker/) that handles [net carb arithmetic](/blog/net-carbs-explained-keto-tracking/) for you saves the mental maths a general tracker would leave to you. Both sit alongside the rest of our [health and nutrition apps](/apps/category/health-nutrition/).
 
 ## A realistic first month
 
-If you want a concrete plan:
-
 **Week 1 — baseline.** Log everything, change nothing, set no goal. Note which foods you eat repeatedly.
 
-**Week 2 — calibrate.** Weigh your six most common portions once. Set a daily protein goal informed by your baseline and by a conversation with a qualified professional if you have any health considerations.
+**Week 2 — calibrate.** Weigh your six most common portions once. If you want a daily goal, set it now, informed by your baseline and by a conversation with a qualified professional if you have any health considerations.
 
-**Week 3 — hold.** Log in the moment. Expect to miss entries; log the next one anyway rather than treating a gap as a failed week.
+**Week 3 — hold.** Log in the moment. When you miss an entry, log the next one anyway rather than treating the gap as a failed week.
 
-**Week 4 — read it.** Open the history and look at four weeks rather than one day. Ask whether the trend is moving and whether the goal you set in week 2 still looks sensible.
+**Week 4 — read it.** Open the history and compare weekly averages, as in the worked example, rather than single days. Ask whether the average is moving and whether the goal from week 2 still looks sensible.
 
-By the end of that month you will either have a habit that costs you a few seconds per meal, or you will have learned that a given app is too slow for you — which is also a useful result, and a cheap one.
-
-## The short version
-
-Protein tracking is not complicated. The published references are public and easy to find: 0.8 g/kg per day as the adult RDA, 10–35 percent of calories as the acceptable range, 50 grams as the labelling Daily Value. The arithmetic is addition. What those figures actually mean — why the RDA is a floor rather than a target, and where the higher numbers people quote come from — is worked through in [how much protein per day](/blog/how-much-protein-per-day/).
-
-Everything that makes tracking hard is friction, and friction is a solvable problem. Pick a tool where logging a normal meal is fast, log at the table instead of at midnight, and judge yourself on weeks rather than days.
+By the end of the month you will either have a habit that costs a few seconds per meal, or you will have learned that a particular app is too slow for you, which is also a useful result.

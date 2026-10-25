@@ -48,7 +48,9 @@
     "space-shooter-arcade-guide",
     "bullet-hell-vs-classic-shmup",
     "best-offline-arcade-games-android",
-    "what-makes-a-roguelike"
+    "what-makes-a-roguelike",
+    "world-war-gunship-attack-guide",
+    "space-shooter-classic-arcade-partnership-opportunities"
   ],
   "takeaways": [
     "The genre's founding move was not shooting — it was putting the player inside an approaching threat and making survival a question of where you stand.",

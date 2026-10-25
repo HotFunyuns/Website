@@ -47,7 +47,8 @@
   "relatedArticles": [
     "mental-division-tricks",
     "mental-math-training-guide",
-    "simplifying-fractions-quickly"
+    "simplifying-fractions-quickly",
+    "modular-arithmetic-explained"
   ],
   "takeaways": [
     "Every divisibility rule is a statement about the remainder a power of ten leaves when divided by that number, which is why the rules look so different from one another.",

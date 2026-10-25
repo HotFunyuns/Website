@@ -47,7 +47,8 @@
     "why-free-android-games-show-ads",
     "best-offline-arcade-games-android",
     "auto-fire-and-touch-controls",
-    "hardware-vs-software-decoding"
+    "hardware-vs-software-decoding",
+    "turn-off-personalized-ads-android"
   ],
   "takeaways": [
     "The display is usually the largest single power consumer during gaming, ahead of the processor for many titles.",

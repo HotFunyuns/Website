@@ -46,7 +46,8 @@
     "google-play-data-safety-explained",
     "android-app-permissions-explained",
     "best-offline-arcade-games-android",
-    "battery-and-performance-in-mobile-games"
+    "battery-and-performance-in-mobile-games",
+    "turn-off-personalized-ads-android"
   ],
   "takeaways": [
     "A free app has to be funded by something: advertising, in-app purchases, subscription, or cross-promotion of something else.",

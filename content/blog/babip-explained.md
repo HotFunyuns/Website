@@ -47,7 +47,8 @@
     "ops-and-slugging-explained",
     "understanding-sports-sim-probability",
     "baseball-draft-gm-guide",
-    "how-to-keep-score-in-baseball"
+    "how-to-keep-score-in-baseball",
+    "baseball-draft-gm-team-partnership-opportunities"
   ],
   "takeaways": [
     "Compute BABIP as hits minus home runs, divided by at-bats minus strikeouts and home runs plus sacrifice flies, so only balls the defence could field are counted.",

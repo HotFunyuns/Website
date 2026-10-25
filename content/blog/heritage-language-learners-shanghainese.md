@@ -45,7 +45,8 @@
     "learn-shanghainese-beginners-guide",
     "is-shanghainese-a-dialect-or-a-language",
     "shanghainese-tones-and-tone-sandhi",
-    "reading-shanghainese-characters"
+    "reading-shanghainese-characters",
+    "learn-shanghainese-partnership-opportunities"
   ],
   "takeaways": [
     "The widely cited definition of a heritage language learner, formulated by Guadalupe Valdes, describes someone raised in a home where a language other than the majority language is spoken, who speaks or at least understands it, and who is bilingual to some degree.",

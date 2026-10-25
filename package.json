@@ -37,8 +37,10 @@
     "audit:urls": "npm run audit:canonicals && npm run audit:redirects && npm run audit:duplicates && npm run audit:backnav",
     "verify:play": "node scripts/verify-play-listings.mjs",
     "research:intent": "node scripts/collect-search-intent.mjs",
-    "audit:all": "npm run audit:content && npm run audit:catalog && npm run audit:output && npm run audit:schema && npm run audit:analytics && npm run audit:authorship && npm run audit:entities && npm run report:links && npm run audit:urls && npm run audit:feeds && npm test",
-    "audit:backnav": "node scripts/audit-back-navigation.mjs"
+    "audit:all": "npm run audit:content && npm run audit:catalog && npm run audit:output && npm run audit:schema && npm run audit:analytics && npm run audit:authorship && npm run audit:entities && npm run report:links && npm run audit:urls && npm run audit:feeds && npm run audit:search-console && npm test",
+    "audit:backnav": "node scripts/audit-back-navigation.mjs",
+    "audit:search-console": "node scripts/audit-search-console-regressions.mjs",
+    "verify:search-console": "node scripts/audit-search-console-regressions.mjs --live"
   },
   "dependencies": {
     "framer-motion": "^11.15.0",

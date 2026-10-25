@@ -102,6 +102,42 @@ export default function ToolsIndexPage() {
 
       <div className="section-padding !pt-4">
         <div className="container-wide mx-auto">
+          <section aria-labelledby="questions-heading" className="mb-16">
+            <h2 id="questions-heading" className="display-title text-2xl sm:text-3xl">
+              Which calculator do you need?
+            </h2>
+            <p className="mt-3 max-w-2xl text-ink-500">
+              Start from the question you are trying to answer. Each calculator shows its formula and a worked example,
+              so you can check the answer by hand.
+            </p>
+            <div className="table-scroll mt-6" role="region" aria-label="Questions and the calculator that answers each" tabIndex={0}>
+              <table className="w-full min-w-[34rem] text-left text-sm">
+                <thead>
+                  <tr className="border-b border-ink-200 text-ink-500">
+                    <th scope="col" className="py-2 pr-4 font-semibold">If you want to know…</th>
+                    <th scope="col" className="py-2 font-semibold">Use</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {toolsIndexCopy.questions.map(({ question, tool: id }) => {
+                    const tool = tools.find((t) => t.id === id);
+                    if (!tool) return null;
+                    return (
+                      <tr key={id} className="border-b border-ink-100 align-top">
+                        <td className="py-2.5 pr-4 text-ink-700">{question}</td>
+                        <td className="py-2.5">
+                          <Link href={toolPath(tool)} className="link-accent">
+                            {tool.shortTitle}
+                          </Link>
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </section>
+
           {groups().map((group) => (
             <section key={group.id} aria-labelledby={`tools-${group.id}`} className="mb-16">
               <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">

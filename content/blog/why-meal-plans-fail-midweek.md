@@ -47,7 +47,8 @@
     "batch-cooking-for-the-week",
     "pantry-inventory-and-grocery-lists",
     "meal-planning-for-a-dietary-preference",
-    "what-allergy-flags-in-recipe-apps-miss"
+    "what-allergy-flags-in-recipe-apps-miss",
+    "kitchen-measurement-conversions"
   ],
   "takeaways": [
     "A plan that collapses midweek almost always failed at the design stage: it was written on a day with time and energy, for days that will have neither.",

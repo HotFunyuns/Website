@@ -46,7 +46,8 @@
     "why-food-databases-disagree",
     "recipe-nutrition-figures-and-why-they-move",
     "meal-planning-for-a-dietary-preference",
-    "why-meal-plans-fail-midweek"
+    "why-meal-plans-fail-midweek",
+    "safe-cooking-temperatures"
   ],
   "takeaways": [
     "An in-app allergy flag is a comparison between the words in a recipe's ingredient list and the words you logged, which makes it good at catching the obvious and blind to everything that is not written down.",

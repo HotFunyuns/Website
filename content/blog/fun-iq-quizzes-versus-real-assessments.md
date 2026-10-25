@@ -53,7 +53,8 @@
   "relatedArticles": [
     "are-online-iq-tests-accurate",
     "what-iq-tests-actually-measure",
-    "iq-score-ranges-and-bands"
+    "iq-score-ranges-and-bands",
+    "discrete-math-study-quiz-guide"
   ],
   "takeaways": [
     "Four things get collapsed into one word: practice, entertainment, educational activity and standardised psychological assessment. Only the fourth produces a score with a defined meaning.",

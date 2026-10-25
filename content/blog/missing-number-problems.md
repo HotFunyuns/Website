@@ -54,7 +54,8 @@
   "relatedArticles": [
     "working-backwards-problems",
     "mental-division-tricks",
-    "multiplication-shortcuts-explained"
+    "multiplication-shortcuts-explained",
+    "knights-and-knaves-puzzles"
   ],
   "takeaways": [
     "Every missing number problem is solved by applying the operation that undoes the one written in the equation, then checking the result by substituting it back.",

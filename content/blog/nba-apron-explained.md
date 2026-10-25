@@ -48,7 +48,9 @@
     "salary-cap-basics-for-gm-games",
     "free-agency-explained",
     "rebuild-vs-retool",
-    "basketball-draft-gm-guide"
+    "basketball-draft-gm-guide",
+    "basketball-league-sandbox-guide",
+    "league-sandbox-vs-franchise-gm"
   ],
   "takeaways": [
     "Learn the 2026-27 ladder in order: minimum team salary $148.465m, cap $164.961m, tax $200.428m, first apron $209.015m, second apron $221.686m.",

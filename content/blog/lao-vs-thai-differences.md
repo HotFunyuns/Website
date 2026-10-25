@@ -47,7 +47,8 @@
     "lao-alphabet-explained",
     "learn-thai-script-beginners-guide",
     "malay-vs-indonesian-differences",
-    "lao-greetings-and-politeness"
+    "lao-greetings-and-politeness",
+    "thai-classifiers"
   ],
   "takeaways": [
     "Lao and Thai are closely related members of the same language family, not the same language and not dialects of one another.",

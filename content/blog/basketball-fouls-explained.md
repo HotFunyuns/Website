@@ -49,7 +49,9 @@
     "basketball-positions-explained",
     "basketball-career-sim-guide",
     "basketball-advanced-stats-explained",
-    "basketball-draft-gm-guide"
+    "basketball-draft-gm-guide",
+    "what-does-a-sports-agent-do",
+    "basketball-career-pro-league-partnership-opportunities"
   ],
   "takeaways": [
     "Track three counts separately: the fouled team's penalty, the fouler's personal total and the team's total for the quarter.",

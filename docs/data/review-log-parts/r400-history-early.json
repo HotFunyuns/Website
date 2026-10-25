@@ -1,0 +1,384 @@
+{
+  "schema": "reign-editorial-review-log/1",
+  "about": "Results of the AI editorial review for articles published with the automated label. Not a person's review.",
+  "entries": [
+    {
+      "slug": "alexander-the-great-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia text (Alexander the Great), Livius.org and EBSCO (Reynolds): birth 20/21 July 356 BC (Hekatombaion, exact date uncertain), accession 336 at 20, Aristotle to 16, Thebes 335, Granicus 334, Issus 333 (November per Livius), Tyre/Gaza 332, Egypt 'later 332' (Wikipedia) vs 'early in 331' (Livius) - disagreement already stated; Gaugamela quote 'final and decisive encounter' verbatim; 10,000 talents; Briant quote verbatim; Hyphasis mutiny and Coenus; Gedrosia/Susa 324, Opis; death 10/11 June 323 aged 32 (age arithmetic rechecked); lost eyewitness historians and dating of Diodorus/Curtius/Arrian/Plutarch/Justin; Arrian most reliable; Plutarch fever vs Diodorus unmixed wine and 11 days; Perdiccas 321, 40 years of Diadochi wars, both kings murdered; >20 cities. Changed: 'to the strongest' now attributed to Diodorus with the Arrian/Plutarch dissent, and the signet-ring version attributed to Diodorus, Curtius and Justin; replaced unsupported 'Athens had already lost its independence in 338 BC' with Chaeronea, 2 August 338 BC per Wikipedia; replaced the uncatalogued 'carries no citations / not a substitute' app sentence with catalog wording (curiosity-led learning, pairs with coursework rather than replacing it). check.mjs clean (top 0.027), preflight clean.",
+      "contentHash": "sha256:c578a56665f387dc70a71581e7ff6eacb9f1261eee8e33bca6788509fc255350"
+    },
+    {
+      "slug": "ancient-egypt-timeline",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia wikitext (Egyptian chronology, History of ancient Egypt, Manetho, Middle/New Kingdom, First/Third Intermediate, Late Period, Ptolemaic Kingdom) and EBSCO Old/New Kingdom Research Starters: every Breasted/Shaw/Hornung table figure checked row by row; divergence of ~300 / up to 30 / a few years; Manetho fl. 290-260 BCE, text lost, 'often varies substantially' (Egyptian chronology article) verbatim; Turin/Abydos/Palermo; cattle census 24 x 2 = 48 for Sneferu; Sothic cycle abandoned; coffin 2073+/-9 BC; Middle Kingdom ends 1782 'or 1700 BC'; 1926 Steindorff & Frankfort; Morenz 'Period of Regions'; TIP label popular by 1978 (Kitchen); Late Period 664-332, Cambyses 525; radiocarbon 1570-1544; EBSCO 2687-2125 (3rd-8th dynasties) and c.1570; pharaonic period 32nd c. to 332 BC; Ptolemies 'longest and final dynasty'. Arithmetic rechecked (505, 474, 481, 462). Changed: 'German scholars in 1845' corrected to von Bunsen; the up-to-400-years revision reworded to match the source and flagged as marked citation-needed on Wikipedia, takeaway reworded likewise; added the six Wikipedia period articles the text cites to sources (accessed 2026-10-25); replaced uncatalogued app sentence with catalog wording (companion to coursework rather than a replacement). check.mjs clean (top 0.021), preflight clean.",
+      "contentHash": "sha256:bbbb8350945f8a686e2892de32c49ea9c7b4dfe413488d0a52a33e153feeffde"
+    },
+    {
+      "slug": "athenian-democracy-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia (Athenian democracy) and EBSCO Research Starters (Athenian democracy by Mark Dziak; Reforms of Cleisthenes): Solon 594, Cleisthenes 508-07, Ephialtes 462/1 (Areopagus reduced to homicide and sacrilege court), Peisistratos 561, Hippias 510, demes/ten tribes, coups 411 and 404, Philip II 338; assembly over age 20, show of hands, 10 then 40 meetings, pay after 403 and first 6,000; boule 50 per tribe aged 30+, 36-day prytany, daily chairman by lot; juries 200/401/501, pool 6,000, water clock, cases ended by sunset; ~1,100 officials, ~100 elected incl. 10 strategoi; two non-consecutive council years; 50-drachma fine cap; ho boulomenos; 450 BC citizenship law; 250,000-300,000 / 30,000 (shares 10% and 12% recomputed), no more than 30% of adults, 10-20% participation, 60,000 mid-5th c.; EBSCO 45,000 and 460-320 BCE (disagreements stated); ostracism 487 BCE (EBSCO) vs early 5th c. (Wikipedia) stated; critics list, Arginusae 406 'technically illegal', Socrates 399. Changed: takeaway 'forms of it continued under later rulers' softened to the source (Macedonian-appointed governors kept some traditional institutions); replaced uncatalogued app sentence with catalog-based wording (sits alongside coursework rather than standing in for it). check.mjs clean (top 0.021), preflight clean.",
+      "contentHash": "sha256:c2699c09a28f0b0279d24edcfff33027ec9858bb72da2e09975a80109677af35"
+    },
+    {
+      "slug": "the-persian-wars-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia (Greco-Persian Wars) and EBSCO Research Starters (Marathon; Greco-Persian Wars by James A. Arieti): 499-449 BC, Ionia 547, Naxos and Aristagoras 499, Sardis 498, Lade 494 (Arieti 495 and 499-448 BCE, disagreement stated), Mardonius 492 and Athos, Datis/Artaphernes 490, 10,000 Athenians (Wikipedia) vs 8-9,000 + ~1,000 Plataeans and 'perhaps 24,000' (EBSCO) with cavalry uncertainty stated, 6,400 vs 192; Darius d. 486; Leonidas 300, two full days, Ephialtes per Herodotus with folklore caveat, ~2,000 rearguard, 271 triremes, Artemisium three days; Salamis September, Themistocles deception, at least 200 ships; Plataea/Mycale 479; 'endless dispute', 2.5 million vs ~200,000, 1,207 ships vs ~600, Iliad reading; Arieti quote verbatim; all primary sources Greek; Herodotus b. 484, wrote 440-430; Plutarch ~600 years later, 'Philobarbaros'; Serpent Column; 1939 arrowheads; Eurymedon 466, Cyprus 451, Peace of Callias disputed (Diodorus vs Thucydides; Callisthenes and Theopompus). Arithmetic rechecked (33.3, 12.5, ~2.0). Changed: 'destroyed on Xerxes's orders' to 'Athens had been evacuated, and the Persian army razed it' (source wording); replaced uncatalogued app sentence with listing-based wording (companion to coursework rather than a replacement). check.mjs clean (top 0.025), preflight clean.",
+      "contentHash": "sha256:d5934a1c2dc6024031b31c21ec99acc47f75a63f3b856154c5d19ca761e3da63"
+    },
+    {
+      "slug": "the-punic-wars-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia (Punic Wars, incl. footnote on Euboic talents), EBSCO Research Starter by Jeremiah B. McCall, and the USF ETC map page: 264-146 BC and 'forty-three years' (23+17+3 recomputed), four-year Mercenary War, treaties 509/348/c.279, Arno by 270, Carthaginian holdings, 243 BC ship loans, Treaty of Lutatius 3,200 talents, Sicily first province, Sardinia/Corsica + 1,200 talents (McCall 238 BCE, 'adding insult to injury'), Messina and 'seem to have feared'; Trebia 10,000 of 42,000, Trasimene 15,000 + 15,000, Cannae at least 67,500, Naco del Hoyo quote verbatim, 86,000 force, Fabian strategy, fourteen years in Italy, McCall manpower quote verbatim, Scipio 204, Zama October 202 cavalry sequence, 201 treaty terms (10,000 talents / 50 years = 200 a year, 10 warships, elephants, war permission), Africanus; Masinissa, 151, 149, 200,000 armour / 2,000 catapults, six days, 50,000 prisoners, curse, province of Africa with Utica; salt story '19th-century invention' vs McCall's 'sowing salt' (disagreement stated); Polybius 167 hostage, favourable to Scipio, accepted at face value; Livy 'often demonstrably inaccurate'; no Carthaginian-perspective sources. Changed: added that Saguntum was sacked in 219 and war declared in spring 218, with the scholarly debate over provocation; clarified the USF map is an 1874 map reproduced by ETC; replaced uncatalogued app sentence with catalog wording (curiosity-led learning; companion to coursework rather than a replacement). check.mjs clean (top 0.027), preflight clean.",
+      "contentHash": "sha256:aafdad54f73209b412ee0b9a845d80ef827182070d5e10e27e7f3acd450a001b"
+    },
+    {
+      "slug": "roman-republic-vs-empire",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Wikipedia Roman Republic/Roman Empire plaintext (wx_romrep, wx_romemp, fetched 2026-10-25): unwritten precedent-based constitution, collegiality (at least two per office), ten-year re-holding bar, centuriate assembly sole power to declare war, six-month dictator, 'elective oligarchy, not a democracy', senatus consulta as formal 'advice', 509 BC traditional date and quasi-mythological expulsion story, Senate 'little short of assassination', legates as generals/diplomats/administrators, Senate choosing emperor 'mindful of acclamation', imperator etymology, 476/1453. EBSCO Augustan Settlement: 13 Jan 27 BCE, Spain/Gaul/Syria for ten years plus Egypt, two-thirds of army, Augustus name three days later, 1 July 23 BCE maius proconsular imperium and tribunician power, 29 BCE triumph, 'It was the principate, and he was princeps' verbatim. EBSCO Republic: 29 BCE end, no scholarly consensus, tribunes' veto, Twelve Tables 449 BCE. EBSCO Imperial Rome: constitutional monarchy/final word, Principate to 180 CE. Arithmetic 482/480/502 rechecked. Changes: 'less constitutional and more monarchical, culminating in the Dominate' was attributed to EBSCO but is Wikipedia's wording, so reattributed; cut unsourced 'developed at around the same time' (Athens aside); FAQ 'Most accounts use 27 BC' changed to 'Wikipedia uses 27 BC'; replaced the 'carries no citations / not a substitute for textbooks' app sentence with listing wording (companion to coursework, not a replacement). check.mjs clean (top 0.024); preflight clean.",
+      "contentHash": "sha256:bacfd61b616a1d28298c518a74b20107dc671668da2a48b8f093138ac798d4ce"
+    },
+    {
+      "slug": "the-han-dynasty-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Wikipedia Han dynasty plaintext (wx_han): golden age/Han people/Han characters, Qin collapse within four years, Gaixia 202 BC, Hanzhong fief, 206 BC alternative Western Han date, Wang Mang reforms (outlawing slavery, debased coinage), Yellow River floods, Red Eyebrows, mob killing Wang Mang in the Weiyang Palace, 5 August AD 25, supreme judge/lawgiver/'no limits', tingyi and risk of alienating ministers, Three Councillors and Nine Ministers, hamlets of about a hundred families, 13 commanderies/10 kingdoms, 154 and 145 BC, 124 BC Imperial University and 30,000+ students, 117 BC salt/iron, wuzhu 119 BC to the Tang (618-907), poll tax 120/20/240, 2 AD census 57,671,400 in 12,366,470 households (ratio 4.66 rechecked), 200/133/121/60 BC, Zhang Qian 139-125 BC, Silk Road to Rome, papermaking/rudders/negative numbers/seismometers, Cai Lun 105, 92 AD, 184 AD rebellions led by faith healers, 25 September 189 about two thousand eunuchs, Red Cliffs 208, December 220. EBSCO Liu Bang (Upshur): king of Han 206, emperor 202 BCE, first humble-born founder, village official, recommendation custom leading to the examination system; EBSCO China in the Ancient World uses 206 BCE-220 CE. The 206 vs 202 start-date disagreement is stated in the text. Changes: replaced the 'carries no citations / not a substitute' app sentence with listing wording (companion to coursework, not a replacement) and reworded Time Travel Mode as simulated alternate history. check.mjs clean (top 0.017); preflight clean.",
+      "contentHash": "sha256:56e5e6d199a3f86750f9be32549289b5ec1adb6716fd70468205d1638d0c17ed"
+    },
+    {
+      "slug": "charlemagne-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Wikipedia Charlemagne plaintext (wx_charl) and the Fordham Einhard text (x_einhard): first recognised western emperor in about three centuries, 737 vacancy, 751/752 deposition and 754 anointing dispute, 24 Sept/9 Oct 768, 4 Dec 771, June 774 and 'without parallel', Roncevaux 778, Tassilo deposed 788 (year after the 787 invasion), Verden 4,500 and Fried quote verbatim, Capitulatio 'forced conversion' quote, April 799 attack, 23 Dec oath, Imperator Romanorum, first since 476, Collins (799) vs Fried (798 'at the latest') vs Einhard on who planned the coronation, Irene 797, problem of two emperors, Abul-Abbas 802, 'policy and direct patronage', Admonitio/Epistola, Dungal/Alcuin/Theodulf/Peter of Pisa, 90,000 manuscripts, minuscule, 802 oath capitulary, Lorsch 2 April and Becher Easter-year 748, Psalm 90 and Suetonius, 11 Sept 813, pleurisy, 28 Jan 814, 911/987/962/1806, Father of Europe, Luther, Fried vs Dutton on literacy. Einhard quotes ('thirty-three successive years', 'persistence and bitterness', 'foreseen the design of the Pope', 'took this step very ill', 'a few capitularies, and those imperfect ones', tablets under the pillow) checked verbatim. Arithmetic 324, ~45, ~13 and 65 rechecked. Changes: Einhard's age at death now stated precisely (Wikipedia reports 72; the Fordham text has 'the seventy-second year of his age' while the epitaph it quotes says seventy), FAQ softened to match; replaced the 'carries no citations / own disclaimer says not a substitute for textbooks, peer-reviewed scholarship' sentence with listing wording. check.mjs clean (top 0.022); preflight clean.",
+      "contentHash": "sha256:fde488392daf44d59b5268047e1323873fa40e4db3525666dc8f62b1e5614d86"
+    },
+    {
+      "slug": "the-vikings-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Wikipedia Vikings plaintext (wx_vik): late 8th to late 11th c., farmers/fishermen/craftsmen/traders, 793-1066 convention, 8 June 793 quote and Alcuin quote, sources 'negatively affected', short formulaic runes, sagas 12th-14th c. and doubtful literal reading, 'twelve centuries', 1890s, etymology theories (wicing, vik, vika rowing shifts 'better attested linguistically'), 12th-c. vikingr, late-18th-c. entry into Modern English, motives 'much debate', Saxon Wars 772-804, Simek quote, 'exploded in frequency', no organised naval opposition, marriage/polygyny and Dudo, slave trade, Volga goods and ports list, Baghdad, 862/882/1598, Soviet historians, 839, Varangian Guard late 10th c., Vastgotalagen inheritance rule, Danelaw, Sweyn 1013-14, Cnut 1016-35, Ormskirk, preposition stranding, Norn, Iceland 9th c., Greenland about 980 and climate change, Lund 1103, Christians not enslaving Christians, Sigurd 1107, horned helmets. Norman Conquest article for Rollo 911. Kuitems et al. 2021 Nature (x_kuitems2021): only confirmed Norse site, three different trees, metal tools, AD 993 cosmic-ray anomaly seen around the world, ring-counting and 'only secure calendar date' quotes verbatim; 1021-993=28 is consistent with the paper's ring -29 decrease. Changes: cut the unsupported claim that the Varangian Guard took in English exiles after 1066 (not in the cited Vikings source); replaced the 'nothing in it is footnoted / by its own disclaimer' app sentence with listing wording (companion to coursework). check.mjs clean (top 0.018); preflight clean.",
+      "contentHash": "sha256:032364738886205754ab98d5f23321ba3ce751989c7e00e6acedc94a6fb827c8"
+    },
+    {
+      "slug": "norman-conquest-1066",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against Wikipedia Norman Conquest plaintext (wx_norm): 911 Rollo, 1002 Emma, Edward 1042 and childless 'may have encouraged', Witenagemot election, Hardrada/Magnus/Harthacnut claim, 8 September dismissal, 300+ ships 'perhaps 15,000', Fulford 20 Sept, Stamford Bridge 25 Sept, 24 of 300 ships, Pevensey 28 Sept, Hastings 9 am 14 Oct, London pause of about a week, Senlac Hill/Battle, shield wall, Breton flight and two more feigned withdrawals, army sizes (14,000-150,000 contemporary; 7000-8000/10,000-12,000/7500 modern; 1.2 million/400,000; about 35 named companions), competing accounts of Harold's death and 'later reworking', Poitiers 'full of praise', papal-backing caution, Edgar Aetheling, Wallingford, Berkhamsted, 25 Dec 1066 Westminster, 1067 Kent/Mercia, 1068 Exeter, 1069 Durham, Harrying 1069-70, Ely 1071 'effective end', secure after 1072, 5 per cent south of the Tees, Wulfstan 1095, shires/sheriffs/writs/Winchester treasury, Old English to Latin, about 28,000 slaves, English in the Varangian Guard, Southern quote and Richardson/Sayles, 1204. National Archives pages: 800+ pages, Christmas 1085, before/after the invasion, 270,000 inhabitants, 13,000 settlements. Day counts 5/3/16/72/19 and 8 per cent rechecked. Changes: added Wikipedia's 5,000-13,000 range for Harold's army so the disagreement is shown; takeaway 'modern estimates mostly sit' changed to 'the modern estimates Wikipedia cites range from'; replaced the 'entries have no citations / disclaimer says no substitute' app sentence with listing wording. check.mjs clean (top 0.024); preflight clean.",
+      "contentHash": "sha256:a90ead571c899e520852b2f8cc3da2f8ec167ca1259522ae567e25a1f1ae6422"
+    },
+    {
+      "slug": "feudalism-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia 'Feudalism' wikitext: Ganshof 1944 'narrow, technical, legal sense' quote, Bloch 1939, Marx's definition, Brown 1974 / Reynolds 1994, 'ongoing inconclusive' and 'widely accepted', etymology (feudum 884 charter of Charles the Fat, feudal by 1406, 'feudal system' 1736, Whitaker 'feudalism' 1771, Montesquieu 1748), end of military feudalism c.1500, 4 Aug 1789 quote 'abolishes the feudal system entirely', decree 11 Aug, Lefebvre's 'more than a quarter of the farmland', Russia 1861, Scotland 28 Nov 2004, Sark Dec 2008, English consensus (commendation / stricter northern French feudalism). Fulbert of Chartres letter (Fordham) checked verbatim for the six things and both quotes; Fordham 'Feudalism?' page checked for 'most important meaning in modern popular usage', Reynolds summary, 'most reviewers ... compelling', 'majority of experts now rejecting', 'They do not represent a system'. Article already reports the Fordham vs Wikipedia disagreement on how settled the debate is. Arithmetic 1771-884=887, 1771-1406=365 recomputed. Changed: replaced the uncatalogued 'cites no sources / disclaimer says it does not replace textbooks...' sentence with catalog-supported wording (supplement to a course; Time Travel Mode outcomes are simulations). check.mjs clean (top 0.020), preflight clean. Borderline: 6 takeaways (spec table says 3-5; gates pass).",
+      "contentHash": "sha256:85fbec77529777f85c9166999b157040cd3e28aec83640cda9f7bdf7d20d7bd8"
+    },
+    {
+      "slug": "the-crusades-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia 'Crusades' wikitext: lead definition quote, 638, three caliphates, Manzikert 1071, 1054, Gregory VII martyrdom, Piacenza March 1095, Clermont 27 Nov, penance-vs-remission disagreement, 'reportedly' Deus vult, March 1096, Speyer 3 May 1096, Civetot 21 Oct, Jerusalem 15 July 1099 and 'slaughtered the population and looted the city', host 60,000-100,000 incl. 30,000 non-combatants, c.40,000 at Antioch, Ascalon 12 Aug 9,000+1,200, Godfrey 300 knights/2,000 foot, Barber quote, 1148, Hattin 4 July 1187, 2 Oct after 12-day siege, Frederick 10 June 1190, Acre 12 July 1191, 2,700-3,000 executed, Jaffa 2 Sept 1192, Saladin tithe 10%, Venice 33,500 / 85,000 marks, a third turned up, Zara Nov 1202, 200,000 marks, 12 April 1204, 'shocked contemporaries, including the Pope', 'about a fifth', 1229, Louis IX 1248-51/1270, Mamluks 1260, Tripoli 1289, Acre 28 May 1291, last stronghold 14 Aug, 'dismay rather than shock', 1336, 1492, political Islam / right-wing parallels. Fordham Urban II five-versions page checked: 'acts of the council have not been preserved', Fulcher 'immediate remission of sins', Robert 'perhaps 25 years after', 'will of God', Robert/Balderic/Guibert using the Gesta. Arithmetic recomputed (10,200; 25.5%; 10.2-17%; 196 years). Changed: 'later granted indulgences against Protestants' softened to 'after the Reformation ... occasionally' to match source; replaced the uncited/disclaimer app sentence with the listing's companion-to-coursework wording. check.mjs clean, preflight clean.",
+      "contentHash": "sha256:50d18c76663f9aaa0578fa174608121229051a1ccce4d4b29da3e58d12f8eeae"
+    },
+    {
+      "slug": "magna-carta-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia 'Magna Carta' wikitext (1204, Bouvines 1214, barons in debt, May 1215 renunciation, fresh wave of defectors, Langton, Runnymede 10 June between Windsor and Staines, ten days, 15 and 19 June, no signatures or baronial seals, the four promises, clause 61 / 25 barons / 40 days, Warren quote, papal vassal 1213, 24 Aug letter 'null, and void of all validity for ever', John died night of 18 Oct 1216, nine-year-old Henry III, 1216 reissue without clause 61, magna carta libertatum 1217, 40,000 pounds in 1225 and 'spontaneous and free will', 1297 statute, end-16th-century myth, 'badly flawed', Coke, Victorian research, majority-of-historians myth line, 1829 first repeal, 1969 Act, clauses 1/9/29, serfs in 16/20/28, four exemplifications, UNESCO, Canberra), The National Archives (Richard I 100 pounds 'reasonable relief', FitzAlan 10,000 marks 1214, Mandeville 20,000 marks, clause 2 wording, Matthew Phillips on reaffirming for war taxation and parliament), US National Archives (10 weeks, colonists, 'direct descendent', both clause quotes, common man 'hardly apparent'), Wikipedia 'Mark (currency)' (160 pence, two-thirds of a pound). Arithmetic 10,000 marks = 6,666.67 pounds, about 67 x 100 pounds, recomputed. Changed: FitzAlan 'owing' -> 'paying' (TNA says paid); cut 'All 25 were rebels' (Wikipedia: drawn almost exclusively from John's more active opponents); FAQ 'not in good faith' -> Wikipedia's 'neither side stood by its commitments'; replaced uncatalogued app citations/disclaimer sentence. check.mjs clean, preflight clean.",
+      "contentHash": "sha256:5f87d51a209df57245bf122851aec4078c42c5c52010a6efc82c41b97fb1a5c4"
+    },
+    {
+      "slug": "hundred-years-war-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia 'Hundred Years' War' wikitext: name adopted by later historians, 1337-1453 intermittent, Guyenne 'even more important than the dynastic question', 1329 homage with crown and sword, 1328 succession and University of Paris decision, May 1337 Great Council, 1340 title, three phases with dates, Bretigny 8 May 1360 and 3 million crowns, 1378 reconquest, war taxes and Peasants' Revolt, Leulinghem 18 June 1389 three-year truce, Henry V/Armagnacs/Burgundians, Troyes 1420 heirs, 1422 deaths, Orleans Oct 1428, Joan 29 April, 16 July 1429, Compiegne 23 May 1430, 30 May 1431, rehabilitation 25 years later, Arras 1435, Rouen 1449, Formigny 1450, Castillon 17 July 1453, 'another 20 years', Picquigny 1475, Calais 1558, 1802. Medieval Soldier pages fetched 2026-10-25 (English army 1415: indentures main method from late 1360s, up to 12 months, dentes, anti-forgery fit, 29 April 1415 at Westminster; French army: musters/quittances, 228 and 343, work in progress). Arithmetic: phases 81, gaps 35, 69.8%, 138 years recomputed. Changed: removed unsupported 'aged 17' at the 1329 homage (Edward was 16); 'led by Anne Curry' -> pages by Curry, Spencer and Chapman (page names no leader); fixed chronology error placing the Black Death in the Caroline phase (1347-1351 falls in the Edwardian phase); 'repeatedly ties pauses to money' softened to the 1389 truce the source ties to lack of funds; replaced uncatalogued app citation/disclaimer sentence. check.mjs clean, preflight clean.",
+      "contentHash": "sha256:3cbcd2e1535139445371640c45ec67d1e4bfc2ec1d558d6440e88a7a757b5960"
+    },
+    {
+      "slug": "the-ming-dynasty-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia 'Ming dynasty' page text: 1368-1644, last Han-ruled dynasty, Yuan collapse causes, Red Turbans 1351/White Lotus, Zhu 'penniless peasant and Buddhist monk' 1352, Nanjing 1356, Lake Poyang 1363 'claimed to be 650,000', Dadu 1368, 'Vastly Martial', 48 km wall, Great Ming Code 1397, weisuo, self-sufficient communities, Hu Weiyong 1380 / Chancellery / 'precedent mostly followed', Embroidered Uniform Guard, about 100,000 executed, Jianwen, three-year civil war and palace burned, 'second founding', Beijing 1403 and construction 1407-1420, Vietnam 1406-1427, Zheng He 1405, eunuch rule, Tumu: July 1449 / Wang Zhen / 8 September / Jingtai / 1457, Great Wall 'vast majority' and Fairbank quote, Portuguese 1516 / Macau 1557, 1381 census 59,873,305, Brook 'dubious', Fairbank 160m / Brook 175m / Ebrey 200m, copper-silver ratios 1630s/1640/1643, Atwell argument, Little Ice Age, 1633-1644 epidemic 'unknown but large', 1640 rebels, 25 April 1644, Chongzhen, Shanhai Pass, 6 June, Shunzhi, Southern Ming 1662, Taiwan 1683. Columbia Asia for Educators checked for 'late imperial' height, Hongwu 'authoritarian political culture' quote, silver via Manila and 'sink'. Arithmetic 276 years, 40 million spread, 1,000/2,000/3,000 coins recomputed. Disagreements (census, population estimates, Atwell as an argument) already flagged. Changed: replaced the uncatalogued 'carries no citations / disclaimer' sentence with the listing's companion-not-replacement wording. Distinct from zheng-he-treasure-voyages and chinese-dynasties-in-chronological-order (both linked). check.mjs clean, preflight clean.",
+      "contentHash": "sha256:003e031a190bc3925f2425cd1845d1a7b1fbbbf1948499429ee7108a4735032b"
+    },
+    {
+      "slug": "the-aztec-empire-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia Aztec Empire wikitext (Triple Alliance 1428 lead vs 1430 treaty, Mexica arrival c.1250, Two House 1325, hegemonic/indirect rule, semi-annual tribute, 38 provinces/huecalpixque, two calpixque per province, petlacalcatl, Moctezuma I 1440, Axayacatl 1479 32,000 vs 50,000 and over 90% lost, Ahuitzotl 1486 'Eldest Speaker', Moctezuma II 1502, ~630 men, Aguilar/La Malinche, smallpox >50%, up to 100,000 warriors overwhelmingly Indigenous, Tlacaelel book-burning allegation flagged citation-needed), Spanish conquest page (10 May siege start, 13 August 1521), Codex Mendoza page (c.1541, crown request, 1325-1521 section, haste) and Library of Congress (eleven ships, five hundred men, two years). Source disagreements (1428/1430; 500/630 men) are stated. Arithmetic recomputed (196/93/91 years, 95 days, 28,800). Replaced the unsupported 'cites no sources / no substitute for textbooks' app sentence with the listing's companion-to-coursework wording; 'filter' changed to 'browse' to match the catalog. check.mjs clean (top similarity <= 0.015), preflight clean, body links and relatedArticles exist, no other article serves the same intent.",
+      "contentHash": "sha256:94d2774d4c8bc399a65dfd76f7f1f6fee1ea5002d8bf8f981b7384ae1fe07345"
+    },
+    {
+      "slug": "the-age-of-exploration",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia Age of Discovery wikitext (c.1418-1620, 1418 Henry, caravels from 1440, Cape Verde 1456, Gulf of Guinea 1460s, Romanus Pontifex 1455, Cabo das Tormentas renamed by John II, Ptolemy landlocked view, 1485/1488 rejections, Norse 500 years earlier, Inter caetera 4 May 1493 100 leagues, Tordesillas 370 leagues, Cabral 1500, 10 Aug 1519, ~237 men, 6 Sep 1522, 18 + 17 later incl. 12 captured, Pigafetta, Venice monopoly, 'have not become more expensive', 'perceived blow', O'Gorman, 1823 discovery doctrine, Age of Contact) and Mariners' Museum Dias/da Gama/Magellan pages (Henry 1419-1460 and 'did not really do much sailing', Aug 1487 three ships, 3 Feb 1488 Mossel Bay, 8 July 1497 four ships 170 men, 22 Nov, Malindi pilot, 20 May 1498, Calicut king unimpressed, 1502 Kilwa/Calicut, 20 Sep 1519 roughly 200 men, 27 April 1521, Ottoman high prices). Wikipedia/museum disagreements on departure date and crew are tabulated. Arithmetic recomputed (316 days, 7.6%, 9.0%). Corrected 'other European powers ignored the treaty' to Wikipedia's 'settlements by other European powers' (body and FAQ); replaced the unsupported app citation/disclaimer sentence with catalog wording (simulations not what happened; companion to coursework); 'filter' changed to 'browse'. check.mjs clean (top similarity <= 0.015), preflight clean, body links and relatedArticles exist, no other article serves the same intent.",
+      "contentHash": "sha256:7358c4b395cb0f47b561a6d0a0e5198e2a150c24870c5de6748c1ad7ebc74286"
+    },
+    {
+      "slug": "the-renaissance-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia Renaissance page text (15th-16th or 14th-17th c., 1350-1620 source, 1517/1527/1545 end markers, 1401 Baptistery doors, Dante 1265-1321, Giotto 1267-1337, 'much debated', Medici patronage and underway before Medici hegemony, Lorenzo 1449-1492, textiles, Florence nearly halved 1348, piety theory, 1396 Salutati/Chrysoloras, complex interaction, Latin then Greek phase names, Toledo School, Vasari rinascita 1550 rev. 1568, Michelet 1855, Burckhardt 1860, Huizinga, Panofsky 'by a thousand ties', Durer, van Eyck, Burgundian School, Charles VIII 1495) and SEP Pico entry (900 theses printed end 1486, conference 1487, speech never given or published, title not Pico's, Innocent VIII indicted 13, 'humanism' a 19th-century label, 'thoroughly medieval'). Dating disagreements are stated explicitly. Arithmetic recomputed (200/270/400 years, 305 years). Replaced the unsupported app 'not footnoted / disclaimer' sentence and aligned the Time Travel Mode line with the catalog limitation. check.mjs clean (top similarity <= 0.015), preflight clean, body links and relatedArticles exist, no other article serves the same intent.",
+      "contentHash": "sha256:a2f99ce19ade69a3b9cf858ce51a80cd0ba072b102dd913daf8a82110e8af2fc"
+    },
+    {
+      "slug": "the-protestant-reformation",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia Reformation page text (definition, 31 Oct 1517, Calvinist historians' 1516 Zwingli start, end 'even more disputed' 1555/1618/1648, St Peter's 1506, 1515 indulgence, Tetzel slogan, 'allegedly' and 'quite probable' note, letter to Albert, 'quarrel among friars', Cajetan Oct 1518, Exsurge Domine 15 June 1520 41 theses 60 days, excommunication 3 Jan 1521, abduction 4 May, four movements and plural 'Reformations', Zwingli quote and 1522 sausages, Cranmer/Knox, Lindberg quote, Defender of the Faith, May 1533 annulment, Act of Supremacy 1534 quote, 65 of about 400, Trent sessions, Firpo, Peace of Augsburg 25 Sept 1555 terms, 7-17 million deaths) and SEP Luther entry (legend vs 'merely sent them' to Albrecht, mystical reading, Disputation Against Scholastic Theology, doubtful 'here I stand', 'conscience is captive' quote). The Wikipedia/SEP disagreement on the nailing is presented as such. Arithmetic recomputed (16.25% shown as 16.3%; 38/101/131 years). Replaced the unsupported app citation/disclaimer sentence with companion-to-coursework wording. check.mjs clean (top similarity <= 0.015), preflight clean, body links and relatedArticles exist, no other article serves the same intent.",
+      "contentHash": "sha256:0a32ebc7847a7f368e985ed4e1de30aff9bfb1345a4b177440baac6491b6995f"
+    },
+    {
+      "slug": "the-thirty-years-war-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia Thirty Years' War wikitext (23 May 1618-24 Oct 1648, most destructive, Calvinism hostility, 300 estates in Diet, seven electors, Habsburgs since 1440, Styria within 18 months of 1595, defenestration all three survived, 1609 Julich footnote, 19/28 August 1619, White Mountain, Lubeck June 1629, Gustavus June 1630 nearly 18,000, Breitenfeld 1631, Lutzen 1632, Peace of Prague 1635 end of civil war, religion 'important factor' / 'external drivers' quotes, Louis XIII strongly Catholic, Barwalde 1631, Saxony and Lusatia, 4.5-8 million, 12-of-18 million 'no longer considered realistic', nationalist exaggeration, 3/12/64/4/5% causes, Augsburg 48,000-21,000 and Munich 22,000-17,000, emigration note, roughly 40% from 18-20m to 11-13m, Bygdea 215 of 230, General Crisis, talks 1642 with 109 delegations, 30 Jan 1648, Normaljahr 1624, Calvinism recognised, five million thalers, Innocent X, Westphalian sovereignty challenged, 1654 and 1659) and Avalon Project treaty text (closing date and both quotations verbatim). CORRECTED: 'signed on 24 October with Swedish troops about to take Prague' was not supported - the source says the Swedes seized Prague Castle and Mala Strana in July but failed to take the Old Town, and Ferdinand agreed terms after the defeat at Lens; rewritten accordingly. Softened 'historians round it to roughly 40%' to what the source says. Arithmetic recomputed (56.3%, 22.7%, 27.8-45%, 93.5%). Replaced the unsupported app citation/disclaimer sentence; 'region filters' changed to browsing to match the catalog. check.mjs clean (top similarity <= 0.015), preflight clean, body links and relatedArticles exist, no other article serves the same intent.",
+      "contentHash": "sha256:69f9947c50148b78284d598ead72f915e2782bb20b6ffb5ae9f6679e9e83b4c6"
+    },
+    {
+      "slug": "the-enlightenment-explained",
+      "verdict": "pass",
+      "performedBy": "ai-editorial-review",
+      "reviewedAt": "2026-10-25",
+      "checks": [
+        "sources-support-claims",
+        "app-claims-match-catalog",
+        "no-invented-numbers",
+        "rights-and-branding",
+        "cannibalisation",
+        "duplication",
+        "usefulness",
+        "links-and-metadata"
+      ],
+      "notes": "Verified against saved Wikipedia Age of Enlightenment page text (definition, Americas and Oceania, 1637/1687/1715 starts, 1789 and Kant's 1804 ends, sapere aude, institutions list, Encyclopedie 1751-1772 35 volumes 150 others, Dutch Enlightenment from 1640, Israel's moderate/radical lines, deistic, Berlin's Counter-Enlightenment, Thirty Years' War quote, Leviathan 1651, Locke consent and 'Life, Liberty, and Property', lawful-captive caveat, Haiti 1791 and refusal of support, Raynal, 'complex transcultural flows') and SEP Enlightenment entry ('not an historical period, but a process', scientific-revolution origin, 'no definite end', Kant 1784 definition quote, 'suspicion or hostility', philosophes, Scottish and German centres, consent/rights/toleration, three revolutions 1688/1775-83/1789-99, 'criticizing authorities' quote, rights of women and non-white people overlooked, Wollstonecraft 1792, further quotations). CORRECTED: the Terror line now quotes the SEP exactly ('the emptiness and hypocrisy of Enlightenment reason') instead of an unsupported paraphrase; slavery line (body and FAQ) now matches Wikipedia's 'common theme among most countries ... intentional non-inclusion' rather than 'commonly'. Arithmetic recomputed (74/117/167 years, 21 years). Replaced the unsupported app citation/disclaimer sentence with catalog wording. check.mjs clean (top similarity <= 0.015), preflight clean, body links and relatedArticles exist, no other article serves the same intent.",
+      "contentHash": "sha256:767ee5504e0f90359c127836f696ffd94a8ec43ce0d36792b660687b1f0ee796"
+    }
+  ]
+}

@@ -45,7 +45,9 @@
   ],
   "relatedArticles": [
     "android-video-player-guide",
-    "video-file-formats-explained"
+    "video-file-formats-explained",
+    "stop-apps-using-mobile-data",
+    "clear-app-cache-android"
   ],
   "takeaways": [
     "Video compression works almost entirely by prediction — storing what changed from a nearby frame rather than storing each frame — which is why a static shot compresses far better than falling confetti.",

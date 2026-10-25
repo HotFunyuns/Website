@@ -47,7 +47,8 @@
     "free-agency-explained",
     "salary-cap-basics-for-gm-games",
     "football-career-sim-guide",
-    "football-draft-gm-guide"
+    "football-draft-gm-guide",
+    "football-career-pro-league-partnership-opportunities"
   ],
   "takeaways": [
     "Choose the tag by what you can tolerate rival clubs doing: the non-exclusive tag invites offer sheets you can match or swap for two first-round picks, the exclusive tag closes the market, and the transition tag keeps only a right to match.",

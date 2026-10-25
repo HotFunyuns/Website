@@ -47,7 +47,8 @@
     "card-condition-grading-scales",
     "when-a-card-scanner-picks-the-wrong-card",
     "why-card-price-estimates-disagree",
-    "bulk-scanning-a-card-collection"
+    "bulk-scanning-a-card-collection",
+    "how-to-spot-fake-trading-cards"
   ],
   "takeaways": [
     "A centring ratio is a measurement of the photo, not of the card, so an off-axis capture produces a confident number that describes a distortion rather than a border.",

@@ -50,7 +50,8 @@
     "world-history-timeline-guide",
     "how-to-study-history-on-your-own",
     "primary-vs-secondary-sources",
-    "counterfactual-history-and-what-if-scenarios"
+    "counterfactual-history-and-what-if-scenarios",
+    "world-history-timeline-sim-partnership-opportunities"
   ],
   "takeaways": [
     "Decide what you need the app to do — structure, retention, or coursework coverage — because no single product is strong at all three.",

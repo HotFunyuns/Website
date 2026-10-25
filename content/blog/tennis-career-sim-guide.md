@@ -39,7 +39,8 @@
     "how-to-choose-a-sports-career-sim",
     "how-player-career-modes-work",
     "tennis-playing-styles",
-    "how-tennis-ranking-points-work"
+    "how-tennis-ranking-points-work",
+    "tennis-career-sim-partnership-opportunities"
   ],
   "takeaways": [
     "A tennis career sim gives you the decisions a player makes, not the racket swing: how to serve, return, defend and attack when a point is worth something.",

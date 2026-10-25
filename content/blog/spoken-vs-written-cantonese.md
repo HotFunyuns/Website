@@ -45,7 +45,9 @@
   "relatedArticles": [
     "learn-cantonese-beginners-guide",
     "cantonese-vs-mandarin-differences",
-    "cantonese-sentence-final-particles"
+    "cantonese-sentence-final-particles",
+    "cantonese-dim-sum-phrases",
+    "cantonese-measure-words"
   ],
   "takeaways": [
     "A Cantonese learner is dealing with three overlapping systems: spoken Cantonese, written Cantonese, and Standard Written Chinese read aloud with Cantonese pronunciations.",

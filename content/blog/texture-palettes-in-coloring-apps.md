@@ -48,7 +48,8 @@
     "color-theory-for-beginners",
     "digital-coloring-techniques",
     "fixing-fill-tool-mistakes-in-coloring-apps",
-    "anime-hair-colour-meanings"
+    "anime-hair-colour-meanings",
+    "anime-coloring-book-partnership-opportunities"
   ],
   "takeaways": [
     "A texture palette answers a different question from a colour palette: colour decides what hue a shape is, texture decides what the shape appears to be made of.",

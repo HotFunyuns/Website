@@ -37,7 +37,8 @@
     "batting-order-strategy-explained",
     "baseball-career-sim-guide",
     "two-way-players-explained",
-    "baseball-draft-gm-guide"
+    "baseball-draft-gm-guide",
+    "quality-start-baseball"
   ],
   "takeaways": [
     "Assume a hitter does better against opposite-handed pitching unless there is a large body of evidence otherwise; FanGraphs calls this a long-established research finding.",

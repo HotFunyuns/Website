@@ -48,7 +48,8 @@
     "language-learning-plateau",
     "shadowing-technique-explained",
     "spaced-repetition-for-language-learning",
-    "malay-reduplication-explained"
+    "malay-reduplication-explained",
+    "italian-plural-nouns"
   ],
   "takeaways": [
     "Comprehensible input means material you can mostly understand, with a small amount that is new — the difficulty level is the whole idea.",

@@ -49,7 +49,9 @@
   "relatedArticles": [
     "major-eras-of-world-history",
     "world-history-timeline-guide",
-    "why-rome-fell"
+    "why-rome-fell",
+    "feudalism-explained",
+    "ancient-egypt-timeline"
   ],
   "takeaways": [
     "Periodisation is the practice of dividing continuous time into named stretches so that change can be discussed; the periods are analytical tools that historians argue about, not features of the past waiting to be discovered.",

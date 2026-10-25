@@ -49,7 +49,9 @@
   "relatedArticles": [
     "major-eras-of-world-history",
     "how-historians-date-events",
-    "what-caused-the-bronze-age-collapse"
+    "what-caused-the-bronze-age-collapse",
+    "the-crusades-explained",
+    "causes-of-the-american-revolution"
   ],
   "takeaways": [
     "Agriculture was not invented once. A 2025 study in Scientific Reports works with independent centres including southwestern Mesoamerica, northwestern South America, Amazonian Bolivia, West and East Africa, the Fertile Crescent, the Indian subcontinent, the Yellow and Yangtze river basins, and the New Guinea highlands.",

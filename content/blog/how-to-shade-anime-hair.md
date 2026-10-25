@@ -40,7 +40,9 @@
     "digital-coloring-techniques",
     "color-palettes-for-anime-art",
     "line-art-and-flats-explained",
-    "anime-hair-colour-meanings"
+    "anime-hair-colour-meanings",
+    "how-to-color-anime-eyes",
+    "how-to-color-skin-tones-digitally"
   ],
   "takeaways": [
     "Anime hair shading is quantised, not blended: a small number of discrete tones with hard edges, which is the defining property of the cel-shaded look.",

@@ -41,7 +41,8 @@
     "russian-cases-explained-for-beginners",
     "how-long-does-it-take-to-learn-russian",
     "russian-word-order-and-emphasis",
-    "russian-cursive-handwriting-guide"
+    "russian-cursive-handwriting-guide",
+    "russian-personal-pronouns"
   ],
   "takeaways": [
     "Aspect is not tense. It answers whether an action is viewed as a bounded whole or as a process, and Russian makes you answer it every time you use a verb.",

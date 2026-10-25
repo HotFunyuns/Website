@@ -51,7 +51,9 @@
     "how-we-know-what-historical-figures-did",
     "the-silk-road-for-beginners",
     "how-historians-date-events",
-    "famous-explorers-in-history"
+    "famous-explorers-in-history",
+    "the-vikings-explained",
+    "the-ming-dynasty-explained"
   ],
   "takeaways": [
     "Seven Ming expeditions sailed between 1405 and 1433, reaching Southeast Asia, Sri Lanka, the Indian coast, the Persian Gulf, Arabia and the East African coast, under the command of the eunuch admiral Zheng He.",

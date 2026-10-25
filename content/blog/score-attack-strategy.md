@@ -46,7 +46,8 @@
     "space-shooter-arcade-guide",
     "boss-pattern-recognition",
     "difficulty-curves-explained",
-    "history-of-shoot-em-up-games"
+    "history-of-shoot-em-up-games",
+    "space-shooter-classic-arcade-partnership-opportunities"
   ],
   "takeaways": [
     "Surviving longer and scoring higher are usually different goals, and a game's scoring system decides how different.",

@@ -55,7 +55,9 @@
     "learn-cantonese-beginners-guide",
     "learn-khmer-beginners-guide",
     "learn-malay-beginners-guide",
-    "learn-thai-script-beginners-guide"
+    "learn-thai-script-beginners-guide",
+    "learn-cantonese-partnership-opportunities",
+    "cantonese-numbers"
   ],
   "takeaways": [
     "Before comparing features, check whether the platform actually offers your language — for the large apps that is a yes or no question and it settles most of the decision.",

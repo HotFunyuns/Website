@@ -48,7 +48,8 @@
     "malay-affixes-guide",
     "is-vietnamese-hard-to-learn",
     "should-i-learn-malay-or-indonesian",
-    "malay-reduplication-explained"
+    "malay-reduplication-explained",
+    "malay-numbers"
   ],
   "takeaways": [
     "Malay is unusually easy to start and ordinary to continue, which is why the reputation and the experience of learners diverge around month three.",

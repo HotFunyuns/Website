@@ -52,7 +52,8 @@
     "keto-macros-explained",
     "what-is-a-ketone-reading",
     "net-carbs-explained-keto-tracking",
-    "glycemic-index-and-load"
+    "glycemic-index-and-load",
+    "keto-diet-tracker-partnership-opportunities"
   ],
   "takeaways": [
     "\"Keto flu\" is an informal term for a cluster of symptoms some people report in the first days of a substantial carbohydrate reduction; it is not a formal medical diagnosis.",

@@ -48,7 +48,9 @@
     "basketball-positions-explained",
     "how-to-build-a-balanced-basketball-roster",
     "basketball-career-sim-guide",
-    "basketball-draft-gm-guide"
+    "basketball-draft-gm-guide",
+    "basketball-career-pro-league-partnership-opportunities",
+    "basketball-career-games-compared"
   ],
   "takeaways": [
     "Watch the screener's defender, not the ball: what that player does decides which read is open.",

@@ -40,7 +40,8 @@
     "how-rugby-scoring-works",
     "rugby-positions-and-numbers",
     "rugby-union-vs-rugby-league",
-    "rugby-forwards-and-backs"
+    "rugby-forwards-and-backs",
+    "rugby-draft-pro-league-partnership-opportunities"
   ],
   "takeaways": [
     "Follow the direction of the ball first: passing or knocking it forward is a routine offence in rugby union, and unless it is deliberate it only costs a scrum.",

@@ -17,7 +17,7 @@
   "longTailKeywords": ["what does squad depth mean in soccer", "why do soccer teams rotate players", "what is fixture congestion", "how many games in a week is too many soccer", "how to build squad depth"],
   "aiSearchQuestions": ["What does squad depth mean in soccer?", "Why do soccer teams rotate their players?", "What is fixture congestion?", "Does playing two matches a week increase injuries?", "How should a squad be built for depth?"],
   "relatedApps": ["soccer-draft-gm-xi", "soccer-career-sim-xi"],
-  "relatedArticles": ["rugby-squad-rotation-over-a-season", "injuries-in-sports-career-games", "style-fit-vs-rating-in-squad-building", "depth-charts-explained", "soccer-formations-explained"],
+  "relatedArticles": ["rugby-squad-rotation-over-a-season", "injuries-in-sports-career-games", "style-fit-vs-rating-in-squad-building", "depth-charts-explained", "soccer-formations-explained", "soccer-career-games-compared"],
   "takeaways": [
     "Measure depth by role coverage — who replaces each starter — rather than by how many good players the squad contains.",
     "Mark the congested stretches of a season in advance; three games in eight days is a definition researchers use.",

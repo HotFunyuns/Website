@@ -47,7 +47,9 @@
     "learn-malay-beginners-guide",
     "spaced-repetition-for-language-learning",
     "russian-cases-explained-for-beginners",
-    "should-i-learn-malay-or-indonesian"
+    "should-i-learn-malay-or-indonesian",
+    "malay-pronouns",
+    "malay-question-words"
   ],
   "takeaways": [
     "Malay and Indonesian are separately standardised varieties of the same historical language, and ISO 639-3 registers them under one macrolanguage with distinct codes of their own.",

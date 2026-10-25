@@ -53,7 +53,9 @@
     "android-app-permissions-explained",
     "why-free-android-games-show-ads",
     "how-to-track-protein-intake",
-    "battery-and-performance-in-mobile-games"
+    "battery-and-performance-in-mobile-games",
+    "google-play-refund-guide",
+    "how-to-update-apps-on-android"
   ],
   "takeaways": [
     "The Data safety section is a developer declaration of what an app collects and shares, required by Google Play policy.",

@@ -36,7 +36,8 @@
     "baseball-stats-explained-for-beginners",
     "baseball-career-sim-guide",
     "baseball-pitching-roles-explained",
-    "baseball-draft-gm-guide"
+    "baseball-draft-gm-guide",
+    "how-the-mlb-draft-works"
   ],
   "takeaways": [
     "To decide whether the batter can run, check first base and the outs: he can run if first is empty or if there are two out, and otherwise he is out.",

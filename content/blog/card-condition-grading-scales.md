@@ -40,7 +40,8 @@
     "how-to-measure-card-centring",
     "card-grading-costs-and-tiers",
     "reverse-holo-vs-holo",
-    "is-my-card-worth-grading"
+    "is-my-card-worth-grading",
+    "how-to-store-trading-cards"
   ],
   "takeaways": [
     "There are two separate systems in play: marketplace condition labels used by sellers, and numeric scales assigned by professional graders. They answer different questions and do not map cleanly onto each other.",

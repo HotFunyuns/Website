@@ -39,7 +39,8 @@
     "golf-course-management-basics",
     "club-distance-gapping",
     "golf-scoring-explained",
-    "golf-handicap-for-beginners"
+    "golf-handicap-for-beginners",
+    "links-vs-parkland-golf-courses"
   ],
   "takeaways": [
     "Record six things on every hole: score, fairway hit on par 4s and 5s, green in regulation, putts, whether you got up and down after missing the green, and penalty strokes.",

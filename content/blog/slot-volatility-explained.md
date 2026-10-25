@@ -50,7 +50,9 @@
   "relatedArticles": [
     "slot-reel-mechanics-explained",
     "social-casino-vs-real-money-gambling",
-    "understanding-sports-sim-probability"
+    "understanding-sports-sim-probability",
+    "progressive-jackpots-explained",
+    "big-jackpot-casino-slots-partnership-opportunities"
   ],
   "takeaways": [
     "Volatility describes the shape of a payout distribution, not its average. Two machines can be built to return the same fraction of what is staked and still deliver that return in completely different chunks.",

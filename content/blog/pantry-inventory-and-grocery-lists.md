@@ -40,7 +40,9 @@
     "cooking-from-what-is-in-the-pantry",
     "how-to-meal-plan-for-the-week",
     "batch-cooking-for-the-week",
-    "recipe-scaling-and-serving-sizes"
+    "recipe-scaling-and-serving-sizes",
+    "meal-planning-on-a-budget",
+    "meal-prep-food-safety"
   ],
   "takeaways": [
     "An inventory competes with the effort of maintaining it, so the correct scope is the smallest one that still answers 'do I already have this?' in a shop.",
