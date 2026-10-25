@@ -145,4 +145,6 @@ Plan, [review manifest](./article-review-manifest-400.md),
 
 ## Deployment
 
-Recorded below after the push and live verification.
+- Commit 2cdde88 (with afbec04) pushed to main on 2026-10-25; GitHub Pages deployed it.
+- `node scripts/verify-live.mjs --smoke` plus 11 new pages: 23 pages verified (200, self-canonical, og:url, JSON-LD, byline, sitemap/RSS membership); live sitemap 1,262 URLs; RSS 50 items; 0 unpublished articles leaking.
+- `npm run verify:search-console`: 14/14 checks pass live, including /favicon.ico (200, image), one-hop 301s for http and www, the AppAgg URL canonicalising to /, real 404s and no index.txt sidecars.
