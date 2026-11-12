@@ -16,8 +16,8 @@ count editorial links for articles. Click depth is the shortest path from the ho
 
 | Measure | Count |
 | --- | --- |
-| Exported HTML pages | 1264 |
-| Indexable pages (in the sitemap) | 1262 |
+| Exported HTML pages | 1265 |
+| Indexable pages (in the sitemap) | 1263 |
 | Articles | 1051 |
 | Editorial links (article prose + "Keep reading") | 19644 |
 | Broken internal links | 0 |
@@ -349,10 +349,10 @@ None.
 
 | Page | Type | App | Category / hubs | Inbound (all) | Inbound (editorial) | Outbound | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `/` | home |  |  | 1263 |  | 35 | 0 |
-| `/about/` | static |  |  | 1263 |  | 20 | 1 |
-| `/app-support/` | static |  |  | 1263 |  | 80 | 1 |
-| `/apps/` | apps-index |  |  | 1263 |  | 80 | 1 |
+| `/` | home |  |  | 1264 |  | 35 | 0 |
+| `/about/` | static |  |  | 1264 |  | 20 | 1 |
+| `/app-support/` | static |  |  | 1264 |  | 81 | 1 |
+| `/apps/` | apps-index |  |  | 1264 |  | 80 | 1 |
 | `/apps/anime-casino-slots/` | app |  |  | 14 |  | 29 | 2 |
 | `/apps/anime-coloring-book/` | app |  |  | 25 |  | 39 | 1 |
 | `/apps/anime-trivia-word-games/` | app |  |  | 22 |  | 37 | 2 |
@@ -364,13 +364,13 @@ None.
 | `/apps/block-world-rpg/` | app |  |  | 14 |  | 28 | 1 |
 | `/apps/boxing-prize-fighter-career/` | app |  |  | 15 |  | 29 | 2 |
 | `/apps/car-racing-pro-career/` | app |  |  | 23 |  | 37 | 2 |
-| `/apps/category/action-arcade/` | app-category |  |  | 1263 |  | 33 | 1 |
-| `/apps/category/anime-creative/` | app-category |  |  | 1263 |  | 33 | 1 |
-| `/apps/category/education-brain/` | app-category |  |  | 1263 |  | 30 | 1 |
-| `/apps/category/health-nutrition/` | app-category |  |  | 1263 |  | 30 | 1 |
-| `/apps/category/language-learning/` | app-category |  |  | 1263 |  | 36 | 1 |
-| `/apps/category/sports-gm/` | app-category |  |  | 1263 |  | 50 | 1 |
-| `/apps/category/video-utility/` | app-category |  |  | 1263 |  | 31 | 1 |
+| `/apps/category/action-arcade/` | app-category |  |  | 1264 |  | 33 | 1 |
+| `/apps/category/anime-creative/` | app-category |  |  | 1264 |  | 33 | 1 |
+| `/apps/category/education-brain/` | app-category |  |  | 1264 |  | 30 | 1 |
+| `/apps/category/health-nutrition/` | app-category |  |  | 1264 |  | 30 | 1 |
+| `/apps/category/language-learning/` | app-category |  |  | 1264 |  | 36 | 1 |
+| `/apps/category/sports-gm/` | app-category |  |  | 1264 |  | 50 | 1 |
+| `/apps/category/video-utility/` | app-category |  |  | 1264 |  | 31 | 1 |
 | `/apps/cricket-career-simulator/` | app |  |  | 38 |  | 51 | 1 |
 | `/apps/discrete-math-study-quiz/` | app |  |  | 77 |  | 31 | 1 |
 | `/apps/dragon-pet-evolve/` | app |  |  | 13 |  | 28 | 2 |
@@ -422,7 +422,7 @@ None.
 | `/apps/world-war-gunship-attack/` | app |  |  | 11 |  | 26 | 2 |
 | `/apps/zombie-survival-last-survivor/` | app |  |  | 24 |  | 39 | 2 |
 | `/authors/reign-creative-llc/` | author |  |  | 1053 |  | 45 | 2 |
-| `/blog/` | blog-index |  |  | 1263 |  | 107 | 1 |
+| `/blog/` | blog-index |  |  | 1264 |  | 107 | 1 |
 | `/blog/4-3-vs-3-4-defense/` | article | football-draft-gm-mode | sports-gm | 12 | 5 | 33 | 3 |
 | `/blog/4-7-8-breathing-explained/` | article | kawaii-breathe-relax | health-nutrition | 9 | 4 | 30 | 2 |
 | `/blog/a-daily-history-study-routine/` | article | world-history-timeline-sim | education-brain, history-learning-methods | 14 | 9 | 32 | 3 |
@@ -1571,11 +1571,12 @@ None.
 | `/blog/zombie-survival-last-survivor-partnership-opportunities/` | article | zombie-survival-last-survivor | action-arcade | 6 | 3 | 29 | 2 |
 | `/blog/zombie-survival-roguelike-guide/` | article | zombie-survival-last-survivor | action-arcade | 16 | 10 | 31 | 2 |
 | `/blog/zone-vs-man-defense-basketball/` | article | pro-basketball-my-career-sim | sports-gm | 8 | 1 | 33 | 2 |
-| `/editorial-policy/` | static |  |  | 1263 |  | 20 | 1 |
-| `/partnerships/` | static |  |  | 1263 |  | 80 | 1 |
-| `/press/` | static |  |  | 1263 |  | 80 | 1 |
-| `/privacy/` | static |  |  | 1263 |  | 19 | 1 |
-| `/sports/` | sports-index |  |  | 1263 |  | 98 | 1 |
+| `/editorial-policy/` | static |  |  | 1264 |  | 20 | 1 |
+| `/partnerships/` | static |  |  | 1264 |  | 80 | 1 |
+| `/press/` | static |  |  | 1264 |  | 80 | 1 |
+| `/privacy/` | static |  |  | 1264 |  | 20 | 1 |
+| `/privacy/baseball-pro-career-league/` | static |  |  | 2 |  | 20 | 2 |
+| `/sports/` | sports-index |  |  | 1264 |  | 98 | 1 |
 | `/sports/baseball/` | sport-hub |  |  | 46 |  | 72 | 2 |
 | `/sports/basketball/` | sport-hub |  |  | 47 |  | 78 | 2 |
 | `/sports/combat-sports/` | sport-hub |  |  | 41 |  | 63 | 2 |
@@ -1587,9 +1588,9 @@ None.
 | `/sports/rugby/` | sport-hub |  |  | 34 |  | 54 | 2 |
 | `/sports/soccer/` | sport-hub |  |  | 48 |  | 74 | 2 |
 | `/sports/tennis/` | sport-hub |  |  | 31 |  | 50 | 2 |
-| `/support/` | static |  |  | 1263 |  | 19 | 1 |
-| `/terms/` | static |  |  | 1263 |  | 19 | 1 |
-| `/tools/` | tools-index |  |  | 1263 |  | 48 | 1 |
+| `/support/` | static |  |  | 1264 |  | 19 | 1 |
+| `/terms/` | static |  |  | 1264 |  | 19 | 1 |
+| `/tools/` | tools-index |  |  | 1264 |  | 48 | 1 |
 | `/tools/baseball/batting-average-calculator/` | tool |  |  | 7 |  | 30 | 2 |
 | `/tools/baseball/era-calculator/` | tool |  |  | 5 |  | 29 | 2 |
 | `/tools/basketball/four-factors-calculator/` | tool |  |  | 4 |  | 30 | 2 |

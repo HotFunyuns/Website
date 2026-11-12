@@ -1,11 +1,16 @@
+import Breadcrumbs, { type Crumb } from './Breadcrumbs';
+
 interface PageHeaderProps {
   eyebrow: string;
   title: React.ReactNode;
   description?: string;
+  /** Optional trail shown above the eyebrow, as on the nested app and topic pages. */
+  breadcrumbs?: Crumb[];
   children?: React.ReactNode;
 }
 
-export default function PageHeader({ eyebrow, title, description, children }: PageHeaderProps) {
+export default function PageHeader({ eyebrow, title, description, breadcrumbs, children }: PageHeaderProps) {
+  const hasCrumbs = Boolean(breadcrumbs && breadcrumbs.length > 0);
   return (
     <section className="relative overflow-hidden bg-white pb-14 pt-32 sm:pt-40">
       <div className="hero-streaks opacity-60" aria-hidden="true" />
@@ -15,7 +20,8 @@ export default function PageHeader({ eyebrow, title, description, children }: Pa
       />
 
       <div className="container-wide relative mx-auto px-5 sm:px-8 lg:px-10">
-        <div className="hero-stagger max-w-3xl">
+        {hasCrumbs && breadcrumbs && <Breadcrumbs items={breadcrumbs} />}
+        <div className={hasCrumbs ? 'hero-stagger mt-10 max-w-3xl' : 'hero-stagger max-w-3xl'}>
           <p className="eyebrow">{eyebrow}</p>
           <h1 className="display-title mt-5 text-balance text-4xl leading-[1.1] sm:text-5xl">
             {title}

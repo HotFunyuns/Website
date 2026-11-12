@@ -2,6 +2,33 @@
 
 All notable changes to the Reign Creative LLC website are documented here.
 
+## [1.5.0] — 2026-11-11
+
+### App-specific privacy policy for Baseball Pro Career League
+
+Google Play rejected Baseball Pro Career League with "Invalid Privacy Policy — app or
+developer details don't match": the shared policy named neither the app nor the Google
+Play developer name.
+
+- **New page** `/privacy/baseball-pro-career-league/`, "Baseball Pro Career League —
+  Privacy Policy": names the app, the Google Play developer (Reign Collective Apps), the
+  business (Reign Creative LLC), the Android package and the privacy contact, in 15
+  sections written from an audit of the app's code and release configuration — Google
+  AdMob with Google's consent tools, Google Analytics for Firebase (on by default, in-app
+  opt-out), Firebase Remote Config, Google Play Billing, on-device saves, retention and
+  deletion, children, rights.
+- **General policy** `/privacy/` reorganised: identifies Reign Creative LLC and Reign
+  Collective Apps, indexes app-specific policies, summarises Baseball Pro Career League,
+  separates website analytics from in-app analytics, scopes the keto/diet disclosures to
+  the health apps, makes AdMob, Firebase, Play Billing and RevenueCat disclosures
+  conditional on the apps that use them, and drops the doubled brand from its title.
+- `/app-support/` lists the app-specific policies; both privacy pages are in the
+  sitemap, dated by their "Last updated" day.
+- **`npm run audit:privacy`** (`scripts/audit-privacy.mjs`, also run by `npm run build`):
+  checks the built policies for the app, developer and business names, package name,
+  contact link, required sections, every declared SDK, sitemap and index links; `--app
+  <repo>` also checks an app repository's in-app link and SDKs against the registry.
+
 ## [1.4.0] — 2026-10-02
 
 ### Sports expansion: 126 guides, nine sport hubs, 21 calculators, honest review labels

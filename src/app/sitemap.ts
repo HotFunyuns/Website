@@ -14,6 +14,7 @@ import {
   posts,
 } from '@/lib/blog';
 import { listingPath } from '@/components/blog/Pagination';
+import { appPrivacyPolicies, appPrivacyPolicyPath, generalPrivacyPolicyUpdated } from '@/data/privacy';
 import { sportPath } from '@/data/sports';
 import { toolPath, tools } from '@/tools/registry';
 import {
@@ -76,7 +77,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     { url: `${baseUrl}/editorial-policy/`, changeFrequency: 'yearly', priority: 0.4 },
     { url: `${baseUrl}/app-support/`, changeFrequency: 'monthly', priority: 0.5 },
-    { url: `${baseUrl}/privacy/`, changeFrequency: 'yearly', priority: 0.4 },
+    // Dated by the "Last updated" day each policy shows (src/data/privacy.ts).
+    {
+      url: `${baseUrl}/privacy/`,
+      lastModified: toDate(generalPrivacyPolicyUpdated),
+      changeFrequency: 'yearly',
+      priority: 0.4,
+    },
+    ...appPrivacyPolicies.map((policy) => ({
+      url: `${baseUrl}${appPrivacyPolicyPath(policy)}`,
+      lastModified: toDate(policy.updated),
+      changeFrequency: 'yearly' as const,
+      priority: 0.3,
+    })),
     { url: `${baseUrl}/terms/`, changeFrequency: 'yearly', priority: 0.4 },
   ];
 

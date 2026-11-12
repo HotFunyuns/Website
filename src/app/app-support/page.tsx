@@ -4,6 +4,7 @@ import PageHeader from '@/components/PageHeader';
 import PlayStoreLink from '@/components/PlayStoreLink';
 import Reveal from '@/components/Reveal';
 import { apps, companyInfo } from '@/data/apps';
+import { appPrivacyPolicies, appPrivacyPolicyPath } from '@/data/privacy';
 
 export const metadata: Metadata = {
   // Absolute because the template suffix would name the company twice.
@@ -186,6 +187,22 @@ export default function AppSupportPage() {
                   Contact Support
                 </Link>
               </div>
+              {appPrivacyPolicies.length > 0 && (
+                <div className="mt-7">
+                  <h3 className="mb-2 text-xs font-semibold uppercase tracking-[0.14em] text-ink-400">
+                    App-specific privacy policies
+                  </h3>
+                  <ul className="space-y-1.5 leading-relaxed text-ink-600">
+                    {appPrivacyPolicies.map((policy) => (
+                      <li key={policy.slug}>
+                        <Link href={appPrivacyPolicyPath(policy)} className="link-accent">
+                          {policy.appName} — Privacy Policy
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
           </Reveal>
         </div>

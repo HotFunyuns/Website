@@ -44,7 +44,8 @@ The static output is generated in the `out/` directory, ready to deploy to any s
 | Editorial Policy | `/editorial-policy/` | Topics, AI use, sourcing, dates, corrections, ownership disclosure |
 | Press | `/press/` | Verified company facts and the app catalogue |
 | Support | `/support/` | Contact form, support topics, contact info |
-| Privacy Policy | `/privacy/` | Privacy policy for apps and website |
+| Privacy Policy | `/privacy/` | Privacy policy for apps and website; indexes the app-specific policies |
+| App privacy policies | `/privacy/<slug>/` | One app's own policy (app, Play developer and business named; its SDKs disclosed), registered in `src/data/privacy.ts` and checked by `npm run audit:privacy` |
 | Terms of Service | `/terms/` | Terms for app users and site visitors |
 | Developer Info | `/app-support/` | Company details, app list, policies (for app store review) |
 
