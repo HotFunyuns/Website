@@ -239,7 +239,7 @@ export default function BaseballProCareerLeaguePrivacyPage() {
                 <ul className="ml-4 list-disc space-y-2">
                   <li>
                     No account is needed. There is no sign-up or sign-in, and the app never asks for your
-                    name, email address or phone number.
+                    real name, email address or phone number.
                   </li>
                   <li>Your saves, player names and settings are stored on your device, not on our servers.</li>
                   <li>
@@ -337,8 +337,9 @@ export default function BaseballProCareerLeaguePrivacyPage() {
 
                   <h3 className={h3Classes}>What the App does not ask for</h3>
                   <p>
-                    The App does not ask for your name, email address, phone number, postal address, contacts,
-                    photos, files or precise location, and it does not use your camera or microphone. Its Android
+                    The App does not ask for your real name, email address, phone number, postal address,
+                    contacts, photos, files or precise location, and it does not use your camera or microphone.
+                    The name you give your player is stored only on your device (Section 3). The App&apos;s Android
                     configuration blocks the location, camera, microphone and photo permissions.
                   </p>
 
@@ -530,8 +531,8 @@ export default function BaseballProCareerLeaguePrivacyPage() {
                     fix problems, balance gameplay and measure how ads and purchases perform. It is{' '}
                     <strong className={strong}>on by default</strong>, and you can turn it off at any time in{' '}
                     <strong className={strong}>Settings → Privacy → Opt out of analytics</strong>. Turning it off
-                    stops collection immediately and discards events that have not been sent yet. Your choice
-                    does not affect gameplay, saves or purchases.
+                    stops collection immediately, and events the App has not yet passed to Analytics are
+                    discarded. Your choice does not affect gameplay, saves or purchases.
                   </p>
                   <p className="mt-2">
                     According to Google, the Analytics SDK automatically collects an app-instance ID; the Android
