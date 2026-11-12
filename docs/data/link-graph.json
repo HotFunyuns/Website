@@ -8,10 +8,10 @@
   "editorialEdges": 19644,
   "brokenLinks": 0,
   "redirectingLinks": 0,
-  "orphans": 0,
+  "orphans": 1,
   "articlesWithoutEditorialInbound": 0,
   "articlesWithOneEditorialInbound": 38,
-  "deeperThanThree": 0,
+  "deeperThanThree": 1,
   "maxDepth": 3
  },
  "pages": [
@@ -25,7 +25,7 @@
     "editorial": 0,
     "body": 0,
     "related": 0,
-    "listing": 1257,
+    "listing": 1256,
     "global": 1264
    },
    "outbound": {
@@ -98,7 +98,7 @@
     "global": 1264
    },
    "outbound": {
-    "targets": 81,
+    "targets": 80,
     "body": 0,
     "related": 0
    },
@@ -76521,7 +76521,7 @@
     "global": 1264
    },
    "outbound": {
-    "targets": 20,
+    "targets": 19,
     "body": 0,
     "related": 0
    },
@@ -76539,13 +76539,13 @@
    "url": "/privacy/baseball-pro-career-league/",
    "type": "static",
    "indexable": true,
-   "depth": 2,
+   "depth": null,
    "inbound": {
-    "pages": 2,
+    "pages": 0,
     "editorial": 0,
     "body": 0,
     "related": 0,
-    "listing": 2,
+    "listing": 0,
     "global": 0
    },
    "outbound": {
@@ -76554,7 +76554,7 @@
     "related": 0
    },
    "anchors": [],
-   "orphan": false,
+   "orphan": true,
    "broken": [],
    "redirecting": []
   },

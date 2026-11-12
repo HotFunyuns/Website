@@ -2,6 +2,32 @@
 
 All notable changes to the Reign Creative LLC website are documented here.
 
+## [1.5.1] — 2026-11-12
+
+### Privacy policies rendered blank; one company-wide policy
+
+- **Fix: blank privacy policies.** Both policies were in the HTML in full but invisible:
+  each sat inside `Reveal`, whose IntersectionObserver waited for 12 % of the element to
+  be on screen — impossible for anything taller than about 7.7 viewports. In headless
+  Chrome the Baseball Pro Career League policy (12,088 px) was blank on desktop and
+  mobile, the general policy on phones and on 900 px-tall desktop windows, and the
+  `/app-support/` app list on phones. `Reveal` now reveals an element that can never
+  reach the threshold as soon as it enters the viewport (everything else is unchanged),
+  and both policies render without the animation.
+- **`/privacy/` is the company-wide policy** for every app published on Google Play as
+  Reign Collective Apps: "Google Play Developer: Reign Collective Apps" and "Business:
+  Reign Creative LLC" lead it. The "App-Specific Privacy Policies" and "Baseball Pro
+  Career League" sections are gone and the rest renumbered 1–12. Disclosures were
+  checked against the source of 59 of the 61 published apps: added Firebase Crashlytics,
+  camera/photo/microphone/file features (processed on the device), the weather feature
+  (rounded coordinates to Open-Meteo), online lookups (including Hugging Face model
+  downloads), local-only reminders; storage claims now say "most apps".
+- `/privacy/baseball-pro-career-league/` stays live for that app's Play listing, but is
+  no longer linked from `/privacy/` or `/app-support/`.
+- `npm run audit:privacy` now fails when a policy heading is inside a hidden or
+  reveal-on-scroll wrapper, when `/privacy/` lists or links app-specific policies,
+  when its sections are misnumbered, or when it stops naming a service an app uses.
+
 ## [1.5.0] — 2026-11-11
 
 ### App-specific privacy policy for Baseball Pro Career League

@@ -44,8 +44,8 @@ The static output is generated in the `out/` directory, ready to deploy to any s
 | Editorial Policy | `/editorial-policy/` | Topics, AI use, sourcing, dates, corrections, ownership disclosure |
 | Press | `/press/` | Verified company facts and the app catalogue |
 | Support | `/support/` | Contact form, support topics, contact info |
-| Privacy Policy | `/privacy/` | Privacy policy for apps and website; indexes the app-specific policies |
-| App privacy policies | `/privacy/<slug>/` | One app's own policy (app, Play developer and business named; its SDKs disclosed), registered in `src/data/privacy.ts` and checked by `npm run audit:privacy` |
+| Privacy Policy | `/privacy/` | The company-wide privacy policy for every app published as Reign Collective Apps, and for the website |
+| App privacy policy (exception) | `/privacy/<slug>/` | Only where a Google Play requirement calls for an app's own page (currently Baseball Pro Career League); not linked from the site, listed in the sitemap, registered in `src/data/privacy.ts` and checked by `npm run audit:privacy` |
 | Terms of Service | `/terms/` | Terms for app users and site visitors |
 | Developer Info | `/app-support/` | Company details, app list, policies (for app store review) |
 

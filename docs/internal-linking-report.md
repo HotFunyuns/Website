@@ -23,11 +23,11 @@ count editorial links for articles. Click depth is the shortest path from the ho
 | Broken internal links | 0 |
 | Links through a redirect or non-canonical form | 0 |
 | Articles linking unpublished or missing articles | 0 |
-| Orphan pages (no inbound link at all) | 0 |
+| Orphan pages (no inbound link at all) | 1 |
 | Articles with no editorial inbound link | 0 |
 | Articles with exactly one editorial inbound link | 38 |
 | Pages with exactly one inbound link of any kind | 2 |
-| Important pages more than three clicks from the homepage | 0 (deepest: 3) |
+| Important pages more than three clicks from the homepage | 1 (deepest: 3) |
 | Body anchors repeated 10+ times for one target | 145 |
 | Articles whose prose does not link their own app page | 0 |
 | Apps with no article | 0 |
@@ -54,7 +54,7 @@ None.
 
 No inbound link from any page.
 
-None.
+- `/privacy/baseball-pro-career-league/` (static)
 
 ## Articles with no editorial inbound link
 
@@ -110,7 +110,7 @@ None.
 
 ## Important pages more than three clicks from the homepage
 
-None.
+- `/privacy/baseball-pro-career-league/` — depth unreachable
 
 ## Anchor text
 
@@ -351,7 +351,7 @@ None.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `/` | home |  |  | 1264 |  | 35 | 0 |
 | `/about/` | static |  |  | 1264 |  | 20 | 1 |
-| `/app-support/` | static |  |  | 1264 |  | 81 | 1 |
+| `/app-support/` | static |  |  | 1264 |  | 80 | 1 |
 | `/apps/` | apps-index |  |  | 1264 |  | 80 | 1 |
 | `/apps/anime-casino-slots/` | app |  |  | 14 |  | 29 | 2 |
 | `/apps/anime-coloring-book/` | app |  |  | 25 |  | 39 | 1 |
@@ -1574,8 +1574,8 @@ None.
 | `/editorial-policy/` | static |  |  | 1264 |  | 20 | 1 |
 | `/partnerships/` | static |  |  | 1264 |  | 80 | 1 |
 | `/press/` | static |  |  | 1264 |  | 80 | 1 |
-| `/privacy/` | static |  |  | 1264 |  | 20 | 1 |
-| `/privacy/baseball-pro-career-league/` | static |  |  | 2 |  | 20 | 2 |
+| `/privacy/` | static |  |  | 1264 |  | 19 | 1 |
+| `/privacy/baseball-pro-career-league/` | static |  |  | 0 |  | 20 | — |
 | `/sports/` | sports-index |  |  | 1264 |  | 98 | 1 |
 | `/sports/baseball/` | sport-hub |  |  | 46 |  | 72 | 2 |
 | `/sports/basketball/` | sport-hub |  |  | 47 |  | 78 | 2 |

@@ -6,8 +6,14 @@
 // developer information and a privacy contact, the data collected and who it is
 // shared with, secure handling, retention and deletion, and clear labelling as a
 // privacy policy. This script checks those elements in the built HTML of the
-// general policy (/privacy/) and of every app-specific policy registered in
+// company-wide policy (/privacy/) and of every app-specific policy registered in
 // src/data/privacy.ts, so a later edit cannot silently drop one.
+//
+// It also checks that the policy text is VISIBLE, not merely present. On
+// 2026-11-12 both policies were in the HTML in full but rendered blank: each sat
+// inside a <Reveal> scroll animation (`.js .reveal { opacity: 0 }`) that never
+// fired for an element that tall. HTML-text checks and HTTP 200 both passed.
+// A policy heading inside a `.reveal`, `hidden` or `opacity:0` ancestor now fails.
 //
 //   node scripts/audit-privacy.mjs                 checks out/ (run `npm run build` first)
 //   node scripts/audit-privacy.mjs --app <repo>    also checks an app's own repository:
@@ -15,9 +21,9 @@
 //       its own page, no other policy URL is hard-coded, and the SDKs in its
 //       package.json are exactly the ones the policy discloses.
 //
-// It checks wording and structure, not truth: whether the app really behaves as
-// described is established by auditing the app (see the comment at the top of
-// each app policy page), and the Play Console Data safety form must agree.
+// It checks wording and structure, not truth: whether the apps really behave as
+// described is established by auditing their code, and each app's Play Console
+// Data safety form must agree.
 
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
@@ -29,6 +35,22 @@ const SITE = 'https://reigncreativellc.com';
 const BUSINESS = 'Reign Creative LLC';
 const DEVELOPER = 'Reign Collective Apps';
 const SUPPORT_EMAIL = 'ReignCreativeSupport@gmail.com';
+
+/**
+ * The services the company-wide policy must keep disclosing: each is shipped by at least one
+ * published app (portfolio audit of the apps' source, 2026-11-12). Remove one only when no app
+ * uses it any more; add one when an app starts to.
+ */
+const GENERAL_POLICY_SERVICES = [
+  'Google AdMob',
+  'Google Analytics for Firebase',
+  'Firebase Crashlytics',
+  'Firebase Remote Config',
+  'Google Play Billing',
+  'RevenueCat',
+  'Open-Meteo',
+  'Hugging Face',
+];
 
 const args = process.argv.slice(2);
 const appArg = args.indexOf('--app');
@@ -100,6 +122,40 @@ const textOf = (html) =>
     .trim();
 const inner = (html) => decode(html.replace(/<!--[\s\S]*?-->/g, '').replace(/<[^>]+>/g, '')).replace(/\s+/g, ' ').trim();
 
+const VOID = new Set(['area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'param', 'source', 'track', 'wbr']);
+
+/**
+ * Walks the element tree of `html` (React's output is well formed) and returns every <h2>
+ * whose ancestors would hide it before any script runs or forever: a `.reveal` wrapper
+ * (`.js .reveal` starts at opacity 0 and needs a scroll observer to show), the `hidden`
+ * attribute, or an inline `opacity:0` / `display:none` / `visibility:hidden` style.
+ */
+function hiddenHeadings(html) {
+  const stack = [];
+  const hidden = [];
+  const tag = /<(\/?)([a-zA-Z][a-zA-Z0-9-]*)((?:[^>"']|"[^"]*"|'[^']*')*?)(\/?)>/g;
+  const hides = (attrs) =>
+    /\bclass="[^"]*\breveal\b/.test(attrs) ||
+    /\shidden(?:[\s=>]|$)/.test(attrs) ||
+    /style="[^"]*(?:opacity:\s*0(?:[;"]|\.0*[;"])|display:\s*none|visibility:\s*hidden)/.test(attrs);
+  let m;
+  while ((m = tag.exec(html))) {
+    const [, closing, rawName, attrs, selfClosing] = m;
+    const name = rawName.toLowerCase();
+    if (closing) {
+      const at = stack.map((e) => e.name).lastIndexOf(name);
+      if (at >= 0) stack.length = at;
+      continue;
+    }
+    if (name === 'h2' && stack.some((e) => e.hides)) {
+      const end = html.indexOf('</h2>', tag.lastIndex);
+      hidden.push(inner(html.slice(tag.lastIndex, end)));
+    }
+    if (!selfClosing && !VOID.has(name)) stack.push({ name, hides: hides(attrs) });
+  }
+  return hidden;
+}
+
 function readPage(route) {
   const file = join(OUT, ...route.split('/').filter(Boolean), 'index.html');
   if (!existsSync(file)) return null;
@@ -108,6 +164,7 @@ function readPage(route) {
   // framework's script payloads repeat the page props.
   const main = /<main\b[^>]*>([\s\S]*)<\/main>/.exec(html)?.[1] ?? '';
   return {
+    main,
     text: textOf(main),
     title: inner(/<title>([\s\S]*?)<\/title>/.exec(html)?.[1] ?? ''),
     h1: inner(/<h1\b[^>]*>([\s\S]*?)<\/h1>/.exec(main)?.[1] ?? ''),
@@ -126,13 +183,33 @@ const formatDay = (day) =>
     day: 'numeric',
   });
 
+/** Numbered sections must run 1, 2, 3, … with no gaps or repeats. */
+function checkNumbering(where, h2s) {
+  const numbered = h2s.filter((h) => /^\d+\.\s/.test(h));
+  check(numbered.length > 0, `${where}: no numbered sections`);
+  numbered.forEach((heading, i) => {
+    check(heading.startsWith(`${i + 1}. `), `${where}: section "${heading}" is out of sequence (expected ${i + 1}.)`);
+  });
+  const titles = numbered.map((h) => h.replace(/^\d+\.\s*/, '').toLowerCase());
+  check(new Set(titles).size === titles.length, `${where}: a section title appears twice`);
+  return numbered;
+}
+
+function checkVisible(where, page) {
+  const hidden = hiddenHeadings(page.main);
+  check(
+    hidden.length === 0,
+    `${where}: ${hidden.length} section heading(s) are inside a hidden or reveal-on-scroll wrapper, e.g. "${hidden[0]}" — the policy would render blank`
+  );
+}
+
 /** A blanket "we collect nothing" claim, which no app with an SDK can make. */
 const NOTHING_COLLECTED = /\b(?:we|the app|it) (?:do|does) not collect any (?:personal )?(?:data|information)\b|\bcollects? no (?:personal )?(?:data|information)\b|\bno (?:personal )?(?:data|information) (?:is|are) collected\b/i;
 const HEALTH_TERMS = /\bketo\b|\bmacros?\b|\bmacro logs?\b|\bdiet (?:entries|tracking)\b|\bweight tracking\b/i;
 const HEALTH_APP = /keto|diet|protein|nutrition|health|fasting|calorie/i;
 
 /** The User Data policy's required topics, matched against an app policy's section headings. */
-const REQUIRED_TOPICS = [
+const APP_POLICY_TOPICS = [
   ['developer identification', /identification/i],
   ['information collected', /information collected/i],
   ['on-device storage', /storage/i],
@@ -146,11 +223,24 @@ const REQUIRED_TOPICS = [
   ['changes', /changes/i],
   ['contact', /contact/i],
 ];
+const GENERAL_POLICY_TOPICS = [
+  ['who we are and scope', /who we are/i],
+  ['information collected', /information we collect/i],
+  ['use of information', /how we use/i],
+  ['security', /security/i],
+  ['retention', /retention/i],
+  ['sharing', /sharing/i],
+  ['deletion and choices', /deletion/i],
+  ['children', /children/i],
+  ['rights', /rights/i],
+  ['changes', /changes/i],
+  ['contact', /contact/i],
+];
 
 const sitemap = existsSync(join(OUT, 'sitemap.xml')) ? readFileSync(join(OUT, 'sitemap.xml'), 'utf8') : '';
 check(sitemap.length > 0, 'out/sitemap.xml is missing');
 
-/* --------------------------------------------------------- general policy */
+/* -------------------------------------------------- company-wide policy */
 
 const general = readPage('/privacy/');
 if (check(general !== null, '/privacy/: page not found in out/')) {
@@ -158,30 +248,47 @@ if (check(general !== null, '/privacy/: page not found in out/')) {
   check(/Privacy Policy/.test(general.title), `${where}: <title> "${general.title}" does not say Privacy Policy`);
   check(/Privacy Policy/.test(general.h1), `${where}: H1 "${general.h1}" does not say Privacy Policy`);
   check(general.canonical === `${SITE}/privacy/`, `${where}: canonical is ${general.canonical}`);
-  check(general.text.includes(BUSINESS), `${where}: does not name the business "${BUSINESS}"`);
-  check(general.text.includes(DEVELOPER), `${where}: does not name the Google Play developer "${DEVELOPER}"`);
+  check(sitemap.includes(`<loc>${SITE}/privacy/</loc>`), `${where}: missing from sitemap.xml`);
+  checkVisible(where, general);
+
+  // Identification: the Google Play developer name and the business, each labelled for what it is.
+  check(
+    general.text.includes(`Google Play Developer ${DEVELOPER}`),
+    `${where}: does not identify "Google Play Developer: ${DEVELOPER}"`
+  );
+  check(general.text.includes(`Business ${BUSINESS}`), `${where}: does not identify "Business: ${BUSINESS}"`);
+  check(
+    general.text.includes(`published on Google Play under the developer name ${DEVELOPER}`),
+    `${where}: does not say the policy covers the apps published under the developer name ${DEVELOPER}`
+  );
   check(general.links.has(`mailto:${SUPPORT_EMAIL}`), `${where}: no mailto link to ${SUPPORT_EMAIL}`);
   check(
     general.text.includes(`Last Updated: ${formatDay(generalUpdated)}`),
     `${where}: does not show "Last Updated: ${formatDay(generalUpdated)}" (generalPrivacyPolicyUpdated)`
   );
+
+  const numbered = checkNumbering(where, general.h2);
+  for (const [topic, pattern] of GENERAL_POLICY_TOPICS) {
+    check(numbered.some((h) => pattern.test(h)), `${where}: no numbered section covering ${topic}`);
+  }
   check(general.h3.some((h) => /^Website Analytics/.test(h)), `${where}: no "Website Analytics" subsection`);
   check(general.h3.some((h) => /^Mobile App Analytics/.test(h)), `${where}: no "Mobile App Analytics" subsection`);
   check(
     general.h3.some((h) => /^Health and Nutrition Apps/.test(h)) && /This section applies to our health/.test(general.text),
     `${where}: health disclosures are not scoped to the health apps`
   );
-  for (const policy of policies) {
-    check(general.links.has(policy.path), `${where}: does not link ${policy.path}`);
-    check(general.text.includes(policy.appName), `${where}: does not name ${policy.appName}`);
+  for (const service of GENERAL_POLICY_SERVICES) {
+    check(general.text.includes(service), `${where}: no longer discloses ${service}, which a published app uses`);
   }
-  check(sitemap.includes(`<loc>${SITE}/privacy/</loc>`), `${where}: missing from sitemap.xml`);
-}
 
-const appSupport = readPage('/app-support/');
-if (check(appSupport !== null, '/app-support/: page not found in out/')) {
+  // One policy for the portfolio: no app-specific index, no app sections, no links to app pages.
+  check(
+    ![...general.h2, ...general.h3].some((h) => /app-specific/i.test(h)),
+    `${where}: has an "App-Specific" section — the company-wide policy does not list app policies`
+  );
   for (const policy of policies) {
-    check(appSupport.links.has(policy.path), `/app-support/: does not link ${policy.path}`);
+    check(!general.text.includes(policy.appName), `${where}: names ${policy.appName} — keep app-specific detail on its own page`);
+    check(!general.links.has(policy.path), `${where}: links the app-specific page ${policy.path}`);
   }
 }
 
@@ -197,6 +304,7 @@ for (const policy of policies) {
   check(page.h1 === expectedTitle, `${where}: H1 is "${page.h1}", expected "${expectedTitle}"`);
   check(page.canonical === `${SITE}${policy.path}`, `${where}: canonical is ${page.canonical}`);
   check(sitemap.includes(`<loc>${SITE}${policy.path}</loc>`), `${where}: missing from sitemap.xml`);
+  checkVisible(where, page);
 
   for (const [label, value] of [
     ['app name', policy.appName],
@@ -207,17 +315,14 @@ for (const policy of policies) {
     check(page.text.includes(value), `${where}: does not show the ${label} "${value}"`);
   }
   check(page.links.has(`mailto:${SUPPORT_EMAIL}`), `${where}: no mailto link to ${SUPPORT_EMAIL}`);
-  check(page.links.has('/privacy/'), `${where}: does not link back to the general policy /privacy/`);
+  check(page.links.has('/privacy/'), `${where}: does not link back to the company-wide policy /privacy/`);
   check(
     page.text.includes(`Last updated: ${formatDay(policy.updated)}`),
     `${where}: does not show "Last updated: ${formatDay(policy.updated)}" (updated in src/data/privacy.ts)`
   );
 
-  const numbered = page.h2.filter((h) => /^\d+\.\s/.test(h));
-  numbered.forEach((heading, i) => {
-    check(heading.startsWith(`${i + 1}. `), `${where}: section "${heading}" is out of sequence (expected ${i + 1}.)`);
-  });
-  for (const [topic, pattern] of REQUIRED_TOPICS) {
+  const numbered = checkNumbering(where, page.h2);
+  for (const [topic, pattern] of APP_POLICY_TOPICS) {
     check(numbered.some((h) => pattern.test(h)), `${where}: no numbered section covering ${topic}`);
   }
 
@@ -258,9 +363,7 @@ if (appRepo) {
   const identityFile = join(repo, 'app.identity.json');
   const appJsonFile = join(repo, 'app.json');
   const pkgFile = join(repo, 'package.json');
-  if (!check(existsSync(pkgFile), `--app ${repo}: no package.json`)) {
-    // nothing more to read
-  } else {
+  if (check(existsSync(pkgFile), `--app ${repo}: no package.json`)) {
     let identity = null;
     if (existsSync(identityFile)) identity = JSON.parse(readFileSync(identityFile, 'utf8'));
     else if (existsSync(appJsonFile)) {
@@ -313,7 +416,8 @@ if (appRepo) {
 
 /* -------------------------------------------------------------- reporting */
 
-console.log(`privacy: general policy + ${policies.length} app-specific polic${policies.length === 1 ? 'y' : 'ies'}, ${checks} checks`);
+console.log(`privacy: company-wide policy + ${policies.length} app-specific polic${policies.length === 1 ? 'y' : 'ies'}, ${checks} checks`);
+console.log(`  /privacy/  discloses ${GENERAL_POLICY_SERVICES.join(', ')}`);
 for (const policy of policies) console.log(`  ${policy.path}  ${policy.appName} — discloses ${policy.sdks.join(', ')}`);
 if (appSummary) console.log(`  app repo: ${appSummary}`);
 if (problems.length) {
@@ -321,4 +425,4 @@ if (problems.length) {
   for (const p of problems) console.log(`  ✗ ${p}`);
   process.exit(1);
 }
-console.log('privacy policies complete');
+console.log('privacy policies complete and visible');
